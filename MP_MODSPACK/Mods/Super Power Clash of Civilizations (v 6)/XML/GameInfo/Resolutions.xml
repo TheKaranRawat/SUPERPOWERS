@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/18/2014 8:52:36 PM -->
+<GameData>
+	<!-- ********************************Resoultion Buildings*************************************-->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_INTERNATIONAL_SPACE_STATION</Type>
+			<DefaultBuilding>BUILDING_INTERNATIONAL_SPACE_STATION</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_WORLD_TRADE_ORGANIZATION</Type>
+			<DefaultBuilding>BUILDING_WORLD_TRADE_ORGANIZATION_TRADEROUTE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION</Description>
+		</Row>
+	</BuildingClasses>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_INTERNATIONAL_SPACE_STATION</Type>
+			<BuildingClass>BUILDINGCLASS_INTERNATIONAL_SPACE_STATION</BuildingClass>
+			<Cost>-1</Cost>
+			<UnlockedByLeague>true</UnlockedByLeague>
+			<Description>TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION</Description>
+			<Quote>TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION_QUOTE</Quote>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_INTERNATIONAL_SPACE_STATION_TEXT</Civilopedia>
+			<Help>TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_INTERNATIONAL_SPACE_STATION</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<GreatScientistBeakerModifier>33</GreatScientistBeakerModifier>
+			<FreeBuildingThisCity>BUILDINGCLASS_SPACESHIP_FACTORY</FreeBuildingThisCity>
+			<GlobalSpaceProductionModifier>100</GlobalSpaceProductionModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<DisplayPosition>2</DisplayPosition>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>EXPANSION2_WONDER_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<WonderSplashImage>WonderConceptSpaceStation.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_INTERNATIONAL_SPACE_STATION</WonderSplashAudio>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_WORLD_TRADE_ORGANIZATION_TRADEROUTE</Type>
+			<BuildingClass>BUILDINGCLASS_WORLD_TRADE_ORGANIZATION</BuildingClass>
+			<Cost>-1</Cost>
+			<UnlockedByLeague>true</UnlockedByLeague>
+			<Description>TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</Description>
+			<Civilopedia>TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</Civilopedia>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_1_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>EXPANSION2_WONDER_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+		<Row>
+			<Type>BUILDING_WORLD_TRADE_ORGANIZATION_ADDING_VOTES</Type>
+			<BuildingClass>BUILDINGCLASS_WORLD_TRADE_ORGANIZATION</BuildingClass>
+			<Cost>-1</Cost>
+			<UnlockedByLeague>true</UnlockedByLeague>
+			<Description>TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</Description>
+			<Civilopedia>TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</Civilopedia>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_3_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>EXPANSION2_WONDER_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<ExtraLeagueVotes>5</ExtraLeagueVotes>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+	</Buildings>
+
+
+	<!-- ********************************Resoultion Tweaks*************************************-->
+	<LeagueSpecialSessions>
+		<Update>
+			<Set TurnsBetweenSessions="20" />
+			<Where Type="LEAGUE_SPECIAL_SESSION_START_WORLD_CONGRESS"/>
+		</Update>
+		<Update>
+			<Set TurnsBetweenSessions="15" />
+			<Where Type="LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES"/>
+		</Update>
+		<Update>
+			<Set TurnsBetweenSessions="10" CivDelegates="2" HostDelegates="1"/>
+			<Where Type="LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL"/>
+		</Update>
+		<Update>
+			<Set TurnsBetweenSessions="10" CivDelegates="3" CityStateDelegates="2" HostDelegates="1"/>
+			<Where Type="LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS"/>
+		</Update>
+		
+	</LeagueSpecialSessions>
+
+	<LeagueProjects>
+		<Update>
+			<Set CostPerPlayer="2400"/>
+			<Where Type="LEAGUE_PROJECT_INTERNATIONAL_SPACE_STATION"/>
+		</Update>
+		<Update>
+			<Set CostPerPlayer="1200" />
+			<Where Type="LEAGUE_PROJECT_WORLD_FAIR"/>
+		</Update>
+		<Update>
+			<Set CostPerPlayer="1800"/>
+			<Where Type="LEAGUE_PROJECT_WORLD_GAMES"/>
+		</Update>
+	</LeagueProjects>
+
+	<LeagueProjectRewards>
+		<Update>
+			<Set Happiness="10" />
+			<Where Type="LEAGUE_PROJECT_REWARD_WORLD_GAMES_1"/>
+		</Update>
+		<Update>
+			<Set FreeSocialPolicies="0" CityStateInfluenceBoost="45"/>
+			<Where Type="LEAGUE_PROJECT_REWARD_WORLD_GAMES_2"/>
+		</Update>
+		<Update>
+			<Set FreeSocialPolicies="0" TourismBonusTurns="12"/>
+			<Where Type="LEAGUE_PROJECT_REWARD_WORLD_GAMES_3"/>
+		</Update>
+		<Update>
+			<Set FreeSocialPolicies="0" CultureBonusTurns="12"/>
+			<Where Type="LEAGUE_PROJECT_REWARD_WORLD_FAIR_3"/>
+		</Update>
+	</LeagueProjectRewards>
+
+	<Resolutions>
+		<Update>
+			<Set TechPrereqAnyMember="TECH_URBANLIZATION"/>
+			<Where Type="RESOLUTION_WORLD_FAIR"/>
+		</Update>
+		<Update>
+			<Set TechPrereqAnyMember="TECH_MASS_MEDIA"/>
+			<Where Type="RESOLUTION_WORLD_GAMES"/>
+		</Update>
+		
+		<Update>
+			<Set LeadersVoteBonusOnFail="1"/>
+			<Where Type="RESOLUTION_DIPLOMATIC_VICTORY"/>
+		</Update>
+		<Update>
+			<Set VotesForFollowingIdeology="1"/>
+			<Where Type="RESOLUTION_WORLD_IDEOLOGY"/>
+		</Update>
+		<Update>
+			<Set OtherIdeologyRebellionMod="1"/>
+			<Where Type="RESOLUTION_WORLD_IDEOLOGY"/>
+		</Update>	
+		<Update>
+			<Set VotesForFollowingReligion="1"/>
+			<Where Type="RESOLUTION_WORLD_RELIGION"/>
+		</Update>
+		<Update>
+			<Set TechPrereqAnyMember="TECH_NUCLEAR_FISSION"/>
+			<Where Type="RESOLUTION_NUCLEAR_NON_PROLIFERATION"/>
+		</Update>
+
+		<Update>
+			<Set HolyCityTourism="100" ReligionSpreadStrengthMod="50" />
+			<Where Type="RESOLUTION_WORLD_RELIGION"/>
+		</Update>
+		
+	</Resolutions>
+
+
+
+
+
+
+	<!-- *********************************New Resoultions********************************************-->
+	<Resolutions>
+		<Row>
+			<Type>RESOLUTION_HOST_IMPEACHMENT</Type>
+			<Description>TXT_KEY_RESOLUTION_HOST_IMPEACHMENT</Description>
+			<Help>TXT_KEY_RESOLUTION_HOST_IMPEACHMENT_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<ChangeLeagueHost>true</ChangeLeagueHost>
+			<TechPrereqAnyMember>TECH_GLOBALIZATION</TechPrereqAnyMember>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_WORLD_TRADE_ORGANIZATION</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</Description>
+			<Help>TXT_KEY_RESOLUTION_WORLD_TRADE_ORGANIZATION_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<LeagueProjectEnabled>LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</LeagueProjectEnabled>
+		</Row>
+	</Resolutions>
+
+	
+	<LeagueProjects>
+		<Row>
+			<Type>LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION_SPLASH</Help>
+			<ProjectSplashImage>International_WorldsFair_939x614.dds</ProjectSplashImage>
+			<Process>PROCESS_WORLD_TRADE_ORGANIZATION</Process>
+			<CostPerPlayer>700</CostPerPlayer>
+			<RewardTier1>LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_1</RewardTier1>
+			<RewardTier2>LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_2</RewardTier2>
+			<RewardTier3>LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_3</RewardTier3>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+		</Row>
+	</LeagueProjects>
+	
+	
+	<LeagueProjectRewards>
+	<Row>
+		<Type>LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_1</Type>
+		<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_1</Description>
+		<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_1_HELP</Help>
+		<Building>BUILDING_WORLD_TRADE_ORGANIZATION_TRADEROUTE</Building>
+	</Row>
+	<Row>
+		<Type>LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_2</Type>
+		<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_2</Description>
+		<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_2_HELP</Help>
+		<FreeUnitClass>UNITCLASS_MERCHANT</FreeUnitClass>
+	</Row>
+	<Row>
+		<Type>LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_3</Type>
+		<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_3</Description>
+		<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_3_HELP</Help>
+		<Building>BUILDING_WORLD_TRADE_ORGANIZATION_ADDING_VOTES</Building>
+	</Row>
+	</LeagueProjectRewards>
+
+
+
+	<Processes>
+		<Row>
+			<Type>PROCESS_WORLD_TRADE_ORGANIZATION</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</Description>
+			<Help>TXT_KEY_RESOLUTION_WORLD_TRADE_ORGANIZATION_HELP</Help>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Processes>
+
+	<Process_Flavors>
+		<Row>
+			<ProcessType>PROCESS_WORLD_TRADE_ORGANIZATION</ProcessType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>150</Flavor>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_WORLD_TRADE_ORGANIZATION</ProcessType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>150</Flavor>
+		</Row>
+	</Process_Flavors>
+			<!-- *******************************New Resoultions Texts********************************************-->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_RESOLUTION_HOST_IMPEACHMENT">
+			<Text>League Host Change</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_HOST_IMPEACHMENT_HELP">
+			<Text>Vote to change the League Host. If passed, the next League Host will be the Civilization who has the most delegates.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION">
+			<Text>World Trade Organization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION_SPLASH">
+			<Text>Countries are connected through trade. With the development of the international trades, an organization is founded deals with the global rules of trade between nations. Trade between nations will boost global economy development and keep the world in peace.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_1">
+			<Text>Observer Member State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_1_HELP">
+			<Text>Gain an additional Trade Route slot.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_2">
+			<Text>Member State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_2_HELP">
+			<Text>One Great Merchant appears.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_3">
+			<Text>Host State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_3_HELP">
+			<Text>+5 additional Delegates in World Congress and United Nations.</Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_RESOLUTION_WORLD_TRADE_ORGANIZATION_HELP">
+			<Text>
+				Begins the World trade Organization project.  Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list.  When complete, Civilizations receive bonuses based on how much they contributed.
+				[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_3_HELP}
+				[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_2_HELP}
+				[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_1_HELP}
+			</Text>
+		</Row>
+		
+		
+		
+	</Language_en_US>
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+  
+</GameData>

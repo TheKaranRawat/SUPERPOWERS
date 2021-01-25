@@ -1,0 +1,2804 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/21/2014 10:28:24 AM -->
+<GameData>
+	<!--*****************************************Units Define*************************************-->
+
+
+	<!--Civ 5 CANNOT calculate the  aniamtion of units with new UnitCombatInfos!!!!!!!!!!-->
+
+	<!--UNITCOMBAT changes:
+
+	Archery-Anti-air -> UNITCOMBAT_SIEGE
+
+	Land Hit and Run -> UNITCOMBAT_HELICOPTER
+
+	Naval HitandRun -> UNITCOMBAT_SUBMARINE
+
+	Special Forces -> UNITCOMBAT_GUN
+
+	Infantry and Counter -> UNITCOMBAT_MELEE
+
+	Militia -> UNITCOMBAT_RECON
+
+	AOE Weapon -> UNITCOMBAT_BOMBER
+
+	Attack Aircraft and Bomber -> UNITCOMBAT_ARCHER-->
+
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SPARTAN300</Class>
+			<Type>UNIT_SPARTAN300</Type>
+			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+			<BaseSightRange>2</BaseSightRange>
+			<Combat>30</Combat>
+			<Cost>110</Cost>
+			<Moves>2</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SPARTAN300</Description>
+			<Civilopedia>TXT_KEY_UNIT_SPARTAN300_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SPARTAN300_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SPARTAN300</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>2</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_SPARTAN300</UnitArtInfo>
+			<UnitFlagIconOffset>26</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<ProjectPrereq>PROJECT_SPARTAN300_TRAINING</ProjectPrereq>
+			<ExtraMaintenanceCost>3</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_NUMIDIAN</Class>
+			<Type>UNIT_NUMIDIAN</Type>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<BaseSightRange>4</BaseSightRange>
+			<Combat>26</Combat>
+			<RangedCombat>24</RangedCombat>
+			<Range>1</Range>
+			<Cost>160</Cost>
+			<Moves>6</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_NUMIDIAN</Description>
+			<Civilopedia>TXT_KEY_UNIT_NUMIDIAN_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_NUMIDIAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_NUMIDIAN</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>2</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_NUMIDIAN</UnitArtInfo>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>22</UnitFlagIconOffset>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<ProjectPrereq>PROJECT_NUMIDIAN_TRAINING</ProjectPrereq>
+			<ExtraMaintenanceCost>6</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_LANDSKNECHT</Class>
+			<Type>UNIT_GERMAN_LANDSKNECHT</Type>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+			<BaseSightRange>2</BaseSightRange>
+			<Combat>28</Combat>
+			<Cost>40</Cost>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_GERMAN_LANDSKNECHT</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MEDIEVAL_LANDSKNECHT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GERMAN_LANDSKNECHT_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_LANDSKNECHT</Help>
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_BALLISTICS</ObsoleteTech>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>3</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_GERMAN_LANDSKNECHT</UnitArtInfo>
+			<UnitFlagIconOffset>33</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>34</PortraitIndex>
+			<ProjectPrereq>PROJECT_LANDSKNECHT_TRAINING</ProjectPrereq>
+			<ExtraMaintenanceCost>1</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_ELITE_RIDER</Class>
+			<Type>UNIT_ELITE_RIDER</Type>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<BaseSightRange>2</BaseSightRange>
+			<Combat>50</Combat>
+			<Cost>345</Cost>
+			<Moves>4</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ELITE_RIDER</Description>
+			<Civilopedia>TXT_KEY_UNIT_ELITE_RIDER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ELITE_RIDER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_ELITE_RIDER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
+			<XPValueAttack>4</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_ELITE_RIDER</UnitArtInfo>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>10</UnitFlagIconOffset>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<MoveRate>QUADRUPED</MoveRate>
+			<ProjectPrereq>PROJECT_RIDER_TRAINING</ProjectPrereq>
+			<ExtraMaintenanceCost>7</ExtraMaintenanceCost>
+		</Row>
+
+
+		<Row>
+			<Class>UNITCLASS_LONGBOWMAN</Class>
+			<Type>UNIT_ENGLISH_LONGBOWMAN</Type>
+			<PrereqTech>TECH_PHYSICS</PrereqTech>
+			<BaseSightRange>2</BaseSightRange>
+			<Combat>10</Combat>
+			<RangedCombat>35</RangedCombat>
+			<Cost>200</Cost>
+			<Moves>2</Moves>
+			<Range>2</Range>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ENGLISH_LONGBOWMAN</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MEDIEVAL_LONGBOWMAN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ENGLISH_LONGBOWMAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_LONGBOWMAN</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_GATLINGGUN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_ENGLISH_LONGBOWMAN</UnitArtInfo>
+			<UnitFlagIconOffset>30</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>31</PortraitIndex>
+			<ProjectPrereq>PROJECT_LONGBOWMAN_TRAINING</ProjectPrereq>
+			<ExtraMaintenanceCost>2</ExtraMaintenanceCost>
+		</Row>
+
+
+		<Row>
+			<Class>UNITCLASS_PROTOTYPE_HWACHA</Class>
+			<Type>UNIT_KOREAN_HWACHA</Type>
+			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
+			<BaseSightRange>1</BaseSightRange>
+			<Combat>10</Combat>
+			<RangedCombat>80</RangedCombat>
+			<Cost>455</Cost>
+			<Moves>1</Moves>
+			<Range>4</Range>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_CIV5_KOREA_HWACHA_HEADING</Description>
+			<Civilopedia>TXT_KEY_CIV5_KOREA_HWACHA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_CIV5_KOREA_HWACHA_STRATEGY</Strategy>
+			<Help>TXT_KEY_CIV5_KOREA_HWACHA_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_MILITARY_LOGISTICS</ObsoleteTech>
+			<AdvancedStartCost>25</AdvancedStartCost>
+			<XPValueAttack>5</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_KOREAN_HWACHA</UnitArtInfo>
+			<IconAtlas>SEJONG_UNIT_ATLAS</IconAtlas>
+			<UnitFlagAtlas>SEJONG_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<PortraitIndex>0</PortraitIndex>
+			<MoveRate>ARTILLERY</MoveRate>
+			<ProjectPrereq>PROJECT_PROTOTYPE_KOREAN_HWACHA</ProjectPrereq>
+			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
+		</Row>
+
+
+
+		<Row>
+			<Class>UNITCLASS_ZHENGHE_FLEET</Class>
+			<Type>UNIT_ZHENGHE_FLEET</Type>
+			<PrereqTech>TECH_ADMINISTRATION</PrereqTech>
+			<BaseSightRange>3</BaseSightRange>
+			<Combat>190</Combat>
+			<RangedCombat>150</RangedCombat>
+			<Cost>700</Cost>
+			<Moves>7</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<Range>3</Range>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ZHENGHE_FLEET</Description>
+			<Civilopedia>TXT_KEY_UNIT_ZHENGHE_FLEET_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ZHENGHE_FLEET_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_ZHENGHE_FLEET</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_SONAR</ObsoleteTech>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<MinAreaSize>14</MinAreaSize>
+			<XPValueAttack>5</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_ZHENGHE_FLEET</UnitArtInfo>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>37</UnitFlagIconOffset>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+			<BaseGold>1000</BaseGold>
+			<NumGoldPerEra>200</NumGoldPerEra>
+			<ProjectPrereq>PROJECT_ZHENGHE_FLEET</ProjectPrereq>
+			<ExtraMaintenanceCost>18</ExtraMaintenanceCost>
+		</Row>
+
+
+		<Row>
+			<Class>UNITCLASS_MUSKETEER</Class>
+			<Type>UNIT_DANISH_SKI_INFANTRY</Type>
+			<PrereqTech>TECH_METALLURGY</PrereqTech>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<BaseSightRange>3</BaseSightRange>
+			<Combat>50</Combat>
+			<Cost>180</Cost>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_DANISH_SKI_INFANTRY</Description>
+			<Civilopedia>TXT_KEY_CIV5_DENMARK_SKI_INFANTRY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_CIV5_DENMARK_SKI_INFANTRY_STRATEGY</Strategy>
+			<Help>TXT_KEY_CIV5_DENMARK_SKI_INFANTRY_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<ObsoleteTech>TECH_MOBILIZATION_T</ObsoleteTech>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>4</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_DANISH_SKI_INFANTRY</UnitArtInfo>
+			<IconAtlas>HARALD_UNIT_ATLAS</IconAtlas>
+			<UnitFlagAtlas>HARALD_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<PortraitIndex>1</PortraitIndex>
+			<ProjectPrereq>PROJECT_MUSKETEER_TRAINING</ProjectPrereq>
+			<ExtraMaintenanceCost>5</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_PROTOTYPE_SUBMARINE</Class>
+			<Type>UNIT_PROTOTYPE_SUBMARINE</Type>
+			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<BaseSightRange>5</BaseSightRange>
+			<Combat>60</Combat>
+			<RangedCombat>120</RangedCombat>
+			<Cost>500</Cost>
+			<Moves>10</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_PROTOTYPE_SUBMARINE</Description>
+			<Civilopedia>TXT_KEY_UNIT_PROTOTYPE_SUBMARINE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_PROTOTYPE_SUBMARINE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_PROTOTYPE_SUBMARINE</Help>
+			<ObsoleteTech>TECH_SONAR</ObsoleteTech>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<MinAreaSize>16</MinAreaSize>
+			<RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_PROTOTYPE_SUBMARINE</UnitArtInfo>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>21</UnitFlagIconOffset>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+			<MoveRate>SUB</MoveRate>
+			<ProjectPrereq>PROJECT_PROTOTYPE_SUBMARINE</ProjectPrereq>
+			<ExtraMaintenanceCost>12</ExtraMaintenanceCost>
+		</Row>
+
+
+		<Row>
+			<Class>UNITCLASS_LAND_IRONCLAD</Class>
+			<Type>UNIT_LAND_IRONCLAD</Type>
+			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
+			<HurryCostModifier>50</HurryCostModifier>
+			<BaseSightRange>2</BaseSightRange>
+			<Combat>70</Combat>
+			<Cost>400</Cost>
+			<Moves>5</Moves>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_LAND_IRONCLAD</Description>
+			<Civilopedia>TXT_KEY_UNIT_LAND_IRONCLAD_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_LAND_IRONCLAD_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_LAND_IRONCLAD_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>5</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMOKEY_LANDSHIP_LEVEL_1</UnitArtInfo>
+			<MoveRate>WHEELED</MoveRate>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<UnitFlagAtlas>EXPANSION_SCEN_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>EXPANSION_SCEN_UNIT_ATLAS</IconAtlas>
+			<ProjectPrereq>PROJECT_LAND_IRONCLAD</ProjectPrereq>
+			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_SUPER_HOWITZER</Class>
+			<Type>UNIT_SUPER_HOWITZER</Type>
+			<PrereqTech>TECH_DYNAMITE</PrereqTech>
+			<BaseSightRange>1</BaseSightRange>
+			<Combat>20</Combat>
+			<RangedCombat>90</RangedCombat>
+			<Cost>725</Cost>
+			<Moves>2</Moves>
+			<Range>4</Range>
+			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_CITY_BOMBARD</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SUPER_HOWITZER</Description>
+			<Civilopedia>TXT_KEY_UNIT_SUPER_HOWITZER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SUPER_HOWITZER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SUPER_HOWITZER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_LASERS</ObsoleteTech>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<XPValueAttack>8</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SUPER_HOWITZER</UnitArtInfo>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>5</UnitFlagIconOffset>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+			<MoveRate>ARTILLERY</MoveRate>
+			<ProjectPrereq>PROJECT_SUPER_HOWITZER</ProjectPrereq>
+			<ExtraMaintenanceCost>12</ExtraMaintenanceCost>
+		</Row>
+		
+		
+		<Row>
+			<Class>UNITCLASS_PROTOTYPE_AIRSHIP</Class>
+			<Type>UNIT_PROTOTYPE_AIRSHIP</Type>
+			<PrereqTech>TECH_PLASTIC</PrereqTech>
+			<BaseSightRange>4</BaseSightRange>
+			<Combat>120</Combat>
+			<RangedCombat>80</RangedCombat>
+			<Range>1</Range>
+			<Cost>725</Cost>
+			<Moves>7</Moves>
+			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_CARRIER_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_PROTOTYPE_AIRSHIP</Description>
+			<Civilopedia>TXT_KEY_UNIT_PROTOTYPE_AIRSHIP_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_PROTOTYPE_AIRSHIP_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_PROTOTYPE_AIRSHIP_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>false</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<XPValueAttack>8</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMOKEY_STEAM_AIRSHIP</UnitArtInfo>
+			<UnitFlagIconOffset>8</UnitFlagIconOffset>
+			<UnitFlagAtlas>EXPANSION_SCEN_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+			<ProjectPrereq>PROJECT_PROTOTYPE_AIRSHIP</ProjectPrereq>
+			<SpecialCargo>SPECIALUNIT_STEALTH</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<ExtraMaintenanceCost>12</ExtraMaintenanceCost>
+		</Row>
+
+
+		<Row>
+			<Class>UNITCLASS_ELITE_SNIPER</Class>
+			<Type>UNIT_ELITE_SNIPER</Type>
+			<PrereqTech>TECH_MOBILIZATION_T</PrereqTech>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<BaseSightRange>4</BaseSightRange>
+			<Combat>35</Combat>
+			<RangedCombat>75</RangedCombat>
+			<Cost>300</Cost>
+			<Moves>5</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ELITE_SNIPER</Description>
+			<Civilopedia>TXT_KEY_CIV5_ELITE_SNIPER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ELITE_SNIPER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_ELITE_SNIPER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<!--<ObsoleteTech>TECH_LASERS</ObsoleteTech>-->
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_ELITE_SNIPER</UnitArtInfo>
+			<UnitFlagIconOffset>54</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>17</PortraitIndex>
+			<ProjectPrereq>PROJECT_ELITE_SNIPER_TRAINING</ProjectPrereq>
+			<ExtraMaintenanceCost>5</ExtraMaintenanceCost>
+		</Row>
+		
+
+		<Row>
+			<Class>UNITCLASS_COSSACK_MILITIA</Class>
+			<Type>UNIT_RUSSIAN_COSSACK</Type>
+			<PrereqTech>TECH_MILITARY_LOGISTICS</PrereqTech>
+			<BaseSightRange>2</BaseSightRange>
+			<Combat>50</Combat>
+			<RangedCombat>50</RangedCombat>
+			<Cost>125</Cost>
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<Range>1</Range>
+			<Moves>5</Moves>
+			<CombatClass>UNITCOMBAT_RECON</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_RUSSIAN_COSSACK</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_COSSACK_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_RUSSIAN_COSSACK_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_COSSACK</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_MOBILE_TACTICS</ObsoleteTech>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<XPValueAttack>5</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_RUSSIAN_COSSACK</UnitArtInfo>
+			<UnitFlagIconOffset>49</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<MoveRate>QUADRUPED</MoveRate>
+			<ProjectPrereq>PROJECT_COSSACK_MILITIA</ProjectPrereq>
+			<ExtraMaintenanceCost>2</ExtraMaintenanceCost>
+		</Row>
+
+
+	
+		
+		
+
+		<Row>
+			<Class>UNITCLASS_SUPER_TANK</Class>
+			<Type>UNIT_SUPER_TANK</Type>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+			<BaseSightRange>3</BaseSightRange>
+			<Combat>250</Combat>
+			<RangedCombat>200</RangedCombat>
+			<Range>1</Range>
+			<Cost>1350</Cost>
+			<Moves>4</Moves>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SUPER_TANK</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_SUPER_TANK_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SUPER_TANK_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SUPER_TANK</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<XPValueAttack>7</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SUPER_TANK</UnitArtInfo>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>28</UnitFlagIconOffset>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+			<ProjectPrereq>PROJECT_SUPER_HEAVY_TANK</ProjectPrereq>
+			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
+		</Row>
+
+
+
+		<Row>
+			<Class>UNITCLASS_ELITE_BATTLECRUISER</Class>
+			<Type>UNIT_ELITE_BATTLECRUISER</Type>
+			<PrereqTech>TECH_SONAR</PrereqTech>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<BaseSightRange>3</BaseSightRange>
+			<Combat>380</Combat>
+			<RangedCombat>280</RangedCombat>
+			<Cost>2000</Cost>
+			<Moves>9</Moves>
+			<Range>4</Range>
+			<AirInterceptRange>3</AirInterceptRange>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ELITE_BATTLECRUISER</Description>
+			<Civilopedia>TXT_KEY_CIV5_ELITE_BATTLECRUISER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ELITE_BATTLECRUISER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_ELITE_BATTLECRUISER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<MinAreaSize>16</MinAreaSize>
+			<XPValueAttack>8</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_ELITE_BATTLECRUISER</UnitArtInfo>
+			<UnitFlagIconOffset>69</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>14</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+			<ProjectPrereq>PROJECT_ELITE_BATTLECRUISER</ProjectPrereq>
+			<ExtraMaintenanceCost>30</ExtraMaintenanceCost>
+		</Row>
+
+
+		<Row>
+			<Class>UNITCLASS_SUPER_BATTLESHIP</Class>
+			<Type>UNIT_SUPER_BATTLESHIP</Type>
+			<PrereqTech>TECH_LARGE_CALIBRE</PrereqTech>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<BaseSightRange>4</BaseSightRange>
+			<Combat>460</Combat>
+			<RangedCombat>460</RangedCombat>
+			<Cost>2800</Cost>
+			<Moves>8</Moves>
+			<Range>5</Range>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SUPER_BATTLESHIP</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_SUPER_BATTLESHIP_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SUPER_BATTLESHIP_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SUPER_BATTLESHIP</Help>	
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<MinAreaSize>16</MinAreaSize>
+			<XPValueAttack>8</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SUPER_BATTLESHIP</UnitArtInfo>
+			<UnitFlagIconOffset>38</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+			<ProjectPrereq>PROJECT_SUPER_BATTLESHIP</ProjectPrereq>
+			<ExtraMaintenanceCost>50</ExtraMaintenanceCost>
+		</Row>
+
+		
+		<Row>
+			<Class>UNITCLASS_PROTOTYPE_BOMBER</Class>
+			<Type>UNIT_PROTOTYPE_BOMBER</Type>
+			<PrereqTech>TECH_ATOMIC_THEORY</PrereqTech>
+			<RangedCombat>240</RangedCombat>
+			<Cost>2600</Cost>
+			<Moves>2</Moves>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<Immobile>true</Immobile>
+			<Range>50</Range>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_PROTOTYPE_BOMBER</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MODERN_STEALTHBOMBER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_PROTOTYPE_BOMBER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_PROTOTYPE_BOMBER</Help>
+			<ObsoleteTech>TECH_STEALTH</ObsoleteTech>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>9</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_PROTOTYPE_BOMBER</UnitArtInfo>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>13</UnitFlagIconOffset>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ProjectPrereq>PROJECT_PROTOTYPE_STEALTH_BOMBER</ProjectPrereq>
+			<ExtraMaintenanceCost>50</ExtraMaintenanceCost>
+		</Row>
+
+
+
+		<Row>
+			<Class>UNITCLASS_TSAR_BOMBA</Class>
+			<Type>UNIT_TSAR_BOMBA</Type>
+			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
+			<Cost>3000</Cost>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<Range>18</Range>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ICBM</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_TSAR_BOMBA</Description>
+			<Civilopedia>TXT_KEY_UNIT_TSAR_BOMBA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_NUCLEAR_WEAPONS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_TSAR_BOMBA</Help>
+			<ProjectPrereq>PROJECT_TSAR_BOMBA_BOMB</ProjectPrereq>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<Suicide>true</Suicide>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<NukeDamageLevel>3</NukeDamageLevel>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_ATOMIC_BOMB</UnitArtInfo>
+			<UnitFlagIconOffset>80</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>26</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>70</ExtraMaintenanceCost>
+		</Row>
+
+
+		<Row>
+			<Class>UNITCLASS_NUCLEAR_ARTILLERY</Class>
+			<Type>UNIT_NUCLEAR_ARTILLERY</Type>
+			<PrereqTech>TECH_INTEGRATED_CIRCUIT</PrereqTech>
+			<BaseSightRange>1</BaseSightRange>
+			<Combat>30</Combat>
+			<RangedCombat>500</RangedCombat>
+			<Cost>1600</Cost>
+			<Moves>2</Moves>
+			<Range>6</Range>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_NUCLEAR_ARTILLERY</Description>
+			<Civilopedia>TXT_KEY_UNIT_NUCLEAR_ARTILLERY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AOE_WEAPONS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_SPLASH_DAMAGE_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>100</AdvancedStartCost>
+			<XPValueAttack>9</XPValueAttack>
+			<XPValueDefense>9</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_RAILROAD_GUN</UnitArtInfo>
+			<UnitFlagIconOffset>81</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>25</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+			<ExtraMaintenanceCost>36</ExtraMaintenanceCost>
+			<ProjectPrereq>PROJECT_NUCLEAR_ARTILLERY</ProjectPrereq>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_BAZOOKA</Class>
+			<Type>UNIT_BAZOOKA</Type>
+			<PrereqTech>TECH_ROCKETRY</PrereqTech>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<BaseSightRange>1</BaseSightRange>
+			<Combat>25</Combat>
+			<RangedCombat>40</RangedCombat>
+			<Cost>900</Cost>
+			<Moves>2</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_BAZOOKA</Description>
+			<Civilopedia>TXT_KEY_CIV5_BAZOOKA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_BAZOOKA_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_BAZOOKA</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>false</Pillage>
+			<Suicide>true</Suicide>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_BAZOOKA_INFANTRY</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION2_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<ProjectPrereq>PROJECT_BAZOOKA_TRAINING</ProjectPrereq>
+			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
+		</Row>
+
+
+
+		<Row>
+			<Class>UNITCLASS_SR71_BLACKBIRD</Class>
+			<Type>UNIT_SR71_BLACKBIRD</Type>
+			<PrereqTech>TECH_ARMOR</PrereqTech>
+			<Cost>1200</Cost>
+			<Moves>3</Moves>
+			<Immobile>true</Immobile>
+			<Range>20</Range>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SR71_BLACKBIRD</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_SR71_BLACKBIRD_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SR71_BLACKBIRD_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_SR71_BLACKBIRD</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>35</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>5</Conscription>
+			<AirUnitCap>1</AirUnitCap>
+			<UnitArtInfo>ART_DEF_UNIT_SR71_BLACKBIRD</UnitArtInfo>
+			<UnitFlagIconOffset>100</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>48</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
+			<ProjectPrereq>PROJECT_SR71_BLACKBIRD</ProjectPrereq>
+			<HurryCostModifier>-1</HurryCostModifier>
+		</Row>
+
+
+
+		<Row>
+			<Class>UNITCLASS_CRUSADER_ARTILLERY</Class>
+			<Type>UNIT_CRUSADER_ARTILLERY</Type>
+			<PrereqTech>TECH_LASERS</PrereqTech>
+			<BaseSightRange>2</BaseSightRange>
+			<Combat>180</Combat>
+			<RangedCombat>200</RangedCombat>
+			<Cost>1200</Cost>
+			<Moves>6</Moves>
+			<Range>3</Range>
+			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_CITY_BOMBARD</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_CRUSADER_ARTILLERY</Description>
+			<Strategy>TXT_KEY_UNIT_CRUSADER_ARTILLERY_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_UNIT_CRUSADER_ARTILLERY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_UNIT_CRUSADER_ARTILLERY_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<AdvancedStartCost>90</AdvancedStartCost>
+			<XPValueAttack>9</XPValueAttack>
+			<XPValueDefense>5</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_CRUSADER_ARTILLERY</UnitArtInfo>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>35</UnitFlagIconOffset>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+			<ProjectPrereq>PROJECT_CRUSADER_ARTILLERY</ProjectPrereq>
+			<ExtraMaintenanceCost>18</ExtraMaintenanceCost>
+			<HurryCostModifier>-1</HurryCostModifier>
+		</Row>
+
+
+		<Row>
+			<Class>UNITCLASS_UNDERWATER_CARRIER</Class>
+			<Type>UNIT_UNDERWATER_CARRIER</Type>
+			<PrereqTech>TECH_ROBOTICS</PrereqTech>
+			<BaseSightRange>4</BaseSightRange>
+			<Combat>320</Combat>
+			<RangedCombat>300</RangedCombat>
+			<Cost>3800</Cost>
+			<Moves>12</Moves>
+			<Range>2</Range>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_UNDERWATER_CARRIER</Description>
+			<Civilopedia>TXT_KEY_UNIT_UNDERWATER_CARRIER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_UNDERWATER_CARRIER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_UNDERWATER_CARRIER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>9</XPValueAttack>
+			<XPValueDefense>9</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_STEALTH</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_UNDERWATER_CARRIER</UnitArtInfo>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>15</UnitFlagIconOffset>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
+			<MoveRate>SUB</MoveRate>
+			<RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
+			<ProjectPrereq>PROJECT_UNDERWATER_CARRIER</ProjectPrereq>
+			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_TASKFORCE_141</Class>
+			<Type>UNIT_TASKFORCE_141</Type>
+			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
+			<Combat>80</Combat>
+			<Cost>1000</Cost>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_TASKFORCE_141</Description>
+			<Civilopedia>TXT_KEY_UNIT_TASKFORCE_141_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_TASKFORCE_141_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_TASKFORCE_141</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_TASKFORCE_141</UnitArtInfo>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>31</UnitFlagIconOffset>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>12</PortraitIndex>
+			<ProjectPrereq>PROJECT_TASKFORCE141</ProjectPrereq>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
+		</Row>
+
+
+
+
+
+
+		<Row>
+			<Class>UNITCLASS_CHINESE_WEISHI</Class>
+			<Type>UNIT_CHINESE_WEISHI</Type>
+			<PrereqTech>TECH_BVR_COMBAT</PrereqTech>
+			<BaseSightRange>2</BaseSightRange>
+			<Combat>40</Combat>
+			<RangedCombat>400</RangedCombat>
+			<Cost>1800</Cost>
+			<Moves>4</Moves>
+			<Range>8</Range>
+			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_CHINESE_WEISHI</Description>
+			<Civilopedia>TXT_KEY_UNIT_CHINESE_WEISHI_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_CHINESE_WEISHI_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_CHINESE_WEISHI</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>120</AdvancedStartCost>
+			<XPValueAttack>9</XPValueAttack>
+			<XPValueDefense>9</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_ROCKET_ARTILLERY</UnitArtInfo>
+			<UnitFlagIconOffset>59</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
+			<PortraitIndex>50</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<ProjectPrereq>PROJECT_WEISHI_ROCKETS</ProjectPrereq>
+			<ExtraMaintenanceCost>42</ExtraMaintenanceCost>
+			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+		</Row>
+
+
+		<Row>
+			<Class>UNITCLASS_PAKFA_T50</Class>
+			<Type>UNIT_PAKFA_T50</Type>
+			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
+			<RangedCombat>300</RangedCombat>
+			<Cost>2000</Cost>
+			<Moves>3</Moves>
+			<Immobile>true</Immobile>
+			<Range>25</Range>
+			<AirInterceptRange>25</AirInterceptRange>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_PAKFA_T50</Description>
+			<Civilopedia>TXT_KEY_UNIT_PAKFA_T50_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_PAKFA_T50_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_PAKFA_T50</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>100</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>2</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_PAKFA_T50</UnitArtInfo>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>29</UnitFlagIconOffset>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>13</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ProjectPrereq>PROJECT_PAK_FA</ProjectPrereq>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<ExtraMaintenanceCost>30</ExtraMaintenanceCost>
+		</Row>
+
+
+		
+		
+		
+
+		<Row>
+			<Class>UNITCLASS_MECH</Class>
+			<Type>UNIT_MECH</Type>
+			<PrereqTech>TECH_TRANSHUMANISM</PrereqTech>
+			<Combat>700</Combat>
+			<RangedCombat>600</RangedCombat>
+			<Range>2</Range>
+			<Cost>4600</Cost>
+			<Moves>6</Moves>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_MECH</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MODERN_MECH_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_MECH_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_MECH</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>120</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SPMECH</UnitArtInfo>
+			<UnitFlagIconOffset>83</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>36</PortraitIndex>
+			<MoveRate>ROBOT</MoveRate>
+			<ProjectPrereq>PROJECT_ADV_MECH</ProjectPrereq>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
+		</Row>
+
+
+		<Row>
+			<Class>UNITCLASS_HACKER</Class>
+			<Type>UNIT_HACKER</Type>
+			<Cost>2000</Cost>
+			<Moves>2</Moves>
+			<PrereqTech>TECH_IOT_NETWORK</PrereqTech>
+			<BaseSightRange>1</BaseSightRange>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_MUSICIAN</DefaultUnitAI>
+			<NoMaintenance>true</NoMaintenance>
+			<Description>TXT_KEY_UNIT_HACKER</Description>
+			<Civilopedia>TXT_KEY_UNIT_HACKER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_HACKER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_HACKER</Help>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<CombatLimit>0</CombatLimit>
+			<UnitArtInfo>ART_DEF_UNIT__WORKER</UnitArtInfo>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<UnitFlagIconOffset>11</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
+			<PortraitIndex>26</PortraitIndex>
+			<ProjectPrereq>PROJECT_HACKER_ATTACK</ProjectPrereq>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<ExtraMaintenanceCost>25</ExtraMaintenanceCost>
+		</Row>
+
+
+		<Row>
+			<Class>UNITCLASS_STEALTH_HELICOPTER</Class>
+			<Type>UNIT_STEALTH_HELICOPTER</Type>
+			<PrereqTech>TECH_STEALTH</PrereqTech>
+			<BaseSightRange>5</BaseSightRange>
+			<Combat>130</Combat>
+			<RangedCombat>110</RangedCombat>
+			<Cost>1200</Cost>
+			<Moves>12</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_STEALTH_HELICOPTER</Description>
+			<Civilopedia>TXT_KEY_UNIT_STEALTH_HELICOPTER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_STEALTH_HELICOPTER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_STEALTH_HELICOPTER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>120</AdvancedStartCost>
+			<XPValueAttack>9</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_STEALTH_HELICOPTER</UnitArtInfo>
+			<UnitFlagIconOffset>27</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>15</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+			<ProjectPrereq>PROJECT_STEALTH_HELICOPTER</ProjectPrereq>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<ExtraMaintenanceCost>24</ExtraMaintenanceCost>
+		</Row>
+
+
+		<Row>
+			<Class>UNITCLASS_PARTICLE_CANNON</Class>
+			<Type>UNIT_PARTICLE_CANNON</Type>
+			<PrereqTech>TECH_PARTICLE_PHYSICS</PrereqTech>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<BaseSightRange>3</BaseSightRange>
+			<Combat>180</Combat>
+			<RangedCombat>220</RangedCombat>
+			<Cost>3800</Cost>
+			<Moves>9</Moves>
+			<Range>5</Range>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_PARTICLE_CANNON</Description>
+			<Civilopedia>TXT_KEY_CIV5_PARTICLE_CANNON_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_PARTICLE_CANNON_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_PARTICLE_CANNON</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<MinAreaSize>16</MinAreaSize>
+			<XPValueAttack>8</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_MISSILE_CRUISER</UnitArtInfo>
+			<UnitFlagIconOffset>70</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>18</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+			<ProjectPrereq>PROJECT_PARTICLE_CANNON</ProjectPrereq>
+			<ExtraMaintenanceCost>70</ExtraMaintenanceCost>
+		</Row>
+		
+
+
+		<Row>
+			<Class>UNITCLASS_ORBITAL_STRIKE</Class>
+			<Type>UNIT_ORBITAL_STRIKE</Type>
+			<PrereqTech>TECH_INTEGRATED_DEFENSE</PrereqTech>
+			<Cost>-1</Cost>
+			<Moves>1</Moves>
+			<Immobile>true</Immobile>
+			<Range>4</Range>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_MISSILE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ORBITAL_STRIKE</Description>
+			<!--<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_ORBITAL_STRIKE_TEXT</Civilopedia>-->
+			<Strategy>TXT_KEY_UNIT_ORBITAL_STRIKE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_ORBITAL_STRIKE</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>40</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_GUIDED_MISSILE</UnitArtInfo>
+			<UnitFlagIconOffset>24</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<ExtraMaintenanceCost>80</ExtraMaintenanceCost>
+			<ShowInPedia>false</ShowInPedia>
+		</Row>
+	
+ 
+	</Units>
+
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SPARTAN300</UnitType>
+			<PromotionType>PROMOTION_INFANTRY_COMBAT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPARTAN300</UnitType>
+			<PromotionType>PROMOTION_ELITE_DEFENSE</PromotionType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_NUMIDIAN</UnitType>
+			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUMIDIAN</UnitType>
+			<PromotionType>PROMOTION_NUMIDIAN_MARCH</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUMIDIAN</UnitType>
+			<PromotionType>PROMOTION_SCOUTING_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUMIDIAN</UnitType>
+			<PromotionType>PROMOTION_SCOUTING_2</PromotionType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_GERMAN_LANDSKNECHT</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GERMAN_LANDSKNECHT</UnitType>
+			<PromotionType>PROMOTION_NO_CASUALTIES</PromotionType>
+		</Row>
+
+		
+		<Row>
+			<UnitType>UNIT_ELITE_RIDER</UnitType>
+			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_RIDER</UnitType>
+			<PromotionType>PROMOTION_GAIN_MOVES_AFFER_KILLING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_RIDER</UnitType>
+			<PromotionType>PROMOTION_ARMOR_PLATING_1</PromotionType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
+			<PromotionType>PROMOTION_ARCHERY_COMBAT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
+			<PromotionType>PROMOTION_RANGE_SPECIAL</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
+			<PromotionType>PROMOTION_SUNDER_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
+			<PromotionType>PROMOTION_SUNDER_2</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
+			<PromotionType>PROMOTION_SUNDER_3</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
+			<PromotionType>PROMOTION_FORMATION_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
+			<PromotionType>PROMOTION_FORMATION_2</PromotionType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_KOREAN_HWACHA</UnitType>
+			<PromotionType>PROMOTION_SPLASH_DAMAGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KOREAN_HWACHA</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KOREAN_HWACHA</UnitType>
+			<PromotionType>PROMOTION_MUST_SET_UP</PromotionType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ZHENGHE_FLEET</UnitType>
+			<PromotionType>PROMOTION_NAVAL_RANGED_SHIP</PromotionType>
+		</Row>	
+		<!--<Row>
+			<UnitType>UNIT_ZHENGHE_FLEET</UnitType>
+			<PromotionType>PROMOTION_ARMOR_PLATING_1</PromotionType>
+		</Row>-->
+
+
+		<Row>
+			<UnitType>UNIT_DANISH_SKI_INFANTRY</UnitType>
+			<PromotionType>PROMOTION_GUNPOWDER_INFANTRY_COMBAT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DANISH_SKI_INFANTRY</UnitType>
+			<PromotionType>PROMOTION_SKI_INFANTRY</PromotionType>
+		</Row>
+		
+
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<PromotionType>PROMOTION_TANK_COMBAT</PromotionType>
+		</Row>
+		<!--<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<PromotionType>PROMOTION_ARMOR_PLATING_3</PromotionType>
+		</Row>-->
+
+
+
+		<Row>
+			<UnitType>UNIT_ELITE_SNIPER</UnitType>
+			<PromotionType>PROMOTION_ARCHERY_COMBAT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_SNIPER</UnitType>
+			<PromotionType>PROMOTION_SNIPER_ELITE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_SNIPER</UnitType>
+			<PromotionType>PROMOTION_SP_FORCE_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_SNIPER</UnitType>
+			<PromotionType>PROMOTION_BLITZ</PromotionType>
+		</Row>
+		
+
+		<Row>
+			<UnitType>UNIT_SUPER_HOWITZER</UnitType>
+			<PromotionType>PROMOTION_MUST_SET_UP</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_HOWITZER</UnitType>
+			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
+		</Row>		
+		<Row>
+			<UnitType>UNIT_SUPER_HOWITZER</UnitType>
+			<PromotionType>PROMOTION_STRATEGIC_BOMBER</PromotionType>
+		</Row>		
+		<Row>
+			<UnitType>UNIT_SUPER_HOWITZER</UnitType>
+			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_HOWITZER</UnitType>
+			<PromotionType>PROMOTION_RANGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_HOWITZER</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_CARGO_VI</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_AIRSHIP_CARRIER</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		
+
+
+		<Row>
+			<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+			<PromotionType>PROMOTION_MILITIA_COMBAT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+			<PromotionType>PROMOTION_STRONGER_VS_DAMAGED</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+			<PromotionType>PROMOTION_NO_CASUALTIES</PromotionType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_BAZOOKA</UnitType>
+			<PromotionType>PROMOTION_ANTI_TANK_BAZOOKA</PromotionType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_NUCLEAR_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_NUCLEAR_ARTILLERY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_STRATEGIC_BOMBER</PromotionType>
+		</Row>
+		
+
+
+		<Row>
+			<UnitType>UNIT_SUPER_TANK</UnitType>
+			<PromotionType>PROMOTION_TANK_COMBAT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_TANK</UnitType>
+			<PromotionType>PROMOTION_ARMOR_PLATING_3</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_TANK</UnitType>
+			<PromotionType>PROMOTION_CHARGE_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_TANK</UnitType>
+			<PromotionType>PROMOTION_CHARGE_2</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_TANK</UnitType>
+			<PromotionType>PROMOTION_CHARGE_3</PromotionType>
+		</Row>
+		<!--<Row>
+			<UnitType>UNIT_SUPER_TANK</UnitType>
+			<PromotionType>PROMOTION_ROUGH_TERRAIN_ENDS_TURN</PromotionType>
+		</Row>-->
+
+
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<PromotionType>PROMOTION_NAVAL_RANGED_CRUISER</PromotionType>
+		</Row>
+		<!--<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<PromotionType>PROMOTION_SUNDER_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<PromotionType>PROMOTION_SUNDER_2</PromotionType>
+		</Row>-->
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<PromotionType>PROMOTION_ARMOR_PLATING_3</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<PromotionType>PROMOTION_NAVAL_BONUS_STRONG</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<PromotionType>PROMOTION_MARCH</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<PromotionType>PROMOTION_FASTER_HEAL</PromotionType>
+		</Row>
+		
+
+		<Row>
+			<UnitType>UNIT_SUPER_BATTLESHIP</UnitType>
+			<PromotionType>PROMOTION_NAVAL_CAPITAL_SHIP</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_BATTLESHIP</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_BATTLESHIP</UnitType>
+			<PromotionType>PROMOTION_CLUSTER_ROCKET_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_BATTLESHIP</UnitType>
+			<PromotionType>PROMOTION_CLUSTER_ROCKET_2</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_BATTLESHIP</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		
+
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_BOMBER</UnitType>
+			<PromotionType>PROMOTION_STRATEGIC_BOMBER</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_BOMBER</UnitType>
+			<PromotionType>PROMOTION_EVASION_II</PromotionType>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_SR71_BLACKBIRD</UnitType>
+			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
+		</Row>
+		
+		
+		<Row>
+			<UnitType>UNIT_CRUSADER_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CRUSADER_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CRUSADER_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CRUSADER_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_COLLATERAL_DAMAGE_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CRUSADER_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_COLLATERAL_DAMAGE_2</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CRUSADER_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_COLLATERAL_DAMAGE_3</PromotionType>
+		</Row>
+	
+
+
+
+		<Row>
+			<UnitType>UNIT_UNDERWATER_CARRIER</UnitType>
+			<PromotionType>PROMOTION_SUBMARINE_COMBAT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UNDERWATER_CARRIER</UnitType>
+			<PromotionType>PROMOTION_CARRIER_SUPPLY_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UNDERWATER_CARRIER</UnitType>
+			<PromotionType>PROMOTION_CARRIER_SUPPLY_2</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UNDERWATER_CARRIER</UnitType>
+			<PromotionType>PROMOTION_CARGO_IX</PromotionType>
+		</Row>
+	
+	
+	
+
+
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<PromotionType>PROMOTION_SPECIAL_FORCES_COMBAT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<PromotionType>PROMOTION_SP_FORCE_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<PromotionType>PROMOTION_SP_FORCE_2</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<PromotionType>PROMOTION_SP_FORCE_3</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<PromotionType>PROMOTION_SP_FORCE_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<PromotionType>PROMOTION_SP_FORCE_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<PromotionType>PROMOTION_SP_FORCE_III</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<PromotionType>PROMOTION_EXTENDED_PARADROP</PromotionType>
+		</Row>	
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<PromotionType>PROMOTION_UNLIMITED_ATTACK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<PromotionType>PROMOTION_NO_CASUALTIES</PromotionType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_STEALTH_HELICOPTER</UnitType>
+			<PromotionType>PROMOTION_HELI_ATTACK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_HELICOPTER</UnitType>
+			<PromotionType>PROMOTION_RANGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_HELICOPTER</UnitType>
+			<PromotionType>PROMOTION_RECON_UNIT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_HELICOPTER</UnitType>
+			<PromotionType>PROMOTION_DRONE_CARRIER</PromotionType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<PromotionType>PROMOTION_SPLASH_DAMAGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<PromotionType>PROMOTION_RANGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<PromotionType>PROMOTION_NAVAL_BONUS_STRONG</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<PromotionType>PROMOTION_MISSILE_CARRIER</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<PromotionType>PROMOTION_CARGO_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<PromotionType>PROMOTION_FAE_ROCKET_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<PromotionType>PROMOTION_FAE_ROCKET_2</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<PromotionType>PROMOTION_LOGISTICS</PromotionType>
+		</Row>
+		
+		
+		<Row>
+			<UnitType>UNIT_PAKFA_T50</UnitType>
+			<PromotionType>PROMOTION_ANTI_AIR_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PAKFA_T50</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PAKFA_T50</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_2</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PAKFA_T50</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_3</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PAKFA_T50</UnitType>
+			<PromotionType>PROMOTION_EMP_ATTACK</PromotionType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<PromotionType>PROMOTION_TANK_COMBAT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
+		</Row>	
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<PromotionType>PROMOTION_NUKE_IMMUNE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<PromotionType>PROMOTION_NO_CASUALTIES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<PromotionType>PROMOTION_ANTI_DEBUFF</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<PromotionType>PROMOTION_MARCH</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_PARTICLE_CANNON</UnitType>
+			<PromotionType>PROMOTION_CHAIN_REACTION</PromotionType>
+		</Row>
+		<!--<Row>
+			<UnitType>UNIT_PARTICLE_CANNON</UnitType>
+			<PromotionType>PROMOTION_NAVAL_RANGED_SHIP</PromotionType>
+		</Row>-->
+		<Row>
+			<UnitType>UNIT_PARTICLE_CANNON</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+
+
+		<!--<Row>
+			<UnitType>UNIT_ORBITAL_STRIKE</UnitType>
+			<PromotionType>PROMOTION_EVASION_III</PromotionType>
+		</Row>-->
+
+	</Unit_FreePromotions>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SPARTAN300</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUMIDIAN</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUMIDIAN</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_RIDER</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_RIDER</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GERMAN_LANDSKNECHT</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KOREAN_HWACHA</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZHENGHE_FLEET</UnitType>
+			<UnitAIType>UNITAI_MERCHANT</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZHENGHE_FLEET</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DANISH_SKI_INFANTRY</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_SUBMARINE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_HOWITZER</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_HOWITZER</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_AIRSHIP</UnitType>
+			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_SNIPER</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_SR71_BLACKBIRD</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+
+		
+		<Row>
+			<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_TANK</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_TANK</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TSAR_BOMBA</UnitType>
+			<UnitAIType>UNITAI_ICBM</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_ARTILLERY</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BAZOOKA</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_BATTLESHIP</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_BATTLESHIP</UnitType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_BOMBER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CRUSADER_ARTILLERY</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CRUSADER_ARTILLERY</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UNDERWATER_CARRIER</UnitType>
+			<UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<UnitAIType>UNITAI_PARADROP</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_HELICOPTER</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_HELICOPTER</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PAKFA_T50</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PAKFA_T50</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PARTICLE_CANNON</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PARTICLE_CANNON</UnitType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+		</Row>
+		<!--<Row>
+			<UnitType>UNIT_ORBITAL_STRIKE</UnitType>
+			<UnitAIType>UNITAI_MISSILE_AIR</UnitAIType>
+		</Row>-->
+	</Unit_AITypes>
+
+	
+	
+	<Unit_Flavors>
+		<Delete UnitType="UNIT_KOREAN_HWACHA"/>
+		<Delete UnitType="UNIT_MECH"/>
+		<Row>
+			<UnitType>UNIT_SPARTAN300</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPARTAN300</UnitType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUMIDIAN</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUMIDIAN</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_ELITE_RIDER</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_RIDER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_KOREAN_HWACHA</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KOREAN_HWACHA</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_ZHENGHE_FLEET</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZHENGHE_FLEET</UnitType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		
+		
+		
+		
+		<Row>
+			<UnitType>UNIT_DANISH_SKI_INFANTRY</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DANISH_SKI_INFANTRY</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_SUBMARINE</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_HOWITZER</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_HOWITZER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_AIRSHIP</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>550</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_TANK</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_TANK</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_TANK</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		
+		
+		<Row>
+			<UnitType>UNIT_ELITE_SNIPER</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_SNIPER</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_TSAR_BOMBA</UnitType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>70</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_ARTILLERY</UnitType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_ARTILLERY</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>150</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BAZOOKA</UnitType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BAZOOKA</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+
+		
+		
+		<Row>
+			<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_SR71_BLACKBIRD</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SR71_BLACKBIRD</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+
+
+		
+
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_SUPER_BATTLESHIP</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_BATTLESHIP</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_BATTLESHIP</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		
+		
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_BOMBER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CRUSADER_ARTILLERY</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UNDERWATER_CARRIER</UnitType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_HELICOPTER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PAKFA_T50</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PAKFA_T50</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_PARTICLE_CANNON</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PARTICLE_CANNON</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		
+		<!--<Row>
+			<UnitType>UNIT_ORBITAL_STRIKE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ORBITAL_STRIKE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>-->
+	</Unit_Flavors>
+
+	
+	
+	
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_SPARTAN300</UnitType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUMIDIAN</UnitType>
+			<UnitClassType>UNITCLASS_BOMBARD</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GERMAN_LANDSKNECHT</UnitType>
+			<UnitClassType>UNITCLASS_TERCIO</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_RIDER</UnitType>
+			<UnitClassType>UNITCLASS_WWI_TANK</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
+			<UnitClassType>UNITCLASS_GATLINGGUN</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KOREAN_HWACHA</UnitType>
+			<UnitClassType>UNITCLASS_RAILROAD_GUN</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DANISH_SKI_INFANTRY</UnitType>
+			<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_SUBMARINE</UnitType>
+			<UnitClassType>UNITCLASS_SUBMARINE</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<UnitClassType>UNITCLASS_WWI_TANK</UnitClassType>
+		</Row>
+
+		<!--<Row>
+			<UnitType>UNIT_ELITE_SNIPER</UnitType>
+			<UnitClassType>UNITCLASS_SAM_INFANTRY</UnitClassType>
+		</Row>-->
+		<Row>
+			<UnitType>UNIT_SUPER_HOWITZER</UnitType>
+			<UnitClassType>UNITCLASS_SELF_PROPELLED_ARTILLERY</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+			<UnitClassType>UNITCLASS_MECHANIZED_INFANTRY</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_BOMBER</UnitType>
+			<UnitClassType>UNITCLASS_STEALTH_BOMBER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	
+	
+	
+	
+	
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SPARTAN300</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUMIDIAN</UnitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_RIDER</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_RIDER</UnitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+	
+
+		<Row>
+			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KOREAN_HWACHA</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZHENGHE_FLEET</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_SUBMARINE</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_DANISH_SKI_INFANTRY</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_HOWITZER</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_AIRSHIP</UnitType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		
+
+
+		<Row>
+			<UnitType>UNIT_SUPER_TANK</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_TANK</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_TSAR_BOMBA</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_ARTILLERY</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_ARTILLERY</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_ARTILLERY</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_ARTILLERY</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_BAZOOKA</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_BATTLESHIP</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_BATTLESHIP</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_BATTLESHIP</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_BOMBER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_BOMBER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CRUSADER_ARTILLERY</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CRUSADER_ARTILLERY</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UNDERWATER_CARRIER</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UNDERWATER_CARRIER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_SR71_BLACKBIRD</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_STEALTH_HELICOPTER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_HELICOPTER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		
+		
+		
+		<Row>
+			<UnitType>UNIT_PAKFA_T50</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PAKFA_T50</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>	
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_HACKER</UnitType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_PARTICLE_CANNON</UnitType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PARTICLE_CANNON</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_ORBITAL_STRIKE</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>6</Cost>
+		</Row>
+
+
+		
+		
+		
+
+		<Row>
+			<UnitType>UNIT_SPARTAN300</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUMIDIAN</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_RIDER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DANISH_SKI_INFANTRY</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KOREAN_HWACHA</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_ZHENGHE_FLEET</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>6</Cost>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_SUBMARINE</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_ELITE_SNIPER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_HOWITZER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_AIRSHIP</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>6</Cost>
+		</Row>
+
+
+		
+		<Row>
+			<UnitType>UNIT_SR71_BLACKBIRD</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_TANK</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>8</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_BATTLESHIP</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>14</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_BOMBER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>8</Cost>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_TSAR_BOMBA</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BAZOOKA</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_NUCLEAR_ARTILLERY</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>8</Cost>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_CRUSADER_ARTILLERY</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UNDERWATER_CARRIER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>9</Cost>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+		</Row>
+		
+
+		<Row>
+			<UnitType>UNIT_STEALTH_HELICOPTER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>8</Cost>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_PAKFA_T50</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_HACKER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_PARTICLE_CANNON</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>8</Cost>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ORBITAL_STRIKE</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>12</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	
+	
+	<!--**********************Unit Unique Name***********************************-->
+
+
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_SPARTAN300</UnitType>
+			<UniqueName>TXT_KEY_ELITE_NAME_SPARTAN300</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUMIDIAN</UnitType>
+			<UniqueName>TXT_KEY_ELITE_NAME_NUMIDIAN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_RIDER</UnitType>
+			<UniqueName>TXT_KEY_ELITE_NAME_ELITE_RIDER</UniqueName>
+		</Row>
+		<!--<Row>
+			<UnitType>UNIT_ZHENGHE_FLEET</UnitType>
+			<UniqueName>TXT_KEY_ELITE_NAME_ZHENGHE_FLEET</UniqueName>
+		</Row>-->
+		<Row>
+			<UnitType>UNIT_KOREAN_HWACHA</UnitType>
+			<UniqueName>TXT_KEY_ELITE_NAME_KOREA_HWACHA</UniqueName>
+		</Row>
+
+		<!--<Row>
+			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
+			<UniqueName>TXT_KEY_ELITE_NAME_OTTOMAN_SIPAHI</UniqueName>
+		</Row>-->
+		<!--<Row>
+			<UnitType>UNIT_FRENCH_MUSKETEER</UnitType>
+			<UniqueName>TXT_KEY_ELITE_NAME_FRENCH_MUSKETEER</UniqueName>
+		</Row>-->
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_SUBMARINE</UnitType>
+			<UniqueName>TXT_KEY_ELITE_NAME_PROTOTYPE_SUBMARINE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_HOWITZER</UnitType>
+			<UniqueName>TXT_KEY_ELITE_NAME_SUPER_HOWITZER</UniqueName>
+		</Row>
+		<!--<Row>
+			<UnitType>UNIT_PROTOTYPE_AIRSHIP</UnitType>
+			<UniqueName>TXT_KEY_ELITE_NAME_PROTOTYPE_AIRSHIP</UniqueName>
+		</Row>-->
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_BOMBER</UnitType>
+			<UniqueName>TXT_KEY_ELITE_NAME_PROTOTYPE_BOMBER</UniqueName>
+		</Row>
+		<!--<Row>
+			<UnitType>UNIT_SUPER_TANK</UnitType>
+			<UniqueName>TXT_KEY_ELITE_NAME_SUPER_TANK</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_BATTLESHIP</UnitType>
+			<UniqueName>TXT_KEY_ELITE_NAME_SUPER_BATTLESHIP</UniqueName>
+		</Row>
+	-->
+	
+	</Unit_UniqueNames>
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+	
+	
+</GameData>

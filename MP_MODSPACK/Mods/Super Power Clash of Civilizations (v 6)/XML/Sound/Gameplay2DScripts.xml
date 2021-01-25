@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/16/2015 8:01:09 AM -->
+<GameData>
+	
+	
+	<!--************Units Sound************-->
+	
+	
+	<UnitGameplay2DScripts>
+
+		<Delete UnitType="UNIT_BARBARIAN_HORSEMAN"/>
+		<Delete UnitType="UNIT_WORKBOAT"/>
+		<Delete UnitType="UNIT_PRIVATEER"/>
+		<Delete UnitType="UNIT_GALLEY"/>
+		<Delete UnitType="UNIT_MOBILE_SAM"/>
+
+		<Row>
+			<UnitType>UNIT_CITADEL_EARLY</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CITADEL_MID</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CITADEL_LATE</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_MONGOLIAN_HUIHUIPAO</UnitType>
+			<SelectionSound>AS2D_SELECT_TREBUCHET</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TREBUCHET</FirstSelectionSound>
+		</Row>
+		
+		
+		
+		<Row>
+			<UnitType>UNIT_NAVAL_MILITIA</UnitType>
+			<SelectionSound>AS2D_SELECT_TRIREME</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TRIREME</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MONITOR_SHIP</UnitType>
+			<SelectionSound>AS2D_SELECT_IRONCLAD</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_IRONCLAD</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CORVETTE</UnitType>
+			<SelectionSound>AS2D_SELECT_IRONCLAD</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_IRONCLAD</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DANISH_ABSALON</UnitType>
+			<SelectionSound>AS2D_SELECT_IRONCLAD</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_IRONCLAD</FirstSelectionSound>
+		</Row>
+		
+		
+		
+		<Row>
+			<UnitType>UNIT_MILITIA_ANCIENT</UnitType>
+			<SelectionSound>AS2D_SELECT_WARRIER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_WARRIER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CONSCRIPTMAN</UnitType>
+			<SelectionSound>AS2D_SELECT_INFANTRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_INFANTRY</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MILITIA_MODERN</UnitType>
+			<SelectionSound>AS2D_SELECT_INFANTRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_INFANTRY</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_NATIONAL_GUARD</UnitType>
+			<SelectionSound>AS2D_SELECT_LONGSWORDSMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_LONGSWORDSMAN</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CELT_BLACKWATCH</UnitType>
+			<SelectionSound>AS2D_SELECT_MUSKETMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MUSKETMAN</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MUSKETEER</UnitType>
+			<SelectionSound>AS2D_SELECT_MUSKETMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MUSKETMAN</FirstSelectionSound>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_DANISH_DRAGONSHIP</UnitType>
+			<SelectionSound>AS2D_SELECT_TRIREME</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TRIREME</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ICBM_MISSILE</UnitType>
+			<SelectionSound>AS2D_SELECT_NUCLEAR_MISSILE</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_NUCLEAR_MISSILE</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_SUPER_CARRIER</UnitType>
+			<SelectionSound>AS2D_SELECT_CARRIER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CARRIER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_CARRIER</UnitType>
+			<SelectionSound>AS2D_SELECT_CARRIER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CARRIER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NIMITZ</UnitType>
+			<SelectionSound>AS2D_SELECT_CARRIER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CARRIER</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_CARGOSHIP</UnitType>
+			<SelectionSound>AS2D_SELECT_CARRIER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CARRIER</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_KOREAN_SEJONG_CLASS</UnitType>
+			<SelectionSound>AS2D_SELECT_BATTLESHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BATTLESHIP</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
+			<SelectionSound>AS2D_SELECT_BATTLESHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BATTLESHIP</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_BATTLESHIP</UnitType>
+			<SelectionSound>AS2D_SELECT_BATTLESHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BATTLESHIP</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERN_DESTROYER</UnitType>
+			<SelectionSound>AS2D_SELECT_BATTLESHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BATTLESHIP</FirstSelectionSound>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_LITTORAL_COMBAT_SHIP</UnitType>
+			<SelectionSound>AS2D_SELECT_IRONCLAD</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_IRONCLAD</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_GREEK_ARMORED_CRUISER</UnitType>
+			<SelectionSound>AS2D_SELECT_BATTLESHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BATTLESHIP</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HEAVY_CRUISER</UnitType>
+			<SelectionSound>AS2D_SELECT_BATTLESHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BATTLESHIP</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KIROV_BATTLECRUISER</UnitType>
+			<SelectionSound>AS2D_SELECT_BATTLESHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BATTLESHIP</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FUTURE_BATTLESHIP</UnitType>
+			<SelectionSound>AS2D_SELECT_BATTLESHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BATTLESHIP</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_FRANCE_MISTRAL</UnitType>
+			<SelectionSound>AS2D_SELECT_BATTLESHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BATTLESHIP</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_EUROCOPTER_TIGER</UnitType>
+			<SelectionSound>AS2D_SELECT_HELICOPTER_GUNSHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_HELICOPTER_GUNSHIP</FirstSelectionSound>
+		</Row>
+
+		
+		<Row>
+			<UnitType>UNIT_SONGHAI_EXPEDITION_FLEET</UnitType>
+			<SelectionSound>AS2D_SELECT_FRIGATE</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FRIGATE</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHIP_OF_THE_LINE</UnitType>
+			<SelectionSound>AS2D_SELECT_FRIGATE</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FRIGATE</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_OTTOMAN_PRIVATEER</UnitType>
+			<SelectionSound>AS2D_SELECT_FRIGATE</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FRIGATE</FirstSelectionSound>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_LIGHT_IRONCLAD</UnitType>
+			<SelectionSound>AS2D_SELECT_IRONCLAD</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_IRONCLAD</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTECTED_CRUISER</UnitType>
+			<SelectionSound>AS2D_SELECT_IRONCLAD</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_IRONCLAD</FirstSelectionSound>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_DREADNOUGHT</UnitType>
+			<SelectionSound>AS2D_SELECT_IRONCLAD</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_IRONCLAD</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_REUMBERTO</UnitType>
+			<SelectionSound>AS2D_SELECT_IRONCLAD</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_IRONCLAD</FirstSelectionSound>
+		</Row>
+		
+	
+		<Row>
+			<UnitType>UNIT_SELF_PROPELLED_ARTILLERY</UnitType>
+			<SelectionSound>AS2D_SELECT_ROCKET_ARTILLERY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_ROCKET_ARTILLERY</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ZULU_G6_SPG</UnitType>
+			<SelectionSound>AS2D_SELECT_ROCKET_ARTILLERY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_ROCKET_ARTILLERY</FirstSelectionSound>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_KATYUSHA</UnitType>
+			<SelectionSound>AS2D_SELECT_ROCKET_ARTILLERY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_ROCKET_ARTILLERY</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<SelectionSound>AS2D_SELECT_ROCKET_ARTILLERY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_ROCKET_ARTILLERY</FirstSelectionSound>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_RAILROAD_GUN</UnitType>
+			<SelectionSound>AS2D_SELECT_ARTILLERY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_ARTILLERY</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWEDISH_GUSTAV_RECOILESS_GUN</UnitType>
+			<SelectionSound>AS2D_SELECT_ARTILLERY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_ARTILLERY</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_SR71_BLACKBIRD</UnitType>
+			<SelectionSound>AS2D_SELECT_STEALTH_BOMBER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_STEALTH_BOMBER</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_MOBILE_AA_GUN</UnitType>
+			<SelectionSound>AS2D_SELECT_ANTI_AIRCRAFT_GUN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_ANTI_AIRCRAFT_GUN</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_OTTOMAN_COBRA</UnitType>
+			<SelectionSound>AS2D_SELECT_MOBILE_SAM</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MOBILE_SAM</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATGM_VEHICLE</UnitType>
+			<SelectionSound>AS2D_SELECT_MOBILE_SAM</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MOBILE_SAM</FirstSelectionSound>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_SAM_INFANTRY</UnitType>
+			<SelectionSound>AS2D_SELECT_MOBILE_SAM</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MOBILE_SAM</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VOLLEY_GUN</UnitType>
+			<SelectionSound>AS2D_SELECT_CANNON</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_CANNON</FirstSelectionSound>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_MOTORISED_INFANTRY</UnitType>
+			<SelectionSound>AS2D_SELECT_MECH_INFANTRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MECH_INFANTRY</FirstSelectionSound>
+		</Row>
+		
+		
+		<Row>
+			<UnitType>UNIT_PERSIAN_CATAPHRACT</UnitType>
+			<SelectionSound>AS2D_SELECT_CAVALRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CAVALRY</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_EGYPT_UNIT777</UnitType>
+			<SelectionSound>AS2D_SELECT_PARATROOPER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_PARATROOPER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WWI_PARATROOPER</UnitType>
+			<SelectionSound>AS2D_SELECT_PARATROOPER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_PARATROOPER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CULVERIN</UnitType>
+			<SelectionSound>AS2D_SELECT_CANNON</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_CANNON</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_BATTERY</UnitType>
+			<SelectionSound>AS2D_SELECT_CANNON</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_CANNON</FirstSelectionSound>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_CRUISER_TANK</UnitType>
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_CROMWELL_TANK</UnitType>
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_TANK_DESTROYER</UnitType>
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MAIN_BATTLE_TANK</UnitType>
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PERSIAN_ZULFIQAR</UnitType>
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_T80</UnitType>
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHINESE_TYPE99</UnitType>
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZULU_OLIFANT</UnitType>
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_AUSTRIAN_SKODA</UnitType>
+			<SelectionSound>AS2D_SELECT_ARTILLERY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_ARTILLERY</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HOWITZER</UnitType>
+			<SelectionSound>AS2D_SELECT_ARTILLERY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_ARTILLERY</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_PZL23</UnitType>
+			<SelectionSound>AS2D_SELECT_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FIGHTER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DIVE_BOMBER</UnitType>
+			<SelectionSound>AS2D_SELECT_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FIGHTER</FirstSelectionSound>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
+			<SelectionSound>AS2D_SELECT_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FIGHTER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_ATTACK_AIRCRAFT</UnitType>
+			<SelectionSound>AS2D_SELECT_STEALTH_BOMBER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_STEALTH_BOMBER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JET_BOMBER</UnitType>
+			<SelectionSound>AS2D_SELECT_BOMBER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BOMBER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EMP_BOMBER_AIR</UnitType>
+			<SelectionSound>AS2D_SELECT_NUCLEAR_MISSILE</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_NUCLEAR_MISSILE</FirstSelectionSound>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_SWEDISH_JAS39_FIGHTER</UnitType>
+			<SelectionSound>AS2D_SELECT_JET_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_JET_FIGHTER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER</UnitType>
+			<SelectionSound>AS2D_SELECT_JET_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_JET_FIGHTER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER_ADV</UnitType>
+			<SelectionSound>AS2D_SELECT_JET_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_JET_FIGHTER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_MIRRAGE2000</UnitType>
+			<SelectionSound>AS2D_SELECT_JET_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_JET_FIGHTER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INTERCEPTER</UnitType>
+			<SelectionSound>AS2D_SELECT_JET_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_JET_FIGHTER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_SU27</UnitType>
+			<SelectionSound>AS2D_SELECT_JET_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_JET_FIGHTER</FirstSelectionSound>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_JET</UnitType>
+			<SelectionSound>AS2D_SELECT_JET_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_JET_FIGHTER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ADV</UnitType>
+			<SelectionSound>AS2D_SELECT_JET_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_JET_FIGHTER</FirstSelectionSound>
+		</Row>
+
+		<!--<Row>
+			<UnitType>UNIT_SCOUT_HELICOPTER</UnitType>
+			<SelectionSound>AS2D_SELECT_HELICOPTER_GUNSHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_HELICOPTER_GUNSHIP</FirstSelectionSound>
+		</Row>-->
+		
+		<Row>
+			<UnitType>UNIT_ATTACK_HELICOPTER</UnitType>
+			<SelectionSound>AS2D_SELECT_HELICOPTER_GUNSHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_HELICOPTER_GUNSHIP</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_APACHE</UnitType>
+			<SelectionSound>AS2D_SELECT_HELICOPTER_GUNSHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_HELICOPTER_GUNSHIP</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GERMAN_EUROCOPTER_TIGER</UnitType>
+			<SelectionSound>AS2D_SELECT_HELICOPTER_GUNSHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_HELICOPTER_GUNSHIP</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_PZLW3_HELICOPTER</UnitType>
+			<SelectionSound>AS2D_SELECT_HELICOPTER_GUNSHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_HELICOPTER_GUNSHIP</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_GERMAN_UBOAT</UnitType>
+			<SelectionSound>AS2D_SELECT_SUBMARINE</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SUBMARINE</FirstSelectionSound>
+		</Row> 
+		
+		
+		<Row>
+			<UnitType>UNIT_MEDIEVAL_CHARIOT</UnitType>
+			<SelectionSound>AS2D_SELECT_CHARIOT_ARCHER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CHARIOT_ARCHER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BOMBARD</UnitType>
+			<SelectionSound>AS2D_SELECT_CHARIOT_ARCHER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CHARIOT_ARCHER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
+			<SelectionSound>AS2D_SELECT_SCOUT</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SCOUT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+		<!--<Row>
+			<UnitType>UNIT_ASSAULT_GUN</UnitType>
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>-->
+		<!--<Row>
+			<UnitType>UNIT_DIRIGEABLE</UnitType>
+			<SelectionSound>AS2D_SELECT_BOMBER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BOMBER</FirstSelectionSound>
+		</Row>-->
+		<Row>
+			<UnitType>UNIT_SPANISH_ARMADA</UnitType>
+			<SelectionSound>AS2D_SELECT_FRIGATE</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_FRIGATE</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SLOOP_OF_WAR</UnitType>
+			<SelectionSound>AS2D_SELECT_FRIGATE</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FRIGATE</FirstSelectionSound>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_SSBN</UnitType>
+			<SelectionSound>AS2D_SELECT_ATOMIC_BOMB</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_ATOMIC_BOMB</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UAV</UnitType>
+			<SelectionSound>AS2D_SELECT_JET_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_JET_FIGHTER</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXPLORERX</UnitType>
+			<SelectionSound>AS2D_SELECT_SCOUT</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SCOUT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BARBARIAN_HORSEMAN</UnitType>
+			<SelectionSound>AS2D_SELECT_CHARIOT_ARCHER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CHARIOT_ARCHER</FirstSelectionSound>
+		</Row>
+		<!--<Row>
+			<UnitType>UNIT_CHINESE_GREAT_GENERAL</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>-->
+		<Row>
+			<UnitType>UNIT_INCAN_CHASQUI</UnitType>
+			<SelectionSound>AS2D_SELECT_SCOUT</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SCOUT</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_SATELLITE_ORBITAL_STRIKE</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_RESOURCEPLUS</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_RECONNAISSANCE</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_ANTIFALLOUT</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_APOLLO11</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_ECCM</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_ENVIRONMENT</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_GPS</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_HUBBLE</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_SPUTNIK</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_TIANGONG</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_WEATHER</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_ARABIAN_PROPHET</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_SHAMAN</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SIAMESE_MONK</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		
+	</UnitGameplay2DScripts>
+	
+	
+	
+	<!--************Elite Units************-->
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_SPARTAN300</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUMIDIAN</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<!--<Replace>
+			<UnitType>UNIT_GERMAN_LANDSKNECHT</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Replace>-->
+		<Row>
+			<UnitType>UNIT_ELITE_RIDER</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZHENGHE_FLEET</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Replace>
+			<UnitType>UNIT_KOREAN_HWACHA</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Replace>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_SUBMARINE</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_HOWITZER</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_SNIPER</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_AIRSHIP</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_TANK</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_BATTLESHIP</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_BOMBER</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TSAR_BOMBA</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_ARTILLERY</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CRUSADER_ARTILLERY</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UNDERWATER_CARRIER</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_HELICOPTER</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PAKFA_T50</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_HACKER</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_PARTICLE_CANNON</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ORBITAL_STRIKE</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BRAZIL_SCOCCER_STAR</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+
+
+
+
+
+
+</GameData>

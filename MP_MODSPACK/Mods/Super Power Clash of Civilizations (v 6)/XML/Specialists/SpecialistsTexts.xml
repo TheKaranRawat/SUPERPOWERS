@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/31/2014 6:44:45 PM -->
+<GameData>
+	<Language_en_US>
+		<Row>
+			<Tag>TXT_KEY_SP_SPECIALISTS_UPGRADE_STRATEGY</Tag>
+			<Text>[COLOR_POSITIVE_TEXT]Specialists Foundation Buildings[ENDCOLOR] are National Wonders which allows you to "upgrade" the specialists' output. [NEWLINE][NEWLINE]Building the certain Specialists Foundation Buildings will increase the output of the specialists. However they will require additional [ICON_GOLD] Gold for funds. 
+			[NEWLINE][NEWLINE]Specialists Foundation Buildings must be built in the city reached certain population size: [NEWLINE]-Lv1: Medium City[NEWLINE]-Lv2: XL City[NEWLINE]-Lv3: Global City.
+			[NEWLINE][NEWLINE]Since they are National Wonders, you can only build one of each in your empire and the building cost goes up the more cities there are in the empire. You don't have to build the lower level Specialists Foundation Buildings in the city before building the upper level one.</Text>
+		</Row>
+		
+		
+		
+			<Row>
+				<Tag>TXT_KEY_BUILDING_SPECIALISTS_SCIENTIFIC_HELP</Tag>
+				<Text>Scientists: +2 [ICON_RESEARCH] Science, -2 [ICON_GOLD] Gold for research funds. [NEWLINE][NEWLINE]The cost goes up the more cities there are in the empire.</Text>
+			</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SPECIALISTS_SCIENTIFIC_LV1</Tag>
+			<Text>[COLOR_CYAN]Science Foundation (Lv1)[ENDCOLOR]</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SPECIALISTS_SCIENTIFIC_LV2</Tag>
+			<Text>[COLOR_CYAN]Science Foundation (Lv2)[ENDCOLOR]</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SPECIALISTS_SCIENTIFIC_LV3</Tag>
+			<Text>[COLOR_CYAN]Science Foundation (Lv3)[ENDCOLOR]</Text>
+		</Row>
+
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SPECIALISTS_ENGINEERING_HELP</Tag>
+			<Text>Engineers: +2 [ICON_PRODUCTION] Production, -2 [ICON_GOLD] Gold for facility funds. [NEWLINE][NEWLINE]The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SPECIALISTS_ENGINEERING_LV1</Tag>
+			<Text>[COLOR_YIELD_FOOD]Engineering Association (Lv1)[ENDCOLOR]</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SPECIALISTS_ENGINEERING_LV2</Tag>
+			<Text>[COLOR_YIELD_FOOD]Engineering Association (Lv2)[ENDCOLOR]</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SPECIALISTS_ENGINEERING_LV3</Tag>
+			<Text>[COLOR_YIELD_FOOD]Engineering Association (Lv3)[ENDCOLOR]</Text>
+		</Row>
+
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SPECIALISTS_ARTISTIC_HELP</Tag>
+			<Text>Writers, Artists and Musicians: +1 [ICON_CULTURE] Culture, -2 [ICON_GOLD] Gold for sponsor funds. [NEWLINE][NEWLINE]The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SPECIALISTS_ARTISTIC_LV1</Tag>
+			<Text>[COLOR_MAGENTA]Art Foundation (Lv1)[ENDCOLOR]</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SPECIALISTS_ARTISTIC_LV2</Tag>
+			<Text>[COLOR_MAGENTA]Art Foundation (Lv2)[ENDCOLOR]</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SPECIALISTS_ARTISTIC_LV3</Tag>
+			<Text>[COLOR_MAGENTA]Art Foundation (Lv3)[ENDCOLOR]</Text>
+		</Row>
+
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SPECIALISTS_MERCHANT_LV1_HELP</Tag>
+			<Text>Merchants: +2 [ICON_GOLD] Gold. [NEWLINE][NEWLINE]The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SPECIALISTS_MERCHANT_LV3_HELP</Tag>
+			<Text>Merchants: +1 [ICON_FOOD] Food. (Stacks with the effect of Civil Society) [NEWLINE][NEWLINE]The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SPECIALISTS_MERCHANT_LV1</Tag>
+			<Text>[COLOR_YELLOW]Commercial Guild (Lv1)[ENDCOLOR]</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SPECIALISTS_MERCHANT_LV2</Tag>
+			<Text>[COLOR_YELLOW]Commercial Guild (Lv2)[ENDCOLOR]</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_SPECIALISTS_MERCHANT_LV3</Tag>
+			<Text>[COLOR_YELLOW]Commercial Guild (Lv3)[ENDCOLOR]</Text>
+		</Row>
+
+
+
+		<Replace>
+			<Tag>TXT_KEY_SPECIALIST_WRITER_STRATEGY</Tag>
+			<Text>+3 [ICON_CULTURE] Culture and +3 [ICON_GREAT_PEOPLE] Great Person Points for the creation of Great Writers in the city. </Text>
+		</Replace>
+
+		<Replace>
+			<Tag>TXT_KEY_SPECIALIST_ARTIST_STRATEGY</Tag>
+			<Text>+3 [ICON_CULTURE] Culture and +3 [ICON_GREAT_PEOPLE] Great Person Points for the creation of Great Artists in the city. </Text>
+		</Replace>
+
+		<Replace>
+			<Tag>TXT_KEY_SPECIALIST_MUSICIAN_STRATEGY</Tag>
+			<Text>+3 [ICON_CULTURE] Culture and +3 [ICON_GREAT_PEOPLE] Great Person Points for the creation of Great Musicians in the city. </Text>
+		</Replace>
+
+		<Replace>
+			<Tag>TXT_KEY_SPECIALIST_SCIENTIST_STRATEGY</Tag>
+			<Text>+4 [ICON_RESEARCH] Science and +3 [ICON_GREAT_PEOPLE] Great Person Points for the creation of Great Scientists in the city. </Text>
+		</Replace>
+
+		<Replace>
+			<Tag>TXT_KEY_SPECIALIST_ENGINEER_STRATEGY</Tag>
+			<Text>+2 [ICON_RES_MANPOWER] Manpower, +2 [ICON_PRODUCTION] Production and +3 [ICON_GREAT_PEOPLE] Great Person Points for the creation of Great Engineers in the city. </Text>
+		</Replace>
+
+		<Replace>
+			<Tag>TXT_KEY_SPECIALIST_MERCHANT_STRATEGY</Tag>
+			<Text>+4 [ICON_RES_CONSUMER] Consumer Goods, +2 [ICON_GOLD] Gold, +3 [ICON_GREAT_PEOPLE] Great Person Points for the creation of Great Merchant in the city. </Text>
+		</Replace>
+
+		<Replace>
+			<Tag>TXT_KEY_SPECIALIST_CITIZEN_STRATEGY</Tag>
+			<Text>Can do nothing but waste your food.</Text>
+		</Replace>
+		
+		</Language_en_US>
+</GameData>

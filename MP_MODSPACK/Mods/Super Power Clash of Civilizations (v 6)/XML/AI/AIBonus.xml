@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/17/2014 1:46:13 PM -->
+<GameData>
+	<!--*******************************************AI Bonus********************************-->
+	<Policies>
+		<Row>
+			<Type>POLICY_AI_MEDIEVAL</Type>
+			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
+			<UnhappinessMod>-5</UnhappinessMod>
+			<CityGrowthMod>25</CityGrowthMod>
+			
+		</Row>
+		<Row>
+			<Type>POLICY_AI_RENAISSANCE</Type>
+			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
+			<CityGrowthMod>15</CityGrowthMod>
+			<UnhappinessMod>-5</UnhappinessMod>
+			<FreeExperience>15</FreeExperience>
+		</Row>
+		<Row>
+			<Type>POLICY_AI_INDUSTRY</Type>
+			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
+			<StealTechFasterModifier>25</StealTechFasterModifier>
+			<CatchSpiesModifier>-25</CatchSpiesModifier>
+			<CityGrowthMod>15</CityGrowthMod>
+			<UnhappinessMod>-5</UnhappinessMod>
+			<!--<HappinessToScience>5</HappinessToScience>-->
+			<FreeExperience>15</FreeExperience>
+			<PlotCultureExponentModifier>15</PlotCultureExponentModifier>
+		</Row>
+		<Row>
+			<Type>POLICY_AI_MODERN</Type>
+			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
+			<WonderProductionModifier>15</WonderProductionModifier>
+			<CatchSpiesModifier>-25</CatchSpiesModifier>
+			<MinorGoldFriendshipMod>25</MinorGoldFriendshipMod>
+			<CityGrowthMod>15</CityGrowthMod>
+			<UnitGoldMaintenanceMod>-25</UnitGoldMaintenanceMod>
+			<UnhappinessMod>-5</UnhappinessMod>
+			<ThemingBonusMultiplier>100</ThemingBonusMultiplier>
+			<!--<HappinessToScience>10</HappinessToScience>-->
+			<FreeExperience>30</FreeExperience>
+		</Row>
+		<Row>
+			<Type>POLICY_AI_WORLDWAR</Type>
+			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
+			<WonderProductionModifier>25</WonderProductionModifier>
+			<CatchSpiesModifier>-50</CatchSpiesModifier>
+			<MinorFriendshipDecayMod>-25</MinorFriendshipDecayMod>
+			<CityGrowthMod>15</CityGrowthMod>
+			<ProtectedMinorPerTurnInfluence>100</ProtectedMinorPerTurnInfluence>
+			<AfraidMinorPerTurnInfluence>100</AfraidMinorPerTurnInfluence>
+			<HappinessToScience>10</HappinessToScience>
+			<UnhappinessMod>-10</UnhappinessMod>
+			<ThemingBonusMultiplier>200</ThemingBonusMultiplier>
+		</Row>
+		<Row>
+			<Type>POLICY_AI_ATOMIC</Type>
+			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
+			<WonderProductionModifier>25</WonderProductionModifier>
+			<MinorFriendshipDecayMod>-25</MinorFriendshipDecayMod>
+			<ProtectedMinorPerTurnInfluence>100</ProtectedMinorPerTurnInfluence>
+			<AfraidMinorPerTurnInfluence>100</AfraidMinorPerTurnInfluence>
+			<HappinessToScience>10</HappinessToScience>
+			<UnhappinessMod>-10</UnhappinessMod>
+			<ThemingBonusMultiplier>400</ThemingBonusMultiplier>
+		</Row>
+		<Row>
+			<Type>POLICY_AI_INFORMATION</Type>
+			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
+			<WonderProductionModifier>25</WonderProductionModifier>
+			<ProtectedMinorPerTurnInfluence>200</ProtectedMinorPerTurnInfluence>
+			<AfraidMinorPerTurnInfluence>200</AfraidMinorPerTurnInfluence>
+			<HappinessToCulture>10</HappinessToCulture>
+			<HappinessToScience>10</HappinessToScience>
+			<UnhappinessMod>-10</UnhappinessMod>
+			<ThemingBonusMultiplier>800</ThemingBonusMultiplier>
+		</Row>
+
+
+		<Row>
+			<Type>POLICY_AI_PLAYER_CITIES_30</Type>
+			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
+			<WonderProductionModifier>50</WonderProductionModifier>
+			<ProtectedMinorPerTurnInfluence>800</ProtectedMinorPerTurnInfluence>
+			<AfraidMinorPerTurnInfluence>800</AfraidMinorPerTurnInfluence>
+			<HappinessToCulture>33</HappinessToCulture>
+			<HappinessToScience>33</HappinessToScience>
+			<UnhappinessMod>-10</UnhappinessMod>
+			<BuildingProductionModifier>100</BuildingProductionModifier>
+			<RiggingElectionModifier>100</RiggingElectionModifier>
+			<StealTechFasterModifier>100</StealTechFasterModifier>
+			<ThemingBonusMultiplier>800</ThemingBonusMultiplier>
+			<InternalTradeRouteYieldModifier>100</InternalTradeRouteYieldModifier>
+			<StrategicResourceMod>130</StrategicResourceMod>
+		</Row>
+		<Row>
+			<Type>POLICY_AI_PLAYER_CITIES_20</Type>
+			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
+			<ProtectedMinorPerTurnInfluence>500</ProtectedMinorPerTurnInfluence>
+			<AfraidMinorPerTurnInfluence>500</AfraidMinorPerTurnInfluence>
+			<HappinessToCulture>25</HappinessToCulture>
+			<HappinessToScience>25</HappinessToScience>
+			<CityGrowthMod>10</CityGrowthMod>
+			<UnhappinessMod>-10</UnhappinessMod>
+			<BuildingProductionModifier>50</BuildingProductionModifier>
+			<WonderProductionModifier>25</WonderProductionModifier>
+			<RiggingElectionModifier>200</RiggingElectionModifier>
+			<StealTechFasterModifier>50</StealTechFasterModifier>
+			<ThemingBonusMultiplier>400</ThemingBonusMultiplier>
+			<UnitGoldMaintenanceMod>-33</UnitGoldMaintenanceMod>
+			<InternalTradeRouteYieldModifier>100</InternalTradeRouteYieldModifier>
+			<StrategicResourceMod>120</StrategicResourceMod>
+		</Row>
+		<Row>
+			<Type>POLICY_AI_PLAYER_CITIES_10</Type>
+			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
+			<ProtectedMinorPerTurnInfluence>200</ProtectedMinorPerTurnInfluence>
+			<AfraidMinorPerTurnInfluence>200</AfraidMinorPerTurnInfluence>
+			<HappinessToCulture>10</HappinessToCulture>
+			<HappinessToScience>10</HappinessToScience>
+			<CityGrowthMod>10</CityGrowthMod>
+			<UnhappinessMod>-10</UnhappinessMod>
+			<ThemingBonusMultiplier>200</ThemingBonusMultiplier>
+			<RiggingElectionModifier>50</RiggingElectionModifier>
+			<BuildingGoldMaintenanceMod>-10</BuildingGoldMaintenanceMod>
+			<UnitGoldMaintenanceMod>-25</UnitGoldMaintenanceMod>
+			<InternalTradeRouteYieldModifier>50</InternalTradeRouteYieldModifier>
+			<BuildingProductionModifier>50</BuildingProductionModifier>
+		</Row>
+
+		<Row>
+			<Type>POLICY_AI_PLAYER_CITIES_6</Type>
+			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
+			<ProtectedMinorPerTurnInfluence>100</ProtectedMinorPerTurnInfluence>
+			<AfraidMinorPerTurnInfluence>100</AfraidMinorPerTurnInfluence>
+			<!--<HappinessToCulture>10</HappinessToCulture>-->
+			<!--<HappinessToScience>15</HappinessToScience>-->
+			<UnhappinessMod>-10</UnhappinessMod>
+			<CityGrowthMod>10</CityGrowthMod>
+			<BuildingGoldMaintenanceMod>-10</BuildingGoldMaintenanceMod>
+			<UnitGoldMaintenanceMod>-15</UnitGoldMaintenanceMod>
+			<ThemingBonusMultiplier>100</ThemingBonusMultiplier>
+			<InternalTradeRouteYieldModifier>50</InternalTradeRouteYieldModifier>
+		</Row>
+
+
+
+		<Row>
+			<Type>POLICY_AI_ATWAR_BONUS</Type>
+			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
+			<CityGrowthMod>50</CityGrowthMod>
+			<StrategicResourceMod>150</StrategicResourceMod>
+			<MilitaryProductionModifier>200</MilitaryProductionModifier>
+			<BuildingProductionModifier>200</BuildingProductionModifier>
+		</Row>
+		
+		
+	</Policies>
+
+
+	
+	<!--<UnitPromotions>
+
+		<Row>
+			<Type>PROMOTION_AI_PLAYER_CITIES_30</Type>
+			<Description>TXT_KEY_PROMOTION_CITY_ASSUALT</Description>
+			<Help>TXT_KEY_PROMOTION_CITY_ASSUALT_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CityAttack>300</CityAttack>
+			<AttackMod>300</AttackMod>
+			<AlwaysHeal>True</AlwaysHeal>
+			<CanMoveAfterAttacking>true</CanMoveAfterAttacking>
+			<ExtraAttacks>1</ExtraAttacks>
+			<MovesChange>3</MovesChange>
+			<VisibilityChange>1</VisibilityChange>
+			<PortraitIndex>55</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_CITY_ASSUALT</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_AI_PLAYER_CITIES_20</Type>
+			<Description>TXT_KEY_PROMOTION_CITY_ASSUALT</Description>
+			<Help>TXT_KEY_PROMOTION_CITY_ASSUALT_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CityAttack>200</CityAttack>
+			<AttackMod>200</AttackMod>
+			<AlwaysHeal>True</AlwaysHeal>
+			<CanMoveAfterAttacking>true</CanMoveAfterAttacking>
+			<ExtraAttacks>1</ExtraAttacks>
+			<MovesChange>2</MovesChange>
+			<VisibilityChange>1</VisibilityChange>
+			<PortraitIndex>55</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_CITY_ASSUALT</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_AI_PLAYER_CITIES_10</Type>
+			<Description>TXT_KEY_PROMOTION_CITY_ASSUALT</Description>
+			<Help>TXT_KEY_PROMOTION_CITY_ASSUALT_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CityAttack>100</CityAttack>
+			<AttackMod>100</AttackMod>
+			<AlwaysHeal>True</AlwaysHeal>
+			<PortraitIndex>55</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_CITY_ASSUALT</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_AI_PLAYER_CITIES_6</Type>
+			<Description>TXT_KEY_PROMOTION_CITY_ASSUALT</Description>
+			<Help>TXT_KEY_PROMOTION_CITY_ASSUALT_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CityAttack>50</CityAttack>
+			<AttackMod>50</AttackMod>
+			<AlwaysHeal>True</AlwaysHeal>
+			<PortraitIndex>55</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_CITY_ASSUALT</PediaEntry>
+		</Row>
+
+	</UnitPromotions>-->
+	
+	
+	
+	<Policy_FreePromotions>
+		<!--<Row>
+			<PolicyType>POLICY_AI_PLAYER_CITIES_6</PolicyType>
+			<PromotionType>PROMOTION_AI_PLAYER_CITIES_6</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_PLAYER_CITIES_10</PolicyType>
+			<PromotionType>PROMOTION_AI_PLAYER_CITIES_10</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_PLAYER_CITIES_20</PolicyType>
+			<PromotionType>PROMOTION_AI_PLAYER_CITIES_20</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_PLAYER_CITIES_30</PolicyType>
+			<PromotionType>PROMOTION_AI_PLAYER_CITIES_30</PromotionType>
+		</Row>-->
+
+		<Row>
+			<PolicyType>POLICY_AI_MEDIEVAL</PolicyType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+		</Row>
+		<!--<Row>
+			<PolicyType>POLICY_AI_RENAISSANCE</PolicyType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_II</PromotionType>
+		</Row>-->
+		<Row>
+			<PolicyType>POLICY_AI_MODERN</PolicyType>
+			<PromotionType>PROMOTION_MARCH</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_III</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_FASTER_HEAL</PromotionType>
+		</Row>
+	
+
+
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<PromotionType>PROMOTION_RANGE</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INFORMATION</PolicyType>
+			<PromotionType>PROMOTION_BLITZ</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INFORMATION</PolicyType>
+			<PromotionType>PROMOTION_BLITZ_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INFORMATION</PolicyType>
+			<PromotionType>PROMOTION_LOGISTICS</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INFORMATION</PolicyType>
+			<PromotionType>PROMOTION_TRAGET_CLEARSHOOT_3</PromotionType>
+		</Row>
+
+
+
+
+		<Row>
+			<PolicyType>POLICY_AI_MEDIEVAL</PolicyType>
+			<PromotionType>PROMOTION_GUERRILLA_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_MEDIEVAL</PolicyType>
+			<PromotionType>PROMOTION_MEDIC</PromotionType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<PromotionType>PROMOTION_GUERRILLA_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<PromotionType>PROMOTION_MEDIC_II</PromotionType>
+		</Row>
+
+
+
+
+		<Row>
+			<PolicyType>POLICY_AI_MEDIEVAL</PolicyType>
+			<PromotionType>PROMOTION_SP_FORCE_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<PromotionType>PROMOTION_SP_FORCE_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_MODERN</PolicyType>
+			<PromotionType>PROMOTION_SP_FORCE_3</PromotionType>
+		</Row>
+
+
+		<Row>
+			<PolicyType>POLICY_AI_RENAISSANCE</PolicyType>
+			<PromotionType>PROMOTION_SHOCK_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_MODERN</PolicyType>
+			<PromotionType>PROMOTION_SHOCK_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_SHOCK_3</PromotionType>
+		</Row>
+		<!--<Row>
+			<PolicyType>POLICY_AI_RENAISSANCE</PolicyType>
+			<PromotionType>PROMOTION_COVER_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_MODERN</PolicyType>
+			<PromotionType>PROMOTION_COVER_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_COVER_3</PromotionType>
+		</Row>-->
+		
+
+
+
+
+		<!--<Row>
+			<PolicyType>POLICY_AI_MEDIEVAL</PolicyType>
+			<PromotionType>PROMOTION_SUNDER_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<PromotionType>PROMOTION_SUNDER_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<PromotionType>PROMOTION_SUNDER_3</PromotionType>
+		</Row>-->
+		<Row>
+			<PolicyType>POLICY_AI_RENAISSANCE</PolicyType>
+			<PromotionType>PROMOTION_HUNTDOWN_1</PromotionType>
+		</Row>
+		<!--<Row>
+			<PolicyType>POLICY_AI_RENAISSANCE</PolicyType>
+			<PromotionType>PROMOTION_CQB_COMBAT_1</PromotionType>
+		</Row>-->
+		<Row>
+			<PolicyType>POLICY_AI_MODERN</PolicyType>
+			<PromotionType>PROMOTION_HUNTDOWN_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_HUNTDOWN_3</PromotionType>
+		</Row>
+		<!--<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_CQB_COMBAT_2</PromotionType>
+		</Row>-->
+
+
+		<!--<Row>
+			<PolicyType>POLICY_AI_MEDIEVAL</PolicyType>
+			<PromotionType>PROMOTION_FORMATION_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_RENAISSANCE</PolicyType>
+			<PromotionType>PROMOTION_FORMATION_2</PromotionType>
+		</Row>-->
+		
+		<!--<Row>
+			<PolicyType>POLICY_AI_MODERN</PolicyType>
+			<PromotionType>PROMOTION_AMBUSH_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_AMBUSH_2</PromotionType>
+		</Row>-->
+
+
+
+
+
+		<Row>
+			<PolicyType>POLICY_AI_MEDIEVAL</PolicyType>
+			<PromotionType>PROMOTION_HEAVY_SHOCK_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<PromotionType>PROMOTION_HEAVY_SHOCK_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<PromotionType>PROMOTION_HEAVY_SHOCK_3</PromotionType>
+		</Row>	
+		<Row>
+			<PolicyType>POLICY_AI_RENAISSANCE</PolicyType>
+			<PromotionType>PROMOTION_CHARGE_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_MODERN</PolicyType>
+			<PromotionType>PROMOTION_CHARGE_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_CHARGE_3</PromotionType>
+		</Row>
+
+
+		<!--<Row>
+			<PolicyType>POLICY_AI_MEDIEVAL</PolicyType>
+			<PromotionType>PROMOTION_FIRESUPPORT_UNIT_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<PromotionType>PROMOTION_FIRESUPPORT_UNIT_2</PromotionType>
+		</Row>-->
+
+
+		<!--<Row>
+			<PolicyType>POLICY_AI_MEDIEVAL</PolicyType>
+			<PromotionType>PROMOTION_BARRAGE_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<PromotionType>PROMOTION_BARRAGE_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<PromotionType>PROMOTION_BARRAGE_3</PromotionType>
+		</Row>-->
+
+
+		<!--<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<PromotionType>PROMOTION_FLANK_GUN_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_FLANK_GUN_2</PromotionType>
+		</Row>-->
+	
+
+
+
+		<!--<Row>
+			<PolicyType>POLICY_AI_MEDIEVAL</PolicyType>
+			<PromotionType>PROMOTION_VOLLEY</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<PromotionType>PROMOTION_VOLLEY_2</PromotionType>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_AI_MEDIEVAL</PolicyType>
+			<PromotionType>PROMOTION_VOLLEY</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<PromotionType>PROMOTION_VOLLEY_2</PromotionType>
+		</Row>-->
+
+
+		<!--<Row>
+			<PolicyType>POLICY_AI_MODERN</PolicyType>
+			<PromotionType>PROMOTION_CLUSTER_ROCKET_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_MODERN</PolicyType>
+			<PromotionType>PROMOTION_CLUSTER_ROCKET_2</PromotionType>
+		</Row>-->
+
+
+
+
+
+		<Row>
+			<PolicyType>POLICY_AI_MEDIEVAL</PolicyType>
+			<PromotionType>PROMOTION_BOARDING_PARTY_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<PromotionType>PROMOTION_BOARDING_PARTY_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<PromotionType>PROMOTION_BOARDING_PARTY_3</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_MEDIEVAL</PolicyType>
+			<PromotionType>PROMOTION_SCOUTING_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<PromotionType>PROMOTION_SCOUTING_2</PromotionType>
+		</Row>
+	
+
+
+
+
+		<!--<Row>
+			<PolicyType>POLICY_AI_MEDIEVAL</PolicyType>
+			<PromotionType>PROMOTION_COLLATERAL_DAMAGE_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<PromotionType>PROMOTION_COLLATERAL_DAMAGE_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<PromotionType>PROMOTION_COLLATERAL_DAMAGE_3</PromotionType>
+		</Row>-->
+
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<PromotionType>PROMOTION_CARRIER_SUPPLY_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<PromotionType>PROMOTION_CARRIER_SUPPLY_2</PromotionType>
+		</Row>
+
+
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<PromotionType>PROMOTION_INTERCEPTION_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_INTERCEPTION_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_INTERCEPTION_3</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_DOGFIGHTING_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_DOGFIGHTING_3</PromotionType>
+		</Row>
+
+
+		<!--<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<PromotionType>PROMOTION_AIR_BOMBARDMENT_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_AIR_BOMBARDMENT_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_AIR_BOMBARDMENT_3</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<PromotionType>PROMOTION_AIR_TARGETING_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_AIR_TARGETING_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_AIR_TARGETING_3</PromotionType>
+		</Row>-->
+
+		
+		<!--<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<PromotionType>PROMOTION_NAPALMBOMB_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_NAPALMBOMB_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_NAPALMBOMB_3</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_AIR_SIEGE_2</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_AIR_SIEGE_3</PromotionType>
+		</Row>-->
+		<!--<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<PromotionType>PROMOTION_DESTROY_SUPPLY_1</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<PromotionType>PROMOTION_DESTROY_SUPPLY_2</PromotionType>
+		</Row>-->
+
+
+		
+		
+		
+	</Policy_FreePromotions>
+	
+	
+	
+
+	<Policy_SpecialistExtraYields>
+		<Row>
+			<PolicyType>POLICY_AI_MEDIEVAL</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_RENAISSANCE</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_MODERN</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INFORMATION</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Policy_SpecialistExtraYields>
+
+
+	
+	<Policy_BuildingClassYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>5</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_MODERN</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>5</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>5</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INFORMATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>5</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INFORMATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MEDICAL_LAB</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>5</YieldMod>
+		</Row>
+
+
+		<Row>
+			<PolicyType>POLICY_AI_PLAYER_CITIES_10</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>15</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_PLAYER_CITIES_20</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>25</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_PLAYER_CITIES_30</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>35</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+
+	<Policy_BuildingClassTourismModifiers>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<TourismModifier>10</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_MODERN</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<TourismModifier>10</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<TourismModifier>15</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+			<TourismModifier>20</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INFORMATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+			<TourismModifier>25</TourismModifier>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_AI_PLAYER_CITIES_10</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<TourismModifier>25</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_PLAYER_CITIES_20</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<TourismModifier>33</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_PLAYER_CITIES_30</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+			<TourismModifier>66</TourismModifier>
+		</Row>
+	</Policy_BuildingClassTourismModifiers>
+</GameData>

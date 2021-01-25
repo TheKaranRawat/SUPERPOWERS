@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/31/2014 7:01:50 PM -->
+<GameData>
+	<!--**************************************************Belief Texts Tweak*************************************-->
+	<Language_en_US>
+		<Replace Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP">
+			<Text>+1 [ICON_PEACE] Faith and +1 [ICON_CULTURE] Culture from every Shrine.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_DANCE_AURORA">
+			<Text>+2 [ICON_PEACE] Faith from Tundra tiles without Forest (Resource tiles on Tundra without Forest also qualify). </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_MESSENGER_GODS">
+			<Text>+3 [ICON_RESEARCH] Science in cities with a City Connection.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GOD_CRAFTSMEN">
+			<Text>+1 [ICON_PEACE] Faith for each Amber, Jade, Coral and Lapis Lazuli resource.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_SUN_GOD">
+			<Text>+1 [ICON_PEACE] Faith for each Olive, Sugar, Perfume and Tobacco resource.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_EARTH_MOTHER">
+			<Text>+1 [ICON_PEACE] Faith for each Spices, Citrus, Banana and Cotton resource.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GODDESS_HUNT">
+			<Text>+1 [ICON_FOOD] Food and +1 [ICON_PEACE] Faith from Camps.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GURUSHIP">
+			<Text>+2 [ICON_PEACE] Faith if city has a Specialist.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS">
+			<Text>+50% faster border growth.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_PILGRIMAGE">
+			<Text>+4 [ICON_PEACE] Faith for each foreign city following this religion.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_HOLY_WARRIORS">
+			<Text>Allows you to purchase Knights Templar with [ICON_PEACE] Faith, a unit who can gain [ICON_PEACE] Faith by killing enemy units. </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_RELIGIOUS_FERVOR_SHORT">
+			<Text>Church Artists</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_RELIGIOUS_FERVOR">
+			<Text>Allows you to purchase the Church Artist with [ICON_PEACE] Faith, a religious unit who can start a [ICON_GOLDEN_AGE] Golden Age. </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_CEREMONIAL_BURIAL">
+			<Text>+1 [ICON_HAPPINESS_1] Global Happiness for each city following this religion.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_INITIATION_RITES">
+			<Text>+255 [ICON_GOLD] Gold when each city first converts to this religion. (At Normal Game Speed)</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY">
+			<Text>+6 [ICON_GOLD] Gold for each City following this religion.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GOD_WAR">
+			<Text>Gain [ICON_PEACE] Faith if you win a battle within 6 tiles if your city. </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_MONASTERIES">
+			<Text>Use [ICON_PEACE] Faith to purchase Monasteries, +2 [ICON_PEACE] Faith, +1 [ICON_CULTURE] Culture, +25% [ICON_GREAT_PEOPLE] Great People generation rate in the city. </Text>
+		</Replace>
+
+
+		<Replace Tag="TXT_KEY_BELIEF_GODDESS_STRATEGY">
+			<Text>+100% [ICON_RANGE_STRENGTH] Ranged Combat Strength. </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_RELIGIOUS_ART">
+			<Text>+4 [ICON_TOURISM] Tourism from the Grand Shrine.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_FEED_WORLD">
+			<Text>+2 [ICON_FOOD] Food for every Shrine and Temple. </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_FERTILITY_RITES">
+			<Text>+2 [ICON_PEACE] Faith for every Granary. </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_MONUMENT_GODS">
+			<Text>+2 [ICON_PEACE] Faith for every Monument.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_STONE_CIRCLES">
+			<Text>+2 [ICON_PEACE] Faith from Quarries and +2 [ICON_PEACE] Faith for every Stone Works.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_FORMAL_LITURGY">
+			<Text>+1 [ICON_PEACE] Faith for each Gold, Silver, Copper, Iron and Salt.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GOD_FESTIVALS">
+			<Text>+2 [ICON_PEACE] Faith for each Wine and Incense. Wine and Incense provide +2 [ICON_HAPPINESS_1] Happiness. </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_PEACE_GARDENS">
+			<Text>+4 [ICON_TOURISM] Tourism from every Garden.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_SWORD_PLOWSHARES">
+			<Text>+25% [ICON_FOOD] Food Growth rate for city if not at war.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GOD_SEA">
+			<Text>+1 [ICON_CULTURE] Culture for every Fishing Net. </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_TEARS_OF_GODS">
+			<Text>+2 [ICON_PEACE] Faith for every Gem and Pearl. Gem and Pearl provide +2 [ICON_HAPPINESS_1] Happiness. </Text>
+		</Replace>
+
+
+
+		
+
+		<!--**************************************************New Belief Texts*************************************-->
+
+		<Row Tag="TXT_KEY_BELIEF_MARSH_BELIEF_SHORT">
+			<Text>Swamp Belief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MARSH_BELIEF">
+			<Text>+3 [ICON_PEACE] Faith from Marsh tiles. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_SNOW_BELIEF_SHORT">
+			<Text>Snow Spirit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_SNOW_BELIEF">
+			<Text>+2 [ICON_PEACE] Faith and +1 [ICON_FOOD] Food from tiles covered with Snow.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RIVER_CRAFTSMAN_SHORT">
+			<Text>Sudoku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RIVER_CRAFTSMAN">
+			<Text>+2 [ICON_HAPPINESS_1] Happiness for every Watermill.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MAZU_SHORT">
+			<Text>Worship of Mazu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MAZU">
+			<Text>+2 [ICON_HAPPINESS_1] Happiness for every Harbor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CHARITES_SHORT">
+			<Text>Worship of Charites</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CHARITES">
+			<Text>+2 [ICON_CULTURE] Culture for every Amphitheatre, Art Gallery and Opera House.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_EIRENE_SHORT">
+			<Text>Universal Love</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_EIRENE">
+			<Text>+15% [ICON_CULTURE] Culture for The Empire if not at war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_SCIENCE_RELIGION_SHORT">
+			<Text>Juku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_SCIENCE_RELIGION">
+			<Text>+1% [ICON_RESEARCH] Science for each follower (max +15%).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_TOURISM_RELIGION_SHORT">
+			<Text>The Sacred Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_TOURISM_RELIGION">
+			<Text>+8 [ICON_TOURISM] Tourism from the Grand Temple.</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_BELIEF_SFAITH_WITHOUT_BORDER_SHORT">
+			<Text>Faith Without Borders</Text>
+		</Row>-->
+		<!--<Row Tag="TXT_KEY_BELIEF_FAITH_WITHOUT_BORDERS">
+			<Text>+1 [ICON_PEACE] Faith for every 5 followers of this religion in other civilizations.</Text>
+		</Row>-->
+
+		<Row Tag="TXT_KEY_UNIT_TEUTONIC_KNIGHT_STRATEGY">
+			<Text>The Knights Templar is a powerful Religious Combat Unit. It can earn a mixture of faith and gold whenever it defeats an enemy, equal to 100% of their strength. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TEUTONIC_KNIGHT_HELP">
+			<Text>Earns [ICON_PEACE] Faith and [ICON_GOLD] Gold from kills. Only after adopting the [COLOR_POSITIVE_TEXT]Holy Warrior[ENDCOLOR] Belief can you purchase it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TEUTONIC_KNIGHT_DESC">
+			<Text>Knights Templar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_TEUTONIC_KNIGHT_TEXT">
+			<Text>The Poor Fellow-Soldiers of Christ and of the Temple of Solomon (Latin: Pauperes commilitones Christi Templique Salomonici), commonly known as the Knights Templar, the Order of the Temple (French: Ordre du Temple or Templiers) or simply as Templars, were among the most wealthy and powerful of the Western Christian military orders and were among the most prominent actors of the Christian finance. </Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_CHURCH_ARTIST_STRATEGY">
+			<Text>The Church Artist is a religious unit. it can start a [ICON_GOLDEN_AGE] Golden Age like the Great Artist. As a result, you can reserve your artists to create great works.[NEWLINE][NEWLINE](It has Combat Strength because if not so, everybody can buy it - the game treats it as standard religious unit)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CHURCH_ARTIST">
+			<Text>Can start a [ICON_GOLDEN_AGE] Golden Age. Only after adopting the [COLOR_POSITIVE_TEXT]Church Artists[ENDCOLOR] Belief can you purchase it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CHURCH_ARTIST">
+			<Text>Church Artist</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_CHURCH_ARTIST_TEXT">
+			<Text>Mujahideen (Arabic: مجاهد‎ muǧāhid, nominative plural مجاهدون muǧāhidūn, oblique plural مجاهدين muǧāhidīn "strugglers" or "people doing jihad") is a term that Muslims use to describe those they see as Muslims who struggle in the path of Allah. </Text>
+		</Row>-->
+		<Row Tag="TXT_KEY_PROMOTION_ARTIST_PROMOTION">
+			<Text>Church Artist Unit</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

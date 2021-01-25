@@ -1,0 +1,1124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	
+	
+	
+	<!--****************************************Civilian******************************-->
+
+	<UnitClasses>
+		<Row>
+			<ID>0</ID>
+			<Type>UNITCLASS_SETTLER</Type>
+			<Description>TXT_KEY_UNIT_SETTLER</Description>
+			<DefaultUnit>UNIT_SETTLER</DefaultUnit>
+			<MaxPlayerInstances>10</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_WORKER</Type>
+			<Description>TXT_KEY_UNIT_WORKER</Description>
+			<DefaultUnit>UNIT_WORKER</DefaultUnit>
+			<!--<MaxPlayerInstances>45</MaxPlayerInstances>-->
+		</Row>
+
+
+		<Row>
+			<Type>UNITCLASS_PROPHET</Type>
+			<Description>TXT_KEY_UNIT_PROPHET</Description>
+			<DefaultUnit>UNIT_PROPHET</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MISSIONARY</Type>
+			<Description>TXT_KEY_UNIT_MISSIONARY</Description>
+			<DefaultUnit>UNIT_MISSIONARY</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_INQUISITOR</Type>
+			<Description>TXT_KEY_UNIT_INQUISITOR</Description>
+			<DefaultUnit>UNIT_INQUISITOR</DefaultUnit>
+		</Row>
+
+		<Row>
+			<Type>UNITCLASS_ARCHAEOLOGIST</Type>
+			<Description>TXT_KEY_UNIT_ARCHAEOLOGIST</Description>
+			<DefaultUnit>UNIT_ARCHAEOLOGIST</DefaultUnit>
+			<MaxPlayerInstances>10</MaxPlayerInstances>
+		</Row>
+
+		<Row>
+			<Type>UNITCLASS_CARGO_SHIP</Type>
+			<Description>TXT_KEY_UNIT_CARGO_SHIP</Description>
+			<DefaultUnit>UNIT_CARGO_SHIP</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CARAVAN</Type>
+			<Description>TXT_KEY_UNIT_CARAVAN</Description>
+			<DefaultUnit>UNIT_CARAVAN</DefaultUnit>
+		</Row>
+
+		<Row>
+			<Type>UNITCLASS_WRITER</Type>
+			<Description>TXT_KEY_UNIT_GREAT_WRITER</Description>
+			<DefaultUnit>UNIT_WRITER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MUSICIAN</Type>
+			<Description>TXT_KEY_UNIT_GREAT_MUSICIAN</Description>
+			<DefaultUnit>UNIT_MUSICIAN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_BRAZIL_SCOCCER_STAR</Type>
+			<Description>TXT_KEY_UNIT_BRAZIL_SCOCCER_STAR</Description>
+			<DefaultUnit>UNIT_BRAZIL_SCOCCER_STAR</DefaultUnit>
+		</Row>
+
+
+
+		<Row>
+			<Type>UNITCLASS_ARTIST</Type>
+			<Description>TXT_KEY_UNIT_GREAT_ARTIST</Description>
+			<DefaultUnit>UNIT_ARTIST</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SCIENTIST</Type>
+			<Description>TXT_KEY_UNIT_GREAT_SCIENTIST</Description>
+			<DefaultUnit>UNIT_SCIENTIST</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MERCHANT</Type>
+			<Description>TXT_KEY_UNIT_GREAT_MERCHANT</Description>
+			<DefaultUnit>UNIT_MERCHANT</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ENGINEER</Type>
+			<Description>TXT_KEY_UNIT_GREAT_ENGINEER</Description>
+			<DefaultUnit>UNIT_ENGINEER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_GREAT_GENERAL</Type>
+			<Description>TXT_KEY_UNIT_GREAT_GENERAL</Description>
+			<DefaultUnit>UNIT_GREAT_GENERAL</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_GREAT_ADMIRAL</Type>
+			<Description>TXT_KEY_UNIT_GREAT_ADMIRAL</Description>
+			<DefaultUnit>UNIT_GREAT_ADMIRAL</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SS_COCKPIT</Type>
+			<Description>TXT_KEY_SS_COCKPIT</Description>
+			<DefaultUnit>UNIT_SS_COCKPIT</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SS_STASIS_CHAMBER</Type>
+			<Description>TXT_KEY_SS_STASIS_CHAMBER</Description>
+			<DefaultUnit>UNIT_SS_STASIS_CHAMBER</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SS_ENGINE</Type>
+			<Description>TXT_KEY_SS_ENGINE</Description>
+			<DefaultUnit>UNIT_SS_ENGINE</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SS_BOOSTER</Type>
+			<Description>TXT_KEY_SS_BOOSTER</Description>
+			<DefaultUnit>UNIT_SS_BOOSTER</DefaultUnit>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
+		</Row>
+
+		</UnitClasses>
+
+
+
+
+	<!--****************************************Citadel Units******************************-->
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_CITADEL_EARLY</Type>
+			<Description>TXT_KEY_CITADEL_EARLY</Description>
+			<DefaultUnit>UNIT_CITADEL_EARLY</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CITADEL_MID</Type>
+			<Description>TXT_KEY_CITADEL_MID</Description>
+			<DefaultUnit>UNIT_CITADEL_MID</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CITADEL_LATE</Type>
+			<Description>TXT_KEY_CITADEL_LATE</Description>
+			<DefaultUnit>UNIT_CITADEL_LATE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	
+	
+
+	<!--****************************************Land******************************-->
+
+	<UnitClasses>
+		
+		<!--******Militia******-->
+		<Row>
+			<Type>UNITCLASS_WARRIOR</Type>
+			<Description>TXT_KEY_UNIT_WARRIOR</Description>
+			<DefaultUnit>UNIT_WARRIOR</DefaultUnit>
+			<!--<MaxPlayerInstances>50</MaxPlayerInstances>-->
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MILITIA_ANCIENT</Type>
+			<Description>TXT_KEY_UNIT_MILITIA_ANCIENT</Description>
+			<DefaultUnit>UNIT_MILITIA_ANCIENT</DefaultUnit>
+			<!--<MaxPlayerInstances>60</MaxPlayerInstances>-->
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MINUTEMAN</Type>
+			<Description>TXT_KEY_UNIT_AMERICAN_MINUTEMAN</Description>
+			<DefaultUnit>UNIT_AMERICAN_MINUTEMAN</DefaultUnit>
+			<!--<MaxPlayerInstances>70</MaxPlayerInstances>-->
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CONSCRIPTMAN</Type>
+			<Description>TXT_KEY_UNIT_CONSCRIPTMAN</Description>
+			<DefaultUnit>UNIT_CONSCRIPTMAN</DefaultUnit>
+			<!--<MaxPlayerInstances>80</MaxPlayerInstances>-->
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MILITIA_MODERN</Type>
+			<Description>TXT_KEY_UNIT_MILITIA_MODERN</Description>
+			<DefaultUnit>UNIT_MILITIA_MODERN</DefaultUnit>
+			<!--<MaxPlayerInstances>90</MaxPlayerInstances>-->
+		</Row>
+
+
+		<!--******Special Forces******-->
+
+		<Row>
+			<Type>UNITCLASS_NATIONAL_GUARD</Type>
+			<Description>TXT_KEY_UNIT_NATIONAL_GUARD</Description>
+			<DefaultUnit>UNIT_NATIONAL_GUARD</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_GUN_GUARD</Type>
+			<Description>TXT_KEY_UNIT_FRENCH_MUSKETEER</Description>
+			<DefaultUnit>UNIT_FRENCH_MUSKETEER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_WWI_PARATROOPER</Type>
+			<Description>TXT_KEY_UNIT_WWI_PARATROOPER</Description>
+			<DefaultUnit>UNIT_WWI_PARATROOPER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MARINE</Type>
+			<Description>TXT_KEY_UNIT_MARINE</Description>
+			<DefaultUnit>UNIT_MARINE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_PARATROOPER</Type>
+			<Description>TXT_KEY_UNIT_PARATROOPER</Description>
+			<DefaultUnit>UNIT_PARATROOPER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_XCOM_SQUAD</Type>
+			<Description>TXT_KEY_UNIT_XCOM_SQUAD</Description>
+			<DefaultUnit>UNIT_XCOM_SQUAD</DefaultUnit>
+		</Row>
+
+
+		<!--******Infantry******-->
+		<Row>
+			<Type>UNITCLASS_SWORDSMAN</Type>
+			<Description>TXT_KEY_UNIT_SWORDSMAN</Description>
+			<DefaultUnit>UNIT_SWORDSMAN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_LONGSWORDSMAN</Type>
+			<Description>TXT_KEY_UNIT_LONGSWORDSMAN</Description>
+			<DefaultUnit>UNIT_LONGSWORDSMAN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MUSKETMAN</Type>
+			<Description>TXT_KEY_UNIT_MUSKETMAN</Description>
+			<DefaultUnit>UNIT_MUSKETMAN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_RIFLEMAN</Type>
+			<Description>TXT_KEY_UNIT_RIFLEMAN</Description>
+			<DefaultUnit>UNIT_RIFLEMAN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_GREAT_WAR_INFANTRY</Type>
+			<Description>TXT_KEY_UNIT_GREAT_WAR_INFANTRY</Description>
+			<DefaultUnit>UNIT_GREAT_WAR_INFANTRY</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FOREIGNLEGION</Type>
+			<Description>TXT_KEY_UNIT_FRENCH_FOREIGNLEGION</Description>
+			<DefaultUnit>UNIT_FRENCH_FOREIGNLEGION</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_INFANTRY</Type>
+			<Description>TXT_KEY_UNIT_INFANTRY</Description>
+			<DefaultUnit>UNIT_INFANTRY</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MOTORISED_INFANTRY</Type>
+			<Description>TXT_KEY_UNIT_MOTORISED_INFANTRY</Description>
+			<DefaultUnit>UNIT_MOTORISED_INFANTRY</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MECHANIZED_INFANTRY</Type>
+			<Description>TXT_KEY_UNIT_MECHANIZED_INFANTRY</Description>
+			<DefaultUnit>UNIT_MECHANIZED_INFANTRY</DefaultUnit>
+		</Row>
+
+
+		<!--******Counter******-->
+
+		<Row>
+			<Type>UNITCLASS_SPEARMAN</Type>
+			<Description>TXT_KEY_UNIT_SPEARMAN</Description>
+			<DefaultUnit>UNIT_SPEARMAN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_PIKEMAN</Type>
+			<Description>TXT_KEY_UNIT_PIKEMAN</Description>
+			<DefaultUnit>UNIT_PIKEMAN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_TERCIO</Type>
+			<Description>TXT_KEY_UNIT_SPANISH_TERCIO</Description>
+			<DefaultUnit>UNIT_SPANISH_TERCIO</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ANTI_TANK_GUN</Type>
+			<Description>TXT_KEY_UNIT_AT_GUN</Description>
+			<DefaultUnit>UNIT_ANTI_TANK_GUN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_TANK_DESTROYER</Type>
+			<Description>TXT_KEY_UNIT_TANK_DESTROYER</Description>
+			<DefaultUnit>UNIT_TANK_DESTROYER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ATGM_VEHICLE</Type>
+			<Description>TXT_KEY_UNIT_ATGM_VEHICLE</Description>
+			<DefaultUnit>UNIT_ATGM_VEHICLE</DefaultUnit>
+		</Row>
+
+
+		<!--******Recon******-->
+		<Row>
+			<Type>UNITCLASS_SCOUT</Type>
+			<Description>TXT_KEY_UNIT_SCOUT</Description>
+			<DefaultUnit>UNIT_SCOUT</DefaultUnit>
+		</Row>
+		<!--<Row>
+			<Type>UNITCLASS_SCOUT_HORSEMAN</Type>
+			<Description>TXT_KEY_UNIT_OTTOMAN_SIPAHI</Description>
+			<DefaultUnit>UNIT_OTTOMAN_SIPAHI</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_RECON_CAVALRY</Type>
+			<Description>TXT_KEY_UNIT_RECON_CAVALRY</Description>
+			<DefaultUnit>UNIT_RECON_CAVALRY</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_STEAM_DIRIGEABLE</Type>
+			<Description>TXT_KEY_UNIT_DIRIGEABLE</Description>
+			<DefaultUnit>UNIT_DIRIGEABLE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SCOUT_HELICOPTER</Type>
+			<Description>TXT_KEY_UNIT_SCOUT_HELICOPTER</Description>
+			<DefaultUnit>UNIT_SCOUT_HELICOPTER</DefaultUnit>
+		</Row>
+-->
+		
+		
+		
+		<!--******Heavy Mobile******-->
+		<Row>
+			<Type>UNITCLASS_HORSEMAN</Type>
+			<Description>TXT_KEY_UNIT_HORSEMAN</Description>
+			<DefaultUnit>UNIT_HORSEMAN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_KNIGHT</Type>
+			<Description>TXT_KEY_UNIT_KNIGHT</Description>
+			<DefaultUnit>UNIT_KNIGHT</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_LANCER</Type>
+			<Description>Lancers</Description>
+			<DefaultUnit>UNIT_LANCER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_WWI_TANK</Type>
+			<Description>TXT_KEY_UNIT_WWI_TANK</Description>
+			<DefaultUnit>UNIT_WWI_TANK</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_TANK</Type>
+			<Description>TXT_KEY_UNIT_TANK</Description>
+			<DefaultUnit>UNIT_TANK</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MAIN_BATTLE_TANK</Type>
+			<Description>TXT_KEY_UNIT_MAIN_BATTLE_TANK</Description>
+			<DefaultUnit>UNIT_MAIN_BATTLE_TANK</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MODERN_ARMOR</Type>
+			<Description>TXT_KEY_UNIT_MODERN_ARMOR</Description>
+			<DefaultUnit>UNIT_MODERN_ARMOR</DefaultUnit>
+		</Row>
+
+
+		<!--*****Land H&R******-->
+		<Row>
+			<Type>UNITCLASS_CHARIOT_ARCHER</Type>
+			<Description>TXT_KEY_UNIT_CHARIOT_ARCHER</Description>
+			<DefaultUnit>UNIT_CHARIOT_ARCHER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MEDIEVAL_CHARIOT</Type>
+			<Description>TXT_KEY_UNIT_MEDIEVAL_CHARIOT</Description>
+			<DefaultUnit>UNIT_MEDIEVAL_CHARIOT</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_BOMBARD</Type>
+			<Description>TXT_KEY_UNIT_BOMBARD</Description>
+			<DefaultUnit>UNIT_BOMBARD</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CAVALRY</Type>
+			<Description>TXT_KEY_UNIT_CAVALRY</Description>
+			<DefaultUnit>UNIT_CAVALRY</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CRUISER_TANK</Type>
+			<Description>TXT_KEY_CRUISER_TANK</Description>
+			<DefaultUnit>UNIT_CRUISER_TANK</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_HELICOPTER_GUNSHIP</Type>
+			<Description>TXT_KEY_UNIT_HELICOPTER_GUNSHIP</Description>
+			<DefaultUnit>UNIT_HELICOPTER_GUNSHIP</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ATTACK_HELICOPTER</Type>
+			<Description>TXT_KEY_UNIT_ATTACK_HELICOPTER</Description>
+			<DefaultUnit>UNIT_ATTACK_HELICOPTER</DefaultUnit>
+		</Row>
+
+		<!--*****Archery&Anti-air******-->
+
+		<Row>
+			<Type>UNITCLASS_ARCHER</Type>
+			<Description>TXT_KEY_UNIT_ARCHER</Description>
+			<DefaultUnit>UNIT_ARCHER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_COMPOSITE_BOWMAN</Type>
+			<Description>TXT_KEY_UNIT_COMPOSITE_BOWMAN</Description>
+			<DefaultUnit>UNIT_COMPOSITE_BOWMAN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CROSSBOWMAN</Type>
+			<Description>TXT_KEY_UNIT_CROSSBOWMAN</Description>
+			<DefaultUnit>UNIT_CROSSBOWMAN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_VOLLEY_GUN</Type>
+			<Description>TXT_KEY_UNIT_VOLLEY_GUN</Description>
+			<DefaultUnit>UNIT_VOLLEY_GUN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_GATLINGGUN</Type>
+			<Description>TXT_KEY_UNIT_GATLINGGUN</Description>
+			<DefaultUnit>UNIT_GATLINGGUN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MACHINE_GUN</Type>
+			<Description>TXT_KEY_UNIT_MACHINE_GUN</Description>
+			<DefaultUnit>UNIT_MACHINE_GUN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ANTI_AIRCRAFT_GUN</Type>
+			<Description>TXT_KEY_UNIT_ANTI_AIRCRAFT_GUN</Description>
+			<DefaultUnit>UNIT_ANTI_AIRCRAFT_GUN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MOBILE_AA_GUN</Type>
+			<Description>TXT_KEY_UNIT_MOBILE_AA_GUN</Description>
+			<DefaultUnit>UNIT_MOBILE_AA_GUN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SAM_INFANTRY</Type>
+			<Description>TXT_KEY_UNIT_SAM_INFANTRY</Description>
+			<DefaultUnit>UNIT_SAM_INFANTRY</DefaultUnit>
+		</Row>
+
+
+		<!--*****Siege******-->
+
+		<Row>
+			<Type>UNITCLASS_CATAPULT</Type>
+			<Description>TXT_KEY_UNIT_CATAPULT</Description>
+			<DefaultUnit>UNIT_CATAPULT</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_TREBUCHET</Type>
+			<Description>TXT_KEY_UNIT_TREBUCHET</Description>
+			<DefaultUnit>UNIT_TREBUCHET</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CULVERIN</Type>
+			<Description>TXT_KEY_UNIT_CULVERIN</Description>
+			<DefaultUnit>UNIT_CULVERIN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CANNON</Type>
+			<Description>TXT_KEY_UNIT_CANNON</Description>
+			<DefaultUnit>UNIT_CANNON</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_HOWITZER</Type>
+			<Description>TXT_KEY_UNIT_HOWITZER</Description>
+			<DefaultUnit>UNIT_HOWITZER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ARTILLERY</Type>
+			<Description>TXT_KEY_UNIT_ARTILLERY</Description>
+			<DefaultUnit>UNIT_ARTILLERY</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SELF_PROPELLED_ARTILLERY</Type>
+			<Description>TXT_KEY_UNIT_SELF_PROPELLED_ARTILLERY</Description>
+			<DefaultUnit>UNIT_SELF_PROPELLED_ARTILLERY</DefaultUnit>
+		</Row>
+
+
+		<!--*****AOE Weapon******-->
+		<Row>
+			<Type>UNITCLASS_RAILROAD_GUN</Type>
+			<Description>TXT_KEY_UNIT_RAILROAD_GUN</Description>
+			<DefaultUnit>UNIT_RAILROAD_GUN</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_KATYUSHA</Type>
+			<Description>TXT_KEY_UNIT_KATYUSHA</Description>
+			<DefaultUnit>UNIT_KATYUSHA</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ROCKET_ARTILLERY</Type>
+			<Description>TXT_KEY_UNIT_ROCKET_ARTILLERY</Description>
+			<DefaultUnit>UNIT_ROCKET_ARTILLERY</DefaultUnit>
+		</Row>
+		
+		
+	</UnitClasses>
+
+
+	<!--****************************************Naval******************************-->
+
+
+	<UnitClasses>
+		<!--<Row>
+			<Type>UNITCLASS_GALLEY</Type>
+			<Description>TXT_KEY_UNIT_GALLEY</Description>
+			<DefaultUnit>NONE</DefaultUnit>
+		</Row>-->
+		
+		
+		
+		<Row>
+			<Type>UNITCLASS_NAVAL_MILITIA</Type>
+			<Description>TXT_KEY_UNIT_NAVAL_MILITIA</Description>
+			<DefaultUnit>UNIT_NAVAL_MILITIA</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MONITOR_SHIP</Type>
+			<Description>TXT_KEY_UNIT_MONITOR_SHIP</Description>
+			<DefaultUnit>UNIT_MONITOR_SHIP</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CORVETTE</Type>
+			<Description>TXT_KEY_UNIT_CORVETTE</Description>
+			<DefaultUnit>UNIT_CORVETTE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_LITTORAL_COMBAT_SHIP</Type>
+			<Description>TXT_KEY_UNIT_LITTORAL_COMBAT_SHIP</Description>
+			<DefaultUnit>UNIT_LITTORAL_COMBAT_SHIP</DefaultUnit>
+		</Row>
+		
+		<Row>
+			<Type>UNITCLASS_TRIREME</Type>
+			<Description>TXT_KEY_UNIT_TRIREME</Description>
+			<DefaultUnit>UNIT_TRIREME</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_GALLEASS</Type>
+			<Description>TXT_KEY_UNIT_GALLEASS</Description>
+			<DefaultUnit>UNIT_GALLEASS</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FRIGATE</Type>
+			<Description>TXT_KEY_UNIT_FRIGATE</Description>
+			<DefaultUnit>UNIT_FRIGATE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_IRONCLAD</Type>
+			<Description>TXT_KEY_UNIT_IRONCLAD</Description>
+			<DefaultUnit>UNIT_IRONCLAD</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_DESTROYER</Type>
+			<Description>TXT_KEY_UNIT_DESTROYER</Description>
+			<DefaultUnit>UNIT_DESTROYER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MODERN_DESTROYER</Type>
+			<Description>TXT_KEY_UNIT_MODERN_DESTROYER</Description>
+			<DefaultUnit>UNIT_MODERN_DESTROYER</DefaultUnit>
+		</Row>
+
+
+		<Row>
+			<Type>UNITCLASS_FIRE_SHIP</Type>
+			<Description>TXT_KEY_UNIT_BYZANTINE_DROMON</Description>
+			<DefaultUnit>UNIT_BYZANTINE_DROMON</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SLOOP_OF_WAR</Type>
+			<Description>TXT_KEY_UNIT_SLOOP_OF_WAR</Description>
+			<DefaultUnit>UNIT_SLOOP_OF_WAR</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_LIGHT_IRONCLAD</Type>
+			<Description>TXT_KEY_UNIT_LIGHT_IRONCLAD</Description>
+			<DefaultUnit>UNIT_LIGHT_IRONCLAD</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SUBMARINE</Type>
+			<Description>TXT_KEY_UNIT_SUBMARINE</Description>
+			<DefaultUnit>UNIT_SUBMARINE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_NUCLEAR_SUBMARINE</Type>
+			<Description>TXT_KEY_UNIT_NUCLEAR_SUBMARINE</Description>
+			<DefaultUnit>UNIT_NUCLEAR_SUBMARINE</DefaultUnit>
+		</Row>
+
+
+		<Row>
+			<Type>UNITCLASS_GREAT_GALLEASS</Type>
+			<Description>TXT_KEY_UNIT_VENETIAN_GALLEASS</Description>
+			<DefaultUnit>UNIT_VENETIAN_GALLEASS</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SHIP_OF_THE_LINE</Type>
+			<Description>TXT_KEY_UNIT_SHIP_OF_THE_LINE</Description>
+			<DefaultUnit>UNIT_SHIP_OF_THE_LINE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_PROTECTED_CRUISER</Type>
+			<Description>TXT_KEY_UNIT_PROTECTED_CRUISER</Description>
+			<DefaultUnit>UNIT_PROTECTED_CRUISER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_HEAVY_CRUISER</Type>
+			<Description>TXT_KEY_UNIT_HEAVY_CRUISER</Description>
+			<DefaultUnit>UNIT_HEAVY_CRUISER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MISSILE_CRUISER</Type>
+			<Description>TXT_KEY_UNIT_MISSILE_CRUISER</Description>
+			<DefaultUnit>UNIT_MISSILE_CRUISER</DefaultUnit>
+		</Row>
+		
+		
+		
+		<Row>
+			<Type>UNITCLASS_DREADNOUGHT</Type>
+			<Description>TXT_KEY_UNIT_DREADNOUGHT</Description>
+			<DefaultUnit>UNIT_DREADNOUGHT</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_BATTLESHIP</Type>
+			<Description>TXT_KEY_UNIT_BATTLESHIP</Description>
+			<DefaultUnit>UNIT_BATTLESHIP</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FUTURE_BATTLESHIP</Type>
+			<Description>TXT_KEY_UNIT_FUTURE_BATTLESHIP</Description>
+			<DefaultUnit>UNIT_FUTURE_BATTLESHIP</DefaultUnit>
+		</Row>
+
+		
+		<Row>
+			<Type>UNITCLASS_CARRIER</Type>
+			<Description>TXT_KEY_UNIT_CARRIER</Description>
+			<DefaultUnit>UNIT_CARRIER</DefaultUnit>
+			<MaxPlayerInstances>20</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_NUCLEAR_CARRIER</Type>
+			<Description>TXT_KEY_UNIT_NUCLEAR_CARRIER</Description>
+			<DefaultUnit>UNIT_NUCLEAR_CARRIER</DefaultUnit>
+			<MaxPlayerInstances>25</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SUPER_CARRIER</Type>
+			<Description>TXT_KEY_UNIT_SUPER_CARRIER</Description>
+			<DefaultUnit>UNIT_SUPER_CARRIER</DefaultUnit>
+			<MaxPlayerInstances>30</MaxPlayerInstances>
+		</Row>
+
+
+		<Row>
+			<Type>UNITCLASS_CARAVEL</Type>
+			<Description>TXT_KEY_UNIT_CARAVEL</Description>
+			<DefaultUnit>UNIT_CARAVEL</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_EXPLORERX</Type>
+			<Description>TXT_KEY_UNIT_EXPLORERX</Description>
+			<DefaultUnit>UNIT_EXPLORERX</DefaultUnit>
+		</Row>	
+		
+		
+		<Row>
+			<Type>UNITCLASS_SSBN</Type>
+			<Description>TXT_KEY_UNIT_SSBN</Description>
+			<DefaultUnit>UNIT_SSBN</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+
+
+	<!--****************************************Air******************************-->
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_TRIPLANE</Type>
+			<Description>TXT_KEY_UNIT_TRIPLANE</Description>
+			<DefaultUnit>UNIT_TRIPLANE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FIGHTER</Type>
+			<Description>TXT_KEY_UNIT_FIGHTER</Description>
+			<DefaultUnit>UNIT_FIGHTER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_INTERCEPTER</Type>
+			<Description>TXT_KEY_UNIT_INTERCEPTER</Description>
+			<DefaultUnit>UNIT_INTERCEPTER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_JET_FIGHTER</Type>
+			<Description>TXT_KEY_UNIT_JET_FIGHTER</Description>
+			<DefaultUnit>UNIT_JET_FIGHTER</DefaultUnit>
+		</Row>
+
+		<Row>
+			<Type>UNITCLASS_WWI_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_WWI_BOMBER</Description>
+			<DefaultUnit>UNIT_WWI_BOMBER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_DIVE_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_DIVE_BOMBER</Description>
+			<DefaultUnit>UNIT_DIVE_BOMBER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ATTACK_AIRCRAFT</Type>
+			<Description>TXT_KEY_UNIT_ATTACK_AIRCRAFT</Description>
+			<DefaultUnit>UNIT_ATTACK_AIRCRAFT</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_STEALTH_ATTACK_AIRCRAFT</Type>
+			<Description>TXT_KEY_UNIT_STEALTH_ATTACK_AIRCRAFT</Description>
+			<DefaultUnit>UNIT_STEALTH_ATTACK_AIRCRAFT</DefaultUnit>
+		</Row>
+
+
+		<Row>
+			<Type>UNITCLASS_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_BOMBER</Description>
+			<DefaultUnit>UNIT_BOMBER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_JET_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_JET_BOMBER</Description>
+			<DefaultUnit>UNIT_JET_BOMBER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_STEALTH_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_STEALTH_BOMBER</Description>
+			<DefaultUnit>UNIT_STEALTH_BOMBER</DefaultUnit>
+		</Row>
+
+		
+		<Row>
+			<Type>UNITCLASS_CARRIER_FIGHTER_ADV</Type>
+			<Description>TXT_KEY_UNIT_CARRIER_FIGHTER_ADV</Description>
+			<DefaultUnit>UNIT_CARRIER_FIGHTER_ADV</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CARRIER_FIGHTER_JET</Type>
+			<Description>TXT_KEY_UNIT_CARRIER_FIGHTER_JET</Description>
+			<DefaultUnit>UNIT_CARRIER_FIGHTER_JET</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CARRIER_FIGHTER_WWII</Type>
+			<Description>TXT_KEY_UNIT_JAPANESE_ZERO</Description>
+			<DefaultUnit>UNIT_JAPANESE_ZERO</DefaultUnit>
+		</Row>
+
+
+		<Row>
+			<Type>UNITCLASS_GUIDED_MISSILE</Type>
+			<Description>TXT_KEY_UNIT_GUIDED_MISSILE</Description>
+			<DefaultUnit>UNIT_GUIDED_MISSILE</DefaultUnit>
+		</Row>
+
+		<Row>
+			<Type>UNITCLASS_UAV</Type>
+			<Description>TXT_KEY_UNIT_UAV</Description>
+			<DefaultUnit>UNIT_UAV</DefaultUnit>
+		</Row>
+
+		<Row>
+			<Type>UNITCLASS_EMP_BOMBER_AIR</Type>
+			<Description>TXT_KEY_UNIT_EMP_BOMBER_AIR</Description>
+			<DefaultUnit>UNIT_EMP_BOMBER_AIR</DefaultUnit>
+		</Row>
+
+
+		<Row>
+			<Type>UNITCLASS_ATOMIC_BOMB</Type>
+			<Description>Atomic Bomb</Description>
+			<DefaultUnit>UNIT_ATOMIC_BOMB</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_NUCLEAR_MISSILE</Type>
+			<Description>TXT_KEY_UNIT_NUCLEAR_MISSILE</Description>
+			<DefaultUnit>UNIT_NUCLEAR_MISSILE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ICBM_MISSILE</Type>
+			<Description>TXT_KEY_UNIT_ICBM_MISSILE</Description>
+			<DefaultUnit>UNIT_ICBM_MISSILE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	
+	
+	
+	
+	
+	<!--****************Elite Unit Classes******************************-->
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SPARTAN300</Type>
+			<Description>TXT_KEY_UNIT_SPARTAN300</Description>
+			<DefaultUnit>UNIT_SPARTAN300</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_NUMIDIAN</Type>
+			<Description>TXT_KEY_UNIT_NUMIDIAN</Description>
+			<DefaultUnit>UNIT_NUMIDIAN</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_LONGBOWMAN</Type>
+			<Description>TXT_KEY_UNIT_ENGLISH_LONGBOWMAN</Description>
+			<DefaultUnit>UNIT_ENGLISH_LONGBOWMAN</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ELITE_RIDER</Type>
+			<Description>TXT_KEY_UNIT_ELITE_RIDER</Description>
+			<DefaultUnit>UNIT_ELITE_RIDER</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_LANDSKNECHT</Type>
+			<Description>TXT_KEY_UNIT_GERMAN_LANDSKNECHT</Description>
+			<DefaultUnit>UNIT_GERMAN_LANDSKNECHT</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_PROTOTYPE_HWACHA</Type>
+			<Description>TXT_KEY_CIV5_KOREA_HWACHA_HEADING</Description>
+			<DefaultUnit>UNIT_KOREAN_HWACHA</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MUSKETEER</Type>
+			<Description>TXT_KEY_UNIT_DANISH_SKI_INFANTRY</Description>
+			<DefaultUnit>UNIT_DANISH_SKI_INFANTRY</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ZHENGHE_FLEET</Type>
+			<Description>TXT_KEY_UNIT_ZHENGHE_FLEET</Description>
+			<DefaultUnit>UNIT_ZHENGHE_FLEET</DefaultUnit>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_PROTOTYPE_SUBMARINE</Type>
+			<Description>TXT_KEY_UNIT_PROTOTYPE_SUBMARINE</Description>
+			<DefaultUnit>UNIT_PROTOTYPE_SUBMARINE</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_LAND_IRONCLAD</Type>
+			<Description>TXT_KEY_UNIT_LAND_IRONCLAD</Description>
+			<DefaultUnit>UNIT_LAND_IRONCLAD</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SUPER_HOWITZER</Type>
+			<Description>TXT_KEY_UNIT_SUPER_HOWITZER</Description>
+			<DefaultUnit>UNIT_SUPER_HOWITZER</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_PROTOTYPE_AIRSHIP</Type>
+			<Description>TXT_KEY_UNIT_PROTOTYPE_AIRSHIP</Description>
+			<DefaultUnit>UNIT_PROTOTYPE_AIRSHIP</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_COSSACK_MILITIA</Type>
+			<Description>TXT_KEY_UNIT_RUSSIAN_COSSACK</Description>
+			<DefaultUnit>UNIT_RUSSIAN_COSSACK</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SR71_BLACKBIRD</Type>
+			<Description>TXT_KEY_UNIT_SR71_BLACKBIRD</Description>
+			<DefaultUnit>UNIT_SR71_BLACKBIRD</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ELITE_SNIPER</Type>
+			<Description>TXT_KEY_UNIT_ELITE_SNIPER</Description>
+			<DefaultUnit>UNIT_ELITE_SNIPER</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_BAZOOKA</Type>
+			<Description>TXT_KEY_UNIT_BAZOOKA</Description>
+			<DefaultUnit>UNIT_BAZOOKA</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SUPER_TANK</Type>
+			<Description>TXT_KEY_UNIT_SUPER_TANK</Description>
+			<DefaultUnit>UNIT_SUPER_TANK</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ELITE_BATTLECRUISER</Type>
+			<Description>TXT_KEY_UNIT_ELITE_BATTLECRUISER</Description>
+			<DefaultUnit>UNIT_ELITE_BATTLECRUISER</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SUPER_BATTLESHIP</Type>
+			<Description>TXT_KEY_UNIT_SUPER_BATTLESHIP</Description>
+			<DefaultUnit>UNIT_SUPER_BATTLESHIP</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_PROTOTYPE_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_PROTOTYPE_BOMBER</Description>
+			<DefaultUnit>UNIT_PROTOTYPE_BOMBER</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_TSAR_BOMBA</Type>
+			<Description>TXT_KEY_UNIT_TSAR_BOMBA</Description>
+			<DefaultUnit>UNIT_TSAR_BOMBA</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_NUCLEAR_ARTILLERY</Type>
+			<Description>TXT_KEY_UNIT_NUCLEAR_ARTILLERY</Description>
+			<DefaultUnit>UNIT_NUCLEAR_ARTILLERY</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_UNDERWATER_CARRIER</Type>
+			<Description>TXT_KEY_UNIT_UNDERWATER_CARRIER</Description>
+			<DefaultUnit>UNIT_UNDERWATER_CARRIER</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CRUSADER_ARTILLERY</Type>
+			<Description>TXT_KEY_UNIT_CRUSADER_ARTILLERY</Description>
+			<DefaultUnit>UNIT_CRUSADER_ARTILLERY</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_TASKFORCE_141</Type>
+			<Description>TXT_KEY_UNIT_TASKFORCE_141</Description>
+			<DefaultUnit>UNIT_TASKFORCE_141</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_STEALTH_HELICOPTER</Type>
+			<Description>TXT_KEY_UNIT_STEALTH_HELICOPTER</Description>
+			<DefaultUnit>UNIT_STEALTH_HELICOPTER</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_CHINESE_WEISHI</Type>
+			<Description>TXT_KEY_UNIT_CHINESE_WEISHI</Description>
+			<DefaultUnit>UNIT_CHINESE_WEISHI</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_PAKFA_T50</Type>
+			<Description>TXT_KEY_UNIT_PAKFA_T50</Description>
+			<DefaultUnit>UNIT_PAKFA_T50</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_MECH</Type>
+			<Description>TXT_KEY_UNIT_MECH</Description>
+			<DefaultUnit>UNIT_MECH</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_HACKER</Type>
+			<Description>TXT_KEY_UNIT_HACKER</Description>
+			<DefaultUnit>UNIT_HACKER</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>		
+		<Row>
+			<Type>UNITCLASS_PARTICLE_CANNON</Type>
+			<Description>TXT_KEY_UNIT_PARTICLE_CANNON</Description>
+			<DefaultUnit>UNIT_PARTICLE_CANNON</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_ORBITAL_STRIKE</Type>
+			<Description>TXT_KEY_UNIT_ORBITAL_STRIKE</Description>
+			<DefaultUnit>UNIT_ORBITAL_STRIKE</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+
+
+	</UnitClasses>
+
+
+
+
+	<!--****************Satelite Unit Classes******************************-->
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SATELLITE_SPUTNIK</Type>
+			<Description>TXT_KEY_UNIT_SATELLITE_SPUTNIK</Description>
+			<DefaultUnit>UNIT_SATELLITE_SPUTNIK</DefaultUnit>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SATELLITE_RECONNAISSANCE</Type>
+			<Description>TXT_KEY_UNIT_SATELLITE_RECONNAISSANCE</Description>
+			<DefaultUnit>UNIT_SATELLITE_RECONNAISSANCE</DefaultUnit>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SATELLITE_GPS</Type>
+			<Description>TXT_KEY_UNIT_SATELLITE_GPS</Description>
+			<DefaultUnit>UNIT_SATELLITE_GPS</DefaultUnit>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SATELLITE_APOLLO11</Type>
+			<Description>TXT_KEY_UNIT_SATELLITE_APOLLO11</Description>
+			<DefaultUnit>UNIT_SATELLITE_APOLLO11</DefaultUnit>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SATELLITE_HUBBLE</Type>
+			<Description>TXT_KEY_UNIT_SATELLITE_HUBBLE</Description>
+			<DefaultUnit>UNIT_SATELLITE_HUBBLE</DefaultUnit>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SATELLITE_WEATHER</Type>
+			<Description>TXT_KEY_UNIT_SATELLITE_WEATHER</Description>
+			<DefaultUnit>UNIT_SATELLITE_WEATHER</DefaultUnit>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SATELLITE_TIANGONG</Type>
+			<Description>TXT_KEY_UNIT_SATELLITE_TIANGONG</Description>
+			<DefaultUnit>UNIT_SATELLITE_TIANGONG</DefaultUnit>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SATELLITE_ECCM</Type>
+			<Description>TXT_KEY_UNIT_SATELLITE_ECCM</Description>
+			<DefaultUnit>UNIT_SATELLITE_ECCM</DefaultUnit>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SATELLITE_ENVIRONMENT</Type>
+			<Description>TXT_KEY_UNIT_SATELLITE_ENVIRONMENT</Description>
+			<DefaultUnit>UNIT_SATELLITE_ENVIRONMENT</DefaultUnit>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SATELLITE_ANTIFALLOUT</Type>
+			<Description>TXT_KEY_UNIT_SATELLITE_ANTIFALLOUT</Description>
+			<DefaultUnit>UNIT_SATELLITE_ANTIFALLOUT</DefaultUnit>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SATELLITE_RESOURCEPLUS</Type>
+			<Description>TXT_KEY_UNIT_SATELLITE_RESOURCEPLUS</Description>
+			<DefaultUnit>UNIT_SATELLITE_RESOURCEPLUS</DefaultUnit>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_SATELLITE_ORBITAL_STRIKE</Type>
+			<Description>TXT_KEY_UNIT_ORBITAL_STRIKE</Description>
+			<DefaultUnit>UNIT_SATELLITE_ORBITAL_STRIKE</DefaultUnit>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+
+	</UnitClasses>
+
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+</GameData>	
+	

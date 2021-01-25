@@ -1,0 +1,1223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d08be507-23c0-4c15-af11-31b8ee567387" version="6">
+  <Properties>
+    <Name>Super Power: Clash of Civilizations</Name>
+    <Stability>Beta</Stability>
+    <Teaser>[COLOR_YELLOW]A Total Conversion Mod  for a better late game experience and realistic modern warfare[/COLOR]</Teaser>
+    <Description>A Total Conversion Mod of Sid Meier's Civilization V for a better late game experience and realistic modern warfare.  
+[NEWLINE][NEWLINE]Require CIV5 BNW 1.0.3.279[NEWLINE][NEWLINE]
+[COLOR_YELLOW]Important[/COLOR]: This MOD requires DLL - Various Mod Components by whoward69 for some Lua events support and 5 range city working distance. [NEWLINE]You can download it on whoward69's site:http://www.picknmixmods.com/mods/d1b6328c-ff44-4b0d-aad7-c657f83610cd/mod.html
+[NEWLINE][NEWLINE]Special Thanks:
+[NEWLINE]
+[ICON_BULLET]DLL Support: whoward69
+[ICON_BULLET]Incorporated Mods: Enhanced User Interface (EUI) by bc1; More Luxuries by Barathor
+[NEWLINE]
+[ICON_BULLET]Coding Reference: whoward69, Gedemon, Barathor, Maximus, Machiavelli24, Ninakoru, FramedArchitect, Redox, Coban, far_away_land, Hulfgar, bc1, lemmy101, CaptainCWB, JFD, Tokata
+[NEWLINE]
+[ICON_BULLET]UI Elements: Tokata, CaptainCWB 
+[NEWLINE]
+[ICON_BULLET]Models: Wolfdog, Snafusmith, Danrell, Ekmek, asioasioasio, KnelRivendare, Jinzor, bernie14,  Barathor, Snafusmith(Smitty), JTitan,Deliverator, Walter Hawkwood, Refar, Patum333, hangman, Deliverator,  BouncyMischa 
+[NEWLINE]
+[ICON_BULLET]Icons &amp; Images: Barathor, JanBoruta, Jamie Meyer, Moriboe, sukritact, Pouakai, Sukritact, Envoy (@fourfourhero), Pouakai,  zsofiadome, BlackFeather_, Empoh, Tokata, Institute of Swedish Safety &amp;amp; Security,  freepik.com, iranaware.com, photobucket.com, Brainbug's Egyptian Army (Retextured) von Brainbug (v1.0), calxibe.com, http://wallpoper.com/
+[NEWLINE]
+[ICON_BULLET]Chinese Language: MarbleGargoyle, LI&amp;Seven [NEWLINE]
+[ICON_BULLET]Promotion: BlackFeather_, GanJunWuDi, ggx2
+[NEWLINE]
+[ICON_BULLET]Test: Tokata, Ben, Dante,  BlackFeather_, GanJunWuDi,  38AA, HJQ,  xiaofeng, seraph,  Li &amp; Seven,  Xingen, Tianshu, SkyWalker, Arno, bot, ryst
+[NEWLINE]
+[ICON_BULLET]Civilopedia Texts: Wikipedia, www.azquotes.com, www.brainyquote.com
+[NEWLINE][ICON_BULLET]Proofreading&amp;Document Editing:爱玲的安逸人生, Seven
+[NEWLINE][ICON_BULLET]
+Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namco Bandai Games and produced by Project Aces), Call of Duty: Modern Warfare (published and owned by Activision),World of Warships and World of Tanks(Wargaming) .  Command &amp; Conquer: Red Alert 3 (Electronic Arts).Cities XL 2012 (Focus Home Interactive)  Others from Google Search.
+
+[NEWLINE][ICON_BULLET]“Clash of Civilizations” is inspired by political scientist Samuel P. Huntington’s The Clash of Civilizations and the Remaking of World Order, published in 1996
+[NEWLINE][ICON_BULLET]The names of unique national wonders “Ministry of Truth”, “Ministry of Plenty” and “Ministry of Peace” are inspired by English author George Orwell’s Nineteen Eighty-Four, published in 1949.
+[NEWLINE][NEWLINE]All works cited in this mod is NOT used for any commercial purposes. If I forget to give the credit to the certain author(s) or the author(s) think the work should not be used in this mod. Please contact me.</Description>
+    <Authors>Lincoln_lyf</Authors>
+    <SpecialThanks>Tokata, whoward69, Gedemon, Barathor, MarbleGargoyle, BlackFeather_, Machiavelli24, Maximus,CaptainCWB...</SpecialThanks>
+    <HideSetupGame>1</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+    <Dlc id="8871E748-29A4-4910-8C57-8C99E32D0167" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="adbc3334-367b-4435-a584-fd783b712865" minversion="0" maxversion="999" title="Custom Advanced Setup Screen" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="VMC" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="A413CB811715C8EE85A9933C74B01BD5" import="1">Art/Flags/SPUnitFlags.dds</File>
+    <File md5="E09CC6EDD8A756A0534550B637485077" import="1">Art/Flags/Strategic/SPUnitFlags__BombaTsar_.dds</File>
+    <File md5="8BE2A50DE3B197BA17F6EEC2CF94A67F" import="1">Art/Flags/Strategic/SPUnitFlags__141.dds</File>
+    <File md5="3748B5C2D475A2C7D41C2632D592A05D" import="1">Art/Flags/Strategic/SPUnitFlags__A10.dds</File>
+    <File md5="5B195FECD787010AA0B744FF801C43F4" import="1">Art/Flags/Strategic/SPUnitFlags__AAS.dds</File>
+    <File md5="B71C943862AFA09181952531FEA6AA7A" import="1">Art/Flags/Strategic/SPUnitFlags__AirBase.dds</File>
+    <File md5="7B46F3C32C5DED3B175035A08DC4B23E" import="1">Art/Flags/Strategic/SPUnitFlags__AncientMilitia.dds</File>
+    <File md5="56EEE6D0ABDD376CBC8103F82B29C185" import="1">Art/Flags/Strategic/SPUnitFlags__Apache.dds</File>
+    <File md5="EFECA35DA3659B50CD5489C22AAFA1E1" import="1">Art/Flags/Strategic/SPUnitFlags__ArmoredKnight.dds</File>
+    <File md5="1528557C496453EE6FEA505681A1D10E" import="1">Art/Flags/Strategic/SPUnitFlags__ATGM.dds</File>
+    <File md5="EA03852A526651FC2ED464FD034F30C0" import="1">Art/Flags/Strategic/SPUnitFlags__Aztez.dds</File>
+    <File md5="81D479A0FB3A3BBEBDB692AEE0D6983B" import="1">Art/Flags/Strategic/SPUnitFlags__B2.dds</File>
+    <File md5="1E373419573A4BE91012632EED49DCA3" import="1">Art/Flags/Strategic/SPUnitFlags__B52.dds</File>
+    <File md5="9AC15B63C0DA29967E5B5B5C7368F306" import="1">Art/Flags/Strategic/SPUnitFlags__BattleCruiser.dds</File>
+    <File md5="8F346738E0DAD76992155BA97B4799C7" import="1">Art/Flags/Strategic/SPUnitFlags__BigBerr.dds</File>
+    <File md5="3CADE452DF028D7276D8AACEF822482C" import="1">Art/Flags/Strategic/SPUnitFlags__Bismark.dds</File>
+    <File md5="A8E4805CBD23663EAE59D27D8D7D0AD5" import="1">Art/Flags/Strategic/SPUnitFlags__BlackBird.dds</File>
+    <File md5="A54AC0EF2633B397C39A644D084E87F0" import="1">Art/Flags/Strategic/SPUnitFlags__Blackwatch.dds</File>
+    <File md5="F05EE53CB1EFB3BC2202F8E16611A86E" import="1">Art/Flags/Strategic/SPUnitFlags__BrazilPlayer.dds</File>
+    <File md5="090A4D6220CCE67FD5266B2ADB3188F2" import="1">Art/Flags/Strategic/SPUnitFlags__BrazilWorker.dds</File>
+    <File md5="96301D8A8DB97A30410D5D6E200B77EF" import="1">Art/Flags/Strategic/SPUnitFlags__BTR.dds</File>
+    <File md5="634E7A14086391D9C094B2D368D2F340" import="1">Art/Flags/Strategic/SPUnitFlags__CAVALRY.dds</File>
+    <File md5="AC0841B08EF6ED7803FDDBB864FE229B" import="1">Art/Flags/Strategic/SPUnitFlags__Conscript.dds</File>
+    <File md5="A64B05B7CD3EDA0FDC88AEBA9F5667E9" import="1">Art/Flags/Strategic/SPUnitFlags__Cromell.dds</File>
+    <File md5="0A28913C19DBB0967D97283D613A3515" import="1">Art/Flags/Strategic/SPUnitFlags__CruiserTank.dds</File>
+    <File md5="5576BBF0296A22CB36A09D3F515A0E73" import="1">Art/Flags/Strategic/SPUnitFlags__Culverin.dds</File>
+    <File md5="16F14F482795420BAA375B1978B7C00E" import="1">Art/Flags/Strategic/SPUnitFlags__DanishDragonBoat.dds</File>
+    <File md5="437ABA439E7A27C933DABCEB1212C2AA" import="1">Art/Flags/Strategic/SPUnitFlags__Danmark.dds</File>
+    <File md5="CBD68BF4B90F59BA5C4883A799FB3532" import="1">Art/Flags/Strategic/SPUnitFlags__DiveBomber.dds</File>
+    <File md5="2F1FA1C4CAB35AEC952FF73862231186" import="1">Art/Flags/Strategic/SPUnitFlags__Dreadnought.dds</File>
+    <File md5="1F5CAB6BCFBE70C24C29C78C72102BB1" import="1">Art/Flags/Strategic/SPUnitFlags__EliteRider.dds</File>
+    <File md5="145311A4690A34648D2311453BB0FD8F" import="1">Art/Flags/Strategic/SPUnitFlags__EMP.dds</File>
+    <File md5="20FD5DBFE83282DC08E19414CD701702" import="1">Art/Flags/Strategic/SPUnitFlags__FieldGun.dds</File>
+    <File md5="BD7A80B76F82EEE7753F1B3EAF598D66" import="1">Art/Flags/Strategic/SPUnitFlags__FireBase.dds</File>
+    <File md5="FD23020BA7D233DB6400D2C1D853DE53" import="1">Art/Flags/Strategic/SPUnitFlags__ForestGunman.dds</File>
+    <File md5="4D680C1A5A7D18709AD4BAFD4DBFCEC5" import="1">Art/Flags/Strategic/SPUnitFlags__FranceM2000.dds</File>
+    <File md5="62EC473ECECBEF407D0791B23521C0D7" import="1">Art/Flags/Strategic/SPUnitFlags__Grandbattery.dds</File>
+    <File md5="A515CC75437A86A6883CB82ACED5D0D5" import="1">Art/Flags/Strategic/SPUnitFlags__GreeceGA.dds</File>
+    <File md5="D1CAE0AA3F0113B7F87FFE535A84C2D8" import="1">Art/Flags/Strategic/SPUnitFlags__HeavyCruiser.dds</File>
+    <File md5="C62C66531F6DC7DEE68D7DA0BAB2DCC5" import="1">Art/Flags/Strategic/SPUnitFlags__Hecliopter.dds</File>
+    <File md5="7D9B8FE5A77EEE5C82AB4E8E2CF8EF9A" import="1">Art/Flags/Strategic/SPUnitFlags__HMS.dds</File>
+    <File md5="F99128F6693A58D1553D9D70E51F34F3" import="1">Art/Flags/Strategic/SPUnitFlags__Ho227.dds</File>
+    <File md5="168554B245BBC097A34745EA0CBA490F" import="1">Art/Flags/Strategic/SPUnitFlags__Huihui.dds</File>
+    <File md5="43B8FBAD85038FBCB38F6BC34C532C74" import="1">Art/Flags/Strategic/SPUnitFlags__Hun.dds</File>
+    <File md5="6BBA9F5C7B1AC7965BFEBDAF0697BCF9" import="1">Art/Flags/Strategic/SPUnitFlags__ICBM.dds</File>
+    <File md5="8FD24B4C3BD191ED148D769339598AD4" import="1">Art/Flags/Strategic/SPUnitFlags__Inca.dds</File>
+    <File md5="B88D508E38C23E21C7CFB1D19D2BBF4B" import="1">Art/Flags/Strategic/SPUnitFlags__Intercepter.dds</File>
+    <File md5="29AEC2F7AAFAF89D6DB94CE163B82933" import="1">Art/Flags/Strategic/SPUnitFlags__ireBase.dds</File>
+    <File md5="5AAB805F3502E5C761DC8463DA7004DE" import="1">Art/Flags/Strategic/SPUnitFlags__Islamic.dds</File>
+    <File md5="B8D68231547B1F5B2C3402D329FF5CA0" import="1">Art/Flags/Strategic/SPUnitFlags__ItalyNavy.dds</File>
+    <File md5="CBA94B4EF9D45B6E1FA15D902145704B" import="1">Art/Flags/Strategic/SPUnitFlags__JapanBattleship.dds</File>
+    <File md5="5B9AD11B6472705D5EF59CC5B599C185" import="1">Art/Flags/Strategic/SPUnitFlags__JapanDestroyer.dds</File>
+    <File md5="CD523C6C969C3BEA6DC1C7F0BCD9560E" import="1">Art/Flags/Strategic/SPUnitFlags__KoreaDestroyer.dds</File>
+    <File md5="C7F33051107C7DC4FDA224E7F39FF560" import="1">Art/Flags/Strategic/SPUnitFlags__LCS.dds</File>
+    <File md5="F8759ED0AA12CD70E3B4D3BD039911E9" import="1">Art/Flags/Strategic/SPUnitFlags__MobileAA.dds</File>
+    <File md5="8FC3E45F9A9A9AA0066735FA3C5407F2" import="1">Art/Flags/Strategic/SPUnitFlags__MobileGun.dds</File>
+    <File md5="75C78BA3C0F7B2637D6A1535CEAFE9F2" import="1">Art/Flags/Strategic/SPUnitFlags__ModernBTR.dds</File>
+    <File md5="36F74B0618EF73162B9A126D9DC755C0" import="1">Art/Flags/Strategic/SPUnitFlags__ModernDestroyer.dds</File>
+    <File md5="4883AF811C72BFE48880120C7A469BCB" import="1">Art/Flags/Strategic/SPUnitFlags__ModernMilitia.dds</File>
+    <File md5="CA1A60D68B0364AA0565C78E3BA942E5" import="1">Art/Flags/Strategic/SPUnitFlags__Monk.dds</File>
+    <File md5="EFA723F42D8A480ECFB44715DB7ABB9D" import="1">Art/Flags/Strategic/SPUnitFlags__MountedArcher.dds</File>
+    <File md5="85DC21229CAD764E1FCD444C1F684F6B" import="1">Art/Flags/Strategic/SPUnitFlags__NationalGuard.dds</File>
+    <File md5="19703927C8E6204DF9D1FAFC78666B34" import="1">Art/Flags/Strategic/SPUnitFlags__Nautilus.dds</File>
+    <File md5="50660342E8F422BE1E46B5FD7750071E" import="1">Art/Flags/Strategic/SPUnitFlags__Nimitz.dds</File>
+    <File md5="36307BF6684A03D4DB34638CBD222087" import="1">Art/Flags/Strategic/SPUnitFlags__NuclearCarrier.dds</File>
+    <File md5="44426E223C04A579681E05DEE7BA5EB8" import="1">Art/Flags/Strategic/SPUnitFlags__NuclearGun.dds</File>
+    <File md5="2F2002CBD50EFF23351D52AE710387CC" import="1">Art/Flags/Strategic/SPUnitFlags__Numidan.dds</File>
+    <File md5="AAD7ADB6351E7DE676699398325F9CCC" import="1">Art/Flags/Strategic/SPUnitFlags__OliTank.dds</File>
+    <File md5="A8F3AE153546A1B16F22CAFF59C7DD3C" import="1">Art/Flags/Strategic/SPUnitFlags__Paladin.dds</File>
+    <File md5="EF0567B9410B7D77D48BDE3465397E95" import="1">Art/Flags/Strategic/SPUnitFlags__ParticleGun.dds</File>
+    <File md5="EF90B01BDD5A881AD926ABF4D46EFBB5" import="1">Art/Flags/Strategic/SPUnitFlags__PBR.dds</File>
+    <File md5="BF1120A380E563FBC412253A80F86EF6" import="1">Art/Flags/Strategic/SPUnitFlags__PolandCopter.dds</File>
+    <File md5="CD728AC0887FBE0F16F0F6A0A19AD29D" import="1">Art/Flags/Strategic/SPUnitFlags__ProtectedCruiser.dds</File>
+    <File md5="16B5A6096E37A1D5EC38BF058F830807" import="1">Art/Flags/Strategic/SPUnitFlags__Pzl.dds</File>
+    <File md5="D74D6DA5694F3CFA795E77B02E538D19" import="1">Art/Flags/Strategic/SPUnitFlags__RailroadGun.dds</File>
+    <File md5="6DEEDC1BB14E8F5881059935E22D3B29" import="1">Art/Flags/Strategic/SPUnitFlags__RecoilessGun.dds</File>
+    <File md5="B87BE4FCE50141AC4CA0ACB87275803E" import="1">Art/Flags/Strategic/SPUnitFlags__ReligionKnight.dds</File>
+    <File md5="50C0872A4F0A63DCF9EDFB9C31D86B7C" import="1">Art/Flags/Strategic/SPUnitFlags__RialGunBattleship.dds</File>
+    <File md5="93BA03A4292CA11373CB79F32123AE77" import="1">Art/Flags/Strategic/SPUnitFlags__RocketArtillery.dds</File>
+    <File md5="23E7904A4FDFE0FF282B1D72E3FC8561" import="1">Art/Flags/Strategic/SPUnitFlags__RodsGod.dds</File>
+    <File md5="F701E9F8B0495B0FCA64663D9709BBCF" import="1">Art/Flags/Strategic/SPUnitFlags__SAM.dds</File>
+    <File md5="CDBA761B11525E6C1C98A4D6BAB904AA" import="1">Art/Flags/Strategic/SPUnitFlags__ScoutCopter.dds</File>
+    <File md5="C54E9B4599283961C70FA2E2D8F3106C" import="1">Art/Flags/Strategic/SPUnitFlags__Sniper.dds</File>
+    <File md5="6C7E3F1942482C4D595C70DE723CA8F8" import="1">Art/Flags/Strategic/SPUnitFlags__Songhai.dds</File>
+    <File md5="17AE70C639DB61BC0162EBD4CD57292B" import="1">Art/Flags/Strategic/SPUnitFlags__SpainishArmada.dds</File>
+    <File md5="1957F6249F83657AD8A8C6D966715748" import="1">Art/Flags/Strategic/SPUnitFlags__Spartan.dds</File>
+    <File md5="F420757B5F3A8D266AAD7DED3ACCF7AB" import="1">Art/Flags/Strategic/SPUnitFlags__SSBN.dds</File>
+    <File md5="ED5BF30FB7CFD5C7BBECD69F5E6295D9" import="1">Art/Flags/Strategic/SPUnitFlags__StealthHelicopter.dds</File>
+    <File md5="2ADF5F727488688D0E74C6D07B2A1E21" import="1">Art/Flags/Strategic/SPUnitFlags__StrongHold.dds</File>
+    <File md5="EFEC436B5A7C8152FE8D0FCFF17F4A3F" import="1">Art/Flags/Strategic/SPUnitFlags__Su27.dds</File>
+    <File md5="BD463B0EDA7FA86335D8666B8BA503C9" import="1">Art/Flags/Strategic/SPUnitFlags__SubCarrier.dds</File>
+    <File md5="E617ACAF4CA79ECA589F04B21D4E5485" import="1">Art/Flags/Strategic/SPUnitFlags__SuperCarrier.dds</File>
+    <File md5="7C0F1170E23307AB073F4BCC87752178" import="1">Art/Flags/Strategic/SPUnitFlags__SuperHeavyTank.dds</File>
+    <File md5="368D573BE8E908EE6F965DAD6AF4007D" import="1">Art/Flags/Strategic/SPUnitFlags__SwedenFighter.dds</File>
+    <File md5="133DD33C22D35E3A5F9674F5B9511653" import="1">Art/Flags/Strategic/SPUnitFlags__T50.dds</File>
+    <File md5="FA138BCD1C3988235C3B0AAF24CD743A" import="1">Art/Flags/Strategic/SPUnitFlags__T72.dds</File>
+    <File md5="4EAC7A2BB1E83B2482587C1014992176" import="1">Art/Flags/Strategic/SPUnitFlags__T80.dds</File>
+    <File md5="3A8797AEF80283E05EF891B2DD414130" import="1">Art/Flags/Strategic/SPUnitFlags__TankDestroyer.dds</File>
+    <File md5="C7385A17601402BFC5D10A7836EB9A56" import="1">Art/Flags/Strategic/SPUnitFlags__TigetCopter.dds</File>
+    <File md5="20C8A689FD7416FB6F21CD1D9758365C" import="1">Art/Flags/Strategic/SPUnitFlags__TrukeyTruck.dds</File>
+    <File md5="329A68A0CFC59F8CBDEF5FBFBFE8E556" import="1">Art/Flags/Strategic/SPUnitFlags__Type99.dds</File>
+    <File md5="7BC6B8A906DCDC22BC0DF3705ACEEB54" import="1">Art/Flags/Strategic/SPUnitFlags__UAV.dds</File>
+    <File md5="1B10210BE9C6540249159A30A5185A05" import="1">Art/Flags/Strategic/SPUnitFlags__Uboat.dds</File>
+    <File md5="56C62E8B57BCE758CD67C3BAA2F93917" import="1">Art/Flags/Strategic/SPUnitFlags__Unit777.dds</File>
+    <File md5="EF52CA20FC4E876A64F9539AB5AF7C5E" import="1">Art/Flags/Strategic/SPUnitFlags__VollleyGun.dds</File>
+    <File md5="8C2E098E7149A26247E70C563C705C7E" import="1">Art/Flags/Strategic/SPUnitFlags__WarGalleon.dds</File>
+    <File md5="679E216F77D139223B777C78D78D69EC" import="1">Art/Flags/Strategic/SPUnitFlags__Weishi.dds</File>
+    <File md5="DC62C15D715E36A46D76737821733EB5" import="1">Art/Flags/Strategic/SPUnitFlags__WW1Para.dds</File>
+    <File md5="3F26CD17FFF0FB4739FA89D9635F9CC8" import="1">Art/Flags/Strategic/SPUnitFlags__XM297E2.dds</File>
+    <File md5="512EFEC679AB44A248586BB417BAD02E" import="1">Art/Flags/Strategic/SPUnitFlags__Yamato.dds</File>
+    <File md5="BDCF05AF934157F19C16627CECB2D420" import="1">Art/Flags/Strategic/SPUnitFlags__Zhenghe.dds</File>
+    <File md5="4309DCFB3F8C39BEC2CEE8B00443E2BB" import="1">Art/Flags/Strategic/SPUnitFlags__ZuluMobileGun.dds</File>
+    <File md5="BFA24C2399EE99BA10D3E6270ED1C50A" import="1">Art/Flags/sv_explorer_mod.dds</File>
+    <File md5="F0399B86C1709BC853134CAED6C08612" import="1">Art/Flags/sv_Tipi.dds</File>
+    <File md5="EEB3723D309A5BF85A38CE7863CDFBEF" import="1">Art/Flags/UnitFlagMilitia.dds</File>
+    <File md5="EC4BACFB7C9D8A4E2C1BFEE7FB4ED224" import="1">Art/Flags/UnitFlagMilitiaMask.dds</File>
+    <File md5="759569E4E1A69BE0ADC907063DCB9233" import="1">Art/Flags/UnitFlagRanged.dds</File>
+    <File md5="D74CCECB0B8B66808CEFDF4767BC1D58" import="1">Art/Flags/UnitFlagRangedMask.dds</File>
+    <File md5="0D31A5551CDF826377F981B52E619FD1" import="1">Art/IconAtlases/Buildings/SPBuildings_Atlas128.dds</File>
+    <File md5="825E798668F78A29E60E838682D30A1A" import="1">Art/IconAtlases/Buildings/SPBuildings_Atlas256.dds</File>
+    <File md5="649A181BE284C8B6A23759409471307A" import="1">Art/IconAtlases/Buildings/SPBuildings_Atlas45.dds</File>
+    <File md5="82AC89386EED46350EDAC1514621DB65" import="1">Art/IconAtlases/Buildings/SPBuildings_Atlas64.dds</File>
+    <File md5="3012AB7DB8C5D45B2B19E55F46A63A11" import="1">Art/IconAtlases/Buildings/SPBuildings_Atlas80.dds</File>
+    <File md5="484E62ED731010979F52EE7CD28316D3" import="1">Art/IconAtlases/Buildings/FontIcons_SPCityBanners.dds</File>
+    <File md5="D6D5D2795D992AD0F239119FB1C16555" import="1">Art/IconAtlases/Buildings/SPWondersUB_Atlas128.dds</File>
+    <File md5="6173FD052388BE0B84BE444F6ED20D0E" import="1">Art/IconAtlases/Buildings/SPWondersUB_Atlas256.dds</File>
+    <File md5="B1941795B5B316D5F9892D48D6F1C141" import="1">Art/IconAtlases/Buildings/SPWondersUB_Atlas45.dds</File>
+    <File md5="E700D731BCE859E3B5F18B83324D7ED4" import="1">Art/IconAtlases/Buildings/SPWondersUB_Atlas64.dds</File>
+    <File md5="A5F9C2ABEE9DBCBB51F8AD9FA27B1977" import="1">Art/IconAtlases/Buildings/SPWondersUB_Atlas80.dds</File>
+    <File md5="178F6F64DD49FE642FB77D73580D96F4" import="1">Art/IconAtlases/Resources/fonticons_newluxuries.dds</File>
+    <File md5="51DC67899AE0FEBFB906DC214482BF0A" import="1">Art/IconAtlases/Resources/FontIcons_NewLuxuries.ggxml</File>
+    <File md5="318AEBC0E1389440A32ED4261ABAAA67" import="1">Art/IconAtlases/Resources/NewLuxuries_ResourceAtlas128.dds</File>
+    <File md5="10C1826B3DA94415268B2A49675D39BB" import="1">Art/IconAtlases/Resources/NewLuxuries_ResourceAtlas256.dds</File>
+    <File md5="3B2D0FF04994B27CCBB8FA5A0D64BDF5" import="1">Art/IconAtlases/Resources/NewLuxuries_ResourceAtlas45.dds</File>
+    <File md5="605C89594233E0262990AE90E672EAC1" import="1">Art/IconAtlases/Resources/NewLuxuries_ResourceAtlas64.dds</File>
+    <File md5="3B8AEA0E4431D85EAE261F9C80FBDF7D" import="1">Art/IconAtlases/Resources/NewLuxuries_ResourceAtlas80.dds</File>
+    <File md5="94F3AA8A6BF286F8360E836DFB7A0020" import="1">Art/IconAtlases/Resources/SPImprovements_Atlas128.dds</File>
+    <File md5="43DDF8B3754E20A0A71E74B2506EE6E0" import="1">Art/IconAtlases/Resources/SPImprovements_Atlas256.dds</File>
+    <File md5="34EE2BDB626DD2944505094CB1DD7BF9" import="1">Art/IconAtlases/Resources/SPImprovements_Atlas45.dds</File>
+    <File md5="6D358694EA2272937ED2D0EED1E05D0B" import="1">Art/IconAtlases/Resources/SPImprovements_Atlas64.dds</File>
+    <File md5="21C4DB97C6EB228B87AB313B2D311EF8" import="1">Art/IconAtlases/Resources/SPImprovements_Atlas80.dds</File>
+    <File md5="4CF3AFBC096E06B617817B5D9173B724" import="1">Art/IconAtlases/Technologies/SPBlanceAtlas128.dds</File>
+    <File md5="57C26EC7310BCAF5B52DA4885BBF995F" import="1">Art/IconAtlases/Technologies/SPBlanceAtlas214.dds</File>
+    <File md5="CC4C18C9593A82D07050FB56FD6CEF9A" import="1">Art/IconAtlases/Technologies/SPBlanceAtlas256.dds</File>
+    <File md5="D106561E6993FD035D5B077346AF80F8" import="1">Art/IconAtlases/Technologies/SPBlanceAtlas32.dds</File>
+    <File md5="8C16425B522898821862BCB250BC9645" import="1">Art/IconAtlases/Technologies/SPBlanceAtlas45.dds</File>
+    <File md5="918D5A7086725B3DE5D6F80946BA2787" import="1">Art/IconAtlases/Technologies/SPBlanceAtlas64.dds</File>
+    <File md5="EA71D4975D7A03351BE722AE44386D61" import="1">Art/IconAtlases/Technologies/SPBlanceAtlas80.dds</File>
+    <File md5="FD15C4038C57B2C40E1A8268503293BC" import="1">Art/IconAtlases/Units/SPPromotion_Atlas256.dds</File>
+    <File md5="F602A39D179A1DBFA92CEADA51BB8FE8" import="1">Art/IconAtlases/Units/SPPromotion_Atlas32.dds</File>
+    <File md5="136F5590667041F4D41689CC9A66254D" import="1">Art/IconAtlases/Units/SPPromotion_Atlas45.dds</File>
+    <File md5="3D86103505E1D30610C5FCA5222C80EF" import="1">Art/IconAtlases/Units/SPPromotion_Atlas64.dds</File>
+    <File md5="FCF0A009039C6CB3940499A420B50705" import="1">Art/IconAtlases/Units/SPUnitActions.dds</File>
+    <File md5="48A04D5299FC9C4A9B92F9F497818E7F" import="1">Art/IconAtlases/Units/SPUnitActions360.dds</File>
+    <File md5="13EA8A6F8B328DCA1C7FC57BCA7ED209" import="1">Art/IconAtlases/Units/SPUnits01Atlas128.dds</File>
+    <File md5="733E1EC06E61382023B0227037561911" import="1">Art/IconAtlases/Units/SPUnits01Atlas256.dds</File>
+    <File md5="8D6DB46C39A777DFB220CF8C5A007FFC" import="1">Art/IconAtlases/Units/SPUnits01Atlas32.dds</File>
+    <File md5="6C19FC9FEF0C320C4AADA5CCAA76D4A2" import="1">Art/IconAtlases/Units/SPUnits01Atlas45.dds</File>
+    <File md5="F5E7CF35BDF94768FF808095FCDA4DE1" import="1">Art/IconAtlases/Units/SPUnits01Atlas64.dds</File>
+    <File md5="D0911A0E89718983CAE7C9C620F30E7E" import="1">Art/IconAtlases/Units/SPUnits01Atlas80.dds</File>
+    <File md5="2D4B237A9388D82114B62EB1B48C2102" import="1">Art/IconAtlases/Units/SPUnits02Atlas128.dds</File>
+    <File md5="D0F5B560F24B69B22074BE812528050E" import="1">Art/IconAtlases/Units/SPUnits02Atlas256.dds</File>
+    <File md5="96DA1456EE91C591D8D953C60A00B3BA" import="1">Art/IconAtlases/Units/SPUnits02Atlas32.dds</File>
+    <File md5="5CF4D126B9129AF344DE56944063D12D" import="1">Art/IconAtlases/Units/SPUnits02Atlas45.dds</File>
+    <File md5="5F33EBBAD47D378B8236E56A8A06F9F9" import="1">Art/IconAtlases/Units/SPUnits02Atlas64.dds</File>
+    <File md5="C7A6C287CC2FA133BB092370408929F6" import="1">Art/IconAtlases/Units/SPUnits02Atlas80.dds</File>
+    <File md5="D82BD43B7145904B058A96D3C1EB2377" import="1">Art/Images/Aswan_splash.dds</File>
+    <File md5="D9F06CC2E6A1CE49CCA5D6E459C7B75C" import="1">Art/Images/Bauhaus_splash.dds</File>
+    <File md5="45015263B41AD4A898344900CD1E68E5" import="1">Art/Images/BurjTower_splash.dds</File>
+    <File md5="2BC70857FB00CA5CDEC89877E6BA48BD" import="1">Art/Images/Cairo_splash.dds</File>
+    <File md5="A3F08053ECE097B65AF1C5BD9411E9DF" import="1">Art/Images/ColosseumW_splash.dds</File>
+    <File md5="693272A38A534DB468E7BA4CF7F1A1A1" import="1">Art/Images/Empire_splash.dds</File>
+    <File md5="F666B6E01E5760C357058B9CCA873E10" import="1">Art/Images/era_postmodern.dds</File>
+    <File md5="B7B7A4CA97EE824DD3E77B0AB4E56954" import="1">Art/Images/era_worldwar.dds</File>
+    <File md5="D406E3FAFEC1749D954CAD76CDB4B238" import="1">Art/Images/Hanse_splash.dds</File>
+    <File md5="EB085D0AA5BCD93B7CD46F201CE4A893" import="1">Art/Images/Hoover_splash.dds</File>
+    <File md5="895BF0CE375A61FAE36DF96299B0C25A" import="1">Art/Images/LHC_splash.dds</File>
+    <File md5="D895DDC5FE5BC2894EF4C62F21556A41" import="1">Art/Images/MotherlandCalls_splash.dds</File>
+    <File md5="1501E606BEB3B4D83F5F5FF0806EAD80" import="1">Art/Images/pearl_tower_splash.dds</File>
+    <File md5="FE26AF3BE590040EBC419745FB7937A2" import="1">Art/Images/Petronas_splash.dds</File>
+    <File md5="86B6441A9EC35F2A09795BEDB2359218" import="1">Art/Images/PortofRotterdam_Splash.dds</File>
+    <File md5="0AA829A0153FF42248B50F6C9B539482" import="1">Art/Images/potala_splash.dds</File>
+    <File md5="5078A0E4CC2CDA784281F9D637C97D2C" import="1">Art/Images/Satellites/AntiFallout.dds</File>
+    <File md5="4A82E5E08C43FCE6294D9F944490D9D6" import="1">Art/Images/Satellites/Apollo11.dds</File>
+    <File md5="7008E5CCA03542BC84E0CB9544F66CC9" import="1">Art/Images/Satellites/EMPSate.dds</File>
+    <File md5="232B40E123A4459C28DF39DF1C0921D2" import="1">Art/Images/Satellites/Environmental.dds</File>
+    <File md5="4FA1B8FAF8F6665BB850EB80D247E3A2" import="1">Art/Images/Satellites/GPSSate.dds</File>
+    <File md5="0126C49547BC2B15477AACC38AD6BEEC" import="1">Art/Images/Satellites/ResourceSate.dds</File>
+    <File md5="99DFC043EA5D71A128EA30E6D946AAB0" import="1">Art/Images/Satellites/Sputnik.dds</File>
+    <File md5="4AFB49E32F31FAB46127396FB093641D" import="1">Art/Images/Satellites/SpySatellite.dds</File>
+    <File md5="3C82860433161C2CF90B99B0AD86A317" import="1">Art/Images/Satellites/Tiangong.dds</File>
+    <File md5="5A19FB2A3179E600CD90AFD3BD29EA33" import="1">Art/Images/Satellites/WeatherSate.dds</File>
+    <File md5="C9BEFC3F35380B0385108883F3EAEB21" import="1">Art/Images/ShimizuMegaCityPyramid.dds</File>
+    <File md5="7F58B4B097DB8CB5223A9F4E34B169E3" import="1">Art/Images/SpaceElevator_splash.dds</File>
+    <File md5="695D8018ECF8627069292027D33CF013" import="1">Art/Images/SP_Policy_NewCommerce.dds</File>
+    <File md5="A0EF381F730BDC9BB44E27DDE23CC56D" import="1">Art/Images/TokyoMetro_splash.dds</File>
+    <File md5="15B8863616F85B3E1643B096636B7D3D" import="1">Art/Images/WonderMosuleumHalicarnassus.dds</File>
+    <File md5="A77D755F3C9AA484D69FFF43E5A46620" import="1">Art/Images/WonderTempleArtemis.dds</File>
+    <File md5="357711EC5102CCBCF9C89D4EE308188C" import="1">Art/Models/Resources/Luxury Amber/amber.fxsxml</File>
+    <File md5="E686E86BC9C843F4CC7EBDAE5CB29805" import="1">Art/Models/Resources/Luxury Amber/amber.gr2</File>
+    <File md5="7A575BF68828F0FAB12ECC26C8847511" import="1">Art/Models/Resources/Luxury Amber/amber_diff.dds</File>
+    <File md5="0CCEEAB2C0FB223C494EADD863217DF3" import="1">Art/Models/Resources/Luxury Amber/amber_mine_decal_d.dds</File>
+    <File md5="4D98627500FD2872AD1753D9617C2C41" import="1">Art/Models/Resources/Luxury Amber/amber_rubble_diff.dds</File>
+    <File md5="EF51E8C263FFDF4DE8F24C6E3A839077" import="1">Art/Models/Resources/Luxury Amber/hb_ind_mine_amber.fxsxml</File>
+    <File md5="ED8EB35637B733162F8EE1A090D2C7C2" import="1">Art/Models/Resources/Luxury Amber/hb_ind_mine_amber.gr2</File>
+    <File md5="46B4B88D1589B4CE621F15ADC4ECBB86" import="1">Art/Models/Resources/Luxury Amber/hb_med_mine_amber.fxsxml</File>
+    <File md5="057E9472236A554ABF0E926CDB3D40AC" import="1">Art/Models/Resources/Luxury Amber/hb_med_mine_amber.gr2</File>
+    <File md5="80A018BF9F19824D56D264D2CB8A9627" import="1">Art/Models/Resources/Luxury Amber/ind_mine_amber.fxsxml</File>
+    <File md5="855C87F2A70E4AF83E4E686BC1812AFC" import="1">Art/Models/Resources/Luxury Amber/ind_mine_amber.gr2</File>
+    <File md5="E1A068F19E708424B0D9532CD16B802B" import="1">Art/Models/Resources/Luxury Amber/med_mine_amber.fxsxml</File>
+    <File md5="E985B6B454A7A384F9142DE801C3B098" import="1">Art/Models/Resources/Luxury Amber/med_mine_amber.gr2</File>
+    <File md5="F9D6D75597AF4F8CFEB6677FD80CF9D3" import="1">Art/Models/Resources/Luxury Amber/pl_amber_mine_decal_d.dds</File>
+    <File md5="F2C838CFF1F5780036039321CE6734B6" import="1">Art/Models/Resources/Luxury Amber/pl_ind_mine_amber.fxsxml</File>
+    <File md5="712A880A2D4ED2A5AB5000B42682B82C" import="1">Art/Models/Resources/Luxury Amber/pl_ind_mine_amber.gr2</File>
+    <File md5="88CB2967A63CA21E6F5CC9F1A51CD212" import="1">Art/Models/Resources/Luxury Amber/pl_med_mine_amber.fxsxml</File>
+    <File md5="D5C9A955790F1DEFE91BB1740C2170A7" import="1">Art/Models/Resources/Luxury Amber/pl_med_mine_amber.gr2</File>
+    <File md5="C93BE7663837FF07E1B7884FAA669B71" import="1">Art/Models/Resources/Luxury Amber/sv_amber.dds</File>
+    <File md5="BBA2CED9FB2A1F8502FA3323B43CE3F4" import="1">Art/Models/Resources/Luxury Coffee/coffee_diff.dds</File>
+    <File md5="DFA1DFEEBAB00C9F1643D57E0E38BFF7" import="1">Art/Models/Resources/Luxury Coffee/coffee_vineyard_diff.dds</File>
+    <File md5="9E3ACF035B444A3EC62437A4A12B2641" import="1">Art/Models/Resources/Luxury Coffee/hb_plantation_ind_coffee.fxsxml</File>
+    <File md5="11EBAC3C409792122333FA7DC49DCA1B" import="1">Art/Models/Resources/Luxury Coffee/hb_plantation_ind_coffee.gr2</File>
+    <File md5="F4A4E0272BB4C84E2E400302DB661CD1" import="1">Art/Models/Resources/Luxury Coffee/hb_plantation_mid_coffee.fxsxml</File>
+    <File md5="232FDD31F9D29B36E32619D79DE82F16" import="1">Art/Models/Resources/Luxury Coffee/hb_plantation_mid_coffee.gr2</File>
+    <File md5="F282FB6792392C3DC30A4F4AB711936A" import="1">Art/Models/Resources/Luxury Coffee/plantation_ind_coffee.fxsxml</File>
+    <File md5="EDC9886CB2F38AE8D1367B96D7964BB3" import="1">Art/Models/Resources/Luxury Coffee/plantation_ind_coffee.gr2</File>
+    <File md5="D7B08012E2875AFF0ADA4BC2034FE60F" import="1">Art/Models/Resources/Luxury Coffee/plantation_mid_coffee.fxsxml</File>
+    <File md5="A14F286D2798437C888689C7CF771027" import="1">Art/Models/Resources/Luxury Coffee/plantation_mid_coffee.gr2</File>
+    <File md5="ECF5DB61DFDE7CFE0AC52D6B74DFDD41" import="1">Art/Models/Resources/Luxury Coffee/pl_coffee_diff.dds</File>
+    <File md5="774E1DE446E7FDC86E7778BF078DA884" import="1">Art/Models/Resources/Luxury Coffee/pl_plantation_ind_coffee.fxsxml</File>
+    <File md5="560F6B234978677166054C25CA74F6DB" import="1">Art/Models/Resources/Luxury Coffee/pl_plantation_ind_coffee.gr2</File>
+    <File md5="008EF0EAE6D077ADC63CC2F4A551207B" import="1">Art/Models/Resources/Luxury Coffee/pl_plantation_mid_coffee.fxsxml</File>
+    <File md5="1C3EF459E36D128BBB0A7233E9BFF97D" import="1">Art/Models/Resources/Luxury Coffee/pl_plantation_mid_coffee.gr2</File>
+    <File md5="0FDB69EC78A6B30EE74E622569AE65F0" import="1">Art/Models/Resources/Luxury Coffee/resource_coffee.fxsxml</File>
+    <File md5="0E0AD7F18B45FF68D25752AD1A880EA5" import="1">Art/Models/Resources/Luxury Coffee/resource_coffee.gr2</File>
+    <File md5="AC1351336843C9C834A4D8FCA1D7CD35" import="1">Art/Models/Resources/Luxury Coffee/sv_coffee.dds</File>
+    <File md5="849FEEA5550DAB3E58659A829664F47F" import="1">Art/Models/Resources/Luxury Coral/coral.fxsxml</File>
+    <File md5="3E40EF6CEAB8E1D1D2632E9EDD87BFDC" import="1">Art/Models/Resources/Luxury Coral/coral.gr2</File>
+    <File md5="59D2CCAF4E7BAD7C0AE8DB5632E2DD9D" import="1">Art/Models/Resources/Luxury Coral/coral_built.gr2</File>
+    <File md5="CA665E4DB51AE715C2897958D87AD26D" import="1">Art/Models/Resources/Luxury Coral/coral_diff.dds</File>
+    <File md5="DA2A68FF6214EAB606278BB281988B76" import="1">Art/Models/Resources/Luxury Coral/coral_industrial.fxsxml</File>
+    <File md5="52345BFF0D72D24895B90AA9F21839DF" import="1">Art/Models/Resources/Luxury Coral/coral_industrial.gr2</File>
+    <File md5="B8BCDEB07AACA906DA688DB5E8210F23" import="1">Art/Models/Resources/Luxury Coral/coral_industrial_built.gr2</File>
+    <File md5="18B1534F6314796D3B46F81E831B8AFF" import="1">Art/Models/Resources/Luxury Coral/coral_sref.dds</File>
+    <File md5="2C8A798537EC5EFC631820F916337527" import="1">Art/Models/Resources/Luxury Coral/decal_coralreef_d.dds</File>
+    <File md5="8F51DE554797DF2E8F941053EF5E03BF" import="1">Art/Models/Resources/Luxury Coral/decal_coralreef_h.dds</File>
+    <File md5="CC71CD5E32505C42E30D827C686FAD21" import="1">Art/Models/Resources/Luxury Coral/decal_coralreef_s.dds</File>
+    <File md5="B23B6FD26F9A4D91BCBA261F76412829" import="1">Art/Models/Resources/Luxury Coral/sv_coral.dds</File>
+    <File md5="5D5E5494E10F2DB4FA8E7AC226938109" import="1">Art/Models/Resources/Luxury Jade/hb_ind_mine_jade.fxsxml</File>
+    <File md5="5B59A950902CD94CB8BD5246F54549A3" import="1">Art/Models/Resources/Luxury Jade/hb_ind_mine_jade.gr2</File>
+    <File md5="B7ABCBFF28AD2750C609E66FAE5A1F16" import="1">Art/Models/Resources/Luxury Jade/hb_med_mine_jade.fxsxml</File>
+    <File md5="8051FBEE9BCBE4488E3230EEC4AEAAFA" import="1">Art/Models/Resources/Luxury Jade/hb_med_mine_jade.gr2</File>
+    <File md5="BCF0D62A6C368A955AAF0DC96E141661" import="1">Art/Models/Resources/Luxury Jade/ind_mine_jade.fxsxml</File>
+    <File md5="D8AC63CC8B4FD7799F09D9126243C7B3" import="1">Art/Models/Resources/Luxury Jade/ind_mine_jade.gr2</File>
+    <File md5="DDCD73A91CDC4547F469E6E3265512A3" import="1">Art/Models/Resources/Luxury Jade/jade.fxsxml</File>
+    <File md5="DA537D4ADD8A68E82FD539626BEFC5E6" import="1">Art/Models/Resources/Luxury Jade/jade.gr2</File>
+    <File md5="6C547FBFA8F02CDAD68A24097B80352B" import="1">Art/Models/Resources/Luxury Jade/jade_diff.dds</File>
+    <File md5="EE9C8F4829E7D9546598D1C51B0C20F4" import="1">Art/Models/Resources/Luxury Jade/jade_mine_decal_d.dds</File>
+    <File md5="C77D0C06C35486B9DF33E5AF717F2EF1" import="1">Art/Models/Resources/Luxury Jade/jade_rubble_diff.dds</File>
+    <File md5="147EBD19074754313068CDC4D139AC15" import="1">Art/Models/Resources/Luxury Jade/med_mine_jade.fxsxml</File>
+    <File md5="2A8C07C81DD456100D1B3940D1167497" import="1">Art/Models/Resources/Luxury Jade/med_mine_jade.gr2</File>
+    <File md5="47D3515EEC6D9EC11A4FBF016AD98975" import="1">Art/Models/Resources/Luxury Jade/pl_ind_mine_jade.fxsxml</File>
+    <File md5="A8BD05D1CE0F8A300DE6AC18B0E6A164" import="1">Art/Models/Resources/Luxury Jade/pl_ind_mine_jade.gr2</File>
+    <File md5="A60B44A2423DD4486284434C784D8337" import="1">Art/Models/Resources/Luxury Jade/pl_jade_mine_decal_d.dds</File>
+    <File md5="257804A79E8B9574C5B9EC86D7564CCC" import="1">Art/Models/Resources/Luxury Jade/pl_med_mine_jade.fxsxml</File>
+    <File md5="A03BF45544E918319379A248DD1CA910" import="1">Art/Models/Resources/Luxury Jade/pl_med_mine_jade.gr2</File>
+    <File md5="8BE69AECA754F8A3C437EC7771D4AE7D" import="1">Art/Models/Resources/Luxury Jade/sv_jade.dds</File>
+    <File md5="BB4FE68429C16C5ADE57DE4CAECEFD14" import="1">Art/Models/Resources/Luxury Lapis Lazuli/hb_ind_mine_lapis.fxsxml</File>
+    <File md5="26270D5F051071CE5D8FA942545DEDA3" import="1">Art/Models/Resources/Luxury Lapis Lazuli/hb_ind_mine_lapis.gr2</File>
+    <File md5="F9C2D84B084F394F0CE23E94FC2770FC" import="1">Art/Models/Resources/Luxury Lapis Lazuli/hb_med_mine_lapis.fxsxml</File>
+    <File md5="994EA0679FC75D6E4281FEAC8939557A" import="1">Art/Models/Resources/Luxury Lapis Lazuli/hb_med_mine_lapis.gr2</File>
+    <File md5="CB6B8FB501CCCD92FE326DE38671D082" import="1">Art/Models/Resources/Luxury Lapis Lazuli/ind_mine_lapis.fxsxml</File>
+    <File md5="8203EB7EE32A028326483F9310C6F2FD" import="1">Art/Models/Resources/Luxury Lapis Lazuli/ind_mine_lapis.gr2</File>
+    <File md5="1F3BBB98DB6AD2F744E3E6EDFC918646" import="1">Art/Models/Resources/Luxury Lapis Lazuli/lapis.fxsxml</File>
+    <File md5="5A86A6DCA229CF1E593E052186167B84" import="1">Art/Models/Resources/Luxury Lapis Lazuli/lapis.gr2</File>
+    <File md5="F7C5A8CF9E60C94F12C0A93A066AF2D4" import="1">Art/Models/Resources/Luxury Lapis Lazuli/lapis_decal_diff.dds</File>
+    <File md5="5D2999410458BC76005D7CB116779D35" import="1">Art/Models/Resources/Luxury Lapis Lazuli/lapis_ore_diff.dds</File>
+    <File md5="6F11D154B827447B0F7774A9A2F47694" import="1">Art/Models/Resources/Luxury Lapis Lazuli/lapis_ore_sref.dds</File>
+    <File md5="349E9F64EA6C817E711865FE9FDDB729" import="1">Art/Models/Resources/Luxury Lapis Lazuli/lapis_rubble_diff.dds</File>
+    <File md5="7F0CCB4847675C17DDD591801209392A" import="1">Art/Models/Resources/Luxury Lapis Lazuli/med_mine_lapis.fxsxml</File>
+    <File md5="C3AF97E4CA1089BA7FD72D3378AD6180" import="1">Art/Models/Resources/Luxury Lapis Lazuli/med_mine_lapis.gr2</File>
+    <File md5="D1C2FD079D78E69225F45ABEE7D5F830" import="1">Art/Models/Resources/Luxury Lapis Lazuli/mine_lapis_decal_d.dds</File>
+    <File md5="08A18C6ECC616E89D41E421BB6E4B1A4" import="1">Art/Models/Resources/Luxury Lapis Lazuli/pl_ind_mine_lapis.fxsxml</File>
+    <File md5="F1576CC9032CDCD9EB479521A0ACD4CD" import="1">Art/Models/Resources/Luxury Lapis Lazuli/pl_ind_mine_lapis.gr2</File>
+    <File md5="8EBFF2830A42C6FA83F1F7475E014DDA" import="1">Art/Models/Resources/Luxury Lapis Lazuli/pl_med_mine_lapis.fxsxml</File>
+    <File md5="3DAD8D6CDF4E638A36150ADDE18A01C5" import="1">Art/Models/Resources/Luxury Lapis Lazuli/pl_med_mine_lapis.gr2</File>
+    <File md5="4B31E7A433C6E98D3CE6ED7B2AF9CC98" import="1">Art/Models/Resources/Luxury Lapis Lazuli/pl_mine_lapis_decal_d.dds</File>
+    <File md5="1660F5E89324359A91D24C9CE4F4E16F" import="1">Art/Models/Resources/Luxury Lapis Lazuli/sv_lapis.dds</File>
+    <File md5="0DAD2C23B15251E76BB786D5D2135795" import="1">Art/Models/Resources/Luxury Olives/olive.fxsxml</File>
+    <File md5="A158848F582A1790C935786E20E2BC7B" import="1">Art/Models/Resources/Luxury Olives/olive.gr2</File>
+    <File md5="5FE25879D2520832E56E69AE6C562C04" import="1">Art/Models/Resources/Luxury Olives/olive_trees_diff.dds</File>
+    <File md5="D9BB5E8260EF847DBEF9370EC510571D" import="1">Art/Models/Resources/Luxury Olives/olive_trees_sref.dds</File>
+    <File md5="696B5ADC18F6760C2BFE50FDCEB2BCBD" import="1">Art/Models/Resources/Luxury Olives/pil_olive_trees_diff.dds</File>
+    <File md5="DCC6311389204966859C5067A9E41796" import="1">Art/Models/Resources/Luxury Olives/plantation_ind_olive.fxsxml</File>
+    <File md5="9BAC5D0EF28FBCA72AC7422E370EBC1B" import="1">Art/Models/Resources/Luxury Olives/plantation_ind_olive.gr2</File>
+    <File md5="BBFA52863550BE179A40370261BA6D4C" import="1">Art/Models/Resources/Luxury Olives/plantation_ind_olive_hb.fxsxml</File>
+    <File md5="0FA08D3AAD1EE5E4EE333BEFBC6CC4E2" import="1">Art/Models/Resources/Luxury Olives/plantation_ind_olive_hb.gr2</File>
+    <File md5="F37DF6ACCD5EB81C813CFDC3EA5F1215" import="1">Art/Models/Resources/Luxury Olives/plantation_ind_olive_pil.fxsxml</File>
+    <File md5="610D8FDEB75EC2C92C9607F540288B86" import="1">Art/Models/Resources/Luxury Olives/plantation_ind_olive_pil.gr2</File>
+    <File md5="8C3079FECB81606498F772642D31CE4D" import="1">Art/Models/Resources/Luxury Olives/plantation_mid_olive.fxsxml</File>
+    <File md5="06B91EA5F531D381CDC309249EB99D60" import="1">Art/Models/Resources/Luxury Olives/plantation_mid_olive.gr2</File>
+    <File md5="A54B5578958DC9DCFAA3421406F7996C" import="1">Art/Models/Resources/Luxury Olives/plantation_mid_olive_hb.fxsxml</File>
+    <File md5="31D68A28D72B03E6FC9B1CC048AD1235" import="1">Art/Models/Resources/Luxury Olives/plantation_mid_olive_hb.gr2</File>
+    <File md5="ADAED74AB5F202B732DFE223665C81CF" import="1">Art/Models/Resources/Luxury Olives/plantation_mid_olive_pil.fxsxml</File>
+    <File md5="33B572C0676E163B403739B88B391A4E" import="1">Art/Models/Resources/Luxury Olives/plantation_mid_olive_pil.gr2</File>
+    <File md5="5B833D1724A528917290D267A6EC074F" import="1">Art/Models/Resources/Luxury Olives/sv_olive.dds</File>
+    <File md5="1890B9DB576C52687CD3CA802CAE799B" import="1">Art/Models/Resources/Luxury Perfume/hb_plantation_ind_perfume.fxsxml</File>
+    <File md5="A448CD7AEDA45D05AD6DE50F2952224B" import="1">Art/Models/Resources/Luxury Perfume/hb_plantation_ind_perfume.gr2</File>
+    <File md5="DF4AE5E65461576302A8CA242640A071" import="1">Art/Models/Resources/Luxury Perfume/hb_plantation_mid_perfume.fxsxml</File>
+    <File md5="AAE0FCB7F2B034F4D5689B274745B127" import="1">Art/Models/Resources/Luxury Perfume/hb_plantation_mid_perfume.gr2</File>
+    <File md5="67A22044A600E02E96D10086C7BFEB74" import="1">Art/Models/Resources/Luxury Perfume/perfume_diff.dds</File>
+    <File md5="EA56313C5E929369A92D9BE47358D33A" import="1">Art/Models/Resources/Luxury Perfume/plantation_ind_perfume.fxsxml</File>
+    <File md5="BE0419D45DAFF82493F37F0B122F4BFA" import="1">Art/Models/Resources/Luxury Perfume/plantation_ind_perfume.gr2</File>
+    <File md5="3FCEA66078F55EC8FA94B918E7753154" import="1">Art/Models/Resources/Luxury Perfume/plantation_mid_perfume.fxsxml</File>
+    <File md5="3311513849E40FA45B6944D1789D38D6" import="1">Art/Models/Resources/Luxury Perfume/plantation_mid_perfume.gr2</File>
+    <File md5="B5C82F8EC3DA23A98E0711B292750366" import="1">Art/Models/Resources/Luxury Perfume/pl_perfume_diff.dds</File>
+    <File md5="08776CDAF12A1094038F87C765B5CFA2" import="1">Art/Models/Resources/Luxury Perfume/pl_plantation_ind_perfume.fxsxml</File>
+    <File md5="F4D9EF3D17984446690F21AFDA389D32" import="1">Art/Models/Resources/Luxury Perfume/pl_plantation_ind_perfume.gr2</File>
+    <File md5="270F33DD0A246A73CD1E8DEA1B2D54AD" import="1">Art/Models/Resources/Luxury Perfume/pl_plantation_mid_perfume.fxsxml</File>
+    <File md5="21A9E591CCC236D33782A18FD44A271F" import="1">Art/Models/Resources/Luxury Perfume/pl_plantation_mid_perfume.gr2</File>
+    <File md5="33B0DDBC3C7D9D47A9A950478F20A1AE" import="1">Art/Models/Resources/Luxury Perfume/resource_perfume.fxsxml</File>
+    <File md5="C3F98D8414EA21AC60E73866686A8276" import="1">Art/Models/Resources/Luxury Perfume/resource_perfume.gr2</File>
+    <File md5="EA3BDD2C79481415AA996087C3834A2C" import="1">Art/Models/Resources/Luxury Perfume/sv_perfume.dds</File>
+    <File md5="C8E89831317D8F6AFEFFCD6E5F5E2A0E" import="1">Art/Models/Resources/Luxury Tea/hb_plantation_ind_tea.fxsxml</File>
+    <File md5="A946699A2D65B6025683865A70713A74" import="1">Art/Models/Resources/Luxury Tea/hb_plantation_ind_tea.gr2</File>
+    <File md5="A708B523B13F1A67306A04012A157479" import="1">Art/Models/Resources/Luxury Tea/hb_plantation_mid_tea.fxsxml</File>
+    <File md5="25DDEFE256B52C1B52A267A8C0EF76D2" import="1">Art/Models/Resources/Luxury Tea/hb_plantation_mid_tea.gr2</File>
+    <File md5="0D47BE61F62C3129DDF5E057B8CBEE19" import="1">Art/Models/Resources/Luxury Tea/plantation_ind_tea.fxsxml</File>
+    <File md5="59DBB686A4E562A57704300EE419148A" import="1">Art/Models/Resources/Luxury Tea/plantation_ind_tea.gr2</File>
+    <File md5="3F2154C0C03F2EE40E5C8F5952DCCF9F" import="1">Art/Models/Resources/Luxury Tea/plantation_mid_tea.fxsxml</File>
+    <File md5="AA752A5F3CEA74D6FC55F02332B09F2B" import="1">Art/Models/Resources/Luxury Tea/plantation_mid_tea.gr2</File>
+    <File md5="0102C8B1889B12FD021A874A84583E95" import="1">Art/Models/Resources/Luxury Tea/pl_plantation_ind_tea.fxsxml</File>
+    <File md5="CF676AA4D936E0CABDA3FEF304F5E7D3" import="1">Art/Models/Resources/Luxury Tea/pl_plantation_ind_tea.gr2</File>
+    <File md5="322DE1FF7CE00093ABCE954AECD40431" import="1">Art/Models/Resources/Luxury Tea/pl_plantation_mid_tea.fxsxml</File>
+    <File md5="58348106DD0F88EE0EC2B0A97603E2B0" import="1">Art/Models/Resources/Luxury Tea/pl_plantation_mid_tea.gr2</File>
+    <File md5="8F593C6FA8073AED9DFDBD8B11ECD563" import="1">Art/Models/Resources/Luxury Tea/pl_tea_diff.dds</File>
+    <File md5="6CD98BD4A90F50D4B2E776F9D43B04FA" import="1">Art/Models/Resources/Luxury Tea/resource_tea.fxsxml</File>
+    <File md5="00D12FD03500EB6CBDFB89F9CBC98004" import="1">Art/Models/Resources/Luxury Tea/resource_tea.gr2</File>
+    <File md5="577CE479F35CC349697A3973B27FAA13" import="1">Art/Models/Resources/Luxury Tea/sv_tea.dds</File>
+    <File md5="810B57D57C16FFF33B830074C266208C" import="1">Art/Models/Resources/Luxury Tea/tea_diff.dds</File>
+    <File md5="8261FEC2C4A460886246E4C9B864056D" import="1">Art/Models/Resources/Luxury Tobacco/hb_plantation_ind_tobacco.fxsxml</File>
+    <File md5="AB901C646A3D06790D20CF0B9374A910" import="1">Art/Models/Resources/Luxury Tobacco/hb_plantation_ind_tobacco.gr2</File>
+    <File md5="F37CA5B96F1EF6030CFA247D45B21443" import="1">Art/Models/Resources/Luxury Tobacco/hb_plantation_mid_tobacco.fxsxml</File>
+    <File md5="2A6D3AED0E009C393DD3B8F0382CCA57" import="1">Art/Models/Resources/Luxury Tobacco/hb_plantation_mid_tobacco.gr2</File>
+    <File md5="2FA4F804D1286AF73068C16B2F55FB08" import="1">Art/Models/Resources/Luxury Tobacco/plantation_ind_tobacco.fxsxml</File>
+    <File md5="5CD66D5BB9E4B1DD21118A9D2F4B953F" import="1">Art/Models/Resources/Luxury Tobacco/plantation_ind_tobacco.gr2</File>
+    <File md5="B9FEBD71F29EDC2A527C77006BABAAAF" import="1">Art/Models/Resources/Luxury Tobacco/plantation_mid_tobacco.fxsxml</File>
+    <File md5="5C731CBB41B66C7E14C7EDF9BC101292" import="1">Art/Models/Resources/Luxury Tobacco/plantation_mid_tobacco.gr2</File>
+    <File md5="67A69243A06C10305EB36113C5D4C4F5" import="1">Art/Models/Resources/Luxury Tobacco/pl_plantation_ind_tobacco.fxsxml</File>
+    <File md5="19970DA6F93D674B799F44934F953DD4" import="1">Art/Models/Resources/Luxury Tobacco/pl_plantation_ind_tobacco.gr2</File>
+    <File md5="0B0164F1CC3E7B4430FA47937DC9806A" import="1">Art/Models/Resources/Luxury Tobacco/pl_plantation_mid_tobacco.fxsxml</File>
+    <File md5="1189D9C0B5DA0A9C3889F51863E55C97" import="1">Art/Models/Resources/Luxury Tobacco/pl_plantation_mid_tobacco.gr2</File>
+    <File md5="DA8408660B1CD74801D7F8CC2B0B4166" import="1">Art/Models/Resources/Luxury Tobacco/pl_tobacco_diff.dds</File>
+    <File md5="39B5BB9B82EF081F68FC04C4C12CE1A2" import="1">Art/Models/Resources/Luxury Tobacco/resource_tobacco.fxsxml</File>
+    <File md5="0288D68DB9F56BE9986C229E04A839BC" import="1">Art/Models/Resources/Luxury Tobacco/resource_tobacco.gr2</File>
+    <File md5="52330A4A3896218A0B23A0920E7C10B5" import="1">Art/Models/Resources/Luxury Tobacco/sv_tobacco.dds</File>
+    <File md5="0A0B31996D508E6A8246D65F0868697C" import="1">Art/Models/Resources/Luxury Tobacco/tobacco_diff.dds</File>
+    <File md5="46F2B1292CE6D32003016F9292E0407C" import="1">Art/Models/Resources/Luxury Tobacco/tobacco_sref.dds</File>
+    <File md5="5B55989F0254721E99E7971B7C4BF6AE" import="1">Art/Models/Resources/Update Sugar/hb_plantation_ind_sugar_alt.fxsxml</File>
+    <File md5="F50EF8FCE55032DCEBBC219F7CFBCC83" import="1">Art/Models/Resources/Update Sugar/hb_plantation_ind_sugar_alt.gr2</File>
+    <File md5="161E3A1C344876EBD58987207E908576" import="1">Art/Models/Resources/Update Sugar/hb_plantation_mid_sugar_alt.fxsxml</File>
+    <File md5="108A88A8078A48EC4E91956F6CD9722D" import="1">Art/Models/Resources/Update Sugar/hb_plantation_mid_sugar_alt.gr2</File>
+    <File md5="B39B250B9F0A1E93AC2103262C6656C4" import="1">Art/Models/Resources/Update Sugar/plantation_ind_sugar_alt.fxsxml</File>
+    <File md5="13638012E23A9BDE1D9DF81135FC9090" import="1">Art/Models/Resources/Update Sugar/plantation_ind_sugar_alt.gr2</File>
+    <File md5="ADD6238C66ED4B588B9813EE03E92495" import="1">Art/Models/Resources/Update Sugar/plantation_mid_sugar_alt.fxsxml</File>
+    <File md5="7524CE6E18AEB92717FF4B56BE6F2F87" import="1">Art/Models/Resources/Update Sugar/plantation_mid_sugar_alt.gr2</File>
+    <File md5="78F30B5A7D0F5A11AD2A1CC9328A39D8" import="1">Art/Models/Resources/Update Sugar/pl_plantation_ind_sugar_alt.fxsxml</File>
+    <File md5="F3BB2F1EAD2B1110799F652FD9613357" import="1">Art/Models/Resources/Update Sugar/pl_plantation_ind_sugar_alt.gr2</File>
+    <File md5="CFB331790CC2A0E69BA6496724F0CB04" import="1">Art/Models/Resources/Update Sugar/pl_plantation_mid_sugar_alt.fxsxml</File>
+    <File md5="70C544131061A1DE313752D9B7D40BEA" import="1">Art/Models/Resources/Update Sugar/pl_plantation_mid_sugar_alt.gr2</File>
+    <File md5="2A72B831EB1D3921BF5EF2942597E8E7" import="1">Art/Models/Resources/Update Sugar/resource_sugar_alt.fxsxml</File>
+    <File md5="BF1377774AB4A8A4740942E2A27F6DDA" import="1">Art/Models/Resources/Update Sugar/resource_sugar_alt.gr2</File>
+    <File md5="1109181AC754DA8DFEB710DE9CBE4E82" import="1">Art/Models/Resources/Update Sugar/sugar_alt_diff.dds</File>
+    <File md5="9BCB5617B7D9C9ACC4F63DFD81082AB2" import="1">Art/Models/Unit Elite/77cmFkCrew_diff.dds</File>
+    <File md5="028282A0118999C2AABE75A935CCF3E0" import="1">Art/Models/Unit Elite/77cmFkCrew_sref.dds</File>
+    <File md5="31D7132754E43BD4D866CCE9BEA451DF" import="1">Art/Models/Unit Elite/bigbertha.fxsxml</File>
+    <File md5="4A0CE9DBA582F833C6ACA2385B124F2B" import="1">Art/Models/Unit Elite/BigBertha.gr2</File>
+    <File md5="7CB000159E30E23B6BDA2CB1EA204DD2" import="1">Art/Models/Unit Elite/BigBertha_diff.dds</File>
+    <File md5="D797C7CA14D77F3AD989CD2D4945055E" import="1">Art/Models/Unit Elite/BigBertha_sref.dds</File>
+    <File md5="93F84828058BD0F153A4D1E77B69819E" import="1">Art/Models/Unit Elite/Bismark_Class.dds</File>
+    <File md5="DF0577BDA619441DB4F9DA23216DF219" import="1">Art/Models/Unit Elite/Bismark_Class.fxsxml</File>
+    <File md5="99953431FB4BBE3C3509F4074E695247" import="1">Art/Models/Unit Elite/Bismark_Class.gr2</File>
+    <File md5="BE710F56549D66DD0F836300AEA249CE" import="1">Art/Models/Unit Elite/Bismark_Class_gloss.dds</File>
+    <File md5="677F70D3C70F4CD8ABA1F49C0806DF8B" import="1">Art/Models/Unit Elite/EthiopiaHorseman2.dds</File>
+    <File md5="3606C29E222F4C5445DED490525DF17C" import="1">Art/Models/Unit Elite/EthiopiaHorseman2.fxsxml</File>
+    <File md5="3EDE229DC6E12C32CD68F0FC50A98E66" import="1">Art/Models/Unit Elite/EthiopiaHorseman2.gr2</File>
+    <File md5="05D4D83346896B242ACE392DD323B97D" import="1">Art/Models/Unit Elite/EthiopiaHorseman2_sref.dds</File>
+    <File md5="7834ACAA44C6D36C1D4E9A132E232AFC" import="1">Art/Models/Unit Elite/Ethiopia_Horse2.dds</File>
+    <File md5="E3771DF37E99C08CA3C9ED5DC4F70B38" import="1">Art/Models/Unit Elite/Ethiopia_Horse2_sref.dds</File>
+    <File md5="A09A6FF5308FE7691D74058C352AB00E" import="1">Art/Models/Unit Elite/Flak88.dds</File>
+    <File md5="D1F75E5DC4A78A1A7FDA580A08F9805D" import="1">Art/Models/Unit Elite/Flak88.fxsxml</File>
+    <File md5="9E3527B0537388E3CCE432110E9FF8CB" import="1">Art/Models/Unit Elite/Flak88.gr2</File>
+    <File md5="755F283817E947F99AFFFA8F085FF695" import="1">Art/Models/Unit Elite/Flak88SREF.dds</File>
+    <File md5="2A576768AC843FD091824E6432AF33ED" import="1">Art/Models/Unit Elite/fx_triggers_bigbertha.ftsxml</File>
+    <File md5="4E1E953A49A35E99EE150171EF898686" import="1">Art/Models/Unit Elite/fx_triggers_ho229.ftsxml</File>
+    <File md5="2FD0BE91B803328116E60890F82C8AD6" import="1">Art/Models/Unit Elite/Fx_Triggers_SpartanHypomeione.ftsxml</File>
+    <File md5="02F49F5CADCE72B8918446E3F48C2CB2" import="1">Art/Models/Unit Elite/Ho229.fxsxml</File>
+    <File md5="459AEE169DA9BAAC2355B6759D0735E7" import="1">Art/Models/Unit Elite/Ho229.gr2</File>
+    <File md5="650A89672D425BCA9FCE188B46109AA6" import="1">Art/Models/Unit Elite/Ho229_diff.dds</File>
+    <File md5="857F131A231AD184E84253A40E59114B" import="1">Art/Models/Unit Elite/Ho229_sref.dds</File>
+    <File md5="1C6BB8E6509F0365AD47EFDD653B8A8F" import="1">Art/Models/Unit Elite/Knight_China.dds</File>
+    <File md5="8F1623F7700F96F5F1F63445F860E3B8" import="1">Art/Models/Unit Elite/Knight_China.fxsxml</File>
+    <File md5="76093248416349CC632C122F69D1AAC2" import="1">Art/Models/Unit Elite/Knight_China.gr2</File>
+    <File md5="0FF92525112631CDA5AAB671E6761B02" import="1">Art/Models/Unit Elite/Knight_China_gloss.dds</File>
+    <File md5="A7143B86B93DBD7B0873C7E4844F2F14" import="1">Art/Models/Unit Elite/Knight_China_Horse.dds</File>
+    <File md5="37E4F7526EDD9ED60400FB6BF5CF47C6" import="1">Art/Models/Unit Elite/Knight_China_Horse_gloss.dds</File>
+    <File md5="3115E6F622565EF63588ED24ADC7F9F0" import="1">Art/Models/Unit Elite/M109Peru.dds</File>
+    <File md5="E3D60C8E92DD0E6C7E79C858BA1B6874" import="1">Art/Models/Unit Elite/M109Peru.fxsxml</File>
+    <File md5="6CA1F0335F95067095AC5E9CEAF0785D" import="1">Art/Models/Unit Elite/M109Peru.gr2</File>
+    <File md5="4B65299C45026D3D9DEB975AD30832F3" import="1">Art/Models/Unit Elite/mangusta.fxsxml</File>
+    <File md5="D8B73FCDEEDB7D7E7469C4D385627BEF" import="1">Art/Models/Unit Elite/Mangusta.gr2</File>
+    <File md5="07702C9E20A4A96BB00894745C14B1F5" import="1">Art/Models/Unit Elite/Mangusta_diff.dds</File>
+    <File md5="D66F713F0FFD5A474F52BCEB41313B80" import="1">Art/Models/Unit Elite/Mangusta_sref.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Art/Models/Unit Elite/no_gloss.dds</File>
+    <File md5="87A42E7518D71F98CB24B52A3B8AB076" import="1">Art/Models/Unit Elite/Panzer_VIII_Maus.dds</File>
+    <File md5="5C50B394D7B75408513920010EFCB219" import="1">Art/Models/Unit Elite/Panzer_VIII_Maus.fxsxml</File>
+    <File md5="725F8563A8FB14906169C6E2C2B79882" import="1">Art/Models/Unit Elite/Panzer_VIII_Maus.gr2</File>
+    <File md5="D2C0A48762F8649D2625EED695D6138B" import="1">Art/Models/Unit Elite/Panzer_VIII_Maus_2.dds</File>
+    <File md5="4B29B29E835E8B3E1A084F1C94B890F2" import="1">Art/Models/Unit Elite/Panzer_VIII_Maus_3.dds</File>
+    <File md5="B7BE2BE39F697D37098A67D9C4FDF292" import="1">Art/Models/Unit Elite/Paratrooper_Russia.dds</File>
+    <File md5="FA86FDAB022A9811C2B52D4D9982931A" import="1">Art/Models/Unit Elite/Paratrooper_Russia.fxsxml</File>
+    <File md5="E5DB2D1254380FA2AC370CE28AB8AE07" import="1">Art/Models/Unit Elite/Paratrooper_Russia.gr2</File>
+    <File md5="3F2B13487D9A32BF07B22E3CCDA908E1" import="1">Art/Models/Unit Elite/ranger.fxsxml</File>
+    <File md5="96A9C87C7F3921D19CDA0D64B18B231C" import="1">Art/Models/Unit Elite/ranger.gr2</File>
+    <File md5="73E8F7D64423CB4562C06F675CCC1FFD" import="1">Art/Models/Unit Elite/Ranger_diff.dds</File>
+    <File md5="BC91572D43681249F5450A0613B2A829" import="1">Art/Models/Unit Elite/Ranger_sref.dds</File>
+    <File md5="E89708BF009E6FBD8F8FB2F5EF69991C" import="1">Art/Models/Unit Elite/SpartanHypomeione.fxsxml</File>
+    <File md5="03538502AAB56ECA55C4FE3D07CC047F" import="1">Art/Models/Unit Elite/SpartanHypomeione.gr2</File>
+    <File md5="72203E26F51D955BCC8F54FA333B474E" import="1">Art/Models/Unit Elite/SpartanHypomeiones.dds</File>
+    <File md5="38485BB8818534AC7BC0A320ED183E71" import="1">Art/Models/Unit Elite/SpartanHypomeiones_sref.dds</File>
+    <File md5="A4C9E8E3091F939AF05DC1F9B5F3EDEB" import="1">Art/Models/Unit Elite/Surcouf.dds</File>
+    <File md5="88071258C59A62478878A5FEEDF44C0E" import="1">Art/Models/Unit Elite/Surcouf.fxsxml</File>
+    <File md5="03967B4DA9674F7AF882A103F1A5DA22" import="1">Art/Models/Unit Elite/Surcouf.gr2</File>
+    <File md5="8864ED81E1B10D8BE49FD96A4E6FCA1C" import="1">Art/Models/Unit Elite/Surcouf_gloss.dds</File>
+    <File md5="C52EE1524E3580C78757F22791F34C44" import="1">Art/Models/Unit Elite/SuT-50.fxsxml</File>
+    <File md5="29B481AAF16E27009FD14CE1C6751149" import="1">Art/Models/Unit Elite/SuT-50.gr2</File>
+    <File md5="9C9FED80D1C6A23014F3FF2CF8880998" import="1">Art/Models/Unit Elite/SuT-50_diff.dds</File>
+    <File md5="ED962F070C71FE7E8F20A5FDF4DC1B4F" import="1">Art/Models/Unit Elite/SuT-50_sref.dds</File>
+    <File md5="418799E5619B9D96BD8BC9E0950DD99F" import="1">Art/Models/Unit Elite/typhoon.fxsxml</File>
+    <File md5="3E11B86CA7F0AFE76058F27348D460BF" import="1">Art/Models/Unit Elite/Typhoon.gr2</File>
+    <File md5="F1BEC265334B8BB7FD21EB48388173F0" import="1">Art/Models/Unit Elite/typhoon_diff.dds</File>
+    <File md5="626C3786775EF14B1A4B9FE9F98959D4" import="1">Art/Models/Unit Elite/typhoon_dmg_diff.dds</File>
+    <File md5="28F625FE9594EE239D3A6D29E6AEB51F" import="1">Art/Models/Unit Elite/typhoon_dmg_sref.dds</File>
+    <File md5="0FFFCC60FF94A61C2B9C2EECBAF5C73E" import="1">Art/Models/Unit Elite/typhoon_sref.dds</File>
+    <File md5="5A580836015F9C850AB35F55E2B6E160" import="1">Art/Models/Unit Elite/WarJunk.fxsxml</File>
+    <File md5="9055CFE68543E265F5F097FD57516888" import="1">Art/Models/Unit Elite/WarJunk.gr2</File>
+    <File md5="7038C2D91B8CFDBE084AE650311D0165" import="1">Art/Models/Unit Elite/WarJunk_diff.dds</File>
+    <File md5="A0259BA1FB1B544F89BBD5A07BE8B90F" import="1">Art/Models/Unit Elite/WarJunk_sref.dds</File>
+    <File md5="4C5C099F0A4FD21C8E3CE9B0775AEBD4" import="1">Art/Models/Unit Elite/Yamato_Class.dds</File>
+    <File md5="0D4D76E4C089C2A54982CB4CD4B53F83" import="1">Art/Models/Unit Elite/Yamato_Class.fxsxml</File>
+    <File md5="800A6760332BFB63E5F61651040918F2" import="1">Art/Models/Unit Elite/Yamato_Class.gr2</File>
+    <File md5="A08BD3AA9B8EE4494A2A218F6656B3D8" import="1">Art/Models/Unit Elite/Yamato_Class_gloss.dds</File>
+    <File md5="B01F41EDE1BA9B5013507B0A02BEF2F2" import="1">Art/Models/Units Air/A-10.fxsxml</File>
+    <File md5="B4FC49BD2EAD79B88796C888986CA760" import="1">Art/Models/Units Air/A-10.gr2</File>
+    <File md5="210F0AAF9CCA036907E90DC209C525F7" import="1">Art/Models/Units Air/A-10_diff.dds</File>
+    <File md5="6B32B7D4FEE94C70CDE92DC6490D1187" import="1">Art/Models/Units Air/A-10_sref.dds</File>
+    <File md5="5B672D1A8C98089201D9C0680C3D8600" import="1">Art/Models/Units Air/B52.dds</File>
+    <File md5="85DA270D56771841D9F895FA86C953BA" import="1">Art/Models/Units Air/B52.fxsxml</File>
+    <File md5="CEF5304A4B810775B212CD1C2E4B9AD8" import="1">Art/Models/Units Air/B52.gr2</File>
+    <File md5="E7F5DC1D699336245676AAF986BE0BA2" import="1">Art/Models/Units Air/cobra.fxsxml</File>
+    <File md5="3EB0186F2372718ECDF351477EFDCE58" import="1">Art/Models/Units Air/Cobra.gr2</File>
+    <File md5="A4EDE034D8EEF4E6A4A6A22A90E99E25" import="1">Art/Models/Units Air/eurotiger_france.dds</File>
+    <File md5="415D8F04BC8FD5CD0C84A0A89191EA77" import="1">Art/Models/Units Air/eurotiger_france.fxsxml</File>
+    <File md5="C3E92A663EADB8C9FD83DF19FD3A6B4E" import="1">Art/Models/Units Air/eurotiger_france.gr2</File>
+    <File md5="719002754EDCABB3182CFD0FA5C43234" import="1">Art/Models/Units Air/F-117.fxsxml</File>
+    <File md5="07DFAE2E145C5AEFA5C017276E1EBBA4" import="1">Art/Models/Units Air/F-117.gr2</File>
+    <File md5="95661C35835330A2B9FF73A96DD2C96C" import="1">Art/Models/Units Air/F-117_diff.dds</File>
+    <File md5="D95E59AADF2598ECA88F3E24302871D4" import="1">Art/Models/Units Air/F-117_sref.dds</File>
+    <File md5="33C24A6581BF994A4ED9B03BE40AD5FC" import="1">Art/Models/Units Air/F-35.fxsxml</File>
+    <File md5="5A58EC9A7FD2E30ADF9B93D95E55286A" import="1">Art/Models/Units Air/F-35.gr2</File>
+    <File md5="A15AD85EDC6F3AB93E1A32AD70578941" import="1">Art/Models/Units Air/F-35_diff.dds</File>
+    <File md5="E485AC0F9B72F1037866AA4AB7203F21" import="1">Art/Models/Units Air/F-35_sref.dds</File>
+    <File md5="27577D55598B148C4F05DF941D16A077" import="1">Art/Models/Units Air/F-8.fxsxml</File>
+    <File md5="0C918A99A37D6992BB133C99CE27B3A3" import="1">Art/Models/Units Air/F-8.gr2</File>
+    <File md5="4BA3E685DE9444E60102E33D9DC06AED" import="1">Art/Models/Units Air/F-8_diff.dds</File>
+    <File md5="82958130D7C4EC362C505D7CC450A4E5" import="1">Art/Models/Units Air/F-8_sref.dds</File>
+    <File md5="F9008695BB62FB829A6C881304A6DC32" import="1">Art/Models/Units Air/F4SREF.dds</File>
+    <File md5="37292DDB0E7495F23F243D06D152612D" import="1">Art/Models/Units Air/F4USGrey.dds</File>
+    <File md5="9B7A24582EC9D33D31D90E79C607FCAB" import="1">Art/Models/Units Air/F4USGrey.fxsxml</File>
+    <File md5="C251CEB3848D0139BBE7F06C3E6B8D0B" import="1">Art/Models/Units Air/F4USGrey.gr2</File>
+    <File md5="E719D20FD2CF95A9F9D291A40466DAA2" import="1">Art/Models/Units Air/fx_triggers_cobra.ftsxml</File>
+    <File md5="67BDFC8951390BFF61C9B24F79A56E0C" import="1">Art/Models/Units Air/fx_triggers_gazelle.ftsxml</File>
+    <File md5="06FB18EFEDE4F2D9677B2EA62D3AFC38" import="1">Art/Models/Units Air/gazelle.fxsxml</File>
+    <File md5="DF91980ED920E0400DB5DDADD3B039EB" import="1">Art/Models/Units Air/Gazelle.gr2</File>
+    <File md5="E2BD376F153B4D87551FDC868BAA278A" import="1">Art/Models/Units Air/Gazelle_diff.dds</File>
+    <File md5="733B85395D76A96B60C40FA20978C5C8" import="1">Art/Models/Units Air/Gazelle_sref.dds</File>
+    <File md5="B53428AFF1D126A102262178D8E1603B" import="1">Art/Models/Units Air/gunship_128.dds</File>
+    <File md5="30AC0877BB69B030676D0FAF20B550BD" import="1">Art/Models/Units Air/gunship_128_gloss.dds</File>
+    <File md5="0AC4AE245A5CE1FA9E663B2C260F2BC2" import="1">Art/Models/Units Air/harrier.fxsxml</File>
+    <File md5="7ED3973CCEAEB197D7D3839C49022CDF" import="1">Art/Models/Units Air/Harrier.gr2</File>
+    <File md5="AB24EEBE0F92F8E0E49B4CC6ADB2F989" import="1">Art/Models/Units Air/Harrier_diff.dds</File>
+    <File md5="1E4E47B90E7EE2A55A8933922BC35DA0" import="1">Art/Models/Units Air/Harrier_sref.dds</File>
+    <File md5="70DB0720F4379B70304B31134E220855" import="1">Art/Models/Units Air/Junkers_Ju-87_Stuka.blend</File>
+    <File md5="471A32387875BF4F593BB9DDC17DBE3C" import="1">Art/Models/Units Air/Junkers_Ju-87_Stuka.dds</File>
+    <File md5="9845D4FCD9E5B2ABBD946B6E9B0D8562" import="1">Art/Models/Units Air/Junkers_Ju-87_Stuka.fxsxml</File>
+    <File md5="C4E7B40A288B56515197ABB35B80CE7C" import="1">Art/Models/Units Air/Junkers_Ju-87_Stuka.gr2</File>
+    <File md5="1FBB9057047076138F6A66171548EE37" import="1">Art/Models/Units Air/Mirage2000.fxsxml</File>
+    <File md5="C062DBFA70549D84B3E36341B713DBAD" import="1">Art/Models/Units Air/Mirage2000.gr2</File>
+    <File md5="48CD29B3D41191A1C28E84E6094C25EA" import="1">Art/Models/Units Air/Mirage2000_diff.dds</File>
+    <File md5="0BC836749ACB5EF07A39989DA0E5B0AA" import="1">Art/Models/Units Air/Mirage2000_sref.dds</File>
+    <File md5="BB0485CA529E93BA2C40A94453652F85" import="1">Art/Models/Units Air/PZL_P.23_Karas.dds</File>
+    <File md5="D58F7F4B49C42F4533A8247600A3B415" import="1">Art/Models/Units Air/PZL_P.23_Karas.fxsxml</File>
+    <File md5="3365AA88BE89516C6EA8628EA00293D9" import="1">Art/Models/Units Air/PZL_P.23_Karas.gr2</File>
+    <File md5="24CF5004E9FB0E1D93CF6BEE2A5771E6" import="1">Art/Models/Units Air/PZL_P.23_Karas_gloss.dds</File>
+    <File md5="8C820AA2974C05BB36E36E6285D3B10B" import="1">Art/Models/Units Air/Rafale.fxsxml</File>
+    <File md5="9A34B84D41357EE1977D3490C0029C73" import="1">Art/Models/Units Air/Rafale.gr2</File>
+    <File md5="13F9C95310042771CBEFE53D7FC8B3B2" import="1">Art/Models/Units Air/Rafale_diff.dds</File>
+    <File md5="5C3E7881E688EA724534530132ED9A39" import="1">Art/Models/Units Air/SR-71_Blackbird.fxsxml</File>
+    <File md5="5B896BA0E4977184441CABC01503821E" import="1">Art/Models/Units Air/SR-71_Blackbird.gr2</File>
+    <File md5="9257DCA622782AF277B49583F85C4C3C" import="1">Art/Models/Units Air/SR-71_diff.dds</File>
+    <File md5="2CB870156E94747E8B00CA4F8EC78AC1" import="1">Art/Models/Units Air/SR-71_sref.dds</File>
+    <File md5="3355C44C9175B4A247B5E0EAEDDE1723" import="1">Art/Models/Units Air/stealthbomber_gloss.dds</File>
+    <File md5="9E8D39BDAC93C1492CCF0E000D7483E5" import="1">Art/Models/Units Air/Su-27.fxsxml</File>
+    <File md5="BE973396E26C3BF03777A93BCB5086A5" import="1">Art/Models/Units Air/Su-27.gr2</File>
+    <File md5="4342A257E4E668C1EB411DB4C163C3BB" import="1">Art/Models/Units Air/Su-27_diff.dds</File>
+    <File md5="15BC476FDBC09646F3CF94065370B927" import="1">Art/Models/Units Air/Su-27_sref.dds</File>
+    <File md5="A8D818212DEF10FF499B93C51F5EFD0F" import="1">Art/Models/Units Air/SV_UAV.dds</File>
+    <File md5="724DD6082E3B52EE66C59874ACFA0FA5" import="1">Art/Models/Units Air/Tiger_diff.dds</File>
+    <File md5="411281C0E057F5EE5E0CE1E922057D95" import="1">Art/Models/Units Air/tiger_germany.fxsxml</File>
+    <File md5="612EF5D9B4469E114594996666942E65" import="1">Art/Models/Units Air/Tiger_Germany.gr2</File>
+    <File md5="33881021B7D2B83112222067A095F3EA" import="1">Art/Models/Units Air/Tiger_sref.dds</File>
+    <File md5="25508B471913335C68040D5530CDA408" import="1">Art/Models/Units Air/UAV.dds</File>
+    <File md5="90DF67F1E343BB93D85AFED78C12E1F2" import="1">Art/Models/Units Air/UAV.fxsxml</File>
+    <File md5="F4883E68FD3C96A8EBD0C18DCF6DB79E" import="1">Art/Models/Units Air/uav.gr2</File>
+    <File md5="E67EC2B0DCD3D94063F3720CBE02018A" import="1">Art/Models/Units Air/UAV_SREF.dds</File>
+    <File md5="B1FAB9650AFBA81F14DDA20D30513E4A" import="1">Art/Models/Units Infantry/77cmFk.fxsxml</File>
+    <File md5="FC08265D20697EE5E5097DCEC81B5171" import="1">Art/Models/Units Infantry/77cmFk.gr2</File>
+    <File md5="9BCB5617B7D9C9ACC4F63DFD81082AB2" import="1">Art/Models/Units Infantry/77cmFkCrew_diff.dds</File>
+    <File md5="028282A0118999C2AABE75A935CCF3E0" import="1">Art/Models/Units Infantry/77cmFkCrew_sref.dds</File>
+    <File md5="E0D9B66129512BB880B66CB8DE92E531" import="1">Art/Models/Units Infantry/77mm_diff.dds</File>
+    <File md5="F5AADA356D905888AC941A3BCC690DEA" import="1">Art/Models/Units Infantry/77mm_sref.dds</File>
+    <File md5="A00426E9B80661C49CCBC5D4E10991C5" import="1">Art/Models/Units Infantry/AfricanSF_diff.dds</File>
+    <File md5="3219C7F0764A15773AB89FBF10433929" import="1">Art/Models/Units Infantry/AfricanSF_sref.dds</File>
+    <File md5="9FF8432306BD20B5DEA6DDB5BC81E72E" import="1">Art/Models/Units Infantry/buddhist_missionary.fxsxml</File>
+    <File md5="B74596E1453A1FFAFA55670E576322D9" import="1">Art/Models/Units Infantry/buddhist_missionary.gr2</File>
+    <File md5="4F846618B32DDBA39096598CDABD37BF" import="1">Art/Models/Units Infantry/buddhist_missionary_diff2.dds</File>
+    <File md5="4FCBBA6A841E372B33E7530510A7A684" import="1">Art/Models/Units Infantry/buddhist_missionary_sref2.dds</File>
+    <File md5="7E2B12DDB1122C97CA3EC544F298F1E8" import="1">Art/Models/Units Infantry/celrm1.dds</File>
+    <File md5="800F1CC08E530A32DFD1F1B26943561F" import="1">Art/Models/Units Infantry/celrm1.fxsxml</File>
+    <File md5="E62C9E36790354191ED4DF06F3C81E8E" import="1">Art/Models/Units Infantry/celrm1.gr2</File>
+    <File md5="4214D79CCE7E4490677E58718CD7CC37" import="1">Art/Models/Units Infantry/celrm1_sref.dds</File>
+    <File md5="3F5B1931056EFB8FD48197ED5CBF3EE6" import="1">Art/Models/Units Infantry/Civ5_AfricanSF_v2.fxsxml</File>
+    <File md5="A2458B61E895BA29881AB655175ABA4A" import="1">Art/Models/Units Infantry/Civ5_AfricanSF_v2.gr2</File>
+    <File md5="F5F878941E755790F21EB64BFBA7EC07" import="1">Art/Models/Units Infantry/civ5_iromu1.fxsxml</File>
+    <File md5="6B28AD9158C11028078B5D43A1D5D1C1" import="1">Art/Models/Units Infantry/civ5_iromu1.gr2</File>
+    <File md5="C010D42E3B4003209E64BF35972D1738" import="1">Art/Models/Units Infantry/diea.gr2</File>
+    <File md5="099B4856A4FB485206FC10D50C73DD7F" import="1">Art/Models/Units Infantry/diefadea.gr2</File>
+    <File md5="04C4FB8C221A8F67736D024421F67376" import="1">Art/Models/Units Infantry/fortf.gr2</File>
+    <File md5="DB38614B7C65411803A2EEE23ABC6A8A" import="1">Art/Models/Units Infantry/fortidlea.gr2</File>
+    <File md5="EB67305441EE88654B49B85D1440C0AA" import="1">Art/Models/Units Infantry/hurta.gr2</File>
+    <File md5="F714627CD0EE61127F181557C9AA105D" import="1">Art/Models/Units Infantry/IncaScout.dds</File>
+    <File md5="F9F8577583C5E8652620C874197EB6D4" import="1">Art/Models/Units Infantry/IncaScout.fxsxml</File>
+    <File md5="BE755540FCD57A49DD7B501BCE1EB3F1" import="1">Art/Models/Units Infantry/IncaScout.gr2</File>
+    <File md5="775D14F9C2C705ACA94C54405BB3D993" import="1">Art/Models/Units Infantry/IncaScout_sref.dds</File>
+    <File md5="2AC1E94E4C7BDF54A411BEFA71A8DF05" import="1">Art/Models/Units Infantry/iromu1.dds</File>
+    <File md5="4EB1A39D6CE0082BC25F7C61688F9FD0" import="1">Art/Models/Units Infantry/iromu1_sref.dds</File>
+    <File md5="AB5F065B5978AC219D220C9D1D418A1B" import="1">Art/Models/Units Infantry/marineIdle.gr2</File>
+    <File md5="8D169EE0641467BC594929FA3667C49D" import="1">Art/Models/Units Infantry/marine_modern_diff.dds</File>
+    <File md5="B1A588F639A766680D09A0B9E7283482" import="1">Art/Models/Units Infantry/marine_modern_sref.dds</File>
+    <File md5="B7BE2BE39F697D37098A67D9C4FDF292" import="1">Art/Models/Units Infantry/Paratrooper_Russia.dds</File>
+    <File md5="6C4F81CD447E513C1CB9C67B93E1152B" import="1">Art/Models/Units Infantry/Paratrooper_Russia_MG.fxsxml</File>
+    <File md5="02C374ACBEC512B969F637CA29870370" import="1">Art/Models/Units Infantry/Paratrooper_Russia_MG.gr2</File>
+    <File md5="DBE36EA26DF1E980876763F9C4EAF75E" import="1">Art/Models/Units Infantry/Paratrooper_UK.dds</File>
+    <File md5="1276DE74AF0617A6D87989485DA409D5" import="1">Art/Models/Units Infantry/Paratrooper_UK_MG.fxsxml</File>
+    <File md5="F87C976E71B3CF912EC5A897B35D78E0" import="1">Art/Models/Units Infantry/Paratrooper_UK_MG.gr2</File>
+    <File md5="3EE647487CF8A0B2A76ACA7AE07E1958" import="1">Art/Models/Units Infantry/Pikeman_Aztec.dds</File>
+    <File md5="7856500391862A8372F79B871C6790F1" import="1">Art/Models/Units Infantry/Pikeman_Aztec.fxsxml</File>
+    <File md5="22C12B0DA33CB1566F9AD8ECE5041E68" import="1">Art/Models/Units Infantry/Pikeman_Aztec.gr2</File>
+    <File md5="264DB95B51EE95A4E2D6DEECCCF3FC4E" import="1">Art/Models/Units Infantry/Pikeman_Aztec_gloss.dds</File>
+    <File md5="009863D72249DF0C97EF7D7C1ADB9E42" import="1">Art/Models/Units Infantry/runr.gr2</File>
+    <File md5="45610501DFD8EF406A7AF01FCF18CF47" import="1">Art/Models/Units Infantry/shoota.gr2</File>
+    <File md5="252E016E2061C2D6CD68D88B83E74472" import="1">Art/Models/Units Infantry/Swordsman_Arabia_v2.dds</File>
+    <File md5="54372917F1D8CE58A8BD3908E1E254ED" import="1">Art/Models/Units Infantry/Swordsman_Arabia_v2.fxsxml</File>
+    <File md5="0B0E4F53690A8A3D2153A46FECA55EAD" import="1">Art/Models/Units Infantry/Swordsman_Arabia_v2.gr2</File>
+    <File md5="E4F91B3EFB09D53713533ADDE228203F" import="1">Art/Models/Units Infantry/Swordsman_Arabia_v2_gloss.dds</File>
+    <File md5="CC30EC42E22EB10443DC52CDC0B38A68" import="1">Art/Models/Units Infantry/VC_diff.dds</File>
+    <File md5="BE90598CFB3886005632DC31E5B71B9B" import="1">Art/Models/Units Infantry/VC_sref.dds</File>
+    <File md5="031D519C8733AFC4E9BA70A215925608" import="1">Art/Models/Units Infantry/vietcong.fxsxml</File>
+    <File md5="9127D537320DF9096EDF5D100781B3B8" import="1">Art/Models/Units Infantry/vietcong.gr2</File>
+    <File md5="C8A430E1D547BA2F423E79AF3C21078E" import="1">Art/Models/Units land/A15_Crusader_MK_III.dds</File>
+    <File md5="173993D5E3E93B87021F6ECA92C95EE5" import="1">Art/Models/Units land/A15_Crusader_MK_III.fxsxml</File>
+    <File md5="5A0F5A0B99A3A16A760FF923B59E9FED" import="1">Art/Models/Units land/A15_Crusader_MK_III.gr2</File>
+    <File md5="F10990D9F1E29735FEDCB7B5F250BE81" import="1">Art/Models/Units land/A27M_Cromwell.dds</File>
+    <File md5="35721248995138C72E372E00F16EE1B3" import="1">Art/Models/Units land/A27M_Cromwell.fxsxml</File>
+    <File md5="C8BB25F5F9639A8DC41F5390A5045059" import="1">Art/Models/Units land/A27M_Cromwell.gr2</File>
+    <File md5="160A7C5C09D2F1810AF67D2E97E7FFA9" import="1">Art/Models/Units land/AH64SREF.dds</File>
+    <File md5="A25A899A2E8E2ED7A158100FC216A88F" import="1">Art/Models/Units land/AH64USA.dds</File>
+    <File md5="F3EA86C96B98E78EF9449375837C00A4" import="1">Art/Models/Units land/AH64USA.fxsxml</File>
+    <File md5="087C461605BE7DDA20397B25FF03140E" import="1">Art/Models/Units land/AH64USA.gr2</File>
+    <File md5="B9BD63F3B5C84F37C16865538B143962" import="1">Art/Models/Units land/Ariete_Camo.fxsxml</File>
+    <File md5="68A46F2447FFF0D55CE9F50F4866512C" import="1">Art/Models/Units land/Ariete_Camo.gr2</File>
+    <File md5="E1E745A55116AF41376A09A38426329F" import="1">Art/Models/Units land/Ariete_Camo_diff.dds</File>
+    <File md5="E5CAD2603FD7F55449CE5C262BFCB925" import="1">Art/Models/Units land/Ariete_sref.dds</File>
+    <File md5="53F2DF2DA763C8A5DDF5BD486128919E" import="1">Art/Models/Units land/BM-13_Katyusha.dds</File>
+    <File md5="671E54B294833A75C442826A29DF4304" import="1">Art/Models/Units land/BM-13_Katyusha.fxsxml</File>
+    <File md5="5EFE17F79361558608C4D2797357223F" import="1">Art/Models/Units land/BM-13_Katyusha.gr2</File>
+    <File md5="30F83525781C5AD0E2B194D219AA469C" import="1">Art/Models/Units land/BTR152JungleTC.dds</File>
+    <File md5="5F1D11C521E0AD9970F2DC159B2C312A" import="1">Art/Models/Units land/BTR152JungleTC.fxsxml</File>
+    <File md5="49035D58EADA07447A65B1C29B06C10D" import="1">Art/Models/Units land/BTR152JungleTC.gr2</File>
+    <File md5="042F8830E049EB8D77F16E54DEA545AD" import="1">Art/Models/Units land/BTR152SREF.dds</File>
+    <File md5="88EF1E9D6411CFD34E151F7417021508" import="1">Art/Models/Units land/cannon_24pound_diff.dds</File>
+    <File md5="8D4A41DB021D942DCA1390B723FE608C" import="1">Art/Models/Units land/cannon_24pound_sref.dds</File>
+    <File md5="56222D0C9F20C2DD833E6468CBB87E2B" import="1">Art/Models/Units land/centurion.fxsxml</File>
+    <File md5="A4D2294DAD8D7E100AB045C36C18A25A" import="1">Art/Models/Units land/Centurion.gr2</File>
+    <File md5="5B89C864C02595AAC4D107820E3321C7" import="1">Art/Models/Units land/centurion_diff.dds</File>
+    <File md5="88F382F6385FCD88D7F76C86C20AF8F0" import="1">Art/Models/Units land/centurion_sref.dds</File>
+    <File md5="26A849C5521904593AA16275A37C7326" import="1">Art/Models/Units land/Crusader_III_AA.dds</File>
+    <File md5="EAE93D6DED9BF4CA6320B5F976BA72DA" import="1">Art/Models/Units land/Crusader_III_AA.fxsxml</File>
+    <File md5="F393B9B0E24AB322E6735C2E86DF1B76" import="1">Art/Models/Units land/Crusader_III_AA.gr2</File>
+    <File md5="7F392AB7E3811F09E201BEFB882BA700" import="1">Art/Models/Units land/culverin.fxsxml</File>
+    <File md5="615659D7CCA876D15FF21FF5B2AA0108" import="1">Art/Models/Units land/culverin.gr2</File>
+    <File md5="F775C16E0675DF389CFA82FE8E23863B" import="1">Art/Models/Units land/culverin_crew_diff.dds</File>
+    <File md5="06DE8466E20396FFFBDA39FD9CCB0386" import="1">Art/Models/Units land/culverin_crew_sref.dds</File>
+    <File md5="BF939B29BF2A8BDE5A705636BB7F7649" import="1">Art/Models/Units land/culverin_diff.dds</File>
+    <File md5="466F17DEEF12D212F586417CAF2F89F4" import="1">Art/Models/Units land/culverin_sref.dds</File>
+    <File md5="31D3B7FF1D8AEC109BF9748E6970B034" import="1">Art/Models/Units land/dardo.fxsxml</File>
+    <File md5="9961C37900675AA225C89DF4F0A4245B" import="1">Art/Models/Units land/Dardo.gr2</File>
+    <File md5="012F4EF52C6E8CC07B5EDE6E839885AE" import="1">Art/Models/Units land/Dardo_diff.dds</File>
+    <File md5="1528CD12367306580508E1284F2E07A6" import="1">Art/Models/Units land/Dardo_sref.dds</File>
+    <File md5="9C568B396666405EB8A3D0BE69DAFF04" import="1">Art/Models/Units land/frecu1.dds</File>
+    <File md5="8675D9799E29AFE3E68A37955BF70D34" import="1">Art/Models/Units land/frecu1.fxsxml</File>
+    <File md5="375ACBB987F8E67E33FB192B9E35A68F" import="1">Art/Models/Units land/frecu1.gr2</File>
+    <File md5="E6B5B595BC32D691694E020BE81F3DD4" import="1">Art/Models/Units land/frecu1_sref.dds</File>
+    <File md5="6802AED9A72F22E5205C523AC11323CD" import="1">Art/Models/Units land/FrGWcrew_diff.dds</File>
+    <File md5="D2D9BB9B1EDDB090F1568351400F4AC8" import="1">Art/Models/Units land/FrGWcrew_sref.dds</File>
+    <File md5="FFBDF70B3E5632CB8856DE382A8B504C" import="1">Art/Models/Units land/fx_triggers_M3A1HT.ftsxml</File>
+    <File md5="A254A2862979778AF9FE651DE92D74D6" import="1">Art/Models/Units land/fx_triggers_Mi8.ftsxml</File>
+    <File md5="5B8FBDD532486EB60ECB727286CA7706" import="1">Art/Models/Units land/fx_triggers_modernmarine.ftsxml</File>
+    <File md5="B26D1A052DD67ADE7D6D3C83535EE611" import="1">Art/Models/Units land/GunCrew_diff.dds</File>
+    <File md5="4A77AB0FD8F32786F3756F9471012C73" import="1">Art/Models/Units land/GunCrew_sref.dds</File>
+    <File md5="08C5BFAB6FDD13ADDB4217A82E9C378A" import="1">Art/Models/Units land/Halberdier_China.dds</File>
+    <File md5="6443060FF8A69F3B276FC0F526BFDAED" import="1">Art/Models/Units land/Halberdier_China.fxsxml</File>
+    <File md5="F5471CA2021230DD2E82FA8BC35BA090" import="1">Art/Models/Units land/Halberdier_China.gr2</File>
+    <File md5="D59978C5256F2F565FB8E2A279F96D41" import="1">Art/Models/Units land/Halberdier_China_gloss.dds</File>
+    <File md5="EBA855474CCB7C92C068F1FEEE3E7513" import="1">Art/Models/Units land/HorseArcher_Mongol.dds</File>
+    <File md5="D0ED4C6743DC6254B7FFC013B6C7254D" import="1">Art/Models/Units land/HorseArcher_Mongol.fxsxml</File>
+    <File md5="BC2EC94F7FF3C4EC0E7CD605FC160027" import="1">Art/Models/Units land/HorseArcher_Mongol.gr2</File>
+    <File md5="7EA3B6C9B6AFD3C3B14E48C5626FFBE7" import="1">Art/Models/Units land/HorseArcher_Mongol_gloss.dds</File>
+    <File md5="ED76F6C0472BACA1DE4B269178C0501C" import="1">Art/Models/Units land/HorseArcher_Mongol_Horse.dds</File>
+    <File md5="68D971A9D268B7129E76CED82151247D" import="1">Art/Models/Units land/knightofteutons.fxsxml</File>
+    <File md5="F716360BC8D7CC67B7344476642C7361" import="1">Art/Models/Units land/Knight_Persia_v2.dds</File>
+    <File md5="E679EAC051192A3208D6CF6A7317DB13" import="1">Art/Models/Units land/Knight_Persia_v2.fxsxml</File>
+    <File md5="BB51E35B6A45E3CCA380D44BEE1D7A77" import="1">Art/Models/Units land/Knight_Persia_v2.gr2</File>
+    <File md5="0F6ACF24D540156AA8B8A15C8470F04C" import="1">Art/Models/Units land/Knight_Persia_v2_gloss.dds</File>
+    <File md5="12F0896732A5D3841D0A8216AD0EFF8C" import="1">Art/Models/Units land/M109Austria.dds</File>
+    <File md5="2AB99C6262C3BFF50623747207CB56B2" import="1">Art/Models/Units land/M109Austria.fxsxml</File>
+    <File md5="138B38B3EE0E7B096491BBDCA87A1950" import="1">Art/Models/Units land/M109Austria.gr2</File>
+    <File md5="9214B4B2860B69BB89B8E4A2B6E4ABAF" import="1">Art/Models/Units land/M109SREF.dds</File>
+    <File md5="8E7A1268F5E359139038173F3A963E97" import="1">Art/Models/Units land/M1Abrams.dds</File>
+    <File md5="C0B09CC6AB307A7157535491AC3DAE9A" import="1">Art/Models/Units land/M1Abrams.fxsxml</File>
+    <File md5="33F290C7F7A4EC6759BA3672C1F758A5" import="1">Art/Models/Units land/M1Abrams.gr2</File>
+    <File md5="25F5605F3ED49A9EC809CAA7B2430E79" import="1">Art/Models/Units land/Mi8Poland.dds</File>
+    <File md5="25DAE3FE538F1A5F7E5723C89B9CA948" import="1">Art/Models/Units land/Mi8Poland.fxsxml</File>
+    <File md5="FC57EBF47D2622950F92B848E93B0E47" import="1">Art/Models/Units land/Mi8Poland.gr2</File>
+    <File md5="80E3E3C92C907E4D324CEB7A11A89345" import="1">Art/Models/Units land/Mi8SREF.dds</File>
+    <File md5="E512CFB0D832CF1EAFA157A1828623B9" import="1">Art/Models/Units land/NapoleonCannon.fxsxml</File>
+    <File md5="6DD3501F60795A8CE82B0E29B3EEF5B8" import="1">Art/Models/Units land/NapoleonCannon.gr2</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Art/Models/Units land/no_gloss.dds</File>
+    <File md5="25D7C76F51AA183D0E7EF8645299E316" import="1">Art/Models/Units land/Railroad_Artillery.fxsxml</File>
+    <File md5="F79CA8C89EF330E57B9CA7973E6268C1" import="1">Art/Models/Units land/Railroad_Artillery.gr2</File>
+    <File md5="1F5F5A1E0CF33760C7639A4D77735C99" import="1">Art/Models/Units land/Railroad_Arty.dds</File>
+    <File md5="1E8E6116DFAB08BEA6E13A40B2049A83" import="1">Art/Models/Units land/Railroad_Arty_gloss.dds</File>
+    <File md5="34E5B32EE44E45093F628C711C6E3433" import="1">Art/Models/Units land/RolandSREF.dds</File>
+    <File md5="08255F8928D2FB07DB981037113A051F" import="1">Art/Models/Units land/RolandTanTeamColor.dds</File>
+    <File md5="A9BBB0808F36A280616AFE5C96F9DA84" import="1">Art/Models/Units land/RolandTanTeamColor.fxsxml</File>
+    <File md5="4E0641A3BD2A253968164A601722C198" import="1">Art/Models/Units land/RolandTanTeamColor.gr2</File>
+    <File md5="07F4D146D3203F946457B432DE54AD74" import="1">Art/Models/Units land/Sdkfz165_Hummel.dds</File>
+    <File md5="899560B79A6A4BBB93F5AC3636C3EA77" import="1">Art/Models/Units land/Sdkfz165_Hummel.fxsxml</File>
+    <File md5="DF9AD5A91646810E5F87A44AE3078031" import="1">Art/Models/Units land/Sdkfz165_Hummel.gr2</File>
+    <File md5="FA6C237571AF364270A05C3D94CF7CF1" import="1">Art/Models/Units land/Sdkfz181_Sturmtiger.dds</File>
+    <File md5="6B2CD93DC49C03C728B4677DE1A5F6ED" import="1">Art/Models/Units land/Sdkfz181_Sturmtiger.fxsxml</File>
+    <File md5="AE875A35E8EB85B37B414BA8592F40FB" import="1">Art/Models/Units land/Sdkfz181_Sturmtiger.gr2</File>
+    <File md5="8FA3EB967859F0D523D0C8EA924B8B98" import="1">Art/Models/Units land/SdKfz186_Jagdtiger.blend</File>
+    <File md5="3F4BC154ADA9759BE974394B58DC40B8" import="1">Art/Models/Units land/SdKfz186_Jagdtiger.dds</File>
+    <File md5="079DDC783031933ABE1C28EE35C25B26" import="1">Art/Models/Units land/SdKfz186_Jagdtiger.fxsxml</File>
+    <File md5="35CAC14C9F560DF18563BD48988F0132" import="1">Art/Models/Units land/SdKfz186_Jagdtiger.gr2</File>
+    <File md5="CBA3C2998086189A09EF284C864850B1" import="1">Art/Models/Units land/T72.dds</File>
+    <File md5="0304EA89483CD730E3D125425AAFC7B4" import="1">Art/Models/Units land/T72.fxsxml</File>
+    <File md5="07E2E47056AC8AA3EE6B924BCA8B8D4B" import="1">Art/Models/Units land/T72.gr2</File>
+    <File md5="380819C6C9F18D4FFED057F8838B64B6" import="1">Art/Models/Units land/T72SREF.dds</File>
+    <File md5="3FCE22C8B6FF96AE397760A77D37B662" import="1">Art/Models/Units land/T90.dds</File>
+    <File md5="F1FF265B898D56D08E967E5E9DAF23E1" import="1">Art/Models/Units land/T90.fxsxml</File>
+    <File md5="B4F79A607ADFF03BC746E474535B274B" import="1">Art/Models/Units land/T90.gr2</File>
+    <File md5="FB55F5BABB41D7820B240BCB6806BFDF" import="1">Art/Models/Units land/Teutonic_Knight.gr2</File>
+    <File md5="7C91A30B5A81A7291057037F809B99C2" import="1">Art/Models/Units land/teutonic_knight_mounted_diff.dds</File>
+    <File md5="4F0A356DB9CAB321EB74FE13B37DA1BC" import="1">Art/Models/Units land/teutonic_knight_mounted_sref.dds</File>
+    <File md5="74BB3477B2D4AB1A7CBD456BA8C5F43D" import="1">Art/Models/Units land/track_diff.dds</File>
+    <File md5="19680EC70A2DAC36FF4B66C2B345ECA8" import="1">Art/Models/Units land/track_sref.dds</File>
+    <File md5="C2E53256C878707E9968E594C4344473" import="1">Art/Models/Units land/VolleyGun.fxsxml</File>
+    <File md5="12952FECA4223FC5AC901BF063480C61" import="1">Art/Models/Units land/VolleyGun.gr2</File>
+    <File md5="682937E06CDE80B8270521F61AE1296C" import="1">Art/Models/Units land/VolleyGun_diff.dds</File>
+    <File md5="1CA6FF6C51F0E018C570B857208859A6" import="1">Art/Models/Units land/VolleyGun_sref.dds</File>
+    <File md5="CCFFDB1169FE9FB8CFDAFC505AFB8B95" import="1">Art/Models/Units Naval/AAS.fxsxml</File>
+    <File md5="849EDC7508DE6090C811047EFCBA0C5C" import="1">Art/Models/Units Naval/AAS.gr2</File>
+    <File md5="07E035A7A324AAF75BE5F248077FAB96" import="1">Art/Models/Units Naval/AAS_diff.dds</File>
+    <File md5="6942C7E16D7F3E3649CF2489F68CF612" import="1">Art/Models/Units Naval/AAS_dmg_diff.dds</File>
+    <File md5="DB568C2BDAF287594562241AF1BDAB6B" import="1">Art/Models/Units Naval/AAS_dmg_sref.dds</File>
+    <File md5="FD1B7E7F5DB7D9F065AE81F8B174655B" import="1">Art/Models/Units Naval/AAS_sref.dds</File>
+    <File md5="8EB43F17F75EF2B5478A4690E44E4329" import="1">Art/Models/Units Naval/akula.fxsxml</File>
+    <File md5="512010BAC4BD8A20D41B4AEDC73EB2CA" import="1">Art/Models/Units Naval/Akula.gr2</File>
+    <File md5="D77DD0FF4242D5F1B59DF8E2A52946AA" import="1">Art/Models/Units Naval/Akula_diff.dds</File>
+    <File md5="BA512FB51E590BF722764950E1299D82" import="1">Art/Models/Units Naval/Akula_DMG_diff.dds</File>
+    <File md5="479A14042708E5922DC23B846FD2D26D" import="1">Art/Models/Units Naval/Akula_DMG_sref.dds</File>
+    <File md5="707DEDB367A32EC7A6F5BFECB4A49D10" import="1">Art/Models/Units Naval/Akula_sref.dds</File>
+    <File md5="82992D1188428AB6A65AC686B3F60896" import="1">Art/Models/Units Naval/ArleighBurke.fxsxml</File>
+    <File md5="9F39A764688AE77CC32FA9FAC403E9C6" import="1">Art/Models/Units Naval/ArleighBurke.gr2</File>
+    <File md5="A7E7069FD7A18CD67F0BAE0220D706BE" import="1">Art/Models/Units Naval/ArleighBurke_diff.dds</File>
+    <File md5="3EE94DE8468EEE9447E650443FD16A74" import="1">Art/Models/Units Naval/ArleighBurke_sref.dds</File>
+    <File md5="76B580FA613AE74F294B51202041B838" import="1">Art/Models/Units Naval/ArsenalShip.dds</File>
+    <File md5="228BAB18A59E128DBA2AAE8E2D68CBE7" import="1">Art/Models/Units Naval/ArsenalShip.fxsxml</File>
+    <File md5="330E2A2DB541835796AFD0574D0EFC0E" import="1">Art/Models/Units Naval/ArsenalShip.gr2</File>
+    <File md5="597F62254C2B1A37FC33F20F2BBDD7FB" import="1">Art/Models/Units Naval/ArsenalShip_gloss.dds</File>
+    <File md5="A73000561ABD1F09ED260FF583BC3FFC" import="1">Art/Models/Units Naval/Baltimore_Class.dds</File>
+    <File md5="0F53D8873748B50E8D9FB9A73E75B5F9" import="1">Art/Models/Units Naval/Baltimore_Class.fxsxml</File>
+    <File md5="31833CD8793E5EE4904DFF99CF604945" import="1">Art/Models/Units Naval/Baltimore_Class.gr2</File>
+    <File md5="244FC1C3A60659FC1D1540919747B5D6" import="1">Art/Models/Units Naval/Baltimore_Class_gloss.dds</File>
+    <File md5="556D0A1F10465239A046FE1814311143" import="1">Art/Models/Units Naval/battle_galley.fxsxml</File>
+    <File md5="3BD1569650935F56546B491B90602A79" import="1">Art/Models/Units Naval/battle_galley.gr2</File>
+    <File md5="8210733B5648035CB03C4CD9DEB34BDA" import="1">Art/Models/Units Naval/battle_galley_diff.dds</File>
+    <File md5="B9985906AF255F559D3E090537D2BC8D" import="1">Art/Models/Units Naval/carrack.fxsxml</File>
+    <File md5="0C88428D303A518CF9686C4849F61401" import="1">Art/Models/Units Naval/carrack.gr2</File>
+    <File md5="8F1BAD270EA89F1A3FAF54F001C66E03" import="1">Art/Models/Units Naval/Carrack_diff.dds</File>
+    <File md5="997802481AF18082ADECA48D2FBFAF93" import="1">Art/Models/Units Naval/Carrack_sref.dds</File>
+    <File md5="925385A038192CAFF8EA96E8695B2B5B" import="1">Art/Models/Units Naval/cogge.fxsxml</File>
+    <File md5="0F73625DB01F18C5AC2C86856F8EC17C" import="1">Art/Models/Units Naval/cogge.gr2</File>
+    <File md5="C79BE4B037F3414E58D1DF447C2692D0" import="1">Art/Models/Units Naval/corvette.fxsxml</File>
+    <File md5="999A60167A7FEB28FA1A80824DC645A8" import="1">Art/Models/Units Naval/Corvette.gr2</File>
+    <File md5="B508B56CC8981AE57F6222B8680A7E48" import="1">Art/Models/Units Naval/corvette_diff.dds</File>
+    <File md5="5F93E0D039A506C788E3A053981B6C30" import="1">Art/Models/Units Naval/corvette_sref.dds</File>
+    <File md5="E91401F6D6BBB3F0B61D15D9BF24B0F8" import="1">Art/Models/Units Naval/cruiser.fxsxml</File>
+    <File md5="B4A8CD84C118F5DE906677643FAA9589" import="1">Art/Models/Units Naval/cruiser.gr2</File>
+    <File md5="7D7DE5645854D0B24F25187C895FD74E" import="1">Art/Models/Units Naval/cruiser_DIFF.dds</File>
+    <File md5="DAA63ECCA22801C2D10ABE8C4803714B" import="1">Art/Models/Units Naval/cruiser_SREF.dds</File>
+    <File md5="4BE665356C1287AE66E1B5469EEAD784" import="1">Art/Models/Units Naval/EE2_Cogge_Diff.dds</File>
+    <File md5="B171715A4B72399416D8E18EF4B13A8C" import="1">Art/Models/Units Naval/fx_triggers_arsenalship.ftsxml</File>
+    <File md5="0D763CB1E8E2206B90FDBBA290B61CDC" import="1">Art/Models/Units Naval/fx_triggers_cruiser.ftsxml</File>
+    <File md5="79DA93D7CE0ADE6855BDC07E102658F9" import="1">Art/Models/Units Naval/fx_triggers_neodestroyer.ftsxml</File>
+    <File md5="DD0374BE438902DEAF12923300396340" import="1">Art/Models/Units Naval/Kagero_Class.dds</File>
+    <File md5="5D32D40B49D9F490E34EA64512DB7939" import="1">Art/Models/Units Naval/Kagero_Class.fxsxml</File>
+    <File md5="FDBAC2724AF562A9E503C8C8331DA243" import="1">Art/Models/Units Naval/Kagero_Class.gr2</File>
+    <File md5="73A059F3E11F4AA6D657FAD136300C00" import="1">Art/Models/Units Naval/Kagero_Class_gloss.dds</File>
+    <File md5="99A340B728F85534AD7B907819C7BBDF" import="1">Art/Models/Units Naval/kirov.fxsxml</File>
+    <File md5="BD3AF15E621D1A7272DD5BD83B144229" import="1">Art/Models/Units Naval/Kirov.gr2</File>
+    <File md5="B887CF58592E1CF8925CA63400E3CCF3" import="1">Art/Models/Units Naval/kirov_diff.dds</File>
+    <File md5="ADF05B09040E695D2ABFD657A0382505" import="1">Art/Models/Units Naval/kirov_sref.dds</File>
+    <File md5="9CBA28F48A21FFA0F7054B21A7506D62" import="1">Art/Models/Units Naval/Kongo_Class.dds</File>
+    <File md5="8E59FEBCA96A68CACDF6978C36F31FDB" import="1">Art/Models/Units Naval/Kongo_Class.fxsxml</File>
+    <File md5="C96AB311AC914F9A688CA6B9BA9EF8BE" import="1">Art/Models/Units Naval/Kongo_Class.gr2</File>
+    <File md5="52EC1666B93AAF9F3840D07C49241BC8" import="1">Art/Models/Units Naval/Kongo_Class_gloss.dds</File>
+    <File md5="F7071DE9B993CA70EC27D7129EDEA3A4" import="1">Art/Models/Units Naval/Kuznetsov.fxsxml</File>
+    <File md5="1E66CDD04E2CFDEA98E101D2F6B95F37" import="1">Art/Models/Units Naval/Kuznetsov.gr2</File>
+    <File md5="E044A0F3BE75D5731F1347B1C3909BA4" import="1">Art/Models/Units Naval/kuznetsov_diff.dds</File>
+    <File md5="3992FCB4D0F0C0CA34CA4AABECC14C0A" import="1">Art/Models/Units Naval/kuznetsov_sref.dds</File>
+    <File md5="DE968A1D4137601E6422D6BB3943C3F0" import="1">Art/Models/Units Naval/mod_spanish_galleon.fxsxml</File>
+    <File md5="9AC8D7B4306429CA8069F1C9E7F4FA46" import="1">Art/Models/Units Naval/mod_spanish_galleon.gr2</File>
+    <File md5="AD264FD2DC9AB16168597C97FD61E178" import="1">Art/Models/Units Naval/mod_spanish_galleon_diff.dds</File>
+    <File md5="AE4A3E13B815756437E70EF0EE44642F" import="1">Art/Models/Units Naval/mod_spanish_galleon_sref.dds</File>
+    <File md5="E478B6644FB7AB523964440E65B1831F" import="1">Art/Models/Units Naval/neodestroyer.fxsxml</File>
+    <File md5="6076E2A768C8F04991D17C1521DF355D" import="1">Art/Models/Units Naval/Neodestroyer.gr2</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Art/Models/Units Naval/no_gloss.dds</File>
+    <File md5="A3D97022A7FD12A1756FA493E197227D" import="1">Art/Models/Units Naval/Pisa_Class.dds</File>
+    <File md5="A580D6D2875AF28A1314284B2F263238" import="1">Art/Models/Units Naval/Pisa_Class.fxsxml</File>
+    <File md5="D646B956CD82B875EB6D8B7706CF6272" import="1">Art/Models/Units Naval/Pisa_Class.gr2</File>
+    <File md5="81458DFFB626B5FCB193EEDB982FBA6D" import="1">Art/Models/Units Naval/Pisa_Class_gloss.dds</File>
+    <File md5="90B5EF09CBBAABB76424BBE56E7B8FBC" import="1">Art/Models/Units Naval/Porte-Avions_2.dds</File>
+    <File md5="13973890B889100C55B8BBD2F386E8A4" import="1">Art/Models/Units Naval/Porte-Avions_2.fxsxml</File>
+    <File md5="9D6BBF89E5155FDEB652EABB37779FBF" import="1">Art/Models/Units Naval/Porte-Avions_2.gr2</File>
+    <File md5="46A546DB98F18A7DB65C259E05B20E22" import="1">Art/Models/Units Naval/Porte-Avions_2_gloss.dds</File>
+    <File md5="F1A0921A3E6D309D8FF7E69D9EDC069C" import="1">Art/Models/Units Naval/Queen_Elizabeth_Class.dds</File>
+    <File md5="202EE73C8A44D2E4408DC116C52164F5" import="1">Art/Models/Units Naval/Queen_Elizabeth_Class.fxsxml</File>
+    <File md5="A36A85870EA74655B82100B9992F211F" import="1">Art/Models/Units Naval/Queen_Elizabeth_Class.gr2</File>
+    <File md5="646F72C0307A96C41884AE3946A9F4C2" import="1">Art/Models/Units Naval/Queen_Elizabeth_Class_gloss.dds</File>
+    <File md5="422F0F37E33C1A09898AED62EF51D34B" import="1">Art/Models/Units Naval/re_umberto_bb.fxsxml</File>
+    <File md5="055786BFD9055294959C5D180EBB3094" import="1">Art/Models/Units Naval/re_umberto_bb.gr2</File>
+    <File md5="3EB7CDAA6B8E6C91A48D24D869E46C3E" import="1">Art/Models/Units Naval/re_umberto_bb_diff.dds</File>
+    <File md5="CC143FE36C2E08E2FF0759277AD0403C" import="1">Art/Models/Units Naval/re_umberto_bb_sref.dds</File>
+    <File md5="06274CF1ACBF2194166F46747F03971F" import="1">Art/Models/Units Naval/sensordestroyer.dds</File>
+    <File md5="FC0407C09AD55C6821EE9EF6FD80BBA5" import="1">Art/Models/Units Naval/sensordestroyer_gloss.dds</File>
+    <File md5="CB739CC7EE85EB5F573A65B8D2B335BB" import="1">Art/Models/Units Naval/U-Boat_Type_XXIII.dds</File>
+    <File md5="A59FD00A4B69FC55BC1AEBDA17DFD8F0" import="1">Art/Models/Units Naval/U-Boat_Type_XXIII.fxsxml</File>
+    <File md5="EBE2B4DB790F8C088868E85B4D80105F" import="1">Art/Models/Units Naval/U-Boat_Type_XXIII.gr2</File>
+    <File md5="C6C5AECCFF8659F13B5C9D6523FAC2C1" import="1">Art/Models/Units Naval/U-Boat_Type_XXIII_gloss.dds</File>
+    <File md5="4F7359AB4E2A535B7BF58224E0760119" import="1">Art/Models/Units Naval/USS_Nimitz.fxsxml</File>
+    <File md5="963A69CA8D59AB713514176AA624AA18" import="1">Art/Models/Units Naval/USS_Nimitz.gr2</File>
+    <File md5="ED4A5AB326883371F14E49AA082574D5" import="1">Art/Models/Units Naval/USS_Nimitz_diff.dds</File>
+    <File md5="2FF87861C6F97D3DE71A8148E98FD294" import="1">Art/Models/Units Naval/USS_Nimitz_sref.dds</File>
+    <File md5="63DF2DB6A0C1D1952B857DADBDDF9011" import="0">Art/xml/ArtDefines_Resources.xml</File>
+    <File md5="8E98008A9A614218A227C8E6D6D78887" import="1">Art/xml/FontIcons_SPCityBanners.ggxml</File>
+    <File md5="5698D08DA856FB4A0A891926E583EF3F" import="0">Art/xml/IconAtlases.xml</File>
+    <File md5="095D4C3340EB3499200810105AB97E53" import="0">Art/xml/ArtDefines_Units.xml</File>
+    <File md5="9309774C33232FFC6E47E09F56BDD3C5" import="1">Art/_Edited_Animations/edited_aim_attack_city_to_run.dge</File>
+    <File md5="FA9CE373BB700CFCD8F0FA3A955B1E69" import="1">Art/_Edited_Animations/edited_aim_attack_to_run_graph.dge</File>
+    <File md5="BA4F6AEB27527AB47CC284B27C8288A8" import="1">Art/_Edited_Animations/edited_aim_bombard_defend_loop_graph.dge</File>
+    <File md5="933E4A224EFE615D537517EFE06B34BC" import="1">Art/_Edited_Animations/edited_aim_civilian_activate_captured.dge</File>
+    <File md5="87476FD4384999BCCBF43AEEF9B3A652" import="1">Art/_Edited_Animations/edited_aim_civilian_death_final.dge</File>
+    <File md5="9AB143ED19D8B61A7794C90D5D65EE97" import="1">Art/_Edited_Animations/edited_aim_civilian_enter_bombard_defend.dge</File>
+    <File md5="7BCAF33AE57FA6E4F56F767E1799955E" import="1">Art/_Edited_Animations/edited_aim_civilian_state_01.fsmxml</File>
+    <File md5="CD02EC91E73F396297C2B3434A8BA034" import="1">Art/_Edited_Animations/edited_aim_combat_ready_graph.dge</File>
+    <File md5="6B4338103039DFBD431A44C89DA198D6" import="1">Art/_Edited_Animations/edited_aim_death_final_graph.dge</File>
+    <File md5="F9F109E1E43FD75DFC765D9B3A43CE48" import="1">Art/_Edited_Animations/edited_aim_death_graph.dge</File>
+    <File md5="014FBFBCB17012BEC0B32D9FFDBF721E" import="1">Art/_Edited_Animations/edited_aim_enter_bombard_defend_graph.dge</File>
+    <File md5="7A5A0ADFBBB05D6E4FB126383988B264" import="1">Art/_Edited_Animations/edited_aim_enter_combat_ready_graph.dge</File>
+    <File md5="34488A641F9D948D865BBECF8B3878DF" import="1">Art/_Edited_Animations/edited_aim_enter_fortify.dge</File>
+    <File md5="ADAECB630FF73EEFBBE3EE3661F1819C" import="1">Art/_Edited_Animations/edited_aim_enter_sleep_civilian.dge</File>
+    <File md5="F245B80AAC985C0011FEE5CBF3FB25DF" import="1">Art/_Edited_Animations/edited_aim_fidgets_graph.dge</File>
+    <File md5="65FED4E2E20D7512D6B5E92C1CD37EF7" import="1">Art/_Edited_Animations/edited_aim_fortify_fidget_graph.dge</File>
+    <File md5="F758D65157483D32C6763F817B216937" import="1">Art/_Edited_Animations/edited_aim_fortify_graph.dge</File>
+    <File md5="C2C8D0ADFA388980A03E814BF2B335F5" import="1">Art/_Edited_Animations/edited_aim_fortify_leave_graph.dge</File>
+    <File md5="AD4E2A013238410D8FCE2666AEB1DC08" import="1">Art/_Edited_Animations/edited_aim_fortify_to_idle_a.dge</File>
+    <File md5="EF6168FF0903555EDCBB9FD626CFB00F" import="1">Art/_Edited_Animations/edited_aim_idle_graph.dge</File>
+    <File md5="268797759660DA55A0F792A966EB586B" import="1">Art/_Edited_Animations/edited_aim_idle_offset_continue_true_graph.dge</File>
+    <File md5="C4D8B3EB164B5525B92514645521D0C3" import="1">Art/_Edited_Animations/edited_aim_leave_bombard_defend_trans_idle_a_graph.dge</File>
+    <File md5="189E34C23C7A19F2C190E1ACB4212C91" import="1">Art/_Edited_Animations/edited_aim_leave_combat_ready.dge</File>
+    <File md5="225D164523FE1270306005CCD71B075A" import="1">Art/_Edited_Animations/edited_aim_melee_attacks.dge</File>
+    <File md5="71E511A38054110B5D9A23B311AC0104" import="1">Art/_Edited_Animations/edited_aim_modern_ship_attacks.dge</File>
+    <File md5="BA0D234DE017F5CEB6DEF37CE7DFE384" import="1">Art/_Edited_Animations/edited_aim_ms_attack_city_to_run.dge</File>
+    <File md5="75D8FBC3A2C4D56B1089F20A2E9D9DA1" import="1">Art/_Edited_Animations/edited_aim_ms_attack_to_run_graph.dge</File>
+    <File md5="82C3CE94F7827159DEA80CCF8AAF5D9E" import="1">Art/_Edited_Animations/edited_aim_ms_bombard_defend_loop_graph.dge</File>
+    <File md5="FF8A929D15C8ECE5089A806AFBC80C8E" import="1">Art/_Edited_Animations/edited_aim_ms_civilian_activate_captured.dge</File>
+    <File md5="1AE83D5303F9671277D4FEC7F327A2BB" import="1">Art/_Edited_Animations/edited_aim_ms_civilian_death_final.dge</File>
+    <File md5="0021307C276C3516A57BBADDAC07ACE7" import="1">Art/_Edited_Animations/edited_aim_ms_civilian_enter_bombard_defend.dge</File>
+    <File md5="C3686411D2E96A715267F9A5C72A5EB1" import="1">Art/_Edited_Animations/edited_aim_ms_combat_ready_graph.dge</File>
+    <File md5="FE5B902745DEE0860ECEE5BA421D141F" import="1">Art/_Edited_Animations/edited_aim_ms_death_final_graph.dge</File>
+    <File md5="21659FCED7A08D6FB464A693D0E82597" import="1">Art/_Edited_Animations/edited_aim_ms_death_graph.dge</File>
+    <File md5="B66FF4B10706BE666A916B917D14AC83" import="1">Art/_Edited_Animations/edited_aim_ms_enter_bombard_defend_graph.dge</File>
+    <File md5="9B18015ACB470CD66C3294FDA203C27E" import="1">Art/_Edited_Animations/edited_aim_ms_enter_combat_ready_graph.dge</File>
+    <File md5="FD1B5EABA624344B944CD37BD71DE110" import="1">Art/_Edited_Animations/edited_aim_ms_enter_fortify.dge</File>
+    <File md5="2470ABA98F462C27DD3C1AC013BD3AC6" import="1">Art/_Edited_Animations/edited_aim_ms_enter_sleep_civilian.dge</File>
+    <File md5="04680D47D3519A5FFB950F1147D7B1D4" import="1">Art/_Edited_Animations/edited_aim_ms_fidgets_graph.dge</File>
+    <File md5="327CB90C3BCF5BAC71F77DA677997631" import="1">Art/_Edited_Animations/edited_aim_ms_fortify_fidget_graph.dge</File>
+    <File md5="998F9D5F9FCAFE31E97022C5C50C67E8" import="1">Art/_Edited_Animations/edited_aim_ms_fortify_graph.dge</File>
+    <File md5="39370F05801D7D017D605CE224EE11E7" import="1">Art/_Edited_Animations/edited_aim_ms_fortify_leave_graph.dge</File>
+    <File md5="7BC464D9DF686D87145362DEE0F68A04" import="1">Art/_Edited_Animations/edited_aim_ms_fortify_to_idle_a.dge</File>
+    <File md5="EF3E7C919600B18CDC0D6F1BCDD45F64" import="1">Art/_Edited_Animations/edited_aim_ms_idle_graph.dge</File>
+    <File md5="2F7C2570D10BD4E5879F105F9BB3BC53" import="1">Art/_Edited_Animations/edited_aim_ms_idle_offset_continue_true_graph.dge</File>
+    <File md5="7AAA31587E2E15A0B887A31C861D4B45" import="1">Art/_Edited_Animations/edited_aim_ms_leave_bombard_defend_trans_idle_a_graph.dge</File>
+    <File md5="4BB9881AAB8B9F3571AA787BB89B4FF1" import="1">Art/_Edited_Animations/edited_aim_ms_leave_combat_ready.dge</File>
+    <File md5="2937CE1A002CB18C85FA2E3E63221139" import="1">Art/_Edited_Animations/edited_aim_ms_melee_attacks.dge</File>
+    <File md5="E538938BAD81B88082C8DF076514653E" import="1">Art/_Edited_Animations/edited_aim_ms_modern_ship_attacks.dge</File>
+    <File md5="DBFC96AE4406957395EC439CEFF8584A" import="1">Art/_Edited_Animations/edited_aim_ms_running_loop.dge</File>
+    <File md5="BD96EBE9953A41BD78D450DC26561AFC" import="1">Art/_Edited_Animations/edited_aim_ms_run_no_charge_loop.dge</File>
+    <File md5="91A772D3D07C64329ED801632EB689C7" import="1">Art/_Edited_Animations/edited_aim_ms_run_start_civilian.dge</File>
+    <File md5="C017AA3F2D83AAB3B6B939B6418071A3" import="1">Art/_Edited_Animations/edited_aim_ms_start_running.dge</File>
+    <File md5="34D584D857E6CBA51D87EE2FD6950EC6" import="1">Art/_Edited_Animations/edited_aim_ms_stop_running.dge</File>
+    <File md5="8D3450B63AF23F48CF9DEDC3B586B022" import="1">Art/_Edited_Animations/edited_aim_ms_stop_running_civilian.dge</File>
+    <File md5="500F6DEDBDB767CAE8C964DBEE647459" import="1">Art/_Edited_Animations/edited_aim_ms_transitions_for_idles.dge</File>
+    <File md5="A64E86033B61613B4F39979D5603E65F" import="1">Art/_Edited_Animations/edited_aim_running_loop.dge</File>
+    <File md5="E38EAF3E95C835B93C7E7849A7F4F23B" import="1">Art/_Edited_Animations/edited_aim_run_no_charge_loop.dge</File>
+    <File md5="9432853873B222F5AEF1CE53C1CD98DA" import="1">Art/_Edited_Animations/edited_aim_run_start_civilian.dge</File>
+    <File md5="BCF1F945C0CBE7A1C9F62E5B46F84F99" import="1">Art/_Edited_Animations/edited_aim_start_running.dge</File>
+    <File md5="7B0232A8BE345EB899FF221FBD7BDCFB" import="1">Art/_Edited_Animations/edited_aim_stop_running.dge</File>
+    <File md5="38B813F99CCD01B77FB798D2AFE91571" import="1">Art/_Edited_Animations/edited_aim_stop_running_civilian.dge</File>
+    <File md5="2506D6C118D6A9FB915723F731C95FD4" import="1">Art/_Edited_Animations/edited_aim_transitions_for_idles.dge</File>
+    <File md5="E38F763EEDD8E5CA2320278CC1641F42" import="1">Art/_Edited_Animations/edited_fx_triggers_antiair_vehicle_1gun.ftsxml</File>
+    <File md5="1091C411BFCA66D5EE74CEFFD6EE64DC" import="1">Art/_Edited_Animations/edited_fx_triggers_antiair_vehicle_2gun.ftsxml</File>
+    <File md5="948F20768997973457FAD6CF0F58645E" import="1">Art/_Edited_Animations/edited_fx_triggers_antiair_vehicle_3gun.ftsxml</File>
+    <File md5="76CCDC691B5CBE0C4F3A85BF0E796AA5" import="1">Art/_Edited_Animations/edited_fx_triggers_antiair_vehicle_4gun.ftsxml</File>
+    <File md5="EDA5989385F1C83D85AD44E2B8028A1E" import="1">Art/_Edited_Animations/edited_fx_triggers_artillery.ftsxml</File>
+    <File md5="AB180DC6BFF8E18757D23D554F80784A" import="1">Art/_Edited_Animations/edited_fx_triggers_battleship.ftsxml</File>
+    <File md5="15D16F16B2DA12C59E1DB7565EBAC0ED" import="1">Art/_Edited_Animations/edited_fx_triggers_battleship_4turret.ftsxml</File>
+    <File md5="57B853C5D7F32E9A1000E2F1341916A0" import="1">Art/_Edited_Animations/edited_fx_triggers_Cruiser.ftsxml</File>
+    <File md5="6E0AFDF33543EE37A4770E8903EF3DCB" import="1">Art/_Edited_Animations/edited_fx_triggers_destroyer.ftsxml</File>
+    <File md5="206D2B57E712C46A9B2B06BC024BA5F4" import="1">Art/_Edited_Animations/edited_fx_triggers_EarlyJet.ftsxml</File>
+    <File md5="DE8146AC44DE6C704F0728782C1AE500" import="1">Art/_Edited_Animations/edited_fx_triggers_EarlyTank_1gun.ftsxml</File>
+    <File md5="609CE0B64FB4B5781695009F0D913A51" import="1">Art/_Edited_Animations/edited_fx_triggers_EarlyTank_2gun.ftsxml</File>
+    <File md5="6903919CC91F1C38BC07B661FDCF73AB" import="1">Art/_Edited_Animations/edited_fx_triggers_fighter_2Propellers.ftsxml</File>
+    <File md5="57E688AF2606E958CA088BD229D43F5B" import="1">Art/_Edited_Animations/edited_fx_triggers_infantry.ftsxml</File>
+    <File md5="5B811AF5596286D7B6DAD0FE8E8FA53B" import="1">Art/_Edited_Animations/edited_fx_triggers_jetfighter.ftsxml</File>
+    <File md5="9261EE6D5967A898925F1CE9E614E892" import="1">Art/_Edited_Animations/edited_fx_triggers_Katyusha.ftsxml</File>
+    <File md5="A08730646EFA18C9E3385EE7D59EA9DC" import="1">Art/_Edited_Animations/edited_fx_triggers_modernarmor.ftsxml</File>
+    <File md5="6E33E758B853E1114BB487111B8FA075" import="1">Art/_Edited_Animations/edited_fx_triggers_paratrooper.ftsxml</File>
+    <File md5="212745C0D1059F32FAC334A46B790713" import="1">Art/_Edited_Animations/edited_fx_triggers_paratrooper_mg.ftsxml</File>
+    <File md5="108FD3B4BAAB4A605BF70CCD44F20E8B" import="1">Art/_Edited_Animations/edited_fx_triggers_tank.ftsxml</File>
+    <File md5="2B8DD37B99816431055263F820529E18" import="1">Art/_Edited_Animations/edited_fx_triggers_tank_lightfire.ftsxml</File>
+    <File md5="2C9B80EF7FD70EFAA250F616A4316DC2" import="1">Art/_Edited_Animations/edited_fx_triggers_tank_mg_1gun.ftsxml</File>
+    <File md5="CCEE19B5A0E7AE186838E1A5A0EE0D33" import="1">Art/_Edited_Animations/edited_fx_triggers_tank_mg_2gun.ftsxml</File>
+    <File md5="B233D27FC1FA1DB1127E263DC20D30DB" import="1">Art/_Edited_Animations/edited_mechanized_aim_state_01.fsmxml</File>
+    <File md5="75C5BA4CEC139C9EAFA47AE912EAB3EC" import="1">Art/_Edited_Animations/edited_modern_ship_aim_state_01.fsmxml</File>
+    <File md5="5B8FBDD532486EB60ECB727286CA7706" import="1">Art/_Edited_Animations/fx_triggers_modernmarine.ftsxml</File>
+    <File md5="10FBE81A38F4D40FBB262AA7848681E8" import="1">Art/_Edited_Animations/ModernMarine_Attack.gr2</File>
+    <File md5="82C1973B3CED9ACEFFFE2C2003A603D4" import="1">Art/_Edited_Animations/ModernMarine_Bombard_Defense.gr2</File>
+    <File md5="4E5C1205401B54CBE76140F440D3200D" import="1">Art/_Edited_Animations/ModernMarine_DeathA.gr2</File>
+    <File md5="5D434BEDA164FA4674D624BBD5D5D2A1" import="1">Art/_Edited_Animations/ModernMarine_DeathA_Idle.gr2</File>
+    <File md5="90EEA8E512E8E0B848BD323FE8A99780" import="1">Art/_Edited_Animations/ModernMarine_DeathB.gr2</File>
+    <File md5="0208C41187615F90A266AB8AF44EFF0A" import="1">Art/_Edited_Animations/ModernMarine_DeathB_Idle.gr2</File>
+    <File md5="17FA15D5AF19204D2FBDDBDF0BCD6313" import="1">Art/_Edited_Animations/ModernMarine_Fidget.gr2</File>
+    <File md5="B63A001D59F2A07B413BB02898D2E656" import="1">Art/_Edited_Animations/ModernMarine_Fortify.gr2</File>
+    <File md5="4DB8C1D2B17255833878519BA8CF4568" import="1">Art/_Edited_Animations/ModernMarine_Fortify_Idle.gr2</File>
+    <File md5="A6DDF301AB9DFC99838E77EC71416A0C" import="1">Art/_Edited_Animations/ModernMarine_Idle.gr2</File>
+    <File md5="DCB52786F02DF0FE8C8C64A68733041A" import="1">Art/_Edited_Animations/ModernMarine_Run.gr2</File>
+    <File md5="F95FABEFBB406F39C31C439BAA512D46" import="0">Lua/AI/NewHandicap.lua</File>
+    <File md5="9524ED42A6CDF8B019B030C840AB7EDD" import="0">Lua/Combat/NewUnitsRules.lua</File>
+    <File md5="71F68BB2E5EEEA0ABA0CECA5D9288A1F" import="0">Lua/Combat/NewAttackEffects.lua</File>
+    <File md5="5240339F5D41B0DEC837E191571C2E03" import="0">Lua/Combat/NewCombatRules.lua</File>
+    <File md5="6865529842E158F5638873EB6E4726AE" import="0">Lua/Economy/NewBuildingEffects.lua</File>
+    <File md5="98E60EF802B5E9D5087C88FA3E65D722" import="0">Lua/Economy/NewCityRule.lua</File>
+    <File md5="64DD61EF9AE37593167B587E87C42744" import="0">Lua/Economy/NewPolicyEffects.lua</File>
+    <File md5="37D3907B5F8430FC78C8FDF9A671295F" import="0">Lua/Economy/NewTraitEffects.lua</File>
+    <File md5="6FBC90E02D33A08F03E47E59D55DA723" import="0">Lua/Economy/NewPopulationRule.lua</File>
+    <File md5="D3B7E5D69392B3B32B6B3E300D41CAA5" import="0">Lua/Economy/NuclearWinter.lua</File>
+    <File md5="E20C678ADD921E956B8643A3FEB6EDEA" import="1">Lua/Maps/AssignStartingPlots.lua</File>
+    <File md5="8E70FB755F6381C63FBFB329948D0272" import="1">Lua/Maps/Terra.lua</File>
+    <File md5="2E910709570A91EBD690A8E906E621B7" import="0">Lua/Misc/TerrainTransform.lua</File>
+    <File md5="32222B9626CB1A167D056849033AC2F5" import="1">Lua/Misc/UnitSpecialButtons.lua</File>
+    <File md5="4206FD96ECE9544B21BF044B5A8359BC" import="0">Lua/Utility/Policy_FreeBuildingClass.lua</File>
+    <File md5="D70E771F508AABE762D16C802DD15B69" import="0">Lua/Utility/Policy_FreeBuildingClass.xml</File>
+    <File md5="6E4BCF3D94B4E1A3F83646E1639075F6" import="1">Lua/Utility/UtilityFunctions.lua</File>
+    <File md5="95FEC49A08B85281E54705E4D8EE4E21" import="0">SQL/DeletionFixinator.sql</File>
+    <File md5="D7684AD583C1B7A31836CCC90FC7544C" import="0">SQL/Deletor.sql</File>
+    <File md5="4AEF4EDC41D0BD22F488FAC3C4F76663" import="0">SQL/GeneralTweaks.sql</File>
+    <File md5="0576951A15524CCC691AF0DE6C23C012" import="1">UI/GameSetup/EUI_tooltips.lua</File>
+    <File md5="CB12E254078D9449E6FE6A6ABF3ED301" import="1">UI/GameSetup/EUI_utilities.lua</File>
+    <File md5="3DBAB8561C9CA2F6E00805026E93D2B4" import="1">UI/GameSetup/GameSetupScreen.lua</File>
+    <File md5="D8EAC63161A83060DA6E3E841F17A235" import="1">UI/GameSetup/GameSetupScreen.xml</File>
+    <File md5="9A84CA18F40DC940FC0B763748A480E7" import="1">UI/GameSetup/LoadScreen.lua</File>
+    <File md5="2A421F96EE61547148E9B8BF811459F7" import="1">UI/GameSetup/LoadScreen.xml</File>
+    <File md5="3B9E61332176CA2D2041828F522FA882" import="1">UI/GameSetup/PopulateUniques.lua</File>
+    <File md5="CD2651C30CEFC44DA467DC151359FF21" import="1">UI/GameSetup/SelectCivilization.lua</File>
+    <File md5="CEBC5D1051F182500D53F138B2D4FFE6" import="1">UI/GameSetup/SelectCivilization.xml</File>
+    <File md5="36C1AC17085020A96285012731DAA8EE" import="1">UI/GameSetup/SP_Atlas.dds</File>
+    <File md5="8CC0299D646D251C9DA2AD2C14CFCA9C" import="1">UI/GameSetup/SP_Custom.dds</File>
+    <File md5="AB8F9231523AFCF7096BD52E74BAB55A" import="1">UI/GameSetup/SP_Logo.dds</File>
+    <File md5="F1B211F7B12C0D761778B22DB41436C0" import="1">UI/GameSetup/UniqueBonuses.lua</File>
+    <File md5="AC28BB06F7F3119C10DC673ACA73CAB7" import="1">UI/Override/AnnexCityPopup.lua</File>
+    <File md5="D2D302B3333517409B269B462B3A4EDB" import="1">UI/Override/CityBannerManager.lua</File>
+    <File md5="FBCEF09C1CAD4447311E853FA2CA1A9C" import="1">UI/Override/CityBannerManager.xml</File>
+    <File md5="7E6971A48B2C6A90CD315CCCE54260AD" import="1">UI/Override/CityView.lua</File>
+    <File md5="79C3C0A381E356EE950C7AABDD379DF0" import="1">UI/Override/CityView.xml</File>
+    <File md5="390263F7BAC75E11F0540CE317A14272" import="1">UI/Override/CityView_small.xml</File>
+    <File md5="0588C66A0520F9CFD2C4FE1738FDA5C0" import="1">UI/Override/Civilopedia/Art/48x48FrameButtons.dds</File>
+    <File md5="93429FB8AA472B59FB35BB6172390CB1" import="1">UI/Override/Civilopedia/Art/48x48FrameButtonsBackground.dds</File>
+    <File md5="70703CA352A989D49B1343B21B64D550" import="1">UI/Override/Civilopedia/Override/CivilopediaScreen.lua</File>
+    <File md5="A2E89F156CBD9788F13BFAC725B35FE2" import="1">UI/Override/Civilopedia/Override/CivilopediaScreen.xml</File>
+    <File md5="614BCA5986A6E53B977A44ED2F6EA314" import="0">UI/Override/Civilopedia/XML/CivilopediaScreen_GameText_en_US.xml</File>
+    <File md5="C63E62903790D962E06FAF3047A1214E" import="0">UI/Override/Civilopedia/XML/CivilopediaScreen_GameText_zh_CN.xml</File>
+    <File md5="0830A6320E8B3D6C5090AFA9FF69FEAB" import="0">UI/Override/Civilopedia/XML/CivilopediaScreen_GameText_zh_Hant_HK.xml</File>
+    <File md5="89EB40E1092FAEF71C260998F2A30EC6" import="1">UI/Override/CultureOverview.lua</File>
+    <File md5="DE89AF759D13E5DC560086BCA7A17441" import="1">UI/Override/CultureOverview.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/EnemyUnitPanel.lua</File>
+    <File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/EnemyUnitPanel.xml</File>
+    <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/EnemyUnitPanel_small.xml</File>
+    <File md5="81859D6C825870FE0BE877E466AF6834" import="1">UI/Override/InfoTooltipInclude.lua</File>
+    <File md5="7803DFEB1CC49D546EED8C8A1DE998AA" import="1">UI/Override/InGame.lua</File>
+    <File md5="87795029018082BF04AF16A5C0857B42" import="1">UI/Override/NewEraPopup.lua</File>
+    <File md5="E53DA553867A544E5313A12101E1E395" import="1">UI/Override/PuppetCityPopup.lua</File>
+    <File md5="0B74C39F64EEC78000094D79E60871A4" import="1">UI/Override/ResourceIconManager.lua</File>
+    <File md5="8B3F1DDD71A884B0D3666BDA0DBC873B" import="1">UI/Override/SocialPolicyPopup.xml</File>
+    <File md5="FB5C0A82D7F460FECBFDD1DFC376A703" import="1">UI/Override/TopPanel.lua</File>
+    <File md5="51D3EBC605C3CE3914EB376C02B88B54" import="1">UI/Override/TopPanel.xml</File>
+    <File md5="6EBE7924F5F1B2B7857EDF1EF0DA4034" import="1">UI/Override/UnitFlagManager.lua</File>
+    <File md5="31C3673870CDA3E6E78160CA76CF4CB5" import="1">UI/Override/UnitFlagManager.xml</File>
+    <File md5="B9C2A372ABF0973AFAC0C83DFA6D2545" import="1">UI/Override/UnitPanel.lua</File>
+    <File md5="2D4BE442AFCBFFD373B136285E43B109" import="1">UI/Override/UnitPanel.xml</File>
+    <File md5="5D5B61E59E40D8A153CC51FDB60350CC" import="1">UI/Override/UnitPanel_small.xml</File>
+    <File md5="BC2203EBABADAAFB67ED64C670A47968" import="0">XML/AI/AIBonus.xml</File>
+    <File md5="97E5D4AB753233A8E9AAE0B4A8595E94" import="0">XML/AI/AIStrategiesTweak.xml</File>
+    <File md5="A12FC0FD7A08AA97723C6E7EADD6E385" import="0">XML/Buildings/BuildingClasses.xml</File>
+    <File md5="0831B3F81CE1A6168350FA6CF2C99674" import="0">XML/Buildings/BuildingClassOverrides.xml</File>
+    <File md5="FE70E791D9B56D7362D1EBFAD162F119" import="0">XML/Buildings/Buildings.xml</File>
+    <File md5="E332B3DE97A020E414DCBA510517F070" import="0">XML/Buildings/BuildingsEffects.xml</File>
+    <File md5="5B1432D9A6992C84A97B2E1085BC26F6" import="0">XML/Buildings/BuildingsTexts.xml</File>
+    <File md5="02D386C8D20743CC68491D20436B9D99" import="0">XML/Buildings/Wonders.xml</File>
+    <File md5="5D89F877753296959BE413031462A61D" import="0">XML/City/CityTexts.xml</File>
+    <File md5="7C8343CB1DA59764C3D5524688EB6973" import="0">XML/City/Corruption.xml</File>
+    <File md5="A9A41DF3416972A34288BE48AA57B1B0" import="0">XML/City/CityResources.xml</File>
+    <File md5="522423183491316768E93425AAE4A255" import="0">XML/City/PopulationSize.xml</File>
+    <File md5="C98C6EC6D3663C82298E04F8C82F3715" import="0">XML/Civilopedia/NewCivilopediaTexts.xml</File>
+    <File md5="7508D22451656A38C3BE3B28BC2BFC46" import="0">XML/Civilopedia/NewNotificationTexts.xml</File>
+    <File md5="C6D541FF2B0F344EC9DC8F9A9FCD5109" import="0">XML/Civlizations/LeadersTweak.xml</File>
+    <File md5="74DDAFDC2A8579A81F16AA0A60A109AE" import="0">XML/Civlizations/StartFreeTechs.xml</File>
+    <File md5="9D14C81606F8B787290D24FEFDC1AB4F" import="0">XML/Civlizations/TraitsTexts.xml</File>
+    <File md5="029CA5AA2FF7ED0077E3F9991E5D35AD" import="0">XML/Civlizations/Traits.xml</File>
+    <File md5="E1F98D628E145E5BD507FB2A5322684A" import="0">XML/DLL_Options.xml</File>
+    <File md5="77362C330916E3C89107498E2B73F386" import="0">XML/GameInfo/Eras.xml</File>
+    <File md5="22BE9723C578F3D93B6F7FD1648BE85B" import="0">XML/GameInfo/GameSpeeds.xml</File>
+    <File md5="168497D80C09C0F25529EEFF70379373" import="0">XML/GameInfo/HandicapInfos.xml</File>
+    <File md5="80696F1B6E65C97177C78048151C10B2" import="0">XML/GameInfo/Resolutions.xml</File>
+    <File md5="8A5A5D574C91B754ED726425ED6133AC" import="0">XML/GlobalDefines.xml</File>
+    <File md5="C011AE947E669FF6AE85854734BC8B0A" import="1">XML/Localization/TextInfos_zh_CN.xml</File>
+    <File md5="97DC2079FF4ABEE3C9EFBC2B4DD92694" import="1">XML/Localization/TextInfos_zh_Hant_HK.xml</File>
+    <File md5="F2FE7D14BBA7CC5E3C093F623F7696F9" import="0">XML/Misc.xml</File>
+    <File md5="42C5204FD15B7703A93915261F585F94" import="0">XML/Policies/Policies.xml</File>
+    <File md5="C481BAA9490588B281D9648EF31B6438" import="0">XML/Policies/PoliciesEffects.xml</File>
+    <File md5="46138F4034869973C753DD281EFB9E33" import="0">XML/Policies/PolicyTexts.xml</File>
+    <File md5="DB50DE84581E1FAF78BD51E975FE435B" import="0">XML/Projects/Projects.xml</File>
+    <File md5="79E0A3D804609C5AF5C98F5B88F5D684" import="0">XML/Projects/ProjectTexts.xml</File>
+    <File md5="920F4971F4794D99E6333A1F0E187D3B" import="0">XML/Religion/ReligionTexts.xml</File>
+    <File md5="23F4FED11C6439A0B60A8A12EFDC3710" import="0">XML/Religion/ReligionTweak.xml</File>
+    <File md5="B95B6211E212D6F146B4316D4BE9B16A" import="0">XML/Religion/ReligionUnits.xml</File>
+    <File md5="CCC3E91AAAB8B9194F1D3BE0A1FBCE75" import="0">XML/Resources/NewResources_Texts.xml</File>
+    <File md5="E82486393DD2BA71D6CC7128AD054F28" import="0">XML/Resources/NewResources_Define.xml</File>
+    <File md5="36B685D17452783338C99C0781E91DC5" import="0">XML/Resources/OldResources.xml</File>
+    <File md5="01B424B8B0A455199A572C43304076C1" import="0">XML/Sound/Gameplay2DScripts.xml</File>
+    <File md5="54133155B5195D7725EA3EADD6110480" import="0">XML/Specialists/SpecialistsRules.xml</File>
+    <File md5="B75EBCA22DF12AA92E21132C24BAAD0F" import="0">XML/Specialists/SpecialistsTexts.xml</File>
+    <File md5="E937642E7DC99958A36EFF64962F7A2D" import="0">XML/Technologies/Technologies.xml</File>
+    <File md5="E99BBF1A0D87D4CEECC53D91D833FFD1" import="0">XML/Technologies/TechPreq.xml</File>
+    <File md5="FD03F31CDB1EAFA143FC5EDFDC9130C4" import="0">XML/Technologies/TechTexts.xml</File>
+    <File md5="DD7A2DBC554CA8514FC20B5F1AD222D4" import="0">XML/Terrain/Builds.xml</File>
+    <File md5="0610F973CECBFC8F78C62FC2D52ACF71" import="0">XML/Terrain/Features.xml</File>
+    <File md5="9B053D5FCD804A3719D13A3C26064484" import="0">XML/Terrain/Improvements.xml</File>
+    <File md5="24A0AC40FC265A9380DFFAD09D3A5ECB" import="0">XML/Terrain/TerrainTexts.xml</File>
+    <File md5="0B70C9E030749260FEB33ADE964847A4" import="0">XML/Units/UnitClassOverrides.xml</File>
+    <File md5="AF6D35C5EBE99D5759A6049760A4DD73" import="0">XML/Units/UnitPromotions.xml</File>
+    <File md5="559CB5D1BF28C284385E4D460452AF82" import="0">XML/Units/Units_Elite.xml</File>
+    <File md5="14D1984C2A3949B20F9966B068F33BC0" import="0">XML/Units/Units_Land_Infantry.xml</File>
+    <File md5="232A9EEC562BAD0F7F72528CDDC1C916" import="0">XML/Units/Units_Land_Mobile.xml</File>
+    <File md5="A13CCF4D46C7420A0F16DF0E8AC88BD8" import="0">XML/Units/Units_Land_Ranged.xml</File>
+    <File md5="0E9C0F50E5D1B3778299495A83B9440E" import="0">XML/Units/Units_Naval.xml</File>
+    <File md5="72FA698F3312CD17EEBB67477AFACE2F" import="0">XML/Units/UnitClasses.xml</File>
+    <File md5="74A08012A22AAB5644DBE1B78BC8936A" import="0">XML/Units/UnitsTexts.xml</File>
+    <File md5="30931B2D8F6CAB2E4487D38F6240315D" import="0">XML/Units/Units_Air.xml</File>
+    <File md5="FAD137A55EF5CE7DC59D8A79AE15E867" import="0">XML/Units/Units_Civilian.xml</File>
+    <File md5="A196D0D30E6AB3093C239B3552E02A2A" import="0">XML/Units/UnitsProductionBuildings.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/Deletor.sql</UpdateDatabase>
+      <UpdateDatabase>Art/xml/IconAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GlobalDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/DLL_Options.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Misc.xml</UpdateDatabase>
+      <UpdateDatabase>Lua/Utility/Policy_FreeBuildingClass.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/GameSpeeds.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Eras.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/HandicapInfos.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civlizations/Traits.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civlizations/StartFreeTechs.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civlizations/TraitsTexts.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civlizations/LeadersTweak.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Policies/Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Policies/PoliciesEffects.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Policies/PolicyTexts.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Technologies/Technologies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Technologies/TechPreq.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Technologies/TechTexts.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Resources/NewResources_Define.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Resources/NewResources_Texts.xml</UpdateDatabase>
+      <UpdateDatabase>Art/xml/ArtDefines_Resources.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Resources/OldResources.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/Features.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/Improvements.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/TerrainTexts.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/City/PopulationSize.xml</UpdateDatabase>
+      <UpdateDatabase>XML/City/Corruption.xml</UpdateDatabase>
+      <UpdateDatabase>XML/City/CityResources.xml</UpdateDatabase>
+      <UpdateDatabase>XML/City/CityTexts.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/BuildingClassOverrides.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Wonders.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/BuildingsEffects.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/BuildingsTexts.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/UnitClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/UnitClassOverrides.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Units_Civilian.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Units_Land_Infantry.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Units_Land_Mobile.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Units_Land_Ranged.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Units_Naval.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Units_Air.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Units_Elite.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/Builds.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/UnitPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/UnitsProductionBuildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/UnitsTexts.xml</UpdateDatabase>
+      <UpdateDatabase>Art/xml/ArtDefines_Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Specialists/SpecialistsRules.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Specialists/SpecialistsTexts.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Religion/ReligionTweak.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Religion/ReligionUnits.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Religion/ReligionTexts.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/Resolutions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilopedia/NewCivilopediaTexts.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilopedia/NewNotificationTexts.xml</UpdateDatabase>
+      <UpdateDatabase>XML/AI/AIBonus.xml</UpdateDatabase>
+      <UpdateDatabase>XML/AI/AIStrategiesTweak.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Projects/Projects.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Projects/ProjectTexts.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/GeneralTweaks.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Sound/Gameplay2DScripts.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Localization/TextInfos_zh_CN.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Localization/TextInfos_zh_Hant_HK.xml</UpdateDatabase>
+      <UpdateDatabase>UI/Override/Civilopedia/XML/CivilopediaScreen_GameText_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>UI/Override/Civilopedia/XML/CivilopediaScreen_GameText_zh_CN.xml</UpdateDatabase>
+      <UpdateDatabase>UI/Override/Civilopedia/XML/CivilopediaScreen_GameText_zh_Hant_HK.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/DeletionFixinator.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Maps/Terra.lua">
+      <Name>Terra</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Misc/TerrainTransform.lua">
+      <Name>Terrain</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Economy/NuclearWinter.lua">
+      <Name>Nuclear Winter</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Economy/NewPopulationRule.lua">
+      <Name>New Population Rule</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Misc/UnitSpecialButtons.lua">
+      <Name>Unit Special BTN</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Economy/NewTraitEffects.lua">
+      <Name>New Trait Effect</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Economy/NewPolicyEffects.lua">
+      <Name>New Policy Effects</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Combat/NewAttackEffects.lua">
+      <Name>New Attack Effects</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/AI/NewHandicap.lua">
+      <Name>New Handicap</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Economy/NewBuildingEffects.lua">
+      <Name>New Building Effects</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Combat/NewCombatRules.lua">
+      <Name>New Combat Rules</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="Custom" file="UI/GameSetup/GameSetupScreen.xml">
+      <Name>TXT_KEY_SP_GS_TITLE</Name>
+      <Description>TXT_KEY_SP_GS_DESC</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Combat/NewUnitsRules.lua">
+      <Name>NewUnitsRules</Name>
+      <Description>NewUnitsRules</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Economy/NewCityRule.lua">
+      <Name>New City Rule</Name>
+      <Description>New City Rule</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Utility/Policy_FreeBuildingClass.lua">
+      <Name>FreeBuildingClass</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

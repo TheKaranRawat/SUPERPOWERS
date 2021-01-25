@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with Notepad++ by bc1 -->
+<Context Font="TwCenMT16" FontStyle="Base" ColorSet="Beige_Black" >
+
+	<Container ID="Scrap" Hidden="1"/>
+
+	<ToolTipType Name="EUI_TextTooltip" >
+		<Grid ID="Background" Offset="30,5" Size="60,12" Padding="8,8" Style="GridBlack8" Color="White,240" >
+			<Label ID="Text" Anchor="C,C" WrapWidth="400" Font="TwCenMT16"/>
+		</Grid>
+	</ToolTipType>
+
+	<ToolTipType Name="EUI_CivilizationTooltip" >
+		<Grid ID="Box" Size="530,90" Offset="8.0" Padding="8,8" Style="GridBlack8"  NoClip="1" >
+			<Image ID="MajorCiv" Anchor="L,C" Offset="-40,0" AnchorSide="O.i" Texture="256x256Frame.dds" Size="256,256">
+				<Image ID="Portrait" Anchor="C,C" Size="256,256"/>
+				<Image ID="Civ" Anchor="R,B" Offset="25,25" Size="80,80" Texture="NotificationFrameBase.dds"  >
+					<Image ID="CivIconBG" Size="80.80" Anchor="C,C" TextureOffset="141,0" Texture="CivIconBGSizes.dds" />
+					<Image ID="CivIconShadow" Size="64.64" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas64.dds" Color="Black.128"/>
+					<Image ID="CivIcon" Size="64,64"  Anchor="C,C" Texture="CivSymbolsColor512.dds" />
+				</Image>
+			</Image>
+			<Image ID="MinorCiv" Anchor="L,C" Offset="-40,0" AnchorSide="O.i" Texture="TechAchievedFrame.dds" Size="220,220">
+				<Image ID="Leader" Anchor="C,C" Size="200,200"/>
+			</Image>
+			<Label ID="Text" Anchor="C,C" String="Brief description" LeadingOffset="-2" WrapWidth="512" Font="TwCenMT16" ColorSet="Beige_Black" />
+		</Grid>
+	</ToolTipType>
+
+	<ToolTipType Name="EUI_ItemTooltip" >
+		<Grid ID="Box" Size="530,90" Offset="8.0" Padding="8,8" Style="GridBlack8" NoClip="1" >
+			<Image ID="PortraitFrame" Anchor="R,C" Offset="-40,0" AnchorSide="O.i" Size="256,256" Texture="256x256Frame.dds">
+				<Image ID="Portrait" Size="256,256"/>
+			</Image>
+			<Label ID="Text" Offset="12,12" LeadingOffset="-2" WrapWidth="400" Font="TwCenMT16" ColorSet="Beige_Black"/>
+		</Grid>
+	</ToolTipType>
+
+	<!-- Promotion Instances for unit tooltip -->
+	<Instance Name="PromotionIcon">
+		<Image ID="Image" Size="32,32" Sampler="Linear" />
+	</Instance>
+	<AlphaAnim ID="UnitTooltipTimer" Speed="1000" Pause="0" Cycle="Once" Stopped="1" />
+
+	<ToolTipType Name="EUI_UnitTooltip" >
+		<Grid ID="Box" Size="300,50" Offset="8.0" Padding="8,8" Style="GridBlack8" NoClip="1" >
+			<Stack Offset="12,12" StackGrowth="Down" Padding="8">
+				<Label ID="Text" WrapWidth="500" ColorSet="Beige_Black_Alpha" Font="TwCenMT16"/>
+				<Stack ID="PromotionStack" StackGrowth="Right">
+					<Stack ID="IconStack" StackGrowth="Right" WrapGrowth="Bottom" WrapPadding="-6" Padding="-6" WrapWidth="260"/>
+					<Label ID="PromotionText" Offset="0,10" ColorSet="Beige_Black_Alpha" Font="TwCenMT16" LeadingOffset="5" />
+				</Stack>
+			</Stack>
+			<Image ID="PortraitFrame" Offset="-40,-40" AnchorSide="O.i" Texture="256x256Frame.dds" Size="256,256" >
+				<Image ID="UnitPortrait" Size="256,256" />
+				<Image ID="CivIconFrame" Anchor="L,B" Offset="20,20" Texture="IconFrame64.dds" Size="64.64" >
+					<Image ID="CivIconBG" Size="64.64" Anchor="C,C" Texture="CivIconBGSizes.dds"/>
+					<Image ID="CivIconShadow" Size="48.48" Anchor="C,C" Texture="CivSymbolAtlas48.dds" Color="Black.128"/>
+					<Image ID="CivIcon" Size="48,48" Anchor="C,C" Texture="CivSymbolsColor512.dds"/>
+				</Image>
+			</Image>
+		</Grid>
+	</ToolTipType>
+
+	<ToolTipType Name="EUI_CityGrowthTooltip" >
+		<Container Size="200,200" >
+			<Image Anchor="C,C" Size="256,256" Texture="ProductionPanelBack.dds" >
+				<Meter ID="LossMeter" Size="256,256" Texture="ProductionPanelMeter.dds" HasShadow="0" Color="Red,192" />
+				<Meter ID="ProgressMeter" Size="256,256" Texture="ProductionPanelMeter.dds" HasShadow="1"  Color="Green" />
+				<Line ID="Line1" Start="0,0" Offset="128,128" Color="Green,192"/>
+				<Line ID="Line2" Start="0,0" Offset="128,128" Color="Black,255"/>
+				<Image Size="256,256" Texture="ProductionPanelFrame.dds" />
+				<Image ID="ItemPortrait" Size="256,256" />
+				<Label ID="Text" Anchor="C,C" Color0="White,255" Color1="0,0,0,200" Font="TwCenMT24" FontStyle="Stroke" />
+				<Label ID="Label1" Anchor="C,C" Color0="Green,255" Color1="0,0,0,200" Font="TwCenMT14" FontStyle="Stroke" />
+				<Label ID="Label2" Anchor="C,C" Color0="Green,255" Color1="0,0,0,200" Font="TwCenMT14" FontStyle="Stroke" />
+			</Image>
+		</Container>
+	</ToolTipType>
+
+	<ToolTipType Name="EUI_CityProductionTooltip" >
+		<Grid ID="Box" Size="530,90" Padding="8,8" Style="GridBlack8" Color="White,240">
+			<Image ID="Meters" Size="256,256" AnchorSide="O,I" Anchor="R,T" Offset="-20,0" Texture="ProductionPanelBack.dds" >
+				<Meter ID="LossMeter" Size="256,256" Texture="ProductionPanelMeter.dds" HasShadow="0" Color="Red,192" />
+				<Meter ID="ProgressMeter" Size="256,256" Texture="ProductionPanelMeter.dds" HasShadow="1" />
+				<Line ID="Line1" Start="0,0" Offset="128,128" Color="Production,192" />
+				<Line ID="Line2" Start="0,0" Offset="128,128" Color="Black,255" />
+				<Image Size="256,256" Texture="ProductionPanelFrame.dds" />
+				<Image ID="ItemPortrait" Size="256,256" />
+				<Label ID="Label1" Anchor="C,C" Color0="Production,255" Color1="0,0,0,200" Font="TwCenMT14" FontStyle="Stroke" />
+				<Label ID="Label2" Anchor="C,C" Color0="Production,255" Color1="0,0,0,200" Font="TwCenMT14" FontStyle="Stroke" />
+			</Image>
+			<Label ID="Text" Offset="8,8" WrapWidth="333" />
+		</Grid>
+	</ToolTipType>
+
+	<ToolTipType Name="EUI_TopPanelProgressTooltip" >
+		<Grid ID="Box" Size="530,90" Padding="8,8" Style="GridBlack8" Color="White,240">
+			<Image ID="Meters" Size="256,256" AnchorSide="O,I" Anchor="R,T" Offset="-20,0" Texture="ProductionPanelBack.dds" >
+				<Meter ID="LossMeter" Size="256,256" Texture="ProductionPanelMeter.dds" HasShadow="0" Color="Red,128" />
+				<Meter ID="ProgressMeter" Size="256,256" Texture="TechMeter256.dds" HasShadow="1" />
+				<Line ID="Line1" Start="0,0" Offset="128,128" Color="Science,192" />
+				<Line ID="Line2" Start="0,0" Offset="128,128" Color="Black,255" />
+				<Image Size="256,256" Texture="ProductionPanelFrame.dds" />
+				<Image ID="ItemPortrait" Size="256,256" />
+				<Label ID="Label1" Anchor="C,C" Color0="Science,255" Color1="0,0,0,200" Font="TwCenMT14" FontStyle="Stroke" />
+				<Label ID="Label2" Anchor="C,C" Color0="Science,255" Color1="0,0,0,200" Font="TwCenMT14" FontStyle="Stroke" />
+			</Image>
+			<Label ID="Text" Offset="8,8" WrapWidth="333" />
+		</Grid>
+	</ToolTipType>
+
+	<ToolTipType Name="EUI_UnitAction">
+		<Grid ID="UnitActionMouseover" Size="530,90" Offset="8,0" Padding="8,8" Style="GridBlack8" NoClip="1">
+			<Image ID="UnitActionIcon" AnchorSide="I.O" Offset="-10.-38" Size="64,64" Texture="UnitActions.dds"/>
+			<Label ID="UnitActionHotKey" Anchor="R,T" Offset="8,8" ColorSet="Beige_Black" Font="TwCenMT20" FontStyle="Shadow" String="(M)"/>
+			<Label ID="UnitActionText" Offset="52,10" Font="TwCenMT20" FontStyle="Shadow" String="Button Name"/>
+			<Label ID="UnitActionHelp" Offset="12,28" Font="TwCenMT16" String="description" LeadingOffset="-2" WrapWidth="450"/>
+		</Grid>
+	</ToolTipType>
+
+</Context>

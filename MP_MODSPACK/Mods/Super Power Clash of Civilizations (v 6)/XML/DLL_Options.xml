@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/15/2014 9:46:17 PM -->
+<GameData>
+	
+	
+	
+	
+	
+	
+	
+	<!-- ***********************DLL Options*************************************************-->
+	<!--<CustomModDbUpdates>
+		<Row Name="PROMOTIONS_VARIABLE_RECON_XML" Value="1"/>
+	</CustomModDbUpdates>-->
+	
+	
+	<CustomModOptions>
+
+
+	
+		
+		
+		
+		
+		<Update>
+			<Where Name="GLOBAL_CITY_FOREST_BONUS"/>
+			<Set Value="1"/>
+		</Update>
+
+		<Update>
+			<Where Name="GLOBAL_STACKING_RULES"/>
+			<Set Value="1"/>
+		</Update>
+
+		<Update>
+			<Where Name="GLOBAL_ALPINE_PASSES"/>
+			<Set Value="1"/>
+		</Update>
+
+		<!--<Update>
+			<Where Name="GLOBAL_LOCAL_GENERALS"/>
+			<Set Value="1"/>
+		</Update>-->
+
+		<!--<Update>
+			<Where Name="PROMOTIONS_VARIABLE_RECON"/>
+			<Set Value="1"/>
+		</Update>-->
+		
+		
+		<Update>
+			<Where Name="BUGFIX_CITY_STACKING"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="BUGFIX_INTERCEPTOR_STRENGTH"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="BUGFIX_UNIT_POWER_CALC"/>
+			<Set Value="1"/>
+		</Update>
+		<!--<Update>
+			<Where Name="BUGFIX_RESEARCH_OVERFLOW"/>
+			<Set Value="1"/>
+		</Update>-->
+
+
+		<!--<Update>
+			<Where Name="EVENTS_UNIT_UPGRADES"/>
+			<Set Value="1"/>
+		</Update>-->
+		
+
+		<Update>
+			<Where Name="EVENTS_RED_TURN"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="EVENTS_RED_COMBAT"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="EVENTS_RED_COMBAT_MISSION"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="EVENTS_RED_COMBAT_ABORT"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="EVENTS_RED_COMBAT_RESULT"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="EVENTS_RED_COMBAT_ENDED"/>
+			<Set Value="1"/>
+		</Update>
+
+		<Update>
+			<Where Name="EVENTS_CITY"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="EVENTS_NUCLEAR_DETONATION"/>
+			<Set Value="1"/>
+		</Update>
+		
+		
+
+		<!--<Update>
+			<Where Name="DIPLOMACY_CIV4_FEATURES"/>
+			<Set Value="1"/>
+		</Update>-->
+
+
+		<Update>
+			<Where Name="PROMOTIONS_CROSS_MOUNTAINS"/>
+			<Set Value="1"/>
+		</Update>
+
+
+		<!--<Update>
+			<Where Name="GLOBAL_CS_NO_ALLIED_SKIRMISHES"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="GLOBAL_PARATROOPS_AA_DAMAGE"/>
+			<Set Value="1"/>
+		</Update>-->
+
+	</CustomModOptions>
+
+
+	<Defines>
+		<Update>
+			<Where Name="CITY_UNIT_LIMIT"/>
+			<Set Value="2"/>
+		</Update>
+	</Defines>
+
+
+	<!--**********************************Smart AI Options******************************-->
+	<CustomModOptions>
+		<Update>
+			<Where Name="AI_SMART"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="AI_SMART_RANGED_UNITS"/>
+			<Set Value="1"/>
+		</Update>
+		<!--<Update>
+			<Where Name="AI_SMART_TACTICS"/>
+			<Set Value="1"/>
+		</Update>-->
+		<Update>
+			<Where Name="AI_SMART_FLEE_FROM_DANGER"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="AI_SMART_HEALING"/>
+			<Set Value="1"/>
+		</Update>
+		
+		<Update>
+			<Where Name="AI_SMART_UPGRADES"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="AI_SMART_DISBAND"/>
+			<Set Value="1"/>
+		</Update>
+		
+		<Update>
+			<Where Name="AI_SMART_AIR_TACTICS"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="AI_SMART_INTERCEPTIONS"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="AI_SMART_DEALS"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="AI_SMART_ARCHAEOLOGISTS"/>
+			<Set Value="1"/>
+		</Update>
+
+		<Update>
+			<Where Name="AI_SECONDARY_WORKERS"/>
+			<Set Value="1"/>
+		</Update>
+
+		<!--<Update>
+			<Where Name="AI_SMART_GREAT_PEOPLE"/>
+			<Set Value="1"/>
+		</Update>
+
+	-->
+		<!--<Update>
+			<Where Name="AI_SMART_DEALS"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="AI_SMART_GOLD_PURCHASE"/>
+			<Set Value="1"/>
+		</Update>-->
+	
+
+
+
+	</CustomModOptions>
+
+	<!--**********************************Passable Forts******************************-->
+
+	<CustomModOptions>
+		<Update>
+			<Where Name="GLOBAL_PASSABLE_FORTS"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="GLOBAL_PASSABLE_FORTS_ANY"/>
+			<Set Value="0"/>
+			<!-- Default is OFF -->
+		</Update>
+	</CustomModOptions>
+
+	<Improvements>
+		<Update>
+			<Where Type="IMPROVEMENT_FORT"/>
+			<Set MakesPassable="1"/>
+		</Update>
+		<!--<Update>
+			<Where Type="IMPROVEMENT_CITADEL"/>
+			<Set MakesPassable="1"/>
+		</Update>-->
+	</Improvements>
+
+	<!--*********************City Working Range ********************* -->
+	<CustomModOptions>
+		<Update>
+			<Where Name="GLOBAL_CITY_WORKING"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="TRAITS_CITY_WORKING"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="POLICIES_CITY_WORKING"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="BUILDINGS_CITY_WORKING"/>
+			<Set Value="1"/>
+		</Update>
+	</CustomModOptions>
+
+
+
+	<!--*********************Trade Route Scaling ********************* -->
+	<CustomModOptions>
+		<Update>
+			<Where Name="TRADE_ROUTE_SCALING"/>
+			<Set Value="1"/>
+		</Update>
+	</CustomModOptions>
+
+
+</GameData>

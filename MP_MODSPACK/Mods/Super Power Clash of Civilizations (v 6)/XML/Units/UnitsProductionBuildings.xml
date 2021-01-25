@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/11/2015 7:46:38 PM -->
+<GameData>
+
+	<!--*****************************Building Required******************************-->
+
+
+
+	<!--*****Barracks****-->
+
+	<Unit_BuildingClassRequireds>
+		<!--<Row>
+			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>-->
+		
+		<Row>
+			<UnitType>UNIT_SWORDSMAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BARBARIAN_SWORDSMAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>	
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KRIS_SWORDSMAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LONGSWORDSMAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DANISH_BERSERKER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MUSKETMAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_OTTOMAN_JANISSARY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MUSKETEER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RIFLEMAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CELT_BLACKWATCH</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ETHIOPIAN_MEHAL_SEFARI</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>	
+		<Row>
+			<UnitType>UNIT_GREAT_WAR_INFANTRY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INFANTRY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BRAZILIAN_PRACINHA</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MOTORISED_INFANTRY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<!--<Row>
+			<UnitType>UNIT_FRANCE_AMX</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>-->
+		<Row>
+			<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_SPEARMAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PIKEMAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SPANISH_TERCIO</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZULU_IMPI</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		
+		
+		<Row>
+			<UnitType>UNIT_ANTI_TANK_GUN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWEDISH_GUSTAV_RECOILESS_GUN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TANK_DESTROYER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATGM_VEHICLE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		
+
+		<Row>
+			<UnitType>UNIT_ARCHER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INCAN_SLINGER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MAYAN_ATLATLIST</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BARBARIAN_ARCHER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CROSSBOWMAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHINESE_CHUKONU</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VOLLEY_GUN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GATLINGGUN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MACHINE_GUN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ANTI_AIRCRAFT_GUN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MOBILE_AA_GUN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SAM_INFANTRY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_OTTOMAN_COBRA</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_SPARTAN300</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GERMAN_LANDSKNECHT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DANISH_SKI_INFANTRY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_SNIPER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BAZOOKA</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_JAPANESE_SAMURAI</UnitType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+
+	</Unit_BuildingClassRequireds>
+
+
+
+	<!--*****Armory****-->
+	<Unit_BuildingClassRequireds>
+	
+		<!--<Row>
+			<UnitType>UNIT_RECON_CAVALRY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DIRIGEABLE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SCOUT_HELICOPTER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UAV</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>-->
+
+
+		<Row>
+			<UnitType>UNIT_HORSEMAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARTHAGINIAN_FOREST_ELEPHANT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BYZANTINE_CATAPHRACT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_COMPANIONCAVALRY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BARBARIAN_HORSEMAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KNIGHT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PERSIAN_CATAPHRACT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SONGHAI_MUSLIMCAVALRY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SIAMESE_WARELEPHANT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LANCER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWEDISH_HAKKAPELIITTA</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_WINGED_HUSSAR</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_CHARIOT_ARCHER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EGYPTIAN_WARCHARIOT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDIAN_WARELEPHANT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_MEDIEVAL_CHARIOT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARABIAN_CAMELARCHER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MONGOLIAN_KESHIK</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BOMBARD</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CAVALRY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BERBER_CAVALRY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<!--<Row>
+			<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>-->
+		<Row>
+			<UnitType>UNIT_AUSTRIAN_HUSSAR</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_COMANCHE_RIDERS</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_CATAPULT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ASSYRIAN_SIEGE_TOWER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_BALLISTA</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		
+
+		<Row>
+			<UnitType>UNIT_TREBUCHET</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MONGOLIAN_HUIHUIPAO</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CULVERIN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_BATTERY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CANNON</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_NUMIDIAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ELITE_RIDER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KOREAN_HWACHA</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+
+
+	<!--*****Arsenal****-->
+	<Unit_BuildingClassRequireds>	
+		<Row>
+			<UnitType>UNIT_WWI_TANK</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TANK</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GERMAN_PANZER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MAIN_BATTLE_TANK</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PERSIAN_ZULFIQAR</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_T80</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZULU_OLIFANT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_MODERN_ARMOR</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CHINESE_TYPE99</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		
+
+		<Row>
+			<UnitType>UNIT_CRUISER_TANK</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_CROMWELL_TANK</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+
+		
+		<Row>
+			<UnitType>UNIT_HOWITZER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AUSTRIAN_SKODA</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ARTILLERY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SELF_PROPELLED_ARTILLERY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ZULU_G6_SPG</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_RAILROAD_GUN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KATYUSHA</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		
+		
+		<Row>
+			<UnitType>UNIT_CHINESE_WEISHI</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		<!--<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>-->
+		<Row>
+			<UnitType>UNIT_SUPER_HOWITZER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_TANK</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CRUSADER_ARTILLERY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+
+
+	<!--*****Military Base****-->
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_PZLW3_HELICOPTER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_ATTACK_HELICOPTER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GERMAN_EUROCOPTER_TIGER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_APACHE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_TRIPLANE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WWI_BOMBER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FIGHTER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DIVE_BOMBER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_PZL23</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INTERCEPTER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_SU27</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JET_FIGHTER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWEDISH_JAS39_FIGHTER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_MIRRAGE2000</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_STEALTH_ATTACK_AIRCRAFT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BOMBER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_B17</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JET_BOMBER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_EMP_BOMBER_AIR</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ICBM_MISSILE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		
+		
+		
+		
+
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_AIRSHIP</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PROTOTYPE_BOMBER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TSAR_BOMBA</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_ARTILLERY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_SR71_BLACKBIRD</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PAKFA_T50</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HACKER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_HELICOPTER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ORBITAL_STRIKE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+
+
+
+	<!--*****Wood Dock****-->
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_TRIREME</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>	
+		<Row>
+			<UnitType>UNIT_GALLEASS</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRIGATE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>		
+		<Row>
+			<UnitType>UNIT_SPANISH_ARMADA</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DUTCH_SEA_BEGGAR</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_OTTOMAN_PRIVATEER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DANISH_DRAGONSHIP</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SLOOP_OF_WAR</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KOREAN_TURTLE_SHIP</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHIP_OF_THE_LINE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SONGHAI_EXPEDITION_FLEET</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_CARAVEL</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PORTUGUESE_NAU</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ZHENGHE_FLEET</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+		</Row>
+
+	</Unit_BuildingClassRequireds>
+
+
+
+	<!--*****Shipyard****-->
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_IRONCLAD</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LIGHT_IRONCLAD</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DESTROYER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERN_DESTROYER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KOREAN_SEJONG_CLASS</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_SUBMARINE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GERMAN_UBOAT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+
+		
+		<Row>
+			<UnitType>UNIT_PROTECTED_CRUISER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HEAVY_CRUISER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GREEK_ARMORED_CRUISER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KIROV_BATTLECRUISER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_MISTRAL</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		
+		
+		<Row>
+			<UnitType>UNIT_DREADNOUGHT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_REUMBERTO</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BATTLESHIP</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_BATTLESHIP</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FUTURE_BATTLESHIP</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_CARRIER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_CARRIER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NIMITZ</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_CARRIER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SSBN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+
+
+		<!--<Row>
+			<UnitType>UNIT_PROTOTYPE_SUBMARINE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>-->
+		<Row>
+			<UnitType>UNIT_ELITE_BATTLECRUISER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUPER_BATTLESHIP</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_UNDERWATER_CARRIER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PARTICLE_CANNON</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+	
+	
+	
+	<!--***Military Academy*****-->
+
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_NATIONAL_GUARD</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+		</Row>
+	
+		<Row>
+			<UnitType>UNIT_FRENCH_MUSKETEER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+		</Row>
+		
+		
+		<Row>
+			<UnitType>UNIT_WWI_PARATROOPER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MARINE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PARATROOPER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EGYPT_UNIT777</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_XCOM_SQUAD</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_TASKFORCE_141</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+		</Row>
+
+	</Unit_BuildingClassRequireds>
+	
+	
+	
+
+
+
+
+
+	<!--***Misc*****-->
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_SATELLITE_SPUTNIK</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SPACESHIP_FACTORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_RECONNAISSANCE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SPACESHIP_FACTORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_GPS</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SPACESHIP_FACTORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_APOLLO11</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SPACESHIP_FACTORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_HUBBLE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SPACESHIP_FACTORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_WEATHER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SPACESHIP_FACTORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_TIANGONG</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SPACESHIP_FACTORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_ECCM</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SPACESHIP_FACTORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_ENVIRONMENT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SPACESHIP_FACTORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_ANTIFALLOUT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SPACESHIP_FACTORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SATELLITE_RESOURCEPLUS</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SPACESHIP_FACTORY</BuildingClassType>
+		</Row>
+		
+		
+		<Row>
+			<UnitType>UNIT_SS_ENGINE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SPACESHIP_FACTORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SS_COCKPIT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SPACESHIP_FACTORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SS_BOOSTER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SPACESHIP_FACTORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SS_STASIS_CHAMBER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SPACESHIP_FACTORY</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARCHAEOLOGIST</UnitType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+</GameData>

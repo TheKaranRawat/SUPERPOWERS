@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/15/2014 7:54:43 PM -->
+<GameData>
+	<!--********************************************** Traits Info Change ********************************************** -->
+
+	<Language_en_US>
+
+		<Replace Tag="TXT_KEY_TRAIT_ART_OF_WAR_SHORT">
+			<Text>Pax Sinica</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TRAIT_ART_OF_WAR">
+			<Text>During a Golden Age, China receive additional +20% [ICON_RESEARCH] Science, [ICON_FOOD] Food, [ICON_PEACE] Faith output in all cities and +20% [ICON_GREAT_PEOPLE] Great Person generation nationwide. </Text>
+		</Replace>
+
+		<Row Tag="TXT_KEY_SP_UA_CHINA_GOLDENAGE_ANNOUNCE">
+			<Text>Pax Sinica!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_UA_CHINA_GOLDENAGE_EFFECTS">
+			<Text>The mighty Chinese empire is now in [ICON_GOLDEN_AGE] [COLOR_POSITIVE_TEXT]Pax Sinica[ENDCOLOR]! [NEWLINE][NEWLINE]Every tile in your empire that produces at least 1 [ICON_GOLD] Gold produces 1 extra. +20% [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_CULTURE] Culture, [ICON_FOOD] Food, [ICON_PEACE] Faith and [ICON_GREAT_PEOPLE] Great People Earning Rate empire-wide.</Text>
+		</Row>
+
+		<Replace Tag="TXT_KEY_TRAIT_RIVER_EXPANSION">
+			<Text>Each Scientist +2 [ICON_RESEARCH] Science, Engineer +1 [ICON_PRODUCTION] Production, Merchant +2 [ICON_GOLD] Gold, Writer, Artist and Musician +1 [ICON_CULTURE] Culture. </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES_SHORT">
+			<Text>Great Russian Soul</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES">
+			<Text>The first 2 [ICON_CITIZEN] Citizens in your cities don't generate [ICON_HAPPINESS_4] Unhappiness. +2 [ICON_GOLD] Gold and +2 [ICON_RES_CONSUMER] Consumer Goods for all cities. All Units +15% [ICON_STRENGTH] Combat Strength bonus while fighting within their own territory.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT">
+			<Text>1 Level up for all Lv2 -Lv5 cities (England only has Lv1-Lv4 cities). All Units +15% [ICON_STRENGTH] Combat Strength bonus while fighting outside their own territory. </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE">
+			<Text>+3 [ICON_CULTURE] Culture for all cities and it never expires. +1 [ICON_TOURISM] Tourism output for all Great Works.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT">
+			<Text>Kritik der reinen Vernunft</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS">
+			<Text>Every 50 [ICON_PRODUCTION] Production output in a city offer additional +10 [ICON_CULTURE] Culture and +10 [ICON_RESEARCH] Science output. The bonus are added to the base outputs of your cities so they can be multiplied by buildings, policies, etc.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER">
+			<Text>+2 [ICON_PRODUCTION] Production for all cities and it never expires. +15% [ICON_PRODUCTION] Production towards any buildings in all cities.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_WONDER_BUILDER_SHORT">
+			<Text>The Gift from the Nile</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TRAIT_WONDER_BUILDER">
+			<Text>+1 [ICON_GOLD] Gold in every tile next to a river and +1 [ICON_PRODUCTION] Production for every Flood Plains tiles worked by your city. +2 [ICON_RES_MANPOWER] Manpower per city. +25% [ICON_PRODUCTION] Production towards Wonder construction. </Text>
+		</Replace>
+
+
+
+
+
+		<Replace Tag="TXT_KEY_TRAIT_TERROR">
+			<Text>+1 [ICON_PRODUCTION] Production for every Pasture. +1 [ICON_MOVES] Movement for all Mounted Units, Tank Units, Land Hit-and-run Units and Helicopter Units. </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED">
+			<Text>Units fight as though they were at full strength even when damaged. Gain [ICON_CULTURE] Culture when you build a Military Unit (100% of its [ICON_STRENGTH] Combat Strength). </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TRAIT_BUFFALO_HORNS">
+			<Text>-50% experience needed to earn their next promotion for all units. All cities receive a free Ikanda.</Text>
+		</Replace>
+
+
+		<Replace Tag="TXT_KEY_TRAIT_VIKING_FURY">
+			<Text>Land Melee units and Naval Melee units pay no Movement [ICON_MOVES] to pillage and pillage Gold equal to 200% of the damage inflicted on a city. Receive triple [ICON_GOLD] Gold from barbarian encampments or pillaging cities. +1 [ICON_CULTURE] Culture output for every Fishing Net, Workboats and Offshore Platform.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_SLAYER_OF_TIAMAT">
+			<Text>When a city is conquered by force, gain a free Technology discovered by its owner (one Technology per enemy city). If there are at least 5 [ICON_CITIZEN] Citizens left in the city after capturing, +1 [ICON_CITIZEN] Citizen in your [ICON_CAPITAL] Capital.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP">
+			<Text>City-State [ICON_INFLUENCE] Influence degrades at half and recovers at twice the normal rate. Gain 3 more [ICON_INFLUENCE] Influence (at Standard speed) per turn with City-States you could demand tribute from.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_RAZE_AND_HORSES">
+			<Text>Defeated Barbarian unit in encampments will join you. Receive [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, [ICON_GOLD] Gold and [ICON_PEACE] Faith after destroying a city (amount = 10*turn, 1,000 maximum). Borrow City names from other in-game Civs.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT">
+			<Text>Pax Ottomana</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
+			<Text>+1 [ICON_PRODUCTION] Production for every Quarry, Fishing Net. +2 [ICON_PRODUCTION] Production for every Strategic Resources. +25% speed for worker's Tile Improvement construction rate.</Text>
+		</Replace>
+		
+		
+		
+
+		<Replace Tag="TXT_KEY_TRAIT_GATEWAY_AFRICA">
+			<Text>+2 Gold [ICON_GOLD], [ICON_CULTURE] Culture, [ICON_PEACE] Faith and [ICON_RESEARCH] Science for each Trade Route with a different civ or City-State. +4 [ICON_GOLD] Gold for each Trade Route sent to Morocco. All Land Units receive a [ICON_STRENGTH] Combat bonus (+20%) when fighting in Desert Tiles.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_LUXURY_RETENTION">
+			<Text>Only lose 2 [ICON_HAPPINESS_1] Happiness from a Luxury Resource if your last copy of it is traded away. All cities receive a free Market.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_PHOENICIAN_HERITAGE">
+			<Text>+1 [ICON_PRODUCTION] Production for every Specialists. +4 [ICON_GOLD] Base Gold for every Sea International Trade Route and +25% Range for Cargoships.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_EXTRA_TRADE">
+			<Text>Resource diversity grants twice as much [ICON_GOLD] Gold for Portugal in Trade Routes. All coastal Cities receive a free Harbor.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_SUPER_CITY_STATE">
+			<Text>Cannot gain settlers nor annex cities. May purchase in puppet cities and puppet cities offers full [ICON_RESEARCH] Science, [ICON_CULTURE] Culture output and [ICON_FOOD] Food Growth. Double the normal number of Trade Routes and [ICON_TOURISM] Theming Bonus in [ICON_CAPITAL] Captal. A Merchant of Venice appears after researching Optics.</Text>
+		</Replace>
+
+
+
+		<Replace Tag="TXT_KEY_TRAIT_SPICE">
+			<Text>The first 3 cities founded on continents other than where Indonesia started each provide 2 unique Luxury Resources. These 3 cities are free from Corruption and Public Security problems, cost No [ICON_GOLD] Gold maintance and can never be razed.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_GREAT_EXPANSE">
+			<Text>Founded cities start with additional territory (6 tiles). All cities receive a free Granary.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_WAYFINDING">
+			<Text>Can embark and move over Oceans immediately. Lv 4 and Lv 5 Cities are treated as Lv 3 Cities. +10% [ICON_STRENGTH] Combat Strength bonus if within 2 tiles of a Moai.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS">
+			<Text>Gains [ICON_CULTURE] Culture for the empire from each enemy unit killed (50% of their [ICON_STRENGTH] Combat Strength).</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_AMPHIB_WARLORD">
+			<Text> Rivers and adjacent difficult terrain count as clear terrain for [ICON_MOVES] Movement. Rivers extend length of land trade routes as if they were roads.+1 [ICON_GOLD] Gold for every Trading Post.</Text>
+		</Replace>
+
+
+		<Replace Tag="TXT_KEY_TRAIT_BONUS_AGAINST_TECH">
+			<Text>+1 [ICON_CULTURE] Culture for all Specialists. All Units receive a [ICON_STRENGTH] Combat bonus (+25%)  when fighting units from a Civilization with more Cities than Ethiopia. </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_POPULATION_GROWTH">
+			<Text>-20% [ICON_HAPPINESS_4] Unhappiness from number of [ICON_CITIZEN] Citizens.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_EXTRA_BELIEF">
+			<Text>Choose one more Belief than normal when you found a Religion. A Great Prophet appears after researching Writing.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_FAITH_FROM_NATURE">
+			<Text>+1 [ICON_PEACE] Faith per city with an adjacent unimproved Forest. Bonus increases to +2 [ICON_PEACE] Faith in Cities with 3 or more adjacent unimproved Forest tiles. +1 [ICON_PRODUCTION] Production for every Camp. </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_ANNEX_CITY_STATE">
+			<Text>Can spend [ICON_GOLD] Gold to annex or puppet a City-State that has been your ally for 5 turns(starting from around 500 [ICON_GOLD] Gold in the Ancient Era and the price will rise when Austria entering a new era). A Great Musician appears after researching Acoustics.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES">
+			<Text>[ICON_FOOD] Food, [ICON_CULTURE] Culture, and [ICON_PEACE] Faith from friendly City-States increased by 50%. +2 [ICON_GOLD] Gold for all Specialists. </Text>
+		</Replace>
+		
+		
+		
+		
+
+		<Replace Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD2">
+			<Text>+50% Range for Caravans. +300% for the efficiency of your trade routes spread the home city's religion. +2 [ICON_CULTURE] Culture and +2 [ICON_PEACE] Faith from every Oasis.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE">
+			<Text>
+				Gain 300 [ICON_INFLUENCE] Influence with a Great Person gift to a City-State. When declaring friendship, Sweden and their friend gain a +10% boost to [ICON_GREAT_PEOPLE] Great Person generation.
+			</Text>
+		</Replace>
+		
+		<Replace Tag="TXT_KEY_TRAIT_SCHOLARS_JADE_HALL">
+			<Text>+2 [ICON_RESEARCH] Science for all Specialists. +2 [ICON_RESEARCH] Science for all Great Person tile improvements. </Text>
+		</Replace>
+
+
+		<Replace Tag="TXT_KEY_TRAIT_LONG_COUNT">
+			<Text>After researching Theology, receive a [ICON_RESEARCH] Science boost each time a scientific building/Wonder is built in the [ICON_CAPITAL] Capital. Also receive a bonus Great Person at the end of every Maya Long Count calendar cycle (every 394 years) (Each bonus person can only be chosen once)</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST">
+			<Text>Units move through Forest and Jungle in friendly territory as if they were Roads. These tiles can also be used to establish [ICON_CONNECTED] City Connections and speed up Caravans. All Land Units receive a [ICON_STRENGTH] Combat Bonus (+20%) when fighting in Forest Tiles.</Text>
+		</Replace>
+
+
+	</Language_en_US>
+
+
+
+
+
+<!--*******************Unique Units' Names*****************-->
+
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<UniqueName>TXT_KEY_ENGLISH_HMS_VICTORY</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<UniqueName>TXT_KEY_ENGLISH_HMS_ROYAL_CHARLES</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<UniqueName>TXT_KEY_ENGLISH_HMS_ROYAL_JAMES</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<UniqueName>TXT_KEY_ENGLISH_HMS_VILLE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<UniqueName>TXT_KEY_ENGLISH_HMS_QUEEN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<UniqueName>TXT_KEY_ENGLISH_HMS_ROYAL_GEORGE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<UniqueName>TXT_KEY_ENGLISH_HMS_ROYAL_SOVEREIGN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<UniqueName>TXT_KEY_ENGLISH_HMS_BRITANNIA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<UniqueName>TXT_KEY_ENGLISH_HMS_ROYAL_WILLIAM</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<UniqueName>TXT_KEY_ENGLISH_HMS_LONDON</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<UniqueName>TXT_KEY_ENGLISH_HMS_PRINCE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<UniqueName>TXT_KEY_ENGLISH_HMS_PRINCE_ROYAL</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<UniqueName>TXT_KEY_ENGLISH_HMS_CHARLES</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<UniqueName>TXT_KEY_ENGLISH_HMS_ST_ANDREW</UniqueName>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_AMERICAN_NIMITZ</UnitType>
+			<UniqueName>TXT_KEY_AMERICAN_CARRIER_NIMITZ</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NIMITZ</UnitType>
+			<UniqueName>TXT_KEY_AMERICAN_CARRIER_EISENHOWER</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NIMITZ</UnitType>
+			<UniqueName>TXT_KEY_AMERICAN_CARRIER_VINSON</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NIMITZ</UnitType>
+			<UniqueName>TXT_KEY_AMERICAN_CARRIER_ROOSEVELT</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NIMITZ</UnitType>
+			<UniqueName>TXT_KEY_AMERICAN_CARRIER_LINCOLN</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NIMITZ</UnitType>
+			<UniqueName>TXT_KEY_AMERICAN_CARRIER_WASHINGTON</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NIMITZ</UnitType>
+			<UniqueName>TXT_KEY_AMERICAN_CARRIER_STENNIS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_NIMITZ</UnitType>
+			<UniqueName>TXT_KEY_AMERICAN_CARRIER_TRUMAN</UniqueName>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_ROMAN_REUMBERTO</UnitType>
+			<UniqueName>TXT_KEY_ROMAN_BATTLESHIP_REUMBERTO</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_REUMBERTO</UnitType>
+			<UniqueName>TXT_KEY_ROMAN_BATTLESHIP_SICILIA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROMAN_REUMBERTO</UnitType>
+			<UniqueName>TXT_KEY_ROMAN_BATTLESHIP_SARDEGNA</UniqueName>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_KIROV_BATTLECRUISER</UnitType>
+			<UniqueName>TXT_KEY_RUSSIAN_BATTLECRUISER_KIROV</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KIROV_BATTLECRUISER</UnitType>
+			<UniqueName>TXT_KEY_RUSSIAN_BATTLECRUISER_FRUNZE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KIROV_BATTLECRUISER</UnitType>
+			<UniqueName>TXT_KEY_RUSSIAN_BATTLECRUISER_KALININ</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KIROV_BATTLECRUISER</UnitType>
+			<UniqueName>TXT_KEY_RUSSIAN_BATTLECRUISER_YURIY</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KIROV_BATTLECRUISER</UnitType>
+			<UniqueName>TXT_KEY_RUSSIAN_BATTLECRUISER_DZERZHINSKY</UniqueName>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_FRANCE_MISTRAL</UnitType>
+			<UniqueName>TXT_KEY_FRANCE_AAS_MISTRAL</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_MISTRAL</UnitType>
+			<UniqueName>TXT_KEY_FRANCE_AAS_TONNERRE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_MISTRAL</UnitType>
+			<UniqueName>TXT_KEY_FRANCE_AAS_DIXMUDE</UniqueName>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_JAPANESE_BATTLESHIP</UnitType>
+			<UniqueName>TXT_KEY_IJN_KONGO</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_BATTLESHIP</UnitType>
+			<UniqueName>TXT_KEY_IJN_HIEI</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_BATTLESHIP</UnitType>
+			<UniqueName>TXT_KEY_IJN_HARUNA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_BATTLESHIP</UnitType>
+			<UniqueName>TXT_KEY_IJN_KIRISHIMA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_BATTLESHIP</UnitType>
+			<UniqueName>TXT_KEY_IJN_NAGATO</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_BATTLESHIP</UnitType>
+			<UniqueName>TXT_KEY_IJN_MUTSU</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_BATTLESHIP</UnitType>
+			<UniqueName>TXT_KEY_IJN_FUSO</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_BATTLESHIP</UnitType>
+			<UniqueName>TXT_KEY_IJN_YAMASHIRO</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_BATTLESHIP</UnitType>
+			<UniqueName>TXT_KEY_IJN_ISE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_BATTLESHIP</UnitType>
+			<UniqueName>TXT_KEY_IJN_HYUGA</UniqueName>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
+			<UniqueName>TXT_KEY_IJN_KAMIKAZE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
+			<UniqueName>TXT_KEY_IJN_MUTSUKI</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
+			<UniqueName>TXT_KEY_IJN_FUBUKI</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
+			<UniqueName>TXT_KEY_IJN_AYANAMI</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
+			<UniqueName>TXT_KEY_IJN_KAGERO</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
+			<UniqueName>TXT_KEY_IJN_AKIZUKI</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
+			<UniqueName>TXT_KEY_IJN_AKATSUKI</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
+			<UniqueName>TXT_KEY_IJN_HIBIKI</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
+			<UniqueName>TXT_KEY_IJN_IKAZUCHI</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
+			<UniqueName>TXT_KEY_IJN_INAZUMA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
+			<UniqueName>TXT_KEY_IJN_YUDACHI</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
+			<UniqueName>TXT_KEY_IJN_SHIMAKAZE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
+			<UniqueName>TXT_KEY_IJN_YUKIKAZE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
+			<UniqueName>TXT_KEY_IJN_KISARAGI</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
+			<UniqueName>TXT_KEY_IJN_YUGUMO</UniqueName>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_BRAZIL_SCOCCER_STAR</UnitType>
+			<UniqueName>TXT_KEY_BRAZIL_PELE</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BRAZIL_SCOCCER_STAR</UnitType>
+			<UniqueName>TXT_KEY_BRAZIL_GARRINCHA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BRAZIL_SCOCCER_STAR</UnitType>
+			<UniqueName>TXT_KEY_BRAZIL_RONALDO</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BRAZIL_SCOCCER_STAR</UnitType>
+			<UniqueName>TXT_KEY_BRAZIL_RONALDINHO</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BRAZIL_SCOCCER_STAR</UnitType>
+			<UniqueName>TXT_KEY_BRAZIL_ROMARIO</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BRAZIL_SCOCCER_STAR</UnitType>
+			<UniqueName>TXT_KEY_BRAZIL_RIVALDO</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BRAZIL_SCOCCER_STAR</UnitType>
+			<UniqueName>TXT_KEY_BRAZIL_KAKA</UniqueName>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_ARABIAN_PROPHET</UnitType>
+			<UniqueName>TXT_KEY_ARABIAN_MUHAMMAD</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARABIAN_PROPHET</UnitType>
+			<UniqueName>TXT_KEY_ARABIAN_MUSA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARABIAN_PROPHET</UnitType>
+			<UniqueName>TXT_KEY_ARABIAN_NUH</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARABIAN_PROPHET</UnitType>
+			<UniqueName>TXT_KEY_ARABIAN_LUT</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARABIAN_PROPHET</UnitType>
+			<UniqueName>TXT_KEY_ARABIAN_YOUNIS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARABIAN_PROPHET</UnitType>
+			<UniqueName>TXT_KEY_ARABIAN_SALEH</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARABIAN_PROPHET</UnitType>
+			<UniqueName>TXT_KEY_ARABIAN_ISA</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARABIAN_PROPHET</UnitType>
+			<UniqueName>TXT_KEY_ARABIAN_LLIAS</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARABIAN_PROPHET</UnitType>
+			<UniqueName>TXT_KEY_ARABIAN_IBRAHIM</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARABIAN_PROPHET</UnitType>
+			<UniqueName>TXT_KEY_ARABIAN_HUD</UniqueName>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARABIAN_PROPHET</UnitType>
+			<UniqueName>TXT_KEY_ARABIAN_SHUAIB</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+	
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_ENGLISH_HMS_VICTORY">
+			<Text>Victory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ENGLISH_HMS_ROYAL_CHARLES">
+			<Text>Royal Charles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ENGLISH_HMS_ROYAL_JAMES">
+			<Text>Royal James</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ENGLISH_HMS_VILLE">
+			<Text>Ville de Paris</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ENGLISH_HMS_QUEEN">
+			<Text>Queen Charlotte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ENGLISH_HMS_ROYAL_GEORGE">
+			<Text>Royal George</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ENGLISH_HMS_ROYAL_SOVEREIGN">
+			<Text>Royal Sovereign</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ENGLISH_HMS_BRITANNIA">
+			<Text>Britannia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ENGLISH_HMS_ROYAL_WILLIAM">
+			<Text>Royal William</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ENGLISH_HMS_LONDON">
+			<Text>London</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ENGLISH_HMS_PRINCE">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ENGLISH_HMS_PRINCE_ROYAL">
+			<Text>Prince Royal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ENGLISH_HMS_CHARLES">
+			<Text>Charles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ENGLISH_HMS_ST_ANDREW">
+			<Text>St Andrew</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_AMERICAN_CARRIER_NIMITZ">
+			<Text>Nimitz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AMERICAN_CARRIER_EISENHOWER">
+			<Text>Dwight D. Eisenhower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AMERICAN_CARRIER_VINSON">
+			<Text>Carl Vinson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AMERICAN_CARRIER_ROOSEVELT">
+			<Text>Theodore Roosevelt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AMERICAN_CARRIER_LINCOLN">
+			<Text>Abraham Lincoln</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AMERICAN_CARRIER_WASHINGTON">
+			<Text>George Washington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AMERICAN_CARRIER_STENNIS">
+			<Text>John C. Stennis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AMERICAN_CARRIER_TRUMAN">
+			<Text>Harry S. Truman</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_ROMAN_BATTLESHIP_REUMBERTO">
+			<Text>Re Umberto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ROMAN_BATTLESHIP_SICILIA">
+			<Text>Sicilia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ROMAN_BATTLESHIP_SARDEGNA">
+			<Text>Sardegna</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_RUSSIAN_BATTLECRUISER_KIROV">
+			<Text>Kirov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RUSSIAN_BATTLECRUISER_FRUNZE">
+			<Text>Frunze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RUSSIAN_BATTLECRUISER_KALININ">
+			<Text>Kalinin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RUSSIAN_BATTLECRUISER_YURIY">
+			<Text>Yuriy Andropov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RUSSIAN_BATTLECRUISER_DZERZHINSKY">
+			<Text>Dzerzhinsky</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_FRANCE_AAS_MISTRAL">
+			<Text>Mistral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRANCE_AAS_TONNERRE">
+			<Text>Tonnerre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRANCE_AAS_DIXMUDE">
+			<Text>Dixmude</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_IJN_KONGO">
+			<Text>Kongo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_HIEI">
+			<Text>Hiei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_HARUNA">
+			<Text>Haruna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_KIRISHIMA">
+			<Text>Kirishima</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_NAGATO">
+			<Text>Nagato</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_MUTSU">
+			<Text>Mutsu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_FUSO">
+			<Text>Fuso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_YAMASHIRO">
+			<Text>Yamashiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_ISE">
+			<Text>Ise</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_HYUGA">
+			<Text>Hyuga</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_IJN_KAMIKAZE">
+			<Text>Kamikaze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_MUTSUKI">
+			<Text>Mutsuki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_FUBUKI">
+			<Text>Fubuki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_AYANAMI">
+			<Text>Ayanami</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_KAGERO">
+			<Text>Kagero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_AKIZUKI">
+			<Text>Akizuki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_AKATSUKI">
+			<Text>Akatsuki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_HIBIKI">
+			<Text>Hibiki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_IKAZUCHI">
+			<Text>Ikazuchi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_INAZUMA">
+			<Text>Inazuma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_YUDACHI">
+			<Text>Yuudachi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_SHIMAKAZE">
+			<Text>Shimakaze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_YUKIKAZE">
+			<Text>Yukikaze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_KISARAGI">
+			<Text>Kisaragi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IJN_YUGUMO">
+			<Text>Yugumo</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BRAZIL_PELE">
+			<Text>Pele</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BRAZIL_GARRINCHA">
+			<Text>Garrincha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BRAZIL_RONALDO">
+			<Text>Ronaldo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BRAZIL_RONALDINHO">
+			<Text>Ronaldinho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BRAZIL_ROMARIO">
+			<Text>Romario</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BRAZIL_RIVALDO">
+			<Text>Rivaldo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BRAZIL_KAKA">
+			<Text>Kaka</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_ARABIAN_MUHAMMAD">
+			<Text>Muhammad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARABIAN_MUSA">
+			<Text>Musa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARABIAN_NUH">
+			<Text>Nuh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARABIAN_LUT">
+			<Text>Lut</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARABIAN_YOUNIS">
+			<Text>Younis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARABIAN_SALEH">
+			<Text>Saleh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARABIAN_ISA">
+			<Text>Isa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARABIAN_LLIAS">
+			<Text>Llias</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARABIAN_IBRAHIM">
+			<Text>Ibrahim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARABIAN_HUD">
+			<Text>Hud</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARABIAN_SHUAIB">
+			<Text>Shuaib</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_UNIT_BRAZIL_SCOCCER_STAR">
+			<Text>Brazilian Soccer Player</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BRAZIL_SCOCCER_STAR_HELP">
+			<Text>
+				Brazilian Soccer Player can only be created by building the Brazilian Football Pitch.
+				[NEWLINE][NEWLINE]The Brazilian Soccer Player can enter other nations' territory without an Open Border Agreement to generate one-time [ICON_TOURISM] Tourism boost like Great Musicians.
+				[NEWLINE][NEWLINE]All other nations will also receive the same amount of [ICON_TOURISM] Tourism boost generated by the Brazilian Soccer Player.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BRAZIL_SCOCCER_STAR_TEXT">
+			<Text>Association Football is the most popular sport in Brazil. The Brazilian national football team has won the FIFA World Cup tournament a record five times, in 1958, 1962, 1970, 1994 and 2002, and is the only team to succeed in qualifying for every World Cup competition ever held. It is among the favorites to win the trophy every time the competition is scheduled. After Brazil won its 3rd World Cup in 1970, they were awarded the Jules Rimet Trophy permanently. But 365 days before World Cup 2014 began, Brazil's rank dropped to 22nd, an all-time-low position.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_ARABIAN_PROPHET">
+			<Text>Islamic Prophet</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ARABIAN_PROPHET_HEADING">
+			<Text>Islamic Prophet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ARABIAN_PROPHET_HELP">
+			<Text>Islamic Prophet is the unique prophet unit for Arabia. He can found or enhance a religion, construct the special Holy Site improvement and spread religion 4 times as the normal prophet unit. He can also conduct a trade mission in a City-State as the Great Merchant. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ARABIAN_PROPHET_TEXT">
+			<Text>Prophets in Islam include "messengers", bringers of a divine revelation via an angel; and "prophets", lawbringers that Muslims believe were sent by God to every people, bringing God's message in a language they can understand. Belief in Islamic prophets is one of the six articles of the Islamic faith, and specifically mentioned in the Quran.</Text>
+		</Row>
+
+
+	</Language_en_US>
+	
+
+</GameData>

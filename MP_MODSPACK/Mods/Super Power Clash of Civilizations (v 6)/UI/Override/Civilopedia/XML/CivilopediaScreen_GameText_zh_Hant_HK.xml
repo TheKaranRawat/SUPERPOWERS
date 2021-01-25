@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tokata -->
+<GameData>
+	<Language_zh_Hant_HK>
+        <Row Tag="TXT_KEY_PEDIA_UNIT_FLAG_ATLAS">
+            <Text>單位旗幟</Text>
+        </Row>
+		<Row Tag="TXT_KEY_PEDIA_UNIT_FLAG_ATLAS_LABEL">
+			<Text>單位旗幟:</Text>
+		</Row>
+        <Row Tag="TXT_KEY_PEDIA_PROJECT_NAME">
+            <Text>工程名稱</Text>
+        </Row>
+		<Row Tag="TXT_KEY_PEDIA_PREREQ_PROJECT_LABEL">
+			<Text>前提工程:</Text>
+		</Row>
+        <Row Tag="TXT_KEY_PEDIA_OBSOLETE_UNIT_NAME">
+            <Text>單位過時</Text>
+        </Row>
+		<Row Tag="TXT_KEY_PEDIA_OBSOLETE_UNIT_LABEL">
+			<Text>過時單位:</Text>
+		</Row>
+        <Row Tag="TXT_KEY_PEDIA_OBSOLETE_BUILDING_NAME">
+            <Text>建築過時</Text>
+        </Row>
+		<Row Tag="TXT_KEY_PEDIA_OBSOLETE_BUILDING_LABEL">
+			<Text>過時建築:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_UNLOCK_PROMOTIONS_LABEL">
+			<Text>解鎖晉升:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_MAX_INSTANCES_LABEL">
+			<Text>保有上限:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_MAX_PLAYER_INSTANCES">
+			<Text>[ICON_BULLET]每位玩家{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_MAX_GLOBAL_INSTANCES">
+			<Text>[ICON_BULLET]全世界總計{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_REPLACED_BY_LABEL">
+			<Text>同等級的:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROVIDED_RESRC_LABEL">
+			<Text>資源提供:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_SUPPORTING_TECH_LABEL">
+			<Text>提供加成的科技:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_WITH_FRESH_WATER">
+			<Text>在有淡水時</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_WITHOUT_FRESH_WATER">
+			<Text>在缺乏淡水時</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_ADDITIONAL">
+			<Text>額外</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_SUPPORTING_BUILDING_LABEL">
+			<Text>提供加成的建築:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_IN_SEA">
+			<Text>在海中</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_SUPPORTING_POLICY_LABEL">
+			<Text>提供加成的政策:</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_RESTRICTIONS_LABEL">
+			<Text>建造條件:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CONSTRUCTION_WATER">
+			<Text>[ICON_BULLET]需要水源</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CONSTRUCTION_RIVER">
+			<Text>[ICON_BULLET]需要沿河</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CONSTRUCTION_FRESH_WATER">
+			<Text>[ICON_BULLET]需要淡水</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CONSTRUCTION_MOUNTAIN">
+			<Text>[ICON_BULLET]需要靠山</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CONSTRUCTION_NEAR_MOUNTAIN">
+			<Text>[ICON_BULLET]臨近山脈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CONSTRUCTION_HILL">
+			<Text>[ICON_BULLET]只允許丘陵</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CONSTRUCTION_FLAT">
+			<Text>[ICON_BULLET]只允許平地</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CONSTRUCTION_RELIGION">
+			<Text>[ICON_BULLET]需要宗教</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CONSTRUCTION_REQUIRE_TERRAIN">
+			<Text>[ICON_BULLET]臨近{1_Terrain}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CONSTRUCTION_PROHIBIT_TERRAIN">
+			<Text>[ICON_BULLET]禁止{1_Terrain}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CONSTRUCTION_RESOURCE_AND">
+			<Text>[ICON_BULLET]需求所有:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CONSTRUCTION_RESOURCE_OR">
+			<Text>[ICON_BULLET]需求任意:</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_FRIEND">
+			<Text>作為朋友:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_ALLY">
+			<Text>作為同盟:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_CULTURED">
+			<Text>文化城邦:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_MARITIME">
+			<Text>航海城邦:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_MILITARISTIC">
+			<Text>軍事城邦:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_MERCANTILE">
+			<Text>商業城邦:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_RELIGIOUS">
+			<Text>宗教城邦:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_CULTURED_ANCIENT">
+			<Text>[ICON_BULLET]自遠古時代起提供+{1_Num}[ICON_CULTURE]文化。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_CULTURED_MEDIEVAL">
+			<Text>[ICON_BULLET]自中古時代起提供+{1_Num}[ICON_CULTURE]文化。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_CULTURED_INDUSTRIAL">
+			<Text>[ICON_BULLET]自工業時代起提供+{1_Num}[ICON_CULTURE]文化。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_MARITIME_CAPITAL_PRE_RENAISSANCE">
+			<Text>[ICON_BULLET]在啟蒙時代前為[ICON_CAPITAL]首都提供+{1_Num}[ICON_FOOD]食物。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_MARITIME_CAPITAL_POST_RENAISSANCE">
+			<Text>[ICON_BULLET]自啟蒙時代起為[ICON_CAPITAL]首都提供+{1_Num}[ICON_FOOD]食物。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_MARITIME_OTHER_PRE_RENAISSANCE">
+			<Text>[ICON_BULLET]在啟蒙時代前為其餘城市提供+{1_Num}[ICON_FOOD]食物。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_MARITIME_OTHER_POST_RENAISSANCE">
+			<Text>[ICON_BULLET]自啟蒙時代起為其餘城市提供+{1_Num}[ICON_FOOD]食物。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_MILITARISTIC_FRIENDS">
+			<Text>[ICON_BULLET]在當前遊戲速度下，每{1_Num}（向上波動{2_Num}）回合為玩家提供一個免費軍事單位。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_MILITARISTIC_ALLIES">
+			<Text>[ICON_BULLET]在當前遊戲速度下，每{1_Num}（向上波動{2_Num}）回合為玩家提供一個免費軍事單位。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_MERCANTILE_ANCIENT">
+			<Text>[ICON_BULLET]自遠古時代起提供+{1_Num}[ICON_HAPPINESS_1]快樂。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_MERCANTILE_MEDIEVAL">
+			<Text>[ICON_BULLET]自中古時代起提供+{1_Num}[ICON_HAPPINESS_1]快樂。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_MERCANTILE_INDUSTRIAL">
+			<Text>[ICON_BULLET]自工業時代起提供+{1_Num}[ICON_HAPPINESS_1]快樂。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_MERCANTILE_ANCIENT_LUXURY">
+			<Text>[ICON_BULLET]自遠古時代起為每種奢侈資源提供+{1_Num}[ICON_HAPPINESS_1]快樂。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_MERCANTILE_MEDIEVAL_LUXURY">
+			<Text>[ICON_BULLET]自中古時代起為每種奢侈資源提供+{1_Num}[ICON_HAPPINESS_1]快樂。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_MERCANTILE_INDUSTRIAL_LUXURY">
+			<Text>[ICON_BULLET]自工業時代起為每種奢侈資源提供+{1_Num}[ICON_HAPPINESS_1]快樂。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_RELIGIOUS_ANCIENT">
+			<Text>[ICON_BULLET]自遠古時代起提供+{1_Num}[ICON_PEACE]信仰。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_RELIGIOUS_CLASSICAL">
+			<Text>[ICON_BULLET]自古典時代起提供+{1_Num}[ICON_PEACE]信仰。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_RELIGIOUS_MEDIEVAL">
+			<Text>[ICON_BULLET]自中古時代起提供+{1_Num}[ICON_PEACE]信仰。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_RELIGIOUS_RENAISSANCE">
+			<Text>[ICON_BULLET]自啟蒙時代起提供+{1_Num}[ICON_PEACE]信仰。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CONSTRUCTION_MINORBONUS_RELIGIOUS_INDUSTRIAL">
+			<Text>[ICON_BULLET]自工業時代起提供+{1_Num}[ICON_PEACE]信仰。</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_PRIORITY">
+			<Text>起始地點傾向:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_PRIORITY_NULL">
+			<Text>[ICON_BULLET]無起始傾向</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_PRIORITY_OCEAN">
+			<Text>[ICON_BULLET]傾向沿海地區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_PRIORITY_RIVER">
+			<Text>[ICON_BULLET]傾向沿河地區</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_PRIORITY_REGION_UNDEFINED">
+			<Text>[ICON_BULLET]傾向未定義地區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_PRIORITY_REGION_TUNDRA">
+			<Text>[ICON_BULLET]傾向凍土地區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_PRIORITY_REGION_JUNGLE">
+			<Text>[ICON_BULLET]傾向叢林地區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_PRIORITY_REGION_FOREST">
+			<Text>[ICON_BULLET]傾向森林地區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_PRIORITY_REGION_DESERT">
+			<Text>[ICON_BULLET]傾向沙漠地區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_PRIORITY_REGION_HILLS">
+			<Text>[ICON_BULLET]傾向丘陵地區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_PRIORITY_REGION_PLAINS">
+			<Text>[ICON_BULLET]傾向平原地區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_PRIORITY_REGION_GRASS">
+			<Text>[ICON_BULLET]傾向草原地區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_PRIORITY_REGION_HYBRID">
+			<Text>[ICON_BULLET]傾向混合地區</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_AVOID_REGION_UNDEFINED">
+			<Text>[ICON_BULLET]避免未定義地區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_AVOID_REGION_TUNDRA">
+			<Text>[ICON_BULLET]避免凍土地區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_AVOID_REGION_JUNGLE">
+			<Text>[ICON_BULLET]避免叢林地區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_AVOID_REGION_FOREST">
+			<Text>[ICON_BULLET]避免森林地區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_AVOID_REGION_DESERT">
+			<Text>[ICON_BULLET]避免沙漠地區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_AVOID_REGION_HILLS">
+			<Text>[ICON_BULLET]避免丘陵地區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_AVOID_REGION_PLAINS">
+			<Text>[ICON_BULLET]避免平原地區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_AVOID_REGION_GRASS">
+			<Text>[ICON_BULLET]避免草原地區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_CIVILIZATIONS_START_AVOID_REGION_HYBRID">
+			<Text>[ICON_BULLET]避免混合地區</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PEDIA_LEADER_APPROACH_BIASES_MAJOR">
+			<Text>對文明傾向:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_MAJOR_CIV_APPROACH_WAR">
+			<Text>[ICON_BULLET]戰爭:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_MAJOR_CIV_APPROACH_HOSTILE">
+			<Text>[ICON_BULLET]敵對:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_MAJOR_CIV_APPROACH_DECEPTIVE">
+			<Text>[ICON_BULLET]虛偽:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_MAJOR_CIV_APPROACH_GUARDED">
+			<Text>[ICON_BULLET]謹慎:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_MAJOR_CIV_APPROACH_AFRAID">
+			<Text>[ICON_BULLET]畏懼:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_MAJOR_CIV_APPROACH_FRIENDLY">
+			<Text>[ICON_BULLET]友好:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_MAJOR_CIV_APPROACH_NEUTRAL">
+			<Text>[ICON_BULLET]中立:</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PEDIA_LEADER_APPROACH_BIASES_MINOR">
+			<Text>對城邦傾向:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_MINOR_CIV_APPROACH_IGNORE">
+			<Text>[ICON_BULLET]忽視:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_MINOR_CIV_APPROACH_FRIENDLY">
+			<Text>[ICON_BULLET]友好:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_MINOR_CIV_APPROACH_PROTECTIVE">
+			<Text>[ICON_BULLET]保護:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_MINOR_CIV_APPROACH_CONQUEST">
+			<Text>[ICON_BULLET]征服:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_MINOR_CIV_APPROACH_BULLY">
+			<Text>[ICON_BULLET]欺淩:</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVORS">
+			<Text>領袖性格:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_MINOR_FLAVORS">
+			<Text>行為傾向:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVORS_TITLE_1">
+			<Text>城市建設[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVORS_TITLE_5">
+			<Text>[NEWLINE]軍事傾向[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVORS_TITLE_9">
+			<Text>[NEWLINE]軍隊建設[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVORS_TITLE_18">
+			<Text>[NEWLINE]國家建設[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVORS_TITLE_31">
+			<Text>[NEWLINE]外交傾向[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVORS_TITLE_35">
+			<Text>[NEWLINE]貿易傾向[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_OFFENSE">
+			<Text>[ICON_BULLET]進攻傾向:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_DEFENSE">
+			<Text>[ICON_BULLET]防禦傾向:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_CITY_DEFENSE">
+			<Text>[ICON_BULLET]城防傾向:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_MILITARY_TRAINING">
+			<Text>[ICON_BULLET]組建軍隊:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_RECON">
+			<Text>[ICON_BULLET]偵察部隊:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_RANGED">
+			<Text>[ICON_BULLET]遠程部隊:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_MOBILE">
+			<Text>[ICON_BULLET]機動部隊:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_NAVAL">
+			<Text>[ICON_BULLET]海軍部隊:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_NAVAL_RECON">
+			<Text>[ICON_BULLET]海軍偵察:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_NAVAL_GROWTH">
+			<Text>[ICON_BULLET]海軍建設:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_NAVAL_TILE_IMPROVEMENT">
+			<Text>[ICON_BULLET]海洋開發:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_AIR">
+			<Text>[ICON_BULLET]空軍部隊:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_EXPANSION">
+			<Text>[ICON_BULLET]擴張領土:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_GROWTH">
+			<Text>[ICON_BULLET]發展人口:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_TILE_IMPROVEMENT">
+			<Text>[ICON_BULLET]地格開發:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_INFRASTRUCTURE">
+			<Text>[ICON_BULLET]基礎設施:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_PRODUCTION">
+			<Text>[ICON_BULLET]注重產能:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_GOLD">
+			<Text>[ICON_BULLET]注重金錢:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_SCIENCE">
+			<Text>[ICON_BULLET]注重科研:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_CULTURE">
+			<Text>[ICON_BULLET]注重文化:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_HAPPINESS">
+			<Text>[ICON_BULLET]國家快樂:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_GREAT_PEOPLE">
+			<Text>[ICON_BULLET]誕生偉人:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_WONDER">
+			<Text>[ICON_BULLET]建造奇觀:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_RELIGION">
+			<Text>[ICON_BULLET]發展宗教:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_DIPLOMACY">
+			<Text>[ICON_BULLET]發展外交:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_SPACESHIP">
+			<Text>[ICON_BULLET]發展航太:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_WATER_CONNECTION">
+			<Text>[ICON_BULLET]水路連結:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_NUKE">
+			<Text>[ICON_BULLET]發展核威懾:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_USE_NUKE">
+			<Text>[ICON_BULLET]使用核武庫:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_ESPIONAGE">
+			<Text>[ICON_BULLET]間諜機構:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_ANTIAIR">
+			<Text>[ICON_BULLET]防空部隊:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_AIR_CARRIER">
+			<Text>[ICON_BULLET]航空母艦:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_ARCHAEOLOGY">
+			<Text>[ICON_BULLET]發展考古:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_I_LAND_TRADE_ROUTE">
+			<Text>[ICON_BULLET]陸地商路:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_I_SEA_TRADE_ROUTE">
+			<Text>[ICON_BULLET]海洋商路:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_I_TRADE_ORIGIN">
+			<Text>[ICON_BULLET]發起商路:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_I_TRADE_DESTINATION">
+			<Text>[ICON_BULLET]接收商路:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_LEADER_FLAVOR_AIRLIFT">
+			<Text>[ICON_BULLET]空運部隊:</Text>
+		</Row>
+	</Language_zh_Hant_HK>
+</GameData>

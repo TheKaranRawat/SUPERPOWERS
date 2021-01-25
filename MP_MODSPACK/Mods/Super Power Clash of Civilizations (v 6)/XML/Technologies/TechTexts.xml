@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2014 4:16:43 PM -->
+<GameData>
+	<Language_en_US>
+
+		<!--*******************Era Texts*******************-->
+
+		<Replace Tag="TXT_KEY_ERA_6">
+			<Text>World War Era</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_ERA_6_SHORT">
+			<Text>World War</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_ERA_6_ABBREV">
+			<Text>WW</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_ERA_WORLDWAR_STRATEGY">
+			<Text>The World War Era</Text>
+		</Row>
+
+		<Replace Tag="TXT_KEY_ERA_7">
+			<Text>Atomic Era</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_ERA_7_SHORT">
+			<Text>Atomic</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_ERA_7_ABBREV">
+			<Text>AE</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_ERA_POSTMODERN_STRATEGY">
+			<Text>The Atomic Era</Text>
+		</Replace>
+
+		<Row Tag="TXT_KEY_ERA_8">
+			<Text>Information Era</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_ERA_9">
+			<Text>Future Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_9_SHORT">
+			<Text>Future</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_9_ABBREV">
+			<Text>FE</Text>
+		</Row>
+
+
+
+
+		<!--*******************Tech Texts*******************-->
+		<Replace Tag="TXT_KEY_DOUBLE_TOURISM">
+			<Text>Increase the [ICON_TOURISM] Tourism output by 25%.</Text>
+		</Replace>
+
+		<Row Tag="TXT_KEY_SP_TECH_GENERAL_HELP">
+			<Text>Researching this new technology will unlock new buildings, wonders, units and elite units. </Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_TECH_WORKERSPEED_HELP">
+			<Text>Researching this new technology will unlock new buildings, wonders, units and elite units. [NEWLINE] [NEWLINE] [COLOR_POSITIVE_TEXT]Tile Improvement[ENDCOLOR] construction speed increased by 25%.</Text>
+		</Row>
+
+
+
+
+		<Row Tag="TXT_KEY_TECH_FISHERY_TITLE">
+			<Text>Fishery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FISHERY_DESC">
+			<Text>Generally, a fishery is an entity engaged in raising or harvesting fish which is determined by some authority to be a fishery. According to the FAO, a fishery is typically defined in terms of the "people involved, species or type of fish, area of water or seabed, method of fishing, class of boats, purpose of the activities or a combination of the foregoing features". The definition often includes a combination of fish and fishers in a region, the latter fishing for similar species with similar gear types.</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_TECH_FISHERY_QUOTE">
+			<Text>"Many men go fishing all of their lives without knowing that it is not fish they are after." [NEWLINE] - Henry David Thoreau</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_HUNTING_TITLE">
+			<Text>Hunting</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HUNTING_DESC">
+			<Text>Hunting has a long history and may well pre-date the rise of the species Homo sapiens. While our earliest Hominid ancestors were probably frugivores or omnivores, there is evidence that earlier Homo species,[3][4] and possibly also australopithecine[5] species, utilised larger animals for subsistence. Evidence from western Kenya suggests that hunting may have occurred as long ago as two million years.[6]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_TECH_HUNTING_QUOTE">
+			<Text>"There is no hunting like the hunting of man, and those who have hunted armed men long enough and liked it, never care for anything else thereafter." [NEWLINE] - Ernest Hemingway</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_TECH_ART_THEORY_TITLE">
+			<Text>Aesthetics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ART_THEORY_DESC">
+			<Text>Aesthetics (also spelled æsthetics) is a branch of philosophy dealing with the nature of art, beauty, and taste, with the creation and appreciation of beauty.</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_TECH_ART_THEORY_QUOTE">
+			<Text>“Beauty is how you feel inside, and it reflects in your eyes. It is not something physical.”  [NEWLINE] ― Sophia Loren</Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_TECH_ADMINISTRATION_TITLE">
+			<Text>Administration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ADMINISTRATION_DESC">
+			<Text>Management in businesses and organizations is the function that coordinates the efforts of people to accomplish goals and objectives by using available resources efficiently and effectively.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ADMINISTRATION_QUOTE">
+			<Text>“When one with honeyed words but evil mind. Persuades the mob, great woes befall the state.” [NEWLINE] ― Euripides, Orestes</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_TECH_MARINE_ENGINEERING_TITLE">
+			<Text>Marine Engineering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MARINE_ENGINEERING_DESC">
+			<Text>Marine engineering often refers to the engineering of boats, ships, oil rigs and any other marine vessel or structure, but also encompasses oceanographic engineering. Specifically, marine engineering is the discipline of applying engineering sciences, and can include mechanical engineering, electrical engineering, electronic engineering, and computer science, to the development, design, operation and maintenance of watercraft propulsion and also on-board systems and oceanographic technology, not limited to just power and propulsion plants, machinery, piping, automation and control systems etc. for marine vehicles of any kind like surface ships, submarines etc.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MARINE_ENGINEERING_QUOTE">
+			<Text>
+				"Beware of little expenses. A small leak will sink a great ship." [NEWLINE] - Benjamin Franklin
+			</Text>
+		</Row>
+		
+
+		<Row Tag="TXT_KEY_TECH_SONAR_TITLE">
+			<Text>Sonar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SONAR_DESC">
+			<Text>Sonar (originally an acronym for Sound Navigation And Ranging) is a technique that uses sound propagation (usually underwater, as in submarine navigation) to navigate, communicate with or detect objects on or under the surface of the water, such as other vessels. </Text>
+		</Row>	
+		<Row Tag="TXT_KEY_TECH_SONAR_QUOTE">
+			<Text>“Dominate the enemy by striking first.”  [NEWLINE] - Ban Gu</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_TECH_MILITARY_LOGISTICS_TITLE">
+			<Text>Military Logistics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MILITARY_LOGISTICS_DESC">
+			<Text>The word "logistics" is derived from the Greek adjective logistikos meaning "skilled in calculating". The first administrative use of the word was in Roman and Byzantine times when there was a military administrative official with the title Logista. At that time, the word apparently implied a skill involved in numerical computations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MILITARY_LOGISTICS_QUOTE">
+			<Text>"Gentlemen, the officer who doesn't know his communications and supply as well as his tactics is totally useless." [NEWLINE] - Gen. George S. Patton</Text>
+		</Row>
+		
+		
+		
+		
+		<Row Tag="TXT_KEY_TECH_ADV_ENGINEERING_TITLE">
+			<Text>Advanced Engineering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ADV_ENGINEERING_DESC">
+			<Text>Aeronautical Engineering deals with aircraft design while Aerospace Engineering is a more modern term that expands the reach envelope of the discipline by including spacecraft design. Its origins can be traced back to the aviation pioneers around the turn of the century from the 19th century to the 20th although the work of Sir George Cayley has recently been dated as being from the last decade of the 18th century. Early knowledge of aeronautical engineering was largely empirical with some concepts and skills imported from other branches of engineering. Only a decade after the successful flights by the Wright brothers, the 1920s saw extensive development of aeronautical engineering through development of World War I military aircraft. Meanwhile, research to provide fundamental background science continued by combining theoretical physics with experiments. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ADV_ENGINEERING_HELP">
+			<Text>Researching this new technology will unlock new buildings, wonders, units and elite units. 
+			[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Tile Improvement[ENDCOLOR] construction speed increased by 25%.
+			[NEWLINE][NEWLINE]Allows [COLOR_POSITIVE_TEXT]Workers[ENDCOLOR] to move across the mountain or the ice. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ADV_ENGINEERING_QUOTE">
+			<Text>“One man's magic is another man's engineering. Supernatural is a null word.”  [NEWLINE] ― Robert A. Heinlein</Text>
+		</Row>
+
+		
+		
+
+		<Row Tag="TXT_KEY_TECH_LARGE_CALIBRE_TITLE">
+			<Text>Large Calibre Artillery System</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_LARGE_CALIBRE_DESC">
+			<Text>Large calibre artillery systems: Guns, howitzers, artillery pieces, combining the characteristics of a gun or a howitzer, mortars or multiple-launch rocket systems, capable of engaging surface targets by delivering primarily indirect fire, with a calibre of 100 millimetres and above.</Text>
+		</Row>		
+		<Row Tag="TXT_KEY_TECH_LARGE_CALIBRE_QUOTE">
+			<Text>"The artillery is a god of modern war." [NEWLINE] - Joseph Stalin</Text>
+		</Row>
+
+	
+
+
+		<Row Tag="TXT_KEY_TECH_URBANLIZATION_TITLE">
+			<Text>Urbanization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_URBANLIZATION_DESC">
+			<Text>Urbanization is a population shift from rural to urban areas, "the gradual increase in the proportion of people living in urban areas", and the ways in which each society adapts to the change.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_URBANLIZATION_QUOTE">
+			<Text>"Urbanization is the advent of edge species." [NEWLINE] - Kevin Kelly (1995) Out of Control: The New Biology of Machines, Social Systems and the Economic World</Text>
+		</Row>
+		
+		
+		
+		<Row Tag="TXT_KEY_TECH_MOBILIZATION_T_TITLE">
+			<Text>Mobilization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MOBILIZATION_T_DESC">
+			<Text>Mobilization is the act of assembling and making both troops and supplies ready for war. The word mobilization was first used, in a military context, in order to describe the preparation of the Russian army during the 1850s and 1860s. Mobilization theories and techniques have continuously changed since then. The opposite of mobilization is demobilization.</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_TECH_MOBILIZATION_T_QUOTE">
+			<Text>"I want you for U.S. Army" [NEWLINE] - J. M. Flagg's 1917 poster</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_INTEGRATED_CIRCUIT_TITLE">
+			<Text>Integrated Circuit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_INTEGRATED_CIRCUIT_DESC">
+			<Text>An integrated circuit or monolithic integrated circuit (also referred to as an IC, a chip, or a microchip) is a set of electronic circuits on one small plate ("chip") of semiconductor material, normally silicon.  </Text>
+		</Row>	
+		<Row Tag="TXT_KEY_TECH_INTEGRATED_CIRCUIT_QUOTE">
+			<Text>"If the presence of electricity can be made visible in any part of the circuit, I see no reason why intelligence may not be transmitted instantaneously by electricity." [NEWLINE] - Samuel Morse</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_COMPOSITE_TITLE">
+			<Text>Composite Material</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_COMPOSITE_DESC">
+			<Text>Composite materials (also called composition materials or shortened to composites) are materials made from two or more constituent materials with significantly different physical or chemical properties, that when combined, produce a material with characteristics different from the individual components. </Text>
+		</Row>	
+		<Row Tag="TXT_KEY_TECH_COMPOSITE_QUOTE">
+			<Text>"The whole is greater than the sum of its parts." [NEWLINE] - Aristotle</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_ADV_FLIGHT_TITLE">
+			<Text>Advanced Flight</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ADV_FLIGHT_DESC">
+			<Text>Little did the Wright Brothers know that less than four decades after their first plane touched down in the North Carolinian sand, aeronautical engineers would have already created a completely new way to power flight - the jet engine. The jet engine would find further application in the creation of the helicopter. </Text>
+		</Row>	
+		<Row Tag="TXT_KEY_TECH_ADV_FLIGHT_QUOTE">
+			<Text>"Oh! I have slipped the surly bonds of Earth, put out my hand and touched the face of God! " [NEWLINE] - John Gillespie Magee</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_ARMOR_TITLE">
+			<Text>Electronic Surveillance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ARMOR_DESC">
+			<Text>Surveillance is the monitoring of the behavior, activities, or other changing information, usually of people for the purpose of influencing, managing, directing, or protecting them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ARMOR_QUOTE">
+			<Text>"Know yourself and know your enemy, and you will never be defeated. " [NEWLINE] - Sunzi's Art of War</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_TITLE">
+			<Text>Artificial Intelligence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_DESC">
+			<Text>Artificial intelligence (AI) is the intelligence exhibited by machines or software, and the branch of computer science that develops machines and software with intelligence. Major AI researchers and textbooks define the field as "the study and design of intelligent agents",[1] where an intelligent agent is a system that perceives its environment and takes actions that maximize its chances of success. </Text>
+		</Row>	
+		<Row Tag="TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_QUOTE">
+			<Text>"The appropriately programmed computer with the right inputs and outputs would thereby have a mind in exactly the same sense human beings have minds." [NEWLINE] - John Searle </Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_GENETIC_ENGEERING_TITLE">
+			<Text>Genetic Engineering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_GENETIC_ENGEERING_DESC">
+			<Text>Genetic engineering, also called genetic modification, is the direct manipulation of an organism's genome using biotechnology. New DNA may be inserted in the host genome by first isolating and copying the genetic material of interest using molecular cloning methods to generate a DNA sequence, or by synthesizing the DNA, and then inserting this construct into the host organism.  </Text>
+		</Row>	
+		<Row Tag="TXT_KEY_TECH_GENETIC_ENGEERING_QUOTE">
+			<Text>"With genetic engineering, we will be able to increase the complexity of our DNA, and improve the human race. But it will be a slow process, because one will have to wait about 18 years to see the effect of changes to the genetic code." [NEWLINE] - Stephen Hawking </Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_TECH_AUTOMATION_T_TITLE">
+			<Text>Automation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_AUTOMATION_T_DESC">
+			<Text>Automation or automatic control, is the use of various control systems for operating equipment such as machinery, processes in factories, boilers and heat treating ovens, switching in telephone networks, steering and stabilization of ships, aircraft and other applications with minimal or reduced human intervention. Some processes have been completely automated.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_AUTOMATION_T_QUOTE">
+			<Text>"The first rule of any technology used in a business is that automation applied to an efficient operation will magnify the efficiency. The second is that automation applied to an inefficient operation will magnify the inefficiency." [NEWLINE] - Bill Gates</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_TECH_IOT_NETWORK_TITLE">
+			<Text>Internet of Things</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_IOT_NETWORK_DESC">
+			<Text>The Internet of Things (IoT) is the network of physical objects or "things" embedded with electronics, software, sensors, and network connectivity, which enables these objects to collect and exchange data. The Internet of Things allows objects to be sensed and controlled remotely across existing network infrastructure, creating opportunities for more direct integration between the physical world and computer-based systems, and resulting in improved efficiency, accuracy and economic benefit. Each thing is uniquely identifiable through its embedded computing system but is able to interoperate within the existing Internet infrastructure. Experts estimate that the IoT will consist of almost 50 billion objects by 2020.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_IOT_NETWORK_QUOTE">
+			<Text>"Without going outside his door，one understands all that takes place under the sky；without looking out from his window，one sees rules of the universe. The farther that one goes out from himself，the less he knows." [NEWLINE] - Lao-Tzu</Text>
+		</Row>
+		
+		
+		
+
+		<Row Tag="TXT_KEY_TECH_BVR_COMBAT_TITLE">
+			<Text>BVR Combat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_BVR_COMBAT_DESC">
+			<Text>The term beyond-visual-range missile (BVR) usually refers to an air-to-air missile (BVRAAM) that is capable of engaging at ranges of 20 nmi (37 km) or beyond. This range has been achieved using dual pulse rocket motors or booster rocket motor and ramjet sustainer motor.</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_TECH_BVR_COMBAT_QUOTE">
+			<Text>"In modern war... you will die like a dog for no good reason." [NEWLINE] - Ernest Hemingway </Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_TECH_SUPERCONDUCTOR_TITLE">
+			<Text>Superconductor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SUPERCONDUCTOR_DESC">
+			<Text>Superconductivity is a phenomenon of exactly zero electrical resistance and expulsion of magnetic fields occurring in certain materials when cooled below a characteristic critical temperature. It was discovered by Dutch physicist Heike Kamerlingh Onnes on April 8, 1911 in Leiden. Like ferromagnetism and atomic spectral lines, superconductivity is a quantum mechanical phenomenon. </Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_SUPERCONDUCTOR_QUOTE">
+			<Text>"To invent, you need a good imagination and a pile of junk." [NEWLINE] - Thomas Edison</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_TECH_TRANSHUMANISM_TITLE">
+			<Text>Transhumanism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_TRANSHUMANISM_DESC">
+			<Text>Transhumanism (abbreviated as H+ or h+) is an international and intellectual movement that tries to transform the human condition by developing and creating widely available technologies to greatly enhance human intellectual, physical, and psychological capacities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_TRANSHUMANISM_QUOTE">
+			<Text>"What use was time to those who'd soon achieve Digital Immortality?" [NEWLINE] - Clyde DeSouza, Memories With Maya</Text>
+		</Row>
+		
+		
+		
+		<Row Tag="TXT_KEY_TECH_SPACE_TECHNOLOGY_TITLE">
+			<Text>Space Technology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SPACE_TECHNOLOGY_DESC">
+			<Text>Space technology – technology developed by space science or the aerospace industry for use in spaceflight, satellites, or space exploration. Space technology includes spacecraft, satellites, space stations, and support infrastructure, equipment, and procedures. Space is such a novel environment that attempting to work in it requires new tools and techniques. </Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_SPACE_TECHNOLOGY_QUOTE">
+			<Text>"The universe is so big, but compared with human ambition, it is so small." [NEWLINE] - Lincoln_lyf, the author of Superpower Mod of Sid Meier's Civilization V (2015)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_METAMATERIAL_TITLE">
+			<Text>Metamaterial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_METAMATERIAL_DESC">
+			<Text>Metamaterials are materials engineered to have properties that have not yet been found in nature. They are made from assemblies of multiple elements fashioned from conventional materials such as metals or plastics. The materials are usually arranged in repeating patterns, often at microscopic or smaller scales that are smaller than the wavelengths of the phenomena they influence. Metamaterials derive their properties not from the properties of the base materials, but from their designed structure. Their precise shape, geometry, size, orientation and arrangement gives them their properties.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_METAMATERIAL_QUOTE">
+			<Text>"Man never made any material as resilient as the human spirit." [NEWLINE] - Bernard Williams</Text>
+		</Row>
+
+
+
+		
+		<Row Tag="TXT_KEY_TECH_PHOTON_COMPUTER_TITLE">
+			<Text>Photon Computer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_PHOTON_COMPUTER_DESC">
+			<Text>Optical or photonic computing uses photons produced by lasers or diodes for computation. For decades, photons have promised to allow a higher bandwidth than the electrons used in conventional computers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_PHOTON_COMPUTER_QUOTE">
+			<Text>"Innovation distinguishes between a leader and a follower." [NEWLINE] - Steve Jobs</Text>
+		</Row>
+		
+
+		<Row Tag="TXT_KEY_TECH_INTERSTELLAR_TRAVEL_TITLE">
+			<Text>Interstellar Travel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_INTERSTELLAR_TRAVEL_DESC">
+			<Text>Interstellar space travel is manned or unmanned travel between stars. The concept of interstellar travel via starships is a staple of science fiction. Interstellar travel is conceptually much more difficult than interplanetary travel.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_INTERSTELLAR_TRAVEL_QUOTE">
+			<Text>"Travel is fatal to prejudice, bigotry, and narrow-mindedness." [NEWLINE] - Mark Twain </Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_INTEGRATED_DEFENSE_TITLE">
+			<Text>Intergrated Defense</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_INTEGRATED_DEFENSE_DESC">
+			<Text>The Strategic Defense Initiative (SDI) was proposed by U.S. President Ronald Reagan on March 23, 1983,[1] to use ground-based and space-based systems to protect the United States from attack by strategic nuclear ballistic missiles. </Text>
+		</Row>
+	
+		<Row Tag="TXT_KEY_TECH_INTEGRATED_DEFENSE_QUOTE">
+			<Text>"War is Peace. Freedom is slavery. Ignorance is strength." [NEWLINE] - Nineteen Eighty-Four by George Orwell </Text>
+		</Row>
+
+
+
+	</Language_en_US>
+  
+</GameData>

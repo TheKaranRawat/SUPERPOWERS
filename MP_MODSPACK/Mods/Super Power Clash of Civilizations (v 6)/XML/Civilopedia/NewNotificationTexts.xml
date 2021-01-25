@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/31/2014 6:46:04 PM -->
+<GameData>
+	
+	
+	<!--******** New Automation Texts ************************** -->
+	<Language_en_US>
+
+
+		<Replace Tag="TXT_KEY_NOTIFICATION_OVER_RESOURCE_LIMIT">
+			<Text>OVER_RESOURCE</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_NOTIFICATION_SUMMARY_OVER_RESOURCE_LIMIT">
+			<Text>OVER_RESOURCE</Text>
+		</Replace>
+
+
+
+		<Replace Tag="TXT_KEY_CURRENTLY_SELECTED_UNIT">
+			<Text>
+				This is the currently selected Unit. 
+				[NEWLINE][NEWLINE][ICON_BULLET]Left-click to center the camera on it.
+				[NEWLINE][ICON_BULLET]Right-click to change the name of this unit.
+			</Text>
+		</Replace>
+		
+		<Row Tag="TXT_KEY_SP_UI_BTN_UNITSLEEP_SHORT">
+			<Text>[COLOR_POSITIVE_TEXT]Order ALL UNITS[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_UI_BTN_UNITSLEEP">
+			<Text>Click to order ALL your idle Military Units (not engaged in a scheduled task and waitting for new orders) to do what they should do. [NEWLINE]Infantry Units and Counter Units: fortify. [NEWLINE]Mobile Units, Ranged Units and Naval Units: Alert. [NEWLINE]Fighters: Intercept. (If HP less than 30, it will stop intercepting and heal) [NEWLINE]Others (Bombers, Missiles, etc): Sleep.</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SP_UI_BTN_UNITUPGRADE_SHORT">
+			<Text>[COLOR_POSITIVE_TEXT]Upgrade ALL UNITS[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_UI_BTN_UNITUPGRADE">
+			<Text>Click to upgrade ALL your units which can upgrade right now. However there are restrictions: [NEWLINE]1. You must have enough Gold for all of them to upgrade in one turn. Otherwise some units will NOT upgrade. [NEWLINE]2. You must have the enough amount of Strategic Resources for all of them to upgrade in one turn. Otherwise only the units who have enough Strategic Resources will upgrade. [NEWLINE]3. Only the units inside your border will upgrade. [NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Warning[ENDCOLOR]: The Unit [ICON_GOLD] Maintance Cost will rise greatly (In this mod, the units' [ICON_GOLD] Maintance Cost is fixed according to the unit's type)! Make sure you have enough [ICON_GOLD] GPT before upgrading all your units!</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SP_UI_BTN_CITYAUTO_SHORT">
+			<Text>Automated</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_UI_BTN_CITYAUTO">
+			<Text>Click to set this city [COLOR_POSITIVE_TEXT]Autonomous[ENDCOLOR]. It will automatically schedule its future production queue. [NEWLINE][NEWLINE]if this city is already assigned a production mission, it will be autonomous after finishing its current production queue. [NEWLINE][NEWLINE]You can still change its production queue anytime like adding or removing items in the queue. [NEWLINE][NEWLINE][COLOR_YELLOW]Important Notes:[ENDCOLOR] The AI is not as smart as you. You'd better keep an eye on these autonomous cities in case they start to build something you don't want. </Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_SP_UI_BTN_CITYAUTO_OFF_SHORT">
+			<Text>Turn [COLOR_WARNING_TEXT]OFF[ENDCOLOR] City Automation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_UI_BTN_CITYAUTO_OFF">
+			<Text>This city is now [COLOR_POSITIVE_TEXT]Autonomous[ENDCOLOR]. Click to quit the Autonomous mode. It will stop its current production and wait for your orders.</Text>
+		</Row>
+
+
+
+
+		<Row Tag="TXT_KEY_SP_UI_BTN_COPY_CAP_ORDER_SHORT">
+			<Text>Copy Capital Order</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_UI_BTN_COPY_CAP_ORDER">
+			<Text>Check this checkbox to copy the City Production Order Queue of your [ICON_CAPITAL] Capital to all other cities ( It will only copy the order that the city is able to build). Uncheck it will clear the production order queue for all of your cities. [NEWLINE][NEWLINE]This order will NOT override the specialists slots in cities with "manual specialists control".</Text>
+		</Row>
+		
+
+
+		<Row Tag="TXT_KEY_SP_UI_BTN_COPYCAPITAL_FOCUS_SHORT">
+			<Text>Copy [ICON_CITIZEN] Citizen Focus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_UI_BTN_COPYCAPITAL_FOCUS">
+			<Text>
+				Copy the Current City's Citizen Focus to all other cities.
+				[NEWLINE][NEWLINE][ICON_PUPPET] Puppet cities and [ICON_RESISTANCE] resistant cities will NOT receive this order.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_UI_BTN_COPYCAPITAL_ORDER_SHORT">
+			<Text>Copy [ICON_PRODUCTION] Production Order</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_UI_BTN_COPYCAPITAL_ORDER">
+			<Text>
+				Copy the Current City's production order (building, unit or process including international project) to all other cities.
+				[NEWLINE][NEWLINE]For certain buildings or units which require a [COLOR_POSITIVE_TEXT]Prerequisite Building[ENDCOLOR] in the city, only the qualified cities with the required building will receive this order. Otherwise they will continue with their current order.
+				[NEWLINE][NEWLINE]This order can NOT copy the whole production queue of your City.
+				[NEWLINE][NEWLINE][ICON_PUPPET] Puppet cities and [ICON_RESISTANCE] resistant cities will NOT receive this order.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_UI_BTN_CLEAR_ALL_ORDER_SHORT">
+			<Text>Clear All Orders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_UI_BTN_CLEAR_ALL_ORDER">
+			<Text>
+				Clear the production queue of ALL cities.
+				[NEWLINE][NEWLINE][ICON_PUPPET] Puppet cities and [ICON_RESISTANCE] resistant cities will NOT receive this order.
+			</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SP_UI_DIVIDER_COPYCAPITAL">
+			<Text>Global Orders</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_UI_DIVIDER_SPECIALISTS">
+			<Text>One-Click Specialists Control</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SP_UI_BTN_FILL_SCIENTISTS_SHORT">
+			<Text>Fill all [ICON_RESEARCH] Scientists Slots</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_UI_BTN_FILL_SCIENTISTS">
+			<Text>
+				Click to fill all available [ICON_RESEARCH] Scientists slot in specialist buildings to maximize [ICON_RESEARCH] Science output.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_UI_BTN_FILL_ENGINEERS_SHORT">
+			<Text>Fill all [ICON_PRODUCTION][ICON_RES_MANPOWER] Engineers Slots</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_UI_BTN_FILL_ENGINEERS">
+			<Text>
+				Click to fill all available [ICON_PRODUCTION][ICON_RES_MANPOWER] Engineers slot in specialist buildings to maximize [ICON_PRODUCTION] Production and [ICON_RES_MANPOWER] Manpower output  .
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_UI_BTN_FILL_MERCHANTS_SHORT">
+			<Text>Fill all [ICON_GOLD][ICON_RES_CONSUMER] Merchants Slots</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_UI_BTN_FILL_MERCHANTS">
+			<Text>
+				Click to fill all available [ICON_GOLD][ICON_RES_CONSUMER] Merchants slot in specialist buildings to maximize [ICON_GOLD] Production and [ICON_RES_CONSUMER] Consumer Goods output.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_UI_BTN_FILL_WRITERS_SHORT">
+			<Text>Fill all [ICON_GREAT_WRITER] Writers Slots</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_UI_BTN_FILL_WRITERS">
+			<Text>
+				Click to fill all available [ICON_GREAT_WRITER] Writers slot in specialist buildings to speed up the creation of Great Writers and increase [ICON_CULTURE] Culture output.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_UI_BTN_FILL_ARTISTS_SHORT">
+			<Text>Fill all [ICON_GREAT_ARTIST] Artists Slots</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_UI_BTN_FILL_ARTISTS">
+			<Text>
+				Click to fill all available [ICON_GREAT_ARTIST] Artists slot in specialist buildings to speed up the creation of Great Artists and increase [ICON_CULTURE] Culture output.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_UI_BTN_FILL_MUSICIANS_SHORT">
+			<Text>Fill all [ICON_GREAT_MUSICIAN] Muscians Slots</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_UI_BTN_FILL_MUSICIANS">
+			<Text>
+				Click to fill all available [ICON_GREAT_MUSICIAN] Muscians slot in specialist buildings to speed up the creation of Great Muscians and increase [ICON_CULTURE] Culture output.
+			</Text>
+		</Row>
+		
+	</Language_en_US>
+
+
+
+
+
+	<!--**************************** New UI TopPanel Texts*************************************** -->
+
+		<Language_en_US>
+
+
+
+
+
+			<Row Tag="TXT_KEY_CITYVIEW_HAPPINESS_TEXT">
+				<Text>Happiness</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITYVIEW_UNHAPPINESS_TEXT">
+				<Text>[COLOR_WARNING_TEXT]Unhappiness[ENDCOLOR]</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITYVIEW_MANPOWER_TEXT">
+				<Text>Manpower</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITYVIEW_CONSUMER_TEXT">
+				<Text>Goods</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITYVIEW_ELECTRICITY_TEXT">
+				<Text>Electricity</Text>
+			</Row>
+			<Row Tag="TXT_KEY_CITYVIEW_SPECIALIST_MAINTENANCE_TEXT">
+				<Text>[NEWLINE]Maintenance [COLOR_WARNING_TEXT]{1_Maintenance}[ENDCOLOR] [ICON_GOLD]</Text>
+			</Row>
+			<Row Tag="TXT_KEY_TP_GOLD_SPECIALIST_MAINT">
+				<Text>{1_Num} spent on Specialist Maintenance.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_REPLAY_DATA_SPECIALISTMAINTENANCE">
+				<Text>Specialist Maintenance</Text>
+			</Row>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<Replace Tag="TXT_KEY_CO_PUBLIC_OPINION_CIVIL_RESISTANCE">
+				<Text>
+					[COLOR_YELLOW]Resistance[ENDCOLOR]
+				</Text>
+			</Replace>
+			<Replace Tag="TXT_KEY_CO_PUBLIC_OPINION_REVOLUTIONARY_WAVE">
+				<Text>
+					[COLOR_NEGATIVE_TEXT]Revolution[ENDCOLOR]
+				</Text>
+			</Replace>
+			
+			
+		<Replace Tag="TXT_KEY_TP_CULTURE_CITY_COST">
+			<Text>
+				Every non-puppet Cities you own of different levels will increase the [ICON_CULTURE] Culture cost for future Policies by a certain percent.
+				[NEWLINE][NEWLINE][ICON_BULLET]Lv1 City: +5% [ICON_CULTURE] Culture cost.
+				[NEWLINE][ICON_BULLET]Lv2 City: +10% [ICON_CULTURE] Culture cost.
+				[NEWLINE][ICON_BULLET]Lv3 City: +20% [ICON_CULTURE] Culture cost.
+				[NEWLINE][ICON_BULLET]Lv4 City: +33% [ICON_CULTURE] Culture cost.
+				[NEWLINE][ICON_BULLET]Lv5 City: +33% [ICON_CULTURE] Culture cost.
+				[NEWLINE][NEWLINE]Build Anti-corruption and Public Security Buildings or adopt certain Policies to reduce the increasing [ICON_CULTURE] Culture cost by those cities.
+			</Text>
+		</Replace>
+
+
+			<Replace Tag="TXT_KEY_TP_CULTURE_CITY_COST_MOD">
+				<Text>
+					Every non-puppet Cities you own of different levels will increase the [ICON_CULTURE] Culture cost for future Policies by a certain percent. SInce You have adpoted the "Representation" Policy, the cost has been [COLOR_POSITIVE_TEXT]Reduced[ENDCOLOR].
+					[NEWLINE][NEWLINE][ICON_BULLET]Lv1 City: No extra [ICON_CULTURE] Culture cost.
+					[NEWLINE][ICON_BULLET]Lv2 City: +5% [ICON_CULTURE] Culture cost.
+					[NEWLINE][ICON_BULLET]Lv3 City: +15% [ICON_CULTURE] Culture cost.
+					[NEWLINE][ICON_BULLET]Lv4 City: +28% [ICON_CULTURE] Culture cost.
+					[NEWLINE][ICON_BULLET]Lv5 City: +28% [ICON_CULTURE] Culture cost.
+					[NEWLINE][NEWLINE]Build Anti-corruption and Public Security Buildings to reduce the increasing [ICON_CULTURE] Culture cost by those cities further more.
+				</Text>
+			</Replace>
+			
+
+
+	
+			
+			
+			
+			<Row Tag="TXT_KEY_SP_UI_TOURISMBOOST_BY_HAPPINESS">
+				<Text>[NEWLINE]The excess [ICON_HAPPINESS_1] Happiness of your empire boost the [ICON_TOURISM] Tourism by </Text>
+			</Row>
+
+
+		
+
+			<Row Tag="TXT_KEY_SP_UI_HAPPINESS_CONSUMERGOODS_LOW">
+				<Text>-5% [ICON_HAPPINESS_4] Unhappiness in all cities because the amount of [ICON_RES_CONSUMER] Consumer Goods you have is larger than [COLOR_POSITIVE_TEXT]25[ENDCOLOR].</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SP_UI_HAPPINESS_CONSUMERGOODS_MID">
+				<Text>-10% [ICON_HAPPINESS_4] Unhappiness in all cities because the amount of [ICON_RES_CONSUMER] Consumer Goods you have is larger than [COLOR_POSITIVE_TEXT]60[ENDCOLOR].</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SP_UI_HAPPINESS_CONSUMERGOODS_HIGH">
+				<Text>-15% [ICON_HAPPINESS_4] Unhappiness in all cities because the amount of [ICON_RES_CONSUMER] Consumer Goods you have is larger than [COLOR_POSITIVE_TEXT]100[ENDCOLOR].</Text>
+			</Row>
+
+			
+			<Row Tag="TXT_KEY_SP_UI_UNHAPPINESS_CONSUMERGOODS_LOW">
+				<Text>+10% [ICON_HAPPINESS_4] Unhappiness in all cities because you don't have enough [ICON_RES_CONSUMER] Consumer Goods. </Text>
+			</Row>
+			<Row Tag="TXT_KEY_SP_UI_UNHAPPINESS_CONSUMERGOODS_MID">
+				<Text>+20% [ICON_HAPPINESS_4] Unhappiness in all cities because the [ICON_RES_CONSUMER] Consumer Goods supply is very low! </Text>
+			</Row>
+			<Row Tag="TXT_KEY_SP_UI_UNHAPPINESS_CONSUMERGOODS_HIGH">
+				<Text>+33% [ICON_HAPPINESS_4] Unhappiness in all cities because the [ICON_RES_CONSUMER] Consumer Goods supply is dangerously low! </Text>
+			</Row>
+
+
+
+
+			<Row Tag="TXT_KEY_SP_UI_HAPPINESS_CONSUMERGOODS_BONUS">
+				<Text>[NEWLINE]Abundant [ICON_RES_CONSUMER] Consumer Goods! [ICON_HAPPINESS_4] Unhappiness [COLOR_POSITIVE_TEXT]Reduced[ENDCOLOR] by</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SP_UI_HAPPINESS_CONSUMERGOODS_PENALTY">
+				<Text>[NEWLINE]Insufficient [ICON_RES_CONSUMER] Consumer Goods! [ICON_HAPPINESS_4] Unhappiness [COLOR_NEGATIVE_TEXT]Increased[ENDCOLOR] by</Text>
+			</Row>
+
+
+
+			<Row Tag="TXT_KEY_SP_UI_FAITH_FROM_RELIGION">
+				<Text>+ {1_Num} Global [ICON_HAPPINESS_1] Happiness from [ICON_PEACE] Faith output.</Text>
+			</Row>
+			
+
+
+
+			<Row Tag="TXT_KEY_SP_UI_ELECTRICITY_EFFECTS_GENERAL">
+				<Text>After you entering the Modern Era, the amount of [ICON_RES_ELECTRICITY] Electricity supply will affect your empire's [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science nationwide.</Text>
+			</Row>
+			
+			
+			
+			
+			<Row Tag="TXT_KEY_SP_UI_ELECTRICITY_GOLD_BONUS_25">
+				<Text>+25% [ICON_GOLD] Gold Output from all cities because the amount of [ICON_RES_ELECTRICITY] Electricity supply in your empire is larger than [COLOR_POSITIVE_TEXT]60[ENDCOLOR].</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SP_UI_ELECTRICITY_GOLD_BONUS_10">
+				<Text>+10% [ICON_GOLD] Gold Output from all cities because the amount of [ICON_RES_ELECTRICITY] Electricity supply in your empire is larger than [COLOR_POSITIVE_TEXT]25[ENDCOLOR].</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SP_UI_ELECTRICITY_GOLD_PENALTY_10">
+				<Text>-10% [ICON_GOLD] Gold Output from all cities because the amount of [ICON_RES_ELECTRICITY] Electricity supply in your empire is below [COLOR_NEGATIVE_TEXT]0[ENDCOLOR]!</Text>
+			</Row>			
+			<Row Tag="TXT_KEY_SP_UI_ELECTRICITY_GOLD_PENALTY_25">
+				<Text>-25% [ICON_GOLD] Gold Output from all cities because the amount of [ICON_RES_ELECTRICITY] Electricity supply in your empire is lower than [COLOR_NEGATIVE_TEXT]-10[ENDCOLOR]!</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SP_UI_ELECTRICITY_GOLD_PENALTY_50">
+				<Text>-50% [ICON_GOLD] Gold Output from all cities because the amount of [ICON_RES_ELECTRICITY] Electricity supply in your empire is lower than [COLOR_NEGATIVE_TEXT]-25[ENDCOLOR]!</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SP_UI_ELECTRICITY_GOLD_PENALTY_99">
+				<Text>-99% [ICON_GOLD] Gold Output from all cities because the amount of [ICON_RES_ELECTRICITY] Electricity supply in your empire is lower than [COLOR_NEGATIVE_TEXT]-60[ENDCOLOR]!</Text>
+			</Row>
+
+			
+			
+			
+			<Replace Tag="TXT_KEY_TP_SCIENCE_FROM_HAPPINESS">
+				<Text> [ICON_RESEARCH] nationwide from excess Happiness.</Text>
+			</Replace>
+			<Row Tag="TXT_KEY_SP_UI_SCIENCE_FROM_ITR_POLICY">
+				<Text> [ICON_RESEARCH] nationwide from the total number of the used International Trade Route.</Text>
+			</Row>
+
+			
+			
+			<Row Tag="TXT_KEY_SP_UI_ELECTRICITY_EFFECTS_BONUS">
+				<Text> [ICON_RESEARCH] nationwide from abundant [ICON_RES_ELECTRICITY] Electricity supply. </Text>
+			</Row>
+			<Row Tag="TXT_KEY_SP_UI_ELECTRICITY_EFFECTS_PENALTY">
+				<Text> [ICON_RESEARCH] nationwide from insufficient [ICON_RES_ELECTRICITY] Electricity supply.</Text>
+			</Row>
+
+
+		
+			
+			
+			<Row Tag="TXT_KEY_SP_UI_ELECTRICITY_SCIENCE_PENALTY_10">
+				<Text>-10% [ICON_RESEARCH] Science Output from all cities because the amount of [ICON_RES_ELECTRICITY] Electricity supply in your empire is below [COLOR_NEGATIVE_TEXT]0[ENDCOLOR]!</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SP_UI_ELECTRICITY_SCIENCE_PENALTY_25">
+				<Text>-25% [ICON_RESEARCH] Science Output from all cities because the amount of [ICON_RES_ELECTRICITY] Electricity supply in your empire is lower than [COLOR_NEGATIVE_TEXT]-10[ENDCOLOR]!</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SP_UI_ELECTRICITY_SCIENCE_PENALTY_50">
+				<Text>-50% [ICON_RESEARCH] Science Output from all cities because the amount of [ICON_RES_ELECTRICITY] Electricity supply in your empire is lower than [COLOR_NEGATIVE_TEXT]-25[ENDCOLOR]!</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SP_UI_ELECTRICITY_SCIENCE_PENALTY_99">
+				<Text>-99% [ICON_RESEARCH] Science Output from all cities because the amount of [ICON_RES_ELECTRICITY] Electricity supply in your empire is lower than [COLOR_NEGATIVE_TEXT]-60[ENDCOLOR]!</Text>
+			</Row>
+
+
+
+
+			<Row Tag="TXT_KEY_SP_UI_MANPOWER_DISCOUNT">
+				<Text>[NEWLINE]Abundant [ICON_RES_MANPOWER] Manpower! [ICON_GOLD] Cost of Gold purchasing in all Cities [COLOR_POSITIVE_TEXT]Reduced[ENDCOLOR] by </Text>
+			</Row>
+
+			
+			
+			
+			
+			<Row Tag="TXT_KEY_SP_UI_DISCOUNT_MANPOWER_BONUS_33">
+				<Text>-33% [ICON_GOLD] Gold Cost for purchasing buildings and units because the amount of [ICON_RES_MANPOWER] Manpower supply in your empire is larger than [COLOR_POSITIVE_TEXT]60[ENDCOLOR].</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SP_UI_DISCOUNT_MANPOWER_BONUS_15">
+				<Text>-15% [ICON_GOLD] Gold Cost for purchasing buildings and units because the amount of [ICON_RES_MANPOWER] Manpower supply in your empire is larger than [COLOR_POSITIVE_TEXT]25[ENDCOLOR].</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SP_UI_DISCOUNT_MANPOWER_PENALTY_15">
+				<Text>+15% [ICON_GOLD] Gold Cost for purchasing buildings and units because the amount of [ICON_RES_MANPOWER] Manpower supply in your empire is below [COLOR_NEGATIVE_TEXT]0[ENDCOLOR]!</Text>
+			</Row>
+			<Row Tag="TXT_KEY_SP_UI_DISCOUNT_MANPOWER_PENALTY_33">
+				<Text>+33% [ICON_GOLD] Gold Cost for purchasing buildings and units because the amount of [ICON_RES_MANPOWER] Manpower supply in your empire is below [COLOR_NEGATIVE_TEXT]-10[ENDCOLOR]!</Text>
+			</Row>
+		
+	</Language_en_US>
+	
+	
+
+	<!--**************************** New Popluation Rules Notifiction Texts *************************************** -->
+	<Language_en_US>
+
+		<Replace Tag="TXT_KEY_CO_VICTORY_PUBLIC_OPINION_UNHAPPINESS_HEADER">
+			<Text>[ICON_HAPPINESS_4] / [ICON_HAPPINESS_1] </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CO_VICTORY_PUBLIC_OPINION_UNHAPPINESS_HEADER_TT">
+			<Text>
+				Left: Current [ICON_HAPPINESS_4] Unhappiness due to Public Opinion.
+				[NEWLINE][ICON_BULLET]Consider this to be how much the people of this civ approve of their leader's choice of Ideology.
+				[NEWLINE][NEWLINE][NEWLINE]Right:Current overall [ICON_HAPPINESS_1] Happiness.
+				[NEWLINE][ICON_BULLET]Unhappiness from Public Opinion is included in this total.
+				[NEWLINE][ICON_BULLET]At [COLOR_NEGATIVE_TEXT]-20[ENDCOLOR] or below the civilization will start to lose cities to revolt and may change to the public's Preferred Ideology (you can find that preference in the Public Opinion tooltip).
+			</Text>
+		</Replace>
+
+
+		<Row Tag="TXT_KEY_CO_INFLUENCE_BONUSES_EXOTIC">
+			<Text>[NEWLINE][NEWLINE]International Immigration [ICON_TEAM_4] Move-in rate base to your country: 1</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_CO_INFLUENCE_BONUSES_FAMILIAR">
+			<Text>
+				[NEWLINE][NEWLINE]Accrued benefits:[NEWLINE]- Each Trade Route to influenced civ:[NEWLINE]+1 [ICON_RESEARCH] Science[NEWLINE]- [ICON_SPY] Spies Establish Surveillance in 1 turn[NEWLINE]- When conquering influenced civ's city:[NEWLINE]25% reduction in Unrest time/Population loss.
+				[NEWLINE][NEWLINE]International Immigration [ICON_TEAM_4] Move-in rate base to your country: 2
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CO_INFLUENCE_BONUSES_POPULAR">
+			<Text>
+				[NEWLINE][NEWLINE]Accrued benefits:[NEWLINE]- Each Trade Route to influenced civ:[NEWLINE]+2 [ICON_RESEARCH] Science[NEWLINE]- [ICON_SPY] Spies Establish Surveillance in 1 turn and operate at 1 Rank higher in influenced civ's city state allies[NEWLINE]- When conquering influenced civ's city:[NEWLINE]50% reduction in Unrest time/Population loss.
+				[NEWLINE][NEWLINE]International Immigration [ICON_TEAM_4] Move-in rate base to your country: 3
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CO_INFLUENCE_BONUSES_INFLUENTIAL">
+			<Text>
+				[NEWLINE][NEWLINE]Accrued benefits:[NEWLINE]- Each Trade Route to influenced civ:[NEWLINE]+3 [ICON_RESEARCH] Science[NEWLINE]- [ICON_SPY] Spies Establish Surveillance in 1 turn and operate at 1 Rank higher in influenced civ's cities and city state allies[NEWLINE]- When conquering influenced civ's city:[NEWLINE]75% reduction in Unrest time/Population loss.
+				[NEWLINE][NEWLINE]International Immigration [ICON_TEAM_4] Move-in rate base to your country: 4
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CO_INFLUENCE_BONUSES_DOMINANT">
+			<Text>
+				Accrued benefits:[NEWLINE]- Each Trade Route to influenced civ:[NEWLINE]+4 [ICON_RESEARCH] Science[NEWLINE]- [ICON_SPY] Spies Establish Surveillance in 1 turn and operate at 2 Ranks higher in influenced civ's cities and city state allies[NEWLINE]- When conquering influenced civ's city:[NEWLINE]no Unrest time and no Population loss.
+				[NEWLINE][NEWLINE]International Immigration [ICON_TEAM_4] Move-in rate base to your country: 5
+			</Text>
+		</Replace>
+		
+		
+		
+
+
+		<Row Tag="TXT_KEY_CO_SP_GREEN">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_SP_RED">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CO_IMMIGRATION_COUNTER_HEADER_TT">
+			<Text>
+
+				Left: Current [ICON_TEAM_4] International Immigration Move-in Rate.
+				[NEWLINE][ICON_BULLET]The Move-in Rate represents how attractive your country is to their people.
+				[NEWLINE][ICON_BULLET]If the Move-in Rate is 4 or above and is larger than the Move-out Rate, the people in this country will [ICON_TEAM_4] migrate to your country by 1 [ICON_CITIZEN] per turn.
+				[NEWLINE][NEWLINE][NEWLINE]Right: Current [ICON_TEAM_2] International Immigration Move-out Rate.
+				[NEWLINE][ICON_BULLET]The Move-out Rate represents how attractive this country is to your people.
+				[NEWLINE][ICON_BULLET]If the Move-out Rate is 4 or above and is larger than the Move-in Rate, your people will [ICON_TEAM_2] migrate to this country by 1 [ICON_CITIZEN] per turn.
+
+				[NEWLINE][NEWLINE]The base [ICON_TEAM_4]Move-in rate is decided by your current [ICON_TOURISM] influence level on the target nation (Unknown:0, Exotic:1, Familiar:2, Popular:3, Influential:4, Dominant:5). So does the base [ICON_TEAM_2]Move-in rate. However they are also greatly affected by the diplomacy condition between two nations.
+
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CO_IMMIGRATION_COUNTER_HEADER">
+			<Text>[ICON_TEAM_4] / [ICON_TEAM_2]</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CO_SP_MOVE_IN_BASE">
+			<Text>
+				[ICON_TEAM_4] Move-in Rate Base: {1_Num}
+				[NEWLINE][ICON_TEAM_2] Move-Out Rate Base: {2_Num}
+				[NEWLINE]---------------------------[NEWLINE]
+			</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CO_SP_MOVE_IN_OPENBORDER">
+			<Text>
+				[COLOR_POSITIVE_TEXT]+100%[ENDCOLOR] [ICON_TEAM_4] Move-in Rate for opening borders to them.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_SP_MOVE_OUT_OPENBORDER">
+			<Text>
+				[COLOR_NEGATIVE_TEXT]+100%[ENDCOLOR] [ICON_TEAM_2] Move-out Rate for their borders opening to us.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_SP_MOVE_DENOUNCING">
+			<Text>
+				[COLOR_NEGATIVE_TEXT]-50%[ENDCOLOR] [ICON_TEAM_4] Move-in Rate and [ICON_TEAM_2] Move-out Rate for denouncing!
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_SP_MOVE_DOF">
+			<Text>
+				[COLOR_POSITIVE_TEXT]+50%[ENDCOLOR] [ICON_TEAM_4] Move-in Rate and [ICON_TEAM_2] Move-out Rate for declaration of friendship!
+			</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CO_SP_MOVE_IN_RELIGION">
+			<Text>
+				[COLOR_POSITIVE_TEXT]+100%[ENDCOLOR] [ICON_TEAM_4] Move-in Rate for their acceptance of our religion.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_SP_MOVE_OUT_RELIGION">
+			<Text>
+				[COLOR_NEGATIVE_TEXT]+100%[ENDCOLOR] [ICON_TEAM_2] Move-out Rate for our acceptance of their religion.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CO_SP_MOVE_IN_HAPPINESS_150">
+			<Text>
+				[COLOR_POSITIVE_TEXT]+50%[ENDCOLOR] [ICON_TEAM_4] Move-in Rate and [COLOR_POSITIVE_TEXT]-50%[ENDCOLOR] [ICON_TEAM_2] Move-out Rate because your current [ICON_HAPPINESS_1] Happiness is more than 150.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_SP_MOVE_IN_HAPPINESS_100">
+			<Text>
+				[COLOR_POSITIVE_TEXT]+25%[ENDCOLOR] [ICON_TEAM_4] Move-in Rate and [COLOR_POSITIVE_TEXT]-25%[ENDCOLOR] [ICON_TEAM_2] Move-out Rate because your current [ICON_HAPPINESS_1] Happiness is more than 100.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_SP_MOVE_IN_HAPPINESS_50">
+			<Text>
+				[COLOR_NEGATIVE_TEXT]+25%[ENDCOLOR] [ICON_TEAM_2] Move-out Rate because your current [ICON_HAPPINESS_1] Happiness is less than 50.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_SP_MOVE_IN_HAPPINESS_20">
+			<Text>
+				[COLOR_NEGATIVE_TEXT]+25%[ENDCOLOR] [ICON_TEAM_2] Move-out Rate and [COLOR_NEGATIVE_TEXT]-25%[ENDCOLOR] [ICON_TEAM_4] Move-in Rate because your current [ICON_HAPPINESS_1] Happiness is less than 20.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_SP_MOVE_IN_UNHAPPINESS">
+			<Text>
+				[COLOR_NEGATIVE_TEXT]+50%[ENDCOLOR] [ICON_TEAM_2] Move-out Rate and [COLOR_NEGATIVE_TEXT]NO[ENDCOLOR] [ICON_TEAM_4] Move-in Rate becauseyour empire is [ICON_HAPPINESS_3] unhappy!
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CO_SP_MOVE_OUT_POLICY_IRON_CURTAIN">
+			<Text>
+				[COLOR_POSITIVE_TEXT]-50%[ENDCOLOR] [ICON_TEAM_4] Move-out Rate for your Policy effects.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_SP_MOVE_IN_POLICY_TREATY_ORGANIZATION">
+			<Text>
+				[COLOR_POSITIVE_TEXT]+50%[ENDCOLOR] [ICON_TEAM_4] Move-in Rate for your Policy effects.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_SP_MOVE_IN_POLICY_IRON_CURTAIN">
+			<Text>
+				[COLOR_NEGATIVE_TEXT]-50%[ENDCOLOR] [ICON_TEAM_4] Move-out Rate for their Policy effects.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_SP_MOVE_OUT_POLICY_TREATY_ORGANIZATION">
+			<Text>
+				[COLOR_NEGATIVE_TEXT]+50%[ENDCOLOR] [ICON_TEAM_2] Move-in Rate for their Policy effects.
+			</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CO_SP_MOVE_WAR_STOPPED">
+			<Text>
+				[COLOR_NEGATIVE_TEXT]No Immigration because we are at war![ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_SP_MOVE_OTHER_STOPPED">
+			<Text>
+				[COLOR_NEGATIVE_TEXT]No Immigration for insufficient [ICON_RES_CONSUMER] Consumer Goods or [ICON_RES_ELECTRICITY] Electricity! [ENDCOLOR]
+			</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_AUTO_BUILDING_REPLACEMENT">
+			<Text>The new Technology has automatically replaced the obsolete building in your city {@1_CityName} to its succeeding building: </Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_AUTO_RAILROAD_REPLACEMENT">
+			<Text>You have researched the [ICON_RESEARCH] [COLOR_RESEARCH_STORED]	Railroad Technology[ENDCOLOR], so all Road tiles in your current territory have been replaced by [COLOR_POSITIVE_TEXT]Railroad[ENDCOLOR]!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_MISC_AUTO_BUILDING_UPGRADEMENT">
+			<Text>The new Technology has automatically replaced the {1_Building} in your cities to its succeeding building: {2_Building}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_AUTO_RAILROAD_UPGRADEMENT">
+			<Text>The new Technology has automatically replaced all {1_Count} Road tiles in your current territory to [COLOR_POSITIVE_TEXT]Railroad[ENDCOLOR]!</Text>
+		</Row>
+		
+		
+
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_LACKING_CONSUMER_GOODS_WARNING">
+			<Text>
+				Your empire dont have enough [ICON_RES_CONSUMER] Consumer Goods Supply!
+				[NEWLINE][NEWLINE]Fortunately we still have some goods in stock. So you have ONE turn to find more [ICON_RES_CONSUMER] Consumer Goods. You should assign citizens as Merchants or build certain buildings which can provide [ICON_RES_CONSUMER] Consumer Goods. Also you may import [ICON_RES_CONSUMER] Consumer Goods from other nations.
+				[NEWLINE][NEWLINE]If you fail to make the [ICON_RES_CONSUMER] Consumer Goods Supply larger than 0 for the next turn, your empire will suffer huge [ICON_HAPPINESS_4] Unhappiness!
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_LACKING_CONSUMER_GOODS_WARNING_SHORT">
+			<Text>[ICON_RES_CONSUMER] Consumer Goods Supply Shortage!</Text>
+		</Row>
+		
+		
+		
+		
+		
+		<Row Tag="TXT_KEY_SP_NOTE_POPULATION_LOSS">
+			<Text>Casualties in the battle has caused one citizen lost in your city: {@1_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTE_POPULATION_LOSS_SHORT">
+			<Text>Casualties in Battle!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_CITY_POPULATION_LOST_BY_RANGEDFIRE">
+			<Text> A [ICON_CITIZEN] Citizen has been killed by the Ranged Attack of the enemy's {1_UnitName}! (this city's hitpoint is 0 and it cannot protect citizens from enemy's Ranged Attack.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_CITY_POPULATION_LOST_BY_RANGEDFIRE_SHORT">
+			<Text>City heavily damaged! Citizen killed! </Text>
+		</Row>
+		
+		
+		
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_SETTLER_TRAINED_CITY">
+			<Text>One Citizen in your city: {2_CityName:textkey} leaves the city and become a Settler Unit!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_SETTLER_TRAINED_CITY_SHORT">
+			<Text>Settler Left the city!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_SETTLER_INTO_CITY">
+			<Text>One Settler Unit has moved into your city: {2_CityName:textkey} and become one new Citizen!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_SETTLER_INTO_CITY_SHORT">
+			<Text>Settler Moved into the City!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_SETTLER_INTO_CITY">
+			<Text>Order this Settler Unit to move into the city where it currently stands. This will consume the Settler Unit and +1 Population for the city. [NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Warning:[ENDCOLOR] The target city's all current stacked [ICON_FOOD] Food be cleared out after the settler moving in.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_SETTLER_INTO_CITY_SHORT">
+			<Text>Move into the City</Text>
+		</Row>
+
+		
+		
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_WORKERTOMILITIA">
+			<Text>
+				Arm the Worker to transfer to a Militia Unit. This order is Free, but must be performed inside Friendly Territory.
+				[NEWLINE][NEWLINE]The new Militia Unit will receive NO free experience and cannot move till next turn.
+				[NEWLINE][NEWLINE]Cannot perform this order when your Worker is stacked with any other unit. 
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_WORKERTOMILITIA_SHORT">
+			<Text>[COLOR_YELLOW]To Arms![ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_MILITIATOWORKER">
+			<Text>
+				Demobilize the Militia Unit and transfer it to a Worker. This order is Free, but must be performed inside Friendly Territory.
+				[NEWLINE][NEWLINE]The new Militia Unit will lose all previous Promotions and cannot move till next turn.
+				[NEWLINE][NEWLINE]Cannot perform this order when your Militia Unit is stacked with any other unit.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_MILITIATOWORKER_SHORT">
+			<Text>[COLOR_YELLOW]Demobilize[ENDCOLOR]</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_IMMIGRANT_LEFT_CITY">
+			<Text>A Citizen in your city: {@1_CityName} [ICON_TEAM_2] Migrated to a country which has deep Cultural Influence on you. [NEWLINE][NEWLINE]If you want your Citizens to stay, you should try to lower other country's Cultural Influence on you and make your Citizens [ICON_HAPPINESS_1] Happy. Otherwise your Citizens will vote with their feet!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_IMMIGRANT_LEFT_CITY_SHORT">
+			<Text>A Citizen [ICON_TEAM_2] Emigrated abroad!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_IMMIGRANT_REACHED_CITY">
+			<Text>A foreign Citizen [ICON_TEAM_4] Emigrated to your city: {@1_CityName} because your country has deep Cultural Influence on them. [NEWLINE][NEWLINE]Keep up your [ICON_TOURISM] Tourism output and more emigrants will come to you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_IMMIGRANT_REACHED_CITY_SHORT">
+			<Text>A foreign Citizen [ICON_TEAM_4] Emigrated to your city!</Text>
+		</Row>
+		
+
+
+		<Replace Tag="TXT_KEY_UNIT_HELP_SETTLER">
+			<Text>Founds new Cities or join your existing Cities.[NEWLINE][NEWLINE]Settlers cannot be purchased and training it will consume one [ICON_CITIZEN] Citizen in the current city, but [ICON_FOOD] Growth of the City will NOT stop. [NEWLINE][NEWLINE]Settler takes [COLOR_NEGATIVE_TEXT]damage[ENDCOLOR] if ends turn in outside friendly territory. [NEWLINE][NEWLINE]If a Settler is captured by enemy combat units, it will be KILLED.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_UNIT_SETTLER_STRATEGY">
+			<Text>A Settler can either found a new city or join one of your existing Cities to become one new [ICON_CITIZEN] Citizen. Exactly speaking, the "Settler" is made up of one [ICON_CITIZEN] Citizen in the city where it is trained. As a result, when it is trained, the population of the city will reduce by 1 and create [ICON_HAPPINESS_4] Unhappiness. 
+			[NEWLINE][NEWLINE]If you want it to found a new city, just click "Found" as in original Civ5 game. If join other Cities, just simply move it into the city you wish it to join and click "Move into the City". The Settler Unit will disapear and the [ICON_CITIZEN] Population of the city will increase by 1. Be aware it won't join a City currently in Resistance or being razed. 
+			[NEWLINE][NEWLINE]A portion of surplus food is turned into production towards the Settler. The portion that is converted is significantly less once you go past a surplus of [ICON_FOOD] Food. In a city with very few production tiles, it is advisable to have a surplus of [ICON_FOOD] Food while building a Settler. Since building the Settler won't stop the growth of City, you can no longer "cheat" with building Settlers to rid starvation! 
+			[NEWLINE][NEWLINE]Settlers are civilians with limited survival skills, thus they will takes [COLOR_NEGATIVE_TEXT]damage[ENDCOLOR] if ends turn in outside friendly territory. You should use combat units with medic promotion to accompany them for the long trip.
+			[NEWLINE][NEWLINE]If a Settler is captured by another civilization, it will be destroyed other than becoming a worker. </Text>
+		</Replace>
+
+
+		<!--********************************************** Units Special Actions Texts
+		
+		********************************************** -->
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_FULLATTACK_ON_SHORT">
+			<Text>[COLOR_POSITIVE_TEXT]Full Attack Mode ON[ENDCOLOR] </Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_FULLATTACK_ON">
+			<Text>Full Attack Mode Engaged: +100% [ICON_STRENGTH] Combat Strength when attacking. [COLOR_NEGATIVE_TEXT]-3[ENDCOLOR] [ICON_MOVES] Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_FULLATTACK_OFF_SHORT">
+			<Text>[COLOR_POSITIVE_TEXT]Full Attack Mode OFF[ENDCOLOR] </Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_FULLATTACK_OFF">
+			<Text>Full Attack Mode Cancel: Combat Strength and Movement return normal. Cosumes all [ICON_MOVES] Movement left in this turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_AIREVAC_SHORT">
+			<Text>[COLOR_POSITIVE_TEXT]Air EVAC[ENDCOLOR] </Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_AIREVAC">
+			<Text>Return to your Capital immediately. [NEWLINE][NEWLINE]This order will consume all [ICON_MOVES] Movement left in this turn.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_FASTMOVEMENT_SHORT">
+			<Text>[COLOR_POSITIVE_TEXT]Rapid March[ENDCOLOR] </Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_FASTMOVEMENT">
+			<Text>Grant additional Movement for this turn (Current MPs * 2), but this unit will be unable to attack until next turn.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_TARGETMARKING_SHORT">
+			<Text>[COLOR_POSITIVE_TEXT]Target Marking[ENDCOLOR] </Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_TARGETMARKING">
+			<Text>All nearby enemy units of the first layer will be marked: -50% Combat Strength vs Naval Ranged Units, Siege Weapons, Helicopters, Attack Aircrafts and Bombers. They will not recover until HP fully restored.[NEWLINE][NEWLINE]This action will consume 2 MP.</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_RIOT_CONTROL_SHORT">
+			<Text>[COLOR_POSITIVE_TEXT]Riot Control[ENDCOLOR] </Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_RIOT_CONTROL">
+			<Text>
+				Can reduce the resistance time in the current city by 1 turn if this city's resistance time is longer than 3 turns.
+				[NEWLINE][NEWLINE]This Unit will gain [COLOR_XP_BLUE]1 XP[ENDCOLOR] each time performing this action.
+				[NEWLINE][NEWLINE]This order will consume all [ICON_MOVES] Movement left in this turn.</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_STEALTH_ON_SHORT">
+			<Text>[COLOR_POSITIVE_TEXT]Stealth Mode[ENDCOLOR] ON</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_STEALTH_ON">
+			<Text> +2 [ICON_MOVES] MP and move stealthily. However this unit cannot [COLOR_NEGATIVE_TEXT]Attack[ENDCOLOR] in Stealth Mode.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_STEALTH_OFF_SHORT">
+			<Text>[COLOR_POSITIVE_TEXT]Stealth Mode[ENDCOLOR] OFF</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_STEALTH_OFF">
+			<Text>Cancel "Stealth Mode" to allow this unit to attack. [NEWLINE][NEWLINE]This order will consume all [ICON_MOVES] Movement left in this turn.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_EMERGENCY_HEAL_SHORT">
+			<Text>[COLOR_POSITIVE_TEXT]Emergency Supply[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_EMERGENCY_HEAL">
+			<Text>+50 HP for the other unit in the [COLOR_POSITIVE_TEXT]Same Tile[ENDCOLOR]. But cannot remove its debuff condition in this turn.[NEWLINE][NEWLINE]This order will consume all [ICON_MOVES] Movement left of this Special Forces Unit in this turn.</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_MORAL_BOOST_SHORT">
+			<Text>[COLOR_POSITIVE_TEXT]Encourage[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_MORAL_BOOST">
+			<Text>Instantly remove all [COLOR_POSITIVE_TEXT]Debuff Conditions[ENDCOLOR] of the the other unit in the [COLOR_POSITIVE_TEXT]Same Tile[ENDCOLOR].[NEWLINE][NEWLINE]This order will consume all [ICON_MOVES] Movement left of this Great Person in this turn.</Text>
+		</Row>
+		
+		
+		
+		<Row Tag="TXT_KEY_SP_BTNNOTE_BUILDING_MILITARY_ACADEMY_SHORT">
+			<Text>[COLOR_POSITIVE_TEXT]Build Military Academy[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_BUILDING_MILITARY_ACADEMY">
+			<Text>
+				Build a Military Academy in this city.
+				[NEWLINE][NEWLINE]All new units built or purchased in this city +15 XP and allows Special Forces Units to be trained in this city.
+				[NEWLINE][NEWLINE]+5 [ICON_RES_MANPOWER] Manpower.
+				[NEWLINE][NEWLINE]This order will consume the Great Person.
+				[NEWLINE][NEWLINE]One city can ONLY have ONE Military Academy building.
+			</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_BUILDING_JAPANESE_DOJO_SHORT">
+			<Text>[COLOR_POSITIVE_TEXT]Build Dojo[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_BUILDING_JAPANESE_DOJO">
+			<Text>
+				Build a Dojo in this city.
+				[NEWLINE][NEWLINE]All new units built or purchased in this city +15 XP and allows Special Forces Units to be trained in this city.
+				[NEWLINE][NEWLINE]+3 [ICON_RES_MANPOWER] Manpower.
+				[NEWLINE][NEWLINE]This order will consume the Samurai.
+				[NEWLINE][NEWLINE]One city can ONLY have ONE Dojo building.
+			</Text>
+		</Row>
+		
+
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_RECON_TARGET_GUIDE_SHORT">
+			<Text>[COLOR_POSITIVE_TEXT]Target Guide[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_RECON_TARGET_GUIDE">
+			<Text>Temporarily improve [ICON_RANGE_STRENGTH] Ranged Combat Strength for the [COLOR_POSITIVE_TEXT]Ranged Unit[ENDCOLOR] in the Same Tile with this unit for this turn. 
+			[NEWLINE][NEWLINE]Using this ability will consume all [ICON_MOVES] MPs of this unit.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_HACKING_MISSION_SHORT">
+			<Text>Hacking</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_HACKING_MISSION">
+			<Text>
+				Order the hacker to hack into the main system and cause 2 turns of [ICON_RESISTANCE] Anarchy in the target nation!
+				[NEWLINE][NEWLINE]This order can only be performed inside a nation's territory and the target nation must be at war with you.
+				[NEWLINE][NEWLINE]This order will consume this unit.
+			</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_CARAVELTOEXPLORER_SHORT">
+			<Text>[COLOR_YELLOW]Disembark[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_CARAVELTOEXPLORER">
+			<Text>Order this unit to disembark. It will become an [COLOR_POSITIVE_TEXT]Explorer Unit[ENDCOLOR] to explore the inland and do [COLOR_POSITIVE_TEXT]Trading Missions[ENDCOLOR]. 
+			[NEWLINE][NEWLINE]The Caravel must be next to a Land Tile to disembark. 
+			[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Warning[ENDCOLOR]: This order is [COLOR_WARNING_TEXT]Irreversible[ENDCOLOR] and the new Explorer Unit cannot inhert any [COLOR_WARNING_TEXT]Promotions[ENDCOLOR]!</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_LAUNCH_UAV_SHORT">
+			<Text>[COLOR_YELLOW]Launch UAV[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_LAUNCH_UAV">
+			<Text>
+				Launch a UAV unit at the current plot. The UAV can fly into inland for reconnaissance missions.
+				[NEWLINE][NEWLINE]The UAV cannot be launched on an Ocean tile.
+				[NEWLINE][NEWLINE]One UAV carrier can only launch one UAV unit per turn.
+				[NEWLINE][NEWLINE]The UAV unit will return to its carrier after combat or at the begining of the next turn. So you can launch it again by the next turn.
+			</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_LEGION_GROUP_MOVEMEMT_SHORT">
+			<Text>[COLOR_YELLOW]Grouped Units Movement[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_LEGION_GROUP_MOVEMEMT">
+			<Text>
+				Order all [COLOR_POSITIVE_TEXT]Military Units[ENDCOLOR] adjacent to this unit to move [COLOR_POSITIVE_TEXT]together[ENDCOLOR].
+				[NEWLINE][NEWLINE]First, Click this button and a special Promotion: [COLOR_POSITIVE_TEXT]Group Movement[ENDCOLOR] will be assigned to this unit and all adjacent military units to indicate that they are in one group.
+				[NEWLINE][NEWLINE]Then move this unit to the location you want. Each adjacent military units will follow up. They will also use roads and railroads on their way.
+				[NEWLINE][NEWLINE]If the destination area is too small, the formation of all units will be broken and some units may move to the nearest valid location instead of the destination area.
+				[NEWLINE][NEWLINE]The unit and all following unit will continue moving in the next turn if they cannot reach the destination in one turn.
+				[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Warning[ENDCOLOR]: This order is only designed for quickly moving your troops, especially large naval forces, in the safe areas. DO NOT use this order in the frontline since the formation may be broken and make your units vulnerable for enemy's attacks!
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_SAME_PLOT_MOVEMEMT_SHORT">
+			<Text>[COLOR_YELLOW]Stacked Units Movement[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_SAME_PLOT_MOVEMEMT">
+			<Text>
+				Order the stacked [COLOR_POSITIVE_TEXT]Military Units[ENDCOLOR] in the same tile to move [COLOR_POSITIVE_TEXT]together[ENDCOLOR].
+				[NEWLINE][NEWLINE]First, Click this button and a special Promotion: [COLOR_POSITIVE_TEXT]Group Movement[ENDCOLOR] will be assigned to this unit and the other military unit in the same plot indicate that they are in one group.
+				[NEWLINE][NEWLINE]Then move this unit to the location you want. The other unit will follow up. It will also use roads and railroads on their way.
+				[NEWLINE][NEWLINE]The following unit will continue moving in the next turn if it cannot reach the destination in one turn. So if you order two units with different available [ICON_MOVES] Movements, the slower one will fall behind for a moment.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_REMOVE_FROM_LEGION_SHORT">
+			<Text>[COLOR_YELLOW]Ungroup[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_REMOVE_FROM_LEGION">
+			<Text>
+				Click to cancel the Group Movement or Stacked Units Movement order.
+				[NEWLINE][NEWLINE]All [COLOR_POSITIVE_TEXT]Group Movement[ENDCOLOR] Promotion assigned to your units will be removed.
+				[NEWLINE][NEWLINE]This order can be used when you accidently assigned the Group Movement or Stacked Units Movement order.
+
+			</Text>
+		</Row>
+
+
+		<!--********************************************** New Trait&Policy Notification Texts ********************************************** -->
+
+		<Row Tag="TXT_KEY_SP_TRAIT_CULTURE_FROM_UNIT">
+			<Text>Banzai! You received {@1_num} [ICON_CULTURE] Culture from building a {@2_name}!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_TRAIT_OUTPUT_FROM_RAZING">
+			<Text>You received {@1_num} [ICON_GOLD] Gold, [ICON_CULTURE] Culture, [ICON_RESEARCH] Science and [ICON_PEACE] Faith from destroying a city!</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_UNIT_GAIN_SCIENCE">
+			<Text>You received {@1_num} [ICON_RESEARCH] Science from building a {@2_name}.</Text>
+		</Row>
+		
+
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_ASSYRIA_POPULATION">
+			<Text>After the conquest, one Citizen was captured and it has been taken under escort to your Captial: {@1_CityName}. Now it becomes one new Citizen in your Captial.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_ASSYRIA_POPULATION_SHORT">
+			<Text>Captured one Citizen in the enemy city!</Text>
+		</Row>
+
+		<!--********************************************** New Nuclear Winter Notification Texts ********************************************** -->
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_NUCLEAR_WINTER">
+			<Text>There have been many nuclear explosions on this planet. If more nuclear detonated, the Nuclear Winter will come!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_NUCLEAR_WINTER_SHORT">
+			<Text>Nuclear Winter Warning!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_NUCLEAR_WINTER_LV1">
+			<Text>Pyrocumulonimbus clouds have blocked the sunlight. All tiles with Food Output larger than 3 will reduce by 1 until it reaches 3.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_NUCLEAR_WINTER_LV1_SHORT">
+			<Text>Nuclear Winter Strikes!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_NUCLEAR_WINTER_LV2">
+			<Text>The Fallout have covered the ground. All tiles with Food Output will reduce by 1 until it reaches 1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_NUCLEAR_WINTER_LV2_SHORT">
+			<Text>Nuclear Winter Deteriorates!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_NUCLEAR_WINTER_LV3">
+			<Text>The endless nuclear war finally brings the final destiny to humans. All tiles' Food and Production output will reduce to 0. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_NUCLEAR_WINTER_LV3_SHORT">
+			<Text>Apocalypse!</Text>
+		</Row>
+
+	</Language_en_US>
+
+
+
+
+
+	<!-- *************************New Attack Effect Notifications****************************-->
+
+	<Language_en_US>	
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_UNIT_DESTROYED_SHORT">
+			<Text>A unit is destroyed by additional damage!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_SPLASH_DAMAGE_DEATH">
+			<Text>A {1_UnitName} is destroyed due to AoE Damage!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_COLL_DAMAGE_DEATH">
+			<Text>A {1_UnitName} is destroyed due to Collateral Damage!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_CHARGE_DAMAGE_DEATH">
+			<Text>A {1_UnitName} is destroyed due to Charge Damage!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_ENEMY_SLOWED_SHORT">
+			<Text>Enemy Slowed Down!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_ENEMY_SLOWED">
+			<Text>The enemy unit: {1_UnitName} is slowed down and it will only have 1 [ICON_MOVES] MP left for the next turn due to your Barrage Effect!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_US_SLOWED_SHORT">
+			<Text>A Unit is Slowed Down!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_US_SLOWED">
+			<Text>Your unit: {1_UnitName}  is slowed down and it will only have 1 [ICON_MOVES] MP left for the next turn due to enemy's Barrage Effect!</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_ENEMY_STOPPED_SHORT">
+			<Text>Enemy Pinned Down!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_ENEMY_STOPPED">
+			<Text>The enemy unit: {1_UnitName} has lost all [ICON_MOVES] MP for the next turn due to your Barrage Effect or Close Quarters Combat Effect!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_US_STOPPED_SHORT">
+			<Text>A Unit is Pinned Down!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_US_STOPPED">
+			<Text>Your unit: {1_UnitName} has lost all [ICON_MOVES] MP next turn due to enemy's Barrage Effect or Close Quarters Combat Effect!</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_ENEMY_MORAL_WEAKEN_SHORT">
+			<Text>Enemy Demoralized!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_ENEMY_MORAL_WEAKEN">
+			<Text>The enemy unit: {1_UnitName} -25% attack strength due to your Collateral Damage Effect!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_US_MORAL_WEAKEN_SHORT">
+			<Text>A Unit is Demoralized!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_US_MORAL_WEAKEN">
+			<Text>Your unit: {1_UnitName} -25% attack strength due to enemy's Collateral Damage Effect!</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_ENEMY_SUPPLY_DESTROYED_SHORT">
+			<Text>Enemy's Supply Lines Sabotaged!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_ENEMY_SUPPLY_DESTROYED">
+			<Text>The Supply of the enemy unit: {1_UnitName} is destroyed! It will suffer -20 Hp if Ends Turn outside of Friendly Territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_US_SUPPLY_DESTROYED_SHORT">
+			<Text>Your Supply Lines Sabotaged!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_US_SUPPLY_DESTROYED">
+			<Text>Your unit: {1_UnitName} -25% attack strength due to enemy's Collateral Damage Effect! It will suffer -20 Hp if Ends Turn outside of Friendly Territory.</Text>
+		</Row>
+		
+		
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_ENEMY_SUNDERED_SHORT">
+			<Text>Enemy Sundered!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_ENEMY_SUNDERED">
+			<Text>The enemy unit: {1_UnitName} -25% defense strength due to your Sunder Effect!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_US_SUNDERED_SHORT">
+			<Text>A Unit is Sundered!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_US_SUNDERED">
+			<Text>Your unit: {1_UnitName} -25% defense strength due to enemy's Sunder Effect!</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_UNIT_US_EMP_SHORT">
+			<Text>Your Units are Attacked by EMP!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_UNIT_US_EMP">
+			<Text>Your unit: {1_UnitName} and all untis nearby will lose all of their MP for the next turn due to the EMP attack!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_UNIT_ENEMY_EMP_SHORT">
+			<Text>EMP Attack Successful!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_UNIT_ENEMY_EMP">
+			<Text>The Enemy unit: {1_UnitName} and all untis nearby will lose all of their MP for the next turn due to the EMP attack!</Text>
+		</Row>
+
+		
+		
+
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_AIRSWEEP_KILLED_BY_ENEMY">
+			<Text>Your {@1_name} is shot down by an enemy's Anti-Air unit while performing an air-sweep!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_AIRSWEEP_TO_ENEMY">
+			<Text>We did [COLOR_POSITIVE_TEXT]{@1_num}[ENDCOLOR] Damage to the enemy {@2_name} while performing an air-sweep!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_AIRSWEEP_KILLED_ENEMY_FIGHTER">
+			<Text>We destroyed an enemy's {@1_name} when it was performing an air-sweep against us!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_AIRSWEEP_KILLED_ENEMY_AA">
+			<Text>We destroyed an enemy's {@1_name} in this air-sweep!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_AIRSWEEP_AA_KILLED_BY_ENEMY">
+			<Text>Your {@1_name} is killed by an enemy's Air Superiority Fighter performing an air-sweep against us!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_NOTIFICATION_AIRSWEEP_BY_ENEMY">
+			<Text>Your {@1_name} suffered [COLOR_NEGATIVE_TEXT]{@2_num}[ENDCOLOR] Damage by an enemy's Air Superiority Fighter performing an air-sweep against us!</Text>
+		</Row>
+		
+		
+		
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_SATELLITE_LAUNCHING_SHORT">
+			<Text>Launch Satellite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_SATELLITE_LAUNCHING">
+			<Text>
+				Launch this Satellite Unit into Orbit to make it functional.
+				[NEWLINE][NEWLINE]The Satellite Unit must be stationed in the [ICON_CAPITAL] Capital for launching.
+				[NEWLINE][NEWLINE]This Satellite Unit will be consumed.</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_SP_UI_BTN_AIR_RECON_SHORT">
+			<Text>
+				Perform Long-range Reconnaissance Mission
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_UI_BTN_AIR_RECON">
+			<Text>Order this Strategic reconnaissance aircraft to Perform a Long-range Reconnaissance Mission to gather intel, which will offer a temporarily Combat Bonus (+25%) for all of your [COLOR_POSITIVE_TEXT]Aircrafts[ENDCOLOR] in this turn. This order will consume all [ICON_MOVES] Movement left of this unit in this turn.</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_SP_BTNNOTE_GLOBAL_STRIKE_SHORT">
+			<Text>
+				Start Global Kinetic rbital Strike
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_GLOBAL_STRIKE">
+			<Text>Order the satellites loaded with tungsten rods to attack enemy's cities. Once the tungsten rods launched, every enemy city's health will immediately drop to 0.</Text>
+		</Row>
+
+
+		<!--************************Satellite Units*******************************-->
+		
+		
+		
+
+
+
+		<!--<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_ESCORTING">
+			<Text>Escort Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_ESCORTING_TIP">
+			<Text>Make this unit Escort the other unit(ranged or civilian) in the same tile with it. In the escort mode, this unit will automatically follow its protected unit and keep fortifying(if it can). However when its protected unit moves, you can no longer control this unit in this turn. If you move this unit away from its protected unit, it will quit the escort mode.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_ESCORTING_QUIT">
+			<Text>Cancel Escort Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_BTNNOTE_UNIT_ESCORTING_QUIT_TIP">
+			<Text>Cancel Escorting. It will no longer follow its previous protected unit.</Text>
+		</Row>-->
+	</Language_en_US>
+
+
+	<!--************************Purchase Missiles on units*******************************-->
+	<Language_en_US>
+		<Row>
+			<Tag>TXT_KEY_SP_BTNNOTE_QUICK_BUY_MISSILE_SHORT</Tag>
+			<Text>Quick Missile Purchase</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_SP_BTNNOTE_QUICK_BUY_MISSILE</Tag>
+			<Text>Purchase a Missile and load it on this Unit. Requires 1000[ICON_GOLD] Gold (no discount!).</Text>
+		</Row>
+
+
+	</Language_en_US>
+	
+
+	</GameData>

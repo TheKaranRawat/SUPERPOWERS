@@ -1,0 +1,216 @@
+
+manpower = 42
+elec = 43
+consumer goods = 44	
+
+
+
+
+local function CreateIcon( index, texture, ToolTipHandler, OnLClick, OnRClick, void1 )
+	
+	local instance = {}
+	ContextPtr:BuildInstanceForControlAtIndex( "ResourceInstance", instance, Controls.TopPanelDiploStack, index )
+	instance.Image:SetTexture( texture )
+	instance.Image:SetTextureSizeVal( 160, 160 )
+	instance.Image:NormalizeTexture()
+	if ToolTipHandler then
+		
+		instance.Count:SetToolTipType()
+	else
+		instance.Count:SetToolTipType()
+	end
+	instance.Count:RegisterCallback( eLClick, OnLClick )
+	instance.Count:RegisterCallback( eRClick, OnRClick )
+	instance.Count:SetVoid1( void1 )
+	return instance
+end
+
+
+
+
+function UpdateData()
+
+	local iPlayerID = Game.GetActivePlayer();
+
+	if( iPlayerID >= 0 ) then
+		local pPlayer = Players[iPlayerID];
+		local pTeam = Teams[pPlayer:GetTeam()];
+		local pCity = UI.GetHeadSelectedCity();
+		
+		if (pPlayer:GetNumCities() > 0) then
+			
+			Controls.TopPanelInfoStack:SetHide(false);
+			
+			if (pCity ~= nil and UI.IsCityScreenUp()) then		
+				Controls.MenuButton:SetText(Locale.ToUpper(Locale.ConvertTextKey("TXT_KEY_RETURN")));
+				Controls.MenuButton:SetToolTipString(Locale.ConvertTextKey("TXT_KEY_CITY_SCREEN_EXIT_TOOLTIP"));
+			else
+				
+			end
+
+			-----------------------------
+			-- Update Resources
+			-----------------------------
+			local pResource;
+			local bShowResource;
+			local iNumAvailable;
+			local iNumUsed;
+			local iNumTotal;
+			
+			local strResourceText = "";
+			local strTempText = "";
+			
+			for pResource in GameInfo.Resources() do
+				local iResourceLoop = pResource.ID;
+				
+				if (Game.GetResourceUsageType(iResourceLoop) == ResourceUsageTypes.RESOURCEUSAGE_STRATEGIC) then
+					
+					bShowResource = false;
+					
+					if (pTeam:GetTeamTechs():HasTech(GameInfoTypes[pResource.TechReveal])) then
+						if (pTeam:GetTeamTechs():HasTech(GameInfoTypes[pResource.TechCityTrade])) then
+							bShowResource = true;
+						end
+					end
+					
+					iNumAvailable = pPlayer:GetNumResourceAvailable(iResourceLoop, true);
+					iNumUsed = pPlayer:GetNumResourceUsed(iResourceLoop);
+					iNumTotal = pPlayer:GetNumResourceTotal(iResourceLoop, true);
+					
+					-------SP Hide Electricity before Tech------
+					
+					if (iNumUsed > 0 and iNumTotal > 0) then
+						bShowResource = true;
+					end
+					
+						-------SP Hide Electricity before Tech END------	
+					
+							
+					if (bShowResource) then
+						local text = Locale.ConvertTextKey(pResource.IconString);
+						strTempText = string.format("%i %s", iNumAvailable, text);
+						
+						-- Colorize for amount available
+						if (iNumAvailable > 0) then
+							strTempText = "[COLOR_POSITIVE_TEXT]".. strTempText .."[ENDCOLOR] ";
+						elseif (iNumAvailable < 0) then
+							strTempText = "[COLOR_WARNING_TEXT]".. strTempText .."[ENDCOLOR] ";
+						end
+						
+						strResourceText = strResourceText .. strTempText;
+					end
+				end
+			end
+			
+			Controls.ResourceString:SetText(strResourceText);
+			
+		-- No Cities, so hide science
+		else
+			
+			Controls.TopPanelInfoStack:SetHide(true);
+			
+		end
+	end
+end
+
+
+------- backup working resource display
+
+
+function UpdateData()
+
+	local iPlayerID = Game.GetActivePlayer();
+
+	if( iPlayerID >= 0 ) then
+		local pPlayer = Players[iPlayerID];
+		local pTeam = Teams[pPlayer:GetTeam()];
+		local pCity = UI.GetHeadSelectedCity();
+		
+		if (pPlayer:GetNumCities() > 0) then
+			
+			Controls.TopPanelInfoStack:SetHide(false);
+			
+			if (pCity ~= nil and UI.IsCityScreenUp()) then		
+				Controls.MenuButton:SetText(Locale.ToUpper(Locale.ConvertTextKey("TXT_KEY_RETURN")));
+				Controls.MenuButton:SetToolTipString(Locale.ConvertTextKey("TXT_KEY_CITY_SCREEN_EXIT_TOOLTIP"));
+			else
+				
+			end
+
+			-----------------------------
+			-- Update Resources
+			-----------------------------
+			local pResource;
+			local bShowResource;
+			local iNumAvailable;
+			local iNumUsed;
+			local iNumTotal;
+			
+			local strResourceText = "";
+			local strTempText = "";
+			
+			for pResource in GameInfo.Resources() do
+				local iResourceLoop = pResource.ID;
+				
+				if (Game.GetResourceUsageType(iResourceLoop) == ResourceUsageTypes.RESOURCEUSAGE_STRATEGIC) then
+					
+					bShowResource = false;
+					
+					if (pTeam:GetTeamTechs():HasTech(GameInfoTypes[pResource.TechReveal])) then
+						if (pTeam:GetTeamTechs():HasTech(GameInfoTypes[pResource.TechCityTrade])) then
+							bShowResource = true;
+						end
+					end
+					
+					iNumAvailable = pPlayer:GetNumResourceAvailable(iResourceLoop, true);
+					iNumUsed = pPlayer:GetNumResourceUsed(iResourceLoop);
+					iNumTotal = pPlayer:GetNumResourceTotal(iResourceLoop, true);
+					
+					-------SP Hide Electricity before Tech------
+					
+					if (iNumUsed > 0 and iNumTotal > 0) then
+						bShowResource = true;
+					end
+					
+						-------SP Hide Electricity before Tech END------	
+					
+							
+					if (bShowResource) then
+						local text = Locale.ConvertTextKey(pResource.IconString);
+						strTempText = string.format("%i %s", iNumAvailable, text);
+						
+						-- Colorize for amount available
+						if (iNumAvailable > 0) then
+							strTempText = "[COLOR_POSITIVE_TEXT]".. strTempText .."[ENDCOLOR] ";
+						elseif (iNumAvailable < 0) then
+							strTempText = "[COLOR_WARNING_TEXT]".. strTempText .."[ENDCOLOR] ";
+						end
+						
+						strResourceText = strResourceText .. strTempText;
+					end
+				end
+			end
+			
+			Controls.ResourceString:SetText(strResourceText);
+			
+		-- No Cities, so hide science
+		else
+			
+			Controls.TopPanelInfoStack:SetHide(true);
+			
+		end
+	end
+end
+
+function OnTopPanelDirty()
+	UpdateData();
+end
+
+-- Register Events
+Events.SerialEventGameDataDirty.Add(OnTopPanelDirty);
+Events.SerialEventTurnTimerDirty.Add(OnTopPanelDirty);
+Events.SerialEventCityInfoDirty.Add(OnTopPanelDirty);
+
+-- Update data at initialization
+UpdateData();
+DoInitTooltips();

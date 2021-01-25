@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/21/2013 8:42:01 AM -->
+<GameData>
+
+	<!--***************************************AI Strategy Flavors************************************************-->
+	<AIMilitaryStrategies>
+		<Update>
+			<Set TechObsolete="TECH_CONSTRUCTION"/>
+			<Where TechObsolete="TECH_ARCHERY"/>
+		</Update>
+
+		<Update>
+			<Set CheckTriggerTurnCount="1"/>
+			<Where CheckTriggerTurnCount="2"/>
+		</Update>
+		<Update>
+			<Set MinimumNumTurnsExecuted="1"/>
+			<Where MinimumNumTurnsExecuted="2"/>
+		</Update>
+	</AIMilitaryStrategies>
+
+	<AICityStrategies>
+		<Update>
+			<Set CheckTriggerTurnCount="1" MinimumNumTurnsExecuted="1"/>
+			<Where Type="AICITYSTRATEGY_NEED_TILE_IMPROVERS"/>
+		</Update>
+		<Update>
+			<Set CheckTriggerTurnCount="1" MinimumNumTurnsExecuted="1"/>
+			<Where Type="AICITYSTRATEGY_WANT_TILE_IMPROVERS"/>
+		</Update>
+		<Update>
+			<Set CheckTriggerTurnCount="1" MinimumNumTurnsExecuted="1"/>
+			<Where Type="AICITYSTRATEGY_NEED_IMPROVEMENT_FOOD"/>
+		</Update>
+		<Update>
+			<Set CheckTriggerTurnCount="1" MinimumNumTurnsExecuted="1"/>
+			<Where Type="AICITYSTRATEGY_CAPITAL_UNDER_THREAT"/>
+		</Update>
+		
+		<Update>
+			<Set TechPrereq="TECH_WRITING"/>
+			<Where TechPrereq="TECH_DRAMA"/>
+		</Update>
+		<Update>
+			<Set TechPrereq="NULL"/>
+			<Where Type="AICITYSTRATEGY_FIRST_FAITH_BUILDING"/>
+		</Update>
+		<Update>
+			<Set TechPrereq="TECH_ANIMAL_HUSBANDRY"/>
+			<Where Type="AICITYSTRATEGY_FIRST_PRODUCTION_BUILDING"/>
+		</Update>
+		<Update>
+			<Set TechPrereq="TECH_FLIGHT"/>
+			<Where Type="AICITYSTRATEGY_GOOD_AIRLIFT_CITY"/>
+		</Update>
+	</AICityStrategies>
+
+
+	<AICityStrategy_Flavors>
+		<Update>
+			<Set Flavor="500"/>
+			<Where AICityStrategyType="AICITYSTRATEGY_CAPITAL_UNDER_THREAT" FlavorType="FLAVOR_DEFENSE"/>
+		</Update>
+		<Update>
+			<Set Flavor="2000"/>
+			<Where AICityStrategyType="AICITYSTRATEGY_CAPITAL_UNDER_THREAT" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+		</Update>
+	</AICityStrategy_Flavors>
+
+	<AIEconomicStrategy_Player_Flavors>
+		<Update>
+			<Set Flavor="2"/>
+			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_TECH_LEADER" FlavorType="FLAVOR_ESPIONAGE"/>
+		</Update>
+	</AIEconomicStrategy_Player_Flavors>
+	
+
+	<AIEconomicStrategy_City_Flavors>
+		<Update>
+			<Set Flavor="-500"/>
+			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_TOO_MANY_UNITS" FlavorType="FLAVOR_OFFENSE"/>
+		</Update>
+		<Update>
+			<Set Flavor="-500"/>
+			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_TOO_MANY_UNITS" FlavorType="FLAVOR_RANGED"/>
+		</Update>
+		<Update>
+			<Set Flavor="-500"/>
+			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_TOO_MANY_UNITS" FlavorType="FLAVOR_MOBILE"/>
+		</Update>
+		<Update>
+			<Set Flavor="-500"/>
+			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_TOO_MANY_UNITS" FlavorType="FLAVOR_RECON"/>
+		</Update>
+		<Update>
+			<Set Flavor="-500"/>
+			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_TOO_MANY_UNITS" FlavorType="FLAVOR_NAVAL"/>
+		</Update>
+		<Update>
+			<Set Flavor="550"/>
+			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_TOO_MANY_UNITS" FlavorType="FLAVOR_GROWTH"/>
+		</Update>
+		<Update>
+			<Set Flavor="450"/>
+			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_TOO_MANY_UNITS" FlavorType="FLAVOR_CULTURE"/>
+		</Update>
+		<Update>
+			<Set Flavor="250"/>
+			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_TOO_MANY_UNITS" FlavorType="FLAVOR_WONDER"/>
+		</Update>
+
+		<Update>
+			<Set Flavor="-3000"/>
+			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_ENOUGH_ARCHAEOLOGISTS" FlavorType="FLAVOR_ARCHAEOLOGY"/>
+		</Update>
+
+		<Update>
+			<Set Flavor="30"/>
+			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_GS_CONQUEST" FlavorType="FLAVOR_AIR"/>
+		</Update>
+		<Update>
+			<Set Flavor="30"/>
+			<Where AIEconomicStrategyType="FLAVOR_MILITARY_TRAINING" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+		</Update>
+		<Update>
+			<Set Flavor="250"/>
+			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_GS_CONQUEST" FlavorType="FLAVOR_OFFENSE"/>
+		</Update>
+		<Update>
+			<Set Flavor="50"/>
+			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_GS_SPACESHIP_HOMESTRETCH" FlavorType="FLAVOR_SPACESHIP"/>
+		</Update>
+		<Update>
+			<Set Flavor="100"/>
+			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_ISLAND_START" FlavorType="FLAVOR_NAVAL"/>
+		</Update>
+		<Update>
+			<Set Flavor="100"/>
+			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_ISLAND_START" FlavorType="FLAVOR_NAVAL_TILE_IMPROVEMENT"/>
+		</Update>
+		
+
+	</AIEconomicStrategy_City_Flavors>
+
+
+	<CitySpecialization_Flavors>
+		<Update>
+			<Set Flavor="3000"/>
+			<Where AICityStrategyType="CITYSPECIALIZATION_EMERGENCY_UNITS" FlavorType="FLAVOR_DEFENSE"/>
+		</Update>
+		<Update>
+			<Set Flavor="1250"/>
+			<Where AICityStrategyType="CITYSPECIALIZATION_EMERGENCY_UNITS" FlavorType="FLAVOR_RANGED"/>
+		</Update>
+		<Update>
+			<Set Flavor="1250"/>
+			<Where AICityStrategyType="CITYSPECIALIZATION_EMERGENCY_UNITS" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+		</Update>
+		<Update>
+			<Set Flavor="1250"/>
+			<Where AICityStrategyType="CITYSPECIALIZATION_EMERGENCY_UNITS" FlavorType="FLAVOR_NAVAL"/>
+		</Update>
+		<Update>
+			<Set Flavor="200"/>
+			<Where AICityStrategyType="CITYSPECIALIZATION_PRODUCTION_SPACESHIP" FlavorType="FLAVOR_SPACESHIP"/>
+		</Update>
+		</CitySpecialization_Flavors>
+	
+	
+	
+	
+	
+	
+	
+
+	<AIMilitaryStrategy_Player_Flavors>
+		<Update>
+			<Set Flavor="-500"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_ENOUGH_NAVAL_UNITS" FlavorType="FLAVOR_NAVAL"/>
+		</Update>		
+		<Update>
+			<Set Flavor="-500"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_EMPIRE_DEFENSE_CRITICAL" FlavorType="FLAVOR_WONDER"/>
+		</Update>
+		<Update>
+			<Set Flavor="350"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_EMPIRE_DEFENSE_CRITICAL" FlavorType="FLAVOR_DEFENSE"/>
+		</Update>
+		<Update>
+			<Set Flavor="180"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_NEED_NAVAL_UNITS_CRITICAL" FlavorType="FLAVOR_NAVAL"/>
+		</Update>
+		<Update>
+			<Set Flavor="150"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_AT_WAR" FlavorType="FLAVOR_OFFENSE"/>
+		</Update>
+		<Update>
+			<Set Flavor="40"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_AT_WAR" FlavorType="FLAVOR_DEFENSE"/>
+		</Update>
+		<Update>
+			<Set Flavor="90"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_AT_WAR" FlavorType="FLAVOR_MOBILE"/>
+		</Update>
+		<Update>
+			<Set Flavor="60"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_AT_WAR" FlavorType="FLAVOR_RANGED"/>
+		</Update>
+		<Update>
+			<Set Flavor="70"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_AT_WAR" FlavorType="FLAVOR_NAVAL"/>
+		</Update>
+		<Update>
+			<Set Flavor="80"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_AT_WAR" FlavorType="FLAVOR_AIR"/>
+		</Update>
+		<Update>
+			<Set Flavor="-20"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_AT_WAR" FlavorType="FLAVOR_WONDER"/>
+		</Update>
+
+		<Update>
+			<Set Flavor="200"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_NEED_RANGED" FlavorType="FLAVOR_RANGED"/>
+		</Update>
+		<Update>
+			<Set Flavor="300"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_NEED_MOBILE" FlavorType="FLAVOR_MOBILE"/>
+		</Update>
+		<Update>
+			<Set Flavor="150"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_NEED_AIR" FlavorType="FLAVOR_AIR"/>
+		</Update>
+		<Update>
+			<Set Flavor="85"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_NEED_ANTIAIR" FlavorType="FLAVOR_ANTIAIR"/>
+		</Update>
+
+	</AIMilitaryStrategy_Player_Flavors>
+	
+	<AIMilitaryStrategy_City_Flavors>
+		<Update>
+			<Set Flavor="-200"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_ENOUGH_MILITARY_UNITS"/>
+		</Update>
+		<Update>
+			<Set Flavor="60"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_EMPIRE_DEFENSE" FlavorType="FLAVOR_DEFENSE"/>
+		</Update>
+		<Update>
+			<Set Flavor="15"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_EMPIRE_DEFENSE" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+		</Update>
+		<Update>
+			<Set Flavor="200"/>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_EMPIRE_DEFENSE_CRITICAL" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+		</Update>
+
+
+
+	</AIMilitaryStrategy_City_Flavors>
+	
+	
+	<!--***************************************AI Tactical Moves************************************************-->
+
+
+	<TacticalMoves>
+		<Update>
+			<Set Priority="80"/>
+			<Where Type="TACTICAL_MOVE_NONCOMBATANTS_TO_SAFETY" />
+		</Update>
+		<Update>
+			<Set Priority="1"/>
+			<Where Type="TACTICAL_PILLAGE_CITADEL" />
+		</Update>
+		<Update>
+			<Set Priority="100"/>
+			<Where Type="TACTICAL_PILLAGE_RESOURCE" />
+		</Update>
+		<Update>
+			<Set Priority="25"/>
+			<Where Type="TACTICAL_PILLAGE" />
+		</Update>
+
+		
+		<Update>
+			<Set Priority="300"/>
+			<Where Type="TACTICAL_CAPTURE_CITY" />
+		</Update>
+		<Update>
+			<Set Priority="40"/>
+			<Where Type="TACTICAL_DAMAGE_CITY" />
+		</Update>
+		<Update>
+			<Set Priority="500" DefenseFlavorWeight="200"/>
+			<Where Type="TACTICAL_DESTROY_HIGH_UNIT" />
+		</Update>
+		<Update>
+			<Set Priority="225" DefenseFlavorWeight="200"/>
+			<Where Type="TACTICAL_DESTROY_MEDIUM_UNIT" />
+		</Update>
+		<Update>
+			<Set Priority="120" DefenseFlavorWeight="200"/>
+			<Where Type="TACTICAL_DESTROY_LOW_UNIT" />
+		</Update>
+		<Update>
+			<Set Priority="0" DefenseFlavorWeight="0"/>
+			<Where Type="TACTICAL_TO_SAFETY" />
+		</Update>
+		<Update>
+			<Set Priority="0"/>
+			<Where Type="TACTICAL_POSTURE_WITHDRAW" />
+		</Update>
+		<Update>
+			<Set Priority="335"/>
+			<Where Type="TACTICAL_SAFE_BOMBARDS" />
+		</Update>
+		<Update>
+			<Set Priority="370"/>
+			<Where Type="TACTICAL_AIR_SWEEP" />
+		</Update>
+		<Update>
+			<Set Priority="375"/>
+			<Where Type="TACTICAL_AIR_INTERCEPT" />
+		</Update>
+		<Update>
+			<Set Priority="1"/>
+			<Where Type="TACTICAL_AIR_REBASE" />
+		</Update>
+		<Update>
+			<Set Priority="150"/>
+			<Where Type="TACTICAL_POSTURE_SHORE_BOMBARDMENT" />
+		</Update>
+		<Update>
+			<Set Priority="9000"/>
+			<Where Type="TACTICAL_EMERGENCY_PURCHASES" />
+		</Update>
+		<Update>
+			<Set Priority="350"/>
+			<Where Type="TACTICAL_ESCORT_EMBARKED_UNIT" />
+		</Update>
+		<Update>
+			<Set Priority="15"/>
+			<Where Type="TACTICAL_PLUNDER_TRADE_UNIT" />
+		</Update>
+		<Update>
+			<Set Priority="0"/>
+			<Where Type="TACTICAL_REPOSITION" />
+		</Update>
+		<Update>
+			<Set Priority="0"/>
+			<Where Type="TACTICAL_HEAL" />
+		</Update>
+		<Update>
+			<Set Priority="75"/>
+			<Where Type="TACTICAL_BASTION_ALREADY_THERE" />
+		</Update>
+		<Update>
+			<Set Priority="175"/>
+			<Where Type="TACTICAL_BASTION_1_TURN" />
+		</Update>
+		
+	</TacticalMoves>
+
+
+
+
+	<!--***************************************AI Defines************************************************-->>
+
+
+
+	<Defines>
+		<Update>
+			<Set Value="1"/>
+			<Where Name="FLAVOR_RANDOMIZATION_RANGE" />
+		</Update>
+		<Update>
+			<Set Value="300"/>
+			<Where Name="AI_GS_CULTURE_INFLUENTIAL_CIV_MOD" />
+		</Update>
+		<Update>
+			<Set Value="100"/>
+			<Where Name="AI_STRATEGY_MINIMUM_SETTLE_FERTILITY" />
+		</Update>
+		<Update>
+			<Set Value="9000"/>
+			<Where Name="AI_GOLD_PRIORITY_UPGRADE_BASE" />
+		</Update>
+		<Update>
+			<Set Value="1500"/>
+			<Where Name="AI_GOLD_PRIORITY_DIPLOMACY_BASE" />
+		</Update>
+		<Update>
+			<Set Value="9000"/>
+			<Where Name="AI_GOLD_PRIORITY_UNIT" />
+		</Update>
+		<Update>
+			<Set Value="2500"/>
+			<Where Name="AI_GOLD_PRIORITY_BUYOUT_CITY_STATE" />
+		</Update>
+		<Update>
+			<Set Value="3"/>
+			<Where Name="BUILDER_TASKING_PLOT_EVAL_MULTIPLIER_CULTURE" />
+		</Update>
+		<Update>
+			<Set Value="1.0"/>
+			<Where Name="AI_STRATEGY_DEFEND_MY_LANDS_UNITS_PER_CITY" />
+		</Update>
+		<Update>
+			<Set Value="1"/>
+			<Where Name="AI_STRATEGY_DEFEND_MY_LANDS_BASE_UNITS" />
+		</Update>
+		<Update>
+			<Set Value="0"/>
+			<Where Name="AI_STRATEGY_MILITARY_RESERVE_PERCENTAGE" />
+		</Update>
+		<Update>
+			<Set Value="10"/>
+			<Where Name="AI_HOMELAND_MOVE_PRIORITY_WORKER" />
+		</Update>
+		<Update>
+			<Set Value="1"/>
+			<Where Name="AI_HOMELAND_MOVE_PRIORITY_TO_SAFETY" />
+		</Update>
+		<Update>
+			<Set Value="100"/>
+			<Where Name="AI_HOMELAND_MOVE_PRIORITY_GENERAL_GARRISON" />
+		</Update>
+		<Update>
+			<Set Value="100"/>
+			<Where Name="AI_HOMELAND_MOVE_PRIORITY_ADMIRAL_GARRISON" />
+		</Update>
+
+	</Defines>
+
+
+	<!--***************************************Minor Civ Defines************************************************-->
+	<Defines>
+
+		
+		
+		<Update>
+			<Set Value="-400"/>
+			<Where Name="MINOR_FRIENDSHIP_DROP_PER_TURN_AGGRESSOR" />
+		</Update>
+		<Update>
+			<Set Value="-8000"/>
+			<Where Name="MINOR_FRIENDSHIP_DROP_DISHONOR_PLEDGE_TO_PROTECT" />
+		</Update>
+		<Update>
+			<Set Value="60"/>
+			<Where Name="MINOR_QUEST_FRIENDSHIP_CONTEST_CULTURE" />
+		</Update>
+		<Update>
+			<Set Value="60"/>
+			<Where Name="MINOR_QUEST_FRIENDSHIP_CONTEST_FAITH" />
+		</Update>
+		<Update>
+			<Set Value="60"/>
+			<Where Name="MINOR_QUEST_FRIENDSHIP_CONTEST_TECHS" />
+		</Update>
+		<Update>
+			<Set Value="80"/>
+			<Where Name="MINOR_QUEST_FRIENDSHIP_DENOUNCE_MAJOR" />
+		</Update>
+		<Update>
+			<Set Value="80"/>
+			<Where Name="MINOR_QUEST_FRIENDSHIP_SPREAD_RELIGION" />
+		</Update>
+		<Update>
+			<Set Value="60"/>
+			<Where Name="MINOR_QUEST_FRIENDSHIP_TRADE_ROUTE" />
+		</Update>
+		<Update>
+			<Set Value="30"/>
+			<Where Name="MINOR_QUEST_FRIENDSHIP_FIND_PLAYER" />
+		</Update>
+		<Update>
+			<Set Value="40"/>
+			<Where Name="MINOR_QUEST_FRIENDSHIP_FIND_NATURAL_WONDER" />
+		</Update>
+		<Update>
+			<Set Value="100"/>
+			<Where Name="MINOR_QUEST_FRIENDSHIP_CONSTRUCT_WONDER" />
+		</Update>
+		<Update>
+			<Set Value="90"/>
+			<Where Name="MINOR_QUEST_FRIENDSHIP_GREAT_PERSON" />
+		</Update>
+		<Update>
+			<Set Value="18.8"/>
+			<Where Name="GOLD_GIFT_FRIENDSHIP_DIVISOR" />
+		</Update>
+		<Update>
+			<Set Value="2"/>
+			<Where Name="MINOR_CIV_GOLD_GIFT_GAME_MULTIPLIER" />
+		</Update>
+		<Update>
+			<Set Value="3"/>
+			<Where Name="MINOR_CIV_GOLD_GIFT_GAME_DIVISOR" />
+		</Update>
+		<Update>
+			<Set Value="5"/>
+			<Where Name="MINOR_CIV_GLOBAL_QUEST_MIN_TURNS_BETWEEN" />
+		</Update>
+		<Update>
+			<Set Value="10"/>
+			<Where Name="MINOR_CIV_GLOBAL_QUEST_RAND_TURNS_BETWEEN" />
+		</Update>
+		<Update>
+			<Set Value="80"/>
+			<Where Name="RETURN_CIVILIAN_FRIENDSHIP" />
+		</Update>
+		<Update>
+			<Set Value="300"/>
+			<Where Name="MINOR_LIBERATION_FRIENDSHIP" />
+		</Update>
+		
+	</Defines>
+	<!--***************************************IDEOLOGY Defines************************************************-->
+	<Defines>
+	<Update>
+		<Set Value="0.99"/>
+		<Where Name="NORMAL_ANNEX" />
+	</Update>
+	<Update>
+		<Set Value="0.99"/>
+		<Where Name="AGGRESSIVE_ANNEX" />
+	</Update>
+	<Update>
+		<Set Value="25"/>
+		<Where Name="IDEOLOGY_PERCENT_CLEAR_VICTORY_PREF" />
+	</Update>
+		<!--<Update>
+		<Set Value="20"/>
+		<Where Name="IDEOLOGY_SCORE_GRAND_STRATS" />
+	</Update>-->
+	<Update>
+		<Set Value="0"/>
+		<Where Name="IDEOLOGY_SCORE_HAPPINESS" />
+	</Update>
+
+	</Defines>
+	<!--***************************************AI Opinions************************************************-->
+	<Defines>
+		<!--<Update>
+			<Set Value="5"/>
+			<Where Name="AI_BUY_PLOT_TEST_PROBES" />
+		</Update>
+		<Update>
+			<Set Value="5000"/>
+			<Where Name="AI_GOLD_PRIORITY_MINIMUM_PLOT_BUY_VALUE" />
+		</Update>
+		<Update>
+			<Set Value="5000"/>
+			<Where Name="AI_GOLD_BALANCE_TO_HALVE_PLOT_BUY_MINIMUM" />
+		</Update>-->
+
+
+		<Update>
+			<Set Value="500"/>
+			<Where Name="MC_GIFT_WEIGHT_ALMOST_NOT_ALLIES" />
+		</Update>
+		<Update>
+			<Set Value="80"/>
+			<Where Name="MC_GIFT_WEIGHT_NEIGHBORS" />
+		</Update>
+		<Update>
+			<Set Value="10"/>
+			<Where Name="MC_GIFT_WEIGHT_CLOSE" />
+		</Update>
+
+		<Update>
+			<Set Value="-10"/>
+			<Where Name="OPINION_WEIGHT_LAND_NONE" />
+		</Update>
+		<Update>
+			<Set Value="9999"/>
+			<Where Name="OPINION_WEIGHT_VICTORY_FIERCE" />
+		</Update>
+		<Update>
+			<Set Value="2000"/>
+			<Where Name="OPINION_WEIGHT_VICTORY_STRONG" />
+		</Update>
+		<Update>
+			<Set Value="50"/>
+			<Where Name="OPINION_WEIGHT_VICTORY_WEAK" />
+		</Update>
+		<Update>
+			<Set Value="-45"/>
+			<Where Name="OPINION_WEIGHT_VICTORY_NONE" />
+		</Update>
+		<Update>
+			<Set Value="60"/>
+			<Where Name="OPINION_WEIGHT_WONDER_FIERCE" />
+		</Update>
+		<Update>
+			<Set Value="30"/>
+			<Where Name="OPINION_WEIGHT_WONDER_STRONG" />
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where Name="OPINION_WEIGHT_MINOR_CIV_FIERCE" />
+		</Update>
+		<Update>
+			<Set Value="50"/>
+			<Where Name="OPINION_WEIGHT_MINOR_CIV_STRONG" />
+		</Update>
+		<Update>
+			<Set Value="9999"/>
+			<Where Name="OPINION_WEIGHT_WARMONGER_CRITICAL" />
+		</Update>
+		<Update>
+			<Set Value="3500"/>
+			<Where Name="OPINION_WEIGHT_WARMONGER_SEVERE" />
+		</Update>
+		<Update>
+			<Set Value="1000"/>
+			<Where Name="OPINION_WEIGHT_WARMONGER_MAJOR" />
+		</Update>
+		<Update>
+			<Set Value="50"/>
+			<Where Name="OPINION_WEIGHT_WARMONGER_MINOR" />
+		</Update>
+		<Update>
+			<Set Value="-50"/>
+			<Where Name="OPINION_WEIGHT_WARMONGER_NONE" />
+		</Update>
+		<Update>
+			<Set Value="-50"/>
+			<Where Name="OPINION_WEIGHT_RETURNED_CIVILIAN" />
+		</Update>
+		<Update>
+			<Set Value="-2000"/>
+			<Where Name="OPINION_WEIGHT_RESURRECTED" />
+		</Update>
+		<Update>
+			<Set Value="-5"/>
+			<Where Name="OPINION_WEIGHT_EMBASSY"/>
+		</Update>
+		<Update>
+			<Set Value="-45"/>
+			<Where Name="OPINION_ADOPTING_HIS_RELIGION"/>
+		</Update>
+		<Update>
+			<Set Value="-80"/>
+			<Where Name="OPINION_WEIGHT_ADOPTING_MY_RELIGION"/>
+		</Update>
+		<Update>
+			<Set Value="-8"/>
+			<Where Name="OPINION_WEIGHT_SAME_LATE_POLICIES"/>
+		</Update>
+		<Update>
+			<Set Value="12"/>
+			<Where Name="OPINION_WEIGHT_DIFFERENT_LATE_POLICIES"/>
+		</Update>
+		<Update>
+			<Set Value="120"/>
+			<Where Name="OPINION_WEIGHT_BROKEN_MILITARY_PROMISE"/>
+		</Update>
+		<Update>
+			<Set Value="80"/>
+			<Where Name="OPINION_WEIGHT_BROKEN_MILITARY_PROMISE_WORLD"/>
+		</Update>
+		<Update>
+			<Set Value="80"/>
+			<Where Name="OPINION_WEIGHT_BROKEN_BORDER_PROMISE"/>
+		</Update>
+		<Update>
+			<Set Value="80"/>
+			<Where Name="OPINION_WEIGHT_BROKEN_CITY_STATE_PROMISE"/>
+		</Update>
+		<Update>
+			<Set Value="30"/>
+			<Where Name="OPINION_WEIGHT_BROKEN_CITY_STATE_PROMISE_WORLD"/>
+		</Update>
+		<Update>
+			<Set Value="80"/>
+			<Where Name="OPINION_WEIGHT_BROKEN_SPY_PROMISE"/>
+		</Update>
+		<Update>
+			<Set Value="-35"/>
+			<Where Name="OPINION_WEIGHT_FORGAVE_FOR_SPYINGE"/>
+		</Update>
+		<Update>
+			<Set Value="50"/>
+			<Where Name="OPINION_WEIGHT_BROKEN_NO_CONVERT_PROMISE" />
+		</Update>
+		<Update>
+			<Set Value="100"/>
+			<Where Name="OPINION_WEIGHT_KILLED_PROTECTED_MINOR" />
+		</Update>
+		<Update>
+			<Set Value="-90"/>
+			<Where Name="OPINION_WEIGHT_DOF" />
+		</Update>
+		<Update>
+			<Set Value="250"/>
+			<Where Name="OPINION_WEIGHT_DENOUNCED_ME_FRIENDS" />
+		</Update>
+		<Update>
+			<Set Value="600"/>
+			<Where Name="OPINION_WEIGHT_WAR_ME_FRIENDS" />
+		</Update>
+		<Update>
+			<Set Value="60"/>
+			<Where Name="OPINION_WEIGHT_DENOUNCED_ME" />
+		</Update>
+		<Update>
+			<Set Value="60"/>
+			<Where Name="OPINION_WEIGHT_DENOUNCED_THEM" />
+		</Update>
+		<Update>
+			<Set Value="100"/>
+			<Where Name="OPINION_WEIGHT_RECKLESS_EXPANDER" />
+		</Update>
+		<Update>
+			<Set Value="-60"/>
+			<Where Name="OPINION_WEIGHT_TRADE_MAX" />
+		</Update>
+		<Update>
+			<Set Value="-60"/>
+			<Where Name="OPINION_WEIGHT_COMMON_FOE_MAX" />
+		</Update>
+		<Update>
+			<Set Value="-1600"/>
+			<Where Name="OPINION_WEIGHT_LIBERATED_CAPITAL" />
+		</Update>
+		<Update>
+			<Set Value="1600"/>
+			<Where Name="OPINION_WEIGHT_CAPTURED_CAPITAL" />
+		</Update>
+		<Update>
+			<Set Value="-50"/>
+			<Where Name="OPINION_WEIGHT_WE_LIKED_THEIR_PROPOSAL" />
+		</Update>
+		<Update>
+			<Set Value="90"/>
+			<Where Name="OPINION_WEIGHT_WE_DISLIKED_THEIR_PROPOSAL" />
+		</Update>
+		<Update>
+			<Set Value="15"/>
+			<Where Name="OPINION_WEIGHT_WE_LIKED_THEIR_PROPOSAL_NUM_TURNS" />
+		</Update>
+		<Update>
+			<Set Value="15"/>
+			<Where Name="OPINION_WEIGHT_WE_DISLIKED_THEIR_PROPOSAL_NUM_TURNS" />
+		</Update>
+		<Update>
+			<Set Value="-80"/>
+			<Where Name="OPINION_WEIGHT_THEY_SUPPORTED_OUR_PROPOSAL" />
+		</Update>
+		<Update>
+			<Set Value="15"/>
+			<Where Name="OPINION_WEIGHT_THEY_SUPPORTED_OUR_PROPOSAL_NUM_TURNS" />
+		</Update>		
+		<Update>
+			<Set Value="500"/>
+			<Where Name="OPINION_WEIGHT_THEY_FOILED_OUR_PROPOSAL" />
+		</Update>
+		<Update>
+			<Set Value="15"/>
+			<Where Name="OPINION_WEIGHT_THEY_FOILED_OUR_PROPOSAL_NUM_TURNS" />
+		</Update>
+		<Update>
+			<Set Value="-100"/>
+			<Where Name="OPINION_WEIGHT_THEY_SUPPORTED_OUR_HOSTING" />
+		</Update>
+		<Update>
+			<Set Value="20"/>
+			<Where Name="OPINION_WEIGHT_THEY_SUPPORTED_OUR_HOSTING_NUM_TURNS" />
+		</Update>
+
+		<Update>
+			<Set Value="100"/>
+			<Where Name="OPINION_THRESHOLD_UNFORGIVABLE" />
+		</Update>
+		<Update>
+			<Set Value="-80"/>
+			<Where Name="OPINION_THRESHOLD_ALLY" />
+		</Update>
+
+		<Update>
+			<Set Value="10"/>
+			<Where Name="APPROACH_BIAS_FOR_CURRENT" />
+		</Update>
+		<Update>
+			<Set Value="2"/>
+			<Where Name="APPROACH_RANDOM_PERCENT" />
+		</Update>
+		<Update>
+			<Set Value="30"/>
+			<Where Name="APPROACH_WAR_CONQUEST_GRAND_STRATEGY" />
+		</Update>
+		<Update>
+			<Set Value="80"/>
+			<Where Name="APPROACH_OPINION_UNFORGIVABLE_WAR" />
+		</Update>
+		<Update>
+			<Set Value="15"/>
+			<Where Name="APPROACH_OPINION_ENEMY_WAR" />
+		</Update>
+		<Update>
+			<Set Value="25"/>
+			<Where Name="APPROACH_OPINION_ENEMY_HOSTILE" />
+		</Update>
+		<Update>
+			<Set Value="25"/>
+			<Where Name="APPROACH_OPINION_COMPETITOR_DECEPTIVE" />
+		</Update>
+		<Update>
+			<Set Value="25"/>
+			<Where Name="APPROACH_OPINION_FRIEND_FRIENDLY" />
+		</Update>
+		<Update>
+			<Set Value="35"/>
+			<Where Name="APPROACH_OPINION_ALLY_FRIENDLY" />
+		</Update>
+		<Update>
+			<Set Value="35"/>
+			<Where Name="APPROACH_HOSTILE_WORKING_AGAINST_PLAYER" />
+		</Update>
+		<Update>
+			<Set Value="25"/>
+			<Where Name="APPROACH_WAR_WORKING_AGAINST_PLAYER" />
+		</Update>
+		<Update>
+			<Set Value="25"/>
+			<Where Name="APPROACH_WAR_DENOUNCED" />
+		</Update>
+		<Update>
+			<Set Value="25"/>
+			<Where Name="APPROACH_HOSTILE_DENOUNCED" />
+		</Update>
+		<Update>
+			<Set Value="10"/>
+			<Where Name="APPROACH_AFRAID_MILITARY_THREAT_CRITICAL" />
+		</Update>
+		<Update>
+			<Set Value="25"/>
+			<Where Name="APPROACH_WAR_BROKEN_EXPANSION_PROMISE" />
+		</Update>
+		<Update>
+			<Set Value="20"/>
+			<Where Name="APPROACH_WAR_BROKEN_BORDER_PROMISE" />
+		</Update>
+		<Update>
+			<Set Value="20"/>
+			<Where Name="APPROACH_WAR_BROKEN_CITY_STATE_PROMISE" />
+		</Update>
+		<Update>
+			<Set Value="-1"/>
+			<Where Name="APPROACH_WAR_AT_WAR_WITH_PLAYER_WARS_WINNING" />
+		</Update>
+		<Update>
+			<Set Value="-2"/>
+			<Where Name="APPROACH_WAR_AT_WAR_WITH_PLAYER_WARS_LOSING" />
+		</Update>
+		<Update>
+			<Set Value="8"/>
+			<Where Name="APPROACH_DECEPTIVE_PLANNING_WAR_WITH_ANOTHER_PLAYER" />
+		</Update>
+		<Update>
+			<Set Value="100"/>
+			<Where Name="APPROACH_WAR_PROJECTION_DESTRUCTION_PERCENT" />
+		</Update>
+		<Update>
+			<Set Value="100"/>
+			<Where Name="APPROACH_WAR_PROJECTION_DEFEAT_PERCENT" />
+		</Update>
+		<Update>
+			<Set Value="100"/>
+			<Where Name="APPROACH_WAR_PROJECTION_STALEMATE_PERCENT" />
+		</Update>
+		<Update>
+			<Set Value="100"/>
+			<Where Name="APPROACH_WAR_PROJECTION_UNKNOWN_PERCENT" />
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where Name="APPROACH_WAR_PROJECTION_GOOD_PERCENT" />
+		</Update>
+		<Update>
+			<Set Value="250"/>
+			<Where Name="APPROACH_WAR_PROJECTION_VERY_GOOD_PERCENT" />
+		</Update>
+		<Update>
+			<Set Value="200"/>
+			<Where Name="APPROACH_WAR_HAS_MADE_PEACE_BEFORE_PERCENT" />
+		</Update>
+		<Update>
+			<Set Value="450"/>
+			<Where Name="APPROACH_WAR_RECKLESS_EXPANDER" />
+		</Update>
+		<Update>
+			<Set Value="300"/>
+			<Where Name="APPROACH_WAR_PROXIMITY_NEIGHBORS" />
+		</Update>
+		<Update>
+			<Set Value="100"/>
+			<Where Name="APPROACH_WAR_PROXIMITY_CLOSE" />
+		</Update>
+		<Update>
+			<Set Value="-150"/>
+			<Where Name="APPROACH_WAR_PROXIMITY_FAR" />
+		</Update>
+		<Update>
+			<Set Value="-500"/>
+			<Where Name="APPROACH_WAR_PROXIMITY_DISTANT" />
+		</Update>
+		<Update>
+			<Set Value="150"/>
+			<Where Name="MINOR_APPROACH_WAR_CONQUEST_GRAND_STRATEGY_NEIGHBORS" />
+		</Update>
+
+		<Update>
+			<Set Value="300"/>
+			<Where Name="EVALUATE_WAR_PLAYER_THRESHOLD" />
+		</Update>
+		<Update>
+			<Set Value="350"/>
+			<Where Name="EVALUATE_WAR_CONQUEST_GRAND_STRATEGY" />
+		</Update>
+		<Update>
+			<Set Value="-50"/>
+			<Where Name="EVALUATE_WAR_NOT_PREPARED" />
+		</Update>
+		<Update>
+			<Set Value="-300"/>
+			<Where Name="EVALUATE_WAR_ALREADY_FIGHTING" />
+		</Update>
+		<Update>
+			<Set Value="9000"/>
+			<Where Name="EVALUATE_WAR_GAME_THREAT_CRITICAL" />
+		</Update>
+		<Update>
+			<Set Value="5000"/>
+			<Where Name="EVALUATE_WAR_GAME_THREAT_SEVERE" />
+		</Update>
+		<Update>
+			<Set Value="1000"/>
+			<Where Name="EVALUATE_WAR_GAME_THREAT_MAJOR" />
+		</Update>
+		<Update>
+			<Set Value="-25"/>
+			<Where Name="EVALUATE_WAR_GAME_THREAT_MINOR" />
+		</Update>
+		<Update>
+			<Set Value="-300"/>
+			<Where Name="EVALUATE_WAR_GAME_THREAT_NONE" />
+		</Update>
+		<Update>
+			<Set Value="500"/>
+			<Where Name="EVALUATE_WAR_SOFT_TARGET" />
+		</Update>
+		<Update>
+			<Set Value="250"/>
+			<Where Name="EVALUATE_WAR_FAVORABLE_TARGET" />
+		</Update>
+		<Update>
+			<Set Value="50"/>
+			<Where Name="EVALUATE_WAR_AVERAGE_TARGET" />
+		</Update>
+		<Update>
+			<Set Value="-5"/>
+			<Where Name="EVALUATE_WAR_BAD_TARGET" />
+		</Update>
+		<Update>
+			<Set Value="-50"/>
+			<Where Name="EVALUATE_WAR_IMPOSSIBLE_TARGET" />
+		</Update>
+		<Update>
+			<Set Value="-10"/>
+			<Where Name="WAR_PROJECTION_THRESHOLD_DESTRUCTION" />
+		</Update>		
+		<Update>
+			<Set Value="-5"/>
+			<Where Name="WAR_PROJECTION_THRESHOLD_DEFEAT" />
+		</Update>
+		<Update>
+			<Set Value="-5"/>
+			<Where Name="WAR_PROJECTION_THRESHOLD_STALEMATE" />
+		</Update>
+		<Update>
+			<Set Value="5"/>
+			<Where Name="WAR_PROJECTION_THEIR_MILITARY_STRENGTH_IMMENSE" />
+		</Update>
+		<Update>
+			<Set Value="25"/>
+			<Where Name="WAR_PROJECTION_THEIR_MILITARY_STRENGTH_POWERFUL" />
+		</Update>
+		<Update>
+			<Set Value="100"/>
+			<Where Name="WAR_PROJECTION_THEIR_MILITARY_STRENGTH_STRONG" />
+		</Update>
+		<Update>
+			<Set Value="250"/>
+			<Where Name="WAR_PROJECTION_THEIR_MILITARY_STRENGTH_AVERAGE" />
+		</Update>
+		<Update>
+			<Set Value="250"/>
+			<Where Name="WAR_PROJECTION_THEIR_MILITARY_STRENGTH_POOR" />
+		</Update>
+		<Update>
+			<Set Value="500"/>
+			<Where Name="WAR_PROJECTION_THEIR_MILITARY_STRENGTH_WEAK" />
+		</Update>
+		<Update>
+			<Set Value="1000"/>
+			<Where Name="WAR_PROJECTION_THEIR_MILITARY_STRENGTH_PATHETIC" />
+		</Update>
+		<Update>
+			<Set Value="10"/>
+			<Where Name="WAR_PROJECTION_THEIR_ECONOMIC_STRENGTH_IMMENSE" />
+		</Update>
+		<Update>
+			<Set Value="10"/>
+			<Where Name="WAR_PROJECTION_THEIR_ECONOMIC_STRENGTH_POWERFUL" />
+		</Update>
+		<Update>
+			<Set Value="15"/>
+			<Where Name="WAR_PROJECTION_THEIR_ECONOMIC_STRENGTH_STRONG" />
+		</Update>
+		<Update>
+			<Set Value="20"/>
+			<Where Name="WAR_PROJECTION_THEIR_ECONOMIC_STRENGTH_AVERAGE" />
+		</Update>
+		<Update>
+			<Set Value="25"/>
+			<Where Name="WAR_PROJECTION_THEIR_ECONOMIC_STRENGTH_POOR" />
+		</Update>
+		<Update>
+			<Set Value="55"/>
+			<Where Name="WAR_PROJECTION_THEIR_ECONOMIC_STRENGTH_WEAK" />
+		</Update>
+		<Update>
+			<Set Value="80"/>
+			<Where Name="WAR_PROJECTION_THEIR_ECONOMIC_STRENGTH_PATHETIC" />
+		</Update>
+		<Update>
+			<Set Value="-10"/>
+			<Where Name="WAR_PROJECTION_WAR_DAMAGE_US_CRIPPLED" />
+		</Update>
+		<Update>
+			<Set Value="-5"/>
+			<Where Name="WAR_PROJECTION_WAR_DAMAGE_US_SERIOUS" />
+		</Update>
+		<Update>
+			<Set Value="5"/>
+			<Where Name="WAR_PROJECTION_WAR_DAMAGE_US_MAJOR" />
+		</Update>
+		<Update>
+			<Set Value="15"/>
+			<Where Name="WAR_PROJECTION_WAR_DAMAGE_US_MINOR" />
+		</Update>
+		<Update>
+			<Set Value="45"/>
+			<Where Name="WAR_PROJECTION_WAR_DAMAGE_US_NONE" />
+		</Update>
+		
+		<Update>
+			<Set Value="2500"/>
+			<Where Name="WARMONGER_THREAT_MAJOR_CONQUERED_WEIGHT" />
+		</Update>
+
+		<Update>
+			<Set Value="-25"/>
+			<Where Name="WARMONGER_THREAT_PER_TURN_DECAY" />
+		</Update>
+		
+		
+		<Update>
+			<Set Value="25"/>
+			<Where Name="DENUNCIATION_EXPIRATION_TIME" />
+		</Update>
+		<Update>
+			<Set Value="25"/>
+			<Where Name="DOF_EXPIRATION_TIME" />
+		</Update>
+		<Update>
+			<Set Value="15"/>
+			<Where Name="STOP_SPYING_MEMORY_TURN_EXPIRATION" />
+		</Update>
+
+	</Defines>
+
+
+	
+<!--Minor Gifts-->
+
+	<Defines>
+		<Update>
+			<Set Value="5"/>
+			<Where Name="ALLIES_CULTURE_BONUS_AMOUNT_ANCIENT" />
+		</Update>
+		<Update>
+			<Set Value="10"/>
+			<Where Name="ALLIES_CULTURE_BONUS_AMOUNT_MEDIEVAL" />
+		</Update>
+		<Update>
+			<Set Value="18"/>
+			<Where Name="ALLIES_CULTURE_BONUS_AMOUNT_INDUSTRIAL" />
+		</Update>
+
+
+		<Update>
+			<Set Value="100"/>
+			<Where Name="FRIENDS_CAPITAL_FOOD_BONUS_AMOUNT_PRE_RENAISSANCE" />
+		</Update>
+		<Update>
+			<Set Value="100"/>
+			<Where Name="FRIENDS_CAPITAL_FOOD_BONUS_AMOUNT_POST_RENAISSANCE" />
+		</Update>
+		<!--<Update>
+			<Set Value="100"/>
+			<Where Name="FRIENDS_OTHER_CITIES_FOOD_BONUS_AMOUNT_PRE_RENAISSANCE" />
+		</Update>-->
+		<Update>
+			<Set Value="100"/>
+			<Where Name="FRIENDS_OTHER_CITIES_FOOD_BONUS_AMOUNT_POST_RENAISSANCE" />
+		</Update>
+
+		<Update>
+			<Set Value="200"/>
+			<Where Name="ALLIES_CAPITAL_FOOD_BONUS_AMOUNT" />
+		</Update>
+		<Update>
+			<Set Value="300"/>
+			<Where Name="ALLIES_OTHER_CITIES_FOOD_BONUS_AMOUNT" />
+		</Update>
+
+
+		<Update>
+			<Set Value="8"/>
+			<Where Name="FRIENDS_BASE_TURNS_UNIT_SPAWN" />
+		</Update>
+
+		<Update>
+			<Set Value="5"/>
+			<Where Name="FRIENDS_HAPPINESS_FLAT_BONUS_AMOUNT_INDUSTRIAL" />
+		</Update>
+		
+		<Update>
+			<Set Value="20"/>
+			<Where Name="MINOR_TURNS_GREAT_PEOPLE_SPAWN_BASE" />
+		</Update>
+		<Update>
+			<Set Value="4"/>
+			<Where Name="MINOR_TURNS_GREAT_PEOPLE_SPAWN_RAND" />
+		</Update>
+		
+	</Defines>
+	
+</GameData>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" version="88">
+  <Properties>
+    <Name>DLL - Various Mod Components</Name>
+    <Teaser>Various DLL mod components (1.0.3.279)</Teaser>
+    <Description>IMPORTANT - Only one mod with a replacement DLL may be active at a time.
+
+See http://forums.civfanatics.com/showthread.php?t=479600 for details
+
+Source code can be obtained from https://github.com/whoward69/DLL-VMC</Description>
+    <Authors>William Howard</Authors>
+    <SpecialThanks>Translation: German - Serps; Chinese - CCWB; Japanese - Sub6; Russian - Tomahawk.nsk</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=479600</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Game minversion="1.0.3.279" maxversion="1.0.3.999" />
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="8DBF300FFEC8BB9D400845CA40DD933D" import="1">ART/YieldAtlas_128_GoldenAge.dds</File>
+    <File md5="ABD5FA5416A63C4E062E3F9113215550" import="1">ART/YieldAtlas_128_Tourism.dds</File>
+    <File md5="605D896322957A64E0E21C02E2770A4E" import="0">CustomModOptions.xml</File>
+    <File md5="A53A3F95997B22DE5DABEE779D28BD87" import="0">DB/API/Achievements.xml</File>
+    <File md5="CED75A7C0E55341A72E147F6240929F6" import="0">DB/API/Espionage.xml</File>
+    <File md5="9B4D318C2BB5BEEB0203644FFC335CF6" import="0">DB/API/Extensions.sql</File>
+    <File md5="0A723BCFCE7B3B4FEE8CA09EABF42EA1" import="0">DB/API/PlotBasedDamage.sql</File>
+    <File md5="6D97538D607296FD026A054C09468DD3" import="0">DB/API/PlotYields.xml</File>
+    <File md5="171D943C439080E81764B9F518EE3B07" import="0">DB/API/Religion.xml</File>
+    <File md5="B1C2E8D070A6676AB523D8E7D760B93F" import="0">DB/API/UnifiedYields.sql</File>
+    <File md5="299813F5C446B2AEAD56877E06F48AFF" import="0">DB/API/UnifiedYields.xml</File>
+    <File md5="60667250441FAA04C787A49EAAE388D9" import="0">DB/API/UnifiedYieldsGoldenAge.xml</File>
+    <File md5="B8823C61468A980B0A1E8CC730066C1B" import="0">DB/API/UnifiedYieldsTourism.xml</File>
+    <File md5="6C8B85F8EDA986B1036C6B0C5B603197" import="0">DB/BUGFIX/DummyPolicies.sql</File>
+    <File md5="3649CA4F3817898997E12690F5A49684" import="0">DB/BUGFIX/FeatureRemoval.sql</File>
+    <File md5="53B4ECF0684F8430C1A3E91BED1FBC09" import="0">DB/BUGFIX/GoodyHutMessages.xml</File>
+    <File md5="91A78DC8F7830BE6EE0C7E29FB992F95" import="0">DB/BUGFIX/SpyNames.xml</File>
+    <File md5="FA3BCC26D8997291AEBFFD57DCED931B" import="0">DB/BUGFIX/UnitclassNotUnit.sql</File>
+    <File md5="9F954C2E5D23F83A01A35BCA8FE89DCB" import="0">DB/BUGFIX/UnitclassNotUnit.xml</File>
+    <File md5="2D10840949450F800730858E88D663F1" import="0">DB/CONFIG/AiInXml.sql</File>
+    <File md5="CF15AE6370D731589A34C809995F5F63" import="0">DB/CONFIG/GameInXml.xml</File>
+    <File md5="1B9194202D8BDFD40AB1DB188A1C586E" import="0">DB/CustomModTables.xml</File>
+    <File md5="9B64553226576ACECC3409C52EB8C874" import="0">DB/DIPLOMACY/Stfu.sql</File>
+    <File md5="239FAD6A45BCA4C1B808BEE947FB3B16" import="0">DB/DIPLOMACY/Stfu.xml</File>
+    <File md5="AF6286F99584CA76E095A460820246BF" import="0">DB/EVENTS/BattleRoles.xml</File>
+    <File md5="D0D6D053B57D552F04659AC2427D7B6D" import="0">DB/EVENTS/CanMoveInto.sql</File>
+    <File md5="B7036E7A6D8F7F5CCFFDC3C3D9A171F4" import="0">DB/EVENTS/CityBombard.sql</File>
+    <File md5="B9719225BCB71D12B8A7C2E218949E1F" import="0">DB/EVENTS/DiploModifiers.xml</File>
+    <File md5="1DC160C9EB04E4CFCDC9A5FE481E0D3F" import="0">DB/EVENTS/Quests.xml</File>
+    <File md5="B2EC173C6EE473335C806278D0C90701" import="0">DB/GLOBAL/AlpinePasses.sql</File>
+    <File md5="9E7C090BEE0EA0C00CFC72DA2E26E07B" import="0">DB/GLOBAL/CannotEmbark.sql</File>
+    <File md5="9AE580627CFD6F5BC6800B56E146BBCA" import="0">DB/GLOBAL/CityWorking.sql</File>
+    <File md5="988A4E2A03A8A65D2BA34454314AE7D4" import="0">DB/GLOBAL/ExcludeFromGifts.sql</File>
+    <File md5="472D7C4DA95FC83DF11F2016759B3645" import="0">DB/GLOBAL/GreatworkYieldtypes.sql</File>
+    <File md5="90694D4709EA89AF77088DF73D90DCA2" import="0">DB/GLOBAL/MoveAfterUpgrade.sql</File>
+    <File md5="B8F6FD6D3E36392564DE3656EBDA9215" import="0">DB/GLOBAL/PassableForts.sql</File>
+    <File md5="E1C5693A39362DF9093FC2907409B41B" import="0">DB/GLOBAL/NoFollowup.sql</File>
+    <File md5="51373E2AA9261D7F86C5DDE69FF50B3F" import="0">DB/GLOBAL/PromotionClasses.sql</File>
+    <File md5="DE47CDA0C3005F12E066E22368CA2C71" import="0">DB/GLOBAL/Relocation.sql</File>
+    <File md5="7535E4E51C56BDAFAB2CAB031F6EEE62" import="0">DB/GLOBAL/SeparateGreatAdmiral.sql</File>
+    <File md5="87CA2870D331E7C27DB070DECEC29E65" import="0">DB/GLOBAL/StackingRules.sql</File>
+    <File md5="D2E42276DC285DD1F793625CBCFC8D1F" import="0">DB/PROMOTIONS/AuraChange.sql</File>
+    <File md5="9639CEC999B47F444742BF4FF0616D4B" import="0">DB/PROMOTIONS/CrossIce.sql</File>
+    <File md5="B3C07FB04A6A210BD9D4D55B0B2875ED" import="0">DB/PROMOTIONS/CrossMountains.sql</File>
+    <File md5="9BEB60B675E932FCD4C5FE642BC412C6" import="0">DB/PROMOTIONS/CrossOceans.sql</File>
+    <File md5="7E661A0B3E710151939AA35D0A941502" import="0">DB/PROMOTIONS/DeepWaterEmbarkation.sql</File>
+    <File md5="60A9B914C79BCEE4873ACF60CF74544F" import="0">DB/PROMOTIONS/GGfromBarbarians.sql</File>
+    <File md5="2CF34973FE19471DA56BE6323B2AE2DD" import="0">DB/PROMOTIONS/HalfMove.sql</File>
+    <File md5="702973513B4141D021A6A449EE204A78" import="0">DB/PROMOTIONS/ImprovementBonus.sql</File>
+    <File md5="2909B4439AA956475683DEAF3BD78856" import="0">DB/PROMOTIONS/UnitNaming.xml</File>
+    <File md5="9E8BC63DC9A45421C16253AA9A5F69A9" import="0">DB/PROMOTIONS/VariableRecon.sql</File>
+    <File md5="AC71F8748AC67E92F040353FB3103B75" import="0">DB/PROMOTIONS/VariableRecon.xml</File>
+    <File md5="1E15551DE1014ED349492B3DFB746E08" import="0">DB/RELIGION/ConversionModifiers.sql</File>
+    <File md5="9CBE98CF52584514D0EDE1F00CC89605" import="0">DB/RELIGION/LocalReligions.sql</File>
+    <File md5="13FEFAD9A05E0391F424CBFEFE96968F" import="0">DB/RELIGION/PlotYields.xml</File>
+    <File md5="D793E9B1F21F03024A64E7A6983B88C9" import="0">DB/RELIGION/PolicyBranchFaithGp.xml</File>
+    <File md5="16D7C5E227C231075800C15DFB186691" import="0">DB/TRADE/RouteScaling.sql</File>
+    <File md5="9C59EBD46920447DFDEDE24F56086703" import="0">DB/TRAITS/AnyBelief.sql</File>
+    <File md5="7CA1F2B70AA145AF9A0950A31E519A17" import="0">DB/TRAITS/CrossesIce.sql</File>
+    <File md5="3E82BDF3EBED176C215C87D19507408B" import="0">DB/TRAITS/ExtraSupply.sql</File>
+    <File md5="7A95C576E0C7B22297AA5415B66E1D4A" import="0">DB/TRAITS/GGfromBarbarians.sql</File>
+    <File md5="D60500F862DCB87C573F5B6A1388EB76" import="0">DB/TRAITS/OtherPrereqs.sql</File>
+    <File md5="B3CCB02EC2837C3E5F0ABBE81E8D8CEB" import="0">DB/TRAITS/TradeRouteBonuses.sql</File>
+    <File md5="C04AB45AA4036AFE4BF736DA0BEAC07D" import="0">DB/UI/CityExpansion.sql</File>
+    <File md5="A43003134A6B81542243CECDDD6BFEAE" import="0">DB/UNITS/MaxHp.sql</File>
+    <File md5="846BDCF403D213AB85C9A6D214F4DDBA" import="0">DB/UNITS/NoSupply.sql</File>
+    <File md5="EE26238E47D28C000F3C7C56FD42F380" import="0">DB/_TEXT/AllText_de_DE.xml</File>
+    <File md5="B91C9CDF083C2B3596E436DD75B7321A" import="0">DB/_TEXT/AllText_en_US.xml</File>
+    <File md5="A4F16C89AACD34612823A4889F17FB38" import="0">DB/_TEXT/AllText_ja_JP.xml</File>
+    <File md5="90B35957364D5B777E968ADC0A7ED7A8" import="0">DB/_TEXT/AllText_ru_RU.xml</File>
+    <File md5="258FF4838BADA3829D6657C907D92E2A" import="0">DB/_TEXT/AllText_zh_CN.xml</File>
+    <File md5="C0C6F16E22726E8CAF6477CBA9D43EF5" import="0">DB/_TEXT/AllText_zh_Hant_HK.xml</File>
+    <File md5="F442DF2BB92D28AB8EFFFB8E8FDECB60" import="0">LUA/Stfu.lua</File>
+    <File md5="AC521922E5A32A03FE894DC12A5C9533" import="1">UI/InGame/YieldIconManager.lua</File>
+    <File md5="8FD4EF5AAB5BD6E16DB8EBE95963FC33" import="1">UI/InGame/YieldIconManager.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>DB/CustomModTables.xml</UpdateDatabase>
+      <UpdateDatabase>CustomModOptions.xml</UpdateDatabase>
+      <UpdateDatabase>DB/API/Achievements.xml</UpdateDatabase>
+      <UpdateDatabase>DB/API/Espionage.xml</UpdateDatabase>
+      <UpdateDatabase>DB/API/Extensions.sql</UpdateDatabase>
+      <UpdateDatabase>DB/API/PlotBasedDamage.sql</UpdateDatabase>
+      <UpdateDatabase>DB/API/PlotYields.xml</UpdateDatabase>
+      <UpdateDatabase>DB/API/Religion.xml</UpdateDatabase>
+      <UpdateDatabase>DB/API/UnifiedYields.sql</UpdateDatabase>
+      <UpdateDatabase>DB/API/UnifiedYields.xml</UpdateDatabase>
+      <UpdateDatabase>DB/API/UnifiedYieldsGoldenAge.xml</UpdateDatabase>
+      <UpdateDatabase>DB/API/UnifiedYieldsTourism.xml</UpdateDatabase>
+      <UpdateDatabase>DB/BUGFIX/DummyPolicies.sql</UpdateDatabase>
+      <UpdateDatabase>DB/BUGFIX/FeatureRemoval.sql</UpdateDatabase>
+      <UpdateDatabase>DB/BUGFIX/GoodyHutMessages.xml</UpdateDatabase>
+      <UpdateDatabase>DB/BUGFIX/SpyNames.xml</UpdateDatabase>
+      <UpdateDatabase>DB/BUGFIX/UnitclassNotUnit.sql</UpdateDatabase>
+      <UpdateDatabase>DB/BUGFIX/UnitclassNotUnit.xml</UpdateDatabase>
+      <UpdateDatabase>DB/CONFIG/AiInXml.sql</UpdateDatabase>
+      <UpdateDatabase>DB/CONFIG/GameInXml.xml</UpdateDatabase>
+      <UpdateDatabase>DB/DIPLOMACY/Stfu.xml</UpdateDatabase>
+      <UpdateDatabase>DB/DIPLOMACY/Stfu.sql</UpdateDatabase>
+      <UpdateDatabase>DB/EVENTS/BattleRoles.xml</UpdateDatabase>
+      <UpdateDatabase>DB/EVENTS/CanMoveInto.sql</UpdateDatabase>
+      <UpdateDatabase>DB/EVENTS/CityBombard.sql</UpdateDatabase>
+      <UpdateDatabase>DB/EVENTS/DiploModifiers.xml</UpdateDatabase>
+      <UpdateDatabase>DB/EVENTS/Quests.xml</UpdateDatabase>
+      <UpdateDatabase>DB/GLOBAL/AlpinePasses.sql</UpdateDatabase>
+      <UpdateDatabase>DB/GLOBAL/CannotEmbark.sql</UpdateDatabase>
+      <UpdateDatabase>DB/GLOBAL/CityWorking.sql</UpdateDatabase>
+      <UpdateDatabase>DB/GLOBAL/ExcludeFromGifts.sql</UpdateDatabase>
+      <UpdateDatabase>DB/GLOBAL/GreatworkYieldtypes.sql</UpdateDatabase>
+      <UpdateDatabase>DB/GLOBAL/MoveAfterUpgrade.sql</UpdateDatabase>
+      <UpdateDatabase>DB/GLOBAL/NoFollowup.sql</UpdateDatabase>
+      <UpdateDatabase>DB/GLOBAL/PassableForts.sql</UpdateDatabase>
+      <UpdateDatabase>DB/GLOBAL/PromotionClasses.sql</UpdateDatabase>
+      <UpdateDatabase>DB/GLOBAL/Relocation.sql</UpdateDatabase>
+      <UpdateDatabase>DB/GLOBAL/SeparateGreatAdmiral.sql</UpdateDatabase>
+      <UpdateDatabase>DB/GLOBAL/StackingRules.sql</UpdateDatabase>
+      <UpdateDatabase>DB/PROMOTIONS/AuraChange.sql</UpdateDatabase>
+      <UpdateDatabase>DB/PROMOTIONS/CrossIce.sql</UpdateDatabase>
+      <UpdateDatabase>DB/PROMOTIONS/CrossMountains.sql</UpdateDatabase>
+      <UpdateDatabase>DB/PROMOTIONS/CrossOceans.sql</UpdateDatabase>
+      <UpdateDatabase>DB/PROMOTIONS/DeepWaterEmbarkation.sql</UpdateDatabase>
+      <UpdateDatabase>DB/PROMOTIONS/GGfromBarbarians.sql</UpdateDatabase>
+      <UpdateDatabase>DB/PROMOTIONS/HalfMove.sql</UpdateDatabase>
+      <UpdateDatabase>DB/PROMOTIONS/ImprovementBonus.sql</UpdateDatabase>
+      <UpdateDatabase>DB/PROMOTIONS/UnitNaming.xml</UpdateDatabase>
+      <UpdateDatabase>DB/PROMOTIONS/VariableRecon.sql</UpdateDatabase>
+      <UpdateDatabase>DB/PROMOTIONS/VariableRecon.xml</UpdateDatabase>
+      <UpdateDatabase>DB/RELIGION/ConversionModifiers.sql</UpdateDatabase>
+      <UpdateDatabase>DB/RELIGION/LocalReligions.sql</UpdateDatabase>
+      <UpdateDatabase>DB/RELIGION/PlotYields.xml</UpdateDatabase>
+      <UpdateDatabase>DB/RELIGION/PolicyBranchFaithGp.xml</UpdateDatabase>
+      <UpdateDatabase>DB/TRADE/RouteScaling.sql</UpdateDatabase>
+      <UpdateDatabase>DB/TRAITS/AnyBelief.sql</UpdateDatabase>
+      <UpdateDatabase>DB/TRAITS/CrossesIce.sql</UpdateDatabase>
+      <UpdateDatabase>DB/TRAITS/ExtraSupply.sql</UpdateDatabase>
+      <UpdateDatabase>DB/TRAITS/GGfromBarbarians.sql</UpdateDatabase>
+      <UpdateDatabase>DB/TRAITS/OtherPrereqs.sql</UpdateDatabase>
+      <UpdateDatabase>DB/TRAITS/TradeRouteBonuses.sql</UpdateDatabase>
+      <UpdateDatabase>DB/UI/CityExpansion.sql</UpdateDatabase>
+      <UpdateDatabase>DB/UNITS/MaxHp.sql</UpdateDatabase>
+      <UpdateDatabase>DB/UNITS/NoSupply.sql</UpdateDatabase>
+      <UpdateDatabase>DB/_TEXT/AllText_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>DB/_TEXT/AllText_de_DE.xml</UpdateDatabase>
+      <UpdateDatabase>DB/_TEXT/AllText_ja_JP.xml</UpdateDatabase>
+      <UpdateDatabase>DB/_TEXT/AllText_ru_RU.xml</UpdateDatabase>
+      <UpdateDatabase>DB/_TEXT/AllText_zh_CN.xml</UpdateDatabase>
+      <UpdateDatabase>DB/_TEXT/AllText_zh_Hant_HK.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/Stfu.lua">
+      <Name>STFU</Name>
+      <Description>STFU Leave Leader Handler</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

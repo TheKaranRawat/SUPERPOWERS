@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/16/2014 10:50:42 AM -->
+<GameData>
+	
+	
+	<!-- ************************ Movement Cost Change********************************************-->
+
+	<Terrains>
+		<Update>
+			<Set Movement="2"/>
+			<Where Type="TERRAIN_SNOW"/>
+		</Update>
+
+		<Update>
+			<Set InfluenceCost="0"/>
+			<Where Type="TERRAIN_GRASS"/>
+		</Update>
+		<Update>
+			<Set InfluenceCost="0"/>
+			<Where Type="TERRAIN_PLAINS"/>
+		</Update>
+		<Update>
+			<Set InfluenceCost="-1"/>
+			<Where Type="TERRAIN_HILL"/>
+		</Update>
+		<Update>
+			<Set InfluenceCost="5"/>
+			<Where Type="TERRAIN_COAST"/>
+		</Update>
+		<Update>
+			<Set InfluenceCost="32"/>
+			<Where Type="TERRAIN_OCEAN"/>
+		</Update>
+		<Update>
+			<Set InfluenceCost="12"/>
+			<Where Type="TERRAIN_MOUNTAIN"/>
+		</Update>
+	</Terrains>
+	
+	<Features>
+		<Update>
+			<Set Movement="3"/>
+			<Where Type="FEATURE_JUNGLE"/>
+		</Update>
+		<Update>
+			<Set Movement="4"/>
+			<Where Type="FEATURE_MARSH"/>
+		</Update>
+	</Features>
+
+
+
+
+	<!-- ************************Yield Change********************************************-->
+
+
+
+	<Terrain_Yields>
+		<Update>
+			<Set Yield="0"/>
+			<Where TerrainType="TERRAIN_OCEAN" />
+		</Update>
+		
+	</Terrain_Yields>
+	
+	<Feature_YieldChanges>
+		<Update>
+			<Set Yield="-12"/>
+			<Where FeatureType="FEATURE_FALLOUT" />
+		</Update>
+
+
+		<Row>
+			<FeatureType>FEATURE_ATOLL</FeatureType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_ATOLL</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Feature_YieldChanges>
+
+
+
+	<!-- ************************Natural Wonder Change********************************************-->
+	<!--<Features>
+		--><!--<Update>
+			<Set OccurrenceFrequency="10" InBorderHappiness="6"/>
+			<Where FeatureType="FEATURE_FOUNTAIN_YOUTH"/>
+		</Update>--><!--
+		<Update>
+			<Set OccurrenceFrequency="10" />
+			<Where FeatureType="FEATURE_POTOSI"/>
+		</Update>
+		<Update>
+			<Set OccurrenceFrequency="10" />
+			<Where FeatureType="FEATURE_EL_DORADO"/>
+		</Update>
+		<Update>
+			<Set OccurrenceFrequency="10" />
+			<Where FeatureType="FEATURE_SOLOMONS_MINES"/>
+		</Update>
+	</Features>-->
+
+	<Feature_YieldChanges>
+		<Row>
+			<FeatureType>FEATURE_REEF</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_CRATER</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_GEYSER</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Update>
+			<Set Yield="12"/>
+			<Where FeatureType="FEATURE_POTOSI"/>
+		</Update>
+		<Update>
+			<Set Yield="6"/>
+			<Where FeatureType="FEATURE_FUJI" YieldType="YIELD_FAITH"/>
+		</Update>
+		<Update>
+			<Set Yield="2"/>
+			<Where FeatureType="FEATURE_FUJI" YieldType="YIELD_CULTURE"/>
+		</Update>
+		<Update>
+			<Set Yield="2"/>
+			<Where FeatureType="FEATURE_FUJI" YieldType="YIELD_GOLD"/>
+		</Update>
+		<Update>
+			<Set Yield="5"/>
+			<Where FeatureType="FEATURE_MESA" />
+		</Update>
+		<Update>
+			<Set Yield="8"/>
+			<Where FeatureType="FEATURE_VOLCANO" />
+		</Update>
+		<Update>
+			<Set Yield="5"/>
+			<Where FeatureType="FEATURE_GIBRALTAR" />
+		</Update>
+		<Update>
+			<Set Yield="3"/>
+			<Where FeatureType="FEATURE_GEYSER" YieldType="YIELD_SCIENCE"/>
+		</Update>
+		<Update>
+			<Set Yield="4"/>
+			<Where FeatureType="FEATURE_SRI_PADA" YieldType="YIELD_FOOD"/>
+		</Update>
+		<Update>
+			<Set Yield="4"/>
+			<Where FeatureType="FEATURE_SRI_PADA" YieldType="YIELD_FAITH"/>
+		</Update>
+		<Update>
+			<Set Yield="4"/>
+			<Where FeatureType="FEATURE_ULURU" YieldType="YIELD_FOOD"/>
+		</Update>
+
+		<Update>
+			<Set Yield="10"/>
+			<Where FeatureType="FEATURE_LAKE_VICTORIA" />
+		</Update>
+		<Update>
+			<Set Yield="8"/>
+			<Where FeatureType="FEATURE_SOLOMONS_MINES" />
+		</Update>
+		<Update>
+			<Set Yield="4"/>
+			<Where FeatureType="FEATURE_KILIMANJARO"/>
+		</Update>
+		<Update>
+			<Set Yield="6"/>
+			<Where FeatureType="FEATURE_EL_DORADO"/>
+		</Update>
+		
+		<!--<Row>
+			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>-->
+		<Row>
+			<FeatureType>FEATURE_MT_SINAI</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_MT_KAILASH</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_GIBRALTAR</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Feature_YieldChanges>
+  
+</GameData>

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/16/2014 11:18:34 AM -->
+<GameData>
+	
+	<!--*******************************Handicap Adjust***********************************-->
+	<HandicapInfos>
+		<Update>
+			<Where Type="HANDICAP_SETTLER"/>
+			<Set>
+				<StartingLocPercent>50</StartingLocPercent>
+				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
+				<HappinessDefault>11</HappinessDefault>
+				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
+				<PopulationUnhappinessMod>120</PopulationUnhappinessMod>
+				<Gold>0</Gold>
+				<GoldFreeUnits>0</GoldFreeUnits>
+				<ProductionFreeUnits>25</ProductionFreeUnits>
+				<ProductionFreeUnitsPopulationPercent>100</ProductionFreeUnitsPopulationPercent>
+				<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity>
+				<RouteCostPercent>100</RouteCostPercent>
+				<UnitCostPercent>100</UnitCostPercent>
+				<BuildingCostPercent>100</BuildingCostPercent>
+				<ResearchPercent>100</ResearchPercent>
+				<PolicyPercent>100</PolicyPercent>
+				<ImprovementCostPercent>100</ImprovementCostPercent>
+				<CityProductionNumOptionsConsidered>2</CityProductionNumOptionsConsidered>
+				<TechNumOptionsConsidered>2</TechNumOptionsConsidered>
+				<PolicyNumOptionsConsidered>2</PolicyNumOptionsConsidered>
+				<InflationPercent>1</InflationPercent>
+				<AttitudeChange>1</AttitudeChange>
+				<NoTechTradeModifier>70</NoTechTradeModifier>
+				<BarbCampGold>25</BarbCampGold>
+				<BarbSpawnMod>0</BarbSpawnMod>
+				<BarbarianBonus>40</BarbarianBonus>
+				<AIBarbarianBonus>60</AIBarbarianBonus>
+				<EarliestBarbarianReleaseTurn>5</EarliestBarbarianReleaseTurn>
+				<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
+				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
+				<AIDeclareWarProb>33</AIDeclareWarProb>
+				<AIUnhappinessPercent>100</AIUnhappinessPercent>
+				<AIGrowthPercent>100</AIGrowthPercent>
+				<AITrainPercent>100</AITrainPercent>
+				<AIWorldTrainPercent>100</AIWorldTrainPercent>
+				<AIConstructPercent>100</AIConstructPercent>
+				<AIWorldConstructPercent>100</AIWorldConstructPercent>
+				<AICreatePercent>100</AICreatePercent>
+				<AIWorldCreatePercent>100</AIWorldCreatePercent>
+				<AIBuildingCostPercent>100</AIBuildingCostPercent>
+				<AIUnitCostPercent>85</AIUnitCostPercent>
+				<AIUnitSupplyPercent>25</AIUnitSupplyPercent>
+				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
+				<!--<AIInflationPercent>80</AIInflationPercent>-->
+				<AIAdvancedStartPercent>100</AIAdvancedStartPercent>
+				<AIWorkRateModifier>50</AIWorkRateModifier>
+			
+			</Set>
+			
+		</Update>
+
+
+
+		<Update>
+			<Where Type="HANDICAP_CHIEFTAIN"/>
+			<Set>
+				<StartingLocPercent>50</StartingLocPercent>
+				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
+				<HappinessDefault>11</HappinessDefault>
+				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
+				<PopulationUnhappinessMod>120</PopulationUnhappinessMod>
+				<Gold>0</Gold>
+				<GoldFreeUnits>0</GoldFreeUnits>
+				<ProductionFreeUnits>25</ProductionFreeUnits>
+				<ProductionFreeUnitsPopulationPercent>100</ProductionFreeUnitsPopulationPercent>
+				<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity>
+				<RouteCostPercent>100</RouteCostPercent>
+				<UnitCostPercent>100</UnitCostPercent>
+				<BuildingCostPercent>100</BuildingCostPercent>
+				<ResearchPercent>100</ResearchPercent>
+				<PolicyPercent>100</PolicyPercent>
+				<ImprovementCostPercent>100</ImprovementCostPercent>
+				<CityProductionNumOptionsConsidered>2</CityProductionNumOptionsConsidered>
+				<TechNumOptionsConsidered>2</TechNumOptionsConsidered>
+				<PolicyNumOptionsConsidered>2</PolicyNumOptionsConsidered>
+				<InflationPercent>1</InflationPercent>
+				<AttitudeChange>-1</AttitudeChange>
+				<NoTechTradeModifier>50</NoTechTradeModifier>
+				<BarbCampGold>25</BarbCampGold>
+				<BarbSpawnMod>0</BarbSpawnMod>
+				<BarbarianBonus>20</BarbarianBonus>
+				<AIBarbarianBonus>60</AIBarbarianBonus>
+				<EarliestBarbarianReleaseTurn>5</EarliestBarbarianReleaseTurn>
+				<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
+				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
+				<AIDeclareWarProb>66</AIDeclareWarProb>
+				<AIUnhappinessPercent>100</AIUnhappinessPercent>
+				<AIGrowthPercent>90</AIGrowthPercent>
+				<AITrainPercent>100</AITrainPercent>
+				<AIWorldTrainPercent>100</AIWorldTrainPercent>
+				<AIConstructPercent>100</AIConstructPercent>
+				<AIWorldConstructPercent>100</AIWorldConstructPercent>
+				<AICreatePercent>100</AICreatePercent>
+				<AIWorldCreatePercent>100</AIWorldCreatePercent>
+				<AIBuildingCostPercent>100</AIBuildingCostPercent>
+				<AIUnitCostPercent>80</AIUnitCostPercent>
+				<AIUnitSupplyPercent>25</AIUnitSupplyPercent>
+				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
+				<!--<AIInflationPercent>80</AIInflationPercent>-->
+				<AIAdvancedStartPercent>120</AIAdvancedStartPercent>
+				<AIStartingDefenseUnits>1</AIStartingDefenseUnits>
+				<AIWorkRateModifier>100</AIWorkRateModifier>
+	
+			</Set>
+		</Update>
+
+		<Update>
+			<Where Type="HANDICAP_WARLORD"/>
+			<Set>
+				<StartingLocPercent>50</StartingLocPercent>
+				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
+				<HappinessDefault>11</HappinessDefault>
+				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
+				<PopulationUnhappinessMod>120</PopulationUnhappinessMod>
+				<Gold>0</Gold>
+				<GoldFreeUnits>0</GoldFreeUnits>
+				<ProductionFreeUnits>25</ProductionFreeUnits>
+				<ProductionFreeUnitsPopulationPercent>100</ProductionFreeUnitsPopulationPercent>
+				<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity>
+				<RouteCostPercent>100</RouteCostPercent>
+				<UnitCostPercent>100</UnitCostPercent>
+				<BuildingCostPercent>100</BuildingCostPercent>
+				<ResearchPercent>100</ResearchPercent>
+				<PolicyPercent>100</PolicyPercent>
+				<ImprovementCostPercent>100</ImprovementCostPercent>
+				<CityProductionNumOptionsConsidered>2</CityProductionNumOptionsConsidered>
+				<TechNumOptionsConsidered>2</TechNumOptionsConsidered>
+				<PolicyNumOptionsConsidered>2</PolicyNumOptionsConsidered>
+				<InflationPercent>1</InflationPercent>
+				<AttitudeChange>-1</AttitudeChange>
+				<NoTechTradeModifier>50</NoTechTradeModifier>
+				<BarbCampGold>25</BarbCampGold>
+				<BarbSpawnMod>0</BarbSpawnMod>
+				<BarbarianBonus>0</BarbarianBonus>
+				<AIBarbarianBonus>60</AIBarbarianBonus>
+				<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn>
+				<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
+				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
+				<AIStartingDefenseUnits>1</AIStartingDefenseUnits>
+				<AIStartingExploreUnits>1</AIStartingExploreUnits>
+				<AIStartingWorkerUnits>1</AIStartingWorkerUnits>
+				<AIDeclareWarProb>100</AIDeclareWarProb>
+				<AIWorkRateModifier>150</AIWorkRateModifier>
+				<AIUnhappinessPercent>100</AIUnhappinessPercent>
+				<AIGrowthPercent>80</AIGrowthPercent>
+				<AITrainPercent>100</AITrainPercent>
+				<AIWorldTrainPercent>100</AIWorldTrainPercent>
+				<AIConstructPercent>100</AIConstructPercent>
+				<AIWorldConstructPercent>100</AIWorldConstructPercent>
+				<AICreatePercent>100</AICreatePercent>
+				<AIWorldCreatePercent>100</AIWorldCreatePercent>
+				<AIBuildingCostPercent>66</AIBuildingCostPercent>
+				<AIUnitCostPercent>66</AIUnitCostPercent>
+				<AIUnitSupplyPercent>25</AIUnitSupplyPercent>
+				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
+				<!--<AIInflationPercent>80</AIInflationPercent>-->
+				<AIPerEraModifier>-1</AIPerEraModifier>
+				<AIAdvancedStartPercent>135</AIAdvancedStartPercent>
+				<AIFreeXP>5</AIFreeXP>
+				<AIFreeXPPercent>100</AIFreeXPPercent>
+		
+			</Set>
+		</Update>
+
+
+		<Update>
+			<Where Type="HANDICAP_PRINCE"/>
+			<Set>
+				<StartingLocPercent>50</StartingLocPercent>
+				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
+				<HappinessDefault>11</HappinessDefault>
+				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
+				<PopulationUnhappinessMod>120</PopulationUnhappinessMod>
+				<Gold>0</Gold>
+				<GoldFreeUnits>0</GoldFreeUnits>
+				<ProductionFreeUnits>25</ProductionFreeUnits>
+				<ProductionFreeUnitsPopulationPercent>100</ProductionFreeUnitsPopulationPercent>
+				<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity>
+				<RouteCostPercent>100</RouteCostPercent>
+				<UnitCostPercent>100</UnitCostPercent>
+				<BuildingCostPercent>100</BuildingCostPercent>
+				<ResearchPercent>100</ResearchPercent>
+				<PolicyPercent>100</PolicyPercent>
+				<ImprovementCostPercent>100</ImprovementCostPercent>
+				<CityProductionNumOptionsConsidered>2</CityProductionNumOptionsConsidered>
+				<TechNumOptionsConsidered>2</TechNumOptionsConsidered>
+				<PolicyNumOptionsConsidered>2</PolicyNumOptionsConsidered>
+				<InflationPercent>1</InflationPercent>
+				<AttitudeChange>-2</AttitudeChange>
+				<NoTechTradeModifier>30</NoTechTradeModifier>
+				<BarbCampGold>25</BarbCampGold>
+				<BarbSpawnMod>0</BarbSpawnMod>
+				<BarbarianBonus>0</BarbarianBonus>
+				<AIBarbarianBonus>60</AIBarbarianBonus>
+				<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn>
+				<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
+				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
+				<AIStartingDefenseUnits>1</AIStartingDefenseUnits>
+				<AIStartingExploreUnits>2</AIStartingExploreUnits>
+				<AIStartingWorkerUnits>2</AIStartingWorkerUnits>
+				<AIDeclareWarProb>100</AIDeclareWarProb>
+				<AIWorkRateModifier>200</AIWorkRateModifier>
+				<AIUnhappinessPercent>100</AIUnhappinessPercent>
+				<AIGrowthPercent>85</AIGrowthPercent>
+				<AITrainPercent>100</AITrainPercent>
+				<AIWorldTrainPercent>100</AIWorldTrainPercent>
+				<AIConstructPercent>100</AIConstructPercent>
+				<AIWorldConstructPercent>100</AIWorldConstructPercent>
+				<AICreatePercent>100</AICreatePercent>
+				<AIWorldCreatePercent>100</AIWorldCreatePercent>
+				<AIBuildingCostPercent>50</AIBuildingCostPercent>
+				<AIUnitCostPercent>50</AIUnitCostPercent>
+				<AIUnitSupplyPercent>25</AIUnitSupplyPercent>
+				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
+				<!--<AIInflationPercent>80</AIInflationPercent>-->
+				<AIPerEraModifier>-2</AIPerEraModifier>
+				<AIAdvancedStartPercent>150</AIAdvancedStartPercent>
+				<AIFreeXP>5</AIFreeXP>
+				<AIFreeXPPercent>100</AIFreeXPPercent>
+			
+			</Set>
+		</Update>
+
+		<Update>
+			<Where Type="HANDICAP_KING"/>
+			<Set>
+				<StartingLocPercent>50</StartingLocPercent>
+				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
+				<HappinessDefault>11</HappinessDefault>
+				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
+				<PopulationUnhappinessMod>120</PopulationUnhappinessMod>
+				<Gold>0</Gold>
+				<GoldFreeUnits>0</GoldFreeUnits>
+				<ProductionFreeUnits>25</ProductionFreeUnits>
+				<ProductionFreeUnitsPopulationPercent>100</ProductionFreeUnitsPopulationPercent>
+				<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity>
+				<RouteCostPercent>100</RouteCostPercent>
+				<UnitCostPercent>100</UnitCostPercent>
+				<BuildingCostPercent>100</BuildingCostPercent>
+				<ResearchPercent>100</ResearchPercent>
+				<PolicyPercent>100</PolicyPercent>
+				<ImprovementCostPercent>100</ImprovementCostPercent>
+				<CityProductionNumOptionsConsidered>2</CityProductionNumOptionsConsidered>
+				<TechNumOptionsConsidered>2</TechNumOptionsConsidered>
+				<PolicyNumOptionsConsidered>2</PolicyNumOptionsConsidered>
+				<InflationPercent>1</InflationPercent>
+				<AttitudeChange>-3</AttitudeChange>
+				<NoTechTradeModifier>30</NoTechTradeModifier>
+				<BarbCampGold>25</BarbCampGold>
+				<BarbSpawnMod>0</BarbSpawnMod>
+				<BarbarianBonus>0</BarbarianBonus>
+				<AIBarbarianBonus>60</AIBarbarianBonus>
+				<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn>
+				<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
+				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
+				<AIStartingDefenseUnits>2</AIStartingDefenseUnits>
+				<AIStartingExploreUnits>2</AIStartingExploreUnits>
+				<AIStartingWorkerUnits>2</AIStartingWorkerUnits>
+				<AIStartingUnitMultiplier>1</AIStartingUnitMultiplier>
+				<AIDeclareWarProb>100</AIDeclareWarProb>
+				<AIWorkRateModifier>250</AIWorkRateModifier>
+				<AIUnhappinessPercent>90</AIUnhappinessPercent>
+				<AIGrowthPercent>75</AIGrowthPercent>
+				<AITrainPercent>100</AITrainPercent>
+				<AIWorldTrainPercent>100</AIWorldTrainPercent>
+				<AIConstructPercent>100</AIConstructPercent>
+				<AIWorldConstructPercent>100</AIWorldConstructPercent>
+				<AICreatePercent>100</AICreatePercent>
+				<AIWorldCreatePercent>100</AIWorldCreatePercent>
+				<AIBuildingCostPercent>40</AIBuildingCostPercent>
+				<AIUnitCostPercent>40</AIUnitCostPercent>
+				<AIUnitSupplyPercent>25</AIUnitSupplyPercent>
+				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
+				<!--<AIInflationPercent>80</AIInflationPercent>-->
+				<AIPerEraModifier>-5</AIPerEraModifier>
+				<AIAdvancedStartPercent>170</AIAdvancedStartPercent>
+				<AIFreeXP>5</AIFreeXP>
+				<AIFreeXPPercent>100</AIFreeXPPercent>
+			
+			</Set>
+		</Update>
+
+
+		<Update>
+			<Where Type="HANDICAP_EMPEROR"/>
+			<Set>
+				<StartingLocPercent>50</StartingLocPercent>
+				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
+				<HappinessDefault>11</HappinessDefault>
+				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
+				<PopulationUnhappinessMod>120</PopulationUnhappinessMod>
+				<Gold>0</Gold>
+				<GoldFreeUnits>0</GoldFreeUnits>
+				<ProductionFreeUnits>25</ProductionFreeUnits>
+				<ProductionFreeUnitsPopulationPercent>100</ProductionFreeUnitsPopulationPercent>
+				<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity>
+				<RouteCostPercent>100</RouteCostPercent>
+				<UnitCostPercent>100</UnitCostPercent>
+				<BuildingCostPercent>100</BuildingCostPercent>
+				<ResearchPercent>100</ResearchPercent>
+				<PolicyPercent>100</PolicyPercent>
+				<ImprovementCostPercent>100</ImprovementCostPercent>
+				<CityProductionNumOptionsConsidered>2</CityProductionNumOptionsConsidered>
+				<TechNumOptionsConsidered>2</TechNumOptionsConsidered>
+				<PolicyNumOptionsConsidered>2</PolicyNumOptionsConsidered>
+				<InflationPercent>1</InflationPercent>
+				<AttitudeChange>-4</AttitudeChange>
+				<NoTechTradeModifier>30</NoTechTradeModifier>
+				<BarbCampGold>25</BarbCampGold>
+				<BarbSpawnMod>0</BarbSpawnMod>
+				<BarbarianBonus>0</BarbarianBonus>
+				<AIBarbarianBonus>60</AIBarbarianBonus>
+				<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn>
+				<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
+				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
+				<AIStartingDefenseUnits>2</AIStartingDefenseUnits>
+				<AIStartingExploreUnits>2</AIStartingExploreUnits>
+				<AIStartingWorkerUnits>2</AIStartingWorkerUnits>
+				<AIStartingUnitMultiplier>1</AIStartingUnitMultiplier>
+				<AIDeclareWarProb>200</AIDeclareWarProb>
+				<AIWorkRateModifier>300</AIWorkRateModifier>
+				<AIUnhappinessPercent>85</AIUnhappinessPercent>
+				<AIGrowthPercent>75</AIGrowthPercent>
+				<AITrainPercent>75</AITrainPercent>
+				<AIWorldTrainPercent>100</AIWorldTrainPercent>
+				<AIConstructPercent>75</AIConstructPercent>
+				<AIWorldConstructPercent>100</AIWorldConstructPercent>
+				<AICreatePercent>100</AICreatePercent>
+				<AIWorldCreatePercent>100</AIWorldCreatePercent>
+				<AIBuildingCostPercent>40</AIBuildingCostPercent>
+				<AIUnitCostPercent>40</AIUnitCostPercent>
+				<AIUnitSupplyPercent>25</AIUnitSupplyPercent>
+				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
+				<!--<AIInflationPercent>80</AIInflationPercent>-->
+				<AIPerEraModifier>-7</AIPerEraModifier>
+				<AIAdvancedStartPercent>170</AIAdvancedStartPercent>
+				<AIFreeXP>5</AIFreeXP>
+				<AIFreeXPPercent>100</AIFreeXPPercent>
+			
+			</Set>
+		</Update>
+
+
+		<Update>
+			<Where Type="HANDICAP_IMMORTAL"/>
+			<Set>
+				<StartingLocPercent>50</StartingLocPercent>
+				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
+				<HappinessDefault>11</HappinessDefault>
+				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
+				<PopulationUnhappinessMod>120</PopulationUnhappinessMod>
+				<Gold>0</Gold>
+				<GoldFreeUnits>0</GoldFreeUnits>
+				<ProductionFreeUnits>25</ProductionFreeUnits>
+				<ProductionFreeUnitsPopulationPercent>100</ProductionFreeUnitsPopulationPercent>
+				<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity>
+				<RouteCostPercent>100</RouteCostPercent>
+				<UnitCostPercent>100</UnitCostPercent>
+				<BuildingCostPercent>100</BuildingCostPercent>
+				<ResearchPercent>100</ResearchPercent>
+				<PolicyPercent>100</PolicyPercent>
+				<ImprovementCostPercent>100</ImprovementCostPercent>
+				<CityProductionNumOptionsConsidered>2</CityProductionNumOptionsConsidered>
+				<TechNumOptionsConsidered>2</TechNumOptionsConsidered>
+				<PolicyNumOptionsConsidered>2</PolicyNumOptionsConsidered>
+				<InflationPercent>1</InflationPercent>
+				<AttitudeChange>-5</AttitudeChange>
+				<NoTechTradeModifier>30</NoTechTradeModifier>
+				<BarbCampGold>25</BarbCampGold>
+				<BarbSpawnMod>0</BarbSpawnMod>
+				<BarbarianBonus>0</BarbarianBonus>
+				<AIBarbarianBonus>60</AIBarbarianBonus>
+				<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn>
+				<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
+				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
+				<AIStartingDefenseUnits>3</AIStartingDefenseUnits>
+				<AIStartingExploreUnits>2</AIStartingExploreUnits>
+				<AIStartingWorkerUnits>2</AIStartingWorkerUnits>
+				<AIStartingUnitMultiplier>2</AIStartingUnitMultiplier>
+				<AIDeclareWarProb>500</AIDeclareWarProb>
+				<AIWorkRateModifier>350</AIWorkRateModifier>
+				<AIUnhappinessPercent>75</AIUnhappinessPercent>
+				<AIGrowthPercent>66</AIGrowthPercent>
+				<AITrainPercent>66</AITrainPercent>
+				<AIWorldTrainPercent>100</AIWorldTrainPercent>
+				<AIConstructPercent>66</AIConstructPercent>
+				<AIWorldConstructPercent>100</AIWorldConstructPercent>
+				<AICreatePercent>100</AICreatePercent>
+				<AIWorldCreatePercent>100</AIWorldCreatePercent>
+				<AIBuildingCostPercent>33</AIBuildingCostPercent>
+				<AIUnitCostPercent>33</AIUnitCostPercent>
+				<AIUnitSupplyPercent>25</AIUnitSupplyPercent>
+				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
+				<!--<AIInflationPercent>80</AIInflationPercent>-->
+				<AIPerEraModifier>-9</AIPerEraModifier>
+				<AIAdvancedStartPercent>170</AIAdvancedStartPercent>
+				<AIFreeXP>5</AIFreeXP>
+				<AIFreeXPPercent>100</AIFreeXPPercent>
+			
+			</Set>
+		</Update>
+
+
+		<Update>
+			<Where Type="HANDICAP_DEITY"/>
+			<Set>
+				<StartingLocPercent>50</StartingLocPercent>
+				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
+				<HappinessDefault>11</HappinessDefault>
+				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
+				<PopulationUnhappinessMod>120</PopulationUnhappinessMod>
+				<Gold>0</Gold>
+				<GoldFreeUnits>0</GoldFreeUnits>
+				<ProductionFreeUnits>25</ProductionFreeUnits>
+				<ProductionFreeUnitsPopulationPercent>100</ProductionFreeUnitsPopulationPercent>
+				<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity>
+				<RouteCostPercent>100</RouteCostPercent>
+				<UnitCostPercent>100</UnitCostPercent>
+				<BuildingCostPercent>100</BuildingCostPercent>
+				<ResearchPercent>100</ResearchPercent>
+				<PolicyPercent>100</PolicyPercent>
+				<ImprovementCostPercent>100</ImprovementCostPercent>
+				<CityProductionNumOptionsConsidered>2</CityProductionNumOptionsConsidered>
+				<TechNumOptionsConsidered>2</TechNumOptionsConsidered>
+				<PolicyNumOptionsConsidered>2</PolicyNumOptionsConsidered>
+				<InflationPercent>0</InflationPercent>
+				<AttitudeChange>-6</AttitudeChange>
+				<NoTechTradeModifier>30</NoTechTradeModifier>
+				<BarbCampGold>25</BarbCampGold>
+				<BarbSpawnMod>0</BarbSpawnMod>
+				<BarbarianBonus>0</BarbarianBonus>
+				<AIBarbarianBonus>60</AIBarbarianBonus>
+				<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn>
+				<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
+				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
+				<AIStartingDefenseUnits>5</AIStartingDefenseUnits>
+				<AIStartingExploreUnits>2</AIStartingExploreUnits>
+				<AIStartingWorkerUnits>2</AIStartingWorkerUnits>
+				<AIStartingUnitMultiplier>3</AIStartingUnitMultiplier>
+				<AIDeclareWarProb>900</AIDeclareWarProb>
+				<AIWorkRateModifier>400</AIWorkRateModifier>
+				<AIUnhappinessPercent>66</AIUnhappinessPercent>
+				<AIGrowthPercent>66</AIGrowthPercent>
+				<AITrainPercent>66</AITrainPercent>
+				<AIWorldTrainPercent>100</AIWorldTrainPercent>
+				<AIConstructPercent>50</AIConstructPercent>
+				<AIWorldConstructPercent>100</AIWorldConstructPercent>
+				<AICreatePercent>100</AICreatePercent>
+				<AIWorldCreatePercent>100</AIWorldCreatePercent>
+				<AIBuildingCostPercent>33</AIBuildingCostPercent>
+				<AIUnitCostPercent>33</AIUnitCostPercent>
+				<AIUnitSupplyPercent>25</AIUnitSupplyPercent>
+				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
+				<!--<AIInflationPercent>80</AIInflationPercent>-->
+				<AIPerEraModifier>-10</AIPerEraModifier>
+				<AIAdvancedStartPercent>170</AIAdvancedStartPercent>
+				<AIFreeXP>5</AIFreeXP>
+				<AIFreeXPPercent>100</AIFreeXPPercent>
+			
+			</Set>
+		</Update>
+		
+		
+	</HandicapInfos>
+
+
+
+
+
+
+
+
+	<!-- *******************************Handicap Texts********************************************-->
+
+	<Language_en_US>
+		<Replace Tag="TXT_KEY_HANDICAP_SETTLER" >
+			<Text>Microstate</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HANDICAP_SETTLER_HELP" >
+			<Text>Friendly AI with no bonuses. Equals "Prince". </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HANDICAP_CHIEFTAIN" >
+			<Text>Small Powers</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HANDICAP_CHIEFTAIN_HELP" >
+			<Text>Calm AI with little bonuses on Growth, Production, Gold and Happiness.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HANDICAP_WARLORD" >
+			<Text>Middle Powers</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HANDICAP_WARLORD_HELP" >
+			<Text>Indifferent AI with medium bonuses on Growth, Production, Gold, Happiness and Combat.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HANDICAP_PRINCE" >
+			<Text>Rising Powers</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HANDICAP_PRINCE_HELP" >
+			<Text>Callous AI with medium bonuses on Growth, Production, Gold, Happiness and Combat. AI will get stronger when you enter a new era. </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HANDICAP_KING" >
+			<Text>Regional Powers</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HANDICAP_KING_HELP" >
+			<Text>Aggressive AI with large bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 2 settlers and AI will get stronger when you enter a new era. Equals "Deity".</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HANDICAP_EMPEROR" >
+			<Text>Great Powers</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HANDICAP_EMPEROR_HELP" >
+			<Text>Ferocious AI with great bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 2 settlers and AI will get even stronger when you enter a new era. </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HANDICAP_IMMORTAL" >
+			<Text>Potential Superpowers</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HANDICAP_IMMORTAL_HELP" >
+			<Text>Crazy AI with huge bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 3 settlers and AI will get much more stronger when you enter a new era. </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HANDICAP_DEITY" >
+			<Text>Superpowers</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HANDICAP_DEITY_HELP" >
+			<Text>Insane AI with insane bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 4 settlers and AI will get on steroids when you enter a new era. </Text>
+		</Replace>
+	</Language_en_US>
+	
+	
+</GameData>
