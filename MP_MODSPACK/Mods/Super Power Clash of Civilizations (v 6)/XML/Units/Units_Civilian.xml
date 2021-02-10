@@ -9,7 +9,7 @@
 			<ID>0</ID>
 			<Class>UNITCLASS_SETTLER</Class>
 			<Type>UNIT_SETTLER</Type>
-			<Moves>2</Moves>
+			<Moves>4</Moves>
 			<BaseSightRange>1</BaseSightRange>
 			<!--<Capture>UNITCLASS_WORKER</Capture>-->
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH_EARLY_GAME_ONLY</CivilianAttackPriority>
@@ -415,7 +415,7 @@
 			<Class>UNITCLASS_GREAT_GENERAL</Class>
 			<Type>UNIT_GREAT_GENERAL</Type>
 			<Cost>-1</Cost>
-			<Moves>4</Moves>
+			<Moves>5</Moves>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1100,7 +1100,7 @@
 		<Row>
 			<Class>UNITCLASS_SS_STASIS_CHAMBER</Class>
 			<Type>UNIT_SS_STASIS_CHAMBER</Type>
-			<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
+			<PrereqTech>TECH_SPACE_COLONIZATION</PrereqTech>
 			<Cost>6500</Cost>
 			<Moves>2</Moves>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
@@ -1125,7 +1125,7 @@
 		<Row>
 			<Class>UNITCLASS_SS_ENGINE</Class>
 			<Type>UNIT_SS_ENGINE</Type>
-			<PrereqTech>TECH_INTERSTELLAR_TRAVEL</PrereqTech>
+			<PrereqTech>TECH_COMPUTRONIUM</PrereqTech>
 			<Cost>7500</Cost>
 			<Moves>2</Moves>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
@@ -1150,7 +1150,7 @@
 		<Row>
 			<Class>UNITCLASS_SS_COCKPIT</Class>
 			<Type>UNIT_SS_COCKPIT</Type>
-			<PrereqTech>TECH_PHOTON_COMPUTER</PrereqTech>
+			<PrereqTech>TECH_HOMO_SUPERIOR</PrereqTech>
 			<Cost>6000</Cost>
 			<Moves>2</Moves>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>

@@ -109,7 +109,7 @@
 			<UnitFlagAtlas>CIVIL_WAR_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>CIVIL_WAR_UNIT_ATLAS</IconAtlas>
-			<ExtraMaintenanceCost>3</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>5</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -119,8 +119,8 @@
 			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
 			<ObsoleteTech>TECH_ARTIFICIAL_INTELLIGENCE</ObsoleteTech>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>100</Combat>
-			<RangedCombat>100</RangedCombat>
+			<Combat>150</Combat>
+			<RangedCombat>150</RangedCombat>
 			<Cost>160</Cost>
 			<Moves>5</Moves>
 			<Range>1</Range>
@@ -145,7 +145,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>21</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>5</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
@@ -153,8 +153,8 @@
 			<Type>UNIT_LITTORAL_COMBAT_SHIP</Type>
 			<PrereqTech>TECH_ARTIFICIAL_INTELLIGENCE</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>180</Combat>
-			<RangedCombat>180</RangedCombat>
+			<Combat>200</Combat>
+			<RangedCombat>200</RangedCombat>
 			<Cost>320</Cost>
 			<Moves>6</Moves>
 			<Range>1</Range>
@@ -179,15 +179,15 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>7</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>8</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_LITTORAL_COMBAT_SHIP</Class>
 			<Type>UNIT_DANISH_ABSALON</Type>
 			<PrereqTech>TECH_AUTOMATION_T</PrereqTech>
 			<BaseSightRange>3</BaseSightRange>
-			<Combat>240</Combat>
-			<RangedCombat>240</RangedCombat>
+			<Combat>260</Combat>
+			<RangedCombat>260</RangedCombat>
 			<Cost>320</Cost>
 			<Moves>8</Moves>
 			<Range>2</Range>
@@ -212,7 +212,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>55</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>8</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -465,7 +465,7 @@
 			<Type>UNIT_IRONCLAD</Type>
 			<PrereqTech>TECH_MARINE_ENGINEERING</PrereqTech>
 			<BaseSightRange>3</BaseSightRange>
-			<Combat>150</Combat>
+			<Combat>120</Combat>
 			<Cost>565</Cost>
 			<Moves>9</Moves>
 			<HurryCostModifier>33</HurryCostModifier>
@@ -492,7 +492,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>10</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>14</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>30</ExtraMaintenanceCost>
 		</Row>
 
 		
@@ -502,11 +502,11 @@
 			<Type>UNIT_DESTROYER</Type>
 			<PrereqTech>TECH_SONAR</PrereqTech>
 			<BaseSightRange>3</BaseSightRange>
-			<Combat>200</Combat>
+			<Combat>180</Combat>
 			<Cost>875</Cost>
 			<Moves>10</Moves>
-			<AirInterceptRange>1</AirInterceptRange>
-			<HurryCostModifier>33</HurryCostModifier>
+			<AirInterceptRange>2</AirInterceptRange>
+			<HurryCostModifier>100</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
@@ -514,7 +514,6 @@
 			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_DESTROYER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_SP_UNITS_NAVALMELEE_SHIPS_STRATEGY</Strategy>
 			<Help>TXT_KEY_PROMOTION_DESTROYER_COMBAT_HELP</Help>
-			<ObsoleteTech>TECH_ROBOTICS</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_MODERN_DESTROYER</GoodyHutUpgradeUnitClass>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
@@ -530,7 +529,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>20</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>17</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>45</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_DESTROYER</Class>
@@ -565,7 +564,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>37</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>17</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>35</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -575,11 +574,11 @@
 			<Type>UNIT_MODERN_DESTROYER</Type>
 			<PrereqTech>TECH_ROBOTICS</PrereqTech>
 			<BaseSightRange>4</BaseSightRange>
-			<Combat>280</Combat>
-			<Cost>1250</Cost>
+			<Combat>250</Combat>
+			<Cost>1850</Cost>
 			<Moves>11</Moves>
-			<AirInterceptRange>1</AirInterceptRange>
-			<HurryCostModifier>50</HurryCostModifier>
+			<AirInterceptRange>3</AirInterceptRange>
+			<HurryCostModifier>200</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
@@ -602,7 +601,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>90</ExtraMaintenanceCost>
 			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 		</Row>
@@ -611,11 +610,11 @@
 			<Type>UNIT_KOREAN_SEJONG_CLASS</Type>
 			<PrereqTech>TECH_ROBOTICS</PrereqTech>
 			<BaseSightRange>4</BaseSightRange>
-			<Combat>340</Combat>
-			<Cost>1250</Cost>
+			<Combat>280</Combat>
+			<Cost>1850</Cost>
 			<Moves>11</Moves>
-			<AirInterceptRange>1</AirInterceptRange>
-			<HurryCostModifier>50</HurryCostModifier>
+			<AirInterceptRange>3</AirInterceptRange>
+			<HurryCostModifier>200</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
@@ -638,7 +637,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>59</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>70</ExtraMaintenanceCost>
 			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 		</Row>
@@ -835,7 +834,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>22</PortraitIndex>
 			<MoveRate>SUB</MoveRate>
-			<ExtraMaintenanceCost>12</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_SUBMARINE</Class>
@@ -871,7 +870,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>53</PortraitIndex>
 			<MoveRate>SUB</MoveRate>
-			<ExtraMaintenanceCost>12</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -907,7 +906,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>5</PortraitIndex>
 			<MoveRate>SUB</MoveRate>
-			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>35</ExtraMaintenanceCost>
 		</Row>
 
 		
@@ -1132,7 +1131,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>20</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>50</ExtraMaintenanceCost>
 		</Row>
 		
 		<Row>
@@ -1140,8 +1139,8 @@
 			<Type>UNIT_HEAVY_CRUISER</Type>
 			<PrereqTech>TECH_SONAR</PrereqTech>
 			<BaseSightRange>3</BaseSightRange>
-			<Combat>280</Combat>
-			<RangedCombat>180</RangedCombat>
+			<Combat>250</Combat>
+			<RangedCombat>160</RangedCombat>
 			<Cost>1200</Cost>
 			<Moves>8</Moves>
 			<Range>3</Range>
@@ -1170,7 +1169,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>23</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>25</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_HEAVY_CRUISER</Class>
@@ -1206,7 +1205,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>54</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>25</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>55</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -1215,13 +1214,13 @@
 			<Type>UNIT_MISSILE_CRUISER</Type>
 			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
 			<BaseSightRange>3</BaseSightRange>
-			<Combat>360</Combat>
-			<RangedCombat>280</RangedCombat>
+			<Combat>350</Combat>
+			<RangedCombat>320</RangedCombat>
 			<Cost>1800</Cost>
 			<Moves>9</Moves>
 			<Range>3</Range>
-			<AirInterceptRange>3</AirInterceptRange>
-			<HurryCostModifier>75</HurryCostModifier>
+			<AirInterceptRange>4</AirInterceptRange>
+			<HurryCostModifier>200</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1245,20 +1244,20 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>33</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>30</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>150</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_MISSILE_CRUISER</Class>
 			<Type>UNIT_KIROV_BATTLECRUISER</Type>
 			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
 			<BaseSightRange>3</BaseSightRange>
-			<Combat>500</Combat>
-			<RangedCombat>400</RangedCombat>
-			<Cost>2200</Cost>
+			<Combat>350</Combat>
+			<RangedCombat>350</RangedCombat>
+			<Cost>2500</Cost>
 			<Moves>9</Moves>
 			<Range>4</Range>
 			<AirInterceptRange>4</AirInterceptRange>
-			<HurryCostModifier>75</HurryCostModifier>
+			<HurryCostModifier>250</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1283,7 +1282,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>52</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>30</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>80</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
@@ -1295,7 +1294,7 @@
 			<Cost>2000</Cost>
 			<Moves>10</Moves>
 			<AirInterceptRange>4</AirInterceptRange>
-			<HurryCostModifier>75</HurryCostModifier>
+			<HurryCostModifier>200</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
@@ -1372,11 +1371,11 @@
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
 			<Combat>280</Combat>
-			<RangedCombat>280</RangedCombat>
+			<RangedCombat>200</RangedCombat>
 			<Cost>1350</Cost>
 			<Moves>6</Moves>
 			<Range>4</Range>
-			<HurryCostModifier>125</HurryCostModifier>
+			<HurryCostModifier>200</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1400,7 +1399,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>32</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>64</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_DREADNOUGHT</Class>
@@ -1408,11 +1407,11 @@
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
 			<Combat>280</Combat>
-			<RangedCombat>280</RangedCombat>
+			<RangedCombat>210</RangedCombat>
 			<Cost>1000</Cost>
 			<Moves>6</Moves>
 			<Range>4</Range>
-			<HurryCostModifier>100</HurryCostModifier>
+			<HurryCostModifier>200</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1435,7 +1434,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>29</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>26</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>50</ExtraMaintenanceCost>
 		</Row>
 		
 		
@@ -1445,11 +1444,11 @@
 			<PrereqTech>TECH_LARGE_CALIBRE</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
 			<Combat>380</Combat>
-			<RangedCombat>380</RangedCombat>
-			<Cost>2600</Cost>
+			<RangedCombat>300</RangedCombat>
+			<Cost>3000</Cost>
 			<Moves>7</Moves>
 			<Range>5</Range>
-			<HurryCostModifier>125</HurryCostModifier>
+			<HurryCostModifier>200</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1457,7 +1456,6 @@
 			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_BATTLESHIP_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_SP_UNITS_BATTLESHIPS_STRATEGY</Strategy>
 			<Help>TXT_KEY_PROMOTION_NAVAL_CAPITAL_SHIP_HELP</Help>
-			<ObsoleteTech>TECH_SUPERCONDUCTOR</ObsoleteTech>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
@@ -1472,7 +1470,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>21</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>45</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>100</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
@@ -1481,8 +1479,8 @@
 			<PrereqTech>TECH_LARGE_CALIBRE</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
 			<Combat>420</Combat>
-			<RangedCombat>420</RangedCombat>
-			<Cost>2000</Cost>
+			<RangedCombat>340</RangedCombat>
+			<Cost>2500</Cost>
 			<Moves>7</Moves>
 			<Range>5</Range>
 			<HurryCostModifier>125</HurryCostModifier>
@@ -1508,7 +1506,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>38</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>36</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>80</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
@@ -1516,12 +1514,12 @@
 			<Type>UNIT_FUTURE_BATTLESHIP</Type>
 			<PrereqTech>TECH_SUPERCONDUCTOR</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>500</Combat>
-			<RangedCombat>500</RangedCombat>
-			<Cost>4000</Cost>
+			<Combat>600</Combat>
+			<RangedCombat>450</RangedCombat>
+			<Cost>8000</Cost>
 			<Moves>8</Moves>
 			<Range>6</Range>
-			<HurryCostModifier>150</HurryCostModifier>
+			<HurryCostModifier>250</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1544,7 +1542,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>30</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>350</ExtraMaintenanceCost>
 		</Row>
 	
 		
@@ -1565,7 +1563,7 @@
 			<Type>UNIT_CARRIER</Type>
 			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
 			<BaseSightRange>4</BaseSightRange>
-			<Combat>250</Combat>
+			<Combat>200</Combat>
 			<Cost>2600</Cost>
 			<Moves>7</Moves>
 			<HurryCostModifier>150</HurryCostModifier>
@@ -1576,7 +1574,6 @@
 			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_CARRIER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_SP_UNITS_AIRCRAFT_CARRIERS_STRATEGY</Strategy>
 			<Help>TXT_KEY_PROMOTION_CARRIER_UNIT_HELP</Help>
-			<ObsoleteTech>TECH_COMPUTERS</ObsoleteTech>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
@@ -1593,7 +1590,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>23</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>38</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>80</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
@@ -1602,7 +1599,7 @@
 			<PrereqTech>TECH_COMPUTERS</PrereqTech>
 			<BaseSightRange>4</BaseSightRange>
 			<Combat>300</Combat>
-			<Cost>3400</Cost>
+			<Cost>4500</Cost>
 			<Moves>8</Moves>
 			<HurryCostModifier>175</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
@@ -1614,7 +1611,6 @@
 			<Help>TXT_KEY_PROMOTION_CARRIER_UNIT_HELP</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<ObsoleteTech>TECH_NUCLEAR_FUSION</ObsoleteTech>
 			<Pillage>true</Pillage>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
@@ -1630,7 +1626,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>42</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>46</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>180</ExtraMaintenanceCost>
 		</Row>
 		
 		<Row>
@@ -1639,7 +1635,7 @@
 			<PrereqTech>TECH_COMPUTERS</PrereqTech>
 			<BaseSightRange>4</BaseSightRange>
 			<Combat>360</Combat>
-			<Cost>4200</Cost>
+			<Cost>6000</Cost>
 			<Moves>8</Moves>
 			<HurryCostModifier>200</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
@@ -1666,7 +1662,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>39</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>46</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>350</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
@@ -1675,9 +1671,9 @@
 			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
 			<BaseSightRange>4</BaseSightRange>
 			<Combat>360</Combat>
-			<Cost>4600</Cost>
+			<Cost>8500</Cost>
 			<Moves>8</Moves>
-			<HurryCostModifier>200</HurryCostModifier>
+			<HurryCostModifier>400</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
@@ -1699,10 +1695,10 @@
 			<UnitArtInfo>ART_DEF_UNIT_SUPER_CARRIER</UnitArtInfo>
 			<UnitFlagIconOffset>104</UnitFlagIconOffset>
 			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
-			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
-			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>47</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>600</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -1783,7 +1779,7 @@
 			<BaseSightRange>6</BaseSightRange>
 			<Combat>300</Combat>
 			<RangedCombat>250</RangedCombat>
-			<Cost>1750</Cost>
+			<Cost>3500</Cost>
 			<Moves>10</Moves>
 			<Range>2</Range>
 			<HurryCostModifier>100</HurryCostModifier>
@@ -1813,7 +1809,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>34</PortraitIndex>
 			<MoveRate>SUB</MoveRate>
-			<ExtraMaintenanceCost>16</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>40</ExtraMaintenanceCost>
 		</Row>
 		
 		

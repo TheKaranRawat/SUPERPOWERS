@@ -261,10 +261,11 @@
 				<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn>
 				<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
 				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
-				<AIStartingDefenseUnits>2</AIStartingDefenseUnits>
+				<AIStartingDefenseUnits>1</AIStartingDefenseUnits>
+				<!--<AIStartingDefenseUnits>2</AIStartingDefenseUnits> -->
 				<AIStartingExploreUnits>2</AIStartingExploreUnits>
 				<AIStartingWorkerUnits>2</AIStartingWorkerUnits>
-				<AIStartingUnitMultiplier>1</AIStartingUnitMultiplier>
+				<!--<AIStartingUnitMultiplier>1</AIStartingUnitMultiplier> -->
 				<AIDeclareWarProb>100</AIDeclareWarProb>
 				<AIWorkRateModifier>250</AIWorkRateModifier>
 				<AIUnhappinessPercent>90</AIUnhappinessPercent>
@@ -324,7 +325,7 @@
 				<AIStartingDefenseUnits>2</AIStartingDefenseUnits>
 				<AIStartingExploreUnits>2</AIStartingExploreUnits>
 				<AIStartingWorkerUnits>2</AIStartingWorkerUnits>
-				<AIStartingUnitMultiplier>1</AIStartingUnitMultiplier>
+				<!-- <AIStartingUnitMultiplier>1</AIStartingUnitMultiplier> -->
 				<AIDeclareWarProb>200</AIDeclareWarProb>
 				<AIWorkRateModifier>300</AIWorkRateModifier>
 				<AIUnhappinessPercent>85</AIUnhappinessPercent>
@@ -384,7 +385,7 @@
 				<AIStartingDefenseUnits>3</AIStartingDefenseUnits>
 				<AIStartingExploreUnits>2</AIStartingExploreUnits>
 				<AIStartingWorkerUnits>2</AIStartingWorkerUnits>
-				<AIStartingUnitMultiplier>2</AIStartingUnitMultiplier>
+				<AIStartingUnitMultiplier>1</AIStartingUnitMultiplier>
 				<AIDeclareWarProb>500</AIDeclareWarProb>
 				<AIWorkRateModifier>350</AIWorkRateModifier>
 				<AIUnhappinessPercent>75</AIUnhappinessPercent>
@@ -444,7 +445,7 @@
 				<AIStartingDefenseUnits>5</AIStartingDefenseUnits>
 				<AIStartingExploreUnits>2</AIStartingExploreUnits>
 				<AIStartingWorkerUnits>2</AIStartingWorkerUnits>
-				<AIStartingUnitMultiplier>3</AIStartingUnitMultiplier>
+				<AIStartingUnitMultiplier>2</AIStartingUnitMultiplier>
 				<AIDeclareWarProb>900</AIDeclareWarProb>
 				<AIWorkRateModifier>400</AIWorkRateModifier>
 				<AIUnhappinessPercent>66</AIUnhappinessPercent>
@@ -509,25 +510,25 @@
 			<Text>Regional Powers</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_KING_HELP" >
-			<Text>Aggressive AI with large bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 2 settlers and AI will get stronger when you enter a new era. Equals "Deity".</Text>
+			<Text>Aggressive AI with large bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 1 settler and AI will get stronger when you enter a new era. Equals "Deity".</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_EMPEROR" >
 			<Text>Great Powers</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_EMPEROR_HELP" >
-			<Text>Ferocious AI with great bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 2 settlers and AI will get even stronger when you enter a new era. </Text>
+			<Text>Ferocious AI with great bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 1 settler and AI will get even stronger when you enter a new era. </Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_IMMORTAL" >
 			<Text>Potential Superpowers</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_IMMORTAL_HELP" >
-			<Text>Crazy AI with huge bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 3 settlers and AI will get much more stronger when you enter a new era. </Text>
+			<Text>Crazy AI with huge bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 2 settlers and AI will get much more stronger when you enter a new era. </Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_DEITY" >
 			<Text>Superpowers</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_DEITY_HELP" >
-			<Text>Insane AI with insane bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 4 settlers and AI will get on steroids when you enter a new era. </Text>
+			<Text>Insane AI with insane bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 3 settlers and AI will get on steroids when you enter a new era. </Text>
 		</Replace>
 	</Language_en_US>
 	

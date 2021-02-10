@@ -856,17 +856,227 @@
 			<PrereqTech>TECH_METAMATERIAL</PrereqTech>
 		</Row>
 
+		<!-- post future techs -->
+
 		<Row>
-			<TechType>TECH_FUTURE_TECH</TechType>
+			<TechType>TECH_ENVIRONMENTALISM</TechType>
 			<PrereqTech>TECH_PHOTON_COMPUTER</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_FUTURE_TECH</TechType>
+			<TechType>TECH_ENVIRONMENTALISM</TechType>
 			<PrereqTech>TECH_INTERSTELLAR_TRAVEL</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_FUTURE_TECH</TechType>
+			<TechType>TECH_GEN_MANIP</TechType>
+			<PrereqTech>TECH_INTERSTELLAR_TRAVEL</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_GEN_MANIP</TechType>
 			<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_CLONING</TechType>
+			<PrereqTech>TECH_ENVIRONMENTALISM</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_MEMETICS</TechType>
+			<PrereqTech>TECH_ENVIRONMENTALISM</PrereqTech>
+		</Row>
+
+		<!---
+		<Row>
+			<TechType>TECH_MEMETICS</TechType>
+			<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
+		</Row>
+		
+		<Row>
+			<TechType>TECH_MEMETICS</TechType>
+			<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
+		</Row>
+		-->
+		<Row>
+			<TechType>TECH_GRID_COMPUTING</TechType>
+			<PrereqTech>TECH_ENVIRONMENTALISM</PrereqTech>
+		</Row>
+		
+		<Row>
+			<TechType>TECH_NANOMATERIALS</TechType>
+			<PrereqTech>TECH_GEN_MANIP</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_SUPERCONDUCTIVITY</TechType>
+			<PrereqTech>TECH_GEN_MANIP</PrereqTech>
+		</Row>
+		
+		<Row>
+			<TechType>TECH_ARTIFICIAL_ENVIRONMENTS</TechType>
+			<PrereqTech>TECH_GEN_MANIP</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_TRANSGENICS</TechType>
+			<PrereqTech>TECH_CLONING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_TRANSGENICS</TechType>
+			<PrereqTech>TECH_ECOSOPHY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_IMPLANTS</TechType>
+			<PrereqTech>TECH_MEMETICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_COGNITIVE_TECH</TechType>
+			<PrereqTech>TECH_GRID_COMPUTING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_COGNITIVE_TECH</TechType>
+			<PrereqTech>TECH_NANOMATERIALS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_QUANTUM_COMPUTERS</TechType>
+			<PrereqTech>TECH_NANOMATERIALS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_QUANTUM_COMPUTERS</TechType>
+			<PrereqTech>TECH_SUPERCONDUCTIVITY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ORBITAL_DEV</TechType>
+			<PrereqTech>TECH_SUPERCONDUCTIVITY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ORBITAL_DEV</TechType>
+			<PrereqTech>TECH_ARTIFICIAL_ENVIRONMENTS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ECOSOPHY</TechType>
+			<PrereqTech>TECH_MEMETICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_NEURAL_INTERFACE</TechType>
+			<PrereqTech>TECH_IMPLANTS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_NEURAL_INTERFACE</TechType>
+			<PrereqTech>TECH_COGNITIVE_TECH</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_AUTONOMOUS_SYSTEMS</TechType>
+			<PrereqTech>TECH_COGNITIVE_TECH</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ARCOLOGIES</TechType>
+			<PrereqTech>TECH_ORBITAL_DEV</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_GENGINEERING</TechType>
+			<PrereqTech>TECH_TRANSGENICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_BIOMODIFICATION</TechType>
+			<PrereqTech>TECH_IMPLANTS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_BIOMODIFICATION</TechType>
+			<PrereqTech>TECH_TRANSGENICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_CYBERNETICS</TechType>
+			<PrereqTech>TECH_NEURAL_INTERFACE</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_AI</TechType>
+			<PrereqTech>TECH_AUTONOMOUS_SYSTEMS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ADAMANTIUM</TechType>
+			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_TERRAFORMING</TechType>
+			<PrereqTech>TECH_GENGINEERING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_TERRAFORMING</TechType>
+			<PrereqTech>TECH_BIOMODIFICATION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_HUMAN_AUGMENTATION</TechType>
+			<PrereqTech>TECH_BIOMODIFICATION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_HUMAN_AUGMENTATION</TechType>
+			<PrereqTech>TECH_CYBERNETICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_DIGITAL_SOCIETY</TechType>
+			<PrereqTech>TECH_CYBERNETICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_DIGITAL_SOCIETY</TechType>
+			<PrereqTech>TECH_AI</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_SMART_MATERIALS</TechType>
+			<PrereqTech>TECH_AI</PrereqTech>
+		</Row>
+	
+	
+		<Row>
+			<TechType>TECH_ENERGY_THEORY</TechType>
+			<PrereqTech>TECH_ADAMANTIUM</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_HYPERSTRUCTURES</TechType>
+			<PrereqTech>TECH_ADAMANTIUM</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_HYPERSTRUCTURES</TechType>
+			<PrereqTech>TECH_ARCOLOGIES</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_HOMO_SUPERIOR</TechType>
+			<PrereqTech>TECH_TERRAFORMING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_HOMO_SUPERIOR</TechType>
+			<PrereqTech>TECH_HUMAN_AUGMENTATION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_COMPUTRONIUM</TechType>
+			<PrereqTech>TECH_DIGITAL_SOCIETY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_COMPUTRONIUM</TechType>
+			<PrereqTech>TECH_SMART_MATERIALS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_SPACE_COLONIZATION</TechType>
+			<PrereqTech>TECH_HYPERSTRUCTURES</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_SPACE_COLONIZATION</TechType>
+			<PrereqTech>TECH_ENERGY_THEORY</PrereqTech>
+		</Row>
+
+
+
+
+
+
+		<!-- post future techs end -->
+
+		<Row>
+			<TechType>TECH_FUTURE_TECH</TechType>
+			<PrereqTech>TECH_HOMO_SUPERIOR</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_FUTURE_TECH</TechType>
+			<PrereqTech>TECH_COMPUTRONIUM</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_FUTURE_TECH</TechType>
+			<PrereqTech>TECH_SPACE_COLONIZATION</PrereqTech>
 		</Row>
 	</Technology_PrereqTechs>
 

@@ -132,8 +132,6 @@
 		</UnitClasses>
 
 
-
-
 	<!--****************************************Citadel Units******************************-->
 
 	<UnitClasses>
@@ -155,7 +153,6 @@
 	</UnitClasses>
 	
 	
-
 	<!--****************************************Land******************************-->
 
 	<UnitClasses>
@@ -1106,6 +1103,167 @@
 			<DefaultUnit>UNIT_SATELLITE_ORBITAL_STRIKE</DefaultUnit>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+
+		<!--postfuture-->
+
+		<Row>
+			<Type>UNITCLASS_FW_DRONE_FIGHTER_2</Type>
+			<Description>TXT_KEY_UNIT_FW_DRONE_FIGHTER_2</Description>
+			<DefaultUnit>UNIT_FW_DRONE_FIGHTER_2</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_SUBORBITAL_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_FW_SUBORBITAL_BOMBER</Description>
+			<DefaultUnit>UNIT_FW_SUBORBITAL_BOMBER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_RAILGUN_TANK</Type>
+			<Description>TXT_KEY_UNIT_FW_RAILGUN_TANK</Description>
+			<DefaultUnit>UNIT_FW_RAILGUN_TANK</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_MECH_ARTILLERY</Type>
+			<Description>TXT_KEY_UNIT_FW_MECH_ARTILLERY</Description>
+			<DefaultUnit>UNIT_FW_MECH_ARTILLERY</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_VERTOL</Type>
+			<Description>TXT_KEY_UNIT_FW_VERTOL</Description>
+			<DefaultUnit>UNIT_FW_VERTOL</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_HOVERTANK</Type>
+			<Description>TXT_KEY_UNIT_FW_HOVERTANK</Description>
+			<DefaultUnit>UNIT_FW_HOVERTANK</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_CYBERSUB</Type>
+			<Description>TXT_KEY_UNIT_FW_CYBERSUB</Description>
+			<DefaultUnit>UNIT_FW_CYBERSUB</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_MISSILE_DESTROYER</Type>
+			<Description>TXT_KEY_UNIT_FW_MISSILE_DESTROYER</Description>
+			<DefaultUnit>UNIT_FW_MISSILE_DESTROYER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_NEODESTROYER</Type>
+			<Description>TXT_KEY_UNIT_FW_NEODESTROYER</Description>
+			<DefaultUnit>UNIT_FW_NEODESTROYER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_ARSENAL_SHIP</Type>
+			<Description>TXT_KEY_UNIT_FW_ARSENAL_SHIP</Description>
+			<DefaultUnit>UNIT_FW_ARSENAL_SHIP</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_SUPERCARRIER</Type>
+			<Description>TXT_KEY_UNIT_FW_SUPERCARRIER</Description>
+			<DefaultUnit>UNIT_FW_SUPERCARRIER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_HYPERMISSILE</Type>
+			<Description>TXT_KEY_UNIT_FW_HYPERMISSILE</Description>
+			<DefaultUnit>UNIT_FW_HYPERMISSILE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_CRAWLER</Type>
+			<Description>TXT_KEY_UNIT_FW_CRAWLER</Description>
+			<DefaultUnit>UNIT_FW_CRAWLER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_UAV</Type>
+			<Description>TXT_KEY_UNIT_FW_UAV</Description>
+			<DefaultUnit>UNIT_FW_UAV</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_HYBRID_DRONE</Type>
+			<Description>TXT_KEY_UNIT_FW_HYBRID_DRONE</Description>
+			<DefaultUnit>UNIT_FW_HYBRID_DRONE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_BIODRONE</Type>
+			<Description>TXT_KEY_UNIT_FW_BIODRONE</Description>
+			<DefaultUnit>UNIT_FW_BIODRONE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_BATTLESUIT</Type>
+			<Description>TXT_KEY_UNIT_FW_BATTLESUIT</Description>
+			<DefaultUnit>UNIT_FW_BATTLESUIT</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_CHIMERA</Type>
+			<Description>TXT_KEY_UNIT_FW_CHIMERA</Description>
+			<DefaultUnit>UNIT_FW_CHIMERA</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_HYDRA</Type>
+			<Description>TXT_KEY_UNIT_FW_HYDRA</Description>
+			<DefaultUnit>UNIT_FW_HYDRA</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_SWARM</Type>
+			<Description>TXT_KEY_UNIT_FW_SWARM</Description>
+			<DefaultUnit>UNIT_FW_SWARM</DefaultUnit>
+		</Row>
+
+		<Row>
+			<Type>UNITCLASS_FW_SPEC_FORCES</Type>
+			<Description>TXT_KEY_UNIT_FW_SPEC_FORCES</Description>
+			<DefaultUnit>UNIT_FW_SPEC_FORCES</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_AIRBORNE_FORCES</Type>
+			<Description>TXT_KEY_UNIT_FW_AIRBORNE_FORCES</Description>
+			<DefaultUnit>UNIT_FW_AIRBORNE_FORCES</DefaultUnit>
+		</Row>
+		
+		<Row>
+			<Type>UNITCLASS_FW_BIOINFANTRY</Type>
+			<Description>TXT_KEY_UNIT_FW_BIOINFANTRY</Description>
+			<DefaultUnit>UNIT_FW_BIOINFANTRY</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_BIOTROOPER</Type>
+			<Description>TXT_KEY_UNIT_FW_BIOTROOPER</Description>
+			<DefaultUnit>UNIT_FW_BIOTROOPER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_AUTOMATON</Type>
+			<Description>TXT_KEY_UNIT_FW_AUTOMATON</Description>
+			<DefaultUnit>UNIT_FW_AUTOMATON</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_ROBOT_INFANTRY</Type>
+			<Description>TXT_KEY_UNIT_FW_ROBOT_INFANTRY</Description>
+			<DefaultUnit>UNIT_FW_ROBOT_INFANTRY</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_NANOHIVE</Type>
+			<Description>TXT_KEY_UNIT_FW_NANOHIVE</Description>
+			<DefaultUnit>UNIT_FW_NANOHIVE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_NEXUS</Type>
+			<Description>TXT_KEY_UNIT_FW_NEXUS</Description>
+			<DefaultUnit>UNIT_FW_NEXUS</DefaultUnit>
+		</Row>
+
+		<Row>
+			<Type>UNITCLASS_FW_TREX</Type>
+			<Description>TXT_KEY_UNIT_FW_TREX</Description>
+			<DefaultUnit>UNIT_FW_TREX</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_TRICERATOPS</Type>
+			<Description>TXT_KEY_UNIT_FW_TRICERATOPS</Description>
+			<DefaultUnit>UNIT_FW_TRICERATOPS</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_RAPTOR</Type>
+			<Description>TXT_KEY_UNIT_FW_RAPTOR</Description>
+			<DefaultUnit>UNIT_FW_RAPTOR</DefaultUnit>
 		</Row>
 
 	</UnitClasses>

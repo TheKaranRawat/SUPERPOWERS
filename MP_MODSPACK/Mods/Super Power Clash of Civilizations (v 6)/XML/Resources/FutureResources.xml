@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/16/2013 11:04:30 PM -->
+<GameData>
+	<Resources>
+		<Row>
+			<Type>RESOURCE_NANOMAT</Type>
+			<TechReveal>TECH_NANOMATERIALS</TechReveal>
+			<TechCityTrade>TECH_NANOMATERIALS</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_NANOMAT</Description>
+			<Civilopedia>TXT_KEY_RESOURCE_NANOMAT_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_NANOMAT_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_MODERN</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_ALUMINUM</ArtDefineTag>
+			<IconString>[ICON_RES_NANOMAT]</IconString>
+			<PortraitIndex>31</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_3</IconAtlas>
+		</Row>
+		<!--
+		<Row>
+			<Type>RESOURCE_FW_MANGANESE</Type>
+			<Happiness>4</Happiness>
+			<TechCityTrade>TECH_MINING</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_FW_MANGANESE</Description>
+			<Civilopedia>TXT_KEY_RESOURCE_FW_MANGANESE_TEXT</Civilopedia>
+			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_FW_MANGANESE</ArtDefineTag>
+			<IconString>[ICON_RES_FW_MANGANESE]</IconString>
+			<PortraitIndex>15</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+		</Row>
+		-->
+	</Resources>
+	<Resource_YieldChanges>
+		<!--
+		<Row>
+			<ResourceType>RESOURCE_FW_MANGANESE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		-->
+	</Resource_YieldChanges>
+	<Resource_Flavors>
+		<Row>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<!--
+		<Row>
+			<ResourceType>RESOURCE_FW_MANGANESE</ResourceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		-->
+	</Resource_Flavors>
+	<IconFontMapping>
+		<Row>
+			<IconName>ICON_RES_NANOMAT</IconName>
+			<IconFontTexture>FUTURE_ICON_FONT_TEXTURE</IconFontTexture>
+			<IconMapping>0</IconMapping>
+		</Row>
+		<!--
+		<Row>
+			<IconName>ICON_RES_FW_MANGANESE</IconName>
+			<IconFontTexture>FUTURE_ICON_FONT_TEXTURE</IconFontTexture>
+			<IconMapping>1</IconMapping>
+		</Row>
+		-->
+	</IconFontMapping>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_RESOURCE_NANOMAT">
+			<Text>Nanomaterials</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_NANOMAT_HELP">
+			<Text>Used by futuristic buildings and units. Does not spawn on the map, and must be produced by special buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_NANOMAT_TEXT">
+			<Text>Nanomaterials describe, in principle, materials of which a single unit is sized (in at least one dimension) between 1 and 1000 nanometers. Materials with structure at the nanoscale often have unique optical, electronic, or mechanical properties. As such, they form an integral component of many futuristic military units and buildings.  However, unlike most strategic resources, they are not found anywhere naturally, but instead must be produced by buildings such as Nanomaterial Plants, Converters, and Nucleonic Foundries.</Text>
+		</Row>
+<!--
+		<Row Tag="TXT_KEY_RESOURCE_FW_MANGANESE">
+			<Text>Manganese</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_FW_MANGANESE_HELP">
+			<Text>Used by futuristic buildings and units. Does not spawn on the map, and must be produced by special buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_FW_MANGANESE_TEXT">
+			<Text>Nanomateerials describe, in principle, materials of which a single unit is sized (in at least one dimension) between 1 and 1000 nanometers. Materials with structure at the nanoscale often have unique optical, electronic, or mechanical properties. As such, they form an integral component of many futuristic military units and buildings.  However, unlike most strategic resources, they are not found anywhere naturally, but instead must be produced by buildings such as FW_MANGANESEerial Plants, Converters, and Nucleonic Foundries.</Text>
+		</Row>
+		-->
+	</Language_en_US>
+
+	<!--
+	<ArtDefine_Landmarks>
+		<Row>
+			<Era>Any</Era>
+			<State>Any</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_NONE</ImprovementType>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<ResourceType>ART_DEF_RESOURCE_FW_MANGANESE</ResourceType>
+			<Model>manganese.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+		</Row>
+		<Row>
+			<Era>Ancient</Era>
+			<State>UnderConstruction</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<ResourceType>ART_DEF_RESOURCE_FW_MANGANESE</ResourceType>
+			<Model>hb_med_mine_manganese.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+		</Row>
+		<Row>
+			<Era>Ancient</Era>
+			<State>Constructed</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<ResourceType>ART_DEF_RESOURCE_FW_MANGANESE</ResourceType>
+			<Model>med_mine_manganese.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+		</Row>
+		<Row>
+			<Era>Ancient</Era>
+			<State>Pillaged</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<ResourceType>ART_DEF_RESOURCE_FW_MANGANESE</ResourceType>
+			<Model>pl_med_mine_manganese.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+		</Row>
+		<Row>
+			<Era>Industrial</Era>
+			<State>UnderConstruction</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<ResourceType>ART_DEF_RESOURCE_FW_MANGANESE</ResourceType>
+			<Model>hb_ind_mine_manganese.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+		</Row>
+		<Row>
+			<Era>Industrial</Era>
+			<State>Constructed</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<ResourceType>ART_DEF_RESOURCE_FW_MANGANESE</ResourceType>
+			<Model>ind_mine_manganese.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+		</Row>
+		<Row>
+			<Era>Industrial</Era>
+			<State>Pillaged</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_MINE</ImprovementType>
+			<LayoutHandler>SNAPSHOT</LayoutHandler>
+			<ResourceType>ART_DEF_RESOURCE_FW_MANGANESE</ResourceType>
+			<Model>pl_ind_mine_manganese.fxsxml</Model>
+			<TerrainContour>1</TerrainContour>
+		</Row>
+	</ArtDefine_Landmarks>
+
+	<ArtDefine_LandmarkTypes>
+		<Row>
+			<Type>ART_DEF_RESOURCE_FW_MANGANESE</Type>
+			<LandmarkType>Resource</LandmarkType>
+			<FriendlyName>Manganese</FriendlyName>
+		</Row>
+	</ArtDefine_LandmarkTypes>
+	-->
+</GameData>

@@ -1,0 +1,23 @@
+<Asset>
+  <Mesh file="Node_PL.gr2" source="Max" />
+  <Texture file="HBKit_DIFF.dds" source="Max" />
+  <Texture file="HBKit_SREF.dds" source="Max" />
+  <Texture file="Node_CN_DIFF.dds" source="Max" />
+  <Texture file="Node_CN_DecalD.dds" source="Max" />
+  <Texture file="Node_CN_DecalH.dds" source="Max" />
+  <Texture file="Node_CN_SREF.dds" source="Max" />
+  <Texture file="Node_HB_DIFF.dds" source="Max" />
+  <Texture file="Node_HB_DecalD.dds" source="Max" />
+  <Texture file="Node_HB_DecalH.dds" source="Max" />
+  <Texture file="Node_PL_DIFF.dds" source="Max" />
+  <Texture file="Node_PL_DecalD.dds" source="Max" />
+  <Texture file="Node_PL_SREF.dds" source="Max" />
+  <Texture file="Building_Environment_Dull.dds" source="Max" />
+  <Texture file="Building_Environment_Sharp.dds" source="Max" />
+  <Texture file="Building_Sunlight_Irradiance.dds" source="Max" />
+  <DecisionTree file="StaticLandmarkDecisionTree.ddtxml" source="Tool" />
+  <TimedTrigger file="FX_Triggers_PL_Fort_MID.ftsxml" source="Tool" model="PL_Node" state="0,1,2,3" />
+  <BoneUsage>
+    <Bone name="BONE_FXPillageSmoke" />
+  </BoneUsage>
+</Asset>

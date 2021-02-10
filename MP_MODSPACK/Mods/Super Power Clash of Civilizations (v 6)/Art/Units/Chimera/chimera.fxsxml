@@ -1,0 +1,43 @@
+<Asset>
+	<Mesh file="Chimera.gr2" source="Tool" />
+	<Texture file="wolf.dds"/>
+	<Animation file="wolf_md_idle.gr2" ec="1000, 1020, 1450, 1800, 2000, 2020" />
+	<Animation file="wolf_md_run.gr2" ec="1120, 1140, 1400, 1440, 2440" />
+	<Animation file="wolf_md_fidget.gr2" ec="1040, 2040" />
+	<Animation file="wolf_md_fortifya.gr2" ec="1500" />
+	<Animation file="wolf_md_fortifya_idle.gr2" ec="1520, 1540, 1560, 1580, 1600, 1620, 1640, 1285, 1290" />
+	<Animation file="wolf_md_strikea.gr2" ec="1100, 1160, 1180" />
+	<Animation file="wolf_md_strikeb.gr2" ec="2100" />
+	<Animation file="wolf_md_diea.gr2" ec="1200, 2200" />
+	<Animation file="wolf_md_diea_fade.gr2" ec="1220, 2220" />
+	<Animation file="wolf_md_hurta.gr2" ec="1280" />
+	<AnimGraph file="RUN_CHARGE_SHUFFLE_TO_SHUFFLE_RUN_CHARGE.dge" />
+	<AnimGraph file="IDLE_OFFSET_CONTINUE_TRUE_GRAPH.dge" />
+	<AnimGraph file="FORTIFY_FIDGET_GRAPH.dge" />
+	<AnimGraph file="ENTER_FORTIFY.dge" />
+	<AnimGraph file="LEAVE_BOMBARD_DEFEND_TRANS_IDLE_A_GRAPH.dge" />
+	<AnimGraph file="DEATH_FINAL_GRAPH.dge" />
+	<AnimGraph file="BOMBARD_DEFEND_LOOP_GRAPH.dge" />
+	<AnimGraph file="ENTER_BOMBARD_DEFEND_GRAPH.dge" />
+	<AnimGraph file="DEATH_GRAPH.dge" />
+	<AnimGraph file="LEAVE_COMBAT_READY.dge" />
+	<AnimGraph file="ENTER_COMBAT_READY_GRAPH.dge" />
+	<AnimGraph file="FORTIFY_LEAVE_GRAPH.dge" />
+	<AnimGraph file="COMBAT_READY_GRAPH.dge" />
+	<AnimGraph file="FORTIFY_GRAPH.dge" />
+	<AnimGraph file="TRANSITIONS_FOR_IDLES.dge" />
+	<AnimGraph file="STOP_RUNNING.dge" />
+	<AnimGraph file="IDLE_GRAPH.dge" />
+	<AnimGraph file="FIDGETS_GRAPH.dge" />
+	<AnimGraph file="MELEE_ATTACKS.dge" />
+	<StateMachine file="1_OMNI_STATE_01.fsmxml" />
+	<AnimGraph file="RUN_CHARGE_SHUFFLE_LOOP.dge" />
+	<AnimGraph file="ATTACK_TO_RUN_CHARGE_SHUFFLE.dge" />
+	<AnimGraph file="ATTACK_CITY_TO_RUN_CHARGE_SHUFFLE.dge" />
+	<AnimGraph file="START_RUN_CHARGE_SHUFFLE.dge" />
+	<AnimGraph file="SHUFFLE_STOP_GRAPH.dge" />
+	<BoneUsage>
+		<Bone name="LionBip Spine1"/>
+	</BoneUsage>
+	<TimedTrigger file="FX_Triggers_Chimera.ftsxml" />
+</Asset>

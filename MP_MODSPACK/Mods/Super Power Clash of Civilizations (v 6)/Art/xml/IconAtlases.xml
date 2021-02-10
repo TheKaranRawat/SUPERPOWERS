@@ -2,6 +2,346 @@
 <!-- Created by ModBuddy on 2/3/2014 4:22:45 PM -->
 <GameData>
 	<IconTextureAtlases>
+
+		<Row>
+			<Atlas>FW_IMPROVEMENTS_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Art/Future2IconAtlas256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>FW_IMPROVEMENTS_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Art/Future2IconAtlas128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>FW_IMPROVEMENTS_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>Art/Future2IconAtlas80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>FW_IMPROVEMENTS_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Art/Future2IconAtlas64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>FW_IMPROVEMENTS_ATLAS</Atlas>
+			<IconSize>48</IconSize>
+			<Filename>Art/Future2IconAtlas48.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>FW_IMPROVEMENTS_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Art/Future2IconAtlas45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>FW_IMPROVEMENTS_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>Art/Future2IconAtlas32.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+
+		<!-- future worlds -->
+
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>FutureWorldsIconAtlas256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>FutureWorldsIconAtlas128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>FutureWorldsIconAtlas80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>FutureWorldsIconAtlas64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>FutureWorldsIconAtlas45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>FutureWorldsIconAtlas32.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_2</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>FutureWorldsIconAtlas256-2.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_2</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>FutureWorldsIconAtlas128-2.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_2</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>FutureWorldsIconAtlas80-2.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_2</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>FutureWorldsIconAtlas64-2.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_2</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>FutureWorldsIconAtlas45-2.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_2</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>FutureWorldsIconAtlas32-2.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_3</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>FutureWorldsIconAtlas256-3.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_3</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>FutureWorldsIconAtlas128-3.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_3</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>FutureWorldsIconAtlas80-3.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_3</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>FutureWorldsIconAtlas64-3.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_3</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>FutureWorldsIconAtlas45-3.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_3</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>FutureWorldsIconAtlas32-3.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		
+		<Row>
+			<Atlas>BW_ATLAS_SKYTREE</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>SKYTREE_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_SKYTREE</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>SKYTREE_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_SKYTREE</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>SKYTREE_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_SKYTREE</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>SKYTREE_80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_SKYTREE</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>SKYTREE_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>BW_ATLAS_CHINESE_NEW_YEAR</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>CHINA_icon256.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_CHINESE_NEW_YEAR</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>CHINA_icon128.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_CHINESE_NEW_YEAR</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>CHINA_icon64.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_CHINESE_NEW_YEAR</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>CHINA_icon80.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_CHINESE_NEW_YEAR</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>CHINA_icon45.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>CIV_UNIT_ATLAS_UAV</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>UAVatlas256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_UNIT_ATLAS_UAV</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>UAVatlas128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_UNIT_ATLAS_UAV</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>UAVatlas80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_UNIT_ATLAS_UAV</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>UAVatlas64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_UNIT_ATLAS_UAV</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>UAVatlas45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_UNIT_ATLAS_UAV</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>UAVatlas32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNITS_UAV_FLAG_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>ART/SV_UAV.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>FWPromotionIconAtlas256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>FWPromotionIconAtlas64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>FWPromotionIconAtlas45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>FWPromotionIconAtlas32.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>CIV_FLAG_ATLAS_SEALTEAM</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>SEALflag.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
 	
 		<Row>
 			<Atlas>SPBalance_ATLAS</Atlas>
@@ -389,6 +729,64 @@
 			<IconsPerColumn>8</IconsPerColumn>
 		</Row>
 
+		<Row>
+			<Atlas>FLAG_ATLAS_FUTURE</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>FutureIcons1.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>4</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>FLAG_ATLAS_FUTURE_2</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>FutureIcons2.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>4</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>FLAG_ATLAS_FUTURE_3</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>FutureIcons3.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>4</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>FLAG_ATLAS_FUTURE_4</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>FutureIcons4.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>4</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>FLAG_ATLAS_FUTURE_5</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>FutureIcons5.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>4</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>FLAG_ATLAS_FUTURE_6</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>FutureIcons6.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>4</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>FLAG_ATLAS_FUTURE_7</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>FutureIcons7.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>4</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>FLAG_ATLAS_FUTURE_8</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>FutureIcons8.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>4</IconsPerColumn>
+		</Row>
+
+
 	</IconTextureAtlases>
 	
 	
@@ -403,6 +801,11 @@
 		<Row>
 			<IconFontTexture>ICON_FONT_TEXTURE_SPCITYBANNERS</IconFontTexture>
 			<IconFontTextureFile>FontIcons_SPCityBanners</IconFontTextureFile>
+		</Row>
+
+		<Row>
+			<IconFontTexture>FUTURE_ICON_FONT_TEXTURE</IconFontTexture>
+			<IconFontTextureFile>FutureFontIcons</IconFontTextureFile>
 		</Row>
 		
 		
@@ -429,6 +832,13 @@
 			<IconMapping>1</IconMapping>
 		</Row>
 		-->
+
+		<Row>
+			<IconName>ICON_RES_NANOMAT</IconName>
+			<IconFontTexture>FUTURE_ICON_FONT_TEXTURE</IconFontTexture>
+			<IconMapping>0</IconMapping>
+		</Row>
+
 		<Row>
 			<IconName>ICON_RES_COFFEE</IconName>
 			<IconFontTexture>ICON_FONT_TEXTURE_NEWLUXURIES</IconFontTexture>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="33dd3e3f-a05d-4842-827d-c9f3cc0978c8" version="11">
+  <Properties>
+    <Name>Greatest Cities</Name>
+    <Teaser>Adds a city ranking system with rewards for Great Cities.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]For Vanilla, GnK, BNW[ENDCOLOR]</Teaser>
+    <Description>For detailed information about this mod consult the Pedia:
+[NEWLINE]
+[NEWLINE][COLOR_POSITIVE_TEXT]Civilopedia[ICON_MOVES] Game Concepts[ICON_MOVES] Cities[ENDCOLOR]</Description>
+    <Authors>FramedArchitecture</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="f4cad0a3-ba4d-470e-bf2d-296b428c2f7a" minversion="0" maxversion="999" title="Health &amp; Plague for BNW" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="CCBD90298A60849D82E4CF24AC66D00C" import="1">Art/TopCities_Icon128.dds</File>
+    <File md5="E74A71134C66F1F51ABE22F1B89AB86F" import="1">Art/TopCities_Icon256.dds</File>
+    <File md5="68D8148EBA3936B26E9FCB68D1DB400B" import="1">Art/TopCities_Icon45.dds</File>
+    <File md5="72EAD4CE5EAD30E55B5B8ADD77225C71" import="1">Art/TopCities_Icon64.dds</File>
+    <File md5="DC435EB42B0A88514CE82AF6064E132A" import="1">Art/TopCities_Icon80.dds</File>
+    <File md5="E36399964BDB936432BAA3D5370A4DEF" import="1">Art/TopCities_ScreenIcon.dds</File>
+    <File md5="6C6BABEEF6E2827B9C0DAB0CBD12DB76" import="1">Art/TopCities-FontIcons.dds</File>
+    <File md5="514AF6AD4C1317B0A8216C037F5AD565" import="1">Art/TopCities-FontIcons.ggxml</File>
+    <File md5="846813CF0E88BCF4456180B147D07613" import="1">Art/TopCities_Back.dds</File>
+    <File md5="C509A0099D4929738E3EF0065E7F6B58" import="0">Database/TopCities.sql</File>
+    <File md5="98E731298B6D19D51ED68ED0479EC216" import="0">Localization/TopCities_DE_DE.xml</File>
+    <File md5="4777F4CCA31573D3488FAB85506A6C9B" import="0">Localization/TopCities_en_US.xml</File>
+    <File md5="0C6DFBC2D9A5EF69CD829EDFB2487DCB" import="1">Lua/TopCities_Functions.lua</File>
+    <File md5="C0BA929DF2C5FBE61297636481F691BE" import="1">Lua/TopCities_Main.lua</File>
+    <File md5="7E4112EE1FFBB9906B2AEB79E0ECAAB4" import="0">Lua/UI/TopCities.lua</File>
+    <File md5="E0DBE4287AA671DE8AFDFC98B5420B01" import="0">Lua/UI/TopCities.xml</File>
+    <File md5="FA224CF6320CE41309C0864F202F4007" import="1">Lua/Utility/Serializer.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Database/TopCities.sql</UpdateDatabase>
+      <UpdateDatabase>Localization/TopCities_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>Localization/TopCities_DE_DE.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/TopCities_Main.lua">
+      <Name>Top Cities Main</Name>
+      <Description>Top Cities Main</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/UI/TopCities.xml">
+      <Name>Top Cities UI</Name>
+      <Description>Top Cities UI</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

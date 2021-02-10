@@ -901,14 +901,14 @@
 			<MoveRate>SUB</MoveRate>
 			<RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
 			<ProjectPrereq>PROJECT_UNDERWATER_CARRIER</ProjectPrereq>
-			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>80</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
 			<Class>UNITCLASS_TASKFORCE_141</Class>
 			<Type>UNIT_TASKFORCE_141</Type>
 			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
-			<Combat>80</Combat>
+			<Combat>200</Combat>
 			<Cost>1000</Cost>
 			<Moves>3</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>

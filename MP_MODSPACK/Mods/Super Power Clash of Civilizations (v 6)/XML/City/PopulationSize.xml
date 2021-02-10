@@ -92,9 +92,9 @@
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>58</PortraitIndex>
-			<Defense>500</Defense>
+			<Defense>1000</Defense>
 			<ExtraCityHitPoints>50</ExtraCityHitPoints>
-			<Happiness>-2</Happiness>
+			<Happiness>-4</Happiness>
 			<TradeRouteSeaGoldBonus>200</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>200</TradeRouteLandGoldBonus>
 			<TradeRouteRecipientBonus>2</TradeRouteRecipientBonus>
@@ -113,10 +113,10 @@
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>59</PortraitIndex>
-			<Defense>1000</Defense>
+			<Defense>3000</Defense>
 			<ExtraCityHitPoints>50</ExtraCityHitPoints>
 			<FoodKept>-5</FoodKept>
-			<Happiness>-2</Happiness>
+			<Happiness>-6</Happiness>
 			<TradeRouteSeaGoldBonus>400</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>400</TradeRouteLandGoldBonus>
 			<TradeRouteRecipientBonus>4</TradeRouteRecipientBonus>
@@ -135,10 +135,10 @@
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>60</PortraitIndex>
-			<Defense>1500</Defense>
+			<Defense>4000</Defense>
 			<ExtraCityHitPoints>50</ExtraCityHitPoints>
 			<FoodKept>-5</FoodKept>
-			<Happiness>-2</Happiness>
+			<Happiness>-8</Happiness>
 			<CityWorkingChange>1</CityWorkingChange>
 			<TradeRouteSeaGoldBonus>800</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>800</TradeRouteLandGoldBonus>
@@ -158,10 +158,10 @@
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>61</PortraitIndex>
-			<Defense>2500</Defense>
+			<Defense>6000</Defense>
 			<ExtraCityHitPoints>100</ExtraCityHitPoints>
 			<FoodKept>-10</FoodKept>
-			<Happiness>-4</Happiness>
+			<Happiness>-14</Happiness>
 			<TradeRouteSeaGoldBonus>1200</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>1200</TradeRouteLandGoldBonus>
 			<TradeRouteRecipientBonus>12</TradeRouteRecipientBonus>
@@ -181,10 +181,10 @@
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>62</PortraitIndex>
-			<Defense>5000</Defense>
+			<Defense>8000</Defense>
 			<ExtraCityHitPoints>100</ExtraCityHitPoints>
 			<FoodKept>-13</FoodKept>
-			<Happiness>-6</Happiness>
+			<Happiness>-20</Happiness>
 			<TradeRouteSeaGoldBonus>1600</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>1600</TradeRouteLandGoldBonus>
 			<TradeRouteRecipientBonus>16</TradeRouteRecipientBonus>
@@ -234,17 +234,17 @@
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_XL</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>12</Quantity>
+			<Quantity>18</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_XXL</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>18</Quantity>
+			<Quantity>36</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_GLOBAL</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>18</Quantity>
+			<Quantity>54</Quantity>
 		</Row>
 	</Building_ResourceQuantity>
 
@@ -274,17 +274,17 @@
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_XL</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>12</Cost>
+			<Cost>18</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_XXL</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>18</Cost>
+			<Cost>36</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_GLOBAL</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>18</Cost>
+			<Cost>54</Cost>
 		</Row>
 
 
@@ -311,17 +311,17 @@
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_XL</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>12</Cost>
+			<Cost>30</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_XXL</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>18</Cost>
+			<Cost>46</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_GLOBAL</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>18</Cost>
+			<Cost>80</Cost>
 		</Row>
 	</Building_ResourceQuantityRequirements>
 
@@ -1951,127 +1951,127 @@
 		<Row>
 			<BuildingType>BUILDING_RACECOURSE</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Cost>1</Cost>
+			<Cost>2</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TAP_WATER_SUPPLY</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>2</Cost>
 		</Row>
 		
 		<Row>
 			<BuildingType>BUILDING_THEATRE</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Cost>1</Cost>
+			<Cost>2</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BOMB_SHELTER</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FOOD_MARKET</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>2</Cost>
 		</Row>
 
 
 		<Row>
 			<BuildingType>BUILDING_BEVERAGE_FACTORY</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>3</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COFFEE_HOUSE</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>3</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CELTS_IRISHPUB</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>3</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COUNTRY_CLUB</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>3</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BYZANTIUM_RESORT</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>3</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WILDLIFE_PRESERVE</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>3</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_JEWELER</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>3</Cost>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_HOSPITAL</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>3</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WATER_TREATMENT_FACTORY</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>3</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STAGECOACH</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BUS_STATION</BuildingType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GERMAN_AUTOBAHN</BuildingType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AMUSEMENT_PARK</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DIGITAL_NETWORK</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HOTEL</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_POLYNESIA_HAWAIIAN_HOTEL</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AIRPORT</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_INDONESIA_AIRPORT</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_MEDICAL_LAB</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SUBWAY_STATION</BuildingType>
@@ -2081,27 +2081,27 @@
 		<Row>
 			<BuildingType>BUILDING_THEME_PARK</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CINEMA</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>2</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BOLLYWOOD</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>2</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BIO_LAB</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>2</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LOGISTICS_COMPANY</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>2</Cost>
+			<Cost>6</Cost>
 		</Row>
 
 
@@ -2113,87 +2113,87 @@
 		<Row>
 			<BuildingType>BUILDING_STADIUM</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BRAZIL_SCOCCER_FIELD</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TV_STATION</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>2</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_KOREAN_ENTERTAINMENT</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>2</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GENE_LAB</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>2</Cost>
+			<Cost>10</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_INTERNATIONAL_TRADE_COMPANY</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>2</Cost>
+			<Cost>10</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AMERICAN_CREATIVE_COMPANY</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>2</Cost>
+			<Cost>14</Cost>
 		</Row>
 		
 		<Row>
 			<BuildingType>BUILDING_3DPRINTING</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>2</Cost>
+			<Cost>14</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FUTURE_FACTORY</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>2</Cost>
+			<Cost>20</Cost>
 		</Row>
 
 
 		<Row>
 			<BuildingType>BUILDING_VIDEO_GAME_COMPANY</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>2</Cost>
+			<Cost>10</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_INTERNATIONAL_AIRPORT</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>3</Cost>
+			<Cost>14</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_INTERNATIONAL_SEAPORT</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>3</Cost>
+			<Cost>24</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CITY_CBD</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>4</Cost>
+			<Cost>20</Cost>
 		</Row>
 
 
 		<Row>
 			<BuildingType>BUILDING_IRON_PROVIDER</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COAL_COMPANY</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>9</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ALUMINUM_PROVIDER</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>5</Cost>
+			<Cost>15</Cost>
 		</Row>
 
 

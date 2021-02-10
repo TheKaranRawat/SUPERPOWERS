@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/15/2020 1:49:48 PM -->
+<GameData>
+	
+		<LeagueProjects>
+			<Row>
+				<Type>LEAGUE_PROJECT_ARDL_ENLIGHTENMENT_TH_PROJECT</Type>
+				<Description>TXT_KEY_LEAGUE_PROJECT_ARDL_ENLIGHTENMENT_TH_PROJECT</Description>
+				<Help>TXT_KEY_LEAGUE_PROJECT_ARDL_ENLIGHTENMENT_TH_PROJECT_SPLASH</Help>
+				<ProjectSplashImage>Enlightenment_ARDL.dds</ProjectSplashImage>
+				<Process>PROCESS_ARDL_ENLIGHTENMENT_TH_PROJECT</Process>
+				<CostPerPlayer>250</CostPerPlayer>
+				<RewardTier1>LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_1</RewardTier1>
+				<RewardTier2>LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_2</RewardTier2>
+				<RewardTier3>LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_3</RewardTier3>
+				<PortraitIndex>0</PortraitIndex>
+				<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+			</Row>
+		</LeagueProjects>
+		<LeagueProjectRewards>
+			<Row>
+				<Type>LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_1</Type>
+				<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_1</Description>
+				<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_1_HELP</Help>
+				<Building>BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_1</Building>
+				<Happiness>3</Happiness>
+				<BaseBeakersTurnsToCount>3</BaseBeakersTurnsToCount>
+			</Row>
+			<Row>
+				<Type>LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_2</Type>
+				<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_2</Description>
+				<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_2_HELP</Help>
+				<GoldenAgePoints>250</GoldenAgePoints>
+				<Building>BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_2</Building>
+			</Row>
+			<Row>
+				<Type>LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_3</Type>
+				<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_3</Description>
+				<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_3_HELP</Help>
+				<Building>BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT</Building>
+			</Row>
+		</LeagueProjectRewards>
+		<Resolutions>
+			<Row>
+				<Type>RESOLUTION_ARDL_ENLIGHTENMENT_TH_PROJECT</Type>
+				<Description>TXT_KEY_RESOLUTION_ARDL_ENLIGHTENMENT_TH_PROJECT</Description>
+				<Help>TXT_KEY_RESOLUTION_ARDL_ENLIGHTENMENT_TH_PROJECT_HELP</Help>
+				<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+				<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+				<TechPrereqAnyMember>TECH_ASTRONOMY</TechPrereqAnyMember>
+				<LeagueProjectEnabled>LEAGUE_PROJECT_ARDL_ENLIGHTENMENT_TH_PROJECT</LeagueProjectEnabled>
+			</Row>
+		</Resolutions>
+		<Processes>
+			<Row>
+				<Type>PROCESS_ARDL_ENLIGHTENMENT_TH_PROJECT</Type>
+				<Description>TXT_KEY_PROCESS_ARDL_ENLIGHTENMENT_TH_PROJECT</Description>
+				<Help>TXT_KEY_PROCESS_ARDL_ENLIGHTENMENT_TH_PROJECT_HELP</Help>
+				<Strategy>TXT_KEY_PROCESS_ARDL_ENLIGHTENMENT_TH_PROJECT_HELP</Strategy>
+				<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+				<PortraitIndex>0</PortraitIndex>
+			</Row>
+		</Processes>
+		<Process_Flavors>
+			<Row>
+				<ProcessType>PROCESS_ARDL_ENLIGHTENMENT_TH_PROJECT</ProcessType>
+				<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+				<Flavor>50</Flavor>
+			</Row>
+			<Row>
+				<ProcessType>PROCESS_ARDL_ENLIGHTENMENT_TH_PROJECT</ProcessType>
+				<FlavorType>FLAVOR_SCIENCE</FlavorType>
+				<Flavor>50</Flavor>
+			</Row>
+			<Row>
+				<ProcessType>PROCESS_ARDL_ENLIGHTENMENT_TH_PROJECT</ProcessType>
+				<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+				<Flavor>50</Flavor>
+			</Row>
+		</Process_Flavors>
+		
+		<BuildingClasses>
+			<Row>
+				<Type>BUILDINGCLASS_ARDL_ENLIGHTENMENT_TH_PROJECT</Type>
+				<DefaultBuilding>BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT</DefaultBuilding>
+				<Description>Royal Colleges Project</Description>
+				<MaxGlobalInstances>1</MaxGlobalInstances>
+			</Row>
+			<Row>
+				<Type>BUILDINGCLASS_ARDL_ENLIGHTENMENT_TH_PROJECT_1</Type>
+				<DefaultBuilding>BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_1</DefaultBuilding>
+				<Description>TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_1</Description>
+				<MaxPlayerInstances>1</MaxPlayerInstances>
+			</Row>
+			<Row>
+				<Type>BUILDINGCLASS_ARDL_ENLIGHTENMENT_TH_PROJECT_2</Type>
+				<DefaultBuilding>BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_2</DefaultBuilding>
+				<Description>TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_2</Description>
+				<MaxPlayerInstances>1</MaxPlayerInstances>
+			</Row>
+		</BuildingClasses>
+		<Buildings>
+			<Row>
+				<Type>BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT</Type>
+				<BuildingClass>BUILDINGCLASS_ARDL_ENLIGHTENMENT_TH_PROJECT</BuildingClass>
+				<PrereqTech>TECH_ASTRONOMY</PrereqTech>
+				<Cost>-1</Cost>
+				<UnlockedByLeague>true</UnlockedByLeague>
+				<Help>TXT_KEY_WONDER_ARDL_ENLIGHTENMENT_TH_PROJECT_HELP</Help>
+				<Description>TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT</Description>
+				<Civilopedia>TXT_KEY_WONDER_ARDL_ENLIGHTENMENT_TH_PROJECT_DESC</Civilopedia>
+				<Quote>TXT_KEY_WONDER_ARDL_ENLIGHTENMENT_TH_PROJECT_QUOTE</Quote>
+				<ArtDefineTag>ART_DEF_BUILDING_FW_LABORATORY</ArtDefineTag>
+				<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+				<SpecialistCount>3</SpecialistCount>
+				<NukeImmune>true</NukeImmune>
+				<HurryCostModifier>-1</HurryCostModifier>
+				<MinAreaSize>-1</MinAreaSize>
+				<ConquestProb>100</ConquestProb>
+				<IconAtlas>BW_ATLAS_1</IconAtlas>
+				<PortraitIndex>54</PortraitIndex>
+				<WonderSplashImage>Enlightenment_ARDL.dds</WonderSplashImage>
+				<WonderSplashAnchor>L,T</WonderSplashAnchor>
+			</Row>
+			<Row>
+				<Type>BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_1</Type>
+				<BuildingClass>BUILDINGCLASS_ARDL_ENLIGHTENMENT_TH_PROJECT_1</BuildingClass>
+				<Cost>-1</Cost>
+				<FaithCost>-1</FaithCost>
+				<GoldMaintenance>0</GoldMaintenance>
+				<GreatWorkCount>-1</GreatWorkCount>
+				<Help>TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_1_HELP</Help>
+				<Description>TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_1_DESC</Description>
+				<Civilopedia>TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_1_PEDIA</Civilopedia>
+				<Strategy>TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_1_STRATEGY</Strategy>
+				<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
+				<NukeImmune>true</NukeImmune>
+				<HurryCostModifier>-1</HurryCostModifier>
+				<MinAreaSize>-1</MinAreaSize>
+				<NeverCapture>true</NeverCapture>
+				<IconAtlas>BW_ATLAS_1</IconAtlas>
+				<PortraitIndex>54</PortraitIndex>
+			</Row>
+			<Row>
+				<Type>BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_2</Type>
+				<BuildingClass>BUILDINGCLASS_ARDL_ENLIGHTENMENT_TH_PROJECT_2</BuildingClass>
+				<Cost>-1</Cost>
+				<FaithCost>-1</FaithCost>
+				<GoldMaintenance>0</GoldMaintenance>
+				<GreatWorkCount>-1</GreatWorkCount>
+				<Help>TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_2_HELP</Help>
+				<Description>TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_2_DESC</Description>
+				<Civilopedia>TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_2_PEDIA</Civilopedia>
+				<Strategy>TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_2_STRATEGY</Strategy>
+				<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
+				<NukeImmune>true</NukeImmune>
+				<HurryCostModifier>-1</HurryCostModifier>
+				<MinAreaSize>-1</MinAreaSize>
+				<NeverCapture>true</NeverCapture>
+				<IconAtlas>BW_ATLAS_1</IconAtlas>
+				<PortraitIndex>54</PortraitIndex>
+			</Row>
+		</Buildings>
+		<Building_BuildingClassYieldChanges>
+			<Row>
+				<BuildingType>BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_2</BuildingType>
+				<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+				<YieldType>YIELD_SCIENCE</YieldType>
+				<YieldChange>2</YieldChange>
+			</Row>
+			<Row>
+				<BuildingType>BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_2</BuildingType>
+				<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+				<YieldType>YIELD_SCIENCE</YieldType>
+				<YieldChange>2</YieldChange>
+			</Row>
+			<Row>
+				<BuildingType>BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT</BuildingType>
+				<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+				<YieldType>YIELD_SCIENCE</YieldType>
+				<YieldChange>10</YieldChange>
+			</Row>
+		</Building_BuildingClassYieldChanges>
+
+		<Building_SpecialistYieldChanges>
+			<Row>
+				<BuildingType>BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT</BuildingType>
+				<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+				<YieldType>YIELD_SCIENCE</YieldType>
+				<Yield>1</Yield>
+			</Row>
+		</Building_SpecialistYieldChanges>
+
+		<Language_en_US>
+			<Row Tag="TXT_KEY_PROCESS_ARDL_ENLIGHTENMENT_TH_PROJECT">
+				<Text>Royal Colleges</Text>
+			</Row>
+			<Row Tag="TXT_KEY_PROCESS_ARDL_ENLIGHTENMENT_TH_PROJECT_HELP">
+				<Text>Contribute this city's [ICON_PRODUCTION] Production towards the Royal Colleges project.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEAGUE_PROJECT_ARDL_ENLIGHTENMENT_TH_PROJECT">
+				<Text>Royal Colleges Project</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEAGUE_PROJECT_ARDL_ENLIGHTENMENT_TH_PROJECT_SPLASH">
+				<Text>The Royal Colleges Project is an effort to inquire on the curiosities of this world.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_1">
+				<Text>Asked Curious Questions</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_1_HELP">
+				<Text>Receive a small one time [ICON_RESEARCH] Research boost. +3 Happiness</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_2">
+				<Text>Presented Botanical and Mechanical Principles</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_2_HELP">
+				<Text>+2 [ICON_RESEARCH] Reasearch from Libraries and Universities. +250 Golden Age points.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_3">
+				<Text>Universal Mathematical Thoerems</Text>
+			</Row>
+			<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_3_HELP">
+				<Text>Royal Colleges Project wonder appears in [ICON_CAPITAL] Capital. ({TXT_KEY_WONDER_ARDL_ENLIGHTENMENT_TH_PROJECT_HELP})</Text>
+			</Row>
+			<Row Tag="TXT_KEY_RESOLUTION_ARDL_ENLIGHTENMENT_TH_PROJECT">
+				<Text>Royal Colleges Project</Text>
+			</Row>
+			<Row Tag="TXT_KEY_RESOLUTION_ARDL_ENLIGHTENMENT_TH_PROJECT_HELP">
+				<Text>Begins the project to fund the Royal Colleges Project. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list. When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ARDL_ENLIGHTENMENT_TH_PROJECT_1_HELP}[NEWLINE][NEWLINE]Available once any Civilization discovers Genetic Manipulation.</Text>
+			</Row>
+
+			<Row Tag="TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT">
+				<Text>Royal Colleges Project</Text>
+			</Row>
+			<Row Tag="TXT_KEY_WONDER_ARDL_ENLIGHTENMENT_TH_PROJECT_HELP">
+				<Text>+1 [ICON_RESEARCH] Science from Scientist Specialists. +3 [ICON_RESEARCH] Scientist specialists in in the [ICON_CAPITAL] Capital. May only be built collaboratively through the World Congress.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_WONDER_ARDL_ENLIGHTENMENT_TH_PROJECT_DESC">
+				<Text>The Royal Colleges Project is an effort to inquire on the curiosities of this world.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_WONDER_ARDL_ENLIGHTENMENT_TH_PROJECT_QUOTE">
+				<Text>[NEWLINE][TAB][TAB]"Gravity explains the motions of the planets, but it cannot explain who sets the planets in motion."[NEWLINE][TAB][TAB] — Issac Newton[NEWLINE][TAB]</Text>
+			</Row>
+			<Row Tag="TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_1_DESC">
+				<Text>Asked Curious Questions</Text>
+			</Row>
+			<Row Tag="TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_1_HELP">
+				<Text>Receive a small one time [ICON_RESEARCH] Research boost. +3 Happiness</Text>
+			</Row>
+			<Row Tag="TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_1_PEDIA">
+				<Text>Those civilizations that contributed only minor amounts of time and resources towards the Royal Colleges Project still stood to benefit from the exchange of information and technology that resulted. Research laboratories benefited from the new technologies that were developed.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_2_DESC">
+				<Text>Presented Botanical and Mechanical Principles</Text>
+			</Row>
+			<Row Tag="TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_2_HELP">
+				<Text>+2 [ICON_RESEARCH] Reasearch from Libraries and Universities. +250 Golden Age points.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_2_PEDIA">
+				<Text>More extensive participation in the Royal Colleges Project yielded greater rewards for those civilizations that chose to do so - the increased knowledge of the Royal Colleges made it much easier to create innovative solutions, greatly increasing the quality and reducing the cost of spacecraft components.</Text>
+			</Row>
+		</Language_en_US>
+
+	</GameData>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="eec833f0-530e-4478-943b-a199f696c8c0" version="2">
+  <Properties>
+    <Name>Global - CS Unit Upgrades</Name>
+    <Teaser>Units in allied militaristic City States can upgrade</Teaser>
+    <Description>Units in allied militaristic City States can upgrade as if they were in friendly territory.
+
+Doing so will incur a small time delay to the next free unit from the City State</Description>
+    <Authors>William Howard</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="1" maxversion="999" title="DLL - Various Mod Components" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="7100522F9CFFB6CAFFA7E7D106D4D7EF" import="0">XML/GlobalCSUnitUpgrades.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/GlobalCSUnitUpgrades.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

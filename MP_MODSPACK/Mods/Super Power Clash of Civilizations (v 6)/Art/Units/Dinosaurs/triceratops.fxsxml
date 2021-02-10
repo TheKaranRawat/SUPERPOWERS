@@ -1,0 +1,44 @@
+<Asset>
+	<Mesh file="triceratops.gr2"/>
+	<Animation file="triceratops_idle_anim.gr2" ec="1000, 1020, 1450, 1800, 2000, 2020, 1500, 1520, 1540, 1560, 1580, 1600, 1620, 1640, 1285, 1290"/>
+	<Animation file="triceratops_landing_anim.gr2" ec="1440, 2440"/>
+	<Animation file="triceratops_run_anim.gr2" ec="1120, 1140, 1400, 1460, 1480"/>
+	<Animation file="triceratops_fidget1_anim.gr2" ec="1040, 1800"/>
+	<Animation file="triceratops_fidget2_anim.gr2" ec="2040"/>
+	<Animation file="triceratops_fight_anim.gr2" ec="1100, 1160, 1180, 2100, 1100, 2100"/>
+	<Animation file="triceratops_die_anim.gr2" ec="1200, 2200"/>
+	<Animation file="triceratops_dead_anim.gr2" ec="1220, 2220"/>
+	<Animation file="triceratops_hurt_anim.gr2" ec="1280"/>
+	<TimedTrigger file="triceratops.ftsxml"/>
+	<AnimGraph file="IDLE_OFFSET_CONTINUE_TRUE_GRAPH.dge"/>
+	<AnimGraph file="SHUFFLE_STOP_GRAPH.dge"/>
+	<AnimGraph file="FORTIFY_FIDGET_GRAPH.dge"/>
+	<AnimGraph file="MELEE_ATTACKS.dge"/>
+	<AnimGraph file="MOUNTED_RUNNING_LOOP.dge"/>
+	<AnimGraph file="ENTER_FORTIFY.dge"/>
+	<AnimGraph file="LEAVE_BOMBARD_DEFEND_TRANS_IDLE_A_GRAPH.dge"/>
+	<AnimGraph file="DEATH_FINAL_GRAPH.dge"/>
+	<AnimGraph file="BOMBARD_DEFEND_LOOP_GRAPH.dge"/>
+	<AnimGraph file="ENTER_BOMBARD_DEFEND_GRAPH.dge"/>
+	<AnimGraph file="DEATH_GRAPH.dge"/>
+	<AnimGraph file="LEAVE_COMBAT_READY.dge"/>
+	<AnimGraph file="ENTER_COMBAT_READY_GRAPH.dge"/>
+	<AnimGraph file="FORTIFY_LEAVE_GRAPH.dge"/>
+	<AnimGraph file="COMBAT_READY_GRAPH.dge"/>
+	<AnimGraph file="FORTIFY_GRAPH.dge"/>
+	<AnimGraph file="TRANSITIONS_FOR_IDLES.dge"/>
+	<AnimGraph file="STOP_RUNNING.dge"/>
+	<AnimGraph file="IDLE_GRAPH.dge"/>
+	<AnimGraph file="FIDGETS_GRAPH.dge"/>
+	<AnimGraph file="RUN_CHARGE_SHUFFLE_LOOP.dge"/>
+	<AnimGraph file="RUN_CHARGE_SHUFFLE_TO_SHUFFLE_RUN_CHARGE.dge"/>
+	<AnimGraph file="ATTACK_CITY_TO_RUN_CHARGE_SHUFFLE.dge"/>
+	<AnimGraph file="ATTACK_TO_RUN_CHARGE_SHUFFLE.dge"/>
+	<AnimGraph file="START_RUN_CHARGE_SHUFFLE.dge"/>
+	<StateMachine file="1_OMNI_MOUNTED_STATE_01.fsmxml"/>
+	<BoneUsage>
+		<Bone name="head01"/>
+		<Bone name="root"/>
+	</BoneUsage>
+</Asset>
+

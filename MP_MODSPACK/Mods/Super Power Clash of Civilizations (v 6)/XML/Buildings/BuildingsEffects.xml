@@ -3,6 +3,13 @@
 <GameData>
 	<!--*********************Units********************-->
 	<Building_FreeUnits>
+
+		<Row>
+			<BuildingType>BUILDING_FW_VIRTUAL_IDOL</BuildingType>
+			<UnitType>UNIT_MUSICIAN</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_BRAZIL_SCOCCER_FIELD</BuildingType>
 			<UnitType>UNIT_BRAZIL_SCOCCER_STAR</UnitType>
@@ -244,6 +251,15 @@
 	<!--*********************Resource ********************-->
 	<Building_LocalResourceOrs>
 
+		<Row>
+			<BuildingType>BUILDING_FW_CONVERTER</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CONVERTER</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+
 		<!--<Delete BuildingType="BUILDING_FORGE" />-->
 			
 		<Row>
@@ -351,6 +367,39 @@
 	
 		
 	<Building_ResourceQuantityRequirements>
+
+		<Row>
+			<BuildingType>BUILDING_FW_ULTIMATOWER</BuildingType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+			<Cost>6</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SKYCITY</BuildingType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+			<Cost>6</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SHIMIZUMCP</BuildingType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+			<Cost>6</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_FLOATINGISLANDS</BuildingType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+			<Cost>6</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BIONICTOWER</BuildingType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+			<Cost>6</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BUENOSAIRESFORUM</BuildingType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+			<Cost>6</Cost>
+		</Row>
+
+		
 
 		<Row>
 			<BuildingType>BUILDING_FACTORY</BuildingType>
@@ -510,6 +559,12 @@
 	
 
 	<Building_ResourceQuantity>
+
+		<Row>
+			<BuildingType>BUILDING_FW_ORBITAL_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+			<Quantity>12</Quantity>
+		</Row>
 		
 		<Row>
 			<BuildingType>BUILDING_STABLE</BuildingType>
@@ -769,6 +824,48 @@
 	
 	
 	<Building_YieldChanges>
+
+		<Row>
+			<BuildingType>BUILDING_FW_JURASSIC_PARK</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_JURASSIC_PARK</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SHIMIZUMCP</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>20</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SHIMIZUMCP</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>20</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SHIMIZUMCP</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>20</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SKYTREE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SKYTREE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SHANGHAI_WFC</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_PALACE</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -1602,6 +1699,132 @@
 
 
 	<Building_BuildingClassYieldChanges>
+
+		<Row>
+			<BuildingType>BUILDING_FW_JURASSIC_PARK</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_JURASSIC_PARK</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_FW_DIGITAL_EMANCIPATION</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_SIMULATION_SERVER</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>6</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DIGITAL_EMANCIPATION</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_SIMULATION_SERVER</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>6</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DIGITAL_EMANCIPATION</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_SIMULATION_SERVER</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>6</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DIGITAL_EMANCIPATION</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_DRONE_HIVE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>8</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DIGITAL_EMANCIPATION</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_DRONE_HIVE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>6</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DIGITAL_EMANCIPATION</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_BRAIN_UPLOADING</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DIGITAL_EMANCIPATION</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_BRAIN_UPLOADING</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DIGITAL_EMANCIPATION</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_BRAIN_UPLOADING</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DIGITAL_EMANCIPATION</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_BRAIN_UPLOADING</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_SKYCITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_VERTICAL_FARM</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SKYCITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_VERTICAL_FARM</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_ASTEROID_MINING</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_ENGINEERING_MODULE_1</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ASTEROID_MINING</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_RESEARCH_MODULE_1</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ASTEROID_MINING</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_COMM_MODULE_1</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_SKYTREE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ORBITAL_REFINERY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ORBITAL_REFINERY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_NANOMAT_PLANT</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_HELIOS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SOLAR_PLANT</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CN_TOWER</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
@@ -1716,6 +1939,46 @@
 			<Happiness>1</Happiness>
 		</Row>-->
 
+		<Row>
+			<BuildingType>BUILDING_FW_ANGELNET</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_UTILITY_FOG</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SHIMIZUMCP</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_AUTOPLANT</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SHIMIZUMCP</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_DRONE_HIVE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SKYCITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_VERTICAL_FARM</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_JURASSIC_PARK</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SKYTREE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_JURASSIC_PARK</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NEPHILIM_GENE_TEMPLATE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_GENE_LAB</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
@@ -1857,6 +2120,12 @@
 	
 	<!--*********************Building Yields Modifiers********************-->
 	<Building_YieldModifiers>
+
+		<Row>
+			<BuildingType>BUILDING_FW_ENRICHMENT_CENTRE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>100</Yield>
+		</Row>
 
 		<!--<Row>
 			<BuildingType>BUILDING_INDUSTRIAL_ZONE</BuildingType>
@@ -2124,6 +2393,18 @@
 	</Building_RiverPlotYieldChanges>
 	
 	<Building_SeaPlotYieldChanges>
+
+		<Row>
+			<BuildingType>BUILDING_FW_FLOATINGISLANDS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_FLOATINGISLANDS</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_FISH_FARM</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -2788,6 +3069,32 @@
 
 
 	<Building_FeatureYieldChanges>
+
+		<Row>
+			<BuildingType>BUILDING_FW_FLOATINGISLANDS</BuildingType>
+			<FeatureType>FEATURE_ATOLL</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_FLOATINGISLANDS</BuildingType>
+			<FeatureType>FEATURE_ATOLL</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_FLOATINGISLANDS</BuildingType>
+			<FeatureType>FEATURE_ATOLL</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_FLOATINGISLANDS</BuildingType>
+			<FeatureType>FEATURE_ATOLL</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
@@ -2891,6 +3198,44 @@
 	
 
 	<Building_TerrainYieldChanges>
+
+		<Row>
+			<BuildingType>BUILDING_FW_HELIOS</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_HELIOS</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DATA_HAVEN</BuildingType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DATA_HAVEN</BuildingType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DATA_HAVEN</BuildingType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DATA_HAVEN</BuildingType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		
 		<!--<Row>
 			<BuildingType>BUILDING_MINGING_FACTORY</BuildingType>
 			<TerrainType>TERRAIN_HILL</TerrainType>
@@ -2965,6 +3310,74 @@
 
 
 	<Building_SpecialistYieldChanges>
+
+		<Row>
+			<BuildingType>BUILDING_FW_SHANGHAI_WFC</BuildingType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENOME_PROJECT</BuildingType>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENOME_PROJECT</BuildingType>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENOME_PROJECT</BuildingType>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENOME_PROJECT</BuildingType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENOME_PROJECT</BuildingType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENOME_PROJECT</BuildingType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CITADEL_STATION</BuildingType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CITADEL_STATION</BuildingType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CITADEL_STATION</BuildingType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CITADEL_STATION</BuildingType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
 		<!--<Row>
 			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -3114,6 +3527,13 @@
 
 
 	<Building_YieldChangesPerPop>
+
+		<Row>
+			<BuildingType>BUILDING_FW_ENRICHMENT_CENTRE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>100</Yield>
+		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_LIBRARY</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -3279,6 +3699,16 @@
 	</Building_HurryModifiers>
 
 	<Building_ThemingBonuses>
+
+		<Row>
+			<BuildingType>BUILDING_FW_VIRTUAL_IDOL</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_FW_VIRTUAL_IDOL</Description>
+			<Bonus>2</Bonus>
+			<SameEra>true</SameEra>
+			<RequiresSamePlayer>true</RequiresSamePlayer>
+			<AIPriority>2</AIPriority>
+		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_SIAM_PHRAKAEW</BuildingType>
 			<Description>TXT_KEY_THEMING_BONUS_MUSEUM_1</Description>
@@ -4171,6 +4601,303 @@
 
 
 	<Building_Flavors>
+
+		<Row>
+			<BuildingType>BUILDING_FW_ULTIMATOWER</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ULTIMATOWER</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ULTIMATOWER</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SKYCITY</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SKYCITY</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ULTIMATOWER</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SHIMIZUMCP</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SHIMIZUMCP</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SHIMIZUMCP</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SHIMIZUMCP</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_FLOATINGISLANDS</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_FLOATINGISLANDS</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ULTIMATOWER</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BIONICTOWER</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BIONICTOWER</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BIONICTOWER</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BUENOSAIRESFORUM</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BUENOSAIRESFORUM</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SKYTREE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SKYTREE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SHANGHAI_WFC</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SHANGHAI_WFC</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENOME_PROJECT</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_JURASSIC_PARK</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_JURASSIC_PARK</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_JURASSIC_PARK</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ORBITAL_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ORBITAL_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NEPHILIM_GENE_TEMPLATE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NEPHILIM_GENE_TEMPLATE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NEPHILIM_GENE_TEMPLATE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NEPHILIM_GENE_TEMPLATE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENE_VAULT</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENE_VAULT</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENE_VAULT</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DATA_HAVEN</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DATA_HAVEN</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DATA_HAVEN</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_HELIOS</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_HELIOS</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_HELIOS</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_MNEMOSYNE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MNEMOSYNE</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MNEMOSYNE</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_PHOLUS_MUTAGEN</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SKYNET</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CITADEL_STATION</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CITADEL_STATION</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CITADEL_STATION</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CITADEL_STATION</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ENRICHMENT_CENTRE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ENRICHMENT_CENTRE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ANGELNET</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DIGITAL_EMANCIPATION</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DIGITAL_EMANCIPATION</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DIGITAL_EMANCIPATION</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DIGITAL_EMANCIPATION</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_VIRTUAL_IDOL</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_VIRTUAL_IDOL</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_MAYA_BALLCOURT</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>

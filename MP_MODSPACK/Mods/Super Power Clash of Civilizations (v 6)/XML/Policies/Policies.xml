@@ -528,7 +528,7 @@
 		</Update>
 		
 		<Update>
-			<Set GreatPeopleRateModifier="25"/>
+			<Set GreatPeopleRateModifier="40"/>
 			<Where Type="POLICY_OPEN_SOCIETY"/>
 		</Update>
 		<!--<Update>
@@ -540,7 +540,7 @@
 			<Where Type="POLICY_CIVIL_SOCIETY"/>
 		</Update>-->
 		<Update>
-			<Set BuildingGoldMaintenanceMod="-20"/>
+			<Set BuildingGoldMaintenanceMod="-30"/>
 			<Where Type="POLICY_ECONOMIC_UNION"/>
 		</Update>
 		<Update>
@@ -558,7 +558,7 @@
 			<Where Type="POLICY_CREATIVE_EXPRESSION"/>
 		</Update>
 		<Update>
-			<Set CommonFoeTourismModifier="50" MilitaryProductionModifier="0" MilitaryUnitGiftExtraInfluence="0"/>
+			<Set CommonFoeTourismModifier="50" MilitaryProductionModifier="15" MilitaryUnitGiftExtraInfluence="10"/>
 			<Where Type="POLICY_ARSENAL_DEMOCRACY"/>
 		</Update>
 		<Update>
@@ -585,7 +585,7 @@
 			<Where Type="POLICY_HERO_OF_THE_PEOPLE"/>
 		</Update>
 		<Update>
-			<Set CityStrengthMod="15"/>
+			<Set CityStrengthMod="30"/>
 			<Where Type="PATRIOTIC_WAR"/>
 		</Update>
 		<Update>
@@ -610,7 +610,7 @@
 
 		<!--Autocracy-->
 		<Update>
-			<Set WoundedUnitDamageMod="0" FreeExperience="15"/>
+			<Set WoundedUnitDamageMod="10" FreeExperience="15"/>
 			<Where Type="POLICY_ELITE_FORCES"/>
 		</Update>
 		<!--<Update>
@@ -618,11 +618,11 @@
 			<Where Type="POLICY_UNITED_FRONT"/>
 		</Update>-->
 		<Update>
-			<Set UnitGoldMaintenanceMod="-20" Level="1"/>
+			<Set UnitGoldMaintenanceMod="-40" Level="1"/>
 			<Where Type="POLICY_NATIONALISM"/>
 		</Update>
 		<Update>
-			<Set StrategicResourceMod="0"/>
+			<Set StrategicResourceMod="200"/>
 			<Where Type="POLICY_THIRD_ALTERNATIVE"/>
 		</Update>
 		<Update>
@@ -632,7 +632,7 @@
 		
 		
 		<Update>
-			<Set FreeExperience="0" MilitaryProductionModifier="0"/>
+			<Set FreeExperience="0" MilitaryProductionModifier="20"/>
 			<Where Type="POLICY_TOTAL_WAR"/>
 		</Update>
 		
@@ -652,6 +652,38 @@
 	</Policies>
 
 
+	<!-- postfuture -->
+	<Policies>
+
+		<Policies>
+		<Row>
+			<Type>POLICY_GENE_VAULT</Type>
+		</Row>
+		<Row>
+			<Type>POLICY_GENE_VAULT_DUMMY</Type>
+		</Row>
+		<Row>
+			<Type>POLICY_BIONIC_TOWER</Type>
+			<HalfSpecialistFood>true</HalfSpecialistFood>
+			<HalfSpecialistUnhappiness>true</HalfSpecialistUnhappiness>
+		</Row>
+		<Row>
+			<Type>POLICY_BIONIC_TOWER_DUMMY</Type>
+		</Row>
+		<Row>
+			<Type>POLICY_HELIOS</Type>
+		</Row>
+		<Row>
+			<Type>POLICY_HELIOS_DUMMY</Type>
+		</Row>
+		<Row>
+			<Type>POLICY_BOREHOLE</Type>
+		</Row>
+		<Row>
+			<Type>POLICY_BOREHOLE_DUMMY</Type>
+		</Row>
+
+	</Policies>
 
 
 

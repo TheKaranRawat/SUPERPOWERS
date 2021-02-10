@@ -735,11 +735,11 @@
 		
 
 		<Replace Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Volunteer Army[ENDCOLOR][NEWLINE]Allows you to build or purchase the Foreign Legion. An infantry unit which has [ICON_STRENGTH] Combat Strength bonus outside friendly territory and won't be cause population loss if it is destroyed.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Volunteer Army[ENDCOLOR][NEWLINE]Allows you to build or purchase the Foreign Legion. A powerful infantry unit (125 Strength) which has [ICON_STRENGTH] Combat Strength bonus outside friendly territory and won't be cause population loss if it is destroyed.</Text>
 		</Replace>
 				
 		<Replace Tag="TXT_KEY_POLICY_OPEN_SOCIETY_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Avant Garde[ENDCOLOR][NEWLINE]The rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25%. +500 [ICON_TOURISM] Tourism to all Civilizations when any Great Person is born.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Avant Garde[ENDCOLOR][NEWLINE]The rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 40%. +500 [ICON_TOURISM] Tourism to all Civilizations when any Great Person is born.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION_HELP" >
@@ -755,7 +755,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_ECONOMIC_UNION_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Economic Union[ENDCOLOR][NEWLINE]Building maintenance cost reduced by 20% in all cities.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Economic Union[ENDCOLOR][NEWLINE]Building maintenance cost reduced by 30% in all cities.</Text>
 		</Replace>
 
 		
@@ -766,7 +766,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_NEW_DEAL_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]New Deal[ENDCOLOR][NEWLINE]Landmarks and Great Person improvements produce +4 of the appropriate yield. +25% [ICON_PRODUCTION] Production for cities of or beyond the size of "Large City".</Text>
+			<Text>[COLOR_POSITIVE_TEXT]New Deal[ENDCOLOR][NEWLINE]Landmarks and Great Person improvements produce +6 of the appropriate yield. +25% [ICON_PRODUCTION] Production for cities of or beyond the size of "Large City".</Text>
 		</Replace>
 
 		<!--<Replace Tag="TXT_KEY_POLICY_THEIR_FINEST_HOUR_HELP">
@@ -777,7 +777,7 @@
 			<Text>Peaceful Evolution</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Peaceful Evolution [ENDCOLOR][NEWLINE] +50% [ICON_TOURISM] Tourism to the civilizations fighting against the common foe.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Peaceful Evolution [ENDCOLOR][NEWLINE] +50% [ICON_TOURISM] Tourism to the civilizations fighting against the common foe. +15% Production for Military Units. +10 Influence per gifted unit.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_TEXT" >
 			<Text>he "Peaceful Evolution" theory in international political thought refers to the alleged attempt to effect a political transformation. </Text>
@@ -837,7 +837,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Patriotic War[ENDCOLOR][NEWLINE]+15% [ICON_STRENGTH] Combat Strength Bonus for all Land and Naval units when fighting in friendly territory. +15% [ICON_STRENGTH] Combat Strength of Cities.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Patriotic War[ENDCOLOR][NEWLINE]+15% [ICON_STRENGTH] Combat Strength Bonus for all Land and Naval units when fighting in friendly territory. +30% [ICON_STRENGTH] Combat Strength of Cities.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_YOUNG_PIONEERS_HELP" >
@@ -850,7 +850,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Workers' Faculties[ENDCOLOR][NEWLINE]+15% [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science and [ICON_TOURISM] Tourism output from each Factory.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Workers' Faculties[ENDCOLOR][NEWLINE]+25% [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science and [ICON_TOURISM] Tourism output from each Factory.</Text>
 		</Replace>
 
 
@@ -903,7 +903,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_ELITE_FORCES_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Elite Forces[ENDCOLOR][NEWLINE]New Units receive +15 XP.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Elite Forces[ENDCOLOR][NEWLINE]New Units receive +15 XP. Wounded units do +10% damage.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_UNITED_FRONT_HELP" >
@@ -915,7 +915,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_NATIONALISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Nationalism[ENDCOLOR][NEWLINE]-20% [ICON_GOLD] Gold for Unit Maintenance.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Nationalism[ENDCOLOR][NEWLINE]-40% [ICON_GOLD] Gold for Unit Maintenance.</Text>
 		</Replace>
 		
 		
@@ -935,7 +935,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_TOTAL_WAR_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Total War[ENDCOLOR][NEWLINE]+5 [ICON_RES_MANPOWER] Manpower for each city.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Total War[ENDCOLOR][NEWLINE]+5 [ICON_RES_MANPOWER] Manpower for each city. +20% Production towards Military Units.</Text>
 		</Replace>
 
 

@@ -692,7 +692,7 @@
 			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>23</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -727,7 +727,7 @@
 			<PortraitIndex>13</PortraitIndex>
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>12</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>30</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_TANK</Class>
@@ -760,7 +760,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>39</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>14</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>35</ExtraMaintenanceCost>
 		</Row>
 
 		
@@ -796,7 +796,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>41</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>50</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_MAIN_BATTLE_TANK</Class>
@@ -804,7 +804,7 @@
 			<PrereqTech>TECH_COMPOSITE</PrereqTech>
 			<BaseSightRange>3</BaseSightRange>
 			<Combat>170</Combat>
-			<Cost>800</Cost>
+			<Cost>900</Cost>
 			<Moves>6</Moves>
 			<HurryCostModifier>25</HurryCostModifier>
 			<!--<MoveAfterPurchase>true</MoveAfterPurchase>-->
@@ -830,7 +830,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>34</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>50</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_MAIN_BATTLE_TANK</Class>
@@ -838,7 +838,7 @@
 			<PrereqTech>TECH_COMPOSITE</PrereqTech>
 			<BaseSightRange>3</BaseSightRange>
 			<Combat>140</Combat>
-			<Cost>655</Cost>
+			<Cost>955</Cost>
 			<Moves>6</Moves>
 			<HurryCostModifier>25</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
@@ -863,7 +863,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>54</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>55</ExtraMaintenanceCost>
 		</Row>
 		
 				
@@ -874,7 +874,7 @@
 			<PrereqTech>TECH_BVR_COMBAT</PrereqTech>
 			<BaseSightRange>3</BaseSightRange>
 			<Combat>200</Combat>
-			<Cost>1100</Cost>
+			<Cost>1300</Cost>
 			<Moves>6</Moves>
 			<HurryCostModifier>75</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
@@ -897,7 +897,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>27</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>18</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>65</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
@@ -930,15 +930,15 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>32</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>14</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_MODERN_ARMOR</Class>
 			<Type>UNIT_PERSIAN_ZULFIQAR</Type>
 			<PrereqTech>TECH_BVR_COMBAT</PrereqTech>
 			<BaseSightRange>3</BaseSightRange>
-			<Combat>250</Combat>
-			<Cost>1100</Cost>
+			<Combat>220</Combat>
+			<Cost>1200</Cost>
 			<Moves>6</Moves>
 			<HurryCostModifier>75</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
@@ -962,7 +962,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>63</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>18</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
 		</Row>
 		
 		
@@ -1455,7 +1455,7 @@
 			<PrereqTech>TECH_MILITARY_LOGISTICS</PrereqTech>
 			<BaseSightRange>4</BaseSightRange>
 			<Combat>80</Combat>
-			<RangedCombat>60</RangedCombat>
+			<RangedCombat>100</RangedCombat>
 			<Cost>450</Cost>
 			<Range>1</Range>
 			<Moves>9</Moves>
@@ -1482,7 +1482,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>27</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>14</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_CRUISER_TANK</Class>
@@ -1490,7 +1490,7 @@
 			<PrereqTech>TECH_MILITARY_LOGISTICS</PrereqTech>
 			<BaseSightRange>4</BaseSightRange>
 			<Combat>80</Combat>
-			<RangedCombat>60</RangedCombat>
+			<RangedCombat>100</RangedCombat>
 			<Cost>450</Cost>
 			<Range>1</Range>
 			<Moves>9</Moves>
@@ -1517,7 +1517,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>14</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -1527,10 +1527,10 @@
 			<Type>UNIT_HELICOPTER_GUNSHIP</Type>
 			<PrereqTech>TECH_ROCKETRY</PrereqTech>
 			<BaseSightRange>5</BaseSightRange>
-			<Combat>95</Combat>
-			<RangedCombat>70</RangedCombat>
+			<Combat>100</Combat>
+			<RangedCombat>150</RangedCombat>
 			<Range>1</Range>
-			<Cost>675</Cost>
+			<Cost>1300</Cost>
 			<Moves>10</Moves>
 			<HurryCostModifier>100</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
@@ -1555,7 +1555,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>35</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>18</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>40</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_HELICOPTER_GUNSHIP</Class>
@@ -1563,9 +1563,9 @@
 			<PrereqTech>TECH_ROCKETRY</PrereqTech>
 			<BaseSightRange>5</BaseSightRange>
 			<Combat>95</Combat>
-			<RangedCombat>70</RangedCombat>
+			<RangedCombat>160</RangedCombat>
 			<Range>1</Range>
-			<Cost>675</Cost>
+			<Cost>1200</Cost>
 			<Moves>10</Moves>
 			<HurryCostModifier>100</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
@@ -1589,7 +1589,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>52</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>18</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>50</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -1599,8 +1599,8 @@
 			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
 			<BaseSightRange>5</BaseSightRange>
 			<Combat>130</Combat>
-			<RangedCombat>110</RangedCombat>
-			<Cost>900</Cost>
+			<RangedCombat>200</RangedCombat>
+			<Cost>1800</Cost>
 			<Moves>11</Moves>
 			<Range>1</Range>
 			<HurryCostModifier>100</HurryCostModifier>
@@ -1623,16 +1623,16 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>22</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_ATTACK_HELICOPTER</Class>
 			<Type>UNIT_AMERICAN_APACHE</Type>
 			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
 			<BaseSightRange>5</BaseSightRange>
-			<Combat>130</Combat>
-			<RangedCombat>110</RangedCombat>
-			<Cost>1100</Cost>
+			<Combat>140</Combat>
+			<RangedCombat>250</RangedCombat>
+			<Cost>2000</Cost>
 			<Moves>11</Moves>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
@@ -1655,16 +1655,16 @@
 			<PortraitIndex>13</PortraitIndex>
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>22</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_ATTACK_HELICOPTER</Class>
 			<Type>UNIT_GERMAN_EUROCOPTER_TIGER</Type>
 			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
 			<BaseSightRange>5</BaseSightRange>
-			<Combat>130</Combat>
-			<RangedCombat>110</RangedCombat>
-			<Cost>900</Cost>
+			<Combat>140</Combat>
+			<RangedCombat>250</RangedCombat>
+			<Cost>1900</Cost>
 			<Moves>11</Moves>
 			<Range>1</Range>
 			<AirInterceptRange>4</AirInterceptRange>
@@ -1688,7 +1688,7 @@
 			<PortraitIndex>48</PortraitIndex>
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>22</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>50</ExtraMaintenanceCost>
 		</Row>
 
 	</Units>

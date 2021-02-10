@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/2/2013 -->
+<GameData>
+	<!--Diplo Corner Hook-->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_DIPLO_CORNER_HOOK_TOP_CITY">
+			<Text>TOP CITIES DIPLOCORNER HOOK</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CORNER_HOOK_TOP_CITY_TT">
+			<Text>TOP CITIES DIPLOCORNER HOOK TT</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CORNER_HOOK_TOP_CITY_ADDINS">
+			<Text></Text>
+		</Row>
+	</Language_en_US>
+	<!--Top Cities Screen-->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TOP_CITIES_OVERVIEW">
+			<Text>World's Greatest Cities</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TC_TAB_WORLDCITIES">
+			<Text>World Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_WORLDCITIES_NONE">
+			<Text>There are no Cities!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_TAB_MYCITIES">
+			<Text>My Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_MYCITIES_NONE">
+			<Text>We have no Cities!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_TAB_HISTORIC">
+			<Text>Hall of Fame</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_HISTORIC_NONE">
+			<Text>When a Civilization enters a new Era, a [COLOR_POSITIVE_TEXT]World's Greatest City[ENDCOLOR] will be entered into the Hall of Fame.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TC_LABEL_RANK">
+			<Text>Rank</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_LABEL_ERA">
+			<Text>Era Won</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_LABEL_CIVILIZATION">
+			<Text>Civ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_LABEL_CITY">
+			<Text>City Name</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_LABEL_POPULATION">
+			<Text>Population</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_LABEL_SCORE">
+			<Text>Score</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_LABEL_SCORE_DETAILS">
+			<Text>Score Details</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_LABEL_STATUS">
+			<Text>Status</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TC_WORLD_CURRENT_TOPCITY">
+			<Text>{1_CityName} ([ICON_TOPCITY])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_WORLD_QUESTION">
+			<Text>???</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_TC_STATUS_TOPCITY">
+			<Text>World's Greatest City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_STATUS_RAZING">
+			<Text>Razing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_STATUS_RESISTANCE">
+			<Text>Resistance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_STATUS_HOLYCITY">
+			<Text>Holy City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_STATUS_PUPPET">
+			<Text>Puppet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_STATUS_CAPITAL">
+			<Text>Capital</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_TC_SCORE_WONDERS_TT">
+			<Text>{1_Num} from [ICON_GREAT_PEOPLE] Wonders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_HOLYCITY_TT">
+			<Text>{1_Num} from [ICON_GREAT_PEOPLE] Wonders/[ICON_RELIGION] Holy City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_POP_TT">
+			<Text>{1_Num} from [ICON_CITIZEN] Population</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_PROD_TT">
+			<Text>{1_Num} from [ICON_PRODUCTION] Production</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_GOLD_TT">
+			<Text>{1_Num} from [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_SCIENCE_TT">
+			<Text>{1_Num} from [ICON_RESEARCH] Science</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_CULTURE_TT">
+			<Text>{1_Num} from [ICON_CULTURE] Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_HAPPY_TT">
+			<Text>{1_Num} from [ICON_HAPPINESS_1] Happiness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_FAITH_TT">
+			<Text>{1_Num} from [ICON_PEACE] Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_TOURISM_TT">
+			<Text>{1_Num} from [ICON_TOURISM] Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_HEALTH_TT">
+			<Text>{1_Num} from [ICON_HEALTH] Health</Text>
+		</Row>
+	</Language_en_US>
+	<!--Event Notifications-->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TC_HOF_POPUP_WINNER">
+			<Text>
+				{1_CityName} has emerged as the
+				[NEWLINE][COLOR_POSITIVE_TEXT]World's Greatest City of the {2_Era}[ENDCOLOR]!
+				[NEWLINE][NEWLINE]This city may build a Triumphal Arch, a National Wonder that begins a [ICON_GOLDEN_AGE] Golden Age.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_HOF_POPUP_LOSER">
+			<Text>
+				The {1_CivAdj} city of {2_CityName} has emerged as the
+				[NEWLINE][COLOR_POSITIVE_TEXT]World's Greatest City of the {3_Era}[ENDCOLOR]!
+			</Text>
+		</Row>
+	</Language_en_US>
+	<!--Buildings-->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_TC_TRIUMPHARCH">
+			<Text>[COLOR_POSITIVE_TEXT]Triumphal Arch[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TC_TRIUMPHARCH_HELP">
+			<Text>
+				Begins a [ICON_GOLDEN_AGE] Golden Age. May only be built in a [ICON_TOPCITY] World's Greatest City.
+				[NEWLINE][NEWLINE]+2 [ICON_GOLD] Gold for each time its city becomes the World's Greatest City.
+				[NEWLINE][NEWLINE]The cost goes up the more cities there are in the empire.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TC_TRIUMPHARCH_STRATEGY">
+			<Text>The Triumphal Arch is a National Wonder that can only be built in a current or former World's Greatest City. Like all National Wonders, only one may be built and the construction cost increases with the number of Cities in the Empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TC_TRIUMPHARCH_TEXT">
+			<Text>
+				A triumphal arch is a monumental structure in the shape of an archway with one or more arched passageways, often designed to span a road.
+				[NEWLINE][NEWLINE]In its simplest form a triumphal arch consists of two massive piers connected by an arch, crowned with a flat entablature or attic on which a statue might be mounted or which bears commemorative inscriptions. The main structure is often decorated with carvings, sculpted reliefs and dedications. More elaborate triumphal arches may have multiple archways.
+				[NEWLINE][NEWLINE]Triumphal arches are one of the most influential and distinctive types of architecture associated with ancient Rome. Thought to have been invented by the Romans, the triumphal arch was used to commemorate victorious generals or significant public events such as the founding of new colonies, the construction of a road or bridge, the death of a member of the imperial family or the accession of a new emperor.
+			</Text>
+		</Row>
+	</Language_en_US>
+	<!--Pedia Concepts-->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITIES_GREATEST_HEADING3_TITLE">
+			<Text>[COLOR_POSITIVE_TEXT]Greatest Cities[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITIES_GREATEST_HEADING3_BODY">
+			<Text>
+				[ICON_BULLET]The Greatest City List
+				[NEWLINE]Available via the Diplo corner pulldown menu, these screens allow you see the current top-rated cities in the world. Here can also view the Hall of Fame, which lists the past and current winners of the Greatest City competition.
+				[NEWLINE]
+				[NEWLINE][ICON_BULLET]How Cities are Ranked
+				[NEWLINE]Cities are ranked by their score in various categories including population, production, gold, sicence, culture, faith (GnK) and tourism (BNW). Cities also get points for having Wonders and being a Holy City. A maximum of 10 points can be earned in each category.
+				[NEWLINE]
+				[NEWLINE][ICON_BULLET]Choosing the World's Greatest City ([ICON_TOPCITY])
+				[NEWLINE]Whenever an era is entered for the first time by any civilization, the city with the current highest score is declared the "World's Greatest City". If more than one city has the highest score, one of them is randomly chosen as the winner.
+				[NEWLINE]
+				[NEWLINE][ICON_BULLET]Rewards for having the World's Greatest City
+				[NEWLINE]The City may build a Triumphal Arch, a National Wonder, that begins a Golden Age.
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

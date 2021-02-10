@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IF YOU WANT TO REMOVE UNWANTED RELIGIONS: -->
+<!-- GO TO THE END OF THIS FILE AND FOLLOW THE INSTRUCTIONS THERE! -->
+<GameData>
+	<Religions>
+		<Row>
+			<Type>RELIGION_SATANISM</Type>
+			<Description>TXT_KEY_RELIGION_SATANISM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_SATANISM_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IconString>[ICON_RELIGION_SATANISM]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_CTHULHU</Type>
+			<Description>TXT_KEY_RELIGION_CTHULHU</Description>
+			<Civilopedia>TXT_KEY_RELIGION_CTHULHU_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<IconString>[ICON_RELIGION_CTHULHU]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_HARUHIISM</Type>
+			<Description>TXT_KEY_RELIGION_HARUHIISM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_HARUHIISM_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<IconString>[ICON_RELIGION_HARUHIISM]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_UNICORN</Type>
+			<Description>TXT_KEY_RELIGION_UNICORN</Description>
+			<Civilopedia>TXT_KEY_RELIGION_UNICORN_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<IconString>[ICON_RELIGION_UNICORN]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_SCIENTOLOGY</Type>
+			<Description>TXT_KEY_RELIGION_SCIENTOLOGY</Description>
+			<Civilopedia>TXT_KEY_RELIGION_SCIENTOLOGY_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+			<IconString>[ICON_RELIGION_SCIENTOLOGY]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_RAELISM</Type>
+			<Description>TXT_KEY_RELIGION_RAELISM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_RAELISM_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+			<IconString>[ICON_RELIGION_RAELISM]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_AKAN</Type>
+			<Description>TXT_KEY_RELIGION_AKAN</Description>
+			<Civilopedia>TXT_KEY_RELIGION_AKAN_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<IconString>[ICON_RELIGION_AKAN]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_PASTA</Type>
+			<Description>TXT_KEY_RELIGION_PASTA</Description>
+			<Civilopedia>TXT_KEY_RELIGION_PASTA_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+			<IconString>[ICON_RELIGION_PASTA]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_GAMING</Type>
+			<Description>TXT_KEY_RELIGION_GAMING</Description>
+			<Civilopedia>TXT_KEY_RELIGION_GAMING_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<IconString>[ICON_RELIGION_GAMING]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_FRIEND</Type>
+			<Description>TXT_KEY_RELIGION_FRIEND</Description>
+			<Civilopedia>TXT_KEY_RELIGION_FRIEND_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+			<IconString>[ICON_RELIGION_FRIEND]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_SUBGENIUS</Type>
+			<Description>TXT_KEY_RELIGION_SUBGENIUS</Description>
+			<Civilopedia>TXT_KEY_RELIGION_SUBGENIUS_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+			<IconString>[ICON_RELIGION_SUBGENIUS]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_FOAMY</Type>
+			<Description>TXT_KEY_RELIGION_FOAMY</Description>
+			<Civilopedia>TXT_KEY_RELIGION_FOAMY_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
+			<IconString>[ICON_RELIGION_FOAMY]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_MASON</Type>
+			<Description>TXT_KEY_RELIGION_MASON</Description>
+			<Civilopedia>TXT_KEY_RELIGION_MASON_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>12</PortraitIndex>
+			<IconString>[ICON_RELIGION_MASON]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_TANASINN</Type>
+			<Description>TXT_KEY_RELIGION_TANASINN</Description>
+			<Civilopedia>TXT_KEY_RELIGION_TANASINN_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>13</PortraitIndex>
+			<IconString>[ICON_RELIGION_TANASINN]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_NINEDIVINES</Type>
+			<Description>TXT_KEY_RELIGION_NINEDIVINES</Description>
+			<Civilopedia>TXT_KEY_RELIGION_NINEDIVINES_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>14</PortraitIndex>
+			<IconString>[ICON_RELIGION_NINEDIVINES]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_JEDIISM</Type>
+			<Description>TXT_KEY_RELIGION_JEDIISM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_JEDIISM_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>15</PortraitIndex>
+			<IconString>[ICON_RELIGION_JEDIISM]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_CHAOS</Type>
+			<Description>TXT_KEY_RELIGION_CHAOS</Description>
+			<Civilopedia>TXT_KEY_RELIGION_CHAOS_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+			<IconString>[ICON_RELIGION_CHAOS]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_ILLUMINATI</Type>
+			<Description>TXT_KEY_RELIGION_ILLUMINATI</Description>
+			<Civilopedia>TXT_KEY_RELIGION_ILLUMINATI_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>17</PortraitIndex>
+			<IconString>[ICON_RELIGION_ILLUMINATI]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_OBJECTIVISM</Type>
+			<Description>TXT_KEY_RELIGION_OBJECTIVISM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_OBJECTIVISM_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>18</PortraitIndex>
+			<IconString>[ICON_RELIGION_OBJECTIVISM]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_MUADDIB</Type>
+			<Description>TXT_KEY_RELIGION_MUADDIB</Description>
+			<Civilopedia>TXT_KEY_RELIGION_MUADDIB_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+			<IconString>[ICON_RELIGION_MUADDIB]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_UNITOLOGY</Type>
+			<Description>TXT_KEY_RELIGION_UNITOLOGY</Description>
+			<Civilopedia>TXT_KEY_RELIGION_UNITOLOGY_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>20</PortraitIndex>
+			<IconString>[ICON_RELIGION_UNITOLOGY]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_IMPERIUM</Type>
+			<Description>TXT_KEY_RELIGION_IMPERIUM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_IMPERIUM_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>21</PortraitIndex>
+			<IconString>[ICON_RELIGION_IMPERIUM]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_HUNA</Type>
+			<Description>TXT_KEY_RELIGION_HUNA</Description>
+			<Civilopedia>TXT_KEY_RELIGION_HUNA_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>22</PortraitIndex>
+			<IconString>[ICON_RELIGION_HUNA]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_TRIFORCE</Type>
+			<Description>TXT_KEY_RELIGION_TRIFORCE</Description>
+			<Civilopedia>TXT_KEY_RELIGION_TRIFORCE_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>23</PortraitIndex>
+			<IconString>[ICON_RELIGION_TRIFORCE]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_STARTREK</Type>
+			<Description>TXT_KEY_RELIGION_STARTREK</Description>
+			<Civilopedia>TXT_KEY_RELIGION_STARTREK_PEDIA</Civilopedia>
+			<IconAtlas>STRANGE_ATLAS</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
+			<IconString>[ICON_RELIGION_STARTREK]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_BROTHER</Type>
+			<Description>TXT_KEY_RELIGION_BROTHER</Description>
+			<Civilopedia>TXT_KEY_RELIGION_BROTHER_PEDIA</Civilopedia>
+			<IconAtlas>STRANGEB_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IconString>[ICON_RELIGION_BROTHER]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_SITH</Type>
+			<Description>TXT_KEY_RELIGION_SITH</Description>
+			<Civilopedia>TXT_KEY_RELIGION_SITH_PEDIA</Civilopedia>
+			<IconAtlas>STRANGEB_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<IconString>[ICON_RELIGION_SITH]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_NUWAUBIAN</Type>
+			<Description>TXT_KEY_RELIGION_NUWAUBIAN</Description>
+			<Civilopedia>TXT_KEY_RELIGION_NUWAUBIAN_PEDIA</Civilopedia>
+			<IconAtlas>STRANGEB_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<IconString>[ICON_RELIGION_NUWAUBIAN]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_ATOM</Type>
+			<Description>TXT_KEY_RELIGION_ATOM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_ATOM_PEDIA</Civilopedia>
+			<IconAtlas>STRANGEB_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<IconString>[ICON_RELIGION_ATOM]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_YEVON</Type>
+			<Description>TXT_KEY_RELIGION_YEVON</Description>
+			<Civilopedia>TXT_KEY_RELIGION_YEVON_PEDIA</Civilopedia>
+			<IconAtlas>STRANGEB_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+			<IconString>[ICON_RELIGION_YEVON]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_SPODE</Type>
+			<Description>TXT_KEY_RELIGION_SPODE</Description>
+			<Civilopedia>TXT_KEY_RELIGION_SPODE_PEDIA</Civilopedia>
+			<IconAtlas>STRANGEB_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+			<IconString>[ICON_RELIGION_SPODE]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_EMACS</Type>
+			<Description>TXT_KEY_RELIGION_EMACS</Description>
+			<Civilopedia>TXT_KEY_RELIGION_EMACS_PEDIA</Civilopedia>
+			<IconAtlas>STRANGEB_ATLAS</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<IconString>[ICON_RELIGION_EMACS]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_NISAN</Type>
+			<Description>TXT_KEY_RELIGION_NISAN</Description>
+			<Civilopedia>TXT_KEY_RELIGION_NISAN_PEDIA</Civilopedia>
+			<IconAtlas>STRANGEB_ATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+			<IconString>[ICON_RELIGION_NISAN]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_ETHOS</Type>
+			<Description>TXT_KEY_RELIGION_ETHOS</Description>
+			<Civilopedia>TXT_KEY_RELIGION_ETHOS_PEDIA</Civilopedia>
+			<IconAtlas>STRANGEB_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<IconString>[ICON_RELIGION_ETHOS]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_CREED</Type>
+			<Description>TXT_KEY_RELIGION_CREED</Description>
+			<Civilopedia>TXT_KEY_RELIGION_CREED_PEDIA</Civilopedia>
+			<IconAtlas>STRANGEB_ATLAS</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+			<IconString>[ICON_RELIGION_CREED]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_BOKONON</Type>
+			<Description>TXT_KEY_RELIGION_BOKONON</Description>
+			<Civilopedia>TXT_KEY_RELIGION_BOKONON_PEDIA</Civilopedia>
+			<IconAtlas>STRANGEB_ATLAS</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+			<IconString>[ICON_RELIGION_BOKONON]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_COVENANT</Type>
+			<Description>TXT_KEY_RELIGION_COVENANT</Description>
+			<Civilopedia>TXT_KEY_RELIGION_COVENANT_PEDIA</Civilopedia>
+			<IconAtlas>STRANGEB_ATLAS</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
+			<IconString>[ICON_RELIGION_COVENANT]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_NIKE</Type>
+			<Description>TXT_KEY_RELIGION_NIKE</Description>
+			<Civilopedia>TXT_KEY_RELIGION_NIKE_PEDIA</Civilopedia>
+			<IconAtlas>STRANGEB_ATLAS</IconAtlas>
+			<PortraitIndex>12</PortraitIndex>
+			<IconString>[ICON_RELIGION_NIKE]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_TAU</Type>
+			<Description>TXT_KEY_RELIGION_TAU</Description>
+			<Civilopedia>TXT_KEY_RELIGION_TAU_PEDIA</Civilopedia>
+			<IconAtlas>STRANGEB_ATLAS</IconAtlas>
+			<PortraitIndex>13</PortraitIndex>
+			<IconString>[ICON_RELIGION_TAU]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_NOD</Type>
+			<Description>TXT_KEY_RELIGION_NOD</Description>
+			<Civilopedia>TXT_KEY_RELIGION_NOD_PEDIA</Civilopedia>
+			<IconAtlas>STRANGEB_ATLAS</IconAtlas>
+			<PortraitIndex>14</PortraitIndex>
+			<IconString>[ICON_RELIGION_NOD]</IconString>
+		</Row>
+	</Religions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_RELIGION_SATANISM">
+			<Text>Satanism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_SATANISM_PEDIA">
+			<Text>Satanism is a group of religions composed of a diverse number of ideological and philosophical beliefs and social phenomena. Their shared features include symbolic association with, admiration for the character of, and even veneration of Satan or similar rebellious, promethean, and liberating figures, often symbolizing the anti-Christian sentiment common to most Satanist sects.[NEWLINE]Satanism's main philosophy revolves around the celebration of human emotions and desires in all of their forms. Opposing the main monotheistic religions' views, Satanists despise ascetic practices, sexual repression and the mortification of carnal pleasures, believing that life in this world should be enjoyed without any moralistic and dogmatic constraint.[NEWLINE][NEWLINE]Generally tied with the left-hand path, Satanists are sometimes practitioners of the occult arts which follow ancient traditions thousand years old. Aleister Crowley (1875-1947) is often regarded as one of the most prominent figures in modern times and his philosophy and demonology studies were a source of inspiration for many Satanist sects to come.[NEWLINE][NEWLINE]On the opposite side Anton LaVey (1930-1997) was the founder of the Church of Satan which proposed a completely atheistic approach to the Satanist religion. Sometimes seen as a philosophy rather than a true religion, LaVeyan Satanism promotes individualism and materialism, respect of others, benevolence to friends, and no mercy to enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_CTHULHU">
+			<Text>Cthulhu Cult</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_CTHULHU_PEDIA">
+			<Text>Cthulhu cults is an umbrella term referring to an ensemble of various sects tied by their worship of a deity or a supreme being belonging to the pantheon and cosmology of what is generally referred as the Cthulhu mythos.[NEWLINE]The infamous Old One who lies dead in the depths of the sunken R'lyeh, and yet dreams and awaits for death itself to die, is neither a god nor the most powerful being that ever walked on this planet. But one could say that there is little point in worshiping the more powerful Azathoth, Shub-Niggurath and Yog-Sothoth, as they do not even see humanity as anything more than mold infecting the surface of a forsaken planet in the fringe of the universe. And yet there are some who still worship them and even claim to benefit from such practices, but the sane of mind knows that there is nothing but pure madness in such claims.[NEWLINE][NEWLINE]Cthulhu and other demigods such as Yig, Dagon and Tsathoggua, have generally more followers as they are known to interact, or having interacted, with humans. It is however questionable whether their agenda would truly benefit humanity, and since their alien minds completely lack any concept of morality, any expectations of rewards might as well be just delusions.[NEWLINE][NEWLINE]Far more powerful, cunning and dangerous is Nyarlatothep, the crawling chaos, messenger of the outer gods. He is directly and indirectly involved in almost every cult and he is known by many names in many cultures in this world and others. He has but one agenda: to spread chaos wherever he walks. He therefore doesn't aim for humanity's annihilation, but for its utter corruption and descent into depravity.[NEWLINE][NEWLINE]An extensive bibliography exists for those who wish to follow these unsavory cults. The Necronomicon is regarded as the most foul and vile book concerning the truth of this universe and its unmentionable creators. But many others exist such as the Book of Eibon, De Vermis Mysteriis, and Unaussprechlichen Kulten.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_HARUHIISM">
+			<Text>Haruhiism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_HARUHIISM_PEDIA">
+			<Text>Haruhiism is a cult of recent birth centered around the figure of Haruhi Suzumiya, allegedly the unknowing goddess and creator of this universe.[NEWLINE]The theory upon which this religion is founded maintains that Haruhi is a fickle goddess and should she think that this world is boring and not worth her time, the very creation would be undone. There is therefore only one possible way for the faithful to prevent the destruction of all that exists: the world must be saved by overloading it with fun![NEWLINE][NEWLINE]Due to the fact that unlike most religions the precepts on how to please the goddess and find salvation actually match with people's desires and aspirations, Haruiism is experiencing an ever faster growth among otaku worldwide.[NEWLINE][NEWLINE]The holy texts of this religion are a series of light novels named after the goddess herself which narrate the adventures of Haruhi and her many apostles, including the time traveler Mikuru Asahina, the esper Itsuki Koizumi, the alien data entity Yuki Nagato and "he who must not be named", commonly referred as Kyon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_UNICORN">
+			<Text>Invisible Pink Unicorn Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_UNICORN_PEDIA">
+			<Text>The invisible pink unicorn faith is centered around the belief that a goddess in the form of an unicorn that is both pink and invisible exists.[NEWLINE]Like most goddesses, she's invisible and highly unlikely to exist. However, there is much argument as to her exact color, her shape and size, and other properties of her nonexistence. She burns with anger against theists, and allegedly grinds them beneath her holy hooves.[NEWLINE][NEWLINE]The "believers" famous claim about their faith in the invisible pink unicorn (blessed be her holy hooves) is that, like other religions, it is based upon logic and faith. They can logically deduce that their goddess is invisible because they cannot see her, and they have faith that she is pink because, in their hearts, they know that she is.[NEWLINE][NEWLINE]A controversial symbol of all that cannot be proven to exist and that it is seemingly contradictory in its logic, the invisible pink unicorn is often "worshiped" by those who refused to adhere to any other religions and to believe in any other gods.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_SCIENTOLOGY">
+			<Text>Scientology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_SCIENTOLOGY_PEDIA">
+            <Text>Scientology is a body of beliefs and related practices created by L. Ron Hubbard (1911-1986), starting in 1952, as a successor to his earlier self-help system, Dianetics. Hubbard characterized Scientology as a religion, and in 1953 incorporated the Church of Scientology in Camden, New Jersey.[NEWLINE]Scientology teaches that people are immortal beings who have forgotten their true nature. Its method of spiritual rehabilitation is a type of counseling known as auditing, in which practitioners aim to consciously re-experience painful or traumatic events in their past in order to free themselves of their limiting effects. Study materials and auditing courses are made available to members in return for specified donations.[NEWLINE][NEWLINE]A large number of organizations overseeing the application of Scientology have been established, the most notable of these being the Church of Scientology. Scientology sponsors a variety of social-service programs. These include the Narconon anti-drug program, the Criminon prison rehabilitation program, the Study Tech education methodology, a volunteer organization, a business-management method, and a set of moral guidelines expressed in a booklet called The Way to Happiness.[NEWLINE][NEWLINE]The Church of Scientology is one of the most controversial new religious movements to have arisen in the 20th century. It has often been described as a cult that financially defrauds and abuses its members, charging exorbitant fees for its spiritual services. Further controversy has focused on Scientology's belief that souls ("thetans") reincarnate and have lived on other planets before living on Earth, and that some of the related teachings are not revealed to practitioners until they have paid thousands of dollars to the Church of Scientology. Another controversial belief held by Scientologists is that the practice of psychiatry is destructive and abusive and must be abolished.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_RAELISM">
+			<Text>Raelism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_RAELISM_PEDIA">
+            <Text>The Raelian Movement teaches that life on Earth was scientifically created by a species of extraterrestrials, which they call the Elohim. Members of this species appeared human and when having personal contacts with the descendants of the humans they made, they were mistaken for angels, cherubim or gods. Raelians believe messengers, or prophets, of the Elohim include Buddha, Jesus, and others who informed humans of each era.[NEWLINE][NEWLINE]Claude Vorilhonm, the founder of this religion that later adopted the name Rael, claims that on December 13, 1973, he found a spacecraft shaped like a flattened bell that landed inside Puy de Lassolas, a volcano near the capital city of Auvergne. A 25,000-year-old human-like extraterrestrial inside the spacecraft named Yahweh said that Elohim was the name that primitive people of Earth called members of his extraterrestrial race, who were seen as "those who came from the sky". Yahweh explained that Earth was originally void of life, with thick clouds and shallow seas, but the Elohim came, broke apart the clouds, exposed the seas to sunlight, built a continent, and synthesized a global ecosystem. Solar astronomy, terraformation, nanotechnology, and genetic engineering allowed Elohim to adapt life to Earth's thermal and chemical makeup.[NEWLINE][NEWLINE]Raelism is an atheistic religion that promotes science and technological advancement as a way to achieve godhood. In place of promises about an afterlife, cloning and nanotechnology are proposed as systems to gain eternal life on the material world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_AKAN">
+			<Text>Akan Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_AKAN_PEDIA">
+             <Text>The Akan people of Ghana and Ivory Coast believe in a supreme god who takes on various names depending upon the region of worship. The highest god is called by some to be Brekyirihunuade ("he who knows and sees everything"), Otweidiampon, Okokroko, Onyame, Awurade, Odomankoma. There are no priests that serve him directly, and people believe that they may make direct contact with him.[NEWLINE]According Akan mythology, at one time the god interacted with man, but that after being continually struck by the pestle of an old woman pounding fufu, a traditional Ghanaian food, he moved far up into the sky.[NEWLINE][NEWLINE]Besides its focus on theism, Akan mythology shares animism and ancestor worship with the other African traditional religions: spirits are known as abosom. They receive their power from the supreme god and are most often connected to the world as it appears in its natural state. These include ocean and river spirits and various local deities. Priests serve individual spirits and act as mediators between the gods and mankind. Nearly everyone participates in daily prayer, which includes the pouring of libations as an offering to both the Nsamanfo, the ancestors, who are buried in the land and to the spirits who are everywhere.[NEWLINE]The earth is seen as a female deity and is directly connected to fertility and fecundity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_PASTA">
+			<Text>Pastafarianism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_PASTA_PEDIA">
+             <Text>His Noodliness, the Flying Spaghetti Monster is the ultimate truth in the universe. It is the central point of worship in the religion commonly known as Flying Spaghetti Monsterism or Pastafarianism, according to which it is the Creator and Overseer, watching our lives and our world, changing them as it sees fit, by use of his most holy noodly appendage.[NEWLINE]Incredibly, this ancient religion was not well-known until its rediscovery in 2005 by graduate student Bobby Henderson. He shall live on forever in the afterlife next to the Beer Volcano. Due to this incredible rebirth, Flying Spaghetti Monsterism is now one of the world's most edible and fastest-growing religions.[NEWLINE][NEWLINE]By design, the only dogma allowed in the Church of the Flying Spaghetti Monster is the rejection of dogma. That is, there are no strict rules and regulations, there are no rote rituals and prayers and other nonsense. Every member has a say in what this cult is and what it becomes.[NEWLINE]There are however a few central beliefs:[NEWLINE][NEWLINE]1) Pirates, the original Pastafarians, were peaceful explorers and it was due to Christian misinformation that they have an image of outcast criminals today.[NEWLINE]2) Beer is holy and must be appreciated and consumed.[NEWLINE]3) Every Friday is a Religious Holiday.[NEWLINE]4) One must not take himself too seriously.[NEWLINE]5) Embrace contradictions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_GAMING">
+			<Text>Church of Gaming</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_GAMING_PEDIA">
+             <Text>In the year 2007 the great prophet Ethan, struck by divine enlightenment, found the first and only Church of Gaming, and as a way to counter the decline and decay of the spirit of the true gamers he wrote the holy instruction manual, under direct input from the gods of gaming themselves.[NEWLINE][NEWLINE]This unusual faith collects and preaches a series of rules regarding the true way of gaming with the purpose of enforcing a more enjoyable and healthy approach to video games in general. Such games are seen as holy and their creators are regarded as prophets.[NEWLINE][NEWLINE]This faith is filled with symbolisms which mix up major religions' practices with ubiquitous gaming icons. For example the very symbol of the Church of Gaming is a gamepad cross, and blessing is given with the sign of the W, the A, the S and the D, as well as the up, the right, the down and the left.[NEWLINE][NEWLINE]Religious meetings are introduced by sermons on the way of gaming, and are followed by fierce gaming sessions and MMP, Massively Multiplayer Prayers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_FRIEND">
+			<Text>Friend's Cult</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_FRIEND_PEDIA">
+            <Text>"Friend" is how a mysterious man, founder of his own cult, is called by his many followers. Not much is known about his identity and he always hides his face behind the sect's sacred symbol, but all those who have met him believe he is the greatest man that ever lived. [NEWLINE][NEWLINE]Friend is allegedly gifted with many powers including psychokinesis and telepathy, but he is mostly revered for his precognitive abilities which led him to write the infamous Book of Prophecy, foretelling various tragedies and calamities befalling humanity in the next future.[NEWLINE][NEWLINE]Friend created his cult and his political party in order to save Japan and bring peace to the world. Unlike other religions where prophets are merely the messengers of superior beings or supernatural forces, Friend's cult is focused on the very man that founded it and only secondarily on his teachings. His worshipers believe that the mere fact of being with him and listening to his wise and sometimes cryptic messages equal to happiness.[NEWLINE][NEWLINE]Friend's cultists are known to be intolerant to whoever doesn't recognize the greatness of the object of their worship. Whoever refuses to be a "friend" is forever "banished" from their circle... and from the material world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_SUBGENIUS">
+			<Text>Church of the SubGenius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_SUBGENIUS_PEDIA">
+			<Text>Pity the poor human Earth Pink who looks for a simple, short explanation of the Church of the SubGenius, one that he or she can understand quickly. If the Church could provide that, it would be bigger than Islam or Christianity by now -- and probably much, much worse.[NEWLINE]A true SubGenius, however, understands everything, instantly upon exposure to the Word or even just the Face of Dobbs.[NEWLINE][NEWLINE]But if you really long for an explanation that much, even though words cannot convey its true meaning, then know that the Church of the SubGenius is a mutant offshoot of Discordianism launched in 1981 by the "Reverend" Ivan Stang, a brilliant satirist with a gift for promotion.[NEWLINE][NEWLINE]The Church of the SubGenius is an order of scoffers and blasphemers, dedicated to Total Slack, delving into Mockery Science, Sadofuturistics, Megaphysics, Scatalography, Schizophreniatrics, Morealism, Sarcastrophy, Cynisacreligion, Apocolyptionomy, ESPectorationalism, Hypno-Pediatrics, Subliminalism, Satyriology, Disto-Utopianity, Sardonicology, Fascetiouism, Ridiculophagy, and Miscellatheistic Theology.[NEWLINE][NEWLINE]An important SubGenius event occurred on July 5, 1998: X-Day. The church had been predicting that on this day the world would be destroyed by invading alien armies known as the X-ists (which is short for "Men from Planet X"). Only the members of the Church of the SubGenius were expected to be saved from this SubGenius version of the apocalypse, by being carried away in the spaceships of the Sex-Goddesses. When the promised cataclysm failed to manifest, Rev. Stang was tarred and feathered by his fellow SubGenii. (Some claim the "tar" was actually honey and that Stang himself bought the feathers.) Nevertheless, Stang was permitted to retain his position as church administrator, and although that day and each subsequent July 5 has passed without evidence of an alien invasion, the faithful membership still gather for the "Rupture" at an outdoor campground to herald this SubGenius holiday.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_FOAMY">
+			<Text>Foamy's Card Cult</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_FOAMY_PEDIA">
+			<Text>Foamy's Card Cult is a very small organization dedicated to raising funds for the future Almighty Church of Foamy. Consisting only of Foamy, Pillz-E, and Begley, the Foamy Card Cult is always trying to find ways to recruit more members. Presumably, this is where Foamy gets his catchphrase "Your Lord and Master, Foamy".[NEWLINE][NEWLINE]Foamy is collecting his minions and you can help him to assimilate the masses:[NEWLINE][NEWLINE]1) Once you have your Cult Card, write your name, swear-word, location, catch phrase, insult, or whatever you want on the back. Use only one line![NEWLINE]2) After doing that pass the card to a friend or foe and say the sacred word... "FOAMY". Hand them the card and let them discover the Cult of Foamy.[NEWLINE]3) If you are the proud holder of a completed card, send that card back with a S.A.S.E.[NEWLINE][NEWLINE]You will be given a new card so that your missionary work may continue, spreading the sacred word of Foamy! Do not break the cycle of Foamy! Foamy's will is law, to break this law brings squirrely wrath upon all your remaining days! (You were warned).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_MASON">
+			<Text>Freemasonry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_MASON_PEDIA">
+			<Text>Freemasonry is a fraternal organization that arose from obscure origins in the late 16th to early 17th century. Freemasonry now exists in various forms all over the world, with a membership estimated at around six million, including approximately 150,000 under the jurisdictions of the Grand Lodge of Scotland and Grand Lodge of Ireland, over a quarter of a million under the jurisdiction of the United Grand Lodge of England and just under two million in the United States.[NEWLINE][NEWLINE]While Freemasonry has often been called a "secret society", Freemasons themselves argue that it is more correct to say that it is an esoteric society, in that certain aspects are private. The most common phrasing is that Freemasonry has, in the 21st century, become less a secret society and more of a "society with secrets". The private aspects of modern Freemasonry are the modes of recognition amongst members and particular elements within the ritual. Despite the organization's great diversity, Freemasonry's central preoccupations remain charitable work within a local or wider community, moral uprightness (in most cases requiring a belief in a supreme being) as well as the development and maintenance of fraternal friendship.[NEWLINE][NEWLINE]Masons conduct their meetings using a ritualized format. There is no single Masonic ritual, and each jurisdiction is free to set (or not set) its own ritual. However, there are similarities that exist among jurisdictions. For example, all Masonic ritual makes use of the architectural symbolism of the tools of the medieval operative stonemason. Freemasons, as speculative masons (meaning philosophical building rather than actual building), use this symbolism to teach moral and ethical lessons of the principles of "Brotherly Love, Relief, and Truth"; or as related in France, "Liberty, Equality, Fraternity".[NEWLINE][NEWLINE]Albeit Freemasonry is not considered a religion nor a substitute for one by its members, it is often antagonized by major religious groups such as Roman Catholicism and Islam, and it is frequently associated with deism and esoteric practices.[NEWLINE]Conspiracy theorists believe Freemasons to manipulate society and politic from behind the scene. One of the most frequently cited theories is that Freemasons are aiming to establish a "New World Order", in other words a totalitarian one-world government, which replaces sovereign nations, and an all-encompassing propaganda that ideologizes its establishment as the culmination of history's progress.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_TANASINN">
+			<Text>Tanasinn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_TANASINN_PEDIA">
+			<Text>Should it live?[NEWLINE]Should it die?[NEWLINE]That is not a problem at all.[NEWLINE][NEWLINE]Life, death, Tanasinn.[NEWLINE]Tanasinn = occult, cult, fascism, death, life, religion... or...?[NEWLINE][NEWLINE]Tanasinn operates the whole world.[NEWLINE]Tanasinn is the soul of the universe.[NEWLINE]Tanasinn is the bottom of your heart.[NEWLINE]Tanasinn transcends surrealism and realism.[NEWLINE]Tanasinn is inherent in every self.[NEWLINE]Tanasinn is inherent in every structure.[NEWLINE]Tanasinn is inherent in every system.[NEWLINE]Tanasinn is decadent and may cause self-collapse.[NEWLINE]Tanasinn vacumeir alles.[NEWLINE]Tanasinn plays with all elements.[NEWLINE][NEWLINE]The Messenger of fear.[NEWLINE]The Child of darkness and confusion.[NEWLINE]The King of infinite decomposition.[NEWLINE]The Khaos.[NEWLINE][NEWLINE]Tanasinn.[NEWLINE][NEWLINE]Tanasinn absodivides the World.[NEWLINE][NEWLINE]Words cannot explain Tanasinn. More accurate: Don't think. Feel and you'll be Tanasinn.[NEWLINE][NEWLINE]Full-length mirror Evening glow Wave of those passing.[NEWLINE]Disappear wholly. Roadside tree murmured in the heart Swing.[NEWLINE]With a child which tries to be the first scene.[NEWLINE]It falls to why or cardiac bolting Slope two personsxxxx.[NEWLINE]Fall with you and it falls.[NEWLINE]- The setting sun - Without it rises again a new Tanasinn.[NEWLINE]- Shining - Eternalx - Eternal.[NEWLINE][NEWLINE]Happiness?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_NINEDIVINES">
+			<Text>Nine Divines</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_NINEDIVINES_PEDIA">
+			<Text>The Nine Divines are the most important religious order in Tamriel. The religion combines the eight Aedra with the founder of the Third Empire, Tiber Septim (Talos). There are 6 gods and 3 goddesses. In Cyrodiil, there is a major chapel in each major city, venerating the divines. There are also wayshrines along the roads that are devoted to the Nine Divines. These Aedra also appear in various combinations in the pantheons of other cultures.[NEWLINE][NEWLINE]The Nine Divines are: Akatosh - The Dragon God of Time and the chief god of the pantheon, Arkay - God of Life and Death, Dibella - Goddess of Beauty, Julianos - God of Wisdom and Logic, Kynareth - Goddess of Air, Mara - Mother Goddess and Goddess of Love, Stendarr - God of Mercy, Talos/Tiber Septim - God of War and Governance, Zenithar - God of Work and Commerce.[NEWLINE][NEWLINE]The Eight Divines as an official religion was instituted by Alessia, the first saint of the Empire, upon her successful slave revolt against the Ayleids. She is said to have consciously chosen a mixture of Ayleid and Nordic gods, to help aid her subjects in their transition but simultaneously appease her powerful northern allies. Perhaps coincidentally, the eight Aedra Alessia chose are those Aedra said to have been most active in the creation of the world. When the Aedra realized what Lorkhan had done, and how their divinity was being drained to create Nirn, most of them objected or withdrew. The eight Aedra that make up the divines, however, willingly gave of themselves to complete the act of creation. In doing so, they were left weakened and confined to their own planes, which mortals on Nirn see as the planets.[NEWLINE][NEWLINE]Talos is the ninth divinity of the pantheon but since he was not originally one of the Divines, in some religious sects they are referred to as "The Eight And One".</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_JEDIISM">
+			<Text>Jediism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_JEDIISM_PEDIA">
+			<Text>Jediism is a religious movement based on the philosophical and spiritual ideas of the Jedi as depicted in Star Wars media. It has no founder or central structure.[NEWLINE]Practitioners identify themselves with the Jedi Knights in Star Wars, believe in the existence of the Force and that interaction with the Force is possible. Jedi also view themselves as guardians of truth, knowledge and justice, and actively promote such ideals. Many Jedi churches described the religion as syncretistic, incorporating beliefs from various religious philosophies including Christianity, Stoicism, Buddhism, Taoism and Shintoism.[NEWLINE][NEWLINE]Although Jediists acknowledge the influence of Star Wars on their religion, they also insist their path is different from that of the fictional Jedi. Jediism focuses more on the principles common to many religions than it does on the myth and fiction found in Star Wars.[NEWLINE][NEWLINE]Central to all Jedi beliefs is the existence of the Force, an impersonal energy flowing throughout the universe. The Force may be equated to other religions' and cultures' beliefs such as the Indian prana, the Chinese qi, the Taoist tao, and the Christian Holy Spirit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_CHAOS">
+			<Text>Chaos Belief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_CHAOS_PEDIA">
+			<Text>Chaos Belief is meant to represent various (fictional) religions and ("real") magical practices related to a modern conception of Chaos.[NEWLINE]The symbol of Chaos originates from Michael Moorcock's "Eternal Champion" stories, and it has been henceforth adopted in various contexts, particularly in Fantasy settings.[NEWLINE][NEWLINE]In the world of Elric of Melniboné, the Church of Chaos is a large religion that spread in almost every nation. It was founded by the Pan Tang people who are ruled by a theocrat and worship the Lords of Chaos, nearly almighty gods who can bend the material world to their will. The Church of Chaos revolves around the use of magic, and through chaotic magic all possibilities are explored and changing is promoted.[NEWLINE][NEWLINE]In the Warhammer 40000 universe, followers of Chaos Undivided venerate Chaos itself, seeing the Gods of Chaos as a pantheon to be worshiped equally. Of all Chaos worshipers they follow Chaos in its purest form. Champions of the creed are given a Mark of Chaos Undivided. A follower of Chaos as a whole may also honor the lesser entities of the warp if they are more likely to help him. Others view Chaos Undivided as an unified whole, the various powers as actually an aspect of one god. They may give their service to one god but are likely to never gain much favor with an individual power. Finally, others seek to use Chaos as a means to get to their own ends. This is often risky and only two outcomes exist, daemonhood or damnation.[NEWLINE][NEWLINE]Chaos magic, sometimes spelled chaos magick, is a school of the modern magical tradition which emphasizes the pragmatic use of belief systems and the creation of new and unorthodox methods. Although there are a few techniques unique to chaos magic (such as some forms of sigil magic), chaos magic is often highly individualistic and borrows liberally from other belief systems, due to chaos magic having a central belief that belief is a tool. Some common sources of inspiration include such diverse areas as science fiction, scientific theories, traditional ceremonial magic, neoshamanism, Eastern philosophy, world religions, and individual experimentation. Despite tremendous individual variation, chaos magicians (sometimes called "chaotes") often work with chaotic and humorous paradigms, such as the worship of Hundun from Taoism or Eris from Discordianism. Some chaos magicians also use psychedelic drugs in practices such as chemognosticism. Chaos magicians are often seen by other occultists as dangerous or worrisome revolutionaries.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_ILLUMINATI">
+			<Text>Order of the Illuminati</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_ILLUMINATI_PEDIA">
+			<Text>The Illuminati (plural of Latin illuminatus, "enlightened") is a name given to several groups, both real (historical) and fictitious.[NEWLINE]The movement was founded on May 1, 1776, in Ingolstadt (Upper Bavaria) as the Order of the Illuminati, with an initial membership of five, by Jesuit-taught Adam Weishaupt (d. 1830), who was the first lay professor of canon law at the University of Ingolstadt. It was made up of freethinkers as an offshoot of the Enlightenment and seems to have been modeled on the Freemasons. The Illuminati's members took a vow of secrecy and pledged obedience to their superiors. Members were divided into three main classes, each with several degrees, and many Illuminati chapters drew membership from existing Masonic lodges.[NEWLINE][NEWLINE]According to some sources, the order stayed in a dialectic entanglement with its opponents: they used Jesuit methods of investigating the conscience in order to emancipate the individual from the intellectual and spiritual domination of the church; they also used a ranking system and mystical fuss, similar to the enthusiastic irrationality of the Rosicrucians, to further the success of Enlightenment and rationality. They subjected their members to an utterly totalitarian monitoring and psychological techniques in order to ultimately free mankind of the despotism of princes and kings.[NEWLINE][NEWLINE]Illuminati are frequently the subject of many conspiracy theories. Among the rest they were accused to be behind the French revolution and the reign of terror. In modern times Illuminati are often associated with the "New World Order" conspiracy theory. In other words they are said to manipulate world politics and economies to create a totalitarian one-world government, which replaces sovereign nations, and an all-encompassing propaganda that ideologizes its establishment as the culmination of history's progress.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_OBJECTIVISM">
+			<Text>Objectivism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_OBJECTIVISM_PEDIA">
+			<Text>Objectivism is a philosophy created by Russian-American philosopher and novelist Ayn Rand (1905–1982). Objectivism's central tenets are that reality exists independent of consciousness, that human beings have direct contact with reality through sense perception, that one can attain objective knowledge from perception through the process of concept formation and inductive logic, that the proper moral purpose of one's life is the pursuit of one's own happiness (or rational self-interest), that the only social system consistent with this morality is full respect for individual rights embodied in laissez faire capitalism, and that the role of art in human life is to transform humans' metaphysical ideas by selective reproduction of reality into a physical form, a work of art, that one can comprehend and to which one can respond emotionally.[NEWLINE]Rand characterized Objectivism as "a philosophy for living on earth", grounded in reality, and aimed at defining human nature and the nature of the world in which we live.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_MUADDIB">
+			<Text>Muad'Dib's Jihad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_MUADDIB_PEDIA">
+			<Text>Muad'Dib is the name that was given to the Kwisatz Haderach Paul Atreides on the planet Arrakis, also known as Dune. Son of Leto of House Atreides and the Bene Gesserit Lady Jessica, he underwent trainings in diverse arts and fields. He was a mentat, he was an able fighter and strategist, he learned prana bindu and the control of the Voice.[NEWLINE][NEWLINE]After becoming the leader of the Fremen of Sietch Tabr his powers grew immensely as his body assimilated more and more spice. In the end he consumed the water of life and he overcame the spice agony transcending his humanity and becoming the supreme being, the Kwisatz Haderach.[NEWLINE][NEWLINE]Muad'Dib unlocked his ancestral genetic memories and acquired the gift of the prescience that allowed him to see every possible future. He was heralded as the Messiah, and after overthrowing the padishah emperor Shaddam IV of House Corrino he became the chosen leader of humanity.[NEWLINE][NEWLINE]From that day a long holy war ensued and it was known as Muad'Dib's Jihad. Sixty billions of humans died throughout the known universe as his Fremen devotees subjugated thousands planets to his command and established his cult. Long after his disappearance Paul Atreides is still revered as a great prophet, and Dune is the site of religious pilgrimage from every corner of the universe.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_UNITOLOGY">
+			<Text>Unitology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_UNITOLOGY_PEDIA">
+			<Text>Unitology is a religion in the Dead Space universe, officially founded on the discoveries of Michael Altman.[NEWLINE][NEWLINE]Unitologists adamantly believe that the human race was created by the intelligent design of a divine alien agency, and will be reunified after death in Heaven through the power of a sacred artifact known as the Marker.[NEWLINE][NEWLINE]The promise of the Church of Unitology is one of "transformation and rebirth". This scriptural message is poetic, elusive and unscientific despite their claimed origins in a secret research project, and embodies the abandonment of reason for the profession of unwavering faith in the promise of the Marker. Much of the detail about the Church's inner workings remains undisclosed to outsiders and most adherents.[NEWLINE][NEWLINE]Michael Altman, known as a "reluctant prophet", was not a believer in Unitology, nor did he found the religion. Michael was the only scientist at the Chicxulub crater who was immune, or possibly had a stronger resistance to the Markers' dead loved ones messages; he was able to always acknowledge that the hallucinations were not real. Because of his resistance, the people being manipulated by their dead friends and family saw him as the one the Marker speaks to, the prophet. Michael refused to believe in such nonsense, and after repeated attempts to sabotage the project was murdered. His image was used to posthumously promote the Unitology message until the history books stated that he was indeed the great founder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_IMPERIUM">
+			<Text>Imperial Cult</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_IMPERIUM_PEDIA">
+			<Text>The Imperial Cult is the official and only state religion of the Imperium of Man. It is devoted to the worship of the God-Emperor of Mankind as the ascended divinity and saviour of humanity. Those who believe in the Cult's teachings hold that the Emperor is a living spiritual entity and the only true divinity of humanity. The Imperial Cult is lead by the Adeptus Ministorum, also known as the Ecclesiarchy, who devote their lives to spreading the Word of the Emperor and doing His will. Almost all variants on the Imperial Cult are tolerated by the Ecclesiarchy's priests, but all worship of the Emperor must comply with certain Imperial values including, but not limited to: unquestioning political loyalty to the High Lords of Terra and the various agencies of the Adeptus Terra, diligence in carrying out the Emperor's will, belief in the Emperor's ultimate divinity, and conscious contributions to the Imperium's overall well-being, even if this means nothing more than helping to improve one's own homeworld or even just home city or town.[NEWLINE][NEWLINE]In the 41st Millennium the Imperial Cult has almost unrivaled power and influence within the Imperium. Heresy against it is punished severely. The religion is formally administered by the clerics of the Ecclesiarchy. The Imperial Cult is the Imperium's state religion, and in many ways the religion is the state itself since it is the glue that binds humanity together in the service of the Emperor and the Imperium. The precepts of the Imperial Cult, called the Imperial Creed, include the belief that all of humanity must be brought into the Imperium wherever in the galaxy humans live, the absolute abhorrence of aliens as dangers to humanity's rightful domination of the Milky Way Galaxy, and the realization that the existence of unsanctioned psychic powers and human mutation is a dire threat to the human species which must be controlled. All of these precepts have their origins in what the Emperor himself preached during the Great Crusade of the 31st Millennium, though they ignore the Emperor's most fundamental teaching that he was not divine and that human beings should give up superstition and the trappings of organized religion in favor of scientific rationalism. Yet, because of the existence of Chaos and the true, psychic nature of the Immaterium, the Imperial Cult has ironically proven to be a powerful source of protection for humanity from the dangers presented by the Ruinous Powers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_HUNA">
+			<Text>Huna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_HUNA_PEDIA">
+			<Text>Huna is a Hawaiian word adopted by Max Freedom Long (1890–1971) in 1936 to describe his theory of metaphysics which he linked to ancient Hawaiian kahuna (experts). It is part of the New Age movement.[NEWLINE][NEWLINE]Long went to Hawaii in 1917 to work as an elementary school teacher, and became interested in the religious beliefs and practices of the kahunas, but none talked to him so he was unable to penetrate to the inner workings of this religion. He left Hawaii in 1931, convinced that he would never learn these secrets. In 1934, he woke with a revelation that the secrets were encoded into the Hawaiian language itself. He called the religious system he developed from this revelation 'Huna' (the Hawaiian word for secret), and wrote his first book in 1936 to chronicle his discoveries. In 1945 he founded Huna Research. In 1953, he published The Secret Science at Work as a Huna textbook, and in 1965 The Huna Codes in Religions, examining parallels to Huna in religions such as Hinduism, Buddhism and Christianity.[NEWLINE][NEWLINE]Huna emphasizes practical living and harmony with three levels of consciousness or selves. Long claimed that a low, middle, and higher self were recognized by the kahunas. He called these selves the unihipili (subconscious, inner, emotional, intuitive), uhane (waking consciousness, rational) and aumakua (super-conscious, connection with the divine). Huna changes the Hawaiian concept of mana, (privileged as a divine power in traditional Hawaiian belief), and views it as a vitalizing life force, which can, with knowledge of the three selves, be used to heal body and mind and achieve life goals.[NEWLINE]Long believed he discovered an ancient Truth, not just about Hawaiian spirituality but linking back to mother India and ancient Egypt. He thought Hawaiians were one of the lost tribes of Israel. He wrote that spiritual adepts migrated to Hawai'i from Egypt, passing on to the priests of India some of their basic beliefs.[NEWLINE][NEWLINE]Huna International was formed as a religious order in 1973 by Serge King. It has three branches: Aloha International, Voices of the Earth and Finding Each Other International. It has fellowships in Canada, Australia, England, Germany and Switzerland, in addition to the United States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_TRIFORCE">
+			<Text>Triforce Cult</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_TRIFORCE_PEDIA">
+			<Text>The Triforce, also called "Power of the Gods" and the "Golden Triangle", is a triangular sacred relic that represents the essences of the Golden Goddesses. It is made up of three smaller triangles known as the Triforce of Power, the Triforce of Wisdom and Triforce of Courage. Each of these embody the essence of their respective goddess, and bestow certain boons on their bearers. In most of its appearances, the Triforce or its pieces, manifest as a marking on the hands of their bearers. These markings resonate when near each other, and the Triforce pieces can emerge from their bearers.[NEWLINE][NEWLINE]When united, the Triforce allows one who touches it to make a wish that lasts until he dies or the wish is fulfilled. However, if the one who finds it does not possess a balance of the three virtues it represents, the pieces split into its three components and the finder is left with the one which represents the characteristic he values most; the other two pieces do likewise with two other characters "chosen by destiny".[NEWLINE][NEWLINE]The Triforce of Power which is positioned as the topmost of the three, holds the presence of Din, the goddess of Power, and radiates the physical, and magical power of its bearer. It is associated with Ganon, who is power-hungry. The Triforce of Wisdom, positioned on the lower left, embodies the essence of Nayru, the goddess of Wisdom, and amplifies the wisdom and mystical powers of its bearer. It is associated with Princess Zelda, whose great wisdom brings peace and prosperity to Hyrule. The Triforce of Courage, positioned on the lower right, embodies the essence of Farore, the goddess of Courage, and seems to amplify the courage and adventuring skills of its bearer. It is associated with Link, who bravely defends Hyrule from Ganon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_STARTREK">
+			<Text>Church of Star Trek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_STARTREK_PEDIA">
+			<Text>According to anthropologist Michael Jindra, Star Trek fandom can be considered a religious phenomenon. To borrow his words: "Star Trek's fandom has features that parallels a religious-type movement: an origin myth, a set of beliefs, an organization, and some of the most active and creative members to be found anywhere. Religion often points us to another world; Star Trek does the same".[NEWLINE][NEWLINE]Gene Roddenberry, the creator of Star Trek, acknowledged his role as semi-divine messenger in an interview he gave to The Humanist magazine shortly before he died. He revealed that he sought to imbue Star Trek with a very explicit humanist philosophy that human beings should take control of their own destiny. Roddenberry claimed he had to keep this intention "secret", lest the network pull the plug on him.[NEWLINE]Appropriately, Roddenberry's version of Mount Sinai was a 1966 sci-fi convention where he screened an early preview of Star Trek. One fan who was there recalls the event as almost a conversion experience. From then on, the fan says, the convention was divided into two factions, the "enlightened" (those who saw the preview) and the "unenlightened".[NEWLINE][NEWLINE]Although Star Trek episodes (especially the original series) don't comprise literal "scripture", they are the basis for a rigorously enforced canon. Trek fans routinely engage in ecclesiastical debates over what constitutes "pure" Trek.[NEWLINE][NEWLINE]In Futurama it is predicted that the "Church of Star Trek" will reach its highest peak in the 23rd century, when its cult will influence several nations. However supposedly this will lead to the Star Trek wars and ultimately to a ban to anything Star Trek related.[NEWLINE][NEWLINE]Priest: "And Scotty beamed them to the Klingon ship, where they would be no Tribble at all."[NEWLINE]Congregation: "All power to the engines."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_BROTHER">
+			<Text>Brotherhood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_BROTHER_PEDIA">
+			<Text>In an universe controlled by megacorporations, the Brotherhood is the only organization that isn't driven by economic interests, and it represents the only hope for humanity to win the war against the Dark Legion.[NEWLINE]While a religious institution, the Brotherhood works in many ways like other secular powers. There are Brotherhood factories, entertainment, and businesses; all in the name of providing for its millions of members. The Brotherhood cares for its own, and teaches its people the use of the Art; though relatively few are those who can actually grasp it, and fewer those who can do more than what amounts to parlor tricks with it.[NEWLINE][NEWLINE]The leader of the Brotherhood is Cardinal Nathaniel Durand XVII (renamed in honor of the original Cardinal Durand). Although the Brotherhood has its roots in Christianity, it embraces "all religions", and has become a religion all its own. The original Cardinal has been nearly deified, and is often prayed to.[NEWLINE][NEWLINE]The Brotherhood was instrumental in a number of counter-offensives to drive back the Dark Legion, and for a time was very influential in human societies across all of the terraformed planets. However, in recent decades, it has become evident that the Dark Legion is very active, as Citadels have begun to pop up on the human worlds with greater frequency, and it has become more bold in its use of cultists in human cities to spawn campaigns of terror and to unleash virulent diseases in population centers.[NEWLINE][NEWLINE]In its desperation, the Brotherhood has taken to fighting darkness with darkness, taking a notion of "the end justifies the means" in its treatment of ordinary people while it seeks to root out Heretics. If a powerful Heretic were to take shelter in a shopping center filled with civilians, the Brotherhood could well deem it an acceptable "if sad" loss, to bomb the center and accept civilian casualties, if it would guarantee that the Heretic would be killed in the process.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_SITH">
+			<Text>Sith Order</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_SITH_PEDIA">
+			<Text>The Sith Order is a sect of Force-sensitives who utilized the dark side of the Force. The term "Sith" originally referred to a species native to the planets Korriban and Ziost, who were later enslaved and ruled by exiled Dark Jedi from the Galactic Republic. These Dark Jedi had once been members of the Jedi Order, a monastic Force religion dedicated to peace through the use of the light side of the Force. The Dark Jedi, who refused to rely exclusively on the light side, challenged the Jedi by giving into the dark side, which started the Hundred-Year Darkness. However, they had been defeated and subsequently exiled from known space, which led to their discovery of the Sith species. Following centuries of interbreeding and mixing of cultures between the aliens and the exiles, the Sith would no longer be identified by their race, but by their dedication to the ancient Sith philosophy. This religious order survived in many different incarnations throughout galactic history. The rise of a new leader, or Dark Lord, would often cause drastic reorganizations in the cult, however the Sith would always be characterized by their lust for power and their desire to destroy the Jedi Order.[NEWLINE][NEWLINE]The Order of the Sith is the most infamous of all dark side religions, and the members of the cult are often seen as the pinnacle of power within the dark side. Throughout their long history, the Sith commanded several Empires and initiated many galactic wars. With such great influence, the Sith religion inspired many cults that aren't technically part of the Sith Order, nor do they consist of actual Sith. Instead, they were founded and are made up of Sith devotees and other Force-sensitives dedicated to prolonging the teachings and the memory of the Sith. Such cults includes the Naddists, the Disciples of Ragnos, and the Krath.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_NUWAUBIAN">
+			<Text>Nuwaubian Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_NUWAUBIAN_PEDIA">
+			<Text>The Nuwaubian Movement (also known as "Ansaru Allah Community", "Holy Tabernacle Ministries", "United Nuwaubian Nation of Moors", and "Yamassee Native American Moors of the Creek Nation"), is a religious organization founded and led by Malachi (Dwight) York. It is classed as a hate group by Southern Poverty Law Center.[NEWLINE][NEWLINE]York began founding Black Muslim groups in New York in 1967, and has changed his teachings and the names of his groups many times. In the late 1980s, he abandoned the "Muslim" flavor of his movement in favor of Ancient Egypt and extraterrestrial themes. In 1993, leaving Brooklyn for Eatonton, Putnam County, Georgia, he built an Egypt-themed compound called Tama-Re.[NEWLINE][NEWLINE]By 2000, the "United Nuwaubian Nation of Moors" had some 500 adherents, and drew as many as 5,000 visitors attending "Savior's Day" (York's birthday). But adherence declined steeply after founder Dwight York was sentenced to 135 years in federal prison in April 2004 for child molestation. The Tama-Re compound was sold under government forfeiture and demolished in 2005.[NEWLINE][NEWLINE]The movement was highly eclectic and entirely dependent on York's ever-changing pronouncements, described as "an extra-large dose of Egyptian schlock, served with a side dish of intergalactic mumbo jumbo" by Bill Osinski, author of a 2007 book on York and his arrest and eventual conviction. York's writings and pronouncements over the years combined ideas from a wide range of New Age, esotericism, occultism, and pseudoscience, besides basic Afrocentrism and black supremacism.[NEWLINE][NEWLINE]Some of the Nuwaubian racial doctrine borrows from Moorish Science and the Nation of Islam. York's racial philosophy explicitly indicates that certain blacks ("Nubians" or "Melanites") are of a superior race in fact as well as in descent. White people (sometimes also referred to as "Amorites", "Hyksos", "Canaanites", "Tamahu", or "Mankind") are said in one Nuwaubian myth to have been originally created as a race of killers to serve blacks as a slave army, but this plan went awry.[NEWLINE][NEWLINE]Nubians are said to be only accidentally a "brown" race; they have rusted in Earth's atmosphere from their original green color because the magnesium in their melanin has been replaced by iron. The original, supreme "Ether 9 beings" in Nuwaubian mythology were also green because of chlorophyll in their skin.[NEWLINE][NEWLINE]York has claimed to be an extraterrestrial master teacher from the planet Rizq.[NEWLINE]York told his followers that, in 1952, grotesque extraterrestrial Andromedeans that resembled the Predator met with and frightened U.S. President Harry S. Truman. Other extraterrestrials have been trading with Earth since the Eisenhower administration, and are responsible for giving us technologies ranging from the polio vaccine to the hula hoop. Earth is said to still be visited by extraterrestrials, some of which prey on human children.[NEWLINE]These are but a few of the many strange statements York made about extraterrestrial influences on planet Earth and its history.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_ATOM">
+			<Text>Church of the Children of Atom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_ATOM_PEDIA">
+			<Text>Church of the Children of Atom refers to both a building in Megaton and the cult residing within this building. The cult members refer to themselves as "Children of Atom", and worship Megaton's atomic bomb.[NEWLINE]The Church of the Children o Atom seems to have existed as far back as Megaton's construction. The citizens of Megaton do not mind the cult residing there as their technologies and workforce were needed to build the city, in exchange for it being built around the bomb.[NEWLINE][NEWLINE]The Children of Atom believe that each atomic mass contains within it an entire universe, and when an atomic mass is split many universes are created. Therefore, instead of seeing the Great War as destructive, the church believes it was a creative and unifying holy event. The Children of Atom also see death more as a celebration of life and unification to Atom through "the Glow". "The Glow" is the earthly embodiment of Atom and the Children of Atom's direct connection to Atom. The Children of Atom view the ghouls as "Atom's forsaken" or those who have unfinished business and, for denying the ghouls their unification with Atom himself, Atom touches them with "the Glow" and asks that they spread the word of Atom to those around the world. Those ghouls that refuse to accept the "gift of the Glow" and refuse to spread the word of Atom are doomed to becoming feral ghouls.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_YEVON">
+			<Text>Church of Yevon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_YEVON_PEDIA">
+			<Text>The Church of Yevon is a religion that is practiced by nearly all the peoples of Spira, including the Ronso and the Guado. The only exception are the Al Bhed, and are viewed as heretics for their use of machina, a practice that is strictly forbidden by Yevon's teachings.[NEWLINE]The faith is named after Yu Yevon, a powerful summoner who lived in Zanarkand one thousand years in the past.[NEWLINE][NEWLINE]At the top of the church's hierarchy, there is the position of the Grand Maester. The last Grand Maester, Yo Mika, has held the position for 50 years. Below the Grand Maester are three positions simply referred to as by the title of Maester, a station similar to that of a Cardinal in Catholicism. Maesters have many duties within the church including making laws, presiding over Yevon's High Court, and overseeing the church's civil, military, and spiritual affairs.[NEWLINE]The next step down are the priests of Yevon. Their job is to attend to the temples throughout the land. Each temple has a High Priest who presides over the temple and its staff. Many priests are summoners or former summoners. Priests tend to wear multicolored vestments of white, green, and orange.[NEWLINE]Below the priests are summoners, a position similar to a cross between a Christian priest and a Shinto miko. Summoners are charged with the greatest responsibility of all, to journey to Zanarkand, obtain the Final Aeon, and destroy Sin. The title of High Summoner refers to summoners who have defeated Sin.[NEWLINE][NEWLINE]Lastly, the church has a number of acolytes, similar to deacons or nuns. They work throughout Spira performing various duties for the church.[NEWLINE][NEWLINE]Prayer to Yevon is conducted with a gesticulation that starts with the hands out to either side before bringing them into the chest, as though holding a sphere, and bowing. This evolved from a blitzball ritual.[NEWLINE]Additionally, summoners are obligated to perform the Sending for the deceased. This is a ritual dance that sends the pyreflies of the deceased on their way to the Farplane, preventing the pyreflies from coalescing into a fiend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_SPODE">
+			<Text>Spode Cult</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_SPODE_PEDIA">
+			<Text>Spode is the ultimate deity of the Spore Galaxy, he rules over everything and anything and his wrath knows no bounds. His many adepts are known for being extremely distrusting of strangers and they openly show their hostility towards all the unbelievers.[NEWLINE][NEWLINE]Little is known about Spode, even by his very cultists, but the Scrolls of Faith dictate the central beliefs on which this religion is founded. They detail how Spode is almighty and how his teachings will bring enlightenment, as well as instructing that all who reject the ways of Spode must be destroyed. They also state that the Grox are evil and so is 'the false God that will come'. They also tell people to seek the Eye of Spode. This likely refers to the center of the galaxy. The eye has therefore become the most common symbol for the cult of Spode.[NEWLINE][NEWLINE]According to certain prophets, Spode has tentacles. This has led some to conclude that, while the Eye of Spode is the Galactic Core, the tentacles are the arms of the spiral galaxy. This would mean that Spode is the entire Galaxy, but according to another interpretation Spode simply created the Galaxy in his own image.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_EMACS">
+			<Text>Church of Emacs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_EMACS_PEDIA">
+			<Text>The Church of Emacs is principally known for its founder and most prominent figure: Saint IGNUcius, Richard Stallman.[NEWLINE]Emacs was originally a text editor, but it became a way of life and a religion. To join the Church of Emacs, one just needs to recite the Confession of the Faith three times:[NEWLINE][NEWLINE]'There is no system but GNU, and Linux is one of its kernels.'[NEWLINE][NEWLINE]Sainthood in the Church of Emacs requires living a life of purity, but celibacy is not required, and that is a huge relief for its many adepts.[NEWLINE]The central belief of the Church of Emacs is that the path to holiness requires installing a wholly free operating system (GNU/Linux is a good choice) on any owned computers, and not putting any non-free software on them.[NEWLINE][NEWLINE]People often asks if Saint IGNUcius is wearing an old computer disk platter. He claims that that is actually his halo, but it was a disk platter in a former life. Unfortunately, no information is available about what kind of computer it came from or what data was stored on it. However, IGNUcius assures that no non-free software is accessible on it today.[NEWLINE][NEWLINE]In addition to saints, the Church of Emacs also has a hymn, the Free Software Song, but no gods yet, though.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_NISAN">
+			<Text>Nisan Sect</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_NISAN_PEDIA">
+			<Text>The Nisan Sect is a religious order which was founded and became prominent in the Nimrod Empire, an old nation of the Ignas continent. During times of tribulations in the great war between Solaris and Shevat, many internal struggles existed among various factions of this religion. When the third daughter of the Bishop of the Ashura's monastery was appointed to be the new Holy Mother, the Penuel decided to take action in order to replace her with someone more closer to their vision.[NEWLINE][NEWLINE]However Sophia, that was the name given to the Holy Mother, held mysterious powers, and the legend says that simply with her smile she stopped the hand of Krelian, the man who was sent to kill her. Krelian and Sophia later escaped and founded a new country: Nisan, which became the holy land of the homonymous sect.[NEWLINE][NEWLINE]Nisan's teachings are symbolized by two one-winged angels, female and male, in the act of taking their hands. It is said that God could have created humans as perfect beings, but then they would have had no need to help each others. He therefore made them flawed instead so that they would only be able to fly by becoming one.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_ETHOS">
+			<Text>Ethos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_ETHOS_PEDIA">
+			<Text>The Ethos is a monastic sect dedicated to the collection and preservation of knowledge and technology. They exist in all countries, are the main source of maintenance for the world's Gears, and are a strong influence in each government. The Ethos are responsible for organizing the Kislev Battling competitions, and for regular extermination of the Wels monsters. A priest in the Ethos is known as an 'Etone'.[NEWLINE][NEWLINE]In reality the Ethos is merely a front for Solaris; like Gebler, Ethos' primary function is to control the people via faith and manipulate the events to ensure that -Project Noah- and other Solaris operations are running smoothly.[NEWLINE]Even so, most Etones are not aware of the darkest secrets of their religious association, and act in true faith and honesty. They do their masters' biddings without questioning their orders, believing that they are working for the common good. For instance they kill the Wels without knowing that they are in fact degenerated humans.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_CREED">
+			<Text>Assassin's Creed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_CREED_PEDIA">
+			<Text>The Assassin's Creed, often referred to as the Creed, is the code and guiding philosophy of the Assassin Order, upheld from at least the High Middle Ages until the modern era. It restricted unnecessary slaughter of innocents, preserved the reputation of oneself and of the Order, and was meant to create peace, not only within the world, but within the individual.[NEWLINE][NEWLINE]The Assassins had been handing the Creed down orally from generation to generation, ensuring that its message was delivered to and upheld by every member of the Assassin Order. Al Mualim, one of the Mentors of the Order, once remarked that 'We are nothing if we do not abide by the Assassin's Creed'.[NEWLINE][NEWLINE]The Creed mainly emphasized three simple moral tenets that focused on ensuring a successful mission, mastery of emotions, and the safety of the Brotherhood:[NEWLINE][NEWLINE]- Stay your blade from the flesh of an innocent.[NEWLINE]- Hide in plain sight.[NEWLINE]- Never compromise the Brotherhood.[NEWLINE][NEWLINE]The maxim of the Assassin's Creed is: 'Nothing is true, everything is permitted'. That means that the foundations of society are fragile, and that the Creed's members must be the shepherds of civilization. 'Everything is permitted', means that men are the architects of their own our actions, and that they must live with their consequences, whether glorious or tragic.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_BOKONON">
+			<Text>Bokononism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_BOKONON_PEDIA">
+			<Text>Bokononism is based on the concept of "foma", which are defined as harmless untruths. A foundation of Bokononism is that the religion, including its texts, is formed entirely of lies; however, one who believes and adheres to these lies will have peace of mind, and perhaps live a good life. The primary tenet of Bokononism is to "Live by the foma that make you brave and kind and healthy and happy".[NEWLINE][NEWLINE]The founder of this religion, born Lionel Boyd Johnson in 1891, attended the London School of Economics to study Political Science, only to have his education cut short by World War I. "Bokonon" was the way the natives of San Lorenzo, the Caribbean island-nation where the shipwrecked Johnson started his religion, pronounced his family name in their unique dialect of English.[NEWLINE]Bokonon established Bokononism with Earl McCabe, his partner in ruling the island, when all the duo's efforts to raise the standard of living on the island failed, as a means to help the poor islanders escape their miserable reality by practicing a simple, useful religion. Arranging with McCabe that Bokononism be outlawed and eternally persecuted by the government, he went to live in the jungle, supposedly hiding, thus trying to lure the population into Bokononism as a kind of forbidden fruit.[NEWLINE][NEWLINE]Bokonon developed several bizarre concepts and rituals as part of his religion, but perhaps the one that is more characteristic of it is the "boko-maru", the supreme act of worship of the Bokononists, which is an intimate act consisting of prolonged physical contact between the naked soles of the feet of two persons.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_COVENANT">
+			<Text>Covenant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_COVENANT_PEDIA">
+			<Text>The Covenant Religion is the foundation on which the homonymous empire, spanning several sentient races across the galaxy, is grounded on. It is based upon the worship of the ancient race of beings known as the Forerunners.[NEWLINE][NEWLINE]According to the Covenant religion, the Forerunners, being nearly omniscient and all-powerful beings, discovered a way to transcend the physical world and become divine beings, by building and activating seven huge ring-shaped devices called Halos, also referred to by the Covenant as "Sacred Rings".[NEWLINE]When this happened, the Halos uplifted the Forerunners into trans-sentience, but left all lesser, unworthy races behind.[NEWLINE]The Covenant (or at least the Prophets) believe themselves to be the chosen inheritors of the Forerunners, and seek to reclaim their lost technology and use all the "gifts" the Forerunners left behind.[NEWLINE][NEWLINE]The Prohepts' ultimate goal, however, is to locate and activate the Halo Installations. In doing so, they believe that all faithful adherents to the Covenant Religion will be uplifted as the Forerunners were, and become divine beings. All client races of the Covenant follow the Prophets in the hopes of also ascending into godhood.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_NIKE">
+			<Text>Nike Philosophy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_NIKE_PEDIA">
+			<Text>The Nike Philosophy isn't particularly elaborated or complex, it doesn't provide a long list of rules to follow, it doesn't entails particular rituals or practices, it doesn't presume to teach you what is right and what is wrong, and overall there isn't even much that could be said about it.[NEWLINE]Indeed the Nike Philosophy is as simple as it is its motto:[NEWLINE][NEWLINE]"Just do it!"[NEWLINE][NEWLINE]It is a very basic principle, but simply believing in it can lead its adherents to achieve which is mistakenly assumed to be impossible.[NEWLINE]The followers of the Nike Philosophy do not let themselves be swayed by doubts and fears, if they want to achieve something, if they have dreams, no matter how hard they seem to be reached, they simply work hard for it until they succeed.[NEWLINE][NEWLINE]While the Nike Philosophy is tailored around athletes and their competitions, it could be applied to every life situation. The Nike Philosophy is a way of life for those who wish to achieve success and victory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_TAU">
+			<Text>Greater Good</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_TAU_PEDIA">
+			<Text>The Greater Good, or Tau'va (literally the "Good Greater" in the Tau Lexicon language), is the founding religio-philosophical principle of modern Tau society which holds that all sentient beings should strive to ensure the greatest good for the greatest number of beings in the galaxy.[NEWLINE][NEWLINE]The Tau'va is based on the Tau caste system and is designed to allow for the advancement of the entire Tau society towards a more successful, prosperous and peaceful existence in the future without much of the violent conflict that marked earlier Tau history.[NEWLINE][NEWLINE]The Greater Good was first introduced to the Tau during the Mont'au ("Death Age"), the long period of civil war fought between the different Tau cities and clans on their homeworld of T'au before the formation of the unified Tau Empire under the guidance of the Ethereal caste. It was during this time that the first Ethereals came to the other Tau and united the Tau tribes with the philosophy of the Greater Good.[NEWLINE]This concept involves the pursuit of perfect societal harmony and combines the particular strengths of each Tau caste to counter the many weaknesses and divisions their culture once possessed.[NEWLINE]Within only a few years after the Ethereals first revealed themselves, Tau culture was dominated by the pursuit of the Greater Good and the Tau Empire began its long march towards the development of advanced, starfaring technology.[NEWLINE][NEWLINE]The philosophy of the Greater Good now guides the Tau in their attempts to conquer the rest of the galaxy and unite all the intellignt races in pursuit of the Greater Good.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_NOD">
+			<Text>Brotherhood of Nod</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_NOD_PEDIA">
+			<Text>The Brotherhood of Nod is a popular, global, religiously developed movement devoted to the guidance of the elusive and charismatic figure of Kane, and the extraterrestrial Tiberium substance that arrived on Earth in 1995.[NEWLINE][NEWLINE]Although Nod surfaced in 1995 at the time of the substance's arrival, before this date, the Brotherhood was an ancient and secret society claiming to have originated prior to 1800 BC.[NEWLINE]Reported beliefs include that Kane is an immortal prophet whose guidance dates back through their alleged millennia of secrecy, and that Tiberium is the catalyst for the next stage in human evolution.[NEWLINE][NEWLINE]Nod is linked to the three Abrahamic traditions of Christianity, Islam and Judaism, but its followers do not belong to any of these three traditions. While almost all Nod activity is concerned with complex economic, military and scientific foci, its religiously articulated ideology drives this.[NEWLINE][NEWLINE]Sometime after the arrival of Tiberium, Nod was targeted as a terrorist group by the Global Defense Initiative, for actively using the dangerous tiberium substance to fund a military-industrial complex in impoverished regions, primarily Africa, and pursue total domination over the world's peoples and resources.[NEWLINE]Thereafter, Nod faced off against GDI in four Tiberium Wars, restoring itself after two successive defeats, but finally achieved their goals in the two later conflicts.</Text>
+		</Row>
+	</Language_en_US>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>STRANGE_ATLAS</Atlas>
+			<IconSize>16</IconSize>
+			<Filename>strange16.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>5</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>STRANGE_ATLAS</Atlas>
+			<IconSize>24</IconSize>
+			<Filename>strange24.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>5</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>STRANGE_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>strange32.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>5</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>STRANGE_ATLAS</Atlas>
+			<IconSize>48</IconSize>
+			<Filename>strange48.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>5</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>STRANGE_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>strange64.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>5</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>STRANGE_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>strange80.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>5</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>STRANGE_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>strange128.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>5</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>STRANGEB_ATLAS</Atlas>
+			<IconSize>16</IconSize>
+			<Filename>strangeB16.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>3</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>STRANGEB_ATLAS</Atlas>
+			<IconSize>24</IconSize>
+			<Filename>strangeB24.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>3</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>STRANGEB_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>strangeB32.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>3</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>STRANGEB_ATLAS</Atlas>
+			<IconSize>48</IconSize>
+			<Filename>strangeB48.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>3</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>STRANGEB_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>strangeB64.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>3</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>STRANGEB_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>strangeB80.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>3</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>STRANGEB_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>strangeB128.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>3</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	<IconFontTextures>
+		<Row>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconFontTextureFile>strange-fonticons</IconFontTextureFile>
+		</Row>
+		<Row>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGEB</IconFontTexture>
+			<IconFontTextureFile>strangeB-fonticons</IconFontTextureFile>
+		</Row>
+	</IconFontTextures>
+	<IconFontMapping>
+		<Row>
+			<IconName>ICON_RELIGION_SATANISM</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>1</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_CTHULHU</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>2</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_HARUHIISM</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>3</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_UNICORN</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>4</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_SCIENTOLOGY</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>5</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_RAELISM</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>6</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_AKAN</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>7</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_PASTA</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>8</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_GAMING</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>9</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_FRIEND</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>10</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_SUBGENIUS</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>11</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_FOAMY</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>12</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_MASON</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>13</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_TANASINN</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>14</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_NINEDIVINES</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>15</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_JEDIISM</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>16</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_CHAOS</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>17</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_ILLUMINATI</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>18</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_OBJECTIVISM</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>19</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_MUADDIB</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>20</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_UNITOLOGY</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>21</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_IMPERIUM</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>22</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_HUNA</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>23</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_TRIFORCE</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>24</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_STARTREK</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGE</IconFontTexture>
+			<IconMapping>25</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_BROTHER</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGEB</IconFontTexture>
+			<IconMapping>1</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_SITH</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGEB</IconFontTexture>
+			<IconMapping>2</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_NUWAUBIAN</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGEB</IconFontTexture>
+			<IconMapping>3</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_ATOM</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGEB</IconFontTexture>
+			<IconMapping>4</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_YEVON</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGEB</IconFontTexture>
+			<IconMapping>5</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_SPODE</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGEB</IconFontTexture>
+			<IconMapping>6</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_EMACS</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGEB</IconFontTexture>
+			<IconMapping>7</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_NISAN</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGEB</IconFontTexture>
+			<IconMapping>8</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_ETHOS</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGEB</IconFontTexture>
+			<IconMapping>9</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_CREED</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGEB</IconFontTexture>
+			<IconMapping>10</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_BOKONON</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGEB</IconFontTexture>
+			<IconMapping>11</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_COVENANT</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGEB</IconFontTexture>
+			<IconMapping>12</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_NIKE</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGEB</IconFontTexture>
+			<IconMapping>13</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_TAU</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGEB</IconFontTexture>
+			<IconMapping>14</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RELIGION_NOD</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_STRANGEB</IconFontTexture>
+			<IconMapping>15</IconMapping>
+		</Row>
+	</IconFontMapping>
+	<Religions>
+		<!-- 
+		
+		** HOW TO REMOVE UNWANTED RELIGIONS **
+		
+		There is a clean and simple way to do so without erasing stuff directly.
+		below you can see a list of lines each with a pretty straightforward command.
+		Simply adding one of these lines to the code, will cause the respective religion
+		to disappear completely from the list you will find in the game.
+		The tags are pretty straightforward too.
+		
+		Now the key point you need to understand is that anything that is included between
+		!-- and --  will not be read by the program. This whole text you are reading now
+		will be completely ignored as it is included in such tags.
+		
+		What you need to do is to take one of the following lines and place it directly above 
+		the !-- or below the -- but still inside the <religions> </religions> tags.
+		
+		For example:
+		
+		
+		<Religions>
+			<Delete Type="RELIGION_SATANISM"/>
+		</Religions>
+		
+		
+		This removes Satanism from the list of available religions.
+		
+		
+			<Delete Type="RELIGION_SATANISM"/>
+			<Delete Type="RELIGION_CTHULHU"/>
+			<Delete Type="RELIGION_HARUHIISM"/>
+			<Delete Type="RELIGION_UNICORN"/>
+			<Delete Type="RELIGION_SCIENTOLOGY"/>
+			<Delete Type="RELIGION_RAELISM"/>
+			<Delete Type="RELIGION_AKAN"/>
+			<Delete Type="RELIGION_PASTA"/>
+			<Delete Type="RELIGION_GAMING"/>
+			<Delete Type="RELIGION_FRIEND"/>
+			<Delete Type="RELIGION_SUBGENIUS"/>
+			<Delete Type="RELIGION_FOAMY"/>
+			<Delete Type="RELIGION_MASON"/>
+			<Delete Type="RELIGION_TANASINN"/>
+			<Delete Type="RELIGION_NINEDIVINES"/>
+			<Delete Type="RELIGION_JEDIISM"/>
+			<Delete Type="RELIGION_CHAOS"/>
+			<Delete Type="RELIGION_ILLUMINATI"/>
+			<Delete Type="RELIGION_OBJECTIVISM"/>
+			<Delete Type="RELIGION_MUADDIB"/>
+			<Delete Type="RELIGION_UNITOLOGY"/>
+			<Delete Type="RELIGION_IMPERIUM"/>
+			<Delete Type="RELIGION_HUNA"/>
+			<Delete Type="RELIGION_TRIFORCE"/>
+			<Delete Type="RELIGION_STARTREK"/>
+			<Delete Type="RELIGION_BROTHER"/>
+			<Delete Type="RELIGION_SITH"/>
+			<Delete Type="RELIGION_NUWAUBIAN"/>
+			<Delete Type="RELIGION_ATOM"/>
+			<Delete Type="RELIGION_YEVON"/>
+			<Delete Type="RELIGION_SPODE"/>
+			<Delete Type="RELIGION_EMACS"/>
+			<Delete Type="RELIGION_NISAN"/>
+			<Delete Type="RELIGION_ETHOS"/>
+			<Delete Type="RELIGION_CREED"/>
+			<Delete Type="RELIGION_BOKONON"/>
+			<Delete Type="RELIGION_COVENANT"/>
+			<Delete Type="RELIGION_NIKE"/>
+			<Delete Type="RELIGION_TAU"/>
+			<Delete Type="RELIGION_NOD"/>
+
+		-->
+    </Religions>
+</GameData>

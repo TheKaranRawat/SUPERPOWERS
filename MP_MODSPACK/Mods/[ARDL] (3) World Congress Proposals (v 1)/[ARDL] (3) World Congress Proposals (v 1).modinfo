@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7e922372-584e-4762-aec7-0632d9137e7f" version="1">
+  <Properties>
+    <Name>[ARDL] (3) World Congress Proposals</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>segfkdhgfffffff</Teaser>
+    <Description>segfkdhgfffffff</Description>
+    <Authors>Lord A</Authors>
+    <SpecialThanks>asdas</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="CC38F84CE9E5D8DE3F81F91B5BA348F5" import="1">Art/AsteroidMining_Splash.dds</File>
+    <File md5="2583AE711760677197BCF14DB0CEF624" import="1">Art/Enlightenment_ARDL.dds</File>
+    <File md5="2559E7DFBDD3AD36EBA85DC473B0606C" import="1">Art/GDRSplashy.dds</File>
+    <File md5="90FD2C7AD2925129E1A130ED9913A7C3" import="1">Art/Philosophers_Legacy_939x614.dds</File>
+    <File md5="D3125EFE37B922EC1C457ADB8A8D8925" import="1">Art/TogetherTTS_939x614.dds</File>
+    <File md5="EBE078DB47A0095DB3B056AA2F1A28C2" import="1">Art/XcomHeadquartersSplash.dds</File>
+    <File md5="EA8510FD99107A1775C1E1710B297D78" import="1">Art/XcomInitiativeProject_939x614.dds</File>
+    <File md5="5501393BB5E517608F56D926E27768E7" import="0">Lua/PhilosophersLegacyScript.lua</File>
+    <File md5="EF06ACD9AD10F68F7CD4ED3AA3B4F5E6" import="0">XML/CivProjects_Enlightenment.xml</File>
+    <File md5="FE8629F026799214E116D98A38D585CF" import="0">XML/CIVProjects_Global_Wargames.xml</File>
+    <File md5="C2B9946C2B93728553CD63CFE400198F" import="0">XML/CivProjects_GDR.xml</File>
+    <File md5="1BFF36500054A1D2FCA8AA1F05DF3B7A" import="0">XML/CivProjects_TogethertotheStars.xml</File>
+    <File md5="E4ED33136C77F99847A3DB752FA322F1" import="0">XML/CivProjects_XCOM.xml</File>
+    <File md5="44B804EEE7ED9981B5BD04D357F4792F" import="0">XML/CongressUpdates.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/CIVProjects_Global_Wargames.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CivProjects_TogethertotheStars.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CivProjects_GDR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CivProjects_XCOM.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CivProjects_Enlightenment.xml</UpdateDatabase>
+      <UpdateDatabase>XML/CongressUpdates.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/PhilosophersLegacyScript.lua">
+      <Name>PhiloLeg</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

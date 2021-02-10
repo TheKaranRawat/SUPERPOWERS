@@ -300,7 +300,7 @@
 		<!-- END Policy Stuff -->
 
 		<Update>
-			<Set Value="35"/>
+			<Set Value="70"/>
 			<Where Name="GOLD_PURCHASE_GOLD_PER_PRODUCTION" />
 		</Update>
 		<Update>
@@ -328,19 +328,19 @@
 		</Update>
 		<!-- Minor Civ Defines -->
 		<Update>
-			<Set Value="100"/>
+			<Set Value="200"/>
 			<Where Name="MINOR_CIV_CONTACT_GOLD_FIRST" />
 		</Update>
 		<Update>
-			<Set Value="60"/>
+			<Set Value="100"/>
 			<Where Name="MINOR_CIV_CONTACT_GOLD_OTHER" />
 		</Update>
 		<Update>
-			<Set Value="100"/>
+			<Set Value="300"/>
 			<Where Name="MINOR_CIV_GROWTH_PERCENT" />
 		</Update>
 		<Update>
-			<Set Value="100"/>
+			<Set Value="300"/>
 			<Where Name="MINOR_CIV_PRODUCTION_PERCENT" />
 		</Update>
 		<Update>
@@ -352,7 +352,7 @@
 			<Where Name="MINOR_CIV_TECH_PERCENT" />
 		</Update>
 		<Update>
-			<Set Value="80"/>
+			<Set Value="200"/>
 			<Where Name="MINOR_FRIENDSHIP_FROM_TRADE_MISSION" />
 		</Update>
 		<Update>
@@ -363,11 +363,11 @@
 		<!-- Unit/Combat Defines -->
 	
 		<Update>
-			<Set Value="100"/>
+			<Set Value="1000"/>
 			<Where Name="MAX_CITY_HIT_POINTS" />
 		</Update>
 		<Update>
-			<Set Value="50"/>
+			<Set Value="20"/>
 			<Where Name="CITY_HIT_POINTS_HEALED_PER_TURN" />
 		</Update>
 		<Update>
@@ -387,7 +387,7 @@
 			<Where Name="INSTA_HEAL_RATE" />
 		</Update>
 		<Update>
-			<Set Value="15"/>
+			<Set Value="20"/>
 			<Where Name="CITY_HEAL_RATE" />
 		</Update>
 		<Update>
@@ -406,7 +406,7 @@
 			<Where Name="CITY_STRENGTH_DEFAULT" />
 		</Update>
 		<Update>
-			<Set Value="10"/>
+			<Set Value="20"/>
 			<Where Name="CITY_STRENGTH_POPULATION_CHANGE" />
 		</Update>
 		<Update>
@@ -426,7 +426,7 @@
 			<Where Name="CITY_RANGED_ATTACK_STRENGTH_MULTIPLIER" />
 		</Update>
 		<Update>
-			<Set Value="10"/>
+			<Set Value="35"/>
 			<Where Name="MIN_CITY_STRIKE_DAMAGE" />
 		</Update>
 
@@ -441,11 +441,11 @@
 			<Where Name="EXPERIENCE_DEFENDING_UNIT_MELEE" />
 		</Update>
 		<Update>
-			<Set Value="3"/>
+			<Set Value="2"/>
 			<Where Name="EXPERIENCE_ATTACKING_UNIT_AIR" />
 		</Update>
 		<Update>
-			<Set Value="3"/>
+			<Set Value="2"/>
 			<Where Name="EXPERIENCE_ATTACKING_CITY_AIR" />
 		</Update>
 		<Update>
@@ -461,7 +461,7 @@
 			<Where Name="EXPERIENCE_ATTACKING_CITY_RANGED" />
 		</Update>
 		<Update>
-			<Set Value="90"/>
+			<Set Value="9000"/>
 			<Where Name="BARBARIAN_MAX_XP_VALUE" />
 		</Update>
 		<Update>
@@ -515,7 +515,7 @@
 			<Where Name="SCORE_POPULATION_MULTIPLIER" />
 		</Update>
 		<Update>
-			<Set Value="2"/>
+			<Set Value="8"/>
 			<Where Name="SCORE_WONDER_MULTIPLIER" />
 		</Update>
 		<Update>
@@ -531,7 +531,7 @@
 			<Where Name="SCORE_RELIGION_CITIES_MULTIPLIER" />
 		</Update>
 		<Update>
-			<Set Value="2"/>
+			<Set Value="4"/>
 			<Where Name="SCORE_GREAT_WORK_MULTIPLIER" />
 		</Update>
 
@@ -576,7 +576,7 @@
 			<Where Name="ESPIONAGE_TURNS_BETWEEN_CITY_STATE_ELECTIONS" />
 		</Update>		
 		<Update>
-			<Set Value="5"/>
+			<Set Value="15"/>
 			<Where Name="ESPIONAGE_INFLUENCE_LOST_FOR_RIGGED_ELECTION" />
 		</Update>
 
@@ -646,7 +646,7 @@
 
 
 		<Update>
-			<Set Value="4"/>
+			<Set Value="6"/>
 			<Where Name="BASE_CULTURE_PER_GREAT_WORK" />
 		</Update>
 		

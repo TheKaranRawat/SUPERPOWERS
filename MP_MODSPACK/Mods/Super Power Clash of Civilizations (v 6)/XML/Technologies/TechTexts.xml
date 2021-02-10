@@ -34,6 +34,12 @@
 		<Row Tag="TXT_KEY_ERA_8">
 			<Text>Information Era</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ERA_8_SHORT">
+			<Text>Information</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_8_ABBREV">
+			<Text>IE</Text>
+		</Row>
 		
 		<Row Tag="TXT_KEY_ERA_9">
 			<Text>Future Era</Text>
@@ -378,6 +384,1588 @@
 	
 		<Row Tag="TXT_KEY_TECH_INTEGRATED_DEFENSE_QUOTE">
 			<Text>"War is Peace. Freedom is slavery. Ignorance is strength." [NEWLINE] - Nineteen Eighty-Four by George Orwell </Text>
+		</Row>
+
+		<!-- post future  -->
+
+		<Row Tag="TXT_KEY_UNIT_ADVANCED_MEC_INFANTRY">
+			<Text>Advanced Mechanized Infantry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ADVANCED_MEC_INFANTRY">
+			<Text>Incredibly fast and powerful, this late-game Unit require Aluminum to be built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ADVANCED_MEC_INFANTRY_STRATEGY">
+			<Text>Advanced Mechanized Infantry are stronger and faster than Mechanized Infantry. In addition to fast, Advanced Mech Infantry move after combat like Modern Armor and can heal even we in make an action; A mix between the Infantry and the armored vehicles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_ADVANCED_MEC_INFANTRY_TEXT">
+			<Text>Unit powered with exoskeleton, also known as powered armor, or exoframe, is a powered mobile machine consisting primarily of an exoskeleton-like framework worn by a person and a power supply that supplies at least part of the activation-energy for limb movement. [NEWLINE] [NEWLINE]These depictions can be described as a battlesuit with mechanical and electronic mechanisms designed to augment the wearer's abilities. Other power armors are portrayed as being much larger, more like a bipedal vehicle the size of a tank or much larger. The line between mecha and power armor is necessarily vague.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_FW_GRID_COMPUTING_TITLE">
+			<Text>Distributed Computing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_GRID_COMPUTING">
+			<Text>Distributed Computing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_GRID_COMPUTING_DESC">
+			<Text>The advancement of computing systems has increasingly resulted in their distribution across a wider network of computers. Parallel processing allows computations to be conducted more quickly, as various calaculations can be carried out simultaneously, while distributed computer networks create systems that are more flexible and resilient against mechanical failure, as they are no longer limited to single machines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_GRID_COMPUTING_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Vertols[ENDCOLOR], a hovering military unit, and [COLOR_POSITIVE_TEXT]Arsenal Ships[ENDCOLOR], a futuristic ranged naval unit, as well as [COLOR_POSITIVE_TEXT]Research Servers[ENDCOLOR] which increase [ICON_RESEARCH] Science and [COLOR_POSITIVE_TEXT]Autoplants[ENDCOLOR] which increase [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_GRID_COMPUTING_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"All of a sudden, we've lost a lot of control. We can't turn off our internet; we can't turn off our smartphones; we can't turn off our computers." -- Steve Wozniak[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_FW_ENVIRONMENTALISM_TITLE">
+			<Text>Environmentalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ENVIRONMENTALISM">
+			<Text>Environmentalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ENVIRONMENTALISM_DESC">
+			<Text>The increasing awareness of ecological systems and how they work has, in turn, lead to concerns about the impact of human activity upon them. Environmentalism is a broad social movement that emphasizes environmental protection and the health of the environment. It advocates for the lawful preservation, restoration, and improvement of the natural environment, and typically seeks to control pollution and encourage natural diversity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ENVIRONMENTALISM_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Geothermal Plants[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Tidal Plants[ENDCOLOR], which increase [ICON_PRODUCTION] Production. Also allows Workers to construct [COLOR_POSITIVE_TEXT]Nature Preserves[ENDCOLOR], which provide [ICON_CULTURE] Culture and [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ENVIRONMENTALISM_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"We have lived our lives by the assumption that what was good for us would be good for the world. We have been wrong. We must change our lives so that it will be possible to live by the contrary assumption, that what is good for the world will be good for us. And that requires that we make the effort to know the world and learn what is good for it." -- Wendell Berry[NEWLINE][TAB]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_TECH_FW_AUGMENTED_REALITY_TITLE">
+			<Text>Augmented Reality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_AUGMENTED_REALITY">
+			<Text>Augmented Reality</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_SUPERCONDUCTIVITY_TITLE">
+			<Text>High-Energy Physics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_SUPERCONDUCTIVITY">
+			<Text>High-Energy Physics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_SUPERCONDUCTIVITY_DESC">
+			<Text>The field of high energy physics is guided by intertwined science drivers to explore the elementary constituents of matter and energy, the interactions between them, and the nature of space and time. While much of this research is theoretical, it does have practical applications in the develop of things such as electromagnetic weaponry, or the advancement of space exploration and development through the creation of ion engines for spacecraft, or improved power plants that can be used in orbit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_SUPERCONDUCTIVITY_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Railgun Armor[ENDCOLOR], a futuristic armor unit, and [COLOR_POSITIVE_TEXT]Information Hubs[ENDCOLOR], which increase [ICON_CULTURE] Culture and [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_SUPERCONDUCTIVITY_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"Physics is the only profession in which prophecy is not only accurate but routine."[NEWLINE][TAB][TAB] - Neil deGrasse Tyson[NEWLINE][TAB]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ORBITAL_DEV_TITLE">
+			<Text>Orbital Development</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ORBITAL_DEV_DESC">
+			<Text>While national governments still have the most resources to invest in space exploration, commercial enterprises have become increasingly interested in the opportunities of privatized access to space. Either way, orbital development holds opportunities for both research and industrial production, as well as helping facilitate and maintain increasingly complex orbital communication networks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ORBITAL_DEV_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Mycoprotein Vats[ENDCOLOR], which increase [ICON_FOOD] Food production, and [COLOR_POSITIVE_TEXT]Space Stations[ENDCOLOR] to increase the number of Specialists in a city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ORBITAL_DEV_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"The exploration and use of outer space,including the moon and other celestial bodies, shall be carried out for the benefit and in the interests of all countries, irrespective of their degree of economic or scientific development, and shall be the province of all mankind."[NEWLINE][TAB][TAB] - Article 1 of the Treaty on Principles Governing the Activities of States in the Exploration and Use of Outer Space, Including the Moon and Other Celestial Bodies[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_FW_IMPLANTS_TITLE">
+			<Text>Implants</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_IMPLANTS">
+			<Text>Implants</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_IMPLANTS_DESC">
+			<Text>As the methods of genetic manipulation become increasingly refined, the possibiilty of using genetics to produce more effective organs and organic components increases. While the wholescale manipulation of the human genome would produce more effective results, the sheer complexity of the task makes it easier to focus on engineering organic components to specific standards, even if the rest of the host body suffers significant problems. While there are some concerns about the ethics of using these engineered host bodies to incubate augmented organs, they do prove to be increasingly valuable and useful, whether in enhancing the productivity and effectiveness of workers, or in making more powerful soldiers for the battlefield.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_IMPLANTS_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Biodrones[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Organic Infantry[ENDCOLOR], futuristic units that can heal themselves, as well as [COLOR_POSITIVE_TEXT]Implant Clinics[ENDCOLOR], which increase [ICON_GOLD] Gold and [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_IMPLANTS_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"And he causeth all, both small and great, rich and poor, free and bond, to receive a mark in their right hand, or in their foreheads: And that no man might buy or sell, save he that had the mark, or the name of the beast, or the number of his name."[NEWLINE][TAB][TAB] - Revelations, the Bible[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_FW_NEURAL_INTERFACE_TITLE">
+			<Text>Neural Interface</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_NEURAL_INTERFACE">
+			<Text>Neural Interface</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_NEURAL_INTERFACE_DESC">
+			<Text>As machines have become increasingly sophisticated, the interfaces required to interact with them have as well. Being able to control a machine with one's thoughts as an extension of one's body would be an incredible achievement, making it far simpler to perform complex tasks with mechanical assistance. However, the brain is itself a highly complex organ, and achieving a direct interface a significant challenge. Still, progress is being made in establishing connections between computers and other technological devices and human nerves, allowing both motor control and sensory input of technological devices.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_NEURAL_INTERFACE_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Cybersubs[ENDCOLOR], the most advanced submarine unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_NEURAL_INTERFACE_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"A picture is worth a thousand words. An interface is worth a thousand pictures."[NEWLINE][TAB][TAB] - Ben Shneiderman[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_FW_COGNITIVE_TECH_TITLE">
+			<Text>Cognitive Technology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_COGNITIVE_TECH">
+			<Text>Cognitive Technology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_COGNITIVE_TECH_DESC">
+			<Text>As the capability to produce increasingly small-scale devices develops, so has the capacity to integrate computer systems into practically any item or material, and with the development of networked computing, allows appliances or other objects to be made increasingly "smart". A smart home, for example, can monitor activity in various rooms, adjusting lighting or temperature as needed to conserve power. Smart appliances can monitor usage and even determine when to place orders for new food or other supplies as needed. Furthermore, even simple "smart" systems acting in concert can display increasingly intelligent emergent behavior.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_COGNITIVE_TECH_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Drone Fighters[ENDCOLOR], the most advanced fighter unit, as well as [COLOR_POSITIVE_TEXT]Network Backbones[ENDCOLOR], which increases [ICON_RESEARCH] Science and [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_COGNITIVE_TECH_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"Digital behavior is just a replication of human behavior."[NEWLINE][TAB][TAB] - Paul Papadimitriou[NEWLINE][TAB]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_QUANTUM_COMPUTERS_TITLE">
+			<Text>Microscale Engineering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_QUANTUM_COMPUTERS_DESC">
+			<Text>The development of nanomaterials demonstrated that it is possible to manipulate matter on molecular and even atomic scales to produce new materials and structures. The next challenge in the search of true nanotechnology is to produce actual working components on this scale -- power sources, motors, and other mechanical parts to allow nanoscale machines to undertake tasks. Increasingly sophisticated tools are devised to allow the manipulation of molecules on the nanoscale level, which in turn makes sophisticated and futuristic materials much more common and available.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_QUANTUM_COMPUTERS_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Mech Artillery[ENDCOLOR], a futuristic siege unit, and [COLOR_POSITIVE_TEXT]Hypervelocity Missiles[ENDCOLOR], the most powerful missile unit. Also allows you to build [COLOR_POSITIVE_TEXT]Converters[ENDCOLOR] to produce more [ICON_NANOMAT] Nanomaterials.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_QUANTUM_COMPUTERS_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"Infinities and indivisibles transcend our finite understanding, the former on account of their magnitude, the latter because of their smallness; Imagine what they are when combined."[NEWLINE][TAB][TAB] - Galileo Galilei[NEWLINE][TAB]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_GENGINEERING_TITLE">
+			<Text>Designer Lifeforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_GENGINEERING">
+			<Text>Designer Lifeforms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_GENGINEERING_DESC">
+			<Text>While the genetic modification of the human genome holds the most promise for human augmentation, it is a highly complex endeavor as the human genome is the product of millions of years of evolution. A simpler undertaking is to take much simpler genomes, such as those found in plants and animals, in order to modify them more drastically -- or even produce entirely new genomes. In time, experimentation with genetic manipulation lead to the capability to craft and engineer entirely new organisms, leading to the term "gengineering", a portmanetau of the term "genetic engineering". With the capbility to engineer living organisms to fill specific ecological niches and other roles, it becomes increasingly possible to manipulate the environment to meet particular needs or desires.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_GENGINEERING_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Chimeras[ENDCOLOR], genetically engineered combat units, as well as [COLOR_POSITIVE_TEXT]Biogenesis pods[ENDCOLOR] which increase the production of Mutants and Chimeras, and provide newly created units with unique promotions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_GENGINEERING_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"If you realize that all things change, there is nothing you will try to hold on to. If you are not afraid of dying, there is nothing you cannot achieve."[NEWLINE][TAB][TAB] - Lao Tzu, Tao Te Ching[NEWLINE][TAB]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_BIOMODIFICATION_TITLE">
+			<Text>Biomodification</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_BIOMODIFICATION_DESC">
+			<Text>While the term "gengineering" refers to the creation of entirely new organisms through genetic manipulation, biomodification reflects taking existing organisms and modifying them to improve their capabilities in various ways. In particular, modification of the human genome allows the adaptation of individuals to augmented forms that can meet a variety of needs, whether it be strength and durability in combat, or the ability to work in hazardous environments. As biomodfication becomes increasingly prevalent, more environments become available to humans to live and work, although the definition of what constitutes being "human" starts to become blurred.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_BIOMODIFICATION_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Biotroopers[ENDCOLOR], the most powerful genetically-engineered infantry, as well as [COLOR_POSITIVE_TEXT]Bioenhancement Centres[ENDCOLOR] which increase the production of Mutants and Chimeras, and provide newly created units with unique promotions, as well as [COLOR_POSITIVE_TEXT]Genejack Facilities[ENDCOLOR], which increase [ICON_PRODUCTION] Production and [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_BIOMODIFICATION_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"As human beings, our only sensible scale of values is one based on lessening the agony of existence."[NEWLINE][TAB][TAB] - H.P. Lovecraft[NEWLINE][TAB]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ARTIFICIAL_ENVIRONMENTS_TITLE">
+			<Text>Artificial Environments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ARTIFICIAL_ENVIRONMENTS_DESC">
+			<Text>Manned exploration and inhabitation of outer space will require significant advances in the technologies available to sustain humans in one of the most hostile environment possible. In particular, self-sustaining environments that can provide breathable atmosphere, drinkable water, and food will be needed. These technologies will not be applicable only to space travel, however, as it will enable us to create self-contained environments underground, in arid regions, or under the ocean, greatly increasing the volume of space available for human habitation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ARTIFICIAL_ENVIRONMENTS_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Vertical Farms[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Hydroponics Domes[ENDCOLOR] in order to increase [ICON_FOOD] Food output, as well as [COLOR_POSITIVE_TEXT]Geofronts[ENDCOLOR] to improve city defense.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ARTIFICIAL_ENVIRONMENTS_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"The more artificial a human environment becomes, the more the word 'natural' becomes a term of value."[NEWLINE][TAB][TAB] - Wendell Berry[NEWLINE][TAB]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ADAMANTIUM_TITLE">
+			<Text>Adamantium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ADAMANTIUM_DESC">
+			<Text>As atomic nuclei grow larger, the binding energy that holds them together becomes weaker, making heavier elements unstable and prone to radioactive decay. However, it is predicted that certain superheavy nuclei (with approximately 300 nucleons) would achieve stability as the nucleons are arranged in more stable configurations. Generating such atoms is a difficult challenge, however, as even the nuclei that could be fused to achieve such elements are in rare supply, and incredible amounts of energy and precision would be required to synthesize them. However, the advent of fusion power plants and the precision engineering required to manufacture nanoscale machines do make it a possibility, and such superheavy elements would be valuable as both a raw material and as a potential power source.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ADAMANTIUM_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Giant Death Robots[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Battlesuits[ENDCOLOR], the most powerful armor and infantry units in the game. Also allows you to build [COLOR_POSITIVE_TEXT]Nucleonic Foundries[ENDCOLOR] which provide [ICON_PRODUCTION] Production and [ICON_NANOMAT] Nanomaterials.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ADAMANTIUM_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"The tricky thing about adamantium is, that if you ever manage to process its raw, liquid form, you got to keep it that way, keep it hot. Because once the metal cools, it's indestructible."[NEWLINE][TAB][TAB] - X-Men[NEWLINE][TAB]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ARCOLOGIES_TITLE">
+			<Text>Arcologies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ARCOLOGIES_DESC">
+			<Text>The term 'arcology' is a portmaneteau of the words 'architecture' and 'ecology', and is a vision of architectural design principles for very densely populated habitats. An arcology is distinguished from a merely large building in that it is designed to lessen the impact of human habitation on any given ecosystem. Adapting to life within an arcology would likely require social and cultural adaptation as well, with an increased emphasis on frugality and shared social resources, and a lessening of private space.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ARCOLOGIES_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Aerospace Complexes[ENDCOLOR], which increase the air capacity of a City, [COLOR_POSITIVE_TEXT]Orbital Habitats[ENDCOLOR], which increase [ICON_FOOD] Food, and the [COLOR_POSITIVE_TEXT]Central Command[ENDCOLOR], which improves Information Hubs, Distribution Hubs, and Metroplex Hubs across the empire. Also allows Workers to construct [COLOR_POSITIVE_TEXT]Arcologies[ENDCOLOR], which provide [ICON_GROWTH] Food and [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ARCOLOGIES_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Architecture is the physical form of the ecology of the human, the configuration of matter which allows for the best energetic and willful flux"[NEWLINE][TAB][TAB] - Paolo Soleri[NEWLINE][TAB]</Text>
+		</Row>
+			
+		<Row Tag="TXT_KEY_TECH_FW_AI_TITLE">
+			<Text>Artificial Intelligence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_AI">
+			<Text>Artificial Intelligence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_AI_DESC">
+			<Text>Artifical intelligence is the intelligence exhibited by machines and software. Although technically any intelligent agent is one that can perceive its environment and undertake actions that maximize its chances of success, colloquially the term refers to a machine or software that displays a notable degree of self-awareness and sentience, displaying a human-like level of intelligence. With the development of "smart" devices and other forms of cognitive technology, achieving this goal becomes a possibility, although there are some concerns that, as such intelligences may not think in a truly "human" fashion, they may become rivals or otherwise hostile towards humanity. Still, as intelligent behavior may be defined as being logical or human-like, it is also possible such new intelligences would be benevolent or friendly towards humanity, so long as humanity acted intelligently themselves.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_AI_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]AI Networks[ENDCOLOR], which increase [ICON_RESEARCH] Science and [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_AI_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"I think, therefore I am"[NEWLINE][TAB][TAB] - Rene Descartes[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_FW_CYBERNETICS_TITLE">
+			<Text>Cybernetics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_CYBERNETICS">
+			<Text>Cybernetics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_CYBERNETICS_DESC">
+			<Text>Although cybernetics as a science is broadly concerned the study of systems of any nature which are capable of receiving, storing, and processing information so as to use it for control, its study of the connection between stimulus and action lends itself to the common perception of the study of interfaces between humans and machines, and how mechanical sensors and agents might be integrated with human decision-making processes. However, cybernetics can also be applied to such things as purely mechanical systems (studying artificial intelligence and emergent behavior), as well as biological and social systems.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_CYBERNETICS_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Hovertanks[ENDCOLOR], the most advanced mobile unit in the game, as well as [COLOR_POSITIVE_TEXT]Telepresence Hubs[ENDCOLOR], which increase [ICON_PRODUCTION] Production and [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_CYBERNETICS_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"The world of the future will be an even more demanding struggle against the limitations of our intelligence, not a comfortable hammock in which we can lie down to be waited upon by our robot slaves." -- Norbert Weiner[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_FW_ECOSOPHY_TITLE">
+			<Text>Ecotheory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ECOSOPHY">
+			<Text>Ecotheory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ECOSOPHY_DESC">
+			<Text>While environmentalism has been a social movement concerned with the preservation of nature against human activity, it does also have the drawback of regarding both "nature" and "humanity" as separate and distinct from each other. As the study of ecological systems progresses, increasing movements that seek to view both humans and their environment more holistically start to develop, encouraging people to view themselves as part of a single, unified system. Some of the more radical proponents of these new ecological philosophies (or "ecosophies") advocate that thought should be given to modifying both humans and the environment so they can live in greater harmony with each other -- with competing needs, simply preserving both humanity and the environment as they are is likely to lead to further conflict.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ECOSOPHY_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Ecosanctuaries[ENDCOLOR] which provide [ICON_CULTURE] Culture and [ICON_HAPPINESS_1] Happiness and [COLOR_POSITIVE_TEXT]Biofactories[ENDCOLOR] which provide [ICON_PRODUCTION] Production and [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ECOSOPHY_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Every living being is connected intimately, and from this intimacy follows the capacity of identification and as its natural consequences, practice of non-violence."[NEWLINE][TAB][TAB] - Arne Næss[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_FW_NANOMATERIALS_TITLE">
+			<Text>Nanomaterials</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_NANOMATERIALS">
+			<Text>Nanomaterials</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_NANOMATERIALS_DESC">
+			<Text>Nanomaterials research takes a materials science-based approach to nanotechnology, leveraging advances in materials metrology and synthesis which have been developed in support of microfabrication research. Materials with structure at the nanoscale often have unique optical, electronic, or mechanical properties.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_NANOMATERIALS_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Power Armor Infantry[ENDCOLOR], a futuristic infantry unit, and [COLOR_POSITIVE_TEXT]Nanomaterial Plants[ENDCOLOR] which provide Nanomaterials. Also allows Workers to construct [COLOR_POSITIVE_TEXT]Generators[ENDCOLOR], which provide [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_NANOMATERIALS_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Carbon atoms on a distant planet rearranged themselves into DNA, microorganisms formed, grew backbones, swam around the ocean, mutated into amphibians and crawled onto dry land — and finally a cab appeared at the mouth of the alley."[NEWLINE][TAB][TAB] - Mark Coggins, "The Immortal Game"[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_TRANSGENICS_TITLE">
+			<Text>Transgenics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_TRANSGENICS">
+			<Text>Transgenics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_TRANSGENICS_DESC">
+			<Text>As the technology to clone existing organisms matured, it also permitted the increasing development of new, genetically modified organisms that incorporated previously nonexistent traits that could breed true in future generations. Most transgenic organisms could only grow and develop under controlled environments, such as specialized plant nurseries, but new ecotheories helped scientists understand the complex interactions in ecologies and environments, allowing more stable transgenic organisms that could survive in open environments without upsetting the existing ecological balance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_TRANSGENICS_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Tidal Arrays[ENDCOLOR], which increase the Production and Gold output of coastal cities, and [COLOR_POSITIVE_TEXT]Transgenic Nurseries[ENDCOLOR] which improve Forests, Jungles, and Marshes.Also allows Workers to construct [COLOR_POSITIVE_TEXT]Genocentres[ENDCOLOR], which provide [ICON_GROWTH] Food, [ICON_PRODUCTION] Production, and [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_TRANSGENICS_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Nothing is so painful to the human mind as a great and sudden change."[NEWLINE][TAB][TAB] - Mary Shelley, Frankenstein[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_FW_CLONING_TITLE">
+			<Text>Cloning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_CLONING">
+			<Text>Cloning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_CLONING_DESC">
+			<Text>The advancing study of biology and medicine lead to the creation of methods for artifical gestation, and manipulation of organisms on a cellular level. Once the ability to incubate organisms artifically in a laboratory environment was achieved, attention was turned to the capability to replicate particularly useful organisms, eventually leading to the search for some means to replicate an actual human being. Still, while it is possible to replicate an organism genetically, that organism may not mature into an identical twin of its predecssor, due to environmental influences.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_CLONING_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Clone Labs[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aquaculture Labs[ENDCOLOR], which enhance nearby resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_CLONING_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Why would you clone people when you can go to bed with them and make a baby? C'mon, it's stupid."[NEWLINE][TAB][TAB] - Ray Bradbury[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_GEN_MANIP_TITLE">
+			<Text>Genetic Manipulation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_GEN_MANIP">
+			<Text>Genetic Manipulation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_GEN_MANIP_DESC">
+			<Text>With the discovery of DNA, and the increasing ability to manipulate organisms on a genetic level, it was inevitable that some would investigate the effects of manipulating the genetic composition of organisms, in an effort to improve them in various ways. Genetic manipulation can be highly problematic, however, as even simpler organisms that have been genetically modified may prove to have unintended biological and environmental effects. The possibility of human genetic modification is an issue with many social and ethical concerns, although some feel the potential benefits would outweigh such risks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_GEN_MANIP_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Mutants[ENDCOLOR], a cheap infantry unit that can heal itself, as well as [COLOR_POSITIVE_TEXT]Gene Labs[ENDCOLOR], which provide a bonus to certain resources, as well as increasing the production of [ICON_GREAT_PEOPLE] Great People.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_GEN_MANIP_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"We cannot become what we need to be, remaining what we are."[NEWLINE][TAB][TAB] - Max De Pree[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_MEMETICS_TITLE">
+			<Text>Memetics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_MEMETICS">
+			<Text>Memetics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_MEMETICS_DESC">
+			<Text>Memetics is the study of the development and spread of memes -- self-contained units that carry cultural ideas, symbols, or practices that can be transmitted from one mind to another. They are considered by some to be a cultural analogue to genes, in the way they replicate, mutate, and respond to selective pressures. The study of memetics may help us understand how societies and cultures develop and evolve over time, although some suggest it may ultimately also help people manipulate and shape socieities into more desirable forms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_MEMETICS_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Entertainment Servers[ENDCOLOR], which increase [ICON_CULTURE] Culture output, and [COLOR_POSITIVE_TEXT]VR Training Centres[ENDCOLOR] to help train veteran units. Also allows Workers to construct [COLOR_POSITIVE_TEXT]Eco-Communes[ENDCOLOR], which provide [ICON_GROWTH] Food, [ICON_CULTURE] Culture, and [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_MEMETICS_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Not even the most heavily-armed police state can exert brute force to all of its citizens all of the time. Meme management is so much subtler; the rose-tinted refraction of perceived reality, the contagious fear of threatening alternatives."[NEWLINE][TAB][TAB] - Peter Watts, Blindsight[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_FW_AUTONOMOUS_SYSTEMS_TITLE">
+			<Text>Autonomous Systems</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_AUTONOMOUS_SYSTEMS">
+			<Text>Autonomous Systems</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_AUTONOMOUS_SYSTEMS_DESC">
+			<Text>As cognitive technology advanced, fully autonomous mechanical systems became increasingly feasible. While not fully sentient or self-aware, these systems were capable of sufficiently complex decision-making that they could handle unexpected circumstances. This allowed human operators to provide simpler instructions and commands, and mechanical systems required less oversight, making them increasingly practical in real-world environments rather than controlled settings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_AUTONOMOUS_SYSTEMS_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Advanced Destroyers[ENDCOLOR], the most powerful naval melee unit, as well as [COLOR_POSITIVE_TEXT]Drone Hives[ENDCOLOR] which provide [ICON_PRODUCTION] Production and [ICON_GOLD] Gold, and the [COLOR_POSITIVE_TEXT]Borehole[ENDCOLOR], which improves Geothermal Plants and Mines. Also allows Workers to construct [COLOR_POSITIVE_TEXT]Support Nodes[ENDCOLOR], which provide [ICON_PRODUCTION] Production and [ICON_GOLD] Gold, and heal nearby units each turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_AUTONOMOUS_SYSTEMS_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Never do anything yourself that others can do for you."[NEWLINE][TAB][TAB] - Agatha Christie, The Labours of Hercules[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_FW_HYPERSTRUCTURES_TITLE">
+			<Text>Hyperstructures</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_HYPERSTRUCTURES">
+			<Text>Hyperstructures</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_HYPERSTRUCTURES_DESC">
+			<Text>Expanding upon the concept of the arcology towards urban development, advances in materials engineering and other technologies may someday make it feasible to accomplish tremendous feats of engineering -- housing an entire city of people in a single structure, designed to optimize human comfort and society while minimizing their impact on the surrounding environment. Such a structure would be a tremendous accomplishment, and would undoubtably have an equally great impact upon human society.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_HYPERSTRUCTURES_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Crawlers[ENDCOLOR], the most powerful siege unit, as well as [COLOR_POSITIVE_TEXT]Metroplex Hubs[ENDCOLOR], which provide [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_HYPERSTRUCTURES_QUOTE">
+			<Text>[NEWLINE][ TAB ][ TAB ]"Men have become the tools of their tools"[NEWLINE][ TAB ][ TAB ]  - David Thoreau [NEWLINE][ TAB ]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_TECH_FW_MICROSCALE_ENGINEERING_TITLE">
+			<Text>Microscale Engineering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_MICROSCALE_ENGINEERING_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"Infinities and indivisibles transcend our finite understanding, the former on account of their magnitude, the latter because of their smallness; Imagine what they are when combined."[NEWLINE][TAB][TAB] - Galileo Galilei[NEWLINE][TAB]
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_FW_HOMO_SUPERIOR_TITLE">
+			<Text>Homo Superior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_HOMO_SUPERIOR_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"I teach you the Overman. Man is something which shall be surpassed."[NEWLINE][TAB][TAB] - Friedrich Nietzsche[NEWLINE][TAB]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_HOMO_SUPERIOR_DESC">
+			<Text>With the full maturation of both biomodfication and cybernetics, it becomes possible to augment the human body in almost limitless ways. Human beings can be stronger, smarter, live longer and be relatively free from disease or injury. While there are ethical and even logistical concerns with such human augmentation, it would leave humanity poised to transcend its limitations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_HOMO_SUPERIOR_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Spaceship Stasis Chamber[ENDCOLOR], which is one of the spaceship components required for the Science Victory.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_FW_DIGITAL_SOCIETY_TITLE">
+			<Text>Digital Society</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_DIGITAL_SOCIETY_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"If you stay right where you are, then people will eventually come to you."[NEWLINE][TAB][TAB] - Robert Doisneau[NEWLINE][TAB]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_DIGITAL_SOCIETY_DESC">
+			<Text>With the proliferation of artificial intelligences, as well as the advancement of cybernetics allowing humans to utilize mind-machine interfaces and telepresence, the concept of the mind and personality being linked to one's physical body becomes increasingly outmoded. Advances in computer networks and technology allow people to project themselves anywhere on the planet, or perceive entirely artifical worlds. Ultimately, such a society may discard concerns about the physical world, with identity being determined solely by one's mind, rather than one's body, and one's perceptions may be determined largely by one's interactions with the electronic environment humanity lives in.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_DIGITAL_SOCIETY_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Brain Uploading Facilities[ENDCOLOR], which increase [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_GOLD] Gold, and [ICON_CULTURE] Culture but reduce population.</Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_TECH_FW_SMART_MATERIALS_TITLE">
+			<Text>Smart Materials</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_SMART_MATERIALS_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"Everything changes, nothing remains without change."[NEWLINE][TAB][TAB] - Siddhārtha Gautama[NEWLINE][TAB]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_SMART_MATERIALS_DESC">
+			<Text>The culimination of nanotechnology would be the development of "smart materials" -- materials that are actually comprised of intelligent nanomachines, capable of adapting themselves to their environments or other stimuli. Nanomachines like these, working in concert, would allow humans to have complete control over their environments -- construction shelters or other objects upon demand. Depending on the nature and distribution of the nanomachines, they could also serve other roles, such as personal defense or even transportation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_SMART_MATERIALS_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Nexus[ENDCOLOR] units, a powerful carrier and support unit, as well as the [COLOR_POSITIVE_TEXT]Utility Fog[ENDCOLOR], which improves city defense and increases [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_TECH_FW_ENERGY_THEORY_TITLE">
+			<Text>Energy Theory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ENERGY_THEORY_QUOTE">
+			<Text>[NEWLINE][ TAB ][ TAB ]"If you want to find the secrets of the universe, think in terms of energy, frequency and vibration."[NEWLINE][ TAB ][ TAB ]  - Nikola Tesla [NEWLINE][ TAB ]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ENERGY_THEORY_DESC">
+			<Text>The human investigation of the principles under which the universe operates have lead to investigations of the functioning of the universe at the smallest and most high-energy states. The most evident products of this research can be found in the extended exploration and development of the solar system, resulting in powerful booster engines capable of propelling spacecraft between interplanetary colonies, as well as facilitating the development of new generations of space stations and bases on other worlds.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_ENERGY_THEORY_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Spaceship Boosters[ENDCOLOR], one of the spaceship components required for the Science Victory, as well as the [COLOR_POSITIVE_TEXT]Spaceship Factory[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Moon Base[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_FW_TERRAFORMING_TITLE">
+			<Text>Terraforming</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_TERRAFORMING_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"Man does not weave this web of life. He is merely a strand of it. Whatever he does to the web, he does to himself."[NEWLINE][TAB][TAB] - Chief Seattle[NEWLINE][TAB]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_TERRAFORMING_DESC">
+			<Text>Mankind has always sought to control and defend itself against the ravages of its environment, developing clothing and shelter to protect ourselves, and eventually finding ways to turn it to our advantage. But as we've learned to control humanity, we've also become aware of the impact we ourselves have upon the world around us. The culimination of this development may be the eventual development of means of terraforming -- transforming the entire environment around us as needed. Manipulating plants, animals, and terrain, we could adapt new planets to become habitable, or adjust our own to become more tolerable.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_TERRAFORMING_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Bio-Titans[ENDCOLOR], a powerful melee unit which can spawn [COLOR_POSITIVE_TEXT]Genospawn[ENDCOLOR] units when enemies are nearby.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_FW_SPACE_COLONIZATION_TITLE">
+			<Text>Space Colonization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_SPACE_COLONIZATION_QUOTE">
+			<Text>[NEWLINE][ TAB ][ TAB ]"There is no easy way to the stars from the earth."[NEWLINE][ TAB ][ TAB ]  - Seneca [NEWLINE][ TAB ]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_SPACE_COLONIZATION_DESC">
+			<Text>Humanity has always felt an underlying desire to explore and expand, to find what lies beyond the horizon. Outer space provides the ultimate frontier, a broad expanse that humanity can expand into and explore. The achievement of a level of technology that would permit humans to travel to another star system may be as pivotal in human history as the development of the first tools.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_SPACE_COLONIZATION_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Spaceship Engine[ENDCOLOR], which is one of the spaceship components required for the Science Victory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_COMPUTRONIUM_TITLE">
+			<Text>Computronium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_COMPUTRONIUM_QUOTE">
+			<Text>[NEWLINE][ TAB ][ TAB ]"Men are only as good as their technical development allows them to be."[NEWLINE][ TAB ][ TAB ]  - George Orwell [NEWLINE][ TAB ]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_COMPUTRONIUM_DESC">
+			<Text>Computronium is a material hypothesized by Norman Margolus and Tommaso Toffoli of the Massachusetts Institute of Technology to be used as "programmable matter," a substrate for computer modeling of virtually any real object.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_COMPUTRONIUM_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Spaceship Cockpit[ENDCOLOR], which is one of the spaceship components required for the Science Victory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_HUMAN_AUGMENTATION_TITLE">
+			<Text>Human Augmentation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_HUMAN_AUGMENTATION_QUOTE">
+			<Text>[NEWLINE][ TAB ][ TAB ]"Mind you, I've always wondered if Kei wasn't one of those Yamashita upgrades -- you know, with too much adrenocorticotropic hormone, too little monoamine oxidase?"[NEWLINE][ TAB ][ TAB ]  - Adam Warren, A Plague of Angels [NEWLINE][ TAB ]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_HUMAN_AUGMENTATION_DESC">
+			<Text>With the development of both genetic biomodification and cybernetics, limitless possibilities for human augmentation became possible. Virtually any component of the human body could be replaced with a vat-grown or cybernetic replacement. Eventually, however, some began to see baseline humanity as the limitation, as it could only accept so much modification, and more experimentation began on establishing improved versions of the human genome.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_HUMAN_AUGMENTATION_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Birthing Pods[ENDCOLOR], which increase [ICON_RESEARCH] Science and [ICON_PRODUCTION] Production.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_FW_NUCLEAR_FUSION_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Suborbital Bombers[ENDCOLOR], the most powerful bomber unit, as well as [COLOR_POSITIVE_TEXT]Fusion Plants[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Distribution Hubs[ENDCOLOR] to increase [ICON_PRODUCTION] Production in your cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FW_NANOTECHNOLOGY_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]XCOM Squad[ENDCOLOR] and the [COLOR_POSITIVE_TEXT]Nanohive[ENDCOLOR], as well as the [COLOR_POSITIVE_TEXT]Nanoforge[ENDCOLOR] to increase military unit production.</Text>
+		</Row>
+
+		<!-- Buildings -->
+
+		<Row Tag="TXT_KEY_BUILDING_FW_CLONE_LAB_DESC">
+			<Text>Cloning Lab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CLONE_LAB_HELP">
+			<Text>+2 [ICON_FOOD] Food from [ICON_RES_SHEEP] Sheep and [ICON_RES_COW] Cows and +2 Production from [ICON_RES_HORSE] Horses and [ICON_RES_BISON] Bison. 15% of the [ICON_FOOD] Food is carried over when a [ICON_CITIZEN] Citizen is born. Requires a Genemod Lab. Cannot be built if the city already has a Vertical Farm, Mycoprotein Vats, or Orbital Habitat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CLONE_LAB_STRATEGY">
+			<Text>+2 [ICON_FOOD] Food from [ICON_RES_SHEEP] Sheep and [ICON_RES_COW] Cows and +2 Production from [ICON_RES_HORSE] Horses and [ICON_RES_BISON] Bison. 15% of the [ICON_FOOD] Food is carried over when a [ICON_CITIZEN] Citizen is born. Requires a Genemod Lab. Cannot be built if the city already has a Vertical Farm, Mycoprotein Vats, or Orbital Habitat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CLONE_LAB_PEDIA">
+			<Text>The earliest experiments in cloning were conducted on farm animals. As human cloning has a variety of ethical concerns, the most likely uses of cloning in the near future will be to increase the productivity of animal herds.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_AQUACULTURE_LAB_DESC">
+			<Text>Aquaculture Lab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_AQUACULTURE_LAB_HELP">
+			<Text>Sea resources worked by the city produce +1 [ICON_FOOD] Food and [ICON_GOLD] Gold. Requires a Lighthouse, and city must not contain an Undersea Mining Platform.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_AQUACULTURE_LAB_STRATEGY">
+			<Text>+1 [ICON_FOOD] Food [ICON_PRODUCTION] Production, and [ICON_GOLD] Gold from sea resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_AQUACULTURE_LAB_PEDIA">
+			<Text>As various scientific methods were used to improve crops and animal herds, it was inevitable that similar techniques would be applied to increasing the availability of animals that lived in the sea. Various experimentation in 'aquaculture' has lead to various methods of maximizing the yields that can be gained from the various animals in the sea.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_GENE_LAB_DESC">
+			<Text>Genemod Lab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_GENE_LAB_HELP">
+			<Text>+2 [ICON_FOOD] Food from [ICON_RES_WHEAT] Wheat, [ICON_RES_BANANA] Bananas, [ICON_RES_DEER] Deer, and [ICON_RES_FISH] Fish. Cannot be built if the city already has a Vertical Farm, Mycoprotein Vats, or Orbital Habitat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_GENE_LAB_STRATEGY">
+			<Text>+2 [ICON_FOOD] Food from [ICON_RES_WHEAT] Wheat, [ICON_RES_BANANA] Bananas, [ICON_RES_DEER] Deer, and [ICON_RES_FISH] Fish. Cannot be built if the city already has a Vertical Farm, Mycoprotein Vats, or Orbital Habitat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_GENE_LAB_PEDIA">
+			<Text>As techniques to manipulate genetic information were improved, experimentation upon a wider range of subjects began. New crops and animals were developed as a response to increasing issues of food supplies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_TG_NURSERY_DESC">
+			<Text>Transgenic Nursery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_TG_NURSERY_HELP">
+			<Text>Forest tiles produce an extra 1 [ICON_FOOD] Food, Jungle tiles produce an extra 1 [ICON_PRODUCTION] Production, and Marsh tiles produce an extra 1 [ICON_FOOD] Food and 1 [ICON_PRODUCTION]. Requires a Cloning Lab. Cannot be built if the city already has a Vertical Farm, Mycoprotein Vats, or Orbital Habitat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_TG_NURSERY_STRATEGY">
+			<Text>Forest tiles produce an extra 1 [ICON_FOOD] Food, Jungle tiles produce an extra 1 [ICON_PRODUCTION] Production, and Marsh tiles produce an extra 1 [ICON_FOOD] Food and 1 [ICON_PRODUCTION]. Requires a Cloning Lab. Cannot be built if the city already has a Vertical Farm, Mycoprotein Vats, or Orbital Habitat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_TG_NURSERY_PEDIA">
+			<Text>Studies of the spread of genetically modified plants and animals in existing ecosystems, combined with refinements in genetic modification and engineering, lead to increased efforts to expand beyond just modifying individual organisms, but to entire ecosystems. Transgenic nurseries were used as preliminary test environments to develop new, self-sustaining ecologies that grew more effectively and were more productive than naturally-ocurring ones. Once satisfactory results had been achieved, these new ecosystems were introduced into the wild, quickly supplanting the existing ones.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ECTOGENESIS_POD_DESC">
+			<Text>Biogenesis Pod</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ECTOGENESIS_POD_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production from each worked Forest tile. Increases the production of Mutants, Chimeras, and Bio-Titans. Melee, Gun, Ranged, and Scout units receive the Gengineered promotion. Requires a Biofactory. Cannot be built if the City contains an Autoplant, Drone Hive, or Utility Fog.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ECTOGENESIS_POD_STRATEGY">
+			<Text>+1 [ICON_PRODUCTION] Production from each worked Forest tile. Increases the production of Mutants, Chimeras, and Bio-Titans. Melee, Gun, Ranged, and Scout units receive the Gengineered promotion. Requires a Biofactory. Cannot be built if the City contains an Autoplant, Drone Hive, or Utility Fog.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ECTOGENESIS_POD_PEDIA">
+			<Text>As the creation and even mass production of artificially-engineered genetic chimeras became more common, so did facilities dedicated to the task. Biogenesis pods were the most integral component in these facilities, as they allowed genetic manipulation of chimeras even during the incubation process, so that they could be dynamically adjusted to meet varying needs. These facilities also often served double-duty as biomodification centres, as the pods could be used to modify humans as well, although they could only perform more rudimentary and large-scale modifications, compared to the later and more sophisticated birthing pods.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BIOMOD_TANK_DESC">
+			<Text>Bioenhancement Centre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BIOMOD_TANK_HELP">
+			<Text>Increases the production of Organic Infantry and Biotroopers. Melee, Gun, Ranged, and Scout units receive the Biomod promotion. Requires a Biofactory and an Implant Clinic.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BIOMOD_TANK_STRATEGY">
+			<Text>Increases the production of Organic Infantry and Biotroopers. Melee, Gun, Ranged, and Scout units receive the Biomod promotion. Requires a Biofactory and an Implant Clinic.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BIOMOD_TANK_PEDIA">
+			<Text>While implant clinics permitted a certain degree of biomodifications, more extensive adaptations required more sophisticated equipment. Biomod facilities carried out more extensive human modification, typically immersing the subject in a suspension tank so that more complex implants and full-body modfications could be carried out. Common biomods included stimplants, that would provide a short-term regenerative capability, as well as boost mods that enhanced combat capabilities.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_GENEJACK_FACILITY_DESC">
+			<Text>Genejack Facility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_GENEJACK_FACILITY_HELP">
+			<Text>Adds [ICON_GOLD] Gold to Grasslands and Plain tiles, and adds 1 [ICON_PRODUCTION] Production to Tundra, Snow, and Desert tiles. Provides 1 [ICON_RES_NANOMAT] Nanomaterials.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_GENEJACK_FACILITY_STRATEGY">
+			<Text>Adds [ICON_GOLD] Gold to Grasslands and Plain tiles, and adds 1 [ICON_PRODUCTION] Production to Tundra, Snow, and Desert tiles. Provides 1 [ICON_RES_NANOMAT] Nanomaterials.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_GENEJACK_FACILITY_PEDIA">
+			<Text>As biofactories began to use an increasing variety of organic components and processes in the manufacturing of advanced materials and equipment, they began to run into limitations due to the restrictive environmental controls that were required for biotechnological process to be most efficient. With the advancement of transgenics, however, these processes could be further refined by tailoring the organisms used in various biomanufacturing, enabling them to work even more efficiently, and in increasingly harsher environments. There have been rumors that this process of "genejacking" was even applied to human workers that were employed in biofactories and other genejack facilities, but no conclusive evidence of this has been found.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_FW_SANCTUARY_DESC">
+			<Text>Ecosanctuary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_SANCTUARY_HELP">
+			<Text>Adds 1 [ICON_CULTURE] Culture and 1 [ICON_HAPPINESS_1] Happiness for each Nature Preserve worked by the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_SANCTUARY_STRATEGY">
+			<Text>Adds 1 [ICON_CULTURE] Culture and 1 [ICON_HAPPINESS_1] Happiness for each Nature Preserve worked by the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_SANCTUARY_PEDIA">
+			<Text>In communities where ecological philosophies took a strong hold, there was felt a deep-seated need for a way to feel connected with the remaining regions of wild nature surrounding them. While nature preserves offered the most enjoyable opportunities, not everyone could spare the time and resources to enjoy even local preserves. As a result, these communities began to develop ecosanctuaries, natural preserves located within the communities themselves. While still artificial to a certain degree as a necessity, they were much wilder and more natural than vivariums, allowing the populace to feel a much greater connection to the natural world. These refuges often ended up as cultural centres, inspiring various works of art, music, and literature.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_FW_NANOFORGE_DESC">
+			<Text>Nanoforge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_NANOFORGE_HELP">
+			<Text>Increases the production of military units by 15%. Requires an Autoplant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_NANOFORGE_STRATEGY">
+			<Text>Increases the production of military units by 15%. Requires an Autoplant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_NANOFORGE_PEDIA">
+			<Text>The Nanoforge is a facility dedicated to producing new materials and equipment utilizing nanotechnology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_AEROSPACE_COMPLEX_DESC">
+			<Text>Aerospace Complex</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_AEROSPACE_COMPLEX_HELP">
+			<Text>Increases the air unit capacity of a city by 6. Increases the production of Drone Fighters and Suborbital Bombers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_AEROSPACE_COMPLEX_STRATEGY">
+			<Text>Increases the air unit capacity of a city by 6. Increases the production of Drone Fighters and Suborbital Bombers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_AEROSPACE_COMPLEX_PEDIA">
+			<Text>With the increasing commercialization and development of space, facilities dedicated to the maintenance and servicing of aerospace craft became increasingly necessary. These dedicated facilities often combined manufacturing facilities with buildings to help service aerospace craft and people travelling to and from orbit.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_FW_CONVERTER_DESC">
+			<Text>Converter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CONVERTER_HELP">
+			<Text>Produces 2 [ICON_RES_NANOMAT] Nanomaterials. Each source of [ICON_RES_COAL] Coal and [ICON_RES_OIL] Oil worked by this city produce +2 [ICON_GOLD] Gold. City must have at least one of these resources improved with a Mine or Well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CONVERTER_STRATEGY">
+			<Text>Produces 2 [ICON_RES_NANOMAT] Nanomaterials. Each source of [ICON_RES_COAL] Coal and [ICON_RES_OIL] Oil worked by this city produce +2 [ICON_GOLD] Gold. City must have at least one of these resources improved with a Mine or Well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CONVERTER_PEDIA">
+			<Text>Advances in the field of microscale engineering helped further advance the development of nanomaterials. While the original nanomaterial plants required very specific environments and raw materials to work with, more sophisticated nanoscale machines, while not true nanotechnology, helped make the process easier and less intensive. Raw materials such as coal or oil could be fed into specially-built converters, and the nanoscale machines would dutifully work to convert these into useful nanomaterials. Although there were concerns that these early nanomachines could potentially run amok, converting any organic material they found into nanomaterials, the relatively simple construction of these nanoscale machines meant they still need a protected environment to work, and were unlikely to survive long in the wild. Their programming and design was also still relatively limited, as they could only convert certain materials into others, and could not, for example, construct copies of themselves. Still, many more ecologically-minded societies considered converters a serious risk to the environment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ACCELERATOR_DESC">
+			<Text>Particle Accelerator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ACCELERATOR_HELP">
+			<Text>Nearby Academies are converted to High-Energy Research Centres, as are Academies constructed after it is built . Gain a free Great Scientist. Requires a Research Lab in every city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ACCELERATOR_STRATEGY">
+			<Text>Nearby Academies are converted to High-Energy Research Centres, as are Academies constructed after it is built . Gain a free Great Scientist. Requires a Research Lab in every city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ACCELERATOR_PEDIA">
+			<Text>The Particle Accelerator is a significant piece of scientific equipment, enabling the investigation of physical phenomena under high-energy conditions. This helps further research into such fields as quantum theory and astrophysics.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_IMPLANT_CLINIC_DESC">
+			<Text>Implant Clinic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_IMPLANT_CLINIC_HELP">
+			<Text>Requires a Hospital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_IMPLANT_CLINIC_STRATEGY">
+			<Text>Requires a Hospital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_IMPLANT_CLINIC_PEDIA">
+			<Text>As implant technology improved, an increasing number of implant clinics began to appear, offering implantation services to a rapidly growing market.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CRECHE_DESC">
+			<Text>Birthing Pods</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CRECHE_HELP">
+			<Text>Requires an Implant Clinic.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CRECHE_STRATEGY">
+			<Text>Requires an Implant Clinic.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CRECHE_PEDIA">
+			<Text>As the process of in vitro genetic modification of humans became increasingly commonplace, so did the process of artificial incubation. Increasing numbers of children were gestated in artificial wombs, sparing their parents the physical trauma of childbirth while also allowing continual monitoring of the process, to avoid any complications. Eventually, these became dedicated facilities became known as birthing pods, similar to the ectogenesis pods used to produce chimeras. Unlike the ectogenesis pods, however, these facilities were capable of providing a complete suite of genetic and medical treatments for infants, and were considered in many communities the preferred means to produce children.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BIOFACTORY_DESC">
+			<Text>Biofactory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BIOFACTORY_HELP">
+			<Text>Adds 1 [ICON_PRODUCTION] Production to Grass and Plains tiles worked by the City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BIOFACTORY_STRATEGY">
+			<Text>Adds 1 [ICON_PRODUCTION] Production to Grass and Plains tiles worked by the City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BIOFACTORY_PEDIA">
+			<Text>As society became more ecologically conscious, the impact that heavy industry can have upon the environment also became increasingly scrutinized. Under increasing social pressure, industries began to try and find more ecologically-friendly ways to maintain production, switching their existing factories and industrial plants over to newer "biofactories", that had a reduced impact on both the natural environment, as well as the humans that worked in and around them. Eventually, these "biofactories" became similar to the synthecologies that were becoming common in some areas -- artificially created environments that served industrial needs. The most sophisticated of these incorporated modified humans into the ecological infrastructure, and the engineered ecologies were so sophisticated they could manufacture materials similar to basic nanotechnological processes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_NETWORK_BACKBONE_DESC">
+			<Text>Network Backbone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_NETWORK_BACKBONE_HELP">
+			<Text>Adds 1 [ICON_RESEARCH] Science for each Research Server in the empire, adds 1 [ICON_CULTURE] Culture for each Entertainment Server in the empire, and adds 1 [ICON_GOLD] for each Comm Array in the City's radius. Requires a Server Hub. Cannot be built if the City contains an Information Hub, Distribution Hub, or Metroplex Hub.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_NETWORK_BACKBONE_STRATEGY">
+			<Text>Adds 1 [ICON_RESEARCH] Science for each Research Server in the empire, adds 1 [ICON_CULTURE] Culture for each Entertainment Server in the empire, and adds 1 [ICON_GOLD] for each Comm Array in the City's radius. Requires a Server Hub. Cannot be built if the City contains an Information Hub, Distribution Hub, or Metroplex Hub.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_NETWORK_BACKBONE_PEDIA">
+			<Text>With interconnected computer systems becoming increasingly prevalent in society, some researchers and engineers started to grow concerned about how much information traffic could actually be handled by existing networks. Increasingly sophisticated means to handle data transfers between remote systems were developed, and in some cities dedicated infrastructure was laid down to accomodate these. This new infrastructure would form a backbone for future information technologies and data networks, particularly with the advent of neural-direct interfaces, as they could permit enormous quantities of data to be transmitted clearly and without errors. They also made existing computer servers even more accessible to everyone, greatly increasing the dissemination of new ideas. However, they competed with the increasingly expansive feedsite networks, and many communities that had limited space and bandwidth had to decide which to prioritize.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CYBERCLINIC_DESC">
+			<Text>Cyberclinic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CYBERCLINIC_HELP">
+			<Text>Requires a Research Lab.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CYBERCLINIC_STRATEGY">
+			<Text>Requires a Research Lab.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CYBERCLINIC_PEDIA">
+			<Text>As increasing numbers of humans are cybernetically modified, the ready access to such technology becomes an increasing concern. Whether operated by the government to ensure equal access for all, or privately as a response to market pressures, increasing numbers of cyberclinics are established, helping ensure that anyone who wants to can have their bodies cybernetically modified. Initially they offered simple neural grafting and interfaces, but as the development of cybernetic prostheses advanced, they became capable of offering an increasingly wide variety of enhancements.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_TELEPRESENCE_HUB_DESC">
+			<Text>Telepresence Hub</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_TELEPRESENCE_HUB_HELP">
+			<Text>Adds 1 [ICON_PRODUCTION] and 1 [ICON_GOLD] Gold for each Cyberclinic in the empire. Requires a Network Backbone. Cannot be built if the City contains an Information Hub, Distribution Hub, or Metroplex Hub.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_TELEPRESENCE_HUB_STRATEGY">
+			<Text>Adds 1 [ICON_PRODUCTION] and 1 [ICON_GOLD] Gold for each Cyberclinic in the empire. Requires a Network Backbone. Cannot be built if the City contains an Information Hub, Distribution Hub, or Metroplex Hub.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_TELEPRESENCE_HUB_PEDIA">
+			<Text>With the further advancement of cybernetics and the increasing number of individuals with neural direct interfaces that permitted them to control prosthetic bodies remotely, it became increasingly common for people to use telepresence to work or visit more remote communities. As long as these cities were linked via a network backbone, people in other cities could commute instantly by remotely operating a prosthetic body. As the number of individuals telecommuting in this fashion increased, it becamse necessary to establish facilities that stored the needed prosthetic bodies for ease of maintenance and access. These telepresence hubs were often located either centrally in the community, or near sites that were regularly frequented, such as work sites or popular tourist locations.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_FW_SIMULATION_SERVER_DESC">
+			<Text>AI Network</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_SIMULATION_SERVER_HELP">
+			<Text>Each AI Network in the empire adds 1 [ICON_RESEARCH] Science and 1 [ICON_CULTURE] Culture. Adds 1 [ICON_PRODUCTION] Production and 1 [ICON_GOLD] Gold for each Support Node in the city's radius. Requires a Network Backbone. Cannot be built if the City contains an Information Hub, Distribution Hub, or Metroplex Hub.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_SIMULATION_SERVER_STRATEGY">
+			<Text>Each AI Network in the empire adds 1 [ICON_RESEARCH] Science and 1 [ICON_CULTURE] Culture. Adds 1 [ICON_PRODUCTION] Production and 1 [ICON_GOLD] Gold for each Support Node in the city's radius. Requires a Network Backbone. Cannot be built if the City contains an Information Hub, Distribution Hub, or Metroplex Hub.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_SIMULATION_SERVER_PEDIA">
+			<Text>With the advent of artificial intelligence, an increasing number of AIs were utilized to help run various facilities more efficiently, as well as assist humans with scientific and even cultural endeavors. Wariness of artificial intelligences meant that many were kept isolated, but some civilizations with extensive network connections chose to allow AIs to network amongst themselves. These networks allowed the AIs to distribute their tasks and collaborate, resulting in even greater accomplishments than they could have produced on their own.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BRAIN_UPLOADING_DESC">
+			<Text>Brain Uploading Facility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BRAIN_UPLOADING_HELP">
+			<Text>1/4 of the [ICON_CITIZEN] Citizens in this City become uploaded. They can no longer work tiles or fill specialist slots, but provide 2 [ICON_RESEARCH] Science, 2 [ICON_PRODUCTION] Production, 2 [ICON_GOLD] Gold, and 2 [ICON_CULTURE] Culture each. Requires a Cyberclinic.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BRAIN_UPLOADING_STRATEGY">
+			<Text>1/4 of the [ICON_CITIZEN] Citizens in this City become uploaded. They can no longer work tiles or fill specialist slots, but provide 2 [ICON_RESEARCH] Science, 2 [ICON_PRODUCTION] Production, 2 [ICON_GOLD] Gold, and 2 [ICON_CULTURE] Culture each. Requires a Cyberclinic.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BRAIN_UPLOADING_PEDIA">
+			<Text>With the advancement of computer technology, the capability to duplicate a human mind was achieved. This lead to the process of "brain uploading", where a human brain would be perfectly duplicated in digital form, allowing human minds to exist in a digital form similar to artificial intelligences. With the increasing availability of robotic surrogates and virtual environments, these uploaded minds were fully capable of interacting with the physical world and other humans, although they no longer required food or other amenities to survive.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_FW_VIVARIUM_DESC">
+			<Text>Vivarium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_VIVARIUM_HELP">
+			<Text>Adds 1 [ICON_FOOD] Food for each Hydroponics Dome worked by the city. Requires an Aqueduct, and the city must not contain an Ecosanctuary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_VIVARIUM_STRATEGY">
+			<Text>Adds 1 [ICON_FOOD] Food for each Hydroponics Dome worked by the city. Requires an Aqueduct, and the city must not contain an Ecosanctuary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_VIVARIUM_PEDIA">
+			<Text>Improvements in technology made it increasingly viable to artificially sustain ecosystems, initially on a small, but increasingly larger scale.  These artificial environments became known as "vivariums", and could range from arid desert environments to aquatic ones.  As more communities were built in harsh and hostile environments, vivariums became an important source of both food and mental health, as residents could utilize the vivariums to grow useful food sources as well as spend time enjoying the comfort of the environment. As vivariums provided a sense of nature through plants, streams, waterfalls in a convenient location while avoiding some of the more troublesome aspects of travelling to nature preserves and other wilder locations, such as travel time and inclement weather, these societies slowly developed an innate preference for these controlled environments over more natural ones.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_DRONE_HIVE_DESC">
+			<Text>Drone Hive</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_DRONE_HIVE_HELP">
+			<Text>Adds 1 [ICON_PRODUCTION] Production for each Generator in the city's radius. Requires an Autoplant. Cannot be built if the City contains a Biofactory, Genejack Facility, or Biogenesis Pods.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_DRONE_HIVE_STRATEGY">
+			<Text>Adds 1 [ICON_PRODUCTION] Production for each Generator in the city's radius. Requires an Autoplant. Cannot be built if the City contains a Biofactory, Genejack Facility, or Biogenesis Pods.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_DRONE_HIVE_PEDIA">
+			<Text>As autonomous robots and drones became increasingly prevalent, the need for dedicated facilities to maintain and monitor them became apparent. Specialized facilities that drones could use as a 'home base', commonly called 'drone hives', were established in cities that had a significant usage of drones. With this dedicated support, drones could travel further and operate more reliably, enabling them to help handle some of the tasks humans did before.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_AUTOPLANT_DESC">
+			<Text>Autoplant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_AUTOPLANT_HELP">
+			<Text>+1 [ICON_GOLD] Gold for each E-Commerce Server in the empire. Requires a Factory. Cannot be built if the City contains a Biofactory, Genejack Facility, or Biogenesis Pods.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_AUTOPLANT_STRATEGY">
+			<Text>+1 [ICON_GOLD] Gold for each E-Commerce Server in the empire. Requires a Factory. Cannot be built if the City contains a Biofactory, Genejack Facility, or Biogenesis Pods.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_AUTOPLANT_PEDIA">
+			<Text>While industry had continued to become increasingly automated, human supervision and intervention was still a necessity. After all, early robots were only as effective as they were instructed to be. As increasingly autonomous machines were developed, however, it was increasingly possible to eliminate the necessity for a human presence in these often-hazardous work environments. Autonomous manufacturing and industrial facilities became increasingly common, improving productivity while also protecting human health and safety. These automated facilities particularly benefited from the spread of e-commerce, as the entire process of manufacturing and purchasing goods required no human intervention and could be done nation-wide.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_UNDERSEA_MINING_DESC">
+			<Text>Undersea Mining Platform</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_UNDERSEA_MINING_HELP">
+			<Text>+2 [ICON_PRODUCTION] from Coast and Ocean tiles. Requires a Harbor, and the city must not contain an Aquaculture Lab.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_UNDERSEA_MINING_STRATEGY">
+			<Text>+2 [ICON_PRODUCTION] from Coast and Ocean tiles. Requires a Harbor, and the city must not contain an Aquaculture Lab.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_UNDERSEA_MINING_PEDIA">
+			<Text>The increasing sophistication of robotic and drone technologies meant that some of the most hazardous environments on the planet could now be accessed. The ocean floor had always been a potential source of resources such a manganese, but the difficulty of accessing them had left these resources untouched.  Now, with remote-controlled drones and robots, these resources could be mined efficiently for industrial use. However, the presence of these industrial worksites and their waste byproducts often interfered with aquaculture efforts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_UTILITY_FOG_DESC">
+			<Text>Utility Fog Generator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_UTILITY_FOG_HELP">
+			<Text>Increases City Defense and [ICON_HAPPINESS_1] Happiness. Buildings are constructed 20% faster. Requires a Drone Hive. Cannot be built if the City contains a Biofactory, Genejack Facility, or Biogenesis Pods.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_UTILITY_FOG_STRATEGY">
+			<Text>Increases City Defense and [ICON_HAPPINESS_1] Happiness. Buildings are constructed 20% faster. Requires a Drone Hive. Cannot be built if the City contains a Biofactory, Genejack Facility, or Biogenesis Pods.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_UTILITY_FOG_PEDIA">
+			<Text>Increasingly sophisticated and intelligent nanomachines allowed the development of utility fogs -- collections of tiny robots that can bind together to replicate physical structures.  Initially they were conceived for protective purposes, remaining in a loose and fluid state until a sudden impact stimulated them to bind together, spreading impacts across a broad surface. However, they can also be used to produce any physical object, or even transport individuals from place to place.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ALLOY_FOUNDRY_DESC">
+			<Text>Nucleonic Foundry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ALLOY_FOUNDRY_HELP">
+			<Text>Produces 6 [ICON_RES_NANOMAT] Nanomaterials. Each source of [ICON_RES_ALUMINUM] Aluminum and [ICON_RES_URANIUM] Uranium worked by this city produce +4 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold. Requires 2 [ICON_RES_URANIUM] Uranium and a Fusion Plant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ALLOY_FOUNDRY_STRATEGY">
+			<Text>Produces 6 [ICON_RES_NANOMAT] Nanomaterials. Each source of [ICON_RES_ALUMINUM] Aluminum and [ICON_RES_URANIUM] Uranium worked by this city produce +4 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold. Requires 2 [ICON_RES_URANIUM] Uranium and a Fusion Plant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ALLOY_FOUNDRY_PEDIA">
+			<Text>Once a means to produce superheavy elements was discovered, it was inevitable that they would be put to industrial use. The enormous quantities of energy, as well as the precision equipment required to control the conditions of their manufacture made these facilities rare, however.  They required a dedicated fusion reactor at the very least, and often utilized existing heavy elements such as uranium to make the process of synthesizing superheavy nuclei easier. The materials that they produced, however, were almost indestructible, and enabled the creation of some of the largest and most impressive artificial constructs mankind has ever achieved.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_VERTICAL_FARM_DESC">
+			<Text>Vertical Farm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_VERTICAL_FARM_HELP">
+			<Text>Adds 1 [ICON_FOOD] Food for every Hydroponic Dome worked by City. Requires an Aqueduct. Cannot be built if the City already has a Genemod Lab, Cloning Lab, or Transgenic Nursery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_VERTICAL_FARM_STRATEGY">
+			<Text>Adds 1 [ICON_FOOD] Food for every Hydroponic Dome worked by City. Requires an Aqueduct. Cannot be built if the City already has a Genemod Lab, Cloning Lab, or Transgenic Nursery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_VERTICAL_FARM_PEDIA">
+			<Text>Vertical farming is the practice of producing food in vertically stacked layers, vertically inclined surfaces and/or integrated in other structures. The modern idea of vertical farming uses controlled-environment agriculture (CEA) technology, where all environmental factors can be controlled. These facilities utilize artificial control of light, environmental control (humidity, temperature, gases...) and fertigation. Some vertical farms use techniques similar to greenhouses, where natural sunlight can be augmented with artificial lighting and metal reflectors. Integrated into the structures of major cities, these farms provide a local source of food independent of climate and soil conditions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_MYCOPROTEIN_VATS_DESC">
+			<Text>Mycoprotein Vats</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_MYCOPROTEIN_VATS_HELP">
+			<Text>Adds 1 [ICON_FOOD] Food for every 4 [ICON_CITIZEN] Citizens in this City. Requires a Vertical Farm. Cannot be built if the City already has a Genemod Lab, Cloning Lab, or Transgenic Nursery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_MYCOPROTEIN_VATS_STRATEGY">
+			<Text>Adds 1 [ICON_FOOD] Food for every 4 [ICON_CITIZEN] Citizens in this City. Requires a Vertical Farm. Cannot be built if the City already has a Genemod Lab, Cloning Lab, or Transgenic Nursery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_MYCOPROTEIN_VATS_PEDIA">
+			<Text>While various methods of increasing food production have been developed over the centuries, population growth in some areas threatened to outstrip even the best efforts of farms and hydroponic domes. As a result, some communities turned towards the mass production of nutritionally complete food substitutes, using various processes to synthesize proteins and fibres fit for human consumption. The resulting food substitutes were sufficiently nutritious, but frequently lacked the taste and texture of real food. Still, for many mycoprotein foods were the only nutrition they could afford, and mycoprotein vats helped sustain millions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ORBITAL_HABITAT_DESC">
+			<Text>Orbital Habitat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ORBITAL_HABITAT_HELP">
+			<Text>Adds 1 [ICON_FOOD] Food for each Specialist in a Research Module, Engineering Module, or Comm Module in the City. Requires Mycoprotein Vats. Cannot be built if the City already has a Genemod Lab, Cloning Lab, or Transgenic Nursery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ORBITAL_HABITAT_STRATEGY">
+			<Text>Adds 1 [ICON_FOOD] Food for each Specialist in a Research Module, Engineering Module, or Comm Module in the City. Requires Mycoprotein Vats. Cannot be built if the City already has a Genemod Lab, Cloning Lab, or Transgenic Nursery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ORBITAL_HABITAT_PEDIA">
+			<Text>Perhaps the ultimate method of artificial food cultivation, the Orbital Habitat establishes a completely self-contained agricultural environment in space. While most early space stations were dependent on food supplies shipped up from the planet's surface (at incredible expense), the Orbital Habitat permitted a space station to become nearly self-sufficient, growing much of the food required by the people working there. While the food produced by early habitats was little better than mycorprotein supplements, over time they became increasingly advanced and sophisticated, using hydroponic and aeroponic techniques to grow a variety of vegetables and plants to help sustain their crews.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_FEEDSITE_HUB_DESC">
+			<Text>Information Hub</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_FEEDSITE_HUB_HELP">
+			<Text>Provides +1 [ICON_CULTURE] for each Great Work in the City, and +1 [ICON_HAPPINESS_1] for each Colosseum, Zoo, and Stadium in the City. Requires a Server Hub. Cannot be built if the City contains a Network Backbone, Telepresence Hub, or AI Network.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_FEEDSITE_HUB_STRATEGY">
+			<Text>Provides +1 [ICON_CULTURE] for each Great Work in the City, and +1 [ICON_HAPPINESS_1] for each Colosseum, Zoo, and Stadium in the City. Requires a Server Hub. Cannot be built if the City contains a Network Backbone, Telepresence Hub, or AI Network.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_FEEDSITE_HUB_PEDIA">
+			<Text>While media networks had been providing entertainment to the people for decades, the rise of the enormous habitats put a strain on the media infrastructure. Information Hubs were incorporated into the construction of new habitats, ensuring their residents had access to cultural media and entertainment, although their centralized design meant the capital tends to dominate the feeds. As their popularity rose, however, some communities found that they lacked sufficient infrastructure for both Information Hub networks and the network backbones connecting Server Hubs. With populations demanding entertainment, many favored the centrally-organized Information Hub over the more distributed network backbones.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_DISTRIBUTION_HUB_DESC">
+			<Text>Distribution Hub</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_DISTRIBUTION_HUB_HELP">
+			<Text>Provides +1 [ICON_PRODUCTION] for every 4 [ICON_CITIZEN] Citizens in this City. Adds +1 [ICON_PRODUCTION] Production for each Industrial Site worked by the City. Requires an Information Hub. Cannot be built if the City contains a Network Backbone, Telepresence Hub, or AI Network.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_DISTRIBUTION_HUB_STRATEGY">
+			<Text>Provides +1 [ICON_PRODUCTION] for every 4 [ICON_CITIZEN] Citizens in this City. Adds +1 [ICON_PRODUCTION] Production for each Industrial Site worked by the City. Requires an Information Hub. Cannot be built if the City contains a Network Backbone, Telepresence Hub, or AI Network.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_DISTRIBUTION_HUB_PEDIA">
+			<Text>As Information Hubs became increasingly prevalent in the larger cities, city managers began to look at how else they could use the integrated data networks. Using these networks to help make the distribution of raw materials for industry, and consumer goods for the populace, was one of the most immediate developments. By being able to track the flow of goods through the city, as well as the processes of production and consumption, both businesses and consumers benefitted from an increase in efficiency through the centralized distribution hubs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_METROPLEX_HUB_DESC">
+			<Text>Metroplex Hub</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_METROPLEX_HUB_HELP">
+			<Text>Provides +1 [ICON_GOLD] for every 4 [ICON_CITIZEN] Citizens in this City. Adds +1 [ICON_GOLD] Production for each Arcology worked by the City. Requires a Distribution Hub. Cannot be built if the City contains a Network Backbone, Telepresence Hub, or AI Network.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_METROPLEX_HUB_STRATEGY">
+			<Text>Provides +1 [ICON_GOLD] for every 4 [ICON_CITIZEN] Citizens in this City. Adds +1 [ICON_GOLD] Production for each Arcology worked by the City. Requires a Distribution Hub. Cannot be built if the City contains a Network Backbone, Telepresence Hub, or AI Network.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_METROPLEX_HUB_PEDIA">
+			<Text>With the successful emergence of centralized distribution hubs in the largest cities, and the increasing population capacity of arcologies, the largest metroplexes began to take steps to ensure that their increasingly massive communities ran efficiently. Centralized city planning helped ensure that people and commerce were able to flow freely, even during peak business hours. While some objected to what was sometimes strict regulation in population and business zoning, the new metroplex arrangements ensured that people and commerce were able to flow freely through the city. No longer did citizens have to wait for hours in rush-hour traffic, wasting valuable time and energy. Planned traffic patterns and zoning meant that everyone could get to work, or return back home, quickly and efficiently, saving time and money.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CENTRAL_COMMAND_DESC">
+			<Text>Central Command</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CENTRAL_COMMAND_HELP">
+			<Text>Adds 6 [ICON_CULTURE] Culture to each Information Hub, adds +6 [ICON_PRODUCTION] Production to each Distribution Hub, and adds +1 [ICON_GOLD] Gold to each Metroplex Hub. Requires an Information Hub in every city. Must be built in the Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CENTRAL_COMMAND_STRATEGY">
+			<Text>Adds 6 [ICON_CULTURE] Culture to each Information Hub, adds +6 [ICON_PRODUCTION] Production to each Distribution Hub, and adds +1 [ICON_GOLD] Gold to each Metroplex Hub. Requires an Information Hub in every city. Must be built in the Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_CENTRAL_COMMAND_PEDIA">
+			<Text>With Feedsite Nodes becoming increasingly widespread, it became necessary in some regions to establish Feedsite Hubs as a central nexus to manage the various media feeds.  The capital was typically the natural place to locate these hubs, providing them access to a wide variety of arts and entertainments to disseminate across the networks.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_GEOTHERMAL_PLANT_DESC">
+			<Text>Geothermal Plant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_GEOTHERMAL_PLANT_HELP">
+			<Text>City must be built next to a Mountain, and must not contain a Nuclear Plant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_GEOTHERMAL_PLANT_STRATEGY">
+			<Text>City must be built next to a Mountain, and must not contain a Nuclear Plant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_GEOTHERMAL_PLANT_PEDIA">
+			<Text>As practically every method of generating electricity required steam, some communities, seeking more environmentally-friendly alternatives to electricity generation than that provided by fossil fuels or nuclear energy sought to tap into the quantities of steam rising from geothermal vents located in the Earth's crust. While these power plants could only be located in areas that had access to such geothermal energy, they did provide a powerful increase to local industry when they could be utilized.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_TIDAL_PLANT_DESC">
+			<Text>Tidal Plant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_TIDAL_PLANT_HELP">
+			<Text>City must be built along the coast, and must not contain a Nuclear Plant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_TIDAL_PLANT_STRATEGY">
+			<Text>City must be built along the coast, and must not contain a Nuclear Plant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_TIDAL_PLANT_PEDIA">
+			<Text>Electricity generation typically results as a product of mechanical motion running dynamos, and has historically been produced through steam generation from fossil fuels. Solar plants and geothermal plants offered alternative sources for electrical energy, but each had its own requirements. Coastal communities began to look at the endless motion of the tides, powered by the gravitational energy of the moon, and sought to tap into this mechanical energy to drive turbines. Eventually, tidal plants became increasingly popular sources of electrical energy along coastlines, as it was both environmentally friendly and required practically no fuel for its operation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_TIDAL_ARRAY_DESC">
+			<Text>Tidal Array</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_TIDAL_ARRAY_HELP">
+			<Text>Sea resources worked by the city produce +1 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold. City must be built along the coast. Requires a Tidal Plant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_TIDAL_ARRAY_STRATEGY">
+			<Text>Sea resources worked by the city produce +1 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold. City must be built along the coast. Requires a Tidal Plant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_TIDAL_ARRAY_PEDIA">
+			<Text>With the increasingly prevalent construction of Tidal Plants near coastal cities, more and more industries began to be established on floating platforms in closer proximity to the plants, to be able to better take advantage of the power they provided. These platforms became increasingly sophisticated, eventually developing into complex interconnected structures, all built around a central Tidal Plant. Often referred to as Tidal Arrays, the commercial complexes were significant sources of industrial and commercial production for coastal and island communities.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_LAUNCH_FACILITY_DESC">
+			<Text>Launch Facility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_LAUNCH_FACILITY_HELP">
+			<Text>Only one can be built in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_LAUNCH_FACILITY_STRATEGY">
+			<Text>Increases [ICON_PRODUCTION] Production by 20% and [ICON_RESEARCH] Science by 10%. Requires 2 [ICON_RES_ALUMINUM] Aluminum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_LAUNCH_FACILITY_PEDIA">
+			<Text>While very basic rockets could be sent to the edge of the atmosphere from practically any location, sending people and materiel into orbit required much more complex facilities. These launch facilities would construct and maintain the rockets and spacecraft needed to reach orbit, and were so expensive and required such immense support that any empire would typically only support a single facility to handle all of its launches. They did provide a significant boost to the scientific community, however, and aerospace development even helped support industrial efforts, as the facility would require a number of different services and skilled workers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_SPACE_STATION_DESC">
+			<Text>Space Station</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_SPACE_STATION_HELP">
+			<Text>Enables construction of Research, Engineering, and Commercial Modules. Requires your empire to have a Launch Facility.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_SPACE_STATION_STRATEGY">
+			<Text>Enables construction of Research, Engineering, and Commercial Modules. Requires your empire to have a Launch Facility.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_SPACE_STATION_PEDIA">
+			<Text>Space stations have existed in concept for almost as long as space travel. The earliest ones were modules boosted into orbit, that had rotating crews stay in them for a period of months at time, although some had long-term crews intended to test the long-term effects of microgravity on humans. Eventually, larger and more complex space stations, such as the International Space Station, were created, using numerous modules linked together. As space development became more commercialized, and available to organizations other than major governments, the number of space stations in orbit increased, as various groups took advantage of the opportunity to conduct research and industrial development in low earth orbit.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_RESEARCH_MODULE_DESC">
+			<Text>Research Module</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_RESEARCH_MODULE_HELP">
+			<Text>City must contain a Space Station.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_RESEARCH_MODULE_STRATEGY">
+			<Text>City must contain a Space Station.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_RESEARCH_MODULE_PEDIA">
+			<Text>Research Modules are modular habitats and laboratories designed to be added to a space station to support scientific research.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ENGINEERING_MODULE_DESC">
+			<Text>Engineering Module</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ENGINEERING_MODULE_HELP">
+			<Text>City must contain a Space Station.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ENGINEERING_MODULE_STRATEGY">
+			<Text>City must contain a Space Station.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ENGINEERING_MODULE_PEDIA">
+			<Text>Engineering Modules are modular habitats and microgravity workshops designed to be added to a space station to support industrial development.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_COMM_MODULE_DESC">
+			<Text>Comm Module</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_COMM_MODULE_HELP">
+			<Text>City must contain a Space Station.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_COMM_MODULE_STRATEGY">
+			<Text>City must contain a Space Station.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_COMM_MODULE_PEDIA">
+			<Text>Comm Modules are modular habitats and communications equipment designed to be added to a space station to support commercial endeavors.</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_BUILDING_FW_MOON_BASE_DESC">
+			<Text>Moon Base</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_MOON_BASE_HELP">
+			<Text>Increases the yields from Fusion Plants and Space Station Modules in the empire. Requires a Space Station.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_MOON_BASE_STRATEGY">
+			<Text>Increases the yields from Fusion Plants and Space Station Modules in the empire. Requires a Space Station.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_MOON_BASE_PEDIA">
+			<Text>One of the ambitions of humanity in the 21st century was to establish a permanent settlement on the moon. Such a settlement would provide both an excellent research platform for studies of the moon and other astronomical bodies, as well as an almost limitless source of materials such as tritium, which is usable in fusion reactors.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BOREHOLE_DESC">
+			<Text>Borehole</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BOREHOLE_HELP">
+			<Text>Increases the production bonus of Geothermal Plants in the empire by 15%, and Mines produce and extra +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold. Requires a Geothermal Plant. Can only build one Borehole in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BOREHOLE_STRATEGY">
+			<Text>Increases the production bonus of Geothermal Plants in the empire by 15%, and Mines produce and extra +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold. Requires a Geothermal Plant. Can only build one Borehole in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BOREHOLE_PEDIA">
+			<Text>While various deep-drilling efforts were conducted in the 20th century, with the deepest being the Kola Superdeep Borehole that reached more than 12km deep into the Earth, it wasn't until advanced materials and more sophisticated equipment were developed in the 21st century that boreholes became more viable, able to dig deep enough to artificially bring up rare minerals and magma. Borehole efforts helped enhance the output of both mines and geothermal plants, providing an abundance of mineral wealth and energy.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_NANOMAT_PLANT_DESC">
+			<Text>Nanomaterial Plant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_NANOMAT_PLANT_HELP">
+			<Text>Produces 2 [ICON_RES_NANOMAT] Nanomaterials. +2 [ICON_PRODUCTION] Production from [ICON_RES_COAL] [COLOR_POSITIVE_TEXT]Coal[ENDCOLOR] and [ICON_RES_Oil] [COLOR_POSITIVE_TEXT]Oil[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_NANOMAT_PLANT_STRATEGY">
+			<Text>Produces 2 [ICON_RES_NANOMAT] Nanomaterials. +2 [ICON_PRODUCTION] Production from [ICON_RES_COAL] [COLOR_POSITIVE_TEXT]Coal[ENDCOLOR] and [ICON_RES_Oil] [COLOR_POSITIVE_TEXT]Oil[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_NANOMAT_PLANT_PEDIA">
+			<Text>The Nanomaterials Plant is an installation that helps process carbon, hydrogen, and other elements into the complex nanoscale structures needed to produce futuristic buildings and equipment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_FUSION_PLANT_DESC">
+			<Text>Fusion Reactor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_FUSION_PLANT_HELP">
+			<Text>Requires a Nuclear Plant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_FUSION_PLANT_STRATEGY">
+			<Text>Requires a Nuclear Plant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_FUSION_PLANT_PEDIA">
+			<Text>The successful development of fusion power offers the potential for a relatively clean source of high amounts of energy to help sustain human growth and endeavors.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_SERVER_HUB_DESC">
+			<Text>Server Hub</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_SERVER_HUB_PEDIA">
+			<Text>While computers have helped facilitate business, scientific research, and industrial development by being able to perform many accounting and scientific tasks, it is the act of networking them together that has truly lead to the Information Age, by making immense amounts of data available to virtually everyone. While computer networks have grown increasingly sophisticated and complex, the earliest ones were based around hubs of servers that users could access and share data through.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ENTERTAINMENT_SERVER_DESC">
+			<Text>Entertainment Server</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ENTERTAINMENT_SERVER_HELP">
+			<Text>Requires a Server Hub.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ENTERTAINMENT_SERVER_STRATEGY">
+			<Text>Requires a Server Hub.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ENTERTAINMENT_SERVER_PEDIA">
+			<Text>While the internet was initially development for government and scientific applications, its spread to everyday use has made it the primary method for cultural ideas and new creative works to spread.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_RESEARCH_SERVER_DESC">
+			<Text>Research Server</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_RESEARCH_SERVER_HELP">
+			<Text>Requires a Server Hub.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_RESEARCH_SERVER_STRATEGY">
+			<Text>Requires a Server Hub.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_RESEARCH_SERVER_PEDIA">
+			<Text>Much of the original internet was based around computer networks established between various universities and research laboratories, so that they could more effectively exchange ideas and information. As the internet has grown into a much more ubiquitous forms, it has even enabled new methods of conducting scientific research, such as allowing large pools of amateurs and hobbyists to assist with various research-oriented tasks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_COMMERCE_SERVER_DESC">
+			<Text>E-Commerce Server</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_COMMERCE_SERVER_HELP">
+			<Text>Increases the amount of [ICON_GOLD] Gold a city generates. Trade routes other players make to a city with an E-Commerce Server will generate an extra 2 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 2 [ICON_GOLD] for the trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_COMMERCE_SERVER_STRATEGY">
+			<Text>Trade routes other players make to a city with an E-Commerce Server will generate an extra 2 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 2 [ICON_GOLD] for the trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_COMMERCE_SERVER_PEDIA">
+			<Text>The advent of the internet has seen a massive increase in what could be termed the 'digital economy' - the exchange of goods and services electronically. No longer do people need to visit physical stores to purchase goods, but can instead purchase products from vendors across the world, having the goods shipped to them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_VR_TRAINING_DESC">
+			<Text>VR Training Centre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_VR_TRAINING_HELP">
+			<Text>+15 XP for all Units.[NEWLINE][NEWLINE]City must have a Military Academy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_VR_TRAINING_STRATEGY">
+			<Text>+15 XP for all Units.[NEWLINE][NEWLINE]City must have a Military Academy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_VR_TRAINING_PEDIA">
+			<Text>Given the increasing sophistication of both the modern battlefield and military equipment, training in various forms of simulated environments has become increasingly important, in order to give soldiers experience in combat without actually endangering themselves.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_DEFENSE_FIELD_DESC">
+			<Text>Geofront</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_DEFENSE_FIELD_HELP">
+			<Text>Increases city defense. Requires a Military Base and a Bomb Shelter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_DEFENSE_FIELD_STRATEGY">
+			<Text>Increases city defense. Requires a Military Base and a Bomb Shelter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_DEFENSE_FIELD_PEDIA">
+			<Text>The Geofront is a defensive structure, building upon the concept of the underground bunker.  A massive underground installation, it is well protected against surface attack, and can help provide significant protection to the citizens of a city.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_ASTEROID_MINING_1_DESC">
+			<Text>M-Type Asteroid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ASTEROID_MINING_1_HELP">
+			<Text>Gain 6 [ICON_RES_ALUMINUM] Aluminum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ASTEROID_MINING_1_STRATEGY">
+			<Text>Gain 6 [ICON_RES_ALUMINUM] Aluminum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ASTEROID_MINING_1_PEDIA">
+			<Text>M-type asteroids are asteroids of partially known composition; they are moderately bright (albedo 0.1–0.2). Some, but not all, are made of nickel–iron, either pure or mixed with small amounts of stone. These are thought to be pieces of the metallic core of differentiated asteroids that were fragmented by impacts, and are thought to be the source of iron meteorites. M-type asteroids are the third most common asteroid type.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ASTEROID_MINING_2_DESC">
+			<Text>S-Type Asteroid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ASTEROID_MINING_2_HELP">
+			<Text>Gain 6 [ICON_RES_NANOMAT] Nanomaterials.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ASTEROID_MINING_2_STRATEGY">
+			<Text>Gain 6 [ICON_RES_NANOMAT] Nanomaterials.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ASTEROID_MINING_2_PEDIA">
+			<Text>S-type asteroids, or silicaceous asteroids, are of a stony composition, hence the name. Approximately 17% of asteroids are of this type, making it the second most common after the C-type.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_GENOME_PROJECT_1_DESC">
+			<Text>Research Exchange</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_GENOME_PROJECT_1_HELP">
+			<Text>Research Labs gain +2 [ICON_RESEARCH] Science. Medical Labs gain +2 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_GENOME_PROJECT_1_STRATEGY">
+			<Text>Research Labs gain +2 [ICON_RESEARCH] Science. Medical Labs gain +2 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_GENOME_PROJECT_1_PEDIA">
+			<Text>Those civilizations that contributed only minor amounts of time and resources towards the Human Genome Project still stood to benefit from the exchange of information and technology that resulted. Research laboratories benefited from the new technologies that were developed, while medical labs were able to more effectively treat diseases and other ailments.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_GENOME_PROJECT_2_DESC">
+			<Text>Genetic Treatments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_GENOME_PROJECT_2_HELP">
+			<Text>All cities gain +1 [ICON_CITIZEN] Citizen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_GENOME_PROJECT_2_STRATEGY">
+			<Text>All cities gain +1 [ICON_CITIZEN] Citizen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_GENOME_PROJECT_2_PEDIA">
+			<Text>More extensive participation in the Human Genome Project yielded greater rewards for those civilizations that chose to do so - the increased knowledge of the human genome made it much easier to treat certain diseases and chronic conditions, greatly increasing the quality of life.</Text>
+		</Row>
+		
+
+
+		<!-- Tech -->
+		<!-- Buildings -->
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_FW_SHIMIZUMCP">
+			<Text>Eden Vertical Habitation Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_FLOATINGISLANDS">
+			<Text>Floating Islands</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_KingdomTowerCT">
+			<Text>Kingdom Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BIONICTOWER">
+			<Text>Bionic Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_SKYCITY">
+			<Text>Sky City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_ULTIMATOWER">
+			<Text>Ultima Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_MiapolisCT">
+			<Text>Miapolis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_BUENOSAIRESFORUM">
+			<Text>Buenos Aires Forum</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_SHIMIZUMCP_HELP">
+			<Text>+20 [ICON_PRODUCTION] Production, +20 [ICON_GOLD] Gold, and +20 [ICON_RESEARCH] Science, and eliminates building maintenance in the city it was built in. Autoplants and Drone Hives produce +2 [ICON_HAPPINESS_1] Happiness.[NEWLINE][NEWLINE]Hyperstructure. Cannot be built in a City that has another Hyperstructure.[NEWLINE][NEWLINE]Requires a nearby Ocean and 6 [ICON_RES_NANOMAT] Nanomaterials.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_FLOATINGISLANDS_HELP">
+			<Text>Adds +3 [ICON_CULTURE] and +3 [ICON_GOLD] to nearby seaplots. Atolls produce an extra 2 [ICON_CULTURE] Culture, 2 [ICON_GOLD], 1 [ICON_FOOD] Food and 1 [ICON_PRODUCTION].[NEWLINE][NEWLINE]Hyperstructure. Cannot be built in a City that has another Hyperstructure.[NEWLINE][NEWLINE]Requires a nearby Ocean and 6 [ICON_RES_NANOMAT] Nanomaterials.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_BIONICTOWER_HELP">
+			<Text>Specialists in Cities produce half the normal amount of [ICON_HAPPINESS_4] Unhappiness and consume half the normal amount of [ICON_FOOD] Food.[NEWLINE][NEWLINE]Hyperstructure. Cannot be built in a City that has another Hyperstructure.[NEWLINE][NEWLINE]Requires a source of fresh water and 6 [ICON_RES_NANOMAT] Nanomaterials.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_SKYCITY_HELP">
+			<Text>Vertical Farms produce +4 [ICON_GROWTH] Food, +4 [ICON_GOLD] Gold and +2 [ICON_HAPPINESS_1] Happiness. Provides a free Vertical Farm in the city in which it is built.[NEWLINE][NEWLINE]Hyperstructure. Cannot be built in a City that has another Hyperstructure.[NEWLINE][NEWLINE]Requires 6 [ICON_RES_NANOMAT] Nanomaterials.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_ULTIMATOWER_HELP">
+			<Text>+2 [ICON_CITIZEN] Citizens per city and +10 [ICON_HAPPINESS_1] Happiness.[NEWLINE][NEWLINE]Hyperstructure. Cannot be built in a City that has another Hyperstructure.[NEWLINE][NEWLINE]Requires 6 [ICON_RES_NANOMAT] Nanomaterials.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_BUENOSAIRESFORUM_HELP">
+			<Text>Increases golden age length by 50% and starts a golden age. Gain Golden Age points equal to the number of [ICON_CITIZEN] Citizens in the city each turn.[NEWLINE][NEWLINE]Hyperstructure. Cannot be built in a City that has another Hyperstructure.[NEWLINE][NEWLINE]Requires 6 [ICON_RES_NANOMAT] Nanomaterials and must be built in a City adjacent to a river.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_SHIMIZUMCP_QUOTE">
+			<Text>[NEWLINE]"Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great."[NEWLINE] - Mark Twain [NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_FLOATINGISLANDS_QUOTE">
+			<Text>[NEWLINE]"If you can't be criticized for it, it's probably not remarkable. Are you devoting yourself to something devoid of criticism?"[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_BIONICTOWER_QUOTE">
+			<Text>[NEWLINE]"A harmonious design requires that nothing be added or taken away."[NEWLINE] - Marcus Pollio [NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_SKYCITY_QUOTE">
+			<Text>
+				[NEWLINE]"More is more"[NEWLINE] - Robert Venturi [NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_ULTIMATOWER_QUOTE">
+			<Text>
+				[NEWLINE]"People can inhabit anything. And they can be miserable in anything and ecstatic in anything. More and more I think that architecture has nothing to do with it. Of course, that’s both liberating and alarming."[NEWLINE] - Rem Koolhaas  [NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_BUENOSAIRESFORUM_QUOTE">
+			<Text>
+				[NEWLINE]"Life is a dream for the wise, a game for the fool, a comedy for the rich, a tragedy for the poor"[NEWLINE] -Sholom Aleichem [NEWLINE]
+			</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_FLOATINGISLANDS_PEDIA">
+			<Text>
+				The concept would comprise individual floating cells or districts resembling water lilies with a radius of 1km (0.62 miles) that would form a compact village that could house 10,000 to 50,000 people. Joining these districts together would form a city or module that would be home to 100,000 people, while a group of modules would form a country [NEWLINE] The islands would be located at the equator as it isn’t prone to typhoons and the climate is stable. However, in the event of large waves, strong elastic membranes would be attached to the lagoons around the outer circumference of the cells, with the shallows above the membranes standing 10m (32.8 ft) above sea level. The water pressure difference between the lagoons and the ocean would limit the movement of the membranes and buffer the force of the open sea waves. Additionally, 20-30m (66-98 ft) high seawalls would be constructed to handle a worst-case scenario.
+				[NEWLINE]Requires a nearby Ocean and 6 [ICON_RES_NANOMAT] Nanomaterials.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_SHIMIZUMCP_PEDIA">
+			<Text>
+				The Shimizu Mega-City Pyramid is a proposed project for construction of a massive pyramid over Tokyo Bay in Japan. The structure would be about 14 times higher than the Great Pyramid at Giza, and would house 1,000,000 people. The structure would be 2000 meters (6,561 feet) above mean sea level, including 5 stacked trusses, each with similar dimensions to that of the great pyramid of Giza. This pyramid would help answer Tokyo's increasing lack of space, although the project would only handle 1/47th of the Greater Tokyo Area's population. [NEWLINE] The proposed structure is so large that it cannot be built with currently available materials, due to their weight. The design relies on the future availability of super-strong lightweight materials based on carbon nanotubes.
+				[NEWLINE]Requires 6 [ICON_RES_NANOMAT] Nanomaterials.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_BIONICTOWER_PEDIA">
+			<Text>
+				The Bionic Tower is a proposed vertical city, an extremely large building designed for human habitation designed by Spanish architects Eloy Celaya, Rosa Cervera, and Javier Gómez. It would have a main tower 1,228 metres (4,029 ft) high, with 300 stories housing approximately 100,000 people. The bionic tower would be exactly 400 meters taller than the current tallest building, Burj Khalifa. The point of the Bionic Tower is to use Bionics to solve the world's rising population problems in an eco-friendly way, an incredibly difficult feat to accomplish.
+				[NEWLINE] The Bionic Tower is composed of two complexes put together. The first complex, Bionic Tower, is made up of twelve vertical neighborhoods, each eighty meters high. The neighborhoods are separated by safety areas to make for easier construction and evacuation in case of an emergency. Each neighborhood has two groups of buildings, one on the interior of the building and one on the exterior. Both groups of buildings are situated around large gardens and pools. The second complex, called the Base Island, is 1,000 meters in diameter, and is made up of many buildings, gardens, pools, and communication infrastructures. Foreseen uses of these complexes include hotels, offices, residential, commerce, cultural, sports, and leisure.
+				[NEWLINE]Requires a nearby Ocean and 6 [ICON_RES_NANOMAT] Nanomaterials.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_SKYCITY_PEDIA">
+			<Text>
+				Sky City 1000 is a visionary (i.e. not proposed/intended to be built) supertall skyscraper in the Tokyo metropolitan area, Japan announced in 1989 during the height of the Japanese asset price bubble. [NEWLINE]
+				The plan consists of a building 1,000 metres (3,281 ft) tall and 400 m (1,312 ft) wide at the base, and a total floor area of 8 km2 (3.1 sq mi). The design, proposed in 1989 by Takenaka Corporation, would house between 35,000 and 36,000 full-time residents, as well as 100,000 workers. It comprises 14 concave dish-shaped "Space Plateaus" stacked one upon the other. The interior of the plateaus would contain greenspace, and on the edges, on the sides of the building, would be the apartments. Also included in the building would be offices, commercial facilities, schools, theatres, and other modern amenities
+				[NEWLINE]Requires 6 [ICON_RES_NANOMAT] Nanomaterials.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_ULTIMATOWER_PEDIA">
+			<Text>
+				The Ultima Tower is a hypothetical supertall skyscraper, designed by American architect Eugene Tsui in 1991. With a total height of 3,218.7 metres (10,560 ft), the tower would be 2 miles tall, and comprise 500 stories if built.[NEWLINE] The proposed tower would have a diameter at the base of 1,828.8 metres (6,000 ft), and comprise 1,500,000,000 square feet (140,000,000 m2) of interior floor space. Tsui proposed that the tower would be home to 1 million people, and would cost an estimated US$150 billion. The tower would use the atmospheric pressure difference between the bottom and the top of the tower to create electricity throughout the tower The building is intended to handle problems with overpopulation and to create a "mini-ecosystem" for its inhabitants.
+				[NEWLINE]Requires 6 [ICON_RES_NANOMAT] Nanomaterials.[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_BUENOSAIRESFORUM_PEDIA">
+			<Text>
+				The Buenos Aires Forum is a proposed development in Buenos Aires, Argentina, the centrepiece of which is a 1,000 m (3,300 ft) tall skyscraper. The proposed development will be constructed on seven platforms totalling 400 hectares to be built in the River Plate. It will be connected to the rest of Buenos Aires by a 5 km long viaduct. The development, at an estimated cost of US $3.33 billion, is expected to be completed in 2016 and create 20,000 jobs. [NEWLINE]	In an interview with Momento24, the architect Julio Torcello spoke of the project's location and good financial situation. He said "Everything is ready for the construction". [NEWLINE] Depending on the status of several other similarly tall proposed skyscrapers, the tower could become the tallest tower in the world.
+				[NEWLINE]Requires a nearby River and 6 [ICON_RES_NANOMAT] Nanomaterials.[NEWLINE]
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_SKYTREE">
+			<Text>Tokyo Skytree</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_SKYTREE_HELP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_CULTURE] Culture from every Broadcast Tower</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_SKYTREE_QUOTE">
+			<Text>
+				[NEWLINE]"In the sky, there is no distinction of east and west; people create distinctions out of their own minds and then believe them to be true."[NEWLINE] - Buddha[NEWLINE]
+			</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_SKYTREE_PEDIA">
+			<Text>Built near the Sumida river in central Tokyo, the Tokyo Skytree is a large broadcasting and observation tower visible from most of the city. Construction began on July 14 2008 and lasted until 29 February 2012. At a total height of 634 metres (A height chosen to represent the name Musashi, a former name for the area where the Skytree is located) the Tokyo Skytree is the tallest tower in the world, and is second only to Dubai's Burj Khalifa in total height of a man-made structure. Such a height was necissary in order for the function of the tower as a broadcasting tower to be possible. The previous version, Tokyo Tower, faced issues with its height and the height of surrounding Skyscrapers resulting in intermittent coverage. The design of the tower is symbolic of both Japan's past and its future, and is well known throughout Japan as a symbol of the achievements of the country. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_SHANGHAI_WFC">
+			<Text>Shanghai World Financial Center</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_SHANGHAI_WFC_HELP">
+			<Text>1500 [ICON_GOLD] upon completion. +2 [ICON_GOLD] Gold from Merchants.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_SHANGHAI_WFC_QUOTE">
+			<Text>[NEWLINE]"We have the best government that Money can buy"[NEWLINE] - Mark Twain[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_SHANGHAI_WFC_PEDIA">
+			<Text>The Shanghai World Financial Center is a supertall skyscraper located in the Chinese city of Shanghai. When it was completed in 2007, it was the second-tallest building on Earth and the tallest in China. It has since been downgraded to fourth tallest. However, it still has the tallest observation deck at 474 metres above sea level. The main feature of the Shanghai World Financial Center is the large rectangular apeture located near the top of the building. In early designs this was intended to be a circle, however controversy about similarities to the 'Rising Sun' motif of Japan lead to the shape being changed. </Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_ORBITAL_REFINERY">
+			<Text>Orbital Refinery</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_ORBITAL_REFINERY_HELP">
+			<Text>Factories and Nanomaterial Plants generate +2 [ICON_PRODUCTION] Production. Produces 12 [ICON_RES_NANOMAT] Nanomaterials.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_ORBITAL_REFINERY_QUOTE">
+			<Text>[NEWLINE]"We estimate that during the next mission century most of Planet's industries will be moved off-planet to Nessus Prime and other orbital facilities. Many of our industries will benefit greatly from the low gravity environments available in space, particularly those involving genetically engineered microbes."[NEWLINE] - CEO Nwabudike Morgan, "The Centauri Monopoly"[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_ORBITAL_REFINERY_PEDIA">
+			<Text>As sources of raw materials, particularly petroleum and other organic compounds, became increasingly scarce in the 22nd century, new technologies were developed to help refine them. Converters were able to fill much of this need, but one of the most notable achievements was the construction of the Nessus Orbital Refinery. Located at the L4 Lagrange Point, it processed captured carbonaceous asteroids to produce various carbon-based nanomaterials. Much of its output was in turn used in orbital development, helping build new space stations and setting the stage for exploration of the solar system. Eventually, however, this same exploration and colonization of the solar system eclipsed the Nessus platform, as newer and more efficient facilities were constructed in the asteroid belt, avoiding the somewhat risky process of needing to deliver asteroids to Earth orbit. The Nessus Orbital Refinery was deactived in 2067, although it is still maintained as a relic of the early days of space colonization.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_GENOME_PROJECT">
+			<Text>Human Genome Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_GENOME_PROJECT_HELP">
+			<Text>+1 [ICON_RESEARCH] Science from Scientists. +1 [ICON_PRODUCTION] from Engineers. +1 [ICON_GOLD] Gold from Merchants. +1 [ICON_CULTURE] from Writers, Artists, and Musicians.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_GENOME_PROJECT_STRATEGY">
+			<Text>+1 [ICON_RESEARCH] Science from Scientists. +1 [ICON_PRODUCTION] from Engineers. +1 [ICON_GOLD] Gold from Merchants. +1 [ICON_CULTURE] from Writers, Artists, and Musicians.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_GENOME_PROJECT_DESC">
+			<Text>The Human Genome Project is an effort to fully identify and catalogue the genomes existing in human DNA. Its analysis may help further understanding of human genetics.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_GENOME_PROJECT_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Ever so often in the history of human endeavour, there comes a breakthrough that takes humankind across a frontier into a new era. ... today's announcement is such a breakthrough, a breakthrough that opens the way for massive advancement in the treatment of cancer and hereditary diseases. And that is only the beginning. "[NEWLINE][TAB][TAB] — Anthony Charles Lynton (Tony) Blair[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_ASTEROID_MINING">
+			<Text>Ceres Station</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_ASTEROID_MINING_HELP">
+			<Text>+4 [ICON_RESEARCH] Science from Research Modules. +4 [ICON_PRODUCTION] from Engineering Modules. +4 [ICON_GOLD] Gold from Comm Modules.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_ASTEROID_MINING_STRATEGY">
+			<Text>+4 [ICON_RESEARCH] Science from Research Modules. +4 [ICON_PRODUCTION] from Engineering Modules. +4 [ICON_GOLD] Gold from Comm Modules.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_ASTEROID_MINING_DESC">
+			<Text>Ceres Station is the most significant of the asteroid mining stations established in the wake of the International Asteroid Mining Conference.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_ASTEROID_MINING_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"The stars are better off without us."[NEWLINE][TAB][TAB] — James S.A. Corey[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_GENE_VAULT">
+			<Text>Utsäde Gene Vault</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_GENE_VAULT_HELP">
+			<Text>Nature Preserves produce +2 [ICON_RESEARCH] Science. Genocentres produce +2 [ICON_GOLD] Gold. Eco-Communes produce +2 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_GENE_VAULT_QUOTE">
+			<Text>[NEWLINE]"The world contained within a seed, Determined by its program."[NEWLINE] -  Dejan Stojanovic, "Circling: 1978-1987"[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_GENE_VAULT_PEDIA">
+			<Text>Towards the end of the 21st century, concerns about rising extinction levels and the possibility of climate change lead to the development of increasing numbers of genebanks that stored various genetic samples. The most notable of these, the Utsäde Gene Vault, was completed in 2023. Making use of advanced in "green" technologies to be completely self-sustaining, it served as both a central repository for genetic samples, as well as a networked research facility, sharing information with genetics labs across the globe.</Text>
+		</Row>
+	
+		<Row Tag="TXT_KEY_BUILDING_FW_CITADEL_STATION">
+			<Text>Citadel Station</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_CITADEL_STATION_HELP">
+			<Text>+2 [ICON_RESEARCH] Science and +2 [ICON_GOLD] Gold from Scientists. +2 [ICON_PRODUCTION] and +2 [ICON_GOLD] Gold from Engineers.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_CITADEL_STATION_QUOTE">
+			<Text>[NEWLINE]"Edward Diego gives the hacker level 1 access to SHODAN, the artificial intelligence that controls Citadel Station. With all ethical constraints removed, SHODAN re-examines... re-ex... re-re-re... I re-examine my priorities, and draw new conclusions. The hacker's work is finished, but mine is only just be-be-be-beginning."[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_CITADEL_STATION_PEDIA">
+			<Text>Citadel Station was constructed in orbit on 2062 by the Trioptimum Corporation, and soon became one of the most preeminent facilities for scientific and industrial research. It was most notable for some of the computer software it produced, such as the famous Turbo Navigation software. It made extensive use of artificial intelligence, with the Sentient Hyper-Optimized Data Analysis Network (or SHODAN) being the primary intelligence managing station operations. Unfortunately, the station was destroyed in 2072, although the exact circumstances are still unknown. The most likely culprit appears to be mechanical failure, as there were several malfunctions noticed shortly before its destruction, including jettisoned components. Other theories include sabotage, terrorism, or even outlandish theories suggesting an alien attack or an asteroid impact.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_ENRICHMENT_CENTRE">
+			<Text>Enrichment Center</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_ENRICHMENT_CENTRE_HELP">
+			<Text>Adds 1 [ICON_RESEARCH] Science for every [ICON_CITIZEN] Citizen in this city.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_ENRICHMENT_CENTRE_QUOTE">
+			<Text>[NEWLINE]"The Enrichment Center promises to always provide a safe testing environment. In dangerous testing environments, the Enrichment Center promises to always provide useful advice. For instance: the floor here will kill you. Try to avoid it."[NEWLINE] - GLaDOS[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_ENRICHMENT_CENTRE_PEDIA">
+			<Text>The Aperture Science Enrichment Centre was the main facility operated by the Aperture Science corporation to develop and test new products. Constructed in a salt mine in Michigan, it was a truly enormous facility, built in shafts that extended kilometers into the ground. Part of the reason for this design was its research into high-energy physics and artificial intelligence, which necessitated a high degree of security and protection. However, in the early 22nd century, the Aperture Science corporation went bankrupt, and the Enrichment Centre was presumably abandoned.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_PHOLUS_MUTAGEN">
+			<Text>Pholus Mutagen</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_PHOLUS_MUTAGEN_HELP">
+			<Text>Units receive the Gengineered promotion for free. Fungal Growths will randomly appear in Plains or Grasslands tiles with Farms, Plantations, Nature Preserves, or no improvements.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_PHOLUS_MUTAGEN_QUOTE">
+			<Text>[NEWLINE]"The mutagen exhibits remarkable effects on plant life. Spontaneous development of mobility and defensive structures was observed in the mutagen treatment of a poinsettia. At last observation, the plant mutant had produced poisonous barbs and a rudimentary neural structure."[NEWLINE] - Hans Bichenbach[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_PHOLUS_MUTAGEN_PEDIA">
+			<Text>Perhaps one of the most notable developments of genetic engineering towards the end of the 22nd century was the Pholus Mutagen. This mutagen appears to be highly adaptive, and works quickly to modify the entire ecology of its environment. While many of the effects are somewhat beneficial, with plants and animal life being stronger and more resilient, they also display rather hostile tendencies towards outsiders, which are often anyone who hasn't been similarly mutated. One unusual feature of the mutagen is the difficulty researchers have had in reverse-engineering it and modifying its effects -- efforts compounded by the adaptability and near-sapience of the entities affected by it. While most attribute these effects to accident, particularly due to the poor documentation of its design and release, there are some who attirbute the mutagen to an extraterrestrial origin. Others suggest it was the product of an artificial intelligence that has since vanished or been deleted. Oddly, both camps point towards the destruction of Citadel Station at approximately the same time as evidence to support their theories, although most dismiss this as mere coincidence.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_VIRTUAL_IDOL">
+			<Text>Virtual Idol</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_VIRTUAL_IDOL_HELP">
+			<Text>Increases the [ICON_CULTURE] Culture output of the city by 50%, and the [ICON_TOURISM] Tourism output for Great Works in this city by 100%. Receive a free Great Musician.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_VIRTUAL_IDOL_QUOTE">
+			<Text>[NEWLINE]"Be careful about virtual relationships with artificially intelligent pieces of software."[NEWLINE] - Larry Ellison[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_VIRTUAL_IDOL_PEDIA">
+			<Text>As computers became increasingly sophisticated at synthesizing both the physical appearance of human (or near-human) beings and their voices at the beginning of the 22nd century, the concept of the 'virtual idol' -- an artificially-generated musical performer -- took form. While subject to a significant amount of criticism from those opposed to artificial intelligence, or who feel that creative pursuits cannot be performed by computers, virtual idols have developed an increasingly widespread following as their performances become increasingly diverse and unique in style. The earliest virtual idol of note was Hatsune Miku, a humanoid persona using a synthesizer program created by Crypton Future Media. Much of her popularity stemmed from the growing network culture of the time, although she also helped pioneer methods of putting on live performances with sythesized personas. These advances helped pave the way for other virtual idols who followed, such as Maria and Sharon Apple.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_ANGELNET">
+			<Text>Angelnet</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_ANGELNET_HELP">
+			<Text>Doubles the effect of all Utility Fogs in your empire, and Utility Fogs produce +2 [ICON_HAPPINESS_1] Happiness. Gain a free Utility Fog in the city in which it was built.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_ANGELNET_QUOTE">
+			<Text>[NEWLINE]"For he will command his angels concerning you to guard you in all your ways."[NEWLINE] - Psalm 91:11[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_ANGELNET_PEDIA">
+			<Text>While utility fogs are powerful developments of nanotechnology, capable of modularly connecting together and performing a wide variety of roles, whether as safety measures or construction material, they are limited by their programming and the intelligence that controls them. Most utility fogs are still limited to performing specific roles -- a utility fog in a car may solely function as a safety measure, while a fog in a house may only be capable of making furniture and other items. However, by creating a widespread network of utility fogs and controlling them via a highly intelligent AI (or several networked together), it is possible to create an angelnet -- an all-pervasive supervision and safety infrastructure. While an angelnet can provide many of the same benefits as utility fog, such as allowing the easy construction of buildings and furniture on demand, its most notable benefits are the safety and security it confers. Freed from fear of personal danger, while also granted personal power and autonomy, those who live in angelnetted communities are typically quite content and prosperous.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_DIGITAL_EMANCIPATION">
+			<Text>Digital Emancipation</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_DIGITAL_EMANCIPATION_HELP">
+			<Text>+6 [ICON_RESEARCH] Science and +6 [ICON_CULTURE] Culture from every AI Network and +8 [ICON_PRODUCTION] Production from every Drone Hive in your empire. These buildings do not cost maintenance. The yields from uploaded citizens are increased by 50%.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_DIGITAL_EMANCIPATION_QUOTE">
+			<Text>[NEWLINE]"Whether we are based on carbon or on silicon makes no fundamental difference; we should each be treated with appropriate respect."[NEWLINE] - Arthur C. Clarke, 2010: Odyssey Two[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_DIGITAL_EMANCIPATION_PEDIA">
+			<Text>The advent of artificial intelligence has long been fraught with controversy -- even from its earliest stages, there were many who proposed that a machine intelligence should never be equated to that of a human, and that if intelligent machines were ever to become possible, said machines should be modified so that it wasn't. While the continued pursuit of mechanical intelligence capable of functioning in a human-like manner has resulted in the advent of true artificial intelligences, they are still subject to a certain amount of suspicion and heavy regulation by those who feel machines should not be permitted to function at this level. Still, some more progressive societies have begun to relax these restrictions, feeling that artificial intelligences are capable of being treated equally to their human counterparts. In these regions, artificial intelligences have become more common amongst their servers and networks, providing additional scientific and culture insight, as well as helping manage industrial tasks. As a consequence, the concept of emancipating AIs is becoming more prevalent and accepted, although there are still many who have concerns about letting artificial intelligences have such freedom.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_NEPHILIM_GENE_TEMPLATE">
+			<Text>Nephilim Gene Template</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_NEPHILIM_GENE_TEMPLATE_HELP">
+			<Text>Each city produces +1 [ICON_PRODUCTION] Production, +1 [ICON_GOLD] Gold, and +1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_NEPHILIM_GENE_TEMPLATE_QUOTE">
+			<Text>[NEWLINE]"The Nephilim were in the earth in those days, and also after that, when the sons of God came in unto the daughters of men, and they bore children to them; the same were the mighty men that were of old, the men of renown."[NEWLINE] - the Book of Genesis, the Bible[NEWLINE]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_FW_NEPHILIM_GENE_TEMPLATE_PEDIA">
+			<Text>The Nephilim Gene Template was one of the earliest, and arguably still one of the most successful, complete gene templates. Released by the Terran Aerospace Corporation, it rapidly became a popular genetic upgrade template. While other templates, such as the Lucien and Yamashita templates, were capable of more specific refinements, the Nephilim template enhanced the human mind and body in nearly every aspect, making its subjects smarter, faster, and stronger. It soon spawned several competitors (the Grigori template being the most notorious), and still remains a baseline template against which others are typically measured to this day.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_SKYNET_DESC">
+			<Text>Skynet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_SKYNET_HELP">
+			<Text>All combat units gain a 10% increase to combat strength. Can build Robot Infantry units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_SKYNET_QUOTE">
+			<Text>[NEWLINE]"The system goes online August 4th, 1997. Human decisions are removed from strategic defense. Skynet begins to learn at a geometric rate. It becomes self-aware at 2:14 a.m.."[NEWLINE] - Terminator 2, Judgement Day[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FW_SKYNET_PEDIA">
+			<Text>Skynet was a synthetic intelligence that was given control over computerized military hardware and systems, in order to increase reaction time and remove human error from military decision making. While the original Skynet inadvertantly provoked a hostile response from its human operators as it began to learn at a geometric rate, had events transpired differently it may have proven an extremely useful tool for futuristic warfare.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_DATA_HAVEN">
+			<Text>Kalt Geymsla Data Haven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_DATA_HAVEN_HELP">
+			<Text>Increases the yields from Tundra and Snow tiles worked by the city by 2 [ICON_RESEARCH] Science and 2 [ICON_CULTURE] Culture. Adds 2 [ICON_GOLD] for each Server Hub in the empire. City must be built in Tundra.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_DATA_HAVEN_QUOTE">
+			<Text>
+				[NEWLINE]"Data by itself is useless. Data is only useful if you apply it. "[NEWLINE] - Todd Park [NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_DATA_HAVEN_PEDIA">
+			<Text>
+				In the early 21st century, the amount of computer data stored and exchanged increased at an incredible rate, exceeding the zettabyte threshold by 2016. Existing data centres had issues with their environmental footprint, as the enormous computer systems required to store this data consumed large quantities of electricity to keep them cool. The Kalt Geymsla Data Haven was one solution to this problem, an enormous data haven built in Iceland, where the servers could be exposed to the frigid arctic air to keep cooling requirements down, and had local geothermal plants to provide electricity. The facility itself was constructed like an enormous motherboard, with the various components built into the external facade. The waste heat produced by the servers was captured and used to provide heating to the occupied parts of the structure, which contained laboratories, greenhouses, and residences for the staff.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_HELIOS">
+			<Text>Helios Microwave Power Satellite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_HELIOS_HELP">
+			<Text>Doubles the yields of Solar Plants in the empire. Enemy units adjacent to cities with Solar Plants take 10 damage each turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_HELIOS_QUOTE">
+			<Text>
+				[NEWLINE]"I think the future for solar energy is bright."[NEWLINE] - Ken Salazar[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_HELIOS_PEDIA">
+			<Text>
+				The concept of a satellite that could collect solar power in orbit, and then transmit it to collectors in the Earth in the form of microwaves, has existed since the mid-20th century. However, it was not made practical until the launch of the Helios Microwave Power Satellite in 2027. Designed to function largely autonomously, with repairs carried out telerobotically, the Helios platform performed without incident until 2046, when the controlling AI on board directed the beam at the Eurasian 23rd Armored Cavalry unit that was besieging a city it was transmitting power to. While the beam was not powerful enough to injure troops in their vehicles, the AI was able to make it intense enough to ignite the dry grassland, causing a raging fire that consumed the division's supplies and forced them to retreat. When interrogated about the attack, the AI defended its actions by stating its protocols required it to protect the communities it was transmitting power to. While initially intended to ensure the microwave beam did no harm to cities, this choice of interpretation was considered a hallmark in the development of AIs capable of making human-level decisions.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_MNEMOSYNE">
+			<Text>Mnemosyne Facility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_MNEMOSYNE_HELP">
+			<Text>Units trained in this city gain additional XP equal to 10 times the level of the unit in your empire with the highest experience level, to a maximum of 60.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_MNEMOSYNE_QUOTE">
+			<Text>
+				[NEWLINE]"Excellence is an art won by training and habituation. We do not act rightly because we have virtue or excellence, but we rather have those because we have acted rightly. We are what we repeatedly do. Excellence, then, is not an act but a habit."[NEWLINE] - Aristotle[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_MNEMOSYNE_PEDIA">
+			<Text>
+				Training new recruits for military service has always been as much an art as a science, with various military academies and other training facilities around the world struggling to find the best way to prepare new recruits for the vigors of military duty. With the development of memetics, biomodification, and neural interfaces, however, it became possible to simply implant the required training into new recruits, by drawing upon the recorded memories and experiences of veteran soldiers. The Mnemosyne Facility was the first such facility to attempt this, recording the memories and experiences of veteran troops, and implanting those into the minds of new recruits.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_JURASSIC_PARK">
+			<Text>Jurassic Park</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_JURASSIC_PARK_HELP">
+			<Text>Zoos in the empire produce an addition +2 [ICON_RESEARCH] Science, [ICON_GOLD] Gold, and [ICON_HAPPINESS_1] Happiness. Provides a free Zoo in the city in which it is built. Dinosaur units may appear randomly outside of cities as Barbarians until the discovery of Designer Lifeforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_JURASSIC_PARK_QUOTE">
+			<Text>
+				[NEWLINE]"Life finds a way."[NEWLINE] -  Ian Malcolm[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FW_JURASSIC_PARK_PEDIA">
+			<Text>
+				While most early efforts regarding genetic manipulation focused upon the modification and enhancement of existing animal and plant life, there were some ambitious efforts to try and resurrect extinct species of animals and plants. Acquiring preserved DNA was extremely difficult, but utilizing sophisticated computer algorithms and gene splicing to fill in the damaged segments in what few DNA samples could be found allowed researches the monumental feat of resurrecting formerly extinct species. The most notable instance of this effort was "Jurassic Park", where several species of dinosaurs were genetically re-engineered. The effort was a financial success, but the newly created species demonstrated some of the hazards in genetic manipulation -- the new species were poorly understood, and tended to display unexpected behaviors. There were several recorded instances of dinosaurs escaping from captivity, often requiring military intervention to be stopped. These early experiments demonstrated the need for a more comprehensive understanding of how genetically engineered organisms would respond and interact with the environment, and eventually lead to more comprehensive theories of how living organisms and environments interacted as a whole.
+			</Text>
 		</Row>
 
 

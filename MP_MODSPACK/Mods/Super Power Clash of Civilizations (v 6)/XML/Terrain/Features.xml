@@ -73,12 +73,12 @@
 		<Row>
 			<FeatureType>FEATURE_ATOLL</FeatureType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>1</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_ATOLL</FeatureType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>4</Yield>
 		</Row>
 	</Feature_YieldChanges>
 
@@ -108,7 +108,7 @@
 		<Row>
 			<FeatureType>FEATURE_REEF</FeatureType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_CRATER</FeatureType>
@@ -129,15 +129,15 @@
 			<Where FeatureType="FEATURE_FUJI" YieldType="YIELD_FAITH"/>
 		</Update>
 		<Update>
-			<Set Yield="2"/>
+			<Set Yield="6"/>
 			<Where FeatureType="FEATURE_FUJI" YieldType="YIELD_CULTURE"/>
 		</Update>
 		<Update>
-			<Set Yield="2"/>
+			<Set Yield="6"/>
 			<Where FeatureType="FEATURE_FUJI" YieldType="YIELD_GOLD"/>
 		</Update>
 		<Update>
-			<Set Yield="5"/>
+			<Set Yield="10"/>
 			<Where FeatureType="FEATURE_MESA" />
 		</Update>
 		<Update>
@@ -145,23 +145,23 @@
 			<Where FeatureType="FEATURE_VOLCANO" />
 		</Update>
 		<Update>
-			<Set Yield="5"/>
+			<Set Yield="7"/>
 			<Where FeatureType="FEATURE_GIBRALTAR" />
 		</Update>
 		<Update>
-			<Set Yield="3"/>
+			<Set Yield="6"/>
 			<Where FeatureType="FEATURE_GEYSER" YieldType="YIELD_SCIENCE"/>
 		</Update>
 		<Update>
-			<Set Yield="4"/>
+			<Set Yield="8"/>
 			<Where FeatureType="FEATURE_SRI_PADA" YieldType="YIELD_FOOD"/>
 		</Update>
 		<Update>
-			<Set Yield="4"/>
+			<Set Yield="8"/>
 			<Where FeatureType="FEATURE_SRI_PADA" YieldType="YIELD_FAITH"/>
 		</Update>
 		<Update>
-			<Set Yield="4"/>
+			<Set Yield="8"/>
 			<Where FeatureType="FEATURE_ULURU" YieldType="YIELD_FOOD"/>
 		</Update>
 
@@ -170,15 +170,15 @@
 			<Where FeatureType="FEATURE_LAKE_VICTORIA" />
 		</Update>
 		<Update>
-			<Set Yield="8"/>
+			<Set Yield="10"/>
 			<Where FeatureType="FEATURE_SOLOMONS_MINES" />
 		</Update>
 		<Update>
-			<Set Yield="4"/>
+			<Set Yield="8"/>
 			<Where FeatureType="FEATURE_KILIMANJARO"/>
 		</Update>
 		<Update>
-			<Set Yield="6"/>
+			<Set Yield="10"/>
 			<Where FeatureType="FEATURE_EL_DORADO"/>
 		</Update>
 		
@@ -190,17 +190,17 @@
 		<Row>
 			<FeatureType>FEATURE_MT_SINAI</FeatureType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_MT_KAILASH</FeatureType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_GIBRALTAR</FeatureType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<Yield>6</Yield>
 		</Row>
 	</Feature_YieldChanges>
   

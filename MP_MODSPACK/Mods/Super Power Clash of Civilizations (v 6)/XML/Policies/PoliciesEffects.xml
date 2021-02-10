@@ -479,6 +479,19 @@
 	<Policy_BuildingClassYieldModifiers>
 
 		<Row>
+			<PolicyType>POLICY_HELIOS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SOLAR_PLANT</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>15</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BOREHOLE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FW_GEOTHERMAL_PLANT</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>15</YieldMod>
+		</Row>
+
+		<Row>
 			<PolicyType>POLICY_COASTAL_ADMINISTRATION</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -522,13 +535,13 @@
 			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldMod>15</YieldMod>
+			<YieldMod>25</YieldMod>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldMod>15</YieldMod>
+			<YieldMod>25</YieldMod>
 		</Row>
 
 
@@ -675,7 +688,7 @@
 		<Row>
 			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
-			<TourismModifier>15</TourismModifier>
+			<TourismModifier>25</TourismModifier>
 		</Row>
 
 	</Policy_BuildingClassTourismModifiers>
@@ -1110,6 +1123,74 @@
 
 		<Delete ImprovementType="IMPROVEMENT_HOLY_SITE" />
 
+		<Row>
+			<PolicyType>POLICY_GENE_VAULT</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_PRESERVE</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_GENE_VAULT</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_BIOWELL</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_GENE_VAULT</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_GENOCENTRE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BOREHOLE</PolicyType>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BOREHOLE</PolicyType>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_NEW_DEAL</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_HERC</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_COMMERCE_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_GENERATOR</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_COMMERCE_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_CORE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_COMMERCE_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_GENERATOR</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_COMM_ARRAY</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_CORE</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
 
 		<Row>
 			<PolicyType>POLICY_LANDED_ELITE</PolicyType>
@@ -1201,19 +1282,19 @@
 			<PolicyType>POLICY_NEW_DEAL</PolicyType>
 			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_NEW_DEAL</PolicyType>
 			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>4</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_NEW_DEAL</PolicyType>
 			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>4</Yield>
+			<Yield>6</Yield>
 		</Row>
 		
 		<Row>

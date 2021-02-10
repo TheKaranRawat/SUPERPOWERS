@@ -135,7 +135,7 @@
 	<Defines>
 		<Update>
 			<Where Name="CITY_UNIT_LIMIT"/>
-			<Set Value="2"/>
+			<Set Value="3"/>
 		</Update>
 	</Defines>
 

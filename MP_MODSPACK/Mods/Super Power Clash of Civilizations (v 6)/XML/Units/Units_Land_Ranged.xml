@@ -414,11 +414,11 @@
 			<PrereqTech>TECH_MOBILIZATION_T</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>30</Combat>
-			<RangedCombat>75</RangedCombat>
+			<RangedCombat>120</RangedCombat>
 			<Cost>300</Cost>
 			<Moves>3</Moves>
 			<Range>2</Range>
-			<AirInterceptRange>2</AirInterceptRange>
+			<AirInterceptRange>3</AirInterceptRange>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
@@ -441,7 +441,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>16</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>5</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -450,12 +450,12 @@
 			<Type>UNIT_MOBILE_AA_GUN</Type>
 			<BaseSightRange>1</BaseSightRange>
 			<PrereqTech>TECH_INTEGRATED_CIRCUIT</PrereqTech>
-			<Combat>40</Combat>
-			<RangedCombat>85</RangedCombat>
+			<Combat>60</Combat>
+			<RangedCombat>170</RangedCombat>
 			<Cost>380</Cost>
 			<Moves>5</Moves>
 			<Range>2</Range>
-			<AirInterceptRange>2</AirInterceptRange>
+			<AirInterceptRange>3</AirInterceptRange>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
@@ -485,12 +485,12 @@
 			<Type>UNIT_SAM_INFANTRY</Type>
 			<BaseSightRange>2</BaseSightRange>
 			<PrereqTech>TECH_LASERS</PrereqTech>
-			<Combat>50</Combat>
-			<RangedCombat>125</RangedCombat>
+			<Combat>100</Combat>
+			<RangedCombat>230</RangedCombat>
 			<Cost>475</Cost>
 			<Moves>5</Moves>
 			<Range>2</Range>
-			<AirInterceptRange>3</AirInterceptRange>
+			<AirInterceptRange>4</AirInterceptRange>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
@@ -517,11 +517,11 @@
 			<BaseSightRange>2</BaseSightRange>
 			<PrereqTech>TECH_LASERS</PrereqTech>
 			<Combat>50</Combat>
-			<RangedCombat>125</RangedCombat>
+			<RangedCombat>250</RangedCombat>
 			<Cost>475</Cost>
 			<Moves>5</Moves>
 			<Range>2</Range>
-			<AirInterceptRange>3</AirInterceptRange>
+			<AirInterceptRange>4</AirInterceptRange>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
@@ -1142,7 +1142,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>25</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>42</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
 		</Row>
 
 

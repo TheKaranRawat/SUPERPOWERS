@@ -125,7 +125,7 @@
 	</Instance>
 	<!-- Extra Diplo Corner Buttons -->
 	<Instance Name="DiploCornerButton" >
-		<Button ID="Button" ConsumeMouseOver="1" Anchor="R,T" Size="45.45" Texture="DC45_Generic.dds" />
+		<Button ID="Button" ConsumeMouseOver="1" Anchor="R,T" Size="45.45" Texture="DC45_DiploList.dds" />
 	</Instance>
 
 </Context>

@@ -1,0 +1,9 @@
+<!-- Created by Adam (low) with ModBuddy on 9/29/2010 11:04:35 AM -->
+<GameData>
+	<Controls>
+		<Update>
+			<Set HotKeyAlt="KB_SPACE"/>
+			<Where Type="CONTROL_ENDTURN"/>
+		</Update>
+	</Controls>
+</GameData>

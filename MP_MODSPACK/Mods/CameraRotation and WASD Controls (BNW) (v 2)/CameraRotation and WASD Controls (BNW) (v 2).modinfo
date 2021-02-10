@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2be3f65e-73f2-49aa-817e-2de944248307" version="2">
+  <Properties>
+    <Name>CameraRotation and WASD Controls (BNW)</Name>
+    <Teaser>Adds camera rotation and WASD controls to the game.</Teaser>
+    <Description>CameraRotation and WASD Controls for Civilization V: Brave New World
+by alpaca and Nutty
+
+Adds camera rotation and WASD controls to the game.
+
+The rotation doesn't work superbly (you sometimes rotate into map borders for example), which is probably why the devs didn't add it by default, but it works.
+
+Press and hold [COLOR_PLAYER_BLUE_TEXT]numpad divide[ENDCOLOR] or [COLOR_PLAYER_BLUE_TEXT]SHIFT + A[ENDCOLOR] or [COLOR_PLAYER_BLUE_TEXT]SHIFT + LeftArrow[ENDCOLOR] to rotate clockwise. Likewise, press [COLOR_PLAYER_BLUE_TEXT]numpad multiply[ENDCOLOR] or [COLOR_PLAYER_BLUE_TEXT]SHIFT + D[ENDCOLOR] or [COLOR_PLAYER_BLUE_TEXT]SHIFT + RightArrow[ENDCOLOR]  to rotate counter-clockwise.
+
+For those accustomed to first person shooters, this also allows [COLOR_PLAYER_BLUE_TEXT]W[ENDCOLOR] (for up), [COLOR_PLAYER_BLUE_TEXT]A[ENDCOLOR] (for left), [COLOR_PLAYER_BLUE_TEXT]S[ENDCOLOR] (for down), and [COLOR_PLAYER_BLUE_TEXT]D[ENDCOLOR] (for right) to be used instead of the arrow keys.  Note that some ingame hotkeys will be changed or disabled as a result.
+
+New hotkeys:
+
+Z - Alert (think Zzz OR snooZe)
+Z - Automate Worker
+Ctrl+D - Disembark
+X - Scrub Fallout
+X - Set Up Artillery
+X - Airstrike
+Alt+X - Air Sweep
+
+Also see the non-WASD versions for vanilla Civilization V, Gods + Kings, and Civ V Unofficial Patch.
+
+Compatibility: This mod changes  DLC/Expansion2/UI/InGame/WorldView/WorldView.lua</Description>
+    <Authors>alpaca, Nutty, heinous_hat</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="cc7356e8-ddcf-44da-85e1-a28918c93484" minversion="0" maxversion="999" title="Unofficial Patch and Vanilla Enhanced" />
+    <Mod id="01127f62-3896-4897-b169-ecab445786cd" minversion="0" maxversion="999" title="Civ V Unofficial Patch (GK)" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="CB3CB75D6D72C487D898224EF3A2D697" import="0">WASDHotkeyFix.sql</File>
+    <File md5="C5810183FF9D011C50AF520D2D262C8D" import="1">WorldView.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>WASDHotkeyFix.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

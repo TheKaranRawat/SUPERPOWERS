@@ -1,0 +1,3659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/17/2013 3:26:24 PM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_FW_DRONE_FIGHTER_2</Type>
+			<Description>TXT_KEY_UNIT_FW_DRONE_FIGHTER_2</Description>
+			<DefaultUnit>UNIT_FW_DRONE_FIGHTER_2</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_SUBORBITAL_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_FW_SUBORBITAL_BOMBER</Description>
+			<DefaultUnit>UNIT_FW_SUBORBITAL_BOMBER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_RAILGUN_TANK</Type>
+			<Description>TXT_KEY_UNIT_FW_RAILGUN_TANK</Description>
+			<DefaultUnit>UNIT_FW_RAILGUN_TANK</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_MECH_ARTILLERY</Type>
+			<Description>TXT_KEY_UNIT_FW_MECH_ARTILLERY</Description>
+			<DefaultUnit>UNIT_FW_MECH_ARTILLERY</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_VERTOL</Type>
+			<Description>TXT_KEY_UNIT_FW_VERTOL</Description>
+			<DefaultUnit>UNIT_FW_VERTOL</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_HOVERTANK</Type>
+			<Description>TXT_KEY_UNIT_FW_HOVERTANK</Description>
+			<DefaultUnit>UNIT_FW_HOVERTANK</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_CYBERSUB</Type>
+			<Description>TXT_KEY_UNIT_FW_CYBERSUB</Description>
+			<DefaultUnit>UNIT_FW_CYBERSUB</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_MISSILE_DESTROYER</Type>
+			<Description>TXT_KEY_UNIT_FW_MISSILE_DESTROYER</Description>
+			<DefaultUnit>UNIT_FW_MISSILE_DESTROYER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_NEODESTROYER</Type>
+			<Description>TXT_KEY_UNIT_FW_NEODESTROYER</Description>
+			<DefaultUnit>UNIT_FW_NEODESTROYER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_ARSENAL_SHIP</Type>
+			<Description>TXT_KEY_UNIT_FW_ARSENAL_SHIP</Description>
+			<DefaultUnit>UNIT_FW_ARSENAL_SHIP</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_SUPERCARRIER</Type>
+			<Description>TXT_KEY_UNIT_FW_SUPERCARRIER</Description>
+			<DefaultUnit>UNIT_FW_SUPERCARRIER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_HYPERMISSILE</Type>
+			<Description>TXT_KEY_UNIT_FW_HYPERMISSILE</Description>
+			<DefaultUnit>UNIT_FW_HYPERMISSILE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_CRAWLER</Type>
+			<Description>TXT_KEY_UNIT_FW_CRAWLER</Description>
+			<DefaultUnit>UNIT_FW_CRAWLER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_UAV</Type>
+			<Description>TXT_KEY_UNIT_FW_UAV</Description>
+			<DefaultUnit>UNIT_FW_UAV</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_HYBRID_DRONE</Type>
+			<Description>TXT_KEY_UNIT_FW_HYBRID_DRONE</Description>
+			<DefaultUnit>UNIT_FW_HYBRID_DRONE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_BIODRONE</Type>
+			<Description>TXT_KEY_UNIT_FW_BIODRONE</Description>
+			<DefaultUnit>UNIT_FW_BIODRONE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_BATTLESUIT</Type>
+			<Description>TXT_KEY_UNIT_FW_BATTLESUIT</Description>
+			<DefaultUnit>UNIT_FW_BATTLESUIT</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_CHIMERA</Type>
+			<Description>TXT_KEY_UNIT_FW_CHIMERA</Description>
+			<DefaultUnit>UNIT_FW_CHIMERA</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_HYDRA</Type>
+			<Description>TXT_KEY_UNIT_FW_HYDRA</Description>
+			<DefaultUnit>UNIT_FW_HYDRA</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_SWARM</Type>
+			<Description>TXT_KEY_UNIT_FW_SWARM</Description>
+			<DefaultUnit>UNIT_FW_SWARM</DefaultUnit>
+		</Row>
+
+		<Row>
+			<Type>UNITCLASS_FW_SPEC_FORCES</Type>
+			<Description>TXT_KEY_UNIT_FW_SPEC_FORCES</Description>
+			<DefaultUnit>UNIT_FW_SPEC_FORCES</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_AIRBORNE_FORCES</Type>
+			<Description>TXT_KEY_UNIT_FW_AIRBORNE_FORCES</Description>
+			<DefaultUnit>UNIT_FW_AIRBORNE_FORCES</DefaultUnit>
+		</Row>
+		
+		<Row>
+			<Type>UNITCLASS_FW_BIOINFANTRY</Type>
+			<Description>TXT_KEY_UNIT_FW_BIOINFANTRY</Description>
+			<DefaultUnit>UNIT_FW_BIOINFANTRY</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_BIOTROOPER</Type>
+			<Description>TXT_KEY_UNIT_FW_BIOTROOPER</Description>
+			<DefaultUnit>UNIT_FW_BIOTROOPER</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_AUTOMATON</Type>
+			<Description>TXT_KEY_UNIT_FW_AUTOMATON</Description>
+			<DefaultUnit>UNIT_FW_AUTOMATON</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_ROBOT_INFANTRY</Type>
+			<Description>TXT_KEY_UNIT_FW_ROBOT_INFANTRY</Description>
+			<DefaultUnit>UNIT_FW_ROBOT_INFANTRY</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_NANOHIVE</Type>
+			<Description>TXT_KEY_UNIT_FW_NANOHIVE</Description>
+			<DefaultUnit>UNIT_FW_NANOHIVE</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_NEXUS</Type>
+			<Description>TXT_KEY_UNIT_FW_NEXUS</Description>
+			<DefaultUnit>UNIT_FW_NEXUS</DefaultUnit>
+		</Row>
+
+		<Row>
+			<Type>UNITCLASS_FW_TREX</Type>
+			<Description>TXT_KEY_UNIT_FW_TREX</Description>
+			<DefaultUnit>UNIT_FW_TREX</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_TRICERATOPS</Type>
+			<Description>TXT_KEY_UNIT_FW_TRICERATOPS</Description>
+			<DefaultUnit>UNIT_FW_TRICERATOPS</DefaultUnit>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_FW_RAPTOR</Type>
+			<Description>TXT_KEY_UNIT_FW_RAPTOR</Description>
+			<DefaultUnit>UNIT_FW_RAPTOR</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_FW_DRONE_FIGHTER_2</Class>
+			<Type>UNIT_FW_DRONE_FIGHTER_2</Type>
+			<PrereqTech>TECH_COGNITIVE_TECH</PrereqTech>
+			<RangedCombat>100</RangedCombat>
+			<Cost>500</Cost>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<Range>12</Range>
+			<AirInterceptRange>12</AirInterceptRange>
+			<Special>SPECIALUNIT_FIGHTER</Special>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_DRONE_FIGHTER_2</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_DRONE_FIGHTER_2_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_DRONE_FIGHTER_2_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_DRONE_FIGHTER_2_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_DRONE_FIGHTER_2</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_2</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>20</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_SUBORBITAL_BOMBER</Class>
+			<Type>UNIT_FW_SUBORBITAL_BOMBER</Type>
+			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+			<RangedCombat>110</RangedCombat>
+			<Cost>600</Cost>
+			<Moves>3</Moves>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<Immobile>true</Immobile>
+			<Range>30</Range>
+			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_SUBORBITAL_BOMBER</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_SUBORBITAL_BOMBER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_SUBORBITAL_BOMBER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_SUBORBITAL_BOMBER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_SUBORBITAL_BOMBER</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_7</UnitFlagAtlas>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>57</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_RAILGUN_TANK</Class>
+			<Type>UNIT_FW_RAILGUN_TANK</Type>
+			<PrereqTech>TECH_SUPERCONDUCTIVITY</PrereqTech>
+			<Combat>120</Combat>
+			<Cost>550</Cost>
+			<FaithCost>1100</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>5</Moves>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_RAILGUN_TANK</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_RAILGUN_TANK_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_RAILGUN_TANK_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_RAILGUN_TANK_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_ADAMANTIUM</ObsoleteTech>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_RAILGUN_TANK</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE</UnitFlagAtlas>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>50</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_MECH_ARTILLERY</Class>
+			<Type>UNIT_FW_MECH_ARTILLERY</Type>
+			<PrereqTech>TECH_QUANTUM_COMPUTERS</PrereqTech>
+			<Combat>60</Combat>
+			<RangedCombat>90</RangedCombat>
+			<Cost>500</Cost>
+			<FaithCost>1000</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<Range>3</Range>
+			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_CITY_BOMBARD</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_MECH_ARTILLERY</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_MECH_ARTILLERY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_MECH_ARTILLERY_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_MECH_ARTILLERY_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_HYPERSTRUCTURES</ObsoleteTech>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_FW_MECH_ARTILLERY</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_4</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>51</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_VERTOL</Class>
+			<Type>UNIT_FW_VERTOL</Type>
+			<PrereqTech>TECH_GRID_COMPUTING</PrereqTech>
+			<Combat>80</Combat>
+			<Cost>500</Cost>
+			<Moves>6</Moves>
+			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_VERTOL</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_VERTOL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_VERTOL_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_VERTOL_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_CYBERNETICS</ObsoleteTech>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_VERTOL</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_HOVERTANK</Class>
+			<Type>UNIT_FW_HOVERTANK</Type>
+			<PrereqTech>TECH_CYBERNETICS</PrereqTech>
+			<Combat>100</Combat>
+			<Cost>600</Cost>
+			<Moves>6</Moves>
+			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_HOVERTANK</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_HOVERTANK_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_HOVERTANK_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_HOVERTANK_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_HOVERTANK</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_4</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>42</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_CYBERSUB</Class>
+			<Type>UNIT_FW_CYBERSUB</Type>
+			<PrereqTech>TECH_NEURAL_INTERFACE</PrereqTech>
+			<Combat>75</Combat>
+			<RangedCombat>100</RangedCombat>
+			<Cost>500</Cost>
+			<Moves>8</Moves>
+			<Range>4</Range>
+			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_CYBERSUB</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_CYBERSUB_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_CYBERSUB_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_CYBERSUB_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_FW_CYBERSUB</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_2</UnitFlagAtlas>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>22</PortraitIndex>
+			<MoveRate>SUB</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_MISSILE_DESTROYER</Class>
+			<Type>UNIT_FW_MISSILE_DESTROYER</Type>
+			<PrereqTech>TECH_PARTICLE_PHYSICS</PrereqTech>
+			<Combat>75</Combat>
+			<Cost>450</Cost>
+			<Moves>7</Moves>
+			<AirInterceptRange>3</AirInterceptRange>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_MISSILE_DESTROYER</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_MISSILE_DESTROYER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_MISSILE_DESTROYER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_MISSILE_DESTROYER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_AUTONOMOUS_SYSTEMS</ObsoleteTech>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_FW_MISSILE_DESTROYER</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_7</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>17</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_NEODESTROYER</Class>
+			<Type>UNIT_FW_NEODESTROYER</Type>
+			<PrereqTech>TECH_AUTONOMOUS_SYSTEMS</PrereqTech>
+			<Combat>100</Combat>
+			<Cost>600</Cost>
+			<Moves>8</Moves>
+			<AirInterceptRange>4</AirInterceptRange>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_NEODESTROYER</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_NEODESTROYER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_NEODESTROYER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_NEODESTROYER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_FW_NEODESTROYER</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_2</UnitFlagAtlas>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>21</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_ARSENAL_SHIP</Class>
+			<Type>UNIT_FW_ARSENAL_SHIP</Type>
+			<PrereqTech>TECH_GRID_COMPUTING</PrereqTech>
+			<Combat>100</Combat>
+			<RangedCombat>125</RangedCombat>
+			<Cost>500</Cost>
+			<Moves>8</Moves>
+			<Range>3</Range>
+			<AirInterceptRange>3</AirInterceptRange>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_ARSENAL_SHIP</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_ARSENAL_SHIP_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_ARSENAL_SHIP_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_ARSENAL_SHIP_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_ARSENAL_SHIP</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_4</UnitFlagAtlas>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>55</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_SUPERCARRIER</Class>
+			<Type>UNIT_FW_SUPERCARRIER</Type>
+			<PrereqTech>TECH_ROBOTICS</PrereqTech>
+			<Combat>55</Combat>
+			<RangedCombat>20</RangedCombat>
+			<Cost>550</Cost>
+			<Moves>6</Moves>
+			<Range>1</Range>
+			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_SUPERCARRIER</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_SUPERCARRIER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_SUPERCARRIER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_SUPERCARRIER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_SMART_MATERIALS</ObsoleteTech>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_FW_SUPERCARRIER</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_7</UnitFlagAtlas>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>47</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_UAV</Class>
+			<Type>UNIT_FW_UAV</Type>
+			<PrereqTech>TECH_INTERNET</PrereqTech>
+			<Combat>60</Combat>
+			<RangedCombat>90</RangedCombat>
+			<Cost>400</Cost>
+			<Moves>2</Moves>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_UAV</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_UAV_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_UAV_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_UAV_HELP</Help>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_IMPLANTS</ObsoleteTech>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_UAV</UnitArtInfo>
+			<UnitFlagAtlas>UNITS_UAV_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CIV_UNIT_ATLAS_UAV</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_HYBRID_DRONE</Class>
+			<Type>UNIT_FW_HYBRID_DRONE</Type>
+			<PrereqTech>TECH_IMPLANTS</PrereqTech>
+			<Combat>65</Combat>
+			<RangedCombat>100</RangedCombat>
+			<Cost>500</Cost>
+			<Moves>3</Moves>
+			<Range>3</Range>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_HYBRID_DRONE</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_HYBRID_DRONE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_HYBRID_DRONE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_HYBRID_DRONE_HELP</Help>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_HYBRID_DRONE</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_7</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>52</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_BIODRONE</Class>
+			<Type>UNIT_FW_BIODRONE</Type>
+			<PrereqTech>TECH_TERRAFORMING</PrereqTech>
+			<Combat>70</Combat>
+			<RangedCombat>110</RangedCombat>
+			<Cost>600</Cost>
+			<Moves>4</Moves>
+			<Range>4</Range>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_BIODRONE</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_BIODRONE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_BIODRONE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_BIODRONE_HELP</Help>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_BIODRONE</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_8</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_BATTLESUIT</Class>
+			<Type>UNIT_FW_BATTLESUIT</Type>
+			<PrereqTech>TECH_ADAMANTIUM</PrereqTech>
+			<Combat>120</Combat>
+			<Cost>550</Cost>
+			<FaithCost>1100</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_BATTLESUIT</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_BATTLESUIT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_BATTLESUIT_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_BATTLESUIT_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>7</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_FW_BATTLESUIT</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_4</UnitFlagAtlas>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>41</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_HYPERMISSILE</Class>
+			<Type>UNIT_FW_HYPERMISSILE</Type>
+			<PrereqTech>TECH_QUANTUM_COMPUTERS</PrereqTech>
+			<RangedCombat>120</RangedCombat>
+			<Cost>200</Cost>
+			<Moves>3</Moves>
+			<Immobile>true</Immobile>
+			<NoMaintenance>true</NoMaintenance>
+			<Range>12</Range>
+			<Special>SPECIALUNIT_MISSILE</Special>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_MISSILE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_HYPERMISSILE</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_HYPERMISSILE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_HYPERMISSILE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_HYPERMISSILE_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<Suicide>true</Suicide>
+			<AdvancedStartCost>40</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_GUIDED_MISSILE</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE</UnitFlagAtlas>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>23</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_CRAWLER</Class>
+			<Type>UNIT_FW_CRAWLER</Type>
+			<PrereqTech>TECH_HYPERSTRUCTURES</PrereqTech>
+			<Combat>160</Combat>
+			<RangedCombat>120</RangedCombat>
+			<Cost>800</Cost>
+			<Moves>3</Moves>
+			<Range>4</Range>
+			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_CITY_BOMBARD</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_CRAWLER</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_CRAWLER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_CRAWLER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_CRAWLER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<AdvancedStartCost>80</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_CRAWLER</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_6</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>58</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_CHIMERA</Class>
+			<Type>UNIT_FW_CHIMERA</Type>
+			<PrereqTech>TECH_GENGINEERING</PrereqTech>
+			<Combat>80</Combat>
+			<Cost>400</Cost>
+			<Moves>4</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_CHIMERA</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_CHIMERA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_CHIMERA_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_CHIMERA_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>80</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_CHIMERA</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_3</UnitFlagAtlas>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>46</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_HYDRA</Class>
+			<Type>UNIT_FW_HYDRA</Type>
+			<PrereqTech>TECH_TERRAFORMING</PrereqTech>
+			<Combat>140</Combat>
+			<Cost>800</Cost>
+			<Moves>4</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_HYDRA</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_HYDRA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_HYDRA_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_HYDRA_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>80</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_HYDRA</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_5</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>53</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_SWARM</Class>
+			<Type>UNIT_FW_SWARM</Type>
+			<PrereqTech>TECH_TERRAFORMING</PrereqTech>
+			<Combat>80</Combat>
+			<Cost>-1</Cost>
+			<Moves>4</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Special>SPECIALUNIT_SWARM</Special>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_SWARM</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_SWARM_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_SWARM_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_SWARM_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>80</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SCORPION_GREEN</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_5</UnitFlagAtlas>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_SPEC_FORCES</Class>
+			<Type>UNIT_FW_SPEC_FORCES</Type>
+			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
+			<Combat>85</Combat>
+			<Cost>400</Cost>
+			<FaithCost>800</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_SPEC_FORCES</Description>
+			<Civilopedia>TXT_KEY_CIV5_FW_SPEC_FORCES_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_SPEC_FORCES_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_FW_SPEC_FORCES</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_IMPLANTS</ObsoleteTech>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SEAL_TEAM</UnitArtInfo>
+			<UnitFlagAtlas>CIV_FLAG_ATLAS_SEALTEAM</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_AIRBORNE_FORCES</Class>
+			<Type>UNIT_FW_AIRBORNE_FORCES</Type>
+			<PrereqTech>TECH_INTERNET</PrereqTech>
+			<Combat>85</Combat>
+			<Cost>400</Cost>
+			<FaithCost>800</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_AIRBORNE_FORCES</Description>
+			<Civilopedia>TXT_KEY_CIV5_FW_AIRBORNE_FORCES_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_AIRBORNE_FORCES_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_FW_AIRBORNE_FORCES</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_NANOTECHNOLOGY</ObsoleteTech>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_AIRBORNE_FORCES</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_8</UnitFlagAtlas>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>40</PortraitIndex>
+		</Row>
+		<Update>
+			<Set Cost="375"/>
+			<Where Type="UNIT_MARINE"/>
+		</Update>
+		<Row>
+			<Class>UNITCLASS_FW_BIOINFANTRY</Class>
+			<Type>UNIT_FW_BIOINFANTRY</Type>
+			<PrereqTech>TECH_IMPLANTS</PrereqTech>
+			<Combat>100</Combat>
+			<Cost>450</Cost>
+			<FaithCost>900</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_BIOINFANTRY</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_BIOINFANTRY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_BIOINFANTRY_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_BIOINFANTRY_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_BIOMODIFICATION</ObsoleteTech>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>7</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_FW_BIOINFANTRY</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_3</UnitFlagAtlas>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>44</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_BIOTROOPER</Class>
+			<Type>UNIT_FW_BIOTROOPER</Type>
+			<PrereqTech>TECH_BIOMODIFICATION</PrereqTech>
+			<Combat>110</Combat>
+			<Cost>550</Cost>
+			<FaithCost>1100</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_BIOTROOPER</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_BIOTROOPER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_BIOTROOPER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_BIOTROOPER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>7</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_FW_BIOTROOPER</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_3</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>45</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_AUTOMATON</Class>
+			<Type>UNIT_FW_AUTOMATON</Type>
+			<PrereqTech>TECH_COGNITIVE_TECH</PrereqTech>
+			<Combat>90</Combat>
+			<Cost>420</Cost>
+			<FaithCost>840</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>4</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_AUTOMATON</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_AUTOMATON_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_AUTOMATON_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_AUTOMATON_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>7</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_FW_AUTOMATON</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_8</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>15</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_ROBOT_INFANTRY</Class>
+			<Type>UNIT_FW_ROBOT_INFANTRY</Type>
+			<PrereqTech>TECH_AI</PrereqTech>
+			<Combat>110</Combat>
+			<Cost>500</Cost>
+			<FaithCost>1000</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>4</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_ROBOT_INFANTRY</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_ROBOT_INFANTRY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_ROBOT_INFANTRY_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_ROBOT_INFANTRY_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>7</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_FW_ROBOT_INFANTRY</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_2</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>49</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_NANOHIVE</Class>
+			<Type>UNIT_FW_NANOHIVE</Type>
+			<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
+			<Combat>100</Combat>
+			<Cost>450</Cost>
+			<FaithCost>900</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>5</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_NANOHIVE</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_NANOHIVE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_NANOHIVE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_NANOHIVE_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>7</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_FW_NANOHIVE</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_5</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>48</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_NEXUS</Class>
+			<Type>UNIT_FW_NEXUS</Type>
+			<PrereqTech>TECH_SMART_MATERIALS</PrereqTech>
+			<Combat>120</Combat>
+			<Cost>1000</Cost>
+			<FaithCost>2000</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>5</Moves>
+			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_NEXUS</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_NEXUS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_NEXUS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_NEXUS_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>7</Conscription>
+			<SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_FW_NEXUS</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_5</UnitFlagAtlas>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>56</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_FW_TREX</Class>
+			<Type>UNIT_FW_TREX</Type>
+			<PrereqTech>TECH_GENGINEERING</PrereqTech>
+			<Combat>120</Combat>
+			<Cost>500</Cost>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_TREX</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_TREX_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_TREX_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_TREX_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_TREX</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_6</UnitFlagAtlas>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>60</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_TRICERATOPS</Class>
+			<Type>UNIT_FW_TRICERATOPS</Type>
+			<PrereqTech>TECH_GENGINEERING</PrereqTech>
+			<Combat>100</Combat>
+			<Cost>400</Cost>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_TRICERATOPS</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_TRICERATOPS_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_TRICERATOPS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_TRICERATOPS_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_TRICERATOPS</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_6</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>61</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_FW_RAPTOR</Class>
+			<Type>UNIT_FW_RAPTOR</Type>
+			<PrereqTech>TECH_GENGINEERING</PrereqTech>
+			<Combat>90</Combat>
+			<Cost>425</Cost>
+			<Moves>4</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_RAPTOR</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_RAPTOR_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_RAPTOR_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_RAPTOR_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_VELOCIRAPTOR</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_6</UnitFlagAtlas>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>62</PortraitIndex>
+		</Row>
+	</Units>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_FW_RAPTOR</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_FW_TRICERATOPS</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_FW_TREX</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_FW_RAPTOR</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_FW_TRICERATOPS</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_FW_TREX</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_VERTOL</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HOVERTANK</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_DRONE_FIGHTER_2</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_DRONE_FIGHTER_2</UnitType>
+			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SUBORBITAL_BOMBER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MISSILE_DESTROYER</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MISSILE_DESTROYER</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MISSILE_DESTROYER</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MISSILE_DESTROYER</UnitType>
+			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEODESTROYER</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEODESTROYER</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEODESTROYER</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEODESTROYER</UnitType>
+			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
+			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CYBERSUB</UnitType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CYBERSUB</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CYBERSUB</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CYBERSUB</UnitType>
+			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SUPERCARRIER</UnitType>
+			<UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_UAV</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_UAV</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BATTLESUIT</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BATTLESUIT</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BATTLESUIT</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BATTLESUIT</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYBRID_DRONE</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYBRID_DRONE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIODRONE</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIODRONE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYPERMISSILE</UnitType>
+			<UnitAIType>UNITAI_MISSILE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CRAWLER</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CRAWLER</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CRAWLER</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CRAWLER</UnitType>
+			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CHIMERA</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CHIMERA</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CHIMERA</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CHIMERA</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYDRA</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYDRA</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYDRA</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SWARM</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SPEC_FORCES</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SPEC_FORCES</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SPEC_FORCES</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_AIRBORNE_FORCES</UnitType>
+			<UnitAIType>UNITAI_PARADROP</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOTROOPER</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOTROOPER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOTROOPER</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOTROOPER</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_AUTOMATON</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_AUTOMATON</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_AUTOMATON</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ROBOT_INFANTRY</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ROBOT_INFANTRY</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ROBOT_INFANTRY</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ROBOT_INFANTRY</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NANOHIVE</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NANOHIVE</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_VERTOL</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_VERTOL</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_VERTOL</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HOVERTANK</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HOVERTANK</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HOVERTANK</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>24</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_DRONE_FIGHTER_2</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_DRONE_FIGHTER_2</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_DRONE_FIGHTER_2</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_DRONE_FIGHTER_2</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SUBORBITAL_BOMBER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SUBORBITAL_BOMBER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SUBORBITAL_BOMBER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CYBERSUB</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CYBERSUB</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MISSILE_DESTROYER</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MISSILE_DESTROYER</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEODESTROYER</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEODESTROYER</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>23</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SUPERCARRIER</UnitType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_UAV</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_UAV</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_UAV</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BATTLESUIT</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BATTLESUIT</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>24</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYBRID_DRONE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYBRID_DRONE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYBRID_DRONE</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIODRONE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIODRONE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>14</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIODRONE</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYPERMISSILE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYPERMISSILE</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYPERMISSILE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYPERMISSILE</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CRAWLER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CRAWLER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CRAWLER</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>24</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CRAWLER</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CHIMERA</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CHIMERA</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CHIMERA</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYDRA</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYDRA</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYDRA</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SPEC_FORCES</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SPEC_FORCES</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PARATROOPER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PARATROOPER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PARATROOPER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PARATROOPER</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOTROOPER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOTROOPER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>24</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_AUTOMATON</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_AUTOMATON</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ROBOT_INFANTRY</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>24</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ROBOT_INFANTRY</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>24</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NANOHIVE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NANOHIVE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_TREX</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_TRICERATOPS</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_RAPTOR</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_SIGHT_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
+			<PromotionType>PROMOTION_CARGO_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_AUTOMATON</UnitType>
+			<PromotionType>PROMOTION_FW_NETWORKED</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ROBOT_INFANTRY</UnitType>
+			<PromotionType>PROMOTION_FW_NETWORKED</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CRAWLER</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CRAWLER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CRAWLER</UnitType>
+			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CRAWLER</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CRAWLER</UnitType>
+			<PromotionType>PROMOTION_SIGHT_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CRAWLER</UnitType>
+			<PromotionType>PROMOTION_CARGO_III</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CRAWLER</UnitType>
+			<PromotionType>PROMOTION_FREE_PILLAGE_MOVES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_VERTOL</UnitType>
+			<PromotionType>PROMOTION_FLAT_MOVEMENT_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_VERTOL</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_VERTOL</UnitType>
+			<PromotionType>PROMOTION_ANTI_TANK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_VERTOL</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_VERTOL</UnitType>
+			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HOVERTANK</UnitType>
+			<PromotionType>PROMOTION_FLAT_MOVEMENT_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HOVERTANK</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HOVERTANK</UnitType>
+			<PromotionType>PROMOTION_ANTI_TANK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HOVERTANK</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HOVERTANK</UnitType>
+			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
+		</Row>
+		<!--
+		<Row>
+			<UnitType>UNIT_FW_HOVERTANK</UnitType>
+			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
+		</Row>
+		-->
+		<Row>
+			<UnitType>UNIT_FW_DRONE_FIGHTER_2</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_DRONE_FIGHTER_2</UnitType>
+			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_DRONE_FIGHTER_2</UnitType>
+			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_DRONE_FIGHTER_2</UnitType>
+			<PromotionType>PROMOTION_ANTI_AIR_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SUBORBITAL_BOMBER</UnitType>
+			<PromotionType>PROMOTION_SUBORBITAL_EVASION</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SUBORBITAL_BOMBER</UnitType>
+			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MISSILE_DESTROYER</UnitType>
+			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MISSILE_DESTROYER</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MISSILE_DESTROYER</UnitType>
+			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MISSILE_DESTROYER</UnitType>
+			<PromotionType>PROMOTION_WITHDRAW_BEFORE_MELEE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MISSILE_DESTROYER</UnitType>
+			<PromotionType>PROMOTION_CARGO_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEODESTROYER</UnitType>
+			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEODESTROYER</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEODESTROYER</UnitType>
+			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEODESTROYER</UnitType>
+			<PromotionType>PROMOTION_WITHDRAW_BEFORE_MELEE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEODESTROYER</UnitType>
+			<PromotionType>PROMOTION_CARGO_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
+			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
+			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
+			<PromotionType>PROMOTION_CARGO_III</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
+			<PromotionType>PROMOTION_CARGO_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SUPERCARRIER</UnitType>
+			<PromotionType>PROMOTION_CARGO_IV</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SUPERCARRIER</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SUPERCARRIER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CYBERSUB</UnitType>
+			<PromotionType>PROMOTION_INVISIBLE_SUBMARINE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CYBERSUB</UnitType>
+			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CYBERSUB</UnitType>
+			<PromotionType>PROMOTION_CARGO_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CYBERSUB</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CYBERSUB</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CYBERSUB</UnitType>
+			<PromotionType>PROMOTION_SILENT_HUNTER</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CYBERSUB</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_UAV</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_UAV</UnitType>
+			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_UAV</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_UAV</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYBRID_DRONE</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYBRID_DRONE</UnitType>
+			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYBRID_DRONE</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYBRID_DRONE</UnitType>
+			<PromotionType>PROMOTION_MARCH</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYBRID_DRONE</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIODRONE</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIODRONE</UnitType>
+			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIODRONE</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIODRONE</UnitType>
+			<PromotionType>PROMOTION_MARCH</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIODRONE</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYPERMISSILE</UnitType>
+			<PromotionType>PROMOTION_EVASION_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MUTANT</UnitType>
+			<PromotionType>PROMOTION_MARCH</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MUTANT</UnitType>
+			<PromotionType>PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MUTANT</UnitType>
+			<PromotionType>PROMOTION_FW_MUTATION</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CHIMERA</UnitType>
+			<PromotionType>PROMOTION_MARCH</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CHIMERA</UnitType>
+			<PromotionType>PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CHIMERA</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CHIMERA</UnitType>
+			<PromotionType>PROMOTION_VOLLEY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYDRA</UnitType>
+			<PromotionType>PROMOTION_MARCH</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYDRA</UnitType>
+			<PromotionType>PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYDRA</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYDRA</UnitType>
+			<PromotionType>PROMOTION_FREE_PILLAGE_MOVES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYDRA</UnitType>
+			<PromotionType>PROMOTION_VOLLEY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SPEC_FORCES</UnitType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SPEC_FORCES</UnitType>
+			<PromotionType>PROMOTION_RIVAL_TERRITORY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_AIRBORNE_FORCES</UnitType>
+			<PromotionType>PROMOTION_PARADROP_2</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_AIRBORNE_FORCES</UnitType>
+			<PromotionType>PROMOTION_FREE_PILLAGE_MOVES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOTROOPER</UnitType>
+			<PromotionType>PROMOTION_MARCH</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOTROOPER</UnitType>
+			<PromotionType>PROMOTION_RIVAL_TERRITORY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOTROOPER</UnitType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
+			<PromotionType>PROMOTION_MARCH</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
+			<PromotionType>PROMOTION_RIVAL_TERRITORY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NANOHIVE</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NANOHIVE</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
+		</Row>
+		<!--
+		<Row>
+			<UnitType>UNIT_FW_NANOHIVE</UnitType>
+			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
+		</Row>
+		-->
+		<Row>
+			<UnitType>UNIT_FW_NANOHIVE</UnitType>
+			<PromotionType>PROMOTION_FW_NANOHIVE_PROMOTION</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<PromotionType>PROMOTION_FW_MOVE_ALL_TERRAIN</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<PromotionType>PROMOTION_COVER_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<PromotionType>PROMOTION_FW_NANOHIVE_PROMOTION</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<PromotionType>PROMOTION_FW_NEXUS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<PromotionType>PROMOTION_CARGO_IV</PromotionType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_FW_TRICERATOPS</UnitType>
+			<PromotionType>PROMOTION_COVER_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_RAPTOR</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_RAPTOR</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+
+		<Delete UnitType="UNIT_STEALTH_BOMBER" PromotionType="PROMOTION_EVASION_II"/>
+		<!--
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
+		</Row>
+		-->
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_STEALTH_EVASION</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_FW_SUPERCARRIER</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_VERTOL</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_DRONE_FIGHTER_2</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SUBORBITAL_BOMBER</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CRAWLER</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CRAWLER</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIODRONE</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYDRA</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYDRA</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CYBERSUB</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HOVERTANK</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NANOHIVE</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NEXUS</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Unit_ClassUpgrades>
+		<Delete UnitType="UNIT_MODERN_ARMOR"/>
+		<Row>
+			<UnitType>UNIT_MODERN_ARMOR</UnitType>
+			<UnitClassType>UNITCLASS_FW_RAILGUN_TANK</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
+			<UnitClassType>UNITCLASS_MECH</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
+			<UnitClassType>UNITCLASS_FW_MECH_ARTILLERY</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
+			<UnitClassType>UNITCLASS_FW_CRAWLER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FUTURE_SOLDIER</UnitType>
+			<UnitClassType>UNITCLASS_FW_BATTLESUIT</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_AUTOMATON</UnitType>
+			<UnitClassType>UNITCLASS_FW_ROBOT_INFANTRY</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JET_FIGHTER</UnitType>
+			<UnitClassType>UNITCLASS_FW_DRONE_FIGHTER_2</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<UnitClassType>UNITCLASS_FW_SUBORBITAL_BOMBER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+			<UnitClassType>UNITCLASS_FW_CYBERSUB</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DESTROYER</UnitType>
+			<UnitClassType>UNITCLASS_FW_MISSILE_DESTROYER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_MISSILE_DESTROYER</UnitType>
+			<UnitClassType>UNITCLASS_FW_NEODESTROYER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER</UnitType>
+			<UnitClassType>UNITCLASS_FW_SUPERCARRIER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SUPERCARRIER</UnitType>
+			<UnitClassType>UNITCLASS_FW_NEXUS</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BATTLESHIP</UnitType>
+			<UnitClassType>UNITCLASS_FW_ARSENAL_SHIP</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+			<UnitClassType>UNITCLASS_FW_ARSENAL_SHIP</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+			<UnitClassType>UNITCLASS_FW_VERTOL</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_VERTOL</UnitType>
+			<UnitClassType>UNITCLASS_FW_HOVERTANK</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GUIDED_MISSILE</UnitType>
+			<UnitClassType>UNITCLASS_FW_HYPERMISSILE</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BAZOOKA</UnitType>
+			<UnitClassType>UNITCLASS_FW_UAV</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_UAV</UnitType>
+			<UnitClassType>UNITCLASS_FW_HYBRID_DRONE</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_HYBRID_DRONE</UnitType>
+			<UnitClassType>UNITCLASS_FW_BIODRONE</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MUTANT</UnitType>
+			<UnitClassType>UNITCLASS_FW_BIOINFANTRY</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MARINE</UnitType>
+			<UnitClassType>UNITCLASS_FW_SPEC_FORCES</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SPEC_FORCES</UnitType>
+			<UnitClassType>UNITCLASS_FW_BIOINFANTRY</UnitClassType>
+		</Row>
+		<Delete UnitType="UNIT_PARATROOPER"/>
+		<Row>
+			<UnitType>UNIT_PARATROOPER</UnitType>
+			<UnitClassType>UNITCLASS_FW_AIRBORNE_FORCES</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_AIRBORNE_FORCES</UnitType>
+			<UnitClassType>UNITCLASS_XCOM_SQUAD</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
+			<UnitClassType>UNITCLASS_FW_BIOTROOPER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_CHIMERA</UnitType>
+			<UnitClassType>UNITCLASS_FW_HYDRA</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_FW_SUPERCARRIER</UnitType>
+			<SelectionSound>AS2D_SELECT_CARRIER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CARRIER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_PARADROP_2</Type>
+			<Description>TXT_KEY_PROMOTION_PARADROP_2</Description>
+			<Help>TXT_KEY_PROMOTION_PARADROP_2</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<DropRange>20</DropRange>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_PARADROP</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_MOVE_ALL_TERRAIN</Type>
+			<Description>TXT_KEY_PROMOTION_MOVE_ALL_TERRAIN</Description>
+			<Help>TXT_KEY_PROMOTION_MOVE_ALL_TERRAIN_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PortraitIndex>58</PortraitIndex>
+			<PediaEntry>TXT_KEY_PROMOTION_MOVE_ALL_TERRAIN</PediaEntry>
+			<CanMoveAllTerrain>true</CanMoveAllTerrain>
+			<LostWithUpgrade>1</LostWithUpgrade>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_NETWORKED</Type>
+			<Description>TXT_KEY_PROMOTION_FW_NETWORKED</Description>
+			<Help>TXT_KEY_PROMOTION_FW_NETWORKED_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<AdjacentMod>20</AdjacentMod>
+			<PortraitIndex>43</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_NETWORKED</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_SKYNET_LINK</Type>
+			<Description>TXT_KEY_PROMOTION_FW_SKYNET_LINK</Description>
+			<Help>TXT_KEY_PROMOTION_FW_SKYNET_LINK_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<OpenAttack>10</OpenAttack>
+			<OpenDefense>10</OpenDefense>
+			<RoughAttack>10</RoughAttack>
+			<RoughDefense>10</RoughDefense>
+			<PortraitIndex>43</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_SKYNET_LINK</PediaEntry>
+		</Row>
+
+		<Row>
+			<Type>PROMOTION_FW_NANOHIVE_PROMOTION</Type>
+			<Description>TXT_KEY_PROMOTION_FW_NANOHIVE_PROMOTION</Description>
+			<Help>TXT_KEY_PROMOTION_FW_NANOHIVE_PROMOTION_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>43</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_NANOHIVE_PROMOTION</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_NEXUS</Type>
+			<Description>TXT_KEY_PROMOTION_FW_NEXUS</Description>
+			<Help>TXT_KEY_PROMOTION_FW_NEXUS_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<NearbyEnemyCombatMod>-20</NearbyEnemyCombatMod>
+			<NearbyEnemyCombatRange>2</NearbyEnemyCombatRange>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_FW_NEXUS</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_MUTATION</Type>
+			<Description>TXT_KEY_PROMOTION_FW_MUTATION</Description>
+			<Help>TXT_KEY_PROMOTION_FW_MUTATION_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_MUTATION</PediaEntry>
+		</Row>
+
+		<Row>
+			<Type>PROMOTION_FW_GENGINEERED</Type>
+			<Description>TXT_KEY_PROMOTION_FW_GENGINEERED</Description>
+			<Help>TXT_KEY_PROMOTION_FW_GENGINEERED_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_GENGINEERED</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_ADRENAL_GLANDS</Type>
+			<Description>TXT_KEY_PROMOTION_FW_ADRENAL_GLANDS</Description>
+			<Help>TXT_KEY_PROMOTION_FW_ADRENAL_GLANDS_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_FW_GENGINEERED</PromotionPrereqOr1>
+			<RoughAttack>20</RoughAttack>
+			<RoughDefense>20</RoughDefense>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_ADRENAL_GLANDS</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_PREDATOR_INSTINCT</Type>
+			<Description>TXT_KEY_PROMOTION_FW_PREDATOR_INSTINCT</Description>
+			<Help>TXT_KEY_PROMOTION_FW_PREDATOR_INSTINCT_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_FW_ADRENAL_GLANDS</PromotionPrereqOr1>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_PREDATOR_INSTINCT</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_CHAMELEON</Type>
+			<Description>TXT_KEY_PROMOTION_FW_CHAMELEON</Description>
+			<Help>TXT_KEY_PROMOTION_FW_CHAMELEON_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_FW_PREDATOR_INSTINCT</PromotionPrereqOr1>
+			<Invisible>INVISIBLE_SUBMARINE</Invisible>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_CHAMELEON</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_ENHANCED_REFLEXES</Type>
+			<Description>TXT_KEY_PROMOTION_FW_ENHANCED_REFLEXES</Description>
+			<Help>TXT_KEY_PROMOTION_FW_ENHANCED_REFLEXES_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_FW_GENGINEERED</PromotionPrereqOr1>
+			<RangedDefenseMod>33</RangedDefenseMod>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_ENHANCED_REFLEXES</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_ENHANCED_VISION</Type>
+			<Description>TXT_KEY_PROMOTION_FW_ENHANCED_VISION</Description>
+			<Help>TXT_KEY_PROMOTION_FW_ENHANCED_VISION_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_FW_ENHANCED_REFLEXES</PromotionPrereqOr1>
+			<VisibilityChange>1</VisibilityChange>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_ENHANCED_VISION</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_ENHANCED_MUSCLES</Type>
+			<Description>TXT_KEY_PROMOTION_FW_ENHANCED_MUSCLES</Description>
+			<Help>TXT_KEY_PROMOTION_FW_ENHANCED_MUSCLES_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_FW_ENHANCED_VISION</PromotionPrereqOr1>
+			<MovesChange>1</MovesChange>
+			<IgnoreTerrainCost>true</IgnoreTerrainCost>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_ENHANCED_MUSCLES</PediaEntry>
+		</Row>
+
+		<Row>
+			<Type>PROMOTION_FW_BIOMODS</Type>
+			<Description>TXT_KEY_PROMOTION_FW_BIOMODS</Description>
+			<Help>TXT_KEY_PROMOTION_FW_BIOMODS_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<OpenAttack>10</OpenAttack>
+			<OpenDefense>10</OpenDefense>
+			<RoughAttack>10</RoughAttack>
+			<RoughDefense>10</RoughDefense>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_BIOMODS</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_STIM_MOD</Type>
+			<Description>TXT_KEY_PROMOTION_FW_STIM_MOD</Description>
+			<Help>TXT_KEY_PROMOTION_FW_STIM_MOD_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>			
+			<PortraitIndex>4</PortraitIndex>
+			<PromotionPrereqOr1>PROMOTION_FW_BIOMODS</PromotionPrereqOr1>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_STIM_MOD</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_STIM_MOD_EMPTY</Type>
+			<Description>TXT_KEY_PROMOTION_FW_STIM_MOD_EMPTY</Description>
+			<Help>TXT_KEY_PROMOTION_FW_STIM_MOD_EMPTY_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_STIM_MOD_EMPTY</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_BOOST_MOD</Type>
+			<Description>TXT_KEY_PROMOTION_FW_BOOST_MOD</Description>
+			<Help>TXT_KEY_PROMOTION_FW_BOOST_MOD_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_FW_BIOMODS</PromotionPrereqOr1>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_BOOST_MOD</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_BOOST_MOD_EMPTY</Type>
+			<Description>TXT_KEY_PROMOTION_FW_BOOST_MOD_EMPTY</Description>
+			<Help>TXT_KEY_PROMOTION_FW_BOOST_MOD_EMPTY_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_BOOST_MOD_EMPTY</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_BOOST_MOD_EFFECT_3</Type>
+			<Description>TXT_KEY_PROMOTION_FW_BOOST_MOD_EFFECT_3</Description>
+			<Help>TXT_KEY_PROMOTION_FW_BOOST_MOD_EFFECT_3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<OpenAttack>30</OpenAttack>
+			<OpenDefense>30</OpenDefense>
+			<RoughAttack>30</RoughAttack>
+			<RoughDefense>30</RoughDefense>
+			<PortraitIndex>4</PortraitIndex>
+			<PromotionPrereqOr1>PROMOTION_FW_BIOMODS</PromotionPrereqOr1>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_BOOST_MOD_EFFECT_3</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_BOOST_MOD_EFFECT_2</Type>
+			<Description>TXT_KEY_PROMOTION_FW_BOOST_MOD_EFFECT_2</Description>
+			<Help>TXT_KEY_PROMOTION_FW_BOOST_MOD_EFFECT_2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<OpenAttack>20</OpenAttack>
+			<OpenDefense>20</OpenDefense>
+			<RoughAttack>20</RoughAttack>
+			<RoughDefense>20</RoughDefense>
+			<PortraitIndex>4</PortraitIndex>
+			<PromotionPrereqOr1>PROMOTION_FW_BIOMODS</PromotionPrereqOr1>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_BOOST_MOD_EFFECT_2</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_BOOST_MOD_EFFECT_1</Type>
+			<Description>TXT_KEY_PROMOTION_FW_BOOST_MOD_EFFECT_1</Description>
+			<Help>TXT_KEY_PROMOTION_FW_BOOST_MOD_EFFECT_1_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<OpenAttack>10</OpenAttack>
+			<OpenDefense>10</OpenDefense>
+			<RoughAttack>10</RoughAttack>
+			<RoughDefense>10</RoughDefense>
+			<PortraitIndex>4</PortraitIndex>
+			<PromotionPrereqOr1>PROMOTION_FW_BIOMODS</PromotionPrereqOr1>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_BOOST_MOD_EFFECT_1</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FW_TOXIN_MOD</Type>
+			<Description>TXT_KEY_PROMOTION_FW_TOXIN_MOD</Description>
+			<Help>TXT_KEY_PROMOTION_FW_TOXIN_MOD_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>4</PortraitIndex>
+			<PromotionPrereqOr1>PROMOTION_FW_BIOMODS</PromotionPrereqOr1>
+			<IconAtlas>CIV_COLOR_ATLAS_FW_PROMOTIONS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FW_TOXIN_MOD</PediaEntry>
+		</Row>
+
+		<Row>
+			<Type>PROMOTION_STEALTH_EVASION</Type>
+			<Description>TXT_KEY_PROMOTION_STEALTH_EVASION</Description>
+			<Help>TXT_KEY_PROMOTION_STEALTH_EVASION</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<CannotBeChosen>true</CannotBeChosen>
+			<EvasionChange>70</EvasionChange>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_STEALTH_EVASION</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SUBORBITAL_EVASION</Type>
+			<Description>TXT_KEY_PROMOTION_SUBORBITAL_EVASION</Description>
+			<Help>TXT_KEY_PROMOTION_SUBORBITAL_EVASION</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<CannotBeChosen>true</CannotBeChosen>
+			<EvasionChange>85</EvasionChange>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_SUBORBITAL_EVASION</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_Features>
+		<Row>
+			<PromotionType>PROMOTION_FW_PREDATOR_INSTINCT</PromotionType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<Defense>30</Defense>
+			<Attack>30</Attack>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_PREDATOR_INSTINCT</PromotionType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<Defense>30</Defense>
+			<Attack>30</Attack>
+		</Row>
+	</UnitPromotions_Features>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_FW_SKYNET_LINK</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_SKYNET_LINK</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_SKYNET_LINK</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_SKYNET_LINK</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_SKYNET_LINK</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_SKYNET_LINK</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_SKYNET_LINK</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_SKYNET_LINK</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_SKYNET_LINK</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_SKYNET_LINK</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_GENGINEERED</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_GENGINEERED</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_GENGINEERED</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_GENGINEERED</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_ENHANCED_MUSCLES</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_ENHANCED_MUSCLES</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_ENHANCED_MUSCLES</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_ENHANCED_MUSCLES</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_ENHANCED_VISION</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_ENHANCED_VISION</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_ENHANCED_VISION</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_ENHANCED_VISION</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+				<Row>
+			<PromotionType>PROMOTION_FW_ENHANCED_REFLEXES</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_ENHANCED_REFLEXES</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_ENHANCED_REFLEXES</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_ENHANCED_REFLEXES</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+
+
+		<Row>
+			<PromotionType>PROMOTION_FW_ADRENAL_GLANDS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_ADRENAL_GLANDS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_ADRENAL_GLANDS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_ADRENAL_GLANDS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_PREDATOR_INSTINCT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_PREDATOR_INSTINCT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_PREDATOR_INSTINCT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_PREDATOR_INSTINCT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_CHAMELEON</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_CHAMELEON</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_CHAMELEON</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_CHAMELEON</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+
+		<Row>
+			<PromotionType>PROMOTION_FW_BIOMODS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_BIOMODS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_BIOMODS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_BIOMODS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_STIM_MOD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_STIM_MOD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_STIM_MOD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_STIM_MOD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_BOOST_MOD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_BOOST_MOD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_BOOST_MOD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_BOOST_MOD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_TOXIN_MOD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_TOXIN_MOD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_TOXIN_MOD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FW_TOXIN_MOD</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+
+	</UnitPromotions_UnitCombats>
+	<!--
+	<UnitPromotions_UnitClasses>
+		<Row>
+			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
+			<UnitClassType>UNITCLASS_FW_CYBERSUB</UnitClassType>
+			<Attack>100</Attack>
+		</Row>
+	</UnitPromotions_UnitClasses>
+	-->
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_PARADROP_2">
+			<Text>Paradrop 2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PARADROP_2_HELP">
+			<Text>May paradrop up to 20 tiles away.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_PARADROP_2">
+			<Text>May paradrop up to 20 tiles away.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_NETWORKED">
+			<Text>Battle Network</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_NETWORKED_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength when adjacent to another friendly unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_NETWORKED">
+			<Text>+20% [ICON_STRENGTH] Combat Strength when adjacent to another friendly unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_SKYNET_LINK">
+			<Text>Skynet Uplink</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_SKYNET_LINK_HELP">
+			<Text>+10% [ICON_STRENGTH] Combat Strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_SKYNET_LINK">
+			<Text>+10% [ICON_STRENGTH] Combat Strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_NANOHIVE_PROMOTION">
+			<Text>Nanoswarm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_NANOHIVE_PROMOTION_HELP">
+			<Text>Heals friendly units within two tiles for 10 HP each turn, and damages enemy units within two tiles for 10 HP each turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_NANOHIVE_PROMOTION">
+			<Text>Heals friendly units within two tiles for 10 HP each turn, and damages enemy units within two tiles for 10 HP each turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_NEXUS">
+			<Text>Command Nexus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_NEXUS_HELP">
+			<Text>Reduces the combat strength of enemy units within two tiles by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_NEXUS">
+			<Text>Reduces the combat strength of enemy units within two tiles by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_MUTATION">
+			<Text>Mutation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_MUTATION_HELP">
+			<Text>When this unit is killed by an enemy, adjacent enemy units with 50% or less HP may become Barbarians.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_MUTATION">
+			<Text>When this unit is killed by an enemy, adjacent enemy units with 50% or less HP may become Barbarians.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_GENGINEERED">
+			<Text>Gengineered</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_GENGINEERED_HELP">
+			<Text>Permits choice of gengineered promotions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_GENGINEERED">
+			<Text>Permits choice of gengineered promotions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_ADRENAL_GLANDS">
+			<Text>Adrenal Glands</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_ADRENAL_GLANDS_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength in rough terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_ADRENAL_GLANDS">
+			<Text>+20% [ICON_STRENGTH] Combat Strength in rough terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_PREDATOR_INSTINCT">
+			<Text>Predatorial Instinct</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_PREDATOR_INSTINCT_HELP">
+			<Text>+30% [ICON_STRENGTH] Combat Strength in Forest and Jungle terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_PREDATOR_INSTINCT">
+			<Text>+30% [ICON_STRENGTH] Combat Strength in Forest and Jungle terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_CHAMELEON">
+			<Text>Photomorphic Camouflage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_CHAMELEON_HELP">
+			<Text>Invisible unless adjacent to an enemy unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_CHAMELEON">
+			<Text>Invisible unless adjacent to an enemy unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_ENHANCED_REFLEXES">
+			<Text>Enhanced Reflexes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_ENHANCED_REFLEXES_HELP">
+			<Text>33% bonus against ranged attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_ENHANCED_REFLEXES">
+			<Text>33% bonus against ranged attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_ENHANCED_VISION">
+			<Text>Enhanced Vision</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_ENHANCED_VISION_HELP">
+			<Text>+1 Sight Range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_ENHANCED_VISION">
+			<Text>+1 Sight Range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_ENHANCED_MUSCLES">
+			<Text>Enhanced Musculature</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_ENHANCED_MUSCLES_HELP">
+			<Text>+1 Movement and is not affected by movement penalties from terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_ENHANCED_MUSCLES">
+			<Text>+1 Movement and is not affected by movement penalties from terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_BIOMODS">
+			<Text>Biomods</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_BIOMODS_HELP">
+			<Text>Permits choice of biomod promotions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_BIOMODS">
+			<Text>Permits choice of biomod promotions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_TOXIN_MOD">
+			<Text>Toxin Mod</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_TOXIN_MOD_HELP">
+			<Text>When this unit dies, it deals 10 damage to adjacent enemy units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_TOXIN_MOD">
+			<Text>When this unit dies, it deals 10 damage to adjacent enemy units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_BOOST_MOD">
+			<Text>Boost Mod</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_BOOST_MOD_HELP">
+			<Text>When this unit starts the turn below 50% health, it gains a temporary increase to combat strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_BOOST_MOD">
+			<Text>When this unit starts the turn below 50% health, it gains a temporary increase to combat strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_BOOST_MOD_EMPTY">
+			<Text>Boost Mod (used)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_BOOST_MOD_EMPTY_HELP">
+			<Text>This bonus has already been used. Return to a city with a Biomod Facility to recharge it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_BOOST_MOD_EMPTY">
+			<Text>This bonus has already been used. Return to a city with a Biomod Facility to recharge it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_BOOST_MOD_EFFECT_3">
+			<Text>Boost Mod Bonus 3</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_BOOST_MOD_EFFECT_3_HELP">
+			<Text>30% increase to combat strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_BOOST_MOD_3_EFFECT">
+			<Text>30% increase to combat strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_BOOST_MOD_EFFECT_2">
+			<Text>Boost Mod Bonus 2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_BOOST_MOD_EFFECT_2_HELP">
+			<Text>20% increase to combat strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_BOOST_MOD_2_EFFECT">
+			<Text>20% increase to combat strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_BOOST_MOD_EFFECT_1">
+			<Text>Boost Mod Bonus 1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_BOOST_MOD_EFFECT_1_HELP">
+			<Text>10% increase to combat strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_BOOST_MOD_1_EFFECT">
+			<Text>10% increase to combat strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_STIM_MOD">
+			<Text>Stim Mod</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_STIM_MOD_HELP">
+			<Text>When this unit starts the turn below 50% health, it gains +25 HP.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_STIM_MOD">
+			<Text>When this unit starts the turn below 50% health, it gains +25 HP.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_STIM_MOD_EMPTY">
+			<Text>Stim Mod (used)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_STIM_MOD_EMPTY_HELP">
+			<Text>This bonus has already been used. Return to a city with a Biomod Facility to recharge it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_STIM_MOD_EMPTY">
+			<Text>This bonus has already been used. Return to a city with a Biomod Facility to recharge it.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_STEALTH_EVASION">
+			<Text>Stealth Bomber Evasion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STEALTH_EVASION_HELP">
+			<Text>70% chance of evading interception.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_STEALTH_EVASION">
+			<Text>70% chance of evading interception.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUBORBITAL_EVASION">
+			<Text>Suborbital Bomber Evasion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUBORBITAL_EVASION_HELP">
+			<Text>85% chance of evading interception.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_SUBORBITAL_EVASION">
+			<Text>85% chance of evading interception.</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_UNIT_FW_DRONE_FIGHTER_2">
+			<Text>Drone Fighter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_DRONE_FIGHTER_2_TEXT">
+			<Text>Advances in drone technology and autonomous computer systems lead to the development of advanced drone fighters, capable of handling air superiority roles. One of the major limitations on the development of fighter aircraft was the human element, as there was a limit to how many G stresses a human body could tolerate before failing. An automated fighter had no such restrictions, and thus could perform to the full capability of modern engineering.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_DRONE_FIGHTER_2_STRATEGY">
+			<Text>The Drone Fighter is a futuristic air unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_DRONE_FIGHTER_2_HELP">
+			<Text>Air Unit designed to dominate the skies and intercept incoming enemy aircraft.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_SUBORBITAL_BOMBER">
+			<Text>Suborbital Bomber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_SUBORBITAL_BOMBER_TEXT">
+			<Text>In an effort to try and push the range and striking power of bombers to their limit, newer generations of bombers were developed capable of travelling high in the atmosphere, just short of actually travelling into orbit. At these altitudes, they were extremely difficult to intercept, and could travel quickly through the thin atmosphere on semi-ballistic trajectories.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_SUBORBITAL_BOMBER_STRATEGY">
+			<Text>The Suborbital Bomber is a futuristic ranged unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_SUBORBITAL_BOMBER_HELP">
+			<Text>A long-range Air Unit that rains death from above onto enemy Units and Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_AUTOMATON">
+			<Text>Automaton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_AUTOMATON_TEXT">
+			<Text>Since the earliest robots were developed, the concept of a robotic soldier has existed. While some success was had with remote-controlled machines as early as World War Two, it wasn't until the deployment of drone combat vehicles at the end of the 20th century that the concept of an autonomous combat machine began to seem feasible. It would still take more extensive development of cognitive technology for autonomous weapon systems, often termed "automatons", to become practical on the battlefield.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_AUTOMATON_STRATEGY">
+			<Text>The Automaton is a futuristic infantry unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_AUTOMATON_HELP">
+			<Text>Cheap and powerful futuristic Unit that is stronger in groups. Constructed more quickly in cities with Autoplants and Drone Hives.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_CHIMERA">
+			<Text>Chimera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_CHIMERA_TEXT">
+			<Text>With the development of gengineering permitting the creation of entirely new organisms to fill various needs, many new chimeras were developed to be utilized in combat environments. With predatorial instincts and engineered abilities allowing them to move quickly, traverse rough terrain, and even adaptive camouflage, these chimeras proved to be terrifying to human military forces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_CHIMERA_STRATEGY">
+			<Text>The Chimera is a futuristic infantry unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_CHIMERA_HELP">
+			<Text>Fast, cheap Unit of the future that requires no special resources to build.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_HYDRA">
+			<Text>Bio-Titan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_HYDRA_TEXT">
+			<Text>The ultimate product of bioengineering, the Bio-Titan is a massive organism engineered solely for combat. With the increasingly refined development of genetic chimeras and other warforms, some bioengineers decided to see just how powerful a warform could become. Utilizing lessons learned from the genetic cloning of ancient dinosaurs, themselves some of the largest animals to have walked the earth, the Bio-Titan was engineered to be massive. Its skeleton reinforced with nanomaterials grown in biofactories, and its metabolism enhanced by implanted radioisotope generators. It has been further augmented by incorporating organic biogenesis tanks into its body, allowing it to spawn short-lived "genoswarms" when threatened by an enemy. Combined with the attacks by its accompanying swarms, a Bio-Titan can deliver a massive barrage of attacks rivalling that of GDRs, while still possessing the regenerative capabilities of other organic warforms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_HYDRA_STRATEGY">
+			<Text>The Bio-Titan is a futuristic melee unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_HYDRA_HELP">
+			<Text>One of the most powerful end-game units, the Bio-Titan can spawn additional units when enemies are near.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_SWARM">
+			<Text>Genoswarm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_SWARM_TEXT">
+			<Text>Many of the original bioengineered chimeras were short-lived, lacking in some of the survival instincts and even necessary organs for prolonged survival. While many of these early warforms were discarded in favor of later, more successful designs, the development of the Bio-Titan caused bioengineers to re-examine these early designs to enable the Bio-Titans to function somewhat as transports or carriers, giving them small support units that could be spawned when the Bio-Titan was under immediate threat. Longevity was not a requirement for these swarms -- in fact, most lack even any gastrointestinal system, surviving solely upon stored energy reserves until they perish. Designed as relentless, short-lived attackers, they need no survival instinct, and have little more than a basic need to make frenzied attacks against their enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_SWARM_STRATEGY">
+			<Text>The Genoswarm is a futuristic infantry unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_SWARM_HELP">
+			<Text>Fast infantry unit that dies at the end of the turn, causing damage to enemies nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_BIOINFANTRY">
+			<Text>Organic Infantry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_BIOINFANTRY_TEXT">
+			<Text>Advances in genetic engineering and forced tissue growth lead to increasing developments in the fields of organic composites and implants. Many of these advances were turned towards military ends, used to develop regenerative body armor and combat implants that enhanced the performance of soldiers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_BIOINFANTRY_STRATEGY">
+			<Text>The Organic Infantry is a futuristic infantry unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_BIOINFANTRY_HELP">
+			<Text>Elite infantry unit of the future that can travel through rough terrain and is stronger in enemy territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_BIOTROOPER">
+			<Text>BioTrooper</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_BIOTROOPER_TEXT">
+			<Text>Advances in biomodification eventually permitted extensive modifications to the human body, to the point that they barely seemed human anymore. Nowhere was this most apparent than in the development of biomodified soldiers, often called "biotroopers". These soldiers were as fast and durable as infantry wearing powered armor, but with fewer logistical demands, and the capability to regenerate combat damage with relative ease. Biotroopers did tend to cause a certain amount of unease around less heavily modified individuals, however, and typically ended up forming their own insular communities amongst ecocities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_BIOTROOPER_STRATEGY">
+			<Text>The BioTrooper is a futuristic infantry unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_BIOTROOPER_HELP">
+			<Text>Elite infantry unit of the future that can travel through rough terrain and is stronger in enemy territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_BATTLESUIT">
+			<Text>Battlesuit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_BATTLESUIT_TEXT">
+			<Text>While powered armor gave human soldiers unparalleled protection and strength, it still relies on a human to operate the suit. Advances in artificial intelligence eventually lead to the ultimate soldier - a robotic unit that could fight equally as well as a human. Although there were a number of concerns about the prospect of fielding large numbers of robotic units with minimal human control, those societies that did so found them to be highly efficient and effective on the battlefield, with fewer issues involved in adapting them back to civilian duties during peacetime.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_BATTLESUIT_STRATEGY">
+			<Text>The Battlesuit is a futuristic infantry unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_BATTLESUIT_HELP">
+			<Text>Basic Unit of the future that requires no special resources to build.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_ROBOT_INFANTRY">
+			<Text>Robot Infantry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_ROBOT_INFANTRY_TEXT">
+			<Text>While powered armor gave human soldiers unparalleled protection and strength, it still relies on a human to operate the suit. Advances in artificial intelligence eventually lead to the ultimate soldier - a robotic unit that could fight equally as well as a human. Although there were a number of concerns about the prospect of fielding large numbers of robotic units with minimal human control, those societies that did so found them to be highly efficient and effective on the battlefield, with fewer issues involved in adapting them back to civilian duties during peacetime.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_ROBOT_INFANTRY_STRATEGY">
+			<Text>The Robot Infantry is a futuristic infantry unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_ROBOT_INFANTRY_HELP">
+			<Text>Powerful futuristic Unit that is stronger in groups. Constructed more quickly in cities with Autoplants and Drone Hives.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_FW_RAILGUN_TANK">
+			<Text>Railgun Armor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_RAILGUN_TANK_TEXT">
+			<Text>While conventional tank munitions have continued to improve over the decades, electromotive weapons hold the potential to be even more devastating. Conventional cannons had increasingly adopted sabot rounds to penetrate enemy armor, as these rounds could focus more energy on a smaller area, but railguns could fire rounds with a similarly small surface area even faster. The earliest railguns were mounted upon naval vessels, but advances in power plants and energy systems eventually lead to newer generations of railguns that could be mounted on armored vehicles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_RAILGUN_TANK_STRATEGY">
+			<Text>The Railgun Armor is a futuristic armored unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_RAILGUN_TANK_HELP">
+			<Text>Fast and powerful futuristic Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_MECH_ARTILLERY">
+			<Text>Mech Artillery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_MECH_ARTILLERY_TEXT">
+			<Text>While wheeled and tracked vehicles are still the most practical, the concept of a legged combat vehicle has long captured the imagination of engineers and scientists. It was inevitable that experimentation towards making viable legged vehicles would be conducted, with the earliest practical prototypes being multilegged frames. These walkers could traverse some rough terrain that even tracked vehicles couldn't, although most were outfitted with wheeled secondary movement systems to allow them to drive along roads and smooth terrain at higher speeds than they could walk. Their articulated frames had difficulty withstanding the recoil of tank cannons, however, and thus they were typically outfitted with missile systems to avoid any problems. These mechs became useful as artillery platforms, able to fire from locations unreachable by conventional vehicles, confounding efforts to deter them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_MECH_ARTILLERY_STRATEGY">
+			<Text>The Mech Artillery is a futuristic siege unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_MECH_ARTILLERY_HELP">
+			<Text>Powerful siege unit of the future.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_VERTOL">
+			<Text>Vertol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_VERTOL_TEXT">
+			<Text>As the technology behind vertical take-off and landing aircraft matured, an increasing variety of designs began to appear, displacing the standard helicopter gunship. An increasing number of VTOL aircraft utilized jet turbines, but were designed to allow the engines to pivot or otherwise direct their thrust. These aircraft, because of their VTOL capabilities, were often referred to as "vertols" as a shorthand.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_VERTOL_STRATEGY">
+			<Text>The Vertol is a futuristic aerial unit designed to hunt enemy Armor units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_VERTOL_HELP">
+			<Text>Unit specialized in fighting Modern and Railgun Armor. It is capable of hovering over Mountains, but takes damage if ending its turn on one.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_HOVERTANK">
+			<Text>Hovertank</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_HOVERTANK_TEXT">
+			<Text>The concept of a tank that could cross any terrain by hovering over it has long been a staple of science fiction. Eventually, however, advances in materials engineering, power plants, and control systems made this a reality. With improved power plants, vertols could be configured to carry enough armor to rival a ground-based tank, and sophisticated expert systems and cybernetic controls permitted their crews to handle the aerodynamically unstable craft. These new units were as fast as older vertols, but as heavily armed and armored as tanks. Often they were configured with missiles with EMP warheads, allowing them to devastate advanced armor units, although they proved to be less successful against infantry utilizing biomodifications.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_HOVERTANK_STRATEGY">
+			<Text>The Hovertank is a futuristic aerial unit designed to hunt enemy Armor units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_HOVERTANK_HELP">
+			<Text>Unit specialized in fighting Railgun Armor and Giant Death Robots. It is capable of hovering over Mountains, but takes damage if ending its turn on one.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_CYBERSUB">
+			<Text>Cybersub</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_CYBERSUB_TEXT">
+			<Text>Life on board a submarine has always been stressful for its crews, demanding long periods of time spent in extremely confined quarters. As computer systems became more sophisticated, it was a natural conclusion to try and automate as many of the processes on board submarines, to reduce the number of crew required. Advanced in nanomaterials also permitted a new generation of submarine hulls and torpedo weapons that could move faster and hit targets further away. The extensive automation and computer-assisted controls lead to this new generation of submarines being termed "cybersubs".</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_CYBERSUB_STRATEGY">
+			<Text>The Cybersub is a futuristic submarine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_CYBERSUB_HELP">
+			<Text>Invisible to all Units except Destroyers, Missile Cruisers, Arsenal Ships, and other Submarines, or until it attacks or is adjacent to another unit. Can carry two Missiles, and is specialized in attacking Naval Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_MISSILE_DESTROYER">
+			<Text>Missile Destroyer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_MISSILE_DESTROYER_TEXT">
+			<Text>With the development of guided missiles as a method of naval and shore bombardment, navies began to experiment with various platforms to carry and launch them from. The Soviet Union favored larger guided missile cruisers which would carry a large number of missiles to perform saturation attacks, using them as the core for their combat groups. The United States, on the other hand, utilized carriers as the core for their combat groups, and thus outfitted destroyer hulls with guided missiles to act as escorts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_MISSILE_DESTROYER_STRATEGY">
+			<Text>The Missile Destroyer is a futuristic version of the Destroyer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_MISSILE_DESTROYER_HELP">
+			<Text>Fast futuristic ship making it highly effective at recon. Also used to hunt down and destroy enemy Submarines. Fights as a naval melee unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_NEODESTROYER">
+			<Text>Advanced Destroyer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_NEODESTROYER_TEXT">
+			<Text>Ever since their development, destroyers have been an indispensable part of modern navies. With their high speed and sensor suites, they could serve as a first line of defense, spotting hostile ships and submarines. Advanced in materials engineering and sensor technology have lead to continuous upgrades in their design, however. Particularly with the advent of stealth technology and computer systems to enhance the effectiveness of sensor systems, these new, advanced destroyers have become an even more essential part of the navy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_NEODESTROYER_STRATEGY">
+			<Text>The Advanced Destroyer is a futuristic version of the Destroyer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_NEODESTROYER_HELP">
+			<Text>Fast futuristic ship making it highly effective at recon. Also used to hunt down and destroy enemy Submarines. Fights as a naval melee unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_ARSENAL_SHIP">
+			<Text>Arsenal Ship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_ARSENAL_SHIP_TEXT">
+			<Text>An arsenal ship is a concept for a floating missile platform intended to have as many as five hundred vertical launch bays for mid-sized missiles, most likely cruise missiles. In some naval doctrines, arsenal ships would be commanded remotely by another ship, although as computer systems became more sophisticated some were converted to become largely autonomous.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_ARSENAL_SHIP_STRATEGY">
+			<Text>The Arsenal Ship is a futuristic successor to the Missile Cruiser. It can carry four Missile units, as well as having its own powerful ranged attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_ARSENAL_SHIP_HELP">
+			<Text>The Arsenal Ship is a futuristic successor to the Missile Cruiser. It can carry four Missile units, as well as having its own powerful ranged attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_SUPERCARRIER">
+			<Text>Supercarrier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_SUPERCARRIER_HELP">
+			<Text>Carries up to 4 Aircraft.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_SUPERCARRIER_STRATEGY">
+			<Text>The Supercarrier is a specialized vessel which carries fighter airplanes, bombers (but not stealth bombers), and atomic bombs. While the Supercarrier cannot directly attack, the aircraft it carries makes it the most powerful offensive weapon afloat. Defensively, while the Supercarrier can defend itself from both close range surface and long range air attacks, the Supercarrier is still weak and should be escorted by Missile Destroyers and Nuclear Submarines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_SUPERCARRIER_TEXT">
+			<Text>The Supercarrier is the nuclear age evolution of the Aircraft Carrier.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_UAV">
+			<Text>Drone UAV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_UAV_TEXT">
+			<Text>Unmanned aerial vehicles were used as early as 1964, during the Vietnam War, but did not enter widespread use until the necessary technologies matured towards the end of the 20th century. While initially used in a primarily reconnaissance role in environments too hazardous to risk human pilots in, armed UAVs became increasingly prevalent as a means of delivering precision strikes at long range without needing an expensive manned aircraft.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_UAV_STRATEGY">
+			<Text>The Drone UAV is a modern ranged combat unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_UAV_HELP">
+			<Text>A modern recon and ranged unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_HYBRID_DRONE">
+			<Text>Hybrid Drone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_HYBRID_DRONE_TEXT">
+			<Text>The advances made in biocomputers and organic composites lead to experimentation in incorporating biological components into existing unmanned units. Termed "hybrid drones", the organic components of these units made it easier to repair and sustain them in the field, due to the regenerative technologies that had been developed for certain infantry units. One unusual side effect was that the drones seemed to develop almost animalistic impulses, become particularly predatory towards hostile aircraft, particularly slower-moving vertols and hovertanks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_HYBRID_DRONE_STRATEGY">
+			<Text>The Hybrid Drone is a futuristic ranged combat unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_HYBRID_DRONE_HELP">
+			<Text>The most powerful ranged combat unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_BIODRONE">
+			<Text>Biodrone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_BIODRONE_TEXT">
+			<Text>The advances made in biocomputers and organic composites lead to experimentation in incorporating biological components into existing unmanned units. Termed "hybrid drones", the organic components of these units made it easier to repair and sustain them in the field, due to the regenerative technologies that had been developed for certain infantry units. One unusual side effect was that the drones seemed to develop almost animalistic impulses, become particularly predatory towards hostile aircraft, particularly slower-moving vertols and hovertanks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_BIODRONE_STRATEGY">
+			<Text>The Hybrid Drone is a futuristic ranged combat unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_BIODRONE_HELP">
+			<Text>The most powerful ranged combat unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_HYPERMISSILE">
+			<Text>Hypervelocity Missile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_HYPERMISSILE_TEXT">
+			<Text>Improvements in nanomaterials engineering and propulsion technologies lead to a leap forwards in the design of guided missiles. Utilizing ramjet engines with extra-lightweight frames, this new generation of missiles was capable of reaching hypersonic speeds, allowing them to strike from further away before a response could be made.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_HYPERMISSILE_STRATEGY">
+			<Text>The Hypervelocity Missile is a futuristic version of the Guided Missile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_HYPERMISSILE_HELP">
+			<Text>A one-shot Unit that may be used once to damage enemy Units or Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_CRAWLER">
+			<Text>Crawler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_CRAWLER_TEXT">
+			<Text>As Mech Artillery became increasingly predominant, certain logistical issues began to crop up, as Mech Artillery units could travel to locations where resupply was difficult with conventional logistics methods. At the same time, advances in materials engineering and compact fusion power plants lead to the concept of superheavy vehicles. While this was found most notably in combat units such as the GDR, one unconventional solution to the logistical issues facing artillery units was the Crawler, a gigantic mobile factory and munitions plant. Capable of consuming local resources, converting them into useful raw materials, and then processing those materials into munitions, the first Crawlers were deployed as logistical support to Mech Artillery battalions. The Crawlers themselves were vulnerable to attack from highly mobile units such as Hovertanks, however, and thus were soon armed with their own defensive missile batteries, capable of using the munitions they manufactured in their own defense. As these weapons were more properly integrated into the Crawler design, however, some designers began to wonder why the Crawlers should be kept in a supporting role, when they could be easily converted into viable, self-sustaining artillery vehicles in their own right. Thus, the Crawler eventually became the ultimate artillery weapon -- a long range missile platform that could resupply itself in the field.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_CRAWLER_STRATEGY">
+			<Text>The Crawler is a siege unit that can carry three Missile units. It may manufacture one Hypervelocity Missile each turn if it has less than three.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_CRAWLER_HELP">
+			<Text>Siege unit that can carry three Missile units. Has a 33% chance of manufacturing one Missile unit each turn if carrying less than three.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_NANOHIVE">
+			<Text>Nanohive</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_NANOHIVE_TEXT">
+			<Text>The development of nanomachines, particularly nanoassemblers and nanodisassemblers, inevitably resulted in a search to weaponize these devices and utilize them for military purposes. While some success was had with short-lived nanoswarms delivered as missile payloads, most nanoswarms had difficulty surviving extended periods in battlefield conditions. Eventually, the idea of using autonomous carriers, termed "nanohives", to deliver swarms of nanomachines to the battlefield was conceived. Using sophisticated low-altitude hovering technology, these nanohives were able to traverse nearly any terrain to bring nanoswarms to the front. With proper programming, nanoswarms could be assigned to both heal friendly units, as well as attack enemy units, slowly but inexorably dissolving targets away as they were disassembled on a molecular level.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_NANOHIVE_STRATEGY">
+			<Text>The Nanohive is a futuristic unit that heals friendly units while damaging enemy units within two tiles of it each turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_NANOHIVE_HELP">
+			<Text>The Nanohive is a futuristic unit that heals friendly units while damaging enemy units within two tiles of it each turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_NEXUS">
+			<Text>Nexus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_NEXUS_TEXT">
+			<Text>The ultimate expression of cybernetic warfare, the Nexus is an advanced command and support platform designed to provide support to units in the field. Utilizing the latest advancements in smart materials and power plants, the Nexus is actually a flying fortress, utilizing sophisticated engines to keep it constantly hovering in the air. This gives it unparalleled mobility, allowing it to support units wherever it is necessary. It carries onboard nanohives to provide immediate repairs and healing to damaged units, as well as a centralized command node that constantly analyzes the immediate battlespace, in order to provide up-to-the-second updates to nearby troops, allowing them to prepare for any enemy attacks or exploit enemy weaknesses. It also carries a battery of railguns and missiles for tactical support, and many have been configured to also carry drone aircraft to provide fire support over greater distances.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_NEXUS_STRATEGY">
+			<Text>The Nanohive is a futuristic unit that heals friendly units while damaging enemy units adjacent to it each turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_NEXUS_HELP">
+			<Text>Futuristic support unit that heals friendly units while damaging enemy units adjacent to it each turn, and can carry up to 4 Aircraft.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_SPEC_FORCES">
+			<Text>Special Forces</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FW_SPEC_FORCES">
+			<Text>Late-game Infantry unit designed for rapid, powerful amphibious attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_SPEC_FORCES_STRATEGY">
+			<Text>Special Forces are an Information-Era upgrade for the Marine. Slightly weaker than Mechanized Infantry, it gains a large boost to movement when moving through Coast tiles, is stronger while embarked, and receives a 20% Combat Bonus when attacking from Coast. However, it gains no defensive bonuses from terrain, so stay on the move!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FW_SPEC_FORCES_TEXT">
+			<Text>Special Forces, or Special Operations Forces, are military units trained to preform unconventional missions. The elite of the elite, these units specialize in many fields, including amphibious assaults, airborne operations, counter-terrorism, espionage, sabotage, assassination, rescue, and all-around unconventional warfare. Special Forces, as they would now be recognized, emerged in the 20th century, with the outbreak of the Second World War. In 1940, the British Commandos were formed after prime minister Winston Churchill called for "specially trained troops of the hunter class, who can develop a reign of terror down the enemy coast." Today, almost a necessity for any civilization seeking military power, these units have changed wildly over the years. They've adapted and continue to adapt to the ever-changing face of warfare, proving their worth more than ever. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_AIRBORNE_FORCES">
+			<Text>Airborne Forces</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FW_AIRBORNE_FORCES">
+			<Text>Strong infantry Unit capable of paradropping up to 5 tiles from friendly territory. Paratrooper can also move and pillage after paradropping, but cannot enter combat until the following turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_AIRBORNE_FORCES_STRATEGY">
+			<Text>The Paratrooper is a late-game infantryman. It is about as strong mechanized infantry unit; however, it can parachute up to 5 tiles away (when starting in friendly territory). This allows the airborne forces to literally jump over enemy positions and destroy road networks, pillage vital resources and so forth, wrecking havoc behind his lines. The Airborne Forces are at great risk when on such missions, so make sure the target is worth it!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FW_AIRBORNE_FORCES_TEXT">
+			<Text>Airborne forces are military units, usually light infantry, set up to be moved by aircraft and "dropped" into battle, typically by parachute. Thus, they can be placed behind enemy lines, and have the capability to deploy almost anywhere with little warning. The formations are limited only by the number and size of their aircraft, so given enough capacity a huge force can appear "out of nowhere" in minutes, an action referred to as vertical envelopment.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_FW_TREX">
+			<Text>Tyrannosaurus Rex</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_TREX_TEXT">
+			<Text>One of the most iconic of the dinosaurs, it was inevitable that efforts would be made to resurrect the Tyrannosaurus Rex. Benefiting from genetic manipulation, the Tyrannosaurus Rex of Jurassic Park is powerful and fast, but its strength has made it difficult to deal with any animals that escape.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_TREX_STRATEGY">
+			<Text>A dinosaur unit that escaped from Jurassic Park.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_TREX_HELP">
+			<Text>A dinosaur unit that escaped from Jurassic Park.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_TRICERATOPS">
+			<Text>Triceratops</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_TRICERATOPS_TEXT">
+			<Text>An iconic plant-eating dinosaur, the Triceratops is slow-moving, but its hide and bony plates give it immense protection. Some animals have escaped from their captivity, and have required anti-tank weapons to be brought down.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_TRICERATOPS_STRATEGY">
+			<Text>A dinosaur unit that escaped from Jurassic Park.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_TRICERATOPS_HELP">
+			<Text>A dinosaur unit that escaped from Jurassic Park.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_RAPTOR">
+			<Text>Velociraptor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_RAPTOR_TEXT">
+			<Text>One of the most frightening of the genetically re-engineered dinosaurs of Jurassic Park, Velociraptors are quite intelligent and frequently try to find ways to escape captivity. While not as strong as the T-Rex and not as tough as a Triceratops, they are extremely fast and can be difficult to hunt down once they've escaped.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_RAPTOR_STRATEGY">
+			<Text>A dinosaur unit that escaped from Jurassic Park.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FW_RAPTOR_HELP">
+			<Text>A dinosaur unit that escaped from Jurassic Park.</Text>
+		</Row>
+		
+	</Language_en_US>
+</GameData>

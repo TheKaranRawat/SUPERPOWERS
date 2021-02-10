@@ -101,6 +101,34 @@
 	</LeagueSpecialSessions>
 
 	<LeagueProjects>
+
+		<Row>
+			<Type>LEAGUE_PROJECT_FW_GENOME_PROJECT</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_FW_GENOME_PROJECT</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_FW_GENOME_PROJECT_SPLASH</Help>
+			<ProjectSplashImage>GenomeProject_Splash.dds</ProjectSplashImage>
+			<Process>PROCESS_FW_GENOME_PROJECT</Process>
+			<CostPerPlayer>850</CostPerPlayer>
+			<RewardTier1>LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_1</RewardTier1>
+			<RewardTier2>LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_2</RewardTier2>
+			<RewardTier3>LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_3</RewardTier3>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_FW_ASTEROID_MINING</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_FW_ASTEROID_MINING</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_FW_ASTEROID_MINING_SPLASH</Help>
+			<ProjectSplashImage>AsteroidMining_Splash.dds</ProjectSplashImage>
+			<Process>PROCESS_FW_ASTEROID_MINING</Process>
+			<CostPerPlayer>1000</CostPerPlayer>
+			<RewardTier1>LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_1</RewardTier1>
+			<RewardTier2>LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_2</RewardTier2>
+			<RewardTier3>LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_3</RewardTier3>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+		</Row>
+
 		<Update>
 			<Set CostPerPlayer="2400"/>
 			<Where Type="LEAGUE_PROJECT_INTERNATIONAL_SPACE_STATION"/>
@@ -116,6 +144,44 @@
 	</LeagueProjects>
 
 	<LeagueProjectRewards>
+
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_1</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_1</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_1_HELP</Help>
+			<Building>BUILDING_FW_GENOME_PROJECT_1</Building>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_2</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_2</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_2_HELP</Help>
+			<Building>BUILDING_FW_GENOME_PROJECT_2</Building>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_3</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_3</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_3_HELP</Help>
+			<Building>BUILDING_FW_GENOME_PROJECT</Building>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_1</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_1</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_1_HELP</Help>
+			<Building>BUILDING_FW_ASTEROID_MINING_1</Building>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_2</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_2</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_2_HELP</Help>
+			<Building>BUILDING_FW_ASTEROID_MINING_2</Building>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_3</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_3</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_3_HELP</Help>
+			<Building>BUILDING_FW_ASTEROID_MINING</Building>
+		</Row>
+
 		<Update>
 			<Set Happiness="10" />
 			<Where Type="LEAGUE_PROJECT_REWARD_WORLD_GAMES_1"/>
@@ -135,6 +201,26 @@
 	</LeagueProjectRewards>
 
 	<Resolutions>
+
+		<Row>
+			<Type>RESOLUTION_FW_GENOME_PROJECT</Type>
+			<Description>TXT_KEY_RESOLUTION_FW_GENOME_PROJECT</Description>
+			<Help>TXT_KEY_RESOLUTION_FW_GENOME_PROJECT_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<TechPrereqAnyMember>TECH_GEN_MANIP</TechPrereqAnyMember>
+			<LeagueProjectEnabled>LEAGUE_PROJECT_FW_GENOME_PROJECT</LeagueProjectEnabled>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_FW_ASTEROID_MINING</Type>
+			<Description>TXT_KEY_RESOLUTION_FW_ASTEROID_MINING</Description>
+			<Help>TXT_KEY_RESOLUTION_FW_ASTEROID_MINING_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<TechPrereqAnyMember>TECH_ORBITAL_DEV</TechPrereqAnyMember>
+			<LeagueProjectEnabled>LEAGUE_PROJECT_FW_ASTEROID_MINING</LeagueProjectEnabled>
+		</Row>
+
 		<Update>
 			<Set TechPrereqAnyMember="TECH_URBANLIZATION"/>
 			<Where Type="RESOLUTION_WORLD_FAIR"/>
@@ -240,6 +326,24 @@
 
 
 	<Processes>
+
+		<Row>
+			<Type>PROCESS_FW_GENOME_PROJECT</Type>
+			<Description>TXT_KEY_PROCESS_FW_GENOME_PROJECT</Description>
+			<Help>TXT_KEY_PROCESS_FW_GENOME_PROJECT_HELP</Help>
+			<Strategy>TXT_KEY_PROCESS_FW_GENOME_PROJECT_HELP</Strategy>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>PROCESS_FW_ASTEROID_MINING</Type>
+			<Description>TXT_KEY_PROCESS_FW_ASTEROID_MINING</Description>
+			<Help>TXT_KEY_PROCESS_FW_ASTEROID_MINING_HELP</Help>
+			<Strategy>TXT_KEY_PROCESS_FW_ASTEROID_MINING_HELP</Strategy>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+
 		<Row>
 			<Type>PROCESS_WORLD_TRADE_ORGANIZATION</Type>
 			<Description>TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</Description>
@@ -250,6 +354,38 @@
 	</Processes>
 
 	<Process_Flavors>
+
+		<Row>
+			<ProcessType>PROCESS_FW_GENOME_PROJECT</ProcessType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_FW_GENOME_PROJECT</ProcessType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_FW_GENOME_PROJECT</ProcessType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_FW_ASTEROID_MINING</ProcessType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_FW_ASTEROID_MINING</ProcessType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_FW_ASTEROID_MINING</ProcessType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+
 		<Row>
 			<ProcessType>PROCESS_WORLD_TRADE_ORGANIZATION</ProcessType>
 			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
@@ -264,6 +400,82 @@
 			<!-- *******************************New Resoultions Texts********************************************-->
 
 	<Language_en_US>
+
+		<Row Tag="TXT_KEY_PROCESS_FW_GENOME_PROJECT">
+			<Text>Human Genome Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_FW_GENOME_PROJECT_HELP">
+			<Text>Contribute this city's [ICON_PRODUCTION] Production towards the Human Genome project.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_FW_ASTEROID_MINING">
+			<Text>Asteroid Mining Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_FW_ASTEROID_MINING_HELP">
+			<Text>Contribute this city's [ICON_PRODUCTION] Production towards the Asteroid Mining project.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_FW_GENOME_PROJECT">
+			<Text>Human Genome Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_FW_GENOME_PROJECT_SPLASH">
+			<Text>The Human Genome Project is an effort to map out the human genome, in an effort to better understand human genetics.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_1">
+			<Text>Research Exchange</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_1_HELP">
+			<Text>Research Labs gain +2 [ICON_RESEARCH] Science. Medical Labs gain +2 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_2">
+			<Text>Genetic Treatments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_2_HELP">
+			<Text>All cities gain +1 [ICON_CITIZEN] Citizen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_3">
+			<Text>Applied Genomics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_3_HELP">
+			<Text>Human Genome Project wonder appears in [ICON_CAPITAL] Capital. ({TXT_KEY_WONDER_FW_GENOME_PROJECT_HELP})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_FW_GENOME_PROJECT">
+			<Text>Human Genome Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_FW_GENOME_PROJECT_HELP">
+			<Text>Begins the project to fund the Human Genome Project. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list. When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_1_HELP}[NEWLINE][NEWLINE]Available once any Civilization discovers Genetic Manipulation.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_FW_ASTEROID_MINING">
+			<Text>International Asteroid Mining Conference</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_FW_ASTEROID_MINING_SPLASH">
+			<Text>The International Asteroid Mining Conference was convened in an effort to establish an international agreement on how the extensive mineral resources of the solar system, particularly within the asteroid belt, would be exploited, distributed, or protected.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_1">
+			<Text>M-Type Asteroids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_1_HELP">
+			<Text>Gain 6 [ICON_RES_ALUMINUM] Aluminum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_2">
+			<Text>S-Type Asteroids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_2_HELP">
+			<Text>Gain 6 [ICON_RES_NANOMAT] Nanomaterials.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_3">
+			<Text>C-Type Asteroids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_3_HELP">
+			<Text>Ceres Station wonder appears in [ICON_CAPITAL] Capital. ({TXT_KEY_WONDER_FW_ASTEROID_MINING_HELP})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_FW_ASTEROID_MINING">
+			<Text>International Asteroid Mining Conference</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_FW_ASTEROID_MINING_HELP">
+			<Text>Begins the project to fund the International Asteroid Mining Conference. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list. When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_1_HELP}[NEWLINE][NEWLINE]Available once any Civilization discovers Orbital Development.</Text>
+		</Row>
+		
 		<Row Tag="TXT_KEY_RESOLUTION_HOST_IMPEACHMENT">
 			<Text>League Host Change</Text>
 		</Row>

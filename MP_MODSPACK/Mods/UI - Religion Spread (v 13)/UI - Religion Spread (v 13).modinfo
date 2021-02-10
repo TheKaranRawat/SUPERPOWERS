@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4ad8de1c-a52a-4752-8e61-e73edcecf8dd" version="13">
+  <Properties>
+    <Name>UI - Religion Spread</Name>
+    <Teaser>Displays spread of religions on a map</Teaser>
+    <Description>Adds a Map tab to the Religion Overview popup that displays the spread of world religions.
+
+Also adds the number of followers to the World Religions tab and includes the "UI - Found Pantheon Button" mod
+
+Alters the ReligionOverview.lua and ReligionOverview.xml core files so will be incompatible with any mod that changes those files.</Description>
+    <Authors>William Howard</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=474413</Homepage>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+    <PediaCategory>UI</PediaCategory>
+    <PediaAtlas>UNIT_ATLAS_2</PediaAtlas>
+    <PediaIndex>47</PediaIndex>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="e1ccf71a-f248-498c-8f30-5ca6d851079d" minversion="1" maxversion="999" title="Tofts Flags +++" />
+  </References>
+  <Blocks>
+    <Mod id="1d335490-033b-4bd8-b762-75a7b8be85f0" minversion="0" maxversion="999" title="UI - Found Pantheon Button" />
+  </Blocks>
+  <Files>
+    <File md5="56F88AC5073E41A526E9DB08248FEE5C" import="1">UI/InGame/Popups/ReligionOverview.lua</File>
+    <File md5="8C5D054780E82C7C30CB018F66B387F9" import="1">UI/InGame/Popups/ReligionOverview.xml</File>
+    <File md5="C9B6890E26FC4F928E65204DC92A7A6F" import="0">XML/UIReligionSpread.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/UIReligionSpread.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
