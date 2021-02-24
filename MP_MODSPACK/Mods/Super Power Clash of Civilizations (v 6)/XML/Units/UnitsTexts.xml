@@ -3781,23 +3781,23 @@
 
 
 		<Replace Tag="TXT_KEY_PROMOTION_INTERCEPTION_1_HELP">
-			<Text>[ICON_BULLET]+50% [ICON_STRENGTH] Combat Strength when intercepting enemy aircraft. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
+			<Text>[ICON_BULLET]+25% [ICON_STRENGTH] Combat Strength when intercepting enemy aircraft. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_INTERCEPTION_2_HELP">
-			<Text>[ICON_BULLET]+50% [ICON_STRENGTH] Combat Strength when intercepting enemy aircraft. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
+			<Text>[ICON_BULLET]+25% [ICON_STRENGTH] Combat Strength when intercepting enemy aircraft. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_INTERCEPTION_3_HELP">
-			<Text>[ICON_BULLET]+50% [ICON_STRENGTH] Combat Strength when intercepting enemy aircraft. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
+			<Text>[ICON_BULLET]+25% [ICON_STRENGTH] Combat Strength when intercepting enemy aircraft. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_PROMOTION_DOGFIGHTING_1_HELP">
-			<Text>[ICON_BULLET]+50% [ICON_STRENGTH] Combat Strength when performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR] chance per turn.</Text>
+			<Text>[ICON_BULLET]+25% [ICON_STRENGTH] Combat Strength when performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR] chance per turn.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_DOGFIGHTING_2_HELP">
-			<Text>[ICON_BULLET]+50% [ICON_STRENGTH] Combat Strength when performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR] chance per turn.</Text>
+			<Text>[ICON_BULLET]+25% [ICON_STRENGTH] Combat Strength when performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR] chance per turn.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_DOGFIGHTING_3_HELP">
-			<Text>[ICON_BULLET]+50% [ICON_STRENGTH] Combat Strength when performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR] chance per turn.</Text>
+			<Text>[ICON_BULLET]+25% [ICON_STRENGTH] Combat Strength when performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR] chance per turn.</Text>
 		</Replace>
 
 		
@@ -3820,19 +3820,19 @@
 			<Text>Air Bombardment I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_BOMBARDMENT_1_HELP">
-			<Text>+50% [ICON_STRENGTH] Combat Strength vs [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
+			<Text>+25% [ICON_STRENGTH] Combat Strength vs [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_BOMBARDMENT_2">
 			<Text>Air Bombardment II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_BOMBARDMENT_2_HELP">
-			<Text>+50% [ICON_STRENGTH] Combat Strength vs [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
+			<Text>+25% [ICON_STRENGTH] Combat Strength vs [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_BOMBARDMENT_3">
 			<Text>Air Bombardment III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_BOMBARDMENT_3_HELP">
-			<Text>+50% [ICON_STRENGTH] Combat Strength vs [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
+			<Text>+25% [ICON_STRENGTH] Combat Strength vs [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
 		</Row>
 
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1" >
@@ -4179,26 +4179,26 @@
 			<Text>Air Combat I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_ANTI_AIR_1_HELP">
-			<Text>[ICON_BULLET]+50% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Intercepting[ENDCOLOR] or performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
+			<Text>[ICON_BULLET]+25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Intercepting[ENDCOLOR] or performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_ANTI_AIR_2">
 			<Text>Air Combat II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_ANTI_AIR_2_HELP">
-			<Text>[ICON_BULLET]+50% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Intercepting[ENDCOLOR] or performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
+			<Text>[ICON_BULLET]+25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Intercepting[ENDCOLOR] or performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_AIRFIGHT_1">
 			<Text>Air Combat I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_AIRFIGHT_1_HELP">
-			<Text>[ICON_BULLET]+50% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Intercepting[ENDCOLOR] or performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
+			<Text>[ICON_BULLET]+25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Intercepting[ENDCOLOR] or performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_AIRFIGHT_2">
 			<Text>Air Combat II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_AIRFIGHT_2_HELP">
-			<Text>[ICON_BULLET]+50% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Intercepting[ENDCOLOR] or performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
+			<Text>[ICON_BULLET]+25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Intercepting[ENDCOLOR] or performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
 		</Row>
 
 		
@@ -4206,13 +4206,13 @@
 			<Text>Air Attack I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_ATTACK_1_HELP">
-			<Text>+50% [ICON_STRENGTH] Combat Strength when attacking.</Text>
+			<Text>+25% [ICON_STRENGTH] Combat Strength when attacking.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_ATTACK_2">
 			<Text>Air Attack II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_ATTACK_2_HELP">
-			<Text>+50% [ICON_STRENGTH] Combat Strength when attacking.</Text>
+			<Text>+25% [ICON_STRENGTH] Combat Strength when attacking.</Text>
 		</Row>
 
 
@@ -4372,7 +4372,7 @@
 			<Text> -25% EXP needed for Promotion</Text>
 		</Replace>-->
 		<Replace Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_HELP">
-			<Text> +1 [ICON_MOVES] Movement and ignore enemy Zones of Control.</Text>
+			<Text> +2 [ICON_MOVES] Movement and ignore enemy Zones of Control.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_PROMOTION_FAST_GENERAL_HELP">
@@ -5090,7 +5090,7 @@
 			<Text>Elite infantry unit of the future that can travel through rough terrain and is stronger in enemy territory.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_BATTLESUIT">
-			<Text>Battlesuit</Text>
+			<Text>Battlemech</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_BATTLESUIT_TEXT">
 			<Text>While powered armor gave human soldiers unparalleled protection and strength, it still relies on a human to operate the suit. Advances in artificial intelligence eventually lead to the ultimate soldier - a robotic unit that could fight equally as well as a human. Although there were a number of concerns about the prospect of fielding large numbers of robotic units with minimal human control, those societies that did so found them to be highly efficient and effective on the battlefield, with fewer issues involved in adapting them back to civilian duties during peacetime.</Text>
@@ -5259,7 +5259,7 @@
 			<Text>The most powerful ranged combat unit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_HYPERMISSILE">
-			<Text>Hypervelocity Missile</Text>
+			<Text>Hypersonic Missile</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_HYPERMISSILE_TEXT">
 			<Text>Improvements in nanomaterials engineering and propulsion technologies lead to a leap forwards in the design of guided missiles. Utilizing ramjet engines with extra-lightweight frames, this new generation of missiles was capable of reaching hypersonic speeds, allowing them to strike from further away before a response could be made.</Text>

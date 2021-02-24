@@ -4,11 +4,11 @@
 	<Image Anchor="C,T" Offset="0,0"  Size="630,160" Texture="CivilzationV_Logo.dds" ID="Civ5Logo" Hidden="0" />
 	<Image Anchor="C,B" Size="1920,320" Texture="BG_Bottom_Darken.dds"/>
 
-	<CheckBox ID="BG_Checkbox" Style="SquareCheck" ToolTip="Keep this background. (While unchecked, a random background will be selected on startup)"  Anchor="C,B" Offset="0,60"/>
-	<Button Anchor="C,B" Size="32,32" Offset="-30,60" Texture="CityNamePanelArrows.dds" ID="PreviousBG"/>
-	<Button Anchor="C,B" Size="32,32" TextureOffset="32.0" Offset="30,60" Texture="CityNamePanelArrows.dds" ID="NextBG"/>
+	<CheckBox ID="BG_Checkbox" Style="SquareCheck" ToolTip="Keep this background. (While unchecked, a random background will be selected on startup)"  Anchor="C,B" Offset="0,25"/>
+	<Button Anchor="C,B" Size="32,32" Offset="-30,25" Texture="CityNamePanelArrows.dds" ID="PreviousBG"/>
+	<Button Anchor="C,B" Size="32,32" TextureOffset="32.0" Offset="30,25" Texture="CityNamePanelArrows.dds" ID="NextBG"/>
 
-	<Stack Anchor="C,B" Offset="0,75" Padding="8" StackGrowth="Right" ID="MainStack" >
+	<Stack Anchor="C,B" Offset="0,5" Padding="8" StackGrowth="Right" ID="MainStack" >
 
 		<GridButton Anchor="C,T" ID="SinglePlayerButton"  Size="160,45"    Style="ZoomButton">
 			<ShowOnMouseOver>

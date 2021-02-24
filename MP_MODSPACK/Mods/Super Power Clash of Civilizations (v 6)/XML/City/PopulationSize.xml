@@ -71,7 +71,7 @@
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>57</PortraitIndex>
-			<Defense>500</Defense>
+			<Defense>1500</Defense>
 			<ExtraCityHitPoints>50</ExtraCityHitPoints>
 			<CityWorkingChange>1</CityWorkingChange>
 			<TradeRouteSeaGoldBonus>200</TradeRouteSeaGoldBonus>
@@ -92,7 +92,7 @@
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>58</PortraitIndex>
-			<Defense>1000</Defense>
+			<Defense>1500</Defense>
 			<ExtraCityHitPoints>50</ExtraCityHitPoints>
 			<Happiness>-4</Happiness>
 			<TradeRouteSeaGoldBonus>200</TradeRouteSeaGoldBonus>
@@ -119,8 +119,8 @@
 			<Happiness>-6</Happiness>
 			<TradeRouteSeaGoldBonus>400</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>400</TradeRouteLandGoldBonus>
-			<TradeRouteRecipientBonus>4</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>4</TradeRouteTargetBonus>
+			<TradeRouteRecipientBonus>10</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>10</TradeRouteTargetBonus>
 			<GreatWorkCount>-6</GreatWorkCount>
 		</Row>
 		<Row>
@@ -135,15 +135,15 @@
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>60</PortraitIndex>
-			<Defense>4000</Defense>
-			<ExtraCityHitPoints>50</ExtraCityHitPoints>
+			<Defense>3000</Defense>
+			<ExtraCityHitPoints>150</ExtraCityHitPoints>
 			<FoodKept>-5</FoodKept>
 			<Happiness>-8</Happiness>
 			<CityWorkingChange>1</CityWorkingChange>
 			<TradeRouteSeaGoldBonus>800</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>800</TradeRouteLandGoldBonus>
-			<TradeRouteRecipientBonus>8</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>8</TradeRouteTargetBonus>
+			<TradeRouteRecipientBonus>12</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>12</TradeRouteTargetBonus>
 			<GreatWorkCount>-7</GreatWorkCount>
 		</Row>
 		<Row>
@@ -158,14 +158,14 @@
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>61</PortraitIndex>
-			<Defense>6000</Defense>
-			<ExtraCityHitPoints>100</ExtraCityHitPoints>
+			<Defense>4000</Defense>
+			<ExtraCityHitPoints>200</ExtraCityHitPoints>
 			<FoodKept>-10</FoodKept>
 			<Happiness>-14</Happiness>
 			<TradeRouteSeaGoldBonus>1200</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>1200</TradeRouteLandGoldBonus>
-			<TradeRouteRecipientBonus>12</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>12</TradeRouteTargetBonus>
+			<TradeRouteRecipientBonus>24</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>24</TradeRouteTargetBonus>
 			<PolicyCostModifier>5</PolicyCostModifier>
 			<GreatWorkCount>-8</GreatWorkCount>
 		</Row>
@@ -181,18 +181,17 @@
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>62</PortraitIndex>
-			<Defense>8000</Defense>
-			<ExtraCityHitPoints>100</ExtraCityHitPoints>
+			<Defense>6000</Defense>
+			<ExtraCityHitPoints>250</ExtraCityHitPoints>
 			<FoodKept>-13</FoodKept>
 			<Happiness>-20</Happiness>
 			<TradeRouteSeaGoldBonus>1600</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>1600</TradeRouteLandGoldBonus>
-			<TradeRouteRecipientBonus>16</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>16</TradeRouteTargetBonus>
+			<TradeRouteRecipientBonus>50</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>50</TradeRouteTargetBonus>
 			<PolicyCostModifier>5</PolicyCostModifier>
 			<GreatWorkCount>-9</GreatWorkCount>
 		</Row>
-
 
 	</Buildings>
 
@@ -214,7 +213,7 @@
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_TOWN</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>6</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_SMALL</BuildingType>
@@ -244,7 +243,7 @@
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_GLOBAL</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>54</Quantity>
+			<Quantity>72</Quantity>
 		</Row>
 	</Building_ResourceQuantity>
 
@@ -279,12 +278,12 @@
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_XXL</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>36</Cost>
+			<Cost>24</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_GLOBAL</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>54</Cost>
+			<Cost>36</Cost>
 		</Row>
 
 
@@ -311,17 +310,17 @@
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_XL</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>30</Cost>
+			<Cost>18</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_XXL</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>46</Cost>
+			<Cost>24</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_GLOBAL</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>80</Cost>
+			<Cost>30</Cost>
 		</Row>
 	</Building_ResourceQuantityRequirements>
 
@@ -569,7 +568,7 @@
 			<Type>BUILDING_ALUMINUM_PROVIDER</Type>
 			<BuildingClass>BUILDINGCLASS_ALUMINUM_PROVIDER</BuildingClass>
 			<Cost>500</Cost>
-			<GoldMaintenance>3</GoldMaintenance>
+			<GoldMaintenance>25</GoldMaintenance>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_RECYCLING_CENTER</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_RECYCLING_CENTER_TEXT</Civilopedia>
@@ -1504,7 +1503,7 @@
 			<Type>BUILDING_VIDEO_GAME_COMPANY</Type>
 			<BuildingClass>BUILDINGCLASS_VIDEO_GAME_COMPANY</BuildingClass>
 			<Cost>1000</Cost>
-			<GoldMaintenance>10</GoldMaintenance>
+			<GoldMaintenance>16</GoldMaintenance>
 			<UnmoddedHappiness>10</UnmoddedHappiness>
 			<PrereqTech>TECH_INTERNET</PrereqTech>
 			<Help>TXT_KEY_BUILDING_VIDEO_GAME_COMPANY_HELP</Help>
@@ -1522,8 +1521,8 @@
 		<Row>
 			<Type>BUILDING_INTERNATIONAL_AIRPORT</Type>
 			<BuildingClass>BUILDINGCLASS_INTERNATIONAL_AIRPORT</BuildingClass>
-			<Cost>1200</Cost>
-			<GoldMaintenance>10</GoldMaintenance>
+			<Cost>2200</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<LandmarksTourismPercent>50</LandmarksTourismPercent>
 			<GreatWorksTourismModifier>50</GreatWorksTourismModifier>
 			<Airlift>true</Airlift>
@@ -1547,8 +1546,8 @@
 		<Row>
 			<Type>BUILDING_INTERNATIONAL_SEAPORT</Type>
 			<BuildingClass>BUILDINGCLASS_INTERNATIONAL_SEAPORT</BuildingClass>
-			<Cost>1200</Cost>
-			<GoldMaintenance>10</GoldMaintenance>
+			<Cost>2200</Cost>
+			<GoldMaintenance>64</GoldMaintenance>
 			<PrereqTech>TECH_TELECOM</PrereqTech>
 			<Help>TXT_KEY_BUILDING_INTERNATIONAL_SEAPORT_HELP</Help>
 			<Description>TXT_KEY_BUILDING_INTERNATIONAL_SEAPORT</Description>
@@ -1558,6 +1557,7 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>16</PortraitIndex>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
 			<TradeRouteLandGoldBonus>5000</TradeRouteLandGoldBonus>
 			<TradeRouteSeaGoldBonus>5000</TradeRouteSeaGoldBonus>
 			<TradeRouteRecipientBonus>50</TradeRouteRecipientBonus>
@@ -1572,7 +1572,7 @@
 			<Type>BUILDING_CITY_CBD</Type>
 			<BuildingClass>BUILDINGCLASS_CITY_CBD</BuildingClass>
 			<Cost>3000</Cost>
-			<GoldMaintenance>18</GoldMaintenance>
+			<GoldMaintenance>64</GoldMaintenance>
 			<CultureRateModifier>34</CultureRateModifier>
 			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
 			<Help>TXT_KEY_BUILDING_CITY_CBD_HELP</Help>
@@ -2188,12 +2188,12 @@
 		<Row>
 			<BuildingType>BUILDING_COAL_COMPANY</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>9</Cost>
+			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ALUMINUM_PROVIDER</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>15</Cost>
+			<Cost>16</Cost>
 		</Row>
 
 
@@ -2382,7 +2382,7 @@
 		<Row>
 			<BuildingType>BUILDING_FUTURE_FACTORY</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>15</Quantity>
 		</Row>
 		
 		<Row>
@@ -2398,13 +2398,13 @@
 		<Row>
 			<BuildingType>BUILDING_ALUMINUM_PROVIDER</BuildingType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>8</Quantity>
 		</Row>
 
 
 
 
-		<!--<Row>
+		<Row>
 			<BuildingType>BUILDING_MARKET</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Quantity>5</Quantity>
@@ -2413,7 +2413,7 @@
 			<BuildingType>BUILDING_BAZAAR</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Quantity>5</Quantity>
-		</Row>-->
+		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_FOOD_MARKET</BuildingType>
@@ -2456,11 +2456,18 @@
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Quantity>3</Quantity>
 		</Row>-->
-		<!--<Row>
+
+		<Row>
 			<BuildingType>BUILDING_JEWELER</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Quantity>2</Quantity>
-		</Row>-->
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_LOGISTICS_COMPANY</BuildingType>
+			<ResourceType>RESOURCE_CONSUMER</ResourceType>
+			<Quantity>10</Quantity>
+		</Row>
 
 		<!--<Row>
 			<BuildingType>BUILDING_AIRPORT</BuildingType>
@@ -2473,31 +2480,44 @@
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Quantity>5</Quantity>
 		</Row>
-		<Row>
-			<BuildingType>BUILDING_LOGISTICS_COMPANY</BuildingType>
-			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>10</Quantity>
-		</Row>
+		
 
 		<Row>
 			<BuildingType>BUILDING_TV_STATION</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Quantity>5</Quantity>
 		</Row>
+		
+		-->
+
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_CREATIVE_COMPANY</BuildingType>
+			<ResourceType>RESOURCE_CONSUMER</ResourceType>
+			<Quantity>10</Quantity>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_3DPRINTING</BuildingType>
+			<ResourceType>RESOURCE_CONSUMER</ResourceType>
+			<Quantity>5</Quantity>
+		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_INTERNATIONAL_TRADE_COMPANY</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Quantity>10</Quantity>
 		</Row>
+
 		<Row>
-			<BuildingType>BUILDING_AMERICAN_CREATIVE_COMPANY</BuildingType>
+			<BuildingType>BUILDING_INTERNATIONAL_SEAPORT</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Quantity>10</Quantity>
-		</Row>-->
+		</Row>
+
 		<Row>
-			<BuildingType>BUILDING_3DPRINTING</BuildingType>
+			<BuildingType>BUILDING_CITY_CBD</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>8</Quantity>
 		</Row>
 	
 		
@@ -2511,16 +2531,8 @@
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Quantity>5</Quantity>
 		</Row>
-		<Row>
-			<BuildingType>BUILDING_INTERNATIONAL_SEAPORT</BuildingType>
-			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>5</Quantity>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_CITY_CBD</BuildingType>
-			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>8</Quantity>
-		</Row>-->
+		
+		-->
 	</Building_ResourceQuantity>
 
 
@@ -2741,43 +2753,43 @@
 			<BuildingType>BUILDING_COUNTRY_CLUB</BuildingType>
 			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COUNTRY_CLUB</BuildingType>
 			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COUNTRY_CLUB</BuildingType>
 			<ResourceType>RESOURCE_PERFUME</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>	
 		<Row>
 			<BuildingType>BUILDING_COUNTRY_CLUB</BuildingType>
 			<ResourceType>RESOURCE_INCENSE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COUNTRY_CLUB</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COUNTRY_CLUB</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COUNTRY_CLUB</BuildingType>
 			<ResourceType>RESOURCE_SPICES</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 
 
@@ -2833,43 +2845,43 @@
 			<BuildingType>BUILDING_BYZANTIUM_RESORT</BuildingType>
 			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BYZANTIUM_RESORT</BuildingType>
 			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BYZANTIUM_RESORT</BuildingType>
 			<ResourceType>RESOURCE_PERFUME</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BYZANTIUM_RESORT</BuildingType>
 			<ResourceType>RESOURCE_INCENSE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BYZANTIUM_RESORT</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BYZANTIUM_RESORT</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BYZANTIUM_RESORT</BuildingType>
 			<ResourceType>RESOURCE_SPICES</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		
 		
@@ -2935,43 +2947,43 @@
 			<BuildingType>BUILDING_BEVERAGE_FACTORY</BuildingType>
 			<ResourceType>RESOURCE_WINE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BEVERAGE_FACTORY</BuildingType>
 			<ResourceType>RESOURCE_TEA</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BEVERAGE_FACTORY</BuildingType>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BEVERAGE_FACTORY</BuildingType>
 			<ResourceType>RESOURCE_COCOA</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BEVERAGE_FACTORY</BuildingType>
 			<ResourceType>RESOURCE_OLIVE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BEVERAGE_FACTORY</BuildingType>
 			<ResourceType>RESOURCE_CITRUS</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BEVERAGE_FACTORY</BuildingType>
 			<ResourceType>RESOURCE_SUGAR</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 
 
@@ -3027,64 +3039,44 @@
 			<BuildingType>BUILDING_COFFEE_HOUSE</BuildingType>
 			<ResourceType>RESOURCE_WINE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COFFEE_HOUSE</BuildingType>
 			<ResourceType>RESOURCE_TEA</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COFFEE_HOUSE</BuildingType>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COFFEE_HOUSE</BuildingType>
 			<ResourceType>RESOURCE_COCOA</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COFFEE_HOUSE</BuildingType>
 			<ResourceType>RESOURCE_OLIVE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COFFEE_HOUSE</BuildingType>
 			<ResourceType>RESOURCE_CITRUS</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COFFEE_HOUSE</BuildingType>
 			<ResourceType>RESOURCE_SUGAR</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-
 
 		<Row>
 			<BuildingType>BUILDING_CELTS_IRISHPUB</BuildingType>
@@ -3134,43 +3126,43 @@
 			<BuildingType>BUILDING_CELTS_IRISHPUB</BuildingType>
 			<ResourceType>RESOURCE_WINE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CELTS_IRISHPUB</BuildingType>
 			<ResourceType>RESOURCE_TEA</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CELTS_IRISHPUB</BuildingType>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CELTS_IRISHPUB</BuildingType>
 			<ResourceType>RESOURCE_COCOA</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CELTS_IRISHPUB</BuildingType>
 			<ResourceType>RESOURCE_OLIVE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CELTS_IRISHPUB</BuildingType>
 			<ResourceType>RESOURCE_CITRUS</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CELTS_IRISHPUB</BuildingType>
 			<ResourceType>RESOURCE_SUGAR</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		
 		
@@ -3375,15 +3367,7 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
-	</Building_LakePlotYieldChanges>-->
-
-	
-	
-	
-	
-	
-	
-	
+	</Building_LakePlotYieldChanges>-->	
 	
 	
 	<Building_FeatureYieldChanges>
@@ -3618,13 +3602,6 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>4</Yield>
 		</Row>
-
-
-
-
-
-
-
 
 		<Row>
 			<BuildingType>BUILDING_POLYNESIA_HAWAIIAN_HOTEL</BuildingType>

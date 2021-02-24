@@ -240,7 +240,7 @@
 			<IconAtlas>SPBalance_ATLAS</IconAtlas>
 		</Row>
 		<Row>
-			<Type></Type>
+			<Type>BUILDING_SPECIALISTS_ENGINEERING_LV3</Type>
 			<BuildingClass>BUILDINGCLASS_SPECIALISTS_ENGINEERING_LV3</BuildingClass>
 			<Cost>40</Cost>
 			<GoldMaintenance>6</GoldMaintenance>
@@ -484,13 +484,13 @@
 			<BuildingType>BUILDING_SPECIALISTS_ENGINEERING_LV3</BuildingType>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SPECIALISTS_ENGINEERING_LV3</BuildingType>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-4</Yield>
+			<Yield>-2</Yield>
 		</Row>
 
 

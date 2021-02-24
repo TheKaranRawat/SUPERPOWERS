@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0949ee01-2b2a-4f4a-8ddb-75578ba63d75" version="2">
+  <Properties>
+    <Name>Goody Huts - No Maps</Name>
+    <Teaser>Removes maps and barbarian camps from goody hut outcomes</Teaser>
+    <Description>Removes maps and barbarian camp location discovery as possible goody hut outcomes</Description>
+    <Authors>William Howard</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.2kgames.com/showthread.php?107126-MOD-Goody-Huts-No-Maps</Homepage>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+    <PediaCategory>RULES</PediaCategory>
+    <PediaAtlas>POLICY_ATLAS</PediaAtlas>
+    <PediaIndex>47</PediaIndex>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="491E185DF3B9DC75767A7DE5B15E300E" import="0">XML/GoodyHutsNoMaps.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/GoodyHutsNoMaps.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

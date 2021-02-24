@@ -2266,7 +2266,7 @@
 			<Help>TXT_KEY_PROMOTION_AIR_SWEEP_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<AirSweepCapable>true</AirSweepCapable>
-			<AirSweepCombatModifier>300</AirSweepCombatModifier>
+			<AirSweepCombatModifier>200</AirSweepCombatModifier>
 			<PortraitIndex>58</PortraitIndex>
 			<IconAtlas>ABILITY_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
@@ -3714,8 +3714,8 @@
 			<Help>TXT_KEY_PROMOTION_CARRIER_FIGHTER_AIRFIGHT_1_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<OrderPriority>1</OrderPriority>
-			<InterceptionCombatModifier>50</InterceptionCombatModifier>
-			<AirSweepCombatModifier>50</AirSweepCombatModifier>
+			<InterceptionCombatModifier>25</InterceptionCombatModifier>
+			<AirSweepCombatModifier>25</AirSweepCombatModifier>
 			<NumInterceptionChange>1</NumInterceptionChange>
 			<PortraitIndex>17</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
@@ -3729,8 +3729,8 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<OrderPriority>1</OrderPriority>
 			<PromotionPrereq>PROMOTION_CARRIER_FIGHTER_AIRFIGHT_1</PromotionPrereq>
-			<InterceptionCombatModifier>50</InterceptionCombatModifier>
-			<AirSweepCombatModifier>50</AirSweepCombatModifier>
+			<InterceptionCombatModifier>25</InterceptionCombatModifier>
+			<AirSweepCombatModifier>25</AirSweepCombatModifier>
 			<NumInterceptionChange>1</NumInterceptionChange>
 			<PortraitIndex>18</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
@@ -3744,7 +3744,7 @@
 			<Help>TXT_KEY_PROMOTION_CARRIER_FIGHTER_ATTACK_1_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<OrderPriority>1</OrderPriority>
-			<AttackMod>50</AttackMod>
+			<AttackMod>25</AttackMod>
 			<PortraitIndex>3</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_AIR</PediaType>
@@ -3757,7 +3757,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<OrderPriority>1</OrderPriority>
 			<PromotionPrereq>PROMOTION_CARRIER_FIGHTER_ATTACK_1</PromotionPrereq>
-			<AttackMod>50</AttackMod>
+			<AttackMod>25</AttackMod>
 			<PortraitIndex>4</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_AIR</PediaType>
@@ -3899,7 +3899,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<OrderPriority>1</OrderPriority>
 			<PromotionPrereq>PROMOTION_ANTI_AIR_II</PromotionPrereq>
-			<InterceptionCombatModifier>50</InterceptionCombatModifier>
+			<InterceptionCombatModifier>25</InterceptionCombatModifier>
 			<NumInterceptionChange>1</NumInterceptionChange>
 			<PortraitIndex>27</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
@@ -3913,7 +3913,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereqOr1>PROMOTION_INTERCEPTION_1</PromotionPrereqOr1>
 			<OrderPriority>1</OrderPriority>
-			<InterceptionCombatModifier>50</InterceptionCombatModifier>
+			<InterceptionCombatModifier>25</InterceptionCombatModifier>
 			<NumInterceptionChange>1</NumInterceptionChange>
 			<PortraitIndex>28</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
@@ -3927,7 +3927,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereqOr1>PROMOTION_INTERCEPTION_2</PromotionPrereqOr1>
 			<OrderPriority>1</OrderPriority>
-			<InterceptionCombatModifier>50</InterceptionCombatModifier>
+			<InterceptionCombatModifier>25</InterceptionCombatModifier>
 			<NumInterceptionChange>1</NumInterceptionChange>
 			<PortraitIndex>29</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
@@ -3943,7 +3943,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<OrderPriority>2</OrderPriority>
 			<PromotionPrereq>PROMOTION_ANTI_AIR_II</PromotionPrereq>
-			<AirSweepCombatModifier>50</AirSweepCombatModifier>
+			<AirSweepCombatModifier>25</AirSweepCombatModifier>
 			<CanMoveAfterAttacking>true</CanMoveAfterAttacking>
 			<ExtraAttacks>1</ExtraAttacks>
 			<MovesChange>1</MovesChange>
@@ -3959,7 +3959,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereqOr1>PROMOTION_DOGFIGHTING_1</PromotionPrereqOr1>
 			<OrderPriority>2</OrderPriority>
-			<AirSweepCombatModifier>50</AirSweepCombatModifier>
+			<AirSweepCombatModifier>25</AirSweepCombatModifier>
 			<ExtraAttacks>1</ExtraAttacks>
 			<MovesChange>1</MovesChange>
 			<PortraitIndex>17</PortraitIndex>
@@ -3976,7 +3976,7 @@
 			<OrderPriority>2</OrderPriority>
 			<ExtraAttacks>1</ExtraAttacks>
 			<MovesChange>1</MovesChange>
-			<AirSweepCombatModifier>50</AirSweepCombatModifier>
+			<AirSweepCombatModifier>25</AirSweepCombatModifier>
 			<PortraitIndex>18</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_AIR</PediaType>

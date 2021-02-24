@@ -658,6 +658,12 @@ local function CreateIcon( index, texture, ToolTipHandler, OnLClick, OnRClick, I
 		instance.Image:SetTexture( "manpower.dds" )
 		instance.Image:SetTextureSizeVal( 160, 160 )
 		instance.Image:NormalizeTexture()
+
+	-- nanomat icon
+	elseif ID == 46 then
+		instance.Image:SetTexture( "nanomat.dds" )
+		instance.Image:SetTextureSizeVal( 160, 160 )
+		instance.Image:NormalizeTexture()	
 	
 	-- electricity icon
 	elseif ID == 43 then
@@ -693,6 +699,8 @@ local function CreateIcon( index, texture, ToolTipHandler, OnLClick, OnRClick, I
 	instance.Count:SetVoid1( ID )
 	return instance
 end
+
+
 
 local function FindOnMap( list, index, nameFunc )
 	local plot

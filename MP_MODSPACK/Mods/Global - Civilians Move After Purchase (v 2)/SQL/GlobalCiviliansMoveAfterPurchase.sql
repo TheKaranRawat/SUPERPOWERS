@@ -1,1 +1,0 @@
-UPDATE Units SET MoveAfterPurchase=1 WHERE Combat=0 AND RangedCombat=0 AND Immobile=0 AND ProjectPrereq IS NULL;

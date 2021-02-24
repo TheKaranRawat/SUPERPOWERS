@@ -552,7 +552,7 @@
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>7</Combat>
-			<RangedCombat>20</RangedCombat>
+			<RangedCombat>30</RangedCombat>
 			<Cost>75</Cost>
 			<Moves>2</Moves>
 			<Range>2</Range>
@@ -586,7 +586,7 @@
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>7</Combat>
-			<RangedCombat>20</RangedCombat>
+			<RangedCombat>30</RangedCombat>
 			<Cost>90</Cost>
 			<Moves>2</Moves>
 			<Range>2</Range>
@@ -618,7 +618,7 @@
 			<Class>UNITCLASS_CATAPULT</Class>
 			<Type>UNIT_HUN_BATTERING_RAM</Type>
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
-			<Combat>16</Combat>
+			<Combat>25</Combat>
 			<Cost>75</Cost>
 			<Moves>2</Moves>
 			<HurryCostModifier>25</HurryCostModifier>
@@ -648,7 +648,7 @@
 			<Class>UNITCLASS_CATAPULT</Class>
 			<Type>UNIT_ASSYRIAN_SIEGE_TOWER</Type>
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
-			<Combat>30</Combat>
+			<Combat>50</Combat>
 			<Cost>50</Cost>
 			<Moves>2</Moves>
 			<HurryCostModifier>25</HurryCostModifier>
@@ -683,7 +683,7 @@
 			<PrereqTech>TECH_PHYSICS</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>10</Combat>
-			<RangedCombat>30</RangedCombat>
+			<RangedCombat>45</RangedCombat>
 			<Cost>150</Cost>
 			<Moves>2</Moves>
 			<Range>3</Range>
@@ -717,7 +717,7 @@
 			<PrereqTech>TECH_PHYSICS</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>10</Combat>
-			<RangedCombat>30</RangedCombat>
+			<RangedCombat>55</RangedCombat>
 			<Cost>150</Cost>
 			<Moves>2</Moves>
 			<Range>3</Range>
@@ -755,7 +755,7 @@
 			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>10</Combat>
-			<RangedCombat>40</RangedCombat>
+			<RangedCombat>60</RangedCombat>
 			<Cost>225</Cost>
 			<Moves>2</Moves>
 			<Range>3</Range>
@@ -783,7 +783,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>20</PortraitIndex>
 			<MoveRate>ARTILLERY</MoveRate>
-			<ExtraMaintenanceCost>6</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -793,7 +793,7 @@
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>15</Combat>
-			<RangedCombat>60</RangedCombat>
+			<RangedCombat>80</RangedCombat>
 			<Cost>315</Cost>
 			<Moves>2</Moves>
 			<Range>3</Range>
@@ -819,7 +819,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 			<MoveRate>ARTILLERY</MoveRate>
-			<ExtraMaintenanceCost>8</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_CANNON</Class>
@@ -827,7 +827,7 @@
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>15</Combat>
-			<RangedCombat>60</RangedCombat>
+			<RangedCombat>80</RangedCombat>
 			<Cost>365</Cost>
 			<Moves>2</Moves>
 			<Range>3</Range>
@@ -854,7 +854,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>27</PortraitIndex>
 			<MoveRate>ARTILLERY</MoveRate>
-			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -864,7 +864,7 @@
 			<PrereqTech>TECH_DYNAMITE</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>20</Combat>
-			<RangedCombat>80</RangedCombat>
+			<RangedCombat>100</RangedCombat>
 			<Cost>450</Cost>
 			<Moves>2</Moves>
 			<Range>3</Range>
@@ -891,7 +891,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>12</PortraitIndex>
 			<MoveRate>ARTILLERY</MoveRate>
-			<ExtraMaintenanceCost>12</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_HOWITZER</Class>
@@ -899,7 +899,7 @@
 			<PrereqTech>TECH_DYNAMITE</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>20</Combat>
-			<RangedCombat>80</RangedCombat>
+			<RangedCombat>110</RangedCombat>
 			<Cost>450</Cost>
 			<Moves>2</Moves>
 			<Range>3</Range>
@@ -927,7 +927,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>57</PortraitIndex>
 			<MoveRate>ARTILLERY</MoveRate>
-			<ExtraMaintenanceCost>12</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -937,7 +937,7 @@
 			<PrereqTech>TECH_LARGE_CALIBRE</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>30</Combat>
-			<RangedCombat>100</RangedCombat>
+			<RangedCombat>120</RangedCombat>
 			<Cost>600</Cost>
 			<Moves>3</Moves>
 			<Range>3</Range>
@@ -965,7 +965,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>31</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>30</ExtraMaintenanceCost>
 		</Row>
 		
 		
@@ -976,7 +976,7 @@
 			<PrereqTech>TECH_LASERS</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>40</Combat>
-			<RangedCombat>150</RangedCombat>
+			<RangedCombat>180</RangedCombat>
 			<Cost>875</Cost>
 			<Moves>3</Moves>
 			<Range>3</Range>
@@ -1000,7 +1000,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>3</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>18</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>35</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_SELF_PROPELLED_ARTILLERY</Class>
@@ -1008,7 +1008,7 @@
 			<PrereqTech>TECH_LASERS</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>140</Combat>
-			<RangedCombat>150</RangedCombat>
+			<RangedCombat>190</RangedCombat>
 			<Cost>875</Cost>
 			<Moves>3</Moves>
 			<Range>3</Range>
@@ -1045,7 +1045,7 @@
 			<PrereqTech>TECH_MILITARY_LOGISTICS</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>20</Combat>
-			<RangedCombat>120</RangedCombat>
+			<RangedCombat>250</RangedCombat>
 			<Cost>850</Cost>
 			<Moves>1</Moves>
 			<Range>5</Range>
@@ -1081,7 +1081,7 @@
 			<PrereqTech>TECH_ROCKETRY</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>30</Combat>
-			<RangedCombat>180</RangedCombat>
+			<RangedCombat>220</RangedCombat>
 			<Cost>1200</Cost>
 			<Moves>2</Moves>
 			<Range>5</Range>
@@ -1117,7 +1117,7 @@
 			<PrereqTech>TECH_BVR_COMBAT</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>40</Combat>
-			<RangedCombat>250</RangedCombat>
+			<RangedCombat>320</RangedCombat>
 			<Cost>1600</Cost>
 			<Moves>2</Moves>
 			<Range>5</Range>
@@ -1704,6 +1704,28 @@
 			<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
 			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_CULVERIN</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_CANNON</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_TREBUCHET</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_MONGOLIAN_HUIHUIPAO</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+
+
 		
 	</Unit_FreePromotions>
 

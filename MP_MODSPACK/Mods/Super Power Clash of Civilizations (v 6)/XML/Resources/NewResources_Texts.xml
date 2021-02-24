@@ -4,16 +4,6 @@
 
 	<Language_en_US>
 
-		<Row Tag="TXT_KEY_RESOURCE_NANOMAT">
-			<Text>Nanomaterials</Text>
-		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_NANOMAT_HELP">
-			<Text>Used by futuristic buildings and units. Does not spawn on the map, and must be produced by special buildings.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_NANOMAT_TEXT">
-			<Text>Nanomaterials describe, in principle, materials of which a single unit is sized (in at least one dimension) between 1 and 1000 nanometers. Materials with structure at the nanoscale often have unique optical, electronic, or mechanical properties. As such, they form an integral component of many futuristic military units and buildings.  However, unlike most strategic resources, they are not found anywhere naturally, but instead must be produced by buildings such as Nanomaterial Plants, Converters, and Nucleonic Foundries.</Text>
-		</Row>
-
 		<Row Tag="TXT_KEY_SP_RESOURCE_MANPOWER_HELP">
 			<Text>
 				In SuperPower Mod, military units and world wonders require a certain amount of [ICON_RES_MANPOWER] Manpower to maintain. If you have abundant [ICON_RES_MANPOWER] Manpower, the [ICON_GOLD] Gold cost for purchasing units and buildings will be reduced due to the lower cost of labor value.
@@ -204,6 +194,17 @@
 		<Replace Tag="TXT_KEY_RESOURCE_GLASS_HELP">
 			<Text>Glass is only available through a Mercantile City-State.</Text>
 		</Replace>
+		
+		<Row Tag="TXT_KEY_RESOURCE_NANOMAT">
+			<Text>Nanomaterials</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_NANOMAT_HELP">
+			<Text>Used by futuristic buildings and units. Does not spawn on the map, and must be produced by special buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_NANOMAT_TEXT">
+			<Text>Nanomaterials describe, in principle, materials of which a single unit is sized (in at least one dimension) between 1 and 1000 nanometers. Materials with structure at the nanoscale often have unique optical, electronic, or mechanical properties. As such, they form an integral component of many futuristic military units and buildings.  However, unlike most strategic resources, they are not found anywhere naturally, but instead must be produced by buildings such as Nanomaterial Plants, Converters, and Nucleonic Foundries.</Text>
+		</Row>
+		
 	</Language_en_US>
 
 </GameData>

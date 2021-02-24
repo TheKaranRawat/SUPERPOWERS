@@ -5,6 +5,30 @@
 	<Building_FreeUnits>
 
 		<Row>
+			<BuildingType>BUILDING_HAWA</BuildingType>
+			<UnitType>UNIT_ENGINEER</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_WHITESANDS</BuildingType>
+			<UnitType>UNIT_GUIDED_MISSILE</UnitType>
+			<NumUnits>3</NumUnits>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_ARECIBO</BuildingType>
+			<UnitType>UNIT_SCIENTIST</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_WTC</BuildingType>
+			<UnitType>UNIT_CARAVAN</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+
+		<Row>
 			<BuildingType>BUILDING_FW_VIRTUAL_IDOL</BuildingType>
 			<UnitType>UNIT_MUSICIAN</UnitType>
 			<NumUnits>1</NumUnits>
@@ -133,7 +157,79 @@
 			<UnitType>UNIT_ENGINEER</UnitType>
 			<NumUnits>1</NumUnits>
 		</Row>-->
+		<Row>
+			<BuildingType>BUILDING_FW_ACCELERATOR</BuildingType>
+			<UnitType>UNIT_SCIENTIST</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<UnitType>UNIT_SCIENTIST</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+		
 	</Building_FreeUnits>
+
+	<Unit_ProductionModifierBuildings>
+		<Row>
+			<UnitType>UNIT_FW_CHIMERA</UnitType>
+			<BuildingType>BUILDING_FW_ECTOGENESIS_POD</BuildingType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MUTANT</UnitType>
+			<BuildingType>BUILDING_FW_ECTOGENESIS_POD</BuildingType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HYDRA</UnitType>
+			<BuildingType>BUILDING_FW_ECTOGENESIS_POD</BuildingType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
+			<BuildingType>BUILDING_FW_BIOMOD_TANK</BuildingType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOTROOPER</UnitType>
+			<BuildingType>BUILDING_FW_BIOMOD_TANK</BuildingType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_FW_ROBOT_INFANTRY</UnitType>
+			<BuildingType>BUILDING_FW_AUTOPLANT</BuildingType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_ROBOT_INFANTRY</UnitType>
+			<BuildingType>BUILDING_FW_DRONE_HIVE</BuildingType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_AUTOMATON</UnitType>
+			<BuildingType>BUILDING_FW_AUTOPLANT</BuildingType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_AUTOMATON</UnitType>
+			<BuildingType>BUILDING_FW_DRONE_HIVE</BuildingType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_FW_DRONE_FIGHTER_2</UnitType>
+			<BuildingType>BUILDING_FW_AEROSPACE_COMPLEX</BuildingType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_SUBORBITAL_BOMBER</UnitType>
+			<BuildingType>BUILDING_FW_AEROSPACE_COMPLEX</BuildingType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+	</Unit_ProductionModifierBuildings>
 
 
 	<Building_DomainProductionModifiers>
@@ -158,6 +254,38 @@
 			<DomainType>DOMAIN_SEA</DomainType>
 			<Modifier>15</Modifier>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_NANOFORGE</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NANOFORGE</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NANOFORGE</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NANOFORGE</BuildingType>
+			<DomainType>DOMAIN_HOVER</DomainType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_LAUNCH_FACILITY</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_LAUNCH_FACILITY</BuildingType>
+			<DomainType>DOMAIN_HOVER</DomainType>
+			<Modifier>15</Modifier>
+		</Row>
+
 	</Building_DomainProductionModifiers>
 	
 	
@@ -201,6 +329,33 @@
 		<Row>
 			<BuildingType>BUILDING_JAPANESE_DOJO</BuildingType>
 			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>15</Experience>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_VR_TRAINING</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>25</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_VR_TRAINING</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>25</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_VR_TRAINING</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>25</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_VR_TRAINING</BuildingType>
+			<DomainType>DOMAIN_HOVER</DomainType>
+			<Experience>25</Experience>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TCS_STRONGHOLD</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
 			<Experience>15</Experience>
 		</Row>
 		
@@ -362,6 +517,25 @@
 			<BuildingType>BUILDING_GRAIN_MILL</BuildingType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_CONVERTER</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CONVERTER</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+		</Row>
+		
 	</Building_LocalResourceOrs>
 
 	
@@ -442,17 +616,17 @@
 		<Row>
 			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>2</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LABORATORY</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>2</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_POLAR_STATION</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>2</Cost>
 		</Row>
 		
 		
@@ -460,13 +634,13 @@
 		<Row>
 			<BuildingType>BUILDING_SWEDISH_LABORATORY_SERVICES</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>2</Cost>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>1</Cost>
+			<Cost>2</Cost>
 		</Row>
 		
 		<Row>
@@ -474,6 +648,264 @@
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
 			<Cost>1</Cost>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_AQUACULTURE_LAB</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<!-- additions -->
+
+		<Row>
+			<BuildingType>BUILDING_FW_AQUACULTURE_LAB</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_GENE_LAB</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_CLONE_LAB</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_TG_NURSERY</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_BIOFACTORY</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_ECTOGENESIS_POD</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+			<Row>
+			<BuildingType>BUILDING_FW_GENEJACK_FACILITY</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_BIOMOD_TANK</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_CRECHE</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_SANCTUARY</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_IMPLANT_CLINIC</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_VR_TRAINING</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+			<Row>
+			<BuildingType>BUILDING_FW_SERVER_HUB</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_ENTERTAINMENT_SERVER</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_RESEARCH_SERVER</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_COMMERCE_SERVER</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_NETWORK_BACKBONE</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_CYBERCLINIC</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+
+
+		<Row>
+			<BuildingType>BUILDING_FW_TELEPRESENCE_HUB</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_SIMULATION_SERVER</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_BRAIN_UPLOADING</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_FW_DEFENSE_FIELD</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_AEROSPACE_COMPLEX</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_AUTOPLANT</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_DRONE_HIVE</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_UTILITY_FOG</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_UNDERSEA_MINING</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_NANOMAT_PLANT</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_ALLOY_FOUNDRY</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_FEEDSITE_HUB</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_DISTRIBUTION_HUB</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_METROPLEX_HUB</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_VERTICAL_FARM</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_MYCOPROTEIN_VATS</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_ORBITAL_HABITAT</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_SPACE_STATION</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_LAUNCH_FACILITY</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>16</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_ACCELERATOR</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_BOREHOLE</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_MOON_BASE</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>6</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_CENTRAL_COMMAND</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+
+	
 		
 		
 
@@ -491,12 +923,12 @@
 		<Row>
 			<BuildingType>BUILDING_COAL_TO_OIL</BuildingType>
 			<ResourceType>RESOURCE_COAL</ResourceType>
-			<Cost>10</Cost>
+			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COAL_TO_OIL</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>3</Cost>
+			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COAL_TO_URANIUM</BuildingType>
@@ -506,14 +938,14 @@
 		<Row>
 			<BuildingType>BUILDING_COAL_TO_URANIUM</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>4</Cost>
+			<Cost>10</Cost>
 		</Row>
 
 
 		<Row>
 			<BuildingType>BUILDING_SPACESHIP_FACTORY</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>3</Cost>
+			<Cost>8</Cost>
 		</Row>
 	
 		
@@ -553,6 +985,23 @@
 			<ResourceType>RESOURCE_COAL</ResourceType>
 			<Cost>2</Cost>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_LAUNCH_FACILITY</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_MOON_BASE</BuildingType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ALLOY_FOUNDRY</BuildingType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+
 	</Building_ResourceQuantityRequirements>
 
 	
@@ -569,23 +1018,23 @@
 		<Row>
 			<BuildingType>BUILDING_STABLE</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>10</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DUCAL_STABLE</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>15</Quantity>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_MECHANIZED_FARM</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>5</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SHOSHONE_HUNTING</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>5</Quantity>
 		</Row>
 		
 		<Row>
@@ -662,6 +1111,42 @@
 			<Quantity>25</Quantity>
 		</Row>
 
+		<Row>
+			<BuildingType>BUILDING_FW_CRECHE</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Quantity>8</Quantity>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_GENEJACK_FACILITY</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Quantity>8</Quantity>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_IMPLANT_CLINIC</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Quantity>16</Quantity>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_CYBERCLINIC</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Quantity>16</Quantity>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_BRAIN_UPLOADING</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Quantity>16</Quantity>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_ORBITAL_HABITAT</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Quantity>10</Quantity>
+		</Row>
+
 		<!--<Row>
 			<BuildingType>BUILDING_IRONWORKS</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
@@ -670,11 +1155,17 @@
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_ORDER</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>50</Quantity>
+			<Quantity>200</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_ORDER</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Quantity>200</Quantity>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_FREEDOM</BuildingType>
+			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Quantity>50</Quantity>
 		</Row>
 
@@ -682,12 +1173,12 @@
 		<Row>
 			<BuildingType>BUILDING_PETRA</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>1</Quantity>
+			<Quantity>15</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COLOSSUS</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>15</Quantity>
 		</Row>
 
 		<Row>
@@ -700,12 +1191,12 @@
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_CARAVANSARY</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>15</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PORT_OF_ROTTERDAM</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>15</Quantity>
+			<Quantity>25</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_EMPIRE</BuildingType>
@@ -715,7 +1206,7 @@
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>12</Quantity>
+			<Quantity>20</Quantity>
 		</Row>
 
 		<Row>
@@ -756,18 +1247,24 @@
 			<Quantity>5</Quantity>
 		</Row>
 
+		<Row>
+			<BuildingType>BUILDING_FW_COMMERCE_SERVER</BuildingType>
+			<ResourceType>RESOURCE_CONSUMER</ResourceType>
+			<Quantity>6</Quantity>
+		</Row>
+
 
 
 		<Row>
 			<BuildingType>BUILDING_VENICE_FONDACO</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>15</Quantity>
 		</Row>
 		
 		<Row>
 			<BuildingType>BUILDING_INDUSTRIAL_ZONE</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>15</Quantity>
+			<Quantity>30</Quantity>
 		</Row>
 		<!--<Row>
 			<BuildingType>BUILDING_INDUSTRIAL_ZONE</BuildingType>
@@ -777,14 +1274,30 @@
 		<Row>
 			<BuildingType>BUILDING_INDUSTRIAL_ZONE</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>15</Quantity>
+			<Quantity>30</Quantity>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_GEOTHERMAL_PLANT</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Quantity>24</Quantity>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_TIDAL_PLANT</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Quantity>24</Quantity>
+		</Row>
+
+		
+
+
 		
 
 		<Row>
 			<BuildingType>BUILDING_GARMENT_WORKSHOP</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>10</Quantity>
 		</Row>
 		<!--<Row>
 			<BuildingType>BUILDING_MINGING_FACTORY</BuildingType>
@@ -799,7 +1312,7 @@
 		<Row>
 			<BuildingType>BUILDING_METAL_FACTORY</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>10</Quantity>
 		</Row>
 		
 		
@@ -808,13 +1321,63 @@
 		<Row>
 			<BuildingType>BUILDING_MILITARY_ACADEMY</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>12</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_JAPANESE_DOJO</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>5</Quantity>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_NANOFORGE</BuildingType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_NANOMAT_PLANT</BuildingType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+			<Quantity>4</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CONVERTER</BuildingType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENEJACK_FACILITY</BuildingType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ALLOY_FOUNDRY</BuildingType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+			<Quantity>4</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_UTILITY_FOG</BuildingType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+			<Quantity>4</Quantity>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_ASTEROID_MINING_1</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Quantity>4</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ASTEROID_MINING_2</BuildingType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+			<Quantity>8</Quantity>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_FISSION_REACTOR_PLANT</BuildingType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Quantity>4</Quantity>
+		</Row>
+
 	</Building_ResourceQuantity>
 	
 	
@@ -824,6 +1387,45 @@
 	
 	
 	<Building_YieldChanges>
+
+		<Row>
+			<BuildingType>BUILDING_AREA_51</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>50</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_WASHINGTON</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WASHINGTON</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_WILLIS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WILLIS</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_WTC</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WTC</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>35</Yield>
+		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_FW_JURASSIC_PARK</BuildingType>
@@ -853,17 +1455,17 @@
 		<Row>
 			<BuildingType>BUILDING_FW_SKYTREE</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<Yield>10</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FW_SKYTREE</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
+			<Yield>10</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FW_SHANGHAI_WFC</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<Yield>15</Yield>
 		</Row>
 
 		<Row>
@@ -1694,11 +2296,444 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>60</Yield>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_GEOTHERMAL_PLANT</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TIDAL_PLANT</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TIDAL_ARRAY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TIDAL_ARRAY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ACCELERATOR</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENE_LAB</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENE_LAB_DUMMY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SANCTUARY_DUMMY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ENTERTAINMENT_SERVER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_RESEARCH_SERVER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_COMMERCE_SERVER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SERVER_HUB</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SERVER_HUB</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SERVER_HUB</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NETWORK_BACKBONE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NETWORK_BACKBONE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NETWORK_BACKBONE_DUMMY_1</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NETWORK_BACKBONE_DUMMY_2</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NETWORK_BACKBONE_DUMMY_3</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SIMULATION_SERVER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SIMULATION_SERVER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SIMULATION_SERVER_DUMMY_1</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SIMULATION_SERVER_DUMMY_1</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SIMULATION_SERVER_DUMMY_2</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SIMULATION_SERVER_DUMMY_2</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TELEPRESENCE_HUB</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TELEPRESENCE_HUB_DUMMY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TELEPRESENCE_HUB_DUMMY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BRAIN_UPLOADING_DUMMY_1</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BRAIN_UPLOADING_DUMMY_1</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BRAIN_UPLOADING_DUMMY_1</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BRAIN_UPLOADING_DUMMY_1</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+			
+		<Row>
+			<BuildingType>BUILDING_FW_AUTOPLANT</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_AUTOPLANT_DUMMY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DRONE_HIVE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DRONE_HIVE_DUMMY_1</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DRONE_HIVE_DUMMY_2</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_UTILITY_FOG</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>6</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_FEEDSITE_HUB_DUMMY_1</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DISTRIBUTION_HUB_DUMMY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ARCOLOGY_HUB_DUMMY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_VERTICAL_FARM</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_VERTICAL_FARM_DUMMY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ORBITAL_HABITAT</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ORBITAL_HABITAT_DUMMY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_FW_FUSION_PLANT</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>7</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_FEEDSITE_HUB</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_FW_SHIMIZUMCP_DUMMY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DATA_HAVEN_DUMMY_1</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DATA_HAVEN_DUMMY_2</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DATA_HAVEN_DUMMY_3</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TAIPEI</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>16</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TAIPEI</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>64</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_ARECIBO</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARECIBO</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>32</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_ABER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_AGRA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_HARMANDIR</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>10</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_HAWA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_MAHADEVA</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>10</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_POTTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POTTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMELTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_FISSION_REACTOR_PLANT</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>16</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TCS_PUBLIC_BATHS</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_TOWN_COUNCIL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_TOWN_COUNCIL</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_PAROCHIAL_SCHOOL</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_PAROCHIAL_SCHOOL</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_MEMORIAL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_DEPOT</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_PATENT_OFFICE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_LONDON_ARRAY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>15</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>32</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>32</Yield>
+		</Row>
 		
 	</Building_YieldChanges>
 
 
 	<Building_BuildingClassYieldChanges>
+
+		<Row>
+			<BuildingType>BUILDING_WASHINGTON</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>6</YieldChange>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_WILLIS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WILLIS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_FW_JURASSIC_PARK</BuildingType>
@@ -1928,6 +2963,74 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<YieldChange>2</YieldChange>
 		</Row>-->
+
+		<Row>
+			<BuildingType>BUILDING_FW_CENTRAL_COMMAND</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_FEEDSITE_HUB</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>6</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CENTRAL_COMMAND</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_DISTRIBUTION_HUB</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>6</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CENTRAL_COMMAND</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_METROPLEX_HUB</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>6</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CENTRAL_COMMAND</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_FEEDSITE_HUB</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>6</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_MOON_BASE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_FUSION_PLANT</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>6</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_MOON_BASE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_RESEARCH_MODULE_1</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>6</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_MOON_BASE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_ENGINEERING_MODULE_1</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>6</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_MOON_BASE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_COMM_MODULE_1</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>6</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENOME_PROJECT_1</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+			<Row>
+			<BuildingType>BUILDING_FW_GENOME_PROJECT_1</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MEDICAL_LAB</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_CURE_FOR_CANCER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MEDICAL_LAB</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>25</YieldChange>
+		</Row>
 		
 	</Building_BuildingClassYieldChanges>
 	
@@ -1936,9 +3039,9 @@
 		<!--<Row>
 			<BuildingType>BUILDING_NATIONAL_LIBRARY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
-			<Happiness>1</Happiness>
-		</Row>-->
+			<Happiness>1</Happiness>		</Row>-->
 
+	
 		<Row>
 			<BuildingType>BUILDING_FW_ANGELNET</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_FW_UTILITY_FOG</BuildingClassType>
@@ -2122,6 +3225,12 @@
 	<Building_YieldModifiers>
 
 		<Row>
+			<BuildingType>BUILDING_WILLIS</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>25</Yield>
+		</Row>
+
+		<Row>
 			<BuildingType>BUILDING_FW_ENRICHMENT_CENTRE</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>100</Yield>
@@ -2251,6 +3360,110 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>15</Yield>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_GEOTHERMAL_PLANT</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BOREHOLE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TIDAL_PLANT</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TIDAL_ARRAY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TIDAL_ARRAY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_FUSION_PLANT</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>20</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_LAUNCH_FACILITY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>20</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_LAUNCH_FACILITY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>20</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SPACE_STATION</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SPACE_STATION</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_COMMERCE_SERVER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ALLOY_FOUNDRY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>30</Yield>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_FW_IMPLANT_CLINIC</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_IMPLANT_CLINIC</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CYBERCLINIC</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CYBERCLINIC</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CRECHE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CRECHE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CRECHE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>25</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TCS_PUBLIC_BATHS</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+
 	</Building_YieldModifiers>
 
 
@@ -2395,6 +3608,12 @@
 	<Building_SeaPlotYieldChanges>
 
 		<Row>
+			<BuildingType>BUILDING_LONDON_ARRAY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
 			<BuildingType>BUILDING_FW_FLOATINGISLANDS</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>3</Yield>
@@ -2440,6 +3659,13 @@
 	</Building_SeaPlotYieldChanges>
 	
 	<Building_LakePlotYieldChanges>
+
+		<Row>
+			<BuildingType>BUILDING_WILLIS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_FLOATING_GARDENS</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -2473,6 +3699,26 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>-->
+		<Row>
+			<BuildingType>BUILDING_FW_AQUACULTURE_LAB</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_AQUACULTURE_LAB</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TIDAL_ARRAY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TIDAL_ARRAY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
 	</Building_SeaResourceYieldChanges>
 
 
@@ -3065,6 +4311,276 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_CLONE_LAB</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CLONE_LAB</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CLONE_LAB</BuildingType>
+			<ResourceType>RESOURCE_BISON</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CLONE_LAB</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENE_LAB</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENE_LAB</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENE_LAB</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENE_LAB</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_NANOMAT_PLANT</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NANOMAT_PLANT</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CONVERTER</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CONVERTER</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ALLOY_FOUNDRY</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ALLOY_FOUNDRY</BuildingType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ALLOY_FOUNDRY</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ALLOY_FOUNDRY</BuildingType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_POTTER</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMELTER</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TCS_STRONGHOLD</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_DEPOT</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_DEPOT</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_DEPOT</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_DEPOT</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_DEPOT</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_DEPOT</BuildingType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_PEARLS</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_SPICES</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>	
+
 	</Building_ResourceYieldChanges>
 
 
@@ -3194,6 +4710,38 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>-->
+
+		<Row>
+			<BuildingType>BUILDING_FW_TG_NURSERY</BuildingType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TG_NURSERY</BuildingType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TG_NURSERY</BuildingType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TG_NURSERY</BuildingType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ECTOGENESIS_POD</BuildingType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
 	</Building_FeatureYieldChanges>
 	
 
@@ -3306,10 +4854,59 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BIOFACTORY</BuildingType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BIOFACTORY</BuildingType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENEJACK_FACILITY</BuildingType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENEJACK_FACILITY</BuildingType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENEJACK_FACILITY</BuildingType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENEJACK_FACILITY</BuildingType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENEJACK_FACILITY</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
 	</Building_TerrainYieldChanges>
 
 
 	<Building_SpecialistYieldChanges>
+
+		<Row>
+			<BuildingType>BUILDING_HARMANDIR</BuildingType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_FW_SHANGHAI_WFC</BuildingType>
@@ -3523,6 +5120,15 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_SERVER_HUB</BuildingType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
 	</Building_SpecialistYieldChanges>
 
 
@@ -3912,6 +5518,50 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>25</Yield>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_DISTRIBUTION_HUB</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_METROPLEX_HUB</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_MYCOPROTEIN_VATS</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NEPHILIMGENETEMPLATE_DUMMY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>50</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NEPHILIMGENETEMPLATE_DUMMY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>50</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NEPHILIMGENETEMPLATE_DUMMY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>50</Yield>
+		</Row>		
+
+		<Row>
+			<BuildingType>BUILDING_TAIPEI</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>300</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TCS_PATENT_OFFICE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>25</Yield>
+		</Row>
+
 	</Building_YieldChangesPerPop>
 
 
@@ -4039,11 +5689,35 @@
 			<PediaEntry>TXT_KEY_PROMOTION_NATIONAL_AUTOCRACY</PediaEntry>
 			<CombatPercent>25</CombatPercent>
 		</Row>
+
+		<Row>
+			<Type>PROMOTION_AREA_51</Type>
+			<Description>TXT_KEY_PROMOTION_AREA_51</Description>
+			<Help>TXT_KEY_PROMOTION_AREA_51_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>			
+			<RangeChange>3</RangeChange>
+			<InterceptionDefenseDamageModifier>-50</InterceptionDefenseDamageModifier>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_AIR</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_AREA_51</PediaEntry>
+		</Row>	
 		
 	</UnitPromotions>
 
 
 	<UnitPromotions_UnitCombats>
+
+		<Row>
+			<PromotionType>PROMOTION_AREA_51</PromotionType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+		</Row>		
+		<Row>
+			<PromotionType>PROMOTION_AREA_51</PromotionType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+		</Row>
+		
 		<Row>
 			<PromotionType>PROMOTION_SATELLITE_RECON</PromotionType>
 			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
@@ -4603,6 +6277,136 @@
 	<Building_Flavors>
 
 		<Row>
+			<BuildingType>BUILDING_ABER</BuildingType>
+			<FlavorType>FLAVOR_FOOD</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ABER</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_AGRA</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AGRA</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_HARMANDIR</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HARMANDIR</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_HAWA</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HAWA</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_MAHADEVA</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAHADEVA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAHADEVA</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_WASHINGTON</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WASHINGTON</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WASHINGTON</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_WILLIS</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>45</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WILLIS</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WILLIS</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+	
+
+		<Row>
+			<BuildingType>BUILDING_ARECIBO</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARECIBO</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARECIBO</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_WTC</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WTC</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WTC</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WTC</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+
+		<Row>
 			<BuildingType>BUILDING_FW_ULTIMATOWER</BuildingType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>10</Flavor>
@@ -4812,6 +6616,8 @@
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>30</Flavor>
 		</Row>
+
+		<!--
 		<Row>
 			<BuildingType>BUILDING_MNEMOSYNE</BuildingType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -4822,6 +6628,8 @@
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>40</Flavor>
 		</Row>
+		-->
+
 		<Row>
 			<BuildingType>BUILDING_FW_PHOLUS_MUTAGEN</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
@@ -7691,6 +9499,656 @@
 			<BuildingType>BUILDING_COAL_TO_URANIUM</BuildingType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>80</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_GEOTHERMAL_PLANT</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>70</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TIDAL_PLANT</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>70</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TIDAL_ARRAY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TIDAL_ARRAY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BOREHOLE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_FW_CLONE_LAB</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CLONE_LAB</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TG_NURSERY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TG_NURSERY</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_AQUACULTURE_LAB</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENE_LAB</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ECTOGENESIS_POD</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BIOMOD_TANK</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_FW_NANOMAT_PLANT</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NANOMAT_PLANT</BuildingType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CONVERTER</BuildingType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CONVERTER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NANOFORGE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NANOFORGE</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_VR_TRAINING</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ORBITAL_HABITAT</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ENTERTAINMENT_SERVER</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_RESEARCH_SERVER</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_COMMERCE_SERVER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SIMULATION_SERVER</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SIMULATION_SERVER</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SIMULATION_SERVER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SIMULATION_SERVER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_FW_SERVER_HUB</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SERVER_HUB</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SERVER_HUB</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_FUSION_PLANT</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_FUSION_PLANT</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DEFENSE_FIELD</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NETWORK_BACKBONE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NETWORK_BACKBONE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_NETWORK_BACKBONE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_IMPLANT_CLINIC</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_IMPLANT_CLINIC</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CRECHE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CRECHE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BIOFACTORY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENEJACK_FACILITY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_GENEJACK_FACILITY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CYBERCLINIC</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_TELEPRESENCE_HUB</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BRAINUPLOADING</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BRAINUPLOADING</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BRAINUPLOADING</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_BRAINUPLOADING</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_FW_AUTOPLANT</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_UNDERSEA_MINING</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DRONE_HIVE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DRONE_HIVE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_VERTICAL_FARM</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_MYCOPROTEIN_VATS</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ORBITAL_HABITAT</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_FW_ALLOY_FOUNDRY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_FW_FEEDSITE_HUB</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_FEEDSITE_HUB</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_DISTRIBUTION_HUB</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_METROPLEX_HUB</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CENTRAL_COMMAND</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CENTRAL_COMMAND</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_CENTRAL_COMMAND</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_ACCELERATOR</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_LAUNCH_FACILITY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_LAUNCH_FACILITY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AEROSPACE_COMPLEX</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AEROSPACE_COMPLEX</BuildingType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SPACE_STATION</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SPACE_STATION</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SPACE_STATION</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_COMM_MODULE_1</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_RESEACH_MODULE_1</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ENGINEERING_MODULE_1</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SPACE_STATION</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SPACE_STATION</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_SPACE_STATION</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_MOON_BASE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_MOON_BASE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ACCELERATOR</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ACCELERATOR</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TAIPEI</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TAIPEI</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_PALISADE_WALL</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POTTER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMELTER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_FISSION_REACTOR_PLANT</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_FISSION_REACTOR_PLANT</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_FISSION_REACTOR_PLANT</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_FISSION_REACTOR_PLANT</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+
+		<!-- Public Baths-->
+		<Row>
+			<BuildingType>BUILDING_TCS_PUBLIC_BATHS</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_PUBLIC_BATHS</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<!-- Town Council-->
+		<Row>
+			<BuildingType>BUILDING_TCS_TOWN_COUNCIL</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_TOWN_COUNCIL</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_TOWN_COUNCIL</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_TOWN_COUNCIL</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<!-- TCS_STRONGHOLD-->
+		<Row>
+			<BuildingType>BUILDING_TCS_STRONGHOLD</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_STRONGHOLD</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_STRONGHOLD</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_STRONGHOLD</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<!-- Parochial School-->
+		<Row>
+			<BuildingType>BUILDING_TCS_PAROCHIAL_SCHOOL</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_PAROCHIAL_SCHOOL</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<!-- TCS_CHANCERY-->
+		<Row>
+			<BuildingType>BUILDING_TCS_CHANCERY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_CHANCERY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<!-- TCS_MEMORIAL-->
+		<Row>
+			<BuildingType>BUILDING_TCS_MEMORIAL</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<!-- TCS_DEPOT-->
+		<Row>
+			<BuildingType>BUILDING_TCS_DEPOT</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_DEPOT</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<!-- Botanical Gardens-->
+		<Row>
+			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<!-- Patent Office-->
+		<Row>
+			<BuildingType>BUILDING_TCS_PATENT_OFFICE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_PATENT_OFFICE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_LONDON_ARRAY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LONDON_ARRAY</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LONDON_ARRAY</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_AREA_51</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AREA_51</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AREA_51</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AREA_51</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 
 	</Building_Flavors>

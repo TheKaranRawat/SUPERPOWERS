@@ -960,7 +960,7 @@
 			<Type>UNITCLASS_CRUSADER_ARTILLERY</Type>
 			<Description>TXT_KEY_UNIT_CRUSADER_ARTILLERY</Description>
 			<DefaultUnit>UNIT_CRUSADER_ARTILLERY</DefaultUnit>
-			<MaxPlayerInstances>1</MaxPlayerInstances>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
 		</Row>
 		<Row>
 			<Type>UNITCLASS_TASKFORCE_141</Type>
@@ -990,7 +990,7 @@
 			<Type>UNITCLASS_MECH</Type>
 			<Description>TXT_KEY_UNIT_MECH</Description>
 			<DefaultUnit>UNIT_MECH</DefaultUnit>
-			<MaxPlayerInstances>1</MaxPlayerInstances>
+			<MaxPlayerInstances>2</MaxPlayerInstances>
 		</Row>
 		<Row>
 			<Type>UNITCLASS_HACKER</Type>

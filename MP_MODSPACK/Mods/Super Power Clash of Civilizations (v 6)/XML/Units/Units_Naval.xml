@@ -817,7 +817,6 @@
 			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_SUBMARINE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_SP_UNITS_NAVAL_HIT_AND_RUN_SHIPS_STRATEGY</Strategy>
 			<Help>TXT_KEY_PROMOTION_SUBMARINE_COMBAT_HELP</Help>
-			<ObsoleteTech>TECH_ROBOTICS</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_NUCLEAR_SUBMARINE</GoodyHutUpgradeUnitClass>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
@@ -2856,7 +2855,7 @@
 		<Row>
 			<UnitType>UNIT_NUCLEAR_CARRIER</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_NUCLEAR_CARRIER</UnitType>
@@ -2866,7 +2865,7 @@
 		<Row>
 			<UnitType>UNIT_AMERICAN_NIMITZ</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_AMERICAN_NIMITZ</UnitType>
@@ -2878,12 +2877,12 @@
 		<Row>
 			<UnitType>UNIT_SUPER_CARRIER</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SUPER_CARRIER</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
-			<Cost>2</Cost>
+			<Cost>3</Cost>
 		</Row>
 
 

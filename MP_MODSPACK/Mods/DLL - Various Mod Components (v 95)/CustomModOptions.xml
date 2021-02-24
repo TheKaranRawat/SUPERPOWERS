@@ -449,7 +449,7 @@
 
     <!-- Enables JdH's MP Diplomacy code (v84) -->
     <!-- See also: "AI - MP Diplomacy" -->
-    <Row Class="6" Name="AI_MP_DIPLOMACY" Value="0"/>
+    <!-- <Row Class="6" Name="AI_MP_DIPLOMACY" Value="0"/> --> 
 
     <!-- Features from the "Smart AI V3 mod" by Ninakoru - see http://forums.civfanatics.com/showthread.php?t=562319 (v85) -->
     <!-- See also: "AI - Smart V3" -->

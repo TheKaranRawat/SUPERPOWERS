@@ -732,46 +732,52 @@
 	<Improvement_Yields>
 		<Delete ImprovementType="IMPROVEMENT_FISHING_BOATS"/>
 
+		<!-- COMM ARRAY -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_COMM_ARRAY</ImprovementType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>12</Yield>
 		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_FW_GENERATOR</ImprovementType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
-		</Row>
+		
+		<!-- GENERATOR -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_GENERATOR</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>4</Yield>
 		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FW_GENERATOR</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>8</Yield>
+		</Row>
+
+		<!-- SUPPORT NODE -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_CORE</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_CORE</ImprovementType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>6</Yield>
 		</Row>
+
+		<!-- HYDROPONICS -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>12</Yield>
 		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
+
+		<!-- IND COMPLEX -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_INDUSTRIAL_COMPLEX</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>12</Yield>
 		</Row>
+
+		<!-- HERC -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_HERC</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -782,56 +788,56 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		
+		<!-- NAT PRESERVE -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_PRESERVE</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>16</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_PRESERVE</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>8</Yield>
 		</Row>
+
+		<!-- ECO COMMUNE -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_BIOWELL</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>9</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_BIOWELL</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>9</Yield>
 		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_FW_BIOWELL</ImprovementType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
+
+		<!-- GENO CENTRE -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_GENOCENTRE</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_GENOCENTRE</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_GENOCENTRE</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>4</Yield>
 		</Row>
-			<Row>
-			<ImprovementType>IMPROVEMENT_FW_ARCOLOGY</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
+		
+		<!-- ARCOLOGY -->		
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_ARCOLOGY</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>12</Yield>
 		</Row>
+
+		<!-- 00000000000000000000000000000000000000000000000 -->
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_FUNGAL_GROWTH</ImprovementType>
@@ -898,50 +904,50 @@
 			<ImprovementType>IMPROVEMENT_FW_GENOCENTRE</ImprovementType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_GENOCENTRE</ImprovementType>
 			<ResourceType>RESOURCE_COW</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_GENOCENTRE</ImprovementType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_GENOCENTRE</ImprovementType>
 			<ResourceType>RESOURCE_WHEAT</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>4</Yield>
 		</Row>
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<ResourceType>RESOURCE_WHALE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<ResourceType>RESOURCE_PEARLS</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<ResourceType>RESOURCE_CRAB</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<ResourceType>RESOURCE_CORAL</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
@@ -1473,7 +1479,7 @@
 		</Update>
 
 		<Update>
-			<Set ArtDefineTag="ART_DEF_IMPROVEMENT_FEITORIA" Coastal="true" PortraitIndex="3" IconAtlas="TERRAIN_IMPROVEMENT_ICON_ATLAS_EXP2"/>
+			<Set ArtDefineTag="ART_DEF_IMPROVEMENT_FEITORIA" Coastal="true" PortraitIndex="3" IconAtlas="TERRAIN_IMPROVEMENT_ICON_ATLAS_EXP2" IgnoreOwnership="true" />
 			<Where Type="IMPROVEMENT_FORT"/>
 		</Update>
 		
@@ -1620,7 +1626,7 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_CORE</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>4</Yield>
 		</Row>
 	</Improvement_HillsYields>
 		
@@ -1791,6 +1797,13 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<TechType>TECH_TERRAFORMING</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
 		
 		<Row>
 			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
@@ -1959,19 +1972,19 @@
 			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
 			<TechType>TECH_ARTIFICIAL_ENVIRONMENTS</TechType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_GENERATOR</ImprovementType>
 			<TechType>TECH_NANOMATERIALS</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_BIOWELL</ImprovementType>
 			<TechType>TECH_MEMETICS</TechType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>4</Yield>
 		</Row>
 	</Improvement_TechFreshWaterYieldChanges>
 
@@ -2012,7 +2025,7 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_ARCOLOGY</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>4</Yield>
 		</Row>
 
 		<Row>
@@ -2120,26 +2133,80 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		
+		<!-- ARCOLOGY -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_FW_ARCOLOGY</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>18</Yield>
+		</Row>
+
+		<!-- GENERATOR -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_FW_GENERATOR</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FW_GENERATOR</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>12</Yield>
+		</Row>
+
+		<!-- COMM ARRAY -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_FW_COMM_ARRAY</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>18</Yield>
+		</Row>
+		
+		<!-- HYDROPONICS -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>18</Yield>
+		</Row>
+
+		
+		<!-- ECO COMMUNE -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_FW_BIOWELL</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>9</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FW_BIOWELL</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>9</Yield>
+		</Row>
+
+		<!-- IND COMPLEX -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_FW_INDUSTRIAL_COMPLEX</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>18</Yield>
+		</Row>
+
+		<!-- SUPPORT NODE -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_CORE</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>9</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_CORE</ImprovementType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>9</Yield>
 		</Row>
+
+		<!-- NAT PRESERVE -->
 		<Row>
-			<ImprovementType>IMPROVEMENT_FW_ARCOLOGY</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<ImprovementType>IMPROVEMENT_FW_PRESERVE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>32</Yield>
 		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_FW_ARCOLOGY</ImprovementType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
+
+
 	</Improvement_AdjacentCityYields>
 
 
@@ -2195,7 +2262,7 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_GENERATOR</ImprovementType>
-			<TechType>TECH_NANOTECHNOLOGY</TechType>
+			<TechType>TECH_GENGINEERING</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>

@@ -441,17 +441,17 @@
 		<Row>
 			<BuildingType>BUILDING_SHERIFF_OFFICE</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-20</Yield>
+			<Yield>-33</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_POLICE_STATION</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-25</Yield>
+			<Yield>-66</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PROCURATORATE</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>-33</Yield>
+			<Yield>-100</Yield>
 		</Row>
 	</Building_YieldChangesPerPop>
 
@@ -473,27 +473,27 @@
 		<Row>
 			<BuildingType>BUILDING_CITY_HALL_LV1</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CITY_HALL_LV2</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>4</Cost>
+			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CITY_HALL_LV3</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>8</Cost>
+			<Cost>12</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CITY_HALL_LV4</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>12</Cost>
+			<Cost>16</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CITY_HALL_LV5</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>16</Cost>
+			<Cost>18</Cost>
 		</Row>
 	</Building_ResourceQuantityRequirements>
 

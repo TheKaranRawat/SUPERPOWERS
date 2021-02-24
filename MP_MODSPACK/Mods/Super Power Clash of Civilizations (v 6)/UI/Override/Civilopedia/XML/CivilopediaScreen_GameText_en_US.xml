@@ -81,6 +81,11 @@
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CONSTRUCTION_MOUNTAIN">
 			<Text>[ICON_BULLET]Requires Mountain</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CONSTRUCTION_FRESH_MOUNTAIN">
+			<Text>[ICON_BULLET]Requires Mountain</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_CIVILOPEDIA_CONSTRUCTION_NEAR_MOUNTAIN">
 			<Text>[ICON_BULLET]Mountain Nearby</Text>
 		</Row>

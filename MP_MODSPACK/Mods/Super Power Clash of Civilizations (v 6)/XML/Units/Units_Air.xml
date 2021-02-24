@@ -540,7 +540,7 @@
 			<Class>UNITCLASS_BOMBER</Class>
 			<Type>UNIT_BOMBER</Type>
 			<PrereqTech>TECH_RADAR</PrereqTech>
-			<RangedCombat>120</RangedCombat>
+			<RangedCombat>200</RangedCombat>
 			<Cost>2000</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
@@ -576,7 +576,7 @@
 			<Class>UNITCLASS_BOMBER</Class>
 			<Type>UNIT_AMERICAN_B17</Type>
 			<PrereqTech>TECH_RADAR</PrereqTech>
-			<RangedCombat>150</RangedCombat>
+			<RangedCombat>250</RangedCombat>
 			<Cost>2000</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
@@ -613,7 +613,7 @@
 			<Class>UNITCLASS_JET_BOMBER</Class>
 			<Type>UNIT_JET_BOMBER</Type>
 			<PrereqTech>TECH_ADV_FLIGHT</PrereqTech>
-			<RangedCombat>200</RangedCombat>
+			<RangedCombat>300</RangedCombat>
 			<Cost>2000</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
@@ -650,7 +650,7 @@
 			<Class>UNITCLASS_STEALTH_BOMBER</Class>
 			<Type>UNIT_STEALTH_BOMBER</Type>
 			<PrereqTech>TECH_STEALTH</PrereqTech>
-			<RangedCombat>300</RangedCombat>
+			<RangedCombat>500</RangedCombat>
 			<Cost>3500</Cost>
 			<Moves>2</Moves>
 			<Special>SPECIALUNIT_STEALTH</Special>
@@ -839,7 +839,7 @@
 			<Class>UNITCLASS_CARRIER_FIGHTER_ADV</Class>
 			<Type>UNIT_CARRIER_FIGHTER_ADV</Type>
 			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
-			<RangedCombat>225</RangedCombat>
+			<RangedCombat>200</RangedCombat>
 			<Cost>-1</Cost>
 			<Moves>4</Moves>
 			<Immobile>true</Immobile>
@@ -1406,10 +1406,21 @@
 			<UnitType>UNIT_INTERCEPTER</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_INTERCEPTER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+
 		<Row>
 			<UnitType>UNIT_RUSSIAN_SU27</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_SU27</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+
 		<Row>
 			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
@@ -1445,8 +1456,17 @@
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_JET_FIGHTER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+
+		<Row>
 			<UnitType>UNIT_SWEDISH_JAS39_FIGHTER</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWEDISH_JAS39_FIGHTER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 		
 		<Row>
@@ -1491,6 +1511,28 @@
 		<Row>
 			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER_ADV</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_JET</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ADV</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER_ADV</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 
 		

@@ -1078,6 +1078,74 @@
 			<Description>TXT_KEY_BUILDING_SATELLITEEFFECTS</Description>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
+
+		<!-- NEW_WONDERS-->
+
+		<Row>
+			<Type>BUILDINGCLASS_TAIPEI</Type>
+			<DefaultBuilding>BUILDING_TAIPEI</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TAIPEI</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_ARECIBO</Type>
+			<DefaultBuilding>BUILDING_ARECIBO</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ARECIBO</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_WILLIS</Type>
+			<DefaultBuilding>BUILDING_WILLIS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_WILLIS</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_WASHINGTON</Type>
+			<DefaultBuilding>BUILDING_WASHINGTON</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_WASHINGTON</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_AGRA</Type>
+			<DefaultBuilding>BUILDING_AGRA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_AGRA</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_ABER</Type>
+			<DefaultBuilding>BUILDING_ABER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ABER</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_HARMANDIR</Type>
+			<DefaultBuilding>BUILDING_HARMANDIR</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_HARMANDIR</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_HAWA</Type>
+			<DefaultBuilding>BUILDING_HAWA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_HAWA</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MAHADEVA</Type>
+			<DefaultBuilding>BUILDING_MAHADEVA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MAHADEVA</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+		<Row>			
+			<Type>BUILDINGCLASS_NATIONAL_BIOSPHERE</Type>
+			<DefaultBuilding>BUILDING_NATIONAL_BIOSPHERE</DefaultBuilding>
+			<Description>TXT_KEY_NATIONAL_BIOSPHERE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
 		
 		</BuildingClasses>
 		
@@ -1640,6 +1708,96 @@
 			<DefaultBuilding>BUILDING_NATIONAL_FREEDOM</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_NATIONAL_FREEDOM</Description>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_PALISADE_WALL</Type>
+			<DefaultBuilding>BUILDING_PALISADE_WALL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_PALISADE_WALL</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_POTTER</Type>
+			<DefaultBuilding>BUILDING_POTTER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_POTTER</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_SMELTER</Type>
+			<DefaultBuilding>BUILDING_SMELTER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SMELTER</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_NUCLEAR_FISSION_REACTOR_PLANT</Type>
+			<DefaultBuilding>BUILDING_NUCLEAR_FISSION_REACTOR_PLANT</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_NUCLEAR_FISSION_REACTOR_PLANT</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_TCS_PUBLIC_BATHS</Type>
+			<DefaultBuilding>BUILDING_TCS_PUBLIC_BATHS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TCS_PUBLIC_BATHS</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TCS_TOWN_COUNCIL</Type>
+			<DefaultBuilding>BUILDING_TCS_TOWN_COUNCIL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TCS_TOWN_COUNCIL</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TCS_STRONGHOLD</Type>
+			<DefaultBuilding>BUILDING_TCS_STRONGHOLD</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TCS_STRONGHOLD</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TCS_PAROCHIAL_SCHOOL</Type>
+			<DefaultBuilding>BUILDING_TCS_PAROCHIAL_SCHOOL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TCS_PAROCHIAL_SCHOOL</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TCS_CHANCERY</Type>
+			<DefaultBuilding>BUILDING_TCS_CHANCERY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TCS_CHANCERY</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TCS_MEMORIAL</Type>
+			<DefaultBuilding>BUILDING_TCS_MEMORIAL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TCS_MEMORIAL</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TCS_DEPOT</Type>
+			<DefaultBuilding>BUILDING_TCS_DEPOT</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TCS_DEPOT</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TCS_BOTANICAL_GARDENS</Type>
+			<DefaultBuilding>BUILDING_TCS_BOTANICAL_GARDENS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TCS_BOTANICAL_GARDENS</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TCS_PATENT_OFFICE</Type>
+			<DefaultBuilding>BUILDING_TCS_PATENT_OFFICE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TCS_PATENT_OFFICE</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_CURE_FOR_CANCER</Type>
+			<DefaultBuilding>BUILDING_CURE_FOR_CANCER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CURE_FOR_CANCER</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_LONDON_ARRAY</Type>
+			<DefaultBuilding>BUILDING_LONDON_ARRAY</DefaultBuilding>
+			<Description>TXT_KEY_WONDER_LONDON_ARRAY</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_AREA_51</Type>
+			<DefaultBuilding>BUILDING_AREA_51</DefaultBuilding>
+			<Description>TXT_KEY_WONDER_AREA_51</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
 
 

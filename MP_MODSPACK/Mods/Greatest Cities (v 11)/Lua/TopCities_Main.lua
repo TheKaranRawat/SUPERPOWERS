@@ -8,14 +8,8 @@ MapModData.g_Properties	= MapModData.g_Properties or {}
 local g_Properties		= MapModData.g_Properties;
 local archID			= GameInfo.Buildings["BUILDING_TC_TRIUMPHARCH"].ID
 --------------------------------------------------------------------
-function OnTopCitiesEraChanged(eraID, playerID)
-	local currentEraID = GameInfoTypes[GetCurrentEra()];
-	if (currentEraID < eraID) then
-		DoGreatestCityWinner(eraID)
-		SetCurrentEra(GameInfo.Eras[eraID].Type)
-	end
-end
-Events.SerialEventEraChanged.Add( OnTopCitiesEraChanged );
+
+
 --------------------------------------------------------------------
 function OnCityCanConstruct(playerID, cityID, buildingID)
 	if (buildingID == archID) then

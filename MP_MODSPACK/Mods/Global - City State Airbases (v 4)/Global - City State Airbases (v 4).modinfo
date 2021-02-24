@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d61b698a-539e-411c-a65b-dcf176a38b35" version="4">
+  <Properties>
+    <Name>Global - City State Airbases</Name>
+    <Teaser>Aircraft can rebase to allied city states</Teaser>
+    <Description>Permits up to three aircraft (but not missiles or nukes) to be based in allied city states.
+
+Any aircraft in a City State you are no longer allies with will be rebased to the nearest friendly city/unit.  If none are within range, the aircraft will be disbanded.</Description>
+    <Authors>William Howard</Authors>
+    <SpecialThanks>Translation: Russian - Tomahawk.nsk</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="1" maxversion="999" title="DLL - Various Mod Components" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="6D4DFCD91B6C6E3D4EF779231EA95391" import="0">LUA/CityStateAirbases.lua</File>
+    <File md5="1FB64FC150537B7ACB4001583B1AB088" import="0">XML/GlobalCityStateAirbases.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/GlobalCityStateAirbases.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/CityStateAirbases.lua">
+      <Name>CityStateAirbases</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

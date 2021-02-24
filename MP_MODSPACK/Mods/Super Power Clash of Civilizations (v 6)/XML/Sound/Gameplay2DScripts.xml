@@ -15,12 +15,6 @@
 		<Delete UnitType="UNIT_MOBILE_SAM"/>
 
 		<Row>
-			<UnitType>UNIT_FW_SUPERCARRIER</UnitType>
-			<SelectionSound>AS2D_SELECT_CARRIER</SelectionSound>
-			<FirstSelectionSound>AS2D_BIRTH_CARRIER</FirstSelectionSound>
-		</Row>
-
-		<Row>
 			<UnitType>UNIT_CITADEL_EARLY</UnitType>
 			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
 			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>

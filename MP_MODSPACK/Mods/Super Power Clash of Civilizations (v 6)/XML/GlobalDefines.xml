@@ -328,19 +328,19 @@
 		</Update>
 		<!-- Minor Civ Defines -->
 		<Update>
-			<Set Value="200"/>
+			<Set Value="300"/>
 			<Where Name="MINOR_CIV_CONTACT_GOLD_FIRST" />
 		</Update>
 		<Update>
-			<Set Value="100"/>
+			<Set Value="200"/>
 			<Where Name="MINOR_CIV_CONTACT_GOLD_OTHER" />
 		</Update>
 		<Update>
-			<Set Value="300"/>
+			<Set Value="50"/>
 			<Where Name="MINOR_CIV_GROWTH_PERCENT" />
 		</Update>
 		<Update>
-			<Set Value="300"/>
+			<Set Value="100"/>
 			<Where Name="MINOR_CIV_PRODUCTION_PERCENT" />
 		</Update>
 		<Update>
@@ -352,7 +352,7 @@
 			<Where Name="MINOR_CIV_TECH_PERCENT" />
 		</Update>
 		<Update>
-			<Set Value="200"/>
+			<Set Value="300"/>
 			<Where Name="MINOR_FRIENDSHIP_FROM_TRADE_MISSION" />
 		</Update>
 		<Update>
@@ -363,7 +363,7 @@
 		<!-- Unit/Combat Defines -->
 	
 		<Update>
-			<Set Value="1000"/>
+			<Set Value="500"/>
 			<Where Name="MAX_CITY_HIT_POINTS" />
 		</Update>
 		<Update>
@@ -387,7 +387,7 @@
 			<Where Name="INSTA_HEAL_RATE" />
 		</Update>
 		<Update>
-			<Set Value="20"/>
+			<Set Value="15"/>
 			<Where Name="CITY_HEAL_RATE" />
 		</Update>
 		<Update>
@@ -406,7 +406,7 @@
 			<Where Name="CITY_STRENGTH_DEFAULT" />
 		</Update>
 		<Update>
-			<Set Value="20"/>
+			<Set Value="40"/>
 			<Where Name="CITY_STRENGTH_POPULATION_CHANGE" />
 		</Update>
 		<Update>
@@ -418,7 +418,7 @@
 			<Where Name="CITY_STRENGTH_TECH_EXPONENT" />
 		</Update>
 		<Update>
-			<Set Value="500"/>
+			<Set Value="2500"/>
 			<Where Name="CITY_STRENGTH_HILL_CHANGE" />
 		</Update>
 		<Update>
@@ -646,7 +646,7 @@
 
 
 		<Update>
-			<Set Value="6"/>
+			<Set Value="8"/>
 			<Where Name="BASE_CULTURE_PER_GREAT_WORK" />
 		</Update>
 		

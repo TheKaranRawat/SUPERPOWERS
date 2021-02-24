@@ -7,23 +7,23 @@
 			<Type>POLICY_AI_MEDIEVAL</Type>
 			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
 			<UnhappinessMod>-5</UnhappinessMod>
-			<CityGrowthMod>15</CityGrowthMod>
+			<CityGrowthMod>30</CityGrowthMod>
 			
 		</Row>
 		<Row>
 			<Type>POLICY_AI_RENAISSANCE</Type>
 			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
-			<CityGrowthMod>25</CityGrowthMod>
-			<UnhappinessMod>-25</UnhappinessMod>
+			<CityGrowthMod>35</CityGrowthMod>
+			<UnhappinessMod>-5</UnhappinessMod>
 			<FreeExperience>15</FreeExperience>
 		</Row>
 		<Row>
 			<Type>POLICY_AI_INDUSTRY</Type>
 			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
 			<StealTechFasterModifier>25</StealTechFasterModifier>
-			<CatchSpiesModifier>-45</CatchSpiesModifier>
+			<CatchSpiesModifier>-25</CatchSpiesModifier>
 			<CityGrowthMod>35</CityGrowthMod>
-			<UnhappinessMod>-5</UnhappinessMod>
+			<UnhappinessMod>-25</UnhappinessMod>
 			<!--<HappinessToScience>5</HappinessToScience>-->
 			<FreeExperience>15</FreeExperience>
 			<PlotCultureExponentModifier>15</PlotCultureExponentModifier>
@@ -34,9 +34,9 @@
 			<WonderProductionModifier>15</WonderProductionModifier>
 			<CatchSpiesModifier>-25</CatchSpiesModifier>
 			<MinorGoldFriendshipMod>25</MinorGoldFriendshipMod>
-			<CityGrowthMod>45</CityGrowthMod>
+			<CityGrowthMod>35</CityGrowthMod>
 			<UnitGoldMaintenanceMod>-25</UnitGoldMaintenanceMod>
-			<UnhappinessMod>-5</UnhappinessMod>
+			<UnhappinessMod>-25</UnhappinessMod>
 			<ThemingBonusMultiplier>100</ThemingBonusMultiplier>
 			<!--<HappinessToScience>10</HappinessToScience>-->
 			<FreeExperience>30</FreeExperience>
@@ -47,11 +47,11 @@
 			<WonderProductionModifier>25</WonderProductionModifier>
 			<CatchSpiesModifier>-50</CatchSpiesModifier>
 			<MinorFriendshipDecayMod>-25</MinorFriendshipDecayMod>
-			<CityGrowthMod>55</CityGrowthMod>
+			<CityGrowthMod>40</CityGrowthMod>
 			<ProtectedMinorPerTurnInfluence>100</ProtectedMinorPerTurnInfluence>
 			<AfraidMinorPerTurnInfluence>100</AfraidMinorPerTurnInfluence>
 			<HappinessToScience>10</HappinessToScience>
-			<UnhappinessMod>-10</UnhappinessMod>
+			<UnhappinessMod>-20</UnhappinessMod>
 			<ThemingBonusMultiplier>200</ThemingBonusMultiplier>
 		</Row>
 		<Row>
@@ -59,23 +59,23 @@
 			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
 			<WonderProductionModifier>25</WonderProductionModifier>
 			<MinorFriendshipDecayMod>-25</MinorFriendshipDecayMod>
-			<CityGrowthMod>65</CityGrowthMod>
+			<CityGrowthMod>30</CityGrowthMod>
 			<ProtectedMinorPerTurnInfluence>100</ProtectedMinorPerTurnInfluence>
 			<AfraidMinorPerTurnInfluence>100</AfraidMinorPerTurnInfluence>
 			<HappinessToScience>10</HappinessToScience>
-			<UnhappinessMod>-10</UnhappinessMod>
+			<UnhappinessMod>-50</UnhappinessMod>
 			<ThemingBonusMultiplier>400</ThemingBonusMultiplier>
 		</Row>
 		<Row>
 			<Type>POLICY_AI_INFORMATION</Type>
 			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
 			<WonderProductionModifier>25</WonderProductionModifier>
-			<CityGrowthMod>75</CityGrowthMod>
+			<CityGrowthMod>30</CityGrowthMod>
 			<ProtectedMinorPerTurnInfluence>200</ProtectedMinorPerTurnInfluence>
 			<AfraidMinorPerTurnInfluence>200</AfraidMinorPerTurnInfluence>
 			<HappinessToCulture>10</HappinessToCulture>
 			<HappinessToScience>10</HappinessToScience>
-			<UnhappinessMod>-10</UnhappinessMod>
+			<UnhappinessMod>-120</UnhappinessMod>
 			<ThemingBonusMultiplier>800</ThemingBonusMultiplier>
 		</Row>
 
@@ -103,7 +103,7 @@
 			<AfraidMinorPerTurnInfluence>500</AfraidMinorPerTurnInfluence>
 			<HappinessToCulture>25</HappinessToCulture>
 			<HappinessToScience>25</HappinessToScience>
-			<CityGrowthMod>10</CityGrowthMod>
+			<CityGrowthMod>15</CityGrowthMod>
 			<UnhappinessMod>-10</UnhappinessMod>
 			<BuildingProductionModifier>50</BuildingProductionModifier>
 			<WonderProductionModifier>25</WonderProductionModifier>
@@ -121,8 +121,8 @@
 			<AfraidMinorPerTurnInfluence>200</AfraidMinorPerTurnInfluence>
 			<HappinessToCulture>10</HappinessToCulture>
 			<HappinessToScience>10</HappinessToScience>
-			<CityGrowthMod>10</CityGrowthMod>
-			<UnhappinessMod>-10</UnhappinessMod>
+			<CityGrowthMod>30</CityGrowthMod>
+			<UnhappinessMod>-30</UnhappinessMod>
 			<ThemingBonusMultiplier>200</ThemingBonusMultiplier>
 			<RiggingElectionModifier>50</RiggingElectionModifier>
 			<BuildingGoldMaintenanceMod>-10</BuildingGoldMaintenanceMod>
@@ -138,10 +138,10 @@
 			<AfraidMinorPerTurnInfluence>100</AfraidMinorPerTurnInfluence>
 			<!--<HappinessToCulture>10</HappinessToCulture>-->
 			<!--<HappinessToScience>15</HappinessToScience>-->
-			<UnhappinessMod>-10</UnhappinessMod>
-			<CityGrowthMod>10</CityGrowthMod>
-			<BuildingGoldMaintenanceMod>-10</BuildingGoldMaintenanceMod>
-			<UnitGoldMaintenanceMod>-15</UnitGoldMaintenanceMod>
+			<UnhappinessMod>-50</UnhappinessMod>
+			<CityGrowthMod>40</CityGrowthMod>
+			<BuildingGoldMaintenanceMod>-30</BuildingGoldMaintenanceMod>
+			<UnitGoldMaintenanceMod>-35</UnitGoldMaintenanceMod>
 			<ThemingBonusMultiplier>100</ThemingBonusMultiplier>
 			<InternalTradeRouteYieldModifier>50</InternalTradeRouteYieldModifier>
 		</Row>
@@ -151,13 +151,70 @@
 		<Row>
 			<Type>POLICY_AI_ATWAR_BONUS</Type>
 			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
-			<CityGrowthMod>90</CityGrowthMod>
-			<StrategicResourceMod>250</StrategicResourceMod>
-			<MilitaryProductionModifier>300</MilitaryProductionModifier>
-			<BuildingProductionModifier>300</BuildingProductionModifier>
+			<CityGrowthMod>50</CityGrowthMod>
+			<StrategicResourceMod>150</StrategicResourceMod>
+			<MilitaryProductionModifier>200</MilitaryProductionModifier>
+			<BuildingProductionModifier>200</BuildingProductionModifier>
 		</Row>
 		
+		<Row>
+			<Type>POLICY_GENE_VAULT</Type>
+		</Row>
+		<Row>
+			<Type>POLICY_GENE_VAULT_DUMMY</Type>
+		</Row>
+		<Row>
+			<Type>POLICY_BIONIC_TOWER</Type>
+			<HalfSpecialistFood>true</HalfSpecialistFood>
+			<HalfSpecialistUnhappiness>true</HalfSpecialistUnhappiness>
+		</Row>
+		<Row>
+			<Type>POLICY_BIONIC_TOWER_DUMMY</Type>
+		</Row>
+		<Row>
+			<Type>POLICY_HELIOS</Type>
+		</Row>
+		<Row>
+			<Type>POLICY_HELIOS_DUMMY</Type>
+		</Row>
+		<Row>
+			<Type>POLICY_BOREHOLE</Type>
+		</Row>
+		<Row>
+			<Type>POLICY_BOREHOLE_DUMMY</Type>
+		</Row>
 		
+	</Policies>
+
+	<Policies>
+		<Update>
+			<Set StrategicResourceMod="300"/>
+			<Where Type="POLICY_AI_ATOMIC"/>
+		</Update>
+
+		<Update>
+			<Set StrategicResourceMod="300"/>
+			<Where Type="POLICY_AI_INFORMATION"/>
+		</Update>
+
+		<Update>
+			<Set StrategicResourceMod="300"/>
+			<Where Type="POLICY_AI_INDUSTRY"/>
+		</Update>
+
+		<Update>
+			<Set StrategicResourceMod="300"/>
+			<Where Type="POLICY_AI_MODERN"/>
+		</Update>
+
+		<Update>
+			<Set StrategicResourceMod="300"/>
+			<Where Type="POLICY_AI_WORLDWAR"/>
+		</Update>
+
+
+		
+
 	</Policies>
 
 

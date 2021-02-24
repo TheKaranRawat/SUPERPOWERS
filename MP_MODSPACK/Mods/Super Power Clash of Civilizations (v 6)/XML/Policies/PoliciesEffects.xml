@@ -276,6 +276,12 @@
 			<YieldChange>2</YieldChange>
 		</Row>-->
 
+		<Row>
+			<PolicyType>POLICY_PIETY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MAHADEVA</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
 		
 		<Row>
 			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
@@ -508,25 +514,25 @@
 			<PolicyType>POLICY_UNITED_FRONT</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldMod>15</YieldMod>
+			<YieldMod>40</YieldMod>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_UNITED_FRONT</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldMod>15</YieldMod>
+			<YieldMod>40</YieldMod>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_UNITED_FRONT</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldMod>15</YieldMod>
+			<YieldMod>40</YieldMod>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_UNITED_FRONT</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldMod>15</YieldMod>
+			<YieldMod>40</YieldMod>
 		</Row>
 
 
@@ -535,13 +541,13 @@
 			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldMod>25</YieldMod>
+			<YieldMod>33</YieldMod>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldMod>25</YieldMod>
+			<YieldMod>33</YieldMod>
 		</Row>
 
 
@@ -688,7 +694,7 @@
 		<Row>
 			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
-			<TourismModifier>25</TourismModifier>
+			<TourismModifier>33</TourismModifier>
 		</Row>
 
 	</Policy_BuildingClassTourismModifiers>
@@ -959,58 +965,58 @@
 		<Row>
 			<PolicyType>POLICY_SOCIALIST_REALISM</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MECHANIZED_FARM</BuildingClassType>
-			<Happiness>2</Happiness>
+			<Happiness>6</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_SOCIALIST_REALISM</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_GRAIN_DEPOT</BuildingClassType>
-			<Happiness>2</Happiness>
+			<Happiness>6</Happiness>
 		</Row>
 		
 		<Row>
 			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_COAL_PLANT</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>3</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_WIND_PLANT</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>3</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_HYDRO_PLANT</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>3</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_OIL_PLANT</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>3</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_GAS_PLANT</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>3</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_NUCLEAR_PLANT</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>3</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_SOLAR_PLANT</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>3</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_TIDAL_PLANT</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>3</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_FUSION_PLANT</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>3</Happiness>
 		</Row>
 		
 
@@ -1025,7 +1031,7 @@
 		<Row>
 			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>4</Happiness>
 		</Row>
 		<!--<Row>
 			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
@@ -1035,57 +1041,57 @@
 		<Row>
 			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>4</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>4</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>4</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_METAL_FACTORY</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>4</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_COAL_TO_OIL</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>4</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_COAL_TO_URANIUM</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>4</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_OIL_REFINERY</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>4</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_COAL_COMPANY</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>4</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_STEEL_MILL</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>4</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_ALUMINUM_PROVIDER</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>4</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_IRON_PROVIDER</BuildingClassType>
-			<Happiness>1</Happiness>
+			<Happiness>4</Happiness>
 		</Row>
 		
 		
@@ -1094,27 +1100,27 @@
 		<Row>
 			<PolicyType>POLICY_POLICE_STATE</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
-			<Happiness>3</Happiness>
+			<Happiness>10</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_POLICE_STATE</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_SHERIFF_OFFICE</BuildingClassType>
-			<Happiness>3</Happiness>
+			<Happiness>10</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_POLICE_STATE</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_CONSTABLE</BuildingClassType>
-			<Happiness>3</Happiness>
+			<Happiness>10</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_POLICE_STATE</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_POLICE_STATION</BuildingClassType>
-			<Happiness>3</Happiness>
+			<Happiness>10</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_POLICE_STATE</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_PROCURATORATE</BuildingClassType>
-			<Happiness>3</Happiness>
+			<Happiness>10</Happiness>
 		</Row>
 	</Policy_BuildingClassHappiness>
 	
@@ -1301,31 +1307,31 @@
 			<PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType>
 			<ImprovementType>IMPROVEMENT_WELL</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType>
 			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType>
 			<ImprovementType>IMPROVEMENT_GAS_RIG_MOD</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 
 	</Policy_ImprovementYieldChanges>
@@ -1344,17 +1350,17 @@
 		<Row>
 			<PolicyType>POLICY_PARTY_LEADERSHIP</PolicyType>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
-			<CultureChange>1</CultureChange>
+			<CultureChange>3</CultureChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_PARTY_LEADERSHIP</PolicyType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
-			<CultureChange>1</CultureChange>
+			<CultureChange>3</CultureChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_PARTY_LEADERSHIP</PolicyType>
 			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
-			<CultureChange>1</CultureChange>
+			<CultureChange>3</CultureChange>
 		</Row>
 	</Policy_ImprovementCultureChanges>
 
@@ -1690,7 +1696,7 @@
 			<PediaType>PEDIA_SHARED</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_LIGHTNING_WARFARE</PediaEntry>
 			<CannotBeChosen>true</CannotBeChosen>
-			<MovesChange>1</MovesChange>	
+			<MovesChange>2</MovesChange>	
 		</Row>
 		<Row>
 			<Type>PROMOTION_FAST_GENERAL</Type>
@@ -2461,7 +2467,7 @@
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
-			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<NumTradeRouteBonus>2</NumTradeRouteBonus>
 			<PortraitIndex>2</PortraitIndex>
 			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
@@ -2475,7 +2481,7 @@
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
-			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<NumTradeRouteBonus>2</NumTradeRouteBonus>
 			<PortraitIndex>2</PortraitIndex>
 			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
@@ -2489,7 +2495,7 @@
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
-			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<NumTradeRouteBonus>2</NumTradeRouteBonus>
 			<PortraitIndex>2</PortraitIndex>
 			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
@@ -2505,6 +2511,7 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<NullifyInfluenceModifier>true</NullifyInfluenceModifier>
 			<PortraitIndex>7</PortraitIndex>
+			<GlobalCultureRateModifier>15</GlobalCultureRateModifier>
 			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
 			<Description>TXT_KEY_BUILDING_AUTOCRACY_FIREWALL</Description>
 			<Help>TXT_KEY_BUILDING_AUTOCRACY_FIREWALL_HELP</Help>
@@ -2513,6 +2520,7 @@
 	</Buildings>
 
 	<Building_YieldChangesPerPop>
+
 		<Row>
 			<BuildingType>BUILDING_FAMILY_PRODUCTION</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -2565,18 +2573,18 @@
 		<Row>
 			<BuildingType>BUILDING_UNITED_FRONT_FOOD</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>45</Quantity>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_CONSUMER_GOODS_OFFER</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>4</Quantity>
+			<Quantity>16</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CONSUMER_GOODS_OFFER</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>4</Quantity>
+			<Quantity>16</Quantity>
 		</Row>
 	</Building_ResourceQuantity>
 	

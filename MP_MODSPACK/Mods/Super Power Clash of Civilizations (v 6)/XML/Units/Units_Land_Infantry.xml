@@ -497,12 +497,12 @@
 		<Row>
 			<Class>UNITCLASS_XCOM_SQUAD</Class>
 			<Type>UNIT_XCOM_SQUAD</Type>
-			<PrereqTech>TECH_INTEGRATED_DEFENSE</PrereqTech>
+			<PrereqTech>TECH_GEN_MANIP</PrereqTech>
 			<BaseSightRange>4</BaseSightRange>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<Combat>150</Combat>
 			<Cost>3000</Cost>
-			<Moves>3</Moves>
+			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_PARADROP</DefaultUnitAI>
@@ -1680,11 +1680,12 @@
 			<PortraitIndex>20</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
 			<ExtraMaintenanceCost>150</ExtraMaintenanceCost>
+			<HurryCostModifier>-1</HurryCostModifier>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_FW_SUBORBITAL_BOMBER</Class>
 			<Type>UNIT_FW_SUBORBITAL_BOMBER</Type>
-			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+			<PrereqTech>TECH_IMPLANTS</PrereqTech>
 			<RangedCombat>400</RangedCombat>
 			<Cost>3800</Cost>
 			<Moves>3</Moves>
@@ -1715,6 +1716,7 @@
 			<PortraitIndex>57</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
 			<ExtraMaintenanceCost>350</ExtraMaintenanceCost>
+			<HurryCostModifier>-1</HurryCostModifier>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_FW_RAILGUN_TANK</Class>
@@ -1748,18 +1750,17 @@
 			<PortraitIndex>50</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
 			<ExtraMaintenanceCost>140</ExtraMaintenanceCost>
+			<HurryCostModifier>-1</HurryCostModifier>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_FW_MECH_ARTILLERY</Class>
 			<Type>UNIT_FW_MECH_ARTILLERY</Type>
 			<PrereqTech>TECH_QUANTUM_COMPUTERS</PrereqTech>
-			<Combat>100</Combat>
-			<RangedCombat>250</RangedCombat>
+			<Combat>90</Combat>
+			<RangedCombat>400</RangedCombat>
 			<Cost>1800</Cost>
-			<FaithCost>1000</FaithCost>
-			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>3</Moves>
-			<Range>3</Range>
+			<Range>1</Range>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_CITY_BOMBARD</DefaultUnitAI>
@@ -1784,13 +1785,14 @@
 			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
 			<PortraitIndex>51</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>150</ExtraMaintenanceCost>
+			<HurryCostModifier>-1</HurryCostModifier>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_FW_VERTOL</Class>
 			<Type>UNIT_FW_VERTOL</Type>
 			<PrereqTech>TECH_GRID_COMPUTING</PrereqTech>
-			<Combat>140</Combat>
+			<Combat>170</Combat>
 			<Cost>1600</Cost>
 			<Moves>6</Moves>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
@@ -1815,6 +1817,7 @@
 			<PortraitIndex>19</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
 			<ExtraMaintenanceCost>90</ExtraMaintenanceCost>
+			<HurryCostModifier>-1</HurryCostModifier>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_FW_HOVERTANK</Class>
@@ -1844,6 +1847,7 @@
 			<PortraitIndex>42</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
 			<ExtraMaintenanceCost>150</ExtraMaintenanceCost>
+			<HurryCostModifier>-1</HurryCostModifier>
 		</Row>
 		<!--
 		<Row>
@@ -2089,7 +2093,7 @@
 			<Class>UNITCLASS_FW_BATTLESUIT</Class>
 			<Type>UNIT_FW_BATTLESUIT</Type>
 			<PrereqTech>TECH_ADAMANTIUM</PrereqTech>
-			<Combat>180</Combat>
+			<Combat>200</Combat>
 			<Cost>2000</Cost>
 			<FaithCost>1100</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
@@ -2113,7 +2117,8 @@
 			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_4</UnitFlagAtlas>
 			<UnitFlagIconOffset>3</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
-			<PortraitIndex>41</PortraitIndex>
+			<PortraitIndex>41</PortraitIndex>			
+			<HurryCostModifier>-1</HurryCostModifier>
 			<ExtraMaintenanceCost>110</ExtraMaintenanceCost>
 		</Row>
 		<Row>
@@ -2149,6 +2154,8 @@
 			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
 			<PortraitIndex>23</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_FW_CRAWLER</Class>
@@ -2179,6 +2186,7 @@
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
 			<PortraitIndex>58</PortraitIndex>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<ExtraMaintenanceCost>200</ExtraMaintenanceCost>
 		</Row>
 		
@@ -2462,8 +2470,8 @@
 			<Class>UNITCLASS_FW_ROBOT_INFANTRY</Class>
 			<Type>UNIT_FW_ROBOT_INFANTRY</Type>
 			<PrereqTech>TECH_AI</PrereqTech>
-			<Combat>120</Combat>
-			<Cost>1500</Cost>
+			<Combat>150</Combat>
+			<Cost>1000</Cost>
 			<FaithCost>1000</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>3</Moves>
@@ -2487,6 +2495,7 @@
 			<UnitFlagIconOffset>2</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
 			<PortraitIndex>49</PortraitIndex>			
+			<HurryCostModifier>-1</HurryCostModifier>
 			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
 		</Row>
 		
@@ -2521,6 +2530,7 @@
 			<UnitFlagIconOffset>3</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
 			<PortraitIndex>56</PortraitIndex>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<ExtraMaintenanceCost>300</ExtraMaintenanceCost>
 		</Row>
 
@@ -2613,8 +2623,8 @@
 
 			<!-- postfuture upgrades-->
 
-
-				<Row>
+		<!--
+		<Row>
 			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
 			<UnitClassType>UNITCLASS_MECH</UnitClassType>
 		</Row>
@@ -2723,6 +2733,8 @@
 			<UnitType>UNIT_FW_CHIMERA</UnitType>
 			<UnitClassType>UNITCLASS_FW_HYDRA</UnitClassType>
 		</Row>
+
+		-->
 
 			<!--******Militia *****-->
 			<Row>
@@ -3985,10 +3997,7 @@
 			<UnitType>UNIT_FW_SUPERCARRIER</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
-			<ResourceType>RESOURCE_NANOMAT</ResourceType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_FW_VERTOL</UnitType>
 			<ResourceType>RESOURCE_NANOMAT</ResourceType>
@@ -4316,7 +4325,7 @@
 			</Row>
 
 			<Row>
-				<UnitTypeUNIT_FW_SUBORBITAL_BOMBER</UnitType>
+				<UnitType>UNIT_FW_SUBORBITAL_BOMBER</UnitType>
 				<ResourceType>RESOURCE_MANPOWER</ResourceType>
 				<Cost>4</Cost>
 			</Row>
@@ -4324,6 +4333,70 @@
 			<Row>
 				<UnitType>UNIT_FW_DRONE_FIGHTER_2</UnitType>
 				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+				<Cost>2</Cost>
+			</Row>
+
+
+			<!-- special resource future units -->
+
+			<Row>
+				<UnitType>UNIT_FW_NEXUS</UnitType>
+				<ResourceType>RESOURCE_IRON</ResourceType>
+				<Cost>6</Cost>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_FW_CRAWLER</UnitType>
+				<ResourceType>RESOURCE_IRON</ResourceType>
+				<Cost>4</Cost>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_FW_BATTLESUIT</UnitType>
+				<ResourceType>RESOURCE_URANIUM</ResourceType>
+				<Cost>1</Cost>
+			</Row>
+			
+
+			<Row>
+				<UnitType>UNIT_FW_HOVERTANK</UnitType>
+				<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+				<Cost>2</Cost>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_FW_VERTOL</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+				<Cost>3</Cost>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
+				<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+				<Cost>2</Cost>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
+				<ResourceType>RESOURCE_URANIUM</ResourceType>
+				<Cost>1</Cost>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
+				<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+				<Cost>2</Cost>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_FW_SUBORBITAL_BOMBER</UnitType>
+				<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+				<Cost>2</Cost>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_FW_DRONE_FIGHTER_2</UnitType>
+				<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 				<Cost>2</Cost>
 			</Row>
 

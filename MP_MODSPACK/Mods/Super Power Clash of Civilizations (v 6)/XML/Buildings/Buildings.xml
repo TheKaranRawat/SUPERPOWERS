@@ -9,27 +9,29 @@
 		<Row>
 			<Type>BUILDING_FW_GEOTHERMAL_PLANT</Type>
 			<BuildingClass>BUILDINGCLASS_FW_GEOTHERMAL_PLANT</BuildingClass>
-			<Cost>500</Cost>
-			<GoldMaintenance>3</GoldMaintenance>
+			<Cost>3000</Cost>
+			<GoldMaintenance>20</GoldMaintenance>
 			<PrereqTech>TECH_ENVIRONMENTALISM</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_GEOTHERMAL_PLANT_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_GEOTHERMAL_PLANT_DESC</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FW_GEOTHERMAL_PLANT_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_FW_GEOTHERMAL_PLANT_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FW_HYDRO_PLANT</ArtDefineTag>
+			<!--
 			<Mountain>true</Mountain>
+			-->
 			<MutuallyExclusiveGroup>1</MutuallyExclusiveGroup>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>48</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_FW_TIDAL_PLANT</Type>
 			<BuildingClass>BUILDINGCLASS_FW_TIDAL_PLANT</BuildingClass>
-			<Cost>500</Cost>
-			<GoldMaintenance>3</GoldMaintenance>
+			<Cost>3000</Cost>
+			<GoldMaintenance>15</GoldMaintenance>
 			<PrereqTech>TECH_ENVIRONMENTALISM</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_TIDAL_PLANT_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_TIDAL_PLANT_DESC</Description>
@@ -40,14 +42,15 @@
 			<MutuallyExclusiveGroup>1</MutuallyExclusiveGroup>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>46</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_FW_TIDAL_ARRAY</Type>
 			<BuildingClass>BUILDINGCLASS_FW_TIDAL_ARRAY</BuildingClass>
-			<Cost>750</Cost>
+			<Cost>3000</Cost>
+			<GoldMaintenance>20</GoldMaintenance>
 			<PrereqTech>TECH_TRANSGENICS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_TIDAL_ARRAY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_TIDAL_ARRAY_DESC</Description>
@@ -57,7 +60,7 @@
 			<Water>true</Water>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>50</PortraitIndex>
 		</Row>
@@ -65,8 +68,8 @@
 		<Row>
 			<Type>BUILDING_FW_AQUACULTURE_LAB</Type>
 			<BuildingClass>BUILDINGCLASS_FW_AQUACULTURE_LAB</BuildingClass>
-			<Cost>650</Cost>
-			<GoldMaintenance>3</GoldMaintenance>
+			<Cost>2000</Cost>
+			<GoldMaintenance>10</GoldMaintenance>
 			<PrereqTech>TECH_CLONING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_AQUACULTURE_LAB_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_AQUACULTURE_LAB_DESC</Description>
@@ -74,12 +77,12 @@
 			<Strategy>TXT_KEY_BUILDING_FW_AQUACULTURE_LAB_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<MutuallyExclusiveGroup>361</MutuallyExclusiveGroup>
 			<Water>true</Water>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>50</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>51</PortraitIndex>
 		</Row>
@@ -87,8 +90,8 @@
 		<Row>
 			<Type>BUILDING_FW_GENE_LAB</Type>
 			<BuildingClass>BUILDINGCLASS_FW_GENE_LAB</BuildingClass>
-			<Cost>500</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
+			<Cost>4000</Cost>
+			<GoldMaintenance>15</GoldMaintenance>
 			<PrereqTech>TECH_GEN_MANIP</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_GENE_LAB_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_GENE_LAB_DESC</Description>
@@ -98,7 +101,7 @@
 			<GreatPeopleRateModifier>25</GreatPeopleRateModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>50</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>20</PortraitIndex>
 		</Row>
@@ -123,8 +126,8 @@
 		<Row>
 			<Type>BUILDING_FW_CLONE_LAB</Type>
 			<BuildingClass>BUILDINGCLASS_FW_CLONE_LAB</BuildingClass>
-			<Cost>600</Cost>
-			<GoldMaintenance>3</GoldMaintenance>
+			<Cost>3500</Cost>
+			<GoldMaintenance>20</GoldMaintenance>
 			<PrereqTech>TECH_CLONING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_CLONE_LAB_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_CLONE_LAB_DESC</Description>
@@ -134,7 +137,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<FoodKept>15</FoodKept>
 			<ConquestProb>50</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>5</PortraitIndex>
 		</Row>
@@ -159,8 +162,8 @@
 		<Row>
 			<Type>BUILDING_FW_TG_NURSERY</Type>
 			<BuildingClass>BUILDINGCLASS_FW_TG_NURSERY</BuildingClass>
-			<Cost>900</Cost>
-			<GoldMaintenance>5</GoldMaintenance>
+			<Cost>4000</Cost>
+			<GoldMaintenance>25</GoldMaintenance>
 			<PrereqTech>TECH_TRANSGENICS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_TG_NURSERY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_TG_NURSERY_DESC</Description>
@@ -169,7 +172,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>50</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>59</PortraitIndex>
 		</Row>
@@ -177,8 +180,8 @@
 		<Row>
 			<Type>BUILDING_FW_BIOFACTORY</Type>
 			<BuildingClass>BUILDINGCLASS_FW_BIOFACTORY</BuildingClass>
-			<Cost>900</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
+			<Cost>3900</Cost>
+			<GoldMaintenance>30</GoldMaintenance>
 			<PrereqTech>TECH_ECOSOPHY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_BIOFACTORY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_BIOFACTORY_DESC</Description>
@@ -188,15 +191,15 @@
 			<MutuallyExclusiveGroup>3097</MutuallyExclusiveGroup>
 			<MinAreaSize>-1</MinAreaSize>
 			<NeverCapture>true</NeverCapture>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>2</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_FW_ECTOGENESIS_POD</Type>
 			<BuildingClass>BUILDINGCLASS_FW_ECTOGENESIS_POD</BuildingClass>
-			<Cost>1200</Cost>
-			<GoldMaintenance>5</GoldMaintenance>
+			<Cost>3200</Cost>
+			<GoldMaintenance>25</GoldMaintenance>
 			<PrereqTech>TECH_GENGINEERING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_ECTOGENESIS_POD_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_ECTOGENESIS_POD_DESC</Description>
@@ -206,15 +209,15 @@
 			<TrainedFreePromotion>PROMOTION_FW_GENGINEERED</TrainedFreePromotion>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>50</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>22</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_FW_GENEJACK_FACILITY</Type>
 			<BuildingClass>BUILDINGCLASS_FW_GENEJACK_FACILITY</BuildingClass>
-			<Cost>1000</Cost>
-			<GoldMaintenance>3</GoldMaintenance>
+			<Cost>5000</Cost>
+			<GoldMaintenance>25</GoldMaintenance>
 			<PrereqTech>TECH_BIOMODIFICATION</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_GENEJACK_FACILITY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_GENEJACK_FACILITY_DESC</Description>
@@ -223,15 +226,15 @@
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>50</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_3</IconAtlas>
 			<PortraitIndex>29</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_FW_BIOMOD_TANK</Type>
 			<BuildingClass>BUILDINGCLASS_FW_BIOMOD_TANK</BuildingClass>
-			<Cost>1200</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
+			<Cost>4200</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<PrereqTech>TECH_BIOMODIFICATION</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_BIOMOD_TANK_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_BIOMOD_TANK_DESC</Description>
@@ -242,15 +245,15 @@
 			<MutuallyExclusiveGroup>876876</MutuallyExclusiveGroup>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>50</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>30</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_FW_CRECHE</Type>
 			<BuildingClass>BUILDINGCLASS_FW_CRECHE</BuildingClass>
-			<Cost>1200</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
+			<Cost>4200</Cost>
+			<GoldMaintenance>16</GoldMaintenance>
 			<PrereqTech>TECH_HUMAN_AUGMENTATION</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_CRECHE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_CRECHE_DESC</Description>
@@ -260,7 +263,7 @@
 			<Happiness>2</Happiness>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>75</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>62</PortraitIndex>
 		</Row>
@@ -268,8 +271,8 @@
 		<Row>
 			<Type>BUILDING_FW_SANCTUARY</Type>
 			<BuildingClass>BUILDINGCLASS_FW_SANCTUARY</BuildingClass>
-			<Cost>900</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
+			<Cost>4900</Cost>
+			<GoldMaintenance>16</GoldMaintenance>
 			<PrereqTech>TECH_ECOSOPHY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_SANCTUARY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_SANCTUARY_DESC</Description>
@@ -280,7 +283,7 @@
 			<MutuallyExclusiveGroup>23495</MutuallyExclusiveGroup>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>50</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>31</PortraitIndex>
 		</Row>
@@ -306,8 +309,8 @@
 		<Row>
 			<Type>BUILDING_FW_IMPLANT_CLINIC</Type>
 			<BuildingClass>BUILDINGCLASS_FW_IMPLANT_CLINIC</BuildingClass>
-			<Cost>900</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
+			<Cost>5900</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<PrereqTech>TECH_IMPLANTS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_IMPLANT_CLINIC_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_IMPLANT_CLINIC_DESC</Description>
@@ -316,7 +319,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>75</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_3</IconAtlas>
 			<PortraitIndex>4</PortraitIndex>
 		</Row>
@@ -324,8 +327,8 @@
 		<Row>
 			<Type>BUILDING_FW_VR_TRAINING</Type>
 			<BuildingClass>BUILDINGCLASS_FW_VR_TRAINING</BuildingClass>
-			<Cost>500</Cost>
-			<GoldMaintenance>2</GoldMaintenance>
+			<Cost>5000</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<PrereqTech>TECH_MEMETICS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_VR_TRAINING_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_VR_TRAINING_DESC</Description>
@@ -333,29 +336,30 @@
 			<Strategy>TXT_KEY_BUILDING_FW_VR_TRAINING_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_3</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_FW_SERVER_HUB</Type>
 			<BuildingClass>BUILDINGCLASS_FW_SERVER_HUB</BuildingClass>
-			<Cost>500</Cost>
+			<Cost>5000</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<PrereqTech>TECH_INTERNET</PrereqTech>
 			<Description>TXT_KEY_BUILDING_FW_SERVER_HUB_DESC</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FW_SERVER_HUB_PEDIA</Civilopedia>
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>75</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>32</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_FW_ENTERTAINMENT_SERVER</Type>
 			<BuildingClass>BUILDINGCLASS_FW_ENTERTAINMENT_SERVER</BuildingClass>
-			<Cost>500</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
+			<Cost>5000</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<PrereqTech>TECH_MEMETICS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_ENTERTAINMENT_SERVER_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_ENTERTAINMENT_SERVER_DESC</Description>
@@ -367,15 +371,15 @@
 			<TechEnhancedTourism>2</TechEnhancedTourism>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>75</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>42</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_FW_RESEARCH_SERVER</Type>
 			<BuildingClass>BUILDINGCLASS_FW_RESEARCH_SERVER</BuildingClass>
-			<Cost>500</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
+			<Cost>5000</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<PrereqTech>TECH_GRID_COMPUTING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_RESEARCH_SERVER_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_RESEARCH_SERVER_DESC</Description>
@@ -383,17 +387,18 @@
 			<Strategy>TXT_KEY_BUILDING_FW_RESEARCH_SERVER_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>75</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>34</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_FW_COMMERCE_SERVER</Type>
 			<BuildingClass>BUILDINGCLASS_FW_COMMERCE_SERVER</BuildingClass>
-			<Cost>500</Cost>
+			<Cost>5000</Cost>
+			<GoldMaintenance>16</GoldMaintenance>
 			<PrereqTech>TECH_INTERNET</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_COMMERCE_SERVER_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_COMMERCE_SERVER_DESC</Description>
@@ -401,12 +406,12 @@
 			<Strategy>TXT_KEY_BUILDING_FW_COMMERCE_SERVER_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_STOCK_EXCHANGE</ArtDefineTag>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
-			<TradeRouteRecipientBonus>2</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>2</TradeRouteTargetBonus>
+			<SpecialistCount>3</SpecialistCount>
+			<TradeRouteRecipientBonus>80</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>80</TradeRouteTargetBonus>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>75</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>33</PortraitIndex>
 		</Row>
@@ -414,8 +419,8 @@
 		<Row>
 			<Type>BUILDING_FW_NETWORK_BACKBONE</Type>
 			<BuildingClass>BUILDINGCLASS_FW_NETWORK_BACKBONE</BuildingClass>
-			<Cost>900</Cost>
-			<GoldMaintenance>6</GoldMaintenance>
+			<Cost>5900</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<PrereqTech>TECH_COGNITIVE_TECH</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_NETWORK_BACKBONE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_NETWORK_BACKBONE_DESC</Description>
@@ -426,7 +431,7 @@
 			<MutuallyExclusiveGroup>490678</MutuallyExclusiveGroup>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>75</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>41</PortraitIndex>
 		</Row>
@@ -487,8 +492,8 @@
 		<Row>
 			<Type>BUILDING_FW_CYBERCLINIC</Type>
 			<BuildingClass>BUILDINGCLASS_FW_CYBERCLINIC</BuildingClass>
-			<Cost>900</Cost>
-			<GoldMaintenance>6</GoldMaintenance>
+			<Cost>5900</Cost>
+			<GoldMaintenance>48</GoldMaintenance>
 			<PrereqTech>TECH_NEURAL_INTERFACE</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_CYBERCLINIC_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_CYBERCLINIC_DESC</Description>
@@ -498,15 +503,15 @@
 			<MutuallyExclusiveGroup>876876</MutuallyExclusiveGroup>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>75</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>8</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_FW_TELEPRESENCE_HUB</Type>
 			<BuildingClass>BUILDINGCLASS_FW_TELEPRESENCE_HUB</BuildingClass>
-			<Cost>1000</Cost>
-			<GoldMaintenance>8</GoldMaintenance>
+			<Cost>6000</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<PrereqTech>TECH_CYBERNETICS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_TELEPRESENCE_HUB_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_TELEPRESENCE_HUB_DESC</Description>
@@ -515,7 +520,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>75</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
 		</Row>
@@ -540,8 +545,8 @@
 		<Row>
 			<Type>BUILDING_FW_SIMULATION_SERVER</Type>
 			<BuildingClass>BUILDINGCLASS_FW_SIMULATION_SERVER</BuildingClass>
-			<Cost>1000</Cost>
-			<GoldMaintenance>8</GoldMaintenance>
+			<Cost>6000</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<PrereqTech>TECH_AI</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_SIMULATION_SERVER_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_SIMULATION_SERVER_DESC</Description>
@@ -550,7 +555,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>75</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>44</PortraitIndex>
 		</Row>
@@ -593,8 +598,8 @@
 		<Row>
 			<Type>BUILDING_FW_BRAIN_UPLOADING</Type>
 			<BuildingClass>BUILDINGCLASS_FW_BRAIN_UPLOADING</BuildingClass>
-			<Cost>1200</Cost>
-			<GoldMaintenance>5</GoldMaintenance>
+			<Cost>6200</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<PrereqTech>TECH_DIGITAL_SOCIETY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_BRAIN_UPLOADING_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_BRAIN_UPLOADING_DESC</Description>
@@ -603,7 +608,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>75</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_3</IconAtlas>
 			<PortraitIndex>3</PortraitIndex>
 		</Row>
@@ -629,26 +634,27 @@
 		<Row>
 			<Type>BUILDING_FW_FUSION_PLANT</Type>
 			<BuildingClass>BUILDINGCLASS_FW_FUSION_PLANT</BuildingClass>
-			<Cost>1000</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
-			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+			<Cost>6000</Cost>
+			<GoldMaintenance>100</GoldMaintenance>
+			<PrereqTech>TECH_SUPERCONDUCTIVITY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_FUSION_PLANT_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_FUSION_PLANT_DESC</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FW_FUSION_PLANT_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_FW_FUSION_PLANT_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FW_HYDRO_PLANT</ArtDefineTag>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
 			<PortraitIndex>6</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_FW_DEFENSE_FIELD</Type>
 			<BuildingClass>BUILDINGCLASS_FW_DEFENSE_FIELD</BuildingClass>
-			<Cost>700</Cost>
+			<Cost>6700</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<PrereqTech>TECH_ARTIFICIAL_ENVIRONMENTS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_DEFENSE_FIELD_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_DEFENSE_FIELD_DESC</Description>
@@ -662,7 +668,7 @@
 			<AllowsRangeStrike>true</AllowsRangeStrike>
 			<Defense>1800</Defense>
 			<ExtraCityHitPoints>50</ExtraCityHitPoints>
-			<HurryCostModifier>25</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_3</IconAtlas>
 			<PortraitIndex>33</PortraitIndex>
@@ -670,8 +676,8 @@
 		<Row>
 			<Type>BUILDING_AEROSPACE_COMPLEX</Type>
 			<BuildingClass>BUILDINGCLASS_AEROSPACE_COMPLEX</BuildingClass>
-			<Cost>750</Cost>
-			<GoldMaintenance>6</GoldMaintenance>
+			<Cost>6750</Cost>
+			<GoldMaintenance>48</GoldMaintenance>
 			<PrereqTech>TECH_ARCOLOGIES</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_AEROSPACE_COMPLEX_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_AEROSPACE_COMPLEX_DESC</Description>
@@ -682,6 +688,7 @@
 			<SpaceProductionModifier>50</SpaceProductionModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_3</IconAtlas>
 			<PortraitIndex>30</PortraitIndex>
 		</Row>
@@ -689,20 +696,20 @@
 		<Row>
 			<Type>BUILDING_FW_AUTOPLANT</Type>
 			<BuildingClass>BUILDINGCLASS_FW_AUTOPLANT</BuildingClass>
-			<Cost>700</Cost>
-			<GoldMaintenance>6</GoldMaintenance>
-			<PrereqTech>TECH_GRID_COMPUTING</PrereqTech>
+			<Cost>6700</Cost>
+			<GoldMaintenance>16</GoldMaintenance>
+			<PrereqTech>TECH_SUPERCONDUCTOR</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_AUTOPLANT_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_AUTOPLANT_DESC</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FW_AUTOPLANT_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_FW_AUTOPLANT_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FW_HYDRO_PLANT</ArtDefineTag>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<MutuallyExclusiveGroup>3097</MutuallyExclusiveGroup>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>12</PortraitIndex>
 		</Row>
@@ -727,8 +734,8 @@
 		<Row>
 			<Type>BUILDING_FW_DRONE_HIVE</Type>
 			<BuildingClass>BUILDINGCLASS_FW_DRONE_HIVE</BuildingClass>
-			<Cost>900</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
+			<Cost>6900</Cost>
+			<GoldMaintenance>48</GoldMaintenance>
 			<PrereqTech>TECH_AUTONOMOUS_SYSTEMS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_DRONE_HIVE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_DRONE_HIVE_DESC</Description>
@@ -737,10 +744,10 @@
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<BuildingProductionModifier>10</BuildingProductionModifier>
-			<SpecialistCount>1</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>75</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>9</PortraitIndex>
 		</Row>
@@ -783,8 +790,8 @@
 		<Row>
 			<Type>BUILDING_FW_UTILITY_FOG</Type>
 			<BuildingClass>BUILDINGCLASS_FW_UTILITY_FOG</BuildingClass>
-			<Cost>1200</Cost>
-			<GoldMaintenance>6</GoldMaintenance>
+			<Cost>6200</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<PrereqTech>TECH_SMART_MATERIALS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_UTILITY_FOG_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_UTILITY_FOG_DESC</Description>
@@ -798,7 +805,7 @@
 			<AllowsRangeStrike>true</AllowsRangeStrike>
 			<Defense>1200</Defense>
 			<ExtraCityHitPoints>100</ExtraCityHitPoints>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>11</PortraitIndex>
 		</Row>
@@ -827,8 +834,8 @@
 		<Row>
 			<Type>BUILDING_FW_NANOFORGE</Type>
 			<BuildingClass>BUILDINGCLASS_FW_NANOFORGE</BuildingClass>
-			<Cost>1000</Cost>
-			<GoldMaintenance>5</GoldMaintenance>
+			<Cost>6000</Cost>
+			<GoldMaintenance>48</GoldMaintenance>
 			<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_NANOFORGE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_NANOFORGE_DESC</Description>
@@ -836,10 +843,10 @@
 			<Strategy>TXT_KEY_BUILDING_FW_NANOFORGE_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FW_HYDRO_PLANT</ArtDefineTag>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
 			<PortraitIndex>4</PortraitIndex>
 		</Row>
@@ -847,8 +854,8 @@
 		<Row>
 			<Type>BUILDING_FW_UNDERSEA_MINING</Type>
 			<BuildingClass>BUILDINGCLASS_FW_UNDERSEA_MINING</BuildingClass>
-			<Cost>700</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
+			<Cost>7000</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<PrereqTech>TECH_COGNITIVE_TECH</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_UNDERSEA_MINING_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_UNDERSEA_MINING_DESC</Description>
@@ -856,20 +863,20 @@
 			<Strategy>TXT_KEY_BUILDING_FW_UNDERSEA_MINING_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FW_HYDRO_PLANT</ArtDefineTag>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<Water>true</Water>
 			<MutuallyExclusiveGroup>361</MutuallyExclusiveGroup>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>53</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_FW_NANOMAT_PLANT</Type>
 			<BuildingClass>BUILDINGCLASS_FW_NANOMAT_PLANT</BuildingClass>
-			<Cost>500</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
+			<Cost>5000</Cost>
+			<GoldMaintenance>16</GoldMaintenance>
 			<PrereqTech>TECH_NANOMATERIALS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_NANOMAT_PLANT_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_NANOMAT_PLANT_DESC</Description>
@@ -878,15 +885,15 @@
 			<ArtDefineTag>ART_DEF_BUILDING_FW_HYDRO_PLANT</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<NeverCapture>true</NeverCapture>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
 			<PortraitIndex>3</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_FW_CONVERTER</Type>
 			<BuildingClass>BUILDINGCLASS_FW_CONVERTER</BuildingClass>
-			<Cost>500</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
+			<Cost>5000</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<PrereqTech>TECH_QUANTUM_COMPUTERS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_CONVERTER_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_CONVERTER_DESC</Description>
@@ -895,7 +902,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_FW_HYDRO_PLANT</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<NeverCapture>true</NeverCapture>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
 			<PortraitIndex>2</PortraitIndex>
 		</Row>
@@ -903,8 +910,8 @@
 		<Row>
 			<Type>BUILDING_FW_ALLOY_FOUNDRY</Type>
 			<BuildingClass>BUILDINGCLASS_FW_ALLOY_FOUNDRY</BuildingClass>
-			<Cost>1200</Cost>
-			<GoldMaintenance>6</GoldMaintenance>
+			<Cost>6200</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<PrereqTech>TECH_ADAMANTIUM</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_ALLOY_FOUNDRY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_ALLOY_FOUNDRY_DESC</Description>
@@ -913,7 +920,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_FW_HYDRO_PLANT</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<NeverCapture>true</NeverCapture>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>13</PortraitIndex>
 		</Row>
@@ -921,8 +928,8 @@
 		<Row>
 			<Type>BUILDING_FW_FEEDSITE_HUB</Type>
 			<BuildingClass>BUILDINGCLASS_FW_FEEDSITE_HUB</BuildingClass>
-			<Cost>500</Cost>
-			<GoldMaintenance>3</GoldMaintenance>
+			<Cost>5000</Cost>
+			<GoldMaintenance>16</GoldMaintenance>
 			<PrereqTech>TECH_SUPERCONDUCTIVITY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_FEEDSITE_HUB_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_FEEDSITE_HUB_DESC</Description>
@@ -930,12 +937,12 @@
 			<Strategy>TXT_KEY_BUILDING_FW_FEEDSITE_HUB_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<Happiness>2</Happiness>
 			<MutuallyExclusiveGroup>490678</MutuallyExclusiveGroup>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>75</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>61</PortraitIndex>
 		</Row>
@@ -979,19 +986,19 @@
 		<Row>
 			<Type>BUILDING_FW_DISTRIBUTION_HUB</Type>
 			<BuildingClass>BUILDINGCLASS_FW_DISTRIBUTION_HUB</BuildingClass>
-			<Cost>500</Cost>
-			<GoldMaintenance>3</GoldMaintenance>
-			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+			<Cost>5000</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
+			<PrereqTech>TECH_CLONING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_DISTRIBUTION_HUB_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_DISTRIBUTION_HUB_DESC</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FW_DISTRIBUTION_HUB_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_FW_DISTRIBUTION_HUB_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>75</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_3</IconAtlas>
 			<PortraitIndex>27</PortraitIndex>
 		</Row>
@@ -1016,8 +1023,8 @@
 		<Row>
 			<Type>BUILDING_FW_METROPLEX_HUB</Type>
 			<BuildingClass>BUILDINGCLASS_FW_METROPLEX_HUB</BuildingClass>
-			<Cost>500</Cost>
-			<GoldMaintenance>3</GoldMaintenance>
+			<Cost>5000</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<PrereqTech>TECH_HYPERSTRUCTURES</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_METROPLEX_HUB_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_METROPLEX_HUB_DESC</Description>
@@ -1025,10 +1032,10 @@
 			<Strategy>TXT_KEY_BUILDING_FW_METROPLEX_HUB_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>75</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_3</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
 		</Row>
@@ -1054,8 +1061,8 @@
 		<Row>
 			<Type>BUILDING_FW_VERTICAL_FARM</Type>
 			<BuildingClass>BUILDINGCLASS_FW_VERTICAL_FARM</BuildingClass>
-			<Cost>500</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
+			<Cost>5000</Cost>
+			<GoldMaintenance>32</GoldMaintenance>
 			<PrereqTech>TECH_ARTIFICIAL_ENVIRONMENTS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_VERTICAL_FARM_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_VERTICAL_FARM_DESC</Description>
@@ -1066,7 +1073,7 @@
 			<MutuallyExclusiveGroup>23495</MutuallyExclusiveGroup>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>50</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_3</IconAtlas>
 			<PortraitIndex>25</PortraitIndex>
 		</Row>
@@ -1091,8 +1098,8 @@
 		<Row>
 			<Type>BUILDING_FW_MYCOPROTEIN_VATS</Type>
 			<BuildingClass>BUILDINGCLASS_FW_MYCOPROTEIN_VATS</BuildingClass>
-			<Cost>700</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
+			<Cost>7000</Cost>
+			<GoldMaintenance>16</GoldMaintenance>
 			<PrereqTech>TECH_ORBITAL_DEV</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_MYCOPROTEIN_VATS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_MYCOPROTEIN_VATS_DESC</Description>
@@ -1101,7 +1108,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>50</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>60</PortraitIndex>
 		</Row>
@@ -1109,7 +1116,8 @@
 		<Row>
 			<Type>BUILDING_FW_ORBITAL_HABITAT</Type>
 			<BuildingClass>BUILDINGCLASS_FW_ORBITAL_HABITAT</BuildingClass>
-			<Cost>900</Cost>
+			<Cost>6900</Cost>
+			<GoldMaintenance>64</GoldMaintenance>
 			<PrereqTech>TECH_ARCOLOGIES</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_ORBITAL_HABITAT_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_ORBITAL_HABITAT_DESC</Description>
@@ -1118,7 +1126,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HOSPITAL</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_3</IconAtlas>
 			<PortraitIndex>26</PortraitIndex>
 		</Row>
@@ -1144,8 +1152,8 @@
 		<Row>
 			<Type>BUILDING_FW_SPACE_STATION</Type>
 			<BuildingClass>BUILDINGCLASS_FW_SPACE_STATION</BuildingClass>
-			<Cost>1200</Cost>
-			<GoldMaintenance>6</GoldMaintenance>
+			<Cost>7200</Cost>
+			<GoldMaintenance>64</GoldMaintenance>
 			<PrereqTech>TECH_ORBITAL_DEV</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_SPACE_STATION_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_SPACE_STATION_DESC</Description>
@@ -1153,11 +1161,11 @@
 			<Strategy>TXT_KEY_BUILDING_FW_SPACE_STATION_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FW_HYDRO_PLANT</ArtDefineTag>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<NukeImmune>true</NukeImmune>
 			<NumCityCostMod>30</NumCityCostMod>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>52</PortraitIndex>
@@ -1165,8 +1173,8 @@
 		<Row>
 			<Type>BUILDING_FW_RESEARCH_MODULE_1</Type>
 			<BuildingClass>BUILDINGCLASS_FW_RESEARCH_MODULE_1</BuildingClass>
-			<Cost>800</Cost>
-			<GoldMaintenance>8</GoldMaintenance>
+			<Cost>7800</Cost>
+			<GoldMaintenance>20</GoldMaintenance>
 			<PrereqTech>TECH_ORBITAL_DEV</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_RESEARCH_MODULE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_RESEARCH_MODULE_DESC</Description>
@@ -1174,7 +1182,7 @@
 			<Strategy>TXT_KEY_BUILDING_FW_RESEARCH_MODULE_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FW_HYDRO_PLANT</ArtDefineTag>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-			<SpecialistCount>4</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<NukeImmune>true</NukeImmune>
 			<NumCityCostMod>30</NumCityCostMod>
@@ -1186,7 +1194,7 @@
 		<Row>
 			<Type>BUILDING_FW_ENGINEERING_MODULE_1</Type>
 			<BuildingClass>BUILDINGCLASS_FW_ENGINEERING_MODULE_1</BuildingClass>
-			<Cost>800</Cost>
+			<Cost>7800</Cost>
 			<GoldMaintenance>8</GoldMaintenance>
 			<PrereqTech>TECH_ORBITAL_DEV</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_ENGINEERING_MODULE_HELP</Help>
@@ -1195,7 +1203,7 @@
 			<Strategy>TXT_KEY_BUILDING_FW_ENGINEERING_MODULE_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FW_HYDRO_PLANT</ArtDefineTag>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>4</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<NukeImmune>true</NukeImmune>
 			<NumCityCostMod>30</NumCityCostMod>
@@ -1207,7 +1215,7 @@
 		<Row>
 			<Type>BUILDING_FW_COMM_MODULE_1</Type>
 			<BuildingClass>BUILDINGCLASS_FW_COMM_MODULE_1</BuildingClass>
-			<Cost>800</Cost>
+			<Cost>7800</Cost>
 			<GoldMaintenance>8</GoldMaintenance>
 			<PrereqTech>TECH_ORBITAL_DEV</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_COMM_MODULE_HELP</Help>
@@ -1216,7 +1224,7 @@
 			<Strategy>TXT_KEY_BUILDING_FW_COMM_MODULE_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FW_HYDRO_PLANT</ArtDefineTag>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<SpecialistCount>4</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<NukeImmune>true</NukeImmune>
 			<NumCityCostMod>30</NumCityCostMod>
@@ -1229,16 +1237,16 @@
 		<Row>
 			<Type>BUILDING_FW_LAUNCH_FACILITY</Type>
 			<BuildingClass>BUILDINGCLASS_FW_LAUNCH_FACILITY</BuildingClass>
-			<Cost>900</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
-			<PrereqTech>TECH_STEALTH</PrereqTech>
+			<Cost>9000</Cost>
+			<GoldMaintenance>64</GoldMaintenance>
+			<PrereqTech>TECH_INTERSTELLAR_TRAVEL</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_LAUNCH_FACILITY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_LAUNCH_FACILITY_DESC</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FW_LAUNCH_FACILITY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_FW_LAUNCH_FACILITY_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FW_HYDRO_PLANT</ArtDefineTag>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -1249,9 +1257,9 @@
 		<Row>
 			<Type>BUILDING_FW_ACCELERATOR</Type>
 			<BuildingClass>BUILDINGCLASS_FW_ACCELERATOR</BuildingClass>
-			<Cost>900</Cost>
-			<GoldMaintenance>6</GoldMaintenance>
-			<PrereqTech>TECH_PARTICLE_PHYSICS</PrereqTech>
+			<Cost>9000</Cost>
+			<GoldMaintenance>48</GoldMaintenance>
+			<PrereqTech>TECH_PHOTON_COMPUTER</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_ACCELERATOR_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_ACCELERATOR_DESC</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FW_ACCELERATOR_PEDIA</Civilopedia>
@@ -1270,8 +1278,8 @@
 		<Row>
 			<Type>BUILDING_FW_BOREHOLE</Type>
 			<BuildingClass>BUILDINGCLASS_FW_BOREHOLE</BuildingClass>
-			<Cost>1200</Cost>
-			<GoldMaintenance>6</GoldMaintenance>
+			<Cost>6200</Cost>
+			<GoldMaintenance>16</GoldMaintenance>
 			<PrereqTech>TECH_AUTONOMOUS_SYSTEMS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_BOREHOLE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_BOREHOLE_DESC</Description>
@@ -1279,7 +1287,7 @@
 			<Strategy>TXT_KEY_BUILDING_FW_BOREHOLE_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<NukeImmune>true</NukeImmune>
 			<NumCityCostMod>10</NumCityCostMod>
@@ -1291,8 +1299,8 @@
 		<Row>
 			<Type>BUILDING_FW_MOON_BASE</Type>
 			<BuildingClass>BUILDINGCLASS_FW_MOON_BASE</BuildingClass>
-			<Cost>2000</Cost>
-			<GoldMaintenance>6</GoldMaintenance>
+			<Cost>6000</Cost>
+			<GoldMaintenance>100</GoldMaintenance>
 			<PrereqTech>TECH_ENERGY_THEORY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_MOON_BASE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_MOON_BASE_DESC</Description>
@@ -1300,7 +1308,7 @@
 			<Strategy>TXT_KEY_BUILDING_FW_MOON_BASE_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FW_HYDRO_PLANT</ArtDefineTag>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -1311,8 +1319,8 @@
 		<Row>
 			<Type>BUILDING_FW_CENTRAL_COMMAND</Type>
 			<BuildingClass>BUILDINGCLASS_FW_CENTRAL_COMMAND</BuildingClass>
-			<Cost>1200</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
+			<Cost>7200</Cost>
+			<GoldMaintenance>12</GoldMaintenance>
 			<PrereqTech>TECH_ARCOLOGIES</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_CENTRAL_COMMAND_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_CENTRAL_COMMAND_DESC</Description>
@@ -1424,7 +1432,7 @@
 			<BuildingClass>BUILDINGCLASS_FW_GENOME_PROJECT_1</BuildingClass>
 			<Cost>-1</Cost>
 			<FaithCost>-1</FaithCost>
-			<GoldMaintenance>0</GoldMaintenance>
+			<GoldMaintenance>5</GoldMaintenance>
 			<GreatWorkCount>-1</GreatWorkCount>
 			<Help>TXT_KEY_BUILDING_FW_GENOME_PROJECT_1_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_GENOME_PROJECT_1_DESC</Description>
@@ -1497,6 +1505,210 @@
 			<PortraitIndex>19</PortraitIndex>
 		</Row>
 
+		<Row>
+			<Type>BUILDING_TAIPEI</Type>
+			<BuildingClass>BUILDINGCLASS_TAIPEI</BuildingClass>
+			<Description>TXT_KEY_BUILDING_TAIPEI</Description>
+			<Help>TXT_KEY_WONDER_TAIPEI_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_TAIPEI_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_TAIPEI_QUOTE</Quote>
+			<Cost>1250</Cost>
+			<PrereqTech>TECH_TELECOM</PrereqTech>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<Gold>10</Gold>
+			<IconAtlas>BW_ATLAS_TAIPEI</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>TAIPEI_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_ARECIBO</Type>
+			<BuildingClass>BUILDINGCLASS_ARECIBO</BuildingClass>
+			<Description>TXT_KEY_BUILDING_ARECIBO</Description>
+			<Help>TXT_KEY_WONDER_ARECIBO_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_ARECIBO_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_ARECIBO_QUOTE</Quote>
+			<Cost>1250</Cost>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<SpaceProductionModifier>50</SpaceProductionModifier>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_ARECIBO</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>ARECIBO_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,B</WonderSplashAnchor>
+		</Row>
+		
+		<Row>
+			<Type>BUILDING_WILLIS</Type>
+			<BuildingClass>BUILDINGCLASS_WILLIS</BuildingClass>
+			<Cost>950</Cost>
+			<PrereqTech>TECH_ADV_FLIGHT</PrereqTech>
+			<Help>TXT_KEY_WONDER_WILLIS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_WILLIS</Description>
+			<Civilopedia>TXT_KEY_WONDER_WILLIS_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_WILLIS_QUOTE</Quote>
+			<NukeImmune>true</NukeImmune>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreeBuildingThisCity>BUILDINGCLASS_BROADCAST_TOWER</FreeBuildingThisCity>
+	        <IconAtlas>WILLIS_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>willis_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>C,C</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_WASHINGTON</Type>
+			<BuildingClass>BUILDINGCLASS_WASHINGTON</BuildingClass>
+			<Description>TXT_KEY_BUILDING_WASHINGTON</Description>
+			<Help>TXT_KEY_WONDER_WASHINGTON_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_WASHINGTON_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_WASHINGTON_QUOTE</Quote>
+			<Cost>750</Cost>
+			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+			<MaxStartEra>ERA_ATOMIC</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<GlobalGreatPeopleRateModifier>25</GlobalGreatPeopleRateModifier>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_WASHINGTON</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>WASHINGTON_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,T</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_ABER</Type>
+			<BuildingClass>BUILDINGCLASS_ABER</BuildingClass>
+			<Description>TXT_KEY_BUILDING_ABER</Description>
+			<Help>TXT_KEY_WONDER_ABER_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_ABER_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_ABER_QUOTE</Quote>
+			<Cost>400</Cost>
+			<Hill>true</Hill>
+			<PrereqTech>TECH_PHYSICS</PrereqTech>
+			<MaxStartEra>ERA_RENNAISANCE</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<ExtraLeagueVotes>1</ExtraLeagueVotes>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_DIWALI</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<WonderSplashImage>ABER_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,T</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_AGRA</Type>
+			<BuildingClass>BUILDINGCLASS_AGRA</BuildingClass>
+			<Description>TXT_KEY_BUILDING_AGRA</Description>
+			<Help>TXT_KEY_WONDER_AGRA_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_AGRA_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_AGRA_QUOTE</Quote>
+			<Cost>500</Cost>
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<ExtraCityHitPoints>150</ExtraCityHitPoints>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_DIWALI</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<WonderSplashImage>AGRA_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_HARMANDIR</Type>
+			<BuildingClass>BUILDINGCLASS_HARMANDIR</BuildingClass>
+			<Description>TXT_KEY_BUILDING_HARMANDIR</Description>
+			<Help>TXT_KEY_WONDER_HARMANDIR_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_HARMANDIR_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_HARMANDIR_QUOTE</Quote>
+			<Cost>625</Cost>
+			<PrereqTech>TECH_METALLURGY</PrereqTech>
+			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_DIWALI</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>HARMANDIR_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_HAWA</Type>
+			<BuildingClass>BUILDINGCLASS_HAWA</BuildingClass>
+			<Description>TXT_KEY_BUILDING_HAWA</Description>
+			<Help>TXT_KEY_WONDER_HAWA_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_HAWA_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_HAWA_QUOTE</Quote>
+			<Cost>625</Cost>
+			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
+			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_DIWALI</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<WonderSplashImage>HAWA_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_MAHADEVA</Type>
+			<BuildingClass>BUILDINGCLASS_MAHADEVA</BuildingClass>
+			<Description>TXT_KEY_BUILDING_MAHADEVA</Description>
+			<Help>TXT_KEY_WONDER_MAHADEVA_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_MAHADEVA_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_MAHADEVA_QUOTE</Quote>
+			<Cost>300</Cost>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<MaxStartEra>ERA_RENNAISANCE</MaxStartEra>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_DIWALI</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+			<WonderSplashImage>MAHADEVA_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
 
 
 	</Buildings>
@@ -1957,7 +2169,7 @@
 			<Type>BUILDING_FACTORY</Type>
 			<BuildingClass>BUILDINGCLASS_FACTORY</BuildingClass>
 			<Cost>250</Cost>
-			<GoldMaintenance>3</GoldMaintenance>
+			<GoldMaintenance>8</GoldMaintenance>
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FACTORY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FACTORY</Description>
@@ -2465,6 +2677,21 @@
 			<BuildingType>BUILDING_STEEL_MILL</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_WALLS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PALISADE_WALL</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WALLS_OF_BABYLON</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PALISADE_WALL</BuildingClassType>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_FISSION_REACTOR_PLANT</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+		</Row>
+
 	</Building_ClassesNeededInCity>
 	
 	<!-- ***************************Science Buildings***************************-->
@@ -2860,9 +3087,10 @@
 			<ArtDefineTag>HARBOR</ArtDefineTag>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
+			<TradeRouteSeaDistanceModifier>50</TradeRouteSeaDistanceModifier>
 			<TradeRouteSeaGoldBonus>1000</TradeRouteSeaGoldBonus>
-			<TradeRouteRecipientBonus>10</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>10</TradeRouteTargetBonus>
+			<TradeRouteRecipientBonus>30</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>30</TradeRouteTargetBonus>
 			<Water>true</Water>
 			<MinAreaSize>20</MinAreaSize>
 			<ConquestProb>85</ConquestProb>
@@ -2908,12 +3136,12 @@
 			<Strategy>TXT_KEY_BUILDING_SP_CITY_BASIC_BUILDINGS_STRATEGY</Strategy>
 			<Help>TXT_KEY_BUILDING_OTTOMAN_EMPIRE_PORT_HELP</Help>
 			<ArtDefineTag>ART_DEF_BUILDING_SEAPORT</ArtDefineTag>
-			<TradeRouteSeaDistanceModifier>50</TradeRouteSeaDistanceModifier>
-			<!--<TradeRouteSeaGoldBonus>1000</TradeRouteSeaGoldBonus>-->
-			<!--<TradeRouteRecipientBonus>10</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>10</TradeRouteTargetBonus>-->
-			<!--<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>-->
+			<TradeRouteSeaDistanceModifier>30</TradeRouteSeaDistanceModifier>
+			<TradeRouteSeaGoldBonus>1000</TradeRouteSeaGoldBonus>
+			<TradeRouteRecipientBonus>35</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>35</TradeRouteTargetBonus>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
 			<Water>true</Water>
 			<MinAreaSize>20</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
@@ -3063,6 +3291,264 @@
 			<HurryCostModifier>75</HurryCostModifier>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>38</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_PALISADE_WALL</Type>
+			<BuildingClass>BUILDINGCLASS_PALISADE_WALL</BuildingClass>
+			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+			<Cost>50</Cost>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+			<Description>TXT_KEY_BUILDING_PALISADE_WALL</Description>
+			<Civilopedia>TXT_KEY_BUILDING_PALISADE_WALL_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PALISADE_WALL_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_PALISADE_WALL_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<Defense>300</Defense>
+			<ExtraCityHitPoints>25</ExtraCityHitPoints>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>ANCIENT2_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_POTTER</Type>
+			<BuildingClass>BUILDINGCLASS_POTTER</BuildingClass>
+			<Cost>60</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_POTTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_POTTER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_POTTER_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_POTTER_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>ANCIENT2_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_SMELTER</Type>
+			<BuildingClass>BUILDINGCLASS_SMELTER</BuildingClass>
+			<Cost>60</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_SMELTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SMELTER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SMELTER_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_SMELTER_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>ANCIENT2_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_NUCLEAR_FISSION_REACTOR_PLANT</Type>
+			<BuildingClass>BUILDINGCLASS_NUCLEAR_FISSION_REACTOR_PLANT</BuildingClass>
+			<Cost>3000</Cost>
+			<GoldMaintenance>150</GoldMaintenance>
+			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
+			<Help>TXT_KEY_BUILDING_NUCLEAR_FISSION_REACTOR_PLANT_HELP</Help>
+			<Description>TXT_KEY_BUILDING_NUCLEAR_FISSION_REACTOR_PLANT</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_NUCLEARFISSIONREACTORPLANT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NUCLEAR_FISSION_REACTOR_PLANT_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_HYDRO_PLANT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>ANCIENT2_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TCS_PUBLIC_BATHS</Type>
+			<BuildingClass>BUILDINGCLASS_TCS_PUBLIC_BATHS</BuildingClass>
+			<Cost>110</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_TCS_PUBLIC_BATHS</Description>
+			<Help>TXT_KEY_BUILDING_TCS_PUBLIC_BATHS_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>POLICY_ICONATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_TCS_TOWN_COUNCIL</Type>
+			<BuildingClass>BUILDINGCLASS_TCS_TOWN_COUNCIL</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_TCS_TOWN_COUNCIL</Description>
+			<Help>TXT_KEY_BUILDING_TCS_TOWN_COUNCIL_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<PlotCultureCostModifier>-10</PlotCultureCostModifier>
+			<PlotBuyCostModifier>-10</PlotBuyCostModifier>
+			<Happiness>1</Happiness>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>POLICY_ICONATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_TCS_STRONGHOLD</Type>
+			<BuildingClass>BUILDINGCLASS_TCS_STRONGHOLD</BuildingClass>
+			<Cost>120</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_HONOR</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_TCS_STRONGHOLD</Description>
+			<Help>TXT_KEY_BUILDING_TCS_STRONGHOLD_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<Defense>500</Defense>
+			<ExtraCityHitPoints>50</ExtraCityHitPoints>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>POLICY_ICONATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_TCS_PAROCHIAL_SCHOOL</Type>
+			<BuildingClass>BUILDINGCLASS_TCS_PAROCHIAL_SCHOOL</BuildingClass>
+			<Cost>120</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_PIETY</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_TCS_PAROCHIAL_SCHOOL</Description>
+			<Help>TXT_KEY_BUILDING_TCS_PAROCHIAL_SCHOOL_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>POLICY_ICONATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_TCS_CHANCERY</Type>
+			<BuildingClass>BUILDINGCLASS_TCS_CHANCERY</BuildingClass>
+			<Cost>120</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_PATRONAGE</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_TCS_CHANCERY</Description>
+			<Help>TXT_KEY_BUILDING_TCS_CHANCERY_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<CityStateTradeRouteProductionModifier>2</CityStateTradeRouteProductionModifier>
+			<TradeRouteRecipientBonus>1</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>1</TradeRouteTargetBonus>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>POLICY_ICONATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_TCS_MEMORIAL</Type>
+			<BuildingClass>BUILDINGCLASS_TCS_MEMORIAL</BuildingClass>
+			<Cost>250</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_AESTHETICS</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_TCS_MEMORIAL</Description>
+			<Help>TXT_KEY_BUILDING_TCS_MEMORIAL_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<EnhancedYieldTech>TECH_ARCHITECTURE</EnhancedYieldTech>
+			<TechEnhancedTourism>2</TechEnhancedTourism>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<Happiness>1</Happiness>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>POLICY_ICONATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_TCS_DEPOT</Type>
+			<BuildingClass>BUILDINGCLASS_TCS_DEPOT</BuildingClass>
+			<Cost>250</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_COMMERCE</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_TCS_DEPOT</Description>
+			<Help>TXT_KEY_BUILDING_TCS_DEPOT_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<TradeRouteSeaDistanceModifier>25</TradeRouteSeaDistanceModifier>
+			<TradeRouteLandDistanceModifier>25</TradeRouteLandDistanceModifier>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>POLICY_ICONATLAS</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_TCS_BOTANICAL_GARDENS</Type>
+			<BuildingClass>BUILDINGCLASS_TCS_BOTANICAL_GARDENS</BuildingClass>
+			<Cost>300</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_EXPLORATION</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_TCS_BOTANICAL_GARDENS</Description>
+			<Help>TXT_KEY_BUILDING_TCS_BOTANICAL_GARDENS_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>POLICY_ICONATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_TCS_PATENT_OFFICE</Type>
+			<BuildingClass>BUILDINGCLASS_TCS_PATENT_OFFICE</BuildingClass>
+			<Cost>300</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_RATIONALISM</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_TCS_PATENT_OFFICE</Description>
+			<Help>TXT_KEY_BUILDING_TCS_PATENT_OFFICE_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>POLICY_ICONATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_CURE_FOR_CANCER</Type>
+			<BuildingClass>BUILDINGCLASS_CURE_FOR_CANCER</BuildingClass>
+			<Cost>-1</Cost>
+			<UnlockedByLeague>true</UnlockedByLeague>			
+			<PrereqTech>TECH_TRANSHUMANISM</PrereqTech>			
+			<Description>TXT_KEY_BUILDING_CURE_FOR_CANCER</Description>
+			<Quote>TXT_KEY_BUILDING_CURE_FOR_CANCER_QUOTE</Quote>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CURE_FOR_CANCER_TEXT</Civilopedia>
+			<Help>TXT_KEY_BUILDING_CURE_FOR_CANCER_HELP</Help>			
+			<NukeImmune>true</NukeImmune>
+			<GoldenAge>true</GoldenAge>
+			<HappinessPerCity>6</HappinessPerCity>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<DisplayPosition>2</DisplayPosition>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>CFC_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<WonderSplashImage>CureForCancerSplash.dds</WonderSplashImage>			
 		</Row>
 		
 		
@@ -3970,6 +4456,8 @@
 			<BuildingType>BUILDING_CASTLE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
 		</Row>
+
+		
 	
 		
 	</Building_ClassesNeededInCity>

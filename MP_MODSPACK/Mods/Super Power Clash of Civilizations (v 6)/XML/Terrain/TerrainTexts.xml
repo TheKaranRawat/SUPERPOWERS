@@ -21,7 +21,7 @@
 			<Text>Build an Arcology</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_ARCOLOGY_HELP">
-			<Text>Build an Arcology which increases the Food and Gold yield of the tile.</Text>
+			<Text>Build an Arcology which increases the Food and Gold yield of the tile. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_ARCOLOGY_REC">
 			<Text>It will increases the Food and Gold yield of the tile.</Text>
@@ -33,13 +33,13 @@
 			<Text>Artificial methods of cultivating food have grown increasingly sophisticated over time. The advent of new technologies such as hydroponics and aeroponics means that crops can be cultivated in entirely artificial environments, and communities that would normally struggle to feed their citizens can now cultivate crops nearby without needing to import food from more fertile areas.[NEWLINE][NEWLINE]This custom improvement provides 2 [ICON_GROWTH] Food and 1 [ICON_PRODUCTION] Production to the tile it's built on, with an additional +1 [ICON_GROWTH] Food if built adjacent to a source of Fresh Water.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_HYDROPONICS_DOME_HELP">
-			<Text>This custom improvement provides 2 [ICON_GROWTH] Food and 1 [ICON_PRODUCTION] Production to the tile it's built on, with an additional +1 [ICON_GROWTH] Food if built adjacent to a source of Fresh Water.</Text>
+			<Text>This custom improvement provides 2 [ICON_GROWTH] Food and 1 [ICON_PRODUCTION] Production to the tile it's built on, with an additional +1 [ICON_GROWTH] Food if built adjacent to a source of Fresh Water. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_HYDROPONICS_DOME">
 			<Text>Build a Hydroponics Dome</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_HYDROPONICS_DOME_HELP">
-			<Text>Build a Hydroponics Dome which increases the Food and Production yields of the tile.</Text>
+			<Text>Build a Hydroponics Dome which increases the Food and Production yields of the tile. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_HYDROPONICS_DOME_REC">
 			<Text>It will increase the Food and Production yields of the tile.</Text>
@@ -51,13 +51,13 @@
 			<Text>As technology has advanced, so has industry.  Increasingly large and complex collections of factories, assembly plants, foundries, and other such industrial buildings begin to appear, as industries are grouped together to help facilitate production and encourage economies of scale. While the Industrial Site isn't as fully effective as the Manufactory, it can still provide a significant boost to production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_INDUSTRIAL_COMPLEX_HELP">
-			<Text>This improvement provides 2 [ICON_PRODUCTION] Production to the tile it's built on.</Text>
+			<Text>This improvement provides 2 [ICON_PRODUCTION] Production to the tile it's built on. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_INDUSTRIAL_COMPLEX">
 			<Text>Build an Industrial Complex</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_INDUSTRIAL_COMPLEX_HELP">
-			<Text>Build an Industrial Complex which increases the Production yield of the tile.</Text>
+			<Text>Build an Industrial Complex which increases the Production yield of the tile. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_INDUSTRIAL_COMPLEX_REC">
 			<Text>It will increase the Production yield of the tile.</Text>
@@ -70,7 +70,7 @@
 			<Text>As science has advanced, so have the tools needed to probe deeper into the secrets of the universe. While a lot of research is still conducted on an academic and theoretical level, the tools required to explore the mysteries of quantum mechanics or astrophysics require specialized laboratories and research centres.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_HERC_HELP">
-			<Text>This improvement provides 12 [ICON_RESEARCH] Science and 2 [ICON_GOLD] Gold to the tile it's built on.</Text>
+			<Text>This improvement provides 12 [ICON_RESEARCH] Science and 2 [ICON_GOLD] Gold to the tile it's built on. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_PRESERVE">
@@ -80,13 +80,13 @@
 			<Text>Scientific advancement has given mankind an increasing number of tools with which to manipulate their environment, but this has also meant that pristine, natural environments have become increasingly scarce. Whether to preserve natural ecosystems, or to encourage an increasing ecotourism industry, more and more Nature Preserves are being set aside.[NEWLINE][NEWLINE]This improvement provides 2 [ICON_CULTURE] Culture and 1 [ICON_GOLD] Gold to the tile it's built on.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_PRESERVE_HELP">
-			<Text>This improvement provides 2 [ICON_CULTURE] Culture and 1 [ICON_GOLD] Gold to the tile it's built on.</Text>
+			<Text>This improvement provides 2 [ICON_CULTURE] Culture and 1 [ICON_GOLD] Gold to the tile it's built on. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_PRESERVE">
 			<Text>Build a Nature Preserve</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_PRESERVE_HELP">
-			<Text>Build a Nature Preserve which increases the Culture and Gold yield of the tile.</Text>
+			<Text>Build a Nature Preserve which increases the Culture and Gold yield of the tile. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_PRESERVE_REC">
 			<Text>It will increase the Culture and Gold yields of the tile.</Text>
@@ -98,13 +98,13 @@
 			<Text>With increasing awareness of the impact of urbanization upon the environment, there were numerous efforts to try and establish more environmentally friendly and sustainable communities. While these communities always remained somewhat small, particularly compared to the much denser arcologies that began to appear afterwards, they were self-sufficient, and their location in relatively unspoilt areas of the wilderness meant they had a certain appeal for ecotourists.[NEWLINE][NEWLINE]This custom improvement provides 1 [ICON_GROWTH] Food, 1 [ICON_CULTURE] Culture, and 1 [ICON_GOLD] Gold to the tile it's built on. +1 [ICON_CULTURE] Culture if built on a tile with access to Fresh Water.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_BIOWELL_HELP">
-			<Text>This custom improvement provides 1 [ICON_GROWTH] Food, 1 [ICON_CULTURE] Culture, and 1 [ICON_GOLD] Gold to the tile it's built on. +1 [ICON_CULTURE] Culture if built on a tile with access to Fresh Water.</Text>
+			<Text>This custom improvement provides 1 [ICON_GROWTH] Food, 1 [ICON_CULTURE] Culture, and 1 [ICON_GOLD] Gold to the tile it's built on. +1 [ICON_CULTURE] Culture if built on a tile with access to Fresh Water. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_BIOWELL">
 			<Text>Build an Eco-Commune</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_BIOWELL_HELP">
-			<Text>Build an Eco-Commune which increases the Food, Culture, and Gold yield of the tile.</Text>
+			<Text>Build an Eco-Commune which increases the Food, Culture, and Gold yield of the tile. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_BIOWELL_REC">
 			<Text>It will increase the Food, Culture, and Gold yield of the tile.</Text>
@@ -116,13 +116,13 @@
 			<Text>While most experimentation in genetic manipulation and engineering took place in dedicated genemod and transgenics labs located in urban centres, the development of increasingly diverse biomanufacturing processes created an increasing need for centres dedicated to genetic experimentation and development located away from the controlled environments of the cities. Built in undeveloped areas, these genocentres studied the impact of genetically modified organisms within natural environments.[NEWLINE][NEWLINE]This custom improvement provides 1 [ICON_GROWTH] Food, 2 [ICON_PRODUCTION] Production, and 1 [ICON_GOLD] Gold to the tile it's built on, with an additional +1 [ICON_GROWTH] Food and +1 [ICON_GOLD] Gold if adjacent to a City, +2 [ICON_GROWTH] Food if built on a source of [ICON_RES_SHEEP] Sheep or [ICON_RES_WHEAT] Wheat, and +2 [ICON_PRODUCTION] if built on a source of [ICON_RES_COW] Cattle or [ICON_RES_HORSE] Horses. Cannot be built adjacent to another Genocentre.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_GENOCENTRE_HELP">
-			<Text>This custom improvement provides 1 [ICON_GROWTH] Food, 2 [ICON_PRODUCTION] Production, and 1 [ICON_GOLD] Gold to the tile it's built on, with an additional +1 [ICON_GROWTH] Food and +1 [ICON_GOLD] Gold if adjacent to a City, +2 [ICON_GROWTH] Food if built on a source of [ICON_RES_SHEEP] Sheep or [ICON_RES_WHEAT] Wheat, and +2 [ICON_PRODUCTION] if built on a source of [ICON_RES_COW] Cattle or [ICON_RES_HORSE] Horses. Cannot be built adjacent to another Genocentre.</Text>
+			<Text>This custom improvement provides 1 [ICON_GROWTH] Food, 2 [ICON_PRODUCTION] Production, and 1 [ICON_GOLD] Gold to the tile it's built on, with an additional +1 [ICON_GROWTH] Food and +1 [ICON_GOLD] Gold if adjacent to a City, +2 [ICON_GROWTH] Food if built on a source of [ICON_RES_SHEEP] Sheep or [ICON_RES_WHEAT] Wheat, and +2 [ICON_PRODUCTION] if built on a source of [ICON_RES_COW] Cattle or [ICON_RES_HORSE] Horses. Cannot be built adjacent to another Genocentre. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_GENOCENTRE">
 			<Text>Build a Genocentre</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_GENOCENTRE_HELP">
-			<Text>Build a Genocentre which increases the Food, Production, and Gold yield of the tile.</Text>
+			<Text>Build a Genocentre which increases the Food, Production, and Gold yield of the tile. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_GENOCENTRE_REC">
 			<Text>It will increase the Food, Production, and Gold yield of the tile.</Text>
@@ -135,13 +135,13 @@
 			<Text>A communications array is an installation dedicated to helping facilitate the exchange of information across an area.  It initially provides a small increase in Gold over the Trading Post, but depending on which technologies have been researched, may also provide additional Culture or Science.  However, the Comm Array cannot be built adjacent to each other, limiting the number that can be constructed.[NEWLINE][NEWLINE]This custom improvement provides 2 [ICON_GOLD] Gold to the tile it's built on. Cannot be built adjacent to another Communications Array.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_COMM_ARRAY_HELP">
-			<Text>This custom improvement provides 2 [ICON_GOLD] Gold to the tile it's built on. Cannot be built adjacent to another Communications Array.</Text>
+			<Text>This custom improvement provides 2 [ICON_GOLD] Gold to the tile it's built on. Cannot be built adjacent to another Communications Array. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_COMM_ARRAY">
 			<Text>Build a Communications Array</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_COMM_ARRAY_HELP">
-			<Text>Build a Communications Array which increases the Gold yield of the tile.</Text>
+			<Text>Build a Communications Array which increases the Gold yield of the tile. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_COMM_ARRAY_REC">
 			<Text>It will increase the Gold yield of the tile.</Text>
@@ -153,13 +153,13 @@
 			<Text>As more and more industries became automated, they placed an increasing demand for power on available power plants and generators. The most heavily industrialized and automated regions began to develop numerous supplemental generators to help provide power to industry.[NEWLINE][NEWLINE]This custom improvement provides 2 [ICON_GOLD] Gold and 1 [ICON_PRODUCTION] Production to the tile it's built on. +1 [ICON_GOLD] Gold if built on a tile with access to Fresh Water.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_GENERATOR_HELP">
-			<Text>This custom improvement provides 2 [ICON_GOLD] Gold and 1 [ICON_PRODUCTION] Production to the tile it's built on. +1 [ICON_GOLD] Gold if built on a tile with access to Fresh Water.</Text>
+			<Text>This custom improvement provides 2 [ICON_GOLD] Gold and 1 [ICON_PRODUCTION] Production to the tile it's built on. +1 [ICON_GOLD] Gold if built on a tile with access to Fresh Water. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_GENERATOR">
 			<Text>Build a Generator</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_GENERATOR_HELP">
-			<Text>Build a Generator which increases the Gold and Production yield of the tile.</Text>
+			<Text>Build a Generator which increases the Gold and Production yield of the tile. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_GENERATOR_REC">
 			<Text>It will increase the Gold and Production yield of the tile.</Text>
@@ -171,13 +171,13 @@
 			<Text>As military units became increasingly sophisticated, it also became increasingly difficult to help maintain their equipment in the field. This was particularly prevalent in militaries that utilized extensive cybernetics, which lead to the development of the Support Node. These modular facilities provided both strong defensive positions, as well as extensive repair facilities and workshops to help maintain technologically sophisticated equipment for units in the field.[NEWLINE][NEWLINE]This custom improvement provides 2 [ICON_GOLD] Gold and 2 [ICON_PRODUCTION] Production to the tile it's built on, with an additional +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold if adjacent to a City and +2 [ICON_PRODUCTION] Production if built on a Hill. It also heals nearby units for 10 HP each turn. Cannot be built adjacent to another Support Node.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_CORE_HELP">
-			<Text>This custom improvement provides 2 [ICON_GOLD] Gold and 2 [ICON_PRODUCTION] Production to the tile it's built on, with an additional +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold if adjacent to a City and +2 [ICON_PRODUCTION] Production if built on a Hill. It also heals nearby units for 10 HP each turn. Cannot be built adjacent to another Support Node.</Text>
+			<Text>This custom improvement provides 2 [ICON_GOLD] Gold and 2 [ICON_PRODUCTION] Production to the tile it's built on, with an additional +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold if adjacent to a City and +2 [ICON_PRODUCTION] Production if built on a Hill. It also heals nearby units for 10 HP each turn. Cannot be built adjacent to another Support Node. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_CORE">
 			<Text>Build a Support Node</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_CORE_HELP">
-			<Text>Build a Support Node which provides Gold and Production, and also heals nearby units for 10 HP each turn.</Text>
+			<Text>Build a Support Node which provides Gold and Production, and also heals nearby units for 10 HP each turn. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_FW_CORE_REC">
 			<Text>It will increase the Gold and Production yield of the tile, as well as healing nearby units each turn.</Text>
@@ -190,7 +190,7 @@
 			<Text>The most visible effect of the release of the Pholus Mutagen has been the mutation of plants into fungal growths. The unusual plant forms have been observed to developing neural-like structures that allow them to interpret sensory information from their environments, and even respond with toxins and biochemical attacks against those they consider hostile, making areas overrun by the fungus to be quite hazardous for those unprepared for them to traverse. However, the fungus itself also appears to be living in symbiosis with humans and animals affected by the mutagen, providing them with useful sustenance and other valuable materials such as pharmaceuticals.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_FUNGAL_GROWTH_HELP">
-			<Text>This custom improvement provides 1 [ICON_GROWTH] Food, 1 [ICON_PRODUCTION] Production, and 1 [ICON_GOLD] Gold to the tile it's built on. It also inflicts 10 HP damage on any units that end their turn on or adjacent to it.</Text>
+			<Text>This custom improvement provides 1 [ICON_GROWTH] Food, 1 [ICON_PRODUCTION] Production, and 1 [ICON_GOLD] Gold to the tile it's built on. It also inflicts 10 HP damage on any units that end their turn on or adjacent to it. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
 
 		<Replace Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_RESULT">

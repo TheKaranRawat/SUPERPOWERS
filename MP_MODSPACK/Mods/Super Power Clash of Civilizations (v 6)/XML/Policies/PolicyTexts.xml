@@ -14,6 +14,7 @@
 				[NEWLINE][ICON_BULLET]+3 [ICON_CULTURE] and +3 [ICON_RESEARCH] Science in the [ICON_CAPITAL] Capital.
 				[NEWLINE][ICON_BULLET]-25% [ICON_CULTURE] Culture Exponent cost for acquiring new plots in all cities.
 				[NEWLINE][ICON_BULLET]Wonder Unlocked: Hanging Gardens.
+				[NEWLINE][ICON_BULLET]Building Unlocked: Public Baths.
 				[NEWLINE][NEWLINE]Finishing Bonus:
 				[NEWLINE][ICON_BULLET]+10% [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, [ICON_PRODUCTION] Production and [ICON_GOLD] Gold output in all cities.
 				[NEWLINE][ICON_BULLET]Allows the purchase of Great Engineers with [ICON_PEACE] Faith starting in the Industrial Era. [NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch CANNOT be active at the same time as Liberty.[ENDCOLOR]</Text>
@@ -127,6 +128,7 @@
 				[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] Culture and +1 [ICON_RESEARCH] Science for every city.
 				[NEWLINE][ICON_BULLET]+25% Tile Improvement construction rate.
 				[NEWLINE][ICON_BULLET]Wonder Unlocked: The Pyramids.
+				[NEWLINE][ICON_BULLET]Building Unlocked: Town Council.
 				[NEWLINE][NEWLINE]Finishing Bonus:
 				[NEWLINE][ICON_BULLET]One free Great Person
 				[NEWLINE][ICON_BULLET]starts a Golden Age.
@@ -234,6 +236,7 @@
 				[NEWLINE][ICON_BULLET]Gain [ICON_GOLD] Gold for killing enemy units (50% of its [ICON_STRENGTH] Combat Strength).
 				[NEWLINE][ICON_BULLET]World Wonder Unlocked: The Statue of Zeus.
 				[NEWLINE][ICON_BULLET]National Wonder Unlocked: Heroic Epic.
+				[NEWLINE][ICON_BULLET]BuildingUnlocked: Stronghold.
 				[NEWLINE][NEWLINE]Finishing Bonus:
 				[NEWLINE][ICON_BULLET]Gain [ICON_CULTURE] Culture when you kill an enemy unit (50% of its [ICON_STRENGTH] Combat Strength).
 				[NEWLINE][ICON_BULLET]It also allows the purchase of Great Generals with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
@@ -306,6 +309,7 @@
 				[NEWLINE][ICON_BULLET]Cities with a majority religion will also get the Pantheon belief bonus of the second most popular religion.
 				[NEWLINE][ICON_BULLET]World Wonder Unlocked: The Great Mosque of Djenne.
 				[NEWLINE][ICON_BULLET]National Wonder Unlocked: National Epic.
+				[NEWLINE][ICON_BULLET]Building Unlocked: Parochial Schools.
 				[NEWLINE][NEWLINE]Finishing Bonus:
 				[NEWLINE][ICON_BULLET]One free Social Policy.
 			</Text>
@@ -364,6 +368,7 @@
 				[NEWLINE][ICON_BULLET]the resting point for [ICON_INFLUENCE] Influence with all City-States is increased by 20.
 				[NEWLINE][ICON_BULLET]World Wonder Unlocked: Hanseatic League.
 				[NEWLINE][ICON_BULLET]National Wonder Unlocked: National Intelligence Agency.
+				[NEWLINE][ICON_BULLET]Building Unlocked: Chanceries.
 				[NEWLINE][NEWLINE]Finishing Bonus:
 				[NEWLINE][ICON_BULLET]Allied City-States to occasionally gift you [ICON_GREAT_PEOPLE] Great People.
 
@@ -433,6 +438,7 @@
 				[NEWLINE][ICON_BULLET]+25% [ICON_CULTURE] Culture output in cities which have built a World Wonder.
 				[NEWLINE][ICON_BULLET]World Wonder Unlocked: The Louvre.
 				[NEWLINE][ICON_BULLET]National Wonder Unlocked: National Library.
+				[NEWLINE][ICON_BULLET]Building Unlocked: Memorial.
 				[NEWLINE][NEWLINE]Finishing Bonus:
 				[NEWLINE][ICON_BULLET]Show Hidden Antiquity Sites on the map.
 				[NEWLINE][ICON_BULLET]Allows the purchase of Great Writers, Artists, or Musicians with [ICON_PEACE] Faith starting in the Industrial Era.
@@ -501,6 +507,7 @@
 				[NEWLINE][ICON_BULLET]+1 additional Trade Route slot.
 				[NEWLINE][ICON_BULLET]World Wonder Unlocked: The Big Ben.
 				[NEWLINE][ICON_BULLET]National Wonder Unlocked: West India Company.
+				[NEWLINE][ICON_BULLET]Building Unlocked: Depot.
 				[NEWLINE][NEWLINE]Finishing Bonus:
 				[NEWLINE][ICON_BULLET]-15% [ICON_GOLD] Maintenance Cost for Buildings and Units.
 				[NEWLINE][ICON_BULLET]Allows the purchase of Great Merchants with [ICON_PEACE] Faith starting in the Industrial Era.
@@ -588,6 +595,7 @@
 				[NEWLINE][ICON_BULLET]+3 [ICON_MOVES] Movement for Great Admirals.
 				[NEWLINE][ICON_BULLET]World Wonder Unlocked: Port of Rotterdam.
 				[NEWLINE][ICON_BULLET]National Wonder Unlocked: Ironworks.
+				[NEWLINE][ICON_BULLET]Building Unlocked: Botanical Gardens.
 				[NEWLINE][NEWLINE]Finishing Bonus:
 				[NEWLINE][ICON_BULLET]A Great Admiral appears.
 				[NEWLINE][ICON_BULLET]Great Admirals are earned 50% faster.
@@ -669,6 +677,7 @@
 				[NEWLINE][ICON_BULLET]+50% [ICON_RESEARCH] Science gained from Research Agreements.
 				[NEWLINE][ICON_BULLET]World Wonder Unlocked: The Porcelain Tower.
 				[NEWLINE][ICON_BULLET]National Wonder Unlocked: National Laboratory.
+				[NEWLINE][ICON_BULLET]Building Unlocked: Patent Offices.				
 				[NEWLINE][NEWLINE]Finishing Bonus:
 				[NEWLINE][ICON_BULLET]One free Technology.
 				[NEWLINE][ICON_BULLET]Allows the purchase of Great Scientists with [ICON_PEACE] Faith starting in the Industrial Era.
@@ -816,7 +825,7 @@
 			<Text>Planned Economy</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DOUBLE_AGENTS_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Planned Economy[ENDCOLOR][NEWLINE]+4 [ICON_RES_ELECTRICITY] Electricity and +4 [ICON_RES_CONSUMER] Consumer Goods for each city.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Planned Economy[ENDCOLOR][NEWLINE]+16 [ICON_RES_ELECTRICITY] Electricity and +16 [ICON_RES_CONSUMER] Consumer Goods for each city.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DOUBLE_AGENTS_TEXT" >
 			<Text>A planned economy is the economic system in which decisions regarding production and investment are embodied in a plan formulated by a central authority, usually by a public body such as a government agency.</Text>
@@ -826,14 +835,14 @@
 			<Text>Collectivization</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SOCIALIST_REALISM_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Collectivization[ENDCOLOR][NEWLINE]+2 [ICON_HAPPINESS_1] Local Happiness from each Mechanized Farm and Grain Depot.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Collectivization[ENDCOLOR][NEWLINE]+6 [ICON_HAPPINESS_1] Local Happiness from each Mechanized Farm and Grain Depot.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SOCIALIST_REALISM_TEXT" >
 			<Text>Collectivization in the Soviet Union was enforced under Stalin between 1928 and 1940. The goal of this policy was to consolidate individual land and labour into collective farms: mainly kolkhozy and sovkhozy. The Soviet leadership was confident that the replacement of individual peasant farms by collective ones would immediately increase the food supply for urban population, the supply of raw materials for processing industry, and agricultural exports. Collectivization was thus regarded as the solution to the crisis of agricultural distribution (mainly in grain deliveries) that had developed since 1927. This problem became more acute as the Soviet Union pressed ahead with its ambitious industrialization program.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Hero of the People[ENDCOLOR][NEWLINE]The rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25% and the empire immediately enters a [ICON_GOLDEN_AGE] Golden Age.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Hero of the People[ENDCOLOR][NEWLINE]The rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25% and the empire immediately enters a [ICON_GOLDEN_AGE] 30 turn Golden Age.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP" >
@@ -841,7 +850,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_YOUNG_PIONEERS_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Young Pioneers[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Local Happiness from each [COLOR_WATER_TEXT]Power Plant Buildings[ENDCOLOR] (Except Power Plant Additional Units). </Text>
+			<Text>[COLOR_POSITIVE_TEXT]Young Pioneers[ENDCOLOR][NEWLINE]+3 [ICON_HAPPINESS_1] Local Happiness from each [COLOR_WATER_TEXT]Power Plant Buildings[ENDCOLOR] (Except Power Plant Additional Units). </Text>
 		</Replace>
 
 
@@ -850,14 +859,14 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Workers' Faculties[ENDCOLOR][NEWLINE]+25% [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science and [ICON_TOURISM] Tourism output from each Factory.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Workers' Faculties[ENDCOLOR][NEWLINE]+33% [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science and [ICON_TOURISM] Tourism output from each Factory.</Text>
 		</Replace>
 
 
 
 
 		<Replace Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Resettlement[ENDCOLOR][NEWLINE]Settler equals 3 [ICON_CITIZEN] Population (New city start with 3 [ICON_CITIZEN] Population or add 3 [ICON_CITIZEN] Population when joining the existing city). Reduces the [ICON_FOOD] Food Growth loss due to the Pollution by 15% in all cities.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Resettlement[ENDCOLOR][NEWLINE]Settler equals 3 [ICON_CITIZEN] Population (New city start with 3 [ICON_CITIZEN] Population or add 3 [ICON_CITIZEN] Population when joining the existing city). Reduces the [ICON_FOOD] Food Growth increased by 30% in all cities.</Text>
 		</Replace>
 
 
@@ -876,14 +885,14 @@
 			<Text>Down to the Countryside Movement</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Down to the Countryside Movement[ENDCOLOR][NEWLINE]+1 [ICON_CULTURE] Culture for every Farm, Pasture and Trading Post.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Down to the Countryside Movement[ENDCOLOR][NEWLINE]+3 [ICON_CULTURE] Culture for every Farm, Pasture and Trading Post.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP_TEXT">
 			<Text>The Up to the Mountains and Down to the Countryside Movement was a policy instituted in the People's Republic of China in the late 1960s and early 1970s. As a result of the anti-bourgeois thinking prevalent during the Cultural Revolution, Mao Zedong declared certain privileged urban youth would be sent to mountainous areas or farming villages in order to learn from the workers and farmers there.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_FIVE_YEAR_PLAN_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Five-Year Plan[ENDCOLOR][NEWLINE]+1 [ICON_PRODUCTION] Production for every Mine, Quarry, Lumber Mill, Oil Well, Offshore Platform and Workboats.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Five-Year Plan[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Production for every Mine, Quarry, Lumber Mill, Oil Well, Offshore Platform and Workboats.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP" >
@@ -899,23 +908,23 @@
 		
 		
 		<Replace Tag="TXT_KEY_POLICY_FUTURISM_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Futurism[ENDCOLOR][NEWLINE]When you capture a city, receive 20 [ICON_CULTURE] Culture as a plunder for each point of Culture produced in the captured city. </Text>
+			<Text>[COLOR_POSITIVE_TEXT]Futurism[ENDCOLOR][NEWLINE]When you capture a city, receive 50 [ICON_CULTURE] Culture as a plunder for each point of Culture produced in the captured city. </Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_ELITE_FORCES_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Elite Forces[ENDCOLOR][NEWLINE]New Units receive +15 XP. Wounded units do +10% damage.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Elite Forces[ENDCOLOR][NEWLINE]New Units receive +30 XP. Wounded units do +25% damage.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_UNITED_FRONT_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]United Front[ENDCOLOR][NEWLINE]+15% [ICON_RESEARCH] Science and [ICON_PRODUCTION] Production from every Military Base, Military Academy and Dojo. </Text>
+			<Text>[COLOR_POSITIVE_TEXT]United Front[ENDCOLOR][NEWLINE]+40% [ICON_RESEARCH] Science and [ICON_PRODUCTION] Production from every Military Base, Military Academy and Dojo. </Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_FORTIFIED_BORDERS_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Fortified Borders[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Local Happiness from every Barracks, Arsenal, Military Base, Military Academy, Dojo, Metal Processing Plant, Steel Warehouse, Coal Company, Recycling Center, Oil Refinery, Uraninite Refinery, Coal Liquefaction System and Uranium in Coal Refining System.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Fortified Borders[ENDCOLOR][NEWLINE]+4 [ICON_HAPPINESS_1] Local Happiness from every Barracks, Arsenal, Military Base, Military Academy, Dojo, Metal Processing Plant, Steel Warehouse, Coal Company, Recycling Center, Oil Refinery, Uraninite Refinery, Coal Liquefaction System and Uranium in Coal Refining System.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_NATIONALISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Nationalism[ENDCOLOR][NEWLINE]-40% [ICON_GOLD] Gold for Unit Maintenance.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Nationalism[ENDCOLOR][NEWLINE]-50% [ICON_GOLD] Gold for Unit Maintenance.</Text>
 		</Replace>
 		
 		
@@ -931,28 +940,28 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Lightning Warfare[ENDCOLOR][NEWLINE]+2 [ICON_MOVES] Movement for Great Generals.  +1 [ICON_MOVES] Movement for All Land Non-militia Units.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Lightning Warfare[ENDCOLOR][NEWLINE]+2 [ICON_MOVES] Movement for Great Generals.  +2 [ICON_MOVES] Movement for All Land Non-militia Units.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_TOTAL_WAR_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Total War[ENDCOLOR][NEWLINE]+5 [ICON_RES_MANPOWER] Manpower for each city. +20% Production towards Military Units.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Total War[ENDCOLOR][NEWLINE]+45 [ICON_RES_MANPOWER] Manpower for each city. +20% Production towards Military Units.</Text>
 		</Replace>
 
 
 
 		<Replace Tag="TXT_KEY_POLICY_POLICE_STATE_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Police State[ENDCOLOR][NEWLINE]+3 [ICON_HAPPINESS_1] Local Happiness from every Courthouse, Constabulary, Sheriff Office, Police Station and Procuratorate. -50% extra [ICON_GOLD] Maintenance Cost added by cities' [ICON_CITIZEN] Population for these buildings.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Police State[ENDCOLOR][NEWLINE]+10 [ICON_HAPPINESS_1] Local Happiness from every Courthouse, Constabulary, Sheriff Office, Police Station and Procuratorate. -50% extra [ICON_GOLD] Maintenance Cost added by cities' [ICON_CITIZEN] Population for these buildings.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_CULT_PERSONALITY_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Cult of Personality[ENDCOLOR][NEWLINE] -15% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied Cities and the empire immediately enters a [ICON_GOLDEN_AGE] Golden Age.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Cult of Personality[ENDCOLOR][NEWLINE] -30% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied Cities and the empire immediately enters a [ICON_GOLDEN_AGE] Golden Age.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_NEW_ORDER" >
 			<Text>Authoritarianism</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_NEW_ORDER_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Authoritarianism[ENDCOLOR][NEWLINE]Negates the [ICON_TOURISM] Tourism bonus from other players' technologies (from Printing Press to Internet).</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Authoritarianism[ENDCOLOR][NEWLINE]Negates the [ICON_TOURISM] Tourism bonus from other players' technologies (from Printing Press to Internet). +15% Culture.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_NEW_ORDER_TEXT" >
 			<Text>Authoritarianism is a form of government characterized by absolute or blind obedience to authority, as against individual freedom and related to the expectation of unquestioning obedience.</Text>

@@ -581,7 +581,7 @@
 		</Update>
 		
 		<Update>
-			<Set GoldenAgeTurns="10"/>
+			<Set GoldenAgeTurns="30"/>
 			<Where Type="POLICY_HERO_OF_THE_PEOPLE"/>
 		</Update>
 		<Update>
@@ -589,7 +589,7 @@
 			<Where Type="PATRIOTIC_WAR"/>
 		</Update>
 		<Update>
-			<Set UnhappinessFromUnitsMod="200" NewCityExtraPopulation="2" CityGrowthMod="15"/>
+			<Set UnhappinessFromUnitsMod="200" NewCityExtraPopulation="2" CityGrowthMod="30"/>
 			<Where Type="POLICY_RESETTLEMENT"/>
 		</Update>
 		<Update>
@@ -610,7 +610,7 @@
 
 		<!--Autocracy-->
 		<Update>
-			<Set WoundedUnitDamageMod="10" FreeExperience="15"/>
+			<Set WoundedUnitDamageMod="25" FreeExperience="30"/>
 			<Where Type="POLICY_ELITE_FORCES"/>
 		</Update>
 		<!--<Update>
@@ -618,7 +618,7 @@
 			<Where Type="POLICY_UNITED_FRONT"/>
 		</Update>-->
 		<Update>
-			<Set UnitGoldMaintenanceMod="-40" Level="1"/>
+			<Set UnitGoldMaintenanceMod="-50" Level="1"/>
 			<Where Type="POLICY_NATIONALISM"/>
 		</Update>
 		<Update>
@@ -626,19 +626,19 @@
 			<Where Type="POLICY_THIRD_ALTERNATIVE"/>
 		</Update>
 		<Update>
-			<Set CulturalPlunderMultiplier="20"/>
+			<Set CulturalPlunderMultiplier="50"/>
 			<Where Type="POLICY_FUTURISM"/>
 		</Update>
 		
 		
 		<Update>
-			<Set FreeExperience="0" MilitaryProductionModifier="20"/>
+			<Set FreeExperience="0" MilitaryProductionModifier="40"/>
 			<Where Type="POLICY_TOTAL_WAR"/>
 		</Update>
 		
 				
 		<Update>
-			<Set UnhappinessMod="-15" GoldenAgeTurns="10" CommonFoeTourismModifier="0"/>
+			<Set UnhappinessMod="-30" GoldenAgeTurns="20" CommonFoeTourismModifier="0"/>
 			<Where Type="POLICY_CULT_PERSONALITY"/>
 		</Update>
 		<Update>
@@ -652,7 +652,7 @@
 	</Policies>
 
 
-	<!-- postfuture -->
+	<!-- postfuture 
 	<Policies>
 
 		<Policies>
@@ -684,7 +684,7 @@
 		</Row>
 
 	</Policies>
-
+	-->
 
 
 	<Policy_PrereqPolicies>	

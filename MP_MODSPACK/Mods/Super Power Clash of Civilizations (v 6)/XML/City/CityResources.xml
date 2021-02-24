@@ -970,95 +970,140 @@
 		<Row>
 			<BuildingType>BUILDING_COAL_PLANT</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>12</Quantity>
+			<Quantity>16</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COAL_PLANT_EXTEND</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>6</Quantity>
+			<Quantity>12</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WIND_PLANT</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>12</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DANISH_WIND_TURBINE</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>12</Quantity>
+			<Quantity>24</Quantity>
 		</Row>
 		
 		<Row>
 			<BuildingType>BUILDING_HYDRO_PLANT</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>4</Quantity>
+			<Quantity>32</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_OIL_PLANT</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>12</Quantity>
+			<Quantity>24</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GAS_PLANT</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>6</Quantity>
+			<Quantity>16</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SOLAR_PLANT</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>8</Quantity>
+			<Quantity>24</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SPAIN_SOLAR10</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>15</Quantity>
+			<Quantity>36</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TIDAL_PLANT</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>12</Quantity>
+			<Quantity>32</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DUTCH_DTP</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>12</Quantity>
+			<Quantity>28</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_NUCLEAR_PLANT</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>24</Quantity>
+			<Quantity>40</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_NUCLEAR_PLANT_EXTEND</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>12</Quantity>
+			<Quantity>24</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FUSION_PLANT</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>24</Quantity>
+			<Quantity>56</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SUPERCONDUCTING_CABLE</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>8</Quantity>
+			<Quantity>20</Quantity>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_FUSION_PLANT</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Quantity>64</Quantity>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_NANOFORGE</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Quantity>32</Quantity>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_CONVERTER</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Quantity>32</Quantity>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_TIDAL_ARRAY</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Quantity>32</Quantity>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_TIDAL_ARRAY</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Quantity>32</Quantity>
+		</Row>
+
+		
+
+		<Row>
+			<BuildingType>BUILDING_FW_HELIOS</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Quantity>100</Quantity>
+		</Row>
+
+		
+		<Row>
+			<BuildingType>BUILDING_LONDON_ARRAY</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Quantity>48</Quantity>
 		</Row>
 		
 		
 		<Row>
 			<BuildingType>BUILDING_HOOVER_DAM</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>28</Quantity>
+			<Quantity>52</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ASWAN_DAM</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>36</Quantity>
+			<Quantity>64</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_YANGTZE</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Quantity>50</Quantity>
+			<Quantity>74</Quantity>
 		</Row>
 
 		<Row>

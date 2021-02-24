@@ -4,6 +4,14 @@
 <GameData>
 
 	<BuildingClasses>
+
+		<Row>
+			<Type>BUILDINGCLASS_WTC</Type>
+			<DefaultBuilding>BUILDING_WTC</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_WTC</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
 		<Row>
 			<Type>BUILDINGCLASS_FW_SHIMIZUMCP</Type>
 			<DefaultBuilding>BUILDING_FW_SHIMIZUMCP</DefaultBuilding>
@@ -167,7 +175,7 @@
 			<Help>TXT_KEY_WONDER_FW_ULTIMATOWER_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_ULTIMATOWER_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_ULTIMATOWER_QUOTE</Quote>
-			<Cost>2400</Cost>
+			<Cost>24000</Cost>
 			<PrereqTech>TECH_HYPERSTRUCTURES</PrereqTech>
 			<GlobalPopulationChange>2</GlobalPopulationChange>
 			<UnmoddedHappiness>10</UnmoddedHappiness>
@@ -190,7 +198,7 @@
 			<Help>TXT_KEY_WONDER_FW_SKYCITY_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_SKYCITY_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_SKYCITY_QUOTE</Quote>
-			<Cost>2500</Cost>
+			<Cost>25000</Cost>
 			<PrereqTech>TECH_HYPERSTRUCTURES</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<GreatPeopleRateChange>2</GreatPeopleRateChange>
@@ -212,7 +220,7 @@
 			<Help>TXT_KEY_WONDER_FW_SHIMIZUMCP_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_SHIMIZUMCP_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_SHIMIZUMCP_QUOTE</Quote>
-			<Cost>2300</Cost>
+			<Cost>23000</Cost>
 			<PrereqTech>TECH_DIGITAL_SOCIETY</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
@@ -234,7 +242,7 @@
 			<Help>TXT_KEY_WONDER_FW_FLOATINGISLANDS_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_FLOATINGISLANDS_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_FLOATINGISLANDS_QUOTE</Quote>
-			<Cost>2100</Cost>
+			<Cost>21000</Cost>
 			<PrereqTech>TECH_TERRAFORMING</PrereqTech>
 			<Water>true</Water>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -256,7 +264,7 @@
 			<Help>TXT_KEY_WONDER_FW_BUENOSAIRESFORUM_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_BUENOSAIRESFORUM_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_BUENOSAIRESFORUM_QUOTE</Quote>
-			<Cost>2100</Cost>
+			<Cost>21000</Cost>
 			<PrereqTech>TECH_HYPERSTRUCTURES</PrereqTech>
 			<River>true</River>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -280,7 +288,7 @@
 			<Help>TXT_KEY_WONDER_FW_BIONICTOWER_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_BIONICTOWER_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_BIONICTOWER_QUOTE</Quote>
-			<Cost>2200</Cost>
+			<Cost>22000</Cost>
 			<PrereqTech>TECH_HUMAN_AUGMENTATION</PrereqTech>
 			<Water>true</Water>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -302,7 +310,7 @@
 			<Help>TXT_KEY_WONDER_FW_DATA_HAVEN_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_DATA_HAVEN_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_DATA_HAVEN_QUOTE</Quote>
-			<Cost>1600</Cost>
+			<Cost>16000</Cost>
 			<PrereqTech>TECH_NEURAL_INTERFACE</PrereqTech>
 			<NearbyTerrainRequired>TERRAIN_TUNDRA</NearbyTerrainRequired>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -323,7 +331,7 @@
 			<Help>TXT_KEY_WONDER_FW_SKYTREE_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_SKYTREE_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_SKYTREE_QUOTE</Quote>
-			<Cost>1250</Cost>
+			<Cost>12500</Cost>
 			<PrereqTech>TECH_MEMETICS</PrereqTech>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<NukeImmune>true</NukeImmune>
@@ -343,12 +351,12 @@
 			<Help>TXT_KEY_WONDER_FW_SHANGHAI_WFC_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_SHANGHAI_WFC_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_SHANGHAI_WFC_QUOTE</Quote>
-			<Cost>1250</Cost>
-			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
+			<Cost>10000</Cost>
+			<PrereqTech>TECH_ENVIRONMENTALISM</PrereqTech>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<GreatPeopleRateChange>2</GreatPeopleRateChange>
-			<Gold>1500</Gold>
+			<GreatPeopleRateChange>4</GreatPeopleRateChange>
+			<Gold>10000</Gold>
 			<SpecialistCount>2</SpecialistCount>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -366,8 +374,8 @@
 			<Help>TXT_KEY_WONDER_FW_ORBITAL_REFINERY_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_ORBITAL_REFINERY_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_ORBITAL_REFINERY_QUOTE</Quote>
-			<Cost>1400</Cost>
-			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+			<Cost>14000</Cost>
+			<PrereqTech>TECH_TERRAFORMING</PrereqTech>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>3</SpecialistCount>
@@ -387,7 +395,7 @@
 			<Help>TXT_KEY_WONDER_FW_GENE_VAULT_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_GENE_VAULT_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_GENE_VAULT_QUOTE</Quote>
-			<Cost>1400</Cost>
+			<Cost>14000</Cost>
 			<PrereqTech>TECH_ECOSOPHY</PrereqTech>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -408,7 +416,7 @@
 			<Help>TXT_KEY_WONDER_FW_HELIOS_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_HELIOS_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_HELIOS_QUOTE</Quote>
-			<Cost>1250</Cost>
+			<Cost>12500</Cost>
 			<PrereqTech>TECH_SUPERCONDUCTIVITY</PrereqTech>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<NearbyTerrainRequired>TERRAIN_DESERT</NearbyTerrainRequired>
@@ -431,7 +439,7 @@
 			<Help>TXT_KEY_WONDER_FW_MNEMOSYNE_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_MNEMOSYNE_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_MNEMOSYNE_QUOTE</Quote>
-			<Cost>1600</Cost>
+			<Cost>16000</Cost>
 			<PrereqTech>TECH_CYBERNETICS</PrereqTech>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
@@ -452,7 +460,7 @@
 			<Help>TXT_KEY_WONDER_FW_CITADEL_STATION_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_CITADEL_STATION_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_CITADEL_STATION_QUOTE</Quote>
-			<Cost>2000</Cost>
+			<Cost>20000</Cost>
 			<PrereqTech>TECH_ENERGY_THEORY</PrereqTech>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<NukeImmune>true</NukeImmune>
@@ -471,7 +479,7 @@
 			<Help>TXT_KEY_WONDER_FW_PHOLUS_MUTAGEN_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_PHOLUS_MUTAGEN_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_PHOLUS_MUTAGEN_QUOTE</Quote>
-			<Cost>1800</Cost>
+			<Cost>18000</Cost>
 			<PrereqTech>TECH_TRANSGENICS</PrereqTech>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<FreePromotion>PROMOTION_FW_GENGINEERED</FreePromotion>
@@ -491,7 +499,7 @@
 			<Description>TXT_KEY_BUILDING_FW_SKYNET_DESC</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FW_SKYNET_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_SKYNET_QUOTE</Quote>
-			<Cost>1800</Cost>
+			<Cost>18000</Cost>
 			<PrereqTech>TECH_AI</PrereqTech>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<FreePromotion>PROMOTION_FW_SKYNET_LINK</FreePromotion>
@@ -511,8 +519,8 @@
 			<Help>TXT_KEY_WONDER_FW_ENRICHMENT_CENTRE_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_ENRICHMENT_CENTRE_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_ENRICHMENT_CENTRE_QUOTE</Quote>
-			<Cost>1250</Cost>
-			<PrereqTech>TECH_PARTICLE_PHYSICS</PrereqTech>
+			<Cost>12500</Cost>
+			<PrereqTech>TECH_GENGINEERING</PrereqTech>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -530,7 +538,7 @@
 			<Help>TXT_KEY_WONDER_FW_VIRTUAL_IDOL_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_VIRTUAL_IDOL_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_VIRTUAL_IDOL_QUOTE</Quote>
-			<Cost>1400</Cost>
+			<Cost>14000</Cost>
 			<PrereqTech>TECH_COGNITIVE_TECH</PrereqTech>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<NukeImmune>true</NukeImmune>
@@ -553,7 +561,7 @@
 			<Help>TXT_KEY_WONDER_FW_ANGELNET_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_ANGELNET_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_ANGELNET_QUOTE</Quote>
-			<Cost>2400</Cost>
+			<Cost>24000</Cost>
 			<PrereqTech>TECH_SMART_MATERIALS</PrereqTech>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<NukeImmune>true</NukeImmune>
@@ -573,7 +581,7 @@
 			<Help>TXT_KEY_WONDER_FW_DIGITAL_EMANCIPATION_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_DIGITAL_EMANCIPATION_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_DIGITAL_EMANCIPATION_QUOTE</Quote>
-			<Cost>2200</Cost>
+			<Cost>22000</Cost>
 			<PrereqTech>TECH_DIGITAL_SOCIETY</PrereqTech>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<NukeImmune>true</NukeImmune>
@@ -592,7 +600,7 @@
 			<Help>TXT_KEY_WONDER_FW_NEPHILIM_GENE_TEMPLATE_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_NEPHILIM_GENE_TEMPLATE_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_NEPHILIM_GENE_TEMPLATE_QUOTE</Quote>
-			<Cost>2400</Cost>
+			<Cost>24000</Cost>
 			<PrereqTech>TECH_HUMAN_AUGMENTATION</PrereqTech>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<NukeImmune>true</NukeImmune>
@@ -612,7 +620,7 @@
 			<Help>TXT_KEY_WONDER_FW_JURASSIC_PARK_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_FW_JURASSIC_PARK_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FW_JURASSIC_PARK_QUOTE</Quote>
-			<Cost>1200</Cost>
+			<Cost>12000</Cost>
 			<PrereqTech>TECH_GEN_MANIP</PrereqTech>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<UnmoddedHappiness>6</UnmoddedHappiness>
@@ -1300,7 +1308,7 @@
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>SPWondersUB_ATLAS</IconAtlas>
 			<PortraitIndex>54</PortraitIndex>
-			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<NumTradeRouteBonus>2</NumTradeRouteBonus>
 		</Row>
 		<Row>
 			<Type>BUILDING_NATIONAL_FINANCE</Type>
@@ -1342,6 +1350,7 @@
 			<IconAtlas>SPWondersUB_ATLAS</IconAtlas>
 			<PortraitIndex>56</PortraitIndex>
 			<FreePromotion>PROMOTION_NATIONAL_AUTOCRACY</FreePromotion>
+			<NumTradeRouteBonus>2</NumTradeRouteBonus>
 		</Row>
 
 		<Row>
@@ -1362,6 +1371,7 @@
 			<IconAtlas>SPWondersUB_ATLAS</IconAtlas>
 			<PortraitIndex>57</PortraitIndex>
 			<GlobalSpaceProductionModifier>100</GlobalSpaceProductionModifier>
+			<NumTradeRouteBonus>2</NumTradeRouteBonus>
 		</Row>
 
 		<Row>
@@ -1374,8 +1384,8 @@
 			<Description>TXT_KEY_BUILDING_NATIONAL_FREEDOM</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATIONAL_FREEDOM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_NATIONAL_FREEDOM_STRATEGY</Strategy>
-			<FreeGreatPeople>1</FreeGreatPeople>
-			<ExtraLeagueVotes>5</ExtraLeagueVotes>
+			<FreeGreatPeople>5</FreeGreatPeople>
+			<ExtraLeagueVotes>15</ExtraLeagueVotes>
 			<NukeImmune>true</NukeImmune>
 			<NumCityCostMod>200</NumCityCostMod>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -1383,6 +1393,7 @@
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>SPWondersUB_ATLAS</IconAtlas>
 			<PortraitIndex>58</PortraitIndex>
+			<NumTradeRouteBonus>4</NumTradeRouteBonus>
 		</Row>
 
 
@@ -1650,6 +1661,18 @@
 			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 			<NumBuildingNeeded>-1</NumBuildingNeeded>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FW_CENTRAL_COMMAND</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FW_FEEDSITE_HUB</BuildingClassType>
+			<NumBuildingNeeded>-1</NumBuildingNeeded>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FW_ACCELERATOR</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+			<NumBuildingNeeded>-1</NumBuildingNeeded>
+		</Row>
+		
 	</Building_PrereqBuildingClasses>
 
 
@@ -2907,7 +2930,7 @@
 		<Row>
 			<Type>BUILDING_HOOVER_DAM</Type>
 			<BuildingClass>BUILDINGCLASS_HOOVER_DAM</BuildingClass>
-			<Cost>1750</Cost>
+			<Cost>3750</Cost>
 			<PrereqTech>TECH_ADV_ENGINEERING</PrereqTech>
 			<Help>TXT_KEY_WONDER_HOOVER_DAM_HELP</Help>
 			<Description>TXT_KEY_BUILDING_HOOVER_DAM</Description>
@@ -2956,7 +2979,7 @@
 		<Row>
 			<Type>BUILDING_ASWAN_DAM</Type>
 			<BuildingClass>BUILDINGCLASS_ASWAN_DAM</BuildingClass>
-			<Cost>1850</Cost>
+			<Cost>3850</Cost>
 			<PrereqTech>TECH_ARMOR</PrereqTech>
 			<Help>TXT_KEY_WONDER_ASWAN_DAM_HELP</Help>
 			<Description>TXT_KEY_BUILDING_ASWAN_DAM</Description>
@@ -3047,7 +3070,7 @@
 			<Help>TXT_KEY_WONDER_YANGTZE_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_YANGTZE_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_YANGTZE_QUOTE</Quote>
-			<Cost>2500</Cost>
+			<Cost>4500</Cost>
 			<PrereqTech>TECH_COMPOSITE</PrereqTech>
 			<NukeImmune>true</NukeImmune>
 			<River>true</River>
@@ -3230,6 +3253,107 @@
 			<WonderSplashImage>ShimizuMegaCityPyramid.dds</WonderSplashImage>
 			<WonderSplashAnchor>L,T</WonderSplashAnchor>
 			<UnmoddedHappiness>30</UnmoddedHappiness>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_WTC</Type>
+			<BuildingClass>BUILDINGCLASS_WTC</BuildingClass>
+			<Description>TXT_KEY_BUILDING_WTC</Description>
+			<Help>TXT_KEY_WONDER_WTC_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_WTC_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_WTC_QUOTE</Quote>
+			<Cost>4000</Cost>
+			<PrereqTech>TECH_AUTOMATION_T</PrereqTech>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<FreeBuilding>BUILDINGCLASS_WTCDUMMY</FreeBuilding>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<TradeRouteRecipientBonus>40</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>40</TradeRouteTargetBonus>
+			<ConquestProb>100</ConquestProb>
+			<ExtraLeagueVotes>2</ExtraLeagueVotes>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<TradeRouteLandDistanceModifier>50</TradeRouteLandDistanceModifier>
+			<TradeRouteLandGoldBonus>100</TradeRouteLandGoldBonus>
+			<IconAtlas>WTC_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>WTC_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,B</WonderSplashAnchor>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_WTC</WonderSplashAudio>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_LONDON_ARRAY</Type>
+			<BuildingClass>BUILDINGCLASS_LONDON_ARRAY</BuildingClass>
+			<Cost>2250</Cost>
+			<PrereqTech>TECH_ECOLOGY</PrereqTech>
+			<Help>TXT_KEY_WONDER_LONDON_ARRAY_HELP</Help>
+			<Description>TXT_KEY_WONDER_LONDON_ARRAY</Description>
+			<Civilopedia>TXT_KEY_WONDER_LONDON_ARRAY_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_LONDON_ARRAY_QUOTE</Quote>
+			<Water>true</Water>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>			
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>			
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_LONDON_ARRAY</IconAtlas>
+			<!-- Like the original icon better? Change 1 to 0 below. -->
+			<PortraitIndex>0</PortraitIndex>
+			<!-- Like the original splash better? Change LondonArraySplash2.dds to LondonArraySplash.dds below. -->
+			<WonderSplashImage>LondonArraySplash2.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_AREA_51</Type>
+			<BuildingClass>BUILDINGCLASS_AREA_51</BuildingClass>
+			<Cost>1350</Cost>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<Help>TXT_KEY_WONDER_AREA_51_HELP</Help>
+			<Description>TXT_KEY_WONDER_AREA_51</Description>
+			<Civilopedia>TXT_KEY_WONDER_AREA_51_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_AREA_51_QUOTE</Quote>			
+			<TrainedFreePromotion>PROMOTION_AREA_51</TrainedFreePromotion>
+			<NearbyTerrainRequired>TERRAIN_DESERT</NearbyTerrainRequired>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<FreeBuildingThisCity>BUILDINGCLASS_MILITARY_BASE</FreeBuildingThisCity>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<Defense>1400</Defense>
+			<IconAtlas>BW_ATLAS_AREA_51</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>			
+			<WonderSplashImage>Area51Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_NATIONAL_BIOSPHERE</Type>
+			<BuildingClass>BUILDINGCLASS_NATIONAL_BIOSPHERE</BuildingClass>			
+			<Cost>1500</Cost>			
+			<PrereqTech>TECH_ECOLOGY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_NATIONAL_BIOSPHERE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_NATIONAL_BIOSPHERE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_NATIONAL_BIOSPHERE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NATIONAL_BIOSPHERE_STRATEGY</Strategy>			
+			<NukeImmune>true</NukeImmune>
+			<Quote>TXT_KEY_BUILDING_NATIONAL_BIOSPHERE_QUOTE</Quote>
+			<NumCityCostMod>30</NumCityCostMod>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>	
+			<ConquestProb>100</ConquestProb>		
+			<HurryCostModifier>-1</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_NATIONAL_BIOSPHERE</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>BiosphereSplash.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,B</WonderSplashAnchor>
 		</Row>
 
 	</Buildings>
@@ -3704,7 +3828,156 @@
 
 	<Building_ResourceQuantityRequirements>
 
-	
+
+		<Row>
+			<BuildingType>BUILDING_FW_ULTIMATOWER</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>3</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_SKYCITY</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_SHIMIZUMCP</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>3</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_FLOATINGISLANDS</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_BUENOSAIRESFORUM</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_BIONICTOWER</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+                <Row>
+			<BuildingType>BUILDING_FW_DATA_HAVEN</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_SHANGHAI_WFC</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_SKYTREE</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_ORBITAL_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_GENE_VAULT</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_HELIOS</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>3</Cost>
+		</Row>
+
+                <Row>
+			<BuildingType>BUILDING_FW_MNEMOSYNE</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_CITADEL_STATION</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>3</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_PHOLUS_MUTAGEN</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_SKYNET</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_ENRICHMENT_CENTRE</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>3</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_ANGELNET</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>6</Cost>
+		</Row>
+
+        <Row>
+			<BuildingType>BUILDING_FW_VIRTUAL_IDOL</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_DIGITAL_EMANCIPATION</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_NEPHILIM_GENE_TEMPLATE</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>3</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_JURASSIC_PARK</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_GENOME_PROJECT</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>3</Cost>
+		</Row>
+
+         <Row>
+			<BuildingType>BUILDING_FW_ASTEROID_MINING</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>8</Cost>
+		</Row>
+
+            
+
+		
+
+
 		<Row>
 			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>

@@ -647,7 +647,7 @@
 			<Class>UNITCLASS_PROTOTYPE_BOMBER</Class>
 			<Type>UNIT_PROTOTYPE_BOMBER</Type>
 			<PrereqTech>TECH_ATOMIC_THEORY</PrereqTech>
-			<RangedCombat>240</RangedCombat>
+			<RangedCombat>250</RangedCombat>
 			<Cost>2600</Cost>
 			<Moves>2</Moves>
 			<Special>SPECIALUNIT_STEALTH</Special>
@@ -1026,11 +1026,11 @@
 			<Class>UNITCLASS_MECH</Class>
 			<Type>UNIT_MECH</Type>
 			<PrereqTech>TECH_TRANSHUMANISM</PrereqTech>
-			<Combat>700</Combat>
+			<Combat>800</Combat>
 			<RangedCombat>600</RangedCombat>
 			<Range>2</Range>
-			<Cost>4600</Cost>
-			<Moves>6</Moves>
+			<Cost>5000</Cost>
+			<Moves>5</Moves>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -1053,7 +1053,7 @@
 			<MoveRate>ROBOT</MoveRate>
 			<ProjectPrereq>PROJECT_ADV_MECH</ProjectPrereq>
 			<HurryCostModifier>-1</HurryCostModifier>
-			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>600</ExtraMaintenanceCost>
 		</Row>
 
 

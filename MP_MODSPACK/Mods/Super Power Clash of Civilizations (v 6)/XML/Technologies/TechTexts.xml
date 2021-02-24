@@ -894,7 +894,7 @@
 		<!-- Buildings -->
 
 		<Row Tag="TXT_KEY_BUILDING_FW_CLONE_LAB_DESC">
-			<Text>Cloning Lab</Text>
+			<Text>[ICON_FOOD] Cloning Lab</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_CLONE_LAB_HELP">
 			<Text>+2 [ICON_FOOD] Food from [ICON_RES_SHEEP] Sheep and [ICON_RES_COW] Cows and +2 Production from [ICON_RES_HORSE] Horses and [ICON_RES_BISON] Bison. 15% of the [ICON_FOOD] Food is carried over when a [ICON_CITIZEN] Citizen is born. Requires a Genemod Lab. Cannot be built if the city already has a Vertical Farm, Mycoprotein Vats, or Orbital Habitat.</Text>
@@ -906,7 +906,7 @@
 			<Text>The earliest experiments in cloning were conducted on farm animals. As human cloning has a variety of ethical concerns, the most likely uses of cloning in the near future will be to increase the productivity of animal herds.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_AQUACULTURE_LAB_DESC">
-			<Text>Aquaculture Lab</Text>
+			<Text>[ICON_RESEARCH][ICON_FOOD] Aquaculture Lab</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_AQUACULTURE_LAB_HELP">
 			<Text>Sea resources worked by the city produce +1 [ICON_FOOD] Food and [ICON_GOLD] Gold. Requires a Lighthouse, and city must not contain an Undersea Mining Platform.</Text>
@@ -918,7 +918,7 @@
 			<Text>As various scientific methods were used to improve crops and animal herds, it was inevitable that similar techniques would be applied to increasing the availability of animals that lived in the sea. Various experimentation in 'aquaculture' has lead to various methods of maximizing the yields that can be gained from the various animals in the sea.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_GENE_LAB_DESC">
-			<Text>Genemod Lab</Text>
+			<Text>[ICON_FOOD] Genemod Lab</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_GENE_LAB_HELP">
 			<Text>+2 [ICON_FOOD] Food from [ICON_RES_WHEAT] Wheat, [ICON_RES_BANANA] Bananas, [ICON_RES_DEER] Deer, and [ICON_RES_FISH] Fish. Cannot be built if the city already has a Vertical Farm, Mycoprotein Vats, or Orbital Habitat.</Text>
@@ -930,7 +930,7 @@
 			<Text>As techniques to manipulate genetic information were improved, experimentation upon a wider range of subjects began. New crops and animals were developed as a response to increasing issues of food supplies.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_TG_NURSERY_DESC">
-			<Text>Transgenic Nursery</Text>
+			<Text>[ICON_FOOD] Transgenic Nursery</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_TG_NURSERY_HELP">
 			<Text>Forest tiles produce an extra 1 [ICON_FOOD] Food, Jungle tiles produce an extra 1 [ICON_PRODUCTION] Production, and Marsh tiles produce an extra 1 [ICON_FOOD] Food and 1 [ICON_PRODUCTION]. Requires a Cloning Lab. Cannot be built if the city already has a Vertical Farm, Mycoprotein Vats, or Orbital Habitat.</Text>
@@ -942,7 +942,7 @@
 			<Text>Studies of the spread of genetically modified plants and animals in existing ecosystems, combined with refinements in genetic modification and engineering, lead to increased efforts to expand beyond just modifying individual organisms, but to entire ecosystems. Transgenic nurseries were used as preliminary test environments to develop new, self-sustaining ecologies that grew more effectively and were more productive than naturally-ocurring ones. Once satisfactory results had been achieved, these new ecosystems were introduced into the wild, quickly supplanting the existing ones.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_ECTOGENESIS_POD_DESC">
-			<Text>Biogenesis Pod</Text>
+			<Text>[ICON_PRODUCTION] Biogenesis Pod</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_ECTOGENESIS_POD_HELP">
 			<Text>+1 [ICON_PRODUCTION] Production from each worked Forest tile. Increases the production of Mutants, Chimeras, and Bio-Titans. Melee, Gun, Ranged, and Scout units receive the Gengineered promotion. Requires a Biofactory. Cannot be built if the City contains an Autoplant, Drone Hive, or Utility Fog.</Text>
@@ -954,7 +954,7 @@
 			<Text>As the creation and even mass production of artificially-engineered genetic chimeras became more common, so did facilities dedicated to the task. Biogenesis pods were the most integral component in these facilities, as they allowed genetic manipulation of chimeras even during the incubation process, so that they could be dynamically adjusted to meet varying needs. These facilities also often served double-duty as biomodification centres, as the pods could be used to modify humans as well, although they could only perform more rudimentary and large-scale modifications, compared to the later and more sophisticated birthing pods.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_BIOMOD_TANK_DESC">
-			<Text>Bioenhancement Centre</Text>
+			<Text>[ICON_WAR] Bioenhancement Centre</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_BIOMOD_TANK_HELP">
 			<Text>Increases the production of Organic Infantry and Biotroopers. Melee, Gun, Ranged, and Scout units receive the Biomod promotion. Requires a Biofactory and an Implant Clinic.</Text>
@@ -967,7 +967,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_FW_GENEJACK_FACILITY_DESC">
-			<Text>Genejack Facility</Text>
+			<Text>[ICON_PRODUCTION] Genejack Facility</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_GENEJACK_FACILITY_HELP">
 			<Text>Adds [ICON_GOLD] Gold to Grasslands and Plain tiles, and adds 1 [ICON_PRODUCTION] Production to Tundra, Snow, and Desert tiles. Provides 1 [ICON_RES_NANOMAT] Nanomaterials.</Text>
@@ -980,7 +980,7 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_FW_SANCTUARY_DESC">
-			<Text>Ecosanctuary</Text>
+			<Text>[ICON_CULTURE] Ecosanctuary</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_SANCTUARY_HELP">
 			<Text>Adds 1 [ICON_CULTURE] Culture and 1 [ICON_HAPPINESS_1] Happiness for each Nature Preserve worked by the city.</Text>
@@ -993,7 +993,7 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_FW_NANOFORGE_DESC">
-			<Text>Nanoforge</Text>
+			<Text>[ICON_RES_ELECTRICITY][ICON_PRODUCTION] Nanoforge</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_NANOFORGE_HELP">
 			<Text>Increases the production of military units by 15%. Requires an Autoplant.</Text>
@@ -1005,7 +1005,7 @@
 			<Text>The Nanoforge is a facility dedicated to producing new materials and equipment utilizing nanotechnology.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_AEROSPACE_COMPLEX_DESC">
-			<Text>Aerospace Complex</Text>
+			<Text>[ICON_WAR] Aerospace Complex</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_AEROSPACE_COMPLEX_HELP">
 			<Text>Increases the air unit capacity of a city by 6. Increases the production of Drone Fighters and Suborbital Bombers.</Text>
@@ -1018,7 +1018,7 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_FW_CONVERTER_DESC">
-			<Text>Converter</Text>
+			<Text>[ICON_RES_ELECTRICITY] Converter</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_CONVERTER_HELP">
 			<Text>Produces 2 [ICON_RES_NANOMAT] Nanomaterials. Each source of [ICON_RES_COAL] Coal and [ICON_RES_OIL] Oil worked by this city produce +2 [ICON_GOLD] Gold. City must have at least one of these resources improved with a Mine or Well.</Text>
@@ -1043,7 +1043,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_FW_IMPLANT_CLINIC_DESC">
-			<Text>Implant Clinic</Text>
+			<Text>[ICON_PRODUCTION] Implant Clinic</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_IMPLANT_CLINIC_HELP">
 			<Text>Requires a Hospital.</Text>
@@ -1055,7 +1055,7 @@
 			<Text>As implant technology improved, an increasing number of implant clinics began to appear, offering implantation services to a rapidly growing market.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_CRECHE_DESC">
-			<Text>Birthing Pods</Text>
+			<Text>[ICON_CITIZEN] Birthing Pods</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_CRECHE_HELP">
 			<Text>Requires an Implant Clinic.</Text>
@@ -1067,7 +1067,7 @@
 			<Text>As the process of in vitro genetic modification of humans became increasingly commonplace, so did the process of artificial incubation. Increasing numbers of children were gestated in artificial wombs, sparing their parents the physical trauma of childbirth while also allowing continual monitoring of the process, to avoid any complications. Eventually, these became dedicated facilities became known as birthing pods, similar to the ectogenesis pods used to produce chimeras. Unlike the ectogenesis pods, however, these facilities were capable of providing a complete suite of genetic and medical treatments for infants, and were considered in many communities the preferred means to produce children.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_BIOFACTORY_DESC">
-			<Text>Biofactory</Text>
+			<Text>[ICON_PRODUCTION] Biofactory</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_BIOFACTORY_HELP">
 			<Text>Adds 1 [ICON_PRODUCTION] Production to Grass and Plains tiles worked by the City.</Text>
@@ -1079,7 +1079,7 @@
 			<Text>As society became more ecologically conscious, the impact that heavy industry can have upon the environment also became increasingly scrutinized. Under increasing social pressure, industries began to try and find more ecologically-friendly ways to maintain production, switching their existing factories and industrial plants over to newer "biofactories", that had a reduced impact on both the natural environment, as well as the humans that worked in and around them. Eventually, these "biofactories" became similar to the synthecologies that were becoming common in some areas -- artificially created environments that served industrial needs. The most sophisticated of these incorporated modified humans into the ecological infrastructure, and the engineered ecologies were so sophisticated they could manufacture materials similar to basic nanotechnological processes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_NETWORK_BACKBONE_DESC">
-			<Text>Network Backbone</Text>
+			<Text>[ICON_RESEARCH][ICON_CULTURE] Network Backbone</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_NETWORK_BACKBONE_HELP">
 			<Text>Adds 1 [ICON_RESEARCH] Science for each Research Server in the empire, adds 1 [ICON_CULTURE] Culture for each Entertainment Server in the empire, and adds 1 [ICON_GOLD] for each Comm Array in the City's radius. Requires a Server Hub. Cannot be built if the City contains an Information Hub, Distribution Hub, or Metroplex Hub.</Text>
@@ -1091,7 +1091,7 @@
 			<Text>With interconnected computer systems becoming increasingly prevalent in society, some researchers and engineers started to grow concerned about how much information traffic could actually be handled by existing networks. Increasingly sophisticated means to handle data transfers between remote systems were developed, and in some cities dedicated infrastructure was laid down to accomodate these. This new infrastructure would form a backbone for future information technologies and data networks, particularly with the advent of neural-direct interfaces, as they could permit enormous quantities of data to be transmitted clearly and without errors. They also made existing computer servers even more accessible to everyone, greatly increasing the dissemination of new ideas. However, they competed with the increasingly expansive feedsite networks, and many communities that had limited space and bandwidth had to decide which to prioritize.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_CYBERCLINIC_DESC">
-			<Text>Cyberclinic</Text>
+			<Text>[ICON_GOLD] Cyberclinic</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_CYBERCLINIC_HELP">
 			<Text>Requires a Research Lab.</Text>
@@ -1103,7 +1103,7 @@
 			<Text>As increasing numbers of humans are cybernetically modified, the ready access to such technology becomes an increasing concern. Whether operated by the government to ensure equal access for all, or privately as a response to market pressures, increasing numbers of cyberclinics are established, helping ensure that anyone who wants to can have their bodies cybernetically modified. Initially they offered simple neural grafting and interfaces, but as the development of cybernetic prostheses advanced, they became capable of offering an increasingly wide variety of enhancements.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_TELEPRESENCE_HUB_DESC">
-			<Text>Telepresence Hub</Text>
+			<Text>[ICON_PRODUCTION] Telepresence Hub</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_TELEPRESENCE_HUB_HELP">
 			<Text>Adds 1 [ICON_PRODUCTION] and 1 [ICON_GOLD] Gold for each Cyberclinic in the empire. Requires a Network Backbone. Cannot be built if the City contains an Information Hub, Distribution Hub, or Metroplex Hub.</Text>
@@ -1116,7 +1116,7 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_FW_SIMULATION_SERVER_DESC">
-			<Text>AI Network</Text>
+			<Text>[ICON_RESEARCH][ICON_CULTURE] AI Network</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_SIMULATION_SERVER_HELP">
 			<Text>Each AI Network in the empire adds 1 [ICON_RESEARCH] Science and 1 [ICON_CULTURE] Culture. Adds 1 [ICON_PRODUCTION] Production and 1 [ICON_GOLD] Gold for each Support Node in the city's radius. Requires a Network Backbone. Cannot be built if the City contains an Information Hub, Distribution Hub, or Metroplex Hub.</Text>
@@ -1128,7 +1128,7 @@
 			<Text>With the advent of artificial intelligence, an increasing number of AIs were utilized to help run various facilities more efficiently, as well as assist humans with scientific and even cultural endeavors. Wariness of artificial intelligences meant that many were kept isolated, but some civilizations with extensive network connections chose to allow AIs to network amongst themselves. These networks allowed the AIs to distribute their tasks and collaborate, resulting in even greater accomplishments than they could have produced on their own.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_BRAIN_UPLOADING_DESC">
-			<Text>Brain Uploading Facility</Text>
+			<Text>[ICON_CITIZEN] Brain Uploading Facility</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_BRAIN_UPLOADING_HELP">
 			<Text>1/4 of the [ICON_CITIZEN] Citizens in this City become uploaded. They can no longer work tiles or fill specialist slots, but provide 2 [ICON_RESEARCH] Science, 2 [ICON_PRODUCTION] Production, 2 [ICON_GOLD] Gold, and 2 [ICON_CULTURE] Culture each. Requires a Cyberclinic.</Text>
@@ -1153,7 +1153,7 @@
 			<Text>Improvements in technology made it increasingly viable to artificially sustain ecosystems, initially on a small, but increasingly larger scale.  These artificial environments became known as "vivariums", and could range from arid desert environments to aquatic ones.  As more communities were built in harsh and hostile environments, vivariums became an important source of both food and mental health, as residents could utilize the vivariums to grow useful food sources as well as spend time enjoying the comfort of the environment. As vivariums provided a sense of nature through plants, streams, waterfalls in a convenient location while avoiding some of the more troublesome aspects of travelling to nature preserves and other wilder locations, such as travel time and inclement weather, these societies slowly developed an innate preference for these controlled environments over more natural ones.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_DRONE_HIVE_DESC">
-			<Text>Drone Hive</Text>
+			<Text>[ICON_PRODUCTION] Drone Hive</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_DRONE_HIVE_HELP">
 			<Text>Adds 1 [ICON_PRODUCTION] Production for each Generator in the city's radius. Requires an Autoplant. Cannot be built if the City contains a Biofactory, Genejack Facility, or Biogenesis Pods.</Text>
@@ -1165,7 +1165,7 @@
 			<Text>As autonomous robots and drones became increasingly prevalent, the need for dedicated facilities to maintain and monitor them became apparent. Specialized facilities that drones could use as a 'home base', commonly called 'drone hives', were established in cities that had a significant usage of drones. With this dedicated support, drones could travel further and operate more reliably, enabling them to help handle some of the tasks humans did before.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_AUTOPLANT_DESC">
-			<Text>Autoplant</Text>
+			<Text>[ICON_PRODUCTION] Autoplant</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_AUTOPLANT_HELP">
 			<Text>+1 [ICON_GOLD] Gold for each E-Commerce Server in the empire. Requires a Factory. Cannot be built if the City contains a Biofactory, Genejack Facility, or Biogenesis Pods.</Text>
@@ -1177,7 +1177,7 @@
 			<Text>While industry had continued to become increasingly automated, human supervision and intervention was still a necessity. After all, early robots were only as effective as they were instructed to be. As increasingly autonomous machines were developed, however, it was increasingly possible to eliminate the necessity for a human presence in these often-hazardous work environments. Autonomous manufacturing and industrial facilities became increasingly common, improving productivity while also protecting human health and safety. These automated facilities particularly benefited from the spread of e-commerce, as the entire process of manufacturing and purchasing goods required no human intervention and could be done nation-wide.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_UNDERSEA_MINING_DESC">
-			<Text>Undersea Mining Platform</Text>
+			<Text>[ICON_PRODUCTION] Undersea Mining Platform</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_UNDERSEA_MINING_HELP">
 			<Text>+2 [ICON_PRODUCTION] from Coast and Ocean tiles. Requires a Harbor, and the city must not contain an Aquaculture Lab.</Text>
@@ -1189,7 +1189,7 @@
 			<Text>The increasing sophistication of robotic and drone technologies meant that some of the most hazardous environments on the planet could now be accessed. The ocean floor had always been a potential source of resources such a manganese, but the difficulty of accessing them had left these resources untouched.  Now, with remote-controlled drones and robots, these resources could be mined efficiently for industrial use. However, the presence of these industrial worksites and their waste byproducts often interfered with aquaculture efforts.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_UTILITY_FOG_DESC">
-			<Text>Utility Fog Generator</Text>
+			<Text>[ICON_WAR] Utility Fog Generator</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_UTILITY_FOG_HELP">
 			<Text>Increases City Defense and [ICON_HAPPINESS_1] Happiness. Buildings are constructed 20% faster. Requires a Drone Hive. Cannot be built if the City contains a Biofactory, Genejack Facility, or Biogenesis Pods.</Text>
@@ -1201,7 +1201,7 @@
 			<Text>Increasingly sophisticated and intelligent nanomachines allowed the development of utility fogs -- collections of tiny robots that can bind together to replicate physical structures.  Initially they were conceived for protective purposes, remaining in a loose and fluid state until a sudden impact stimulated them to bind together, spreading impacts across a broad surface. However, they can also be used to produce any physical object, or even transport individuals from place to place.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_ALLOY_FOUNDRY_DESC">
-			<Text>Nucleonic Foundry</Text>
+			<Text>[ICON_PRODUCTION] Nucleonic Foundry</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_ALLOY_FOUNDRY_HELP">
 			<Text>Produces 6 [ICON_RES_NANOMAT] Nanomaterials. Each source of [ICON_RES_ALUMINUM] Aluminum and [ICON_RES_URANIUM] Uranium worked by this city produce +4 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold. Requires 2 [ICON_RES_URANIUM] Uranium and a Fusion Plant.</Text>
@@ -1214,7 +1214,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_FW_VERTICAL_FARM_DESC">
-			<Text>Vertical Farm</Text>
+			<Text>[ICON_FOOD] Vertical Farm</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_VERTICAL_FARM_HELP">
 			<Text>Adds 1 [ICON_FOOD] Food for every Hydroponic Dome worked by City. Requires an Aqueduct. Cannot be built if the City already has a Genemod Lab, Cloning Lab, or Transgenic Nursery.</Text>
@@ -1226,7 +1226,7 @@
 			<Text>Vertical farming is the practice of producing food in vertically stacked layers, vertically inclined surfaces and/or integrated in other structures. The modern idea of vertical farming uses controlled-environment agriculture (CEA) technology, where all environmental factors can be controlled. These facilities utilize artificial control of light, environmental control (humidity, temperature, gases...) and fertigation. Some vertical farms use techniques similar to greenhouses, where natural sunlight can be augmented with artificial lighting and metal reflectors. Integrated into the structures of major cities, these farms provide a local source of food independent of climate and soil conditions.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_MYCOPROTEIN_VATS_DESC">
-			<Text>Mycoprotein Vats</Text>
+			<Text>[ICON_FOOD] Mycoprotein Vats</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_MYCOPROTEIN_VATS_HELP">
 			<Text>Adds 1 [ICON_FOOD] Food for every 4 [ICON_CITIZEN] Citizens in this City. Requires a Vertical Farm. Cannot be built if the City already has a Genemod Lab, Cloning Lab, or Transgenic Nursery.</Text>
@@ -1238,7 +1238,7 @@
 			<Text>While various methods of increasing food production have been developed over the centuries, population growth in some areas threatened to outstrip even the best efforts of farms and hydroponic domes. As a result, some communities turned towards the mass production of nutritionally complete food substitutes, using various processes to synthesize proteins and fibres fit for human consumption. The resulting food substitutes were sufficiently nutritious, but frequently lacked the taste and texture of real food. Still, for many mycoprotein foods were the only nutrition they could afford, and mycoprotein vats helped sustain millions.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_ORBITAL_HABITAT_DESC">
-			<Text>Orbital Habitat</Text>
+			<Text>[ICON_FOOD] Orbital Habitat</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_ORBITAL_HABITAT_HELP">
 			<Text>Adds 1 [ICON_FOOD] Food for each Specialist in a Research Module, Engineering Module, or Comm Module in the City. Requires Mycoprotein Vats. Cannot be built if the City already has a Genemod Lab, Cloning Lab, or Transgenic Nursery.</Text>
@@ -1251,7 +1251,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_FW_FEEDSITE_HUB_DESC">
-			<Text>Information Hub</Text>
+			<Text>[ICON_HAPPINESS_1] Information Hub</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_FEEDSITE_HUB_HELP">
 			<Text>Provides +1 [ICON_CULTURE] for each Great Work in the City, and +1 [ICON_HAPPINESS_1] for each Colosseum, Zoo, and Stadium in the City. Requires a Server Hub. Cannot be built if the City contains a Network Backbone, Telepresence Hub, or AI Network.</Text>
@@ -1263,7 +1263,7 @@
 			<Text>While media networks had been providing entertainment to the people for decades, the rise of the enormous habitats put a strain on the media infrastructure. Information Hubs were incorporated into the construction of new habitats, ensuring their residents had access to cultural media and entertainment, although their centralized design meant the capital tends to dominate the feeds. As their popularity rose, however, some communities found that they lacked sufficient infrastructure for both Information Hub networks and the network backbones connecting Server Hubs. With populations demanding entertainment, many favored the centrally-organized Information Hub over the more distributed network backbones.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_DISTRIBUTION_HUB_DESC">
-			<Text>Distribution Hub</Text>
+			<Text>[ICON_PRODUCTION] Distribution Hub</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_DISTRIBUTION_HUB_HELP">
 			<Text>Provides +1 [ICON_PRODUCTION] for every 4 [ICON_CITIZEN] Citizens in this City. Adds +1 [ICON_PRODUCTION] Production for each Industrial Site worked by the City. Requires an Information Hub. Cannot be built if the City contains a Network Backbone, Telepresence Hub, or AI Network.</Text>
@@ -1275,7 +1275,7 @@
 			<Text>As Information Hubs became increasingly prevalent in the larger cities, city managers began to look at how else they could use the integrated data networks. Using these networks to help make the distribution of raw materials for industry, and consumer goods for the populace, was one of the most immediate developments. By being able to track the flow of goods through the city, as well as the processes of production and consumption, both businesses and consumers benefitted from an increase in efficiency through the centralized distribution hubs.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_METROPLEX_HUB_DESC">
-			<Text>Metroplex Hub</Text>
+			<Text>[ICON_GOLD] Metroplex Hub</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_METROPLEX_HUB_HELP">
 			<Text>Provides +1 [ICON_GOLD] for every 4 [ICON_CITIZEN] Citizens in this City. Adds +1 [ICON_GOLD] Production for each Arcology worked by the City. Requires a Distribution Hub. Cannot be built if the City contains a Network Backbone, Telepresence Hub, or AI Network.</Text>
@@ -1300,7 +1300,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_FW_GEOTHERMAL_PLANT_DESC">
-			<Text>Geothermal Plant</Text>
+			<Text>[ICON_RES_ELECTRICITY] Geothermal Plant</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_GEOTHERMAL_PLANT_HELP">
 			<Text>City must be built next to a Mountain, and must not contain a Nuclear Plant.</Text>
@@ -1312,7 +1312,7 @@
 			<Text>As practically every method of generating electricity required steam, some communities, seeking more environmentally-friendly alternatives to electricity generation than that provided by fossil fuels or nuclear energy sought to tap into the quantities of steam rising from geothermal vents located in the Earth's crust. While these power plants could only be located in areas that had access to such geothermal energy, they did provide a powerful increase to local industry when they could be utilized.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_TIDAL_PLANT_DESC">
-			<Text>Tidal Plant</Text>
+			<Text>[ICON_RES_ELECTRICITY] Marine Research Station</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_TIDAL_PLANT_HELP">
 			<Text>City must be built along the coast, and must not contain a Nuclear Plant.</Text>
@@ -1324,7 +1324,7 @@
 			<Text>Electricity generation typically results as a product of mechanical motion running dynamos, and has historically been produced through steam generation from fossil fuels. Solar plants and geothermal plants offered alternative sources for electrical energy, but each had its own requirements. Coastal communities began to look at the endless motion of the tides, powered by the gravitational energy of the moon, and sought to tap into this mechanical energy to drive turbines. Eventually, tidal plants became increasingly popular sources of electrical energy along coastlines, as it was both environmentally friendly and required practically no fuel for its operation.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_TIDAL_ARRAY_DESC">
-			<Text>Tidal Array</Text>
+			<Text>[ICON_RES_ELECTRICITY] Tidal Array</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_TIDAL_ARRAY_HELP">
 			<Text>Sea resources worked by the city produce +1 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold. City must be built along the coast. Requires a Tidal Plant.</Text>
@@ -1349,7 +1349,7 @@
 			<Text>While very basic rockets could be sent to the edge of the atmosphere from practically any location, sending people and materiel into orbit required much more complex facilities. These launch facilities would construct and maintain the rockets and spacecraft needed to reach orbit, and were so expensive and required such immense support that any empire would typically only support a single facility to handle all of its launches. They did provide a significant boost to the scientific community, however, and aerospace development even helped support industrial efforts, as the facility would require a number of different services and skilled workers.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_SPACE_STATION_DESC">
-			<Text>Space Station</Text>
+			<Text>[ICON_PRODUCTION][ICON_RESEARCH]Space Station</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_SPACE_STATION_HELP">
 			<Text>Enables construction of Research, Engineering, and Commercial Modules. Requires your empire to have a Launch Facility.</Text>
@@ -1362,7 +1362,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_FW_RESEARCH_MODULE_DESC">
-			<Text>Research Module</Text>
+			<Text>[ICON_RESEARCH] Research Module</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_RESEARCH_MODULE_HELP">
 			<Text>City must contain a Space Station.</Text>
@@ -1374,7 +1374,7 @@
 			<Text>Research Modules are modular habitats and laboratories designed to be added to a space station to support scientific research.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_ENGINEERING_MODULE_DESC">
-			<Text>Engineering Module</Text>
+			<Text>[ICON_PRODUCTION] Engineering Module</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_ENGINEERING_MODULE_HELP">
 			<Text>City must contain a Space Station.</Text>
@@ -1386,7 +1386,7 @@
 			<Text>Engineering Modules are modular habitats and microgravity workshops designed to be added to a space station to support industrial development.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_COMM_MODULE_DESC">
-			<Text>Comm Module</Text>
+			<Text>[ICON_GOLD] Comm Module</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_COMM_MODULE_HELP">
 			<Text>City must contain a Space Station.</Text>
@@ -1425,7 +1425,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_FW_NANOMAT_PLANT_DESC">
-			<Text>Nanomaterial Plant</Text>
+			<Text>[ICON_RES_NANOMAT] Nanomaterial Plant</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_NANOMAT_PLANT_HELP">
 			<Text>Produces 2 [ICON_RES_NANOMAT] Nanomaterials. +2 [ICON_PRODUCTION] Production from [ICON_RES_COAL] [COLOR_POSITIVE_TEXT]Coal[ENDCOLOR] and [ICON_RES_Oil] [COLOR_POSITIVE_TEXT]Oil[ENDCOLOR].</Text>
@@ -1437,7 +1437,7 @@
 			<Text>The Nanomaterials Plant is an installation that helps process carbon, hydrogen, and other elements into the complex nanoscale structures needed to produce futuristic buildings and equipment.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_FUSION_PLANT_DESC">
-			<Text>Fusion Reactor</Text>
+			<Text>[ICON_RES_ELECTRICITY] Cold Fusion Reactor</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_FUSION_PLANT_HELP">
 			<Text>Requires a Nuclear Plant.</Text>
@@ -1449,13 +1449,13 @@
 			<Text>The successful development of fusion power offers the potential for a relatively clean source of high amounts of energy to help sustain human growth and endeavors.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_SERVER_HUB_DESC">
-			<Text>Server Hub</Text>
+			<Text>[ICON_GOLD] Server Hub</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_SERVER_HUB_PEDIA">
 			<Text>While computers have helped facilitate business, scientific research, and industrial development by being able to perform many accounting and scientific tasks, it is the act of networking them together that has truly lead to the Information Age, by making immense amounts of data available to virtually everyone. While computer networks have grown increasingly sophisticated and complex, the earliest ones were based around hubs of servers that users could access and share data through.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_ENTERTAINMENT_SERVER_DESC">
-			<Text>Entertainment Server</Text>
+			<Text>[ICON_CULTURE] Entertainment Server</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_ENTERTAINMENT_SERVER_HELP">
 			<Text>Requires a Server Hub.</Text>
@@ -1467,7 +1467,7 @@
 			<Text>While the internet was initially development for government and scientific applications, its spread to everyday use has made it the primary method for cultural ideas and new creative works to spread.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_RESEARCH_SERVER_DESC">
-			<Text>Research Server</Text>
+			<Text>[ICON_RESEARCH] Research Server</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_RESEARCH_SERVER_HELP">
 			<Text>Requires a Server Hub.</Text>
@@ -1479,7 +1479,7 @@
 			<Text>Much of the original internet was based around computer networks established between various universities and research laboratories, so that they could more effectively exchange ideas and information. As the internet has grown into a much more ubiquitous forms, it has even enabled new methods of conducting scientific research, such as allowing large pools of amateurs and hobbyists to assist with various research-oriented tasks.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_COMMERCE_SERVER_DESC">
-			<Text>E-Commerce Server</Text>
+			<Text>[ICON_GOLD] E-Commerce Server</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_COMMERCE_SERVER_HELP">
 			<Text>Increases the amount of [ICON_GOLD] Gold a city generates. Trade routes other players make to a city with an E-Commerce Server will generate an extra 2 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 2 [ICON_GOLD] for the trade route.</Text>
@@ -1491,7 +1491,7 @@
 			<Text>The advent of the internet has seen a massive increase in what could be termed the 'digital economy' - the exchange of goods and services electronically. No longer do people need to visit physical stores to purchase goods, but can instead purchase products from vendors across the world, having the goods shipped to them.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_VR_TRAINING_DESC">
-			<Text>VR Training Centre</Text>
+			<Text>[ICON_WAR] VR Training Centre</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_VR_TRAINING_HELP">
 			<Text>+15 XP for all Units.[NEWLINE][NEWLINE]City must have a Military Academy.</Text>
@@ -1503,7 +1503,7 @@
 			<Text>Given the increasing sophistication of both the modern battlefield and military equipment, training in various forms of simulated environments has become increasingly important, in order to give soldiers experience in combat without actually endangering themselves.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_DEFENSE_FIELD_DESC">
-			<Text>Geofront</Text>
+			<Text>[ICON_WAR] Geofront</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_DEFENSE_FIELD_HELP">
 			<Text>Increases city defense. Requires a Military Base and a Bomb Shelter.</Text>

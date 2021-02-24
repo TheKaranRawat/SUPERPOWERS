@@ -103,7 +103,7 @@
 			<PortraitIndex>25</PortraitIndex>
 			<IconAtlas>SPBalance_ATLAS</IconAtlas>
 		</Row>-->
-
+		
 		<Row>
 			<Type>RESOURCE_NANOMAT</Type>
 			<TechReveal>TECH_NANOMATERIALS</TechReveal>
@@ -117,22 +117,6 @@
 			<PortraitIndex>31</PortraitIndex>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_3</IconAtlas>
 		</Row>
-		<!--
-		<Row>
-			<Type>RESOURCE_FW_MANGANESE</Type>
-			<Happiness>4</Happiness>
-			<TechCityTrade>TECH_MINING</TechCityTrade>
-			<Description>TXT_KEY_RESOURCE_FW_MANGANESE</Description>
-			<Civilopedia>TXT_KEY_RESOURCE_FW_MANGANESE_TEXT</Civilopedia>
-			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_FW_MANGANESE</ArtDefineTag>
-			<IconString>[ICON_RES_FW_MANGANESE]</IconString>
-			<PortraitIndex>15</PortraitIndex>
-			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
-		</Row>
-		-->
-	</Resources>
-		
 		
 
 		
@@ -573,7 +557,7 @@
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
-
+		
 		<Row>
 			<ResourceType>RESOURCE_NANOMAT</ResourceType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
