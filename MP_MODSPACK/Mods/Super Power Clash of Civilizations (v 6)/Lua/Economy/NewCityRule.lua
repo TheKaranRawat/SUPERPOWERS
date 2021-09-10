@@ -120,6 +120,8 @@ function NewCitySystem(playerID)
 		return
 	end
 	
+	InternationalImmigration(player)
+	print ("International Immigration Start!")	
 	
 
 	
@@ -166,8 +168,6 @@ function NewCitySystem(playerID)
 		local ExcessHappiness = player:GetExcessHappiness()
 		print ("ExcessHappiness:"..ExcessHappiness)
 		
-		InternationalImmigration(player)
-		print ("International Immigration Start!")	
 		
 		if ConsumerRes < 0 then
 			AutoAddingMerchants (player,ConsumerRes)
@@ -287,6 +287,17 @@ print("New City Rule Check Pass!")
 
 ---------------------International Immigration
 function InternationalImmigration(iPlayer)
+	local immigrationFrequency = 0.5 * 100/GameInfo["GameSpeeds"][Game.GetGameSpeedType()]["GreatPeoplePercent"]
+	local gameTurn = Game.GetGameTurn()
+	local oldCycle = math.floor((gameTurn-1)* immigrationFrequency)
+	local newCycle = math.floor(gameTurn * immigrationFrequency)
+	print("immigrationcalc",gameTurn,immigrationFrequency,gameTurn * immigrationFrequency , (gameTurn - 1) * immigrationFrequency , oldCycle,newCycle)
+	if  oldCycle == newCycle then
+		print("Skipping immigration2 for " .. iPlayer:GetName())
+		return
+	end
+	print("Calculating immigration2 for " .. iPlayer:GetName())
+
 	local HumanPlayerID = iPlayer:GetID()	
 
 	for playerID,player in pairs(Players) do 
@@ -294,7 +305,7 @@ function InternationalImmigration(iPlayer)
 			print ("No players")
 			return
 		end
-		if player:GetNumCities() > 0 and not player:IsMinorCiv() and not player:IsBarbarian() and not player:IsHuman() then  
+		if player:GetID() > iPlayer:GetID() and player:GetNumCities() > 0 and not player:IsMinorCiv() and not player:IsBarbarian() then  
 		   local AIPlayerID = player:GetID()
 		   if CheckMoveOutCounter(AIPlayerID,HumanPlayerID) >= 4 then		   	  
 		   	  DoInternationalImmigration(AIPlayerID,HumanPlayerID)
