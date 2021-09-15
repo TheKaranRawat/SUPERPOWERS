@@ -1,4 +1,6 @@
-# Superpowers
+# Superpowers Beta
+
+Version with some features that may require more testing; thank you to all contributors.
 
 The latest public version of the Superpowers Community Edition.
 
