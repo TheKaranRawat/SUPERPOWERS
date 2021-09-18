@@ -729,7 +729,7 @@
 			<Combat>30</Combat>
 			<RangedCombat>500</RangedCombat>
 			<Cost>1600</Cost>
-			<Moves>2</Moves>
+			<Moves>1</Moves>
 			<Range>6</Range>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
@@ -2705,7 +2705,7 @@
 		<Row>
 			<UnitType>UNIT_MECH</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>1</Cost>
+			<Cost>8</Cost>
 		</Row>
 
 		<Row>
