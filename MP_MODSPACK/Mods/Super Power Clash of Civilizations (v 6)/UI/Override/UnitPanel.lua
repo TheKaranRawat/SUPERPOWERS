@@ -178,7 +178,7 @@ function HookupActionIcon(action, actionIconSize, icon)
 	else
 		print(action.Type);
 		print(action.SubType);
-		error("Could not find method to obtain action icon.");
+		error("Could not find method to obtain  icon.");
 	end
 end
 --------------------------------------------------------------------------------

@@ -729,8 +729,9 @@
 			<Combat>30</Combat>
 			<RangedCombat>500</RangedCombat>
 			<Cost>1600</Cost>
-			<Moves>2</Moves>
+			<Moves>1</Moves>
 			<Range>6</Range>
+			<Special>SPECIALUNIT_NUKE</Special>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1128,11 +1129,12 @@
 			<PrereqTech>TECH_PARTICLE_PHYSICS</PrereqTech>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<BaseSightRange>3</BaseSightRange>
-			<Combat>180</Combat>
-			<RangedCombat>220</RangedCombat>
+			<Combat>150</Combat>
+			<RangedCombat>200</RangedCombat>
 			<Cost>3800</Cost>
 			<Moves>9</Moves>
 			<Range>5</Range>
+			<Special>SPECIALUNIT_NUKE</Special>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -2705,7 +2707,7 @@
 		<Row>
 			<UnitType>UNIT_MECH</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>1</Cost>
+			<Cost>8</Cost>
 		</Row>
 
 		<Row>

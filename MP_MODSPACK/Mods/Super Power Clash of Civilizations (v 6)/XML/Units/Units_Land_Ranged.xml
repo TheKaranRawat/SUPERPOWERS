@@ -976,7 +976,7 @@
 			<PrereqTech>TECH_LASERS</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>40</Combat>
-			<RangedCombat>180</RangedCombat>
+			<RangedCombat>220</RangedCombat>
 			<Cost>875</Cost>
 			<Moves>3</Moves>
 			<Range>3</Range>
@@ -1008,7 +1008,7 @@
 			<PrereqTech>TECH_LASERS</PrereqTech>
 			<BaseSightRange>1</BaseSightRange>
 			<Combat>140</Combat>
-			<RangedCombat>190</RangedCombat>
+			<RangedCombat>250</RangedCombat>
 			<Cost>875</Cost>
 			<Moves>3</Moves>
 			<Range>3</Range>
@@ -2570,7 +2570,7 @@
 		<Row>
 			<UnitType>UNIT_CULVERIN</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>16</Flavor>
+			<Flavor>24</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CULVERIN</UnitType>
@@ -2586,7 +2586,7 @@
 		<Row>
 			<UnitType>UNIT_CANNON</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>18</Flavor>
+			<Flavor>24</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CANNON</UnitType>
@@ -2617,7 +2617,7 @@
 		<Row>
 			<UnitType>UNIT_HOWITZER</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>35</Flavor>
+			<Flavor>45</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_HOWITZER</UnitType>
@@ -2650,7 +2650,7 @@
 		<Row>
 			<UnitType>UNIT_ARTILLERY</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>80</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ARTILLERY</UnitType>
@@ -2669,22 +2669,22 @@
 		<Row>
 			<UnitType>UNIT_SELF_PROPELLED_ARTILLERY</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>110</Flavor>
+			<Flavor>180</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SELF_PROPELLED_ARTILLERY</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>75</Flavor>
+			<Flavor>200</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SELF_PROPELLED_ARTILLERY</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>75</Flavor>
+			<Flavor>175</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SELF_PROPELLED_ARTILLERY</UnitType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>25</Flavor>
+			<Flavor>125</Flavor>
 		</Row>
 
 
@@ -2745,7 +2745,7 @@
 		<Row>
 			<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>90</Flavor>
+			<Flavor>110</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>

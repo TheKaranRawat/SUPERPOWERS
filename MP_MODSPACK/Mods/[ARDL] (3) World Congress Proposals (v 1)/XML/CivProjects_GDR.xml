@@ -50,41 +50,41 @@
 	</Resolutions>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_GDR_INITIATIVE">
-			<Text>TEMPEST Project</Text>
+			<Text>Jaeger Program</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_GDR_INITIATIVE_SPLASH">
-			<Text>Recognizing the potential cost of maintaining a large army and arms. Nations meet in secret to discuss the TEMPEST Project. Nations that contribute well to this project are well-rewarded.</Text>
+			<Text>Recognizing the potential cost of maintaining a large army and arms. Nations meet in secret to discuss the Jaeger Program. Nations that contribute well to this project are well-rewarded.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_GDR_1">
 			<Text>Pilot Program Contributors</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_GDR_1_HELP">
-			<Text>Free TEMPEST Mech.</Text>
+			<Text>Free Jaeger.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_GDR_2">
 			<Text>Prototype Developers</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_GDR_2_HELP">
-			<Text>Free Military Base in [ICON_CAPITAL] Capital. Free TEMPEST Mech.</Text>
+			<Text>Shatterdome built in [ICON_CAPITAL] Capital. Free Jaeger.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_GDR_3">
-			<Text>Weapon TEMPEST</Text>
+			<Text>Pan Pacific Defense Corp Headquarters built in capital. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_GDR_3_HELP">
-			<Text>TEMPEST Headquarters Wonder appears in your [ICON_CAPITAL] Capital. ({TXT_KEY_BUILDING_GDR_HEADQUARTERS_HELP}) </Text>
+			<Text>Pan Pacific Defense Corp Headquarters Wonder appears in your [ICON_CAPITAL] Capital. ({TXT_KEY_BUILDING_GDR_HEADQUARTERS_HELP}) </Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_GDR_INITIATIVE">
-			<Text>TEMPEST Project</Text>
+			<Text>Jaeger Program</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOLUTION_GDR_INITIATIVE_HELP">
-			<Text>Begins the project to fund the TEMPEST Project. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list. When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_GDR_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_GDR_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_GDR_1_HELP}[NEWLINE][NEWLINE]Available once any Civilization discovers Nuclear Fusion.</Text>
+			<Text>Begins the project to fund the Jaeger Program. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list. When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_GDR_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_GDR_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_GDR_1_HELP}[NEWLINE][NEWLINE]Available once any Civilization discovers Nuclear Fusion.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROCESS_GDR_INITIATIVE">
-			<Text>TEMPEST Project</Text>
+			<Text>Jaeger Program</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_GDR_INITIATIVE_HELP">
-			<Text>Contribute this city's [ICON_PRODUCTION] Production towards the TEMPEST Project.</Text>
+			<Text>Contribute this city's [ICON_PRODUCTION] Production towards the Jaeger Program.</Text>
 		</Row>
 
 		<Update>
@@ -93,16 +93,16 @@
 		</Update>
 
 		<Row Tag="TXT_KEY_BUILDING_GDR_HEADQUARTERS">
-			<Text>TEMPEST Headquarters</Text>
+			<Text>Pan Pacific Defense Corp Headquarters</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GDR_HEADQUARTERS_QUOTE">
-			<Text>[NEWLINE][TAB][TAB]"What gunpowder did for war, a god from the machine has done for the future of war."[NEWLINE] - The Future[NEWLINE][TAB]</Text>
+			<Text>[NEWLINE]"Today we are cancelling the apocalypse!"</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GDR_HEADQUARTERS_HELP">
-			<Text>Can train TEMPEST Mech Units. Three TEMPEST Mechs appear near the [ICON_CAPITAL] Capital. +10 [ICON_STRENGTH] Defense, +100 Hit Points. All armored units receive a unique promotion. May only be built collaboratively through the World Congress.</Text>
+			<Text>Can train Jaeger Units. Three Jaegers appear near the [ICON_CAPITAL] Capital. +10 [ICON_STRENGTH] Defense, +100 Hit Points. All armored units receive a unique promotion. May only be built collaboratively through the World Congress.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GDR_HEADQUARTERS_TEXT">
-			<Text>The TEMPEST Project is the main research operation of the TEMPEST Mech prototype. Researchers have discovered a secret here to customizing their prototype for complete adapation to the environment.</Text>
+			<Text>The Jaeger Program is the main research operation of the Jaeger prototype. Researchers have discovered a secret here to customizing their prototype for complete adapation to the environment.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SECLUSION">
 			<Text>Seclusion</Text>

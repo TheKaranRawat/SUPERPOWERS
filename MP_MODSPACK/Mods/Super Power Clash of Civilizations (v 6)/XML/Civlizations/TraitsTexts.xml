@@ -67,7 +67,7 @@
 			<Text>Units fight as though they were at full strength even when damaged. Gain [ICON_CULTURE] Culture when you build a Military Unit (100% of its [ICON_STRENGTH] Combat Strength). </Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_BUFFALO_HORNS">
-			<Text>-50% experience needed to earn their next promotion for all units. All cities receive a free Ikanda.</Text>
+			<Text>[ICON_BULLET]-50% experience needed to earn their next promotion for all units. All cities receive a free Ikanda. [NEWLINE][ICON_BULLET]Unit maintenance is reduced by 15% and gain +33% attack and defence when fighting a technologically superior enemy in friendly territory. </Text>
 		</Replace>
 
 
@@ -174,7 +174,7 @@
 
 		<Replace Tag="TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE">
 			<Text>
-				Gain 300 [ICON_INFLUENCE] Influence with a Great Person gift to a City-State. When declaring friendship, Sweden and their friend gain a +10% boost to [ICON_GREAT_PEOPLE] Great Person generation.
+				[ICON_BULLET]Gain 500 [ICON_INFLUENCE] Influence with a Great Person gift to a City-State. When declaring friendship, Sweden and their friend gain a +15% boost to [ICON_GREAT_PEOPLE] Great Person generation. [NEWLINE][ICON_BULLET]The spirit of Swedish innovation grants 33% more [ICON_RESEARCH] Great Scientists.
 			</Text>
 		</Replace>
 		

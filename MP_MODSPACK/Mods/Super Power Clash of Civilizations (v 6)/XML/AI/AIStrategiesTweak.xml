@@ -228,7 +228,7 @@
 			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_NEED_MOBILE" FlavorType="FLAVOR_MOBILE"/>
 		</Update>
 		<Update>
-			<Set Flavor="150"/>
+			<Set Flavor="250"/>
 			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_NEED_AIR" FlavorType="FLAVOR_AIR"/>
 		</Update>
 		<Update>

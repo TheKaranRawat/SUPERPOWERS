@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Context ColorSet="Beige_Black_Alpha" Font="TwCenMT22" FontStyle="Shadow" Name="MainMenu" >
 
-	<Image Anchor="C,T" Offset="0,0"  Size="630,160" Texture="CivilzationV_Logo.dds" ID="Civ5Logo" Hidden="0" />
+	<Image Anchor="C,T" Offset="0,40"  Size="630,160" Texture="CivilzationV_Logo.dds" ID="Civ5Logo" Hidden="0" />
 	<Image Anchor="C,B" Size="1920,320" Texture="BG_Bottom_Darken.dds"/>
 
-	<CheckBox ID="BG_Checkbox" Style="SquareCheck" ToolTip="Keep this background. (While unchecked, a random background will be selected on startup)"  Anchor="C,B" Offset="0,25"/>
-	<Button Anchor="C,B" Size="32,32" Offset="-30,25" Texture="CityNamePanelArrows.dds" ID="PreviousBG"/>
-	<Button Anchor="C,B" Size="32,32" TextureOffset="32.0" Offset="30,25" Texture="CityNamePanelArrows.dds" ID="NextBG"/>
+	<CheckBox ID="BG_Checkbox" Style="SquareCheck" ToolTip="Keep this background. (While unchecked, a random background will be selected on startup)"  Anchor="C,B" Offset="0,18"/>
+	<Button Anchor="C,B" Size="32,32" Offset="-30,18" Texture="CityNamePanelArrows.dds" ID="PreviousBG"/>
+	<Button Anchor="C,B" Size="32,32" TextureOffset="32.0" Offset="30,18" Texture="CityNamePanelArrows.dds" ID="NextBG"/>
 
 	<Stack Anchor="C,B" Offset="0,5" Padding="8" StackGrowth="Right" ID="MainStack" >
 
@@ -82,7 +82,7 @@
 	</Stack>
 
 	<!-- Version Information  -->
-	<Label Anchor="C,B" Offset="0,12" String="InvalidVersionNumber" Font="TwCenMT16" ID="VersionNumber"/>
+	<Label Anchor="C,B" Offset="0,5" String="InvalidVersionNumber" Font="TwCenMT16" ID="VersionNumber"/>
 	<Button Anchor="R,B" Size="128,128" TextureOffset="384,128" ToolTip="TXT_KEY_TOUCH_HELP" Texture="Civ5_TouchIconAtlas_128.dds" NoStateChange="1" ID="TouchHelpButton" />
 
 

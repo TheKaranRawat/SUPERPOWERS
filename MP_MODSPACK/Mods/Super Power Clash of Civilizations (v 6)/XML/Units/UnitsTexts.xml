@@ -2208,7 +2208,7 @@
 		</Replace>
 		
 		<Replace Tag="TXT_KEY_UNIT_XCOM_SQUAD">
-			<Text>[COLOR_SELECTED_TEXT]Xcom Squad[ENDCOLOR]</Text>
+			<Text>[COLOR_SELECTED_TEXT]Orbital Drop Shock Troopers[ENDCOLOR]</Text>
 		</Replace>
 
 	<!-- *************************New Hit-and-Run Units****************************-->
@@ -2959,11 +2959,11 @@
 
 
 		<Replace Tag="TXT_KEY_UNIT_MECH">
-			<Text>[COLOR_YELLOW]Giant Death Robot[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]Gipsy Danger[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Replace>	
 		<Replace Tag="TXT_KEY_UNIT_HELP_MECH">
-			<Text>It is so tall that it can cross the mountains or walking in costal area. It is immune to strategic nuclear weapons' blasts and free from some debuff effects from the enemy like "sundered" and "slowed down". Can heal every turn.[NEWLINE][NEWLINE]Requires Prototype Mecha Project and only one can exist in the world.</Text>
+			<Text>It is so tall that it can cross the mountains or walking in costal area. It is immune to strategic nuclear weapons' blasts and free from some debuff effects from the enemy like "sundered" and "slowed down". Can heal every turn.[NEWLINE][NEWLINE]Requires Prototype Jager Project and only one can exist in the world.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_MECH_STRATEGY">
 			<Text>Giant, but fast, this is the battle machine of the future. Since it is remotely controlled by its pilot, it has no fears and never feels pain. Thus, these debuff effects - "Sundered", "Slowed Down", "Charged Damage", "Target Marked", prove to be useless on it. All of these make it the strongest defender unit in the game. It can also survive any strategic nuclear weapons' blasts including the ICBM. However, its CPU will be affected by enemy EMP attack and suffer from Collateral Damage and Area of Effect Damage, which cannot be avoided by remote-control. </Text>
@@ -5090,7 +5090,7 @@
 			<Text>Elite infantry unit of the future that can travel through rough terrain and is stronger in enemy territory.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_BATTLESUIT">
-			<Text>Battlemech</Text>
+			<Text>BattleMech</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_BATTLESUIT_TEXT">
 			<Text>While powered armor gave human soldiers unparalleled protection and strength, it still relies on a human to operate the suit. Advances in artificial intelligence eventually lead to the ultimate soldier - a robotic unit that could fight equally as well as a human. Although there were a number of concerns about the prospect of fielding large numbers of robotic units with minimal human control, those societies that did so found them to be highly efficient and effective on the battlefield, with fewer issues involved in adapting them back to civilian duties during peacetime.</Text>
@@ -5102,7 +5102,7 @@
 			<Text>Basic Unit of the future that requires no special resources to build.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_ROBOT_INFANTRY">
-			<Text>Robot Infantry</Text>
+			<Text>Cyberdyne T-800</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_ROBOT_INFANTRY_TEXT">
 			<Text>While powered armor gave human soldiers unparalleled protection and strength, it still relies on a human to operate the suit. Advances in artificial intelligence eventually lead to the ultimate soldier - a robotic unit that could fight equally as well as a human. Although there were a number of concerns about the prospect of fielding large numbers of robotic units with minimal human control, those societies that did so found them to be highly efficient and effective on the battlefield, with fewer issues involved in adapting them back to civilian duties during peacetime.</Text>

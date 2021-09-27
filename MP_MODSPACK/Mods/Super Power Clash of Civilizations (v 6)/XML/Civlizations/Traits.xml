@@ -334,8 +334,9 @@
 			<Type>TRAIT_DIPLOMACY_GREAT_PEOPLE</Type>
 			<Description>TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE</Description>
 			<ShortDescription>TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE_SHORT</ShortDescription>
-			<GreatPersonGiftInfluence>300</GreatPersonGiftInfluence>
-			<DOFGreatPersonModifier>10</DOFGreatPersonModifier>
+			<GreatPersonGiftInfluence>500</GreatPersonGiftInfluence>
+			<DOFGreatPersonModifier>15</DOFGreatPersonModifier>
+			<GreatScientistRateModifier>33</GreatScientistRateModifier>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
 		<Row>
@@ -404,6 +405,17 @@
 		</Row>
 
 	</Traits>
+
+
+	<Traits>
+
+		<Update>
+			<Set LandUnitMaintenanceModifier="-25" CombatBonusVsHigherTech="33" />
+			<Where Type="TRAIT_BUFFALO_HORNS"/>
+		</Update>
+
+	</Traits>
+
 
 
 

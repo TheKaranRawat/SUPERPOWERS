@@ -1597,8 +1597,13 @@
 		</Row>-->
 		
 		<Update>
-			<Set Yield="10"/>
+			<Set Yield="12"/>
 			<Where ImprovementType="IMPROVEMENT_HOLY_SITE"/>
+		</Update>
+
+		<Update>
+			<Set Yield="16"/>
+			<Where ImprovementType="IMPROVEMENT_LANDMARK"/>
 		</Update>
 
 
@@ -1607,7 +1612,7 @@
 			<Where ImprovementType="IMPROVEMENT_CUSTOMS_HOUSE"/>
 		</Update>
 		<Update>
-			<Set Yield="6"/>
+			<Set Yield="12"/>
 			<Where ImprovementType="IMPROVEMENT_MANUFACTORY"/>
 		</Update>
 

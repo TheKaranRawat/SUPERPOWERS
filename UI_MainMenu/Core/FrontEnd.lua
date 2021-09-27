@@ -3,6 +3,12 @@
 -- FrontEnd
 -------------------------------------------------
 
+-- GetRandom
+-- Stolen from Sukritact and complicated a bit
+----------------------------
+
+
+
 local tValidBGs = {
 	"1.dds",
 	"2.dds",
@@ -25,7 +31,7 @@ local tValidBGs = {
 	"19.dds",
 	"20.dds",
 	"21.dds",
-	
+	"22.dds",
 	"23.dds",
 	"24.dds",
 	"25.dds",
@@ -35,6 +41,7 @@ local tValidBGs = {
 	"29.dds",
 }
 
+math.randomseed(os.time())
 local iCurrentBG = math.random(#tValidBGs)
 local bRandomWallpaperOnLoad = Modding.GetSystemProperty("bRandomWallpaperOnLoad") == "1"
 if bRandomWallpaperOnLoad then
@@ -44,11 +51,13 @@ if bRandomWallpaperOnLoad then
     iCurrentBG = tonumber(sBG)
 
     if not tValidBGs[iCurrentBG] then iCurrentBG = 1; sBG = "1" end
-
+	
+	
+	
     Modding.SetSystemProperty("CurrentBG", sBG)
 
 else
-    Modding.SetSystemProperty("CurrentBG", tostring(iCurrentBG))
+	Modding.SetSystemProperty("CurrentBG", tostring(iCurrentBG))
 end
 
 -------------------------------------------------

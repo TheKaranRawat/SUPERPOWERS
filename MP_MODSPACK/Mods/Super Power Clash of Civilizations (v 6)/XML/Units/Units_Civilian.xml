@@ -48,6 +48,7 @@
 			<AdvancedStartCost>10</AdvancedStartCost>
 			<!--<MoveAfterPurchase>true</MoveAfterPurchase>-->
 			<WorkRate>100</WorkRate>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
 			<CombatLimit>0</CombatLimit>
 			<UnitArtInfo>ART_DEF_UNIT__WORKER</UnitArtInfo>
 			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
@@ -71,7 +72,8 @@
 			<Help>TXT_KEY_UNIT_BRAZILIAN_LABOR_HELP</Help>
 			<AdvancedStartCost>10</AdvancedStartCost>
 			<!--<MoveAfterPurchase>true</MoveAfterPurchase>-->
-			<WorkRate>125</WorkRate>
+			<WorkRate>200</WorkRate>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
 			<CombatLimit>0</CombatLimit>
 			<UnitArtInfo>ART_DEF_UNIT__WORKER</UnitArtInfo>
 			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
@@ -102,6 +104,7 @@
 			<AdvancedStartCost>10</AdvancedStartCost>
 			<CombatLimit>0</CombatLimit>
 			<XPValueDefense>3</XPValueDefense>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
 			<Trade>true</Trade>
 			<Immobile>true</Immobile>
 			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
@@ -133,6 +136,7 @@
 			<AdvancedStartCost>10</AdvancedStartCost>
 			<CombatLimit>0</CombatLimit>
 			<XPValueDefense>3</XPValueDefense>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
 			<Trade>true</Trade>
 			<Immobile>true</Immobile>
 			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
@@ -160,6 +164,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Mechanized>true</Mechanized>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
 			<AdvancedStartCost>10</AdvancedStartCost>
 			<CombatLimit>0</CombatLimit>
 			<XPValueDefense>3</XPValueDefense>
@@ -190,6 +195,7 @@
 			<Strategy>TXT_KEY_UNIT_ARCHAEOLOGIST_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_ARCHAEOLOGIST</Help>
 			<AdvancedStartCost>20</AdvancedStartCost>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
 			<WorkRate>150</WorkRate>
 			<CombatLimit>0</CombatLimit>
 			<UnitArtInfo>ART_DEF_UNIT_ARCHAEOLOGIST</UnitArtInfo>
@@ -345,9 +351,9 @@
 			<AdvancedStartCost>-1</AdvancedStartCost>
 			<WorkRate>1</WorkRate>
 			<CombatLimit>0</CombatLimit>
-			<CultureBombRadius>2</CultureBombRadius>
+			<CultureBombRadius>1</CultureBombRadius>
 			<BaseGold>1000</BaseGold>
-			<NumGoldPerEra>500</NumGoldPerEra>
+			<NumGoldPerEra>1000</NumGoldPerEra>
 			<UnitArtInfo>ART_DEF_UNIT_MERCHANT</UnitArtInfo>
 			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
 			<UnitFlagIconOffset>92</UnitFlagIconOffset>
@@ -398,7 +404,7 @@
 			<WorkRate>1</WorkRate>
 			<CombatLimit>0</CombatLimit>
 			<BaseGold>1000</BaseGold>
-			<NumGoldPerEra>400</NumGoldPerEra>
+			<NumGoldPerEra>1000</NumGoldPerEra>
 			<CanBuyCityState>true</CanBuyCityState>
 			<UnitArtInfo>ART_DEF_UNIT_U_VENETIAN_MERCHANT</UnitArtInfo>
 			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
@@ -1679,12 +1685,12 @@
 		<Row>
 			<UnitType>UNIT_CARGO_SHIP</UnitType>
 			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>150</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CARGO_SHIP</UnitType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>150</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_POLYNESIAN_CARGOSHIP</UnitType>

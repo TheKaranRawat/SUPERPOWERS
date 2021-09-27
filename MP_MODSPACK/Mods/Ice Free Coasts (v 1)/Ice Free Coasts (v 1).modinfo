@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5601f020-fdd8-4f7f-8a09-ac7f6ac4a913" version="1">
+  <Properties>
+    <Name>Ice Free Coasts</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>This mod prevents the generation of sea ice on any coastal tile. This means that:
+
+- Most, if not all islands and landmasses</Teaser>
+    <Description>This mod prevents the generation of sea ice on any coastal tile. This means that:
+
+- Most, if not all islands and landmasses should now be navigable by sea
+- North-West (or South-West... or South-East.... you get the idea) passages are open for business!
+- No more spawning on the coast of icelocked seas or bays!</Description>
+    <Authors>Sam S</Authors>
+    <SpecialThanks>n/a</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="1908B10AAB7054123C3723721639F5EF" import="1">FeatureGenerator.lua</File>
+  </Files>
+</Mod>

@@ -972,13 +972,13 @@
 			<Type>UNITCLASS_STEALTH_HELICOPTER</Type>
 			<Description>TXT_KEY_UNIT_STEALTH_HELICOPTER</Description>
 			<DefaultUnit>UNIT_STEALTH_HELICOPTER</DefaultUnit>
-			<MaxPlayerInstances>1</MaxPlayerInstances>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
 		</Row>
 		<Row>
 			<Type>UNITCLASS_CHINESE_WEISHI</Type>
 			<Description>TXT_KEY_UNIT_CHINESE_WEISHI</Description>
 			<DefaultUnit>UNIT_CHINESE_WEISHI</DefaultUnit>
-			<MaxPlayerInstances>1</MaxPlayerInstances>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
 		</Row>
 		<Row>
 			<Type>UNITCLASS_PAKFA_T50</Type>

@@ -655,7 +655,7 @@
 			<Moves>2</Moves>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<Immobile>true</Immobile>
-			<Range>50</Range>
+			<Range>45</Range>
 			<HurryCostModifier>200</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
@@ -1001,7 +1001,7 @@
 			<Cost>5500</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
-			<Range>30</Range>
+			<Range>25</Range>
 			<Special>SPECIALUNIT_NUKE</Special>
 			<HurryCostModifier>150</HurryCostModifier>
 			<Domain>DOMAIN_AIR</Domain>
@@ -1985,12 +1985,12 @@
 		<Row>
 			<UnitType>UNIT_JET_FIGHTER</UnitType>
 			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>40</Flavor>
+			<Flavor>140</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_JET_FIGHTER</UnitType>
 			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>160</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SWEDISH_JAS39_FIGHTER</UnitType>
@@ -2024,22 +2024,22 @@
 		<Row>
 			<UnitType>UNIT_DIVE_BOMBER</UnitType>
 			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>70</Flavor>
+			<Flavor>170</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_DIVE_BOMBER</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>160</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_DIVE_BOMBER</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>160</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_DIVE_BOMBER</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>160</Flavor>
 		</Row>
 
 		<Row>
@@ -2066,22 +2066,22 @@
 		<Row>
 			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
 			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>100</Flavor>
+			<Flavor>200</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>90</Flavor>
+			<Flavor>190</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>160</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>60</Flavor>
+			<Flavor>160</Flavor>
 		</Row>
 		
 		<Row>
@@ -2197,17 +2197,17 @@
 		<Row>
 			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
 			<FlavorType>FLAVOR_NUKE</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>75</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
 			<FlavorType>FLAVOR_NUKE</FlavorType>
-			<Flavor>45</Flavor>
+			<Flavor>105</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ICBM_MISSILE</UnitType>
 			<FlavorType>FLAVOR_NUKE</FlavorType>
-			<Flavor>100</Flavor>
+			<Flavor>80</Flavor>
 		</Row>
 
 	</Unit_Flavors>

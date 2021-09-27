@@ -510,13 +510,13 @@
 			<Text>Regional Powers</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_KING_HELP" >
-			<Text>Aggressive AI with large bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 1 settler and AI will get stronger when you enter a new era. Equals "Deity".</Text>
+			<Text>Aggressive AI with large bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 1 settler and AI will get stronger when you enter a new era. </Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_EMPEROR" >
 			<Text>Great Powers</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_EMPEROR_HELP" >
-			<Text>Ferocious AI with great bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 1 settler and AI will get even stronger when you enter a new era. </Text>
+			<Text>The standard difficulty for the experienced Civ player. Provides a competent AI with good economic and military management. AI start with no extra settlers. </Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_IMMORTAL" >
 			<Text>Potential Superpowers</Text>

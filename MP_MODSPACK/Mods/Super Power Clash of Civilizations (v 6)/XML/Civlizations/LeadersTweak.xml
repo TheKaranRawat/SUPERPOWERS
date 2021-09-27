@@ -240,10 +240,21 @@
 		</Update>
 
 
-
+		<!-- 
 		<Update>
 			<Set Flavor="0"/>
 			<Where FlavorType="FLAVOR_GOLD"/>
+		</Update>
+		-->
+
+		<Update>
+			<Set Flavor="8"/>
+			<Where FlavorType="FLAVOR_NUKE"/>
+		</Update>
+
+		<Update>
+			<Set Flavor="2"/>
+			<Where FlavorType="FLAVOR_USE_NUKE"/>
 		</Update>
 		
 		

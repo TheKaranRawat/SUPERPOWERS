@@ -215,7 +215,7 @@
 			<Where Name="CAPTURE_GOLD_PER_POPULATION" />
 		</Update>
 		<Update>
-			<Set Value="50"/>
+			<Set Value="80"/>
 			<Where Name="CITY_CAPTURE_POPULATION_PERCENT" />
 		</Update>
 

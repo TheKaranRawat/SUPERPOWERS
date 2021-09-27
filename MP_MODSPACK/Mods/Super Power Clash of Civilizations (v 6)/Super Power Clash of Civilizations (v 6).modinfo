@@ -1011,6 +1011,7 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="B9C2A372ABF0973AFAC0C83DFA6D2545" import="1">UI/Override/UnitPanel.lua</File>
     <File md5="2D4BE442AFCBFFD373B136285E43B109" import="1">UI/Override/UnitPanel.xml</File>
     <File md5="5D5B61E59E40D8A153CC51FDB60350CC" import="1">UI/Override/UnitPanel_small.xml</File>
+	<File md5="16F58935E0971B8433D9628ED42A66E8" import="1">UI/Override/MiniMapPanel.xml</File>
     <File md5="BC2203EBABADAAFB67ED64C670A47968" import="0">XML/AI/AIBonus.xml</File>
     <File md5="97E5D4AB753233A8E9AAE0B4A8595E94" import="0">XML/AI/AIStrategiesTweak.xml</File>
     <File md5="A12FC0FD7A08AA97723C6E7EADD6E385" import="0">XML/Buildings/BuildingClasses.xml</File>
@@ -1654,7 +1655,7 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="D7A7CCD323504FE0C72621777CDBFE64" import="1">Art/Wonders/WTC45.dds</File>
     <File md5="E22879BA3084949DF3B81E2E31F0B8EF" import="1">Art/Wonders/WTC64.dds</File>
     <File md5="AB3CB7DBEB7C6F8D19A676218689E0BA" import="1">Art/Wonders/WTC80.dds</File>
-    <File md5="32EA80F1FB5A59301FB5A37EB2AC6473" import="1">Art/Wonders/WTC_Splash.dds</File>
+    <File md5="AC9B8424B5ECEA71B3B191034E7CFF0E" import="1">Art/Wonders/WTC_Splash.dds</File>
 	  <File md5="F921824A796E719082E06AA5FC03A260" import="1">Art/Wonders/taipei_icon128.dds</File>
     <File md5="7DF0E5BF950F53EE1A122CB686F43808" import="1">Art/Wonders/taipei_icon256.dds</File>
     <File md5="B9980EF22F81FEC203818CE73A93AA87" import="1">Art/Wonders/taipei_icon45.dds</File>
@@ -1729,9 +1730,45 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="AA1ECA215E68ABD48D7FBE8190B14C7A" import="1">ART/Wonders/BiosphereIconAtlas45.dds</File>
     <File md5="822517767DC6BDA402CA68B2DBCF5494" import="1">ART/Wonders/BiosphereIconAtlas64.dds</File>
     <File md5="8D94EE81B2EB41A54F4F8152EEBC0112" import="1">ART/Wonders/BiosphereSplash.dds</File>
+	<File md5="0A885BFF06DCEDDFA6C9D5A5543A36F5" import="1">Art/UNITS/ShipAtlas128.dds</File>
+    <File md5="F85E72FF2D4469C3E00B94C045A4D61E" import="1">Art/UNITS/ShipAtlas256.dds</File>
+    <File md5="3CE0657C3662320B8104F8B29FBF8702" import="1">Art/UNITS/ShipAtlas32.dds</File>
+    <File md5="8E903CCC27EEE26675036F0F7820CB4D" import="1">Art/UNITS/ShipAtlas45.dds</File>
+    <File md5="C6B0BBA70B5D79A16EC5C75BFCA83D02" import="1">Art/UNITS/ShipAtlas64.dds</File>
+    <File md5="70BBBE044B9A5C8C9E6112EB3EF053CB" import="1">Art/UNITS/ShipAtlas80.dds</File>
+	<File md5="D15241932F0F77E947C3C47A02DB1C26" import="0">Art/UC/5UCIconAtlas.xml</File>
+    <File md5="438A2EAD5DF639CD0A932F20BD83ABDA" import="1">Art/UC/5UCIconAtlas128.dds</File>
+    <File md5="194A69447E43EC99267439DDF7B35FE5" import="1">Art/UC/5UCIconAtlas256.dds</File>
+    <File md5="3534B73F512EC8A03B16749D1CB0551E" import="1">Art/UC/5UCIconAtlas45.dds</File>
+    <File md5="51745CB62C6F628B847879CA43FB73F5" import="1">Art/UC/5UCIconAtlas64.dds</File>
+    <File md5="60B7AEAD6CF9292BECDFDF8B6B10D388" import="1">Art/UC/5UCIconAtlas80.dds</File>
+	<File md5="89DF8AB675D1FA642D5192519DA60349" import="0">XML/UC/Sweden/SwedenBollhuset.xml</File>
+	<File md5="89BBF83837A9F7E2259EE961FF63D94A" import="1">XML/UC/Sweden/3skola128.dds</File>
+    <File md5="172D95D94488C93CA2ACDAC5FA43CD16" import="1">XML/UC/Sweden/3skola256.dds</File>
+    <File md5="93FFA52E4E8AC75B2BC508FF86B72970" import="1">XML/UC/Sweden/3skola45.dds</File>
+    <File md5="A4C4934D75E9044FF404F8C9082AFF40" import="1">XML/UC/Sweden/3skola64.dds</File>    
+    <File md5="82629D3AE05D3C7E11C7B1F510AC6AD8" import="0">XML/UC/Sweden/Skola.xml</File>
+	<File md5="F28927F2EF67910C3CC38FE8C495C046" import="1">Art/Policy/policybranchtradition_new.dds</File>
+    <File md5="8D5EFEE82D974F01EDF5625F21AAC52C" import="1">Art/Policy/policybranch_exploration_new.dds</File>    
+    <File md5="21B2DDBCB1483A4184934AD601A1A5AE" import="1">Art/Policy/policybranch_grandeur.dds</File>    
+    <File md5="EFDCDE9E65667814118818618970E718" import="1">Art/Policy/policybranch_honor_new.dds</File>    
+    <File md5="BCD0144B565CE09DBAA59DE527C70421" import="1">Art/Policy/policybranch_patronage_new.dds</File>
+    <File md5="24E1644209DB3E906542F6179684B00F" import="1">Art/Policy/policybranch_rationalism_new.dds</File>
+    <File md5="0212AE7D5242754E906B18F853A0008C" import="1">Art/Policy/raf_policyicons.dds</File>
+    <File md5="FF747EE3BA661D8B471003083AB0104C" import="1">Art/Policy/raf_policyicons_ACHIEVED.dds</File>
+    <File md5="ACF7602F94C7F34456E70B6008861B3D" import="1">Art/Policy/policybranch_industry.dds</File>
+	<File md5="E26DBF00D1CEEAAFACB1E13CB2F2D20E" import="1">Art/Policy/IdeologyOverview_Background_Iska.dds</File>
+	<File md5="D8AA530B924143534CEE90475495F455" import="0">XML/UC/Zulu/4UC_ZULU.sql</File>
+    <File md5="D1CCB9296C24820C4FB57332E3B50E73" import="0">XML/UC/Zulu/gumboot.xml</File>
+    <File md5="DA0EB52296A1DF7B02AC33EF7FC4EE5D" import="1">XML/UC/Zulu/GUMBOOT128.dds</File>
+    <File md5="6C75DC8D3B123051C16FA1C2EC32C028" import="1">XML/UC/Zulu/GUMBOOT256.dds</File>
+    <File md5="DC99D6744A0AFD76067CCB146A96A5A4" import="1">XML/UC/Zulu/GUMBOOT45.dds</File>
+    <File md5="D0E37D2CE923401D1B7003B779A92505" import="1">XML/UC/Zulu/GUMBOOT64.dds</File>
+	<File md5="764F2FF7FCC0EEAA0327E8E247EEDE2A" import="0">XML/UC/Zulu/Kraal.lua</File>
+    <File md5="27B88FF9D6B020542172D496AD6EE3DF" import="0">XML/UC/Zulu/Kraal.xml</File>
   </Files>
   <Actions>
-    <OnModActivated>
+    <OnModActivated>	  
       <UpdateDatabase>SQL/Deletor.sql</UpdateDatabase>
       <UpdateDatabase>Art/xml/IconAtlases.xml</UpdateDatabase>
       <UpdateDatabase>XML/GlobalDefines.xml</UpdateDatabase>
@@ -1802,6 +1839,12 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
       <UpdateDatabase>UI/Override/Civilopedia/XML/CivilopediaScreen_GameText_zh_CN.xml</UpdateDatabase>
       <UpdateDatabase>UI/Override/Civilopedia/XML/CivilopediaScreen_GameText_zh_Hant_HK.xml</UpdateDatabase>
       <UpdateDatabase>SQL/DeletionFixinator.sql</UpdateDatabase>
+	  <UpdateDatabase>Art/UC/5UCIconAtlas.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/UC/Sweden/SwedenBollhuset.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/UC/Sweden/Skola.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/UC/Zulu/gumboot.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/UC/Zulu/Kraal.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/UC/Zulu/4UC_ZULU.sql</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>

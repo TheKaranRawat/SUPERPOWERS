@@ -4,8 +4,8 @@
     <Box Anchor="C,C" Size="Full,Full" Color="0,0,0,255" />
     <Image Anchor="C,C" Offset="0,0"  Size="1920,1200" ID="SPAtlasLogo" />
     <Image Anchor="R,T" Offset="0,0"  Size="630,200" Texture="CivilzationV_Logo.dds" ID="Civ5Logo" Hidden="0" />
-    <Image Anchor="L,T" Offset="0,0"  Size="724,248" Texture="SP_Logo.dds" ID="SPLogo" Hidden="0" />
-    
+    <!-- <Image Anchor="L,T" Offset="0,0"  Size="724,248" Texture="SP_Logo.dds" ID="SPLogo" Hidden="0" /> -->
+     
     <Box Anchor="C,C" Size="1024,768" Color="0,0,0,0" />
 
     <Container Anchor="C,C"  Size="1024,700" ID="MainSelection">

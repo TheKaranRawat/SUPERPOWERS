@@ -1712,6 +1712,12 @@
 			<Yield>4</Yield>
 		</Row>
 
+		<Row>
+            <BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+            <YieldType>YIELD_CULTURE</YieldType>
+            <Yield>10</Yield>
+        </Row>
+
 
 		<Row>
 			<BuildingType>BUILDING_BIG_BEN</BuildingType>

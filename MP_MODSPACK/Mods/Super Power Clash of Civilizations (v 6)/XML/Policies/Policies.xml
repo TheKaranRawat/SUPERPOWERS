@@ -83,7 +83,7 @@
 	<Policies>
 		
 		<Update>
-			<Set WorkerSpeedModifier="25" GreatGeneralRateModifier="25" GreatAdmiralRateModifier="25"/>
+			<Set WorkerSpeedModifier="50" GreatGeneralRateModifier="25" GreatAdmiralRateModifier="25"/>
 			<Where Type="POLICY_LIBERTY"/>
 		</Update>
 		<Update>
@@ -91,7 +91,7 @@
 			<Where Type="POLICY_CITIZENSHIP"/>
 		</Update>
 		<Update>
-			<Set CapitalSettlerProductionModifier="0" SettlerProductionModifier="25" GridX="1"  GridY="1"/>
+			<Set IncludesOneShotFreeUnits="true" CapitalSettlerProductionModifier="25" SettlerProductionModifier="25" GridX="1"  GridY="1"/>
 			<Where Type="POLICY_COLLECTIVE_RULE"/>
 		</Update>
 		<Update>
@@ -99,17 +99,34 @@
 			<Where Type="POLICY_REPUBLIC"/>
 		</Update>
 		<Update>
-			<Set NumCitiesPolicyCostDiscount="0" GoldenAgeTurns="0" GridX="4" GridY="3" PortraitIndex="41"/>
+			<Set NumCitiesPolicyCostDiscount="0" GoldenAgeTurns="25" GridX="4" GridY="3" PortraitIndex="41"/>
 			<Where Type="POLICY_REPRESENTATION"/>
 		</Update>
 		<Update>
-			<Set UnhappinessMod="0" HappinessPerTradeRoute="0" BuildingProductionModifier="10" GridX="5" GridY="1"  PortraitIndex="27"/>
+			<Set UnhappinessMod="-10" HappinessPerTradeRoute="4" BuildingProductionModifier="15" GridX="5" GridY="1"  PortraitIndex="27"/>
 			<Where Type="POLICY_MERITOCRACY"/>
 		</Update>
 		<Update>
-			<Set NumFreeGreatPeople="1" GoldenAgeTurns="10"/>
+			<Set NumFreeGreatPeople="2" GoldenAgeTurns="10"/>
 			<Where Type="POLICY_LIBERTY_FINISHER"/>
 		</Update>
+
+		<!--
+		<Row>
+			<Type>POLICY_BILL_OF_RIGHTS2</Type>
+			<Description>TXT_KEY_POLICY_BILL_OF_RIGHTS</Description>
+			<Civilopedia>TXT_KEY_POLICY_BILL_OF_RIGHTS_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_BILL_OF_RIGHTS_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>3</GridX>
+			<GridY>2</GridY>
+			<PortraitIndex>17</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+		-->
+		
 		<Row>
 			<Type>POLICY_BILL_OF_RIGHTS</Type>
 			<Description>TXT_KEY_POLICY_BILL_OF_RIGHTS</Description>
@@ -296,10 +313,7 @@
 	<!--******************Aesthetics********************* -->
 	<Policies>
 
-		<Update>
-			<Set GreatWriterRateModifier="0" GreatArtistRateModifier="0" GreatMusicianRateModifier="0" HappinessToCulture="50" CultureWonderMultiplier="25"/>
-			<Where Type="POLICY_AESTHETICS"/>
-		</Update>
+	
 		<Update>
 			<Set HappinessToCulture="0" ThemingBonusMultiplier="100" />
 			<Where Type="POLICY_FINE_ARTS"/>
@@ -315,10 +329,6 @@
 		<Update>
 			<Set GoldenAgeTurns="10" GridX="1" GridY="2" />
 			<Where Type="POLICY_ETHICS"/>
-		</Update>
-		<Update>
-			<Set ThemingBonusMultiplier="0" />
-			<Where Type="POLICY_AESTHETICS_FINISHER"/>
 		</Update>
 		
 		
@@ -2063,7 +2073,30 @@
 	
 	
 
+
+
+
+
 	
+    <!-- split  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

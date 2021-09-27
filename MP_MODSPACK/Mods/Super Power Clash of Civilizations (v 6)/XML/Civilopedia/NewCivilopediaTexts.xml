@@ -6,13 +6,13 @@
 	<Language_en_US>
 		<!-- Super Power Modded Game -->
 		<Row Tag="TXT_KEY_SP_GS_TITLE">
-			<Text>Super Power Modded Single Player Game (Beta)</Text>
+			<Text>SuperPowers Singleplayer</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SP_GS_DESC">
-			<Text>[COLOR_YELLOW]Important Notes:[ENDCOLOR][NEWLINE]1. Check the saved file size. [NEWLINE]2. Check the Civilopedia before play (Press [COLOR_POSITIVE_TEXT]F1[ENDCOLOR] Now!). [NEWLINE]3. If always crash or saved files damaged, try Dx9.</Text>
+			<Text>[COLOR_YELLOW]Important Notes:[ENDCOLOR][NEWLINE]1. Check the Civilopedia before playing and learn more about the mods mechanics. (Press [COLOR_POSITIVE_TEXT]F1[ENDCOLOR] Now!). [NEWLINE]2. For better performance use DX9 mode, and reduce CS and AI.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SP_VERSION">
-			<Text>[COLOR_YELLOW]Version 5.7(Beta)[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]Version 1.2(Beta)[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_SP_MOD_SETUP">
@@ -166,16 +166,16 @@
 
 	<Language_en_US>
 		<Replace Tag="TXT_KEY_GAMESPEED_QUICK_HELP">
-			<Text>Research Speed:75%. Build Speed:66%. All Units +1 [ICON_MOVES] Movement, +15hp healing and +50% EXP earning speed. You are supposed to finish the game within 200 turns.</Text>
+			<Text>Research Speed:75% Build Speed:66% All Units +1 [ICON_MOVES] Movement, +15hp healing and +50% EXP earning speed. Recommended for Multiplayer campaigns.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_GAMESPEED_STANDARD_HELP">
-			<Text>Research Speed:100%. Build Speed:100%. Faster than vanilla "Standard", but will slow down in the late game. Best for players wanna spend more time on post-industrial eras.</Text>
+			<Text>Research Speed:100% Build Speed:100% Faster than vanilla "Standard", but will slow down in the late game. Recommended for post-industrial campaigns.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_GAMESPEED_EPIC_HELP">
-			<Text>Research Speed:150%. Build Speed:115%. Slow researching speed but training and building speed are still fast. The best balanced speed option for this MOD.</Text>
+			<Text>Research Speed:150% Build Speed:115% Slow researching speeds, but training and building speeds are still fast. Recommended for epic length campaigns.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_GAMESPEED_MARATHON_HELP">
-			<Text>Research Speed:250%. Build Speed:150%. Slow but still quicker than vanilla "Marathon". Best for players wanna spend more time on ancient eras.</Text>
+			<Text>Research Speed:250% Build Speed:150% Slow but still quicker than vanilla "Marathon". Best for players who want to forge an empire that stands the test of time.</Text>
 		</Replace>
 	</Language_en_US>
 	

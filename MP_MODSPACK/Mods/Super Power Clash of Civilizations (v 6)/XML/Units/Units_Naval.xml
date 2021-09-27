@@ -1374,7 +1374,7 @@
 			<Cost>1350</Cost>
 			<Moves>6</Moves>
 			<Range>4</Range>
-			<HurryCostModifier>200</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1410,7 +1410,7 @@
 			<Cost>1000</Cost>
 			<Moves>6</Moves>
 			<Range>4</Range>
-			<HurryCostModifier>200</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1447,7 +1447,7 @@
 			<Cost>3000</Cost>
 			<Moves>7</Moves>
 			<Range>5</Range>
-			<HurryCostModifier>200</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1482,7 +1482,7 @@
 			<Cost>2500</Cost>
 			<Moves>7</Moves>
 			<Range>5</Range>
-			<HurryCostModifier>125</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1518,7 +1518,7 @@
 			<Cost>8000</Cost>
 			<Moves>8</Moves>
 			<Range>6</Range>
-			<HurryCostModifier>250</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1565,7 +1565,7 @@
 			<Combat>200</Combat>
 			<Cost>2600</Cost>
 			<Moves>7</Moves>
-			<HurryCostModifier>150</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
@@ -1600,7 +1600,7 @@
 			<Combat>300</Combat>
 			<Cost>4500</Cost>
 			<Moves>8</Moves>
-			<HurryCostModifier>175</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
@@ -1636,7 +1636,7 @@
 			<Combat>360</Combat>
 			<Cost>6000</Cost>
 			<Moves>8</Moves>
-			<HurryCostModifier>200</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
@@ -1672,7 +1672,7 @@
 			<Combat>360</Combat>
 			<Cost>8500</Cost>
 			<Moves>8</Moves>
-			<HurryCostModifier>400</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
@@ -2358,7 +2358,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
-			<PromotionType>PROMOTION_CARGO_II</PromotionType>
+			<PromotionType>PROMOTION_CARGO_I</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
@@ -2375,7 +2375,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_KIROV_BATTLECRUISER</UnitType>
-			<PromotionType>PROMOTION_CARGO_IX</PromotionType>
+			<PromotionType>PROMOTION_CARGO_IV</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_KIROV_BATTLECRUISER</UnitType>

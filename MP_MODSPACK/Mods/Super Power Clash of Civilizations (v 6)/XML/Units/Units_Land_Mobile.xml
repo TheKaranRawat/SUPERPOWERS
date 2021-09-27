@@ -2483,6 +2483,27 @@
 			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
 			<PromotionType>PROMOTION_HELI_ATTACK</PromotionType>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+			<PromotionType>PROMOTION_ANTI_TANK</PromotionType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ATTACK_HELICOPTER</UnitType>
+			<PromotionType>PROMOTION_ANTI_TANK</PromotionType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_AMERICAN_APACHE</UnitType>
+			<PromotionType>PROMOTION_ANTI_TANK</PromotionType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_GERMAN_EUROCOPTER_TIGER</UnitType>
+			<PromotionType>PROMOTION_ANTI_TANK</PromotionType>
+		</Row>
+
 		<Row>
 			<UnitType>UNIT_POLISH_PZLW3_HELICOPTER</UnitType>
 			<PromotionType>PROMOTION_HELI_ATTACK</PromotionType>
@@ -3782,12 +3803,12 @@
 		<Row>
 			<UnitType>UNIT_MODERN_ARMOR</UnitType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>160</Flavor>
+			<Flavor>200</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MODERN_ARMOR</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>180</Flavor>
+			<Flavor>220</Flavor>
 		</Row>
 
 		<Row>
