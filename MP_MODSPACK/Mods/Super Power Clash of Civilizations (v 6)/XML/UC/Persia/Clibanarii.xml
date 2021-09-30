@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/6/2013 1:15:40 AM -->
+<GameData>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_3UC_CLIBANARII">
+			<Text>Clibanarii</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_3UC_CLIBANARII_HELP">
+			<Text>Slow but powerful early game Mounted Unit. Only Persia may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_3UC_CLIBANARII_STRATEGY">
+			<Text>The Clibanarii is a Persian unique unit. Compared to the Horseman it replaces, Clibanarii are slower but more powerful, making them one of the most dangerous cavalry units until the arrival of the Knight. They can move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_3UC_CLIBANARII_TEXT">
+			<Text>
+				The Clibanarii were the Sassanid equivalent of the Byzantine cataphracti, although more heavily armored. Both the horse and the riders themselves were fully encased in iron mail, and were used in battle in wedges to shatter enemy infantry and archer formations. The Sassanids employed the Clibanarii primarily in their western armires, mainly against the Eastern Roman empire's forces which were more likely to engage in pitched battles than the barbarian tribesmen along the northern and eastern borders.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+			<Row>
+			<Atlas>CLIBANARII_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>clibanarii256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CLIBANARII_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>clibanarii128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CLIBANARII_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>clibanarii80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CLIBANARII_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>clibanarii64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CLIBANARII_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>clibanarii45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

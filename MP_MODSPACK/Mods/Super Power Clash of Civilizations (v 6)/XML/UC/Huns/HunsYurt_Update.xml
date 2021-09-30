@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Increases the border expansion rate bonus on the Yurt -->
+<GameData>
+
+	<Buildings>
+		<Update>
+			<Set PlotCultureCostModifier="-50" />
+			<Where Type="BUILDING_3UC_YURT" />
+		</Update>
+	</Buildings>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_3UC_YURT_STRATEGY" />
+			<Set>
+				<Text>The Yurt is a Hunnic unique building that yields extra [ICON_HAPPINESS_1] Happiness in a City. Unlike the Circus it replaces, it has no resource requirement and increase the rate of border growth by 50%.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+</GameData>

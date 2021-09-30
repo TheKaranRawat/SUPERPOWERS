@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!-- Adds the new Winery -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_PORTUGAL_WINERY</Type>
+			<BuildingClass>BUILDINGCLASS_THEATRE</BuildingClass>
+			<FreeStartEra>ERA_FUTURE</FreeStartEra>
+			<Cost>200</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_PORTUGAL_WINERY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_PORTUGAL_WINERY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PORTUGAL_WINERY_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_PORTUGAL_WINERY_HELP</Help>
+			<ArtDefineTag>THEATRE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<Happiness>2</Happiness>
+			<HurryCostModifier>10</HurryCostModifier>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>39</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_PORTUGAL_WINERY</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_PORTUGAL_WINERY</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PORTUGAL_WINERY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PORTUGAL_WINERY</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PORTUGAL_WINERY</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_PORTUGAL</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+			<BuildingType>BUILDING_PORTUGAL_WINERY</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_PORTUGAL_WINERY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+
+	<!-- Adds new text -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_PORTUGAL_WINERY">
+			<Text>Winery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PORTUGAL_WINERY_HELP">
+			<Text>Produces a source of the [ICON_RES_WINE] Wine luxury resource near the city of origin. Each source of [ICON_RES_WINE] Wine worked by this City produces +2 [ICON_GOLD] Gold. Only Portugal may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PORTUGAL_WINERY_STRATEGY">
+			<Text>The Winery is the Portuguese replacement for the Zoo. In addition to the normal [ICON_HAPPINESS_1] Happiness increase, the Winery costs less to maintain. When constructed, the Winery will create a source of [ICON_RES_WINE] Wine near the City, if possible, and all sources of [ICON_RES_WINE] Wine worked by this City will produce +2 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PORTUGAL_WINERY_TEXT">
+			<Text>The history of Portuguese wine is closely interwined with their relationship with the British. First shipped to England in the 12th century, Portuguese wines would eventually get preferential treatment in the British wine market over French wines, with the fortified wine known as Port receiving increased popularity in Britain. By 1717, Portuguese wines accounted for more than 66% of all wine imported into England, and Port became associated with the "Englishman's drink" with social clubs touting membership of "three-bottle men" or those who were able to drink at least three bottles of Port in one sitting.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

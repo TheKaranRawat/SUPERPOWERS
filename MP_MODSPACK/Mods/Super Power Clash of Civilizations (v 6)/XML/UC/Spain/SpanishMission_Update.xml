@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adds +2 Faith to the Mission -->
+<GameData>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_4UC_MISSION</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_4UC_MISSION_STRATEGY" />
+			<Set>
+				<Text>The Mission is a Spanish unique building that increases the rate at which [ICON_GREAT_PERSON] Great People are born in the city. Unlike the Garden it replaces, it does not require Fresh Water, yields [ICON_PEACE] Faith, and increases religious pressure emanating from this city.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+	
+</GameData>

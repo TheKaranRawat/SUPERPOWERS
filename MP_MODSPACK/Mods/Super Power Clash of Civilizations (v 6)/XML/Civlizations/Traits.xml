@@ -13,6 +13,8 @@
 			<Type>TRAIT_ART_OF_WAR</Type>
 			<Description>TXT_KEY_TRAIT_ART_OF_WAR</Description>
 			<ShortDescription>TXT_KEY_TRAIT_ART_OF_WAR_SHORT</ShortDescription>
+			<NumTradeRoutesModifier>25</NumTradeRoutesModifier> 
+			<LandUnitMaintenanceModifier>-10</LandUnitMaintenanceModifier> 
 			<!--<GreatGeneralRateModifier>50</GreatGeneralRateModifier>-->
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
@@ -21,6 +23,8 @@
 			<Type>TRAIT_RIVER_EXPANSION</Type>
 			<Description>TXT_KEY_TRAIT_RIVER_EXPANSION</Description>
 			<ShortDescription>TXT_KEY_TRAIT_RIVER_EXPANSION_SHORT</ShortDescription>
+			<CityCultureBonus>25</CityCultureBonus>
+			<NavalUnitMaintenanceModifier>-10</NavalUnitMaintenanceModifier> 
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
 		<Row>
@@ -28,6 +32,7 @@
 			<Description>TXT_KEY_TRAIT_STRATEGIC_RICHES</Description>
 			<ShortDescription>TXT_KEY_TRAIT_STRATEGIC_RICHES_SHORT</ShortDescription>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			<LandUnitMaintenanceModifier>-10</LandUnitMaintenanceModifier>
 			<FreeBuilding>BUILDING_TB_STRATEGIC_RICHES</FreeBuilding>
 		</Row>
 		<Row>
@@ -41,7 +46,8 @@
 			<Type>TRAIT_ENHANCED_CULTURE</Type>
 			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description>
 			<ShortDescription>TXT_KEY_TRAIT_ENHANCED_CULTURE_SHORT</ShortDescription>
-			<CityCultureBonus>3</CityCultureBonus>
+			<PolicyCostModifier>-15</PolicyCostModifier> 
+			<LevelExperienceModifier>50</LevelExperienceModifier> 
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 			<FreeBuilding>BUILDING_TB_ENHANCED_CULTURE</FreeBuilding>
 		</Row>
@@ -49,6 +55,7 @@
 			<Type>TRAIT_CONVERTS_LAND_BARBARIANS</Type>
 			<Description>TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS</Description>
 			<ShortDescription>TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT</ShortDescription>
+			<GreatGeneralRateModifier>20</GreatGeneralRateModifier> 			
 			<!--<FreeSocialPoliciesPerEra>1</FreeSocialPoliciesPerEra>-->
 			<!--<PrereqTech>TECH_EDUCATION</PrereqTech>-->
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
@@ -58,15 +65,17 @@
 			<Description>TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER</Description>
 			<ShortDescription>TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER_SHORT</ShortDescription>
 			<FreeBuilding>BUILDING_TB_CAPITAL_BUILDINGS_CHEAPER</FreeBuilding>
+			<CityUnhappinessModifier>-33</CityUnhappinessModifier>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
 		<Row>
 			<Type>TRAIT_ENHANCED_GOLDEN_AGES</Type>
 			<Description>TXT_KEY_TRAIT_ENHANCED_GOLDEN_AGES</Description>
 			<ShortDescription>TXT_KEY_TRAIT_ENHANCED_GOLDEN_AGES_SHORT</ShortDescription>
-			<GoldenAgeDurationModifier>50</GoldenAgeDurationModifier>
-			<GoldenAgeMoveChange>1</GoldenAgeMoveChange>
-			<GoldenAgeCombatModifier>10</GoldenAgeCombatModifier>
+			<GoldenAgeDurationModifier>70</GoldenAgeDurationModifier>
+			<GoldenAgeMoveChange>2</GoldenAgeMoveChange>
+			<GoldenAgeCombatModifier>20</GoldenAgeCombatModifier>
+			<FasterInHills>1</FasterInHills> 
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
 		<Row>
@@ -75,6 +84,7 @@
 			<ShortDescription>TXT_KEY_TRAIT_WONDER_BUILDER_SHORT</ShortDescription>
 			<WonderProductionModifier>25</WonderProductionModifier>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			<CapitalBuildingModifier>20</CapitalBuildingModifier> 
 			<FreeBuilding>BUILDING_TB_TRAIT_WONDER_BUILDER</FreeBuilding>
 		</Row>
 	</Traits>
@@ -90,6 +100,8 @@
 			<Description>TXT_KEY_TRAIT_TERROR</Description>
 			<ShortDescription>TXT_KEY_TRAIT_TERROR_SHORT</ShortDescription>
 			<GreatGeneralExtraBonus>15</GreatGeneralExtraBonus>
+			<StaysAliveZeroCities>1</StaysAliveZeroCities> 
+			<TechFromCityConquer>1</TechFromCityConquer> 
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
 		<Row>
@@ -97,6 +109,8 @@
 			<Description>TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED</Description>
 			<ShortDescription>TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT</ShortDescription>
 			<FightWellDamaged>true</FightWellDamaged>
+			<LandUnitMaintenanceModifier>-10</LandUnitMaintenanceModifier> 
+			<NavalUnitMaintenanceModifier>-10</NavalUnitMaintenanceModifier> 
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
 		<Row>
@@ -113,6 +127,7 @@
 			<Type>TRAIT_CONVERTS_SEA_BARBARIANS</Type>
 			<Description>TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS</Description>
 			<ShortDescription>TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT</ShortDescription>
+			<PlotCultureCostModifier>-35</PlotCultureCostModifier> 
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 			<!--<NavalUnitMaintenanceModifier>-66</NavalUnitMaintenanceModifier>-->
 			<WorkerSpeedModifier>25</WorkerSpeedModifier>
@@ -122,6 +137,7 @@
 			<Description>TXT_KEY_TRAIT_RAZE_AND_HORSES</Description>
 			<ShortDescription>TXT_KEY_TRAIT_RAZE_AND_HORSES_SHORT</ShortDescription>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			<StaysAliveZeroCities>1</StaysAliveZeroCities>
 			<!--<RazeSpeedModifier>100</RazeSpeedModifier>-->
 			<LandBarbarianConversionPercent>100</LandBarbarianConversionPercent>
 			
@@ -132,14 +148,15 @@
 			<Description>TXT_KEY_TRAIT_VIKING_FURY</Description>
 			<ShortDescription>TXT_KEY_TRAIT_VIKING_FURY_SHORT</ShortDescription>
 			<!--<ExtraEmbarkMoves>1</ExtraEmbarkMoves>-->
-			<PlunderModifier>200</PlunderModifier>
+			<PlunderModifier>300</PlunderModifier>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
 		<Row>
 			<Type>TRAIT_CULTURE_FROM_KILLS</Type>
 			<Description>TXT_KEY_TRAIT_CULTURE_FROM_KILLS</Description>
 			<ShortDescription>TXT_KEY_TRAIT_CULTURE_FROM_KILLS_SHORT</ShortDescription>
-			<CultureFromKills>50</CultureFromKills>
+			<CultureFromKills>70</CultureFromKills>
+			<LandUnitMaintenanceModifier>-20</LandUnitMaintenanceModifier>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
 		<Row>
@@ -148,6 +165,7 @@
 			<ShortDescription>TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP_SHORT</ShortDescription>
 			<CityStateFriendshipModifier>100</CityStateFriendshipModifier>
 			<AfraidMinorPerTurnInfluence>300</AfraidMinorPerTurnInfluence>
+			<LevelExperienceModifier>-33</LevelExperienceModifier> 
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
 		<Row>
@@ -158,6 +176,7 @@
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 			<NearbyImprovementCombatBonus>25</NearbyImprovementCombatBonus>
 			<NearbyImprovementBonusRange>2</NearbyImprovementBonusRange>
+			<CityCultureBonus>12</CityCultureBonus>
 			<CombatBonusImprovement>IMPROVEMENT_ASSYRIA_FORT</CombatBonusImprovement>
 		</Row>
 		<Row>
@@ -165,6 +184,7 @@
 			<Description>TXT_KEY_TRAIT_SOLIDARITY</Description>
 			<ShortDescription>TXT_KEY_TRAIT_SOLIDARITY_SHORT</ShortDescription>
 			<FreeSocialPoliciesPerEra>1</FreeSocialPoliciesPerEra>
+			<CombatBonusVsLargerCiv>15</CombatBonusVsLargerCiv> 
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
 	</Traits>
@@ -181,15 +201,17 @@
 			<Description>TXT_KEY_TRAIT_POPULATION_GROWTH</Description>
 			<ShortDescription>TXT_KEY_TRAIT_POPULATION_GROWTH_SHORT</ShortDescription>
 			<!--<CityUnhappinessModifier>100</CityUnhappinessModifier>-->
-			<PopulationUnhappinessModifier>-20</PopulationUnhappinessModifier>
+			<PopulationUnhappinessModifier>-25</PopulationUnhappinessModifier>
+			<PolicyCostModifier>-15</PolicyCostModifier> 
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
 		<Row>
 			<Type>TRAIT_CITY_STATE_BONUSES</Type>
 			<Description>TXT_KEY_TRAIT_CITY_STATE_BONUSES</Description>
 			<ShortDescription>TXT_KEY_TRAIT_CITY_STATE_BONUSES_SHORT</ShortDescription>
-			<CityStateBonusModifier>50</CityStateBonusModifier>
+			<CityStateBonusModifier>200</CityStateBonusModifier>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			<AbleToAnnexCityStates>1</AbleToAnnexCityStates>
 		</Row>
 		<Row>
 			<Type>TRAIT_SPICE</Type>
@@ -197,6 +219,8 @@
 			<ShortDescription>TXT_KEY_TRAIT_SPICE_SHORT</ShortDescription>
 			<UniqueLuxuryCities>3</UniqueLuxuryCities>
 			<UniqueLuxuryQuantity>2</UniqueLuxuryQuantity>
+			<PolicyCostModifier>-10</PolicyCostModifier> 
+			<ExtraEmbarkMoves>4</ExtraEmbarkMoves> 
 			<UniqueLuxuryRequiresNewArea>true</UniqueLuxuryRequiresNewArea>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
@@ -206,13 +230,16 @@
 			<ShortDescription>TXT_KEY_TRAIT_FAITH_FROM_NATURE_SHORT</ShortDescription>
 			<FaithFromUnimprovedForest>true</FaithFromUnimprovedForest>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			<BonusReligiousBelief>1</BonusReligiousBelief> 
 		</Row>
 		<Row>
 			<Type>TRAIT_LAND_TRADE_GOLD</Type>
 			<Description>TXT_KEY_TRAIT_LAND_TRADE_GOLD2</Description>
 			<ShortDescription>TXT_KEY_TRAIT_LAND_TRADE_GOLD2_SHORT</ShortDescription>
-			<LandTradeRouteRangeBonus>5</LandTradeRouteRangeBonus>
-			<TradeReligionModifier>200</TradeReligionModifier>
+			<LandTradeRouteRangeBonus>150</LandTradeRouteRangeBonus>
+			<TradeReligionModifier>300</TradeReligionModifier>
+			<BonusReligiousBelief>1</BonusReligiousBelief>
+			<GoldenAgeDurationModifier>30</GoldenAgeDurationModifier>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
 		<Row>
@@ -220,6 +247,8 @@
 			<Description>TXT_KEY_TRAIT_EXTRA_BELIEF</Description>
 			<ShortDescription>TXT_KEY_TRAIT_EXTRA_BELIEF_SHORT</ShortDescription>
 			<BonusReligiousBelief>true</BonusReligiousBelief>
+			<TradeReligionModifier>50</TradeReligionModifier> 
+			<WonderProductionModifier>20</WonderProductionModifier> 
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 			<FreeUnit>UNITCLASS_PROPHET</FreeUnit>
 			<FreeUnitPrereqTech>TECH_WRITING</FreeUnitPrereqTech>
@@ -229,6 +258,7 @@
 			<Description>TXT_KEY_TRAIT_BONUS_AGAINST_TECH</Description>
 			<ShortDescription>TXT_KEY_TRAIT_BONUS_AGAINST_TECH_SHORT</ShortDescription>
 			<CombatBonusVsLargerCiv>25</CombatBonusVsLargerCiv>
+			<BonusReligiousBelief>1</BonusReligiousBelief>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
 		<Row>
@@ -237,6 +267,7 @@
 			<ShortDescription>TXT_KEY_TRAIT_ANNEX_CITY_STATE_SHORT</ShortDescription>
 			<AbleToAnnexCityStates>true</AbleToAnnexCityStates>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			<CultureBuildingYieldChange>10</CultureBuildingYieldChange>
 			<FreeUnit>UNITCLASS_MUSICIAN</FreeUnit>
 			<FreeUnitPrereqTech>TECH_ACOUSTICS</FreeUnitPrereqTech>
 		</Row>
@@ -245,9 +276,10 @@
 			<Description>TXT_KEY_TRAIT_CARNIVAL</Description>
 			<ShortDescription>TXT_KEY_TRAIT_CARNIVAL_SHORT</ShortDescription>
 			<GoldenAgeTourismModifier>100</GoldenAgeTourismModifier>
-			<GoldenAgeGreatArtistRateModifier>50</GoldenAgeGreatArtistRateModifier>
-			<GoldenAgeGreatMusicianRateModifier>50</GoldenAgeGreatMusicianRateModifier>
-			<GoldenAgeGreatWriterRateModifier>50</GoldenAgeGreatWriterRateModifier>
+			<GoldenAgeGreatArtistRateModifier>100</GoldenAgeGreatArtistRateModifier>
+			<GoldenAgeGreatMusicianRateModifier>100</GoldenAgeGreatMusicianRateModifier>
+			<GoldenAgeGreatWriterRateModifier>100</GoldenAgeGreatWriterRateModifier>
+			<PopulationUnhappinessModifier>-10</PopulationUnhappinessModifier> 
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
 
@@ -262,6 +294,7 @@
 			<Description>TXT_KEY_TRAIT_LUXURY_RETENTION</Description>
 			<ShortDescription>TXT_KEY_TRAIT_LUXURY_RETENTION_SHORT</ShortDescription>
 			<LuxuryHappinessRetention>50</LuxuryHappinessRetention>
+			<NavalUnitMaintenanceModifier>-15</NavalUnitMaintenanceModifier> 
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 			<FreeBuilding>BUILDING_MARKET</FreeBuilding>
 		</Row>
@@ -270,6 +303,8 @@
 			<Description>TXT_KEY_TRAIT_EXTRA_TRADE</Description>
 			<ShortDescription>TXT_KEY_TRAIT_EXTRA_TRADE_SHORT</ShortDescription>
 			<TradeRouteResourceModifier>100</TradeRouteResourceModifier>
+			<NavalUnitMaintenanceModifier>-20</NavalUnitMaintenanceModifier> 
+			<CityStateCombatModifier>20</CityStateCombatModifier> 
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 			<FreeBuilding>BUILDING_HARBOR</FreeBuilding>
 		</Row>
@@ -291,7 +326,8 @@
 			<Type>TRAIT_PHOENICIAN_HERITAGE</Type>
 			<Description>TXT_KEY_TRAIT_PHOENICIAN_HERITAGE</Description>
 			<ShortDescription>TXT_KEY_TRAIT_PHOENICIAN_HERITAGE_SHORT</ShortDescription>
-			<!--<CrossesMountainsAfterGreatGeneral>true</CrossesMountainsAfterGreatGeneral>-->
+			<NumTradeRoutesModifier>30</NumTradeRoutesModifier>
+			<!-- <CrossesMountainsAfterGreatGeneral>1</CrossesMountainsAfterGreatGeneral> -->
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 			<FreeBuilding>BUILDING_TB_TRAIT_PHOENICIAN_HERITAGE</FreeBuilding>
 		</Row>
@@ -327,6 +363,7 @@
 			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
 			<MayaCalendarBonuses>true</MayaCalendarBonuses>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<MoveFriendlyWoodsAsRoad>1</MoveFriendlyWoodsAsRoad> 
 			<TechBoostFromCapitalScienceBuildings>true</TechBoostFromCapitalScienceBuildings>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
@@ -362,10 +399,13 @@
 			<Type>TRAIT_SEVEN_CITIES</Type>
 			<Description>TXT_KEY_TRAIT_SEVEN_CITIES</Description>
 			<ShortDescription>TXT_KEY_TRAIT_SEVEN_CITIES_SHORT</ShortDescription>
-			<NaturalWonderFirstFinderGold>500</NaturalWonderFirstFinderGold>
-			<NaturalWonderSubsequentFinderGold>100</NaturalWonderSubsequentFinderGold>
-			<NaturalWonderYieldModifier>100</NaturalWonderYieldModifier>
-			<NaturalWonderHappinessModifier>100</NaturalWonderHappinessModifier>
+			<NaturalWonderFirstFinderGold>4000</NaturalWonderFirstFinderGold>
+			<NaturalWonderSubsequentFinderGold>1000</NaturalWonderSubsequentFinderGold>
+			<NaturalWonderYieldModifier>300</NaturalWonderYieldModifier>
+			<NaturalWonderHappinessModifier>300</NaturalWonderHappinessModifier>
+			<TradeReligionModifier>300</TradeReligionModifier> 
+			<NavalUnitMaintenanceModifier>-33</NavalUnitMaintenanceModifier> 
+			<EmbarkedAllWater>1</EmbarkedAllWater> 
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
 		<Row>
@@ -374,6 +414,7 @@
 			<ShortDescription>TXT_KEY_TRAIT_GREAT_ANDEAN_ROAD_SHORT</ShortDescription>
 			<FasterInHills>true</FasterInHills>
 			<ImprovementMaintenanceModifier>-50</ImprovementMaintenanceModifier>
+			<MoveFriendlyWoodsAsRoad>1</MoveFriendlyWoodsAsRoad>
 			<NoHillsImprovementMaintenance>true</NoHillsImprovementMaintenance>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
@@ -393,6 +434,7 @@
 			<NearbyImprovementBonusRange>2</NearbyImprovementBonusRange>
 			<CombatBonusImprovement>IMPROVEMENT_MOAI</CombatBonusImprovement>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			<ExtraEmbarkMoves>4</ExtraEmbarkMoves> 
 			<FreeBuilding>BUILDING_TB_WAYFINDING</FreeBuilding>
 		</Row>
 		<Row>
@@ -400,6 +442,7 @@
 			<Description>TXT_KEY_TRAIT_GREAT_EXPANSE</Description>
 			<ShortDescription>TXT_KEY_TRAIT_GREAT_EXPANSE_SHORT</ShortDescription>
 			<ExtraFoundedCityTerritoryClaimRange>6</ExtraFoundedCityTerritoryClaimRange>
+			<AngerFreeIntrusionOfCityStates>1</AngerFreeIntrusionOfCityStates> 
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 			<FreeBuilding>BUILDING_GRANARY</FreeBuilding>
 		</Row>
@@ -600,17 +643,17 @@
 		<Row>
 			<TraitType>TRAIT_TERROR</TraitType>
 			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-			<MovesChange>1</MovesChange>
+			<MovesChange>3</MovesChange>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_TERROR</TraitType>
 			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
-			<MovesChange>1</MovesChange>
+			<MovesChange>3</MovesChange>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_TERROR</TraitType>
 			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
-			<MovesChange>1</MovesChange>
+			<MovesChange>3</MovesChange>
 		</Row>
 	</Trait_MovesChangeUnitCombats>
 	
@@ -623,20 +666,34 @@
 			<TraitType>TRAIT_TERROR</TraitType>
 			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>4</Yield>
 		</Row>
 		
 		<Row>
 			<TraitType>TRAIT_FAITH_FROM_NATURE</TraitType>
 			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>4</Yield>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_FAITH_FROM_NATURE</TraitType>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_IGNORE_TERRAIN_IN_FOREST</TraitType>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		
 		<Row>
 			<TraitType>TRAIT_AMPHIB_WARLORD</TraitType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>4</Yield>
 		</Row>
 
 
@@ -644,13 +701,13 @@
 			<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
 			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
 			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		
 	</Trait_ImprovementYieldChanges>
@@ -699,7 +756,7 @@
 		<Row>
 			<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>4</Yield>
 		</Row>
 	</Trait_YieldChangesStrategicResources>
 	
@@ -1172,37 +1229,37 @@
 			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
 			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
 			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 
 
@@ -1320,36 +1377,72 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
+
+		<Row>
+			<TraitType>TRAIT_SCHOLARS_JADE_HALL</TraitType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+
 	</Trait_SpecialistYieldChanges>
 
 	<Trait_YieldChangesPerTradePartner>
 		<Row>
 			<TraitType>TRAIT_GATEWAY_AFRICA</TraitType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>15</Yield>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_GATEWAY_AFRICA</TraitType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<Yield>15</Yield>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_GATEWAY_AFRICA</TraitType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
+			<Yield>15</Yield>
 		</Row>
+
 		<Row>
 			<TraitType>TRAIT_GATEWAY_AFRICA</TraitType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
+			<Yield>15</Yield>
 		</Row>
+
+		<Row>
+			<TraitType>TRAIT_INGENIOUS</TraitType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>30</Yield>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_OCEAN_MOVEMENT</TraitType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>30</Yield>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_OCEAN_MOVEMENT</TraitType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>30</Yield>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_SUPER_CITY_STATE</TraitType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>35</Yield>
+		</Row>
+
+		
 	</Trait_YieldChangesPerTradePartner>
 
 	<Trait_YieldChangesIncomingTradeRoute>
 		<Row>
 			<TraitType>TRAIT_GATEWAY_AFRICA</TraitType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>30</Yield>
 		</Row>
 	</Trait_YieldChangesIncomingTradeRoute>
 
@@ -1406,19 +1499,46 @@
 			<TraitType>TRAIT_VIKING_FURY</TraitType>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_VIKING_FURY</TraitType>
 			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
 		<Row>
 			<TraitType>TRAIT_VIKING_FURY</TraitType>
 			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 	</Trait_ImprovementYieldChanges>
 
@@ -1480,7 +1600,7 @@
 			<PortraitIndex>17</PortraitIndex>
 			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
 			<GreatWorkCount>-1</GreatWorkCount>
-			<Happiness>2</Happiness>
+			<Happiness>8</Happiness>
 		</Row>
 		
 
@@ -1557,8 +1677,8 @@
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 			<Description>TXT_KEY_TRAIT_PHOENICIAN_HERITAGE</Description>
 			<Help>TXT_KEY_TRAIT_PHOENICIAN_HERITAGE</Help>
-			<TradeRouteSeaGoldBonus>400</TradeRouteSeaGoldBonus>
-			<TradeRouteSeaDistanceModifier>25</TradeRouteSeaDistanceModifier>
+			<TradeRouteSeaGoldBonus>4000</TradeRouteSeaGoldBonus>
+			<TradeRouteSeaDistanceModifier>50</TradeRouteSeaDistanceModifier>
 			<GreatWorkCount>-1</GreatWorkCount>
 		</Row>
 
@@ -1576,7 +1696,7 @@
 		<Row>
 			<BuildingType>BUILDING_TB_CAPITAL_BUILDINGS_CHEAPER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>12</Yield>
 		</Row>
 
 		<Row>
@@ -1603,7 +1723,7 @@
 		<Row>
 			<BuildingType>BUILDING_TB_TRAIT_WONDER_BUILDER</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>3</Yield>
 		</Row>
 	</Building_RiverPlotYieldChanges>
 
@@ -1612,7 +1732,7 @@
 		<Row>
 			<BuildingType>BUILDING_TB_TRAIT_WONDER_BUILDER</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>2</Quantity>
+			<Quantity>8</Quantity>
 		</Row>
 
 		<Row>
@@ -1629,7 +1749,7 @@
 			<BuildingType>BUILDING_TB_TRAIT_WONDER_BUILDER</BuildingType>
 			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>3</Yield>
 		</Row>
 	</Building_FeatureYieldChanges>
 	

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/27/2015 7:07:10 AM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_4UC_BABYLON_CHARIOT">
+			<Text>Charioteer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_4UC_BABYLON_CHARIOT_TEXT">
+			<Text>Little is known of the Babylonian military from either the Old or New Empires, although Hammurabi’s army of the Old Empire may have made important use of chariots when these were first coming into use.The New Empire armies probably copied much from the Assyrians. This would suggest that Babylonians made extensive use of cavalry and chariots. Originally these chariots were used as two-horse vehicles. Like the ancient Egyptians and Sumerians, the Babylonians and Assyrians used war chariots as firing mobile platforms or as mobile command platforms; the elevated view would give the general some ability to see how the troops fared in battle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_4UC_BABYLON_CHARIOT_STRATEGY">
+			<Text>The Charioteer is a Babylonian unique unit that replaces the Horseman. The Charioteer can see farther and has an attack bonus against other mounted units, but ends its turn if it enters rough terrain. Requires discovery of The Wheel instead of Horseback Riding.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_4UC_BABYLON_CHARIOT_HELP">
+			<Text>Ancient-era melee mounted unit. Can see far and has an attack bonus against other mounted units, but has difficulty moving in rough terrain. Only Babylon may build it.</Text>
+		</Row>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+
+		<Row>
+			<Atlas>4UC_WONDER_UNIT_FLAG_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>Icon4Chariot32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4UC_BABYLON_CHARIOT_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>3babylonchariot256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4UC_BABYLON_CHARIOT_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>3babylonchariot128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4UC_BABYLON_CHARIOT_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>3babylonchariot80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4UC_BABYLON_CHARIOT_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>3babylonchariot64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4UC_BABYLON_CHARIOT_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>3babylonchariot45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

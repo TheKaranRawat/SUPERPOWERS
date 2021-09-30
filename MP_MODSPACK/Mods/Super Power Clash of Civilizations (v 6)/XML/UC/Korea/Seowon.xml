@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/3/2013 5:31:33 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_3UC_SEOWON">
+			<Text>Seowon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_SEOWON_STRATEGY">
+			<Text>The Seowon is a Korean unique building that increases the [ICON_RESEARCH] Science output of a city. Unlike the University it replaces, it also yields [ICON_PEACE] Faith. The city must aleady have a Library in order to consctruct a Seowon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_SEOWON_HELP">
+			<Text>Increases the [ICON_RESEARCH] Science and [ICON_PEACE] Faith output of a city. Only Korea may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_SEOWON_TEXT">
+			<Text>Seowon were the most common educational institution of Korea during the mid- to late Joseon Dynasty. They were private institutions, and combined the functions of a Confucian shrine and a preparatory school. In educational terms, the seowon were primarily occupied with preparing students for the national civil service examinations. In most cases, seowon served only pupils of the aristocratic yangban class.</Text>
+		</Row>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>SEOWON_ICON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Seowon_Icon256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SEOWON_ICON_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Seowon_Icon128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+			<Row>
+			<Atlas>SEOWON_ICON_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Seowon_Icon064.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SEOWON_ICON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Seowon_Icon045.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		</IconTextureAtlases>
+</GameData>

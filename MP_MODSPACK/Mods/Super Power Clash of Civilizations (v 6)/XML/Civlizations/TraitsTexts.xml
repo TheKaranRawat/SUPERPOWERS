@@ -5,11 +5,15 @@
 
 	<Language_en_US>
 
+		<Replace Tag="TXT_KEY_TRAIT_ENHANCED_GOLDEN_AGES">
+			<Text>[ICON_BULLET][ICON_GOLDEN_AGE] Golden Ages last 70% longer. During a Golden Age, units receive +2 [ICON_MOVES] Movement and a +20% [ICON_STRENGTH] Combat Strength bonus. [NEWLINE][ICON_BULLET]Persian units move faster in hills and uneven terrain.</Text>
+		</Replace>
+
 		<Replace Tag="TXT_KEY_TRAIT_ART_OF_WAR_SHORT">
 			<Text>Pax Sinica</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_ART_OF_WAR">
-			<Text>During a Golden Age, China receive additional +20% [ICON_RESEARCH] Science, [ICON_FOOD] Food, [ICON_PEACE] Faith output in all cities and +20% [ICON_GREAT_PEOPLE] Great Person generation nationwide. </Text>
+			<Text>[ICON_BULLET]During a Golden Age, China receive additional +20% [ICON_RESEARCH] Science, [ICON_FOOD] Food, [ICON_PEACE] Faith output in all cities and +20% [ICON_GREAT_PEOPLE] Great Person generation nationwide. [NEWLINE][ICON_BULLET]Chinese mercantilist tradition grants +25% trade routes. Land maintenance is reduced by 10%.</Text>
 		</Replace>
 
 		<Row Tag="TXT_KEY_SP_UA_CHINA_GOLDENAGE_ANNOUNCE">
@@ -20,51 +24,74 @@
 		</Row>
 
 		<Replace Tag="TXT_KEY_TRAIT_RIVER_EXPANSION">
-			<Text>Each Scientist +2 [ICON_RESEARCH] Science, Engineer +1 [ICON_PRODUCTION] Production, Merchant +2 [ICON_GOLD] Gold, Writer, Artist and Musician +1 [ICON_CULTURE] Culture. </Text>
+			<Text>[ICON_BULLET]Each Scientist +3 [ICON_RESEARCH] Science, Engineer +2 [ICON_PRODUCTION] Production, Merchant +3 [ICON_GOLD] Gold, Writer, Artist and Musician +2 [ICON_CULTURE] Culture. [NEWLINE][ICON_BULLET]American expansionist tradition grants +35% faster border growth for cities; Naval [ICON_GOLD]maintenance is reduced by 10%</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES_SHORT">
 			<Text>Great Russian Soul</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES">
-			<Text>The first 2 [ICON_CITIZEN] Citizens in your cities don't generate [ICON_HAPPINESS_4] Unhappiness. +2 [ICON_GOLD] Gold and +2 [ICON_RES_CONSUMER] Consumer Goods for all cities. All Units +15% [ICON_STRENGTH] Combat Strength bonus while fighting within their own territory.</Text>
+			<Text>[ICON_BULLET]The first 8 [ICON_CITIZEN] Citizens in your cities don't generate [ICON_HAPPINESS_4] Unhappiness. +6 [ICON_GOLD] Gold and +6 [ICON_RES_CONSUMER] Consumer Goods for all cities. [NEWLINE][ICON_BULLET]Russian military might grants -10% unit maintenance cost. All Units gain +15% [ICON_STRENGTH] Combat Strength bonus while fighting within their own territory.</Text>
 		</Replace>
 
+		<Replace Tag="TXT_KEY_TRAIT_GREAT_ANDEAN_ROAD">
+     		<Text>[ICON_BULLET]Units ignore terrain costs when moving into any tile with Hills. No maintenance costs for improvements in Hills; half cost elsewhere. [NEWLINE][ICON_BULLET]The Andean empires mastery of the mountains grants -50% [ICON_GOLD] maintenance cost for all improvements; Military units can cross mountains after the creation of a great general. </Text>
+    	</Replace>
+
 		<Replace Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT">
-			<Text>1 Level up for all Lv2 -Lv5 cities (England only has Lv1-Lv4 cities). All Units +15% [ICON_STRENGTH] Combat Strength bonus while fighting outside their own territory. </Text>
+			<Text>[ICON_BULLET]1 Level up for all Lv2 -Lv5 cities (England only has Lv1-Lv4 cities). All Units +15% [ICON_STRENGTH] Combat Strength bonus while fighting outside their own territory. [NEWLINE][ICON_BULLET]English Imperialism grants +30 Science and +30 Culture for every international trade route.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE_SHORT">
+			<Text>Revolutionary State</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE">
-			<Text>+3 [ICON_CULTURE] Culture for all cities and it never expires. +1 [ICON_TOURISM] Tourism output for all Great Works.</Text>
+			<Text>[ICON_BULLET][ICON_CULTURE]Culture cost of adopting policies reduced by 15% . +4 [ICON_TOURISM] Tourism output for all Great Works. [NEWLINE][ICON_BULLET]Frances rich military tradition grants +50% military experience for military units.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT">
-			<Text>Kritik der reinen Vernunft</Text>
+			<Text>Gott Mit Uns</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS">
-			<Text>Every 50 [ICON_PRODUCTION] Production output in a city offer additional +10 [ICON_CULTURE] Culture and +10 [ICON_RESEARCH] Science output. The bonus are added to the base outputs of your cities so they can be multiplied by buildings, policies, etc.</Text>
+			<Text>[ICON_BULLET]Every 50 [ICON_PRODUCTION] Production output in a city offer additional +10 [ICON_CULTURE] Culture and +10 [ICON_RESEARCH] Science output. The bonus are added to the base outputs of your cities so they can be multiplied by buildings, policies, etc. [NEWLINE][ICON_BULLET]German ferocity and courage has echoed through the ages; Generate Great Generals 20% faster. </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER_SHORT">
+			<Text>Blood and Marble</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER">
-			<Text>+2 [ICON_PRODUCTION] Production for all cities and it never expires. +15% [ICON_PRODUCTION] Production towards any buildings in all cities.</Text>
+			<Text>[ICON_BULLET]+12 [ICON_PRODUCTION] Production for all cities and it never expires. +15% [ICON_PRODUCTION] Production towards any buildings in all cities. [NEWLINE][ICON_BULLET]Roman expansionist ethos grants -33% [ICON_HAPPINESS_4] Unhapiness from the number of controlled cities.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_WONDER_BUILDER_SHORT">
 			<Text>The Gift from the Nile</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_WONDER_BUILDER">
-			<Text>+1 [ICON_GOLD] Gold in every tile next to a river and +1 [ICON_PRODUCTION] Production for every Flood Plains tiles worked by your city. +2 [ICON_RES_MANPOWER] Manpower per city. +25% [ICON_PRODUCTION] Production towards Wonder construction. </Text>
+			<Text>[ICON_BULLET]+3 [ICON_GOLD] Gold in every tile next to a river and +3 [ICON_PRODUCTION] Production for every Flood Plains tiles worked by your city. +8 [ICON_RES_MANPOWER] Manpower per city. +25% [ICON_PRODUCTION] Production towards Wonder construction. [NEWLINE][ICON_BULLET]Egypt and it's magnificent capital grants +20% [ICON_PRODUCTION]production towards buildings in the capital.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_SOLIDARITY_SHORT">
+			<Text>Eternal Freedom</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_SOLIDARITY">
+			<Text>[ICON_BULLET]Receive a free Social Policy when you advance to the next era. [NEWLINE][ICON_BULLET]Polish nationalist fervor grants +15% [ICON_STRENGTH]combat bonus vs Civs with more cities.</Text>
 		</Replace>
 
 
-
+		<Replace Tag="TXT_KEY_TRAIT_TERROR_SHORT">
+			<Text>Punishment of God</Text>
+		</Replace>
 
 
 		<Replace Tag="TXT_KEY_TRAIT_TERROR">
-			<Text>+1 [ICON_PRODUCTION] Production for every Pasture. +1 [ICON_MOVES] Movement for all Mounted Units, Tank Units, Land Hit-and-run Units and Helicopter Units. </Text>
+			<Text>[ICON_BULLET]+5 [ICON_PRODUCTION] Production for every Pasture. +3 [ICON_MOVES] Movement for all Mounted Units, Tank Units, Land Hit-and-run Units and Helicopter Units. [NEWLINE][ICON_BULLET]Gain technology progress and science on capturing cities. [NEWLINE][ICON_BULLET]Mongolian Civilization does not require cities to exist.</Text>
 		</Replace>
+
 		<Replace Tag="TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED">
-			<Text>Units fight as though they were at full strength even when damaged. Gain [ICON_CULTURE] Culture when you build a Military Unit (100% of its [ICON_STRENGTH] Combat Strength). </Text>
+			<Text>[ICON_BULLET]Units fight as though they were at full strength even when damaged. Gain [ICON_CULTURE] Culture when you build a Military Unit (100% of its [ICON_STRENGTH] Combat Strength). [NEWLINE][ICON_BULLET]Japan's centuries of warfare grants -10% maintenance for naval and army units.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_BUFFALO_HORNS">
 			<Text>[ICON_BULLET]-50% experience needed to earn their next promotion for all units. All cities receive a free Ikanda. [NEWLINE][ICON_BULLET]Unit maintenance is reduced by 15% and gain +33% attack and defence when fighting a technologically superior enemy in friendly territory. </Text>
@@ -72,104 +99,155 @@
 
 
 		<Replace Tag="TXT_KEY_TRAIT_VIKING_FURY">
-			<Text>Land Melee units and Naval Melee units pay no Movement [ICON_MOVES] to pillage and pillage Gold equal to 200% of the damage inflicted on a city. Receive triple [ICON_GOLD] Gold from barbarian encampments or pillaging cities. +1 [ICON_CULTURE] Culture output for every Fishing Net, Workboats and Offshore Platform.</Text>
+			<Text>[ICON_BULLET]Land Melee units and Naval Melee units pay no Movement [ICON_MOVES] to pillage and pillage Gold equal to 300% of the damage inflicted on a city. Receive triple [ICON_GOLD] Gold from barbarian encampments or pillaging cities. [NEWLINE][ICON_BULLET]+2 [ICON_CULTURE]A nation of seafarers; gain +2 [ICON_CULTURE]culture output for every Fishing Net, Workboat and Offshore Platform. </Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_SLAYER_OF_TIAMAT">
-			<Text>When a city is conquered by force, gain a free Technology discovered by its owner (one Technology per enemy city). If there are at least 5 [ICON_CITIZEN] Citizens left in the city after capturing, +1 [ICON_CITIZEN] Citizen in your [ICON_CAPITAL] Capital.</Text>
+			<Text>[ICON_BULLET]When a city is conquered by force, gain a free Technology discovered by its owner (one Technology per enemy city). If there are at least 5 [ICON_CITIZEN] Citizens left in the city after capturing, +1 [ICON_CITIZEN] Citizen in your [ICON_CAPITAL] Capital. [NEWLINE][ICON_BULLET]Each city serves as a bastion of culture, gain +12 culture from each city.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP_SHORT">
+			<Text>Sons of Hellas</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP">
-			<Text>City-State [ICON_INFLUENCE] Influence degrades at half and recovers at twice the normal rate. Gain 3 more [ICON_INFLUENCE] Influence (at Standard speed) per turn with City-States you could demand tribute from.</Text>
+			<Text>[ICON_BULLET]City-State [ICON_INFLUENCE] Influence degrades at half and recovers at twice the normal rate. Gain 3 more [ICON_INFLUENCE] Influence (at Standard speed) per turn with City-States you could demand tribute from. [NEWLINE][ICON_BULLET]Units require 33% less experience for promotions.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_RAZE_AND_HORSES">
-			<Text>Defeated Barbarian unit in encampments will join you. Receive [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, [ICON_GOLD] Gold and [ICON_PEACE] Faith after destroying a city (amount = 10*turn, 1,000 maximum). Borrow City names from other in-game Civs.</Text>
+			<Text>[ICON_BULLET]Defeated Barbarian unit in encampments will join you. Receive [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, [ICON_GOLD] Gold and [ICON_PEACE] Faith after destroying a city (amount = 10*turn, 1,000 maximum). Borrow City names from other in-game Civs. [NEWLINE][ICON_BULLET]Due to the nomadic nature of Hunnic Civilization, a city is not needed to exist. </Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT">
-			<Text>Pax Ottomana</Text>
+			<Text>The Eternal State</Text>
 		</Replace>
+
 		<Replace Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
-			<Text>+1 [ICON_PRODUCTION] Production for every Quarry, Fishing Net. +2 [ICON_PRODUCTION] Production for every Strategic Resources. +25% speed for worker's Tile Improvement construction rate.</Text>
+			<Text>[ICON_BULLET]+2 [ICON_PRODUCTION] Production for every Quarry, Fishing Net. +4 [ICON_PRODUCTION] Production for every Strategic Resources. +25% speed for worker's Tile Improvement construction rate. [NEWLINE][ICON_BULLET]Ottoman expansionism grants faster city border growth rate.</Text>
 		</Replace>
 		
 		
 		
 
 		<Replace Tag="TXT_KEY_TRAIT_GATEWAY_AFRICA">
-			<Text>+2 Gold [ICON_GOLD], [ICON_CULTURE] Culture, [ICON_PEACE] Faith and [ICON_RESEARCH] Science for each Trade Route with a different civ or City-State. +4 [ICON_GOLD] Gold for each Trade Route sent to Morocco. All Land Units receive a [ICON_STRENGTH] Combat bonus (+20%) when fighting in Desert Tiles.</Text>
+			<Text>[ICON_BULLET]+15 Gold [ICON_GOLD], [ICON_CULTURE] Culture, [ICON_PEACE] Faith and [ICON_RESEARCH] Science for each Trade Route with a different civ or City-State. +25 [ICON_GOLD] Gold for each Trade Route sent to Morocco. [NEWLINE][ICON_BULLET]All Land Units receive a [ICON_STRENGTH] Combat bonus (+20%) when fighting in Desert Tiles. </Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_LUXURY_RETENTION">
-			<Text>Only lose 2 [ICON_HAPPINESS_1] Happiness from a Luxury Resource if your last copy of it is traded away. All cities receive a free Market.</Text>
+			<Text>[ICON_BULLET]Only lose 2 [ICON_HAPPINESS_1] Happiness from a Luxury Resource if your last copy of it is traded away. All cities receive a free Market. [NEWLINE][ICON_BULLET]Naval [ICON_GOLD]unit maintenance is reduced by 15%.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_PHOENICIAN_HERITAGE">
-			<Text>+1 [ICON_PRODUCTION] Production for every Specialists. +4 [ICON_GOLD] Base Gold for every Sea International Trade Route and +25% Range for Cargoships.</Text>
+			<Text>[ICON_BULLET]+1 [ICON_PRODUCTION] Production for every Specialists. +40 [ICON_GOLD] Base Gold for every Sea International Trade Route and +50% Range for Cargoships. [NEWLINE][ICON_BULLET]Carthaginian mercantilism grants +30% trade routes.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_EXTRA_TRADE">
-			<Text>Resource diversity grants twice as much [ICON_GOLD] Gold for Portugal in Trade Routes. All coastal Cities receive a free Harbor.</Text>
+			<Text>[ICON_BULLET]Resource diversity grants twice as much [ICON_GOLD] Gold for Portugal in Trade Routes. All coastal Cities receive a free Harbor. [NEWLINE][ICON_BULLET]The rich Portugese imperial and naval tradition grants -20% maintenance cost for naval units; +20% strength when fighting city states.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_SUPER_CITY_STATE">
-			<Text>Cannot gain settlers nor annex cities. May purchase in puppet cities and puppet cities offers full [ICON_RESEARCH] Science, [ICON_CULTURE] Culture output and [ICON_FOOD] Food Growth. Double the normal number of Trade Routes and [ICON_TOURISM] Theming Bonus in [ICON_CAPITAL] Captal. A Merchant of Venice appears after researching Optics.</Text>
+			<Text>[ICON_BULLET]Cannot gain settlers nor annex cities. May purchase in puppet cities and puppet cities offers full [ICON_RESEARCH] Science, [ICON_CULTURE] Culture output and [ICON_FOOD] Food Growth. [NEWLINE][ICON_BULLET]Double the normal number of Trade Routes and [ICON_TOURISM] Theming Bonus in [ICON_CAPITAL] Captal. A Merchant of Venice appears after researching Optics. [NEWLINE][ICON_BULLET]Venetian mercantilism grants +35 gold for every international trade route operated from the city.</Text>
 		</Replace>
 
 
 
 		<Replace Tag="TXT_KEY_TRAIT_SPICE">
-			<Text>The first 3 cities founded on continents other than where Indonesia started each provide 2 unique Luxury Resources. These 3 cities are free from Corruption and Public Security problems, cost No [ICON_GOLD] Gold maintance and can never be razed.</Text>
+			<Text>[ICON_BULLET]The first 3 cities founded on continents other than where Indonesia started each provide 2 unique Luxury Resources. These 3 cities are free from Corruption and Public Security problems, cost No [ICON_GOLD] Gold maintance and can never be razed. [NEWLINE][ICON_BULLET]Indonesias rich history and tradition grants -10% [ICON_CULTURE]culture cost for policies. Centuries of navigating the islands grants +4 movement when embarked. </Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_GREAT_EXPANSE">
-			<Text>Founded cities start with additional territory (6 tiles). All cities receive a free Granary.</Text>
+			<Text>[ICON_BULLET]Founded cities start with additional territory (6 tiles). All cities receive a free Granary. [NEWLINE][ICON_BULLET]The Shoshone and their insightful leadership grant free movement of units within City State territory. </Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_WAYFINDING">
-			<Text>Can embark and move over Oceans immediately. Lv 4 and Lv 5 Cities are treated as Lv 3 Cities. +10% [ICON_STRENGTH] Combat Strength bonus if within 2 tiles of a Moai.</Text>
+			<Text>[ICON_BULLET]Can embark and move over Oceans immediately. Lv 4 and Lv 5 Cities are treated as Lv 3 Cities. +10% [ICON_STRENGTH] Combat Strength bonus if within 2 tiles of a Moai.[NEWLINE][ICON_BULLET]Polynesian naval tradition grants embarked units more movement; Fishing nets yield +2 [ICON_FOOD]food and +1 [ICON_CULTURE]culture.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS_SHORT">
+			<Text>Huey Tlatoani</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS">
-			<Text>Gains [ICON_CULTURE] Culture for the empire from each enemy unit killed (50% of their [ICON_STRENGTH] Combat Strength).</Text>
+			<Text>[ICON_BULLET]Gains [ICON_CULTURE] Culture for the empire from each enemy unit killed (70% of their [ICON_STRENGTH] Combat Strength). [NEWLINE][ICON_BULLET]Aztec military innovation grants -20% army maintenance cost.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_AMPHIB_WARLORD">
-			<Text> Rivers and adjacent difficult terrain count as clear terrain for [ICON_MOVES] Movement. Rivers extend length of land trade routes as if they were roads.+1 [ICON_GOLD] Gold for every Trading Post.</Text>
+			<Text>[ICON_BULLET]Rivers and adjacent difficult terrain count as clear terrain for [ICON_MOVES] Movement. Rivers extend length of land trade routes as if they were roads. [NEWLINE][ICON_BULLET]+4 [ICON_GOLD] Gold for every Trading Post. </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_INGENIOUS_SHORT">
+			<Text>Enlightened Despotism</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_INGENIOUS">
+			<Text>[ICON_BULLET]Receive free Great Scientist when you discover Writing. Earn Great Scientists 50% faster. [NEWLINE][ICON_BULLET]Babylons great scientific innovation grants +30 science for every international trade route.</Text>
 		</Replace>
 
 
 		<Replace Tag="TXT_KEY_TRAIT_BONUS_AGAINST_TECH">
-			<Text>+1 [ICON_CULTURE] Culture for all Specialists. All Units receive a [ICON_STRENGTH] Combat bonus (+25%)  when fighting units from a Civilization with more Cities than Ethiopia. </Text>
+			<Text>[ICON_BULLET]+1 [ICON_CULTURE] Culture for all Specialists. All Units receive a [ICON_STRENGTH] Combat bonus (+25%)  when fighting units from a Civilization with more Cities than Ethiopia. [NEWLINE][ICON_BULLET]Ethiopian Civilization has harboured a rich religious tradition. Grants an extra religious belief.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_POPULATION_GROWTH_SHORT">
+			<Text>Hindustani Vidya</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_POPULATION_GROWTH">
-			<Text>-20% [ICON_HAPPINESS_4] Unhappiness from number of [ICON_CITIZEN] Citizens.</Text>
+			<Text>[ICON_BULLET]-30% [ICON_HAPPINESS_4] Unhappiness from number of [ICON_CITIZEN] Citizens. [NEWLINE][ICON_BULLET]India's rich diversity lowers policies cost by 15%. </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_CARNIVAL_SHORT">
+			<Text>Ordem and Progresso</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_CARNIVAL">
+			<Text>[ICON_BULLET]Tourism [ICON_TOURISM] output is +100% during their Golden Ages. Earn Great Artists, Musicians, and Writers 100% faster during their Golden Ages. [NEWLINE][ICON_BULLET]-10% [ICON_HAPPINESS_4] Unhappiness from number of [ICON_CITIZEN] Citizens.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_EXTRA_BELIEF_SHORT">
+			<Text>Second Rome</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_EXTRA_BELIEF">
-			<Text>Choose one more Belief than normal when you found a Religion. A Great Prophet appears after researching Writing.</Text>
+			<Text>[ICON_BULLET]Choose one more Belief than normal when you found a Religion. A Great Prophet appears after researching Writing. [NEWLINE][ICON_BULLET]Byzantine religious traditions grants +50% religion spread from trade routes; +20% [ICON_PRODUCTION]production towards Wonders. </Text>
 		</Replace>
 
+		<Replace Tag="TXT_KEY_TRAIT_SEVEN_CITIES">
+      		<Text>[ICON_BULLET][ICON_GOLD] Gold bonus for discovering a Natural Wonder (Increased bonus for being the first to discover). [ICON_CULTURE] Culture, [ICON_HAPPINESS_1] Happiness, and tile yields from Natural Wonders tripled. [NEWLINE][ICON_BULLET]The spirit of Spanish exploration granths 33% lower naval unit maintenance; Religious pressure emnating from trade routes tripled.</Text>
+    	</Replace>
+
 		<Replace Tag="TXT_KEY_TRAIT_FAITH_FROM_NATURE">
-			<Text>+1 [ICON_PEACE] Faith per city with an adjacent unimproved Forest. Bonus increases to +2 [ICON_PEACE] Faith in Cities with 3 or more adjacent unimproved Forest tiles. +1 [ICON_PRODUCTION] Production for every Camp. </Text>
+			<Text>[ICON_BULLET]+1 [ICON_PEACE] Faith per city with an adjacent unimproved Forest. Bonus increases to +2 [ICON_PEACE] Faith in Cities with 3 or more adjacent unimproved Forest tiles. [NEWLINE][ICON_BULLET] Celtic Druidism grants an additional religious belief. +4 [ICON_PRODUCTION] Production for every Camp and Lumbermill. </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_ANNEX_CITY_STATE_SHORT">
+			<Text>Habsburgian Prestige</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_ANNEX_CITY_STATE">
-			<Text>Can spend [ICON_GOLD] Gold to annex or puppet a City-State that has been your ally for 5 turns(starting from around 500 [ICON_GOLD] Gold in the Ancient Era and the price will rise when Austria entering a new era). A Great Musician appears after researching Acoustics.</Text>
+			<Text>[ICON_BULLET]Can spend [ICON_GOLD] Gold to annex or puppet a City-State that has been your ally for 5 turns(starting from around 500 [ICON_GOLD] Gold in the Ancient Era and the price will rise when Austria entering a new era). A Great Musician appears after researching Acoustics. [NEWLINE][ICON_BULLET]Austrias rich cultural history grants +10% [ICON_CULTURE]culture from cultural buildings.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES_SHORT">
+			<Text>Prosperity in Unity</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES">
-			<Text>[ICON_FOOD] Food, [ICON_CULTURE] Culture, and [ICON_PEACE] Faith from friendly City-States increased by 50%. +2 [ICON_GOLD] Gold for all Specialists. </Text>
+			<Text>[ICON_BULLET][ICON_FOOD] Food, [ICON_CULTURE] Culture, and [ICON_PEACE] Faith from friendly City-States increased by 200%. +2 [ICON_GOLD] Gold for all Specialists. [NEWLINE][ICON_BULLET]Siamese diplomatic tradition grants the ability to annex long term City State allies for gold.</Text>
 		</Replace>
 		
 		
-		
+		<Replace Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD2_SHORT">
+			<Text>Glorious Caliphate</Text>
+		</Replace>
 		
 
 		<Replace Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD2">
-			<Text>+50% Range for Caravans. +300% for the efficiency of your trade routes spread the home city's religion. +2 [ICON_CULTURE] Culture and +2 [ICON_PEACE] Faith from every Oasis.</Text>
+			<Text>[ICON_BULLET]+100% Range for Caravans. +300% for the efficiency of your trade routes spread the home city's religion. +2 [ICON_CULTURE] Culture and +2 [ICON_PEACE] Faith from every Oasis. [NEWLINE][ICON_BULLET]Arab mysticism grants the ability to choose an extra religious belief; Golden ages are 30% longer. </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE_SHORT">
+			<Text>Empire in the North</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE">
@@ -179,16 +257,16 @@
 		</Replace>
 		
 		<Replace Tag="TXT_KEY_TRAIT_SCHOLARS_JADE_HALL">
-			<Text>+2 [ICON_RESEARCH] Science for all Specialists. +2 [ICON_RESEARCH] Science for all Great Person tile improvements. </Text>
+			<Text>+2 [ICON_RESEARCH] Science for all Specialists. +2 [ICON_RESEARCH] Science for all Great Person tile improvements. [NEWLINE][ICON_BULLET]Koreas rich tradition of scientific and cultural progress grants +2 [ICON_CULTURE]Culture per Scientist. </Text>
 		</Replace>
 
 
 		<Replace Tag="TXT_KEY_TRAIT_LONG_COUNT">
-			<Text>After researching Theology, receive a [ICON_RESEARCH] Science boost each time a scientific building/Wonder is built in the [ICON_CAPITAL] Capital. Also receive a bonus Great Person at the end of every Maya Long Count calendar cycle (every 394 years) (Each bonus person can only be chosen once)</Text>
+			<Text>[ICON_BULLET]After researching Theology, receive a [ICON_RESEARCH] Science boost each time a scientific building/Wonder is built in the [ICON_CAPITAL] Capital. Also receive a bonus Great Person at the end of every Maya Long Count calendar cycle (every 394 years) (Each bonus person can only be chosen once) [NEWLINE][ICON_BULLET]Mastery of the jungles provides no movement malus to any Mayan units.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST">
-			<Text>Units move through Forest and Jungle in friendly territory as if they were Roads. These tiles can also be used to establish [ICON_CONNECTED] City Connections and speed up Caravans. All Land Units receive a [ICON_STRENGTH] Combat Bonus (+20%) when fighting in Forest Tiles.</Text>
+			<Text>[ICON_BULLET]Units move through Forest and Jungle in friendly territory as if they were Roads. These tiles can also be used to establish [ICON_CONNECTED] City Connections and speed up Caravans. All Land Units receive a [ICON_STRENGTH] Combat Bonus (+20%) when fighting in Forest Tiles. [NEWLINE][ICON_BULLET]+4 [ICON_PRODUCTION] Production for every Lumbermill. </Text>
 		</Replace>
 
 

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!-- Create the Aedes -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AEDES</Type>
+			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<Cost>60</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_AEDES</Description>
+			<Civilopedia>TXT_KEY_BUILDING_AEDES_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AEDES_STRATEGY</Strategy>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<UnmoddedHappiness>1</UnmoddedHappiness>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>13</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AEDES</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AEDES</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AEDES</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_AEDES">
+			<Text>Aedes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AEDES_STRATEGY">
+			<Text>The Aedes is the Roman unique building. Replacing the Temple, the Aedes increases not only the [ICON_PEACE] Faith of a City, but also increases the global [ICON_HAPPINESS_1] Happiness of the empire, so you can make use of the [ICON_HAPPINESS_1] Happiness bonus regardless of the population of the City. An Aedes is cheaper to construct than a Temple, costs no maintenance, and does not require a Shrine to be built first in the City, so build them right away.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AEDES_TEXT">
+			<Text>The aedes was the dwelling place of a god. It was thus a structure that housed the deity's image, distinguished from the templum or "sacred district." Aedes is one of several Latin words that can be translated as "shrine" or "temple." For instance, the Temple of Vesta, as it is called in English, was in Latin an aedes.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_AEDES</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+</GameData>

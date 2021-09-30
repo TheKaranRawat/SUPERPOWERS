@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/27/2014 12:59:45 PM -->
+<GameData>
+	<Language_en_US>
+	<Row Tag="TXT_KEY_UNIT_4NUMIDIAN">
+		<Text>Numidian Cavalry</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_4NUMIDIAN_TEXT">
+		<Text>
+			Numidian cavalry was a type of light cavalry developed by the Numidians. After they were used by Hannibal during the Second Punic War, they were described by the Roman historian Livy as "by far the best horsemen in Africa."[NEWLINE][NEWLINE]The Numidian cavalry's horses, ancestors of the Berber horse, were small compared to other horses of the era, and were well adapted for faster movement over long distances. They had no form of bodily protection except for a round leather shield. Due to their expert horsemanship and agility, as well as their lack of armor or heavy weaponry, they were most suitable for harassing tactics, charging in loose formation and lobbing their javelins before wheeling off to escape the enemy's counterattack. This harassing tactic, while rarely decisive, could be extremely frustrating to a less mobile enemy, as experienced by Julius Caesar's soldiers during the latter's invasion of Africa. At the same time they were generally unable to stand their ground against heavier types of cavalry, in one incident during the aforementioned African invasion thirty of Caesar's Gallic horsemen drove off a much larger force of Moorish cavalry, while in another a squadron of Caesar's Iberian horsemen routed a large body of Labienus's Numidians, while his Gallic and Germanic horsemen stood their ground.
+		</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_4NUMIDIAN_STRATEGY">
+		<Text>The Numidian is a Carthaginian unique unit. Unlike the Chariot Archer it replaces, it has a melee combat bonus in open terrain, does not end its turn if entering rough terrain, and can move immediately after being purchased. Available at Horseback Riding instead of the Wheel.</Text>
+	</Row>
+		<Row Tag="TXT_KEY_UNIT_4NUMIDIAN_HELP">
+			<Text>Ranged mounted unit that can move immediately after being purchased. Only Carthage may build it.</Text>
+		</Row>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>4NUMIDIAN_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>3numidian256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4NUMIDIAN_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>3numidian128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4NUMIDIAN_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>3numidian80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4NUMIDIAN_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>3numidian64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4NUMIDIAN_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>3numidian45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4NUMIDIAN_FLAG</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>IconNumidian32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

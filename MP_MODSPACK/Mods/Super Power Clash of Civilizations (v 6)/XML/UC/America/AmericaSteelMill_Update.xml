@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adds enhanced Air unit production to the Steel Mill -->
+<GameData>
+
+	<Building_DomainProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_3UC_STEEL_MILL</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Modifier>15</Modifier>
+		</Row>
+	</Building_DomainProductionModifiers>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_3UC_STEEL_MILL_STRATEGY"/>
+			<Set>
+				<Text>The Steel Mill is an American unique building that greatly increases the [ICON_PRODUCTION] Production of a city. Unlike the Factory it replaces, the Steel Mill boosts production of armored, naval, and air units in the city, and [ICON_RES_IRON] Iron and [ICON_RES_COAL] Coal tiles yield +2 [ICON_PRODUCTION] Production. [NEWLINE][NEWLINE]Requires 1 [ICON_RES_COAL] Coal.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_3UC_STEEL_MILL_HELP"/>
+			<Set>
+				<Text>Increases the [ICON_PRODUCTION] Production of a city. Boosts production of armored, naval, and air units. [ICON_RES_IRON] Iron and [ICON_RES_COAL] Coal tiles yield +2 [ICON_PRODUCTION] Production. Only America may built it.[NEWLINE][NEWLINE]Requires 1 [ICON_RES_COAL] Coal.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+</GameData>

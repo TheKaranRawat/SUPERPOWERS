@@ -1,0 +1,18 @@
+﻿<GameData>
+	<Language_en_US>
+		
+		<!--Uniques-->
+		<Row Tag="TXT_KEY_BUILDING_CL_FALE_TELE">
+			<Text>Fale Tele</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CL_FALE_TELE_STRATEGY">
+			<Text>The Fale Tele is a Polyneisan unique building that replaces the Harbor. In addition to the Harbor's usual effects, it costs no maintenance and provides +1 [ICON_CULTURE] Culture on all sea resources and atolls. It is cheaper than the Harbor and available earlier, at Theology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CL_FALE_TELE_HELP">
+			<Text>Provides +1 [ICON_CULTURE] Culture on all sea resources and atolls. Forms a [ICON_CONNECTED] City Connection with the [ICON_CAPITAL] Capital over water. Sea trade routes originating from this city have a 50% increase in range and produce an additional 1 [ICON_GOLD] Gold when connecting to another civilization.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_FALE_TELE_TEXT">
+			<Text>In the Samoan culture, the Fale Tele (meaning big house) were the most important structures within villages. Round in shape, They serve as a meeting house for chief council meetings, family gatherings, funerals or chief title investitures. The fale tele is always situated at the front of all other houses in an extended family complex. At the front is an open area, called a malae. The malae, (similar to marae concept in Māori and other Polynesian cultures), is usually a well-kept, grassy lawn or sandy area. The malae is an important cultural space where interactions between visitors and hosts or outdoor formal gatherings take place.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

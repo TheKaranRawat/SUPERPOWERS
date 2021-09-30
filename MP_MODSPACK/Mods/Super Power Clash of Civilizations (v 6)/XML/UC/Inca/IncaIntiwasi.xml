@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!-- Adds the new Intikancha -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_INTIWASI</Type>
+			<BuildingClass>BUILDINGCLASS_GRAND_TEMPLE</BuildingClass>
+			<Cost>125</Cost>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_INTIWASI</Description>
+			<Civilopedia>TXT_KEY_BUILDING_INTIWASI_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_INTIWASI_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_INTIWASI_HELP</Help>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HolyCity>true</HolyCity>
+			<ReligiousPressureModifier>100</ReligiousPressureModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<TradeRouteRecipientBonus>4</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>2</TradeRouteTargetBonus>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+
+	<Building_PrereqBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<NumBuildingNeeded>-1</NumBuildingNeeded>
+		</Row>
+	</Building_PrereqBuildingClasses>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_INCA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<!-- Adds new text -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_INTIWASI">
+			<Text>Intiwasi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INTIWASI_HELP">
+			<Text>Doubles religious pressure emanating from this City. Improves the [ICON_GOLD] Gold yield of trade routes.[NEWLINE][NEWLINE]Must be built in a Holy City. Must have built a Temple in all Cities. The cost goes up the more cities there are in the empire. Only the Inca may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INTIWASI_STRATEGY">
+			<Text>The Incan unique building Intiwasi replaces the Grand Temple. The City in which is is built will exert religious pressure twice as strongly, increasing the rate at which nearby cities will convert. Additionally, the Intiwasi generates [ICON_GOLD] Gold. Trade routes other players make to this City will generate an extra 4 [ICON_GOLD] Gold for the City owner and the trade route owner gains an additional 2 [ICON_GOLD] Gold. This combines the effects of the East India Company with the Grand Temple, and will stack with it if built in the same City. The Inca must have a Temple in all cities before they can construct it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INTIWASI_TEXT">
+			<Text>
+				The famous Sun Temple of Cuzco was a sythesis of Incan organization, architecture, and religions. According to legend, it was the first Inca, Manko Qhapaq, who build the original temple. But it was the ninth, Pachakuteq, who since reconstructed, enlarged, improved, and modernized the most important religious complex of the vast Incan Society. Known as Intiwasi, meaning "sun house," the quality of the building was extraordinary, made with gray basaltic andesites coming from the quarries of Waqoto and Rumiqolqa..
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

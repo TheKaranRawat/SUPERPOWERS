@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_QADI_COURT</Type>
+			<BuildingClass>BUILDINGCLASS_CIRCUS</BuildingClass>
+			<Cost>75</Cost>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_QADI_COURT</Description>
+			<Civilopedia>TXT_KEY_BUILDING_QADI_COURT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_QADI_COURT_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_QADI_COURT_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_CIRCUS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<Happiness>2</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_QADI_COURT</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_QADI_COURT</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_QADI_COURT</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_QADI_COURT</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_QADI_COURT</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_QADI_COURT</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_QADI_COURT</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SONGHAI</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_CIRCUS</BuildingClassType>
+			<BuildingType>BUILDING_QADI_COURT</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_QADI_COURT">
+			<Text>Qadi Court</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_QADI_COURT_HELP">
+			<Text>Yields [ICON_HAPPINESS_1] Happiness, [ICON_GOLD] Gold, and [ICON_PEACE] Faith. Only Songhai may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_QADI_COURT_STRATEGY">
+			<Text>The Qadi Court is a Songhai unique building that replaces the Circus. In addition to [ICON_HAPPINESS_1] Happiness, the Qadi Court also yields [ICON_GOLD] Gold and [ICON_PEACE] Faith. It also has no resource requirement, so it can be built in any City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_QADI_COURT_TEXT">
+			<Text>Criminal justice in Songhai was based mainly, if not entirely, on Islamic principles, especially during the rule of Askia Muhammad. The local qadis were in addition to this, with their responsibility being to maintain order by following Sharia law under Islamic domination, according to the Qur'an. An additional qadi was noted as a necessity in order to settle minor disputes between immigrant merchants. Kings usually did not judge a defendant; however, under special circumstances, such as acts of treason, they felt an obligation to do so and thus exert their authority. Results of a trial were announced by the "town crier" and punishment for most trivial crimes usually consisted of confiscation of merchandise or even imprisonment, since various prisons existed throughout the Empire.[NEWLINE][NEWLINE]
+Not only was Askia a patron of Islam, he also was gifted in administration and encouraging trade. He centralized the administration of the empire and established an efficient bureaucracy which was responsible for, among other things, tax collection and the administration of justice. Qadis worked at the local level and were positioned in important trading towns, such as Timbuktu and Djenne. The Qadi was appointed by the king and dealt with common-law misdemeanors according to Sharia law.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

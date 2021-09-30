@@ -2452,7 +2452,7 @@
 			<NeverCapture>true</NeverCapture>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
-			<GlobalCultureRateModifier>10</GlobalCultureRateModifier>
+			<GlobalCultureRateModifier>200</GlobalCultureRateModifier>
 			<PortraitIndex>27</PortraitIndex>
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 			<Description>TXT_KEY_BUILDING_TRADITION_FINISHER_BONUS</Description>

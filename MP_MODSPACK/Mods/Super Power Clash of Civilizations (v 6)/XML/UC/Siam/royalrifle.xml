@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/27/2010 4:15:53 AM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_3ROYALRIFLE">
+			<Text>Scarecrow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_3ROYALRIFLE_TEXT">
+			<Text>
+				The Royal Thai Army is the army of Thailand responsible for protecting its sovereignty. It is the oldest and largest branch of the Royal Thai Armed Forces. The army was formed in 1874, partly as a response to new security threats following the Bowring Treaty with Britain, which opened up the country for international trade. The Royal Guards form several separate regiments within these formations.[NEWLINE][NEWLINE]The Royal Guards were established by King Chulalongkorn the Great of Thailand in 1859, when he was still crown prince. Initially, the Royal Guards were servants with duties such as scaring crows, which led to commoners referring to them as the "Mahat Lek Lai Ka," roughly translated as "Scarecrow Corps." When he succeeded his father in 1868, King Chulalongkorn took his Royal Guard and formed a 24-strong Royal Bodyguard, referred to as the "Thahan Song Lo" (Two-Dozen soldiers"). In 1870, the Royal Guard regiment were given the name the "King's Guard" and their duties included escorting the king while he travelled around the country.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_3ROYALRIFLE_STRATEGY">
+			<Text>The Scarecrow is a Siamese unique unit. Unlike the Rifleman it replaces, it gains a combat bonus when fighting in national territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_3ROYALRIFLE_HELP">
+			<Text>Gunpowder unit that fights better in national territory. Only Siam may build it.</Text>
+		</Row>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>3ROYALRIFLE_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>siamsoldier256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3ROYALRIFLE_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>siamsoldier128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3ROYALRIFLE_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>siamsoldier80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3ROYALRIFLE_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>siamsoldier64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3ROYALRIFLE_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>siamsoldier45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3SIAMSOLD_FLAG</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>IconSiamSold32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+</GameData>

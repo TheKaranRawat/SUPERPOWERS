@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/8/2014 12:21:26 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_3BUFFALOPOUND">
+			<Text>Buffalo Pound</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3BUFFALOPOUND_TEXT">
+			<Text>Bison meat played an extremely significant role culturally and economically in the lives of the Eastern Shoshones, accounting for about 50 percent of their diet at the height of the Plains horse culture in the 1700s. Fish caught during the spring and early summer were the second most important resource.[NEWLINE][NEWLINE] bison were herded into large chutes made of rocks and willow branches and trapped in a corral called a Buffalo pound and then slaughtered or stampeded over cliffs, called Buffalo jumps. Both pound and jump archaeological sites are found in several places in the U.S. and Canada. In the case of a jump, large groups of people would herd the bison for several miles, forcing them into a stampede that would ultimately drive many animals over a cliff. The large quantities of meat obtained in this way provided the hunters with surplus, which was used in trade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3BUFFALOPOUND_STRATEGY">
+			<Text>The Buffalo Pound is a Shoshone unique construction, replacing the Water Mill. Building a Buffalo Pound will reveal an improved source of Bison. [ICON_RES_BISON] Bison worked by a city with a Buffalo Pound yield +1 [ICON_FOOD] Food. The city does not need to be built on a River.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3BUFFALOPOUND_HELP">
+			<Text>Yields [ICON_FOOD] Food and [ICON_PRODUCTION] Production in a city. Bison yield additional [ICON_FOOD] Food. May reveal an improved source of Bison. Only the Shoshone may build it.</Text>
+		</Row>
+	</Language_en_US>
+
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>3BUFFALOPOUND_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>4buffalopound256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3BUFFALOPOUND_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>4buffalopound128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3BUFFALOPOUND_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>4buffalopound64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3BUFFALOPOUND_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>4buffalopound45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>
