@@ -11,7 +11,7 @@
 				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
 				<HappinessDefault>11</HappinessDefault>
 				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
-				<PopulationUnhappinessMod>120</PopulationUnhappinessMod>
+				<PopulationUnhappinessMod>20</PopulationUnhappinessMod>
 				<Gold>0</Gold>
 				<GoldFreeUnits>0</GoldFreeUnits>
 				<ProductionFreeUnits>25</ProductionFreeUnits>
@@ -66,7 +66,7 @@
 				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
 				<HappinessDefault>11</HappinessDefault>
 				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
-				<PopulationUnhappinessMod>120</PopulationUnhappinessMod>
+				<PopulationUnhappinessMod>40</PopulationUnhappinessMod>
 				<Gold>0</Gold>
 				<GoldFreeUnits>0</GoldFreeUnits>
 				<ProductionFreeUnits>25</ProductionFreeUnits>
@@ -119,7 +119,7 @@
 				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
 				<HappinessDefault>11</HappinessDefault>
 				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
-				<PopulationUnhappinessMod>120</PopulationUnhappinessMod>
+				<PopulationUnhappinessMod>60</PopulationUnhappinessMod>
 				<Gold>0</Gold>
 				<GoldFreeUnits>0</GoldFreeUnits>
 				<ProductionFreeUnits>25</ProductionFreeUnits>
@@ -178,7 +178,7 @@
 				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
 				<HappinessDefault>11</HappinessDefault>
 				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
-				<PopulationUnhappinessMod>120</PopulationUnhappinessMod>
+				<PopulationUnhappinessMod>80</PopulationUnhappinessMod>
 				<Gold>0</Gold>
 				<GoldFreeUnits>0</GoldFreeUnits>
 				<ProductionFreeUnits>25</ProductionFreeUnits>
@@ -236,7 +236,7 @@
 				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
 				<HappinessDefault>11</HappinessDefault>
 				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
-				<PopulationUnhappinessMod>120</PopulationUnhappinessMod>
+				<PopulationUnhappinessMod>100</PopulationUnhappinessMod>
 				<Gold>0</Gold>
 				<GoldFreeUnits>0</GoldFreeUnits>
 				<ProductionFreeUnits>25</ProductionFreeUnits>
@@ -297,7 +297,7 @@
 				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
 				<HappinessDefault>11</HappinessDefault>
 				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
-				<PopulationUnhappinessMod>90</PopulationUnhappinessMod>
+				<PopulationUnhappinessMod>100</PopulationUnhappinessMod>
 				<Gold>0</Gold>
 				<GoldFreeUnits>10</GoldFreeUnits>
 				<ProductionFreeUnits>25</ProductionFreeUnits>
@@ -328,11 +328,11 @@
 				<!-- <AIStartingUnitMultiplier>1</AIStartingUnitMultiplier> -->
 				<AIDeclareWarProb>200</AIDeclareWarProb>
 				<AIWorkRateModifier>250</AIWorkRateModifier>
-				<AIUnhappinessPercent>40</AIUnhappinessPercent>
+				<AIUnhappinessPercent>20</AIUnhappinessPercent>
 				<AIGrowthPercent>35</AIGrowthPercent>
 				<AITrainPercent>80</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
-				<AIConstructPercent>90</AIConstructPercent>
+				<AIConstructPercent>80</AIConstructPercent>
 				<AIWorldConstructPercent>150</AIWorldConstructPercent>
 				<AICreatePercent>140</AICreatePercent>
 				<AIWorldCreatePercent>140</AIWorldCreatePercent>

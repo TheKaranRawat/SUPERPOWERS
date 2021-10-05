@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/19/2014 9:26:32 PM -->
+<GameData>
+	<Victories>
+		<Row>
+			<Type>VICTORY_RELIGIOUS</Type>
+			<Description>TXT_KEY_VICTORY_RELIGIOUS</Description>
+			<VictoryStatement>TXT_KEY_VICTORY_RELIGIOUS_BANG</VictoryStatement>
+			<!--<VictoryBackground>Found_Religion_background.dds</VictoryBackground>-->
+			<VictoryBackground>CoronationOfCharlemagne.dds</VictoryBackground>
+			<Civilopedia>TXT_KEY_VICTORY_RELIGIOUS_PEDIA</Civilopedia>
+			<WinsGame>true</WinsGame>
+			<TargetScore>true</TargetScore>
+			<Audio>AS2D_VICTORY_SPEECH_RELIGIOUS_VICTORY</Audio>
+		</Row>
+		<Row>
+			<Type>VICTORY_ECONOMIC</Type>
+			<Description>TXT_KEY_VICTORY_ECONOMIC</Description>
+			<VictoryStatement>TXT_KEY_VICTORY_ECONOMIC_BANG</VictoryStatement>
+			<VictoryBackground>SolonAndCroesus2.dds</VictoryBackground>
+			<Civilopedia>TXT_KEY_VICTORY_ECONOMIC_PEDIA</Civilopedia>
+			<WinsGame>true</WinsGame>
+			<TargetScore>true</TargetScore>
+			<Audio>AS2D_VICTORY_SPEECH_ECONOMIC_VICTORY</Audio>
+		</Row>
+	</Victories>
+</GameData>

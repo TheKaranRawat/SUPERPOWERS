@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/14/2014 10:13:15 PM -->
+<GameData>
+	<IconFontTextures>
+		<Row>
+			<IconFontTexture>ICON_FONT_TEXTURE_EVC</IconFontTexture>
+			<IconFontTextureFile>EVCFontIcons</IconFontTextureFile>
+		</Row>
+	</IconFontTextures>
+	<IconFontMapping>
+		<Row>
+			<IconName>ICON_VICTORY_RELIGIOUS</IconName>
+			<IconMapping>1</IconMapping>
+			<IconFontTexture>ICON_FONT_TEXTURE_EVC</IconFontTexture>
+		</Row>
+		<Row>
+			<IconName>ICON_VICTORY_ECONOMIC</IconName>
+			<IconMapping>2</IconMapping>
+			<IconFontTexture>ICON_FONT_TEXTURE_EVC</IconFontTexture>
+		</Row>
+	</IconFontMapping>
+</GameData>

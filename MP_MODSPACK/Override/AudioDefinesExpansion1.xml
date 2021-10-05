@@ -3,6 +3,20 @@
 <AudioDefinesFile> 
 
 	<SoundDatas>
+		<SoundData> 
+			<SoundID>SND_VICTORY_SPEECH_RELIGIOUS_VICTORY</SoundID> 
+			<Filename>Speech_Religious_Victory</Filename> 
+			<LoadType>STREAMED</LoadType> 
+			<bOnlyLoadOneVariationEachTime>0</bOnlyLoadOneVariationEachTime> 
+			<bDontCache>0</bDontCache> 
+		</SoundData>
+		<SoundData> 
+			<SoundID>SND_VICTORY_SPEECH_ECONOMIC_VICTORY</SoundID> 
+			<Filename>Speech_Economic_Victory</Filename> 
+			<LoadType>STREAMED</LoadType> 
+			<bOnlyLoadOneVariationEachTime>0</bOnlyLoadOneVariationEachTime> 
+			<bDontCache>0</bDontCache> 
+		</SoundData>
 	</SoundDatas>
 </AudioDefinesFile> 
 

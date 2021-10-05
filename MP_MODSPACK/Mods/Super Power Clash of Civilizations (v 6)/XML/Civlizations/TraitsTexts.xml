@@ -31,7 +31,7 @@
 			<Text>Great Russian Soul</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES">
-			<Text>[ICON_BULLET]The first 8 [ICON_CITIZEN] Citizens in your cities don't generate [ICON_HAPPINESS_4] Unhappiness. +6 [ICON_GOLD] Gold and +6 [ICON_RES_CONSUMER] Consumer Goods for all cities. [NEWLINE][ICON_BULLET]Russian military might grants -10% unit maintenance cost. All Units gain +15% [ICON_STRENGTH] Combat Strength bonus while fighting within their own territory.</Text>
+			<Text>[ICON_BULLET]The first 8 [ICON_CITIZEN] Citizens in your cities don't generate [ICON_HAPPINESS_4] Unhappiness. +6 [ICON_GOLD] Gold and +12 [ICON_RES_CONSUMER] Consumer Goods for all cities. [NEWLINE][ICON_BULLET]Russian military might grants -10% unit maintenance cost. All Units gain +15% [ICON_STRENGTH] Combat Strength bonus while fighting within their own territory.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_GREAT_ANDEAN_ROAD">
@@ -99,7 +99,7 @@
 
 
 		<Replace Tag="TXT_KEY_TRAIT_VIKING_FURY">
-			<Text>[ICON_BULLET]Land Melee units and Naval Melee units pay no Movement [ICON_MOVES] to pillage and pillage Gold equal to 300% of the damage inflicted on a city. Receive triple [ICON_GOLD] Gold from barbarian encampments or pillaging cities. [NEWLINE][ICON_BULLET]+2 [ICON_CULTURE]A nation of seafarers; gain +2 [ICON_CULTURE]culture output for every Fishing Net, Workboat and Offshore Platform. </Text>
+			<Text>[ICON_BULLET]Land Melee units and Naval Melee units pay no Movement [ICON_MOVES] to pillage and pillage Gold equal to 300% of the damage inflicted on a city. Receive triple [ICON_GOLD] Gold from barbarian encampments or pillaging cities. [NEWLINE][ICON_BULLET]The Danes have been a nation of seafarers; gain +2 [ICON_CULTURE]culture output for every Fishing Net, Workboat and Offshore Platform. </Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_SLAYER_OF_TIAMAT">
@@ -189,7 +189,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_POPULATION_GROWTH_SHORT">
-			<Text>Hindustani Vidya</Text>
+			<Text>Population Growth</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_POPULATION_GROWTH">

@@ -547,18 +547,20 @@ function AIUnitsAssist(playerID)
 						 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
 						 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
 						 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
-						 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
-						 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
-						 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
-						 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)		
+					--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
+					--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
+					--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
+					--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)		
 						 	
 					 elseif unit:GetUnitType() == GameInfoTypes.UNIT_MISSILE_CRUISER or unit:GetUnitType() == GameInfoTypes.UNIT_KOREAN_SEJONG_CLASS then
 						 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
-						 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)
-						 			
-					 elseif unit:GetUnitType() == GameInfoTypes.UNIT_MODERN_DESTROYER then
- 						 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
-					 end
+					--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)
+						 
+						 
+					-- elseif unit:GetUnitType() == GameInfoTypes.UNIT_MODERN_DESTROYER then
+ 					--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
+					-- end
+
 				 end
 				
 
@@ -642,6 +644,7 @@ function AIUnitsAssist(playerID)
 	end
 	
 	
+end
 end
 	
 GameEvents.PlayerDoTurn.Add(AIUnitsAssist)
@@ -1319,7 +1322,7 @@ function MinorNoCombatUnits(iPlayer, iCity, iUnit, bGold, bFaith)
 		return
 	end
 	
-	if iUnit == nil then
+	if iUnit == nil then 
 		return
 	end	
 		
@@ -1345,12 +1348,6 @@ end
 
 
 GameEvents.CityTrained.Add(MinorNoCombatUnits)
-
-
-
-
-
-
-
-
 print("New Handicap Check Pass!")
+
+

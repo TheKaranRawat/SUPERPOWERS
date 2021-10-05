@@ -82,7 +82,7 @@
 			<Immobile>true</Immobile>
 			<Range>10</Range>
 			<AirInterceptRange>10</AirInterceptRange>
-			<HurryCostModifier>50</HurryCostModifier>
+			<HurryCostModifier>100</HurryCostModifier>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
@@ -123,7 +123,7 @@
 			<Immobile>true</Immobile>
 			<Range>15</Range>
 			<AirInterceptRange>15</AirInterceptRange>
-			<HurryCostModifier>75</HurryCostModifier>
+			<HurryCostModifier>125</HurryCostModifier>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
@@ -163,7 +163,7 @@
 			<Immobile>true</Immobile>
 			<Range>20</Range>
 			<AirInterceptRange>20</AirInterceptRange>
-			<HurryCostModifier>100</HurryCostModifier>
+			<HurryCostModifier>175</HurryCostModifier>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
@@ -196,13 +196,13 @@
 			<Class>UNITCLASS_INTERCEPTER</Class>
 			<Type>UNIT_RUSSIAN_SU27</Type>
 			<PrereqTech>TECH_ADV_FLIGHT</PrereqTech>
-			<RangedCombat>160</RangedCombat>
+			<RangedCombat>180</RangedCombat>
 			<Cost>1200</Cost>
 			<Moves>3</Moves>
 			<Immobile>true</Immobile>
-			<Range>20</Range>
+			<Range>25</Range>
 			<AirInterceptRange>20</AirInterceptRange>
-			<HurryCostModifier>100</HurryCostModifier>
+			<HurryCostModifier>150</HurryCostModifier>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
@@ -243,7 +243,7 @@
 			<Immobile>true</Immobile>
 			<Range>25</Range>
 			<AirInterceptRange>25</AirInterceptRange>
-			<HurryCostModifier>125</HurryCostModifier>
+			<HurryCostModifier>250</HurryCostModifier>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
@@ -280,7 +280,7 @@
 			<Immobile>true</Immobile>
 			<Range>35</Range>
 			<AirInterceptRange>35</AirInterceptRange>
-			<HurryCostModifier>125</HurryCostModifier>
+			<HurryCostModifier>150</HurryCostModifier>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
@@ -320,7 +320,7 @@
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<Immobile>true</Immobile>
 			<Range>8</Range>
-			<HurryCostModifier>50</HurryCostModifier>
+			<HurryCostModifier>100</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
@@ -358,7 +358,7 @@
 			<Immobile>true</Immobile>
 			<Range>12</Range>
 			<Special>SPECIALUNIT_STEALTH</Special>
-			<HurryCostModifier>75</HurryCostModifier>
+			<HurryCostModifier>150</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
@@ -395,7 +395,7 @@
 			<Immobile>true</Immobile>
 			<Range>12</Range>
 			<Special>SPECIALUNIT_STEALTH</Special>
-			<HurryCostModifier>75</HurryCostModifier>
+			<HurryCostModifier>100</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
@@ -433,7 +433,7 @@
 			<Immobile>true</Immobile>
 			<Range>16</Range>
 			<Special>SPECIALUNIT_STEALTH</Special>
-			<HurryCostModifier>100</HurryCostModifier>
+			<HurryCostModifier>200</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
@@ -463,7 +463,7 @@
 			<Class>UNITCLASS_ATTACK_AIRCRAFT</Class>
 			<Type>UNIT_FRANCE_MIRRAGE2000</Type>
 			<PrereqTech>TECH_ADV_FLIGHT</PrereqTech>
-			<RangedCombat>200</RangedCombat>
+			<RangedCombat>150</RangedCombat>
 			<Cost>1200</Cost>
 			<Moves>3</Moves>
 			<Immobile>true</Immobile>
@@ -503,10 +503,10 @@
 			<RangedCombat>220</RangedCombat>
 			<Cost>2400</Cost>
 			<Moves>3</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<Immobile>true</Immobile>
 			<Range>20</Range>
 			<Special>SPECIALUNIT_STEALTH</Special>
-			<HurryCostModifier>125</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
@@ -619,7 +619,7 @@
 			<Immobile>true</Immobile>
 			<Range>35</Range>
 			<Special>SPECIALUNIT_STEALTH</Special>
-			<HurryCostModifier>175</HurryCostModifier>
+			<HurryCostModifier>250</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
@@ -653,10 +653,10 @@
 			<RangedCombat>500</RangedCombat>
 			<Cost>3500</Cost>
 			<Moves>2</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<Immobile>true</Immobile>
 			<Range>45</Range>
-			<HurryCostModifier>200</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
@@ -720,7 +720,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>40</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<ExtraMaintenanceCost>7</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
 		</Row>
 
 		
@@ -758,7 +758,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>43</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<ExtraMaintenanceCost>8</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_CARRIER_FIGHTER_JET</Class>
@@ -794,7 +794,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>29</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<ExtraMaintenanceCost>8</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
@@ -831,7 +831,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>29</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<ExtraMaintenanceCost>9</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
 		</Row>
 		
 		
@@ -868,7 +868,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>44</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<ExtraMaintenanceCost>9</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 		
 
@@ -879,12 +879,12 @@
 			<Class>UNITCLASS_GUIDED_MISSILE</Class>
 			<Type>UNIT_GUIDED_MISSILE</Type>
 			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
-			<RangedCombat>250</RangedCombat>
+			<RangedCombat>350</RangedCombat>
 			<Cost>-1</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
 			<!--<NoMaintenance>true</NoMaintenance>-->
-			<Range>8</Range>
+			<Range>12</Range>
 			<Special>SPECIALUNIT_MISSILE</Special>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_MISSILE_AIR</DefaultUnitAI>
@@ -918,7 +918,7 @@
 			<Cost>750</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
-			<Range>12</Range>
+			<Range>16</Range>
 			<Suicide>true</Suicide>
 			<Special>SPECIALUNIT_NUKE</Special>
 			<Domain>DOMAIN_AIR</Domain>
@@ -963,10 +963,10 @@
 			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
 			<Cost>3500</Cost>
 			<Moves>2</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<Immobile>true</Immobile>
 			<Range>18</Range>
 			<Special>SPECIALUNIT_STEALTH</Special>
-			<HurryCostModifier>150</HurryCostModifier>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ICBM</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_ATOMIC_BOMB</Description>
@@ -1000,10 +1000,10 @@
 			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
 			<Cost>5500</Cost>
 			<Moves>2</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<Immobile>true</Immobile>
 			<Range>25</Range>
 			<Special>SPECIALUNIT_NUKE</Special>
-			<HurryCostModifier>150</HurryCostModifier>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ICBM</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_NUCLEAR_MISSILE</Description>
@@ -1036,10 +1036,10 @@
 			<PrereqTech>TECH_INTEGRATED_DEFENSE</PrereqTech>
 			<Cost>8000</Cost>
 			<Moves>2</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<Immobile>true</Immobile>
 			<Range>60</Range>
 			<Special>SPECIALUNIT_NUKE</Special>
-			<HurryCostModifier>150</HurryCostModifier>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ICBM</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_ICBM_MISSILE</Description>

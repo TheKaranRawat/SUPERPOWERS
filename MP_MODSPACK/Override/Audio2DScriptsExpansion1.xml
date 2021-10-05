@@ -3,6 +3,24 @@
 <Script2DFile> 
 
 	<Script2DSounds>
+		<Script2DSound> 
+			<ScriptID>AS2D_VICTORY_SPEECH_RELIGIOUS_VICTORY</ScriptID> 
+			<SoundID>SND_VICTORY_SPEECH_RELIGIOUS_VICTORY</SoundID> 
+			<SoundType>GAME_SPEECH</SoundType> 
+			<iMaxVolume>100</iMaxVolume> 
+			<iMinVolume>100</iMinVolume> 
+			<bIsMusic>0</bIsMusic> 
+			<iPriority>1</iPriority> 
+		</Script2DSound>
+		<Script2DSound> 
+			<ScriptID>AS2D_VICTORY_SPEECH_ECONOMIC_VICTORY</ScriptID> 
+			<SoundID>SND_VICTORY_SPEECH_ECONOMIC_VICTORY</SoundID> 
+			<SoundType>GAME_SPEECH</SoundType> 
+			<iMaxVolume>100</iMaxVolume> 
+			<iMinVolume>100</iMinVolume> 
+			<bIsMusic>0</bIsMusic> 
+			<iPriority>1</iPriority> 
+		</Script2DSound>
 	</Script2DSounds>
 </Script2DFile> 
 

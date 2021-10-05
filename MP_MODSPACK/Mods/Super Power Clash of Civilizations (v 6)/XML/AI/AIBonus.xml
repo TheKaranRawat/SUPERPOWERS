@@ -6,7 +6,7 @@
 		<Row>
 			<Type>POLICY_AI_MEDIEVAL</Type>
 			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
-			<UnhappinessMod>-5</UnhappinessMod>
+			<UnhappinessMod>-15</UnhappinessMod>
 			<CityGrowthMod>30</CityGrowthMod>
 			
 		</Row>
@@ -14,7 +14,7 @@
 			<Type>POLICY_AI_RENAISSANCE</Type>
 			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
 			<CityGrowthMod>35</CityGrowthMod>
-			<UnhappinessMod>-5</UnhappinessMod>
+			<UnhappinessMod>-30</UnhappinessMod>
 			<FreeExperience>15</FreeExperience>
 		</Row>
 		<Row>
@@ -23,7 +23,7 @@
 			<StealTechFasterModifier>25</StealTechFasterModifier>
 			<CatchSpiesModifier>-25</CatchSpiesModifier>
 			<CityGrowthMod>35</CityGrowthMod>
-			<UnhappinessMod>-25</UnhappinessMod>
+			<UnhappinessMod>-35</UnhappinessMod>
 			<!--<HappinessToScience>5</HappinessToScience>-->
 			<FreeExperience>15</FreeExperience>
 			<PlotCultureExponentModifier>15</PlotCultureExponentModifier>
@@ -36,7 +36,7 @@
 			<MinorGoldFriendshipMod>25</MinorGoldFriendshipMod>
 			<CityGrowthMod>35</CityGrowthMod>
 			<UnitGoldMaintenanceMod>-25</UnitGoldMaintenanceMod>
-			<UnhappinessMod>-25</UnhappinessMod>
+			<UnhappinessMod>-60</UnhappinessMod>
 			<ThemingBonusMultiplier>100</ThemingBonusMultiplier>
 			<!--<HappinessToScience>10</HappinessToScience>-->
 			<FreeExperience>30</FreeExperience>
@@ -46,24 +46,24 @@
 			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
 			<WonderProductionModifier>25</WonderProductionModifier>
 			<CatchSpiesModifier>-50</CatchSpiesModifier>
-			<MinorFriendshipDecayMod>-25</MinorFriendshipDecayMod>
+			<MinorFriendshipDecayMod>-65</MinorFriendshipDecayMod>
 			<CityGrowthMod>40</CityGrowthMod>
 			<ProtectedMinorPerTurnInfluence>100</ProtectedMinorPerTurnInfluence>
 			<AfraidMinorPerTurnInfluence>100</AfraidMinorPerTurnInfluence>
 			<HappinessToScience>10</HappinessToScience>
-			<UnhappinessMod>-20</UnhappinessMod>
+			<UnhappinessMod>-100</UnhappinessMod>
 			<ThemingBonusMultiplier>200</ThemingBonusMultiplier>
 		</Row>
 		<Row>
 			<Type>POLICY_AI_ATOMIC</Type>
 			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
 			<WonderProductionModifier>25</WonderProductionModifier>
-			<MinorFriendshipDecayMod>-25</MinorFriendshipDecayMod>
+			<MinorFriendshipDecayMod>-75</MinorFriendshipDecayMod>
 			<CityGrowthMod>30</CityGrowthMod>
 			<ProtectedMinorPerTurnInfluence>100</ProtectedMinorPerTurnInfluence>
 			<AfraidMinorPerTurnInfluence>100</AfraidMinorPerTurnInfluence>
 			<HappinessToScience>10</HappinessToScience>
-			<UnhappinessMod>-50</UnhappinessMod>
+			<UnhappinessMod>-150</UnhappinessMod>
 			<ThemingBonusMultiplier>400</ThemingBonusMultiplier>
 		</Row>
 		<Row>
@@ -75,7 +75,7 @@
 			<AfraidMinorPerTurnInfluence>200</AfraidMinorPerTurnInfluence>
 			<HappinessToCulture>10</HappinessToCulture>
 			<HappinessToScience>10</HappinessToScience>
-			<UnhappinessMod>-120</UnhappinessMod>
+			<UnhappinessMod>-200</UnhappinessMod>
 			<ThemingBonusMultiplier>800</ThemingBonusMultiplier>
 		</Row>
 
@@ -88,7 +88,7 @@
 			<AfraidMinorPerTurnInfluence>800</AfraidMinorPerTurnInfluence>
 			<HappinessToCulture>33</HappinessToCulture>
 			<HappinessToScience>33</HappinessToScience>
-			<UnhappinessMod>-10</UnhappinessMod>
+			<UnhappinessMod>-30</UnhappinessMod>
 			<BuildingProductionModifier>100</BuildingProductionModifier>
 			<RiggingElectionModifier>100</RiggingElectionModifier>
 			<StealTechFasterModifier>100</StealTechFasterModifier>
@@ -103,8 +103,8 @@
 			<AfraidMinorPerTurnInfluence>500</AfraidMinorPerTurnInfluence>
 			<HappinessToCulture>25</HappinessToCulture>
 			<HappinessToScience>25</HappinessToScience>
-			<CityGrowthMod>15</CityGrowthMod>
-			<UnhappinessMod>-10</UnhappinessMod>
+			<CityGrowthMod>45</CityGrowthMod>
+			<UnhappinessMod>-40</UnhappinessMod>
 			<BuildingProductionModifier>50</BuildingProductionModifier>
 			<WonderProductionModifier>25</WonderProductionModifier>
 			<RiggingElectionModifier>200</RiggingElectionModifier>
@@ -121,8 +121,8 @@
 			<AfraidMinorPerTurnInfluence>200</AfraidMinorPerTurnInfluence>
 			<HappinessToCulture>10</HappinessToCulture>
 			<HappinessToScience>10</HappinessToScience>
-			<CityGrowthMod>30</CityGrowthMod>
-			<UnhappinessMod>-30</UnhappinessMod>
+			<CityGrowthMod>90</CityGrowthMod>
+			<UnhappinessMod>-50</UnhappinessMod>
 			<ThemingBonusMultiplier>200</ThemingBonusMultiplier>
 			<RiggingElectionModifier>50</RiggingElectionModifier>
 			<BuildingGoldMaintenanceMod>-10</BuildingGoldMaintenanceMod>
@@ -138,8 +138,8 @@
 			<AfraidMinorPerTurnInfluence>100</AfraidMinorPerTurnInfluence>
 			<!--<HappinessToCulture>10</HappinessToCulture>-->
 			<!--<HappinessToScience>15</HappinessToScience>-->
-			<UnhappinessMod>-50</UnhappinessMod>
-			<CityGrowthMod>40</CityGrowthMod>
+			<UnhappinessMod>-80</UnhappinessMod>
+			<CityGrowthMod>120</CityGrowthMod>
 			<BuildingGoldMaintenanceMod>-30</BuildingGoldMaintenanceMod>
 			<UnitGoldMaintenanceMod>-35</UnitGoldMaintenanceMod>
 			<ThemingBonusMultiplier>100</ThemingBonusMultiplier>
@@ -151,10 +151,10 @@
 		<Row>
 			<Type>POLICY_AI_ATWAR_BONUS</Type>
 			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
-			<CityGrowthMod>50</CityGrowthMod>
-			<StrategicResourceMod>150</StrategicResourceMod>
-			<MilitaryProductionModifier>200</MilitaryProductionModifier>
-			<BuildingProductionModifier>200</BuildingProductionModifier>
+			<CityGrowthMod>100</CityGrowthMod>
+			<StrategicResourceMod>200</StrategicResourceMod>
+			<MilitaryProductionModifier>300</MilitaryProductionModifier>
+			<BuildingProductionModifier>300</BuildingProductionModifier>
 		</Row>
 		
 		<Row>
@@ -711,37 +711,37 @@
 		<Row>
 			<PolicyType>POLICY_AI_MEDIEVAL</PolicyType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_AI_RENAISSANCE</PolicyType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_AI_MODERN</PolicyType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>8</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_AI_INFORMATION</PolicyType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>8</Yield>
 		</Row>
 	</Policy_SpecialistExtraYields>
 

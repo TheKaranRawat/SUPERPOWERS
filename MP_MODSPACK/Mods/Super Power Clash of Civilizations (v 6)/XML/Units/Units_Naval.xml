@@ -468,7 +468,7 @@
 			<Combat>120</Combat>
 			<Cost>565</Cost>
 			<Moves>9</Moves>
-			<HurryCostModifier>33</HurryCostModifier>
+			<HurryCostModifier>70</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
@@ -506,7 +506,7 @@
 			<Cost>875</Cost>
 			<Moves>10</Moves>
 			<AirInterceptRange>2</AirInterceptRange>
-			<HurryCostModifier>100</HurryCostModifier>
+			<HurryCostModifier>150</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
@@ -536,11 +536,11 @@
 			<Type>UNIT_JAPANESE_DESTROYER</Type>
 			<PrereqTech>TECH_SONAR</PrereqTech>
 			<BaseSightRange>3</BaseSightRange>
-			<Combat>200</Combat>
-			<Cost>875</Cost>
-			<Moves>10</Moves>
+			<Combat>210</Combat>
+			<Cost>800</Cost>
+			<Moves>12</Moves>
 			<AirInterceptRange>1</AirInterceptRange>
-			<HurryCostModifier>33</HurryCostModifier>
+			<HurryCostModifier>100</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
@@ -576,7 +576,7 @@
 			<BaseSightRange>4</BaseSightRange>
 			<Combat>250</Combat>
 			<Cost>1850</Cost>
-			<Moves>11</Moves>
+			<Moves>12</Moves>
 			<AirInterceptRange>3</AirInterceptRange>
 			<HurryCostModifier>200</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
@@ -602,8 +602,10 @@
 			<PortraitIndex>0</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
 			<ExtraMaintenanceCost>90</ExtraMaintenanceCost>
+			<!-- 
 			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			-->
 		</Row>
 		<Row>
 			<Class>UNITCLASS_MODERN_DESTROYER</Class>
@@ -611,8 +613,8 @@
 			<PrereqTech>TECH_ROBOTICS</PrereqTech>
 			<BaseSightRange>4</BaseSightRange>
 			<Combat>280</Combat>
-			<Cost>1850</Cost>
-			<Moves>11</Moves>
+			<Cost>1550</Cost>
+			<Moves>12</Moves>
 			<AirInterceptRange>3</AirInterceptRange>
 			<HurryCostModifier>200</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
@@ -770,7 +772,7 @@
 			<Cost>315</Cost>
 			<Moves>10</Moves>
 			<Range>1</Range>
-			<HurryCostModifier>25</HurryCostModifier>
+			<HurryCostModifier>75</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -809,6 +811,7 @@
 			<RangedCombat>120</RangedCombat>
 			<Cost>450</Cost>
 			<Moves>10</Moves>
+			<HurryCostModifier>75</HurryCostModifier>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -840,10 +843,11 @@
 			<Type>UNIT_GERMAN_UBOAT</Type>
 			<PrereqTech>TECH_SONAR</PrereqTech>
 			<BaseSightRange>5</BaseSightRange>
-			<Combat>60</Combat>
+			<Combat>80</Combat>
 			<RangedCombat>120</RangedCombat>
 			<Cost>400</Cost>
-			<Moves>10</Moves>
+			<Moves>12</Moves>
+			<HurryCostModifier>50</HurryCostModifier>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -882,6 +886,7 @@
 			<RangedCombat>240</RangedCombat>
 			<Cost>700</Cost>
 			<Moves>11</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -1106,7 +1111,7 @@
 			<Cost>700</Cost>
 			<Moves>7</Moves>
 			<Range>3</Range>
-			<HurryCostModifier>50</HurryCostModifier>
+			<HurryCostModifier>60</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1144,7 +1149,7 @@
 			<Moves>8</Moves>
 			<Range>3</Range>
 			<AirInterceptRange>3</AirInterceptRange>
-			<HurryCostModifier>50</HurryCostModifier>
+			<HurryCostModifier>100</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1177,11 +1182,11 @@
 			<BaseSightRange>3</BaseSightRange>
 			<Combat>280</Combat>
 			<RangedCombat>180</RangedCombat>
-			<Cost>1200</Cost>
+			<Cost>1100</Cost>
 			<Moves>8</Moves>
 			<Range>3</Range>
 			<AirInterceptRange>3</AirInterceptRange>
-			<HurryCostModifier>50</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1250,13 +1255,13 @@
 			<Type>UNIT_KIROV_BATTLECRUISER</Type>
 			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
 			<BaseSightRange>3</BaseSightRange>
-			<Combat>350</Combat>
+			<Combat>380</Combat>
 			<RangedCombat>350</RangedCombat>
 			<Cost>2500</Cost>
 			<Moves>9</Moves>
 			<Range>4</Range>
 			<AirInterceptRange>4</AirInterceptRange>
-			<HurryCostModifier>250</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1293,7 +1298,7 @@
 			<Cost>2000</Cost>
 			<Moves>10</Moves>
 			<AirInterceptRange>4</AirInterceptRange>
-			<HurryCostModifier>200</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
@@ -1406,7 +1411,7 @@
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
 			<Combat>280</Combat>
-			<RangedCombat>210</RangedCombat>
+			<RangedCombat>230</RangedCombat>
 			<Cost>1000</Cost>
 			<Moves>6</Moves>
 			<Range>4</Range>
@@ -1781,7 +1786,7 @@
 			<Cost>3500</Cost>
 			<Moves>10</Moves>
 			<Range>2</Range>
-			<HurryCostModifier>100</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
@@ -1808,7 +1813,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>34</PortraitIndex>
 			<MoveRate>SUB</MoveRate>
-			<ExtraMaintenanceCost>40</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>100</ExtraMaintenanceCost>
 		</Row>
 		
 		
@@ -2165,15 +2170,20 @@
 			<UnitType>UNIT_MODERN_DESTROYER</UnitType>
 			<PromotionType>PROMOTION_DESTROYER_COMBAT</PromotionType>
 		</Row>
+
+		<!--
+
 		<Row>
 			<UnitType>UNIT_MODERN_DESTROYER</UnitType>
 			<PromotionType>PROMOTION_MISSILE_CARRIER</PromotionType>
 		</Row>
+		
 		<Row>
 			<UnitType>UNIT_MODERN_DESTROYER</UnitType>
 			<PromotionType>PROMOTION_CARGO_I</PromotionType>
 		</Row>
-		
+
+		-->
 		<Row>
 			<UnitType>UNIT_KOREAN_SEJONG_CLASS</UnitType>
 			<PromotionType>PROMOTION_DESTROYER_COMBAT</PromotionType>
@@ -2184,7 +2194,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_KOREAN_SEJONG_CLASS</UnitType>
-			<PromotionType>PROMOTION_CARGO_II</PromotionType>
+			<PromotionType>PROMOTION_CARGO_I</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_KOREAN_SEJONG_CLASS</UnitType>
