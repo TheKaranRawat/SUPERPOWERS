@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/08/17 7:00:36 AM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_GREAT_BOMBARD</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_GREAT_BOMBARD</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</DefaultUnit>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_GREAT_BOMBARD</Class>
+			<Type>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</Type>
+			<Combat>25</Combat>
+			<RangedCombat>75</RangedCombat>
+			<Range>3</Range>
+			<Moves>2</Moves>
+			<Cost>185</Cost>
+			<!--<FaithCost>550</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			<ObsoleteTech>TECH_DYNAMITE</ObsoleteTech>
+			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_CITY_BOMBARD</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_GREAT_BOMBARD</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_GREAT_BOMBARD_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_GREAT_BOMBARD_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_GREAT_BOMBARD_HELP</Help>
+
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<!--<MoveAfterPurchase>true</MoveAfterPurchase>-->
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			
+			<Pillage>true</Pillage>
+
+			<AdvancedStartCost>30</AdvancedStartCost>
+			
+			<MinAreaSize>-1</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_EU_GREATBOMBARD</UnitArtInfo>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>34</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>26</UnitFlagIconOffset>
+			<MoveRate>BIPED</MoveRate>
+			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_MERC_GUILD</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</UnitType>
+			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</UnitType>
+			<PromotionType>PROMOTION_MUST_SET_UP</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</UnitType>
+			<PromotionType>PROMOTION_SIGHT_PENALTY</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</UnitType>
+			<SelectionSound>AS2D_SELECT_CANNON</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CANNON</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GREAT_BOMBARD">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Great Bombard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GREAT_BOMBARD_HELP">
+			<Text>Renaissance-era Mercenary siege unit that is extremely effective against cities. Price shown is how much it costs to hire this unit for 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GREAT_BOMBARD_STRATEGY">
+			<Text>The Great Bombard is an early gunpowder siege unit, based on the the design of the Mughal Farsakh bombard. It is stronger against cities than the Cannon, and is available earlier, upon the discovery of Gunpowder. It is also extremely vulnerable to enemy attack. [NEWLINE][NEWLINE]Like most cannons, the Great Bombard takes time to set up for attack, receives no defensive bonus from terrain, and suffers a 1 tile site penalty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GREAT_BOMBARD_PEDIA">
+			<Text>
+				The Great Bombard is a Renaissance era Mercenary siege unit, available upon the discovery of Gunpowder. The Mercenary Guild is required for this unit to be built. The Great Bombard becomes obsolete upon the discovery of Dynamite.[NEWLINE][NEWLINE]
+				In addition to founding the Mughal Empire, one of Babur's other achievements was the introduction of artillery on a large scale into India early in the 16th century. As the first battle of Panipat in 1526 has shown, massed cannon fire proved to be both terrifying and decisive. From that point on, the Mughals have become the unquestionable masters of artillery in the Subcontinent. Farsakh Cannons were the embodiment of Mughal pursuit of the best and most beautiful guns in the world. These enormous pieces of ordnance were capable of firing 50-pound, or 23 kilogram, lead balls at a distance of one farsakh - roughly 4 miles, or 6 kilometres. The cannons were regarded as pieces of art, lavishly decorated with gold ornaments and inscriptions, and were even given names. However, despite all the potency and beauty of these weapons, moving them into position was slow and arduous and required dozens of oxen or even elephants to pull them around.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

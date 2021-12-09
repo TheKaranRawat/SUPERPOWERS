@@ -114,7 +114,7 @@
 	<!-- Adds new text -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_PIT_HOUSE">
-			<Text>Pit-house</Text>
+			<Text>[ICON_FOOD] Pit-house</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PIT_HOUSE_HELP">
 			<Text>Each source of [ICON_RES_WHEAT] Wheat, [ICON_RES_BANANA] Bananas, [ICON_RES_DEER] Deer, and [ICON_RES_BISON] Bison worked by this City produce +1 [ICON_FOOD] Food. Borders grow 25% faster.[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.</Text>

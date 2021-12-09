@@ -5,7 +5,7 @@
 			<Type>BUILDING_QADI_COURT</Type>
 			<BuildingClass>BUILDINGCLASS_CIRCUS</BuildingClass>
 			<Cost>75</Cost>
-			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<PrereqTech>TECH_HUNTING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_QADI_COURT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_QADI_COURT_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_QADI_COURT_STRATEGY</Strategy>
@@ -71,7 +71,7 @@
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_QADI_COURT">
-			<Text>Qadi Court</Text>
+			<Text>[ICON_HAPPINESS_1] Qadi Court</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_QADI_COURT_HELP">
 			<Text>Yields [ICON_HAPPINESS_1] Happiness, [ICON_GOLD] Gold, and [ICON_PEACE] Faith. Only Songhai may build it.</Text>

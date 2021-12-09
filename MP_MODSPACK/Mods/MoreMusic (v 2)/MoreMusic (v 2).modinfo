@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c7c04868-162e-405a-ab54-fbf4217d9d1b" version="2">
+  <Properties>
+    <Name>MoreMusic</Name>
+    <Teaser>Adds more music into the game.</Teaser>
+    <Description>Adds in a bunch of new musicians and their respective great works. Modpack includes artists from the 1950s throughout the early 2000s. Some musicians have more than one great work. Mostly contains popular rock and doo wop.
+
+Each audio clip is around 30 seconds long. Some of the songs are a bit quiet compared to others but shouldn't be an issue.
+
+Each musician comes complete with its own audio and art splash screen.
+
+Artists include: The Beatles, The Who, Pink Floyd, The Animals, AC/DC, Queen, Led Zeppelin, The Rolling Stones, Rush, and so many more!
+
+CivFanatics page: https://forums.civfanatics.com/threads/moremusic-1950s-2000s.619341/</Description>
+    <Authors>TheOneHitPupper</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="9C803C3E0A354109D957EE9AEF7D6CB4" import="1">art/acdc/acdcbackinblack.dds</File>
+    <File md5="E33A9AC677EB4643A0A59AA5EB9E23FA" import="1">art/acdc/hell.dds</File>
+    <File md5="6A9B8495B63F4837465C0B2DC3EE8709" import="1">art/aerosmith/aerosmith.dds</File>
+    <File md5="15031AF17D1E1BD80C763D7602287911" import="1">art/aerosmith/toysintheattic.dds</File>
+    <File md5="333F4C9FE107EE28B900E1F4721B8297" import="1">art/aha.dds</File>
+    <File md5="2FFF225EB24693E9D574A6C7D957612F" import="1">art/americanpie.dds</File>
+    <File md5="68E916AE81672AE04ACC410492B324BB" import="1">art/animals.dds</File>
+    <File md5="4CE00AAD53FF9FB08E582ED7FB0C882F" import="1">art/band.dds</File>
+    <File md5="AFFEB5676D6271818833D396ED38276F" import="1">art/beatles/abbeyroad.dds</File>
+    <File md5="1BBE8C4579FE94BC1199C8314E631953" import="1">art/beatles/aharddaysnight.dds</File>
+    <File md5="A6BF680BCBA33ABCE88834B25A5E13A4" import="1">art/beatles/beatles.dds</File>
+    <File md5="EF6CFB3AEC97AE5983D8F350F48A6343" import="1">art/beatles/beatlesforsale.dds</File>
+    <File md5="33FDE8711F1DE36042D01BAEF2ED402D" import="1">art/beatles/help.dds</File>
+    <File md5="EC16460381850F2024E4BBB5379A9283" import="1">art/beatles/heyjude.dds</File>
+    <File md5="C040B0A95C71DEB17E8B98890F93A319" import="1">art/beatles/iwanttoholdyourhand.dds</File>
+    <File md5="1D75532D33CB9E12518D311C84944381" import="1">art/beatles/letitbe.dds</File>
+    <File md5="57B6D3E905F7045E92D45A20A7F1D599" import="1">art/beatles/magicalmysterytour.dds</File>
+    <File md5="FEAEC803007FAA9E32F7D99C073CABF0" import="1">art/beatles/pleasepleaseme.dds</File>
+    <File md5="9B3047714531F7192BC083502CDD238A" import="1">art/beatles/revolver.dds</File>
+    <File md5="87215754C1F1B0A0FCF9591053CFFC7C" import="1">art/beatles/rubbersoul.dds</File>
+    <File md5="6D95F2AB9CEEA48504791DB3A5F0F869" import="1">art/beatles/sgtpeppers.dds</File>
+    <File md5="E239EA7AC9435D4E7193256A4BDADE5F" import="1">art/beatles/whitealbum.dds</File>
+    <File md5="7E06DD0CF29BC6F9DAE3CBAC9B10271F" import="1">art/beatles/yellowsubmarine.dds</File>
+    <File md5="7ACF044057C593C1A0902F3125E1E558" import="1">art/blowinyourmind.dds</File>
+    <File md5="D1AF264836DCB782C35369C5940C69F1" import="1">art/crush.dds</File>
+    <File md5="AD7B9CC1759777191BECCB03E67478DF" import="1">art/boston.dds</File>
+    <File md5="44887CAA248479FCA118C8D7E68C8F51" import="1">art/brotherlovestravelingsalvation.dds</File>
+    <File md5="39FE96B0EDD3B7A925E29261A30FE0D3" import="1">art/buddyholly/buddyholly.dds</File>
+    <File md5="F3868185D66A5151CA6E20FA747D68F1" import="1">art/buddyholly/thatllbetheday.dds</File>
+    <File md5="2E48D55274B9C6CB7652A7391C39DDF4" import="1">art/chordettes.dds</File>
+    <File md5="DF48D3F91323234DFD909B29633BC84D" import="1">art/chubbychecker.dds</File>
+    <File md5="06B82A9E4D2C9E0EF506232798A759D0" import="1">art/chuckberry.dds</File>
+    <File md5="9D2E5A5995361833D9379BE909E511A3" import="1">art/colourandtheshape.dds</File>
+    <File md5="6A921D2642B65CE91EFB9B12AFD872CE" import="1">art/crazyworld.dds</File>
+    <File md5="ED1FBB9EA9455DE68F86252EB7F1F8C6" import="1">art/distantlight.dds</File>
+    <File md5="FF325602F8D5E5DB75F0EF8699FAED32" import="1">art/dockofthebay.dds</File>
+    <File md5="DF1C4D232DAAF12BD2159F5D7B037A92" import="1">art/doors.dds</File>
+    <File md5="C9D1B3AE5C33ABB3A626E06869493B8C" import="1">art/eagles.dds</File>
+    <File md5="B7C0BA82E0F0218DFD409C471FF81D09" import="1">art/echobunnymen.dds</File>
+    <File md5="3FA13F2E7D12EE067A335DC2240613F9" import="1">art/electronicallytested.dds</File>
+    <File md5="9C38A6C8D47AF817B8C7520B5228AE40" import="1">art/elvis/almostinlove.dds</File>
+    <File md5="7C3C1221A047DB8F65D7F9D5005B6A99" import="1">art/elvis/elvisrock.dds</File>
+    <File md5="71C2A565473E838D4A6A2D03F8E5B3F2" import="1">art/escape.dds</File>
+    <File md5="6CBD156815FEE8A5D8533F3CBA6CFA28" import="1">art/finalcountdown.dds</File>
+    <File md5="E5741D09F64E0958437D796F7DA20A1A" import="1">art/foghat.dds</File>
+    <File md5="1AC746B892AC60FEEFFCBCE0C6ACDF33" import="1">art/fourseasons/fourseasons.dds</File>
+    <File md5="05840D1863115D4797222EB325782F96" import="1">art/fourseasons/sherry.dds</File>
+    <File md5="9D0526B93F5453D357187517F9C4C394" import="1">art/fullmoonfever.dds</File>
+    <File md5="94F121CA655651532E728B41DE49D7CF" import="1">art/georgeharrison/allthingsmustpass.dds</File>
+    <File md5="DEE5C8773EEBB397224C372E785C9176" import="1">art/georgeharrison/brainwashed.dds</File>
+    <File md5="956B5745674122EA7E87F30DE88092A7" import="1">art/georgeharrison/somewhereinengland.dds</File>
+    <File md5="8891A3D4D4BAD139E4AA9ABC58F05412" import="1">art/grace.dds</File>
+    <File md5="1A86420B9811E5D1358A8A7C54AA9D74" import="1">art/jailbreak.dds</File>
+    <File md5="18BF764089D2D0ADA65E91C277051192" import="1">art/jimihendrix/areyouexperienced.dds</File>
+    <File md5="7A7DA2279775553A583709E219A3A50D" import="1">art/jimihendrix/cryoflove.dds</File>
+    <File md5="7B72CABBDA3E8EBE617AE6019EBE956A" import="1">art/jimihendrix/electricladyland.dds</File>
+    <File md5="85EB3404D0AC84C96BAC0103D8A8C03E" import="1">art/johnlennon/imagine.dds</File>
+    <File md5="838BD228ED6A3252E62B54AD1CF52265" import="1">art/johnlennon/johnlennon.dds</File>
+    <File md5="7956AC9E763328525D6C710B9468BB93" import="1">art/johnnytillotson.dds</File>
+    <File md5="567E62A146135FA1CE13C8DD5C985E8C" import="1">art/joydivision/closer.dds</File>
+    <File md5="7C5693522C10D1FD72B0EA54BF2C3B41" import="1">art/joydivision/unknownpleasures.dds</File>
+    <File md5="12103925A2D970884B002F2A4BBA5342" import="1">art/kansas/leftoverture.dds</File>
+    <File md5="6F847F290C1EC7611212519FA2F65F60" import="1">art/kansas/pointofknowreturn.dds</File>
+    <File md5="F0F53D4BFDA045E379C187CA094B8A4A" import="1">art/ledzeppelin/housesoftheholy.dds</File>
+    <File md5="6E219EBA5B06671273735933C3FD850C" import="1">art/ledzeppelin/ledzeppelinii.dds</File>
+    <File md5="B9C3A024A906D07E4697C63E362E5362" import="1">art/ledzeppelin/ledzeppeliniii.dds</File>
+    <File md5="5992BCA6FED201D915AC104E8194AD41" import="1">art/ledzeppelin/ledzeppeliniv.dds</File>
+    <File md5="7062D2D1A0FE42F201875CF625B1E76F" import="1">art/ledzeppelin/physicalgraffiti.dds</File>
+    <File md5="0D6C71BC4C7AA013F9D1B95ACEDA257B" import="1">art/melloncollie.dds</File>
+    <File md5="901371D746A57955321C37A14529ECBB" import="1">art/monkees/monkees.dds</File>
+    <File md5="FA5CEBD0CC1732F17120A7A0390E3174" import="1">art/monkees/moreofthemonkees.dds</File>
+    <File md5="5FF939D550E965DF2D75C291BE52B0A9" import="1">art/myaimistrue.dds</File>
+    <File md5="33AFA291AC8B90A2957451AA180EB25D" import="1">art/nirvana/inutero.dds</File>
+    <File md5="9841299E56BF6A4DB53B6240BD01BF80" import="1">art/nirvana/nevermind.dds</File>
+    <File md5="C9D34262EE147906CA8EAE0862042DBC" import="1">art/orbisongs.dds</File>
+    <File md5="14B1AD800318628F1564AC190DD40C70" import="1">art/outlandos.dds</File>
+    <File md5="E4F682D7FE16F90982978A834C488533" import="1">art/pablohoney.dds</File>
+    <File md5="66502E9FCAFC664787D6685FE0BD8804" import="1">art/paulmccartney/bandontherun.dds</File>
+    <File md5="3116CB0F7D10C35AA409DB7DF88A8959" import="1">art/paulmccartney/mccartney.dds</File>
+    <File md5="DECEAF872D4B4F2C4D91528262E8621E" import="1">art/paulmccartney/paulmccartney.dds</File>
+    <File md5="0C9A5E695D2200C463225989EB1D7064" import="1">art/paulmccartney/speedofsound.dds</File>
+    <File md5="652C9C3E1C788414B73904FB74DA252A" import="1">art/pearljam/lostdogs.dds</File>
+    <File md5="63B657DFC3E0B871FE3F7CCDF1263EBB" import="1">art/pearljam/ten.dds</File>
+    <File md5="A6984B3C7218AF9B3D3EA8C93A0D140E" import="1">art/petsounds.dds</File>
+    <File md5="5188DEDAB552B5B709B6329B2C985D06" import="1">art/pinkfloyd/darksideofthemoon.dds</File>
+    <File md5="39DCA4DB6FC6E85575892137FC95B548" import="1">art/pinkfloyd/divisionbell.dds</File>
+    <File md5="61DE664F7009EEF7BB8758627BAC39B5" import="1">art/pinkfloyd/pinkfloyd_wall.dds</File>
+    <File md5="E12B82DBDB323E8EA92370CB842A9A4D" import="1">art/pinkfloyd/wishyouwerehere.dds</File>
+    <File md5="F10AE378BF0A777289CD63B8372E3F1D" import="1">art/pronounced.dds</File>
+    <File md5="A250956AB2974446B5611B5993F5AC5C" import="1">art/queen/game.dds</File>
+    <File md5="F57B7BE58C8A48FCAD3AEB860F7BB7EC" import="1">art/queen/hotspace.dds</File>
+    <File md5="11813687786957CF0AF19D0615A4A150" import="1">art/queen/jazz.dds</File>
+    <File md5="E36E3936641B63824846FCBAD3015C6D" import="1">art/queen/newsoftheworld.dds</File>
+    <File md5="E6F9F38C63DC96E409DB77A74A2B3452" import="1">art/queen/nightattheopera.dds</File>
+    <File md5="3397BC485AE1CF4E321345D0A85D1E2A" import="1">art/queen/sheerheartattack.dds</File>
+    <File md5="5D9B5D88833C295F842D8D95F7DBD219" import="1">art/queen/works.dds</File>
+    <File md5="B9AC7FA5A383A09F8DE115B8CFA21BD9" import="1">art/ritchievalens.dds</File>
+    <File md5="E6F87324642229ABFDDDB5890796664A" import="1">art/rollingstones/beggarsbanquet.dds</File>
+    <File md5="579F8D42B3A808770C90AE3C17514FFF" import="1">art/rollingstones/fortylicks.dds</File>
+    <File md5="64FD5CEEA36BA6C8BF1FF9CA55317F73" import="1">art/rollingstones/letitbleed.dds</File>
+    <File md5="BAD4F0370868E3AC9C711E679E8B36C2" import="1">art/runaroundsue.dds</File>
+    <File md5="8789C2118E13799E4B54936C203A8A39" import="1">art/rush/caressofsteel.dds</File>
+    <File md5="902E7C69C75FFE605F0756992593BE58" import="1">art/rush/flybynight.dds</File>
+    <File md5="526C912FA0478A395C38699DBE4D36E9" import="1">art/rush/movingpictures.dds</File>
+    <File md5="23EEF21EE2A765AE69A3086E07EC47BA" import="1">art/simongarfunkel/bridgeovertroubledwater.dds</File>
+    <File md5="995A74E2C8C2F83AEF8353D37488E9E5" import="1">art/simongarfunkel/parsleysage.dds</File>
+    <File md5="CBE7B244BB4FA1B9E632279455054B15" import="1">art/simongarfunkel/soundsofsilence.dds</File>
+    <File md5="152A17FFCAF74571548A2DD4CDB5F136" import="1">art/smiths/louderthanbombs.dds</File>
+    <File md5="1FC81D30B1BF4AEA8A7715979002D568" import="1">art/smiths/meatismurder.dds</File>
+    <File md5="411C3F32EE635C836FCAFC33BD3B0028" import="1">art/smiths/queenisdead.dds</File>
+    <File md5="4FC1D404FF36B7DC245807255D361BA8" import="1">art/smiths/worldwontlisten.dds</File>
+    <File md5="8C3001F9BD165A667390E82A68AF76B4" import="1">art/spiritinthesky.dds</File>
+    <File md5="BCE5D2603DA49F96F06893BD94340979" import="1">art/stealerswheel.dds</File>
+    <File md5="E9BA1539E4CAC5FA91D09ED2645E9555" import="1">art/superunknown.dds</File>
+    <File md5="71A158F4293F719607E49FFD08ED8670" import="1">art/talbachman.dds</File>
+    <File md5="AF78D107A2C13F83358AE5A6BAA1281C" import="1">art/tommy.dds</File>
+    <File md5="C2B7ADFCA27CFD98D71B014A93892055" import="1">art/totoiv.dds</File>
+    <File md5="9F5AFB59EC7623136F3DABB08A25EEC6" import="1">art/voices.dds</File>
+    <File md5="27B860659C47EDEC3F46584ECE448DBF" import="1">art/willyandthepoorboys.dds</File>
+    <File md5="D271CE3869DF0A40B31262E7FE52049C" import="1">art/zombies/odesseyoracle.dds</File>
+    <File md5="8FE7DA6CCA88E753FF7E36ECD9E472A9" import="1">art/zombies/zombies.dds</File>
+    <File md5="031DA8CCBD43433B6B2720941AD6EE95" import="1">sound/1979.mp3</File>
+    <File md5="292ABF1B44A5D752B1C429300E5679E5" import="1">sound/A Day In The Life.mp3</File>
+    <File md5="105E7CADDC37681F8FD943EC3739B0C1" import="1">sound/A Hard Days Night.mp3</File>
+    <File md5="58AC58934666A724360D49E5FA9B9EFE" import="1">sound/A Little Less Conversation.mp3</File>
+    <File md5="01E35B23E8895136C771BE439906726D" import="1">sound/Across The Universe.mp3</File>
+    <File md5="81583EEB3519DF4FE7541D986D77BBB1" import="1">sound/Africa.mp3</File>
+    <File md5="8074B8375F248B09CC8F2D16197FA4B2" import="1">sound/All Along The Watchtower.mp3</File>
+    <File md5="CA4668B2A044FFA59B03219B798DEAAA" import="1">sound/All Shook Up.mp3</File>
+    <File md5="8AEBBE45A1C18A8F504348F298D8C85C" import="1">sound/All Things Must Pass.mp3</File>
+    <File md5="6A6C52C8285E25A024895AD7B4504506" import="1">sound/American Pie.mp3</File>
+    <File md5="AC081BDFA54784A785E516AF6EF44F8D" import="1">sound/Another One Bites The Dust.mp3</File>
+    <File md5="31C06D376A589B01FABAA8164969F42D" import="1">sound/Are You Experienced.mp3</File>
+    <File md5="38D0E27C639D791209D6F27A84DF2C18" import="1">sound/Art of Dying.mp3</File>
+    <File md5="93857C87AC3268B1111114A9294B5532" import="1">sound/Asleep.mp3</File>
+    <File md5="C1852D2359BB912BF762AB2F0F702BD6" import="1">sound/Astro Man.mp3</File>
+    <File md5="1FCF5A061560D0102B6AB2E0B40480D1" import="1">sound/Band On The Run.mp3</File>
+    <File md5="55280BD9E2BA23CA9D7B417ED4B2AA68" import="1">sound/Beast of Burden.mp3</File>
+    <File md5="177C22A2D88AD17BF359035C64A28E2B" import="1">sound/Because.mp3</File>
+    <File md5="9AC0B562E956D9A2A75B4A2A56B1C36C" import="1">sound/Behind That Locked Door.mp3</File>
+    <File md5="FC402EE474951C2C392DC668240A1F22" import="1">sound/Beware Of Darkness.mp3</File>
+    <File md5="EC08E2B8DE907141FE179B3673E66962" import="1">sound/Bicycle Race.mp3</File>
+    <File md5="F78C8EEB31DD4054E478C0102CB9338B" import="1">sound/Big Girls Dont Cry.mp3</File>
+    <File md5="7A4C657E8021E92963C6A8B7C0123516" import="1">sound/Big Man In Town.mp3</File>
+    <File md5="28CDB6EDFCF6BBA4C35B00D23B16582A" import="1">sound/Black Hole Sun.mp3</File>
+    <File md5="9D7321A753CA652DE2E1E0C972E4F38A" import="1">sound/Comfortably Numb.mp3</File>
+    <File md5="3AB7408F1D6AB3BADF4A6B31DC5BADDB" import="1">sound/Coming Back To Life.mp3</File>
+    <File md5="1E5F4C9D4ECDA3A3E18B857120BDB9D6" import="1">sound/Pearljam_Black.mp3</File>
+    <File md5="27F5DF087DA5F7587035F8CEACAAC90D" import="1">sound/Bohemian Rhapsody.mp3</File>
+    <File md5="B75B43CC5695FBA5AFBB5F42BCC9C24D" import="1">sound/Boys Are Back In Town.mp3</File>
+    <File md5="7D4C261294E5C1675F30790E0E809A5F" import="1">sound/Brain Damage.mp3</File>
+    <File md5="3A682E27C2C9FD4DC39FB7D577AB0949" import="1">sound/Brainwashed.mp3</File>
+    <File md5="86A79259CDBFC0CB8D8FB6E5730E161B" import="1">sound/Bridge Over Troubled Water.mp3</File>
+    <File md5="6AD6AE3A11642366A5D03DD8623E5701" import="1">sound/Brown Eyed Girl.mp3</File>
+    <File md5="93C8661B91123F9E58E6987BFC18B820" import="1">sound/By Tor And The Snow Dog.mp3</File>
+    <File md5="E2CDF4B3030D4CA91DBDF2149396116C" import="1">sound/Cant Buy Me Love.mp3</File>
+    <File md5="6F734B747138CD8EDF223150257DDA87" import="1">sound/Carry on Wayward Son.mp3</File>
+    <File md5="B850757C2314DE250B4015AF0AFC8C08" import="1">sound/Come As You Are.mp3</File>
+    <File md5="FD0197D95537E4F3BF2FBB51727F3C83" import="1">sound/Come Together.mp3</File>
+    <File md5="71540BF0F52753A9A754DDD0A42C383F" import="1">sound/Creep.mp3</File>
+    <File md5="B7D58E45AB94B080996F0E14F8499BE6" import="1">sound/Dyer Maker.mp3</File>
+    <File md5="04C2DAB14C54C80D0B0CD5E1AFBB79EC" import="1">sound/Day Tripper.mp3</File>
+    <File md5="F42C5731E8A1CBC940D5639FB795ABDF" import="1">sound/Dont Stop Believin.mp3</File>
+    <File md5="4A0CFB2D93E35C60C7EA53525967CC51" import="1">sound/Dont Stop Me Now.mp3</File>
+    <File md5="214B5B35EA8E8C761E1095977AA36208" import="1">sound/Dont Let Me Down.mp3</File>
+    <File md5="5BF02D293F9ECFB179F3BF24BF18BFD0" import="1">sound/Dream On.mp3</File>
+    <File md5="8EE3F588CC53DEB9D2DBF031AEDB340D" import="1">sound/Dust In The Wind.mp3</File>
+    <File md5="D9E3F73D5EA75D0CF04D08CE5A918B58" import="1">sound/Earth Angel.mp3</File>
+    <File md5="ADE6444E2CFF62A78DA94D5692B04004" import="1">sound/Eight Days A Week.mp3</File>
+    <File md5="03D5E1B42B28D4B85BF1D1B5FFA4AD14" import="1">sound/Eleanor Rigby.mp3</File>
+    <File md5="5D3CC9FFE8E4A5A8D06B57C806B0375C" import="1">sound/Everlong.mp3</File>
+    <File md5="AA145F96C780B9AA6D6699A242060ED0" import="1">sound/Everyday.mp3</File>
+    <File md5="3A97E330EA516835FB7A0FF321DC8D87" import="1">sound/Ezy Rider.mp3</File>
+    <File md5="58A35CCDAFFFB52D782B06D5ACDE7FC8" import="1">sound/Fat Bottomed Girls.mp3</File>
+    <File md5="B7DF2986EFD18153D7AD63D694B02BF0" import="1">sound/Fortunate Son.mp3</File>
+    <File md5="78F76C49CAB6D4A7EA83237E3CA7CA22" import="1">sound/Free Bird.mp3</File>
+    <File md5="78D223B9C99303F789C0D209E6B68AF7" import="1">sound/Free Fallin.mp3</File>
+    <File md5="FAFD3D845D0717EE286322186AD77C30" import="1">sound/Gimme Shelter.mp3</File>
+    <File md5="5F34DCB35FF9EC7D86A49F8AC9CC1D6B" import="1">sound/Give Peace A Chance.mp3</File>
+    <File md5="CC8B097FEC44AF8149FCFAC45DCF2868" import="1">sound/Hallelujah.mp3</File>
+    <File md5="920FD72AD8F5338192F4FE2791FC1812" import="1">sound/Happiness Is A Warm Gun.mp3</File>
+    <File md5="1A808AFBCB27F5039039890C5FCD86A0" import="1">sound/Hear Me Lord.mp3</File>
+    <File md5="A3A9EDF8B70EB9BA94AB05D9D42D7E0B" import="1">sound/Heart Shaped Box.mp3</File>
+    <File md5="B306360504005EF1681F855082843F35" import="1">sound/Heartbreaker.mp3</File>
+    <File md5="1D865D7958342ADC73AC38956FE15139" import="1">sound/Help.mp3</File>
+    <File md5="8B22DBE3E8128AB03E679C4542EE04ED" import="1">sound/Helter Skelter.mp3</File>
+    <File md5="340450AF7F578B3042B8ED51D0A2FEAF" import="1">sound/Here Comes The Sun.mp3</File>
+    <File md5="0A9761A089E8AD38FC75B2ED9FD2E3C9" import="1">sound/Hey Joe.mp3</File>
+    <File md5="8FD0F0DC7E48EABA455F4F8465FFF7A0" import="1">sound/Hey Jude.mp3</File>
+    <File md5="B2D2ECEDD3D415209E398F698D602FE7" import="1">sound/Highway To Hell.mp3</File>
+    <File md5="70A7FB7FD5C23CBCB76A7B7620D03355" import="1">sound/Homeward Bound.mp3</File>
+    <File md5="D9742D395A493BAFE06E1E1A94619F45" import="1">sound/Hotel California.mp3</File>
+    <File md5="DECB13E3BBE3D741FB556CF6B6610EC6" import="1">sound/Hound Dog.mp3</File>
+    <File md5="836B6D9053A7348C611A639E8135CB0F" import="1">sound/How Soon Is Now.mp3</File>
+    <File md5="F875A053FC0B6E8760FF9D6ECF25471D" import="1">sound/I Cant Get No Satisfaction.mp3</File>
+    <File md5="38FB8F4E80CF8E8C2793131ED967F6AE" import="1">sound/I Shall Be Released.mp3</File>
+    <File md5="76340AA2784E11FFDD283BD0F0750BDB" import="1">sound/I Wanna Be Free.mp3</File>
+    <File md5="20D9438032565000DAFA7F4223A82212" import="1">sound/I Want To Hold Your Hand.mp3</File>
+    <File md5="D812801C208206B87EED7A4561BC9E80" import="1">sound/I Wont Back Down.mp3</File>
+    <File md5="A682A3DA7E16681F6F79B46B81F64AC4" import="1">sound/Im A Believer.mp3</File>
+    <File md5="05E6524C6124DD07759C6FF424DD414D" import="1">sound/If Not for You.mp3</File>
+    <File md5="18211705B8BD47094B1FDC2D9EABA07B" import="1">sound/If You Cant Beat Them.mp3</File>
+    <File md5="F6CD14734A4BBB4F1B6239B267E54F20" import="1">sound/Ill Follow The Sun.mp3</File>
+    <File md5="F9F9FA98A8B52EB3F3359AC716F2095C" import="1">sound/Im In Love.mp3</File>
+    <File md5="1F46B14F0A4F940A0B066F0EAC556EA0" import="1">sound/Imagine.mp3</File>
+    <File md5="3B4DCCBA2512D9DB4096394DEB5E22BA" import="1">sound/Immigrant Song.mp3</File>
+    <File md5="367560EFB222E3543697789A9FC956A4" import="1">sound/In My Life.mp3</File>
+    <File md5="7E1CEBE7D66C059DD3E6FC314548B478" import="1">sound/In the Summertime.mp3</File>
+    <File md5="B176322636B94AE164641935CD009D45" import="1">sound/Is It Really So Strange.mp3</File>
+    <File md5="FB3AB7DE59978479A82222BD16AA8E8A" import="1">sound/Is This The World We Created.mp3</File>
+    <File md5="92326E7A54C7C2D8EC8FFC954FB9730F" import="1">sound/Isnt It A Pity.mp3</File>
+    <File md5="746ABC2E3C97E02B4C99D1FBB7A7325E" import="1">sound/Isolation.mp3</File>
+    <File md5="83F4D2455B6A9332B972EC76389EB5AA" import="1">sound/Its My Life.mp3</File>
+    <File md5="1EBC73EBE86764E7D8E8F21285A79AEE" import="1">sound/Jailbreak.mp3</File>
+    <File md5="93D674C69EFA24E535C89BC84F3F445E" import="1">sound/Jailhouse Rock.mp3</File>
+    <File md5="0502BADFE9235C2CE8C828FBBA521AC3" import="1">sound/Johnny B Goode.mp3</File>
+    <File md5="71310A69AFDCEC54FCC97C101ECF3DCA" import="1">sound/Junk.mp3</File>
+    <File md5="44E384FF03B9B4AC95F11DACBC0F45C5" import="1">sound/Kashmir.mp3</File>
+    <File md5="C5344C88F32E65923D5CC37DAD72A2AD" import="1">sound/Killer Queen.mp3</File>
+    <File md5="6747FFFE9739D8F2D6DE31F91D4C8817" import="1">sound/La Bamba.mp3</File>
+    <File md5="F461D27A59EB0D216E5158CB1D1D674F" import="1">sound/Lennon_God.mp3</File>
+    <File md5="7C2EFA55C8EF70E55CF6D453283B7307" import="1">sound/Less Than Zero.mp3</File>
+    <File md5="348A4F024FD5DFDAFD2B58E7731586B9" import="1">sound/Let It Be.mp3</File>
+    <File md5="A59143B8A8C51517BE8FF366BE9F2192" import="1">sound/Life Itself.mp3</File>
+    <File md5="38734A1249EAFC3179B5A7A8B767B956" import="1">sound/Limelight.mp3</File>
+    <File md5="59549BEE7AB24A8E4C71F9635193D280" import="1">sound/Live and Let Die.mp3</File>
+    <File md5="737D158305DF7E7EC384E850FF9110E3" import="1">sound/Lollipop.mp3</File>
+    <File md5="E77DFDD1E7213111ABBAFDC16A9EF9D8" import="1">sound/Long Cool Woman.mp3</File>
+    <File md5="8593D9AE55B823E300A09F1B99C15272" import="1">sound/Lucy In The Sky With Diamonds.mp3</File>
+    <File md5="D693B0A77338C0C7F6574A88D7F8688A" import="1">sound/Maybe Im Amazed.mp3</File>
+    <File md5="FF4B00E99310CED25DD01B7FB66FE602" import="1">sound/More Than A Feeling.mp3</File>
+    <File md5="AE524F7F1D9A046DC26A8C9C453D289C" import="1">sound/Mr Sandman.mp3</File>
+    <File md5="59F2E4F5DEEA4005D85A1BF014D13B3A" import="1">sound/My Sweet Lord.mp3</File>
+    <File md5="4426C9DD9D06EFC9018A92291C8CB70D" import="1">sound/Octopus Garden.mp3</File>
+    <File md5="1836BC828B9744481C9992979B57B759" import="1">sound/Open Arms.mp3</File>
+    <File md5="978A6641DE023753F313EBF3B93B1339" import="1">sound/Paint It Black.mp3</File>
+    <File md5="3BE04E02C72C916C09142E8D36754A37" import="1">sound/Peace Of Mind.mp3</File>
+    <File md5="E529D2836910A5CD7BF68C42342A6FDD" import="1">sound/Peggy Sue.mp3</File>
+    <File md5="B304DE6973FFD94593F004D5DDFE7F76" import="1">sound/Penny Lane.mp3</File>
+    <File md5="66FFA90CB49E06677569180DDEF69A11" import="1">sound/People Are Strange.mp3</File>
+    <File md5="50A6E8D3313A354D7D219CA6D8B81299" import="1">sound/Pinball Wizard.mp3</File>
+    <File md5="8E00C1DCFE266B758ECB39047E39CC6C" import="1">sound/PinkFloyd_Money.mp3</File>
+    <File md5="CE4B1D415058DBD4FD97B2FD3E2B048E" import="1">sound/PinkFloyd_Time.mp3</File>
+    <File md5="0C1408D6CE8DDC1831552C6AA22C1590" import="1">sound/Pretty Woman.mp3</File>
+    <File md5="5742EEEE5BD88BE510097B85C2C641CD" import="1">sound/Radio Ga Ga.mp3</File>
+    <File md5="36C8008F09550793CA50D8B0CFD764AF" import="1">sound/Red Barchetta.mp3</File>
+    <File md5="F1634F3E0E8DBDB7804D1E1B9B03106C" import="1">sound/Revolution.mp3</File>
+    <File md5="A08A89F68FF7B8AA6CE546510CF36A6E" import="1">sound/Roxanne.mp3</File>
+    <File md5="B1AEB8DEF1DEFB621E00C19BECA7271A" import="1">sound/Runaround Sue.mp3</File>
+    <File md5="87DE186A24F0DC8E3BB6613A56DD0506" import="1">sound/Savoy Truffle.mp3</File>
+    <File md5="D843E0F0C7414DDD6490E58DB3BCC09E" import="1">sound/Sgt Peppers Lonely Hearts Club Band.mp3</File>
+    <File md5="9C859A4F4BFEEDFB50AAF4278A130A32" import="1">sound/Shadowplay.mp3</File>
+    <File md5="E7F22CC67E42FB70E74DF0D826086F79" import="1">sound/Sherry.mp3</File>
+    <File md5="B3D5CBC17A827BD4218EE0F178E9A272" import="1">sound/Shes So High.mp3</File>
+    <File md5="3B70D7621D3E8FB2BD8B1A98E4BC5DA4" import="1">sound/Silly Love Songs.mp3</File>
+    <File md5="EC2636FAFB1B62C5A7D1F495F898C515" import="1">sound/Simple Man.mp3</File>
+    <File md5="06FE51E1D2A635AB075CE99C96CE9588" import="1">sound/Sittin On The Dock Of The Bay.mp3</File>
+    <File md5="1384565547CB637A7E66FFC131C1E153" import="1">sound/Slow Ride.mp3</File>
+    <File md5="AF2D941395C8572784DB614FE218120A" import="1">sound/Smells Like Teen Spirit.mp3</File>
+    <File md5="54B144EEAE549E1DD112B9444C8ADF24" import="1">sound/Something In The Way.mp3</File>
+    <File md5="CCB90B54BBECD972E1DE529E15EA6744" import="1">sound/Beatles_Something.mp3</File>
+    <File md5="28B9DA1ECA2BD28DD6C1917F8229FEFF" import="1">sound/Spirit In The Sky.mp3</File>
+    <File md5="107DA0B7EFBCA89F2C582AA95EAC95F6" import="1">sound/Stairway To Heaven.mp3</File>
+    <File md5="FAB9F079C4CC78237FCD1CC45F3B3100" import="1">sound/Strawberry Fields Forever.mp3</File>
+    <File md5="18CBD224A5CE5D86C4A633118B43E03B" import="1">sound/Stuck In The Middle With You.mp3</File>
+    <File md5="547E6B8F366B17888110709089AFB84E" import="1">sound/Summertime.mp3</File>
+    <File md5="2A3010AD26BC8574D0F40BD9D430C682" import="1">sound/Sweet Caroline.mp3</File>
+    <File md5="686A3D1A3072C594580FC30C77EBB0BC" import="1">sound/Sympathy For The Devil.mp3</File>
+    <File md5="4FBC004E760FFF2F259436ABDE67A1F2" import="1">sound/Take On Me.mp3</File>
+    <File md5="880F3ADE820BCC07B98E23ED7ECBDEA3" import="1">sound/Thatll Be The Day.mp3</File>
+    <File md5="B0157CC52509ECB99466A3D84EB26E90" import="1">sound/The Final Countdown.mp3</File>
+    <File md5="27177E7366F2939256C8CC3F29D91E2C" import="1">sound/The Fool On The Hill.mp3</File>
+    <File md5="D83F06527146C508921D3ED0F3407614" import="1">sound/The Fountain Of Lamneth I.mp3</File>
+    <File md5="15B333EEFA1E36E8FFE2E0511037421E" import="1">sound/The Fountain Of Lamneth II.mp3</File>
+    <File md5="3A42564BA80FEAC58D4960FB06D0529B" import="1">sound/The Fountain Of Lamneth III.mp3</File>
+    <File md5="97564B0F2CDA4054707C6AD80DFCA073" import="1">sound/The Fountain Of Lamneth IV.mp3</File>
+    <File md5="0606DBA5C9002B245B02F3EBB1811660" import="1">sound/The Fountain Of Lamneth V.mp3</File>
+    <File md5="08D4396BB637AC48024519876CDD2E33" import="1">sound/The Fountain Of Lamneth VI.mp3</File>
+    <File md5="597706673C88AFE48C8B4F91A3A0563E" import="1">sound/The House Of The Rising Sun.mp3</File>
+    <File md5="A6C0CA4D6668647799C0610D2DBA23DA" import="1">sound/The Long And Winding Road.mp3</File>
+    <File md5="35A5BA3B17DFEA9CFFE0CA7DEB1CE6B9" import="1">sound/The Necromancer.mp3</File>
+    <File md5="DC8D7D2130ACBABB54878A3CB07512C6" import="1">sound/The Sounds Of Silence.mp3</File>
+    <File md5="369AEBF84A39B0E7B91FB2D51E3F3169" import="1">sound/The Twist.mp3</File>
+    <File md5="F9AB8C009516DE05870A5DB8E5C254A4" import="1">sound/The Wanderer.mp3</File>
+    <File md5="A6EBA74C4A382C045DBD5ADBF7416351" import="1">sound/There Is a Light That Never Goes Out.mp3</File>
+    <File md5="FD6A4B684BD0277D6F54312F4DAE47D6" import="1">sound/Ticket To Ride.mp3</File>
+    <File md5="0D89CB31BFE05868C631805732B5843D" import="1">sound/Time Of The Season.mp3</File>
+    <File md5="1321123FADC57D37CBEA7861E5EC146E" import="1">sound/Tom Sawyer.mp3</File>
+    <File md5="CBCD0E0679C2B3DB261AE1312F785E17" import="1">sound/Tonight Tonight.mp3</File>
+    <File md5="C1F22E63C6EB7703F19D1478FED69912" import="1">sound/Trial.mp3</File>
+    <File md5="3D8610158E75E1C0A7604EE3054E4E4D" import="1">sound/Twist And Shout.mp3</File>
+    <File md5="E4A2C0F415322B3E639903AD61524474" import="1">sound/Under Pressure.mp3</File>
+    <File md5="C195273F052D498802C7578841A603BD" import="1">sound/Walk Like A Man.mp3</File>
+    <File md5="557BD8C54E0BA72CAAC8827824BB41D3" import="1">sound/Walk This Way.mp3</File>
+    <File md5="AAAFB82E896000BFF23E4F5C1C8D8C3D" import="1">sound/Watching The Detectives.mp3</File>
+    <File md5="E6EC5200BFF3360AB020763E3B987B98" import="1">sound/We Are The Champions.mp3</File>
+    <File md5="BB117C09EEDB5CB5C4016967EA48AFF6" import="1">sound/We Belong Together.mp3</File>
+    <File md5="B58B8227416E974C4F21B0F52E2B03A4" import="1">sound/We Will Rock You.mp3</File>
+    <File md5="16BBDC191ABB7757CECB1E39C1963CF7" import="1">sound/When The Levee Breaks.mp3</File>
+    <File md5="5E3DB79F2BF28719968E6FB2A287BBD5" import="1">sound/While My Guitar Gently Weeps.mp3</File>
+    <File md5="40D01172EED8C91852A231064B79D94D" import="1">sound/Wind of Change.mp3</File>
+    <File md5="D1AA3DBCE860A16401B01A1ED6F28F98" import="1">sound/Wish You Were Here.mp3</File>
+    <File md5="1325AFA407BE4BD89AC660BEB7116E86" import="1">sound/Words Of Love.mp3</File>
+    <File md5="02A009886BD0DB802131DE31DD520584" import="1">sound/Working Class Hero.mp3</File>
+    <File md5="B7BC7FEAA4958E3F1B637703CCB5739D" import="1">sound/Wouldnt It Be Nice.mp3</File>
+    <File md5="46E371AE1C8A002A7A8A3D2EF1D62D0D" import="1">sound/Yellow Leadbetter.mp3</File>
+    <File md5="B053AC2C2740ACE92C8B3E65B524DE4D" import="1">sound/Yellow Submarine.mp3</File>
+    <File md5="65E2C10BB0FAC4548630C1F7A7712263" import="1">sound/Yesterday.mp3</File>
+    <File md5="B0BB1DA383D60C1B333DAB7911911B0D" import="1">sound/You Cant Always Get What You Want.mp3</File>
+    <File md5="D9B0A10E123AB84FDB62225FE3844A7C" import="1">sound/You Make My Dreams.mp3</File>
+    <File md5="9350B01EEE740AF3B6B87708432C68A1" import="1">sound/You Shook Me All Night Long.mp3</File>
+    <File md5="4F9481AFBE196941FB0DDD66DF75EE81" import="1">sound/Youre My Best Friend.mp3</File>
+    <File md5="D61124DC7D3224576D99BB92B91FA64F" import="1">sound/YYZ.mp3</File>
+    <File md5="2B8CBB55236BA665290BBC662405C6BC" import="0">TOHPMusicians.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>TOHPMusicians.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -57,7 +57,7 @@
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_NETHERLANDS_DIKE">
-			<Text>Dike</Text>
+			<Text>[ICON_PRODUCTION] Dike</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NETHERLANDS_DIKE_HELP">
 			<Text>Increases a city's [ICON_PRODUCTION] Production and [ICON_FOOD] Food. Increases [ICON_PRODUCTION] Production when constructing buildings by 10%. Only the Netherlands can build it.[NEWLINE][NEWLINE]City must not be built on Hills.</Text>

@@ -62,7 +62,7 @@
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_SALOON">
-			<Text>Saloon</Text>
+			<Text>[ICON_PRODUCTION] Saloon</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SALOON_HELP">
 			<Text>Increases a city's [ICON_PRODUCTION] Production and [ICON_HAPPINESS_1] Happiness. Increases the rate of border growth by 25%. Increases [ICON_PRODUCTION] Production when constructing buildings by 10%. Only America can build it.</Text>

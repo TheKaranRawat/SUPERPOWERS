@@ -112,7 +112,7 @@
 	<!-- Adds new text -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_HOUSE_GARDEN">
-			<Text>House Garden</Text>
+			<Text>[ICON_FOOD] House Garden</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOUSE_GARDEN_HELP">
 			<Text>Each source of [ICON_RES_BANANA] Bananas, [ICON_RES_BISON] Bison, [ICON_RES_WHEAT] Wheat, and [ICON_RES_DEER] Deer worked by this City produces +1 [ICON_FOOD] Food. +1 [ICON_FOOD] Food from Jungle tiles worked by this City.[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.</Text>

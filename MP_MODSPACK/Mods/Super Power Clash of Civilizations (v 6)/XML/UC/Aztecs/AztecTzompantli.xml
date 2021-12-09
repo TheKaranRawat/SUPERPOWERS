@@ -5,7 +5,7 @@
 			<Type>BUILDING_TZOMPANTLI</Type>
 			<BuildingClass>BUILDINGCLASS_WALLS</BuildingClass>
 			<Cost>50</Cost>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_TZOMPANTLI_HELP</Help>
 			<Description>TXT_KEY_BUILDING_TZOMPANTLI</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TZOMPANTLI_TEXT</Civilopedia>
@@ -63,7 +63,7 @@
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_TZOMPANTLI">
-				<Text>Tzompantli</Text>
+				<Text>[ICON_STRENGTH] Tzompantli</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TZOMPANTLI_HELP">
 			<Text>Increases the City's HP and [ICON_STRENGTH] Combat Strength, plus yields [ICON_CULTURE] Culture and [ICON_PEACE] Faith. Only the Aztecs may build it.</Text>

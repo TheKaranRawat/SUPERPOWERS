@@ -18,7 +18,7 @@
 			<HurryCostModifier>25</HurryCostModifier>
 			<ArtInfoEraVariation>true</ArtInfoEraVariation>
 			<TradeRouteLandDistanceModifier>50</TradeRouteLandDistanceModifier>
-			<TradeRouteLandGoldBonus>400</TradeRouteLandGoldBonus>
+			<TradeRouteLandGoldBonus>600</TradeRouteLandGoldBonus>
 			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>6</PortraitIndex>
 		</Row>
@@ -28,7 +28,7 @@
 		<Row>
 			<BuildingType>BUILDING_FUNDUQ</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>4</Yield>
 		</Row>
 	</Building_YieldChanges>
 
@@ -62,13 +62,13 @@
 	<!-- Adds new text -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_FUNDUQ">
-			<Text>Funduq</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Funduq</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FUNDUQ_HELP">
 			<Text>Improves the ranged and [ICON_GOLD] Gold yield of land trade routes. Only Arabia may build it.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FUNDUQ_STRATEGY">
-			<Text>The Arabian unique building Funduq replaces the Caravansary. Land routes originating from this City have a 50% increase in range and produce an additional 4 [ICON_GOLD] Gold when connecting to another civilization. Unlike the Caravansary, the Funduq also generates [ICON_GOLD] Gold without any trade routes.</Text>
+			<Text>The Arabian unique building Funduq replaces the Caravansary. Land routes originating from this City have a 50% increase in range and produce an additional 6 [ICON_GOLD] Gold when connecting to another civilization. Unlike the Caravansary, the Funduq also generates [ICON_GOLD] Gold without any trade routes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FUNDUQ_TEXT">
 			<Text>

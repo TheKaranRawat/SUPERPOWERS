@@ -2,7 +2,7 @@
 ------------------------------	
 INSERT INTO Buildings 	
 	(Type, BuildingClass, AllowsRangeStrike, Happiness, Defense, ExtraCityHitPoints, CityWall, Cost, GoldMaintenance, PrereqTech, ArtDefineTag, XBuiltTriggersIdeologyChoice, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, Help, Description, Civilopedia, Strategy, IconAtlas, PortraitIndex)
-SELECT	'BUILDING_GUMBOOT_GUILD', BuildingClass, AllowsRangeStrike, Happiness, Defense, ExtraCityHitPoints,CityWall,  Cost, GoldMaintenance, 'TECH_MINING', ArtDefineTag, XBuiltTriggersIdeologyChoice, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, 'TXT_KEY_BUILDING_GUMBOOT_GUILD_HELP', 'TXT_KEY_BUILDING_GUMBOOT_GUILD', 'TXT_KEY_BUILDING_GUMBOOT_GUILD_TEXT', 'TXT_KEY_BUILDING_GUMBOOT_GUILD_STRATEGY', 'GUMBOOT_ATLAS', 0
+SELECT	'BUILDING_GUMBOOT_GUILD', BuildingClass, AllowsRangeStrike, Happiness, Defense, ExtraCityHitPoints,CityWall,  Cost, GoldMaintenance, 'TECH_BRONZE_WORKING', ArtDefineTag, XBuiltTriggersIdeologyChoice, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, 'TXT_KEY_BUILDING_GUMBOOT_GUILD_HELP', 'TXT_KEY_BUILDING_GUMBOOT_GUILD', 'TXT_KEY_BUILDING_GUMBOOT_GUILD_TEXT', 'TXT_KEY_BUILDING_GUMBOOT_GUILD_STRATEGY', 'GUMBOOT_ATLAS', 0
 FROM Buildings WHERE Type = 'BUILDING_CIRCUS';	
 ------------------------------	
 -- Building_Flavors

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/08/17 7:00:36 AM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_LIL_BOMBARD</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_LIL_BOMBARD</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_LIL_BOMBARD</DefaultUnit>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_LIL_BOMBARD</Class>
+			<Type>UNIT_EXOTIC_UNIT_LIL_BOMBARD</Type>
+			<Combat>15</Combat>
+			<RangedCombat>60</RangedCombat>
+			<Range>2</Range>
+			<Moves>3</Moves>
+			<Cost>185</Cost>
+			<!--<FaithCost>450</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			<ObsoleteTech>TECH_DYNAMITE</ObsoleteTech>
+			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_CITY_BOMBARD</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_LIL_BOMBARD</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_LIL_BOMBARD_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_LIL_BOMBARD_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_LIL_BOMBARD_HELP</Help>
+
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<!--<MoveAfterPurchase>true</MoveAfterPurchase>-->
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			
+			<Pillage>true</Pillage>
+
+			<AdvancedStartCost>30</AdvancedStartCost>
+			
+			<MinAreaSize>-1</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_4_OTTOMAN_CANON</UnitArtInfo>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>33</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>25</UnitFlagIconOffset>
+			<MoveRate>BIPED</MoveRate>
+			<ExtraMaintenanceCost>50</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_LIL_BOMBARD</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_MERC_GUILD</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_LIL_BOMBARD</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_LIL_BOMBARD</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_LIL_BOMBARD</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_LIL_BOMBARD</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_LIL_BOMBARD</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_LIL_BOMBARD</UnitType>
+			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_LIL_BOMBARD</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_LIL_BOMBARD</UnitType>
+			<PromotionType>PROMOTION_MUST_SET_UP</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_LIL_BOMBARD</UnitType>
+			<PromotionType>PROMOTION_SIGHT_PENALTY</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_LIL_BOMBARD</UnitType>
+			<SelectionSound>AS2D_SELECT_CANNON</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CANNON</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_LIL_BOMBARD">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Lil' Bombard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_LIL_BOMBARD_HELP">
+			<Text>Renaissance-era Mercenary siege unit that is extremely effective against cities. Price shown is how much it costs to hire this unit for 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_LIL_BOMBARD_STRATEGY">
+			<Text>The Lil' Bombard is an early gunpowder siege unit, based on the the bombards of the Ottomans. It is stronger against cities than the Cannon, and is available earlier, upon the discovery of Gunpowder. It is also extremely vulnerable to enemy attack.[NEWLINE][NEWLINE]Like most cannons, the Lil' Bombard takes time to set up for attack, receives no defensive bonus from terrain, and suffers a 1 tile site penalty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_LIL_BOMBARD_PEDIA">
+			<Text>
+				The Lil' Bombard is a Renaissance era Mercenary siege unit, available upon the discovery of Gunpowder. The Mercenary Guild is required for this unit to be built. The Lil' Bombard becomes obsolete upon the discovery of Dynamite.[NEWLINE][NEWLINE]
+				The Great Turkish Bombard, also known as the Dardanelles Gun, is a 15th-century siege cannon, specifically a super-sized bombard, which saw action in the 1807 Dardanelles Operation. The weapon was cast in bronze in 1464 by Munir Ali with a weight of 16.8 t and a length of 518 cm, being capable of firing stone balls of up to 63 cm diameter (over 25 inches). The powder chamber and the barrel are connected by the way of a screw mechanism, allowing easier transport of the unwieldy device. Such super-sized bombards had been employed in Western Europe siege warfare since the beginning of the 15th century, and were introduced to the Ottoman army in 1453 by the gunfounder Orban on the occasion of the Siege of Constantinople. Ali's piece is assumed to have followed closely the outline of these guns.[NEWLINE][NEWLINE]Along with other huge cannons, the Great Bombard was still present for duty more than 340 years later in 1807, when a Royal Navy force appeared and commenced the Dardanelles Operation. Turkish forces loaded the ancient relics with propellant and projectiles, then fired them at the British ships. The British squadron suffered 28 dead through this bombardment.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

@@ -5,6 +5,173 @@
 
 	<BuildingClasses>
 
+		<!-- More Wonders v2 -->
+		
+		<Row>
+			<Type>BUILDINGCLASS_ABUSIMBEL</Type>
+			<DefaultBuilding>BUILDING_ABUSIMBEL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ABUSIMBEL</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+		<!-- Bazaar of Tabriz -->
+		<Row>
+			<Type>BUILDINGCLASS_TABRIZBAZAAR</Type>
+			<DefaultBuilding>BUILDING_TABRIZBAZAAR</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TABRIZBAZAAR</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<!-- Brooklyn Bridge -->
+		<Row>
+			<Type>BUILDINGCLASS_BROOKLYNBRIDGE</Type>
+			<DefaultBuilding>BUILDING_BROOKLYNBRIDGE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BROOKLYNBRIDGE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<!-- Buda Castle -->
+		<Row>
+			<Type>BUILDINGCLASS_BUDACASTLE</Type>
+			<DefaultBuilding>BUILDING_BUDACASTLE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BUDACASTLE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<!-- Chogha Zanbil -->
+		<Row>
+			<Type>BUILDINGCLASS_CHOGHAZANBIL</Type>
+			<DefaultBuilding>BUILDING_CHOGHAZANBIL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CHOGHAZANBIL</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+
+		<!-- Gate of the Sun -->
+		<Row>
+			<Type>BUILDINGCLASS_GATESUN</Type>
+			<DefaultBuilding>BUILDING_GATESUN</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GATESUN</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<!-- Gobekli Tepe -->
+		<Row>
+			<Type>BUILDINGCLASS_GOBEKLITEPE</Type>
+			<DefaultBuilding>BUILDING_GOBEKLITEPE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GOBEKLITEPE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<!-- Gripsholm Castle -->
+		<Row>
+			<Type>BUILDINGCLASS_GRIPSHOLM</Type>
+			<DefaultBuilding>BUILDING_GRIPSHOLM</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GRIPSHOLM</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<!-- Horyuji -->
+		<Row>
+			<Type>BUILDINGCLASS_HORYUJI</Type>
+			<DefaultBuilding>BUILDING_HORYUJI</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_HORYUJI</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		
+
+		<!-- Nan Madol -->
+		<Row>
+			<Type>BUILDINGCLASS_MADOL</Type>
+			<DefaultBuilding>BUILDING_MADOL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MADOL</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<!-- Palm Jumeirah -->
+		<Row>
+			<Type>BUILDINGCLASS_PALMJUMEIRAH</Type>
+			<DefaultBuilding>BUILDING_PALMJUMEIRAH</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_PALMJUMEIRAH</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+		<!-- Rockefeller Center -->
+		<Row>
+			<Type>BUILDINGCLASS_ROCKEFELLER</Type>
+			<DefaultBuilding>BUILDING_ROCKEFELLER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ROCKEFELLER</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		
+		<!-- Sagrada Familia -->
+		<Row>
+			<Type>BUILDINGCLASS_SAGRADA</Type>
+			<DefaultBuilding>BUILDING_SAGRADA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SAGRADA</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+		<!-- Sphinx -->
+		<Row>
+			<Type>BUILDINGCLASS_SPHINX</Type>
+			<DefaultBuilding>BUILDING_SPHINX</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SPHINX</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		
+		<!-- Topkapi -->
+		<Row>
+			<Type>BUILDINGCLASS_TOPKAPI</Type>
+			<DefaultBuilding>BUILDING_TOPKAPI</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TOPKAPI</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+		<!-- Hattusa City -->
+		<Row>
+			<Type>BUILDINGCLASS_HATTUSA</Type>
+			<DefaultBuilding>BUILDING_HATTUSA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_HATTUSA</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<!-- Voyager One -->
+		<Row>
+			<Type>BUILDINGCLASS_VOYAGERONE</Type>
+			<DefaultBuilding>BUILDING_VOYAGERONE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_VOYAGERONE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<!-- Maracana -->
+		<Row>
+			<Type>BUILDINGCLASS_MARACANA</Type>
+			<DefaultBuilding>BUILDING_MARACANA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MARACANA</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+		<!-- Medina Azahara -->
+		<Row>
+			<Type>BUILDINGCLASS_MEDINAAZAHARA</Type>
+			<DefaultBuilding>BUILDING_MEDINAAZAHARA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MEDINAAZAHARA</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<!-- Mezquita Cordoba -->
+		<Row>
+			<Type>BUILDINGCLASS_MEZQUITACORDOBA</Type>
+			<DefaultBuilding>BUILDING_MEZQUITACORDOBA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MEZQUITACORDOBA</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+		<!-- Golden Gate -->
+		<Row>
+			<Type>BUILDINGCLASS_GOLDENGATE</Type>
+			<DefaultBuilding>BUILDING_GOLDENGATE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GOLDENGATE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+		
+
+
+
+		<!-- Wonders Old-->
+
 		<Row>
 			<Type>BUILDINGCLASS_WTC</Type>
 			<DefaultBuilding>BUILDING_WTC</DefaultBuilding>
@@ -403,10 +570,11 @@
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
+			<FoodKept>33</FoodKept>
 			<ConquestProb>100</ConquestProb>
-			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
-			<PortraitIndex>7</PortraitIndex>
-			<WonderSplashImage>GeneVault_Splash.dds</WonderSplashImage>
+			<PortraitIndex>34</PortraitIndex>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<WonderSplashImage>GSV_Splash.dds</WonderSplashImage>
 			<WonderSplashAnchor>L,T</WonderSplashAnchor>
 		</Row>
 		<Row>
@@ -3267,7 +3435,9 @@
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<!--
 			<FreeBuilding>BUILDINGCLASS_WTCDUMMY</FreeBuilding>
+			-->
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -3738,7 +3908,475 @@
 			<PortraitIndex>0</PortraitIndex>
 			<GreatWorkCount>-1</GreatWorkCount>
 		</Row>
+
+		<Row>
+			<Type>BUILDING_ABUSIMBEL</Type>
+			<BuildingClass>BUILDINGCLASS_ABUSIMBEL</BuildingClass>
+			<Description>TXT_KEY_BUILDING_ABUSIMBEL</Description>
+			<Help>TXT_KEY_WONDER_ABUSIMBEL_HELP</Help>
+			
+			<Civilopedia>TXT_KEY_WONDER_ABUSIMBEL_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_ABUSIMBEL_QUOTE</Quote>
+			<Cost>185</Cost>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>2</GreatWorkCount>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>AbuSimbel_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TABRIZBAZAAR</Type>
+			<BuildingClass>BUILDINGCLASS_TABRIZBAZAAR</BuildingClass>
+			<Description>TXT_KEY_BUILDING_TABRIZBAZAAR</Description>
+			<Help>TXT_KEY_WONDER_TABRIZBAZAAR_HELP</Help>
+			
+			<Civilopedia>TXT_KEY_WONDER_TABRIZBAZAAR_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_TABRIZBAZAAR_QUOTE</Quote>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<FreeBuildingThisCity>BUILDINGCLASS_MARKET</FreeBuildingThisCity>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<WonderSplashImage>TabrizBazaar_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<BuildingClass>BUILDINGCLASS_BROOKLYNBRIDGE</BuildingClass>
+			<Type>BUILDING_BROOKLYNBRIDGE</Type>
+			<Description>TXT_KEY_BUILDING_BROOKLYNBRIDGE</Description>
+			<Help>TXT_KEY_WONDER_BROOKLYNBRIDGE_HELP</Help>
+			
+			<Civilopedia>TXT_KEY_WONDER_BROOKLYNBRIDGE_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_BROOKLYNBRIDGE_QUOTE</Quote>
+			<Cost>1060</Cost>
+			<PrereqTech>TECH_RAILROAD</PrereqTech>
+			<MaxStartEra>ERA_POSTMODERN</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<River>true</River>
+			<GreatPeopleRateModifier>50</GreatPeopleRateModifier>
+			<GoldenAge>true</GoldenAge>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<WonderSplashImage>BrooklynBridge_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_BUDACASTLE</Type>
+			<BuildingClass>BUILDINGCLASS_BUDACASTLE</BuildingClass>
+			<Description>TXT_KEY_BUILDING_BUDACASTLE</Description>
+			<Help>TXT_KEY_WONDER_BUDACASTLE_HELP</Help>
+			
+			<Civilopedia>TXT_KEY_WONDER_BUDACASTLE_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_BUDACASTLE_QUOTE</Quote>
+			<Cost>625</Cost>
+			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
+			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<River>true</River>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<WonderSplashImage>BudaCastle_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_CHOGHAZANBIL</Type>
+			<BuildingClass>BUILDINGCLASS_CHOGHAZANBIL</BuildingClass>
+			<Description>TXT_KEY_BUILDING_CHOGHAZANBIL</Description>
+			<Help>TXT_KEY_WONDER_CHOGHAZANBIL_HELP</Help>
+			
+			<Civilopedia>TXT_KEY_WONDER_CHOGHAZANBIL_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_CHOGHAZANBIL_QUOTE</Quote>
+			<Cost>185</Cost>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<ReligiousPressureModifier>50</ReligiousPressureModifier>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<FreeBuildingThisCity>BUILDINGCLASS_TEMPLE</FreeBuildingThisCity>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+			<WonderSplashImage>ChoghaZanbil_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+
+		<Row>
+			<Type>BUILDING_GATESUN</Type>
+			<BuildingClass>BUILDINGCLASS_GATESUN</BuildingClass>
+			<Description>TXT_KEY_BUILDING_GATESUN</Description>
+			<Help>TXT_KEY_WONDER_GATESUN_HELP</Help>
+			
+			<Civilopedia>TXT_KEY_WONDER_GATESUN_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_GATESUN_QUOTE</Quote>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<WonderSplashImage>GateSun_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_GOBEKLITEPE</Type>
+			<BuildingClass>BUILDINGCLASS_GOBEKLITEPE</BuildingClass>
+			<Description>TXT_KEY_BUILDING_GOBEKLITEPE</Description>
+			<Help>TXT_KEY_WONDER_GOBEKLITEPE_HELP</Help>
+			
+			<Civilopedia>TXT_KEY_WONDER_GOBEKLITEPE_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_GOBEKLITEPE_QUOTE</Quote>
+			<Cost>150</Cost>
+			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+			<WonderSplashImage>GobekliTepe_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_GRIPSHOLM</Type>
+			<BuildingClass>BUILDINGCLASS_GRIPSHOLM</BuildingClass>
+			<Description>TXT_KEY_BUILDING_GRIPSHOLM</Description>
+			<Help>TXT_KEY_WONDER_GRIPSHOLM_HELP</Help>
+			
+			<Civilopedia>TXT_KEY_WONDER_GRIPSHOLM_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_GRIPSHOLM_QUOTE</Quote>
+			<Cost>400</Cost>
+			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
+			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<GlobalPopulationChange>1</GlobalPopulationChange>
+			<FreshWater>true</FreshWater>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<WonderSplashImage>Gripsholm_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_HORYUJI</Type>
+			<BuildingClass>BUILDINGCLASS_HORYUJI</BuildingClass>
+			<Description>TXT_KEY_BUILDING_HORYUJI</Description>
+			<Help>TXT_KEY_WONDER_HORYUJI_HELP</Help>
+			
+			<Civilopedia>TXT_KEY_WONDER_HORYUJI_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_HORYUJI_QUOTE</Quote>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreeBuildingThisCity>BUILDINGCLASS_PAGODA</FreeBuildingThisCity>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+			<WonderSplashImage>Horyuji_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,T</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_MADOL</Type>
+			<BuildingClass>BUILDINGCLASS_MADOL</BuildingClass>
+			<Description>TXT_KEY_BUILDING_MADOL</Description>
+			<Help>TXT_KEY_WONDER_MADOL_HELP</Help>
+			
+			<Civilopedia>TXT_KEY_WONDER_MADOL_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_MADOL_QUOTE</Quote>
+			<Cost>300</Cost>
+			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<Water>true</Water>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>13</PortraitIndex>
+			<WonderSplashImage>Madol_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_PALMJUMEIRAH</Type>
+			<BuildingClass>BUILDINGCLASS_PALMJUMEIRAH</BuildingClass>
+			<Description>TXT_KEY_BUILDING_PALMJUMEIRAH</Description>
+			<Help>TXT_KEY_WONDER_PALMJUMEIRAH_HELP</Help>
+			
+			<Civilopedia>TXT_KEY_WONDER_PALMJUMEIRAH_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_PALMJUMEIRAH_QUOTE</Quote>
+			<Cost>1250</Cost>
+			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<Water>true</Water>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>14</PortraitIndex>
+			<WonderSplashImage>PalmJumeirah_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,T</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_ROCKEFELLER</Type>
+			<BuildingClass>BUILDINGCLASS_ROCKEFELLER</BuildingClass>
+			<Description>TXT_KEY_BUILDING_ROCKEFELLER</Description>
+			<Help>TXT_KEY_WONDER_ROCKEFELLER_HELP</Help>
 		
+			<Civilopedia>TXT_KEY_WONDER_ROCKEFELLER_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_ROCKEFELLER_QUOTE</Quote>
+			<Cost>1250</Cost>
+			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinorFriendshipChange>200</MinorFriendshipChange>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>18</PortraitIndex>
+			<WonderSplashImage>Rockefeller_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_SAGRADA</Type>
+			<BuildingClass>BUILDINGCLASS_SAGRADA</BuildingClass>
+			<Description>TXT_KEY_BUILDING_SAGRADA</Description>
+			<Help>TXT_KEY_WONDER_SAGRADA_HELP</Help>
+		
+			<Civilopedia>TXT_KEY_WONDER_SAGRADA_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_SAGRADA_QUOTE</Quote>
+			<Cost>875</Cost>
+			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+			<MaxStartEra>ERA_MODERN</MaxStartEra>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<FreeBuildingThisCity>BUILDINGCLASS_CATHEDRAL</FreeBuildingThisCity>
+			<PortraitIndex>19</PortraitIndex>
+			<WonderSplashImage>Sagrada_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_SPHINX</Type>
+			<BuildingClass>BUILDINGCLASS_SPHINX</BuildingClass>
+			<Description>TXT_KEY_BUILDING_SPHINX</Description>
+			<Help>TXT_KEY_WONDER_SPHINX_HELP</Help>
+			
+			<Civilopedia>TXT_KEY_WONDER_SPHINX_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_SPHINX_QUOTE</Quote>
+			<Cost>185</Cost>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
+			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<CultureRateModifier>15</CultureRateModifier>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
+			<WonderSplashImage>Sphinx_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TOPKAPI</Type>
+			<BuildingClass>BUILDINGCLASS_TOPKAPI</BuildingClass>
+			<Description>TXT_KEY_BUILDING_TOPKAPI</Description>
+			<Help>TXT_KEY_WONDER_TOPKAPI_HELP</Help>
+			
+			<Civilopedia>TXT_KEY_WONDER_TOPKAPI_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_TOPKAPI_QUOTE</Quote>
+			<Cost>500</Cost>
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<UnmoddedHappiness>3</UnmoddedHappiness>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>25</PortraitIndex>
+			<WonderSplashImage>Topkapi_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,T</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_HATTUSA</Type>
+			<BuildingClass>BUILDINGCLASS_HATTUSA</BuildingClass>
+			<Description>TXT_KEY_BUILDING_HATTUSA</Description>
+			<Help>TXT_KEY_WONDER_HATTUSA_HELP</Help>
+			
+			<Civilopedia>TXT_KEY_WONDER_HATTUSA_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_HATTUSA_QUOTE</Quote>
+			<Cost>185</Cost>
+			<PrereqTech>TECH_ARCHERY</PrereqTech>
+			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<Defense>100</Defense>
+			<NearbyTerrainRequired>TERRAIN_PLAINS</NearbyTerrainRequired>
+			<FreeBuildingThisCity>BUILDINGCLASS_WALLS</FreeBuildingThisCity>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>40</PortraitIndex>
+			<WonderSplashImage>Hattusa_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>C,C</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_VOYAGERONE</Type>
+			<BuildingClass>BUILDINGCLASS_VOYAGERONE</BuildingClass>
+			<Description>TXT_KEY_BUILDING_VOYAGERONE</Description>
+			<Help>TXT_KEY_WONDER_VOYAGERONE_HELP</Help>
+			
+			<Civilopedia>TXT_KEY_WONDER_VOYAGERONE_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_VOYAGERONE_QUOTE</Quote>
+			<Cost>3000</Cost>
+			<PrereqTech>TECH_SATELLITES</PrereqTech>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<FreeTechs>1</FreeTechs>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreeBuildingThisCity>BUILDINGCLASS_LABORATORY</FreeBuildingThisCity>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>41</PortraitIndex>
+			<WonderSplashImage>VoyagerOne_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,T</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_MARACANA</Type>
+			<BuildingClass>BUILDINGCLASS_MARACANA</BuildingClass>
+			<Cost>1500</Cost>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+			<Help>TXT_KEY_WONDER_MARACANA_HELP</Help>
+			
+			<Description>TXT_KEY_BUILDING_MARACANA</Description>
+			<Civilopedia>TXT_KEY_WONDER_MARACANA_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_MARACANA_QUOTE</Quote>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<UnmoddedHappiness>7</UnmoddedHappiness>
+			<FreeBuildingThisCity>BUILDINGCLASS_STADIUM</FreeBuildingThisCity>
+			<GoldenAgeModifier>30</GoldenAgeModifier>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>42</PortraitIndex>
+			<WonderSplashImage>Maracana_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_GOLDENGATE</Type>
+			<BuildingClass>BUILDINGCLASS_GOLDENGATE</BuildingClass>
+			<Cost>2000</Cost>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<Help>TXT_KEY_WONDER_GOLDENGATE_HELP</Help>
+			<Strategy>TXT_KEY_WONDER_GOLDENGATE_STRATEGY</Strategy>
+			<Description>TXT_KEY_BUILDING_GOLDENGATE</Description>
+			<Civilopedia>TXT_KEY_WONDER_GOLDENGATE_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_GOLDENGATE_QUOTE</Quote>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<Water>true</Water>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<TradeRouteSeaDistanceModifier>25</TradeRouteSeaDistanceModifier>
+			<TradeRouteSeaGoldBonus>100</TradeRouteSeaGoldBonus>
+			<TradeRouteLandDistanceModifier>25</TradeRouteLandDistanceModifier>
+			<TradeRouteLandGoldBonus>100</TradeRouteLandGoldBonus>
+			<TradeRouteRecipientBonus>4</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>2</TradeRouteTargetBonus>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
+			<PortraitIndex>51</PortraitIndex>
+			<WonderSplashImage>GoldenGate_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		
+		
+
 		
 	</Buildings>
 
@@ -3832,61 +4470,61 @@
 		<Row>
 			<BuildingType>BUILDING_FW_ULTIMATOWER</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 
          <Row>
 			<BuildingType>BUILDING_FW_SKYCITY</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 
          <Row>
 			<BuildingType>BUILDING_FW_SHIMIZUMCP</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 
          <Row>
 			<BuildingType>BUILDING_FW_FLOATINGISLANDS</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 
          <Row>
 			<BuildingType>BUILDING_FW_BUENOSAIRESFORUM</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 
          <Row>
 			<BuildingType>BUILDING_FW_BIONICTOWER</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 
                 <Row>
 			<BuildingType>BUILDING_FW_DATA_HAVEN</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 
          <Row>
 			<BuildingType>BUILDING_FW_SHANGHAI_WFC</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 
          <Row>
 			<BuildingType>BUILDING_FW_SKYTREE</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>4</Cost>
+			<Cost>6</Cost>
 		</Row>
 
          <Row>
 			<BuildingType>BUILDING_FW_ORBITAL_REFINERY</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>4</Cost>
+			<Cost>6</Cost>
 		</Row>
 
          <Row>
@@ -3898,7 +4536,7 @@
          <Row>
 			<BuildingType>BUILDING_FW_HELIOS</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>3</Cost>
+			<Cost>4</Cost>
 		</Row>
 
                 <Row>
@@ -3910,7 +4548,7 @@
          <Row>
 			<BuildingType>BUILDING_FW_CITADEL_STATION</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 
          <Row>
@@ -3922,13 +4560,13 @@
          <Row>
 			<BuildingType>BUILDING_FW_SKYNET</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>4</Cost>
+			<Cost>8</Cost>
 		</Row>
 
          <Row>
 			<BuildingType>BUILDING_FW_ENRICHMENT_CENTRE</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 
          <Row>
@@ -3952,7 +4590,7 @@
          <Row>
 			<BuildingType>BUILDING_FW_NEPHILIM_GENE_TEMPLATE</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 
          <Row>
@@ -3964,16 +4602,132 @@
          <Row>
 			<BuildingType>BUILDING_FW_GENOME_PROJECT</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>3</Cost>
+			<Cost>4</Cost>
 		</Row>
 
-         <Row>
+        <Row>
 			<BuildingType>BUILDING_FW_ASTEROID_MINING</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>8</Cost>
 		</Row>
 
-            
+		<!-- more wonders v2 -->
+
+		<Row>
+			<BuildingType>BUILDING_ABUSIMBEL</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TABRIZBAZAAR</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_BROOKLYNBRIDGE</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_CHOGHAZANBIL</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_GATESUN</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_GOBEKLITEPE</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_GRIPSHOLM</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_HORYUJI</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_MADOL</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_PALMJUMEIRAH</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>6</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_ROCKEFELLER</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SAGRADA</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SPHINX</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TOPKAPI</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_HATTUSA</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_VOYAGERONE</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>8</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_MARACANA</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>6</Cost>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>8</Cost>
+		</Row>
+
+		           
 
 		
 

@@ -106,7 +106,7 @@
 
 
 		<Row Tag="TXT_KEY_BUILDING_KRAAL">
-			<Text>Kraal</Text>
+			<Text>[ICON_PRODUCTION] Kraal</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_KRAAL_HELP">
 			<Text>+1 [ICON_PRODUCTION] Production and +1 [ICON_CULTURE] Culture for every [ICON_RES_COW] Cow, [ICON_RES_SHEEP] Sheep, and [ICON_RES_HORSE] Horse tile worked by this city. Provides a source of [ICON_RES_COW] Cows or [ICON_RES_SHEEP] Sheep. Only the Zulus may build it.</Text>

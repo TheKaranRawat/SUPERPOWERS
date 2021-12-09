@@ -31,6 +31,9 @@ local g_iBuildingToSell = -1;
 
 local g_bRazeButtonDisabled = false;
 
+
+
+
 -- Add any interface modes that need special processing to this table
 local InterfaceModeMessageHandler = 
 {
@@ -944,7 +947,7 @@ function OnCityViewUpdate()
 		
 
 		------------------ SP Auto Fill Specialists---------------
-		
+		--[[
 		if pCity:IsNoAutoAssignSpecialists() then
 			Controls.BTNFillScientists:SetHide(false)
 			Controls.BTNFillEngineers:SetHide(false)
@@ -961,7 +964,7 @@ function OnCityViewUpdate()
 			Controls.BTNFillMuscians:SetHide(true)
 		
 		end
-		
+		]]--
 		------------------ SP Auto Fill Specialists END---------------
 		
 		
@@ -1159,6 +1162,8 @@ function OnCityViewUpdate()
 				Controls.BalancedFocusButton:SetCheck( true );
 			end
 			Controls.AvoidGrowthButton:SetCheck( pCity:IsForcedAvoidGrowth() );
+			
+			
 			if pCity:GetNumForcedWorkingPlots() > 0 or numSlackersInThisCity > 0 then
 				Controls.ResetButton:SetHide( false );
 				Controls.ResetFooter:SetHide( false );
@@ -1166,6 +1171,7 @@ function OnCityViewUpdate()
 				Controls.ResetButton:SetHide( true );
 				Controls.ResetFooter:SetHide( true );
 			end
+			
 			Events.RequestYieldDisplay( YieldDisplayTypes.CITY_OWNED, pCity:GetX(), pCity:GetY() );
 			Controls.WorkerManagementBox:SetHide( false );
 		else
@@ -1402,7 +1408,7 @@ function OnCityViewUpdate()
 		local strMaintenanceTT = Locale.ConvertTextKey("TXT_KEY_BUILDING_MAINTENANCE_TT", iBuildingMaintenance);
 		Controls.SpecialBuildingsHeader:SetToolTipString(strMaintenanceTT);
 		Controls.BuildingsHeader:SetToolTipString(strMaintenanceTT);
-		Controls.GreatWorkHeader:SetToolTipString(strMaintenanceTT);
+		-- Controls.GreatWorkHeader:SetToolTipString(strMaintenanceTT);
 		
 		-- buildings that take specialists
 		local numSpecialBuildingsInThisCity = 0;
@@ -1890,7 +1896,7 @@ function OnCityViewUpdate()
 		
 		
 			--SP City Automation
-			Controls.BTNCityAuto:SetDisabled( false );
+--			Controls.BTNCityAuto:SetDisabled( false );
 --			Controls.BTNCityCopyOrder:SetDisabled( false );
 			
 			
@@ -3115,7 +3121,7 @@ Controls.BTNCityAuto:RegisterCheckHandler(OnCityAutomation)
 
 ----------------------------------------------------------SP One-Clik to fill all same types of specialists---------------------------------------------------------------
 
-
+--[[
 function OnFillScientists()
  
     local player = Players[Game.GetActivePlayer()]
@@ -3278,7 +3284,7 @@ function FillSpecialistsSlots (SpecialistName, SpecialistsID, buildingID, pCity)
 	
 	
 end
-
+]]--
 
 
 

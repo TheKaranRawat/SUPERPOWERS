@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/08/17 7:00:36 AM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</DefaultUnit>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</Class>
+			<Type>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</Type>
+			<Combat>20</Combat>
+			<RangedCombat>35</RangedCombat>
+			<Range>2</Range>
+			<Moves>6</Moves>
+			<Cost>100</Cost>
+			<!--<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN_HELP</Help>
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<NoMaintenance>true</NoMaintenance>
+			<Pillage>true</Pillage>
+
+			<AdvancedStartCost>100</AdvancedStartCost>
+			
+			<MinAreaSize>-1</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitArtInfo>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>12</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>58</UnitFlagIconOffset>
+			<MoveRate>QUADRUPED</MoveRate>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<!--
+	
+	
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>	
+
+	-->
+	
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_MERC_GUILD</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+	
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>14</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
+			<UnitClassType>UNITCLASS_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
+			<SelectionSound>AS2D_SELECT_CAVALRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CAVALRY</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Mounted Crossbowman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN_HELP">
+			<Text>Fast Medieval Era ranged mounted unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN_STRATEGY">
+			<Text>Use the Frankish Mounted Crossbowman to devastate your enemies from afar. They may move after attacking, but receive no defensive bonus from terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN_PEDIA">
+			<Text>
+				The Frankish Mounted Crossbowman is a Medieval era ranged mounted unit, available upon the discovery of Civil Service. The Frankish Mounted Crossbowman becomes obsolete upon the discovery of Rifling, at which time it may upgrade to the Iroquois Musket Rider unit.[NEWLINE][NEWLINE]
+				The term 'Frankish Crossbowman' was invented by Arabic soldiers during the Crusades, used to describe all western mounted crossbowmen they encountered. The ancient world knew a variety of mechanical hand-held weapons similar to the later medieval crossbow. The exact terminology is a subject of continuing scholarly debate. Roman authors like Vegetius, early 4th century, note repeatedly the use of arrow shooting weapons such as arcuballista and manuballista respectively cheiroballista. While most scholars agree that one or more of these terms refer to handheld mechanical weapons, there is disagreement whether these were flexion bows or torsion powered like the recent Xanten find.[NEWLINE][NEWLINE]The Roman commander Arrian, c. 86 to 146, records in his Tactica Roman cavalry training for shooting some mechanical handheld weapon from horseback. Sculptural reliefs from Roman Gaul depict the use of crossbows in hunting scenes. These are remarkably similar to the later medieval crossbow.[NEWLINE][NEWLINE]In the armies of Europe, mounted and unmounted crossbowmen, often mixed with slingers, javelineers and archers, occupied a central position in battle formations. Usually they engaged the enemy in offensive skirmishes before an assault of mounted knights. Crossbowmen were also valuable in counterattacks to protect their infantry. The rank of commanding officer of the crossbowmen corps was one of the highest positions in any army of this time. Along with polearm weapons made from farming equipment, the crossbow was also a weapon of choice for insurgent peasants such as the Taborites.[NEWLINE][NEWLINE]Mounted knights armed with lances proved ineffective against formations of pikemen combined with crossbowmen whose weapons could penetrate most knights' armor. The invention of pushlever and ratchet drawing mechanisms enabled the use of crossbows on horseback, leading to the development of new cavalry tactics. Knights and mercenaries deployed in triangular formations, with the most heavily armored knights at the front. Some of these riders would carry small, powerful all-metal crossbows of their own. Crossbows were eventually replaced in warfare by more powerful gunpowder weapons, although early guns had slower rates of fire and much worse accuracy than contemporary crossbows. Later, similar competing tactics would feature harquebusiers or musketeers in formation with pikemen, both pike and shot, pitted against cavalry firing pistols or carbines.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

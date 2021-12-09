@@ -62,7 +62,7 @@
 	<!-- Adds new text -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_IWAN_PALACE">
-			<Text>Iwan Palace</Text>
+			<Text>[ICON_GOLD] Iwan Palace</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_IWAN_PALACE_HELP">
 			<Text>+2 [ICON_GOLD] Gold from every [ICON_RES_GOLD] Gold and [ICON_RES_SILVER] Silver resource worked by this City. Generates a [ICON_RES_GOLD] Gold resource near the City, if possible. Improves global [ICON_HAPPINESS_1] Happiness. Only Persia may build it.</Text>

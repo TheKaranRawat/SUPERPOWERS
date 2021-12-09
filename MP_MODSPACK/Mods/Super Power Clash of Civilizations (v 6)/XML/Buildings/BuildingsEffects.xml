@@ -5,6 +5,38 @@
 	<Building_FreeUnits>
 
 		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<UnitType>UNIT_CARGO_SHIP</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_VOYAGERONE</BuildingType>
+			<UnitType>UNIT_SCIENTIST</UnitType>
+			<NumUnits>2</NumUnits>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_MARACANA</BuildingType>
+			<UnitType>UNIT_BRAZIL_SCOCCER_STAR</UnitType>
+			<NumUnits>3</NumUnits>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SPHINX</BuildingType>
+			<UnitType>UNIT_WORKER</UnitType>
+			<NumUnits>4</NumUnits>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TABRIZBAZAAR</BuildingType>
+			<UnitType>UNIT_MERCHANT</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+
+		<!-- 000000000000000000000000000 -->
+
+		<Row>
 			<BuildingType>BUILDING_HAWA</BuildingType>
 			<UnitType>UNIT_ENGINEER</UnitType>
 			<NumUnits>1</NumUnits>
@@ -1389,6 +1421,89 @@
 	<Building_YieldChanges>
 
 		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_HATTUSA</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HATTUSA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SPHINX</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPHINX</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_ROCKEFELLER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SAGRADA</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>8</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_PALMJUMEIRAH</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>8</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_HORYUJI</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>8</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_GRIPSHOLM</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>6</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_GOBEKLITEPE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>6</Yield>
+		</Row>
+
+		<!-- More Wonders v2 -->
+		
+		<Row>
+			<BuildingType>BUILDING_ABUSIMBEL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+
+		<Row>
 			<BuildingType>BUILDING_AREA_51</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>50</Yield>
@@ -2715,11 +2830,253 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>32</Yield>
 		</Row>
+
+		<!-- MERC BUILDINGS YIELD -->
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_HEPTASTADION</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_HEPTASTADION</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MEAD_HALL</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MEAD_HALL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MERC_GUILD</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MERC_GUILD</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_SHIPYARD</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_SHIPYARD</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_SHIPYARD</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MERC_CONSULATE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MERC_CONSULATE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_NAVAL_YARD</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_NAVAL_YARD</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_NAVAL_YARD</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_CONTRACTING_AGENCY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_CONTRACTING_AGENCY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_BROOKLYNBRIDGE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROOKLYNBRIDGE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_CHOGHAZANBIL</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>8</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_GATESUN</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_MADOL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>6</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TOPKAPI</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_VOYAGERONE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>8</Yield>
+		</Row>
 		
 	</Building_YieldChanges>
 
 
 	<Building_BuildingClassYieldChanges>
+
+		<Row>
+			<BuildingType>BUILDING_HATTUSA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HATTUSA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TOPKAPI</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TCS_TOWER</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TOPKAPI</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TOPKAPI</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TOPKAPI</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TOPKAPI</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TOPKAPI</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TOPKAPI</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TOPKAPI</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_GATESUN</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GATESUN</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_WASHINGTON</BuildingType>
@@ -3047,6 +3404,42 @@
 			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 			<Happiness>1</Happiness>		</Row>-->
 
+		<Row>
+			<BuildingType>BUILDING_SAGRADA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CATHEDRAL</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SAGRADA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SAGRADA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PAGODA</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SAGRADA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SAGRADA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SAGRADA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
 	
 		<Row>
 			<BuildingType>BUILDING_FW_ANGELNET</BuildingType>
@@ -3470,6 +3863,12 @@
 			<Yield>10</Yield>
 		</Row>
 
+		<Row>
+			<BuildingType>BUILDING_PALMJUMEIRAH</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+
 	</Building_YieldModifiers>
 
 
@@ -3514,6 +3913,20 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>15</Yield>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_VOYAGERONE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_VOYAGERONE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+
+		
 		
 		<!--<Row>
 			<BuildingType>BUILDING_CHINESE_SHUILIQU</BuildingType>
@@ -3554,11 +3967,25 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>2</Yield>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_ABUSIMBEL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>15</Yield>
+		</Row>
+
 	</Building_GlobalYieldModifiers>
 	
 
 	<!--*********************Other Yield Changes********************-->
 	<Building_RiverPlotYieldChanges>
+
+		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_BABYLON_WATER_PUMP</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -3614,6 +4041,28 @@
 	<Building_SeaPlotYieldChanges>
 
 		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_MADOL</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MADOL</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MADOL</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
 			<BuildingType>BUILDING_LONDON_ARRAY</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
@@ -3665,6 +4114,18 @@
 	</Building_SeaPlotYieldChanges>
 	
 	<Building_LakePlotYieldChanges>
+
+		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_GRIPSHOLM</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_WILLIS</BuildingType>
@@ -3729,6 +4190,20 @@
 
 
 	<Building_ResourceYieldChanges>
+
+		<Row>
+			<BuildingType>BUILDING_GOBEKLITEPE</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOBEKLITEPE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
 		<!--<Row>
 			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
@@ -4748,6 +5223,13 @@
 			<Yield>1</Yield>
 		</Row>
 
+		<Row>
+			<BuildingType>BUILDING_PALMJUMEIRAH</BuildingType>
+			<FeatureType>FEATURE_ATOLL</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+
 	</Building_FeatureYieldChanges>
 	
 
@@ -4906,6 +5388,14 @@
 
 
 	<Building_SpecialistYieldChanges>
+
+		<Row>
+			<BuildingType>BUILDING_FW_GENE_VAULT</BuildingType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
 
 		<Row>
 			<BuildingType>BUILDING_HARMANDIR</BuildingType>
@@ -5139,6 +5629,18 @@
 
 
 	<Building_YieldChangesPerPop>
+
+		<Row>
+			<BuildingType>BUILDING_SPHINX</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>50</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TABRIZBAZAAR</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>100</Yield>
+		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_FW_ENRICHMENT_CENTRE</BuildingType>
@@ -6281,6 +6783,206 @@
 
 
 	<Building_Flavors>
+
+		
+
+		<Row>
+			<BuildingType>BUILDING_MARACANA</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>70</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARACANA</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_VOYAGERONE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VOYAGERONE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VOYAGERONE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_HATTUSA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HATTUSA</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HATTUSA</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TOPKAPI</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TOPKAPI</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SPHINX</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPHINX</BuildingType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPHINX</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPHINX</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPHINX</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_ROCKEFELLER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ROCKEFELLER</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ROCKEFELLER</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ROCKEFELLER</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ROCKEFELLER</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ROCKEFELLER</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SAGRADA</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>13</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SAGRADA</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SAGRADA</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_PALMJUMEIRAH</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALMJUMEIRAH</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_MADOL</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MADOL</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_HORYUJI</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HORYUJI</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_GRIPSHOLM</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GRIPSHOLM</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GRIPSHOLM</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_GOBEKLITEPE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOBEKLITEPE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_GATESUN</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GATESUN</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_ABER</BuildingType>
@@ -10157,6 +10859,257 @@
 			<Flavor>20</Flavor>
 		</Row>
 
+		<!-- MERC BUILDINGS FLAVOR -->
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_HEPTASTADION</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_HEPTASTADION</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_HEPTASTADION</BuildingType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MEAD_HALL</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MEAD_HALL</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MEAD_HALL</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MERC_GUILD</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MERC_GUILD</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MERC_GUILD</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>17</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_SHIPYARD</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_SHIPYARD</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_SHIPYARD</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_SHIPYARD</BuildingType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MERC_CONSULATE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MERC_CONSULATE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MERC_CONSULATE</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_NAVAL_YARD</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_NAVAL_YARD</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_NAVAL_YARD</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_NAVAL_YARD</BuildingType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_CONTRACTING_AGENCY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_CONTRACTING_AGENCY</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_CONTRACTING_AGENCY</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_ABUSIMBEL</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ABUSIMBEL</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ABUSIMBEL</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ABUSIMBEL</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TABRIZBAZAAR</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TABRIZBAZAAR</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_BROOKLYNBRIDGE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROOKLYNBRIDGE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BUDACASTLE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_CHOGHAZANBIL</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHOGHAZANBIL</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHOGHAZANBIL</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		
+
 	</Building_Flavors>
 
 
@@ -10169,7 +11122,23 @@
 		</Row>
 		
 	</Belief_BuildingClassFaithPurchase>
-	
+
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_FREEDOM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ROCKEFELLER</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>20</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+
+	<Policy_BuildingClassHappiness>
+		<Row>
+			<PolicyType>POLICY_COMMERCE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ROCKEFELLER</BuildingClassType>
+			<Happiness>5</Happiness>
+		</Row>
+	</Policy_BuildingClassHappiness>
 	
 	
 	

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/07/17 1:35:50 PM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_WAR_JUNK</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_WAR_JUNK</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_WAR_JUNK</DefaultUnit>-->			
+			<!--<MaxPlayerInstances>3</MaxPlayerInstances>-->
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_WAR_JUNK</Class>
+			<Type>UNIT_EXOTIC_UNIT_WAR_JUNK</Type>
+			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
+			<ObsoleteTech>TECH_REPLACEABLE_PARTS</ObsoleteTech>
+			<Combat>100</Combat>
+			<RangedCombat>140</RangedCombat>
+			<Range>1</Range>
+			<Moves>6</Moves>
+			<Cost>500</Cost>			
+			<!--<FaithCost>300</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_WAR_JUNK</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_WAR_JUNK_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_WAR_JUNK_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_WAR_JUNK_HELP</Help>
+
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			
+			<Pillage>true</Pillage>
+			
+			<Mechanized>true</Mechanized>			
+			<AdvancedStartCost>150</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_WAR_JUNK</UnitArtInfo>			
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>40</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>32</UnitFlagIconOffset>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+			<ExtraMaintenanceCost>40</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WAR_JUNK</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_SHIPYARD</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WAR_JUNK</UnitType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WAR_JUNK</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WAR_JUNK</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WAR_JUNK</UnitType>
+			<UnitAIType>UNITAI_PIRATE_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WAR_JUNK</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WAR_JUNK</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WAR_JUNK</UnitType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WAR_JUNK</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WAR_JUNK</UnitType>
+			<SelectionSound>AS2D_SELECT_FRIGATE</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_FRIGATE</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_WAR_JUNK">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] War Junk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_WAR_JUNK_HELP">
+			<Text>Powerful Industrial Era Mercenary ranged naval unit. Price shown is how much it costs to hire this unit for 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_WAR_JUNK_STRATEGY">
+			<Text>
+				Use the War Junk to send your enemy's fleet to the bottom of the briny deep.
+				[NEWLINE][NEWLINE]Although this unit requires a Renaissance Era technology to build, it also requires an Industrial Era building in the city. This delays the appeance of this unit until the discovery of Military Science.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_WAR_JUNK_PEDIA">
+			<Text>
+				The War Junk is an Industrial era Mercenary naval ranged unit, available upon the discovery of Astronomy. The Shipyard is required for this unit to be built. The War Junk becomes obsolete upon the discovery of Replacable Parts.[NEWLINE][NEWLINE]
+				A Junk is a type of ancient Chinese sailing ship that is still in use today. Junks were used as seagoing vessels as early as the 2nd century AD and developed rapidly during the Song Dynasty, from 960 to 1279. They evolved in the later dynasties, and were used throughout Asia for extensive ocean voyages. They were found, and in lesser numbers are still found, throughout South-East Asia and India, but primarily in China. Found more broadly today is a growing number of modern recreational junk-rigged sailboats.
+			</Text>
+		</Row>
+	</Language_en_US>	
+  
+</GameData>

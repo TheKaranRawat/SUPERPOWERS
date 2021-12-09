@@ -1277,13 +1277,12 @@ for addin in Modding.GetActivatedModEntryPoints("InGameUIAddin") do
 	table.insert(g_uiAddins, ContextPtr:LoadNewContext(path));
 end
 ContextPtr:LoadNewContext("Stfu")
+ContextPtr:LoadNewContext("EconomicVictory")
+ContextPtr:LoadNewContext("ReligiousVictory")
 ContextPtr:LoadNewContext("CityStateAirbases")
 ContextPtr:LoadNewContext("TopCities_Main")
 ContextPtr:LoadNewContext("TopCities")
 ContextPtr:LoadNewContext("Historical Religions Preference Handle")
-ContextPtr:LoadNewContext("PhilosophersLegacyScript")
-ContextPtr:LoadNewContext("EconomicVictory")
-ContextPtr:LoadNewContext("ReligiousVictory")
 ContextPtr:LoadNewContext("Policy_FreeBuildingClass")
 ContextPtr:LoadNewContext("NewAttackEffects")
 ContextPtr:LoadNewContext("NewBuildingEffects")

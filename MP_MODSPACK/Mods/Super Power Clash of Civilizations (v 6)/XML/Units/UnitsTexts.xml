@@ -31,6 +31,23 @@
 		<Replace Tag="TXT_KEY_UNITCOMBAT_FIGHTER">
 			<Text>Aircraft Units</Text>
 		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_WORKER">
+			<Text>[ICON_WORKER]Worker</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_SETTLER">
+			<Text>[ICON_WORKER]Settler</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_CARAVAN">
+			<Text>[ICON_INTERNATIONAL_TRADE]Caravan</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_CARGO_SHIP">
+			<Text>[ICON_INTERNATIONAL_TRADE]Cargo Ship</Text>
+		</Replace>
+		
 	</Language_en_US>
 	
 	
@@ -1405,11 +1422,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_BRAZILIAN_LABOR">
-			<Text>Brazilian Labor</Text>
+			<Text>[ICON_WORKER] Brazilian Labor</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BRAZILIAN_LABOR_HEADING">
-			<Text>Brazilian Labor</Text>
+			<Text>[ICON_WORKER] Brazilian Labor</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BRAZILIAN_LABOR_HELP">
 			<Text>Brazilian Labor is unique civilian unit of Nrazil, replacing the Worker. It can move ignore terrain cost and build improvements 25% faster than ordinary Workers.</Text>
@@ -1773,7 +1790,7 @@
 
 
 	<Row Tag="TXT_KEY_UNIT_MODERN_DESTROYER">
-		<Text>Missile Destroyer</Text>
+		<Text>Guided-Missile Destroyer</Text>
 		<Plurality>2</Plurality>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_MODERN_DESTROYER_HEADING">
@@ -1873,7 +1890,7 @@
 
 
 	<Row Tag="TXT_KEY_UNIT_SUPER_CARRIER">
-		<Text>Super-Carrier</Text>
+		<Text>Supercarrier</Text>
 	</Row>	
 	<Row Tag="TXT_KEY_UNIT_SUPER_CARRIER_TEXT">
 		<Text>The Super-Carrier is the nuclear age evolution of the Aircraft Carrier.</Text>
@@ -2415,7 +2432,7 @@
 		</Replace>
 
 
-		<Replace Tag="TXT_KEY_UNIT_HELP_BERBER_CAVALRY">
+		<Replace Tag="TXT_KEY_UNIT_BERBER_CAVALRY_HELP">
 			<Text>Unique unit of the Moroccan civilization. Replaces the Cavalry. It is a strng hit-and-run unit which boasts a better self-defense ability.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_BERBER_CAVALRY_STRATEGY">
@@ -3533,9 +3550,9 @@
 			<Text>Camouflage Recon</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RECON_UNIT_HELP">
-			<Text>Recon Unit ,the eyes of the army. Excellent at reconnaissance and offer target of Ranged Attacks. 
+			<Text>Recon Unit, the eyes of the army. Excellent at reconnaissance and offer target of Ranged Attacks. 
 			[NEWLINE][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Invisible[ENDCOLOR] to units which cannot see Stealth Units.[NEWLINE][ICON_BULLET]Can see [COLOR_POSITIVE_TEXT]Stealth Units[ENDCOLOR]. 
-			[NEWLINE]Move ignoring terrian costs. 
+			[NEWLINE][ICON_BULLET]Move ignoring terrian costs. 
 			[NEWLINE][ICON_BULLET]Can move after attacking.
 			[NEWLINE][ICON_BULLET]Cannot [COLOR_NEGATIVE_TEXT]Pillage[ENDCOLOR] or [COLOR_NEGATIVE_TEXT]Capture[ENDCOLOR] Cities.[NEWLINE][ICON_BULLET]Cannot receive [COLOR_NEGATIVE_TEXT]Terrain Bonus[ENDCOLOR].</Text>
 		</Row>
@@ -3977,6 +3994,10 @@
 		<Replace Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_3_HELP" >
 			<Text>Have a chance of [COLOR_POSITIVE_TEXT]Capturing[ENDCOLOR] the defeated Enemy Unit.</Text>
 		</Replace>
+
+		<Row Tag="TXT_KEY_DIESEL_SUB_CIVPEDIA">
+			<Text>Attack submarines may be either nuclear-powered or diesel-electric ("conventionally") powered. In the United States Navy naming system, and in the equivalent NATO system (STANAG 1166), nuclear-powered attack submarines are known as SSNs and their anti-submarine (ASW) diesel-electric predecessors were SSKs. In the US Navy, SSNs are unofficially called "fast attacks".</Text>
+		</Row>
 
 		
 		
@@ -4673,7 +4694,7 @@
 			<Text>Fire at Will</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UNLIMITED_ATTACK_HELP">
-			<Text>Can attack mutiple times per turn until MP depleted.</Text>
+			<Text>Can attack mutiple times per turn until movement is depleted.</Text>
 		</Row>
 
 
@@ -4983,7 +5004,7 @@
 			<Text>70% chance of evading interception.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SUBORBITAL_EVASION">
-			<Text>Suborbital Bomber Evasion</Text>
+			<Text>Sub-Orbital Bomber Evasion</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SUBORBITAL_EVASION_HELP">
 			<Text>85% chance of evading interception.</Text>
@@ -5271,7 +5292,7 @@
 			<Text>A one-shot Unit that may be used once to damage enemy Units or Cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_CRAWLER">
-			<Text>Crawler</Text>
+			<Text>Mechanized Support Unit</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_CRAWLER_TEXT">
 			<Text>As Mech Artillery became increasingly predominant, certain logistical issues began to crop up, as Mech Artillery units could travel to locations where resupply was difficult with conventional logistics methods. At the same time, advances in materials engineering and compact fusion power plants lead to the concept of superheavy vehicles. While this was found most notably in combat units such as the GDR, one unconventional solution to the logistical issues facing artillery units was the Crawler, a gigantic mobile factory and munitions plant. Capable of consuming local resources, converting them into useful raw materials, and then processing those materials into munitions, the first Crawlers were deployed as logistical support to Mech Artillery battalions. The Crawlers themselves were vulnerable to attack from highly mobile units such as Hovertanks, however, and thus were soon armed with their own defensive missile batteries, capable of using the munitions they manufactured in their own defense. As these weapons were more properly integrated into the Crawler design, however, some designers began to wonder why the Crawlers should be kept in a supporting role, when they could be easily converted into viable, self-sustaining artillery vehicles in their own right. Thus, the Crawler eventually became the ultimate artillery weapon -- a long range missile platform that could resupply itself in the field.</Text>

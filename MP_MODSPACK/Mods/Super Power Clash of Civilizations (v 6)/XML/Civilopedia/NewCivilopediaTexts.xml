@@ -37,6 +37,19 @@
 
 
 	<Language_en_US>
+	
+		<Replace Tag="TXT_KEY_CITYVIEW_CHANGE_PROD">
+			<Text>[ICON_PRODUCTION]CHANGE PRODUCTION</Text>
+		</Row>
+
+		<Replace Tag="TXT_KEY_CITYVIEW_QUEUE_PROD">
+			<Text>[ICON_PRODUCTION]ADD TO QUEUE</Text>
+		</Row>
+
+		<Replace Tag="TXT_KEY_CITYVIEW_CHOOSE_PROD">
+			<Text>[ICON_PRODUCTION]CHOOSE PRODUCTION</Text>
+		</Row>
+
 
 		<Replace Tag="TXT_KEY_FREE_POLICIES">
 			<Text>Num of Free Policies: </Text>

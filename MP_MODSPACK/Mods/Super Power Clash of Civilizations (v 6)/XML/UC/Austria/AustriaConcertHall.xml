@@ -75,7 +75,7 @@
 	<!-- Adds new text -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_CONCERT_HALL">
-			<Text>Concert Hall</Text>
+			<Text>[ICON_CULTURE] Concert Hall</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CONCERT_HALL_STRATEGY">
 			<Text>The Concert Hall is the Austrian replacement for the Zoo. In addition to the normal [ICON_HAPPINESS_1] Happiness increase, the Concert Hall also yields [ICON_CULTURE] Culture and has two Musician Specialist slots.</Text>

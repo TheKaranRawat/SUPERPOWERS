@@ -54,7 +54,7 @@
 		<Row>
 			<BuildingType>BUILDING_SARGON_SHRINE</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>4</Yield>
 		</Row>
 	</Building_YieldChanges>
 
@@ -78,10 +78,10 @@
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_SARGON_SHRINE">
-			<Text>Lamassu</Text>
+			<Text>[ICON_STRENGTH] Lamassu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SARGON_SHRINE_HELP">
-			<Text>Increases the [ICON_PEACE] Faith and [ICON_RANGE_STRENGTH] Combat Strength of a city. Nearly trained units start with +15XP. Only Assyria may build it.</Text>
+			<Text>Provides +6 [ICON_PEACE] Faith and [ICON_RANGE_STRENGTH] Combat Strength of a city. [NEWLINE]Nearly trained units start with +15XP.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SARGON_SHRINE_STRATEGY">
 			<Text>The Lamassu is an Assyrian unique construction that increases the [ICON_PEACE] Faith of a city. Unlike the Shrine it replaces, the Lamassu also slightly increases the [ICON_RANGE_STRENGTH] Combat Strength of the city and costs no maintenance. All units trained in a city with a Lamassu receive an additional 15 XP.</Text>

@@ -10,7 +10,7 @@ g_EVCMapNumLuxResources = {};
 
 -- Global Variables
 g_EVCEconomicVicotryWon = false;
-g_EVCGoldTarget = 100000000;
+g_EVCGoldTarget = 10000000;
 g_EVCGPTTarget = 10000;
 
 -- Economic Variables

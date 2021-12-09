@@ -112,7 +112,7 @@
 
             <!-- UNIT IS OUT OF MOVES -->
             <Grid Anchor="R,C" Offset="2,0" Size="260,27" Padding="0,0" Style="Grid9Frame27SquareBlack" Hidden="1" ID="UnitStatusInfo">
-              <Label Anchor="C,C" Offset="0,-1"  String="TXT_KEY_UPANEL_UNIT_NO_MOVES" Font="TwCenMT18" ColorSet="Red_Black" FontStyle="Shadow" />
+              <Label Anchor="R,C" Offset="0,-1"  String="TXT_KEY_UPANEL_UNIT_NO_MOVES" Font="TwCenMT14" ColorSet="Red_Black" FontStyle="Shadow" />
             </Grid>
 
           </Grid>
@@ -146,16 +146,6 @@
     <Box Anchor="L,B" Size="166,128" Offset="0,0" Color="PlayerColor2,200" Hidden="1" />
 
 
-    <!-- Unit Portrait -->
-    <Image Anchor="L,B" Offset="0,0" Texture="assets\UI\Art\UnitPanel\UnitPanel.dds" Size="550.256" />
-    <Image Anchor="L,B" Offset="-28,-23" Size="256,256" Texture="UnitPortraitsAncientMedieval.dds" ID="UnitPortrait" Hidden="0" Disabled="1" />
-    <Button Anchor="L,B" Offset="-28,-23" Size="256,256" ID="UnitPortraitButton" Hidden="0" Disabled="0"/>
-    <Image Size="54,54" Offset="0,0" Anchor="L,B"  Texture="Assets/UI/Art/UnitPanel/UnitTypeFrame.dds" ID="UnitTypeFrame">
-      <Image Size="38,38" Offset="0,0" Anchor="C,C" Color="PlayerColor2,255"  Texture="Assets/UI/Art/UnitPanel/unitbackteamcolor.dds" ID="UnitIconBackground" />
-      <Image Size="38,38" TextureOffset="0,39" Anchor="C,C"  Texture="Assets/UI/Art/UnitPanel/unitbackteamcolor.dds" />
-      <Image Size="32,32" Anchor="C,C"  Texture="Assets/UI/Art/Icons/Units/UnitFlagAtlasWhite.dds" Color="Black,128" ID="UnitIconShadow" />
-      <Image Size="32,32" Offset="0,0" Anchor="C,C" Color="PlayerColor1"  Texture="Assets/UI/Art/Icons/Units/UnitFlagAtlasWhite.dds"  ID="UnitIcon" />
-    </Image>
 
     <!-- Secondary Actions  -->
     <GridButton ID="SecondaryButton" Size="48,32" Style="SmallButton2" Anchor="L,B" Offset="11,224"  ToolTip="TXT_KEY_SECONDARY_O_TEXT"  Hidden="0">

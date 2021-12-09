@@ -39,7 +39,7 @@
     	</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT">
-			<Text>[ICON_BULLET]1 Level up for all Lv2 -Lv5 cities (England only has Lv1-Lv4 cities). All Units +15% [ICON_STRENGTH] Combat Strength bonus while fighting outside their own territory. [NEWLINE][ICON_BULLET]English Imperialism grants +30 Science and +30 Culture for every international trade route.</Text>
+			<Text>[ICON_BULLET]1 Level up for all Lv2-Lv5 cities (England only has Lv1-Lv4 cities). All Units +15% [ICON_STRENGTH] Combat Strength bonus while fighting outside their own territory. [NEWLINE][ICON_BULLET]English Imperialism grants +16 [ICON_RESEARCH] Science and +16 [ICON_CULTURE] Culture for every international trade route.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE_SHORT">
@@ -47,7 +47,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE">
-			<Text>[ICON_BULLET][ICON_CULTURE]Culture cost of adopting policies reduced by 15% . +4 [ICON_TOURISM] Tourism output for all Great Works. [NEWLINE][ICON_BULLET]Frances rich military tradition grants +50% military experience for military units.</Text>
+			<Text>[ICON_BULLET][ICON_CULTURE]Culture cost of adopting policies reduced by 15%. +4 [ICON_TOURISM] Tourism output for all Great Works. [NEWLINE][ICON_BULLET]Frances rich military tradition grants +50% military experience for military units.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT">

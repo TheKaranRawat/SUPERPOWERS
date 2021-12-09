@@ -2,14 +2,7 @@
 <!-- Adds 1 Production to Canals from 3UC -->
 <GameData>
 
-	<Language_en_US>
-		<Building_YieldChanges>
-			<Row>
-				<BuildingType>BUILDING_3UC_CANALS</BuildingType>
-				<YieldType>YIELD_PRODUCTION</YieldType>
-				<Yield>1</Yield>
-			</Row>
-		</Building_YieldChanges>
+	<Language_en_US>		
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_3UC_CANALS_STRATEGY"/>
 			<Set>
@@ -17,4 +10,13 @@
 			</Set>
 		</Update>
 	</Language_en_US>
+	
+	<Building_YieldChanges>
+			<Row>
+				<BuildingType>BUILDING_3UC_CANALS</BuildingType>
+				<YieldType>YIELD_PRODUCTION</YieldType>
+				<Yield>1</Yield>
+			</Row>
+		</Building_YieldChanges>
+		
 </GameData>

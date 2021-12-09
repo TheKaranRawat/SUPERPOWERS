@@ -1458,7 +1458,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_FW_GENOME_PROJECT_2_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_FW_GENOME_PROJECT_2_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_LABORATORY</ArtDefineTag>
-			<GlobalPopulationChange>1</GlobalPopulationChange>
+			<GlobalPopulationChange>2</GlobalPopulationChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -1582,7 +1582,7 @@
 			<Quote>TXT_KEY_WONDER_WASHINGTON_QUOTE</Quote>
 			<Cost>750</Cost>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
-			<MaxStartEra>ERA_ATOMIC</MaxStartEra>
+			<MaxStartEra>ERA_MODERN</MaxStartEra>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
@@ -1606,7 +1606,7 @@
 			<Cost>400</Cost>
 			<Hill>true</Hill>
 			<PrereqTech>TECH_PHYSICS</PrereqTech>
-			<MaxStartEra>ERA_RENNAISANCE</MaxStartEra>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<ExtraLeagueVotes>1</ExtraLeagueVotes>
@@ -1697,7 +1697,7 @@
 			<Quote>TXT_KEY_WONDER_MAHADEVA_QUOTE</Quote>
 			<Cost>300</Cost>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
-			<MaxStartEra>ERA_RENNAISANCE</MaxStartEra>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
 			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
 			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
@@ -3348,7 +3348,7 @@
 		<Row>
 			<Type>BUILDING_NUCLEAR_FISSION_REACTOR_PLANT</Type>
 			<BuildingClass>BUILDINGCLASS_NUCLEAR_FISSION_REACTOR_PLANT</BuildingClass>
-			<Cost>3000</Cost>
+			<Cost>10000</Cost>
 			<GoldMaintenance>150</GoldMaintenance>
 			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
 			<Help>TXT_KEY_BUILDING_NUCLEAR_FISSION_REACTOR_PLANT_HELP</Help>
@@ -4524,9 +4524,172 @@
 			<MutuallyExclusiveGroup>12</MutuallyExclusiveGroup>
 		</Row>
 	</Buildings>
+
+	<!--  MERC BUILDINGS -->
+
+	<Buildings>
+
+		<Row>
+			<Type>BUILDING_SMAN_EU_HEPTASTADION</Type>
+			<BuildingClass>BUILDINGCLASS_SMAN_EU_HEPTASTADION</BuildingClass>
+			<Cost>75</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_SMAN_EU_HEPTASTADION</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SMAN_EU_HEPTASTADION_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMAN_EU_HEPTASTADION_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_MARKET</ArtDefineTag>
+			<Water>1</Water>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>10</ConquestProb>
+			<HurryCostModifier>15</HurryCostModifier>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_SMAN_EU_MEAD_HALL</Type>
+			<BuildingClass>BUILDINGCLASS_SMAN_EU_MEAD_HALL</BuildingClass>
+			<Cost>75</Cost>
+			<GoldMaintenance>4</GoldMaintenance>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_SMAN_EU_MEAD_HALL</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SMAN_EU_MEAD_HALL_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMAN_EU_MEAD_HALL_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_MARKET</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>17</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_SMAN_EU_MERC_GUILD</Type>
+			<BuildingClass>BUILDINGCLASS_SMAN_EU_MERC_GUILD</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>8</GoldMaintenance>
+			<PrereqTech>TECH_ECONOMICS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_SMAN_EU_MERC_GUILD</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SMAN_EU_MERC_GUILD_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMAN_EU_MERC_GUILD_HELP</Help>
+			<ArtDefineTag>CASTLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<Defense>600</Defense>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>18</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_SMAN_EU_SHIPYARD</Type>
+			<BuildingClass>BUILDINGCLASS_SMAN_EU_SHIPYARD</BuildingClass>
+			<Cost>125</Cost>
+			<GoldMaintenance>10</GoldMaintenance>
+			<PrereqTech>TECH_NAVIGATION</PrereqTech>
+			<Description>TXT_KEY_BUILDING_SMAN_EU_SHIPYARD</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SMAN_EU_SHIPYARD_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMAN_EU_SHIPYARD_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_MARKET</ArtDefineTag>
+			<Water>1</Water>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>33</ConquestProb>
+			<HurryCostModifier>33</HurryCostModifier>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_SMAN_EU_MERC_CONSULATE</Type>
+			<BuildingClass>BUILDINGCLASS_SMAN_EU_MERC_CONSULATE</BuildingClass>
+			<Cost>125</Cost>
+			<GoldMaintenance>10</GoldMaintenance>
+			<PrereqTech>TECH_RAILROAD</PrereqTech>
+			<Description>TXT_KEY_BUILDING_SMAN_EU_MERC_CONSULATE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SMAN_EU_MERC_CONSULATE_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMAN_EU_MERC_CONSULATE_HELP</Help>
+			<ArtDefineTag>CASTLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<Defense>900</Defense>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_SMAN_EU_NAVAL_YARD</Type>
+			<BuildingClass>BUILDINGCLASS_SMAN_EU_NAVAL_YARD</BuildingClass>
+			<Cost>150</Cost>
+			<GoldMaintenance>12</GoldMaintenance>
+			<PrereqTech>TECH_MARINE_ENGINEERING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_SMAN_EU_NAVAL_YARD</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SMAN_EU_NAVAL_YARD_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMAN_EU_NAVAL_YARD_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_MARKET</ArtDefineTag>
+			<Water>1</Water>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>33</ConquestProb>
+			<HurryCostModifier>33</HurryCostModifier>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>21</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_SMAN_EU_CONTRACTING_AGENCY</Type>
+			<BuildingClass>BUILDINGCLASS_SMAN_EU_CONTRACTING_AGENCY</BuildingClass>
+			<Cost>150</Cost>
+			<GoldMaintenance>16</GoldMaintenance>
+			<PrereqTech>TECH_TELECOM</PrereqTech>
+			<Description>TXT_KEY_BUILDING_SMAN_EU_CONTRACTING_AGENCY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SMAN_EU_CONTRACTING_AGENCY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_SMAN_EU_CONTRACTING_AGENCY_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_MARKET</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>22</PortraitIndex>
+		</Row>
+
+	</Buildings>
 	
-	
-	
+	<Building_ClassesNeededInCity>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MEAD_HALL</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MERC_GUILD</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_SHIPYARD</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_MERC_CONSULATE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CONSTABLE</BuildingClassType>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_NAVAL_YARD</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SMAN_EU_CONTRACTING_AGENCY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_AIRPORT</BuildingClassType>
+		</Row>
+
+	</Building_ClassesNeededInCity>
 	
 
 

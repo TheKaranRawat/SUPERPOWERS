@@ -4,7 +4,7 @@
 	<!--*********************Civ5 Original Buildings******************************************-->
 	<BuildingClasses>
 
-			<Row>
+		<Row>
 			<Type>BUILDINGCLASS_FW_GEOTHERMAL_PLANT</Type>
 			<DefaultBuilding>BUILDING_FW_GEOTHERMAL_PLANT</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_FW_GEOTHERMAL_PLANT</Description>
@@ -1859,6 +1859,56 @@
 			<Description>TXT_KEY_BUILDING_HANSE_DESC</Description>
 		</Row>
 	
+
+	</BuildingClasses>
+
+
+	<!-- MERC BUILDING CLASSES -->
+
+	<BuildingClasses>
+
+		<Row>
+			<Type>BUILDINGCLASS_SMAN_EU_HEPTASTADION</Type>
+			<DefaultBuilding>BUILDING_SMAN_EU_HEPTASTADION</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SMAN_EU_HEPTASTADION</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_SMAN_EU_MEAD_HALL</Type>
+			<DefaultBuilding>BUILDING_SMAN_EU_MEAD_HALL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SMAN_EU_MEAD_HALL</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_SMAN_EU_MERC_GUILD</Type>
+			<DefaultBuilding>BUILDING_SMAN_EU_MERC_GUILD</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SMAN_EU_MERC_GUILD</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_SMAN_EU_SHIPYARD</Type>
+			<DefaultBuilding>BUILDING_SMAN_EU_SHIPYARD</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SMAN_EU_SHIPYARD</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_SMAN_EU_MERC_CONSULATE</Type>
+			<DefaultBuilding>BUILDING_SMAN_EU_MERC_CONSULATE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SMAN_EU_MERC_CONSULATE</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_SMAN_EU_NAVAL_YARD</Type>
+			<DefaultBuilding>BUILDING_SMAN_EU_NAVAL_YARD</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SMAN_EU_NAVAL_YARD</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_SMAN_EU_CONTRACTING_AGENCY</Type>
+			<DefaultBuilding>BUILDING_SMAN_EU_CONTRACTING_AGENCY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SMAN_EU_CONTRACTING_AGENCY</Description>
+		</Row>
+
 
 	</BuildingClasses>
 	

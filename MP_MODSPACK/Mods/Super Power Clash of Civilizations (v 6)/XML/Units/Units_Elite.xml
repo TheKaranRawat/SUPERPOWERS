@@ -2555,7 +2555,7 @@
 		<Row>
 			<UnitType>UNIT_ORBITAL_STRIKE</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-			<Cost>6</Cost>
+			<Cost>24</Cost>
 		</Row>
 
 
@@ -2725,7 +2725,7 @@
 		<Row>
 			<UnitType>UNIT_ORBITAL_STRIKE</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>12</Cost>
+			<Cost>30</Cost>
 		</Row>
 	</Unit_ResourceQuantityRequirements>
 	

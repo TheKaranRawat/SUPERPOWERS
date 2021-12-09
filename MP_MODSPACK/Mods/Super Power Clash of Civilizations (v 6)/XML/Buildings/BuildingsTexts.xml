@@ -25,6 +25,14 @@
 		<Replace Tag="TXT_KEY_BUILDING_HOSPITAL">
 			<Text>[ICON_FOOD] Hospital</Text>
 		</Replace>
+
+		<Replace Tag="TXT_KEY_BUILDING_SATRAPS_COURT_DESC">
+			<Text>[ICON_CITY_STATE] Satraps Court</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_BUILDING_ROYAL_LIBRARY_DESC">
+			<Text>[ICON_CITY_STATE] Royal Library</Text>
+		</Replace>
 		
 		
 		
@@ -2183,7 +2191,7 @@
 
 		
 		<Row Tag="TXT_KEY_BUILDING_ETHIOPIA_ROCKHEWN">
-			<Text>Lalibela</Text>
+			<Text>[ICON_CULTURE] Lalibela</Text>
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_BUILDING_ETHIOPIA_ROCKHEWN_HELP">
@@ -3123,6 +3131,383 @@
 			<Text>A Biosphere is a manmade closed ecological system specializing in bioloigcal and ecological scientific research. One of its main characteristics is that it does not rely on matter exchange with any part outside the system. In closed ecological systems, waste products produced by one species must be used by at least one other species. In order to maintain human or animal life, waste products such as carbon dioxide, feces and urine must eventually be converted into oxygen, food and water. All closed ecological systems must contain at least one autotrophic organism. While both chemotrophic and phototrophic organisms are plausible, almost all closed ecological systems to date are based on a phototroph such as green algae. Research conducted at the Biosphere may one day lead to breakthroughs in the creation of life support systems necessary for space colonization.</Text>
 		</Row>
 
+		<!-- -->
+		<Row Tag="TXT_KEY_IGNORE_BUILDING_DEFENSE">
+			<Text>Good vs Cities</Text>
+		</Row>		
+
+		<!-- More Wonders v2 -->
+
+		<!-- Abu Simbel -->
+		<Row Tag="TXT_KEY_BUILDING_ABUSIMBEL">
+			<Text>Abu Simbel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_ABUSIMBEL_HELP">
+			<Text>Contains 2 slots for Great Works of Art. Provides + 6 [ICON_CULTURE] Culture and boosts empire-wide [ICON_CULTURE] culture by 15%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_ABUSIMBEL_STRATEGY">
+			<Text>Abu Simbel grants a foundational boost for culture production throughout the reign of your Civ, and is advised to be built if one wishes to acquire a Cultural Victory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_ABUSIMBEL_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"My name is Ozymandias, king of kings: Look on my works, ye Mighty, and despair!" [NEWLINE]- Percy Bysshe Shelley[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_ABUSIMBEL_PEDIA">
+			<Text>The Abu Simbel temples are two massive rock temples in Abu Simbel in Nubia, southern Egypt. They are situated on the western bank of Lake Nasser, about 230 km southwest of Aswan (about 300 km by road). The complex is part of the UNESCO World Heritage Site known as the "Nubian Monuments," which run from Abu Simbel downriver to Philae (near Aswan).[NEWLINE][NEWLINE]The twin temples were originally carved out of the mountainside during the reign of Pharaoh Ramesses II in the 13th century BCE, as a lasting monument to himself and his queen Nefertari, to commemorate his alleged victory at the Battle of Kadesh. However, the complex was relocated in its entirety in 1968, on an artificial hill made from a domed structure, high above the Aswan High Dam reservoir.[NEWLINE][NEWLINE]The relocation of the temples was necessary to avoid their being submerged during the creation of Lake Nasser, the massive artificial water reservoir formed after the building of the Aswan High Dam on the Nile River.</Text>
+		</Row>
+
+		<!-- Bazaar of Tabriz -->
+		<Row Tag="TXT_KEY_BUILDING_TABRIZBAZAAR">
+			<Text>Bazaar of Tabriz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_TABRIZBAZAAR_HELP">
+			<Text>+1 [ICON_GOLD] Gold every [ICON_CITIZEN] citizen in this city.[NEWLINE]Also provides a free market and a Great Merchant in the city it was built in. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_TABRIZBAZAAR_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_TABRIZBAZAAR_QUOTE">
+			<Text>
+				[NEWLINE]"The lack of money is the root of all evil."[NEWLINE] - Mark Twain [NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_TABRIZBAZAAR_PEDIA">
+			<Text>The Bazaar of Tabriz is one of the oldest bazaars of the Middle East and the largest covered bazar in the world. Tabriz has been a place of cultural exchange since antiquity. Its historic bazaar complex is one of the most important commercial centres on the Silk Road. Located in the center of the city of Tabriz, Iran, this spectacular structure consists of several sub-bazaars.The bazaar was most prosperous during the 16th century when the town became the capital city of the Safavid kingdom. The city lost its status as a capital in the 17th century, but its bazaar has remained important as a commercial and economic center.The bazaar is also used for some important religious ceremonies. The most famous being Day of Ashura during which merchants cease trading for about 10 days and religious ceremonies are held inside the bazaar. Like other bazaars in Middle East, there are several mosques constructed behind the bazaar, the most notable of them being Jameh Mosque.  </Text>
+		</Row>
+		<!-- Brooklyn Bridges -->
+		<Row Tag="TXT_KEY_BUILDING_BROOKLYNBRIDGE">
+			<Text>Brooklyn Bridge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_BROOKLYNBRIDGE_HELP">
+			<Text>The Empire Enters a [ICON_GOLDEN_AGE] Golden Age.[NEWLINE] +50% [ICON_GREAT_PEOPLE] Great Person Generation in this city. City must be built next to a river</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_BROOKLYNBRIDGE_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_BROOKLYNBRIDGE_QUOTE">
+			<Text>[NEWLINE]"Scientists are people who build the Brooklyn Bridge and then buy it."[NEWLINE] - William F. Buckley jr.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_BROOKLYNBRIDGE_PEDIA">
+			<Text>The Brooklyn Bridge is an iconic suspension bridge joining the boroughs of Manhattan and Brooklyn in New York City, New York across the East River. It was constructed between January 3 1870 and May 24, 1883 when it was opened to the public. The bridge is constructed in a Neo-Gothic style, as exhibited by the pointed arches in the towers. During scares of stability of the bridge in 1884, P.T. Barnum lead a herd of 21 elephants from his circus across the bridge. The bridge also has been used for exoduses of people following events such as 9/11, during which circumstances the bridge wobbled in a similar manner to the Millenium bridge in London. </Text>
+		</Row>
+		<!-- Buda Castle -->
+		<Row Tag="TXT_KEY_BUILDING_BUDACASTLE">
+			<Text>Buda Castle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_BUDACASTLE_HELP">
+			<Text>+4 of every yield in the [ICON_CAPITAL] Capital. City must be built next to a river.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_BUDACASTLE_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_BUDACASTLE_QUOTE">
+			<Text>[NEWLINE]"There is no sanctuary so holy that money cannot profane it, no fortress so strong that money cannot take it by storm"[NEWLINE] -  Marcus Tullius Cicero[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_BUDACASTLE_PEDIA">
+			<Text>Buda Castle is a complex of fortifications and the residence to the Hungarian kings in Budapest. Castle Hill - site of Buda Castle - was first occupied in 1265 by King Béla IV. The oldest part of the complex is the foundations of Stephen's Tower, a caster keep built during the fourteenth century by Stephen, the Duke of Slovakia and younger brother to King Louis I of Hungary. King Sigismund strengthened its fortifications and enlarged the palace, from 1410 until after his death in 1437, as a bid to express primacy among Europe as the Holy Roman Emperor. Kings Matthias Corvinus, Vladislaus II and John Zápolya all continued the work of the expansion of the castle before the Ottomans conquered Budapest and the castle, and the subsequent sieges contributed to the medieval castle's ruin, especially during the Battle of Buda in 1686. Work on the castle was on and off for many years until in 1748 Count Antal Grassalkovich appealed to the public to complete the repairs of the castle. The Palatine János Pálffy appealed to the countries and city-states to award grants; the moment was most opportune as support for the Habsburgs were at its peak and Hungarians supported Maria Theresa in the War of Austrian Succession. The queen was appreciative and funded the work to reconstruct Buda Castle. Since then the castle has gone through many cycles of destruction and rebuilding right up to the end of World War II, where in 1948 the re-construction of the castle took on a modernist design. The current version of the castle was build in 1966 and the interior completed in the 1980s.</Text>
+		</Row>
+		<!-- Chogha Zanbil -->
+		<Row Tag="TXT_KEY_BUILDING_CHOGHAZANBIL">
+			<Text>Chogha Zanbil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CHOGHAZANBIL_HELP">
+			<Text>Provides a free temple in the city in which it is built. Provides +8 [ICON_FAITH] faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CHOGHAZANBIL_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CHOGHAZANBIL_QUOTE">
+			<Text>
+				[NEWLINE]"He looked at the walls, awed at the heights his people had achieved, and for a moment - just a moment - all that lay behind him, passed from view."[NEWLINE] - The Epic of Gilgamesh[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CHOGHAZANBIL_PEDIA">
+			<Text>Chogha Zanbil, also known as Dur Untash, is a large Ziggurat located in the Iranian province of Khuzestan. It was constructed in approximately 1250 BCE by a king of Elam in an attempt to appease the Elamite deity of Inshushinak, and is one of the few known Ziggurat to have been built outside of Mesopotamia. It is also one of the most intact surviving Ziggurat, with the majority of damage being done in the year 640 BCE by the invading armies of the Assyrian king Ashurbanipal. While the main Ziggurat is dedicated to Inshushinak, the complex included an estimated eleven more temples to other gods in the Pantheon, with more temples planned prior to the death of the king which commissioned the project. </Text>
+		</Row>
+
+
+		
+		<!-- Gate of the Sun -->
+		<Row Tag="TXT_KEY_BUILDING_GATESUN">
+			<Text>Gate of the Sun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GATESUN_HELP">
+			<Text>Provides +4 [ICON_FAITH] faith. +1 [ICON_GOLD] Gold and [ICON_PEACE] Faith from Walls</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GATESUN_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GATESUN_QUOTE">
+			<Text>
+				[NEWLINE]"Trust in dreams, for in them is hidden the gate to eternity."[NEWLINE]- Khalil Gibran.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GATESUN_PEDIA">
+			<Text>The Gate of the Sun is a megalithic stone gateway constructed by the Tiwanaku, one of the most important precursor cultures to the Inca Empire. The structure stands beside Lake Titicaca, near the Bolivian city of La Paz. Ten feet tall and thirteen feet wide, the gate is a single stone block weighing an estimated ten tons. Rediscovered by Europeans in the mid-nineteenth century, the gate was found lying on the ground with a large crack across its face. Even though the gate now sits on the site of its discovery, it is not believed to be the site of its construction, which remains uncertain. [NEWLINE][NEWLINE]The gate is a wealth of knowledge of pre-Colombian art and architecture. The gate displays elements of Tiwanaku iconography known to be found throughout Peru and parts of Bolivia. Although there are differing theories of the inscriptions found, they are generally believed to possess astronomical, or perhaps astrological, significance and may have served a calendrical purpose.[NEWLINE][NEWLINE] Across the head of the gate are 48 squares surrounding a central figure. Each of these squares depict a winged effigy, 32 of which with human faces. All of these effigies look to the central figure, who also remains unknown. The figure is that of a man whose head is surrounded by rays which may represent the rays of the sun. The figure holds two stylized staffs which appear to represent thunder and lightning. Current theories about this character are that he may be the "Sun God", while other identify him as Viracocha, the Incan creator god - who is worshiped as a god of the sun and storms.</Text>
+		</Row>
+		<!-- Göbekli Tepe -->
+		<Row Tag="TXT_KEY_BUILDING_GOBEKLITEPE">
+			<Text>Göbekli Tepe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GOBEKLITEPE_HELP">
+			<Text>Provides +6 [ICON_FAITH] faith. Each source of [ICON_RES_STONE] Stone and [ICON_RES_MARBLE] Marble worked by the city provides +2 [ICON_PEACE] Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GOBEKLITEPE_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GOBEKLITEPE_QUOTE">
+			<Text>[NEWLINE]"Listen a hundred times; ponder a thousand times; speak once"[NEWLINE] - Turkish Proverb[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GOBEKLITEPE_PEDIA">
+			<Text>Göbekli Tepe is a religious site located in southern Turkey, near the Syrian border. It is the oldest known religious building on earth, dating to approximately 10000 BCE, during the Neolithic age of Human civilization, and predating all major civilizations and cities by several millenia. It was first observed during the 1960's, when archeologists noted that the hill could not be natural due to the shape, yet dismissed it as a Byzantine burial ground. It was not thought different until 1994, and not excavated until a year later. The complex is similar in manner to Stonehenge, with a round shape and large Monolithic stones. However, unlike Stonehenge, many of the pillars are carved with the figures of several animals, which are believed to have been sacred to the hunter-gatherers which constructed Göbekli Tepe. </Text>
+		</Row>
+		<!-- Gripsholm Castle -->
+		<Row Tag="TXT_KEY_BUILDING_GRIPSHOLM">
+			<Text>Gripsholm Castle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GRIPSHOLM_HELP">
+			<Text>+1 [ICON_CITIZEN] Population in each city[NEWLINE]+2 [ICON_FOOD] Food for every lake tile worked by the city[NEWLINE]City must be built near a source of fresh water.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GRIPSHOLM_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GRIPSHOLM_QUOTE">
+			<Text>
+				[NEWLINE]"A man who dares to waste one hour of time has not discovered the value of life."[NEWLINE] - Charles Darwin[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GRIPSHOLM_PEDIA">
+			<Text>Gripsholm Castle is a Renaissance fortress located on the shore of Lake Mälaren, approximately 60 kilometres west of Sweeden's capital, Stockholm. The site had been used as the location for a fortress since the mid 14th century. This fortress was siezed by King Gustav I in 1526, who subsequently tore the old fortress down and rebuilt it in the form of Gripsholm Castle. [NEWLINE][NEWLINE] Over the years, subsequent owners, like many of history's marvels, have added their own touch. King Gustav III added his own theater to the Castle in the years following its decomission as a prison, and in the late 19th century a mass refurbishment was undertaken under the guidance of architect Fredrik Lilljekvist, which involved adding a third floor. </Text>
+		</Row>
+		<!-- Horyu-ji -->
+		<Row Tag="TXT_KEY_BUILDING_HORYUJI">
+			<Text>Horyu-ji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_HORYUJI_HELP">
+			<Text>Provides +8 [ICON_FAITH] faith. Increases [ICON_GREAT_ARTIST] Great Artist generation in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_HORYUJI_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_HORYUJI_QUOTE">
+			<Text>
+				[NEWLINE]"Sincerely revere the three treasures: the Buddha, his Teaching, and the ordained Community."[NEWLINE]- Prince Shotoku
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_HORYUJI_PEDIA">
+			<Text>Horyu-ji is a Buddhist temple located in the Nara Prefecture of Japan. The name translates as Temple of the Flourishing Law, with Ji translating as Temple. The complex was completed in the year 607, at which time it was known as Ikaruga-dera. The temple was comissioned by Prince Shotoku, the palace complex of whom occupied the eastern portion of the grounds. It is widely believed that the current temple is a restoration, after the original temple was destroyed in 670 by what is believed to be fire. Horyu-ji possesses a unique style of architecture, combining elements of Han and Wei Chinese Kingdoms, the Three Kingdoms of Korea and traditional Japanese architecture. The original temple would have lacked this, and as such the restoration allowed for a unique combination of architecture styles seen through exploration of the Eastern Asia region that is extremely unusal, and only seen in other Asuka style buildings in the Nara Prefecture, yet Horyu-ji is unique even amongst these. Other Asuka style complexes feature layouts that are similar to Chinese and Korean counterparts as well as the architecture. Horyu-ji, however, as it is a restoration, is built on the footprints of the earlier temple, and as such shares the layout, which is a Japanese temple style.[NEWLINE][NEWLINE] Horyu-ji has several different iconic buildings, each with features unique to the temple. The Pagoda is one of the oldest wooden buildings on Earth. The central pillar is constructed from a tree dated to being felled in 594 CE. At the base of this pillar is said to be a fragment of a bone of Buddha. The five tiered style of the pagoda means that one is not allowed to climb up. Horyu-ji also features a Kondō, the wood of which dates to 670 CE. This has been suggested as being proof that the building was under construction at the time of the fire that destroyed so much of the rest of the complex. The complex also houses several pieces that are national Japanese treasures, including Buddhist treasures dating to the 7th Century, murals which combine artstyles of Japan and mainland Asia, and are similar to those found in the Ajanta Caves of India. There are also Kannon statuettes and other religious iconography. </Text>
+		</Row>
+		<!-- Millau Viaduct -->
+		<Row Tag="TXT_KEY_BUILDING_MILLAU">
+			<Text>Millau Viaduct</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MILLAU_HELP">
+			<Text>All land military units recieve +1 [ICON_MOVES] Movement point. [NEWLINE]City must be built on a hill.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MILLAU_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MILLAU_QUOTE">
+			<Text>
+				[NEWLINE]"Above the cloud with its shadow is the star with its light. Above all things reverence thyself."[NEWLINE] - Pythagoras[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MILLAU_PEDIA">
+			<Text>The Millau Viaduct is a cable stayed suspension bridge located in the South of France, spanning the Tarn River valley in Millau. It has a length of 2,460 metres and is the tallest bridge in the world, the highest point being 343 metres from the base. The Viaduct is part of a highway from Paris to Montpiller, in southern France. It is also the tallest structure in France, with the P2 Pillar being taller than the Eifel Tower. The route for the highway was chosen in 1989, with construction beginning in 2001 and taking 5 years.  </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MILLAU">
+			<Text>Millau Viaduct</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MILLAU_HELP">
+			<Text>+1 Movement for all land units</Text>
+		</Row>
+
+
+		<!-- Nan Madol -->
+		<Row Tag="TXT_KEY_BUILDING_MADOL">
+			<Text>Nan Madol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MADOL_HELP">
+			<Text>Provides +6 [ICON_CULTURE] culture. +1 [ICON_FOOD] Food, +1 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production from Sea Tiles worked by the city. City must be built on the coast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MADOL_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MADOL_QUOTE">
+			<Text>
+				[NEWLINE]"The waterways are charged with magic, but nothing about them is more magical than the difference made by the few feet of water which separate the boat from the land."[NEWLINE] - Robert Aickman[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MADOL_PEDIA">
+			<Text>Nan Madol is a large archeologicl site located off the island of Pohnpei in the Federated States of Micronesia. It served as the capital of the Saudeleur dynasty of the island from approximately the 12th century CE until 1628, when the site was abandoned. It is often refered to as the 'Venice of the Pacific', after the fact that the city was built on the shoreline and out to sea and features a series of canals throughout the site. Local legends say that Nan Madol was constructed by Olisihpa and Olosohpa, twin sorcerers who wished to worship the god of Agriculture, Nahnisohn Sahpw, and constructed an altar at the future site of the city. This lead to the sacred nature of most of the city, and the reason for the location of its construction. Food and Water were brought in by boat for the Saudeleur populace, which allowed for the continuation of the city. When this was interrupted by the invading Nahnmwarkis, who subsequently occupied the city following 1628, they were unable to sustain the city and eventually abandoned it.</Text>
+		</Row>
+		<!-- Palm Jumeirah -->
+		<Row Tag="TXT_KEY_BUILDING_PALMJUMEIRAH">
+			<Text>Palm Jumeirah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_PALMJUMEIRAH_HELP">
+			<Text>Provides +8 [ICON_CULTURE] culture. Increases city [ICON_GOLD] gold output by 10%. +15 [ICON_GOLD] Gold from Atoll tiles worked by the city. City must be built on the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_PALMJUMEIRAH_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_PALMJUMEIRAH_QUOTE">
+			<Text>
+				[NEWLINE]"It is the nature of the strong heart, that like the palm tree it strives ever upwards when it is most burdened."[NEWLINE] - Phillip Sydney[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_PALMJUMEIRAH_PEDIA">
+			<Text>Located off the shore of Dubai in the United Arab Emirates (UAE), Palm Jumeirah is a large archipelago created by man in the shape of a palm tree. It was announced in 2001, and originally was intended to be one of three "Palm Islands" along with the Palm Jebel Ali and the Palm Deira, which was intended to be the largest of the three islands at the time. The archipelago has a total area of 25 square kilometres, comparable to over 800 American football pitches. Palm Jumeriah consists of a central trunk, connected to the mainland by a 300 metre long bridge, sixteen fronds of the palm, and an 11 kilometre breakwater surrounding the construction. In total, the islands more than doubled Dubai's existing coastline. The islands are also a hotbed for new developments and resorts, much like the rest of Dubai. The Atlantis resort opened on the breakwater in 2008, which later became a symbol of the developments.</Text>
+		</Row>
+
+
+		<!-- Rockefeller Center -->
+		<Row Tag="TXT_KEY_BUILDING_ROCKEFELLER">
+			<Text>Rockefeller Center</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_ROCKEFELLER_HELP">
+			<Text>Current [ICON_INFLUENCE] influence with all City states doubled. +5 [ICON_HAPPINESS_1] Happiness with Commerce, and +20 [ICON_GOLD] Gold with Freedom.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_ROCKEFELLER_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_ROCKEFELLER_QUOTE">
+			<Text>
+				[NEWLINE]"Don't be afraid to give up the good to go for the great"[NEWLINE] - John D. Rockefeller[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_ROCKEFELLER_PEDIA">
+			<Text>The Rockefeller Center is a complex of fourteen buildings in New York City. It is named after the entrepreneur John D. Rockefeller, who bought the land in 1928 and began to develop it in 1930 as the sole financeur of a project which was to cost $250,000,000 at the time, as a result of the Great Depression. The construction took the entire 1930's to build, and during which time workers on the site did not have safety harnesses, and so were subject to narrow steel girders with a large fall below. It is here that Charles Ebbet's iconic photograph of eleven men eating lunch on a girder overlooking Manhattan was taken. [NEWLINE][NEWLINE] The Rockefeller center is home to several iconic New York scenes. Radio City Music Hall was completed in the complex in December of 1932, and at the time was the largest theatre on Earth, larger even than those on Broadway. The name is homage to the nickname of the NBC studios, which were also located within the complex. The Rockefeller Center is also home to what has been refered to as the fourth most famous statue in America. The gilded Bronze statue of the Hellenistic titan, Prometheus, adorns the lower plaza of the Rockefeller center, adjacent to what becomes an ice rink in winter months, again a famous scene.  </Text>
+		</Row>
+		<!-- Sagrada Familia -->
+		<Row Tag="TXT_KEY_BUILDING_SAGRADA">
+			<Text>Sagrada Familia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SAGRADA_HELP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness from all Religious buildings. Provides a free Cathedral in the city in which it is built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SAGRADA_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SAGRADA_QUOTE">
+			<Text>[NEWLINE]"Beauty is the splendor of truth, and since art is beauty, there is no art without truth."[NEWLINE] - Gaudi[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SAGRADA_PEDIA">
+			<Text>Sagrada Familia is a Catholic basilica currently under construction in Barcelona, Spain. Construction began in 1882, and is expected to complete in 2026. Currently the basilica only has eight spires, although the original design contains 18. Despite it's unfinished status it has gained recognition by UNESCO and the Vatican, being proclaimed as a UNESCO World Heritage Site and minor Basilica respectively. [NEWLINE][NEWLINE] Throughout construction, the Basilica has faced constant threats to it. During the Spanish Civil War in the 1930s the Basilica was damaged by Anarchists from the Catalonia region of Spain, and in 2010 a high speed train tunnel was constructed in Barcelona, passing directly underneath the Basilica. Engineers and construction workers working on the site believe the tunnel will have a direct effect on the integrity of the construction.  </Text>
+		</Row>
+
+		<!-- The Sphinx -->
+		<Row Tag="TXT_KEY_BUILDING_SPHINX">
+			<Text>The Sphinx</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SPHINX_HELP">
+			<Text>+1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in this City. Grants 4 free workers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SPHINX_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SPHINX_QUOTE">
+			<Text>[NEWLINE]"In front of pyramids is the Sphinx, a still more wondrous object of art, but one upon which silence has been observed, as it is looked upon as a divinity by the people of the neighbourhood. It was hewn from the solid rock; and, from a feeling of veneration, the face of the monster is coloured red."[NEWLINE] - Pliny the Elder (The Natural History, XXXVI, 17)[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SPHINX_PEDIA">
+			<Text>The Great Sphinx of Giza, commonly the Sphinx, is a statue of a reclining or couchant sphinx, a mythical creature with a lion's body and a human head, that stands on the Giza Plateau on the west bank of the Nile in Giza, Egypt. It is the largest monolith statue in the world, standing 73.5 metres (241 ft) long, 6 metres (20 ft) wide, and 20.22 m (66.34 ft) high. It is the oldest known monumental sculpture, and is commonly believed to have been built by ancient Egyptians of the Old Kingdom in the reign of the pharaoh Khafra (c. 2558-2532 BC).[NEWLINE][NEWLINE]It is not known by what name the original creators called their statue, as the Great Sphinx does not appear in any known inscription of the Old Kingdom, and there are no inscriptions anywhere describing its construction or its original purpose. The commonly used name Sphinx was given to it in Classical antiquity, about 2000 years after the accepted date of its construction.</Text>
+		</Row>
+		<!-- Topkapi Palace -->
+		<Row Tag="TXT_KEY_BUILDING_TOPKAPI">
+			<Text>Topkapi Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_TOPKAPI_HELP">
+			<Text>+1 [ICON_PEACE] Faith from Military buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_TOPKAPI_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_TOPKAPI_QUOTE">
+			<Text>[NEWLINE]"If the Earth was a single state, Istanbul would be its capital"[NEWLINE] - Napoleon Bonaparte[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_TOPKAPI_PEDIA">
+			<Text>Overlooking the waters of the Bosphorous, Topkapi Palace is a large palace complex located on the European side of Istanbul, Turkey. It was constructed under the orders of Mehmed II "The Conqueror", under whom the city was captured from the Byzantines and renamed Istanbul, as part of a scheme to re-build the city following the sucessful Ottoman siege. The palace served as the official residence of the Ottoman sultans for nearly four centuries of their rule, lasting until Sultan Abdul Mecid I moved the court to a newly-built palace further up the Bosphorous in 1856. Topkapi Palace is in fact more of a walled village than a palace, with several small buildings and many courtyards as opposed to one central structure. The site is home to many relics and artefacts collected both by the Sultans and following the end of the Ottoman empire when the palace was turned into a Museum. Among these are relics sacred to the Islamic world, including a door to the Great Mosque of Mecca, as well as what is said to be the cloak and sword of the prophet Muhammed. Other items include many collected from Silk Road trade, such as various pieces of Chinese porcelain from across four different dynasties of rule, and a collection of Islamic weaponry spanning approximately 13 centuries. Although the palace is largely still intact, some parts have since been lost as a result of either Earthquakes or fire.</Text>
+		</Row>
+
+
+		<!-- Hattusa -->
+		<Row Tag="TXT_KEY_BUILDING_HATTUSA">
+			<Text>Lion Gate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_HATTUSA_HELP">
+			<Text>Provides +4 [ICON_GOLD] gold and +4 [ICON_CULTURE] culture. Gives free walls in the city. +2 [ICON_CULTURE] from walls and castles. City must be near plains.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_HATTUSA_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_HATTUSA_QUOTE">
+			<Text>[NEWLINE]"Woe, destruction, ruin, and decay; the worst is death and death will have his day"[NEWLINE] - William Shakespeare[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_HATTUSA_PEDIA">
+			<Text>The archaeological site of Hattusha, former capital of the Hittite Empire, is notable for its urban organization, the types of construction that have been preserved (temples, royal residences, fortifications), the rich ornamentation of the Lions' Gate and the Royal Gate, and the ensemble of rock art at Yazilikaya. The city enjoyed considerable influence in Anatolia and northern Syria in the 2nd millennium B.C.</Text>
+		</Row>
+		<!-- Voyager -->
+		<Row Tag="TXT_KEY_BUILDING_VOYAGERONE">
+			<Text>Voyager</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_VOYAGERONE_HELP">
+			<Text>1 Free Technology, 2 free Great Scientist. Provides a free Research Lab in the city in which it is built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_VOYAGERONE_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_VOYAGERONE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Consider again that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives."[NEWLINE][TAB][TAB] - Carl Sagan[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_VOYAGERONE_PEDIA">
+			<Text>The Voyager program is a scientific program that launched two unmanned space missions, to study the outer planetary systems of Jupiter, Saturn, Uranus, and Neptune. The space probes were able to continue their mission after studying the outer planets, flying off into interstellar space. Voyager 1 became the first human-made object to enter interstellar space, and will soon be followed by Voyager 2, they are traveling further and faster than anyone, or anything, has in all of human history.[NEWLINE][NEWLINE]Aboard them are twin golden records that contains pictures and sounds of Earth, along with symbolic directions for playing the record and data detailing the location of Earth. These artefacts of our species will continue to exist long after any remembrance of today has faded into nothingness.</Text>
+		</Row>
+		<!-- Maracana Stadium -->
+		<Row Tag="TXT_KEY_BUILDING_MARACANA">
+			<Text>Maracana Stadium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MARACANA_HELP">
+			<Text>
+				Increases empire-wide [ICON_CULTURE] culture by 5%. Grants two legendary soccer players. Length of [ICON_GOLDEN_AGE] Golden Ages increased by 30%. Free Stadium appears in city.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MARACANA_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MARACANA_QUOTE">
+			<Text>
+				[NEWLINE]"A penalty is a cowardly way to score"[NEWLINE][TAB][TAB]- Pele[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MARACANA_PEDIA">
+			<Text>
+				The Maracanã Stadium, officially Estádio Jornalista Mário Filho, is a football stadium in Rio de Janeiro, Brazil. The stadium is part of a complex that includes an arena known by the name of Maracanãzinho, which means "The Little Maracanã" in Portuguese. Owned by the Rio de Janeiro state government, it is, as is the Maracanã neighborhood where it is located, named after the Rio Maracanã, a now canalized river in Rio de Janeiro. [NEWLINE][NEWLINE]The stadium was opened in 1950 to host the FIFA World Cup, in which Brazil was beaten 2–1 by Uruguay in the deciding game. Since then, it has mainly been used for football matches between the major football clubs in Rio de Janeiro, including Flamengo, Fluminense, Botafogo and Vasco da Gama. It has also hosted a number of concerts and other sporting events.
+			</Text>
+		</Row>
+
+		
+		
+
+		<!-- Golden Gate Bridge -->
+		<Row Tag="TXT_KEY_BUILDING_GOLDENGATE">
+			<Text>Golden Gate Bridge</Text>
+			<Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GOLDENGATE_HELP">
+			<Text>City must be built on the Coast. Increases the range of Trade Routes from this city by 25%, and opens an additional Trade Route. Provides a free Cargo Ship.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GOLDENGATE_STRATEGY">
+			<Text>There should be some text!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GOLDENGATE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"To reach a port, we must sail. Sail, not tie at anchor. Sail, not drift." [NEWLINE] - Franklin D. Roosevelt[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GOLDENGATE_PEDIA">
+			<Text>The Golden Gate Bridge is a suspension bridge spanning the Golden Gate strait, the mile-wide, three-mile-long channel between San Francisco Bay and the Pacific Ocean, an area known as the Golden Gate. Completed in 1937, the structure links the U.S. city of San Francisco, on the northern tip of the San Francisco Peninsula, to Marin County, bridging both U.S. Route 101 and California State Route 1 across the strait. The bridge is one of the most internationally recognized symbols of San Francisco, California, and the United States. The Frommers travel guide considers the Golden Gate Bridge "possibly the most beautiful, certainly the most photographed, bridge in the world". Conceived, designed, and promoted by engineering student Joseph Strauss, it once had the longest suspension bridge main span in the world, at 4,200 feet, a title held by it until 1964.</Text>
+		</Row>
+
+
 	</Language_en_US>
+
+	
 
 </GameData>

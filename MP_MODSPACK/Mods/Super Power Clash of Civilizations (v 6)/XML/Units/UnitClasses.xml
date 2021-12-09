@@ -605,6 +605,13 @@
 			<Description>TXT_KEY_UNIT_SUBMARINE</Description>
 			<DefaultUnit>UNIT_SUBMARINE</DefaultUnit>
 		</Row>
+
+		<Row>
+			<Type>UNITCLASS_DIESEL_SUBMARINE</Type>
+			<Description>TXT_KEY_UNIT_SUBMARINE</Description>
+			<DefaultUnit>UNIT_DIESEL_SUBMARINE</DefaultUnit>
+		</Row>
+
 		<Row>
 			<Type>UNITCLASS_NUCLEAR_SUBMARINE</Type>
 			<Description>TXT_KEY_UNIT_NUCLEAR_SUBMARINE</Description>
@@ -878,6 +885,7 @@
 			<Type>UNITCLASS_LAND_IRONCLAD</Type>
 			<Description>TXT_KEY_UNIT_LAND_IRONCLAD</Description>
 			<DefaultUnit>UNIT_LAND_IRONCLAD</DefaultUnit>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
 		</Row>
 		<Row>
 			<Type>UNITCLASS_SUPER_HOWITZER</Type>

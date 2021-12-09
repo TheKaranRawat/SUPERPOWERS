@@ -65,7 +65,7 @@
 		<Row>
 			<BuildType>IMPROVEMENT_EGYPTIAN_FLAX</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Time>399</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -160,7 +160,7 @@
 		<Row>
 			<BuildType>BUILD_EGYPTIAN_FLAX</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Time>399</Time>
 			<Remove>true</Remove>
 		</Row>

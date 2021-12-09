@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/08/17 7:00:36 AM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_GHAZI</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_GHAZI</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_GHAZI</DefaultUnit>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_GHAZI</Class>
+			<Type>UNIT_EXOTIC_UNIT_GHAZI</Type>
+			<Combat>20</Combat>
+			<Moves>3</Moves>
+			<Cost>60</Cost>
+			<!--<FaithCost>40</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<ObsoleteTech>TECH_STEEL</ObsoleteTech>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_GHAZI</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_GHAZI_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_GHAZI_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_GHAZI_HELP</Help>
+
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			
+			<Pillage>true</Pillage>
+
+			<AdvancedStartCost>100</AdvancedStartCost>
+			
+			<MinAreaSize>-1</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_EXOTIC_UNIT_GHAZI</UnitArtInfo>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>27</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>19</UnitFlagIconOffset>
+			<MoveRate>BIPED</MoveRate>
+			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GHAZI</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_MEAD_HALL</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GHAZI</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GHAZI</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GHAZI</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GHAZI</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<!--
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GHAZI</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	-->
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GHAZI</UnitType>
+			<SelectionSound>AS2D_SELECT_SWORDSMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SWORDSMAN</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GHAZI">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Ghazi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GHAZI_HELP">
+			<Text>Early Mercenary melee unit. Price shown is how much it costs to hire this unit for 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GHAZI_STRATEGY">
+			<Text>Use the Ghazi to attack your enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GHAZI_PEDIA">
+			<Text>
+				The Ghazi is a Classical era Mercenary melee unit, available upon the discovery of Currency. The Mead Hall is required for this unit to be built. The Ghazi becomes obsolete upon the discovery of Steel.[NEWLINE][NEWLINE]Ghazi is an Arabic term originally referring to an individual who participates in military expeditions or raiding; after the emergence of Islam it took on new connotations of religious warfare.[NEWLINE][NEWLINE]Ghazi warriors depended upon plunder for their livelihood, and were prone to brigandage and sedition in times of peace. The corporations into which they organized themselves attracted adventurers, zealots and religious and political dissidents of all ethnicities. In time, though, soldiers of Turkic ethnicity predominated, mirroring the acquisition of Mamluks, Turkic slaves in the Mamluk retinues and guard corps of the caliphs and emirs and in the ranks of the ghazi corporation, some of whom would ultimately rise to military and later political dominance in various Muslim states.[NEWLINE][NEWLINE]The only way of avoiding the onslaughts of the ghazis was to become subjects of the Islamic state. Non-Muslims acquired the status of dhimmis, living under its protection. Most Christian sources confuse these two stages in the Ottoman conquests. The Ottomans, however, were careful to abide by these rules. Faced with the terrifying onslaught of the ghazis, the population living outside the confines of the empire, in the 'abode of war', often renounced the ineffective protection of Christian states, and sought refuge in subjection to the Ottoman empire. Peasants in open country in particular lost nothing by this change.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

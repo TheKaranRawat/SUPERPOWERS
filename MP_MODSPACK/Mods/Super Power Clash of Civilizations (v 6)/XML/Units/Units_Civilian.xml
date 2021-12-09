@@ -1542,6 +1542,7 @@
 			<Cost>3</Cost>
 		</Row>
 
+		<!-- GPs do not use CG
 		<Row>
 			<UnitType>UNIT_ARTIST</UnitType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
@@ -1567,7 +1568,8 @@
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Cost>4</Cost>
 		</Row>
-		
+		-->
+
 		<Row>
 			<UnitType>UNIT_SS_STASIS_CHAMBER</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>

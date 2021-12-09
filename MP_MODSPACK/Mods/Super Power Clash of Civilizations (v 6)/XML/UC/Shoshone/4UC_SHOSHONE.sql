@@ -2,7 +2,7 @@
 ------------------------------	
 INSERT INTO Buildings 	
 	(Type, BuildingClass, AllowsRangeStrike, Defense, ExtraCityHitPoints, CityWall, Cost, GoldMaintenance, PrereqTech, ArtDefineTag, XBuiltTriggersIdeologyChoice, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, Help, Description, Civilopedia, Strategy, IconAtlas, PortraitIndex)
-SELECT	'BUILDING_3BUFFALOPOUND', BuildingClass, AllowsRangeStrike, Defense, ExtraCityHitPoints,CityWall,  Cost, 1, 'TECH_TRAPPING', ArtDefineTag, XBuiltTriggersIdeologyChoice, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, 'TXT_KEY_BUILDING_3BUFFALOPOUND_HELP', 'TXT_KEY_BUILDING_3BUFFALOPOUND', 'TXT_KEY_BUILDING_3BUFFALOPOUND_TEXT', 'TXT_KEY_BUILDING_3BUFFALOPOUND_STRATEGY', '3BUFFALOPOUND_ATLAS', 0
+SELECT	'BUILDING_3BUFFALOPOUND', BuildingClass, AllowsRangeStrike, Defense, ExtraCityHitPoints,CityWall,  Cost, 1, 'TECH_HUNTING', ArtDefineTag, XBuiltTriggersIdeologyChoice, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, 'TXT_KEY_BUILDING_3BUFFALOPOUND_HELP', 'TXT_KEY_BUILDING_3BUFFALOPOUND', 'TXT_KEY_BUILDING_3BUFFALOPOUND_TEXT', 'TXT_KEY_BUILDING_3BUFFALOPOUND_STRATEGY', '3BUFFALOPOUND_ATLAS', 0
 FROM Buildings WHERE Type = 'BUILDING_WATERMILL';	
 ------------------------------	
 -- Building_Flavors

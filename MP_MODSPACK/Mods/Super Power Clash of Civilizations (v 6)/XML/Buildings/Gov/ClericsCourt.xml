@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/2/2013 12:35:16 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_CLERICS_COURT</Type>
+			<DefaultBuilding>BUILDING_CLERICS_COURT</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CLERICS_COURT</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CLERICS_COURT</Type>
+			<BuildingClass>BUILDINGCLASS_CLERICS_COURT</BuildingClass>
+			<Cost>90</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_PIETY</PolicyBranchType>
+			<Help>TXT_KEY_BUILDING_CLERICS_COURT_HELP</Help>
+			<Description>TXT_KEY_BUILDING_CLERICS_COURT</Description>
+			<Civilopedia>TXT_KEY_BUILDING_CLERICS_COURT_DESC</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CLERICS_COURT_STRATEGY</Strategy>
+			<MutuallyExclusiveGroup>3014</MutuallyExclusiveGroup>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>40</ConquestProb>
+			<Happiness>1</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>JUSTGOV_ATLAS_1</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CLERICS_COURT</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_CLERICS_COURT</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CLERICS_COURT</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CLERICS_COURT</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_CLERICS_COURT">
+			<TEXT>
+				Cleric's Court
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CLERICS_COURT_HELP">
+			<TEXT>
+				The Cleric's Court adds 1 [ICON_PEACE] Faith and 1 [ICON_HAPPINESS_1] Happiness in the city which it is built.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CLERICS_COURT_STRATEGY">
+			<TEXT>
+				The Cleric's Court is a judicial building that raises the [ICON_PEACE] and [ICON_HAPPINESS_1] of a city.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CLERICS_COURT_DESC">
+			<Text>Religiously derived law is a staple of human civilization, it has served as a social glue for much of early human experiences. However, as time progressed, morals and philosophies developed and evolved, and religion as a whole came under attack. This religious law in many cases became codified into a system of laws such as the Catholic Church's Canon Law. With the development of religious law came about early tribunals and courts meant to preserve the peace but from a divinely ordained perspective. In the modern relgious legal traditions have influenced secular traditions and in some states, they continue to be used as part of every day law.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

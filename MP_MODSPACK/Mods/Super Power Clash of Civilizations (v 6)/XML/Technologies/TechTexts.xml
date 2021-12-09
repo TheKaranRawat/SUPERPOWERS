@@ -1030,7 +1030,7 @@
 			<Text>Advances in the field of microscale engineering helped further advance the development of nanomaterials. While the original nanomaterial plants required very specific environments and raw materials to work with, more sophisticated nanoscale machines, while not true nanotechnology, helped make the process easier and less intensive. Raw materials such as coal or oil could be fed into specially-built converters, and the nanoscale machines would dutifully work to convert these into useful nanomaterials. Although there were concerns that these early nanomachines could potentially run amok, converting any organic material they found into nanomaterials, the relatively simple construction of these nanoscale machines meant they still need a protected environment to work, and were unlikely to survive long in the wild. Their programming and design was also still relatively limited, as they could only convert certain materials into others, and could not, for example, construct copies of themselves. Still, many more ecologically-minded societies considered converters a serious risk to the environment.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_ACCELERATOR_DESC">
-			<Text>Particle Accelerator</Text>
+			<Text>[ICON_RESEARCH] Particle Accelerator</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_ACCELERATOR_HELP">
 			<Text>Nearby Academies are converted to High-Energy Research Centres, as are Academies constructed after it is built . Gain a free Great Scientist. Requires a Research Lab in every city.</Text>
@@ -1337,7 +1337,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_FW_LAUNCH_FACILITY_DESC">
-			<Text>Launch Facility</Text>
+			<Text>[ICON_PRODUCTION] Launch Facility</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_LAUNCH_FACILITY_HELP">
 			<Text>Only one can be built in the empire.</Text>
@@ -1400,7 +1400,7 @@
 
 
 		<Row Tag="TXT_KEY_BUILDING_FW_MOON_BASE_DESC">
-			<Text>Moon Base</Text>
+			<Text>[ICON_PRODUCTION] Moon Base</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_MOON_BASE_HELP">
 			<Text>Increases the yields from Fusion Plants and Space Station Modules in the empire. Requires a Space Station.</Text>
@@ -1412,7 +1412,7 @@
 			<Text>One of the ambitions of humanity in the 21st century was to establish a permanent settlement on the moon. Such a settlement would provide both an excellent research platform for studies of the moon and other astronomical bodies, as well as an almost limitless source of materials such as tritium, which is usable in fusion reactors.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_BOREHOLE_DESC">
-			<Text>Borehole</Text>
+			<Text>[ICON_PRODUCTION] Borehole</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_BOREHOLE_HELP">
 			<Text>Increases the production bonus of Geothermal Plants in the empire by 15%, and Mines produce and extra +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold. Requires a Geothermal Plant. Can only build one Borehole in the empire.</Text>
@@ -1556,10 +1556,10 @@
 			<Text>Genetic Treatments</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_GENOME_PROJECT_2_HELP">
-			<Text>All cities gain +1 [ICON_CITIZEN] Citizen.</Text>
+			<Text>All cities gain +2 [ICON_CITIZEN] Citizen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_GENOME_PROJECT_2_STRATEGY">
-			<Text>All cities gain +1 [ICON_CITIZEN] Citizen.</Text>
+			<Text>All cities gain +2 [ICON_CITIZEN] Citizen.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_GENOME_PROJECT_2_PEDIA">
 			<Text>More extensive participation in the Human Genome Project yielded greater rewards for those civilizations that chose to do so - the increased knowledge of the human genome made it much easier to treat certain diseases and chronic conditions, greatly increasing the quality of life.</Text>
@@ -1894,7 +1894,7 @@
 			<Text>All combat units gain a 10% increase to combat strength. Can build Robot Infantry units.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_FW_SKYNET_QUOTE">
-			<Text>[NEWLINE]"The system goes online August 4th, 1997. Human decisions are removed from strategic defense. Skynet begins to learn at a geometric rate. It becomes self-aware at 2:14 a.m.."[NEWLINE] - Terminator 2, Judgement Day[NEWLINE]</Text>
+			<Text>[NEWLINE]"The system goes online tomorrow at midnight. Human decisions are removed from strategic defense. Skynet begins to learn at a geometric rate. It becomes self-aware at 2:14 a.m.."</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_SKYNET_PEDIA">
 			<Text>Skynet was a synthetic intelligence that was given control over computerized military hardware and systems, in order to increase reaction time and remove human error from military decision making. While the original Skynet inadvertantly provoked a hostile response from its human operators as it began to learn at a geometric rate, had events transpired differently it may have proven an extremely useful tool for futuristic warfare.</Text>

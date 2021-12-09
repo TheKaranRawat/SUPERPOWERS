@@ -51,8 +51,8 @@
 			<Class>UNITCLASS_WARRIOR</Class>
 			<Type>UNIT_WARRIOR</Type>
 			<BaseSightRange>1</BaseSightRange>	
-			<Combat>8</Combat>
-			<Cost>15</Cost>
+			<Combat>10</Combat>
+			<Cost>10</Cost>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -535,9 +535,10 @@
 			<Class>UNITCLASS_WARRIOR</Class>
 			<Type>UNIT_AZTEC_JAGUAR</Type>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>10</Combat>
+			<Combat>20</Combat>
 			<Cost>30</Cost>
 			<Moves>2</Moves>
+			<HurryCostModifier>20</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -558,15 +559,16 @@
 			<UnitFlagIconOffset>4</UnitFlagIconOffset>
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>4</PortraitIndex>
-			<ExtraMaintenanceCost>1</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>2</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_WARRIOR</Class>
 			<Type>UNIT_POLYNESIAN_MAORI_WARRIOR</Type>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>10</Combat>
+			<Combat>20</Combat>
 			<Cost>25</Cost>
 			<Moves>2</Moves>
+			<HurryCostModifier>20</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -588,7 +590,7 @@
 			<UnitFlagAtlas>KAMEHAMEHA_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<PortraitIndex>0</PortraitIndex>
-			<ExtraMaintenanceCost>1</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>2</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_WARRIOR</Class>
@@ -615,7 +617,7 @@
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>25</PortraitIndex>
 			<MoveRate>HEAVY_BIPED</MoveRate>
-			<ExtraMaintenanceCost>1</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>2</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -628,7 +630,7 @@
 			<Combat>20</Combat>
 			<Cost>65</Cost>
 			<Moves>2</Moves>
-			<HurryCostModifier>20</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -650,14 +652,14 @@
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>14</PortraitIndex>
 			<MoveRate>HEAVY_BIPED</MoveRate>
-			<ExtraMaintenanceCost>3</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>4</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_SWORDSMAN</Class>
 			<Type>UNIT_ROMAN_LEGION</Type>
 			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>26</Combat>
+			<Combat>30</Combat>
 			<Cost>65</Cost>
 			<Moves>2</Moves>
 			<HurryCostModifier>20</HurryCostModifier>
@@ -724,6 +726,7 @@
 			<Combat>30</Combat>
 			<Cost>90</Cost>
 			<Moves>2</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -752,7 +755,7 @@
 			<Type>UNIT_KRIS_SWORDSMAN</Type>
 			<PrereqTech>TECH_STEEL</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>30</Combat>
+			<Combat>35</Combat>
 			<Cost>90</Cost>
 			<Moves>2</Moves>
 			<HurryCostModifier>20</HurryCostModifier>
@@ -784,7 +787,7 @@
 			<Type>UNIT_DANISH_BERSERKER</Type>
 			<PrereqTech>TECH_STEEL</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>30</Combat>
+			<Combat>35</Combat>
 			<Cost>90</Cost>
 			<Moves>2</Moves>
 			<HurryCostModifier>20</HurryCostModifier>
@@ -810,7 +813,7 @@
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<PortraitIndex>0</PortraitIndex>
 			<MoveRate>HEAVY_BIPED</MoveRate>
-			<ExtraMaintenanceCost>4</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>3</ExtraMaintenanceCost>
 		</Row>
 
 		
@@ -820,10 +823,10 @@
 			<Type>UNIT_MUSKETMAN</Type>
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>35</Combat>
+			<Combat>40</Combat>
 			<Cost>120</Cost>
 			<Moves>2</Moves>
-			<HurryCostModifier>25</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -845,16 +848,17 @@
 			<UnitFlagIconOffset>37</UnitFlagIconOffset>
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>38</PortraitIndex>
-			<ExtraMaintenanceCost>4</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>6</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_MUSKETMAN</Class>
 			<Type>UNIT_OTTOMAN_JANISSARY</Type>
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>35</Combat>
+			<Combat>45</Combat>
 			<Cost>120</Cost>
 			<Moves>2</Moves>
+			<HurryCostModifier>33</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -881,10 +885,10 @@
 			<Type>UNIT_IROQUOIAN_MUSKETEER</Type>
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>35</Combat>
+			<Combat>45</Combat>
 			<Cost>120</Cost>
 			<Moves>2</Moves>
-			<HurryCostModifier>25</HurryCostModifier>
+			<HurryCostModifier>33</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -918,7 +922,7 @@
 			<Combat>50</Combat>
 			<Cost>180</Cost>
 			<Moves>2</Moves>
-			<HurryCostModifier>25</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -940,17 +944,17 @@
 			<UnitFlagIconOffset>47</UnitFlagIconOffset>
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>4</PortraitIndex>
-			<ExtraMaintenanceCost>5</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_RIFLEMAN</Class>
 			<Type>UNIT_SWEDISH_CAROLEAN</Type>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>65</Combat>
+			<Combat>60</Combat>
 			<Cost>180</Cost>
 			<Moves>3</Moves>
-			<HurryCostModifier>25</HurryCostModifier>
+			<HurryCostModifier>40</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -973,17 +977,17 @@
 			<UnitFlagIconOffset>3</UnitFlagIconOffset>
 			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>3</PortraitIndex>
-			<ExtraMaintenanceCost>5</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>6</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_RIFLEMAN</Class>
 			<Type>UNIT_CELT_BLACKWATCH</Type>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>50</Combat>
+			<Combat>60</Combat>
 			<Cost>180</Cost>
 			<Moves>2</Moves>
-			<HurryCostModifier>25</HurryCostModifier>
+			<HurryCostModifier>40</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -1006,7 +1010,7 @@
 			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>50</PortraitIndex>
-			<ExtraMaintenanceCost>5</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>6</ExtraMaintenanceCost>
 		</Row>
 		
 		
@@ -1015,10 +1019,10 @@
 			<Type>UNIT_GREAT_WAR_INFANTRY</Type>
 			<PrereqTech>TECH_BALLISTICS</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>60</Combat>
+			<Combat>70</Combat>
 			<Cost>225</Cost>
 			<Moves>3</Moves>
-			<HurryCostModifier>33</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -1040,17 +1044,17 @@
 			<UnitFlagIconOffset>25</UnitFlagIconOffset>
 			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>25</PortraitIndex>
-			<ExtraMaintenanceCost>6</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>14</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_GREAT_WAR_INFANTRY</Class>
 			<Type>UNIT_ETHIOPIAN_MEHAL_SEFARI</Type>
 			<PrereqTech>TECH_BALLISTICS</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>60</Combat>
+			<Combat>80</Combat>
 			<Cost>180</Cost>
 			<Moves>3</Moves>
-			<HurryCostModifier>25</HurryCostModifier>
+			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
@@ -1073,7 +1077,7 @@
 			<UnitFlagIconOffset>9</UnitFlagIconOffset>
 			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>9</PortraitIndex>
-			<ExtraMaintenanceCost>5</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
 		</Row>
 		
 		
@@ -1081,10 +1085,10 @@
 			<Class>UNITCLASS_FOREIGNLEGION</Class>
 			<Type>UNIT_FRENCH_FOREIGNLEGION</Type>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>130</Combat>
+			<Combat>90</Combat>
 			<Cost>225</Cost>
 			<Moves>2</Moves>
-			<HurryCostModifier>33</HurryCostModifier>
+			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -1106,7 +1110,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>38</PortraitIndex>
 			<PolicyType>POLICY_VOLUNTEER_ARMY</PolicyType>
-			<ExtraMaintenanceCost>25</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>12</ExtraMaintenanceCost>
 		</Row>
 		
 
@@ -1119,7 +1123,7 @@
 			<Combat>90</Combat>
 			<Cost>300</Cost>
 			<Moves>3</Moves>
-			<HurryCostModifier>33</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -1141,17 +1145,17 @@
 			<UnitFlagIconOffset>54</UnitFlagIconOffset>
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>11</PortraitIndex>
-			<ExtraMaintenanceCost>7</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_INFANTRY</Class>
 			<Type>UNIT_BRAZILIAN_PRACINHA</Type>
 			<PrereqTech>TECH_MOBILIZATION_T</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>90</Combat>
+			<Combat>100</Combat>
 			<Cost>300</Cost>
 			<Moves>3</Moves>
-			<HurryCostModifier>33</HurryCostModifier>
+			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -1174,7 +1178,7 @@
 			<UnitFlagIconOffset>16</UnitFlagIconOffset>
 			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
 			<PortraitIndex>16</PortraitIndex>
-			<ExtraMaintenanceCost>7</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>18</ExtraMaintenanceCost>
 		</Row>
 		
 		
@@ -1184,10 +1188,10 @@
 			<Type>UNIT_MOTORISED_INFANTRY</Type>
 			<PrereqTech>TECH_INTEGRATED_CIRCUIT</PrereqTech>
 			<BaseSightRange>3</BaseSightRange>
-			<Combat>100</Combat>
+			<Combat>110</Combat>
 			<Cost>380</Cost>
 			<Moves>5</Moves>
-			<HurryCostModifier>33</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -1211,7 +1215,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>23</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>9</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>28</ExtraMaintenanceCost>
 		</Row>
 		
 	
@@ -1224,7 +1228,7 @@
 			<Combat>150</Combat>
 			<Cost>475</Cost>
 			<Moves>5</Moves>
-			<HurryCostModifier>33</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -1245,7 +1249,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>26</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>36</ExtraMaintenanceCost>
 		</Row>
 		
 		
@@ -1261,6 +1265,7 @@
 			<Combat>18</Combat>
 			<Cost>25</Cost>
 			<Moves>2</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
@@ -1291,6 +1296,7 @@
 			<Combat>18</Combat>
 			<Cost>25</Cost>
 			<Moves>2</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
@@ -1320,6 +1326,7 @@
 			<Combat>22</Combat>
 			<Cost>25</Cost>
 			<Moves>2</Moves>
+			<HurryCostModifier>20</HurryCostModifier+>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
@@ -1349,6 +1356,7 @@
 			<Combat>18</Combat>
 			<Cost>25</Cost>
 			<Moves>2</Moves>
+			<HurryCostModifier>20</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -1412,6 +1420,7 @@
 			<Combat>28</Combat>
 			<Cost>50</Cost>
 			<Moves>2</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
@@ -1432,7 +1441,7 @@
 			<UnitFlagIconOffset>32</UnitFlagIconOffset>
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>33</PortraitIndex>
-			<ExtraMaintenanceCost>1</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>4</ExtraMaintenanceCost>
 		</Row>
 		
 		<Row>
@@ -1445,6 +1454,7 @@
 			<Range>1</Range>
 			<Cost>75</Cost>
 			<Moves>2</Moves>
+			<HurryCostModifier>20</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
@@ -1466,7 +1476,7 @@
 			<UnitFlagAtlas>DLC02_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>3</UnitFlagIconOffset>
 			<PortraitIndex>3</PortraitIndex>
-			<ExtraMaintenanceCost>2</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>4</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_TERCIO</Class>
@@ -1478,6 +1488,7 @@
 			<Cost>60</Cost>
 			<Moves>2</Moves>
 			<Range>1</Range>
+			<HurryCostModifier>20</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
@@ -1498,7 +1509,7 @@
 			<UnitFlagIconOffset>10</UnitFlagIconOffset>
 			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
 			<PortraitIndex>10</PortraitIndex>
-			<ExtraMaintenanceCost>2</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>4</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
@@ -1511,6 +1522,7 @@
 			<Range>1</Range>
 			<Cost>115</Cost>
 			<Moves>3</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
@@ -1533,7 +1545,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>15</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>3</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -1547,6 +1559,7 @@
 			<Range>1</Range>
 			<Cost>160</Cost>
 			<Moves>4</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
@@ -1570,7 +1583,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>6</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>4</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>14</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_TANK_DESTROYER</Class>
@@ -1582,6 +1595,7 @@
 			<Range>1</Range>
 			<Cost>160</Cost>
 			<Moves>4</Moves>
+			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
@@ -1604,7 +1618,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>49</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>4</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>6</ExtraMaintenanceCost>
 		</Row>
 		
 		
@@ -1619,6 +1633,7 @@
 			<Range>1</Range>
 			<Cost>225</Cost>
 			<Moves>5</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
@@ -1640,7 +1655,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>9</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 
 		<!-- postfuture units-->
@@ -1652,6 +1667,7 @@
 			<RangedCombat>200</RangedCombat>
 			<Cost>3000</Cost>
 			<Moves>2</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<Immobile>true</Immobile>
 			<Range>18</Range>
 			<AirInterceptRange>12</AirInterceptRange>
@@ -1679,8 +1695,7 @@
 			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
 			<PortraitIndex>20</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<ExtraMaintenanceCost>150</ExtraMaintenanceCost>
-			<HurryCostModifier>400</HurryCostModifier>
+			<ExtraMaintenanceCost>150</ExtraMaintenanceCost>			
 		</Row>
 		<Row>
 			<Class>UNITCLASS_FW_SUBORBITAL_BOMBER</Class>
@@ -1689,6 +1704,7 @@
 			<RangedCombat>400</RangedCombat>
 			<Cost>3800</Cost>
 			<Moves>3</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<Immobile>true</Immobile>
 			<Range>30</Range>
@@ -1716,7 +1732,6 @@
 			<PortraitIndex>57</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
 			<ExtraMaintenanceCost>350</ExtraMaintenanceCost>
-			<HurryCostModifier>400</HurryCostModifier>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_FW_RAILGUN_TANK</Class>
@@ -1727,6 +1742,7 @@
 			<FaithCost>1100</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>5</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
@@ -1750,7 +1766,6 @@
 			<PortraitIndex>50</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
 			<ExtraMaintenanceCost>140</ExtraMaintenanceCost>
-			<HurryCostModifier>400</HurryCostModifier>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_FW_MECH_ARTILLERY</Class>
@@ -1760,6 +1775,7 @@
 			<RangedCombat>400</RangedCombat>
 			<Cost>1800</Cost>
 			<Moves>3</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<Range>1</Range>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1786,7 +1802,6 @@
 			<PortraitIndex>51</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
 			<ExtraMaintenanceCost>150</ExtraMaintenanceCost>
-			<HurryCostModifier>400</HurryCostModifier>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_FW_VERTOL</Class>
@@ -1795,6 +1810,7 @@
 			<Combat>170</Combat>
 			<Cost>1600</Cost>
 			<Moves>6</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
@@ -1817,7 +1833,6 @@
 			<PortraitIndex>19</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
 			<ExtraMaintenanceCost>90</ExtraMaintenanceCost>
-			<HurryCostModifier>400</HurryCostModifier>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_FW_HOVERTANK</Class>
@@ -1825,6 +1840,7 @@
 			<PrereqTech>TECH_CYBERNETICS</PrereqTech>
 			<Combat>165</Combat>
 			<Cost>1500</Cost>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<Moves>6</Moves>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1847,7 +1863,6 @@
 			<PortraitIndex>42</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
 			<ExtraMaintenanceCost>150</ExtraMaintenanceCost>
-			<HurryCostModifier>400</HurryCostModifier>
 		</Row>
 		<!--
 		<Row>
@@ -2095,8 +2110,7 @@
 			<PrereqTech>TECH_ADAMANTIUM</PrereqTech>
 			<Combat>200</Combat>
 			<Cost>2000</Cost>
-			<FaithCost>1100</FaithCost>
-			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<Moves>3</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -2117,8 +2131,7 @@
 			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_4</UnitFlagAtlas>
 			<UnitFlagIconOffset>3</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
-			<PortraitIndex>41</PortraitIndex>			
-			<HurryCostModifier>400</HurryCostModifier>
+			<PortraitIndex>41</PortraitIndex>
 			<ExtraMaintenanceCost>110</ExtraMaintenanceCost>
 		</Row>
 		<Row>
@@ -2127,6 +2140,7 @@
 			<PrereqTech>TECH_QUANTUM_COMPUTERS</PrereqTech>
 			<RangedCombat>150</RangedCombat>
 			<Cost>200</Cost>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<Moves>3</Moves>
 			<Immobile>true</Immobile>
 			<NoMaintenance>true</NoMaintenance>
@@ -2154,8 +2168,7 @@
 			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
 			<PortraitIndex>23</PortraitIndex>
 			<MoveRate>AIR_REBASE</MoveRate>
-			<HurryCostModifier>400</HurryCostModifier>
-			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>30</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_FW_CRAWLER</Class>
@@ -2166,6 +2179,7 @@
 			<Cost>4000</Cost>
 			<Moves>3</Moves>
 			<Range>4</Range>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_CITY_BOMBARD</DefaultUnitAI>
@@ -2186,7 +2200,6 @@
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
 			<PortraitIndex>58</PortraitIndex>
-			<HurryCostModifier>400</HurryCostModifier>
 			<ExtraMaintenanceCost>200</ExtraMaintenanceCost>
 		</Row>
 		
@@ -2475,6 +2488,7 @@
 			<FaithCost>1000</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>3</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
@@ -2494,11 +2508,11 @@
 			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_2</UnitFlagAtlas>
 			<UnitFlagIconOffset>2</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
-			<PortraitIndex>49</PortraitIndex>			
-			<HurryCostModifier>400</HurryCostModifier>
+			<PortraitIndex>49</PortraitIndex>	
 			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
 		</Row>
 		
+		<!--
 		<Row>
 			<Class>UNITCLASS_FW_NEXUS</Class>
 			<Type>UNIT_FW_NEXUS</Type>
@@ -2533,7 +2547,9 @@
 			<HurryCostModifier>400</HurryCostModifier>
 			<ExtraMaintenanceCost>300</ExtraMaintenanceCost>
 		</Row>
+		-->
 
+		
 		<!--
 		<Row>
 			<Class>UNITCLASS_FW_TREX</Class>
@@ -3658,8 +3674,18 @@
 				<UnitType>UNIT_ROMAN_LEGION</UnitType>
 				<PromotionType>PROMOTION_ANTI_GUNPOWDER</PromotionType>
 			</Row>
-	
 
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_GHAZI</UnitType>
+				<PromotionType>PROMOTION_INFANTRY_COMBAT</PromotionType>
+			</Row>
+
+			
+	
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_CONDOTTIERI</UnitType>
+				<PromotionType>PROMOTION_INFANTRY_COMBAT</PromotionType>
+			</Row>
 
 			<Row>
 				<UnitType>UNIT_LONGSWORDSMAN</UnitType>
@@ -3823,9 +3849,36 @@
 				<UnitType>UNIT_FRANCE_AMX</UnitType>
 				<PromotionType>PROMOTION_AMBUSH_1</PromotionType>
 			</Row>-->
+			
+			<Row>
+				<UnitType>UNIT_FW_BATTLESUIT</UnitType>
+				<PromotionType>PROMOTION_GUNPOWDER_INFANTRY_COMBAT</PromotionType>
+			</Row>
+
+			
 
 			<Row>
 				<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+				<PromotionType>PROMOTION_GUNPOWDER_INFANTRY_COMBAT</PromotionType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_SOF</UnitType>
+				<PromotionType>PROMOTION_GUNPOWDER_INFANTRY_COMBAT</PromotionType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_PMC</UnitType>
+				<PromotionType>PROMOTION_GUNPOWDER_INFANTRY_COMBAT</PromotionType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_GURKHA</UnitType>
+				<PromotionType>PROMOTION_GUNPOWDER_INFANTRY_COMBAT</PromotionType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_GUERILLA</UnitType>
 				<PromotionType>PROMOTION_GUNPOWDER_INFANTRY_COMBAT</PromotionType>
 			</Row>
 			
@@ -3993,7 +4046,7 @@
 		<!--************************Resource Required**********************-->
 		<Unit_ResourceQuantityRequirements>
 
-			<Row>
+		<Row>
 			<UnitType>UNIT_FW_SUPERCARRIER</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
 		</Row>
@@ -4445,6 +4498,149 @@
 				<UnitType>UNIT_ATGM_VEHICLE</UnitType>
 				<ResourceType>RESOURCE_MANPOWER</ResourceType>
 			</Row>
+
+			<Row>
+				<UnitType>UNIT_ATGM_VEHICLE</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<!-- MERCS -->
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_RABBLE</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>TXT_KEY_UNIT_EXOTIC_UNIT_GHAZI</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_MADYAN_ARCHER</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_CAVALIER</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_CONDOTTIERI</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_LIL_BOMBARD</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_GUERILLA</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_GURKHA</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_PMC</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_SOF</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_SMAN_EU_BATTLE_ELEPHANT</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_SMAN_EU_SIEGE_ELEPHANT</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_SMAN_EU_TURRETED_ELEPHANT</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_SMAN_EU_CAMEL_BOWMAN</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_SMAN_EU_CAMEL_RIFLEMAN</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_SMAN_EU_CAMEL_WAR_PARTY</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_AKKADIAN_HORSE_ARCHER</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_SCYTHIAN_HORSE_ARCHER</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
+			<Row>
+				<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			</Row>
+
 		</Unit_ResourceQuantityRequirements>
 
 

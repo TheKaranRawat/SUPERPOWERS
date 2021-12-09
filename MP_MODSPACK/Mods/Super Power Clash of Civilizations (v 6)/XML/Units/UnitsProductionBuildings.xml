@@ -815,6 +815,12 @@
 			<UnitType>UNIT_GERMAN_UBOAT</UnitType>
 			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_DIESEL_SUBMARINE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+		</Row>
+
 		<Row>
 			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
 			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>

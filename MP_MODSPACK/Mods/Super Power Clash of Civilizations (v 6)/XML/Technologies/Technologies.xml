@@ -114,6 +114,7 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_ANIMAL_HUSBANDRY</AudioIntroHeader>
 			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
 		</Row>	
+		
 		<!--<Row>
 			<Type>TECH_MINING</Type>
 			<Cost>20</Cost>
@@ -1605,7 +1606,7 @@
 			<Description>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_INFORMATION</Era>
 			<Trade>true</Trade>
 			<GridX>19</GridX>
 			<GridY>1</GridY>
@@ -1619,7 +1620,7 @@
 			<Description>TXT_KEY_TECH_IOT_NETWORK_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_IOT_NETWORK_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_INFORMATION</Era>
 			<Trade>true</Trade>
 			<GridX>19</GridX>
 			<GridY>3</GridY>
@@ -1633,7 +1634,7 @@
 			<Description>TXT_KEY_TECH_NUCLEAR_FUSION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_NUCLEAR_FUSION_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_INFORMATION</Era>
 			<Trade>true</Trade>
 			<GridX>19</GridX>
 			<GridY>4</GridY>
@@ -1649,7 +1650,7 @@
 			<Description>TXT_KEY_TECH_STEALTH_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_STEALTH_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_INFORMATION</Era>
 			<Trade>true</Trade>
 			<GridX>19</GridX>
 			<GridY>6</GridY>
@@ -1665,7 +1666,7 @@
 			<Description>TXT_KEY_TECH_SUPERCONDUCTOR_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_SUPERCONDUCTOR_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
-			<Era>ERA_FUTURE</Era>
+			<Era>ERA_INFORMATION</Era>
 			<Trade>true</Trade>
 			<GridX>19</GridX>
 			<GridY>7</GridY>

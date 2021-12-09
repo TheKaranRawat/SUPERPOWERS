@@ -145,7 +145,7 @@
 			<Where Name="TRADE_ROUTE_CAPITAL_POP_GOLD_MULTIPLIER" />
 		</Update>
 		<Update>
-			<Set Value="150"/>
+			<Set Value="120"/>
 			<Where Name="TRADE_ROUTE_CITY_POP_GOLD_MULTIPLIER" />
 		</Update>
 		<Update>
@@ -219,6 +219,80 @@
 			<Where Name="CITY_CAPTURE_POPULATION_PERCENT" />
 		</Update>
 
+		<!-- MORE DEFINES -->
+
+		<Update>
+			<Set Value="-33"/>
+			<Where Name="UNHAPPY_GROWTH_PENALTY" />
+		</Update>
+
+		<Update>
+			<Set Value="-75"/>
+			<Where Name="VERY_UNHAPPY_GROWTH_PENALTY" />
+		</Update>
+
+		<Update>
+			<Set Value="-20"/>
+			<Where Name="VERY_UNHAPPY_THRESHOLD" />
+		</Update>
+
+		<Update>
+			<Set Value="-33"/>
+			<Where Name="STRATEGIC_RESOURCE_EXHAUSTED_PENALTY" />
+		</Update>
+
+		<Update>
+			<Set Value="-33"/>
+			<Where Name="VERY_UNHAPPY_PRODUCTION_PENALTY" />
+		</Update>
+
+		<Update>
+			<Set Value="-40"/>
+			<Where Name="SUPER_UNHAPPY_THRESHOLD" />
+		</Update>
+
+		<Update>
+			<Set Value="250"/>
+			<Where Name="REVOLT_NUM_BASE" />
+		</Update>
+
+		<Update>
+			<Set Value="4000"/>
+			<Where Name="MINOR_GOLD_GIFT_LARGE" />
+		</Update>
+
+		<Update>
+			<Set Value="2000"/>
+			<Where Name="MINOR_GOLD_GIFT_MEDIUM" />
+		</Update>
+
+		<Update>
+			<Set Value="1000"/>
+			<Where Name="MINOR_GOLD_GIFT_LARGE" />
+		</Update>
+
+		<Update>
+			<Set Value="15000"/>
+			<Where Name="MINOR_CIV_BUYOUT_COST" />
+		</Update>
+
+		<Update>
+			<Set Value="15"/>
+			<Where Name="MINOR_CIV_BUYOUT_TURNS" />
+		</Update>
+
+		<Update>
+			<Set Value="2000"/>
+			<Where Name="MINOR_CIV_ROUTE_QUEST_WEIGHT" />
+		</Update>
+
+		<Update>
+			<Set Value="200"/>
+			<Where Name="CULTURE_BOMB_MINOR_FRIENDSHIP_CHANGE" />
+		</Update>
+
+
+
 
 		<!-- Other-->
 		<Update>
@@ -230,7 +304,7 @@
 			<Where Name="BASE_UNIT_UPGRADE_COST" />
 		</Update>
 		<Update>
-			<Set Value="1"/>
+			<Set Value="2"/>
 			<Where Name="UNIT_UPGRADE_COST_PER_PRODUCTION" />
 		</Update>
 		<Update>
@@ -318,12 +392,12 @@
 		
 		
 		<Update>
-			<Set Value="6"/>
+			<Set Value="8"/>
 			<Where Name="NUM_RESOURCE_QUANTITY_TYPES" />
 		</Update>
 
 		<Update>
-			<Set Value="90"/>
+			<Set Value="400"/>
 			<Where Name="LANDMARK_MINOR_FRIENDSHIP_CHANGE" />
 		</Update>
 		<!-- Minor Civ Defines -->
@@ -336,7 +410,7 @@
 			<Where Name="MINOR_CIV_CONTACT_GOLD_OTHER" />
 		</Update>
 		<Update>
-			<Set Value="50"/>
+			<Set Value="200"/>
 			<Where Name="MINOR_CIV_GROWTH_PERCENT" />
 		</Update>
 		<Update>
@@ -344,11 +418,11 @@
 			<Where Name="MINOR_CIV_PRODUCTION_PERCENT" />
 		</Update>
 		<Update>
-			<Set Value="100"/>
+			<Set Value="300"/>
 			<Where Name="MINOR_CIV_PLOT_CULTURE_COST_MULTIPLIER" />
 		</Update>
 		<Update>
-			<Set Value="20"/>
+			<Set Value="40"/>
 			<Where Name="MINOR_CIV_TECH_PERCENT" />
 		</Update>
 		<Update>
@@ -391,11 +465,11 @@
 			<Where Name="CITY_HEAL_RATE" />
 		</Update>
 		<Update>
-			<Set Value="4800"/>
+			<Set Value="2400"/>
 			<Where Name="INTERCEPTION_SAME_STRENGTH_MIN_DAMAGE" />
 		</Update>
 		<Update>
-			<Set Value="4800"/>
+			<Set Value="1200"/>
 			<Where Name="INTERCEPTION_SAME_STRENGTH_POSSIBLE_EXTRA_DAMAGE" />
 		</Update>
 
@@ -476,7 +550,7 @@
 		<!-- Cost of acquiring new Plots -->
 
 		<Update>
-			<Set Value="35"/>
+			<Set Value="45"/>
 			<Where Name="PLOT_BASE_COST" />
 		</Update>
 		<Update>
@@ -582,7 +656,7 @@
 
 		<!--International Trade-->
 		<Update>
-			<Set Value="200"/>
+			<Set Value="150"/>
 			<Where Name="INTERNATIONAL_TRADE_BASE" />
 		</Update>
 		<Update>
@@ -640,7 +714,7 @@
 
 		<!-- Misc-->
 		<Update>
-			<Set Value="300"/>
+			<Set Value="400"/>
 			<Where Name="AIR_UNIT_REBASE_RANGE_MULTIPLIER" />
 		</Update>
 

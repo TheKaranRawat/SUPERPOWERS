@@ -188,7 +188,7 @@
 		<Row>
 			<BuildType>BUILD_FW_COMM_ARRAY</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -209,7 +209,7 @@
 		<Row>
 			<BuildType>BUILD_FW_GENOCENTRE</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -230,7 +230,7 @@
 		<Row>
 			<BuildType>BUILD_FW_HYDROPONICS_DOME</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -238,7 +238,7 @@
 		<Row>
 			<BuildType>BUILD_FW_INDUSTRIAL_COMPLEX</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -266,7 +266,7 @@
 		<Row>
 			<BuildType>BUILD_FW_PRESERVE</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Time>400</Time>
 		</Row>
 		<Row>
@@ -278,7 +278,7 @@
 		<Row>
 			<BuildType>BUILD_FW_GENERATOR</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -299,7 +299,7 @@
 		<Row>
 			<BuildType>BUILD_FW_BIOWELL</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Time>400</Time>
 		</Row>
 		<Row>
@@ -317,7 +317,7 @@
 		<Row>
 			<BuildType>BUILD_FW_CORE</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -339,7 +339,7 @@
 		<Row>
 			<BuildType>BUILD_FW_ARCOLOGY</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_MINING</PrereqTech>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Time>400</Time>
 			<Production>20</Production>
 			<Remove>true</Remove>
@@ -368,7 +368,7 @@
 		</Row>
 
 		<Update>
-			<Set PrereqTech="TECH_MINING"/>
+			<Set PrereqTech="TECH_BRONZE_WORKING"/>
 			<Where BuildType="BUILD_REMOVE_MARSH"/>
 		</Update>
 	</BuildFeatures>
@@ -497,7 +497,7 @@
 
 		<Update>
 			<Set PrereqTech="NULL" />
-			<Where PrereqTech="TECH_MINING"/>
+			<Where PrereqTech="TECH_BRONZE_WORKING"/>
 		</Update>
 		<Update>
 			<Set PrereqTech="TECH_BRONZE_WORKING" />

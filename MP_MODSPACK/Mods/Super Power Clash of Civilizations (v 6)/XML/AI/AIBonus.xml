@@ -218,6 +218,127 @@
 	</Policies>
 
 
+	<!-- INDUSTRIAL+ BUFFS-->
+	
+	<Policy_YieldModifiers>
+
+		<!--INDUSTRIAL ERA-->
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INDUSTRY</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+
+		<!--MODERN ERA-->
+		<Row>
+			<PolicyType>POLICY_AI_MODERN</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>20</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_MODERN</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>40</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_MODERN</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>20</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_MODERN</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>20</Yield>
+		</Row>
+
+		<!--WORLD WAR ERA-->
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>30</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>60</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>30</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_WORLDWAR</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>30</Yield>
+		</Row>
+
+		<!--ATOMIC ERA-->
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>40</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>80</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>40</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_ATOMIC</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>40</Yield>
+		</Row>
+
+
+		<!--INFORMATION ERA-->
+		<Row>
+			<PolicyType>POLICY_AI_INFORMATION</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>50</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INFORMATION</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>100</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INFORMATION</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>50</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AI_INFORMATION</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>50</Yield>
+		</Row>
+
+
+
+
+	</Policy_YieldModifiers>
+
+
 	
 	<!--<UnitPromotions>
 

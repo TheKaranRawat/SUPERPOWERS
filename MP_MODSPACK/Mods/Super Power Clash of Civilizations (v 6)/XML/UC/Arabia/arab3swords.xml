@@ -8,7 +8,7 @@
 			<Help>TXT_KEY_PROMOTION_3UC_DOUBLE_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<OrderPriority>2</OrderPriority>
-			<RoughDefense>15</RoughDefense>
+			<RoughDefense>25</RoughDefense>
 			<PortraitIndex>14</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_MELEE</PediaType>
@@ -21,7 +21,7 @@
 			<Text>Double Defense</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_3UC_DOUBLE_HELP">
-			<Text>15% [ICON_STRENGTH] Combat Strength when defending in forest, jungle, or hills.</Text>
+			<Text>25% [ICON_STRENGTH] Combat Strength when defending in forest, jungle, or hills.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_3GHAZI_SWORDSMAN">
 			<Text>Ghazi</Text>

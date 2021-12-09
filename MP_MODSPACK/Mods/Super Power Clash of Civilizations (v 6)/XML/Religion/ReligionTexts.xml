@@ -4,34 +4,34 @@
 	<!--**************************************************Belief Texts Tweak*************************************-->
 	<Language_en_US>
 		<Replace Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP">
-			<Text>+1 [ICON_PEACE] Faith and +1 [ICON_CULTURE] Culture from every Shrine.</Text>
+			<Text>+4 [ICON_PEACE] Faith and +4 [ICON_CULTURE] Culture from every Shrine.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_DANCE_AURORA">
-			<Text>+2 [ICON_PEACE] Faith from Tundra tiles without Forest (Resource tiles on Tundra without Forest also qualify). </Text>
+			<Text>+6 [ICON_PEACE] Faith from Tundra tiles without Forest (Resource tiles on Tundra without Forest also qualify). </Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_MESSENGER_GODS">
-			<Text>+3 [ICON_RESEARCH] Science in cities with a City Connection.</Text>
+			<Text>+8 [ICON_RESEARCH] Science in cities with a City Connection.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_GOD_CRAFTSMEN">
-			<Text>+1 [ICON_PEACE] Faith for each Amber, Jade, Coral and Lapis Lazuli resource.</Text>
+			<Text>+6 [ICON_PEACE] Faith for each Amber, Jade, Coral and Lapis Lazuli resource.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_SUN_GOD">
-			<Text>+1 [ICON_PEACE] Faith for each Olive, Sugar, Perfume and Tobacco resource.</Text>
+			<Text>+6 [ICON_PEACE] Faith for each Olive, Sugar, Perfume and Tobacco resource.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_EARTH_MOTHER">
-			<Text>+1 [ICON_PEACE] Faith for each Spices, Citrus, Banana and Cotton resource.</Text>
+			<Text>+6 [ICON_PEACE] Faith for each Spices, Citrus, Banana and Cotton resource.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_GODDESS_HUNT">
-			<Text>+1 [ICON_FOOD] Food and +1 [ICON_PEACE] Faith from Camps.</Text>
+			<Text>+1 [ICON_FOOD] Food and +8 [ICON_PEACE] Faith from Camps.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_GURUSHIP">
-			<Text>+2 [ICON_PEACE] Faith if city has a Specialist.</Text>
+			<Text>+8 [ICON_PEACE] Faith if city has a Specialist.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS">
 			<Text>+50% faster border growth.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_PILGRIMAGE">
-			<Text>+4 [ICON_PEACE] Faith for each foreign city following this religion.</Text>
+			<Text>+10 [ICON_PEACE] Faith for each foreign city following this religion.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_HOLY_WARRIORS">
 			<Text>Allows you to purchase Knights Templar with [ICON_PEACE] Faith, a unit who can gain [ICON_PEACE] Faith by killing enemy units. </Text>
@@ -43,16 +43,16 @@
 			<Text>Allows you to purchase the Church Artist with [ICON_PEACE] Faith, a religious unit who can start a [ICON_GOLDEN_AGE] Golden Age. </Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_CEREMONIAL_BURIAL">
-			<Text>+1 [ICON_HAPPINESS_1] Global Happiness for each city following this religion.</Text>
+			<Text>+3 [ICON_HAPPINESS_1] Global Happiness for each city following this religion.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_INITIATION_RITES">
-			<Text>+255 [ICON_GOLD] Gold when each city first converts to this religion. (At Normal Game Speed)</Text>
+			<Text>+800 [ICON_GOLD] Gold when each city first converts to this religion. (At Normal Game Speed)</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY">
-			<Text>+6 [ICON_GOLD] Gold for each City following this religion.</Text>
+			<Text>+10 [ICON_GOLD] Gold for each City following this religion.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_GOD_WAR">
-			<Text>Gain [ICON_PEACE] Faith if you win a battle within 6 tiles if your city. </Text>
+			<Text>Gain [ICON_PEACE] Faith if you win a battle within 16 tiles of your city. </Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_MONASTERIES">
 			<Text>Use [ICON_PEACE] Faith to purchase Monasteries, +2 [ICON_PEACE] Faith, +1 [ICON_CULTURE] Culture, +25% [ICON_GREAT_PEOPLE] Great People generation rate in the city. </Text>
@@ -106,13 +106,13 @@
 			<Text>Swamp Belief</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MARSH_BELIEF">
-			<Text>+3 [ICON_PEACE] Faith from Marsh tiles. </Text>
+			<Text>+12 [ICON_PEACE] Faith from Marsh tiles. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_SNOW_BELIEF_SHORT">
 			<Text>Snow Spirit</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_SNOW_BELIEF">
-			<Text>+2 [ICON_PEACE] Faith and +1 [ICON_FOOD] Food from tiles covered with Snow.</Text>
+			<Text>+6 [ICON_PEACE] Faith and +3 [ICON_FOOD] Food from tiles covered with Snow.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_RIVER_CRAFTSMAN_SHORT">
 			<Text>Sudoku</Text>
@@ -124,13 +124,13 @@
 			<Text>Worship of Mazu</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MAZU">
-			<Text>+2 [ICON_HAPPINESS_1] Happiness for every Harbor.</Text>
+			<Text>+6 [ICON_HAPPINESS_1] Happiness for every Harbor.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CHARITES_SHORT">
 			<Text>Worship of Charites</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_CHARITES">
-			<Text>+2 [ICON_CULTURE] Culture for every Amphitheatre, Art Gallery and Opera House.</Text>
+			<Text>+6 [ICON_CULTURE] Culture for every Amphitheatre, Art Gallery and Opera House.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_EIRENE_SHORT">
 			<Text>Universal Love</Text>
@@ -148,7 +148,7 @@
 			<Text>The Sacred Palace</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_TOURISM_RELIGION">
-			<Text>+8 [ICON_TOURISM] Tourism from the Grand Temple.</Text>
+			<Text>+32 [ICON_TOURISM] Tourism from the Grand Temple.</Text>
 		</Row>
 		<!--<Row Tag="TXT_KEY_BELIEF_SFAITH_WITHOUT_BORDER_SHORT">
 			<Text>Faith Without Borders</Text>

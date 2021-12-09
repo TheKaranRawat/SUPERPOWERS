@@ -977,7 +977,7 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="CD2651C30CEFC44DA467DC151359FF21" import="1">UI/GameSetup/SelectCivilization.lua</File>
     <File md5="CEBC5D1051F182500D53F138B2D4FFE6" import="1">UI/GameSetup/SelectCivilization.xml</File>
     <File md5="36C1AC17085020A96285012731DAA8EE" import="1">UI/GameSetup/SP_Atlas.dds</File>
-    <File md5="8CC0299D646D251C9DA2AD2C14CFCA9C" import="1">UI/GameSetup/SP_Custom.dds</File>
+    <File md5="F4ECF5AA33DA6B2158253A8B8107B0B3" import="1">UI/GameSetup/SP_Custom.dds</File>
     <File md5="AB8F9231523AFCF7096BD52E74BAB55A" import="1">UI/GameSetup/SP_Logo.dds</File>
     <File md5="F1B211F7B12C0D761778B22DB41436C0" import="1">UI/GameSetup/UniqueBonuses.lua</File>
     <File md5="AC28BB06F7F3119C10DC673ACA73CAB7" import="1">UI/Override/AnnexCityPopup.lua</File>
@@ -1002,6 +1002,8 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="7803DFEB1CC49D546EED8C8A1DE998AA" import="1">UI/Override/InGame.lua</File>
     <File md5="87795029018082BF04AF16A5C0857B42" import="1">UI/Override/NewEraPopup.lua</File>
     <File md5="E53DA553867A544E5313A12101E1E395" import="1">UI/Override/PuppetCityPopup.lua</File>
+	<File md5="9DBA1146801AAF3E081A8CB2F06E8BF9" import="1">UI/Override/ProductionPopup.lua</File>
+	<File md5="E78E97E950F7230C21B239E22A4C4497" import="1">UI/Override/ProductionPopup.xml</File>
     <File md5="0B74C39F64EEC78000094D79E60871A4" import="1">UI/Override/ResourceIconManager.lua</File>
     <File md5="8B3F1DDD71A884B0D3666BDA0DBC873B" import="1">UI/Override/SocialPolicyPopup.xml</File>
     <File md5="FB5C0A82D7F460FECBFDD1DFC376A703" import="1">UI/Override/TopPanel.lua</File>
@@ -1019,6 +1021,7 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="FE70E791D9B56D7362D1EBFAD162F119" import="0">XML/Buildings/Buildings.xml</File>
     <File md5="E332B3DE97A020E414DCBA510517F070" import="0">XML/Buildings/BuildingsEffects.xml</File>
     <File md5="5B1432D9A6992C84A97B2E1085BC26F6" import="0">XML/Buildings/BuildingsTexts.xml</File>
+	<File md5="2831080273A32B237E72EA9B61AFEAF3" import="0">XML/Buildings/BuildingsTexts2.xml</File>
     <File md5="02D386C8D20743CC68491D20436B9D99" import="0">XML/Buildings/Wonders.xml</File>
     <File md5="5D89F877753296959BE413031462A61D" import="0">XML/City/CityTexts.xml</File>
     <File md5="7C8343CB1DA59764C3D5524688EB6973" import="0">XML/City/Corruption.xml</File>
@@ -1730,12 +1733,12 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="AA1ECA215E68ABD48D7FBE8190B14C7A" import="1">ART/Wonders/BiosphereIconAtlas45.dds</File>
     <File md5="822517767DC6BDA402CA68B2DBCF5494" import="1">ART/Wonders/BiosphereIconAtlas64.dds</File>
     <File md5="8D94EE81B2EB41A54F4F8152EEBC0112" import="1">ART/Wonders/BiosphereSplash.dds</File>
-	<File md5="0A885BFF06DCEDDFA6C9D5A5543A36F5" import="1">Art/UNITS/ShipAtlas128.dds</File>
-    <File md5="F85E72FF2D4469C3E00B94C045A4D61E" import="1">Art/UNITS/ShipAtlas256.dds</File>
-    <File md5="3CE0657C3662320B8104F8B29FBF8702" import="1">Art/UNITS/ShipAtlas32.dds</File>
-    <File md5="8E903CCC27EEE26675036F0F7820CB4D" import="1">Art/UNITS/ShipAtlas45.dds</File>
-    <File md5="C6B0BBA70B5D79A16EC5C75BFCA83D02" import="1">Art/UNITS/ShipAtlas64.dds</File>
-    <File md5="70BBBE044B9A5C8C9E6112EB3EF053CB" import="1">Art/UNITS/ShipAtlas80.dds</File>
+	<File md5="0A885BFF06DCEDDFA6C9D5A5543A36F5" import="1">Art/IconAtlases/Units/ShipAtlas128.dds</File>
+    <File md5="F85E72FF2D4469C3E00B94C045A4D61E" import="1">Art/IconAtlases/Units/ShipAtlas256.dds</File>
+    <File md5="3CE0657C3662320B8104F8B29FBF8702" import="1">Art/IconAtlases/Units/ShipAtlas32.dds</File>
+    <File md5="8E903CCC27EEE26675036F0F7820CB4D" import="1">Art/IconAtlases/Units/ShipAtlas45.dds</File>
+    <File md5="C6B0BBA70B5D79A16EC5C75BFCA83D02" import="1">Art/IconAtlases/Units/ShipAtlas64.dds</File>
+    <File md5="70BBBE044B9A5C8C9E6112EB3EF053CB" import="1">Art/IconAtlases/Units/ShipAtlas80.dds</File>
 	<File md5="D15241932F0F77E947C3C47A02DB1C26" import="0">Art/UC/5UCIconAtlas.xml</File>
     <File md5="438A2EAD5DF639CD0A932F20BD83ABDA" import="1">Art/UC/5UCIconAtlas128.dds</File>
     <File md5="194A69447E43EC99267439DDF7B35FE5" import="1">Art/UC/5UCIconAtlas256.dds</File>
@@ -2656,7 +2659,451 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="6C75DC8D3B123051C16FA1C2EC32C028" import="1">XML/UC/Zulu/GUMBOOT256.dds</File>
     <File md5="DC99D6744A0AFD76067CCB146A96A5A4" import="1">XML/UC/Zulu/GUMBOOT45.dds</File>
     <File md5="D0E37D2CE923401D1B7003B779A92505" import="1">XML/UC/Zulu/GUMBOOT64.dds</File>	
-	<File md5="FBB717CC43496281459874C6EE9CF9EF" import="1">UI/Override/SocialPolicyPopup.lua</File>	
+	<File md5="FBB717CC43496281459874C6EE9CF9EF" import="1">UI/Override/SocialPolicyPopup.lua</File>
+	<File md5="CB3CB75D6D72C487D898224EF3A2D697" import="0">Lua/UI/WASDHotkeyFix.sql</File>
+    <File md5="C5810183FF9D011C50AF520D2D262C8D" import="1">Lua/UI/WorldView.lua</File>
+	<File md5="491E185DF3B9DC75767A7DE5B15E300E" import="0">XML/Gameplay/GoodyHutsNoMaps.xml</File>
+	<File md5="1908B10AAB7054123C3723721639F5EF" import="1">Lua/Utility/FeatureGenerator.lua</File>
+	<File md5="CC38F84CE9E5D8DE3F81F91B5BA348F5" import="1">Art/Projects/AsteroidMining_Splash.dds</File>
+    <File md5="2583AE711760677197BCF14DB0CEF624" import="1">Art/Projects/Enlightenment_ARDL.dds</File>
+    <File md5="2559E7DFBDD3AD36EBA85DC473B0606C" import="1">Art/Projects/GDRSplashy.dds</File>
+    <File md5="90FD2C7AD2925129E1A130ED9913A7C3" import="1">Art/Projects/Philosophers_Legacy_939x614.dds</File>
+	<File md5="90FD2C7AD2925129E1A130ED9913A7C3" import="1">Art/Projects/Philosophers_Legacy_939x614.dds</File>
+    <File md5="D3125EFE37B922EC1C457ADB8A8D8925" import="1">Art/Projects/TogetherTTS_939x614.dds</File>
+	<File md5="D3125EFE37B922EC1C457ADB8A8D8925" import="1">Art/Projects/GLOBAL_WARGAMES_939x614.dds</File>
+    <File md5="EBE078DB47A0095DB3B056AA2F1A28C2" import="1">Art/Projects/XcomHeadquartersSplash.dds</File>
+    <File md5="EA8510FD99107A1775C1E1710B297D78" import="1">Art/Projects/XcomInitiativeProject_939x614.dds</File>
+    <File md5="5501393BB5E517608F56D926E27768E7" import="0">Lua/Misc/PhilosophersLegacyScript.lua</File>
+    <File md5="EF06ACD9AD10F68F7CD4ED3AA3B4F5E6" import="0">XML/Projects/CivProjects_Enlightenment.xml</File>
+    <File md5="FE8629F026799214E116D98A38D585CF" import="0">XML/Projects/CIVProjects_Global_Wargames.xml</File>
+    <File md5="C2B9946C2B93728553CD63CFE400198F" import="0">XML/Projects/CivProjects_GDR.xml</File>
+    <File md5="1BFF36500054A1D2FCA8AA1F05DF3B7A" import="0">XML/Projects/CivProjects_TogethertotheStars.xml</File>
+    <File md5="E4ED33136C77F99847A3DB752FA322F1" import="0">XML/Projects/CivProjects_XCOM.xml</File>
+    <File md5="44B804EEE7ED9981B5BD04D357F4792F" import="0">XML/Projects/Projects/CongressUpdates.xml</File>
+	<File md5="9DFBE610A731176E58107403D820E30A" import="1">XML/Civlizations/AINoCSAnnexers.xml</File>
+	<File md5="32786EB2B34A47DFE63C70858750B89B" import="1">Art/BuildingsJustGovBuilding128(2).dds</File>
+    <File md5="6914A2E7C694A0DECC773DFAB9721D4B" import="1">Art/BuildingsJustGovBuilding256(2).dds</File>
+    <File md5="0E0A0B7244277BC53FE3CEFC3C44FD2F" import="1">Art/BuildingsJustGovBuilding45(2).dds</File>
+    <File md5="5F76060F9AB951AAA97446F66D1FF396" import="1">Art/BuildingsJustGovBuilding64(2).dds</File>
+    <File md5="06D92A1C330E4BCBFF6ED5ECEC720E22" import="0">XML/Buildings/GovClericsCourt.xml</File>
+    <File md5="E0626473D7BA97743D2748F4DC85FB2D" import="0">XML/Buildings/GovCountyCourt.xml</File>
+    <File md5="F8596CDC3FBF3564D737CB9A4ED1FE59" import="0">XML/Buildings/GovLegislature.xml</File>
+    <File md5="1743E727BB1E36CDE6552A33FA7E7B0E" import="0">XML/Buildings/GovMagistrateOffice.xml</File>
+    <File md5="A10B906AE156DA23A8FA0F1D18A60123" import="0">XML/Buildings/GovMilitaryHQ.xml</File>
+    <File md5="E75C55F7F21F6F06B53DC5E811E32C43" import="0">XML/Buildings/GovNationalCongress.xml</File>
+    <File md5="04D877B5E750FA9206F0E1E3B05654B9" import="0">XML/Buildings/GovPeopleCouncil.xml</File>
+    <File md5="193E93A79DC2717ED6BB281371A113A8" import="0">XML/Buildings/CIV5IconTextureAtlases.xml</File>
+    <File md5="472F68778BCC96AF7BEBF6C7749EF7C7" import="0">XML/Buildings/CIV5Policies.xml</File>	
+	<File md5="53C39378C977C6F304F6AD4C0C068F57" import="0">Art/Mercs/ExoticUnitAtlas_Definitions.xml</File>
+    <File md5="8897B58B2284BE998273943A64F78BB3" import="1">Art/Mercs/ExoticUnitAtlas032.dds</File>
+    <File md5="98972FB46D99D8B4907B427032F09B2D" import="1">Art/Mercs/ExoticUnitAtlas045.dds</File>
+    <File md5="80ECC827DEC18CB5F7B021B42CDC7AEA" import="1">Art/Mercs/ExoticUnitAtlas064.dds</File>
+    <File md5="8589DC599A1C9F59F1139706281B2B15" import="1">Art/Mercs/ExoticUnitAtlas080.dds</File>
+    <File md5="9338C9FB235D47E5A6FCB46DCFC78992" import="1">Art/Mercs/ExoticUnitAtlas128.dds</File>
+    <File md5="C4711A672D157A8CA82C895CF8B661DF" import="1">Art/Mercs/ExoticUnitAtlas256.dds</File>
+    <File md5="3A50BED0BA8BA6B408D966055F657422" import="1">Art/Mercs/ExoticUnitFlagAtlas032.dds</File>
+    <File md5="16F5734F585A190B23AA5E9800CC2A4D" import="1">Art/Mercs/ExoticUnitPromotionAtlas032.dds</File>
+    <File md5="0C8FAFAB0FD4AD6A0483C1D0CB0E3E9C" import="1">Art/Mercs/ExoticUnitPromotionAtlas045.dds</File>
+    <File md5="8058973B8588FA920CB8C4087808DDD0" import="1">Art/Mercs/ExoticUnitPromotionAtlas064.dds</File>
+    <File md5="7198CF6527AF9E8C9E590F819F192132" import="1">Art/Mercs/ExoticUnitPromotionAtlas256.dds</File>
+	
+	<File md5="2697DB7AA68A313A72E0CBECC6E17044" import="1">XML/Units/Mercs/Camels/01-Bowman/Art/SMAN_EU_Camel_Bowman.fxsxml</File>
+    <File md5="6C2C9B04AEEAE437172516807795EC52" import="1">XML/Units/Mercs/Camels/01-Bowman/Art/SMAN_EU_Camel_Bowman.gr2</File>
+    <File md5="D0214AE769E41E5336F849B9BFCE2F4E" import="1">XML/Units/Mercs/Camels/01-Bowman/Art/SMAN_EU_Camel_Bowman_diff.dds</File>
+    <File md5="E7E4788846C7003CC8766907C29F3949" import="1">XML/Units/Mercs/Camels/01-Bowman/Art/SMAN_EU_Camel_Bowman_sref.dds</File>
+    <File md5="74056C635096A888B5EF6EDA2D735945" import="0">XML/Units/Mercs/Camels/01-Bowman/CamelBowman.xml</File>
+    <File md5="9B7DC479A99EA8147C7FCAAF0577878F" import="0">XML/Units/Mercs/Camels/01-Bowman/CamelBowmanArtDefines.sql</File>
+    <File md5="910DCC8C2BCB074721EA5235B926AFA4" import="1">XML/Units/Mercs/Camels/02-RaidingParty/Art/SMAN_EU_CRP_Longswordsman.fxsxml</File>
+    <File md5="B1237C5C80E56D92DB5B23F313BFEE39" import="1">XML/Units/Mercs/Camels/02-RaidingParty/Art/SMAN_EU_CRP_Longswordsman.gr2</File>
+    <File md5="A47D1508BF454859ADAB5C9BBF87EF7D" import="1">XML/Units/Mercs/Camels/02-RaidingParty/Art/SMAN_EU_CRP_Longswordsman_diff.dds</File>
+    <File md5="A0B948605AF2B817B30C061D5530E799" import="1">XML/Units/Mercs/Camels/02-RaidingParty/Art/SMAN_EU_CRP_Longswordsman_gloss.dds</File>
+    <File md5="5308367555DF3D51D24ECE5E972EEE60" import="1">XML/Units/Mercs/Camels/02-RaidingParty/Art/SMAN_EU_CRP_Spearman.fxsxml</File>
+    <File md5="EE0CA2F984365C41055274E5BA8776F1" import="1">XML/Units/Mercs/Camels/02-RaidingParty/Art/SMAN_EU_CRP_Spearman.gr2</File>
+    <File md5="4C10B2CD8E7A407B3813DAE718DE02F5" import="1">XML/Units/Mercs/Camels/02-RaidingParty/Art/SMAN_EU_CRP_Spearman_diff.dds</File>
+    <File md5="BD5088741D8A9C45BF724EA5FD008324" import="1">XML/Units/Mercs/Camels/02-RaidingParty/Art/SMAN_EU_CRP_Spearman_gloss.dds</File>
+    <File md5="3AF4DD2CF3708A7F035F786EF0CACB58" import="0">XML/Units/Mercs/Camels/02-RaidingParty/CamelRaidingParty.xml</File>
+    <File md5="35A9CD760B4B01B8A26881BAD91465E1" import="0">XML/Units/Mercs/Camels/02-RaidingParty/CamelRaidingPartyArtDefines.sql</File>
+    <File md5="C3A8C6DD08B1EC88C00911331A9C1CB0" import="1">XML/Units/Mercs/Camels/03-Rifleman/Art/SMAN_EU_Camel_Rifleman.fxsxml</File>
+    <File md5="5CC7D5A2516E90F3D6B2C67A298C43DB" import="1">XML/Units/Mercs/Camels/03-Rifleman/Art/SMAN_EU_Camel_Rifleman.gr2</File>
+    <File md5="B97DC373708151C51669BAE8BF36A6F7" import="1">XML/Units/Mercs/Camels/03-Rifleman/Art/SMAN_EU_Camel_Rifleman_Gunner_diff.dds</File>
+    <File md5="0CA1D1A92C410CD78548686A1C8877AA" import="1">XML/Units/Mercs/Camels/03-Rifleman/Art/SMAN_EU_Camel_Rifleman_Mount_diff.dds</File>
+    <File md5="8FE645910BC3025D92CDF47A523A02F0" import="0">XML/Units/Mercs/Camels/03-Rifleman/CamelRifleman.xml</File>
+    <File md5="A35C1B85860A10EF21EC29A6474DD387" import="0">XML/Units/Mercs/Camels/03-Rifleman/CamelRiflemanArtDefines.sql</File>
+    <File md5="30B0FE1C53EA409D3C9990FD81DA51DB" import="1">XML/Units/Mercs/Camels/04-WarParty/Art/SMAN_EU_CWP_4.fxsxml</File>
+    <File md5="7A033E5A547E7A056FDEEFC928D7C478" import="1">XML/Units/Mercs/Camels/04-WarParty/Art/SMAN_EU_CWP_4.gr2</File>
+    <File md5="D1865C57D84D5727D94C5FBF45B2990E" import="1">XML/Units/Mercs/Camels/04-WarParty/Art/SMAN_EU_CWP_4_diff.dds</File>
+    <File md5="E6B7F3475F5C8DFD21300AF9741A4BD8" import="1">XML/Units/Mercs/Camels/04-WarParty/Art/SMAN_EU_CWP_5.fxsxml</File>
+    <File md5="B2C766136917F57A1540CFE60463A79E" import="1">XML/Units/Mercs/Camels/04-WarParty/Art/SMAN_EU_CWP_5.gr2</File>
+    <File md5="FA0B9A6AE5D2A1FA9071BE0A053AEE6D" import="1">XML/Units/Mercs/Camels/04-WarParty/Art/SMAN_EU_CWP_5_diff.dds</File>
+    <File md5="8D239D3C9E102565AC47E2D40F1AFEE9" import="1">XML/Units/Mercs/Camels/04-WarParty/Art/SMAN_EU_CWP_6.fxsxml</File>
+    <File md5="24FE62103C38908A911E4333637742C2" import="1">XML/Units/Mercs/Camels/04-WarParty/Art/SMAN_EU_CWP_6.gr2</File>
+    <File md5="B9708FB1F59B7317B0B31D7E8A5F572A" import="1">XML/Units/Mercs/Camels/04-WarParty/Art/SMAN_EU_CWP_6_diff.dds</File>
+    <File md5="E51AE5C9CF3DED8EBB1147A861963DD7" import="1">XML/Units/Mercs/Camels/04-WarParty/Art/SMAN_EU_CWP_sref.dds</File>
+    <File md5="4C671E9DC974B3C3BE0B79981C3E1AD4" import="0">XML/Units/Mercs/Camels/04-WarParty/CamelWarParty.xml</File>
+    <File md5="4B9C5240496377B825C7337B08483020" import="0">XML/Units/Mercs/Camels/04-WarParty/CamelWarPartyArtDefines.sql</File>
+    <File md5="14D0D3EF6F2D3FCF03CA10E35EECFE69" import="1">XML/Units/Mercs/Camels/sv_sman_camel.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">XML/Units/Mercs/Elephants/01-TamedMammoth/Art/no_gloss.dds</File>
+    <File md5="A819444B3BC3FBD022C4D8F344933528" import="1">XML/Units/Mercs/Elephants/01-TamedMammoth/Art/SMAN_EU_CRP_Mammoth.ftsxml</File>
+    <File md5="A49395029B6AB105AFCFC3B83722A24E" import="1">XML/Units/Mercs/Elephants/01-TamedMammoth/Art/SMAN_EU_CRP_Mammoth.fxsxml</File>
+    <File md5="27472D70390A3446F86215334D3B46BC" import="1">XML/Units/Mercs/Elephants/01-TamedMammoth/Art/SMAN_EU_CRP_Mammoth.gr2</File>
+    <File md5="FE22568B3BE04F9342C45A48D24CA146" import="1">XML/Units/Mercs/Elephants/01-TamedMammoth/Art/SMAN_EU_CRP_Mammoth_diff.dds</File>
+    <File md5="170380FB94994505BC1B08ADC606C984" import="1">XML/Units/Mercs/Elephants/01-TamedMammoth/Art/SMAN_EU_CRP_Mammoth_Guide.fxsxml</File>
+    <File md5="3BE0E298BA238C8BAEE451FD5D6E0817" import="1">XML/Units/Mercs/Elephants/01-TamedMammoth/Art/SMAN_EU_CRP_Mammoth_Guide.gr2</File>
+    <File md5="D37916B27DFAA967725A4088C7D0BE48" import="1">XML/Units/Mercs/Elephants/01-TamedMammoth/Art/SMAN_EU_CRP_Mammoth_Guide_diff.dds</File>
+    <File md5="9FAAB34CD9A0B39AAEF51CCCF252D2ED" import="0">XML/Units/Mercs/Elephants/01-TamedMammoth/TamedMammothArtDefines.sql</File>
+    <File md5="D3BEC7614EE84F4F0CDB39A3DEB93A5B" import="0">XML/Units/Mercs/Elephants/01-TamedMammoth/TamedMammoth.xml</File>
+    <File md5="ACCF539D5EE3130105C67AA8AE60C00B" import="1">XML/Units/Mercs/Elephants/02-BattleElephant/Art/SMAN_EU_BattleElephant.fxsxml</File>
+    <File md5="BCD881A8B1BFBB01B93FBCD668138D81" import="1">XML/Units/Mercs/Elephants/02-BattleElephant/Art/SMAN_EU_BattleElephant.gr2</File>
+    <File md5="2D262EAEFAC1D66F8717A199B7973BF2" import="1">XML/Units/Mercs/Elephants/02-BattleElephant/Art/SMAN_EU_BattleElephant_diff.dds</File>
+    <File md5="0B51238B1389EAF36D1503E1CDB92865" import="1">XML/Units/Mercs/Elephants/02-BattleElephant/Art/SMAN_EU_BattleElephant_sref.dds</File>
+    <File md5="7D9D4251152A19C98BE60563501886F1" import="0">XML/Units/Mercs/Elephants/02-BattleElephant/BattleElephant.xml</File>
+    <File md5="36A29658E6C228DB10BF842C5B0EC14E" import="0">XML/Units/Mercs/Elephants/02-BattleElephant/BattleElephantArtDefines.sql</File>
+    <File md5="B1CEF5351ED28207752E7A6637A1FCF7" import="1">XML/Units/Mercs/Elephants/03-SiegeElephant/Art/fx_triggers_SMAN_EU_Siege_Elephant.ftsxml</File>
+    <File md5="48250321CC5AB6696850AF5B5268F6F8" import="1">XML/Units/Mercs/Elephants/03-SiegeElephant/Art/SMAN_EU_Siege_Elephant.fxsxml</File>
+    <File md5="80EFA291475368EA1DC7C229CB9531D3" import="1">XML/Units/Mercs/Elephants/03-SiegeElephant/Art/SMAN_EU_Siege_Elephant.gr2</File>
+    <File md5="F5E3F1F56C80222114EFA011D0A45DE9" import="1">XML/Units/Mercs/Elephants/03-SiegeElephant/Art/SMAN_EU_Siege_Elephant_Car_diff.dds</File>
+    <File md5="5F9FFAD0AD04B20BC6E646CD3F0C1808" import="1">XML/Units/Mercs/Elephants/03-SiegeElephant/Art/SMAN_EU_Siege_Elephant_Car_sref.dds</File>
+    <File md5="A712B78789B4AE99270D0F0055C20970" import="1">XML/Units/Mercs/Elephants/03-SiegeElephant/Art/SMAN_EU_Siege_Elephant_diff.dds</File>
+    <File md5="A8CC5F6909842DC842DF0CEC2F651B6C" import="1">XML/Units/Mercs/Elephants/03-SiegeElephant/Art/SMAN_EU_Siege_Elephant_Rider_diff.dds</File>
+    <File md5="FDB274899B240C4AA07C831A98337984" import="1">XML/Units/Mercs/Elephants/03-SiegeElephant/Art/SMAN_EU_Siege_Elephant_Rider_sref.dds</File>
+    <File md5="B354552E3A3F7B09218182AACAA92673" import="1">XML/Units/Mercs/Elephants/03-SiegeElephant/Art/SMAN_EU_Siege_Elephant_sref.dds</File>
+    <File md5="AEAC81F046C79023355512EC08673126" import="0">XML/Units/Mercs/Elephants/03-SiegeElephant/SiegeElephant.xml</File>
+    <File md5="ECE2BF674FCF46151B6633670E15F3A6" import="0">XML/Units/Mercs/Elephants/03-SiegeElephant/SiegeElephantArtDefines.sql</File>
+    <File md5="3080403121CE805B90D081D90EEA9871" import="1">XML/Units/Mercs/Elephants/04-Howdah/Art/SMAN_EU_Howdah.fxsxml</File>
+    <File md5="AE9D4381B237BB397931E9F4DBD7A68B" import="1">XML/Units/Mercs/Elephants/04-Howdah/Art/SMAN_EU_Howdah.gr2</File>
+    <File md5="74811DE3DD492DE3BD9766167FA5004A" import="1">XML/Units/Mercs/Elephants/04-Howdah/Art/SMAN_EU_Howdah_diff.dds</File>
+    <File md5="335620AFDBBBEC865AD0378CC09D80E2" import="1">XML/Units/Mercs/Elephants/04-Howdah/Art/SMAN_EU_Howdah_sref.dds</File>
+    <File md5="66B0068B16A4FA2084748DC71F869B6E" import="0">XML/Units/Mercs/Elephants/04-Howdah/Howdah.xml</File>
+    <File md5="1F96E9D8E9E4691C151BCD7BB1B0CC50" import="0">XML/Units/Mercs/Elephants/04-Howdah/HowdahArtDefines.sql</File>
+    <File md5="87BC35BEBBFB61D57084B00988B6E3FA" import="1">XML/Units/Mercs/Elephants/sv_sman_elephant.dds</File>
+    <File md5="24E58E65E92A4504A1F68D4828AB2E78" import="1">XML/Units/Mercs/EquitesSagittarii/01-AkkadianHorseArcher/Art/SMAN_EU_Akkadian_Horse_Archer.fxsxml</File>
+    <File md5="EADB2ECA6138CCF7AC93C8BC082C47B8" import="1">XML/Units/Mercs/EquitesSagittarii/01-AkkadianHorseArcher/Art/SMAN_EU_Akkadian_Horse_Archer.gr2</File>
+    <File md5="8A82BBFE1851A010717A64B494B24F56" import="1">XML/Units/Mercs/EquitesSagittarii/01-AkkadianHorseArcher/Art/SMAN_EU_Akkadian_Horse_Archer_diff.dds</File>
+    <File md5="0096B708971C407C33F8D675D2E7F044" import="1">XML/Units/Mercs/EquitesSagittarii/01-AkkadianHorseArcher/Art/SMAN_EU_Akkadian_Horse_Archer_gloss.dds</File>
+    <File md5="656894C65C0D6A048107F4FC66E8E5D1" import="1">XML/Units/Mercs/EquitesSagittarii/01-AkkadianHorseArcher/Art/SMAN_EU_Akkadian_Horse_Archer_Horse_diff.dds</File>
+    <File md5="5E2D8609DAD3E3A699E1E2B718601B30" import="1">XML/Units/Mercs/EquitesSagittarii/01-AkkadianHorseArcher/Art/SMAN_EU_Akkadian_Horse_Archer_Horse_gloss.dds</File>
+    <File md5="0C713F90B5CDEFAF2DEC79908A3D83DB" import="1">XML/Units/Mercs/EquitesSagittarii/02-ScythianHorseArcher/Art/SMAN_EU_Scythian_Horse_Archer.fxsxml</File>
+    <File md5="075FD6EDF56283BEBA7B7E23E37C6FB7" import="1">XML/Units/Mercs/EquitesSagittarii/02-ScythianHorseArcher/Art/SMAN_EU_Scythian_Horse_Archer.gr2</File>
+    <File md5="C7E3C7345055B8FE084C0B4C340509FD" import="1">XML/Units/Mercs/EquitesSagittarii/02-ScythianHorseArcher/Art/SMAN_EU_Scythian_Horse_Archer_diff.dds</File>
+    <File md5="7EA3B6C9B6AFD3C3B14E48C5626FFBE7" import="1">XML/Units/Mercs/EquitesSagittarii/02-ScythianHorseArcher/Art/SMAN_EU_Scythian_Horse_Archer_gloss.dds</File>
+    <File md5="B33759E9C0582067913A28C624D2C980" import="1">XML/Units/Mercs/EquitesSagittarii/02-ScythianHorseArcher/Art/SMAN_EU_Scythian_Horse_Archer_Horse.dds</File>
+    <File md5="044AB8513AAB0D76BCAA1D8DC175E4B5" import="1">XML/Units/Mercs/EquitesSagittarii/03-FrankishCrossbowman/Art/fx_triggers_SMAN_EU_Frankish_Crossbowman.ftsxml</File>
+    <File md5="F873F94DB5089C092AF706C9D2AAE491" import="1">XML/Units/Mercs/EquitesSagittarii/03-FrankishCrossbowman/Art/SMAN_EU_Frankish_Crossbowman.fxsxml</File>
+    <File md5="5CB60E0DAC4B52EBF370B0D871BC9D97" import="1">XML/Units/Mercs/EquitesSagittarii/03-FrankishCrossbowman/Art/SMAN_EU_Frankish_Crossbowman.gr2</File>
+    <File md5="C071BBB4DE44DD79D568E17723F24856" import="1">XML/Units/Mercs/EquitesSagittarii/03-FrankishCrossbowman/Art/SMAN_EU_Frankish_Crossbowman_diff.dds</File>
+    <File md5="6C3F5FFF327B66039F4D81D63B991D9F" import="1">XML/Units/Mercs/EquitesSagittarii/03-FrankishCrossbowman/Art/SMAN_EU_Frankish_Crossbowman_sref.dds</File>
+    <File md5="0D26193EAE3D81B0A0D56747514E5DBF" import="1">XML/Units/Mercs/EquitesSagittarii/04-Corazzieri/Art/SMAN_EU_Confederate_Cav_diff.dds</File>
+    <File md5="5153CC917DEC990CDB4F911F01B34859" import="1">XML/Units/Mercs/EquitesSagittarii/04-Corazzieri/Art/SMAN_EU_Confederate_Cav_sref.dds</File>
+    <File md5="F1E786122E1D8537653D9B1517579FA2" import="1">XML/Units/Mercs/EquitesSagittarii/04-Corazzieri/Art/SMAN_EU_Corazzieri.fxsxml</File>
+    <File md5="43B7820BBE1450FD664C85054592AE9F" import="1">XML/Units/Mercs/EquitesSagittarii/04-Corazzieri/Art/SMAN_EU_Corazzieri.gr2</File>
+    <File md5="A8009FEC37C92FB33C0C6B02503DB576" import="1">XML/Units/Mercs/EquitesSagittarii/04-Corazzieri/Art/SMAN_EU_Cuirassier.dds</File>
+    <File md5="38B3EE337A174D4AB9235BA48DC77927" import="1">XML/Units/Mercs/EquitesSagittarii/04-Corazzieri/Art/SMAN_EU_Cuirassier_gloss.dds</File>
+    <File md5="51D4FAAB21AC4EEC4AAFDCC945A91733" import="1">XML/Units/Mercs/EquitesSagittarii/04-Corazzieri/Art/SMAN_EU_Musketeer_diff.dds</File>
+    <File md5="5F75B69AFD02477F0057234F5C649F7B" import="1">XML/Units/Mercs/EquitesSagittarii/04-Corazzieri/Art/SMAN_EU_Musketeer_sref.dds</File>
+    <File md5="9DB61A15CF1797141CD9331BE5413D3D" import="1">XML/Units/Mercs/EquitesSagittarii/05-IroquiosMusketRidder/Art/fx_triggers_SMAN_EU_IMR.ftsxml</File>
+    <File md5="C1B862DDEC97BC58B1038B47BC39EBD7" import="1">XML/Units/Mercs/EquitesSagittarii/05-IroquiosMusketRidder/Art/SMAN_EU_IMR.fxsxml</File>
+    <File md5="C16703CEA75DF1293FC53052EF75E750" import="1">XML/Units/Mercs/EquitesSagittarii/05-IroquiosMusketRidder/Art/SMAN_EU_IMR.gr2</File>
+    <File md5="26FD0B030BB8AA301B85F7A40EFECB0F" import="1">XML/Units/Mercs/EquitesSagittarii/05-IroquiosMusketRidder/Art/SMAN_EU_IMR_diff.dds</File>
+    <File md5="B40DADF398BA05CDC9A420A6F75D87B2" import="1">XML/Units/Mercs/EquitesSagittarii/05-IroquiosMusketRidder/Art/SMAN_EU_IMR_Horse_diff.dds</File>
+    <File md5="9FFB9EFDAB4458DA4E4B1DED4B9273DC" import="1">XML/Units/Mercs/EquitesSagittarii/05-IroquiosMusketRidder/Art/SMAN_EU_IMR_Horse_sref.dds</File>
+    <File md5="1C32EB88E0D78E2FAAEE4E042241388A" import="1">XML/Units/Mercs/EquitesSagittarii/05-IroquiosMusketRidder/Art/SMAN_EU_IMR_sref.dds</File>
+    <File md5="A69C7661C61B0C00B8FAF64199CC7E9E" import="1">XML/Units/Mercs/EquitesSagittarii/06-CheyenneDogSoldier/Art/fx_triggers_SMAN_EU_CDS.ftsxml</File>
+    <File md5="38ECF0CB7A9302BC25659E9BFB7F348F" import="1">XML/Units/Mercs/EquitesSagittarii/06-CheyenneDogSoldier/Art/SMAN_EU_CDS.fxsxml</File>
+    <File md5="A0F6717601A900248C3F77A33CD81C00" import="1">XML/Units/Mercs/EquitesSagittarii/06-CheyenneDogSoldier/Art/SMAN_EU_CDS.gr2</File>
+    <File md5="1B7595DFD9CCD2A840A8350572BA5A02" import="1">XML/Units/Mercs/EquitesSagittarii/06-CheyenneDogSoldier/Art/SMAN_EU_CDS_diff.dds</File>
+    <File md5="17FE9F1C9A4AFF2C233918CB06DFE03C" import="1">XML/Units/Mercs/EquitesSagittarii/06-CheyenneDogSoldier/Art/SMAN_EU_CDS_Horse_diff.dds</File>
+    <File md5="4EC10543D28DE1048527FAFDDC47DE13" import="1">XML/Units/Mercs/EquitesSagittarii/06-CheyenneDogSoldier/Art/SMAN_EU_CDS_Horse_sref.dds</File>
+    <File md5="E5E6AE27DD8042529CA684662060A413" import="1">XML/Units/Mercs/EquitesSagittarii/06-CheyenneDogSoldier/Art/SMAN_EU_CDS_sref.dds</File>
+    <File md5="150538BFEE368244EDAE06971C31B65C" import="1">XML/Units/Mercs/Mercenaries/1-Ancient/Barque/Art/SMAN_EU_Barque.fxsxml</File>
+    <File md5="2A937AA20D0B07E9586D16A20820DB98" import="1">XML/Units/Mercs/Mercenaries/1-Ancient/Barque/Art/SMAN_EU_Barque.gr2</File>
+    <File md5="B456D229AD12DFFE844C36D312BA50F1" import="1">XML/Units/Mercs/Mercenaries/1-Ancient/Barque/Art/SMAN_EU_Barque_diff.dds</File>
+    <File md5="773212A88FA99CD755CFCE20A3F494B9" import="1">XML/Units/Mercs/Mercenaries/1-Ancient/Barque/Art/SMAN_EU_Barque_sref.dds</File>
+    <File md5="308E62C850814344D6AC847960D19053" import="0">XML/Units/Mercs/Mercenaries/1-Ancient/Barque/Barque.xml</File>
+    <File md5="845F711A4CFEE73B9059535AB021CC27" import="0">XML/Units/Mercs/Mercenaries/1-Ancient/Barque/BarqueArtDefines.xml</File>
+    <File md5="6FD2A4C1CCD8609342ECC067669BCD2A" import="1">XML/Units/Mercs/Mercenaries/1-Ancient/BattleGalley/Art/SMAN_EU_BattleGalley.fxsxml</File>
+    <File md5="96CBCD646D3736E67999648ADF0EE48F" import="1">XML/Units/Mercs/Mercenaries/1-Ancient/BattleGalley/Art/SMAN_EU_BattleGalley.gr2</File>
+    <File md5="780ACECAD186174C79A92CA48BE52E57" import="1">XML/Units/Mercs/Mercenaries/1-Ancient/BattleGalley/Art/SMAN_EU_BattleGalley_diff.dds</File>
+    <File md5="248C148E6FBCA6C8B1C74E573DFE432E" import="0">XML/Units/Mercs/Mercenaries/1-Ancient/BattleGalley/BattleGalley.xml</File>
+    <File md5="3018284FD4F50C8823543917B0A76D86" import="0">XML/Units/Mercs/Mercenaries/1-Ancient/BattleGalley/BattleGalleyArtDefines.xml</File>
+    <File md5="9EE2DC9B98B3CBAEB6F9AF2D9B78127D" import="1">XML/Units/Mercs/Mercenaries/1-Ancient/Rabble/Art/SMAN_EU_Rabble.fxsxml</File>
+    <File md5="658C98DF36724011F9018AE44EB2E1C6" import="1">XML/Units/Mercs/Mercenaries/1-Ancient/Rabble/Art/SMAN_EU_Rabble.gr2</File>
+    <File md5="321A7A3CFB1243C6DCC8CD4B2A9A41AB" import="1">XML/Units/Mercs/Mercenaries/1-Ancient/Rabble/Art/SMAN_EU_Rabble_diff.dds</File>
+    <File md5="A7D8345AA5F95CF6B7CC5C7906AB022F" import="1">XML/Units/Mercs/Mercenaries/1-Ancient/Rabble/Art/SMAN_EU_Rabble_sref.dds</File>
+    <File md5="379C247C54E8D2E47DB7EE34C56ED8D8" import="0">XML/Units/Mercs/Mercenaries/1-Ancient/Rabble/Rabble.xml</File>
+    <File md5="6241C61CF6E3D0617A72CF5EF74447A9" import="0">XML/Units/Mercs/Mercenaries/1-Ancient/Rabble/RabbleArtDefines.sql</File>
+    <File md5="3675C45572C94C9B807DA7377A73A497" import="1">XML/Units/Mercs/Mercenaries/2-Classical/Ghazi/Art/SMAN_EU_Ghazi.fxsxml</File>
+    <File md5="7C971141B1502820F2F7A75EFF1FB3B4" import="1">XML/Units/Mercs/Mercenaries/2-Classical/Ghazi/Art/SMAN_EU_Ghazi.gr2</File>
+    <File md5="F03A6F54D3C892CF1DA26C720244137E" import="1">XML/Units/Mercs/Mercenaries/2-Classical/Ghazi/Art/SMAN_EU_Ghazi_diff.dds</File>
+    <File md5="05D2FD7780DB41FD0301732407A7D8AA" import="1">XML/Units/Mercs/Mercenaries/2-Classical/Ghazi/Art/SMAN_EU_Ghazi_gloss.dds</File>
+    <File md5="D7A5EDF8DAE3FEBF09342454E5AFB545" import="0">XML/Units/Mercs/Mercenaries/2-Classical/Ghazi/Ghazi.xml</File>
+    <File md5="2B79F477B31CD030F98E548320620444" import="0">XML/Units/Mercs/Mercenaries/2-Classical/Ghazi/GhaziArtDefines.sql</File>
+    <File md5="80D9CCB82EB32C4D01F7BDFA178ECB88" import="1">XML/Units/Mercs/Mercenaries/2-Classical/GreekHippeis/Art/SMAN_EU_GreekHippeis.fxsxml</File>
+    <File md5="F7DA6F240C633B45851122C6CEDA8B2E" import="1">XML/Units/Mercs/Mercenaries/2-Classical/GreekHippeis/Art/SMAN_EU_GreekHippeis.gr2</File>
+    <File md5="7E5742F49B8CE0D6E21BA5D8E00AA0F9" import="1">XML/Units/Mercs/Mercenaries/2-Classical/GreekHippeis/Art/SMAN_EU_GreekHippeis_diff.dds</File>
+    <File md5="91EAD074AF42852D340723F70C3749B8" import="1">XML/Units/Mercs/Mercenaries/2-Classical/GreekHippeis/Art/SMAN_EU_GreekHippeis_gloss.dds</File>
+    <File md5="A97F6601533363C2FE3FE14D12066FC5" import="1">XML/Units/Mercs/Mercenaries/2-Classical/GreekHippeis/Art/SMAN_EU_GreekHippeis_Horse_diff.dds</File>
+    <File md5="F12625F410AF7C4F816FA635E9B846AE" import="1">XML/Units/Mercs/Mercenaries/2-Classical/GreekHippeis/Art/SMAN_EU_GreekHippeis_Horse_gloss.dds</File>
+    <File md5="EE15BEC7FF3831D0FA065E8D5AB48AA0" import="0">XML/Units/Mercs/Mercenaries/2-Classical/GreekHippeis/GreekHippeis.xml</File>
+    <File md5="9E897E19387243229315C2FB70E45A12" import="0">XML/Units/Mercs/Mercenaries/2-Classical/GreekHippeis/GreekHippeisArtDefines.sql</File>
+    <File md5="3D21450136413378010DDAA8924E3295" import="1">XML/Units/Mercs/Mercenaries/2-Classical/MadyanArchers/Art/SMAN_EU_MadyanArchers.fxsxml</File>
+    <File md5="C341FCABDC0A7B0D883BC2B24A4E1E79" import="1">XML/Units/Mercs/Mercenaries/2-Classical/MadyanArchers/Art/SMAN_EU_MadyanArchers.gr2</File>
+    <File md5="0FEC5F1F2EC6898AF9716CC415C7BC29" import="1">XML/Units/Mercs/Mercenaries/2-Classical/MadyanArchers/Art/SMAN_EU_MadyanArchers_diff.dds</File>
+    <File md5="F60D427F1D9F4B94F07DE18C3A673447" import="1">XML/Units/Mercs/Mercenaries/2-Classical/MadyanArchers/Art/SMAN_EU_MadyanArchers_gloss.dds</File>
+    <File md5="6310521A8B2104C22708D3E12C662348" import="0">XML/Units/Mercs/Mercenaries/2-Classical/MadyanArchers/MadyanArchers.xml</File>
+    <File md5="254772CD8B8C7E81A413C635F58DA32C" import="0">XML/Units/Mercs/Mercenaries/2-Classical/MadyanArchers/MadyanArchersArtDefines.sql</File>
+    <File md5="DD8FF41E0EDC578D82191D8B39889D3B" import="1">XML/Units/Mercs/Mercenaries/3-Medieval/Dhow/Art/SMAN_EU_Dhow.fxsxml</File>
+    <File md5="7D52A181083185806478BBFEB21F3924" import="1">XML/Units/Mercs/Mercenaries/3-Medieval/Dhow/Art/SMAN_EU_Dhow.gr2</File>
+    <File md5="88BBE22705A15212ACC85DAC72771EB6" import="1">XML/Units/Mercs/Mercenaries/3-Medieval/Dhow/Art/SMAN_EU_Dhow_diff.dds</File>
+    <File md5="4B9094E43AD9C1F4C32563515029C387" import="1">XML/Units/Mercs/Mercenaries/3-Medieval/Dhow/Art/SMAN_EU_Dhow_sref.dds</File>
+    <File md5="2C77A48A58DDE4E7CE4F730A5A87BF88" import="0">XML/Units/Mercs/Mercenaries/3-Medieval/Dhow/Dhow.xml</File>
+    <File md5="D65BD470A9CAFED1F110C71B983B3A69" import="0">XML/Units/Mercs/Mercenaries/3-Medieval/Dhow/DhowArtDefines.sql</File>
+    <File md5="920BC37F84F957075FBBB68BDF1FBB3B" import="1">XML/Units/Mercs/Mercenaries/3-Medieval/FireShip/ART/fx_triggers_sman_eu_fireship.ftsxml</File>
+    <File md5="CF07D635CAC3F3A9791FF1D372493243" import="1">XML/Units/Mercs/Mercenaries/3-Medieval/FireShip/ART/SMAN_EU_Fireship.fxsxml</File>
+    <File md5="19383BD79C8769738FEAC454DF5FFA51" import="0">XML/Units/Mercs/Mercenaries/3-Medieval/FireShip/FireShip.xml</File>
+    <File md5="C0F73C2F1DF166987A9A7481AE6D99A6" import="0">XML/Units/Mercs/Mercenaries/3-Medieval/FireShip/FireshipArtDefines.sql</File>
+    <File md5="5A1995CF9D2E9265188EAFD3A93AD7E6" import="1">XML/Units/Mercs/Mercenaries/3-Medieval/GenoeseCrossbowman/Art/SMAN_EU_GenoeseCrossbowman.fxsxml</File>
+    <File md5="DC2C9400314AD0F89130925217A04A2B" import="1">XML/Units/Mercs/Mercenaries/3-Medieval/GenoeseCrossbowman/Art/SMAN_EU_GenoeseCrossbowman.gr2</File>
+    <File md5="9F23754D93995253E99610BBFA4A2802" import="1">XML/Units/Mercs/Mercenaries/3-Medieval/GenoeseCrossbowman/Art/SMAN_EU_GenoeseCrossbowman_diff.dds</File>
+    <File md5="A67605ECEB608FA7F06E890B0633CC70" import="1">XML/Units/Mercs/Mercenaries/3-Medieval/GenoeseCrossbowman/Art/SMAN_EU_GenoeseCrossbowman_gloss.dds</File>
+    <File md5="9679F120D986946D822021DA75DFDD85" import="0">XML/Units/Mercs/Mercenaries/3-Medieval/GenoeseCrossbowman/GenoeseCrossbowman.xml</File>
+    <File md5="BAA98B3DC55C0E3E67C12B06C00D29FF" import="0">XML/Units/Mercs/Mercenaries/3-Medieval/GenoeseCrossbowman/GenoeseCrossbowmanArtDefines.sql</File>
+    <File md5="5D33DA6439A447E8634AFF5D878F277B" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Cavalier/Art/SMAN_EU_Cavalier.fxsxml</File>
+    <File md5="40D5F62BC4D59D7BFD7417E1EBB3697B" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Cavalier/Art/SMAN_EU_Cavalier.gr2</File>
+    <File md5="0D26193EAE3D81B0A0D56747514E5DBF" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Cavalier/Art/SMAN_EU_Cavalier_Confederate_cav_diff.dds</File>
+    <File md5="5153CC917DEC990CDB4F911F01B34859" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Cavalier/Art/SMAN_EU_Cavalier_Confederate_cav_sref.dds</File>
+    <File md5="51D4FAAB21AC4EEC4AAFDCC945A91733" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Cavalier/Art/SMAN_EU_Cavalier_Musketeer_diff.dds</File>
+    <File md5="5F75B69AFD02477F0057234F5C649F7B" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Cavalier/Art/SMAN_EU_Cavalier_Musketeer_sref.dds</File>
+    <File md5="19EB61952EE1DD628F497F906EC49955" import="0">XML/Units/Mercs/Mercenaries/4-Renaissance/Cavalier/Cavalier.xml</File>
+    <File md5="2F5F51D702CEE4501F7AD35118639F10" import="0">XML/Units/Mercs/Mercenaries/4-Renaissance/Cavalier/CavalierArtDefines.sql</File>
+    <File md5="6CB1C02FD7D8A166FEF34D4AAFBF7F4E" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/Art/SMAN_EU_Condittieri_1_sref.dds</File>
+    <File md5="2A29EB2940CDD4CABC12523DBEE79418" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/Art/SMAN_EU_Condittieri_2.dds</File>
+    <File md5="D6DAE9F677AEC21EC3AC6549D21023B5" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/Art/SMAN_EU_Condittieri_HRE.fxsxml</File>
+    <File md5="F08F4973CC07A5DAC8FB028E9F0CF034" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/Art/SMAN_EU_Condittieri_HRE.gr2</File>
+    <File md5="8A093FE901065E63689E5BCD5003DC24" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/Art/SMAN_EU_Condittieri_HRE_diff.dds</File>
+    <File md5="EA0149E58F7C010AB40955BA365ECF06" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/Art/SMAN_EU_Condittieri_Milan.fxsxml</File>
+    <File md5="2DB0A72C286C7B8F782C023073447C25" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/Art/SMAN_EU_Condittieri_Milan.gr2</File>
+    <File md5="570BE8E8180CA55C2A704E5EB7B09866" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/Art/SMAN_EU_Condittieri_Milan_diff.dds</File>
+    <File md5="F183C92CB4F2FADF67937C230DE6D8E5" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/Art/SMAN_EU_Condittieri_Ragusa.fxsxml</File>
+    <File md5="0D9D11C387E556F18529D522CD652BA5" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/Art/SMAN_EU_Condittieri_Ragusa.gr2</File>
+    <File md5="F394A6B5E47AF813C961B53A72FEA7C5" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/Art/SMAN_EU_Condittieri_Ragusa_diff.dds</File>
+    <File md5="FC3A469C3CC30588C17830094133E724" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/Art/SMAN_EU_Condittieri_Venice.fxsxml</File>
+    <File md5="CCAB07C15C2104E1F9D4CA35927FD2DC" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/Art/SMAN_EU_Condittieri_Venice.gr2</File>
+    <File md5="120C87D94087EC516EA1C074074E039E" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/Art/SMAN_EU_Condittieri_Venice_diff.dds</File>
+    <File md5="794EB5BBF86FC297BD8013C20FCFB194" import="0">XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/Condottieri.xml</File>
+    <File md5="F2998C0A1ED89841689E62A65F7982C0" import="0">XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/CondottieriArtDefines.sql</File>
+    <File md5="DEF628EAE2477EC249C1D6B979A7A120" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/GreatBombard/Art/SMAN_EU_GreatBombard.fxsxml</File>
+    <File md5="61B40D529DAA19853A7469F8ACCFE87E" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/GreatBombard/Art/SMAN_EU_GreatBombard_Cannon.gr2</File>
+    <File md5="0B1534B32C405A3EE4B9D784471DA90B" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/GreatBombard/Art/SMAN_EU_GreatBombard_Cannon_diff.dds</File>
+    <File md5="B72AF20074CF79CA94D5327FDDC096CC" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/GreatBombard/Art/SMAN_EU_GreatBombard_Cannon_sref.dds</File>
+    <File md5="4DA2B4CAAE9C895CDFCD92F3EDD41D0D" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/GreatBombard/Art/SMAN_EU_GreatBombard_Crew_diff.dds</File>
+    <File md5="0901612129E08473CC013055FC6C24C8" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/GreatBombard/Art/SMAN_EU_GreatBombard_Elephant.fxsxml</File>
+    <File md5="7ECCD0D813E47751110A9526B8546AB6" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/GreatBombard/Art/SMAN_EU_GreatBombard_Elephant.gr2</File>
+    <File md5="4AB4D78A537CE704533A1B69DDB093FC" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/GreatBombard/Art/SMAN_EU_GreatBombard_Elephant_diff.dds</File>
+    <File md5="DC11DA8B9C652DECDB2A43FA5E7C17AE" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/GreatBombard/Art/SMAN_EU_GreatBombard_Elephant_sref.dds</File>
+    <File md5="C0FAF8B1789E05DA7763C1F082673DBE" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/GreatBombard/Art/unitformations.xml</File>
+    <File md5="D86CCD918E8FD9781725899100256C24" import="0">XML/Units/Mercs/Mercenaries/4-Renaissance/GreatBombard/GreatBombardDefines.sql</File>
+    <File md5="42DDD06D369B9646F00B3709E9D7B74A" import="0">XML/Units/Mercs/Mercenaries/4-Renaissance/GreatBombard/GreatBombard.xml</File>
+    <File md5="1A97771969184D1888D589552F5946D3" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/LilBombard/Art/SMAN_EU_LilBombard.fxsxml</File>
+    <File md5="C5F71E49F83DAEB5BBCB5CC375C78F03" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/LilBombard/Art/SMAN_EU_LilBombard.gr2</File>
+    <File md5="4D1718667245885D54B242FA5C3DF112" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/LilBombard/Art/SMAN_EU_LilBombard_Crew_diff.dds</File>
+    <File md5="3074451F72352ADA68F4B3DEEE65B3A6" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/LilBombard/Art/SMAN_EU_LilBombard_diff.dds</File>
+    <File md5="B72AF20074CF79CA94D5327FDDC096CC" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/LilBombard/Art/SMAN_EU_LilBombard_sref.dds</File>
+    <File md5="236E3A39530344378DD3C287B63DA75E" import="0">XML/Units/Mercs/Mercenaries/4-Renaissance/LilBombard/LilBombard.xml</File>
+    <File md5="9A7E9FBCC5BB0B9703FDE765DA1AC483" import="0">XML/Units/Mercs/Mercenaries/4-Renaissance/LilBombard/LilBombardArtDefines.sql</File>
+    <File md5="6E45883D3964959ECA4F3897C10A9D34" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/ThalaiThirvai/Art/SMAN_EU_Thalai.fxsxml</File>
+    <File md5="2D22A1FEC4202993902C689C545C78C3" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/ThalaiThirvai/Art/SMAN_EU_Thalai.gr2</File>
+    <File md5="ABE467BA4AC42F2BF1676D8BAD5E073B" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/ThalaiThirvai/Art/SMAN_EU_Thalai_diff.dds</File>
+    <File md5="146C45CDEE2A9A4761E5623F5FED5846" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/ThalaiThirvai/Art/SMAN_EU_Thalai_sref.dds</File>
+    <File md5="5D09E72B0FFA0D31E1E825F1F4F73C6C" import="0">XML/Units/Mercs/Mercenaries/4-Renaissance/ThalaiThirvai/ThalaiThirvai.xml</File>
+    <File md5="0CDE5D9E4F816E1AF1C945EF3C86950D" import="0">XML/Units/Mercs/Mercenaries/4-Renaissance/ThalaiThirvai/ThalaiThirvaiArtDefines.sql</File>
+    <File md5="5B57F73260B8F18E8F86D28B95569EAF" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/WildGeese/Art/SMAN_EU_WildGeese.fxsxml</File>
+    <File md5="9D4100768E87D8059B3A3B1ABB7D54BE" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/WildGeese/Art/SMAN_EU_WildGeese.gr2</File>
+    <File md5="66BCA19ECF429E48BBFE6A25570C01B9" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/WildGeese/Art/SMAN_EU_WildGeese_diff.dds</File>
+    <File md5="F2E7D6585CB0A47AB01AC47F30C7C68F" import="1">XML/Units/Mercs/Mercenaries/4-Renaissance/WildGeese/Art/SMAN_EU_WildGeese_sref.dds</File>
+    <File md5="FA6A0F62CCC739ED9ABE28011F2E86A0" import="0">XML/Units/Mercs/Mercenaries/4-Renaissance/WildGeese/WildGeese.xml</File>
+    <File md5="7434BD6F5B22B8E069667F6562D8C1A3" import="0">XML/Units/Mercs/Mercenaries/4-Renaissance/WildGeese/WildGeeseArtDefines.sql</File>
+    <File md5="0CEBF34C640C4D67C39D1773A63BCF21" import="0">XML/Units/Mercs/Mercenaries/5-Industrial/ArmoredFrigate/ArmoredFrigate.xml</File>
+    <File md5="DC1BFDDD08B053477DCE482473A923D2" import="0">XML/Units/Mercs/Mercenaries/5-Industrial/ArmoredFrigate/ArmoredFrigateArtDefines.sql</File>
+    <File md5="24360028DAFF7EABF60A9591199782FC" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/ArmoredFrigate/Art/fx_trigger_SMAN_EU_AF_Ironclad.ftsxml</File>
+    <File md5="EFB2E7EADB5E1B28098B403338B763C8" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/ArmoredFrigate/Art/SMAN_EU_AF_Canons_diff.dds</File>
+    <File md5="697F38CFB435CE8393E54675734ABB05" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/ArmoredFrigate/Art/SMAN_EU_AF_Canons_sref.dds</File>
+    <File md5="7A7A4EBCC910395FE9FF78CFF5F0A4D2" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/ArmoredFrigate/Art/SMAN_EU_AF_Ironclad.fxsxml</File>
+    <File md5="99583E50564CA49F554A8AE1CCA91E46" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/ArmoredFrigate/Art/SMAN_EU_AF_Ironclad.gr2</File>
+    <File md5="DE50514BDA3E5A3C415211E0B58745B3" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/ArmoredFrigate/Art/SMAN_EU_AF_Ironclad_diff.dds</File>
+    <File md5="AE4C1A6E4D12FBA2D17447DE4CD25A6B" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/ArmoredFrigate/Art/SMAN_EU_AF_Ironclad_sref.dds</File>
+    <File md5="8090B298FAB7F80CE5FCE5CE7229577A" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/Corsair/Art/SMAN_EU_Corsair.fxsxml</File>
+    <File md5="9FBC0EA2AA4E0333E6C4BDE28F3511C1" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/Corsair/Art/SMAN_EU_Corsair.gr2</File>
+    <File md5="1C199341AEA1F02385BC343999565257" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/Corsair/Art/SMAN_EU_Corsair_diff.dds</File>
+    <File md5="6B971F94D26FFAF407BFE776370225BB" import="0">XML/Units/Mercs/Mercenaries/5-Industrial/Corsair/Corsair.xml</File>
+    <File md5="441DEE216380A7FB934759B14070C476" import="0">XML/Units/Mercs/Mercenaries/5-Industrial/Corsair/CorsairArtDefines.sql</File>
+    <File md5="DFD3A2D18000FCFBB062A29459FA65DB" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/Dreadnought/Art/SMAN_EU_Dreadnought.fxsxml</File>
+    <File md5="6404F1B37420392C43CF776EB6C289BA" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/Dreadnought/Art/SMAN_EU_Dreadnought.gr2</File>
+    <File md5="9493E253060010A5C78F2ADB8BE69AEA" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/Dreadnought/Art/SMAN_EU_Dreadnought_diff.dds</File>
+    <File md5="BC319C979FF0C8445FB3A50F26CB56DB" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/Dreadnought/Art/SMAN_EU_Dreadnought_sref.dds</File>
+    <File md5="DE937A41434BDB1A80539594CA10C492" import="0">XML/Units/Mercs/Mercenaries/5-Industrial/Dreadnought/DreadnoughtArtDefines.sql</File>
+    <File md5="A557F112BB2960AB1782FCC2F8B3E8E0" import="0">XML/Units/Mercs/Mercenaries/5-Industrial/Dreadnought/Dreadnought.xml</File>
+    <File md5="7D08503232151432EBD7B99271FC9B27" import="0">XML/Units/Mercs/Mercenaries/5-Industrial/LandIronclad/LandIronclad.xml</File>
+    <File md5="4F6724BDE63C905771E2FB02DE56830A" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/WarJunk/Art/SMAN_EU_WarJunk.fxsxml</File>
+    <File md5="A540526B74282DC75DCE861797A65A37" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/WarJunk/Art/SMAN_EU_WarJunk.gr2</File>
+    <File md5="7038C2D91B8CFDBE084AE650311D0165" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/WarJunk/Art/SMAN_EU_WarJunk_diff.dds</File>
+    <File md5="A0259BA1FB1B544F89BBD5A07BE8B90F" import="1">XML/Units/Mercs/Mercenaries/5-Industrial/WarJunk/Art/SMAN_EU_WarJunk_sref.dds</File>
+    <File md5="24F1CC5669EE1D73BB8032F9674F0AFE" import="0">XML/Units/Mercs/Mercenaries/5-Industrial/WarJunk/WarJunk.xml</File>
+    <File md5="476F493747ADA572482E1314ECA9728F" import="0">XML/Units/Mercs/Mercenaries/5-Industrial/WarJunk/WarJunkArtDefines.sql</File>
+    <File md5="39F8D70464155E5CA9264338D5D008E0" import="0">XML/Units/Mercs/Mercenaries/5-Industrial/Zeppelin/Zeppelin.xml</File>
+    <File md5="5C5CB984768615F5C15B93F4D9F3D2FF" import="0">XML/Units/Mercs/Mercenaries/6-Modern/FlyingCircus/FlyingCircus.xml</File>
+    <File md5="C7DEE0CE81ADFF827E9B1E3110E9B8F2" import="1">XML/Units/Mercs/Mercenaries/6-Modern/Guerrillas/Art/SMAN_EU_Guerrilla.fxsxml</File>
+    <File md5="E8F415377FC9567D41DDBEA352783D8D" import="1">XML/Units/Mercs/Mercenaries/6-Modern/Guerrillas/Art/SMAN_EU_Guerrilla.gr2</File>
+    <File md5="C010D42E3B4003209E64BF35972D1738" import="1">XML/Units/Mercs/Mercenaries/6-Modern/Guerrillas/Art/SMAN_EU_Guerrilla_diea.gr2</File>
+    <File md5="099B4856A4FB485206FC10D50C73DD7F" import="1">XML/Units/Mercs/Mercenaries/6-Modern/Guerrillas/Art/SMAN_EU_Guerrilla_diefadea.gr2</File>
+    <File md5="CC30EC42E22EB10443DC52CDC0B38A68" import="1">XML/Units/Mercs/Mercenaries/6-Modern/Guerrillas/Art/SMAN_EU_Guerrilla_diff.dds</File>
+    <File md5="04C4FB8C221A8F67736D024421F67376" import="1">XML/Units/Mercs/Mercenaries/6-Modern/Guerrillas/Art/SMAN_EU_Guerrilla_fortf.gr2</File>
+    <File md5="DB38614B7C65411803A2EEE23ABC6A8A" import="1">XML/Units/Mercs/Mercenaries/6-Modern/Guerrillas/Art/SMAN_EU_Guerrilla_fortidlea.gr2</File>
+    <File md5="EB67305441EE88654B49B85D1440C0AA" import="1">XML/Units/Mercs/Mercenaries/6-Modern/Guerrillas/Art/SMAN_EU_Guerrilla_hurta.gr2</File>
+    <File md5="AB5F065B5978AC219D220C9D1D418A1B" import="1">XML/Units/Mercs/Mercenaries/6-Modern/Guerrillas/Art/SMAN_EU_Guerrilla_marineIdle.gr2</File>
+    <File md5="009863D72249DF0C97EF7D7C1ADB9E42" import="1">XML/Units/Mercs/Mercenaries/6-Modern/Guerrillas/Art/SMAN_EU_Guerrilla_runr.gr2</File>
+    <File md5="45610501DFD8EF406A7AF01FCF18CF47" import="1">XML/Units/Mercs/Mercenaries/6-Modern/Guerrillas/Art/SMAN_EU_Guerrilla_shoota.gr2</File>
+    <File md5="BE90598CFB3886005632DC31E5B71B9B" import="1">XML/Units/Mercs/Mercenaries/6-Modern/Guerrillas/Art/SMAN_EU_Guerrilla_sref.dds</File>
+    <File md5="B6ECEEF8DCF6A8BEEE21FB4FFA9C921A" import="0">XML/Units/Mercs/Mercenaries/6-Modern/Guerrillas/Guerrilla.xml</File>
+    <File md5="EFE04E9C085591DA2E5488550B5FD417" import="0">XML/Units/Mercs/Mercenaries/6-Modern/Guerrillas/GuerrillaArtDefines.sql</File>
+    <File md5="A01209409147E364A14A06104FA627B9" import="1">XML/Units/Mercs/Mercenaries/6-Modern/Gurkha/Art/SMAN_EU_Gurkha.fxsxml</File>
+    <File md5="0055532F19293643D489E8C97121BB25" import="1">XML/Units/Mercs/Mercenaries/6-Modern/Gurkha/Art/SMAN_EU_Gurkha.gr2</File>
+    <File md5="EFF5409A4D8D39A45EA3CA78CC2DCB47" import="1">XML/Units/Mercs/Mercenaries/6-Modern/Gurkha/Art/SMAN_EU_Gurkha_diff.dds</File>
+    <File md5="9D7E6844EA94E147D46729B2CE19A1FF" import="1">XML/Units/Mercs/Mercenaries/6-Modern/Gurkha/Art/SMAN_EU_Gurkha_sref.dds</File>
+    <File md5="B7625BF2C3DF7EF0C5FD99B0FF5F4C3F" import="0">XML/Units/Mercs/Mercenaries/6-Modern/Gurkha/Gurkha.xml</File>
+    <File md5="9E9D364375A8ECD8090C00AAFB8D7F11" import="0">XML/Units/Mercs/Mercenaries/6-Modern/Gurkha/GurkhaArtDefines.sql</File>
+    <File md5="6E60E5436B2A0AE481F5DF08533558BD" import="0">XML/Units/Mercs/Mercenaries/7-Atomic/PatrolBoat/PatrolBoat.xml</File>
+    <File md5="C43D7CBAA3A8996CBAA098B001FB9311" import="0">XML/Units/Mercs/Mercenaries/7-Atomic/PatrolBoat/PatrolBoatArtDefines.sql</File>
+    <File md5="6903919CC91F1C38BC07B661FDCF73AB" import="1">XML/Units/Mercs/Mercenaries/7-Atomic/ReconPlane/Art/fx_triggers_SMAN_EU_ReconPlane.ftsxml</File>
+    <File md5="E5F44803F68E7F385BD46FB33A41C6DF" import="1">XML/Units/Mercs/Mercenaries/7-Atomic/ReconPlane/Art/SMAN_EU_ReconPlane.fxsxml</File>
+    <File md5="E51661DE290F661E930740EBA39F74ED" import="1">XML/Units/Mercs/Mercenaries/7-Atomic/ReconPlane/Art/SMAN_EU_ReconPlane.gr2</File>
+    <File md5="D228AAF805BC90FD20A1B9196C12BFBD" import="1">XML/Units/Mercs/Mercenaries/7-Atomic/ReconPlane/Art/SMAN_EU_ReconPlane_diff.dds</File>
+    <File md5="DBD0DB57A3F909428746A299C0D923DF" import="1">XML/Units/Mercs/Mercenaries/7-Atomic/ReconPlane/Art/SMAN_EU_ReconPlane_gloss.dds</File>
+    <File md5="43B2E851EE05670B2407441175B747A9" import="0">XML/Units/Mercs/Mercenaries/7-Atomic/ReconPlane/ReconPlane.xml</File>
+    <File md5="0DAF349884F5794EE832CFBBA65FF36D" import="1">XML/Units/Mercs/Mercenaries/7-Atomic/SubHunter/Art/SMAN_EU_SubHunter.fxsxml</File>
+    <File md5="8FED8877695C1F179E51362DA874BE0C" import="1">XML/Units/Mercs/Mercenaries/7-Atomic/SubHunter/Art/SMAN_EU_SubHunter.gr2</File>
+    <File md5="DFA310D592879E5F3A2EED97F2086D9A" import="1">XML/Units/Mercs/Mercenaries/7-Atomic/SubHunter/Art/SMAN_EU_SubHunter_diff.dds</File>
+    <File md5="3872E535CC6D36CD1B6B721A9B040510" import="1">XML/Units/Mercs/Mercenaries/7-Atomic/SubHunter/Art/SMAN_EU_SubHunter_sref.dds</File>
+    <File md5="E5460E628000897D7BACD87DA90F485E" import="0">XML/Units/Mercs/Mercenaries/7-Atomic/SubHunter/SubHunter.xml</File>
+    <File md5="EB8270F0EA36DA28F5372145638CDD70" import="0">XML/Units/Mercs/Mercenaries/7-Atomic/SubHunter/SubHunterArtDefines.sql</File>
+    <File md5="5B811AF5596286D7B6DAD0FE8E8FA53B" import="1">XML/Units/Mercs/Mercenaries/8-Information/PredatorDrone/Art/fx_triggers_SMAN_EU_Predator.ftsxml</File>
+    <File md5="1DE6347842A5657FCB27BC4AA925A9F1" import="1">XML/Units/Mercs/Mercenaries/8-Information/PredatorDrone/Art/SMAN_EU_Predator.fxsxml</File>
+    <File md5="8CC33D66F3FA77EDF165F746F58E9274" import="1">XML/Units/Mercs/Mercenaries/8-Information/PredatorDrone/Art/SMAN_EU_Predator.gr2</File>
+    <File md5="25508B471913335C68040D5530CDA408" import="1">XML/Units/Mercs/Mercenaries/8-Information/PredatorDrone/Art/SMAN_EU_Predator_diff.dds</File>
+    <File md5="E67EC2B0DCD3D94063F3720CBE02018A" import="1">XML/Units/Mercs/Mercenaries/8-Information/PredatorDrone/Art/SMAN_EU_Predator_sref.dds</File>
+    <File md5="F683AAD18CF85950E92E3646C72A439F" import="0">XML/Units/Mercs/Mercenaries/8-Information/PredatorDrone/PredatorDrone.xml</File>
+    <File md5="BCE07055E5905DEDA93A08E64024C334" import="0">XML/Units/Mercs/Mercenaries/8-Information/PredatorDrone/PredatorDroneArtDefines.sql</File>
+    <File md5="8BAD2EC9A2CAB696F6AB1FA5AAE6947D" import="1">XML/Units/Mercs/Mercenaries/8-Information/PrivateMilContractors/Art/SMAN_EU_PMC.fxsxml</File>
+    <File md5="19726570BB401C1D9E840ED44B70ACAB" import="1">XML/Units/Mercs/Mercenaries/8-Information/PrivateMilContractors/Art/SMAN_EU_PMC.gr2</File>
+    <File md5="E5388FF5F7F052F989FB51EDECAB21CA" import="1">XML/Units/Mercs/Mercenaries/8-Information/PrivateMilContractors/Art/SMAN_EU_PMC_diff.dds</File>
+    <File md5="BB6295A380CE26358D75469EB5E2C407" import="0">XML/Units/Mercs/Mercenaries/8-Information/PrivateMilContractors/PrivateMilContractorsArtDefines.xml</File>
+    <File md5="2DD53F0C5D422178AF9B6851D7AD25DA" import="0">XML/Units/Mercs/Mercenaries/8-Information/PrivateMilContractors/PrivateMilContractors.xml</File>
+    <File md5="5B811AF5596286D7B6DAD0FE8E8FA53B" import="1">XML/Units/Mercs/Mercenaries/8-Information/ReaperDrone/ART/fx_triggers_SMAN_EU_Reaper.ftsxml</File>
+    <File md5="343B8768939E6AD8F3CBFFBD05189D8A" import="1">XML/Units/Mercs/Mercenaries/8-Information/ReaperDrone/ART/SMAN_EU_Reaper.fxsxml</File>
+    <File md5="078F65FF47241DA19259602FEE777CE0" import="1">XML/Units/Mercs/Mercenaries/8-Information/ReaperDrone/ART/SMAN_EU_Reaper.gr2</File>
+    <File md5="BCD4E431E311353407D7930CE6A4D9AF" import="1">XML/Units/Mercs/Mercenaries/8-Information/ReaperDrone/ART/SMAN_EU_Reaper_diff.dds</File>
+    <File md5="427974D97771B64723E651180E12D578" import="1">XML/Units/Mercs/Mercenaries/8-Information/ReaperDrone/ART/SMAN_EU_Reaper_diff.xcf</File>
+    <File md5="979E05F7498FA771678B38450B2F8E87" import="1">XML/Units/Mercs/Mercenaries/8-Information/ReaperDrone/ART/SMAN_EU_Reaper_sref.dds</File>
+    <File md5="D2B082B5D44AE8258D525FAEB4E42DBA" import="0">XML/Units/Mercs/Mercenaries/8-Information/ReaperDrone/ReaperDrone.xml</File>
+    <File md5="3B63AEBE773EF1B91E1E3B70F6941790" import="0">XML/Units/Mercs/Mercenaries/8-Information/ReaperDrone/ReaperDroneArtDefines.sql</File>
+    <File md5="CD3C429FD61D60606A8A865A08B60D70" import="1">XML/Units/Mercs/Mercenaries/8-Information/ReconJet/Art/SMAN_EU_ReconJet.fxsxml</File>
+    <File md5="5172B5BBD1996A3224A923E412AB1E02" import="1">XML/Units/Mercs/Mercenaries/8-Information/ReconJet/Art/SMAN_EU_ReconJet.gr2</File>
+    <File md5="9257DCA622782AF277B49583F85C4C3C" import="1">XML/Units/Mercs/Mercenaries/8-Information/ReconJet/Art/SMAN_EU_ReconJet_diff.dds</File>
+    <File md5="2CB870156E94747E8B00CA4F8EC78AC1" import="1">XML/Units/Mercs/Mercenaries/8-Information/ReconJet/Art/SMAN_EU_ReconJet_sref.dds</File>
+    <File md5="91F6FA5AAA66DC1C2BB78C46F31DE9D1" import="0">XML/Units/Mercs/Mercenaries/8-Information/ReconJet/ReconJet.xml</File>
+    <File md5="6E33E758B853E1114BB487111B8FA075" import="1">XML/Units/Mercs/Mercenaries/8-Information/SoldiersOfFortune/Art/fx_triggers_SMAN_EU_SOF.ftsxml</File>
+    <File md5="212745C0D1059F32FAC334A46B790713" import="1">XML/Units/Mercs/Mercenaries/8-Information/SoldiersOfFortune/Art/fx_triggers_SMAN_EU_SOF_mg.ftsxml</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">XML/Units/Mercs/Mercenaries/8-Information/SoldiersOfFortune/Art/no_gloss.dds</File>
+    <File md5="064C55026C99D3171392ACA3E185B3AC" import="1">XML/Units/Mercs/Mercenaries/8-Information/SoldiersOfFortune/Art/SMAN_EU_SOF.fxsxml</File>
+    <File md5="0F5D95539129D0C8E7A78C2A941605DC" import="1">XML/Units/Mercs/Mercenaries/8-Information/SoldiersOfFortune/Art/SMAN_EU_SOF.gr2</File>
+    <File md5="DBE36EA26DF1E980876763F9C4EAF75E" import="1">XML/Units/Mercs/Mercenaries/8-Information/SoldiersOfFortune/Art/SMAN_EU_SOF_diff.dds</File>
+    <File md5="90ADDA610B9DD423F21A31CB4FB1093E" import="1">XML/Units/Mercs/Mercenaries/8-Information/SoldiersOfFortune/Art/SMAN_EU_SOF_MG.fxsxml</File>
+    <File md5="CCF84B64EDAC674164CB1B5335F2635A" import="1">XML/Units/Mercs/Mercenaries/8-Information/SoldiersOfFortune/Art/SMAN_EU_SOF_MG.gr2</File>
+    <File md5="655DBEC48B3464C74D5400A326994CF0" import="0">XML/Units/Mercs/Mercenaries/8-Information/SoldiersOfFortune/SOF.xml</File>
+    <File md5="7E11CC866B6D78077C9107A3F7209D61" import="0">XML/Units/Mercs/Mercenaries/8-Information/SoldiersOfFortune/SOFArtDefines.xml</File>
+    <File md5="C0E73FA58372C7F1151E4A7F836474F6" import="1">XML/Units/Mercs/Mercenaries/sv_land_mercenary.dds</File>
+    <File md5="1C8217D4EAE75FC86DAEB1F12EDA89C8" import="1">XML/Units/Mercs/Mercenaries/sv_sea_mercenary.dds</File>
+    <File md5="0D5975FAD4678F57C56C817DC5EEC503" import="0">XML/Units/Mercs/EquitesSagittarii/01-AkkadianHorseArcher/AkkadianHA.xml</File>
+    <File md5="FB8FCA74D67368CAB0BB10202FD67FF7" import="0">XML/Units/Mercs/EquitesSagittarii/01-AkkadianHorseArcher/AkkadianHAArtDefines.sql</File>
+    <File md5="1379C81C8E9D8C96829A1BA97A05442C" import="0">XML/Units/Mercs/EquitesSagittarii/02-ScythianHorseArcher/ScythianHA.xml</File>
+    <File md5="D85A3DBD9162CFFE60CC7FC08E8556C1" import="0">XML/Units/Mercs/EquitesSagittarii/02-ScythianHorseArcher/ScythianHAArtDefines.sql</File>
+    <File md5="3AEBA4B10480E3672A36DA33F77D22B9" import="0">XML/Units/Mercs/EquitesSagittarii/03-FrankishCrossbowman/FrankishCrossbowman.xml</File>
+    <File md5="C450482B92703AFFEE0E87BAD5CAADC5" import="0">XML/Units/Mercs/EquitesSagittarii/03-FrankishCrossbowman/FrankishCrossbowmanArtDefines.sql</File>
+    <File md5="EB7FAB51DCE8E0623BED0677317ADB87" import="0">XML/Units/Mercs/EquitesSagittarii/04-Corazzieri/Corazzieri.xml</File>
+    <File md5="4E8C102FD8FC87FFD04F43F1622A76BD" import="0">XML/Units/Mercs/EquitesSagittarii/04-Corazzieri/CorazzieriArtDefines.sql</File>
+    <File md5="D310364AB1AA2BDCEBBDB540984CEBCC" import="0">XML/Units/Mercs/EquitesSagittarii/05-IroquiosMusketRidder/IroquiosMR.xml</File>
+    <File md5="C36CF70024A1A94F9DB9A21050F8C218" import="0">XML/Units/Mercs/EquitesSagittarii/05-IroquiosMusketRidder/IroquiosMRArtDefines.sql</File>
+    <File md5="4A988D3F6CE4258B619766CDD729CCD4" import="0">XML/Units/Mercs/EquitesSagittarii/06-CheyenneDogSoldier/CheyenneDS.xml</File>
+    <File md5="20124B488A6093D4031EED1395AB5920" import="0">XML/Units/Mercs/EquitesSagittarii/06-CheyenneDogSoldier/CheyenneDSArtDefines.sql</File>
+    <File md5="74D7A447967E0BE40979F5EA6679772E" import="1">XML/Units/Mercs/EquitesSagittarii/sv_auxilia.dds</File>
+    <File md5="283673F23AD5D6A1895D7899BF74FD42" import="0">XML/Units/Mercs/UnitAdjustments.sql</File>
+    <File md5="4432D258031784DFF5F3C7CBB07EBEE9" import="0">XML/Units/Mercs/UnitOverrides.sql</File>
+    <File md5="B477F423E008C0AB04A08D8358DE38C4" import="0">XML/Units/Mercs/UnitPromotions.xml</File>
+	
+	 <File md5="4B16C10D0B9DF67160F4107AB3B1CBBB" import="1">XML/Buildings/Wonders/XML/Buildings/Wonders/01_Graphics/Atlases/MegapackWonders_045.dds</File>
+    <File md5="4B16C10D0B9DF67160F4107AB3B1CBBB" import="1">XML/Buildings/Wonders/01_Graphics/Atlases/MegapackWonders_045.dds</File>
+	<File md5="199F21BCAE928C0BF51019E507DB06D3" import="1">XML/Buildings/Wonders/01_Graphics/Atlases/MegapackWonders_064.dds</File>
+    <File md5="F5C0267E7C3C6B1A2A2EE3F6F0E4A55D" import="1">XML/Buildings/Wonders/01_Graphics/Atlases/MegapackWonders_080.dds</File>
+    <File md5="F3B034E30FBD8015B6D1DC06A5B0F728" import="1">XML/Buildings/Wonders/01_Graphics/Atlases/MegapackWonders_128.dds</File>
+    <File md5="A32B506CD87F1F1D30E8A84434341A89" import="1">XML/Buildings/Wonders/01_Graphics/Atlases/MegapackWonders_256.dds</File>
+    <File md5="2245431E97B8A038B01B989E728BCCB1" import="0">XML/Buildings/Wonders/01_Graphics/Atlases/MegapackWonders_Atlas.xml</File>
+    <File md5="17EF82C59B0165C86695C7451D6A7FF8" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/AbuSimbel_Splash.dds</File>
+    <File md5="7D4EFB1211B1FC0AF11672801EC702F7" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/AleppoMosque_Splash.dds</File>
+    <File md5="40B00A4C499DF82FBCDD6E5A05410363" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Bamiyan_Splash.dds</File>
+    <File md5="C20C734CAF13AB94012FA51082DF8B12" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/BrooklynBridge_Splash.dds</File>
+    <File md5="58E80B5468C5107A2089FA141DEA3BBC" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/BudaCastle_Splash.dds</File>
+    <File md5="DB873E50228218F44E262568A00A245B" import="0">XML/Buildings/Wonders/01_Graphics/Splashes/BurjAlArab_Splash.dds</File>
+    <File md5="2C01DF8D42141A9B3F0532048FF68202" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/EinsteinTower_Splash.dds</File>
+    <File md5="693272A38A534DB468E7BA4CF7F1A1A1" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/EmpireStateBuilding_Splash.dds</File>
+    <File md5="0253DD8F078B3CEA97880F36ACBF5DBD" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/GateSun_Splash.dds</File>
+    <File md5="9DFD6F2144E5C96442AA2514445CDAC0" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/GoldenGate_Splash.dds</File>
+    <File md5="CD5709B41165012F75CAE9AA32B4E755" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/GSV_Splash.dds</File>
+    <File md5="1A3296336D45AC69FE5A69F863386C82" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/GobekliTepe_Splash.dds</File>
+    <File md5="1EF22C207F2CE35277FF27F79FE676B3" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Gripsholm_Splash.dds</File>
+    <File md5="AFC8F33F131D1208AF9D29E406242F60" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/DomeOfSoltaniyeh_Splash.dds</File>
+    <File md5="F7C29942022650D9C9A1E358014A765F" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/LHC_Splash.dds</File>
+    <File md5="F9CEB8AD949DC43A14A479B9301E18BB" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Hattusa_Splash.dds</File>
+    <File md5="C09D0819F634A8C0DEC2B5BF972D8465" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/HooversDam_Splash.dds</File>
+    <File md5="63CCC3A504D474527724C9AFA7E3535A" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Leonardo_Splash.dds</File>
+    <File md5="10BDAAC71619BEE5F6A28CEB1449AFA2" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/LibraryOfCongress_Splash.dds</File>
+    <File md5="CD550A4B1BABCB9D31BE13832145F2AC" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/MadainSaleh_Splash.dds</File>
+    <File md5="5D22C3D36B7AE07B261E4DBC0BDE6956" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Maracana_Splash.dds</File>
+    <File md5="26130FD051CB3EEE0900F39AEC8E179B" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/MedinaAzahara_Splash.dds</File>
+    <File md5="787049A8FBD3230CC79BB27422026C4F" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/MezquitaCordoba_Splash.dds</File>
+    <File md5="F7E7E172B570D0A74C320E715DFD40E1" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Motherland_Splash.dds</File>
+    <File md5="DCC53ADC82514F1FAA28F1E942E7FB08" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/PalaisDePapes_Splash.dds</File>
+    <File md5="8F061F11F28B032B871DE1A12E873D3C" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/SaintBasil_Splash.dds</File>
+    <File md5="CA20FEADE0148797B78802738DFE8C91" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Voortrekker_GreatWork.dds</File>
+    <File md5="EF18E6017D84DA380F592D380772C48D" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Horyuji_Splash.dds</File>
+    <File md5="11F2835840DC86AC1D3ABE3E877EEAF6" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Madol_Splash.dds</File>
+    <File md5="4AD3CB701F1F2116277D989263B6C1E1" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Millau_Splash.dds</File>
+    <File md5="42EA4EB75475871F10545F2DE89E323D" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/MLK_Splash.dds</File>
+    <File md5="E3A073AB7A2CBAB9D548638A71E005D6" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/PalmJumeirah_Splash.dds</File>
+    <File md5="A9695D459A7C357ADD2E4FD353F09F64" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Panamerican_Splash.dds</File>
+    <File md5="47AF76BF46CD1C004F38C09CED7D878E" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/PenaPalace_Splash.dds</File>
+    <File md5="FE26AF3BE590040EBC419745FB7937A2" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Petronas_Splash.dds</File>
+    <File md5="73D91DB26B6A6E82AC0CDEE72F186896" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Rockefeller_Splash.dds</File>
+    <File md5="216842ECD8D8CF2C7773D76D8D176CE3" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Rushmore_Splash.dds</File>
+    <File md5="8A098B8E34F2EEC71617DEC547D97F41" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Sagrada_Splash.dds</File>
+    <File md5="919386579AACA20B89EE285FB5DBF308" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Shwedagon_Splash.dds</File>
+    <File md5="DEE1117C57CD43640CC23382FE9D6B7A" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Sphinx_Splash.dds</File>
+    <File md5="4E28328BB1A1023111F2FE2EA4888AB4" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/StoneTown_Splash.dds</File>
+    <File md5="C8D1C306ACC711F79FDD3B30354D40B7" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/TabrizBazaar_Splash.dds</File>
+    <File md5="7C3A8B477639FFC62D7398D4959F6371" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/ChoghaZanbil_Splash.dds</File>
+    <File md5="62E77C5CCDB9A5E5FA109C6BD4045BD8" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Taktsang_Splash.dds</File>
+    <File md5="6CB7BE8D4FFAB71A04B7A351D05D55CE" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/TempleOfHeaven_Splash.dds</File>
+    <File md5="3C787A26D55325CD91C5EC239B46DAE7" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Topkapi_Splash.dds</File>
+    <File md5="8012D595C432362EC67948B2D4D986CF" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Trafalgar_Splash.dds</File>
+    <File md5="A3E78DEB1B0AD6F75C97040F526757C4" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Voortrekker_Splash.dds</File>
+    <File md5="2EF88C6707EAFE6AB3BAC1D48ECA8C2C" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/VoyagerOne_Splash.dds</File>
+    <File md5="127B9C1E76076CE2E3744B53128B1030" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/WatPhraKaew_Splash.dds</File>
+    <File md5="5E21C0276C8A14AB8FD8FBA284E470B9" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/Westminster_Splash.dds</File>
+    <File md5="70357809795EDF9DF2E1B2C4EFA7F61B" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/WhiteHouse_Splash.dds</File>
+    <File md5="32EA80F1FB5A59301FB5A37EB2AC6473" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/WTC_Splash.dds</File>
+    <File md5="C0995CEA38E514D8E571BE6640CDA9C5" import="1">XML/Buildings/Wonders/01_Graphics/Splashes/XuankongSi_Splash.dds</File>
+    
+	<File md5="D2C4C8500CF5B8B183E5F5D4DA605AA9" import="0">XML/Buildings/WonderTexts.xml</File>
+   
+    
   </Files>
   <Actions>
     <OnModActivated>	  
@@ -2696,6 +3143,7 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
       <UpdateDatabase>XML/Buildings/Wonders.xml</UpdateDatabase>
       <UpdateDatabase>XML/Buildings/BuildingsEffects.xml</UpdateDatabase>
       <UpdateDatabase>XML/Buildings/BuildingsTexts.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Buildings/BuildingsTexts2.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/UnitClasses.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/UnitClassOverrides.xml</UpdateDatabase>
       <UpdateDatabase>XML/Units/Units_Civilian.xml</UpdateDatabase>
@@ -2985,6 +3433,121 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
 	  <UpdateDatabase>XML/UC/Portugal/3Cacador_Define.sql</UpdateDatabase>
 	  <UpdateDatabase>XML/UC/Siam/4UC_SIAM.sql</UpdateDatabase>
 	  <UpdateDatabase>XML/UC/Siam/royalrifle.xml</UpdateDatabase>
+	  <UpdateDatabase>Lua/UI/WASDHotkeyFix.sql</UpdateDatabase>
+	  <UpdateDatabase>XML/Gameplay/GoodyHutsNoMaps.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Projects/CIVProjects_Global_Wargames.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Projects/CivProjects_TogethertotheStars.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Projects/CivProjects_GDR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Projects/CivProjects_XCOM.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Projects/CivProjects_Enlightenment.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Projects/CongressUpdates.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/AINoCSAnnexers.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Buildings/CIV5Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/GovNationalCongress.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/GovPeopleCouncil.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/GovMilitaryHQ.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/GovLegislature.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/GovClericsCourt.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/GovCountyCourt.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/GovMagistrateOffice.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/CIV5IconTextureAtlases.xml</UpdateDatabase>
+	  <UpdateDatabase>Art/Mercs/ExoticUnitAtlas_Definitions.xml</UpdateDatabase>
+	  
+	  <UpdateDatabase>XML/Units/Mercs/UnitAdjustments.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/UnitPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Camels/01-Bowman/CamelBowman.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Camels/01-Bowman/CamelBowmanArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Camels/02-RaidingParty/CamelRaidingParty.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Camels/02-RaidingParty/CamelRaidingPartyArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Camels/03-Rifleman/CamelRifleman.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Camels/03-Rifleman/CamelRiflemanArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Camels/04-WarParty/CamelWarParty.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Camels/04-WarParty/CamelWarPartyArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Elephants/01-TamedMammoth/TamedMammoth.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Elephants/01-TamedMammoth/TamedMammothArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Elephants/02-BattleElephant/BattleElephant.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Elephants/02-BattleElephant/BattleElephantArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Elephants/03-SiegeElephant/SiegeElephant.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Elephants/03-SiegeElephant/SiegeElephantArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Elephants/04-Howdah/Howdah.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Elephants/04-Howdah/HowdahArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/EquitesSagittarii/01-AkkadianHorseArcher/AkkadianHA.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/EquitesSagittarii/01-AkkadianHorseArcher/AkkadianHAArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/EquitesSagittarii/02-ScythianHorseArcher/ScythianHA.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/EquitesSagittarii/02-ScythianHorseArcher/ScythianHAArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/EquitesSagittarii/03-FrankishCrossbowman/FrankishCrossbowman.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/EquitesSagittarii/03-FrankishCrossbowman/FrankishCrossbowmanArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/EquitesSagittarii/04-Corazzieri/Corazzieri.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/EquitesSagittarii/04-Corazzieri/CorazzieriArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/EquitesSagittarii/05-IroquiosMusketRidder/IroquiosMR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/EquitesSagittarii/05-IroquiosMusketRidder/IroquiosMRArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/EquitesSagittarii/06-CheyenneDogSoldier/CheyenneDS.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/EquitesSagittarii/06-CheyenneDogSoldier/CheyenneDSArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/1-Ancient/BattleGalley/BattleGalley.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/1-Ancient/BattleGalley/BattleGalleyArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/1-Ancient/Barque/Barque.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/1-Ancient/Barque/BarqueArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/1-Ancient/Rabble/Rabble.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/1-Ancient/Rabble/RabbleArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/2-Classical/Ghazi/Ghazi.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/2-Classical/Ghazi/GhaziArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/2-Classical/GreekHippeis/GreekHippeis.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/2-Classical/GreekHippeis/GreekHippeisArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/2-Classical/MadyanArchers/MadyanArchers.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/2-Classical/MadyanArchers/MadyanArchersArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/3-Medieval/Dhow/Dhow.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/3-Medieval/Dhow/DhowArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/3-Medieval/FireShip/FireShip.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/3-Medieval/FireShip/FireshipArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/3-Medieval/GenoeseCrossbowman/GenoeseCrossbowman.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/3-Medieval/GenoeseCrossbowman/GenoeseCrossbowmanArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/4-Renaissance/Cavalier/Cavalier.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/4-Renaissance/Cavalier/CavalierArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/Condottieri.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/4-Renaissance/Condottieri/CondottieriArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/4-Renaissance/GreatBombard/GreatBombard.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/4-Renaissance/GreatBombard/GreatBombardDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/4-Renaissance/LilBombard/LilBombard.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/4-Renaissance/LilBombard/LilBombardArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/4-Renaissance/ThalaiThirvai/ThalaiThirvai.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/4-Renaissance/ThalaiThirvai/ThalaiThirvaiArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/4-Renaissance/WildGeese/WildGeese.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/4-Renaissance/WildGeese/WildGeeseArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/5-Industrial/ArmoredFrigate/ArmoredFrigate.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/5-Industrial/ArmoredFrigate/ArmoredFrigateArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/5-Industrial/Corsair/Corsair.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/5-Industrial/Corsair/CorsairArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/5-Industrial/Dreadnought/Dreadnought.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/5-Industrial/Dreadnought/DreadnoughtArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/5-Industrial/LandIronclad/LandIronclad.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/5-Industrial/WarJunk/WarJunk.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/5-Industrial/WarJunk/WarJunkArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/5-Industrial/Zeppelin/Zeppelin.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/6-Modern/FlyingCircus/FlyingCircus.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/6-Modern/Guerrillas/Guerrilla.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/6-Modern/Guerrillas/GuerrillaArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/6-Modern/Gurkha/Gurkha.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/6-Modern/Gurkha/GurkhaArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/7-Atomic/PatrolBoat/PatrolBoat.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/7-Atomic/PatrolBoat/PatrolBoatArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/7-Atomic/ReconPlane/ReconPlane.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/7-Atomic/SubHunter/SubHunter.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/7-Atomic/SubHunter/SubHunterArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/8-Information/PredatorDrone/PredatorDrone.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/8-Information/PredatorDrone/PredatorDroneArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/8-Information/PrivateMilContractors/PrivateMilContractors.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/8-Information/PrivateMilContractors/PrivateMilContractorsArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/8-Information/ReaperDrone/ReaperDrone.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/8-Information/ReaperDrone/ReaperDroneArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/8-Information/ReconJet/ReconJet.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/8-Information/SoldiersOfFortune/SOF.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/Mercenaries/8-Information/SoldiersOfFortune/SOFArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Mercs/UnitOverrides.sql</UpdateDatabase>
+	  <UpdateDatabase>XML/Buildings/Wonders/01_Graphics/Atlases/MegapackWonders_Atlas.xml</UpdateDatabase>   
+      
+      
+      
+	  
     </OnModActivated>
   </Actions>
   <EntryPoints>

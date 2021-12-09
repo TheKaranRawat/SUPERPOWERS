@@ -110,7 +110,7 @@
 			<Text>Each source of [ICON_RES_WHALE] Whales, [ICON_RES_COAL] Coal, [ICON_RES_OIL] Oil, and [ICON_RES_URANIUM] Uranium worked by this City produces +2 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ENGLISH_STEAM_MILL">
-			<Text>Steam Mill</Text>
+			<Text>[ICON_PRODUCTION] Steam Mill</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDING_ENGLISH_STEAM_MILL_TEXT">
 			<Text>A steam mill is a type of grinding mill using a stationary steam engine to power its mechanism. Steam engines can be powered by a variety of fuels, usually coal, to produce mechanical work for any number of functions.</Text>

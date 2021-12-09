@@ -258,6 +258,7 @@
 			<TechPrereqAnyMember>TECH_GEN_MANIP</TechPrereqAnyMember>
 			<LeagueProjectEnabled>LEAGUE_PROJECT_FW_GENOME_PROJECT</LeagueProjectEnabled>
 		</Row>
+		
 		<Row>
 			<Type>RESOLUTION_FW_ASTEROID_MINING</Type>
 			<Description>TXT_KEY_RESOLUTION_FW_ASTEROID_MINING</Description>
@@ -302,6 +303,28 @@
 			<Set HolyCityTourism="100" ReligionSpreadStrengthMod="50" />
 			<Where Type="RESOLUTION_WORLD_RELIGION"/>
 		</Update>
+
+		<Update>
+			<Set UnitMaintenanceGoldPercent="50" />
+			<Where Type="RESOLUTION_STANDING_ARMY_TAX"/>
+		</Update>
+
+		<Update>
+			<Set MemberDiscoveredTechMod="30" />
+			<Where Type="RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT"/>
+		</Update>
+
+		<Update>
+			<Set CulturePerWonder="4" />
+			<Where Type="RESOLUTION_CULTURAL_HERITAGE_SITES"/>
+		</Update>
+
+		<Update>
+			<Set CulturePerNaturalWonder="8" />
+			<Where Type="RESOLUTION_NATURAL_HERITAGE_SITES"/>
+		</Update>
+
+		
 		
 	</Resolutions>
 
@@ -329,6 +352,8 @@
 			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
 			<LeagueProjectEnabled>LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</LeagueProjectEnabled>
 		</Row>
+
+
 	</Resolutions>
 
 	

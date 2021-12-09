@@ -85,7 +85,7 @@
 	<!-- Adds new text -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_PESANTREN">
-			<Text>Pesantren</Text>
+			<Text>[ICON_RESEARCH] Pesantren</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PESANTREN_HELP">
 			<Text>+1 [ICON_RESEARCH] Science and +1 [ICON_PEACE] Faith for every 2 [ICON_CITIZEN] Citizens in this City. +25% Religious Pressure from this City. Only Indonesia may build it.</Text>

@@ -464,7 +464,7 @@
 			<BuildingClass>BUILDINGCLASS_RACECOURSE</BuildingClass>
 			<Cost>85</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<UnmoddedHappiness>2</UnmoddedHappiness>
+			<UnmoddedHappiness>6</UnmoddedHappiness>
 			<PrereqTech>TECH_GUILDS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_GREEK_OLYMPICS</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDING_GREEK_OLYMPICS_TEXT</Civilopedia>
@@ -1095,8 +1095,8 @@
 			<Strategy>TXT_KEY_SP_CITYSIZE_BUILDINGS_STRATEGY</Strategy>
 			<Help>TXT_KEY_BUILDING_POLYNESIA_HAWAIIAN_HOTEL_HELP</Help>
 			<ArtDefineTag>ART_DEF_BUILDING_HOTEL</ArtDefineTag>
-			<LandmarksTourismPercent>100</LandmarksTourismPercent>
-			<GreatWorksTourismModifier>100</GreatWorksTourismModifier>
+			<LandmarksTourismPercent>300</LandmarksTourismPercent>
+			<GreatWorksTourismModifier>300</GreatWorksTourismModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>100</HurryCostModifier>
 			<IconAtlas>SPWondersUB_ATLAS</IconAtlas>

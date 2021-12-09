@@ -9,14 +9,14 @@
 			<Box ID="BG0" Anchor="C,C" Size="Full,Full" Color="Black" />
 			<Image ID="Image" Anchor="C,C" Size="1024,768" />
 		</AlphaAnim>
-
+		<!-- 32px -->
 		<SlideAnim Anchor="C,C" Size="1024,768" Start="226,0" End="0,0" Cycle="Once" Speed=".5" Stopped="1" Pause="1" ID="SlideAnim" Function="Root" >
-			<Grid Anchor="C.T" Offset="0,36" Size="500,668" Style="GridBlackIndent8" ID="BlackGrid" >
-				<Grid Anchor="R.T" Size="502,670" Style="Grid9Frame" ID="BlackGridFrame" />
-				<Image Anchor="L,T" Size="80,80" Offset="24,16" Texture="assets\UI\Art\Notification\NotificationFrameBase.dds">
+			<Grid Anchor="C.T" Offset="0,5" Size="500,700" Style="GridBlackIndent8" ID="BlackGrid" >
+				<Grid Anchor="R.T" Size="502,702" Style="Grid9Frame" ID="BlackGridFrame" />
+				<Image Anchor="L,T" Size="80,80" Offset="24,5" Texture="assets\UI\Art\Notification\NotificationFrameBase.dds">
 					<Image Anchor="C,C" ID="IconShadow" Offset="0,-1" Size="80,80" Texture="assets\UI\Art\Notification\CivSymbolsColor640.dds"/>
 				</Image>
-				<Stack Anchor="C,T" Offset="0,36" Size="128,128" StackGrowth="Bottom" Padding="12" ID="MainStack" >
+				<Stack Anchor="C,T" Offset="0,14" Size="128,128" StackGrowth="Bottom" Padding="12" ID="MainStack" >
 					<Label Anchor="C,C" ID="Leader" ColorSet="Beige_Black_Alpha" Font="TwCenMT24" FontStyle="Shadow"/>
 					<Label Anchor="C,C" ID="Civilization" ColorSet="Beige_Black_Alpha" Font="TwCenMT20" FontStyle="Shadow"/>
 					<Image Anchor="C,C" Texture="bar340x2.dds" Size="340.1"/>

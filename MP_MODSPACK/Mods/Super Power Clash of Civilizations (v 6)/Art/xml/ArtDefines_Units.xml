@@ -5902,6 +5902,58 @@
 			<Asset>SPUnitFlags__Apache.dds</Asset>
 		</Row>
 	</ArtDefine_StrategicView>
+
+
+	<!-- DIESEL SUBMARINE -->
+	<!--SSGN-->
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_DIESEL_SUBMARINE</Type>
+			<DamageStates>3</DamageStates>
+		</Row>
+	</ArtDefine_UnitInfos>
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_DIESEL_SUBMARINE</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_DIESEL_SUBMARINE</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_DIESEL_SUBMARINE</Type>
+			<Scale>0.07300000</Scale>
+			<Domain>Sea</Domain>
+			<Model>akula.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_DIESEL_SUBMARINE</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLongRangedAttack>1</HasLongRangedAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_DIESEL_SUBMARINE</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION1TON</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_DIESEL_SUBMARINE</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_AttackSubmarine.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
 	
 	
 	<!--SSGN-->

@@ -25,19 +25,19 @@
 			<Where Type="BELIEF_RELIGIOUS_SETTLEMENTS" />
 		</Update>
 		<Update>
-			<Set HappinessPerFollowingCity="1" />
+			<Set HappinessPerFollowingCity="3" />
 			<Where Type="BELIEF_CEREMONIAL_BURIAL" />
 		</Update>
 		<Update>
-			<Set GoldPerFirstCityConversion="300" />
+			<Set GoldPerFirstCityConversion="900" />
 			<Where Type="BELIEF_INITIATION_RITES" />
 		</Update>
 		<Update>
-			<Set GoldPerFollowingCity="6"/>
+			<Set GoldPerFollowingCity="10"/>
 			<Where Type="BELIEF_CHURCH_PROPERTY" />
 		</Update>
 		<Update>
-			<Set MaxDistance="6"/>
+			<Set MaxDistance="16"/>
 			<Where Type="BELIEF_GOD_WAR" />
 		</Update>
 
@@ -225,75 +225,75 @@
 			<BeliefType>BELIEF_GOD_CRAFTSMEN</BeliefType>
 			<ResourceType>RESOURCE_JADE</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_GOD_CRAFTSMEN</BeliefType>
 			<ResourceType>RESOURCE_AMBER</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_GOD_CRAFTSMEN</BeliefType>
 			<ResourceType>RESOURCE_CORAL</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_GOD_CRAFTSMEN</BeliefType>
 			<ResourceType>RESOURCE_LAPIS</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>6</Yield>
 		</Row>
 		
 		<Row>
 			<BeliefType>BELIEF_SUN_GOD</BeliefType>
 			<ResourceType>RESOURCE_OLIVE</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_SUN_GOD</BeliefType>
 			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_SUN_GOD</BeliefType>
 			<ResourceType>RESOURCE_PERFUME</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_SUN_GOD</BeliefType>
 			<ResourceType>RESOURCE_SUGAR</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>6</Yield>
 		</Row>
 		
 		<Row>
 			<BeliefType>BELIEF_EARTH_MOTHER</BeliefType>
 			<ResourceType>RESOURCE_SPICES</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_EARTH_MOTHER</BeliefType>
 			<ResourceType>RESOURCE_BANANA</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_EARTH_MOTHER</BeliefType>
 			<ResourceType>RESOURCE_CITRUS</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_EARTH_MOTHER</BeliefType>
 			<ResourceType>RESOURCE_COTTON</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>6</Yield>
 		</Row>
 
 		<!--<Row>
@@ -327,7 +327,7 @@
 			<BeliefType>BELIEF_GODDESS_HUNT</BeliefType>
 			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>8</Yield>
 		</Row>
 	</Belief_ImprovementYieldChanges>
 	
@@ -337,7 +337,7 @@
 		<Row>
 			<BeliefType>BELIEF_GURUSHIP</BeliefType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
+			<Yield>8</Yield>
 		</Row>
 	</Belief_YieldChangeAnySpecialist>
 	
@@ -347,7 +347,7 @@
 			<BeliefType>BELIEF_MARSH_BELIEF</BeliefType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>3</Yield>
+			<Yield>12</Yield>
 		</Row>
 		<!--<Row>
 			<BeliefType>BELIEF_MARSH_BELIEF</BeliefType>
@@ -359,7 +359,7 @@
 
 	<Belief_YieldChangePerForeignCity>
 		<Update>
-			<Set Yield="4"/>
+			<Set Yield="10"/>
 			<Where BeliefType="BELIEF_PILGRIMAGE" YieldType="YIELD_FAITH"/>
 		</Update>
 	</Belief_YieldChangePerForeignCity>
@@ -386,19 +386,19 @@
 			<BeliefType>BELIEF_SNOW_BELIEF</BeliefType>
 			<TerrainType>TERRAIN_SNOW</TerrainType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_SNOW_BELIEF</BeliefType>
 			<TerrainType>TERRAIN_SNOW</TerrainType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_DANCE_AURORA</BeliefType>
 			<TerrainType>TERRAIN_TUNDRA</TerrainType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
+			<Yield>6</Yield>
 		</Row>
 	
 
@@ -411,7 +411,7 @@
 		<Row>
 			<BeliefType>BELIEF_MESSENGER_GODS</BeliefType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>3</Yield>
+			<Yield>8</Yield>
 		</Row>
 	</Belief_YieldChangeTradeRoute>
 	
@@ -437,13 +437,13 @@
 			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>4</YieldChange>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>4</YieldChange>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_STONE_CIRCLES</BeliefType>
@@ -491,19 +491,19 @@
 			<BeliefType>BELIEF_CHARITES</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>6</YieldChange>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_CHARITES</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_CATHEDRAL</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>6</YieldChange>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_CHARITES</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<YieldChange>2</YieldChange>
+			<YieldChange>6</YieldChange>
 		</Row>
 		<!--<Row>
 			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
@@ -524,7 +524,7 @@
 		<Row>
 			<BeliefType>BELIEF_MAZU</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
-			<Happiness>2</Happiness>
+			<Happiness>6</Happiness>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_RIVER_CRAFTSMAN</BeliefType>
@@ -563,7 +563,7 @@
 		<Row>
 			<BeliefType>BELIEF_TOURISM_RELIGION</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
-			<Tourism>8</Tourism>
+			<Tourism>32</Tourism>
 		</Row>
 	</Belief_BuildingClassTourism>
 

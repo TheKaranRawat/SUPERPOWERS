@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/2/2013 12:36:03 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_PEOPLE_COUNCIL</Type>
+			<DefaultBuilding>BUILDING_PEOPLE_COUNCIL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_PEOPLE_COUNCIL</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_PEOPLE_COUNCIL</Type>
+			<BuildingClass>BUILDINGCLASS_PEOPLE_COUNCIL</BuildingClass>
+			<Cost>600</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_ORDER</PolicyBranchType>
+			<Help>TXT_KEY_BUILDING_PEOPLE_COUNCIL_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PEOPLE_COUNCIL</Description>
+			<Civilopedia>TXT_KEY_BUILDING_PEOPLE_COUNCIL_DESC</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PEOPLE_COUNCIL_STRATEGY</Strategy>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>40</ConquestProb>
+			<Happiness>1</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>JUSTGOV_ATLAS_1</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_PEOPLE_COUNCIL</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_PEOPLE_COUNCIL</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PEOPLE_COUNCIL</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PEOPLE_COUNCIL</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_PEOPLE_COUNCIL">
+			<TEXT>
+				People's Council
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PEOPLE_COUNCIL_HELP">
+			<TEXT>
+				The People's Council adds 1 [ICON_RESEARCH] Science and 1 [ICON_HAPPINESS_1] Happiness in the city which it is built.
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PEOPLE_COUNCIL_STRATEGY">
+			<TEXT>
+				The People's Council is a government building available only to Order Civilizations that raises the [ICON_RESEARCH] and [ICON_HAPPINESS_1] of a city. Adopting the Party Leadership tenet adds +1 [ICON_HAPPINESS_1].
+			</TEXT>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PEOPLE_COUNCIL_DESC">
+			<Text>The masses organise themselves into council and committees under the stewardship of the Party and for the first time in history rule themselves with no masters.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

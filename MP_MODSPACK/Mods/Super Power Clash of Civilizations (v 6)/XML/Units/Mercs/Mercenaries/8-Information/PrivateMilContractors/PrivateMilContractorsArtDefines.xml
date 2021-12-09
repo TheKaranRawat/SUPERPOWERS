@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/10/17 10:15:10 PM -->
+<GameData>
+
+	<!--PMC - WORKING-->
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_PMC_MECHANIZED_INFANTRY</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>MechanizedInfantry</Formation>
+		</Row>
+	</ArtDefine_UnitInfos>
+	
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_PMC_MECHANIZED_INFANTRY</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_MECHANIZEDINFANTRY</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_PMC_MECHANIZED_INFANTRY</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_MODERNSOLDIER</UnitMemberInfoType>
+			<NumMembers>2</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+	
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_MODERNSOLDIER</Type>
+			<Scale>0.12000000059604645</Scale>
+			<Model>SMAN_EU_PMC.fxsxml</Model>
+			<MaterialTypeTag>CLOTH</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Replace>
+			<Type>ART_DEF_UNIT_MEMBER_MECHANIZEDINFANTRY</Type>
+			<Scale>0.14</Scale>
+			<Model>MechanizedInfantry.fxsxml</Model>
+			<MaterialTypeTag>CLOTH</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALSM</MaterialTypeSoundOverrideTag>
+		</Replace>
+	</ArtDefine_UnitMemberInfos>
+	
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MODERNSOLDIER</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady Walk AttackCharge</EnableActions>
+			<ShortMoveRadius>12.0</ShortMoveRadius>
+			<ShortMoveRate>0.349999994039536</ShortMoveRate>
+			<TargetHeight>8.0</TargetHeight>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLongRangedAttack>1</HasLongRangedAttack>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+			<ReformBeforeCombat>1</ReformBeforeCombat>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+	
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MODERNSOLDIER</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<WeaponTypeTag>BULLET</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLET</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+	
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_PMC_MECHANIZED_INFANTRY</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>sv_land_mercenary.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+	
+  
+</GameData>

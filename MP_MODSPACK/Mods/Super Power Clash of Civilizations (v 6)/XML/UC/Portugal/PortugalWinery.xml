@@ -74,7 +74,7 @@
 	<!-- Adds new text -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_PORTUGAL_WINERY">
-			<Text>Winery</Text>
+			<Text>[ICON_FOOD] Winery</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PORTUGAL_WINERY_HELP">
 			<Text>Produces a source of the [ICON_RES_WINE] Wine luxury resource near the city of origin. Each source of [ICON_RES_WINE] Wine worked by this City produces +2 [ICON_GOLD] Gold. Only Portugal may build it.</Text>
@@ -86,6 +86,29 @@
 			<Text>The history of Portuguese wine is closely interwined with their relationship with the British. First shipped to England in the 12th century, Portuguese wines would eventually get preferential treatment in the British wine market over French wines, with the fortified wine known as Port receiving increased popularity in Britain. By 1717, Portuguese wines accounted for more than 66% of all wine imported into England, and Port became associated with the "Englishman's drink" with social clubs touting membership of "three-bottle men" or those who were able to drink at least three bottles of Port in one sitting.
 			</Text>
 		</Row>
+		
+		<!--Jaeger-->
+		<Row Tag="TXT_KEY_4UC_CACADOR">
+			<Text>Caçador</Text>
+		</Row>
+		<Row Tag="TXT_KEY_4UC_CACADOR_TEXT">
+			<Text>
+				The Caçadores (Portuguese word meaning "hunters") were the elite light infantry troops of the Portuguese Army, in the late 18th and early 19th centuries.[NEWLINE][NEWLINE]In 1808, following the pitiful showing of the Portuguese Army against the French, the Portuguese government realised the necessity of appointing a commander-in-chief capable of training, equipping and disciplining the demoralised Portuguese Army.  Portuguese War secretary Miguel Pereira Forjaz proposed the creation of independent battalions of Caçadores and six would be created. Later in the Peninsular War, additional battalions and other units of Caçadores were formed due to the success of the original six battalions. Each battalion came to include a special Atiradores (sharpshooters) company armed with rifles. In the Anglo-Portuguese Army, some Caçadores units were integrated into the elite Light Division, brigaded with the British units of the 95th Rifles.[NEWLINE][NEWLINE]One of the most distinctive features of the Caçadores was their famous brown uniform. The brown uniform was chosen as a form of camouflage, considered more appropriate to the dry lands of the Iberian Peninsula than the traditional green uniforms used by the light infantry of most other countries in Europe. During the Peninsular War, Caçadores became especially notable in the performance of marksmanship at long distances. Arthur Wellesley referred the Portuguese Caçadores as the "fighting cocks" of his Anglo-Portuguese Army.[NEWLINE][NEWLINE]The battalions and later regiments of Caçadores continued to constitute the light infantry of the Portuguese Army during the rest of the 19th century. However, with the advent of new firearms technologies and new infantry tactics, the differences between the Caçadores and the line infantry steadily decreased. Because of that, in the reorganization of the Portuguese Army of 1911, the decision was taken to extinguish the Caçadores units and to transform them into line infantry regiments.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_4UC_CACADOR_STRATEGY">
+			<Text>The Caçador is a Portuguese unique unit. Unlike the Rifleman it replaces, the Caçador gets a combat bonus on Plains and Desert tiles. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_4UC_CACADOR_HELP">
+			<Text>Gunpowder unit that fights best on Desert and Plains tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_4UC_CACADOR">
+			<Text>Fighting Cocks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_4UC_CACADOR_HELP">
+			<Text>Combat bonus on Desert and Plains tiles.</Text>
+		</Row>
+		
 	</Language_en_US>
 
 </GameData>

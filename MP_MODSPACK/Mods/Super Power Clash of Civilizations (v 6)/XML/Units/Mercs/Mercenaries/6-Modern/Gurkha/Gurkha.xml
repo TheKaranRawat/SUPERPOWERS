@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/08/17 7:00:36 AM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_GURKHA</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_GURKHA</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_GURKHA</DefaultUnit>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_GURKHA</Class>
+			<Type>UNIT_EXOTIC_UNIT_GURKHA</Type>
+			<Combat>110</Combat>
+			<Moves>2</Moves>
+			<Cost>700</Cost>
+			<!--<FaithCost>750</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
+			<ObsoleteTech>TECH_MOBILE_TACTICS</ObsoleteTech>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_GURKHA</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_GURKHA_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_GURKHA_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_GURKHA_HELP</Help>
+
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<NoMaintenance>true</NoMaintenance>
+			<Pillage>true</Pillage>
+
+			<AdvancedStartCost>200</AdvancedStartCost>
+			
+			<MinAreaSize>-1</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_EXOTIC_UNIT_GURKHA</UnitArtInfo>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>42</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>34</UnitFlagIconOffset>
+			<MoveRate>BIPED</MoveRate>
+			<ExtraMaintenanceCost>50</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GURKHA</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_MERC_CONSULATE</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GURKHA</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GURKHA</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GURKHA</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GURKHA</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GURKHA</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GURKHA</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GURKHA</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GURKHA</UnitType>
+			<SelectionSound>AS2D_SELECT_INFANTRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_INFANTRY</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GURKHA">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Gurkha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GURKHA_HELP">
+			<Text>Modern Era Mercenary melee unit. Price shown is how much it costs to hire this unit for 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GURKHA_STRATEGY">
+			<Text>
+				Use the Ghurkas to cover terrain quickly, including lands most infantry cannot pass. Then send them to close on your enemies and destroy them all.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GURKHA_PEDIA">
+			<Text>
+				The Ghurka is a Modern era Mercenary melee unit, available upon the discovery of Replaceable Parts. Like the Scout, it ignores Terrain cost. It is also able to cross Mountains, but will experience 50 HP of damage if it ends its turn there. The Mercenary Consulate is required for this unit to be built. The Ghurka becomes obsolete upon the discovery of Mobile Tactics.[NEWLINE][NEWLINE]
+				The Gurkhas or Gorkhas or Gorkhali are the soldiers of Nepali nationality recruited in the British Army, Nepalese Army, Indian Army, Gurkha Contingent Singapore, Gurkha Reserve Unit Brunei, UN Peace Keeping force and war zones around the world. Historically, the terms 'Gurkha' and 'Gorkhali' were synonymous with 'Nepali,' and derived from the hill principality Gorkha Kingdom from which the Kingdom of Nepal expanded under Maharajadhiraj Prithivi Narayan Shah. The name may be traced to the medieval Hindu warrior-saint Guru Gorakhnath who has a historic shrine in Gorkha.[NEWLINE][NEWLINE]Ethnically, Gurung, Kshetri or Khas, Thakuri, and Magar mainly were the Gorkha tribes who united erstwhile Gorkha Kingdom and fought against the British invasions. But today, Gorkha soldiers mostly belong to the Magar, Gurung, Tamang, Kirant Rai, Limbu, Kshetri, Sunuwar, Thakuri and Tharus. There is no ethnicity based restriction to join. There are Gurkha military units in the Nepalese, British and the Indian army enlisted in Nepal, United Kingdom and India.[NEWLINE][NEWLINE]Gurkhas are closely associated with the Khukuri, a forward-curving Nepalese knife, and have a well known reputation for fearless military prowess. The former Indian Army Chief of Staff Field Marshal Sam Manekshaw, once stated that 'If a man says he is not afraid of dying, he is either lying or he is a Gurkha.'
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

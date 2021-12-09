@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/31/16 10:15:19 AM -->
+<GameData>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_FIRE_SHIP</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_FIRE_SHIP</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_FIRE_SHIP</DefaultUnit>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_FIRE_SHIP</Class>
+			<Type>UNIT_EXOTIC_UNIT_FIRE_SHIP</Type>
+			<PrereqTech>TECH_MACHINERY</PrereqTech>
+			<ObsoleteTech>TECH_STEAM_POWER</ObsoleteTech>
+			<Combat>50</Combat>
+			<Cost>60</Cost>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_FIRE_SHIP</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_FIRE_SHIP_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_FIRE_SHIP_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_FIRE_SHIP_HELP</Help>
+
+			
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			
+			<Pillage>false</Pillage>
+			
+			<Mechanized>true</Mechanized>
+			
+			<AdvancedStartCost>150</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_EU_FIRESHIP</UnitArtInfo>
+			<Suicide>1</Suicide>
+			
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>31</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>23</UnitFlagIconOffset>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FIRE_SHIP</UnitType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+	
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FIRE_SHIP</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FIRE_SHIP</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FIRE_SHIP</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FIRE_SHIP</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FIRE_SHIP</UnitType>
+			<PromotionType>PROMOTION_SMAN_EU_FIRESHIP</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FIRE_SHIP</UnitType>
+			<SelectionSound>AS2D_SELECT_FRIGATE</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FRIGATE</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_FIRE_SHIP">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Fire Ship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_FIRE_SHIP_PEDIA">
+			<Text>A fire ship or fireship, used in the days of wooden rowed or sailing ships, was a ship filled with combustibles, deliberately set on fire and steered (or, where possible, allowed to drift) into an enemy fleet, in order to destroy ships, or to create panic and make the enemy break formation. Ships used as fire ships were usually old and worn out or purpose-built inexpensive vessels. An explosion ship or hellburner was a variation on the fire ship, intended to cause damage by blowing up in proximity to enemy ships. Fireships were famously used to great effect by the English against the Spanish Armada during the Battle of Gravelines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_FIRE_SHIP_STRATEGY">
+			<Text>Fire Ships ram enemy ships, doing significant damage. The attack destroys the Fire Ship in the process.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_FIRE_SHIP_HELP">
+			<Text>Use Fire Ships to ram enemy ships to send them to the bottom of the briny deep. Price shown is how much it costs to hire this unit for 20 turns.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

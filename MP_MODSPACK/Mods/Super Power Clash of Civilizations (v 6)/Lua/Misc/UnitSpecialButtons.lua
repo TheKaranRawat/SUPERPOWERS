@@ -1035,6 +1035,7 @@ GlobalStrikeButton = {
 				if PlayerAtWarWithHuman(player) then
 					for city in player:Cities() do
 						local CityMaxHP = city:GetMaxHitPoints()
+            CityMaxHP = CityMaxHP / 2   -- version 1.3
 						city:SetDamage (CityMaxHP)
 						print ("Global Strike!")	
 					end
