@@ -1,4 +1,4 @@
-# Superpowers
+# SUPERPOWERS
 
 The latest public version of the Superpowers Community Edition.
 
