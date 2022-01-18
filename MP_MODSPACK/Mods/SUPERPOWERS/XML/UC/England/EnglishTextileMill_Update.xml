@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_3UC_TEXTILE_STRATEGY"/>
+			<Set>
+				<Text>The Textile Mill is an English unique building that increases the [ICON_PRODUCTION] Production of a city. Unlike the Windmill it replaces, the Textile Mill can be built in any city. It also generates additional [ICON_GOLD] Gold from [ICON_RES_COTTON] Cotton, [ICON_RES_DYE] Dyes, and [ICON_RES_SILK] Silk resources, and will create a [ICON_RES_COTTON] Cotton resource nearby this City when constructed, if possible.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_3UC_TEXTILE_HELP"/>
+			<Set>
+				<Text>+2 [ICON_GOLD] Gold from [ICON_RES_COTTON] Cotton, [ICON_RES_DYE] Dyes, and [ICON_RES_SILK] Silk resources worked by this City. Plants a [ICON_RES_COTTON] Cotton resource nearby this City when constructed, if possible.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+
+	<Building_YieldModifiers>
+		<Delete BuildingType="BUILDING_3UC_TEXTILE"/>
+	</Building_YieldModifiers>
+	
+	<Building_ClassesNeededInCity>
+		<Delete BuildingType="BUILDING_3UC_TEXTILE"/>
+	</Building_ClassesNeededInCity>
+	
+	<Civilization_BuildingClassOverrides>
+		<Delete BuildingType="BUILDING_3UC_TEXTILE"/>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WINDMILL</BuildingClassType>
+			<BuildingType>BUILDING_3UC_TEXTILE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+</GameData>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!-- Adds the new Hokura -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_HOKURA</Type>
+			<BuildingClass>BUILDINGCLASS_SHRINE</BuildingClass>
+			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<Cost>20</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_HOKURA</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HOKURA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HOKURA_STRATEGY</Strategy>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>36</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_HOKURA</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOKURA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_HOKURA</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOKURA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<BuildingType>BUILDING_HOKURA</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+
+	<!-- Adds new text -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_HOKURA">
+			<Text>[ICON_PEACE] Hokura</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOKURA_STRATEGY">
+			<Text>The Japanese unique Shrine, the Hokura is much cheaper to build, costs no maintenance, and produces [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOKURA_TEXT">
+			<Text>
+				A hokura is a miniature Shinto shrine either found on the precincts of a larger shrine and dedicated to folk kami, or on a street side, enshrining kami not under the jurisdiction of any large shrine.[NEWLINE][NEWLINE]The term hokura, believed to have been one of the first Japanese words for Shinto shrine, literally means "kami repository", a fact that seems to indicate that the first shrines were huts built to house some yorishiro.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

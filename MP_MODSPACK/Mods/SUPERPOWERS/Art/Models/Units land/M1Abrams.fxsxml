@@ -1,0 +1,71 @@
+<Asset>
+	<Mesh file="M1Abrams.gr2"/>
+	<Animation file="ModernArmor_Aim_Left.gr2" ec="1700"/>
+	<Animation file="ModernArmor_Aim_Right.gr2" ec="1705"/>
+	<Animation file="ModernArmor_Aim_Center.gr2" ec="1710"/>
+	<Animation file="ModernArmor_IdleA.gr2" ec="1000"/>
+	<Animation file="ModernArmor_FidgetA.gr2" ec="1040"/>
+	<Animation file="ModernArmor_IdleA_Trans_IdleB.gr2" ec="1020"/>
+	<Animation file="ModernArmor_IdleB.gr2" ec="2000"/>
+	<Animation file="ModernArmor_FidgetB.gr2" ec="2040"/>
+	<Animation file="ModernArmor_IdleB_Trans_IdleA.gr2" ec="2020"/>
+	<Animation file="ModernArmor_Fortify.gr2" ec="1500"/>
+	<Animation file="ModernArmor_Fortify_Idle.gr2" ec="1520"/>
+	<Animation file="ModernArmor_Fortify_Idle_Fidget.gr2" ec="1540"/>
+	<Animation file="ModernArmor_Fortify_Idle_Trans_Combat_Ready_Idle.gr2" ec="1560"/>
+	<Animation file="ModernArmor_Fortify_Idle_Trans_IdleA.gr2" ec="1580"/>
+	<Animation file="ModernArmor_Combat_Ready.gr2" ec="1600"/>
+	<Animation file="ModernArmor_Combat_Ready_Idle.gr2" ec="1620"/>
+	<Animation file="ModernArmor_Combat_Ready_Idle_Trans_IdleA.gr2" ec="1640"/>
+	<Animation file="ModernArmor_Run.gr2" ec="1400"/>
+	<Animation file="ModernArmor_Stop_Run.gr2" ec="1440"/>
+	<Animation file="ModernArmor_Charge_Run.gr2" ec="1120"/>
+	<Animation file="ModernArmor_Charge_Attack.gr2" ec="1140"/>
+	<Animation file="ModernArmor_AttackA.gr2" ec="1100"/>
+	<Animation file="ModernArmor_AttackB.gr2" ec="2100"/>
+	<Animation file="ModernArmor_Bombardment.gr2" ec="1180"/>
+	<Animation file="ModernArmor_Attack_City.gr2" ec="1160"/>
+	<Animation file="ModernArmor_Victory.gr2" ec="1800"/>
+	<Animation file="ModernArmor_Bombard_Defense.gr2" ec="1280"/>
+	<Animation file="ModernArmor_Bombard_Defense_Idle.gr2" ec="1285"/>
+	<Animation file="ModernArmor_Bombard_Defense_Idle_Trans_IdleA.gr2" ec="1290"/>
+	<Animation file="ModernArmor_DeathA.gr2" ec="1200"/>
+	<Animation file="ModernArmor_DeathA_Idle.gr2" ec="1220"/>
+	<Animation file="ModernArmor_DeathB.gr2" ec="2200"/>
+	<Animation file="ModernArmor_DeathB_Idle.gr2" ec="2220"/>
+	<Texture file="ModernArmor_DIFF.dds"/>
+	<Texture file="ModernArmor_SREF.dds"/>
+	<Texture file="Unit_Irradiance.dds"/>
+	<Texture file="Unit_Environment_Dull.dds"/>
+	<Texture file="Unit_Environment_Sharp.dds"/>
+	<BoneUsage>
+		<Bone name="fire"/>
+		<Bone name="tank_bone_main"/>
+		<Bone name="point_WORLD"/>
+	</BoneUsage>
+	<TimedTrigger file="EDITED_FX_Triggers_ModernArmor.ftsxml"/>
+	<StateMachine file="EDITED_MECHANIZED_AIM_STATE_01.fsmxml"/>
+	<AnimGraph file="EDITED_AIM_IDLE_OFFSET_CONTINUE_TRUE_GRAPH.dge"/>
+	<AnimGraph file="EDITED_AIM_FIDGETS_GRAPH.dge"/>
+	<AnimGraph file="EDITED_AIM_START_RUNNING.dge"/>
+	<AnimGraph file="EDITED_AIM_STOP_RUNNING.dge"/>
+	<AnimGraph file="EDITED_AIM_TRANSITIONS_FOR_IDLES.dge"/>
+	<AnimGraph file="EDITED_AIM_COMBAT_READY_GRAPH.dge"/>
+	<AnimGraph file="EDITED_AIM_FORTIFY_LEAVE_GRAPH.dge"/>
+	<AnimGraph file="EDITED_AIM_ENTER_COMBAT_READY_GRAPH.dge"/>
+	<AnimGraph file="EDITED_AIM_LEAVE_COMBAT_READY.dge"/>
+	<AnimGraph file="EDITED_AIM_DEATH_GRAPH.dge"/>
+	<AnimGraph file="EDITED_AIM_ENTER_BOMBARD_DEFEND_GRAPH.dge"/>
+	<AnimGraph file="EDITED_AIM_RUNNING_LOOP.dge"/>
+	<AnimGraph file="EDITED_AIM_BOMBARD_DEFEND_LOOP_GRAPH.dge"/>
+	<AnimGraph file="EDITED_AIM_DEATH_FINAL_GRAPH.dge"/>
+	<AnimGraph file="EDITED_AIM_LEAVE_BOMBARD_DEFEND_TRANS_IDLE_A_GRAPH.dge"/>
+	<AnimGraph file="EDITED_AIM_ATTACK_TO_RUN_GRAPH.dge"/>
+	<AnimGraph file="EDITED_AIM_ATTACK_CITY_TO_RUN.dge"/>
+	<AnimGraph file="EDITED_AIM_ENTER_FORTIFY.dge"/>
+	<AnimGraph file="EDITED_AIM_FORTIFY_FIDGET_GRAPH.dge"/>
+	<AnimGraph file="EDITED_AIM_MELEE_ATTACKS.dge"/>
+	<AnimGraph file="EDITED_AIM_IDLE_GRAPH.dge"/>
+	<AnimGraph file="EDITED_AIM_FORTIFY_GRAPH.dge"/>
+</Asset>
+

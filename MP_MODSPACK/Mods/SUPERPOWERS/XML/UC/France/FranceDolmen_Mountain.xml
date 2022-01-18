@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_3UC_DOLMEN</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_3UC_DOLMEN</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_3UC_DOLMEN_HELP"/>
+			<Set>
+				<Text>Increases the [ICON_CULTURE] Culture and [ICON_PRODUCTION] Production of a city. +1 [ICON_PRODUCTION] Production and +1 [ICON_CULTURE] Culture from all sources of [ICON_RES_MARBLE] Marble and [ICON_RES_STONE] Stone worked by this City. Mountains can be worked for +2 [ICON_PRODUCTION] Production and +1 [ICON_CULTURE] Culture. Only the French may build it.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_3UC_DOLMEN_STRATEGY"/>
+			<Set>
+				<Text>The Dolmen is the French unique replacement for the Stone Works. In addition to yielding [ICON_PRODUCTION] Production and improving the yield of [ICON_RES_MARBLE] Marble, [ICON_RES_STONE] Stone, and Mountains, the Dolmen also yields [ICON_CULTURE] Culture and can be built in any City. The Dolmen has no technology prerequisite, so it can be built right away.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+</GameData>

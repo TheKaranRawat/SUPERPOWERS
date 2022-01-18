@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/24/2015 8:31:48 AM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_SARGON_SHRINE</Type>
+			<BuildingClass>BUILDINGCLASS_SHRINE</BuildingClass>
+			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<Cost>40</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_SARGON_SHRINE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_SARGON_SHRINE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SARGON_SHRINE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SARGON_SHRINE_STRATEGY</Strategy>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<ConquestProb>66</ConquestProb>
+			<Defense>500</Defense>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>30</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_SARGON_SHRINE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SARGON_SHRINE</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SARGON_SHRINE</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_ASSYRIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<BuildingType>BUILDING_SARGON_SHRINE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SARGON_SHRINE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_SARGON_SHRINE</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SARGON_SHRINE</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SARGON_SHRINE</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>15</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_SARGON_SHRINE">
+			<Text>[ICON_STRENGTH] Lamassu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SARGON_SHRINE_HELP">
+			<Text>Provides +6 [ICON_PEACE] Faith and [ICON_RANGE_STRENGTH] Combat Strength of a city. [NEWLINE]Nearly trained units start with +15XP.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SARGON_SHRINE_STRATEGY">
+			<Text>The Lamassu is an Assyrian unique construction that increases the [ICON_PEACE] Faith of a city. Unlike the Shrine it replaces, the Lamassu also slightly increases the [ICON_RANGE_STRENGTH] Combat Strength of the city and costs no maintenance. All units trained in a city with a Lamassu receive an additional 15 XP.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SARGON_SHRINE_TEXT">
+			<Text>A lamassu is an Assyrian protective deity, often depicted with a bull or lion's body, eagle's wings, and human's head. The Assyrians typically prominently placed lamassu at the entrances of cities and palaces. From the front they appear to stand, and from the side, walk.[NEWLINE][NEWLINE]To protect houses, the lamassu were engraved in clay tablets, which were then buried under the door's threshold. They were often placed as a pair at the entrance of palaces. At the entrance of cities, they were sculpted in colossal size, and placed as a pair, one at each side of the door of the city, that generally had doors in the surrounding wall, each one looking towards one of the cardinal points.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

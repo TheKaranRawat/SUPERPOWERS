@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/15/2020 3:01:09 PM -->
+<GameData>
+	
+	<LeagueSpecialSessions>
+		<Update>
+			<Where Type="LEAGUE_SPECIAL_SESSION_START_WORLD_CONGRESS"/>
+			<Set TurnsBetweenSessions='20'/>
+		</Update>
+		<Update>
+			<Where Type="LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES"/>
+			<Set TurnsBetweenSessions='15'/>
+		</Update>
+		<Update>
+			<Where Type="LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL"/>
+			<Set TurnsBetweenSessions="14"/>
+		</Update>
+		<Update>
+			<Where Type="LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS"/>
+			<Set TurnsBetweenSessions="7"/>
+		</Update>
+	</LeagueSpecialSessions>
+	
+	<Resolutions>
+		<Row>
+			<Type>RESOLUTION_STANDING_ARMY_SUB</Type>
+			<Description>TXT_KEY_RESOLUTION_STANDING_ARMY_SUB</Description>
+			<Help>TXT_KEY_RESOLUTION_STANDING_ARMY_SUB_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<UnitMaintenanceGoldPercent>-25</UnitMaintenanceGoldPercent>
+		</Row>	
+	</Resolutions>
+
+	<Language_en_US>
+		<Row	Tag="TXT_KEY_RESOLUTION_STANDING_ARMY_SUB">
+			<Text>Standing Army Subsidies</Text>
+		</Row>
+		<Row	Tag="TXT_KEY_RESOLUTION_STANDING_ARMY_SUB_HELP">
+			<Text>-25% Unit Maintenance</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

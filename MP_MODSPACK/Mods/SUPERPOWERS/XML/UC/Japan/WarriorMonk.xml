@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/6/2013 1:15:40 AM -->
+<GameData>
+	<UnitPromotions>
+	<Row>
+		<Type>PROMOTION_MONASTIC</Type>
+		<Description>TXT_KEY_PROMOTION_MONASTIC3UC</Description>
+		<Help>TXT_KEY_PROMOTION_MONASTIC3UC_HELP</Help>
+		<Sound>AS2D_IF_LEVELUP</Sound>
+		<CannotBeChosen>true</CannotBeChosen>
+		<AdjacentMod>15</AdjacentMod>
+		<PortraitIndex>59</PortraitIndex>
+		<IconAtlas>ABILITY_ATLAS</IconAtlas>
+		<PediaType>PEDIA_ATTRIBUTES</PediaType>
+		<PediaEntry>TXT_KEY_PROMOTION_MONASTIC3UC</PediaEntry>
+	</Row>
+		</UnitPromotions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_WARMONK3UC">
+			<Text>Sohei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WARMONK3UC_STRATEGY">
+			<Text>The Sohei is a Japanese unique unit. Unlike the Pikeman it replaces, the Sohei receives a combat bonus when fighting adjacent to a friendly unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WARMONK3UC_HELP">
+			<Text>Defensive melee unit that receives a combat bonus when fighting adjacent to a friendly unit. Only Japan may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WARMONK3UC_TEXT">
+			<Text>
+				Japanese warrior monks, as a term, refers to a number of different types of religious militants in feudal Japan. The Sohei were Buddhist warrior monks of feudal Japan based out of specific temples in Kyoto and Nara. The warriors protected land and intimidated rival schools of Buddhism, becoming a significant factor in the spread of Buddhism and the development of different schools during the Kamakura period. [NEWLINE][NEWLINE]With feudal Japan bringing war and fighting to the forefront, the Sohei were responsible for their own safety and protection, leading to their evolution as warriors. The Sohei would be armed with similar weapons to a Samurai, wore armour like a Samurai and would fight in a similar fashion. One key difference would be the use of the naginata, a large polearm weapon with a curved blade at the head, which would allow the Sohei to easily disarm or attack horse riders.[NEWLINE][NEWLINE]The Ōnin War, starting in 1467, was the prelude to over a century of civil war in Japan, and the stimulus for a reorganization of the warrior monks. Unlike the Jokyu War and Mongol invasions of the 13th century, the Onin War was fought primarily in Kyoto, and thus the warrior monks could no longer remain non-violent and neutral. In the 1580s and 1590s, various factions of warrior monks sided with either Tokugawa Ieyasu or his rival Toyotomi Hideyoshi, fighting in a number of battles and skirmishes.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MONASTIC3UC">
+			<Text>Monastic Order</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MONASTIC3UC_HELP">
+			<Text>+15% Combat bonus when adjacent to a friendly unit.</Text>
+		</Row>
+	</Language_en_US>
+
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>WARMONK3UC_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>monkwar256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WARMONK3UC_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>monkwar128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WARMONK3UC_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>monkwar80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WARMONK3UC_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>monkwar64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WARMONK3UC_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>monkwar45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WARMONK_FLAG</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>IconSohei32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

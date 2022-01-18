@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Increases the great person generation bonus of the Roman Forum -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Set GreatPeopleRateModifier="25" />
+			<Where Type="BUILDING_3UC_FORUM" />
+		</Update>
+	</Buildings>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_3UC_FORUM_STRATEGY"/>
+			<Set>
+				<Text>The Forum is a Roman unique building that increases the amount of [ICON_GOLD] Gold a city generates. Trade routes other players make to a city with a Forum will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route. Unlike the Market it replaces, the Forum also increases a city's [ICON_GREAT_PEOPLE] Great Person generation by 25%.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+	
+</GameData>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/6/2013 1:15:40 AM -->
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_SIEGE_3UC</Type>
+			<Description>TXT_KEY_PROMOTION_SIEGE_3UC</Description>
+			<Help>TXT_KEY_PROMOTION_SIEGE_3UC_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CityAttack>100</CityAttack>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SIEGE_3UC</PediaEntry>
+		</Row>
+	</UnitPromotions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_4_OTTOMAN_CANON">
+			<Text>Great Bombard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_4_OTTOMAN_CANON_STRATEGY">
+			<Text>The Great Bombard is an Ottoman unique unit. It is stronger against cities than the Cannon it replaces and is available earlier, upon the discovery of Gunpowder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_4_OTTOMAN_CANON_HELP">
+			<Text>Renaissance-era siege unit that is extremely effective against cities. Only the Ottomans may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_4_OTTOMAN_CANON_TEXT">
+			<Text>
+				The Great Turkish Bombard, also known as the Dardanelles Gun, is a 15th-century siege cannon, specifically a super-sized bombard, which saw action in the 1807 Dardanelles Operation. The weapon was cast in bronze in 1464 by Munir Ali with a weight of 16.8 t and a length of 518 cm, being capable of firing stone balls of up to 63 cm diameter (over 25 inches). The powder chamber and the barrel are connected by the way of a screw mechanism, allowing easier transport of the unwieldy device. Such super-sized bombards had been employed in Western Europe siege warfare since the beginning of the 15th century, and were introduced to the Ottoman army in 1453 by the gunfounder Orban on the occasion of the Siege of Constantinople. Ali's piece is assumed to have followed closely the outline of these guns.[NEWLINE][NEWLINE]Along with other huge cannons, the Great Bombard was still present for duty more than 340 years later in 1807, when a Royal Navy force appeared and commenced the Dardanelles Operation. Turkish forces loaded the ancient relics with propellant and projectiles, then fired them at the British ships. The British squadron suffered 28 dead through this bombardment.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_3UC">
+			<Text>Bonus vs Cities (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_3UC_HELP">
+			<Text>Additional Bonus vs Cities (100%)</Text>
+		</Row>
+
+	</Language_en_US>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>4_OTTOMAN_CANON_FLAG</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>4BombardUnitFlag_32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>4_OTTOMAN_CANON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>3uc_ottocanon256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4_OTTOMAN_CANON_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>3uc_ottocanon128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4_OTTOMAN_CANON_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>3uc_ottocanon80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4_OTTOMAN_CANON_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>3uc_ottocanon64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4_OTTOMAN_CANON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>3uc_ottocanon45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+</GameData>

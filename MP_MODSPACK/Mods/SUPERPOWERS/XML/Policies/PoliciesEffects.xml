@@ -1,0 +1,2650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2014 4:12:14 PM -->
+<GameData>
+
+	<!-- **********************Resource Reveal*************************** -->
+	<Resources>
+		<Update>
+			<Set PolicyReveal="POLICY_AESTHETICS_FINISHER" />
+			<Where Type="RESOURCE_HIDDEN_ARTIFACTS"/>
+		</Update>
+	</Resources>
+	
+	<!-- **********************Yield Change*************************** -->
+
+	<Policy_CoastalCityYieldChanges>
+		<Row>
+			<PolicyType>POLICY_MARITIME_INFRASTRUCTURE</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVAL_TRADITION</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Policy_CoastalCityYieldChanges>
+	
+	<Policy_CapitalYieldModifiers>
+		<!--<Row>
+			<PolicyType>POLICY_MONARCHY</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>25</Yield>
+		</Row>-->
+		<!-- <Row>
+			<PolicyType>POLICY_MONARCHY</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>25</Yield>
+		</Row>-->
+	</Policy_CapitalYieldModifiers>
+
+	<Policy_CapitalYieldChanges>
+		<Row>
+			<PolicyType>POLICY_TRADITION</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TRADITION</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>8</Yield>
+		</Row>
+	</Policy_CapitalYieldChanges>
+
+	<!--<Policy_CapitalYieldPerPopChanges>
+		<Row>
+			<PolicyType>POLICY_ARISTOCRACY</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>50</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARISTOCRACY</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>50</Yield>
+		</Row>
+	</Policy_CapitalYieldPerPopChanges>-->
+
+	<Policy_GreatWorkYieldChanges>
+		<Row>
+			<PolicyType>POLICY_FINE_ARTS</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CREATIVE_EXPRESSION</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Policy_GreatWorkYieldChanges>
+
+
+	<Policy_SpecialistExtraYields>
+		<Row>
+			<PolicyType>POLICY_CIVIL_SOCIETY</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SECULARISM</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_CENTRALISATION</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_CENTRALISATION</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_CENTRALISATION</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_CENTRALISATION</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		
+
+
+	</Policy_SpecialistExtraYields>
+
+
+
+	<Policy_BuildingClassCultureChanges>
+		<Row>
+			<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<CultureChange>1</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<CultureChange>1</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_NEW_CATHEDRAL</BuildingClassType>
+			<CultureChange>1</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
+			<CultureChange>1</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PAGODA</BuildingClassType>
+			<CultureChange>1</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
+			<CultureChange>1</CultureChange>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_PREFECTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClassType>
+			<CultureChange>8</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PREFECTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_MEDIUM</BuildingClassType>
+			<CultureChange>8</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PREFECTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
+			<CultureChange>16</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PREFECTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XL</BuildingClassType>
+			<CultureChange>32</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PREFECTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XXL</BuildingClassType>
+			<CultureChange>36</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PREFECTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_GLOBAL</BuildingClassType>
+			<CultureChange>40</CultureChange>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<CultureChange>4</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<CultureChange>4</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CATHEDRAL</BuildingClassType>
+			<CultureChange>4</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<CultureChange>4</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+			<CultureChange>4</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+			<CultureChange>4</CultureChange>
+		</Row>
+		<!--<Row>
+			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TV_STATION</BuildingClassType>
+			<CultureChange>1</CultureChange>
+		</Row>-->
+
+
+		<Row>
+			<PolicyType>POLICY_TRADE_UNIONS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			<CultureChange>2</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TRADE_UNIONS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+			<CultureChange>2</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TRADE_UNIONS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClassType>
+			<CultureChange>2</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TRADE_UNIONS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FINANCE_COMPANY</BuildingClassType>
+			<CultureChange>2</CultureChange>
+		</Row>
+
+
+		<Row>
+			<PolicyType>POLICY_NAVAL_TRADITION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+			<CultureChange>2</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVAL_TRADITION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+			<CultureChange>2</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVAL_TRADITION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<CultureChange>2</CultureChange>
+		</Row>
+
+
+		<Row>
+			<PolicyType>POLICY_STATECRAFT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ACADEMY</BuildingClassType>
+			<CultureChange>2</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_STATECRAFT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<CultureChange>2</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_STATECRAFT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+			<CultureChange>2</CultureChange>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_STATECRAFT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<CultureChange>2</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_STATECRAFT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
+			<CultureChange>2</CultureChange>
+		</Row>
+	
+
+	</Policy_BuildingClassCultureChanges>
+
+	<Policy_BuildingClassYieldChanges>
+		<!--<Row>
+			<PolicyType>POLICY_PIETY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PIETY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>-->
+
+		<Row>
+			<PolicyType>POLICY_PIETY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MAHADEVA</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ACADEMY</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_OBSERVATORY</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+
+
+		<!--<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FISH_FARM</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAIN_MILL</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WINDMILL</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAIN_DEPOT</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MECHANIZED_FARM</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>-->
+
+
+
+
+		<Row>
+			<PolicyType>POLICY_OLIGARCHY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>8</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_OLIGARCHY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_MEDIUM</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>8</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_OLIGARCHY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>16</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_OLIGARCHY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XL</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>32	</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_OLIGARCHY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XXL</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>36</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_OLIGARCHY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_GLOBAL</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>40</YieldChange>
+		</Row>
+
+
+
+
+
+		<Row>
+			<PolicyType>POLICY_SECULARISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ACADEMY</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SECULARISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SECULARISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_OBSERVATORY</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SECULARISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SECULARISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_POLAR_STATION</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+
+	<Policy_CityYieldChanges>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MERITOCRACY</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Policy_CityYieldChanges>
+
+	<Policy_BuildingClassYieldModifiers>
+
+		<Row>
+			<PolicyType>POLICY_HELIOS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SOLAR_PLANT</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>15</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BOREHOLE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FW_GEOTHERMAL_PLANT</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>15</YieldMod>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_COASTAL_ADMINISTRATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>15</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_COASTAL_ADMINISTRATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>15</YieldMod>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_UNITED_FRONT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>40</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNITED_FRONT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>40</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNITED_FRONT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>40</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNITED_FRONT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>40</YieldMod>
+		</Row>
+
+
+
+		<Row>
+			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>33</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>33</YieldMod>
+		</Row>
+
+
+
+		<Row>
+			<PolicyType>POLICY_TREATY_ORGANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BIO_LAB</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>17</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TREATY_ORGANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GENE_LAB</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>17</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TREATY_ORGANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_CBD</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>16</YieldMod>
+		</Row>
+
+		
+		<Row>
+			<PolicyType>POLICY_SPACE_PROCUREMENTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LOGISTICS_COMPANY</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldMod>17</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SPACE_PROCUREMENTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_INTERNATIONAL_TRADE_COMPANY</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldMod>17</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SPACE_PROCUREMENTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_CBD</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldMod>16</YieldMod>
+		</Row>
+
+
+		<Row>
+			<PolicyType>POLICY_SCIENTIFIC_REVOLUTION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>15</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SCIENTIFIC_REVOLUTION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>15</YieldMod>
+		</Row>
+
+
+
+		<Row>
+			<PolicyType>POLICY_NEW_DEAL</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>25</YieldMod>
+		</Row>
+
+
+
+		<!--<Row>
+			<PolicyType>POLICY_CAPITALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>15</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CAPITALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FINANCE_COMPANY</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>15</YieldMod>
+		</Row>-->
+		
+
+		
+		<!--<Row>
+			<PolicyType>POLICY_DICTATORSHIP_PROLETARIAT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PUPPET_GOVERNEMENT</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>33</YieldMod>
+		</Row>-->
+		<Row>
+			<PolicyType>POLICY_IRON_CURTAIN</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PUPPET_GOVERNEMENT</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldMod>33</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_IRON_CURTAIN</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PUPPET_GOVERNEMENT</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>33</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+
+	
+	
+	<!--<Policy_BuildingClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_SOCIALIST_REALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MECHANIZED_FARM</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>-->
+	
+	
+
+	<Policy_BuildingClassTourismModifiers>
+		<Row>
+			<PolicyType>POLICY_THEOCRACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<TourismModifier>25</TourismModifier>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_MEDIA_CULTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CINEMA</BuildingClassType>
+			<TourismModifier>25</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MEDIA_CULTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TV_STATION</BuildingClassType>
+			<TourismModifier>25</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MEDIA_CULTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_DIGITAL_NETWORK</BuildingClassType>
+			<TourismModifier>25</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MEDIA_CULTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_CBD</BuildingClassType>
+			<TourismModifier>25</TourismModifier>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+			<TourismModifier>33</TourismModifier>
+		</Row>
+
+	</Policy_BuildingClassTourismModifiers>
+
+	
+	
+	
+	
+	<Policy_BuildingClassHappiness>
+
+
+		<!--<Row>
+			<PolicyType>POLICY_MONARCHY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>-->
+		<Row>
+			<PolicyType>POLICY_MONARCHY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_MEDIUM</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MONARCHY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
+			<Happiness>3</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MONARCHY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XL</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MONARCHY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XXL</BuildingClassType>
+			<Happiness>6</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MONARCHY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_GLOBAL</BuildingClassType>
+			<Happiness>6</Happiness>
+		</Row>
+
+
+		<Row>
+			<PolicyType>POLICY_PROVINCE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_HALL_LV1</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PROVINCE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_HALL_LV2</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PROVINCE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_HALL_LV3</BuildingClassType>
+			<Happiness>3</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PROVINCE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_HALL_LV4</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PROVINCE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CITY_HALL_LV5</BuildingClassType>
+			<Happiness>5</Happiness>
+		</Row>
+		
+		
+		
+		
+
+
+		<Row>
+			<PolicyType>POLICY_FREE_RELIGION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_RELIGION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+
+		<!--<Row>
+			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>-->
+
+
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CATHEDRAL</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+
+
+		<Row>
+			<PolicyType>POLICY_MARKET_ECONOMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FOOD_MARKET</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MARKET_ECONOMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_JEWELER</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MARKET_ECONOMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COUNTRY_CLUB</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MARKET_ECONOMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BEVERAGE_FACTORY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MARKET_ECONOMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WILDLIFE_PRESERVE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+
+
+
+		<Row>
+			<PolicyType>POLICY_NAVIGATION_SCHOOL</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVIGATION_SCHOOL</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVIGATION_SCHOOL</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVIGATION_SCHOOL</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_SOVEREIGNTY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ACADEMY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SOVEREIGNTY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SOVEREIGNTY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SOVEREIGNTY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SOVEREIGNTY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_OBSERVATORY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SOVEREIGNTY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_POLAR_STATION</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+
+	
+		<!--<Row>
+			<PolicyType>POLICY_CAPITALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>-->
+		
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MEDICAL_LAB</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TAP_WATER_SUPPLY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WATER_TREATMENT_FACTORY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BUS_STATION</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GARDEN</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_DIGITAL_NETWORK</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HOTEL</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_AIRPORT</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_SOCIALIST_REALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MECHANIZED_FARM</BuildingClassType>
+			<Happiness>6</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SOCIALIST_REALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAIN_DEPOT</BuildingClassType>
+			<Happiness>6</Happiness>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COAL_PLANT</BuildingClassType>
+			<Happiness>3</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WIND_PLANT</BuildingClassType>
+			<Happiness>3</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HYDRO_PLANT</BuildingClassType>
+			<Happiness>3</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_OIL_PLANT</BuildingClassType>
+			<Happiness>3</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GAS_PLANT</BuildingClassType>
+			<Happiness>3</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_NUCLEAR_PLANT</BuildingClassType>
+			<Happiness>3</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SOLAR_PLANT</BuildingClassType>
+			<Happiness>3</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TIDAL_PLANT</BuildingClassType>
+			<Happiness>3</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FUSION_PLANT</BuildingClassType>
+			<Happiness>3</Happiness>
+		</Row>
+		
+
+
+		<!--<Row>
+			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>-->
+
+
+		<Row>
+			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
+		<!--<Row>
+			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>-->
+		<Row>
+			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_METAL_FACTORY</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COAL_TO_OIL</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COAL_TO_URANIUM</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_OIL_REFINERY</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COAL_COMPANY</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STEEL_MILL</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ALUMINUM_PROVIDER</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FORTIFIED_BORDERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_IRON_PROVIDER</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
+		
+		
+		
+		
+		<Row>
+			<PolicyType>POLICY_POLICE_STATE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<Happiness>10</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_POLICE_STATE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SHERIFF_OFFICE</BuildingClassType>
+			<Happiness>10</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_POLICE_STATE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CONSTABLE</BuildingClassType>
+			<Happiness>10</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_POLICE_STATE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_POLICE_STATION</BuildingClassType>
+			<Happiness>10</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_POLICE_STATE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PROCURATORATE</BuildingClassType>
+			<Happiness>10</Happiness>
+		</Row>
+	</Policy_BuildingClassHappiness>
+	
+
+	<Policy_ImprovementYieldChanges>
+
+		<Delete ImprovementType="IMPROVEMENT_HOLY_SITE" />
+
+		<Row>
+			<PolicyType>POLICY_GENE_VAULT</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_PRESERVE</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_GENE_VAULT</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_BIOWELL</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_GENE_VAULT</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_GENOCENTRE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BOREHOLE</PolicyType>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_BOREHOLE</PolicyType>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_NEW_DEAL</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_HERC</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_COMMERCE_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_GENERATOR</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_COMMERCE_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_CORE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_COMMERCE_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_GENERATOR</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_COMM_ARRAY</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_FW_CORE</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+		<Row>
+			<PolicyType>POLICY_LANDED_ELITE</PolicyType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!--<Row>
+			<PolicyType>POLICY_LANDED_ELITE</PolicyType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>-->
+		<!--<Row>
+			<PolicyType>POLICY_LANDED_ELITE</PolicyType>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>-->
+		<Row>
+			<PolicyType>POLICY_LANDED_ELITE</PolicyType>
+			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+		<Row>
+			<PolicyType>POLICY_COMMERCE</PolicyType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+
+		<Row>
+			<PolicyType>POLICY_MARITIME_INFRASTRUCTURE</PolicyType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MARITIME_INFRASTRUCTURE</PolicyType>
+			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MARITIME_INFRASTRUCTURE</PolicyType>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_MARITIME_INFRASTRUCTURE</PolicyType>
+			<ImprovementType>IMPROVEMENT_FISHERY_MOD</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MARITIME_INFRASTRUCTURE</PolicyType>
+			<ImprovementType>IMPROVEMENT_GAS_RIG_MOD</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		
+		
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_NEW_DEAL</PolicyType>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NEW_DEAL</PolicyType>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NEW_DEAL</PolicyType>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NEW_DEAL</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType>
+			<ImprovementType>IMPROVEMENT_WELL</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType>
+			<ImprovementType>IMPROVEMENT_GAS_RIG_MOD</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+	</Policy_ImprovementYieldChanges>
+
+	<Policy_ImprovementCultureChanges>
+		<!--<Row>
+			<PolicyType>POLICY_THEOCRACY</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<CultureChange>4</CultureChange>
+		</Row>-->
+		<Row>
+			<PolicyType>POLICY_NEW_DEAL</PolicyType>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<CultureChange>4</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PARTY_LEADERSHIP</PolicyType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<CultureChange>3</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PARTY_LEADERSHIP</PolicyType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<CultureChange>3</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PARTY_LEADERSHIP</PolicyType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<CultureChange>3</CultureChange>
+		</Row>
+	</Policy_ImprovementCultureChanges>
+
+	<Policy_HurryModifiers>
+		<Row>
+			<PolicyType>POLICY_MERCANTILISM</PolicyType>
+			<HurryType>HURRY_GOLD</HurryType>
+			<HurryCostModifier>-15</HurryCostModifier>
+		</Row>
+		<!--<Row>
+			<PolicyType>POLICY_SPACE_PROCUREMENTS</PolicyType>
+			<HurryType>HURRY_GOLD</HurryType>
+			<HurryCostModifier>-15</HurryCostModifier>
+		</Row>-->
+	</Policy_HurryModifiers>
+
+	<Policy_UnitCombatProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_NAVIGATION_SCHOOL</PolicyType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVIGATION_SCHOOL</PolicyType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVIGATION_SCHOOL</PolicyType>
+			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVIGATION_SCHOOL</PolicyType>
+			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+
+
+		<Row>
+			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+		
+		
+	</Policy_UnitCombatProductionModifiers>
+
+
+	<Policy_FreeUnitClasses>
+		<Delete PolicyType="POLICY_VOLUNTEER_ARMY"/>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitClassType>UNITCLASS_GREAT_GENERAL</UnitClassType>
+			<Count>1</Count>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CITIZENSHIP</PolicyType>
+			<UnitClassType>UNITCLASS_WORKER</UnitClassType>
+			<Count>5</Count>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARTISTIC_GENIUS</PolicyType>
+			<UnitClassType>UNITCLASS_ARTIST</UnitClassType>
+			<Count>1</Count>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_EXPLORATION_FINISHER</PolicyType>
+			<UnitClassType>UNITCLASS_GREAT_ADMIRAL</UnitClassType>
+			<Count>1</Count>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_COLLECTIVE_RULE</PolicyType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+		</Row>
+
+
+		<Row>
+			<PolicyType>POLICY_HUMANISM</PolicyType>
+			<UnitClassType>UNITCLASS_SCIENTIST</UnitClassType>
+			<Count>1</Count>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ENTREPRENEURSHIP</PolicyType>
+			<UnitClassType>UNITCLASS_MERCHANT</UnitClassType>
+			<Count>1</Count>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SPACEFLIGHT_PIONEERS</PolicyType>
+			<UnitClassType>UNITCLASS_ENGINEER</UnitClassType>
+			<Count>1</Count>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SPACEFLIGHT_PIONEERS</PolicyType>
+			<UnitClassType>UNITCLASS_SCIENTIST</UnitClassType>
+			<Count>1</Count>
+		</Row>
+	</Policy_FreeUnitClasses>
+
+
+	<!-- **********************Tourism Created*************************** -->
+	<Policy_TourismOnUnitCreation>
+
+
+		<Row>
+			<PolicyType>POLICY_TRADITION</PolicyType>
+			<UnitClassType>UNITCLASS_SATELLITE_SPUTNIK</UnitClassType>
+			<Tourism>9999</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY</PolicyType>
+			<UnitClassType>UNITCLASS_SATELLITE_SPUTNIK</UnitClassType>
+			<Tourism>9999</Tourism>
+		</Row>
+		
+		<Row>
+			<PolicyType>POLICY_OPEN_SOCIETY</PolicyType>
+			<UnitClassType>UNITCLASS_WRITER</UnitClassType>
+			<Tourism>500</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_OPEN_SOCIETY</PolicyType>
+			<UnitClassType>UNITCLASS_ARTIST</UnitClassType>
+			<Tourism>500</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_OPEN_SOCIETY</PolicyType>
+			<UnitClassType>UNITCLASS_MUSICIAN</UnitClassType>
+			<Tourism>500</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_OPEN_SOCIETY</PolicyType>
+			<UnitClassType>UNITCLASS_ENGINEER</UnitClassType>
+			<Tourism>500</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_OPEN_SOCIETY</PolicyType>
+			<UnitClassType>UNITCLASS_SCIENTIST</UnitClassType>
+			<Tourism>500</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_OPEN_SOCIETY</PolicyType>
+			<UnitClassType>UNITCLASS_MERCHANT</UnitClassType>
+			<Tourism>500</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_OPEN_SOCIETY</PolicyType>
+			<UnitClassType>UNITCLASS_PROPHET</UnitClassType>
+			<Tourism>500</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_OPEN_SOCIETY</PolicyType>
+			<UnitClassType>UNITCLASS_GREAT_GENERAL</UnitClassType>
+			<Tourism>500</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_OPEN_SOCIETY</PolicyType>
+			<UnitClassType>UNITCLASS_GREAT_ADMIRAL</UnitClassType>
+			<Tourism>500</Tourism>
+		</Row>
+	
+
+		<Row>
+			<PolicyType>POLICY_GUNBOAT_DIPLOMACY</PolicyType>
+			<UnitClassType>UNITCLASS_DREADNOUGHT</UnitClassType>
+			<Tourism>280</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_GUNBOAT_DIPLOMACY</PolicyType>
+			<UnitClassType>UNITCLASS_BATTLESHIP</UnitClassType>
+			<Tourism>380</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_GUNBOAT_DIPLOMACY</PolicyType>
+			<UnitClassType>UNITCLASS_MISSILE_CRUISER</UnitClassType>
+			<Tourism>500</Tourism>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_GUNBOAT_DIPLOMACY</PolicyType>
+			<UnitClassType>UNITCLASS_BOMBER</UnitClassType>
+			<Tourism>150</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_GUNBOAT_DIPLOMACY</PolicyType>
+			<UnitClassType>UNITCLASS_JET_BOMBER</UnitClassType>
+			<Tourism>240</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_GUNBOAT_DIPLOMACY</PolicyType>
+			<UnitClassType>UNITCLASS_STEALTH_BOMBER</UnitClassType>
+			<Tourism>340</Tourism>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_GUNBOAT_DIPLOMACY</PolicyType>
+			<UnitClassType>UNITCLASS_CARRIER</UnitClassType>
+			<Tourism>260</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_GUNBOAT_DIPLOMACY</PolicyType>
+			<UnitClassType>UNITCLASS_NUCLEAR_CARRIER</UnitClassType>
+			<Tourism>360</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_GUNBOAT_DIPLOMACY</PolicyType>
+			<UnitClassType>UNITCLASS_SUPER_CARRIER</UnitClassType>
+			<Tourism>320</Tourism>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_GUNBOAT_DIPLOMACY</PolicyType>
+			<UnitClassType>UNITCLASS_ATOMIC_BOMB</UnitClassType>
+			<Tourism>250</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_GUNBOAT_DIPLOMACY</PolicyType>
+			<UnitClassType>UNITCLASS_NUCLEAR_MISSILE</UnitClassType>
+			<Tourism>500</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_GUNBOAT_DIPLOMACY</PolicyType>
+			<UnitClassType>UNITCLASS_ICBM_MISSILE</UnitClassType>
+			<Tourism>1000</Tourism>
+		</Row>
+	</Policy_TourismOnUnitCreation>
+
+	
+
+
+	<!-- **********************Policy Promotion*************************** -->
+	
+	
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_SETTLER_POP_3</Type>
+			<Description>TXT_KEY_PROMOTION_SETTLER_POP_3</Description>
+			<Help>TXT_KEY_PROMOTION_SETTLER_POP_3</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SETTLER_POP_3</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_NAVAL_TRADITION</Type>
+			<Description>TXT_KEY_PROMOTION_NAVAL_TRADITION</Description>
+			<Help>TXT_KEY_PROMOTION_NAVAL_TRADITION_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<MovesChange>1</MovesChange>
+			<VisibilityChange>1</VisibilityChange>
+			<PortraitIndex>33</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<CombatPercent>15</CombatPercent>
+			<PediaEntry>TXT_KEY_PROMOTION_NAVAL_TRADITION</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_ADJACENT_BONUS</Type>
+			<Description>TXT_KEY_PROMOTION_DISCIPLINE</Description>
+			<Help>TXT_KEY_PROMOTION_DISCIPLINE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<AdjacentMod>25</AdjacentMod>
+			<FlankAttackModifier>50</FlankAttackModifier>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_DISCIPLINE</PediaEntry>
+		</Row>
+
+		<Row>
+			<Type>PROMOTION_FIRST_STRIKE</Type>
+			<Description>TXT_KEY_PROMOTION_FIRST_STRIKE</Description>
+			<Help>TXT_KEY_PROMOTION_FIRST_STRIKE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<MovesChange>1</MovesChange>
+			<IgnoreZOC>true</IgnoreZOC>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FIRST_STRIKE</PediaEntry>
+		</Row>
+
+		<Row>
+			<Type>PROMOTION_SHOOTING_TRAINING</Type>
+			<Description>TXT_KEY_PROMOTION_SHOOTING_TRAINING</Description>
+			<Help>TXT_KEY_PROMOTION_SHOOTING_TRAINING_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SHOOTING_TRAINING</PediaEntry>
+			<AttackFortifiedMod>25</AttackFortifiedMod>
+			<RoughRangedAttackMod>25</RoughRangedAttackMod>
+			<RangedDefenseMod>25</RangedDefenseMod>
+		</Row>
+
+
+
+
+
+
+
+
+		<Row>
+			<Type>PROMOTION_NATIONALISM</Type>
+			<Description>TXT_KEY_PROMOTION_NATIONALISM</Description>
+			<Help>TXT_KEY_PROMOTION_NATIONALISM_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<FriendlyLandsModifier>15</FriendlyLandsModifier>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_NATIONALISM</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_LIGHTNING_WARFARE</Type>
+			<Description>TXT_KEY_PROMOTION_LIGHTNING_WARFARE</Description>
+			<Help>TXT_KEY_PROMOTION_LIGHTNING_WARFARE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_LIGHTNING_WARFARE</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<MovesChange>2</MovesChange>	
+		</Row>
+		<Row>
+			<Type>PROMOTION_FAST_GENERAL</Type>
+			<Description>TXT_KEY_PROMOTION_FAST_GENERAL</Description>
+			<Help>TXT_KEY_PROMOTION_FAST_GENERAL_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<MovesChange>2</MovesChange>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FAST_GENERAL</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FAST_ADMIRAL</Type>
+			<Description>TXT_KEY_PROMOTION_FAST_ADMIRAL</Description>
+			<Help>TXT_KEY_PROMOTION_FAST_ADMIRAL_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<MovesChange>3</MovesChange>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FAST_ADMIRAL</PediaEntry>
+		</Row>
+		
+		<Row>
+			<Type>PROMOTION_FAST_WORKER</Type>
+			<Description>TXT_KEY_PROMOTION_FAST_WORKER</Description>
+			<Help>TXT_KEY_PROMOTION_FAST_WORKER</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<MovesChange>1</MovesChange>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FAST_WORKER</PediaEntry>
+		</Row>
+
+		<Row>
+			<Type>PROMOTION_WORKER_EMBARKABLE_TECH</Type>
+			<Description>TXT_KEY_PROMOTION_WORKER_EMBARKABLE_TECH</Description>
+			<Help>TXT_KEY_PROMOTION_WORKER_EMBARKABLE_TECH</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<AllowsEmbarkation>true</AllowsEmbarkation>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_WORKER_EMBARKABLE_TECH</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FAST_WORKER_TECH</Type>
+			<Description>TXT_KEY_PROMOTION_FAST_WORKER_TECH</Description>
+			<Help>TXT_KEY_PROMOTION_FAST_WORKER_TECH</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<MovesChange>1</MovesChange>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FAST_WORKER_TECH</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_PASSABLE_WORKER_TECH</Type>
+			<Description>TXT_KEY_PROMOTION_PASSABLE_WORKER_TECH</Description>
+			<Help>TXT_KEY_PROMOTION_PASSABLE_WORKER_TECH</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<CanCrossMountains>true</CanCrossMountains>
+			<CanMoveImpassable>true</CanMoveImpassable>
+			<AlwaysHeal>true</AlwaysHeal>
+			<FriendlyHealChange>50</FriendlyHealChange>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_PASSABLE_WORKER_TECH</PediaEntry>
+		</Row>
+	</UnitPromotions>
+
+
+	<Policy_FreePromotions>
+		<Delete PolicyType="POLICY_NAVIGATION_SCHOOL"/>
+		
+		<Row>
+			<PolicyType>POLICY_HORSEMAN_TRAINING</PolicyType>
+			<PromotionType>PROMOTION_FIRST_STRIKE</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<PromotionType>PROMOTION_ADJACENT_BONUS</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
+			<PromotionType>PROMOTION_SHOOTING_TRAINING</PromotionType>
+		</Row>
+		
+		
+		<Row>
+			<PolicyType>POLICY_EXPLORATION</PolicyType>
+			<PromotionType>PROMOTION_FAST_WORKER</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_EXPLORATION</PolicyType>
+			<PromotionType>PROMOTION_FAST_ADMIRAL</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TREASURE_FLEETS</PolicyType>
+			<PromotionType>PROMOTION_NAVAL_TRADITION</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PATRIOTIC_WAR</PolicyType>
+			<PromotionType>PROMOTION_NATIONALISM</PromotionType>
+		</Row>
+		<!--<Row>
+			<PolicyType>POLICY_RESETTLEMENT</PolicyType>
+			<PromotionType>PROMOTION_SETTLER_POP_3</PromotionType>
+		</Row>-->
+		<Row>
+			<PolicyType>POLICY_LIGHTNING_WARFARE</PolicyType>
+			<PromotionType>PROMOTION_FAST_GENERAL</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIGHTNING_WARFARE</PolicyType>
+			<PromotionType>PROMOTION_LIGHTNING_WARFARE</PromotionType>
+		</Row>
+
+		<!--<Row>
+			<PolicyType>POLICY_EXPLORATION_FINISHER</PolicyType>
+			<PromotionType>PROMOTION_FAST_ADMIRAL</PromotionType>
+		</Row>-->
+		
+
+		<Row>
+			<PolicyType>POLICY_TRADITION</PolicyType>
+			<PromotionType>PROMOTION_LOSE_HP_OUTSIDE</PromotionType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY</PolicyType>
+			<PromotionType>PROMOTION_LOSE_HP_OUTSIDE</PromotionType>
+		</Row>
+	</Policy_FreePromotions>
+
+
+
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_FIRST_STRIKE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FIRST_STRIKE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
+
+		<Row>
+			<PromotionType>PROMOTION_SHOOTING_TRAINING</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SHOOTING_TRAINING</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+		</Row>
+
+		
+
+
+		<!--<Row>
+			<PromotionType>PROMOTION_FIRST_STRIKE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_LAND_HIT_AND_RUN</UnitCombatType>
+		</Row>-->
+
+		<Row>
+			<PromotionType>PROMOTION_LIGHTNING_WARFARE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_LIGHTNING_WARFARE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_LIGHTNING_WARFARE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_LIGHTNING_WARFARE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_LIGHTNING_WARFARE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_LIGHTNING_WARFARE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+		</Row>
+		
+
+
+		<Row>
+			<PromotionType>PROMOTION_NATIONALISM</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>	
+		<Row>
+			<PromotionType>PROMOTION_NATIONALISM</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NATIONALISM</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NATIONALISM</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NATIONALISM</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NATIONALISM</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NATIONALISM</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NATIONALISM</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NATIONALISM</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NATIONALISM</PromotionType>
+			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NATIONALISM</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NATIONALISM</PromotionType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+		</Row>
+		
+		
+		<Row>
+			<PromotionType>PROMOTION_ADJACENT_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ADJACENT_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ADJACENT_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ADJACENT_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+		</Row>
+		
+		<Row>
+			<PromotionType>PROMOTION_ADJACENT_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ADJACENT_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+
+		
+		
+		<Row>
+			<PromotionType>PROMOTION_NAVAL_TRADITION</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NAVAL_TRADITION</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NAVAL_TRADITION</PromotionType>
+			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NAVAL_TRADITION</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+
+	
+	
+	<UnitPromotions_CivilianUnitType>
+		<!--<Row>
+			<PromotionType>PROMOTION_SETTLER_POP_3</PromotionType>
+			<UnitType>UNIT_SETTLER</UnitType>
+		</Row>-->
+
+		<Row>
+			<PromotionType>PROMOTION_FAST_GENERAL</PromotionType>
+			<UnitType>UNIT_GREAT_GENERAL</UnitType>
+		</Row>
+		<!--<Row>
+			<PromotionType>PROMOTION_FAST_GENERAL</PromotionType>
+			<UnitType>UNIT_CHINESE_GREAT_GENERAL</UnitType>
+		</Row>-->
+		<Row>
+			<PromotionType>PROMOTION_FAST_GENERAL</PromotionType>
+			<UnitType>UNIT_MONGOLIAN_KHAN</UnitType>
+		</Row>
+		
+		<Row>
+			<PromotionType>PROMOTION_FAST_ADMIRAL</PromotionType>
+			<UnitType>UNIT_GREAT_ADMIRAL</UnitType>
+		</Row>
+		
+		<Row>
+			<PromotionType>PROMOTION_FAST_WORKER</PromotionType>
+			<UnitType>UNIT_WORKER</UnitType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FAST_WORKER</PromotionType>
+			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FAST_WORKER</PromotionType>
+			<UnitType>UNIT_SETTLER</UnitType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FAST_WORKER</PromotionType>
+			<UnitType>UNIT_ARCHAEOLOGIST</UnitType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FAST_WORKER</PromotionType>
+			<UnitType>UNIT_MISSIONARY</UnitType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FAST_WORKER</PromotionType>
+			<UnitType>UNIT_PROPHET</UnitType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FAST_WORKER</PromotionType>
+			<UnitType>UNIT_SIAMESE_MONK</UnitType>
+		</Row>
+		
+
+
+		<Row>
+			<PromotionType>PROMOTION_WORKER_EMBARKABLE_TECH</PromotionType>
+			<UnitType>UNIT_WORKER</UnitType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_WORKER_EMBARKABLE_TECH</PromotionType>
+			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
+		</Row>
+
+		<Row>
+			<PromotionType>PROMOTION_WORKER_EMBARKABLE_TECH</PromotionType>
+			<UnitType>UNIT_WORKBOAT</UnitType>
+		</Row>
+
+
+
+		
+
+		<Row>
+			<PromotionType>PROMOTION_FAST_WORKER_TECH</PromotionType>
+			<UnitType>UNIT_WORKER</UnitType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FAST_WORKER_TECH</PromotionType>
+			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FAST_WORKER_TECH</PromotionType>
+			<UnitType>UNIT_SETTLER</UnitType>
+		</Row>
+	
+
+		<Row>
+			<PromotionType>PROMOTION_PASSABLE_WORKER_TECH</PromotionType>
+			<UnitType>UNIT_WORKER</UnitType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_PASSABLE_WORKER_TECH</PromotionType>
+			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
+		</Row>
+
+		<Row>
+			<PromotionType>PROMOTION_LOSE_HP_OUTSIDE</PromotionType>
+			<UnitType>UNIT_SETTLER</UnitType>
+		</Row>
+		
+
+	</UnitPromotions_CivilianUnitType>
+
+
+
+
+	<Policy_YieldModifiers>
+		<Row>
+			<PolicyType>POLICY_TRADITION_FINISHER</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TRADITION_FINISHER</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TRADITION_FINISHER</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TRADITION_FINISHER</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Policy_YieldModifiers>
+
+	
+
+
+
+
+	<!-- **********************Policy Building for Special Effects*************************** -->
+
+	<Policy_FreeBuildingClass>
+		<Row>
+			<PolicyType>POLICY_TOTAL_WAR</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UNITED_FRONT_FOOD</BuildingClassType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_DOUBLE_AGENTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CONSUMER_GOODS_OFFER</BuildingClassType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FAMILY_REGISTER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FAMILY_PRODUCTION</BuildingClassType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_THEOCRACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_THEOCRACY_WRITER</BuildingClassType>
+		</Row>
+		
+			<Row>
+			<PolicyType>POLICY_EXPLORATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_EXPLORATION_REMOVE_DEBUFF</BuildingClassType>
+		</Row>
+		
+	</Policy_FreeBuildingClass>
+
+	<Policy_FreeBuildingClassCapital>
+		<Row>
+			<PolicyType>POLICY_MERCHANT_CONFEDERACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PATRONAGE_TRADEROUTE</BuildingClassType>
+		</Row>
+		<!--<Row>
+			<PolicyType>POLICY_REPRESENTATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_REPRESENTATION_CULTURE</BuildingClassType>
+		</Row>-->
+		<Row>
+			<PolicyType>POLICY_FAMILY_REGISTER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FAMILY_PRODUCTION</BuildingClassType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_COMMERCE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COMMERCE_TRADEROUTE</BuildingClassType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MERCHANT_NAVY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MERCHANTNAVY_TRADEROUTE</BuildingClassType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NEW_ORDER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_AUTOCRACY_FIREWALL</BuildingClassType>
+		</Row>
+	
+	</Policy_FreeBuildingClassCapital>
+
+
+	<Policy_FreeBuildingClassCityStates>
+	</Policy_FreeBuildingClassCityStates>
+
+
+
+
+	<!-- **********************Policy Buildings*************************** -->
+
+	
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_POLICY_PERTURN_EFFECTS</Type>
+			<DefaultBuilding>BUILDING_FAITH_RELIGIOUS_POLITICS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_THEOCRACY_WRITER</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_THEOCRACY_WRITER</Type>
+			<DefaultBuilding>BUILDING_THEOCRACY_WRITER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_THEOCRACY_WRITER</Description>
+		</Row>
+
+		<!--<Row>
+			<Type>BUILDINGCLASS_CONSUMER_GOODS_LIBERTY</Type>
+			<DefaultBuilding>BUILDING_CONSUMER_GOODS_LIBERTY</DefaultBuilding>
+			<Description>TXT_KEY_POLICY_REPUBLIC</Description>
+		</Row>-->
+		<Row>
+			<Type>BUILDINGCLASS_CONSUMER_GOODS_OFFER</Type>
+			<DefaultBuilding>BUILDING_CONSUMER_GOODS_OFFER</DefaultBuilding>
+			<Description>TXT_KEY_POLICY_DOUBLE_AGENTS</Description>
+		</Row>
+		
+		<Row>
+			<Type>BUILDINGCLASS_POLICE_STATE</Type>
+			<DefaultBuilding>BUILDING_POLICE_STATE_LV2</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_POLICE_STATE</Description>
+		</Row>
+			
+		
+		<Row>
+			<Type>BUILDINGCLASS_UNITED_FRONT_FOOD</Type>
+			<DefaultBuilding>BUILDING_UNITED_FRONT_FOOD</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_POLICY_ORGANIZED_RELIGION_HELP</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_REPRESENTATION_CULTURE</Type>
+			<DefaultBuilding>BUILDING_REPRESENTATION_CULTURE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_REPRESENTATION_CULTURE</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_FAMILY_PRODUCTION</Type>
+			<DefaultBuilding>BUILDING_FAMILY_PRODUCTION</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_FAMILY_PRODUCTION</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TRADITION_FINISHER_BONUS</Type>
+			<DefaultBuilding>BUILDING_TRADITION_FINISHER_BONUS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TRADITION_FINISHER_BONUS</Description>
+		</Row>
+		
+		<Row>
+			<Type>BUILDINGCLASS_PATRONAGE_TRADEROUTE</Type>
+			<DefaultBuilding>BUILDING_PATRONAGE_TRADEROUTE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_COMMERCE_TRADEROUTE</Type>
+			<DefaultBuilding>BUILDING_COMMERCE_TRADEROUTE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MERCHANTNAVY_TRADEROUTE</Type>
+			<DefaultBuilding>BUILDING_MERCHANTNAVY_TRADEROUTE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_AUTOCRACY_FIREWALL</Type>
+			<DefaultBuilding>BUILDING_AUTOCRACY_FIREWALL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MERCHANTNAVY_TRADEROUTE</Description>
+		</Row>
+
+
+
+		<Row>
+			<Type>BUILDINGCLASS_EXPLORATION_REMOVE_DEBUFF</Type>
+			<DefaultBuilding>BUILDING_EXPLORATION_REMOVE_DEBUFF</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MERCHANTNAVY_TRADEROUTE</Description>
+		</Row>
+
+
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_EXPLORATION_REMOVE_DEBUFF</Type>
+			<BuildingClass>BUILDINGCLASS_EXPLORATION_REMOVE_DEBUFF</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_POLICY_REPUBLIC</Description>
+			<Help>TXT_KEY_POLICY_REPUBLIC</Help>
+			<FreePromotionRemoved>PROMOTION_LOSE_HP_OUTSIDE</FreePromotionRemoved>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+	
+
+	
+		<Row>
+			<Type>BUILDING_FAITH_RELIGIOUS_POLITICS</Type>
+			<BuildingClass>BUILDINGCLASS_POLICY_PERTURN_EFFECTS</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_POLICY_REPUBLIC</Description>
+			<Help>TXT_KEY_POLICY_REPUBLIC</Help>
+			<UnmoddedHappiness>2</UnmoddedHappiness>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+
+
+		<Row>
+			<Type>BUILDING_THEOCRACY_WRITER</Type>
+			<BuildingClass>BUILDINGCLASS_THEOCRACY_WRITER</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_THEOCRACY_WRITER</Description>
+		</Row>
+
+
+		<!--<Row>
+			<Type>BUILDING_CONSUMER_GOODS_LIBERTY</Type>
+			<BuildingClass>BUILDINGCLASS_CONSUMER_GOODS_LIBERTY</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>20</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_POLICY_REPUBLIC</Description>
+			<Help>TXT_KEY_POLICY_REPUBLIC</Help>
+		</Row>-->
+
+
+		<Row>
+			<Type>BUILDING_CONSUMER_GOODS_OFFER</Type>
+			<BuildingClass>BUILDINGCLASS_CONSUMER_GOODS_OFFER</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>26</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_POLICY_DOUBLE_AGENTS</Description>
+			<Help>TXT_KEY_POLICY_DOUBLE_AGENTS_HELP</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+		
+		
+		<Row>
+			<Type>BUILDING_POLICE_STATE_LV2</Type>
+			<BuildingClass>BUILDINGCLASS_POLICE_STATE</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_POLICE_STATE</Description>
+			<Help>TXT_KEY_BUILDING_POLICE_STATE</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+		<Row>
+			<Type>BUILDING_POLICE_STATE_LV3</Type>
+			<BuildingClass>BUILDINGCLASS_POLICE_STATE</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_POLICE_STATE</Description>
+			<Help>TXT_KEY_BUILDING_POLICE_STATE</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+		<Row>
+			<Type>BUILDING_POLICE_STATE_LV4</Type>
+			<BuildingClass>BUILDINGCLASS_POLICE_STATE</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_POLICE_STATE</Description>
+			<Help>TXT_KEY_BUILDING_POLICE_STATE</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+		<Row>
+			<Type>BUILDING_POLICE_STATE_LV5</Type>
+			<BuildingClass>BUILDINGCLASS_POLICE_STATE</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_POLICE_STATE</Description>
+			<Help>TXT_KEY_BUILDING_POLICE_STATE</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+		
+		
+		<Row>
+			<Type>BUILDING_UNITED_FRONT_FOOD</Type>
+			<BuildingClass>BUILDINGCLASS_UNITED_FRONT_FOOD</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_UNITED_FRONT_HELP</Description>
+			<Help>TXT_KEY_BUILDING_UNITED_FRONT_HELP</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+		<Row>
+			<Type>BUILDING_REPRESENTATION_CULTURE</Type>
+			<BuildingClass>BUILDINGCLASS_REPRESENTATION_CULTURE</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PolicyCostModifier>-5</PolicyCostModifier>
+			<PortraitIndex>27</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_REPRESENTATION_CULTURE</Description>
+			<Help>TXT_KEY_BUILDING_REPRESENTATION_CULTURE</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+		<Row>
+			<Type>BUILDING_FAMILY_PRODUCTION</Type>
+			<BuildingClass>BUILDINGCLASS_FAMILY_PRODUCTION</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<PortraitIndex>47</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_FAMILY_PRODUCTION</Description>
+			<Help>TXT_KEY_BUILDING_FAMILY_PRODUCTION_HELP</Help>
+			
+		</Row>
+		<Row>
+			<Type>BUILDING_TRADITION_FINISHER_BONUS</Type>
+			<BuildingClass>BUILDINGCLASS_TRADITION_FINISHER_BONUS</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<GlobalCultureRateModifier>200</GlobalCultureRateModifier>
+			<PortraitIndex>27</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_TRADITION_FINISHER_BONUS</Description>
+			<Help>TXT_KEY_BUILDING_TRADITION_FINISHER_BONUS_HELP</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_PATRONAGE_TRADEROUTE</Type>
+			<BuildingClass>BUILDINGCLASS_PATRONAGE_TRADEROUTE</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<NumTradeRouteBonus>2</NumTradeRouteBonus>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+		<Row>
+			<Type>BUILDING_COMMERCE_TRADEROUTE</Type>
+			<BuildingClass>BUILDINGCLASS_COMMERCE_TRADEROUTE</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<NumTradeRouteBonus>2</NumTradeRouteBonus>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+		<Row>
+			<Type>BUILDING_MERCHANTNAVY_TRADEROUTE</Type>
+			<BuildingClass>BUILDINGCLASS_MERCHANTNAVY_TRADEROUTE</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<NumTradeRouteBonus>2</NumTradeRouteBonus>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+		<Row>
+			<Type>BUILDING_AUTOCRACY_FIREWALL</Type>
+			<BuildingClass>BUILDINGCLASS_AUTOCRACY_FIREWALL</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<NullifyInfluenceModifier>true</NullifyInfluenceModifier>
+			<PortraitIndex>7</PortraitIndex>
+			<GlobalCultureRateModifier>15</GlobalCultureRateModifier>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_AUTOCRACY_FIREWALL</Description>
+			<Help>TXT_KEY_BUILDING_AUTOCRACY_FIREWALL_HELP</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+	</Buildings>
+
+	<Building_YieldChangesPerPop>
+
+		<Row>
+			<BuildingType>BUILDING_FAMILY_PRODUCTION</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>100</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_POLICE_STATE_LV2</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POLICE_STATE_LV3</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POLICE_STATE_LV4</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>13</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POLICE_STATE_LV5</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>16</Yield>
+		</Row>
+		
+	</Building_YieldChangesPerPop>
+
+	<!--<Building_GlobalYieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_TRADITION_FINISHER_BONUS</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TRADITION_FINISHER_BONUS</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TRADITION_FINISHER_BONUS</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_GlobalYieldModifiers>-->
+
+
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_UNITED_FRONT_FOOD</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Quantity>45</Quantity>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_CONSUMER_GOODS_OFFER</BuildingType>
+			<ResourceType>RESOURCE_CONSUMER</ResourceType>
+			<Quantity>16</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CONSUMER_GOODS_OFFER</BuildingType>
+			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
+			<Quantity>16</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
+	
+
+	<Policy_FaithPurchaseUnitClasses>
+		<Delete UnitClassType="UNITCLASS_GREAT_DIPLOMAT"/>
+		
+	</Policy_FaithPurchaseUnitClasses>
+
+
+
+
+
+
+</GameData>

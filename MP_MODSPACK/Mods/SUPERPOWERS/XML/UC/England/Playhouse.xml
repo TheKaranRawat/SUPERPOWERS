@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/4/2013 4:49:16 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_3UC_PLAYHOUSE">
+			<Text>[ICON_HAPPINESS_1] Playhouse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_PLAYHOUSE_HELP">
+			<Text>
+				Increases a city's [ICON_HAPPINESS_1] Happiness. Yields [ICON_GOLD] Gold in cities with many [ICON_CITIZEN] citizens. Only England may build it.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_PLAYHOUSE_STRATEGY">
+			<Text>The Playhouse is an English unique building. It increases a city's [ICON_HAPPINESS_1] Happiness, but cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city. Unlike the Zoo it replaces, the Playhouse has no maintenance cost and yields +1 [ICON_GOLD] Gold for every 10 [ICON_CITIZEN] Citizens in the city. A city must already have a Colosseum before building a Playhouse.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_PLAYHOUSE_TEXT">
+			<Text>
+				'Playhouse' is a common Elizabethan term for a theatre. The establishment of large and profitable public theatres was an essential enabling factor in the success of English Renaissance drama. Once they were in operation, drama could become fixed and permanent, rather than a transitory phenomenon. Along with the economics of the profession, the character of the drama changed toward the end of the period. Under Elizabeth, the drama was a unified expression as far as social class was concerned: the Court watched the same plays that the commoners saw. With the development of private theatres, drama became more oriented toward the tastes and values of an upper-class audience.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>ATLAS_3UC_PLAYHOUSE</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>3UCplayhouse256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_3UC_PLAYHOUSE</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>3UCplayhouse128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_3UC_PLAYHOUSE</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>3UCplayhouse64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_3UC_PLAYHOUSE</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>3UCplayhouse45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

@@ -1,0 +1,35 @@
+<Asset>
+	<Mesh file="SR-71_Blackbird.gr2"/>
+	<Animation file="StealthBomber_Run.gr2" ec="1400"/>
+	<Animation file="StealthBomber_Idle.gr2" ec="1000"/>
+	<Animation file="StealthBomber_Attack_Air.gr2" ec="1100"/>
+	<Animation file="StealthBomber_Bombardment.gr2" ec="1180"/>
+	<Animation file="StealthBomber_DeathA.gr2" ec="1200"/>
+	<Animation file="StealthBomber_DeathA_Idle.gr2" ec="1220"/>
+	<Animation file="StealthBomber_DeathB.gr2" ec="2200"/>
+	<Animation file="StealthBomber_DeathB_Idle.gr2" ec="2220"/>
+	<Texture file="Unit_Environment_Dull.dds"/>
+	<Texture file="Unit_Environment_Sharp.dds"/>
+	<Texture file="Unit_Irradiance.dds"/>
+	<Texture file="SR-71_DIFF.dds"/>
+	<Texture file="SR-71_SREF.dds"/>
+	<BoneUsage>
+		<Bone name="fx_PROJECTILE_03"/>
+		<Bone name="fx_WingTrail_R"/>
+		<Bone name="bone_WING_R"/>
+		<Bone name="fx_WingTrail_L"/>
+		<Bone name="fx_EngineFire_R"/>
+		<Bone name="fx_PROJECTILE_01"/>
+		<Bone name="fx_EngineFire_L"/>
+		<Bone name="fx_PROJECTILE_02"/>
+		<Bone name="bone_BODY"/>
+	</BoneUsage>
+	<AnimGraph file="IDLE_A_GRAPH.dge"/>
+	<AnimGraph file="DEATH_FINAL_GRAPH.dge"/>
+	<AnimGraph file="RUNNING_LOOP_GRAPH.dge"/>
+	<AnimGraph file="PLANES_ATTACK_02.dge"/>
+	<AnimGraph file="PLANES_DEATH.dge"/>
+	<StateMachine file="AIRPLANE_STATE_01.fsmxml"/>
+	<TimedTrigger file="FX_Triggers_StealthBomber.ftsxml"/>
+</Asset>
+

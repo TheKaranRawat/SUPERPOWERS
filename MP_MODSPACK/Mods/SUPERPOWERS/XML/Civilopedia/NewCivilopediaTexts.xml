@@ -1,0 +1,1276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/9/2014 9:44:54 AM -->
+<GameData>
+
+	<!--************************************Startup UI********************************-->
+	<Language_en_US>
+		<!-- Super Power Modded Game -->
+		<Row Tag="TXT_KEY_SP_GS_TITLE">
+			<Text>SuperPowers Singleplayer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_GS_DESC">
+			<Text>[COLOR_YELLOW]Important Notes:[ENDCOLOR][NEWLINE]1. Check the Civilopedia before playing and learn more about the mods mechanics. (Press [COLOR_POSITIVE_TEXT]F1[ENDCOLOR] Now!). [NEWLINE]2. For better performance use DX9 mode, and reduce CS and AI.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_VERSION">
+			<Text>[COLOR_YELLOW]Version 1.2(Beta)[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_MOD_SETUP">
+			<Text>[COLOR_YELLOW]MOD Setup[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SP_OPEN_CIVILOPEDIA">
+			<Text>[COLOR_YELLOW]Civilopedia[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_OPEN_CIVILOPEDIA_TOOLTIP">
+			<Text>
+				Open [COLOR_YELLOW]Civilopedia[ENDCOLOR]
+				[NEWLINE][NEWLINE]If you are new to this mod, you are strongly recommended to check the Civilopedia, to be aware of what's new and what has been changed in [COLOR_YELLOW]Super Power Mod[ENDCOLOR].
+			</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+
+	<!--************************************EUI elements********************************-->
+
+
+	<Language_en_US>
+	
+		<Replace Tag="TXT_KEY_CITYVIEW_CHANGE_PROD">
+			<Text>[ICON_PRODUCTION]CHANGE PRODUCTION</Text>
+		</Row>
+
+		<Replace Tag="TXT_KEY_CITYVIEW_QUEUE_PROD">
+			<Text>[ICON_PRODUCTION]ADD TO QUEUE</Text>
+		</Row>
+
+		<Replace Tag="TXT_KEY_CITYVIEW_CHOOSE_PROD">
+			<Text>[ICON_PRODUCTION]CHOOSE PRODUCTION</Text>
+		</Row>
+
+
+		<Replace Tag="TXT_KEY_FREE_POLICIES">
+			<Text>Num of Free Policies: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_BO1">
+			<Text>Enemy's Units Extra MP Cost in Your Territory: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_ASN1">
+			<Text>Affect Spies Now: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_NIM1">
+			<Text>Nullify Influence Modifier by Techs: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_GCRM1">
+			<Text>Global Culture Rate Modifier: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_GGPRM1">
+			<Text>Global GreatPeople Rate Modifier: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_AIR_MODIFIER11">
+			<Text>Aircrafts Stands Modifier: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_HAPPINESS_PERCITY111">
+			<Text>All Cities: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_WORKER_SPEED_MODIFIER111">
+			<Text>Workers' Speed Modifier: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_GLOBAL_SPACE_PRODUCTION_MODIFIER11">
+			<Text>Global Spaceship Production Speed Modifier: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_BUILDING_PRODUCTION_MODIFIER11">
+			<Text>Buildings' Construction Speed Modifier: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_CCTRM22">
+			<Text>[ICON_CONNECTED] City Connection TradeRoute Modifier: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_GPC_2">
+			<Text>Global Population Change: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_GP111">
+			<Text>Free GreatPeople: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_MTPC_444">
+			<Text>[ICON_RESEARCH] Science Output from Research Agreement: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_EMS_5">
+			<Text>Extra Missionary Spreads: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_RPM_10">
+			<Text>Religious Spreading Speed Modifier: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_ES123123">
+			<Text>Extra Spies: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_ISC_10">
+			<Text>Instant Spies' Ranks Change: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_LTP11">
+			<Text>[ICON_CULTURE] Culture from Plots and Wonders to [ICON_TOURISM] Tourism: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_GWTM1111111">
+			<Text>[ICON_TOURISM] Tourism from Great Works: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TSDM1">
+			<Text>Sea Trade Route Distance Modifier: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_TRLDM1">
+			<Text>Land Trade Route Distance Modifier: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_CSTRPM1111">
+			<Text>Trade Routs to City States: </Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_ELV3434">
+			<Text>Extra League Votes: </Text>
+		</Replace>
+
+		<!--****************************************************** Units's  EUI **********************************************-->
+
+		<Replace Tag="TXT_KEY_SUICIDE">
+			<Text>Destroyed after Attacking</Text>
+		</Replace>
+
+		<Replace Tag="TXT_MOVE_AFTER_PC">
+			<Text>Can Move After Purchased</Text>
+		</Replace>
+
+		<Replace Tag="TXT_REQUIRES_E">
+			<Text>Requires Enhanced Religion to Purchase</Text>
+		</Replace>
+
+		<Replace Tag="TXT_PROHIBITS_SPREAD">
+			<Text>Prohibits Other Religions Spread to the City Garrisoned</Text>
+		</Replace>
+
+		<Replace Tag="TXT_REL_STR">
+			<Text>Religious Strength</Text>
+		</Replace>
+
+
+	</Language_en_US>
+	<!--************************************Game Speeds********************************-->
+
+	<Language_en_US>
+		<Replace Tag="TXT_KEY_GAMESPEED_QUICK_HELP">
+			<Text>Research Speed:75% Build Speed:66% All Units +1 [ICON_MOVES] Movement, +15hp healing and +50% EXP earning speed. Recommended for Multiplayer campaigns.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GAMESPEED_STANDARD_HELP">
+			<Text>Research Speed:100% Build Speed:100% Faster than vanilla "Standard", but will slow down in the late game. Recommended for post-industrial campaigns.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GAMESPEED_EPIC_HELP">
+			<Text>Research Speed:150% Build Speed:115% Slow researching speeds, but training and building speeds are still fast. Recommended for epic length campaigns.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GAMESPEED_MARATHON_HELP">
+			<Text>Research Speed:250% Build Speed:150% Slow but still quicker than vanilla "Marathon". Best for players who want to forge an empire that stands the test of time.</Text>
+		</Replace>
+	</Language_en_US>
+	
+	
+	
+	<Concepts>
+
+
+		<!--************************************New Civilopedia Concepts********************************-->
+
+		<!--************************************Cities********************************-->	
+		
+		<Row>
+			<Type>CONCEPT_SETTLER_JOIN_CITIES</Type>
+			<Topic>TXT_KEY_CONCEPT_SETTLER_JOIN_CITIES_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SETTLER_JOIN_CITIES_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SETTLER_JOIN_CITIES_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SETTLER_JOIN_CITIES_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>ECONOMIC</Advisor>
+			<CivilopediaHeaderType>HEADER_CITIES</CivilopediaHeaderType>
+		</Row>
+		<Row>
+			<Type>CONCEPT_BUILDING_OBSOLETE_IN_LATEGAME</Type>
+			<Topic>TXT_KEY_CONCEPT_BUILDING_OBSOLETE_IN_LATEGAME_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_BUILDING_OBSOLETE_IN_LATEGAME_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_BUILDING_OBSOLETE_IN_LATEGAME_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_BUILDING_OBSOLETE_IN_LATEGAME_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>ECONOMIC</Advisor>
+			<CivilopediaHeaderType>HEADER_CITIES</CivilopediaHeaderType>
+		</Row>
+		<Row>
+			<Type>CONCEPT_BUILDING_EXTRA_POPCOST</Type>
+			<Topic>TXT_KEY_CONCEPT_BUILDING_EXTRA_POPCOST_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_BUILDING_EXTRA_POPCOST_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_BUILDING_EXTRA_POPCOST_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_BUILDING_EXTRA_POPCOST_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>ECONOMIC</Advisor>
+			<CivilopediaHeaderType>HEADER_CITIES</CivilopediaHeaderType>
+		</Row>
+		<Row>
+			<Type>CONCEPT_CITY_GOVERNMENT</Type>
+			<Topic>TXT_KEY_CONCEPT_CITY_GOVERNMENT_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_CITY_GOVERNMENT_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_CITY_GOVERNMENT_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_CITY_GOVERNMENT_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>ECONOMIC</Advisor>
+			<CivilopediaHeaderType>HEADER_CITIES</CivilopediaHeaderType>
+		</Row>	
+		<Row>
+			<Type>CONCEPT_CITIES_CORRUPTION</Type>
+			<Topic>TXT_KEY_CONCEPT_CITIES_CORRUPTION_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_CITIES_CORRUPTION_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_CITIES_CORRUPTION_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_CITIES_CORRUPTION_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>ECONOMIC</Advisor>
+			<CivilopediaHeaderType>HEADER_CITIES</CivilopediaHeaderType>
+		</Row>
+		<Row>
+			<Type>CONCEPT_ANTI_CORRUPTION</Type>
+			<Topic>TXT_KEY_CONCEPT_ANTI_CORRUPTION_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_ANTI_CORRUPTION_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_ANTI_CORRUPTION_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_ANTI_CORRUPTION_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>ECONOMIC</Advisor>
+			<CivilopediaHeaderType>HEADER_CITIES</CivilopediaHeaderType>
+		</Row>
+		
+		<Row>
+			<Type>CONCEPT_WAR_DAMAGE</Type>
+			<Topic>TXT_KEY_CONCEPT_WAR_DAMAGE_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_WAR_DAMAGE_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_WAR_DAMAGE_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_WAR_DAMAGE_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>ECONOMIC</Advisor>
+			<CivilopediaHeaderType>HEADER_CITIES</CivilopediaHeaderType>
+		</Row>
+		<Row>
+			<Type>CONCEPT_WAR_DAMAGE_REDUCE</Type>
+			<Topic>TXT_KEY_CONCEPT_WAR_DAMAGE_REDUCE_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_WAR_DAMAGE_REDUCE_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_WAR_DAMAGE_REDUCE_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_WAR_DAMAGE_REDUCE_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>ECONOMIC</Advisor>
+			<CivilopediaHeaderType>HEADER_CITIES</CivilopediaHeaderType>
+		</Row>
+
+
+		<!--************************************Research********************************-->
+		<Row>
+			<Type>CONCEPT_NEW_SCIENCE_RULE</Type>
+			<Topic>TXT_KEY_CONCEPT_NEW_SCIENCE_RULE_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_NEW_SCIENCE_RULE_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_NEW_SCIENCE_RULE_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_NEW_SCIENCE_RULE_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>ECONOMIC</Advisor>		
+			<CivilopediaHeaderType>HEADER_TECHNOLOGY</CivilopediaHeaderType>
+		</Row>
+
+		<Row>
+			<Type>CONCEPT_SP_NEW_SPECIALISTS_RULE</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_NEW_SPECIALISTS_RULE_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_NEW_SPECIALISTS_RULE_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_NEW_SPECIALISTS_RULE_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_NEW_SPECIALISTS_RULE_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>ECONOMIC</Advisor>
+			<CivilopediaHeaderType>HEADER_PEOPLE</CivilopediaHeaderType>
+		</Row>
+
+		<!--************************************Culture********************************-->
+		<Row>
+			<Type>CONCEPT_NEW_CULTURE_RULE</Type>
+			<Topic>TXT_KEY_CONCEPT_NEW_CULTURE_RULE_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_NEW_CULTURE_RULE_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_NEW_CULTURE_RULE_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_NEW_CULTURE_RULE_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>ECONOMIC</Advisor>
+			<CivilopediaHeaderType>HEADER_CULTURE</CivilopediaHeaderType>
+		</Row>
+	
+		<Row>
+			<Type>CONCEPT_SP_NEW_CHOOSEYOURWAY</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_NEW_CHOOSEYOURWAY_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_NEW_CHOOSEYOURWAY_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_NEW_CHOOSEYOURWAY_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_NEW_CHOOSEYOURWAY_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>ECONOMIC</Advisor>
+			<CivilopediaHeaderType>HEADER_POLICIES</CivilopediaHeaderType>
+		</Row>
+				
+
+		<!--************************************Combats********************************-->
+
+		<Row>
+			<Type>CONCEPT_NEW_ATTACK_RULES</Type>
+			<Topic>TXT_KEY_CONCEPT_NEW_ATTACK_RULES_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_NEW_ATTACK_RULES_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_NEW_ATTACK_RULES_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_NEW_ATTACK_RULES_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_COMBAT</CivilopediaHeaderType>
+		</Row>
+		<Row>
+			<Type>CONCEPT_STACKING_COMBAT</Type>
+			<Topic>TXT_KEY_CONCEPT_STACKING_COMBAT_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_STACKING_COMBAT_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_STACKING_COMBAT_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_STACKING_COMBAT_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_COMBAT</CivilopediaHeaderType>
+		</Row>
+		<Row>
+			<Type>CONCEPT_RANGED_COUNTER</Type>
+			<Topic>TXT_KEY_CONCEPT_RANGED_COUNTER_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_RANGED_COUNTER_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_RANGED_COUNTER_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_RANGED_COUNTER_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_COMBAT</CivilopediaHeaderType>
+		</Row>
+		<Row>
+			<Type>CONCEPT_HEALING</Type>
+			<Topic>TXT_KEY_CONCEPT_HEALING_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_HEALING_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_HEALING_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_HEALING_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_COMBAT</CivilopediaHeaderType>
+		</Row>
+		<Row>
+			<Type>CONCEPT_COMBAT_AOE_EFFECT</Type>
+			<Topic>TXT_KEY_CONCEPT_COMBAT_AOE_EFFECT_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_COMBAT_AOE_EFFECT_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_COMBAT_AOE_EFFECT_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_COMBAT_AOE_EFFECT_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_COMBAT</CivilopediaHeaderType>
+		</Row>
+		<Row>
+			<Type>CONCEPT_COMBAT_COLLDMG_EFFECT</Type>
+			<Topic>TXT_KEY_CONCEPT_COMBAT_COLLDMG_EFFECT_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_COMBAT_COLLDMG_EFFECT_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_COMBAT_COLLDMG_EFFECT_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_COMBAT_COLLDMG_EFFECT_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_COMBAT</CivilopediaHeaderType>
+		</Row>
+		<Row>
+			<Type>CONCEPT_COMBAT_CHARGEDMG_EFFECT</Type>
+			<Topic>TXT_KEY_CONCEPT_COMBAT_CHARGEDMG_EFFECT_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_COMBAT_CHARGEDMG_EFFECT_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_COMBAT_CHARGEDMG_EFFECT_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_COMBAT_CHARGEDMG_EFFECT_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_COMBAT</CivilopediaHeaderType>
+		</Row>
+		<Row>
+			<Type>CONCEPT_COMBAT_SUNDER_EFFECT</Type>
+			<Topic>TXT_KEY_CONCEPT_COMBAT_SUNDER_EFFECT_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_COMBAT_SUNDER_EFFECT_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_COMBAT_SUNDER_EFFECT_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_COMBAT_SUNDER_EFFECT_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_COMBAT</CivilopediaHeaderType>
+		</Row>
+
+
+
+		<!--************************************Units********************************-->
+		<Row>
+			<Type>CONCEPT_SP_UNIT_SUMMARY</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_SUMMARY_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_SUMMARY_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_SUMMARY_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_SUMMARY_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+		
+		<Row>
+			<Type>CONCEPT_SP_UNIT_INFANTRY</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_INFANTRY_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_INFANTRY_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_INFANTRY_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_INFANTRY_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+
+		<Row>
+			<Type>CONCEPT_SP_UNIT_MOBILE</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_MOBILE_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_MOBILE_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_MOBILE_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_MOBILE_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+
+		<Row>
+			<Type>CONCEPT_SP_UNIT_MOUNTED_RANGED</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_MOUNTED_RANGED_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_MOUNTED_RANGED_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_MOUNTED_RANGED_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_MOUNTED_RANGED_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+
+		<Row>
+			<Type>CONCEPT_SP_UNIT_HELICOPTER_CLASS</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_HELICOPTER_CLASS_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_HELICOPTER_CLASS_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_HELICOPTER_CLASS_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_HELICOPTER_CLASS_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+
+		<Row>
+			<Type>CONCEPT_SP_UNIT_COUNTER_UNITS</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_COUNTER_UNITS_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_COUNTER_UNITS_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_COUNTER_UNITS_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_COUNTER_UNITS_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+
+		<Row>
+			<Type>CONCEPT_SP_UNIT_LAND_ARCHERY_UNITS</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_LAND_ARCHERY_UNITS_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_LAND_ARCHERY_UNITS_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_LAND_ARCHERY_UNITS_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_LAND_ARCHERY_UNITS_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+
+		<Row>
+			<Type>CONCEPT_SP_UNIT_LAND_SIEGE_WEAPONS</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_LAND_SIEGE_WEAPONS_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_LAND_SIEGE_WEAPONS_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_LAND_SIEGE_WEAPONS_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_LAND_SIEGE_WEAPONS_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+
+		<Row>
+			<Type>CONCEPT_SP_UNIT_LAND_HEAVY_ARTILLERY</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_LAND_HEAVY_ARTILLERY_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_LAND_HEAVY_ARTILLERY_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_LAND_HEAVY_ARTILLERY_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_LAND_HEAVY_ARTILLERY_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+
+
+		<Row>
+			<Type>CONCEPT_SP_UNIT_LAND_RECON_UNITS</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_LAND_RECON_UNITS_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_LAND_RECON_UNITS_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_LAND_RECON_UNITS_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_LAND_RECON_UNITS_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+
+		<Row>
+			<Type>CONCEPT_SP_UNIT_NAVAL_MELEE</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_NAVAL_MELEE_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_NAVAL_MELEE_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_NAVAL_MELEE_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_NAVAL_MELEE_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+
+		<Row>
+			<Type>CONCEPT_SP_UNIT_NAVAL_RANGED</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_NAVAL_RANGED_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_NAVAL_RANGED_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_NAVAL_RANGED_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_NAVAL_RANGED_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+
+		<Row>
+			<Type>CONCEPT_SP_UNIT_NAVAL_SUBMARINE</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_NAVAL_SUBMARINE_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_NAVAL_SUBMARINE_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_NAVAL_SUBMARINE_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_NAVAL_SUBMARINE_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+
+		<Row>
+			<Type>CONCEPT_SP_UNIT_NAVAL_CARRIERS</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_NAVAL_CARRIERS_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_NAVAL_CARRIERS_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_NAVAL_CARRIERS_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_NAVAL_CARRIERS_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+
+		<Row>
+			<Type>CONCEPT_SP_UNIT_ATTACK_AIRCRAFT</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_ATTACK_AIRCRAFT_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_ATTACK_AIRCRAFT_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_ATTACK_AIRCRAFT_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_ATTACK_AIRCRAFT_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+
+		<Row>
+			<Type>CONCEPT_SP_UNIT_STRATEGIC_BOMBER</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_STRATEGIC_BOMBER_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_STRATEGIC_BOMBER_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_STRATEGIC_BOMBER_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_STRATEGIC_BOMBER_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+
+		<Row>
+			<Type>CONCEPT_SP_UNIT_AIR_FIGHTERS</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_AIR_FIGHTERS_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_AIR_FIGHTERS_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_AIR_FIGHTERS_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_AIR_FIGHTERS_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+
+
+		<Row>
+			<Type>CONCEPT_SP_UNIT_ELITEUNITS</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_UNIT_ELITEUNITS_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_UNIT_ELITEUNITS_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_UNIT_ELITEUNITS_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_UNIT_ELITEUNITS_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_UNITS</CivilopediaHeaderType>
+		</Row>
+
+	</Concepts>
+		<!--************************************Victory********************************-->
+	<Concepts>
+	
+		<Row>
+			<Type>CONCEPT_SP_NUCLEAR_WINTER</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_VICTORY</CivilopediaHeaderType>
+		</Row>
+
+		<Row>
+			<Type>CONCEPT_SP_NUCLEAR_WINTER_DETAILS</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_DETAILS_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_DETAILS_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_DETAILS_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_DETAILS_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_VICTORY</CivilopediaHeaderType>
+		</Row>
+
+		<Row>
+			<Type>CONCEPT_SP_NUCLEAR_WINTER_RESULT</Type>
+			<Topic>TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_RESULT_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_RESULT_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_RESULT_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_RESULT_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>MILITARY</Advisor>
+			<CivilopediaHeaderType>HEADER_VICTORY</CivilopediaHeaderType>
+		</Row>
+
+	</Concepts>
+
+	<!--************************************Misc********************************-->
+	<Concepts>
+		<Row>
+			<Type>CONCEPT_SP_NEW_CITY_STATE_RULE</Type>
+			<Topic>TXT_KEY_SP_NEW_CITY_STATE_RULE_TOPIC</Topic>
+			<Description>TXT_KEY_CONCEPT_SP_NEW_CITY_STATE_RULE_DESCRIPTION</Description>
+			<Summary>TXT_KEY_CONCEPT_SP_NEW_CITY_STATE_RULE_SUMMARY</Summary>
+			<AdvisorQuestion>TXT_KEY_CONCEPT_SP_NEW_CITY_STATE_RULE_ADVISOR_QUESTION</AdvisorQuestion>
+			<Advisor>FOREIGN</Advisor>
+			<CivilopediaHeaderType>HEADER_CITYSTATE</CivilopediaHeaderType>
+		</Row>
+	</Concepts>
+
+
+
+	<Language_en_US>
+		<!--************************************Cities********************************-->	
+		<Row Tag="TXT_KEY_CONCEPT_SETTLER_JOIN_CITIES_TOPIC">
+			<Text>SP MOD:Move Your Popluation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SETTLER_JOIN_CITIES_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SETTLER_JOIN_CITIES_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SETTLER_JOIN_CITIES_SUMMARY">
+			<Text>In Super Power Mod, you are allowed to "move" the population between cities to increase the quality of your population. For example, you can move those people from poor and distant countryside to large cities to receive education or find a better job. On the other hand, you can move people out of over-crowded cities to support other developing cities. [NEWLINE][NEWLINE]You can order a Settler Unit to join one of your existing Cities to become one new Citizen. Just simply move it into the city you wish it to join and click "Move into the City". The Settler Unit will disapear and the Population of the city will increase by 1. [NEWLINE][NEWLINE]Be aware it won't join a City currently in Resistance or being razed. ALso, be noticed that the Settler won't carry food with them. You must make sure your cities have enough food to support the new population moving in.</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CONCEPT_SETTLER_JOIN_CITIES_ADVISOR_QUESTION">
+			<Text>Can I "move" my people between cities?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_BUILDING_OBSOLETE_IN_LATEGAME_TOPIC">
+			<Text>[COLOR_YELLOW]SP MOD:Obsolete Buildings and Historical Sites[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_BUILDING_OBSOLETE_IN_LATEGAME_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_BUILDING_OBSOLETE_IN_LATEGAME_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_BUILDING_OBSOLETE_IN_LATEGAME_SUMMARY">
+			<Text>Feeling weird about your people still using animals to grain wheat in the granary even in the information era? It won't happen in Super Power Mod. Many of the early buildings, like granary, watermill, walls and castle will become obsolete in the late game, especially after the industrialization. These building will become "useless" and not longer can be built since modern buildings have taken their place. [NEWLINE][NEWLINE]However, don't mindlessly tear them down to save the little maintance cost. They are historical sites and can provide additional Tourism after discovering certain knowledge. Only the civilization with a carefully protected history can be more attractive to the tourists to achieve the Cultural Victory. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_BUILDING_OBSOLETE_IN_LATEGAME_ADVISOR_QUESTION">
+			<Text>Buildings will become Obsolete?</Text>
+		</Row>		
+
+		<Row Tag="TXT_KEY_CONCEPT_BUILDING_EXTRA_POPCOST_TOPIC">
+			<Text>SP MOD:Extra Buildings Cost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_BUILDING_EXTRA_POPCOST_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_BUILDING_EXTRA_POPCOST_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_BUILDING_EXTRA_POPCOST_SUMMARY">
+			<Text>In Super Power Mod, many public service buildings will charge you with extra cost according to the population in the city, like Public Schools and Hospitals. The extra charge will directly add to the base gold output other than calculate separately. [NEWLINE][NEWLINE]It is less noticeable in a small city, but in a populous city, the total city income will be lowered significantly and sometimes even cause negative gold output. Be careful when building these buildings! You must be sure your economy is strong enough to support the cost. You may consider moving out some citizens from over-populated cities into other developing cities for a better price-performance ratio. [NEWLINE][NEWLINE]Important! If this city has a negative gold output, you should sell the market, bank and stock exchange to avoid additional gold lost, since the game will also modifier the negative value! For instance, a city with -5 gold output, with market, bank and stock exchange buildings, its final gold output will be -5*(1+0.75)=-8.75. (This could be a bug but maybe I could fix it in the future versions) </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_BUILDING_EXTRA_POPCOST_ADVISOR_QUESTION">
+			<Text>What is the Extra Buildings Cost?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_CITY_GOVERNMENT_TOPIC">
+			<Text>SP MOD:Local Government</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_GOVERNMENT_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_CITY_GOVERNMENT_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_GOVERNMENT_SUMMARY">
+			<Text>In order to control your non-capital cities. You must have local government - City Hall built in the city. The City Hall allows you the full authority to control the city and receive the output from the city. [NEWLINE][NEWLINE]The City Hall needs a small amount of maintance fee. However its efficiency fades with the distance from your Captial. You may see the "Corruption" part to get more information.[NEWLINE][NEWLINE]If you sell the City Hall building, this city will become a puppet. As a result, if you think a distant city's efficiency is too low. You can make it a puppet. Sometimes a puppet can produce more than a normal distant city. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_GOVERNMENT_ADVISOR_QUESTION">
+			<Text>What is a Local City Hall?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_CITIES_CORRUPTION_TOPIC">
+			<Text>SP MOD:Corruption</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITIES_CORRUPTION_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_CITIES_CORRUPTION_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITIES_CORRUPTION_SUMMARY">
+			<Text>Your city's efficiency fades with the distance from your capital due to corruption. Corruption happens in cities you founded other than capital as well as all annexed cities.[NEWLINE][NEWLINE] The city's corruption and the distance from your capital follows such rules:[NEWLINE][NEWLINE]less than 6 tiles - no corruption[NEWLINE]1/12 of the map length (at least 8 tiles, at most 12 tiles) - low corruption[NEWLINE]1/6 of the map length(at least 12 tiles) - medium corruption[NEWLINE]more than 1/3 of the map length (at least 24 tiles) - heavy corruption[NEWLINE][NEWLINE]Corruption will cause the output of Production, Gold, Science lost in those cities by a certain percent.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITIES_CORRUPTION_ADVISOR_QUESTION">
+			<Text>What is Corruption?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_ANTI_CORRUPTION_TOPIC">
+			<Text>SP MOD:Anti-Corruption</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ANTI_CORRUPTION_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_ANTI_CORRUPTION_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ANTI_CORRUPTION_SUMMARY">
+			<Text>Unfortunetly, the corruption can never be wiped out due to the weakness of humanity. However you can still do something to reduce the corruption. [NEWLINE][NEWLINE]1: Choose the suitable policy. Corruption is closely related to the structure of power. Policies focusing on decentralization, like Province can effective reduce the corruption in all cites.[NEWLINE][NEWLINE]2: Build anti-corruption buildings. Constabulary and Police Station can reduce the corruption in the cities where they are built. However they are very expensive to maintain. [NEWLINE][NEWLINE]3: Create puppet of distant cities. Sometimes a puppet can produce more than a normal distant city. Becareful if you create a puppet by selling the City Hall, all anit-corruption buildings will be removed at the same time.[NEWLINE]4:Move your Capital. After moving your new Capital, the levels of all city halls will be recalculated according to the location of your new Capital. It is the most efficient way to locate your Capital in the center of your empire. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ANTI_CORRUPTION_ADVISOR_QUESTION">
+			<Text>How can I eliemate corruption?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_WAR_DAMAGE_TOPIC">
+			<Text>SP MOD:War Casualties </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_WAR_DAMAGE_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_WAR_DAMAGE_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_WAR_DAMAGE_SUMMARY">
+			<Text>War will cause population loss, especially a long and brutal war. [NEWLINE][NEWLINE]Every two units KIAs will cause one city in your empire to lose one citizen. The city is chosen randomly. [NEWLINE][NEWLINE]As a result, the larger empires can suffer more war casualties since they have more cities to compensate the loss. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_WAR_DAMAGE_ADVISOR_QUESTION">
+			<Text>What is War Casualties?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_WAR_DAMAGE_REDUCE_TOPIC">
+			<Text>SP MOD:Reduce War Casualties</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_WAR_DAMAGE_REDUCE_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_WAR_DAMAGE_REDUCE_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_WAR_DAMAGE_REDUCE_SUMMARY">
+			<Text>The best way to get rid of War Casualties is NOT to war.[NEWLINE][NEWLINE]However, there are still some possible ways to reduce the population loss rate: [NEWLINE] [NEWLINE]1, Cherish your troops and avoid unnecessary casualties. Never fight a battle you can’t win. If there is no hope of breakthrough, you may disband the unit other than getting killed and cause population loss. [NEWLINE] [NEWLINE]2, suicidal weapons, like guided missiles won’t cause the population loss. Use them for impossible missions. [NEWLINE] [NEWLINE]3,The Centralization Policy can somehow reduce the population loss rate by 33%, which means every three units KIAs will cause the population loss instead of every two units KIAs. It is helpful for a small empire to defend itself from strong enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_WAR_DAMAGE_REDUCE_ADVISOR_QUESTION">
+			<Text>War Casualties is terrible! How can I get rid of it?</Text>
+		</Row>
+		<!--************************************Research********************************-->
+
+		<Row Tag="TXT_KEY_CONCEPT_NEW_SCIENCE_RULE_TOPIC">
+			<Text>SP MOD:New Beakers Rule</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_NEW_SCIENCE_RULE_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_NEW_SCIENCE_RULE_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_NEW_SCIENCE_RULE_SUMMARY">
+			<Text>To be more realistic,make less rushing late-game experience and avoid beakers overflow problem, the rule of collecting beakers is changed in Super Power MOD. [NEWLINE][NEWLINE]Now every citizen can no longer offer one free beaker at the very begining. (It is very ridiculous that uneducated people can contribute to the scientific innovation)[NEWLINE][NEWLINE]As a result, you must keep your citizen educated by building educational buildings and keep cultivating scientists specialists to speed up the researching speed. If you do these well, the researching speed won't be too slower than the original game since the population growth is much more faster in this MOD. [NEWLINE][NEWLINE]To compensate for early-game research, the researching penalty for building new cities has been greatly lowered and the Research Agreement is unlocked eariler.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_NEW_SCIENCE_RULE_ADVISOR_QUESTION">
+			<Text>The Beakers Rule is changed?</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_NEW_SPECIALISTS_RULE_TOPIC">
+			<Text>SP MOD:New Specialists Rule</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NEW_SPECIALISTS_RULE_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_NEW_SPECIALISTS_RULE_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NEW_SPECIALISTS_RULE_SUMMARY">
+			<Text>In Super Power MOD, the specialists rule has been changed to adapt to the new beakers rule. Also, the output of those specialists are not fixed. You are allowed to build certain foundations and guilds to increase their output at a cost of more gold investment.[NEWLINE][NEWLINE]Scientists: +4 [ICON_RESEARCH] Science but -1 [ICON_GOLD] Gold for research funds. [NEWLINE][NEWLINE]Engineers: +3 [ICON_PRODUCTION] Production but -1 [ICON_GOLD] Gold for facility funds. [NEWLINE][NEWLINE]Merchants: +3 [ICON_GOLD] Gold. [NEWLINE][NEWLINE]Writers, Artists, Musicians: +3 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]Unemployed Citizens: nothing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NEW_SPECIALISTS_RULE_ADVISOR_QUESTION">
+			<Text>The specialists rule has been changed?</Text>
+		</Row>
+
+		<!--************************************Culture********************************-->
+		<Row Tag="TXT_KEY_CONCEPT_NEW_CULTURE_RULE_TOPIC">
+			<Text>SP MOD:New Culture Output Rule</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_NEW_CULTURE_RULE_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_NEW_CULTURE_RULE_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_NEW_CULTURE_RULE_SUMMARY">
+			<Text>To be more realistic and reasonable, the Culture Output Rule is changed in Super Power MOD. [NEWLINE][NEWLINE]Now every cultural building can offer certain writer, artist, or musician slots and the three guilds are removed. It is true that real art masters always come from the society other than "professional guilds".[NEWLINE][NEWLINE]All cultural buildings can only produce 1 culture theirselves, so, to generate culture, you must keep cultivating cultural specialists. Plus, there is no building generating artistic GPP, you must filling Cultural specialist slots for great people. [NEWLINE][NEWLINE]You will be challenged by how to keep a balance between cultural, scientific and economic growth. What's more, Cultural Victory is no longer a subsidiary victory for Science or Domination Victory. It needs you to speed more time and effort on planning.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_NEW_CULTURE_RULE_ADVISOR_QUESTION">
+			<Text>The Culture Output Rule is changed?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_NEW_CHOOSEYOURWAY_TOPIC">
+			<Text>SP MOD:Early Ideology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NEW_CHOOSEYOURWAY_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_NEW_CHOOSEYOURWAY_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NEW_CHOOSEYOURWAY_SUMMARY">
+			<Text>In the Super Power Mod, you must choose the form of government for your nation by choosing one of the two policies: Tradition or Liberty, which represent “Centralisation” or “Decentralization” at the beginning of the game. They are the only policy branches available in the ancient era and they are exclusive. They have significant and long-term effects on your nation and can be considered as "Early Ideologies". [NEWLINE][NEWLINE]Tradition [NEWLINE]Advantages: Tradition is best for “tall” countries with populous cities. Most of its effect is based on the population and it is also helpful to improve the quality of your population. [NEWLINE]Disadvantages: Tradition has problem with dealing corruption. You can hardly expend your territory into distant area due to the huge loss of corruption. You will lose your chance to expand while focusing on your current cities. [NEWLINE][NEWLINE]Liberty [NEWLINE]Advantages: Liberty is best for “wide” countries with many cities. Most of its effect is based on the number of cities and it helps to pay back your investment for building new cities sooner. [NEWLINE]Disadvantages: You need a good timing and a suitable environment to unlock each policy, many of them may prove to be less effective if unlocked in the wrong time or your expansion is not going well – expansion will increase the future policy cost and always cause diplomatic problems. What’s more, the side-effect of a quick expansion encouraged by Liberty may lead to the sacrifice of building wonders or founding religions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NEW_CHOOSEYOURWAY_ADVISOR_QUESTION">
+			<Text>Early Ideology: Tradition and Liberty?</Text>
+		</Row>
+
+
+		<!--************************************Combat********************************-->
+
+		<Row Tag="TXT_KEY_CONCEPT_NEW_ATTACK_RULES_TOPIC">
+			<Text>SP MOD:New Combat Rules</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_NEW_ATTACK_RULES_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_NEW_ATTACK_RULES_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_NEW_ATTACK_RULES_SUMMARY">
+			<Text>In Super Power MOD, there is lots of new combat rules which affect the result of the combat. If you want to win a battle, you must learn how to use them effectively.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_NEW_ATTACK_RULES_ADVISOR_QUESTION">
+			<Text>Any new combat rules in this MOD?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_STACKING_COMBAT_TOPIC">
+			<Text>SP MOD:Stacking Units Combat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_STACKING_COMBAT_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_STACKING_COMBAT_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_STACKING_COMBAT_SUMMARY">
+			<Text>Super Power MOD offers 2-unit-per-plot stacking rule. [NEWLINE][NEWLINE]1:Stacked units Attacking. As normal, just click and attack! [NEWLINE][NEWLINE]2:Stacked units Defending. When attacked, the best defending unit - who has the comparetively highest combat strength(not the absoulte combat strength) - will take the damage. [NEWLINE][NEWLINE]For example, if an enemy archer attacked a plot where are one spearman and one archer of yours, the archer will suffer the attack since the speaman is weak against ranged attacks.[NEWLINE]It is always smart to stack a ranged unit and a melee unit together to let them cover each other.[NEWLINE][NEWLINE]3:Stacked unit Penalties: stacked units are not invincible. Many units can cause Collateral Damage or Charge Damage to attack or even kill all units in one plot in one shot.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_STACKING_COMBAT_ADVISOR_QUESTION">
+			<Text>What is the combat rule for stacking unit?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_RANGED_COUNTER_TOPIC">
+			<Text>SP MOD:Ranged Counter-Fire (obsolete)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RANGED_COUNTER_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_RANGED_COUNTER_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RANGED_COUNTER_SUMMARY">
+			<Text>obsolete</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RANGED_COUNTER_ADVISOR_QUESTION">
+			<Text>Ranged unit can perform a counter-fire?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_HEALING_TOPIC">
+			<Text>SP MOD:Healing and Supply</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_HEALING_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_HEALING_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_HEALING_SUMMARY">
+			<Text>For the emphasis of supply and untis coordination. The Healing Rule is changed.[NEWLINE][NEWLINE]All units can no longer heal outside the friendly territory. You can only let them heal by keeping logistical units can offer the Medic and Supply Promotion in your formation. [NEWLINE][NEWLINE]For land units, the anti-mounted untis(later the mechanized infantry) can serve as logistical units. While Great Admiral and Carriers can do the naval logistical task and let your naval untis heal even outside the friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_HEALING_ADVISOR_QUESTION">
+			<Text>The Healing Rule is changed?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_COMBAT_AOE_EFFECT_TOPIC">
+			<Text>SP MOD:AoE Damage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_COMBAT_AOE_EFFECT_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_COMBAT_AOE_EFFECT_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_COMBAT_AOE_EFFECT_SUMMARY">
+			<Text>Some late-game Heavry Artillery Units, like Railroad Gun or Rocket Artillery, can cause area-of-effect damage to a certain area. [NEWLINE][NEWLINE]The default damage amount is 100% damage to the target unit and 50% damage to all adjacent units on the first layer(the best defenders). The damage received to adjacent units is still affected by every kinds of terrian or promotion bouns. Some special Promotion can level up the damage amount to adjacent units to make the AoE damage more effective.[NEWLINE][NEWLINE] It is highly advised to use units with AoE effect rain fire on large enemy groups to have mutiple KIAs. Of course, try not to let your troops get too crowded if your enemy has such weapons. [NEWLINE][NEWLINE]Be advised attacking enemy cities won't cause AoE damage to units around. However, attacking a unit near the city can cause damage to the unit garrioned in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_COMBAT_AOE_EFFECT_ADVISOR_QUESTION">
+			<Text>What is AoE Damage?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_COMBAT_COLLDMG_EFFECT_TOPIC">
+			<Text>SP MOD:Collateral Damage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_COMBAT_COLLDMG_EFFECT_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_COMBAT_COLLDMG_EFFECT_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_COMBAT_COLLDMG_EFFECT_SUMMARY">
+			<Text>All Siege weapons and Naval Ranged Untis can cause collateral damage to a certain tile. [NEWLINE][NEWLINE]The default damage amount is 100% damage to the target unit on the first layer(the best defender), and 25% damage to all other units in the same tile. The damage received to other units is still affected by every kinds of terrian or promotion bouns. Some special Promotion can level up the collateral damage to other units in the same tile up to 100%.[NEWLINE][NEWLINE] If enemy try to stack a strong unit to cover a weak unit, use a unit with collateral damage effect to shoot them to destroy the weak unit without drive away the strong unit. Be very careful, the enemy unit with a Collateral Damage III Promotion can kill your Great General in one shot even it is covered by other units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_COMBAT_COLLDMG_EFFECT_ADVISOR_QUESTION">
+			<Text>What is Collateral Damage?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_COMBAT_CHARGEDMG_EFFECT_TOPIC">
+			<Text>SP MOD:Charge Damage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_COMBAT_CHARGEDMG_EFFECT_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_COMBAT_CHARGEDMG_EFFECT_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_COMBAT_CHARGEDMG_EFFECT_SUMMARY">
+			<Text>All Heavy Mounted Units and Tanks which can strike enemy back can cause charge damage to a certain tile. [NEWLINE][NEWLINE]The default damage amount is 100% damage to the target unit on the first layer(the best defender).If the defender is striked back, do 33% damage to all other units in the same tile. The damage received to other units is still affected by every kinds of terrian or promotion bouns. Some special Promotion can level up the charge damage to other units in the same tile up to 100%.[NEWLINE][NEWLINE] If enemy try to stack a strong unit to cover a weak unit, use a unit with collateral damage effect to attack them and you may kill them both in one hit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_COMBAT_CHARGEDMG_EFFECT_ADVISOR_QUESTION">
+			<Text>What is Charge Damage?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_COMBAT_SUNDER_EFFECT_TOPIC">
+			<Text>SP MOD:Sunder and Slow Down</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_COMBAT_SUNDER_EFFECT_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_COMBAT_SUNDER_EFFECT_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_COMBAT_SUNDER_EFFECT_SUMMARY">
+			<Text>All Hit-and-Run Uints and Naval Ranged Units can sunder the enemy unit, while archery Units can slow down the enemy. [NEWLINE][NEWLINE]If the enemy is sundered, it will become vulnerable to attacks. It is highly advised to use these units to attack the enemy,especially those hard targets first, to soften their defense. After that, you can take them down with ease.[NEWLINE][NEWLINE]If your troops are overrun, you can use your archery units to slow them down to buy you some time and cause traffic jams to the enemy force. It is even more effective to stop those fast-attack units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_COMBAT_SUNDER_EFFECT_ADVISOR_QUESTION">
+			<Text>What is Sunder and Slow Down effects?</Text>
+		</Row>
+
+		<!--************************************Units********************************-->
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_SUMMARY_TOPIC">
+			<Text>SP MOD: A Summary of Combat Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_SUMMARY_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_SUMMARY_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_SUMMARY_SUMMARY">
+			<Text>In Super Power MOD, all combat units are classified into more professional and realistic categories. In order to win a war, you must know your units: their abilities, advantages and weakness, and of course, how to cooperate them. So far, we have such units categories by their abilities:[NEWLINE][NEWLINE]Land Units:[NEWLINE]Infantry[NEWLINE]Mobile[NEWLINE]Fast-Attack[NEWLINE]Counter[NEWLINE]Ranged[NEWLINE]Siege[NEWLINE]Heavy-Artillery[NEWLINE]Recon/Special Forces[NEWLINE][NEWLINE]Naval Units:[NEWLINE]Naval Melee[NEWLINE]Naval Ranged[NEWLINE]Submarine[NEWLINE]Carrier[NEWLINE][NEWLINE]Air Units:[NEWLINE]Tactical Bomber[NEWLINE]Strategic Bomber[NEWLINE]Air-Superiority Fighter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_SUMMARY_ADVISOR_QUESTION">
+			<Text>Super Power Units?</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_INFANTRY_TOPIC">
+			<Text>SP MOD Units: Infantry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_INFANTRY_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_INFANTRY_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_INFANTRY_SUMMARY">
+			<Text>Infantry is the most basic forces in your land military. They are strong, versatile, but cheap and slow. Their main task is defending the front-line. However, their strength is strong enough to charge at enemy's battle line and they are especially capable at attacking enemy cities.[NEWLINE][NEWLINE]Advantages: [NEWLINE]Strong Combat Strength [NEWLINE]Excellent Price to performance[NEWLINE]Versatile: can do well in both offensive and defensive missions [NEWLINE]Always first to upgrade in a new era [NEWLINE][NEWLINE]Disadvantages: [NEWLINE]Slow[NEWLINE]Weak vs Mobile Units[NEWLINE]Low survivability if overwhelmed.[NEWLINE][NEWLINE]Tactics: [NEWLINE]1, Use them to protect your high-value target like siege weapons . After earning “Cover“ Promotion and going fortified, they are very strong vs ranged attacks. [NEWLINE]2, They have combat bonus attacking cities. Use them to capture enemy cities to reduce unnecessary loss. [NEWLINE]3, they are very cheap to build or purchase, stick together and use their numbers to overwhelm strong enemies. [NEWLINE]4, Gunpowder Infantry can perform a ranged attack before charging, making them strong at attacking. [NEWLINE]5, Accompanied with enough counter and ranged units, they can build up an almost unbreakable frontline. [NEWLINE][NEWLINE]Counter Tactics: [NEWLINE]1,Siege weapons with “volley” Promotion can easily destroy fortified infantry units. [NEWLINE]2, Use heavy mobile units (knights and tanks) have combat bonus vs infantry units, so they can charge at enemy infantry and “kick” them back and break their battle line, [NEWLINE]3, Use your fast-attack units or naval ranged units to sunder them, then they are easier to kill.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_INFANTRY_ADVISOR_QUESTION">
+			<Text>Frontline Infantry?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_MOBILE_TOPIC">
+			<Text>SP MOD Units: Mobile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_MOBILE_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_MOBILE_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_MOBILE_SUMMARY">
+			<Text>Mobiles Units are fast and powerful professional assaulting units.  They are designed to break through the enemy frontline. Starting with combat bonus for attacking and ability to move after attacking, they can easily make holes in the enemy lines and then ride straight through them. [NEWLINE][NEWLINE]Advantages: [NEWLINE]Strong when attacking[NEWLINE]Excellent balance between mobility and combat strength[NEWLINE]Can force the enemy to withdraw[NEWLINE]May deal critical damage to stacked enemy units[NEWLINE][NEWLINE]Disadvantages:[NEWLINE]Expensive and require certain resources[NEWLINE]Weak vs Counter Units which are much cheaper[NEWLINE] Weak when defending itself and can be easily outnumbered[NEWLINE]Weak attacking cities or be attacked by cities[NEWLINE][NEWLINE]Tactics: [NEWLINE]1, When it inflicts more damage to the enemy than it receives, forces the enemy unit to withdraw and deal damage to other units in the target tile. As a result, it can seriously damage or destroy enemy high-value target by driving away the protector. [NEWLINE]2, Use its mobility wisely, after charging, shift to safe position to evade from enemy counter-attacks. [NEWLINE]3,After earning pillage-related promotion, it can pillage enemy improvements without spending MP. Use it to enhance survivability or do harm to enemy’s economy. [NEWLINE]4,If the enemy’s anti-tank firepower is strong, try to give your tanks “Armored Plating” Promotion to improve their survivability.[ [NEWLINE]5, NEVER use it to attack the countering units. It’s certain death. Try to use your ranged units to destroy them before charging or simply take a detour.[NEWLINE]5, Protect your experienced mobile elites, they are much more useful than recruits. [NEWLINE][NEWLINE] Counter Tactics: [NEWLINE]1, Certain counter units are designed to fight with them, build pikemen and anti-tank guns to defend your frontline. Counter units can kill the attacking mobile opponent of the same era instantly when defending. [NEWLINE]2, The siege weapons can only do very limited damage to them. Don’t waste your ammo on them.  [NEWLINE]3, All anti-tank units can perform a ranged attack to allow them to destroy enemy tanks in a safe distance. However, if the enemy tanks have”Armored Plating”, the ranged attack will be less-effective, and then you should consider melee attacks. [NEWLINE]4, If your enemy have lots of advanced mobile units, don’t get panic, try to use fast-attack units or naval ranged units to sunder them. Since they don’t have any defensive bonus, they will be very weak when sundered. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_MOBILE_ADVISOR_QUESTION">
+			<Text>Mobile Units?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_MOUNTED_RANGED_TOPIC">
+			<Text>SP MOD Units: Mounted Archery Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_MOUNTED_RANGED_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_MOUNTED_RANGED_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_MOUNTED_RANGED_SUMMARY">
+			<Text>Mounted Archery Units are professional hit-and-run units designed for fast-attack missions in pre-industrial eras.  [NEWLINE][NEWLINE]Advantages: [NEWLINE]Can perform both ranged and melee attacks[NEWLINE]Excellent mobility and can move after attacking[NEWLINE]Can sunder the enemy[NEWLINE]have bonus vs wounded units (needs the “hunt down” promotion) [NEWLINE] Good survivability [NEWLINE][NEWLINE]Disadvantages:[NEWLINE]Poor price to performance [NEWLINE]Both melee and range combat strength are weaker compared with certain melee and ranged units of its era [NEWLINE]Cannot pillage[NEWLINE]Weak attacking cities or be attacked by cities[NEWLINE][NEWLINE]Tactics: [NEWLINE]1, Their cost indicates they are not designed for mass-production. Their task is not to charge into enemy lines but to “gank”.[NEWLINE]2, They can work with heavy mounted units nicely. Use their “sunder” ability to sunder the enemy to soften their defense and then let your knight crush them.[NEWLINE]3, They can also work in small groups away from your main force. You need at least two mounted archers, one promoted with "sunder" and the other, “hunt down”. Use the “sunder” unit to wound the enemy and soften its defense, then let the “hunt down” unit deal damage, since the bonus can be as high as 100%, nobody can stands several turns of such attack, even the enemy is an unit of advanced era.[NEWLINE]4, Don’t forget they can still melee! Use its melee attack against enemy ranged units, especially the weak but dangerous siege weapons. Sometimes you need to deal a certain amount of damage to sunder the enemy, because their melee combat strength is higher than range. [NEWLINE]5, For the same reason, they are capable for defensive tasks, use them to cover your ranged units if needed. Note that the bonus vs wounded units is also effective while defending. [NEWLINE]6, Protect your experienced elites, they are much more useful than recruits. After earning the “logistics”, one unit can use its ranged attack to sunder the enemy then use the anti-wounded bonus to serious damage or even kill the enemy. [NEWLINE][NEWLINE]Counter Tactics: [NEWLINE]1, Their range combat strength is not as strong as the archery units of the same era.  Use your archers to shoot them from a safe distance and can deal critical damage to them. If with “barrage” promotion, archers can easily slow them down. [NEWLINE]2, The siege weapons can only do very limited damage to them(they belong to mounted units). Don’t waste your ammo on them.  [NEWLINE]3, For the same reason, use units with anti-mounted ability to attack them to deal fatal damage. [NEWLINE]4, If the enemy MOunted Archery Unit has the “hunt down” promotion, don’t use wounded units to attack them. As mentioned above, it is still effective when defending! [NEWLINE]5, In higher difficulty levels, the rich AI will build lots of them to trouble you. AI will only use its melee attacks but that is bad enough. So always make your troops stay in neat formation followed by reserve force – if AI uses them to sunder your frontline units, you can quickly draw them back and fill the position with reserve force. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_MOUNTED_RANGED_ADVISOR_QUESTION">
+			<Text>Mounted Archery Units?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_HELICOPTER_CLASS_TOPIC">
+			<Text>SP MOD Units: Helicopters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_HELICOPTER_CLASS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_HELICOPTER_CLASS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_HELICOPTER_CLASS_SUMMARY">
+			<Text>Helicopters are professional hit-and-run units designed for fast-attack missions in post-industrial eras.  [NEWLINE][NEWLINE]Advantages: [NEWLINE]Can perform both ranged and melee attacks[NEWLINE]Excellent mobility with a hovering ability: can move across mountains and enter costal area, also can move after attacking[NEWLINE]Can sunder the enemy[NEWLINE]have bonus vs wounded units (needs the “hunt down” promotion) [NEWLINE]Good survivability [NEWLINE][NEWLINE]Disadvantages:[NEWLINE]Poor price to performance [NEWLINE]Both melee and range combat strength are weaker compared with certain melee and ranged units of its era [NEWLINE]Cannot pillage[NEWLINE]Cannot capture cities[NEWLINE]Weak to attack aircrafts and ground anti-air fire [NEWLINE][NEWLINE]Tactics: [NEWLINE]1, Since they also belong to fast-attack units, so all tactics of Mounted Archery Units are also suitable for them. [NEWLINE]2, However, their hovering movement distinguishes them from those Mounted Archery Units, so take the advantage of it. They are capable to across the mountain or river to launch a surprise attack and then withdraw unharmed. [NEWLINE]3, Unlike the original Civ 5 games, helicopters don’t start with anti-tank bonus, if you need them to attack enemy tanks you need to promote them with “ambush”. However this is less efficient. The best way to defeat enemy tanks is to use helicopters to sunder them and use your anti-tank weapons destroy them quickly and safely.[NEWLINE]4, Clear the sky before send your helicopters to the frontline unless you want them to be cookies of enemy’s attack aircrafts. Also avoid any enemy anti-air units get too close to your helicopters. [NEWLINE][NEWLINE]Counter Tactics: [NEWLINE]1, Land anti-air units - AA guns , mobile Sams and attack aircrafts are the natural enemies of helicopters. They can bring the enemy helicopter of the same era down only by one hit.  Land anti-air units have great bonus when defending attack from helicopters, so you can also use them to cover your troops from enemy helicopters assault. [NEWLINE]2, The siege weapons can only do very limited damage to them (they are floating in the air). Don’t waste your ammo on them.  [NEWLINE]3, Modern Archery Units (machine guns, bazookas, ATGM vehicles) can deal “acceptable” damage to helicopters since they have a better range combat strength and can slow them down with the “barrage” promotion. [NEWLINE]4, If the enemy helicopter has the “hunt down” promotion, don’t use wounded units to attack them. It is still effective when defending! [NEWLINE]5, In higher difficulty levels, the rich AI will build lots of them to trouble you. AI will only use its melee attacks but that is bad enough. So always make your troops stay in neat formation followed by reserve force. Keep an eye on your siege weapons and heavy artilleries, AI helicopters love rushing to them from the fog of war! </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_HELICOPTER_CLASS_ADVISOR_QUESTION">
+			<Text>Helicopter Units?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_COUNTER_UNITS_TOPIC">
+			<Text>SP MOD Units: Counter Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_COUNTER_UNITS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_COUNTER_UNITS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_COUNTER_UNITS_SUMMARY">
+			<Text>Counter Units are professional units designed for countering enemy menacing units, like mounted units, tanks, fast attack units and aircrafts. They can also serve as logistics units to heal your troops out of friendly territory [NEWLINE][NEWLINE]Advantages: [NEWLINE]Very cheap compared with their countering units[NEWLINE]Can serve as “medic” to heal all units around them [NEWLINE]Excellent survivability with “medic” promotion [NEWLINE]Anti-air units can perform up to 3 interceptions per turn by “sortie” promotion.   [NEWLINE][NEWLINE]Disadvantages:[NEWLINE]Limited mobility compared with their countering units[NEWLINE]Weak to ranged attacks [NEWLINE]Can still be overrun if outnumbered[NEWLINE]Anti-air units and ATGM vehicles cannot earn “medic” promotion [NEWLINE][NEWLINE]Tactics: [NEWLINE]1, They are designed as defensive units so they cannot earn any offensive promotions. Use them to defend important positions instead of charging into the enemy frontline. [NEWLINE]2, However, they can still be deadly when attacking their countering units if promoted with certain promotions. Use them to destroy the enemy knights or tanks who have pushed too far from their frontline. [NEWLINE]3, Anti-tank units and anti-air units can perform ranged attacks. Use them wisely to avoid unnecessary damage. [NEWLINE]4, Use infantry units or mobile units to cover them from enemy ranged attacks. [NEWLINE]5, Land anti-air units won’t take damage during enemy fighters’ air-sweep. So use them to waste enemy fighters’ air-sweeps. [NEWLINE][NEWLINE]Counter Tactics: [NEWLINE]1, they are usually slower than their countering units. Why not take a detour other than directly run into them?  [NEWLINE]2, The archery units, siege weapons, heavy artilleries can deal fatal damage to them. Use them to wipe them out to clear the path.  [NEWLINE]3,  Land anti-air units’ firepower cannot stop strategic bombers.  If you cannot clear them out, you can still order your strategic bombers to attack enemy cities. They may take damage but can hardly get shot down.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_COUNTER_UNITS_ADVISOR_QUESTION">
+			<Text>Counter Units?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_LAND_ARCHERY_UNITS_TOPIC">
+			<Text>SP MOD Units: Archery Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_LAND_ARCHERY_UNITS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_LAND_ARCHERY_UNITS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_LAND_ARCHERY_UNITS_SUMMARY">
+			<Text>Archery units no only mean “archers” but also mean the units which start with a 2-hex shooting range, including gatlin guns, machine guns, bazookas and ATGM vehicles. They can provide fire support for your troops.[NEWLINE][NEWLINE]Advantages: [NEWLINE]Cheap and don’t require resources until becoming ATGM vehicles. [NEWLINE]Can pin down the enemy [NEWLINE]Can counter-attack enemy ranged attacks [NEWLINE][NEWLINE]Disadvantages:[NEWLINE]Limited mobility [NEWLINE]Weak range combat strength, especially attacking enemy units with anti-ranged-attack promotions [NEWLINE]Very weak if caught in melee combat [NEWLINE]Cannot capture cities unless the city has only 1 population. [NEWLINE][NEWLINE]Tactics: [NEWLINE]1, They are fire-support units, not frontline units. They must always be covered by melee units. [NEWLINE]2, After earned the “barrage” promotion, they can pin down the enemy units to stop them from advancing or escaping. However, you are still recommended to earn “accuracy” first since you must have enough firepower to trigger the pinned down effect.[NEWLINE]3, Gating guns and machine guns are very effective to take down enemy infantry units but weak attacking tanks. This will change after upgrading to bazookas; they will no longer have bonus vs infantry but vs tanks. [NEWLINE]4, The archery units and counter units will join hands in the last from. The last archery unit shown up in the game is the ATGM vehicle. As a result, you may consider cultivate some elite counter units with the “blitz” promotion, after upgrading to the ATGM vehicle, the “blitz” promotion can multiply with “logistics” promotion which will make it can shoot up to three times per turn![NEWLINE]5,After earning “logistics” promotion, it can attack twice per turn but the combat strength is reduced by 25%. So choose it wisely. [NEWLINE][NEWLINE]Counter Tactics: [NEWLINE]1, they can counter-attack ranged attacks but they are very weak in melee combat. Use your mobile units to crush them other than use ranged unit to shoot. [NEWLINE]2, Siege weapons have a longer shooting range and higher range combat strength, so they can cause considerable damage to them free from being fought back.  [NEWLINE]3,  Although the “barrage” promotion doesn’t always function well for human players’ units, AI units use it quite disgustedly. So don’t rush too far if the AI has many archery units or your units may never come back. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_LAND_ARCHERY_UNITS_ADVISOR_QUESTION">
+			<Text>Archery Units?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_LAND_SIEGE_WEAPONS_TOPIC">
+			<Text>SP MOD Units: Siege Weapons</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_LAND_SIEGE_WEAPONS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_LAND_SIEGE_WEAPONS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_LAND_SIEGE_WEAPONS_SUMMARY">
+			<Text>Siege weapons are professional long-range suppression and city-attack units. Besides attacking cities they can also cause considerable damage to enemy fortified units and stacked units. [NEWLINE][NEWLINE]Advantages:[NEWLINE]Best range combat strength of its era [NEWLINE]Can cause collateral damage to all enemy units in the same tile [NEWLINE]Can counter-attack enemy ranged attacks[NEWLINE]Great bonus attacking enemy cities [NEWLINE][NEWLINE]Disadvantages:[NEWLINE]Limited mobility, must set up until self-propelled howitzer [NEWLINE]Almost defend-less if caught in melee combat [NEWLINE]Cannot capture cities unless the city has only 1 population. [NEWLINE]Expensive and require resources [NEWLINE][NEWLINE]Tactics: [NEWLINE]1, They are long range suppression and city-attack units, not frontline units. Never go out alone. [NEWLINE]2, Their bonus vs cities and long shooting range allow them to bombard enemy cities within safe distance.[NEWLINE]3, After earning the “volley” promotion, they are very effective against enemy fortified units. Use them to take out those hard targets. [NEWLINE]4, They can also go defensive, by earning the “collateral damage” promotion, use their firepower block the choke points. [NEWLINE]5, They can earn the “range” promotion early than the “logistics” promotion and the “range” promotion is recommended because long-range is their specialty. [NEWLINE][NEWLINE]Counter Tactics: [NEWLINE]1, They are very easy to kill if exposed. Also, they cannot survive by the charge effect caused by mobile units’ charging. [NEWLINE]2, aircrafts and naval ranged units are also very effective against them which can always finish them by one hit.[NEWLINE]3, Avoid unnecessary stacking units if moving within their shooting range to free from collateral damage. Be very careful! A siege weapon with Lv3 collateral damage can kill your great general, worker, or other weak units in one shot even if they are covered by other units. Try to stay out of their sight! </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_LAND_SIEGE_WEAPONS_ADVISOR_QUESTION">
+			<Text>Siege Weapons?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_LAND_HEAVY_ARTILLERY_TOPIC">
+			<Text>SP MOD Units: Heavy Artillery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_LAND_HEAVY_ARTILLERY_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_LAND_HEAVY_ARTILLERY_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_LAND_HEAVY_ARTILLERY_SUMMARY">
+			<Text>Heavy Artilleries are post-industrial weapons capable for massive destruction, which means they are able to cause area of effect damage to multiple enemy units in one shot.[NEWLINE][NEWLINE]Advantages:[NEWLINE]Very long shooting range [NEWLINE]Can cause area of effect damage to all enemy units nearby the target tile[NEWLINE]Can counter-attack enemy ranged attacks[NEWLINE][NEWLINE]Disadvantages:[NEWLINE]Limited mobility [NEWLINE]Almost defend-less if caught in melee combat [NEWLINE]Weak vs cities and fortified units[NEWLINE]Very expensive and require a lot of resources [NEWLINE]No collateral damage[NEWLINE][NEWLINE]Tactics: [NEWLINE]1,On the modern battle field, they are always the first one to fire. Use their ability to cause a wide range of damage to the enemy battle line. Then use your helicopters to soften them up by sundering. Finally, your tanks will finish up any enemy units left. This is very effective especially when you don’t gain the air-superiority. [NEWLINE]2, For the game balance, they suffer great penalty attacking cities and when attacking cities, there is no area of damage. However, if you attack a unit near the city, the unit inside the city will get hit.  [NEWLINE]3, The area of effect damage is also effective to enemy naval units. [NEWLINE] 4, Never attack an enemy heavy artillery unit with a ranged attack. It will shoot you back with an area of effect damage. [NEWLINE]5, Protect them! They cannot be too fragile. [NEWLINE][NEWLINE]Counter Tactics: [NEWLINE]1, They are very easy to kill if exposed. Any melee units and aircrafts can destroy them with ease. [NEWLINE]2, Try to avoid a crowed formation to reduce damage. Separate your units within one hex. [NEWLINE]3, They can only damage the units on the first layer for stacked units. So you may use your infantry to fortify to cover your troops. With the fortification and terrain bonus, they are strong enough to survive the damage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_LAND_HEAVY_ARTILLERY_ADVISOR_QUESTION">
+			<Text>Heavy Artillery?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_LAND_RECON_UNITS_TOPIC">
+			<Text>SP MOD Units: Recon/Special Forces</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_LAND_RECON_UNITS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_LAND_RECON_UNITS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_LAND_RECON_UNITS_SUMMARY">
+			<Text>Recon Units are professional units for exploration. After entering the industrial era, when the map is mostly explored, they can upgrade to Special Forces Units, which have their unique abilities for special missions.  [NEWLINE][NEWLINE]Advantages:[NEWLINE]Camouflaged, invisible to most units and enemy archery units cannot fire directly on them[NEWLINE]Can see other camouflaged units[NEWLINE]Move ignore terrain costs [NEWLINE][NEWLINE]Disadvantages:[NEWLINE]They can still be spotted by the cities or the enemy coming next to them[NEWLINE]Weak combat strength [NEWLINE][NEWLINE]Tactics: [NEWLINE]1,Do not engaged enemy regular forces. You can evade by using their camouflage. [NEWLINE]2, Explorers can enter other nations’ border without an open border contract. Use them to do some research in your rival’s territory. [NEWLINE]3, Their combat strength is not so strong, but strong enough to take down enemy high-value target like siege weapons, heavy artilleries and anti-air units, especially when they have the “Special Ops I” promotion which allows them to use routes in the enemy’s territory.[NEWLINE][NEWLINE]Counter Tactics: [NEWLINE]1, They cannot do much damage to your frontline troops and they are not so hard to kill. Mobile units and infantry units are effective against them. [NEWLINE]2, Archery units still can’t attack them even they are exposed but siege weapons can.[NEWLINE]3, Build some special forces units, but not too many, to go with your troops in order to detect enemy special forces units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_LAND_RECON_UNITS_ADVISOR_QUESTION">
+			<Text>Recon Units and Special Forces?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_NAVAL_MELEE_TOPIC">
+			<Text>SP MOD Units: Naval Melee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_NAVAL_MELEE_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_NAVAL_MELEE_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_NAVAL_MELEE_SUMMARY">
+			<Text>Naval Melee Units are the most basic forces in your naval military. They are strong, versatile and fast. Their main task is protecting your naval ranged units and attack enemy naval ranged units. Also they are capable at attacking enemy cities.[NEWLINE][NEWLINE]Advantages: [NEWLINE]Strong Combat Strength [NEWLINE]Good price to performance[NEWLINE]Versatile: can do well in both offensive and defensive missions [NEWLINE]Good Mobility[NEWLINE][NEWLINE]Disadvantages:[NEWLINE]Cannot perform ranged attacks, always falling into a passive position [NEWLINE]Low survivability if overwhelmed. [NEWLINE][NEWLINE]Tactics: [NEWLINE]1, They can stand more enemy ranged fire. Promote them with “armor plating” promotion to protect your naval ranged units since the enemy naval ranged units can shoot back. [NEWLINE]2, They are comparably cheap, use their numbers to overrun enemy naval ranged units. [NEWLINE]3, They are capable to capture enemy cities from the sea. [NEWLINE]4, Destroyers have limited anti-air firepower. They can deal damage to enemy attack aircrafts but may not destroy them in one shot and can only intercept once per turn. [NEWLINE][NEWLINE]Counter Tactics: [NEWLINE]1, Use your naval ranged units to sunder them, then they are easier to kill. [NEWLINE]2, Guided missiles are very effective against them, especially when they are sundered. [NEWLINE]3, After earning higher “air targeting” promotions, they can no longer stop your attack aircrafts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_NAVAL_MELEE_ADVISOR_QUESTION">
+			<Text>Naval Melee Units?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_NAVAL_RANGED_TOPIC">
+			<Text>SP MOD Units: Naval Ranged</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_NAVAL_RANGED_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_NAVAL_RANGED_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_NAVAL_RANGED_SUMMARY">
+			<Text>Naval Ranged Units are naval units with range attack abilities.[NEWLINE][NEWLINE]Advantages: [NEWLINE]Strong Range Combat Strength [NEWLINE]Can sunder enemy units [NEWLINE]Can cause collateral damage to all enemy units in the same tile [NEWLINE]Can counter-attack enemy ranged attacks [NEWLINE]Great bonus vs land ranged units [NEWLINE][NEWLINE]Disadvantages: [NEWLINE]Weak if caught in melee combat[NEWLINE]Expensive and require more resources[NEWLINE]Weak to submarines [NEWLINE][NEWLINE]Tactics: [NEWLINE]1, They are naval fire-support units. Use them to sunder the enemy first then your naval melee units can fish them up. [NEWLINE]2, After promoting the “collateral damage” promotion, they are capable to destroy stacked embarked land units by one hit - AI land units often love to swim. [NEWLINE]3, Sometimes you can intentionally expose them to the land ranged units. Then watch AI land ranged units mindlessly shooting them and get shot back dead. But you should make sure they won’t be caught by enemy naval melee units. [NEWLINE]4, Protect your experienced naval ranged units. They are much more useful than the recruits.[NEWLINE][NEWLINE]Counter Tactics: [NEWLINE]1, It is not recommended to attack them with ranged attacks if can’t kill them in one shot because they will shoot back. [NEWLINE]2, Promote your naval melee units with “Boarding Party” to attack them. [NEWLINE]3, Submarines and aircrafts with “air targeting” promotion are very effectively against them. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_NAVAL_RANGED_ADVISOR_QUESTION">
+			<Text>Naval Ranged Units?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_NAVAL_SUBMARINE_TOPIC">
+			<Text>SP MOD Units: Submarines</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_NAVAL_SUBMARINE_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_NAVAL_SUBMARINE_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_NAVAL_SUBMARINE_SUMMARY">
+			<Text>Submarine Units are post-industrial naval units staying under water.[NEWLINE][NEWLINE]Advantages: [NEWLINE]Strong vs all naval units [NEWLINE]Invisible to most units [NEWLINE]Can see other submarines [NEWLINE]Can counter-attack enemy ranged attacks [NEWLINE][NEWLINE]Disadvantages: [NEWLINE]Weak if attacked[NEWLINE]Require resources[NEWLINE]Can only attack naval units[NEWLINE][NEWLINE]Tactics: [NEWLINE]1, Work in “wolf packs”, a single submarine is easy to be destroyed. [NEWLINE]2, Nuclear attacking submarines can move after attacking and equip guided missiles, which making them more deadly and with a better survivability, however they need precious uranium resources. [NEWLINE]4, Ballistic missile submarine are extremely dangerous since they can carry nuclear missiles and ICBMs.[NEWLINE][NEWLINE]Counter Tactics: [NEWLINE]1, Build destroyers to protect your fleet. A submarine cannot sink a destroyer in one hit but the destroyer can destroy a submarine in one hit. [NEWLINE]2,Keep a neat formation, don’t let them sneak into and destroy your carriers and battleships. [NEWLINE] 3, Never attack them with your naval ranged units since they can shoot back and instantly kill yours.[NEWLINE]4, Aircrafts with “air targeting” promotion are very effectively against them, especially attacking the tough ballistic missile submarine. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_NAVAL_SUBMARINE_ADVISOR_QUESTION">
+			<Text>Submarines?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_NAVAL_CARRIERS_TOPIC">
+			<Text>SP MOD Units: Carriers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_NAVAL_CARRIERS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_NAVAL_CARRIERS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_NAVAL_CARRIERS_SUMMARY">
+			<Text>Carriers are large naval units capable of loading aircrafts and offer naval supply to your fleet. In Super Power Mod, they are much more useful than the original Civ5 game.[NEWLINE][NEWLINE]Advantages: [NEWLINE]High capacity [NEWLINE]Offer naval supply, can heal all units around it  [NEWLINE]Wide visibility [NEWLINE][NEWLINE]Disadvantages: [NEWLINE]Cannot attack [NEWLINE]Extremely expensive and require lots of resources [NEWLINE][NEWLINE]Tactics: [NEWLINE]1, Carriers are the center of your fleet. They can heal your naval units even out of friendly territory. [NEWLINE]2, Aircrafts stationed on the carrier can also be healed quickly. [NEWLINE]3, The aircrafts on their decks are more valuable than themselves. Never go out alone, stay within your fleet. [NEWLINE][NEWLINE]Counter Tactics: [NEWLINE]1, Use submarines to sneak into the enemy fleet and destroy the carrier. However, Super-carriers are very strong. Nothing can kill it with one hit unless nuclear missiles. [NEWLINE]2, If you have enough anti-air firepower, you don’t need to worry too much about them. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_NAVAL_CARRIERS_ADVISOR_QUESTION">
+			<Text>Carriers?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_ATTACK_AIRCRAFT_TOPIC">
+			<Text>SP MOD Units: Tactical Bombers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_ATTACK_AIRCRAFT_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_ATTACK_AIRCRAFT_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_ATTACK_AIRCRAFT_SUMMARY">
+			<Text>Tactical Bombers (Attack Aircrafts) are air units designed for attacking enemy land or naval units.[NEWLINE][NEWLINE]Advantages: [NEWLINE]Death from above: always destroy target unit in one hit[NEWLINE]Long air-range [NEWLINE]Low damage taken when attacking [NEWLINE][NEWLINE]Disadvantages: [NEWLINE]Weak vs anti-air units or fighters [NEWLINE]Weak attacking cities [NEWLINE]Very low survivability if intercepted [NEWLINE][NEWLINE]Tactics: [NEWLINE]1, You must choose the right promotion for them according to the desired targets: anti-naval, anti-land, or anti-armor. If you attack the unit with the wrong promotion, say, use a naval attack aircraft to attack the infantry, the damage inflicted is very limited. [NEWLINE]2, For most cases, you should have more anti-land attack aircrafts than anti-naval or anti-armor ones since there are other more professional units to do the job. (Submarines and anti-tank units)[NEWLINE]3, Make sure the target tile is clear first. Always use your fighters for air-sweeps before attacking. If intercepted by any kinds of anti-air firepower of the same era, they can seldom come back alive. [NEWLINE]4, they can also take down enemy helicopters with ease. [NEWLINE]5, Remember: WWI bomber is a tactical bomber and upgrades to dive bomber, not bomber as the original Civ5 game.[NEWLINE][NEWLINE]Counter Tactics: [NEWLINE]1, Air-superiority fighters and anti-air units are lethal to them. Make sure you can control the sky. [NEWLINE]2, If you are fallen behind in technology, for instance, AI has WWI aircrafts but you don’t have any anti-air weapons, retreat your troops from their land into your cities nearby, AI will turns to aimlessly attack your cities. Then use a great scientist to discover the certain tech - you should always have a great scientist stored for emergency research. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_ATTACK_AIRCRAFT_ADVISOR_QUESTION">
+			<Text>Tactical Bombers?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_STRATEGIC_BOMBER_TOPIC">
+			<Text>SP MOD Units: Strategic Bombers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_STRATEGIC_BOMBER_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_STRATEGIC_BOMBER_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_STRATEGIC_BOMBER_SUMMARY">
+			<Text>Strategic Bombers are long range heavy bomber units designed for attacking enemy cities to damage the enemy’s economy. As a strategic weapon, they are useful for the military deterrence. [NEWLINE][NEWLINE]Advantages: [NEWLINE]Can cause massive damage to the enemy’s economy by destroying building and killing population in the cities [NEWLINE]Very long air-range [NEWLINE]Cannot be stopped by the enemy land anti-air units [NEWLINE][NEWLINE]Disadvantages: [NEWLINE]Extremely expensive and require lots of resources [NEWLINE]Weak attacking units[NEWLINE]Weak to intercepting fighters [NEWLINE][NEWLINE]Tactics: [NEWLINE]1, If the target city doesn’t have a bomb shelter, it will suffer fatal destruction only after a few  bombardment missions. As a result, your bombers force them build expensive bomb shelters in all large cities – which also proves to be a kind of damage to their economy. [NEWLINE]2, Their most useful promotion could be “air siege I” which can destroy the enemy city’s defensive building to make your ground troops take it easily. [NEWLINE]3, If you want to capture the enemy city and make use of it, you’d better not promote them with “air siege II” and “air siege III” or you are destroying your own buildings! [NEWLINE]4, their blockbuster bombs are not designed for attacking units, don’t waste their bombs. [NEWLINE]5, They are always the most expensive units of its era. Always perform an air-sweep before attacking; otherwise, it will damage your economy! [NEWLINE][NEWLINE]Counter Tactics: [NEWLINE]1, Only the air-superiority fighters of the same era can stop them from bombing the city. Land or naval anti-air units cannot stop them, as well as the old version air-superiority fighters. [NEWLINE]2, Build bomb shelters in all of your major cities. Although bomb shelters’ maintenance cost is very expensive, it is better than getting bombed back to the Stone Age. Don’t think your cities far away from the frontline are safe - strategic bombers’ air range are able to reach you from another continent. [NEWLINE]3, They can only do little damage to the population the city with a bomb shelter. However they can still destroy the certain buildings. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_STRATEGIC_BOMBER_ADVISOR_QUESTION">
+			<Text>Strategic Bombers?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_AIR_FIGHTERS_TOPIC">
+			<Text>SP MOD Units: Air-superiority Fighters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_AIR_FIGHTERS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_AIR_FIGHTERS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_AIR_FIGHTERS_SUMMARY">
+			<Text>Air-superiority Fighters are long range intercepting aircrafts for taking control of the sky. [NEWLINE][NEWLINE]Advantages: [NEWLINE]Can intercept enemy aircrafts [NEWLINE]Can perform air-sweeps [NEWLINE]Long air-range[NEWLINE]Relatedly cheap [NEWLINE][NEWLINE]Disadvantages: [NEWLINE]Cannot attack land or naval units [NEWLINE][NEWLINE]Tactics: [NEWLINE]1, They are only designed for anti-air purpose so they cannot attack any other units. (If not so, AI will use them to suicide which makes the thing worse) [NEWLINE]2, They have a very long air-range for interception. However you still need land anti-air units to cover the gap. [NEWLINE]3, If you are going offensive, you should have more fighters with “dogfight” promotion to take down enemy fighters. They are still able to intercept after performing an air-sweep. Else, defensive, you may consider “sortie” promotion. [NEWLINE]4, Always upgrade your fighters to the latest model. Fighter can be easily shot down if attacked by advanced enemy fighters and can hardly stop advanced enemy strategic bombers. [NEWLINE][NEWLINE]Counter Tactics: [NEWLINE]1, Stay in the leading position of technologies, advanced fighters can always defeat old fighters. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_AIR_FIGHTERS_ADVISOR_QUESTION">
+			<Text>Air-superiority Fighters?</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_ELITEUNITS_TOPIC">
+			<Text>[COLOR_YELLOW]SP MOD Units: Elite Units and Prototype Units[ENDCOLOR] </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_ELITEUNITS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_UNIT_ELITEUNITS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_ELITEUNITS_SUMMARY">
+			<Text>You may consider the Elite Units and Prototype Units as the "Hero Unit" in Super Power Mod. In actuality, they are the best units of their era for their strength and special abilities and they can tip the balance of a war if used wisely.  [NEWLINE][NEWLINE]These units must be built through certain Projects and those Projects are unique in the world just like World Wonders. Only the first civilization finishing the Project has the right to build the unit. Once the Project is finished, the elite Unit or prototype Unit can be built in the city. If it is destroyed, it can be built again until becoming obsolete. [NEWLINE][NEWLINE]Although these units are extremely powerful, they are not invincible and can stilled be outnumbered and overwhelmed by enemy's counter units. They should always work with ordinary units with a flexible battle plan to make sure that they can always show up in the right time and the right place. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_UNIT_ELITEUNITS_ADVISOR_QUESTION">
+			<Text>Elite Units and Prototype Units?</Text>
+		</Row>
+
+
+
+		<!--************************************Nuclear Winter********************************-->
+
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_TOPIC">
+			<Text>SP MOD:Nuclear Holocaust</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_SUMMARY">
+			<Text>In Super Power Mod, nuclear warfare is no longer “harmless” as in the original Civ5 game. The omnipresent threat of nuclear annihilation is like a sword of Damocles hanging over the people of the world. [NEWLINE][NEWLINE]Nuclear winter (also known as atomic winter) is a hypothetical climatic effect of countervalue nuclear war. If there are too many nuclear detonations in the game, the nuclear winter will fall. When the nuclear winter gets to its worst condition, nobody can win this game. [NEWLINE][NEWLINE]Although Super Power Mod offers you more powerful and effective nuclear weapons, you must treat them with extreme caution. An irresponsible leader can easily ruin the whole planet only by pushing the wrong button. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_ADVISOR_QUESTION">
+			<Text>What is the nuclear winter?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_DETAILS_TOPIC">
+			<Text>SP MOD:Nuclear Winter Concept</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_DETAILS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_DETAILS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_DETAILS_SUMMARY">
+			<Text>Cause: Nuclear detonations will spread fallout over tiles on the map. After 0.5% of the tiles of the whole map are covered by fallout, the nuclear winter event will be triggered. [NEWLINE][NEWLINE]Effect: There are four stages in the nuclear winter. It will get to the next stage if more nuclear weapons are launched. [NEWLINE][NEWLINE]1, Nuclear Winter Warning - The proportion of Fallout tiles: 0.5%- 1%. You will receive a warning if more nuclear weapons are detonated. [NEWLINE]2, Nuclear Winter Strikes - The proportion of Fallout tiles: 1%- 5%. All tiles with Food Output larger than 3 will reduce by 1 for every new nuclear detonation, until it reaches 3. This will slow down the population growth in all cities. [NEWLINE]3, Nuclear Winter Deteriorates - The proportion of Fallout tiles: 5%- 10%. All tiles with Food Output will reduce by 1 for every new nuclear detonation, until it reaches 1. This will leads to global famine. [NEWLINE]4, Nuclear Winter Apocalypse - The proportion of Fallout tiles > 10%. All tiles' Food and Production output will reduce to 0 with new nuclear detonations. All survivors will starve to death. The global productivity is backed to the Stone Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_DETAILS_ADVISOR_QUESTION">
+			<Text>What is the cause and the effect of the nuclear winter?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_RESULT_TOPIC">
+			<Text>SP MOD:Nuclear Winter Prevention</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_RESULT_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_RESULT_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_RESULT_SUMMARY">
+			<Text> Unfortunately, the nuclear winter is an irreversible process. Once happened, the climate can never be restored. However, there is still ways to prevent it. [NEWLINE][NEWLINE]1, One nuclear explosion cannot cause the nuclear winter, only a global nuclear war can be strong enough to make it happen. Since the event is triggered by calculating the total number of fallout tiles of the map, many nuclear detonations within a limited area (kinds of nuclear tests) won’t cause the nuclear winter. [NEWLINE]2, You can slow down the nuclear winter process by scrubbing out the fallout tiles. This will stop it from entering to the next stage but cannot restore it to its previous condition. [NEWLINE]3, The best way to prevent the nuclear winter is to stop the nuclear warfare - the Nuclear Non-Proliferation is very important. [NEWLINE]4, If the nuclear winter gets to its worst condition, it will be the end of the human civilizations. However, you still have a little chance to win: waiting for a cultural or diplomatic, or even time victory and it should be less than 10 years. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NUCLEAR_WINTER_RESULT_ADVISOR_QUESTION">
+			<Text>How to stop the nuclear winter process?</Text>
+		</Row>
+		
+		
+		
+		
+		<Row Tag="TXT_KEY_CONCEPT_SP_NEW_CITY_STATE_RULE_TOPIC">
+			<Text>SP MOD:City States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NEW_CITY_STATE_RULE_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_SP_NEW_CITY_STATE_RULE_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NEW_CITY_STATE_RULE_SUMMARY">
+			<Text>In Super Power Mod, there are something new about the City States and you need to pay attention.[NEWLINE][NEWLINE]1. City States can produce their own strategic resources. [NEWLINE]Each City State has 4 [ICON_RES_HORSE] Horses, 4 [ICON_RES_IRON] Iron, 4 [ICON_RES_COAL] Coal, 4 [ICON_RES_OIL] Oil and 4 [ICON_RES_ALUMINUM] Aluminum of their own, even they donot have those resources in their land. As a result, you are allowed to give them units with resource requirement and needless to worry about they will suffer from resource penalty. Your City State allies will also provide those strategic resources for you once you have researched the certain Technologies. Therefore, you are free from lacking of strategic resources if you have many allied City States. It will be very helpful for small nations. [NEWLINE][NEWLINE]2. Money is less effective for buying out City States. [NEWLINE]Money can't buy real friends. The Gold gifts are very ineffective in Super Power Mod. Instead, completing missions from City States will greatly improve your relationships with them. If you really want to maintain good relationships with City States, you are highly recommended to adopt the Patronage policy tree. [NEWLINE][NEWLINE]3. Your units as a gift will spend only 1 turn to travel to the City State. [NEWLINE]You can give units to City States more often. This is a very important way to maintain your relationships with them and help them to defend their lands. [NEWLINE][NEWLINE]4. City States have bonus on city-defense. [NEWLINE]Each City State has a 50% bonus on their city defense to defend them from barbarian or aggressive nations in the early game. However they are still weak when invaded by strong nations. You should depoly troops to protect your allied City States or give them units as gifts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_SP_NEW_CITY_STATE_RULE_ADVISOR_QUESTION">
+			<Text>Anything new for city states in Super Power MOD?</Text>
+		</Row>
+	</Language_en_US>
+	
+	
+	
+	
+	
+	
+	
+	
+	<!--**************************************Misc Text Changes************************************-->
+
+	<!--********************************************** Resoultions Info Change ********************************************** -->
+	<Language_en_US>
+		<!--<Replace Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP">
+			<Text>Civilizations research a technology 33% more quickly if it has been discovered by at least one other Civilization.</Text>
+		</Replace>-->
+		<Replace Tag="TXT_KEY_RESOLUTION_WORLD_IDEOLOGY_HELP">
+			<Text>Designate an Ideology as the official World Ideology.  Civilizations following that Ideology get an additional 1 Delegates.  Public opinion in favor of that Ideology is increased for all Civilizations.  There can only be one World Ideology at a time.[NEWLINE][NEWLINE]Available once any Civilization discovers Radio.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RESOLUTION_WORLD_RELIGION_HELP">
+			<Text>Designate a religion as the official World Religion.  Civilizations who have a majority of the cities in their empire following the religion get an additional 1 Delegates.  The religion spreads 50% faster, and its Holy City receives +100% [ICON_TOURISM] Tourism.  There can only be one World Religion at a time.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_1_HELP">
+			<Text>+10 [ICON_HAPPINESS_1] Happiness.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2_HELP">
+			<Text>One time increase of 45 [ICON_INFLUENCE] Influence with City-States. </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP">
+			<Text>[ICON_TOURISM] Tourism increases by 100% for 12 Turns.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP">
+			<Text>[ICON_CULTURE] Culture increases by 100% for 12 Turns.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION_HELP">
+			<Text>All Civilizations are prevented from constructing new nuclear weapons (Atomic Bomb, Nuclear Missile, ICBM).  Weapons already constructed, however, are not disarmed.[NEWLINE][NEWLINE]Available once any Civilization discovers Nuclear Fission.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_RESOLUTION_WORLD_FAIR_HELP">
+			<Text>Begins the World's Fair project.  Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list.  When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_1_HELP}[NEWLINE][NEWLINE]Available once any Civilization discovers Urbanization.</Text>
+		</Replace>
+	</Language_en_US>
+
+
+
+
+
+
+
+	<!--********************************************** Misc Info Change ********************************************** -->
+
+	<Language_en_US>
+		<Replace Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_NO_TECH">
+			<Text>[NEWLINE][NEWLINE]Neither player yet has the Technology to trade this item (Mathematics).</Text>
+		</Replace>
+
+
+		<Replace Tag="TXT_KEY_MISSION_CULTURE_BOMB">
+			<Text>Land Buyout</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_MISSION_CULTURE_BOMB_HELP">
+			<Text>This order will consume the Great Person and cause all tiles within 2 range of this unit to become part of your borders, even if they belong to another player. This will have diplomatic repercussions!</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_DIPLO_CULTURE_BOMB">
+			<Text>[COLOR_NEGATIVE_TEXT]You stole their territory with a Great Merchant![ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_MISSION_CULTURE_BOMB_DISABLED_COOLDOWN">
+			<Text>You have performed a Land Buyout recently, and may not do so again for another {1_Num} turns.</Text>
+		</Replace>
+		
+		
+		
+		
+		
+	</Language_en_US>
+	
+
+	
+
+
+</GameData>

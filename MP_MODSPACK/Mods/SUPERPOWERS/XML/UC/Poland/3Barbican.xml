@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/17/2015 6:44:36 AM -->
+<GameData>
+		<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_3UC_BARBICAN">
+			<Text>[ICON_STRENGTH] Barbican</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_BARBICAN_HELP">
+			<Text>Medieval defense building that temporarily yields [ICON_FOOD] Food in a city. Only Poland may build them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_BARBICAN_STRATEGY">
+			<Text>The Barbican is a Polish unique building that improves a city's health and [ICON_STRENGTH] Combat strength. Unlike the Castle it replaces, it also yields 2 [ICON_FOOD] Food. After researching Flight, it no longer yields [ICON_FOOD] Food, but instead 2 [ICON_CULTURE] Culture and 2 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_BARBICAN_TEXT">
+			<Text>
+				A barbican is a fortified outpost or gateway, such as an outer defense to a city or castle, or any tower situated over a gate or bridge which was used for defensive purposes. Usually barbicans were situated outside the main line of defences and connected to the city walls with a walled road called the neck. In the 15th century, with the improvement in siege tactics and artillery, barbicans lost their significance.[NEWLINE][NEWLINE]The Warsaw barbican was erected in 1540 in place of an older gate to protect Nowomiejska Street. Almost immediately after its inception, the 4-tower barbican became an anachronism serving virtually no practical purpose. This was largely a result of the rapid advancement in artillery power. It was used in the defense of the city only once, during the Swedish invasion of Poland, on 30 June 1656, when it had to be recaptured by the Polish army of Polish king Jan Kazimierz from the Swedes.[NEWLINE][NEWLINE]During World War II, particularly the Siege of Warsaw (1939) and the Warsaw Uprising of 1944, the barbican was largely destroyed, as were most of the Old Town's buildings. It was rebuilt after the war, during 1952–1954, on the basis of 17th-century etchings, as the new government decided it would be cheaper to rebuild the barbican and the nearby city walls as a tourist attraction than to rebuild the tenements. In its reconstruction, bricks were used from historic buildings demolished in the cities of Nysa and Wrocław; most of the barbican was rebuilt, save for two exterior gates and the oldest tower on the side of the Old Town. It is currently a popular tourist attraction.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+	
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>BUILDING_3_BARBICAN_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>3barbic256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BUILDING_3_BARBICAN_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>3barbic128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BUILDING_3_BARBICAN_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>3barbic64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BUILDING_3_BARBICAN_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>3barbic45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

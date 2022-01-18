@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!-- Adds the new House Garden -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_HOUSE_GARDEN</Type>
+			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
+			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+			<Cost>60</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_HOUSE_GARDEN</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HOUSE_GARDEN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HOUSE_GARDEN_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_HOUSE_GARDEN_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
+			<ResourceType>RESOURCE_BISON</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BRAZIL</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<!-- Adds new text -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_HOUSE_GARDEN">
+			<Text>[ICON_FOOD] House Garden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOUSE_GARDEN_HELP">
+			<Text>Each source of [ICON_RES_BANANA] Bananas, [ICON_RES_BISON] Bison, [ICON_RES_WHEAT] Wheat, and [ICON_RES_DEER] Deer worked by this City produces +1 [ICON_FOOD] Food. +1 [ICON_FOOD] Food from Jungle tiles worked by this City.[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOUSE_GARDEN_STRATEGY">
+			<Text>The House Garden is the Brazilian unique building that greatly increases the food intake of a city. Unlike the Granary it replaces, the House Garden costs no maintenance and also increases the [ICON_FOOD] Food yield from Jungle tiles, regardless of their resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOUSE_GARDEN_TEXT">
+			<Text>
+				One of the most pervasive features of Amazonian architecture is the presence of personal subsistence gardens, associated with individual residences and separate from larger agricultural endeavors. These gardens would often use farming techniques integrated into the local landscape and exhibit a rich degree of biodiversity; cultivating a large number of medicinal plants in addition to food and utilitarian crops. Certain tribes would also plant separate gardens alongside roads and away from major settlements to be used as an emergency reserve in times of war. The long term cultivation of house gardens also contributed to the development of terra preta and terra mulata, formed by continual human habitation in an area.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

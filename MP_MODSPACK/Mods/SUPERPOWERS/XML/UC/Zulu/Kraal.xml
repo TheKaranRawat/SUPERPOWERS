@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_KRAAL</Type>
+			<BuildingClass>BUILDINGCLASS_STABLE</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
+			<GoldMaintenance>1</GoldMaintenance>
+			<Help>TXT_KEY_BUILDING_KRAAL_HELP</Help>
+			<Description>TXT_KEY_BUILDING_KRAAL</Description>
+			<Civilopedia>TXT_KEY_BUILDINGS_KRAAL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_KRAAL_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_STABLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>35</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<!--<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>-->
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<!--<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>-->
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_ZULU</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
+			<BuildingType>BUILDING_KRAAL</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Language_en_US>
+
+
+		<Row Tag="TXT_KEY_BUILDING_KRAAL">
+			<Text>[ICON_PRODUCTION] Kraal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KRAAL_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production and +1 [ICON_CULTURE] Culture for every [ICON_RES_COW] Cow, [ICON_RES_SHEEP] Sheep, and [ICON_RES_HORSE] Horse tile worked by this city. Provides a source of [ICON_RES_COW] Cows or [ICON_RES_SHEEP] Sheep. Only the Zulus may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KRAAL_STRATEGY">
+			<Text>The Kraal is a Zulu unique building that replaces the Stable. It increases the [ICON_PRODUCTION] Production and [ICON_CULTURE] Culture of every [ICON_RES_COW] Cow, [ICON_RES_SHEEP] Sheep, and [ICON_RES_HORSE] Horse tile worked by this city, unlike the Stable it replaces. Available upon the discover of Animal Husbandry, but does not increase the rate at which mounted units are trained. Generates a source of [ICON_RES_COW] Cows or [ICON_RES_SHEEP] Sheep near the City, if possible.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDINGS_KRAAL_TEXT">
+			<Text>Kraal (also spelled craal or kraul) is an enclosure for cattle or other livestock, located within an African settlement or village surrounded by a fence of thorn-bush branches, a palisade, mud wall, or other fencing, roughly circular in form. European South Africans and historians commonly referred to the entire settlement as a kraal, but the word actually refers to the animal pen area within a homestead.[NEWLINE][NEWLINE]The Zulu man loves his cattle more than anything else. He will spend hours just watching the herd - knowing every individual in it. Cattle mean status, wealth, and power. Frequently, Zulu chiefs would be buried in their cattle kraals.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

@@ -1,0 +1,2222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/8/2015 9:19:35 PM -->
+<GameData>
+
+
+	<!--Civ 5 CANNOT calculate the  aniamtion of units with new UnitCombatInfos!!!!!!!!!!-->
+
+	<!--UNITCOMBAT changes:
+
+	Archery-Anti-air -> UNITCOMBAT_SIEGE
+
+	Land Hit and Run -> UNITCOMBAT_HELICOPTER
+
+	Naval HitandRun -> UNITCOMBAT_SUBMARINE
+
+	Special Forces -> UNITCOMBAT_GUN
+
+	Infantry and Counter -> UNITCOMBAT_MELEE
+
+	Militia -> UNITCOMBAT_RECON
+
+	AOE Weapon -> UNITCOMBAT_BOMBER
+
+	Attack Aircraft and Bomber -> UNITCOMBAT_ARCHER-->
+
+
+	
+	
+
+	<SpecialUnits>
+		<Update>
+			<Set CityLoad="fasle"/>
+			<Where Type="SPECIALUNIT_FIGHTER"/>
+		</Update>
+		<Update>
+			<Set CityLoad="fasle"/>
+			<Where Type="SPECIALUNIT_MISSILE"/>
+		</Update>
+		<Row>
+			<Type>SPECIALUNIT_NUKE</Type>
+			<Description>TXT_KEY_SPECIALUNIT_MISSILE</Description>
+			<Valid>true</Valid>
+			<CityLoad>true</CityLoad>
+		</Row>
+		
+		<!--WTF!!!!!!!!!!!!!!!!!!Adding this new specialunit type will cause 12kb CORRUPTED SAVED DATAS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+		<!--<Row>
+			<Type>SPECIALUNIT_AIRUAV</Type>
+			<Description>TXT_KEY_SPECIALUNIT_MISSILE</Description>
+			<Valid>true</Valid>
+			<CityLoad>true</CityLoad>
+		</Row>-->
+	</SpecialUnits>
+
+
+	<SpecialUnit_CarrierUnitAI>
+		<Row>
+			<SpecialUnitType>SPECIALUNIT_NUKE</SpecialUnitType>
+			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+		</Row>
+		<!--<Row>
+			<SpecialUnitType>SPECIALUNIT_AIRUAV</SpecialUnitType>
+			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+		</Row>-->
+	</SpecialUnit_CarrierUnitAI>
+
+
+
+	
+		
+	<Units>
+		
+		<!--Fighters-->
+		
+		<Row>
+			<Class>UNITCLASS_TRIPLANE</Class>
+			<Type>UNIT_TRIPLANE</Type>
+			<PrereqTech>TECH_FLIGHT</PrereqTech>
+			<RangedCombat>30</RangedCombat>
+			<Cost>400</Cost>
+			<Moves>3</Moves>
+			<Immobile>true</Immobile>
+			<Range>10</Range>
+			<AirInterceptRange>10</AirInterceptRange>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_TRIPLANE</Description>
+			<Civilopedia>TXT_KEY_CIV5_TRIPLANE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIR_FIGHTERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_ANTI_AIR_II_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_RADAR</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_FIGHTER</GoodyHutUpgradeUnitClass>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_WW1_FIGHTER</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>24</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>12</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_FIGHTER</Class>
+			<Type>UNIT_FIGHTER</Type>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<RangedCombat>70</RangedCombat>
+			<Cost>550</Cost>
+			<Moves>3</Moves>
+			<Immobile>true</Immobile>
+			<Range>15</Range>
+			<AirInterceptRange>15</AirInterceptRange>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FIGHTER</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_FIGHTER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIR_FIGHTERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_ANTI_AIR_II_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
+			<ObsoleteTech>TECH_ADV_FLIGHT</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_INTERCEPTER</GoodyHutUpgradeUnitClass>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FIGHTER</UnitArtInfo>
+			<UnitFlagIconOffset>62</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>17</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>25</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_INTERCEPTER</Class>
+			<Type>UNIT_INTERCEPTER</Type>
+			<PrereqTech>TECH_ADV_FLIGHT</PrereqTech>
+			<RangedCombat>140</RangedCombat>
+			<Cost>800</Cost>
+			<Moves>3</Moves>
+			<Immobile>true</Immobile>
+			<Range>20</Range>
+			<AirInterceptRange>20</AirInterceptRange>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_INTERCEPTER</Description>
+			<Civilopedia>TXT_KEY_UNIT_INTERCEPTER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIR_FIGHTERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_ANTI_AIR_II_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_JET_FIGHTER</GoodyHutUpgradeUnitClass>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_INTERCEPTER</UnitArtInfo>
+			<UnitFlagIconOffset>18</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
+			<PortraitIndex>22</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>40</ExtraMaintenanceCost>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_INTERCEPTER</Class>
+			<Type>UNIT_RUSSIAN_SU27</Type>
+			<PrereqTech>TECH_ADV_FLIGHT</PrereqTech>
+			<RangedCombat>180</RangedCombat>
+			<Cost>1200</Cost>
+			<Moves>3</Moves>
+			<Immobile>true</Immobile>
+			<Range>25</Range>
+			<AirInterceptRange>20</AirInterceptRange>
+			<HurryCostModifier>150</HurryCostModifier>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_RUSSIAN_SU27</Description>
+			<Civilopedia>TXT_KEY_UNIT_RUSSIAN_SU27_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIR_FIGHTERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_ANTI_AIR_II_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_JET_FIGHTER</GoodyHutUpgradeUnitClass>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_RUSSIAN_SU27</UnitArtInfo>
+			<UnitFlagIconOffset>84</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
+			<PortraitIndex>33</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>35</ExtraMaintenanceCost>
+		</Row>
+		
+
+		<Row>
+			<Class>UNITCLASS_JET_FIGHTER</Class>
+			<Type>UNIT_JET_FIGHTER</Type>
+			<PrereqTech>TECH_STEALTH</PrereqTech>
+			<RangedCombat>200</RangedCombat>
+			<Cost>2000</Cost>
+			<Moves>3</Moves>
+			<Immobile>true</Immobile>
+			<Range>25</Range>
+			<AirInterceptRange>25</AirInterceptRange>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_JET_FIGHTER</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MODERN_JETFIGHTER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIR_FIGHTERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_ANTI_AIR_II_HELP</Help>
+			<RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>100</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>2</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_JET_FIGHTER</UnitArtInfo>
+			<UnitFlagIconOffset>78</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>31</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>85</ExtraMaintenanceCost>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_JET_FIGHTER</Class>
+			<Type>UNIT_SWEDISH_JAS39_FIGHTER</Type>
+			<PrereqTech>TECH_STEALTH</PrereqTech>
+			<RangedCombat>400</RangedCombat>
+			<Cost>1500</Cost>
+			<Moves>3</Moves>
+			<Immobile>true</Immobile>
+			<Range>35</Range>
+			<AirInterceptRange>35</AirInterceptRange>
+			<HurryCostModifier>150</HurryCostModifier>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SWEDISH_JAS39_FIGHTER</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNIT_SWEDISH_JAS39_FIGHTER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIR_FIGHTERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_ANTI_AIR_II_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>100</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>2</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SWEDISH_JAS39_FIGHTER</UnitArtInfo>
+			<UnitFlagIconOffset>57</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
+			<PortraitIndex>47</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>32</ExtraMaintenanceCost>
+		</Row>
+		
+		
+		<!--Attack Aircrafts-->
+		<Row>
+			<Class>UNITCLASS_WWI_BOMBER</Class>
+			<Type>UNIT_WWI_BOMBER</Type>
+			<PrereqTech>TECH_FLIGHT</PrereqTech>
+			<RangedCombat>50</RangedCombat>
+			<Cost>400</Cost>
+			<Moves>3</Moves>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<Immobile>true</Immobile>
+			<Range>8</Range>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_WWI_BOMBER</Description>
+			<Civilopedia>TXT_KEY_CIV5_WWI_BOMBER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIR_ATTACK_AIRCRAFTS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_AIR_ATTACK_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_RADAR</ObsoleteTech>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_WW1_BOMBER</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>22</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>22</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>45</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_DIVE_BOMBER</Class>
+			<Type>UNIT_DIVE_BOMBER</Type>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<RangedCombat>100</RangedCombat>
+			<Cost>750</Cost>
+			<Moves>3</Moves>
+			<Immobile>true</Immobile>
+			<Range>12</Range>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_DIVE_BOMBER</Description>
+			<Civilopedia>TXT_KEY_UNIT_DIVE_BOMBER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIR_ATTACK_AIRCRAFTS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_AIR_ATTACK_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<ObsoleteTech>TECH_ADV_FLIGHT</ObsoleteTech>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_DIVE_BOMBER</UnitArtInfo>
+			<UnitFlagIconOffset>8</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_DIVE_BOMBER</Class>
+			<Type>UNIT_POLISH_PZL23</Type>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<RangedCombat>120</RangedCombat>
+			<Cost>685</Cost>
+			<Moves>3</Moves>
+			<Immobile>true</Immobile>
+			<Range>12</Range>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<HurryCostModifier>100</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_POLISH_PZL23</Description>
+			<Civilopedia>TXT_KEY_UNIT_POLISH_PZL23_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIR_ATTACK_AIRCRAFTS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_AIR_ATTACK_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<ObsoleteTech>TECH_STEALTH</ObsoleteTech>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_POLISH_PZL23</UnitArtInfo>
+			<UnitFlagIconOffset>64</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
+			<PortraitIndex>57</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>14</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_ATTACK_AIRCRAFT</Class>
+			<Type>UNIT_ATTACK_AIRCRAFT</Type>
+			<PrereqTech>TECH_ADV_FLIGHT</PrereqTech>
+			<RangedCombat>160</RangedCombat>
+			<Cost>1200</Cost>
+			<Moves>3</Moves>
+			<Immobile>true</Immobile>
+			<Range>16</Range>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ATTACK_AIRCRAFT</Description>
+			<Civilopedia>TXT_KEY_UNIT_ATTACK_AIRCRAFT_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIR_ATTACK_AIRCRAFTS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_AIR_ATTACK_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>90</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_ATTACK_AIRCRAFT</UnitArtInfo>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>100</ExtraMaintenanceCost>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_ATTACK_AIRCRAFT</Class>
+			<Type>UNIT_FRANCE_MIRRAGE2000</Type>
+			<PrereqTech>TECH_ADV_FLIGHT</PrereqTech>
+			<RangedCombat>150</RangedCombat>
+			<Cost>1200</Cost>
+			<Moves>3</Moves>
+			<Immobile>true</Immobile>
+			<Range>20</Range>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<HurryCostModifier>100</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FRANCE_MIRRAGE2000</Description>
+			<Civilopedia>TXT_KEY_UNIT_FRANCE_MIRRAGE2000_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIR_ATTACK_AIRCRAFTS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_AIR_ATTACK_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>90</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FRANCE_MIRRAGE2000</UnitArtInfo>
+			<UnitFlagIconOffset>56</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
+			<PortraitIndex>49</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>100</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_STEALTH_ATTACK_AIRCRAFT</Class>
+			<Type>UNIT_STEALTH_ATTACK_AIRCRAFT</Type>
+			<PrereqTech>TECH_STEALTH</PrereqTech>
+			<RangedCombat>220</RangedCombat>
+			<Cost>2400</Cost>
+			<Moves>3</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<Immobile>true</Immobile>
+			<Range>20</Range>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_STEALTH_ATTACK_AIRCRAFT</Description>
+			<Civilopedia>TXT_KEY_UNIT_STEALTH_ATTACK_AIRCRAFT_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIR_ATTACK_AIRCRAFTS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_AIR_ATTACK_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>120</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_STEALTH_ATTACK_AIRCRAFT</UnitArtInfo>
+			<UnitFlagIconOffset>79</UnitFlagIconOffset>
+			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>160</ExtraMaintenanceCost>
+		</Row>
+
+
+
+		<!--Strategic Bombers-->
+
+		<Row>
+			<Class>UNITCLASS_BOMBER</Class>
+			<Type>UNIT_BOMBER</Type>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<RangedCombat>200</RangedCombat>
+			<Cost>2000</Cost>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<Range>15</Range>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_BOMBER</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_BOMBER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIR_STRATEGIC_BOMBERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_STRATEGIC_BOMBER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_BOMBER</UnitArtInfo>
+			<UnitFlagIconOffset>64</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>18</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ObsoleteTech>TECH_ADV_FLIGHT</ObsoleteTech>
+			<ExtraMaintenanceCost>70</ExtraMaintenanceCost>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_BOMBER</Class>
+			<Type>UNIT_AMERICAN_B17</Type>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<RangedCombat>250</RangedCombat>
+			<Cost>2000</Cost>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<Range>20</Range>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<HurryCostModifier>150</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_CIV5_INDUSTRIAL_B17_HEADING</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_B17_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIR_STRATEGIC_BOMBERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_STRATEGIC_BOMBER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>80</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<ObsoleteTech>TECH_STEALTH</ObsoleteTech>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_AMERICAN_B17</UnitArtInfo>
+			<UnitFlagIconOffset>65</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>42</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>70</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_JET_BOMBER</Class>
+			<Type>UNIT_JET_BOMBER</Type>
+			<PrereqTech>TECH_ADV_FLIGHT</PrereqTech>
+			<RangedCombat>300</RangedCombat>
+			<Cost>2000</Cost>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<Range>25</Range>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_JET_BOMBER</Description>
+			<Civilopedia>TXT_KEY_UNIT_JET_BOMBER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIR_STRATEGIC_BOMBERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_STRATEGIC_BOMBER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>100</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_B52</UnitArtInfo>
+			<UnitFlagIconOffset>4</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
+			<PortraitIndex>21</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>140</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_STEALTH_BOMBER</Class>
+			<Type>UNIT_STEALTH_BOMBER</Type>
+			<PrereqTech>TECH_STEALTH</PrereqTech>
+			<RangedCombat>500</RangedCombat>
+			<Cost>3500</Cost>
+			<Moves>2</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<Immobile>true</Immobile>
+			<Range>35</Range>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_STEALTH_BOMBER</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MODERN_STEALTHBOMBER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIR_STRATEGIC_BOMBERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_STRATEGIC_BOMBER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>120</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>9</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_STEALTH_BOMBER</UnitArtInfo>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>37</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>200</ExtraMaintenanceCost>
+		</Row>
+
+
+		<!--Carrier-based aircraft-->
+
+
+		<Row>
+			<Class>UNITCLASS_CARRIER_FIGHTER_WWII</Class>
+			<Type>UNIT_JAPANESE_ZERO</Type>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+			<RangedCombat>100</RangedCombat>
+			<Cost>-1</Cost>
+			<Moves>4</Moves>
+			<Immobile>true</Immobile>
+			<Range>10</Range>
+			<AirInterceptRange>10</AirInterceptRange>
+			<Special>SPECIALUNIT_FIGHTER</Special>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_JAPANESE_ZERO</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_ZERO_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIRCRAFT_CARRIERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_CARRIER_FIGHTER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_JAPANESE_ZERO</UnitArtInfo>
+			<UnitFlagIconOffset>63</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>40</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
+		</Row>
+
+		
+		<Row>
+			<Class>UNITCLASS_CARRIER_FIGHTER_JET</Class>
+			<Type>UNIT_CARRIER_FIGHTER_JET</Type>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+			<RangedCombat>150</RangedCombat>
+			<Cost>-1</Cost>
+			<Moves>4</Moves>
+			<Immobile>true</Immobile>
+			<Range>14</Range>
+			<AirInterceptRange>14</AirInterceptRange>
+			<Special>SPECIALUNIT_FIGHTER</Special>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_CARRIER_FIGHTER_JET</Description>
+			<Civilopedia>TXT_KEY_UNIT_CARRIER_FIGHTER_JET_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIRCRAFT_CARRIERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_CARRIER_FIGHTER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>	
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_CARRIER_FIGHTER_JET</UnitArtInfo>
+			<UnitFlagIconOffset>18</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
+			<PortraitIndex>43</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_CARRIER_FIGHTER_JET</Class>
+			<Type>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER</Type>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+			<RangedCombat>150</RangedCombat>
+			<Cost>-1</Cost>
+			<Moves>4</Moves>
+			<Immobile>true</Immobile>
+			<Range>14</Range>
+			<AirInterceptRange>14</AirInterceptRange>
+			<Special>SPECIALUNIT_FIGHTER</Special>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_CARRIER_ENGLISH_HARRIER</Description>
+			<Civilopedia>TXT_KEY_UNIT_CARRIER_ENGLISH_HARRIER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIRCRAFT_CARRIERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_CARRIER_FIGHTER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_CARRIER_ENGLISH_HARRIER</UnitArtInfo>
+			<UnitFlagIconOffset>57</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
+			<PortraitIndex>29</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_CARRIER_FIGHTER_JET</Class>
+			<Type>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER_ADV</Type>
+			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+			<RangedCombat>225</RangedCombat>
+			<Cost>-1</Cost>
+			<Moves>4</Moves>
+			<Immobile>true</Immobile>
+			<Range>18</Range>
+			<AirInterceptRange>18</AirInterceptRange>
+			<Special>SPECIALUNIT_FIGHTER</Special>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_CARRIER_ENGLISH_HARRIER_ADV</Description>
+			<Civilopedia>TXT_KEY_UNIT_CARRIER_ENGLISH_HARRIER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIRCRAFT_CARRIERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_CARRIER_FIGHTER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_CARRIER_ENGLISH_HARRIER</UnitArtInfo>
+			<UnitFlagIconOffset>57</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
+			<PortraitIndex>29</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
+		</Row>
+		
+		
+		<Row>
+			<Class>UNITCLASS_CARRIER_FIGHTER_ADV</Class>
+			<Type>UNIT_CARRIER_FIGHTER_ADV</Type>
+			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+			<RangedCombat>200</RangedCombat>
+			<Cost>-1</Cost>
+			<Moves>4</Moves>
+			<Immobile>true</Immobile>
+			<Range>18</Range>
+			<AirInterceptRange>18</AirInterceptRange>
+			<Special>SPECIALUNIT_FIGHTER</Special>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_CARRIER_FIGHTER_ADV</Description>
+			<Civilopedia>TXT_KEY_UNIT_CARRIER_FIGHTER_ADV_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_AIRCRAFT_CARRIERS_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_CARRIER_FIGHTER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_CARRIER_FIGHTER_ADV</UnitArtInfo>
+			<UnitFlagIconOffset>78</UnitFlagIconOffset>
+			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
+			<PortraitIndex>44</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
+		</Row>
+		
+
+
+
+		<!--Missiles-->
+		<Row>
+			<Class>UNITCLASS_GUIDED_MISSILE</Class>
+			<Type>UNIT_GUIDED_MISSILE</Type>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+			<RangedCombat>350</RangedCombat>
+			<Cost>-1</Cost>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<!--<NoMaintenance>true</NoMaintenance>-->
+			<Range>6</Range>
+			<Special>SPECIALUNIT_MISSILE</Special>
+			<Domain>DOMAIN_AIR</Domain>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<DefaultUnitAI>UNITAI_MISSILE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_GUIDED_MISSILE</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MODERN_GUIDEDMISSLE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GUIDED_MISSILE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_GUIDED_MISSILE</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<Suicide>true</Suicide>
+			<AdvancedStartCost>40</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_GUIDED_MISSILE</UnitArtInfo>
+			<UnitFlagIconOffset>77</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>30</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>2</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_EMP_BOMBER_AIR</Class>
+			<Type>UNIT_EMP_BOMBER_AIR</Type>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+			<RangedCombat>60</RangedCombat>
+			<Cost>750</Cost>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<Range>16</Range>
+			<Suicide>true</Suicide>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<Special>SPECIALUNIT_NUKE</Special>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_MISSILE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EMP_BOMBER_AIR</Description>
+			<Civilopedia>TXT_KEY_UNIT_EMP_BOMBER_AIR_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EMP_BOMBER_AIR_STRATEGY</Strategy>
+			<Help>TXT_KEY_PROMOTION_EMP_ATTACK_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>100</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_GUIDED_MISSILE</UnitArtInfo>
+			<UnitFlagIconOffset>11</UnitFlagIconOffset>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
+			<PortraitIndex>33</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>6</ExtraMaintenanceCost>
+		</Row>
+
+
+
+
+	
+		
+		
+		
+		
+		
+		<!-- Nukes -->
+
+		<Row>
+			<Class>UNITCLASS_ATOMIC_BOMB</Class>
+			<Type>UNIT_ATOMIC_BOMB</Type>
+			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
+			<Cost>3500</Cost>
+			<Moves>2</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<Immobile>true</Immobile>
+			<Range>18</Range>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ICBM</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ATOMIC_BOMB</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_ATOMICBOMB_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_NUCLEAR_WEAPONS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_ATOMIC_BOMB</Help>
+			<ProjectPrereq>PROJECT_MANHATTAN_PROJECT</ProjectPrereq>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<Suicide>true</Suicide>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<NukeDamageLevel>1</NukeDamageLevel>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_ATOMIC_BOMB</UnitArtInfo>
+			<UnitFlagIconOffset>71</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ObsoleteTech>TECH_ADVANCED_BALLISTICS</ObsoleteTech>
+			<ExtraMaintenanceCost>200</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_NUCLEAR_MISSILE</Class>
+			<Type>UNIT_NUCLEAR_MISSILE</Type>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+			<Cost>5500</Cost>
+			<Moves>2</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<Immobile>true</Immobile>
+			<Range>25</Range>
+			<Special>SPECIALUNIT_NUKE</Special>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ICBM</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_NUCLEAR_MISSILE</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MODERN_NUCLEARMISSLE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_NUCLEAR_WEAPONS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_NUCLEAR_MISSILE</Help>
+			<ProjectPrereq>PROJECT_MANHATTAN_PROJECT</ProjectPrereq>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<Suicide>true</Suicide>
+			<AdvancedStartCost>100</AdvancedStartCost>
+			<NukeDamageLevel>2</NukeDamageLevel>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_NUCLEAR_MISSILE</UnitArtInfo>
+			<UnitFlagIconOffset>82</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>35</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>200</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_ICBM_MISSILE</Class>
+			<Type>UNIT_ICBM_MISSILE</Type>
+			<PrereqTech>TECH_INTEGRATED_DEFENSE</PrereqTech>
+			<Cost>8000</Cost>
+			<Moves>2</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<Immobile>true</Immobile>
+			<Range>60</Range>
+			<Special>SPECIALUNIT_NUKE</Special>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ICBM</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ICBM_MISSILE</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_ICBM_MISSILE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_SP_UNITS_NUCLEAR_WEAPONS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_ICBM_MISSILE_HELP</Help>
+			<ProjectPrereq>PROJECT_MANHATTAN_PROJECT</ProjectPrereq>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<Suicide>true</Suicide>
+			<AdvancedStartCost>100</AdvancedStartCost>
+			<NukeDamageLevel>3</NukeDamageLevel>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_NUCLEAR_MISSILE</UnitArtInfo>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>75</UnitFlagIconOffset>
+			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
+			<PortraitIndex>30</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ExtraMaintenanceCost>250</ExtraMaintenanceCost>
+		</Row>
+		
+	</Units>
+
+
+	
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_TRIPLANE</UnitType>
+			<UnitClassType>UNITCLASS_FIGHTER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WWI_BOMBER</UnitType>
+			<UnitClassType>UNITCLASS_DIVE_BOMBER</UnitClassType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_FIGHTER</UnitType>
+			<UnitClassType>UNITCLASS_INTERCEPTER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DIVE_BOMBER</UnitType>
+			<UnitClassType>UNITCLASS_ATTACK_AIRCRAFT</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_PZL23</UnitType>
+			<UnitClassType>UNITCLASS_ATTACK_AIRCRAFT</UnitClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_INTERCEPTER</UnitType>
+			<UnitClassType>UNITCLASS_JET_FIGHTER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_SU27</UnitType>
+			<UnitClassType>UNITCLASS_JET_FIGHTER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
+			<UnitClassType>UNITCLASS_STEALTH_ATTACK_AIRCRAFT</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_MIRRAGE2000</UnitType>
+			<UnitClassType>UNITCLASS_STEALTH_ATTACK_AIRCRAFT</UnitClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_BOMBER</UnitType>
+			<UnitClassType>UNITCLASS_JET_BOMBER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_B17</UnitType>
+			<UnitClassType>UNITCLASS_JET_BOMBER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JET_BOMBER</UnitType>
+			<UnitClassType>UNITCLASS_STEALTH_BOMBER</UnitClassType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
+			<UnitClassType>UNITCLASS_CARRIER_FIGHTER_JET</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_JET</UnitType>
+			<UnitClassType>UNITCLASS_CARRIER_FIGHTER_ADV</UnitClassType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
+			<UnitClassType>UNITCLASS_NUCLEAR_MISSILE</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+
+
+	
+	
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_TRIPLANE</UnitType>
+			<PromotionType>PROMOTION_ANTI_AIR_II</PromotionType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_FIGHTER</UnitType>
+			<PromotionType>PROMOTION_ANTI_AIR_II</PromotionType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_INTERCEPTER</UnitType>
+			<PromotionType>PROMOTION_ANTI_AIR_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_SU27</UnitType>
+			<PromotionType>PROMOTION_ANTI_AIR_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_SU27</UnitType>
+			<PromotionType>PROMOTION_ACE_FIGHTER</PromotionType>
+		</Row>
+
+		
+
+		<Row>
+			<UnitType>UNIT_JET_FIGHTER</UnitType>
+			<PromotionType>PROMOTION_ANTI_AIR_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWEDISH_JAS39_FIGHTER</UnitType>
+			<PromotionType>PROMOTION_ANTI_AIR_II</PromotionType>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_WWI_BOMBER</UnitType>
+			<PromotionType>PROMOTION_AIR_ATTACK</PromotionType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_DIVE_BOMBER</UnitType>
+			<PromotionType>PROMOTION_AIR_ATTACK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_PZL23</UnitType>
+			<PromotionType>PROMOTION_AIR_ATTACK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_PZL23</UnitType>
+			<PromotionType>PROMOTION_AIR_BOMBARDMENT_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_PZL23</UnitType>
+			<PromotionType>PROMOTION_AIR_BOMBARDMENT_2</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_PZL23</UnitType>
+			<PromotionType>PROMOTION_AIR_RANGE</PromotionType>
+		</Row>
+		
+
+		<Row>
+			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
+			<PromotionType>PROMOTION_AIR_ATTACK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_MIRRAGE2000</UnitType>
+			<PromotionType>PROMOTION_AIR_ATTACK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_MIRRAGE2000</UnitType>
+			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_MIRRAGE2000</UnitType>
+			<PromotionType>PROMOTION_BLITZ</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_MIRRAGE2000</UnitType>
+			<PromotionType>PROMOTION_AIR_RANGE</PromotionType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_STEALTH_ATTACK_AIRCRAFT</UnitType>
+			<PromotionType>PROMOTION_EVASION_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_ATTACK_AIRCRAFT</UnitType>
+			<PromotionType>PROMOTION_AIR_ATTACK</PromotionType>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_BOMBER</UnitType>
+			<PromotionType>PROMOTION_STRATEGIC_BOMBER</PromotionType>
+		</Row>
+	
+		<Row>
+			<UnitType>UNIT_AMERICAN_B17</UnitType>
+			<PromotionType>PROMOTION_STRATEGIC_BOMBER</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_B17</UnitType>
+			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_B17</UnitType>
+			<PromotionType>PROMOTION_MARCH</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_B17</UnitType>
+			<PromotionType>PROMOTION_AIR_RANGE</PromotionType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_JET_BOMBER</UnitType>
+			<PromotionType>PROMOTION_STRATEGIC_BOMBER</PromotionType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_STRATEGIC_BOMBER</PromotionType>
+		</Row>		
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_EVASION_II</PromotionType>
+		</Row>
+
+		
+		
+		<Row>
+			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
+			<PromotionType>PROMOTION_CARRIER_FIGHTER</PromotionType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_JET</UnitType>
+			<PromotionType>PROMOTION_CARRIER_FIGHTER</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER</UnitType>
+			<PromotionType>PROMOTION_CARRIER_FIGHTER</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER</UnitType>
+			<PromotionType>PROMOTION_BLITZ</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER</UnitType>
+			<PromotionType>PROMOTION_NAVAL_BONUS_STRONG</PromotionType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ADV</UnitType>
+			<PromotionType>PROMOTION_CARRIER_FIGHTER</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER_ADV</UnitType>
+			<PromotionType>PROMOTION_CARRIER_FIGHTER</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER_ADV</UnitType>
+			<PromotionType>PROMOTION_BLITZ</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER_ADV</UnitType>
+			<PromotionType>PROMOTION_NAVAL_BONUS_STRONG</PromotionType>
+		</Row>
+
+
+
+
+		<!--<Row>
+			<UnitType>UNIT_GUIDED_MISSILE</UnitType>
+			<PromotionType>PROMOTION_MISSILE_UNIT</PromotionType>
+		</Row>-->
+		<Row>
+			<UnitType>UNIT_GUIDED_MISSILE</UnitType>
+			<PromotionType>PROMOTION_NO_CASUALTIES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EMP_BOMBER_AIR</UnitType>
+			<PromotionType>PROMOTION_EMP_ATTACK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EMP_BOMBER_AIR</UnitType>
+			<PromotionType>PROMOTION_NO_CASUALTIES</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	
+	
+	
+	
+
+
+	<Unit_ResourceQuantityRequirements>
+
+		<Row>
+			<UnitType>UNIT_TRIPLANE</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WWI_BOMBER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WWI_BOMBER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_FIGHTER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DIVE_BOMBER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DIVE_BOMBER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_PZL23</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_PZL23</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_BOMBER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BOMBER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_B17</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_B17</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_INTERCEPTER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_INTERCEPTER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_RUSSIAN_SU27</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_SU27</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_MIRRAGE2000</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_MIRRAGE2000</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_JET_BOMBER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JET_BOMBER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+				
+		<Row>
+			<UnitType>UNIT_JET_FIGHTER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JET_FIGHTER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_SWEDISH_JAS39_FIGHTER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWEDISH_JAS39_FIGHTER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_STEALTH_ATTACK_AIRCRAFT</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_ATTACK_AIRCRAFT</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		
+		
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_JET</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ADV</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER_ADV</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_JET</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ADV</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER_ADV</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+
+		
+
+		<Row>
+			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ICBM_MISSILE</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_EMP_BOMBER_AIR</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_TRIPLANE</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WWI_BOMBER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+	
+
+		<Row>
+			<UnitType>UNIT_FIGHTER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DIVE_BOMBER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_PZL23</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_BOMBER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>8</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_B17</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>8</Cost>
+		</Row>
+		
+
+
+		<Row>
+			<UnitType>UNIT_INTERCEPTER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_SU27</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_MIRRAGE2000</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+	
+
+		<Row>
+			<UnitType>UNIT_JET_BOMBER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>10</Cost>
+		</Row>
+	
+
+		<Row>
+			<UnitType>UNIT_JET_FIGHTER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWEDISH_JAS39_FIGHTER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_STEALTH_ATTACK_AIRCRAFT</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>5</Cost>
+		</Row>
+	
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>12</Cost>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_JET</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ADV</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER_ADV</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ICBM_MISSILE</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		
+	</Unit_ResourceQuantityRequirements>
+
+
+
+
+
+
+	<Unit_AITypes>
+
+
+
+		<Row>
+			<UnitType>UNIT_TRIPLANE</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIPLANE</UnitType>
+			<UnitAIType>UNITAI_CITY_SPECIAL</UnitAIType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_FIGHTER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FIGHTER</UnitType>
+			<UnitAIType>UNITAI_CITY_SPECIAL</UnitAIType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_INTERCEPTER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INTERCEPTER</UnitType>
+			<UnitAIType>UNITAI_CITY_SPECIAL</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_SU27</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_SU27</UnitType>
+			<UnitAIType>UNITAI_CITY_SPECIAL</UnitAIType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_JET_FIGHTER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JET_FIGHTER</UnitType>
+			<UnitAIType>UNITAI_CITY_SPECIAL</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWEDISH_JAS39_FIGHTER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWEDISH_JAS39_FIGHTER</UnitType>
+			<UnitAIType>UNITAI_CITY_SPECIAL</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWEDISH_JAS39_FIGHTER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_WWI_BOMBER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WWI_BOMBER</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_DIVE_BOMBER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DIVE_BOMBER</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_PZL23</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_PZL23</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_MIRRAGE2000</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_MIRRAGE2000</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_STEALTH_ATTACK_AIRCRAFT</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_ATTACK_AIRCRAFT</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_BOMBER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BOMBER</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_B17</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_B17</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+		</Row>
+
+		
+		<Row>
+			<UnitType>UNIT_JET_BOMBER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>	
+		<Row>
+			<UnitType>UNIT_JET_BOMBER</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+		</Row>
+
+
+
+
+		<Row>
+			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>	
+	
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_JET</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_JET</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+
+
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ADV</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ADV</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER_ADV</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER_ADV</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+
+
+
+
+
+		<Row>
+			<UnitType>UNIT_GUIDED_MISSILE</UnitType>
+			<UnitAIType>UNITAI_MISSILE_AIR</UnitAIType>
+		</Row>
+		
+		
+		
+		<Row>
+			<UnitType>UNIT_EMP_BOMBER_AIR</UnitType>
+			<UnitAIType>UNITAI_MISSILE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EMP_BOMBER_AIR</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
+			<UnitAIType>UNITAI_ICBM</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
+			<UnitAIType>UNITAI_ICBM</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ICBM_MISSILE</UnitType>
+			<UnitAIType>UNITAI_ICBM</UnitAIType>
+		</Row>
+		
+	</Unit_AITypes>
+
+
+
+
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_TRIPLANE</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TRIPLANE</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_FIGHTER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FIGHTER</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_INTERCEPTER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INTERCEPTER</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_SU27</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_RUSSIAN_SU27</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_JET_FIGHTER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>140</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JET_FIGHTER</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>160</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWEDISH_JAS39_FIGHTER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SWEDISH_JAS39_FIGHTER</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_WWI_BOMBER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WWI_BOMBER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WWI_BOMBER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_DIVE_BOMBER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>170</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DIVE_BOMBER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>160</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DIVE_BOMBER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>160</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DIVE_BOMBER</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>160</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_POLISH_PZL23</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>90</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_PZL23</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>90</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_PZL23</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>90</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_POLISH_PZL23</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>90</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>200</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>190</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>160</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATTACK_AIRCRAFT</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>160</Flavor>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_FRANCE_MIRRAGE2000</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>120</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_MIRRAGE2000</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRANCE_MIRRAGE2000</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>120</Flavor>
+		</Row>
+		
+
+		<Row>
+			<UnitType>UNIT_STEALTH_ATTACK_AIRCRAFT</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_ATTACK_AIRCRAFT</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_ATTACK_AIRCRAFT</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_ATTACK_AIRCRAFT</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+
+
+
+		<Row>
+			<UnitType>UNIT_BOMBER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BOMBER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		
+		<Row>
+			<UnitType>UNIT_AMERICAN_B17</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_B17</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_B17</UnitType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_JET_BOMBER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JET_BOMBER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JET_BOMBER</UnitType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_EMP_BOMBER_AIR</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EMP_BOMBER_AIR</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>75</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>105</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ICBM_MISSILE</UnitType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+
+	</Unit_Flavors>
+	
+	
+	
+	
+	
+	
+</GameData>

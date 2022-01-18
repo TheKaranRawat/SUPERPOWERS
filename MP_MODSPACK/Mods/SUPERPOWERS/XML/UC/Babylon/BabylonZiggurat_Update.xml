@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Switches the Ziggurat's production bonus for a Great Person bonus -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Set BuildingProductionModifier="0" GreatPeopleRateModifier="15" />
+			<Where Type="BUILDING_3UC_ZIGGURAT" />
+		</Update>
+	</Buildings>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_3UC_ZIGGURAT_STRATEGY"/>
+			<Set>
+				<Text>The Ziggurat is a Babylonian unique building that increases the [ICON_PEACE] Faith in the city. Unlike the Temple it replaces, the Ziggurat also yields [ICON_PRODUCTION] Production and increases the rate of [ICON_GREAT_PEOPLE] Great Person generation by 15% in this City. City must already have a Shrine.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_3UC_ZIGGURAT_HELP"/>
+			<Set>
+				<Text>Increases the [ICON_PEACE] Faith and [ICON_PRODUCTION] Production of a city. Increases rate of [ICON_GREAT_PEOPLE] Great Person generation by 15% in this City. Only Babylon may build it.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+</GameData>

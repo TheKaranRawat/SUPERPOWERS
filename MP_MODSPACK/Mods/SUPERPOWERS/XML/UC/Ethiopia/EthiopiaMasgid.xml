@@ -1,0 +1,70 @@
+﻿<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_MASGID</Type>
+			<BuildingClass>BUILDINGCLASS_COURTHOUSE</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_MASGID_HELP</Help>
+			<Description>TXT_KEY_BUILDING_MASGID</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MASGID_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MASGID_STRATEGY</Strategy>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_MASGID</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MASGID</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MASGID</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MASGID</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETHIOPIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<BuildingType>BUILDING_MASGID</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_MASGID">
+			<Text>[ICON_PEACE] Masgid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MASGID_TEXT">
+			<Text>Although a heavily Christian nation, Ethiopia has long held large populations of other religions, especially Muslims and Jews. The large Jewish group known as the Beta Israel have a particularly long history in Ethiopia. They call their prayer house Masgid, literally meaning "place of worship".</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MASGID_STRATEGY">
+			<Text>The Masgid is the Ethiopian unique replacement for the Courthouse, but it is very different. It can be built in any City and is available at Philosophy instead of Mathematics. Because it does not remove extra [ICON_HAPPINESS_4] Unhappiness from [ICON_OCCUPIED] Occupied Cities, Ethiopia is very poorly suited to conquest. Instead, they have an extra building to use for generating even more [ICON_PEACE] Faith and [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MASGID_HELP">
+			<Text>Unique Ethiopian Courthouse replacement. Increases the [ICON_PEACE] Faith and [ICON_CULTURE] Culture of the City, but does not eliminate extra [ICON_HAPPINESS_4] Unhappiness from [ICON_OCCUPIED] Occupied Cities.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/08/17 7:00:36 AM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_WILD_GEESE</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_WILD_GEESE</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_WILD_GEESE</DefaultUnit>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_WILD_GEESE</Class>
+			<Type>UNIT_EXOTIC_UNIT_WILD_GEESE</Type>
+			<Combat>65</Combat>
+			<Moves>7</Moves>
+			<Cost>350</Cost>
+			<!--<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<PrereqTech>TECH_METALLURGY</PrereqTech>
+			<ObsoleteTech>TECH_DYNAMITE</ObsoleteTech>
+			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_WILD_GEESE</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_WILD_GEESE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_WILD_GEESE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_WILD_GEESE_HELP</Help>
+
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			
+			<Pillage>true</Pillage>
+
+			<AdvancedStartCost>30</AdvancedStartCost>
+			
+			<MinAreaSize>-1</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_EXOTIC_UNIT_WILD_GEESE</UnitArtInfo>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>38</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>30</UnitFlagIconOffset>
+			<MoveRate>QUADRUPED</MoveRate>
+			<ExtraMaintenanceCost>45</ExtraMaintenanceCost>
+			
+		</Row>
+	</Units>
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_MERC_GUILD</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
+			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
+			<PromotionType>PROMOTION_FORMATION_1</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
+			<SelectionSound>AS2D_SELECT_KNIGHT</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_KNIGHT</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_WILD_GEESE">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Wild Geese</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_WILD_GEESE_HELP">
+			<Text>Fast, Renaissance Era mounted Mercenary melee unit. Price shown is how much it costs to hire this unit for 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_WILD_GEESE_STRATEGY">
+			<Text>Use the Wild Geese to quickly route and scatter your enemies. They may move after attacking and receive +25% bonus against mounted units. They receive no defensive bonus from terrain and a penalty when attacking cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_WILD_GEESE_PEDIA">
+			<Text>
+				The Wild Geese are a Renaissance era Mercenary mounted melee unit, available upon the discovery of Metallurgy. The Mercenary Guild is required for this unit to be built. Wild Geese become obsolete upon the discovery of Dynamite.[NEWLINE][NEWLINE]
+				The Flight of the Wild Geese was the departure of an Irish Jacobite army under the command of Patrick Sarsfield from Ireland to France, as agreed in the Treaty of Limerick on 3 October 1691, following the end of the Williamite War in Ireland. More broadly, the term 'Wild Geese' is used in Irish history to refer to Irish soldiers who left to serve in continental European armies in the 16th, 17th and 18th centuries.[NEWLINE][NEWLINE]The first Irish troops to serve as a unit for a continental power formed an Irish regiment in the Spanish Army of Flanders in the Eighty Years' War in the 1580s. The regiment had been raised by an English Catholic, William Stanley, in Ireland from native Irish soldiers and mercenaries, whom the English authorities wanted out of the country. Stanley was given a commission by Elizabeth I and was intended to lead his regiment on the English side, in support of the Dutch United Provinces. However, in 1585, motivated by religious factors and bribes offered by the Spaniards, Stanley defected to the Spanish side with the regiment. In 1598 Diego Brochero de Anaya wrote to the Spanish King Philip III.[NEWLINE][NEWLINE]From the mid-17th century or so, France overtook Spain as the destination for Catholic Irishmen seeking a military career. The principal reason for this was that France was an ascendant power, rapidly expanding its armed forces, whereas Spain was a power in decline.[NEWLINE][NEWLINE]France recruited many foreign soldiers; Germans, Italians, Walloons and Swiss. Andre Corvisier, the authority on French military archives, estimates that foreigners accounted for around 12% of all French troops in peacetime and 20% of troops during warfare. In common with the other foreign troops the Irish regiments were paid more than their French counterparts. Both Irish and Swiss regiments in French service wore red uniforms, though this had no connection with the redcoats of the British army.[NEWLINE][NEWLINE]The crucial turning point came during the Williamite War in Ireland, 1688 to 1691, when Louis XIV gave military and financial aid to the Irish Jacobites. In 1690, in return for 6,000 French troops that were shipped to Ireland, Louis demanded 6,000 Irish recruits for use in the Nine Years War against the Dutch. Five regiments, led by Justin McCarthy, Viscount Mountcashel formed the nucleus of Mountcashel's French Irish Brigade. A year later, after the Irish Jacobites under Patrick Sarsfield agreed to favorable peace terms and capitulated at the Treaty of Limerick in 1691, the fully armed and equipped Irish Army withdrew to France. Sarsfield sailed to France on 22 December 1691, leading 19,000 of his countrymen and countrywomen to enter the French service in the first phase of the military denuding of Ireland.[NEWLINE][NEWLINE]Irish recruitment for continental armies declined sharply after it was made illegal in 1745. In practical terms this meant that recruiting within Ireland itself effectively ceased and Irishmen seeking employment in foreign armies had to make their own way to the Continent. Replacements accordingly were drawn increasingly from the descendants of Irish soldiers who had settled in France or Spain; from non-Irish foreign recruits such as more readily available Germans or Swiss; or from natives of the recruiting countries.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/2/2015 5:17:35 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_3YAM">
+			<Text>[ICON_PRODUCTION] Yam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3YAM_STRATEGY">
+			<Text>The Yam is a Mongolian unique building that increases the [ICON_PRODUCTION] Production of every [ICON_RES_HORSE] Horse, [ICON_RES_SHEEP] Sheep, and [ICON_RES_COW] Cow resource, and increases the [ICON_PRODUCTION] Production of a city by 15% when building Mounted Units. Unlike the Stable it replaces, the Yam is also yields an additional 2 [ICON_GOLD] Gold and 1 [ICON_RES_HORSE] Horse resource. Land trade routes can also travel farther.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3YAM_HELP">
+			<Text>Increases the [ICON_GOLD] Gold and [ICON_PRODUCTION] Production yield of a city and yields a [ICON_RES_HORSE] Horse resource. Only Mongolia may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3YAM_TEXT">
+			<Text>
+				A Yam is a supply point route messenger system employed and extensively used and expanded by Genghis Khan and used by subsequent Great Khans and Khans. These relay stations were used to give food, shelter and spare horses for Mongol army messengers. Genghis Khan gave special attention to Yam because Mongol armies traveled very fast, so their messengers had to be even faster, covering 200–300 km per day. The system was used to speed up the process of information and intelligence.[NEWLINE][NEWLINE]The Yam operated with a chain of relay stations at certain distances to each other, usually around 140 miles or 200 kilometers. Messengers for example would go to the next relay station and give the information to the second messenger and rest and let the second messenger go to the third relay station to hand the document to the third messenger. This way information or documents were constantly on the move without each messenger getting tired.[NEWLINE][NEWLINE]The Mongols had a strong history of supporting merchants and trade. Genghis Khan had encouraged foreign merchants early in his career, even before uniting the Mongols. Merchants provided him with information about neighboring cultures, served as diplomats and official traders for the Mongols, and were essential for many needed goods, since the Mongols produced little of their own. Mongols sometimes provided capital for merchants, and sent them far afield, in a merchant partner arrangement. As the Empire grew, any merchants or ambassadors with proper documentation and authorization, received protection and sanctuary as they traveled through Mongol realms.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>3UC_YAM_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>monogolHORSE256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3UC_YAM_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>monogolHORSE128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3UC_YAM_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>monogolHORSE64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3UC_YAM_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>monogolHORSE45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+</GameData>

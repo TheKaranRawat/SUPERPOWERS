@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!-- Adds the new Sacbe -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_SACBE</Type>
+			<BuildingClass>BUILDINGCLASS_CARAVANSARY</BuildingClass>
+			<Cost>75</Cost>
+			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
+			<Description>TXT_KEY_BUILDING_SACBE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SACBE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SACBE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_SACBE_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_CARAVANSARY</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<ArtInfoEraVariation>true</ArtInfoEraVariation>
+			<TradeRouteLandDistanceModifier>50</TradeRouteLandDistanceModifier>
+			<TradeRouteLandGoldBonus>200</TradeRouteLandGoldBonus>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>22</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_MAYA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
+			<BuildingType>BUILDING_SACBE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+
+	<!-- Adds new text -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_SACBE">
+			<Text>[ICON_INTERNATIONAL_TRADE] Sacbe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SACBE_HELP">
+			<Text>Improves the range and [ICON_GOLD] Gold yield of land trade routes. Increases [ICON_PRODUCTION] Production, [ICON_PEACE] Faith, and [ICON_CULTURE] Culture. Only the Maya may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SACBE_STRATEGY">
+			<Text>The Mayan unique building Sacbe replaces the Caravansary. Land routes originating from this City have a 50% increase in range and produce an additional 2 [ICON_GOLD] Gold when connecting to another civilization. Compared to the Caravansary, the Sacbe is available one technology sooner and cheaper to build. The Sacbe also adds [ICON_PRODUCTION] Production, [ICON_PEACE] Faith, and [ICON_CULTURE] Culture for this City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SACBE_TEXT">
+			<Text>
+				A sacbe, plural sacbeob, is a raised paved road built by the Maya civilization of pre-Columbian Mesoamerica. Most connect temples, plazas, and groups of structures within ceremonial centers or cities, but some longer roads between cities are also known. The term "sacbe" is Yucatec Maya for "white road"; white because they were originally coated with limestone stucco, which was over stone and rubble fill.[NEWLINE][NEWLINE]While the longer roads could be used for trade and communication, all sacbeob apparently had ritual or religious significance as well. Travel writer and early Mayanist John Lloyd Stephens reported that some local Maya people in Yucatan still said a short ritual prayer when crossing a sacbe in the early 1840s, even though they had been overgrown with jungle for centuries at the time.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

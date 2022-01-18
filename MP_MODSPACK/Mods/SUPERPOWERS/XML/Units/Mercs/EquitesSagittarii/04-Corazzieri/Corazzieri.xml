@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/08/17 7:00:36 AM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_CORAZZIERI</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_CORAZZIERI</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_CORAZZIERI</DefaultUnit>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_CORAZZIERI</Class>
+			<Type>UNIT_EXOTIC_UNIT_CORAZZIERI</Type>
+			<Combat>20</Combat>
+			<RangedCombat>45</RangedCombat>
+			<Range>2</Range>
+			<Moves>6</Moves>
+			<Cost>125</Cost>
+			<!--<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			<ObsoleteTech>TECH_RAILROAD</ObsoleteTech>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_CORAZZIERI</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_CORAZZIERI_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_CORAZZIERI_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_CORAZZIERI_HELP</Help>
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<NoMaintenance>true</NoMaintenance>
+			<Pillage>true</Pillage>
+
+			<AdvancedStartCost>100</AdvancedStartCost>
+			
+			<MinAreaSize>-1</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_EXOTIC_UNIT_CORAZZIERI</UnitArtInfo>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>59</UnitFlagIconOffset>
+			<MoveRate>QUADRUPED</MoveRate>
+			<ExtraMaintenanceCost>24</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<!--
+	
+	
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	-->
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_MERC_GUILD</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+	
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>17</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>17</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
+			<UnitClassType>UNITCLASS_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
+			<SelectionSound>AS2D_SELECT_CAVALRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CAVALRY</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_CORAZZIERI">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Corazzieri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_CORAZZIERI_HELP">
+			<Text>Fast Renaissance Era ranged mounted unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_CORAZZIERI_STRATEGY">
+			<Text>Use the Corazzieri to crush your enemies from afar. They may move after attacking, but receive no defensive bonus from terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_CORAZZIERI_PEDIA">
+			<Text>
+				The Corazzieri is a Renaissance era ranged mounted unit, available upon the discovery of Gunpowder. The Corazzieri becomes obsolete upon the discovery of Railroad, at which time it may upgrade to the Cheyenne Dog Soldier unit.[NEWLINE][NEWLINE]
+				The Cuirassiers' Regiment, in Italian 'Reggimento Corazzieri' previously Comando Carabinieri Guardie del Presidente della Repubblica, is an Italian elite military unit and the honor guard of the President of the Italian Republic. Their motto 'Virtus in periculis firmior' means Courage becomes stronger in danger.[NEWLINE][NEWLINE]The unit's history dates back to the late 14th century, when the Red Count used a lifeguard of archers. In the 16th century, Emmanuel Philibert re-organized the Savoiard army, creating a personal guard unit of mounted archers, Guardia D'Onore, which fought brilliantly in the Battle of St. Quentin in 1557. This guard saved Charles Emmanuel I during the siege of Mons in 1590. Charles Emmanuel created a company of cuirassiers, known as the Compagnia Corazzieri del Duca, and this unit was enlarged by his successors until 1854, when the Carabinieri received the role of guards of the King during the campaigns. On 7 February 1868, for the wedding of Prince Umberto to Margherita of Savoy, a mounted honor guard of 80 Carabinieri was formed, called the Squadrone Carabinieri Guardie del Re. The new unit was formally recognized as Carabinieri Guardie del Re on 7 January 1870, when it was entrusted with the safety of the king.[NEWLINE][NEWLINE]After the end of the Kingdom of Italy, and the proclamation of the Republic, the unit was re-founded in 1946, and organized as a cavalry squadron.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

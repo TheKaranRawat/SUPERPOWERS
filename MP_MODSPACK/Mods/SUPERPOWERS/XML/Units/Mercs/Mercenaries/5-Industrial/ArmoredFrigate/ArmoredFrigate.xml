@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/07/17 1:35:50 PM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE</DefaultUnit>-->			
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE</Class>
+			<Type>UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE</Type>
+			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
+			<ObsoleteTech>TECH_RADAR</ObsoleteTech>
+			<Combat>105</Combat>
+			<Moves>6</Moves>
+			<Cost>250</Cost>			
+			<!--<FaithCost>300</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE_HELP</Help>
+
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			
+			<Pillage>true</Pillage>
+
+			<Mechanized>true</Mechanized>			
+			<AdvancedStartCost>150</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_EU_ARMORED_FRIGATE</UnitArtInfo>			
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>12</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>37</UnitFlagIconOffset>
+			<MoveRate>BOAT</MoveRate>
+			<ExtraMaintenanceCost>36</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_SHIPYARD</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE</UnitType>
+			<PromotionType>PROMOTION_WITHDRAW_BEFORE_MELEE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE</UnitType>
+			<SelectionSound>AS2D_SELECT_BATTLESHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BATTLESHIP</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Armored Frigate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE_HELP">
+			<Text>Powerful Modern Era Mercenary naval melee unit. Price shown is how much it costs to hire this unit for 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE_STRATEGY">
+			<Text>
+				Use the Armored Frigate to send your enemy's fleet to the bottom of the briny deep.
+				[NEWLINE][NEWLINE]Although this unit requires an Industrial Era Building to construct, it also requires a Modern Era technology. This delays the appeance of this unit until the discovery of Railroad.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE_PEDIA">
+			<Text>
+				The Armored Frigate is a Modern era Mercenary naval melee unit, available upon the discovery of Railroad. The Shipyard is required for this unit to be built. The Armored Frigate becomes obsolete upon the discovery of Rocketry.[NEWLINE][NEWLINE]
+				In the 18th century, the term 'frigate' referred to ships that were usually as long as a ship of the line and were square-rigged on all three masts, full rigged, but were faster and with lighter armament, used for patrolling and escort. In the definition adopted by the British Admiralty, they were rated ships of at least 28 guns, carrying their principal armaments upon a single continuous deck, the upper deck, while ships of the line possessed two or more continuous decks bearing batteries of guns.[NEWLINE][NEWLINE]In the late 19th century, beginning about 1858 with the construction of prototypes by the British and French navies, the armored frigate was a type of ironclad warship that for a time was the most powerful type of vessel afloat. The term 'frigate' was used because such ships still mounted their principal armaments on a single continuous upper deck.[NEWLINE][NEWLINE]In the 1830s, navies experimented with large paddle steamers equipped with large guns mounted on one deck, which were termed 'paddle frigates.'[NEWLINE][NEWLINE]From the mid-1840s on, frigates which more closely resembled the traditional sailing frigate were built with steam engines and screw propellers. These 'screw frigates,' built first of wood and later of iron, continued to perform the traditional role of the frigate until late in the 19th century. [NEWLINE][NEWLINE]From 1859, armor was added to ships based on existing frigate and ship of the line designs. The additional weight of the armor on these first ironclad warships meant that they could have only one gun deck, and they were technically frigates, even though they were more powerful than existing ships-of-the-line and occupied the same strategic role. The phrase 'armored frigate' remained in use for some time to denote a sail-equipped, broadside-firing type of ironclad.[NEWLINE][NEWLINE]After 1875, the term 'frigate' fell out of use. Vessels with armored sides were designated as 'battleships' or 'armored cruisers,' while 'protected cruisers' only possessed an armored deck, and unarmored vessels, including frigates and sloops, were classified as 'unprotected cruisers.'
+			</Text>
+		</Row>
+	</Language_en_US>	
+  
+</GameData>

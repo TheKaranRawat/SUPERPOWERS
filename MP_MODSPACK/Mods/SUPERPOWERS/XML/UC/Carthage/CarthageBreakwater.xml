@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!-- Adds the new Breakwater -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_BREAKWATER</Type>
+			<BuildingClass>BUILDINGCLASS_LIGHTHOUSE</BuildingClass>
+			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+			<Cost>75</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_OPTICS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_BREAKWATER_HELP</Help>
+			<Description>TXT_KEY_BUILDING_BREAKWATER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BREAKWATER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BREAKWATER_STRATEGY</Strategy>
+			<ArtDefineTag>LIGHTHOUSE</ArtDefineTag>
+			<Water>true</Water>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<ArtInfoEraVariation>true</ArtInfoEraVariation>
+			<DisplayPosition>8</DisplayPosition>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>28</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_SeaPlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_BREAKWATER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BREAKWATER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_SeaPlotYieldChanges>
+
+	<Building_SeaResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_BREAKWATER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_SeaResourceYieldChanges>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_BREAKWATER</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_BREAKWATER</BuildingType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BREAKWATER</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BREAKWATER</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BREAKWATER</BuildingType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BREAKWATER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_CARTHAGE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<BuildingType>BUILDING_BREAKWATER</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+
+	<!-- Add building text -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_BREAKWATER">
+			<Text>[ICON_PRODUCTION] Breakwater</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BREAKWATER_HELP">
+			<Text>
+				+1 [ICON_FOOD] Food and [ICON_PRODUCTION] Production from Coast and Ocean Tiles. +1 [ICON_PRODUCTION] Production from Sea Resources worked by this City.[NEWLINE][NEWLINE]Each Source of [ICON_RES_FISH] Fish worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must be built on the coast.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BREAKWATER_STRATEGY">
+			<Text>The Breakwater is the Carthaginian replacement for the Lighthouse. In addition to the normal effects, the Breakwater also increases the [ICON_PRODUCTION] Production of all sea tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BREAKWATER_TEXT">
+			<Text>
+				Breakwaters are structures constructed on coasts as part of coastal defense or to protect an anchorage from the effects of both weather and longshore drift. Offshore breakwaters, also called bulkhead, reduce the intensity of wave action in inshore waters and thereby reduce coastal erosion or provide safe harborage. Breakwaters may also be small structures designed to protect a gently sloping beach and placed one to three hundred feet offshore in relatively shallow water.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

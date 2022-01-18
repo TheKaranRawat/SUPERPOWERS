@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Improves the Shoshone Tipi -->
+<GameData>
+	<Improvements>
+		<Update>
+			<Set NoTwoAdjacent="false" />
+			<Where Type="IMPROVEMENT_TIPI_X" />
+		</Update>
+	</Improvements>
+	
+	<Improvement_ValidTerrains>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TIPI_X</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+
+	<BuildFeatures>
+		<Row>
+			<BuildType>IMPROVEMENT_TIPI_X</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>599</Time>
+			<Remove>true</Remove>
+		</Row>
+	</BuildFeatures>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_IMPROVEMENTS_TIPI_HELP_X" />
+			<Set>
+				<Text>A Tipi can only be built on a Flat Plains or Grassland tile (even if it has a feature).</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_IMPROVEMENTS_TIPI_TEXT_X" />
+			<Set>
+				<Text>The tipi (or teepee) is a portable, conical tent constructed of tanned hides and wooden poles traditionally associated with the migratory North American Plains Indians. The word itself comes from the Lakota for "they dwell." Often elaborately painted, tipis served to identify the separate tribes.[NEWLINE][NEWLINE]Yields 1 [ICON_PRODUCTION] Production and 1 [ICON_CULTURE] Culture. Its yield increases by +1 Food at Civil Service and another +1 [ICON_CULTURE] Culture after researching Archaeology. They may only be built on flat Plains and Grassland tiles. May be built within Forest tiles, but removes Jungle tiles.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+	
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TIPI_X</ImprovementType>
+			<TechType>TECH_CIVIL_SERVICE</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+
+</GameData>

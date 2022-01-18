@@ -1,0 +1,91 @@
+<!-- MERC BUILDINGS TEXT -->
+
+<GameData>
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_HEPTASTADION">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Naval Quarters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_HEPTASTADION_HELP">
+			<Text>Allows certain naval Mercenary units to be purchased. Adds +1 Production and +1 Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_HEPTASTADION_PEDIA">
+			<Text>
+				A Heptastadion is an Ancient Era building available upon the discovery of Sailing. Building it will allow the purchse of the XX and YY naval units. It also adds +1 to Production and +1 to Science in the city.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MEAD_HALL">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Retinue Quarters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MEAD_HALL_HELP">
+			<Text>Allows certain Mercenary units to be purchased. Adds +1 Production and +1 Culture. Requires a Monument in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MEAD_HALL_PEDIA">
+			<Text>
+				A Mead Hall is a Classical Era building available upon the discovery of Currency. Building it will allow the purchse of the XX and YY units. It also adds +1 to Productionand +1 Culture in the city.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_GUILD">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Mercenary Guild</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_GUILD_HELP">
+			<Text>Allows certain Mercenary units to be purchased. Adds +1 Production and +2 Culture. +6 City Defense Strength. Requires a Market in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_GUILD_PEDIA">
+			<Text>
+				A Mercenary Guild is a Renaissance Era building available upon the discovery of Currency. Building it will allow the purchse of the XX and YY units. It also adds +1 to Production and +2 Culture in the city. +6 City Defense Strength.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_SHIPYARD">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Privateering Company</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_SHIPYARD_HELP">
+			<Text>Allows certain naval Mercenary units to be purchased. Adds +1 Production, +1 Science, and +1 Culture. Requires a Harbor in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_SHIPYARD_PEDIA">
+			<Text>
+				A Shipyard is an Industrial Era building available upon the discovery of Military Science. Building it will allow the purchse of the XX and YY naval units. It also adds +1 to Production, +1 to Science, and +1 Culture in the city.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_CONSULATE">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Colonial Recruitment Agency</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_CONSULATE_HELP">
+			<Text>Allows certain Mercenary units to be purchased. Adds +1 Production and +2 Culture. +9 City Defense Strength. Requires a Market in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_CONSULATE_PEDIA">
+			<Text>
+				A Mercenary Consulate is a Modern Era building available upon the discovery of Railroad. Building it will allow the purchse of the XX and YY units. It also adds +1 to Production and +2 Culture in the city. +9 City Defense Strength.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_NAVAL_YARD">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Naval Procurement Department</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_NAVAL_YARD_HELP">
+			<Text>Allows certain naval Mercenary units to be purchased. Adds +2 Production, +1 Science, and +1 Culture. Requires a Seaport in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_NAVAL_YARD_PEDIA">
+			<Text>
+				A Naval Yard is an Atomic Era building available upon the discovery of Combined Arms. Building it will allow the purchse of the XX and YY naval units. It also adds +2 to Production, +1 to Science, and +1 Culture in the city.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_CONTRACTING_AGENCY">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Private Military Contractor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_CONTRACTING_AGENCY_HELP">
+			<Text>Allows certain Mercenary units to be purchased. Adds +2 Production and +2 Culture. Requires an Airport in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_CONTRACTING_AGENCY_PEDIA">
+			<Text>
+				A Contracting Agency is an Information Era building available upon the discovery of Telecommunications. Building it will allow the purchse of the XX and YY units. It also adds +2 to Production and +2 Culture in the city.
+			</Text>
+		</Row>
+		
+	</Language_en_US>
+</GameData>

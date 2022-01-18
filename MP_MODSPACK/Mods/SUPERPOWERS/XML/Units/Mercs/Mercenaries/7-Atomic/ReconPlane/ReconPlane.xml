@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_EU_RECON_PLANE</Type>
+			<Description>TXT_KEY_UNIT_SMAN_EU_RECON_PLANE</Description>
+			<DefaultUnit>UNIT_SMAN_EU_RECON_PLANE</DefaultUnit>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	
+  <Units>
+    <Row>
+      <Type>UNIT_SMAN_EU_RECON_PLANE</Type>
+      <Description>TXT_KEY_UNIT_SMAN_EU_RECON_PLANE</Description>
+      <CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+      <Domain>DOMAIN_AIR</Domain>
+      <Special>SPECIALUNIT_FIGHTER</Special>
+      <Class>UNITCLASS_SMAN_EU_RECON_PLANE</Class>
+      <Cost>800</Cost>
+      <AdvancedStartCost>200</AdvancedStartCost>
+      <RangedCombat>120</RangedCombat>
+      <Range>14</Range>
+	  <AirInterceptRange>3</AirInterceptRange>
+      <RangeAttackIgnoreLOS>true</RangeAttackIgnoreLOS>
+      <IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+      <Moves>2</Moves>
+      <Immobile>true</Immobile>
+      <Strategy>TXT_KEY_UNIT_SMAN_EU_RECON_PLANE_STRATEGY</Strategy>
+      <Help>TXT_KEY_UNIT_SMAN_EU_RECON_PLANE_HELP</Help>
+      <Civilopedia>TXT_KEY_UNIT_SMAN_EU_RECON_PLANE_PEDIA</Civilopedia>
+      <PrereqTech>TECH_PLASTIC</PrereqTech>
+      <ObsoleteTech>TECH_LASERS</ObsoleteTech>
+
+		
+		<PurchaseOnly>true</PurchaseOnly>
+		<MoveAfterPurchase>true</MoveAfterPurchase>
+		<MilitarySupport>true</MilitarySupport>
+		<MilitaryProduction>true</MilitaryProduction>
+		
+		<!--<Pillage>true</Pillage>-->	
+		
+		
+      <MoveRate>AIR_REBASE</MoveRate>
+      <Mechanized>true</Mechanized>
+      <UnitArtInfo>ART_DEF_UNIT_SMAN_EU_RECON_PLANE</UnitArtInfo>
+      <IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+      <PortraitIndex>47</PortraitIndex>
+      <UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+      <UnitFlagIconOffset>39</UnitFlagIconOffset>
+      <RangedCombatLimit>75</RangedCombatLimit>
+      <AirUnitCap>1</AirUnitCap>
+      <DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+	  <ExtraMaintenanceCost>100</ExtraMaintenanceCost>
+    </Row>
+  </Units>
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_RECON_PLANE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_MERC_CONSULATE</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+	
+	<Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_SMAN_EU_RECON_PLANE</UnitType>
+      <UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+    </Row>
+       <Row>
+      <UnitType>UNIT_SMAN_EU_RECON_PLANE</UnitType>
+      <UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+    </Row>
+   
+  </Unit_AITypes>
+  <Unit_Flavors>
+    <Row>
+      <UnitType>UNIT_SMAN_EU_RECON_PLANE</UnitType>
+      <FlavorType>FLAVOR_AIR</FlavorType>
+      <Flavor>15</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_SMAN_EU_RECON_PLANE</UnitType>
+      <FlavorType>FLAVOR_ANTIAIR</FlavorType>
+      <Flavor>12</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_SMAN_EU_RECON_PLANE</UnitType>
+      <FlavorType>FLAVOR_DEFENSE</FlavorType>
+      <Flavor>7</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_SMAN_EU_RECON_PLANE</UnitType>
+      <FlavorType>FLAVOR_OFFENSE</FlavorType>
+      <Flavor>12</Flavor>
+    </Row>    
+  </Unit_Flavors>
+	
+  <Unit_FreePromotions>
+	  <Row>
+		  <UnitType>UNIT_SMAN_EU_RECON_PLANE</UnitType>
+		  <PromotionType>PROMOTION_AIR_RECON</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_SMAN_EU_RECON_PLANE</UnitType>
+		  <PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_SMAN_EU_RECON_PLANE</UnitType>
+		  <PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+	  </Row>	  
+  </Unit_FreePromotions>
+	
+  
+	<!--			Art Defines				-->
+  <ArtDefine_UnitInfos>
+    <Row>
+      <Type>ART_DEF_UNIT_SMAN_EU_RECON_PLANE</Type>
+      <DamageStates>1</DamageStates>
+      <Formation>BomberWing</Formation>
+    </Row>
+  </ArtDefine_UnitInfos>
+  <ArtDefine_UnitInfoMemberInfos>
+    <Row>
+      <UnitInfoType>ART_DEF_UNIT_SMAN_EU_RECON_PLANE</UnitInfoType>
+      <UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SMAN_EU_RECON_PLANE</UnitMemberInfoType>
+      <NumMembers>1</NumMembers>
+    </Row>
+  </ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_SMAN_EU_RECON_PLANE</Type>
+			<Scale>.1</Scale>
+			<Domain>Air</Domain>
+			<Model>SMAN_EU_ReconPlane.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_EU_RECON_PLANE</UnitMemberType>
+			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
+			<AttackRadius>135.0</AttackRadius>
+			<MoveRate>2.2</MoveRate>
+			<TurnRateMin>0.25</TurnRateMin>
+			<TurnRateMax>0.5</TurnRateMax>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_EU_RECON_PLANE</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<ProjectileSpeed>3.0</ProjectileSpeed>
+			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
+			<HitRadius>15.0</HitRadius>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_EU_RECON_PLANE</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>1.0</VisKillStrengthMin>
+			<VisKillStrengthMax>1.0</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
+			<HitRadius>15.0</HitRadius>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_EU_RECON_PLANE</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>1</SubIndex>
+			<ID>PROJECTILE</ID>
+			<VisKillStrengthMin>25.0</VisKillStrengthMin>
+			<VisKillStrengthMax>50.0</VisKillStrengthMax>
+			<ProjectileSpeed>3.0</ProjectileSpeed>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+  
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_RECON_PLANE</UnitType>
+			<SelectionSound>AS2D_SELECT_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FIGHTER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<ArtDefine_StrategicView>
+    <Row>
+      <StrategicViewType>ART_DEF_UNIT_SMAN_EU_RECON_PLANE</StrategicViewType>
+      <TileType>Unit</TileType>
+      <Asset>SV_Fighter.dds</Asset>
+    </Row>
+  </ArtDefine_StrategicView>
+
+	
+  <Language_en_US>
+    <Row Tag="TXT_KEY_UNIT_SMAN_EU_RECON_PLANE">
+      <Text>[ICON_IDEOLOGY_AUTOCRACY] Reconnaissance Plane</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SMAN_EU_RECON_PLANE_STRATEGY">
+      <Text>The Reconnaissance Plane is a Mercenary reconnaissance and light fighter unit, having a range of 12 tiles.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SMAN_EU_RECON_PLANE_HELP">
+      <Text>The Reconnaissance Plane is a reconnaissance and light fighter unit that is land based. It has a range of 12 tiles. Use the AIR SWEEP ability to recon targeted areas.  Price shown is how much it costs to hire this unit for 20 turns.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SMAN_EU_RECON_PLANE_PEDIA">
+      <Text>
+		  The Reconnaissance Plane is a Modern Era reconnaissance unit, available when the civilization discovers Plastics. The Mercenary Consulate is required for this unit to be built. The Reconnaissance Plane becomes obsolete on the discovery of Lasers.[NEWLINE][NEWLINE]
+		  The de Havilland DH.98 Mosquito was a British multi-role combat aircraft with a two-man crew that served during and after the Second World War. It was one of few operational front-line aircraft of the era constructed almost entirely of wood and was nicknamed 'The Wooden Wonder.' The Mosquito was also known affectionately as the 'Mossie' to its crews. Originally conceived as an unarmed fast bomber, the Mosquito was adapted to roles including low to medium-altitude daytime tactical bomber, high-altitude night bomber, pathfinder, day or night fighter, fighter-bomber, intruder, maritime strike aircraft, and fast photo-reconnaissance aircraft. It was also used by the British Overseas Airways Corporation (BOAC) as a fast transport to carry small high-value cargoes to, and from, neutral countries, through enemy-controlled airspace.[NEWLINE]When the Mosquito began production in 1941, it was one of the fastest operational aircraft in the world. Entering widespread service in 1942, the Mosquito was a high-speed, high-altitude photo-reconnaissance aircraft, continuing in this role throughout the war. From mid-1942 to mid-1943 Mosquito bombers flew high-speed, medium or low-altitude missions against factories, railways and other pinpoint targets in Germany and German-occupied Europe. From late 1943, Mosquito bombers were formed into the Light Night Strike Force and used as pathfinders for RAF Bomber Command's heavy-bomber raids. They were also used as 'nuisance' bombers, often dropping Blockbuster bombs - 4,000 lb (1,812 kg) 'cookies' - in high-altitude, high-speed raids that German night fighters were almost powerless to intercept.[NEWLINE]As a night fighter, from mid-1942, the Mosquito intercepted Luftwaffe raids on the United Kingdom, notably defeating Operation Steinbock in 1944. Starting in July 1942, Mosquito night-fighter units raided Luftwaffe airfields. As part of 100 Group, it was a night fighter and intruder supporting RAF Bomber Command's heavy bombers and reduced bomber losses during 1944 and 1945. As a fighter-bomber in the Second Tactical Air Force, the Mosquito took part in special raids, such as the attack on Amiens Prison in early 1944, and in precision attacks against Gestapo or German intelligence and security forces. Second Tactical Air Force Mosquitos supported the British Army during the 1944 Normandy Campaign. From 1943 Mosquitos with RAF Coastal Command strike squadrons attacked Kriegsmarine U-boats (particularly in the 1943 Bay of Biscay, where significant numbers were sunk or damaged) and intercepting transport ship concentrations.
+		  The Mosquito flew with the Royal Air Force (RAF) and other air forces in the European, Mediterranean and Italian theatres. The Mosquito was also operated by the RAF in the South East Asian theatre, and by the Royal Australian Air Force (RAAF) based in the Halmaheras and Borneo during the Pacific War.[NEWLINE]In Royal Air Force use its replacement was the jet English Electric Canberra. - Wikipedia</Text>
+    </Row>
+  </Language_en_US>
+</GameData>
+

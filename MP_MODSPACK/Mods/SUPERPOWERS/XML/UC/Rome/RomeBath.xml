@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/10/2015 9:05:14 PM -->
+<GameData>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_3ROMEGARDEN">
+			<Text>[ICON_GREAT_PEOPLE] Thermae</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3ROMEGARDEN_STRATEGY">
+			<Text>The Thermae is a Roman unique building that increases the speed at which [ICON_GREAT_PEOPLE] Great People are generated within a city. Unlike the Garden it replaces, it yields an additional 1 [ICON_FOOD] Food, 1 [ICON_CULTURE] Culture, and 1 [ICON_RESEARCH] Science. Requires Fresh Water.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3ROMEGARDEN_HELP">
+			<Text>Increases the speed at which [ICON_GREAT_PEOPLE] Great People are generated in a city and yields a small amount of [ICON_FOOD] Food, [ICON_CULTURE] Culture, and [ICON_RESEARCH] Science. Requires Fresh Water. Only Rome may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3ROMEGARDEN_TEXT">
+			<Text>
+				In ancient Rome, thermae were facilities for bathing. Most Roman cities had at least one, if not many, such buildings, which were centers not only for bathing, but socializing. Roman bath-houses were also provided for private villas, town houses, and forts. They were supplied with water from an adjacent river or stream, or more normally, by an aqueduct.[NEWLINE][NEWLINE]In many ways, baths were the ancient Roman equivalent of community centres. Because the bathing process took so long, conversation was necessary. Many Romans would use the baths as a place to invite their friends to dinner parties, and many politicians would go to the baths to convince fellow Romans to join their causes. The thermae had many attributes in addition to the baths. There were libraries, rooms for poetry readings, and places to buy and eat food. The modern equivalent would be a combination of a library, art gallery, mall, restaurant, gym, and spa.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>3ROMEGARDEN_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>3thermae256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3ROMEGARDEN_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>3thermae128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3ROMEGARDEN_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>3thermae64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3ROMEGARDEN_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>3thermae45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+</GameData>

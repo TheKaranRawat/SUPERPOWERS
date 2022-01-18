@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/6/2013 1:15:40 AM -->
+<GameData>
+	<UnitPromotions>
+	<Row>
+		<Type>PROMOTION_ROYAL_GUARD</Type>
+		<Description>TXT_KEY_PROMOTION_ROYAL_GUARD</Description>
+		<Help>TXT_KEY_PROMOTION_ROYAL_GUARD_HELP</Help>
+		<Sound>AS2D_IF_LEVELUP</Sound>
+		<AttackMod>33</AttackMod>
+		<PortraitIndex>4</PortraitIndex>
+		<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+		<PediaType>PEDIA_ATTRIBUTES</PediaType>
+		<PediaEntry>TXT_KEY_PROMOTION_ROYAL_GUARD</PediaEntry>
+		<CannotBeChosen>true</CannotBeChosen>
+	</Row>
+		</UnitPromotions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_3UC_ROYAL_GUARD">
+			<Text>Royal Guard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_3UC_ROYAL_GUARD_HELP">
+			<Text>Ancient era front-line unit that receives a Combat Bonus when attacking. Only Assyria may build it.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_3UC_ROYAL_GUARD_STRATEGY">
+			<Text>Ancient era front-line unit that only Assyria may build. Strong against mounted units. The Royal Guard receives a Combat Bonus when attacking, unlike the Spearman it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_3UC_ROYAL_GUARD_TEXT">
+			<Text>
+				The nature of Mesopotamia, plain and fertile with few natural defenses, meant that defensive operations were out of the question; only a decisive attack could defend such vulnerable yet valuable locations. The cities of Assur and Nineveh were both "sandwiched" between rivers, Nineveh being more so enclosed and protected by the Tigris while Assur, while being close to the Tigris, was a fair distance away from the Euphrates. The result was that both cities had a measure of natural protection. However, rivers would not stop a determined army so attacking and destroying the enemies' ability to wage war was the best method of ensuring survival. To this end the Assyrians sought a decisive encounter that would destroy the enemies' army. [NEWLINE][NEWLINE]Soldiers were mostly raised farmers, who had to return to their fields to collect the harvest. Professional soldiers were limited to a few bodyguards that protected the King and or other nobles and officials but these would not have been deployed or wasted in battle unless the situation became urgent, as it later did. The arrival of the King and his bodyguard ended the preliminary stage and the army would move on to the target of their campaign.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_ROYAL_GUARD">
+			<Text>
+				Royal Guard
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ROYAL_GUARD_HELP">
+			<Text>
+				This unit receives a Combat bonus when attacking.
+			</Text>
+		</Row>
+	</Language_en_US>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>ROYAL_GUARD_FLAG</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>royalguardicon.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+			<Row>
+				<Atlas>ROYAL_GUARD_ATLAS</Atlas>
+				<IconSize>256</IconSize>
+				<Filename>royalguard256.dds</Filename>
+				<IconsPerRow>1</IconsPerRow>
+				<IconsPerColumn>1</IconsPerColumn>
+			</Row>
+			<Row>
+				<Atlas>ROYAL_GUARD_ATLAS</Atlas>
+				<IconSize>128</IconSize>
+				<Filename>royalguard128.dds</Filename>
+				<IconsPerRow>1</IconsPerRow>
+				<IconsPerColumn>1</IconsPerColumn>
+			</Row>
+			<Row>
+				<Atlas>ROYAL_GUARD_ATLAS</Atlas>
+				<IconSize>80</IconSize>
+				<Filename>royalguard80.dds</Filename>
+				<IconsPerRow>1</IconsPerRow>
+				<IconsPerColumn>1</IconsPerColumn>
+			</Row>
+			<Row>
+				<Atlas>ROYAL_GUARD_ATLAS</Atlas>
+				<IconSize>64</IconSize>
+				<Filename>royalguard64.dds</Filename>
+				<IconsPerRow>1</IconsPerRow>
+				<IconsPerColumn>1</IconsPerColumn>
+			</Row>
+			<Row>
+				<Atlas>ROYAL_GUARD_ATLAS</Atlas>
+				<IconSize>45</IconSize>
+				<Filename>royalguard45.dds</Filename>
+				<IconsPerRow>1</IconsPerRow>
+				<IconsPerColumn>1</IconsPerColumn>
+			</Row>
+	</IconTextureAtlases>
+</GameData>

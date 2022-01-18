@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_INTIWASI</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+	
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_INTIWASI_HELP"/>
+			<Set>
+				<Text>Doubles religious pressure emanating from this City. Improves the [ICON_GOLD] Gold yield of trade routes. +2 [ICON_GOLD] Gold from all Mountain tiles worked by this City.[NEWLINE][NEWLINE]Must be built in a Holy City. Must have built a Temple in all Cities. The cost goes up the more cities there are in the empire. Only the Inca may build it.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_INTIWASI_STRATEGY"/>
+			<Set>
+				<Text>The Incan unique building Intiwasi replaces the Grand Temple. The City in which is is built will exert religious pressure twice as strongly, increasing the rate at which nearby cities will convert. Additionally, the Intiwasi generates [ICON_GOLD] Gold, especially in cities with mountains. Trade routes other players make to this City will generate an extra 4 [ICON_GOLD] Gold for the City owner and the trade route owner gains an additional 2 [ICON_GOLD] Gold. This combines the effects of the East India Company with the Grand Temple, and will stack with it if built in the same City. The Inca must have a Temple in all cities before they can construct it.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+</GameData>

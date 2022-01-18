@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/08/17 7:00:36 AM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</DefaultUnit>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</Class>
+			<Type>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</Type>
+			<Combat>35</Combat>
+			<RangedCombat>55</RangedCombat>
+			<Range>1</Range>
+			<Moves>5</Moves>
+			<Cost>225</Cost>
+			<!--<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<PrereqTech>TECH_RAILROAD</PrereqTech>
+			<ObsoleteTech>TECH_COMBINED_ARMS</ObsoleteTech>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER_HELP</Help>
+
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<NoMaintenance>true</NoMaintenance>
+			<Pillage>true</Pillage>
+
+			<AdvancedStartCost>100</AdvancedStartCost>
+			
+			<MinAreaSize>-1</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitArtInfo>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>61</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>61</UnitFlagIconOffset>
+			<MoveRate>QUADRUPED</MoveRate>
+			<ExtraMaintenanceCost>36</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<!--
+	
+	
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	-->
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_MERC_GUILD</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+	
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>14</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>21</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>21</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
+			<SelectionSound>AS2D_SELECT_CAVALRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CAVALRY</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Dog Soldier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER_HELP">
+			<Text>Fast Modern Era ranged mounted unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER_STRATEGY">
+			<Text>Use the Cheyenne Dog Soldier to rapidly crush your enemies, then move away to fight another day. They may move after attacking, but receive no defensive bonus from terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER_PEDIA">
+			<Text>
+				The Cheyenne Dog Soldier is a Modern era ranged mounted unit, available upon the discovery of Railroad. The Cheyenne Dog Soldier becomes obsolete upon the discovery of Combined Arms.[NEWLINE][NEWLINE]
+				The Dog Soldiers or Dog Men, in Cheyenne Hotametaneo'o, are historically one of six military societies of the Cheyenne Nation. Beginning in the late 1830s, this society evolved into a separate, militaristic band that played a dominant role in Cheyenne resistance to the United States expansion towards west in Kansas, Nebraska, Colorado, and Wyoming, where the Cheyenne had settled in the early 19th century.[NEWLINE][NEWLINE]After the deaths of nearly half the Southern Cheyenne in the cholera epidemic of 1849, many of the remaining Masikota band joined the Dog Soldiers. It effectively became a separate band, occupying territory between the Northern and Southern Cheyenne. Its members often opposed policies of peace chiefs such as Black Kettle. In 1869, most of the band were killed by United States Army forces in the Battle of Summit Springs. The surviving societies became much smaller and more secretive in their operations. [NEWLINE][NEWLINE]The ultimate development of the famous Cheyenne art of war were their amazingly skilled horsemen armed with repeating rifles. There is an old stereotype that the American Indians were reactionary culturally, unable to adapt to modern ways. The Cheyenne rifle riders demonstrate the falseness of this idea – during their heyday, they were the most advanced warriors on Earth. In Europe at this time, cavalry were still fighting with sabers and lances. Even in America, the U.S. cavalry used single-shot rifles, significantly inferior to the Cheyenne carbines.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

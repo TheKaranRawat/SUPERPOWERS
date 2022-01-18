@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/16/2015 6:14:53 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_4UC_RUSSIANRESEARCH">
+			<Text>[ICON_RESEARCH] Academy of Sciences</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_4UC_RUSSIANRESEARCH_TEXT">
+			<Text>
+				Russian scientific research has a long and storied history. The great seventeenth century Russian artist and scientist Mikhail Lomonosov (1711-1765) is credited with many important advances in chemistry. He also suggested the wave theory of light long before it was generally accepted, and he helped create the University of Moscow, one of the great scientific institutions of the world. Tsar Peter the Great founded the prestigious Russian Academy of Science by decree in 1724.[NEWLINE][NEWLINE]When the Communists took over Russia in the early twentieth century they placed great emphasis upon modernizing and industrializing the Soviet Union, and they heavily funded scientific research. Though initially well behind their European and American counterparts, Russian scientists quickly caught up, and in some areas - especially in the theoretical sciences - surpassed their colleagues in the West. For a number of decades the Soviets posed a serious challenge to the Americans in space science and exploration.[NEWLINE][NEWLINE]The collapse of the Soviet Union in the latter half of the twentieth century did great damage to scientific research; however, as Russia regains economic strength, it can be expected her scientists, universities and laboratories will once again be among the leaders in the world.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_4UC_RUSSIANRESEARCH_HELP">
+			<Text>Greatly increases the [ICON_RESEARCH] Science yield of a city. Only Russia may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_4UC_RUSSIANRESEARCH_STRATEGY">
+			<Text>The Research Institute is a Russian unique building that increases the [ICON_RESEARCH] Science yield of a city, moreso than the Research Lab it replaces. City must already have a Public School.</Text>
+		</Row>
+	</Language_en_US>
+
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>ATLAS_4UC_RUSSIANRESEARCH</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>russianlab256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_4UC_RUSSIANRESEARCH</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>russianlab128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_4UC_RUSSIANRESEARCH</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>russianlab64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ATLAS_4UC_RUSSIANRESEARCH</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>russianlab45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+  
+</GameData>
