@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Released under GPL v3 -->
-<Context ColorSet="Beige_Black_Alpha" Font="TwCenMT14" FontStyle="Shadow" ConsumeMouse="0" >
-	<LuaContext FileName="IGE_Controller_All"	ID="Controller" />
-	<LuaContext FileName="IGE_Window"		ID="Window" />
-</Context>

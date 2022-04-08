@@ -1277,9 +1277,6 @@ for addin in Modding.GetActivatedModEntryPoints("InGameUIAddin") do
 	table.insert(g_uiAddins, ContextPtr:LoadNewContext(path));
 end
 ContextPtr:LoadNewContext("Stfu")
-ContextPtr:LoadNewContext("Conquer3")
-ContextPtr:LoadNewContext("Main3")
-ContextPtr:LoadNewContext("IGE_Loader")
 ContextPtr:LoadNewContext("CityHappiness")
 ContextPtr:LoadNewContext("CityProduction")
 ContextPtr:LoadNewContext("CityStateAirbases")
