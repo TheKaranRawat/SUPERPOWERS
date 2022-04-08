@@ -74,8 +74,7 @@ FROM Unit_FreePromotions WHERE UnitType = 'UNIT_RIFLEMAN';
 
 INSERT INTO Unit_FreePromotions
 		(UnitType, 					PromotionType)
-VALUES	('UNIT_3UC_LANDWEHR',  'PROMOTION_MOUNTAIN_TROOP'),
-		('UNIT_3UC_LANDWEHR',  'PROMOTION_HOMELAND_GUARDIAN');
+VALUES	('UNIT_3UC_LANDWEHR',  'PROMOTION_MOUNTAIN_TROOP');
 
 --------------------------------	
 -- Civilization_UnitClassOverrides 

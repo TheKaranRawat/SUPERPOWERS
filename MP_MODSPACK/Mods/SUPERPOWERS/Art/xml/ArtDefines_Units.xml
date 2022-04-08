@@ -11,6 +11,8 @@
 			</UnitMemberArt>
 		</UnitArtInfo>
 	</UnitArtInfos>-->
+
+	<!-- CONTROL EMBARKED GRAPHIC / CURRENTLY SET TO MODERN-->
 	<ArtDefine_UnitInfoMemberInfos>
 		<Update>
 			<Set UnitMemberInfoType="ART_DEF_UNIT_MEMBER_TRANSPORT"/>
@@ -530,6 +532,7 @@
 		</Row>
 	</ArtDefine_StrategicView>
 
+	<!--
 	<ArtDefine_UnitInfos>
 		<Row>
 			<Type>ART_DEF_UNIT_FW_NEXUS</Type>
@@ -591,6 +594,7 @@
 			<Asset>SV_FW_Nexus.dds</Asset>
 		</Row>
 	</ArtDefine_StrategicView>
+	-->
 
 	<ArtDefine_UnitInfos>
 		<Row>

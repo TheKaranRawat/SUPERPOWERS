@@ -6,6 +6,7 @@
 	<!-- ***************************City Size by Population ***************************-->
 
 	<BuildingClasses>
+
 		<Row>
 			<Type>BUILDINGCLASS_CITY_SIZE_TOWN</Type>
 			<DefaultBuilding>BUILDING_CITY_SIZE_TOWN</DefaultBuilding>
@@ -41,6 +42,7 @@
 			<DefaultBuilding>BUILDING_CITY_SIZE_GLOBAL</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_CITY_SIZE_GLOBAL</Description>
 		</Row>
+
 	</BuildingClasses>
 
 
@@ -71,13 +73,14 @@
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>57</PortraitIndex>
-			<Defense>1500</Defense>
-			<ExtraCityHitPoints>50</ExtraCityHitPoints>
+			<Defense>1000</Defense>
+			<ExtraCityHitPoints>40</ExtraCityHitPoints>
+			<Happiness>-2</Happiness>
 			<CityWorkingChange>1</CityWorkingChange>
-			<TradeRouteSeaGoldBonus>200</TradeRouteSeaGoldBonus>
-			<TradeRouteLandGoldBonus>200</TradeRouteLandGoldBonus>
-			<TradeRouteRecipientBonus>2</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>2</TradeRouteTargetBonus>
+			<TradeRouteSeaGoldBonus>800</TradeRouteSeaGoldBonus>
+			<TradeRouteLandGoldBonus>800</TradeRouteLandGoldBonus>
+			<TradeRouteRecipientBonus>8</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>8</TradeRouteTargetBonus>
 			<GreatWorkCount>-4</GreatWorkCount>
 		</Row>
 		<Row>
@@ -94,11 +97,11 @@
 			<PortraitIndex>58</PortraitIndex>
 			<Defense>1500</Defense>
 			<ExtraCityHitPoints>50</ExtraCityHitPoints>
-			<Happiness>-4</Happiness>
-			<TradeRouteSeaGoldBonus>200</TradeRouteSeaGoldBonus>
-			<TradeRouteLandGoldBonus>200</TradeRouteLandGoldBonus>
-			<TradeRouteRecipientBonus>2</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>2</TradeRouteTargetBonus>
+			<Happiness>-2</Happiness>
+			<TradeRouteSeaGoldBonus>1600</TradeRouteSeaGoldBonus>
+			<TradeRouteLandGoldBonus>1600</TradeRouteLandGoldBonus>
+			<TradeRouteRecipientBonus>16</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>16</TradeRouteTargetBonus>
 			<GreatWorkCount>-5</GreatWorkCount>
 		</Row>
 		<Row>
@@ -113,14 +116,14 @@
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>59</PortraitIndex>
-			<Defense>3000</Defense>
-			<ExtraCityHitPoints>50</ExtraCityHitPoints>
+			<Defense>1500</Defense>
+			<ExtraCityHitPoints>100</ExtraCityHitPoints>
 			<FoodKept>-5</FoodKept>
-			<Happiness>-6</Happiness>
-			<TradeRouteSeaGoldBonus>400</TradeRouteSeaGoldBonus>
-			<TradeRouteLandGoldBonus>400</TradeRouteLandGoldBonus>
-			<TradeRouteRecipientBonus>10</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>10</TradeRouteTargetBonus>
+			<Happiness>-4</Happiness>
+			<TradeRouteSeaGoldBonus>3200</TradeRouteSeaGoldBonus>
+			<TradeRouteLandGoldBonus>3200</TradeRouteLandGoldBonus>
+			<TradeRouteRecipientBonus>32</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>32</TradeRouteTargetBonus>
 			<GreatWorkCount>-6</GreatWorkCount>
 		</Row>
 		<Row>
@@ -135,15 +138,15 @@
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>60</PortraitIndex>
-			<Defense>3000</Defense>
-			<ExtraCityHitPoints>150</ExtraCityHitPoints>
+			<Defense>2000</Defense>
+			<ExtraCityHitPoints>120</ExtraCityHitPoints>
 			<FoodKept>-5</FoodKept>
 			<Happiness>-8</Happiness>
 			<CityWorkingChange>1</CityWorkingChange>
-			<TradeRouteSeaGoldBonus>800</TradeRouteSeaGoldBonus>
-			<TradeRouteLandGoldBonus>800</TradeRouteLandGoldBonus>
-			<TradeRouteRecipientBonus>12</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>12</TradeRouteTargetBonus>
+			<TradeRouteSeaGoldBonus>4800</TradeRouteSeaGoldBonus>
+			<TradeRouteLandGoldBonus>4800</TradeRouteLandGoldBonus>
+			<TradeRouteRecipientBonus>64</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>64</TradeRouteTargetBonus>
 			<GreatWorkCount>-7</GreatWorkCount>
 		</Row>
 		<Row>
@@ -158,14 +161,14 @@
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>61</PortraitIndex>
-			<Defense>4000</Defense>
-			<ExtraCityHitPoints>200</ExtraCityHitPoints>
+			<Defense>2000</Defense>
+			<ExtraCityHitPoints>150</ExtraCityHitPoints>
 			<FoodKept>-10</FoodKept>
-			<Happiness>-14</Happiness>
-			<TradeRouteSeaGoldBonus>1200</TradeRouteSeaGoldBonus>
-			<TradeRouteLandGoldBonus>1200</TradeRouteLandGoldBonus>
-			<TradeRouteRecipientBonus>24</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>24</TradeRouteTargetBonus>
+			<Happiness>-16</Happiness>
+			<TradeRouteSeaGoldBonus>6400</TradeRouteSeaGoldBonus>
+			<TradeRouteLandGoldBonus>6400</TradeRouteLandGoldBonus>
+			<TradeRouteRecipientBonus>128</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>128</TradeRouteTargetBonus>
 			<PolicyCostModifier>5</PolicyCostModifier>
 			<GreatWorkCount>-8</GreatWorkCount>
 		</Row>
@@ -181,14 +184,14 @@
 			<NukeImmune>true</NukeImmune>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>62</PortraitIndex>
-			<Defense>6000</Defense>
-			<ExtraCityHitPoints>250</ExtraCityHitPoints>
+			<Defense>4000</Defense>
+			<ExtraCityHitPoints>200</ExtraCityHitPoints>
 			<FoodKept>-13</FoodKept>
-			<Happiness>-20</Happiness>
-			<TradeRouteSeaGoldBonus>1600</TradeRouteSeaGoldBonus>
-			<TradeRouteLandGoldBonus>1600</TradeRouteLandGoldBonus>
-			<TradeRouteRecipientBonus>50</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>50</TradeRouteTargetBonus>
+			<Happiness>-32</Happiness>
+			<TradeRouteSeaGoldBonus>10000</TradeRouteSeaGoldBonus>
+			<TradeRouteLandGoldBonus>10000</TradeRouteLandGoldBonus>
+			<TradeRouteRecipientBonus>256</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>256</TradeRouteTargetBonus>
 			<PolicyCostModifier>5</PolicyCostModifier>
 			<GreatWorkCount>-9</GreatWorkCount>
 		</Row>
@@ -198,130 +201,156 @@
 
 
 	<Building_ResourceQuantity>
+
+		<!-- PALACE RESOURCES-->
 		<Row>
 			<BuildingType>BUILDING_PALACE</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>14</Quantity>
+			<Quantity>20</Quantity>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_PALACE</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>19</Quantity>
+			<Quantity>20</Quantity>
 		</Row>
 		
-		
+		<!-- CITY MANPOWER -->
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_TOWN</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>6</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
+		
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_SMALL</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>2</Quantity>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_MEDIUM</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>6</Quantity>
+			<Quantity>9</Quantity>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_LARGE</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>12</Quantity>
+			<Quantity>11</Quantity>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_XL</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>18</Quantity>
+			<Quantity>14</Quantity>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_XXL</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>36</Quantity>
+			<Quantity>20</Quantity>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_GLOBAL</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>72</Quantity>
+			<Quantity>20</Quantity>
 		</Row>
+
 	</Building_ResourceQuantity>
 
 
 
 	<Building_ResourceQuantityRequirements>
+
+		<!-- CITY ELECTRICITY -->
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_TOWN</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
 			<Cost>3</Cost>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_SMALL</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
 			<Cost>3</Cost>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_MEDIUM</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
 			<Cost>6</Cost>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_LARGE</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>12</Cost>
+			<Cost>13</Cost>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_XL</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>18</Cost>
+			<Cost>25</Cost>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_XXL</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>24</Cost>
+			<Cost>25</Cost>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_GLOBAL</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
-			<Cost>36</Cost>
+			<Cost>45</Cost>
 		</Row>
 
+		<!-- CITY CONSUMER GOODS -->
 
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_TOWN</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>2</Cost>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_SMALL</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>2</Cost>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_MEDIUM</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>6</Cost>
+			<Cost>8</Cost>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_LARGE</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>12</Cost>
+			<Cost>13</Cost>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_XL</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>18</Cost>
+			<Cost>25</Cost>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_XXL</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>24</Cost>
+			<Cost>25</Cost>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_GLOBAL</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>30</Cost>
+			<Cost>25</Cost>
 		</Row>
+
 	</Building_ResourceQuantityRequirements>
 
 
@@ -412,9 +441,9 @@
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BASILICA_CISTERN_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_SP_PUBLIC_HEALTH_BUILDINGS_STRATEGY</Strategy>
 			<MinAreaSize>-1</MinAreaSize>
-			<Happiness>2</Happiness>
+			<Happiness>4</Happiness>
 			<ConquestProb>66</ConquestProb>
-			<FoodKept>33</FoodKept>
+			<FoodKept>40</FoodKept>
 			<!--<ReligiousPressureModifier>50</ReligiousPressureModifier>-->
 			<HurryCostModifier>50</HurryCostModifier>
 			<IconAtlas>EXPANSION2_BUILDING_ATLAS</IconAtlas>
@@ -689,7 +718,7 @@
 			<SpecialistCount>1</SpecialistCount>
 			<!--<Water>true</Water>-->
 			<MinAreaSize>10</MinAreaSize>
-			<GoldenAgeModifier>25</GoldenAgeModifier>
+			<GoldenAgeModifier>33</GoldenAgeModifier>
 			<LandmarksTourismPercent>50</LandmarksTourismPercent>
 			<PortraitIndex>63</PortraitIndex>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
@@ -1006,7 +1035,7 @@
 			<BuildingClass>BUILDINGCLASS_GARDEN</BuildingClass>
 			<Cost>75</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
-			<Happiness>2</Happiness>
+			<Happiness>4</Happiness>
 			<PrereqTech>TECH_ART_THEORY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_CHINESE_GARDEN</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CHINESE_GARDEN_TEXT</Civilopedia>
@@ -1019,7 +1048,7 @@
 			<IconAtlas>SPWondersUB_ATLAS</IconAtlas>
 			<PortraitIndex>22</PortraitIndex>
 			<GreatPeopleRateModifier>25</GreatPeopleRateModifier>
-			<UnhappinessModifier>-2</UnhappinessModifier>
+			<UnhappinessModifier>-5</UnhappinessModifier>
 		</Row>
 		<Row>
 			<Type>BUILDING_HALL_OF_WORTHIES</Type>
@@ -1589,18 +1618,32 @@
 
 	</Buildings>
 
+	<Building_ClassesNeededInCityOR>
+		<Row>
+			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_MEDIUM</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCityOR>
+
 
 	<Building_ClassesNeededInCity>
 
-		
+		<!-- REQUIRES CITY SIZE BUILDINGS -->
+		<!--
 		<Row>
 			<BuildingType>BUILDING_LIBRARY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClassType>
 		</Row>
+		-->
 		<Row>
 			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClassType>
 		</Row>
+
 		<!--<Row>
 			<BuildingType>BUILDING_MARKET</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClassType>
@@ -1609,22 +1652,27 @@
 			<BuildingType>BUILDING_BAZAAR</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClassType>
 		</Row>-->
+
 		<Row>
 			<BuildingType>BUILDING_BASILICA_CISTERN</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_TAP_WATER_SUPPLY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_RACECOURSE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_RACECOURSE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CIRCUS</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_GREEK_OLYMPICS</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CIRCUS</BuildingClassType>
@@ -1634,77 +1682,76 @@
 			<BuildingType>BUILDING_MINT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_SONGHAI_ISLAM_MINT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_IRON_PROVIDER</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_COAL_COMPANY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_ALUMINUM_PROVIDER</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClassType>
 		</Row>
 
-
-
 		<Row>
 			<BuildingType>BUILDING_THEATRE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_MEDIUM</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_THEATRE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_RACECOURSE</BuildingClassType>
-		</Row>
-		
+		</Row>		
 		
 		<Row>
 			<BuildingType>BUILDING_BOMB_SHELTER</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_MEDIUM</BuildingClassType>
 		</Row>
 
-
-
 		<Row>
 			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_HALL_OF_WORTHIES</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_MUGHAL_FORT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 		</Row>
 
-
 		<Row>
 			<BuildingType>BUILDING_HOSPITAL</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_STAGECOACH</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_BUS_STATION</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
-		</Row>
-
-
-		
-		
-		
+		</Row>		
 
 		<Row>
 			<BuildingType>BUILDING_FOOD_MARKET</BuildingType>
@@ -1715,52 +1762,57 @@
 			<BuildingType>BUILDING_COUNTRY_CLUB</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_BYZANTIUM_RESORT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_BEVERAGE_FACTORY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_COFFEE_HOUSE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 		</Row>
+
 		<!--<Row>
 			<BuildingType>BUILDING_CELTS_IRISHPUB</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 		</Row>-->
+
 		<Row>
 			<BuildingType>BUILDING_WILDLIFE_PRESERVE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_JEWELER</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 		</Row>
 
-
-
-
 		<Row>
 			<BuildingType>BUILDING_AMUSEMENT_PARK</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_AMUSEMENT_PARK</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_SPAIN_BULLRING</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
-		</Row>
-		
+		</Row>		
 		
 		<Row>
 			<BuildingType>BUILDING_GARDEN</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CHINESE_GARDEN</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
@@ -1770,31 +1822,32 @@
 			<BuildingType>BUILDING_DIGITAL_NETWORK</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_HOTEL</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_GERMAN_AUTOBAHN</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_MEDIUM</BuildingClassType>
 		</Row>
-
-
 
 		<Row>
 			<BuildingType>BUILDING_WATER_TREATMENT_FACTORY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XL</BuildingClassType>
 		</Row>
 
-
 		<Row>
 			<BuildingType>BUILDING_SUBWAY_STATION</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_THEME_PARK</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_THEME_PARK</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_AMUSEMENT_PARK</BuildingClassType>
@@ -1804,14 +1857,17 @@
 			<BuildingType>BUILDING_CINEMA</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_BOLLYWOOD</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_BIO_LAB</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_LOGISTICS_COMPANY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XL</BuildingClassType>
@@ -1820,13 +1876,13 @@
 		<Row>
 			<BuildingType>BUILDING_AIRPORT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XL</BuildingClassType>
-		</Row>
-		
+		</Row>		
 
 		<Row>
 			<BuildingType>BUILDING_3DPRINTING</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XXL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_FUTURE_FACTORY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XXL</BuildingClassType>
@@ -1836,10 +1892,12 @@
 			<BuildingType>BUILDING_MEDICAL_LAB</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XXL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_STADIUM</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XXL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_STADIUM</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_AMUSEMENT_PARK</BuildingClassType>
@@ -1849,6 +1907,7 @@
 			<BuildingType>BUILDING_BRAZIL_SCOCCER_FIELD</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XXL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_BRAZIL_SCOCCER_FIELD</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_AMUSEMENT_PARK</BuildingClassType>
@@ -1858,18 +1917,22 @@
 			<BuildingType>BUILDING_TV_STATION</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XXL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_KOREAN_ENTERTAINMENT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XXL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_GENE_LAB</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XXL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_INTERNATIONAL_TRADE_COMPANY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XXL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_AMERICAN_CREATIVE_COMPANY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XXL</BuildingClassType>
@@ -1879,40 +1942,47 @@
 			<BuildingType>BUILDING_TV_STATION</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CINEMA</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_KOREAN_ENTERTAINMENT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CINEMA</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_GENE_LAB</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_BIO_LAB</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_INTERNATIONAL_TRADE_COMPANY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_LOGISTICS_COMPANY</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_AMERICAN_CREATIVE_COMPANY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_LOGISTICS_COMPANY</BuildingClassType>
 		</Row>
-
 
 		<Row>
 			<BuildingType>BUILDING_MAGLEV</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_GLOBAL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_VIDEO_GAME_COMPANY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_GLOBAL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_INTERNATIONAL_AIRPORT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_GLOBAL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_INTERNATIONAL_SEAPORT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_GLOBAL</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_CBD</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_GLOBAL</BuildingClassType>
@@ -1922,29 +1992,28 @@
 			<BuildingType>BUILDING_INTERNATIONAL_AIRPORT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_AIRPORT</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_INTERNATIONAL_SEAPORT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_CBD</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_INTERNATIONAL_TRADE_COMPANY</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_CBD</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_GENE_LAB</BuildingClassType>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_CITY_CBD</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_TV_STATION</BuildingClassType>
 		</Row>
+
 	</Building_ClassesNeededInCity>
-
-
-
-
-
-
 
 
 	<Building_ResourceQuantityRequirements>
@@ -2412,7 +2481,7 @@
 		<Row>
 			<BuildingType>BUILDING_BAZAAR</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>8</Quantity>
 		</Row>
 
 		<Row>
@@ -2434,7 +2503,7 @@
 		<Row>
 			<BuildingType>BUILDING_BYZANTIUM_RESORT</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>2</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BEVERAGE_FACTORY</BuildingType>

@@ -49,7 +49,7 @@
 			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>60</UnitFlagIconOffset>
 			<MoveRate>QUADRUPED</MoveRate>
-			<ExtraMaintenanceCost>30</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>100</ExtraMaintenanceCost>
 		</Row>
 	</Units>
 
@@ -106,10 +106,7 @@
 	</Unit_Flavors>
 
 	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>

@@ -231,25 +231,27 @@
 		<Replace Tag="TXT_KEY_TP_CULTURE_CITY_COST">
 			<Text>
 				Every non-puppet Cities you own of different levels will increase the [ICON_CULTURE] Culture cost for future Policies by a certain percent.
-				[NEWLINE][NEWLINE][ICON_BULLET]Lv1 City: +5% [ICON_CULTURE] Culture cost.
-				[NEWLINE][ICON_BULLET]Lv2 City: +10% [ICON_CULTURE] Culture cost.
-				[NEWLINE][ICON_BULLET]Lv3 City: +20% [ICON_CULTURE] Culture cost.
-				[NEWLINE][ICON_BULLET]Lv4 City: +33% [ICON_CULTURE] Culture cost.
-				[NEWLINE][ICON_BULLET]Lv5 City: +33% [ICON_CULTURE] Culture cost.
-				[NEWLINE][NEWLINE]Build Anti-corruption and Public Security Buildings or adopt certain Policies to reduce the increasing [ICON_CULTURE] Culture cost by those cities.
+				[NEWLINE]
+				[NEWLINE][ICON_BULLET][ICON_CITYBANNER_CITY_LV1]Core City: +5% [ICON_CULTURE]Culture cost.
+				[NEWLINE][ICON_BULLET][ICON_CITYBANNER_CITY_LV2]Provincial City: +10% [ICON_CULTURE]Culture cost.
+				[NEWLINE][ICON_BULLET][ICON_CITYBANNER_CITY_LV3]Territorial City: +20% [ICON_CULTURE]Culture cost.
+				[NEWLINE][ICON_BULLET][ICON_CITYBANNER_CITY_LV4]Colonial City: +33% [ICON_CULTURE]Culture cost.
+				[NEWLINE][ICON_BULLET][ICON_CITYBANNER_CITY_LV5]Peripheral City: +33% [ICON_CULTURE]Culture cost.
+				[NEWLINE][NEWLINE]Build [ICON_CITY_STATE]Administrative Buildings or adopt certain Policies to reduce the increased [ICON_CULTURE]Culture cost from more cities.
 			</Text>
 		</Replace>
 
 
 			<Replace Tag="TXT_KEY_TP_CULTURE_CITY_COST_MOD">
 				<Text>
-					Every non-puppet Cities you own of different levels will increase the [ICON_CULTURE] Culture cost for future Policies by a certain percent. SInce You have adpoted the "Representation" Policy, the cost has been [COLOR_POSITIVE_TEXT]Reduced[ENDCOLOR].
-					[NEWLINE][NEWLINE][ICON_BULLET]Lv1 City: No extra [ICON_CULTURE] Culture cost.
-					[NEWLINE][ICON_BULLET]Lv2 City: +5% [ICON_CULTURE] Culture cost.
-					[NEWLINE][ICON_BULLET]Lv3 City: +15% [ICON_CULTURE] Culture cost.
-					[NEWLINE][ICON_BULLET]Lv4 City: +28% [ICON_CULTURE] Culture cost.
-					[NEWLINE][ICON_BULLET]Lv5 City: +28% [ICON_CULTURE] Culture cost.
-					[NEWLINE][NEWLINE]Build Anti-corruption and Public Security Buildings to reduce the increasing [ICON_CULTURE] Culture cost by those cities further more.
+					Every non-puppet Cities you own of different levels will increase the [ICON_CULTURE] Culture cost for future Policies by a certain percent. Since You have adpoted the "Representation" Policy, the cost has been [COLOR_POSITIVE_TEXT]Reduced[ENDCOLOR].
+					[NEWLINE]
+					[NEWLINE][ICON_BULLET][ICON_CITYBANNER_CITY_LV1]Core City: No extra [ICON_CULTURE]Culture cost.
+					[NEWLINE][ICON_BULLET][ICON_CITYBANNER_CITY_LV2]Provincial City: +5% [ICON_CULTURE]Culture cost.
+					[NEWLINE][ICON_BULLET][ICON_CITYBANNER_CITY_LV3]Territorial City: +15% [ICON_CULTURE]Culture cost.
+					[NEWLINE][ICON_BULLET][ICON_CITYBANNER_CITY_LV4]Colonial City: +28% [ICON_CULTURE]Culture cost.
+					[NEWLINE][ICON_BULLET][ICON_CITYBANNER_CITY_LV5]Peripheral City: +28% [ICON_CULTURE]Culture cost.
+					[NEWLINE][NEWLINE]Build [ICON_CITY_STATE]Administrative Buildings to reduce the increasing [ICON_CULTURE]Culture cost by those cities further more.
 				</Text>
 			</Replace>
 			

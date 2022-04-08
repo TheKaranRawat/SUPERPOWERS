@@ -3,7 +3,7 @@
 	<Building_FeatureYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_INTIWASI</BuildingType>
-			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
@@ -13,7 +13,7 @@
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_INTIWASI_HELP"/>
 			<Set>
-				<Text>Doubles religious pressure emanating from this City. Improves the [ICON_GOLD] Gold yield of trade routes. +2 [ICON_GOLD] Gold from all Mountain tiles worked by this City.[NEWLINE][NEWLINE]Must be built in a Holy City. Must have built a Temple in all Cities. The cost goes up the more cities there are in the empire. Only the Inca may build it.</Text>
+				<Text>Doubles religious pressure emanating from this City. Improves the [ICON_GOLD] Gold yield of trade routes. +2 [ICON_GOLD] Gold from all Forest tiles worked by this City.[NEWLINE][NEWLINE]Must be built in a Holy City. Must have built a Temple in all Cities. The cost goes up the more cities there are in the empire. Only the Inca may build it.</Text>
 			</Set>
 		</Update>
 		<Update>

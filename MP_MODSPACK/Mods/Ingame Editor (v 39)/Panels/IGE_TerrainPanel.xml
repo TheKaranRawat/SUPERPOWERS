@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Released under GPL v3 -->
+<Context ColorSet="Beige_Black_Alpha" Font="TwCenMT14" FontStyle="Shadow" ConsumeMouse="0" >
+
+	<Instance Name="ListItemInstance" >
+		<Button ID="Button" Size="100,24" Anchor="L,T" Padding="0,0" ToolTipType="IGE_ToolTip" >
+			<Grid ID="SelectionFrame" Anchor="C,C" Offset="0,0" Size="100,24" Style="Grid9FrameTurns" Texture="Art\IgeSelectN.dds" />
+			<Label ID="NameLabel" Anchor="L,C" Offset="10,0" Size="90,24" Padding="0,0" ColorSet="Beige_Black_Alpha" Font="TwCenMT14" FontStyle="Shadow" />
+
+			<ShowOnMouseOver>
+				<AlphaAnim ID="HoverAnim" Anchor="C,C" Offset="0,0" Size="100,24" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+					<Grid  ID="HoverHighLight" Anchor="C,C" Size="100,24" Offset="0,0" Style="Grid9FrameTurnsHL" Texture="Art\IgeSelectHL.dds" />
+				</AlphaAnim>
+			</ShowOnMouseOver>
+		</Button>
+	</Instance>
+
+	<Instance Name="TypeInstance" >
+		<Button ID="Button" Size="64,64" Anchor="L,T" Padding="0,0" ToolTipType="IGE_ToolTip" >
+			<Image ID="SelectionFrame" Anchor="C,C" Offset="0,0" Size="64,64" Texture="Art\IgeElevation.dds" TextureOffset="192,0" Color="255,255,0,255"/>
+			<Image ID="Icon" Anchor="C,C" Offset="0,0" Size="64,64" Texture="Art\IgeElevation.dds" TextureOffset="0,0"/>
+
+			<ShowOnMouseOver>
+				<AlphaAnim ID="HoverAnim" Anchor="C,C" Offset="0,0" Size="100,24" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+					<Image Anchor="C,C" Offset="0,0" Size="64,64" Texture="Art\IgeElevation.dds" TextureOffset="192,0" Color="255,255,0,255"/>
+				</AlphaAnim>
+			</ShowOnMouseOver>
+		</Button>
+	</Instance>
+
+	<Instance Name="GroupInstance" >
+		<Stack ID="Stack" StackGrowth="Right" Offset="0,0">
+			<Stack ID="SubStack" StackGrowth="Bottom">
+				<Image ID="HeaderBackground" Anchor="L,C" Size="100,24" Offset="0,0" Texture="CivilopediaButtons272x27.dds" TextureOffset="0,3">
+					<Label ID="Header" Anchor="C,C"  Offset="0,-2" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="TXT_KEY_IGE_ERA"/>
+				</Image>
+				<Container ID="List" Anchor="L,T" Size="100,390" Offset="10,5"/>
+			</Stack>
+
+			<Image ID="Separator" Anchor="L,T" Offset="0,0" Texture="Assets/UI/Art/Controls/9 Grids/Divider4.dds" TextureOffset="2,0" Size="2,410" Hidden="0"/>
+		</Stack>
+	</Instance>
+
+	<!--=======================================================================================================================-->
+	<!--		BODY	-->
+	<!--=======================================================================================================================-->
+	<Container ID="OuterContainer" Size="1286,410">
+		<Container ID="PromptContainer" Size="1286,410">
+			<Container ID="PromptLabelContainer" Anchor="L,T">
+				<Label Anchor="C,C" Offset="0,-20" String="TXT_KEY_IGE_PLOT_SELECTION_PROMPT" Font="TwCenMT20" FontStyle="Shadow"/>
+				<Label Anchor="C,C" Offset="0,10" String="TXT_KEY_IGE_PLOT_SELECTION_HINT" Font="TwCenMT20" FontStyle="Shadow"/>
+				<Image ID="PromptSeparator" Anchor="R,T" Offset="0,-2" Texture="Assets/UI/Art/Controls/9 Grids/Divider4.dds" TextureOffset="2,0" Size="2,1000" Hidden="1"/>
+			</Container>
+		</Container>
+
+		<Container ID="Container" Size="1286,410">
+			<!-- All controls will be moved in that stack panel -->
+			<ScrollPanel ID="ScrollPanel" Anchor="L,T" Offset="8,0" Size="1270,410" Vertical="0" AutoScrollBar="0">
+				<Image Anchor="L,T" Size="8,23" AnchorSide="o,i" Offset="0,0" Texture="CivilopediaButtons272x27.dds" TextureOffset="0,3" />
+				<Image Anchor="R,T" Size="8,23" AnchorSide="o,i" Offset="0,0" Texture="CivilopediaButtons272x27.dds" TextureOffset="0,3" />
+
+				<Stack ID="MainStack" Anchor="L,T" Offset="0,0" Size="100,410" StackGrowth="Right" />
+				<UpButton  Offset="0,0" Anchor="L,B" AnchorSide="i,o" Style="ScrollBarLeft"   />
+				<DownButton Offset="0,0" Anchor="R,B" AnchorSide="i,o" Style="ScrollBarRight"  />
+				<ScrollBar ID="ScrollBar" Offset="17,0" Anchor="R,B" AnchorSide="i,o" Style="ScrollBar" Length="1000"/>
+			</ScrollPanel>
+
+			<Container ID="CoreContainer" Size="210,380">
+				<!-- s & types -->
+				<Stack Offset="0,0" Size="100,380" StackGrowth="Bottom">
+					<Container ID="TerrainList" Anchor="L,T" Size="100,380" Offset="0,0" />
+					<Stack ID="TypeList" Anchor="L,T" Size="192,64" Offset="9,10" StackGrowth="Right"/>
+				</Stack>
+
+				<!-- Water terrains & arts  -->
+				<Stack Offset="110,0" Size="100,380" StackGrowth="Bottom">
+					<Container ID="WaterList" Anchor="L,T" Size="100,380" Offset="0,0" />
+				</Stack>
+
+				<LuaContext FileName="IGE_RiversElement" ID="RiversElement" Offset="20,200"/>
+			</Container>
+
+			<Stack ID="FeaturesStack" StackGrowth="Right">
+				<Container ID="FeatureList" Anchor="L,T" Size="160,380" Offset="0,0"/>
+				<Container ID="NaturalWonderList" Anchor="L,T" Size="160,380" Offset="10,0"/>
+			</Stack>
+
+			<Stack ID="ResourcesStack" StackGrowth="Right">
+				<Container ID="BonusResourceList" Anchor="L,T" Size="100,380" Offset="0,0" />
+				<Container ID="LuxuryResourceList" Anchor="L,T" Size="100,380" Offset="10,0" />
+
+				<Stack ID="StrategicResourceStack" Offset="10,0" Size="100,10" StackGrowth="Bottom">
+					<Container ID="StrategicResourceList" Anchor="L,T" Size="100,380" Offset="0,0" />
+
+					<!-- Edit box for amount -->
+					<Container ID="ResourceAmountGrid" Offset="10,10" Anchor="L,T" Size="60,18" ToolTip="TXT_KEY_IGE_STRATEGIC_RESOURCE_QTY">
+						<Grid	 Style="ScrollBar" Offset="18,0" Anchor="L,C" Size="24,18" />
+						<EditBox ID="ResourceAmountEditBox" Offset="18,0" Anchor="L,C" Size="24,16" EditMode="1" NumberInput="1" MaxLength="2" />
+						<Button  ID="ResourceAmountDown" Offset="0,0" Anchor="L,C" Style="ScrollBarLeft"/>
+						<Button  ID="ResourceAmountUp" Offset="0,0" Anchor="R,C" Style="ScrollBarRight"/>
+						<Label   ID="ResourceAmountLabel" Offset="2,0" Anchor="R,C" AnchorSide="o,i"/>
+					</Container>
+				</Stack>
+			</Stack>
+
+			<Stack ID="ImprovementsStack" StackGrowth="Right">
+				<!-- Great improvements & routes -->
+				<Stack Offset="0,0" Size="140,10" StackGrowth="Bottom">
+					<Container ID="GreatImprovementList" Anchor="L,T" Size="140,380" Offset="0,0" />
+					<Container ID="RouteList" Anchor="L,T" Size="140,380" Offset="0,40" />
+				</Stack>
+
+				<!-- Improvements -->
+				<Stack ID="ImprovementsInnerStack" Anchor="L,T" Offset="10,0" Size="140, 420" StackGrowth="Bottom">
+					<Container ID="ImprovementList" Anchor="L,T" Size="140,350" Offset="0,0" />
+					<CheckBox ID="PillageCB" String="TXT_KEY_IGE_PILLAGE_CB" TextAnchorSide="Right" TextOffset="30,0" Anchor="L,T" Offset="0,15" ToolTip="TXT_KEY_IGE_PILLAGE_CB_HELP" />
+				</Stack>
+			</Stack>
+
+			<Stack ID="OthersContainer" Size="160,380" StackGrowth="Bottom">
+				<Container ID="FogList" Anchor="L,T" Size="160,380" Offset="0,0" />
+				<Container ID="OwnershipList" Anchor="L,T" Size="160,380" Offset="0,30" />
+				<Container ID="ArtList" Anchor="L,T" Size="160,380" Offset="0,30" />
+			</Stack>
+		</Container>
+	</Container>
+</Context>

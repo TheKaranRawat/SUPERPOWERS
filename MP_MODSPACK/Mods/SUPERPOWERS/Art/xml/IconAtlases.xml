@@ -4,6 +4,48 @@
 	<IconTextureAtlases>
 
 		<Row>
+			<Atlas>BLUE_TOOLTIP</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>tooltipblue_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>BLUE_TOOLTIP</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>tooltipblue_32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>GREEN_TOOLTIP</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>tooltip_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>GREEN_TOOLTIP</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>tooltip_32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>BLACK_TOOLTIP</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>HelpButton_32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+
+
+		<Row>
 			<Atlas>BW_ATLAS_NATIONAL_BIOSPHERE</Atlas>
 			<IconSize>256</IconSize>
 			<Filename>BiosphereIconAtlas256.dds</Filename>

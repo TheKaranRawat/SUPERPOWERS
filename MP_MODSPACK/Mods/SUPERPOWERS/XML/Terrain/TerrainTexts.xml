@@ -128,6 +128,7 @@
 			<Text>It will increase the Food, Production, and Gold yield of the tile.</Text>
 		</Row>
 
+		<!--
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_COMM_ARRAY">
 			<Text>Communications Array</Text>
 		</Row>
@@ -146,6 +147,8 @@
 		<Row Tag="TXT_KEY_BUILD_FW_COMM_ARRAY_REC">
 			<Text>It will increase the Gold yield of the tile.</Text>
 		</Row>
+		-->
+
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_GENERATOR">
 			<Text>Generator</Text>
 		</Row>
@@ -183,6 +186,7 @@
 			<Text>It will increase the Gold and Production yield of the tile, as well as healing nearby units each turn.</Text>
 		</Row>
 
+		<!--
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_FUNGAL_GROWTH">
 			<Text>Fungal Growth</Text>
 		</Row>
@@ -192,6 +196,7 @@
 		<Row Tag="TXT_KEY_IMPROVEMENT_FW_FUNGAL_GROWTH_HELP">
 			<Text>This custom improvement provides 1 [ICON_GROWTH] Food, 1 [ICON_PRODUCTION] Production, and 1 [ICON_GOLD] Gold to the tile it's built on. It also inflicts 10 HP damage on any units that end their turn on or adjacent to it. [NEWLINE][ICON_BULLET]Provides bonus yield adjacent city.</Text>
 		</Row>
+		-->
 
 		<Replace Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_RESULT">
 			<Text>Artifact will be placed in nearest Great Work of Art slot. Artifact provides +4 [ICON_CULTURE] Culture and +2 [ICON_TOURISM] Tourism. Archaeologist will be consumed.</Text>

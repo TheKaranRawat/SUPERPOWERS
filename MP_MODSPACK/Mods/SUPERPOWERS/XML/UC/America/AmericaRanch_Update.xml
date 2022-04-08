@@ -45,6 +45,14 @@
 			<Yield>1</Yield>
 		</Row>
 	</Building_ResourceYieldChanges>
+	
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_3UC_RANCH</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Quantity>10</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
 
 	<Language_en_US>
 		<Update>

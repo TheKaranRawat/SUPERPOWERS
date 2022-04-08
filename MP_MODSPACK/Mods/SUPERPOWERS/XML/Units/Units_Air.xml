@@ -1492,8 +1492,9 @@
 			<Cost>2</Cost>
 		</Row>
 
+		<!-- CARRIER AIRCRAFT SHOULD NOT BE ASSIGNED RESOURCES/ AI WILL DISBAND THEM -->
 
-
+		<!--
 		<Row>
 			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
@@ -1537,7 +1538,7 @@
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 
-		
+		-->
 
 		<Row>
 			<UnitType>UNIT_ATOMIC_BOMB</UnitType>

@@ -445,7 +445,7 @@
 		<Replace Tag="TXT_KEY_BUILDING_FACTORY_HELP">
 			<Text>
 				Allows for movement of [ICON_PRODUCTION] Production via trade routes from this city.
-				[NEWLINE][NEWLINE]Building Factroies will NOT let you choose the [COLOR_NEGATIVE_TEXT]Ideology[ENDCOLOR].
+				[NEWLINE][NEWLINE]Building Factories will not let you choose an [COLOR_NEGATIVE_TEXT]Ideology[ENDCOLOR].
 				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Pollution[ENDCOLOR] will cause -5% [ICON_FOOD] Food Growth.
 			</Text>
 		</Replace>
@@ -522,7 +522,7 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_DUTCH_GRACHTENGORDEL_HELP</Tag>
 			<Text>
-				+1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold in every tile next to a River.
+				+3 [ICON_PRODUCTION] Production and +3 [ICON_GOLD] Gold in every tile next to a River.
 				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]No Pollution[ENDCOLOR]
 			</Text>
 		</Row>
@@ -668,7 +668,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDIA_TEMPLE_HELP</Tag>
-			<Text>+1 [ICON_PEACE] Faith and +1 [ICON_PRODUCTION] Production for every 4 [ICON_CITIZEN] Citizens in the city. </Text>
+			<Text>+1 [ICON_PEACE] Faith and +1 [ICON_PRODUCTION] Production for every [ICON_CITIZEN] Citizen in the city. </Text>
 		</Row>
 
 
@@ -676,7 +676,7 @@
 		
 
 		<Replace Tag="TXT_KEY_BUILDING_PAPER_MAKER_HELP">
-			<Text>Allows for movement of [ICON_PRODUCTION] Production via trade routes from this city. This build Won't becomes obsolete. 
+			<Text>Allows for movement of [ICON_PRODUCTION] Production via trade routes from this city. This building will not becomes obsolete. 
 			[NEWLINE][NEWLINE]+2 [ICON_TOURISM] Tourism after discovering Internet.</Text>
 		</Replace>
 
@@ -707,7 +707,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ARABIA_ISIAMIC_UNIVERSITY</Tag>
-			<Text>[ICON_RESEARCH][ICON_PEACE] Islamic University</Text>
+			<Text>[ICON_RESEARCH][ICON_PEACE] Madrassah</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ARABIA_ISIAMIC_UNIVERSITY_PEDIA</Tag>
@@ -737,7 +737,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_EGYPT_SIRIUS_HELP</Tag>
-			<Text>+2% [ICON_RESEARCH] Science output in all cities.</Text>
+			<Text>+10% [ICON_RESEARCH] Science output in all cities.</Text>
 		</Row>
 
 		<Row>
@@ -1160,7 +1160,7 @@
 			<Text>[ICON_STRENGTH] Walls</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_WALLS_OF_BABYLON_DESC">
-			<Text>[ICON_STRENGTH][ICON_RESEARCH] Walls of babylon</Text>
+			<Text>[ICON_STRENGTH][ICON_RESEARCH] Walls of Babylon</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_CASTLE">
 			<Text>[ICON_STRENGTH] Castle</Text>
@@ -1804,7 +1804,7 @@
 
 		<!-- Description tags -->
 		<Row Tag="TXT_KEY_BUILDING_TOKYO_METRO">
-			<Text>Tokyo Metropolitan Government Building</Text>
+			<Text>Tokyo Metropolitan Govt Building</Text>
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_WONDER_TOKYO_METRO_HELP">
@@ -2793,7 +2793,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CONSUMER_BONUS</Tag>
-			<Text>Provides additional [ICON_RES_CONSUMER] Consumer Goods.</Text>
+			<Text>Merchants provide [ICON_RES_CONSUMER] Consumer Goods.</Text>
 		</Row>
 		
 	</Language_en_US>
@@ -2958,7 +2958,7 @@
 			<Text>[ICON_WAR] Palisade Wall</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_POTTER">
-			<Text>[ICON_CULTURE] Potter</Text>
+			<Text>[ICON_PRODUCTION] Potter</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SMELTER">
 			<Text>[ICON_PRODUCTION] Smelter</Text>
@@ -3029,7 +3029,7 @@
 			<Text>[ICON_PRODUCTION] Chancery</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TCS_MEMORIAL">
-			<Text>[ICON_CULTURE] Memorial</Text>
+			<Text>[ICON_GREAT_WRITER] Memorial</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TCS_DEPOT">
 			<Text>[ICON_PRODUCTION] Depot</Text>

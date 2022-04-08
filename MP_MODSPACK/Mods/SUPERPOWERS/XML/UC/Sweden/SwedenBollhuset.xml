@@ -3,90 +3,28 @@
 
 	<!-- Adds the new Bollhuset -->
 	<Buildings>
-		<Row>
-			<Type>BUILDING_BOLLHUSET</Type>
-			<BuildingClass>BUILDINGCLASS_THEATRE</BuildingClass>
-			<FreeStartEra>ERA_FUTURE</FreeStartEra>
-			<Cost>200</Cost>
-			<GoldMaintenance>0</GoldMaintenance>
-			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
-			<Description>TXT_KEY_BUILDING_BOLLHUSET</Description>
-			<Help>TXT_KEY_BUILDING_BOLLHUSET_STRATEGY</Help>
-			<Civilopedia>TXT_KEY_BUILDING_BOLLHUSET_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_BOLLHUSET_STRATEGY</Strategy>
-			<ArtDefineTag>THEATRE</ArtDefineTag>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<SpecialistCount>3</SpecialistCount>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>66</ConquestProb>
-			<Happiness>6</Happiness>
-			<HurryCostModifier>10</HurryCostModifier>
-			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>21</PortraitIndex>
-		</Row>
+		
 	</Buildings>
 
 	<Building_YieldChanges>
-		<Row>
-			<BuildingType>BUILDING_BOLLHUSET</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
-		</Row>
+		
 	</Building_YieldChanges>
 
 	<Building_Flavors>
-		<Row>
-			<BuildingType>BUILDING_BOLLHUSET</BuildingType>
-			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>30</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_BOLLHUSET</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>50</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_BOLLHUSET</BuildingType>
-			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_BOLLHUSET</BuildingType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
+		
 	</Building_Flavors>
 
 	<Civilization_BuildingClassOverrides>
-		<Row>
-			<CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
-			<BuildingType>BUILDING_BOLLHUSET</BuildingType>
-		</Row>
+		
 	</Civilization_BuildingClassOverrides>
 
 	<Building_ClassesNeededInCity>
-		<Row>
-			<BuildingType>BUILDING_BOLLHUSET</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
-		</Row>
+		
 	</Building_ClassesNeededInCity>
 
 	<!-- Adds new text -->
 	<Language_en_US>
-		<Row Tag="TXT_KEY_BUILDING_BOLLHUSET">
-			<Text>[ICON_CULTURE] Bollhuset</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BOLLHUSET_STRATEGY">
-			<Text>The Bollhuset is the Swedish embodiment of fine arts and theater. In addition to the normal [ICON_HAPPINESS_1] Happiness increase, the Bollhuset has no maintenance cost and instead generates [ICON_GOLD] Gold.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BOLLHUSET_TEXT">
-			<Text>
-				Bollhuset was the name of the first theater in Stockholm, Sweden. It was the first Swedish theater and the first real theater building in the whole of Scandinavia. The name "Bollhuset" means "The Ball House", and it was built in 1627 for ball sports and used in this way for forty years.[NEWLINE][NEWLINE]
-
-				Bollhuset was the scene of a long series of most important events in the history of the theater in the city and in the history of Swedish theater. Between 1667 and 1792 it was used as a theater until it was demolished in 1793; between 1737 and 1754, the first national theater was located here; in 1773–1782 the Royal Swedish Opera (and thereby also the Royal Swedish Ballet) was located here; in 1783–1792 the French theater of Stockholm was housed here; in 1787 the second national theater was re-founded in the building; and from 1788 to 1792 it was the home of the Royal Dramatic Theatre.
-			</Text>
-		</Row>
+		
 	</Language_en_US>
 
 </GameData>

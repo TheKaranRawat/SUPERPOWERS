@@ -570,10 +570,29 @@
 			<Where Name="MC_GIFT_WEIGHT_CLOSE" />
 		</Update>
 
+		<!-- ARMY OPINIONS -->
+
+		<Update>
+			<Set Value="20"/>
+			<Where Name="OPINION_WEIGHT_LAND_FIERCE" />
+		</Update>
+
+		<Update>
+			<Set Value="10"/>
+			<Where Name="OPINION_WEIGHT_LAND_STRONG" />
+		</Update>
+
+		<Update>
+			<Set Value="0"/>
+			<Where Name="OPINION_WEIGHT_LAND_WEAK" />
+		</Update>
+
 		<Update>
 			<Set Value="-10"/>
 			<Where Name="OPINION_WEIGHT_LAND_NONE" />
 		</Update>
+
+		<!-- VICTORY OPINIONS -->
 		<Update>
 			<Set Value="9999"/>
 			<Where Name="OPINION_WEIGHT_VICTORY_FIERCE" />
@@ -590,22 +609,51 @@
 			<Set Value="-45"/>
 			<Where Name="OPINION_WEIGHT_VICTORY_NONE" />
 		</Update>
+
+		<!-- WONDER -->
 		<Update>
-			<Set Value="60"/>
+			<Set Value="20"/>
 			<Where Name="OPINION_WEIGHT_WONDER_FIERCE" />
 		</Update>
+
 		<Update>
-			<Set Value="30"/>
+			<Set Value="10"/>
 			<Where Name="OPINION_WEIGHT_WONDER_STRONG" />
 		</Update>
+
 		<Update>
-			<Set Value="150"/>
+			<Set Value="-10"/>
+			<Where Name="OPINION_WEIGHT_WONDER_WEAK" />
+		</Update>
+
+		<Update>
+			<Set Value="-20"/>
+			<Where Name="OPINION_WEIGHT_WONDER_NONE" />
+		</Update>
+
+		<!-- CITY STATE AGGRESIVENESS -->
+		<Update>
+			<Set Value="30"/>
 			<Where Name="OPINION_WEIGHT_MINOR_CIV_FIERCE" />
 		</Update>
+
 		<Update>
-			<Set Value="50"/>
+			<Set Value="20"/>
 			<Where Name="OPINION_WEIGHT_MINOR_CIV_STRONG" />
 		</Update>
+
+		<Update>
+			<Set Value="10"/>
+			<Where Name="OPINION_WEIGHT_MINOR_CIV_WEAK" />
+		</Update>
+
+		<Update>
+			<Set Value="-10"/>
+			<Where Name="OPINION_WEIGHT_MINOR_CIV_NONE" />
+		</Update>
+
+		<!-- WARMONGER -->
+
 		<Update>
 			<Set Value="9999"/>
 			<Where Name="OPINION_WEIGHT_WARMONGER_CRITICAL" />
@@ -623,39 +671,52 @@
 			<Where Name="OPINION_WEIGHT_WARMONGER_MINOR" />
 		</Update>
 		<Update>
-			<Set Value="-50"/>
+			<Set Value="-100"/>
 			<Where Name="OPINION_WEIGHT_WARMONGER_NONE" />
 		</Update>
+
+		<!-- GOOD ACTIONS -->
 		<Update>
 			<Set Value="-50"/>
 			<Where Name="OPINION_WEIGHT_RETURNED_CIVILIAN" />
 		</Update>
 		<Update>
-			<Set Value="-2000"/>
+			<Set Value="-4000"/>
 			<Where Name="OPINION_WEIGHT_RESURRECTED" />
 		</Update>
 		<Update>
-			<Set Value="-5"/>
+			<Set Value="-10"/>
 			<Where Name="OPINION_WEIGHT_EMBASSY"/>
 		</Update>
+
 		<Update>
-			<Set Value="-45"/>
+			<Set Value="-100"/>
+			<Where Name="OPINION_WEIGHT_CULTURE_BOMBED"/>
+		</Update>
+
+		<!-- RELIGION -->
+		<Update>
+			<Set Value="-60"/>
 			<Where Name="OPINION_ADOPTING_HIS_RELIGION"/>
 		</Update>
 		<Update>
 			<Set Value="-80"/>
 			<Where Name="OPINION_WEIGHT_ADOPTING_MY_RELIGION"/>
 		</Update>
+
+		<!-- IDEOLOGIES -->
 		<Update>
-			<Set Value="-8"/>
+			<Set Value="-30"/>
 			<Where Name="OPINION_WEIGHT_SAME_LATE_POLICIES"/>
 		</Update>
 		<Update>
-			<Set Value="12"/>
+			<Set Value="30"/>
 			<Where Name="OPINION_WEIGHT_DIFFERENT_LATE_POLICIES"/>
 		</Update>
+
+		<!-- PROMISES -->
 		<Update>
-			<Set Value="120"/>
+			<Set Value="150"/>
 			<Where Name="OPINION_WEIGHT_BROKEN_MILITARY_PROMISE"/>
 		</Update>
 		<Update>
@@ -678,22 +739,212 @@
 			<Set Value="80"/>
 			<Where Name="OPINION_WEIGHT_BROKEN_SPY_PROMISE"/>
 		</Update>
-		<Update>
-			<Set Value="-35"/>
-			<Where Name="OPINION_WEIGHT_FORGAVE_FOR_SPYINGE"/>
-		</Update>
+		
 		<Update>
 			<Set Value="50"/>
 			<Where Name="OPINION_WEIGHT_BROKEN_NO_CONVERT_PROMISE" />
 		</Update>
+
+		<!-- CITY STATE KILLING-->
 		<Update>
 			<Set Value="100"/>
 			<Where Name="OPINION_WEIGHT_KILLED_PROTECTED_MINOR" />
 		</Update>
+
 		<Update>
-			<Set Value="-90"/>
+			<Set Value="40"/>
+			<Where Name="OPINION_WEIGHT_KILLED_PROTECTED_MINOR_NUM_TURNS_UNTIL_FORGIVEN" />
+		</Update>
+
+		<Update>
+			<Set Value="200"/>
+			<Where Name="OPINION_WEIGHT_KILLED_MANY_PROTECTED_MINORS" />
+		</Update>
+
+		<Update>
+			<Set Value="70"/>
+			<Where Name="OPINION_WEIGHT_ATTACKED_PROTECTED_MINOR_NUM_TURNS_UNTIL_FORGIVEN" />
+		</Update>
+
+		<Update>
+			<Set Value="30"/>
+			<Where Name="OPINION_WEIGHT_ATTACKED_PROTECTED_MINOR_RECENTLY" />
+		</Update>
+
+		<Update>
+			<Set Value="30"/>
+			<Where Name="OPINION_WEIGHT_ATTACKED_PROTECTED_MINOR_RECENTLY_NUM_TURNS" />
+		</Update>
+
+		<Update>
+			<Set Value="20"/>
+			<Where Name="OPINION_WEIGHT_ATTACKED_PROTECTED_MINOR_WHILE_AGO" />
+		</Update>
+
+		<Update>
+			<Set Value="30"/>
+			<Where Name="OPINION_WEIGHT_ATTACKED_MANY_PROTECTED_MINORS" />
+		</Update>
+
+		<Update>
+			<Set Value="40"/>
+			<Where Name="OPINION_WEIGHT_BULLIED_PROTECTED_MINOR_NUM_TURNS_UNTIL_FORGIVEN" />
+		</Update>
+
+		<Update>
+			<Set Value="20"/>
+			<Where Name="OPINION_WEIGHT_BULLIED_PROTECTED_MINOR_RECENTLY" />
+		</Update>
+
+		<Update>
+			<Set Value="25"/>
+			<Where Name="OPINION_WEIGHT_BULLIED_PROTECTED_MINOR_RECENTLY_NUM_TURNS" />
+		</Update>
+
+		<Update>
+			<Set Value="15"/>
+			<Where Name="OPINION_WEIGHT_BULLIED_PROTECTED_MINOR_WHILE_AGO" />
+		</Update>
+
+		<Update>
+			<Set Value="25"/>
+			<Where Name="OPINION_WEIGHT_BULLIED_MANY_PROTECTED_MINORS" />
+		</Update>
+
+		<Update>
+			<Set Value="15"/>
+			<Where Name="OPINION_WEIGHT_SIDED_WITH_THEIR_MINOR_NUM_TURNS_UNTIL_FORGIVEN" />
+		</Update>
+
+		<Update>
+			<Set Value="10"/>
+			<Where Name="OPINION_WEIGHT_SIDED_WITH_THEIR_MINOR" />
+		</Update>
+
+		<!-- SPYING -->
+		<Update>
+			<Set Value="20"/>
+			<Where Name="OPINION_WEIGHT_ASKED_STOP_SPYING" />
+		</Update>
+
+		<Update>
+			<Set Value="20"/>
+			<Where Name="OPINION_WEIGHT_BROKEN_SPY_PROMISE" />
+		</Update>
+
+		<Update>
+			<Set Value="10"/>
+			<Where Name="OPINION_WEIGHT_IGNORED_SPY_PROMISE" />
+		</Update>
+
+		<Update>
+			<Set Value="-40"/>
+			<Where Name="OPINION_WEIGHT_FORGAVE_FOR_SPYING"/>
+		</Update>
+
+		<!-- DISCUSS AI -->
+
+		<Update>
+			<Set Value="30"/>
+			<Where Name="OPINION_WEIGHT_ASKED_NO_SETTLE" />
+		</Update>		
+
+		<Update>
+			<Set Value="50"/>
+			<Where Name="OPINION_WEIGHT_MADE_DEMAND_OF_US" />
+		</Update>
+
+		<Update>
+			<Set Value="20"/>
+			<Where Name="OPINION_WEIGHT_BROKEN_NO_CONVERT_PROMISE" />
+		</Update>
+
+		<Update>
+			<Set Value="20"/>
+			<Where Name="OPINION_WEIGHT_BROKEN_NO_DIG_PROMISE" />
+		</Update>
+
+		<Update>
+			<Set Value="10"/>
+			<Where Name="OPINION_WEIGHT_IGNORED_NO_DIG_PROMISE" />
+		</Update>
+
+		<Update>
+			<Set Value="40"/>
+			<Where Name="OPINION_WEIGHT_BROKEN_COOP_WAR_PROMISE" />
+		</Update>
+
+		<Update>
+			<Set Value="10"/>
+			<Where Name="OPINION_WEIGHT_IGNORED_NO_CONVERT_PROMISE" />
+		</Update>
+
+
+		<Update>
+			<Set Value="-100"/>
+			<Where Name="OPINION_WEIGHT_BUILT_LANDMARK" />
+		</Update>
+
+		<!-- LIBERATE -->
+		<Update>
+			<Set Value="-200"/>
+			<Where Name="OPINION_WEIGHT_LIBERATED_ONE_CITY" />
+		</Update>
+
+		<Update>
+			<Set Value="-300"/>
+			<Where Name="OPINION_WEIGHT_LIBERATED_TWO_CITIES" />
+		</Update>
+
+		<Update>
+			<Set Value="-400"/>
+			<Where Name="OPINION_WEIGHT_LIBERATED_THREE_CITIES" />
+		</Update>
+
+		<!-- WAR FRIENDS -->
+		<Update>
+			<Set Value="40"/>
+			<Where Name="OPINION_WEIGHT_WAR_FRIEND_EACH" />
+		</Update>
+
+		<Update>
+			<Set Value="60"/>
+			<Where Name="OPINION_WEIGHT_WAR_ME_FRIENDS" />
+		</Update>
+
+
+
+		<!-- FRIENDS AND DENOUNCE-->
+		<Update>
+			<Set Value="-500"/>
 			<Where Name="OPINION_WEIGHT_DOF" />
 		</Update>
+
+		<Update>
+			<Set Value="-250"/>
+			<Where Name="OPINION_WEIGHT_DOF_WITH_FRIEND" />
+		</Update>
+
+		<Update>
+			<Set Value="200"/>
+			<Where Name="OPINION_WEIGHT_DOF_WITH_ENEMY" />
+		</Update>
+
+		<Update>
+			<Set Value="20"/>
+			<Where Name="OPINION_WEIGHT_DENOUNCED_BY_FRIEND_EACH" />
+		</Update>
+
+		<Update>
+			<Set Value="-30"/>
+			<Where Name="OPINION_WEIGHT_DENOUNCED_BY_FRIEND_DONT_LIKE" />
+		</Update>
+
+		<Update>
+			<Set Value="20"/>
+			<Where Name="OPINION_WEIGHT_DENOUNCED_FRIEND_EACH" />
+		</Update>
+
 		<Update>
 			<Set Value="250"/>
 			<Where Name="OPINION_WEIGHT_DENOUNCED_ME_FRIENDS" />
@@ -710,32 +961,61 @@
 			<Set Value="60"/>
 			<Where Name="OPINION_WEIGHT_DENOUNCED_THEM" />
 		</Update>
+
+		<Update>
+			<Set Value="40"/>
+			<Where Name="OPINION_WEIGHT_DENOUNCED_FRIEND" />
+		</Update>
+
+		<Update>
+			<Set Value="-60"/>
+			<Where Name="OPINION_WEIGHT_DENOUNCED_ENEMY" />
+		</Update>
+
 		<Update>
 			<Set Value="100"/>
 			<Where Name="OPINION_WEIGHT_RECKLESS_EXPANDER" />
 		</Update>
+
 		<Update>
 			<Set Value="-60"/>
 			<Where Name="OPINION_WEIGHT_TRADE_MAX" />
 		</Update>
+
 		<Update>
-			<Set Value="-60"/>
+			<Set Value="-80"/>
 			<Where Name="OPINION_WEIGHT_COMMON_FOE_MAX" />
 		</Update>
+		
 		<Update>
 			<Set Value="-1600"/>
 			<Where Name="OPINION_WEIGHT_LIBERATED_CAPITAL" />
 		</Update>
+
+		<Update>
+			<Set Value="-300"/>
+			<Where Name="OPINION_WEIGHT_LIBERATED_CITY" />
+		</Update>		
+
 		<Update>
 			<Set Value="1600"/>
 			<Where Name="OPINION_WEIGHT_CAPTURED_CAPITAL" />
 		</Update>
+
+		<!-- NUKES AND INTRIGUE -->
+
+		<Update>
+			<Set Value="1000"/>
+			<Where Name="OPINION_WEIGHT_NUKED_MAX" />
+		</Update>
+
+		<!-- UN -->
 		<Update>
 			<Set Value="-50"/>
 			<Where Name="OPINION_WEIGHT_WE_LIKED_THEIR_PROPOSAL" />
 		</Update>
 		<Update>
-			<Set Value="90"/>
+			<Set Value="60"/>
 			<Where Name="OPINION_WEIGHT_WE_DISLIKED_THEIR_PROPOSAL" />
 		</Update>
 		<Update>
@@ -755,7 +1035,7 @@
 			<Where Name="OPINION_WEIGHT_THEY_SUPPORTED_OUR_PROPOSAL_NUM_TURNS" />
 		</Update>		
 		<Update>
-			<Set Value="500"/>
+			<Set Value="200"/>
 			<Where Name="OPINION_WEIGHT_THEY_FOILED_OUR_PROPOSAL" />
 		</Update>
 		<Update>
@@ -763,22 +1043,47 @@
 			<Where Name="OPINION_WEIGHT_THEY_FOILED_OUR_PROPOSAL_NUM_TURNS" />
 		</Update>
 		<Update>
-			<Set Value="-100"/>
+			<Set Value="-150"/>
 			<Where Name="OPINION_WEIGHT_THEY_SUPPORTED_OUR_HOSTING" />
 		</Update>
 		<Update>
-			<Set Value="20"/>
+			<Set Value="30"/>
 			<Where Name="OPINION_WEIGHT_THEY_SUPPORTED_OUR_HOSTING_NUM_TURNS" />
 		</Update>
 
+		<!-- OPINION THRESHOLDS -->
 		<Update>
-			<Set Value="100"/>
+			<Set Value="150"/>
 			<Where Name="OPINION_THRESHOLD_UNFORGIVABLE" />
 		</Update>
+
 		<Update>
-			<Set Value="-80"/>
+			<Set Value="60"/>
+			<Where Name="OPINION_THRESHOLD_ENEMY" />
+		</Update>
+
+		<Update>
+			<Set Value="40"/>
+			<Where Name="OPINION_THRESHOLD_COMPETITOR" />
+		</Update>
+
+		<Update>
+			<Set Value="-20"/>
+			<Where Name="OPINION_THRESHOLD_FAVORABLE" />
+		</Update>
+
+		<Update>
+			<Set Value="-60"/>
+			<Where Name="OPINION_THRESHOLD_FRIEND" />
+		</Update>
+
+		<Update>
+			<Set Value="-100"/>
 			<Where Name="OPINION_THRESHOLD_ALLY" />
 		</Update>
+
+		
+
 
 		<Update>
 			<Set Value="10"/>

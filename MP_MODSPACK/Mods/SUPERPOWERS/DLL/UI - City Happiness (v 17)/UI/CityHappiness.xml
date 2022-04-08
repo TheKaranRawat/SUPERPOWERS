@@ -61,9 +61,10 @@
     <Box Style="BGBlock_ClearTopBar" />
 
     <Grid Size="990,653" Anchor="C,C" Offset="0,42" Style="Grid9DetailFive140" ConsumeMouse="1">
-      <!-- Panel Header Text -->
+      <Label Style="MenuTitleCaption" String="TXT_KEY_HAPPINESS_OVERVIEW" />
+      <!-- Panel Header Text 
       <Label String="TXT_KEY_HAPPINESS_OVERVIEW" Anchor="C,T" Offset="0,19" Font="TwCenMT20" Color0="30,50,80,255" Color1="133,184,186,255" Color2="133,184,186,255" FontStyle="SoftShadow"  />
-
+      -->
       <Box Style="PopupLeftSideTreatment"/>
       <Box Style="PopupRightSideTreatment"/>
 

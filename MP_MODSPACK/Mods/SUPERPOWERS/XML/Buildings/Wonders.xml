@@ -2271,7 +2271,6 @@
 			<BuildingClass>BUILDINGCLASS_BOROBUDUR</BuildingClass>
 			<Cost>240</Cost>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
-			<PolicyBranchType>POLICY_BRANCH_PIETY</PolicyBranchType>
 			<Description>TXT_KEY_BUILDING_BOROBUDUR</Description>
 			<Quote>TXT_KEY_BUILDING_BOROBUDUR_QUOTE</Quote>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BOROBUDUR_TEXT</Civilopedia>
@@ -2298,6 +2297,7 @@
 			<Cost>240</Cost>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<Help>TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_PIETY</PolicyBranchType>
 			<Description>TXT_KEY_BUILDING_MOSQUE_OF_DJENNE</Description>
 			<Civilopedia>TXT_KEY_WONDER_MOSQUE_OF_DJENNE_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_MOSQUE_OF_DJENNE_QUOTE</Quote>
@@ -4283,7 +4283,7 @@
 			<Civilopedia>TXT_KEY_WONDER_HATTUSA_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_HATTUSA_QUOTE</Quote>
 			<Cost>185</Cost>
-			<PrereqTech>TECH_ARCHERY</PrereqTech>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>

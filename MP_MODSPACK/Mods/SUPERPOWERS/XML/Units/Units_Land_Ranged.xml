@@ -1099,7 +1099,7 @@
 			<Cost>1200</Cost>
 			<Moves>2</Moves>
 			<Range>5</Range>
-			<HurryCostModifier>100</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>

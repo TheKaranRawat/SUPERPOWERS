@@ -51,7 +51,7 @@
       <RangedCombatLimit>75</RangedCombatLimit>
       <AirUnitCap>1</AirUnitCap>
       <DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
-	  <ExtraMaintenanceCost>100</ExtraMaintenanceCost>
+	  <ExtraMaintenanceCost>200</ExtraMaintenanceCost>
     </Row>
   </Units>
 
@@ -105,10 +105,7 @@
 		  <UnitType>UNIT_SMAN_EU_RECON_PLANE</UnitType>
 		  <PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
 	  </Row>
-	  <Row>
-		  <UnitType>UNIT_SMAN_EU_RECON_PLANE</UnitType>
-		  <PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
-	  </Row>	  
+	  
   </Unit_FreePromotions>
 	
   

@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Released under GPL v3 -->
+<GameData>
+	<Language_ES_ES>
+		<!--Panels -->
+		<Row Tag="TXT_KEY_IGE_EDIT">
+			<Text>Editar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PAINT">
+			<Text>Pintar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CHANGE">
+			<Text>Cambiar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PLAYER">
+			<Text>Jugador</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TERRAIN_EDIT_PANEL">
+			<Text>Terreno (F1)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TERRAIN_EDIT_PANEL_HELP">
+			<Text>[ICON_BULLET]Clic izq. para seleccionar un hexágono.[NEWLINE][ICON_BULLET]Clic derecho para cancelar la selección.[NEWLINE][ICON_BULLET]Ctrl + Z/Y para deshacer/rehacer cambios.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CITIES_AND_UNITS_PANEL">
+			<Text>Ciudades y unidades (F2)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CITIES_AND_UNITS_PANEL_HELP">
+			<Text>[ICON_BULLET]Clic izq. para seleccionar un hexágono.[NEWLINE][ICON_BULLET]Clic derecho para cancelar la selección.[NEWLINE][ICON_BULLET]Shift + clic izq. para crear una ciudad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TERRAIN_PAINT_PANEL">
+			<Text>Terreno (F3)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TERRAIN_PAINT_PANEL_HELP">
+			<Text>[ICON_BULLET]Has clic derecho y arrastra para pintar hexágonos.[NEWLINE][ICON_BULLET]Shift + clic derecho para pintar 7 hexágonos a la vez.[NEWLINE][ICON_BULLET]Ctrl + Z/Y para deshacer/rehacer cambios.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNITS_PANEL">
+			<Text>Unidades (F4)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNITS_PANEL_HELP">
+			<Text>[ICON_BULLET]Clic derecho para crear unidad.[NEWLINE][ICON_BULLET]Shift + clic derecho para remover la unidad más reciente bajo el cursor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_PANEL">
+			<Text>Tecnologías (F7)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_PANEL_HELP">
+			<Text>[ICON_BULLET]Clic para añadir/remover una tecnología.[NEWLINE][ICON_BULLET]Shift + clic para añadir una tecnología y todos sus pre-requisitos, o para remover una tecnología y todas sus dependencias</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PLAYERS_PANEL">
+			<Text>Jugadores (F6)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SOCIAL_POLICIES_PANEL">
+			<Text>Políticas sociales (F8)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ACTIVE_PLAYER_BUTTON_HELP">
+			<Text>Clic para cambiar de jugador activo.[NEWLINE]Cambiaran las características que dependen de cada civilización (niebla de guerra, fronteras, etc.).[NEWLINE][COLOR_NEGATIVE_TEXT]Si el juego se cierra al intentar controlar otro jugador, has clic derecho en [ICON_CAPITAL]IGE[ICON_CAPITAL] y activa el modo seguro.[ENDCOLOR]</Text>
+		</Row>
+
+		
+		<!-- Common -->
+		<Row Tag="TXT_KEY_IGE_NONE">
+			<Text>Ninguno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ERA">
+			<Text>Época/Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PLOT_SELECTION_PROMPT">
+			<Text>[COLOR_POSITIVE_TEXT]Cliquea un hexágono para seleccionarlo.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PLOT_SELECTION_HINT">
+			<Text>[COLOR_POSITIVE_TEXT]Usar el mapa estratégico (F10) permite ver los cambios de terreno inmediatamente.[ENDCOLOR]</Text>
+		</Row>
+
+		
+		<!--IGE_Window.xml-->
+		<Row Tag="TXT_KEY_IGE_IGE">
+			<Text>[ICON_CAPITAL] IGE [ICON_CAPITAL]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_IGE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Abre o cierra Ingame Editor (Ctrl + i)[ENDCOLOR][NEWLINE]Clic derecho para ver opciones.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAFE_MODE">
+			<Text>Modo seguro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAFE_MODE_HELP">
+			<Text>[COLOR_NEGATIVE_TEXT]Activa esto si el juego se cierra al cambiar de jugador. La niebla de guerra no se actualizara y pueden haber otros errores menores.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SHOW_YIELDS">
+			<Text>Muestra valores de los terrenos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SHOW_YIELDS_HELP">
+			<Text>Muestra los valores de los terrenos cuando IGE es abierto.[NEWLINE][COLOR_POSITIVE_TEXT]Desactiva la muestra de recursos y valores de terreno para mejorar la velocidad de carga de IGE.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SHOW_RESOURCES">
+			<Text>Muestra los iconos de los recursos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SHOW_RESOURCES_HELP">
+			<Text>Muestra los recursos cuando IGE es abierto.[NEWLINE][COLOR_POSITIVE_TEXT]Desactiva la muestra de recursos y valores de terreno para mejorar la velocidad de carga de IGE.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AUTO_SAVE">
+			<Text>Auto guardar el juego al abrir IGE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CLEAN_UP_FILES">
+			<Text>Limpiar archivos redundantes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CLEAN_UP_FILES_HELP">
+			<Text>Esta opción permite a IGE eliminar archivos IGE ("IGE1", etc) que tengan el mismo nombre.[NEWLINE][COLOR_NEGATIVE_TEXT]Borrar estos archivos puede causar el cierre del juego en algunos computadores (otro error más de civ5).[ENDCOLOR]</Text>
+		</Row>		
+		<Row Tag="TXT_KEY_IGE_SHOW_UNKNOWN_RESOURCES">
+			<Text>Mostrar recursos desconocidos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SHOW_UNKNOWN_RESOURCES_HELP">
+			<Text>Muestra en el mapa los recursos que son revelados por tecnologías que aun no conoces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DISABLE_STRATEGIC_VIEW">
+			<Text>Desactivar mapa estratégico de IGE.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DISABLE_STRATEGIC_VIEW_HELP">
+			<Text>Cuando IGE es abierto, este reemplaza el mapa estratégico con una copia que muestra los cambios de terreno que se hagan. En algunos computadores, este puede provocar el cierre del juego cuando se mira el mapa desde mucha altura.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AUTO_SAVE_HELP">
+			<Text>Automáticamente guarda el juego como 'IGEn' cada vez que IGE es abierto.[NEWLINE][COLOR_POSITIVE_TEXT]Desactiva esto para mejorar la velocidad de carga de IGE.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CLOSE">
+			<Text>Cerrar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CLOSE_BUTTON_HELP">
+			<Text>Cierra IGE (Escape)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RELOAD_BUTTON_HELP">
+			<Text>Guarda y recarga el juego (Ctrl + F5).[NEWLINE][COLOR_NEGATIVE_TEXT]Un error de civ5 puede hacer que se cierre inesperadamente el juego en algunos computadores. Esto puede pasar pasar en presencia de otros mods activos, pero también pueden no ser la causa.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAVE_BUTTON_HELP">
+			<Text>Guardado rápido como 'IGEn' (F5)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CAMERA_BUTTON_HELP">
+			<Text>Trae la cámara a la capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GLANCE_AT_MAP_BUTTON">
+			<Text>Mira el mapa.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GLANCE_AT_MAP_BUTTON_HELP">
+			<Text>Mira el mapa.[NEWLINE]Esto te deja ver el mapa completo sin contactar a los demás lideres. La niebla será restaurada cuando IGE sea cerrado.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_COVER_MAP_BUTTON_HELP">
+			<Text>Deja de mirar el mapa.</Text>
+		</Row>
+
+		
+		<!--IGE_Window.lua-->
+		<Row Tag="TXT_KEY_IGE_CONFIRM_SAVE_AND_RELOAD">
+			<Text>¿Quieres guardar y recargar el juego?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_LOADING_ERROR">
+			<Text>IGE no pudo iniciarse, probablemente por acción de otro MOD.[NEWLINE][ICON_BULLET]Por favor, reporta esto en Steam o CivFanatics con el error de abajo y el nombre del MOD para que esto pueda ser arreglado a la brevedad.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MORE_THAN_ONE_VERSION_ERROR">
+			<Text>Tienes más de una versión de IGE en tu disco duro.[NEWLINE]Esto confunde al juego y puede causar que IGE no funcione correctamente.[NEWLINE]Elimine las versiones anteriores.</Text>
+		</Row>
+
+
+		<!--IGE_TerrainPanel.xml-->
+		<Row Tag="TXT_KEY_IGE_PILLAGE_CB">
+			<Text>Mejora saqueada</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PILLAGE_CB_HELP">
+			<Text>¿Está la mejora saqueada?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_STRATEGIC_RESOURCE_QTY">
+			<Text>Cantidad de recursos estratégicos.</Text>
+		</Row>
+
+
+		<!--IGE_TerrainPanel.lua-->
+		<Row Tag="TXT_KEY_IGE_UNEXPLORED_SETTING">
+			<Text>Sin explorar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNEXPLORED_SETTING_HELP">
+			<Text>Marca como no explorado por la civilización activa.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPLORED_SETTING">
+			<Text>Explorado</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPLORED_SETTING_HELP">
+			<Text>Marca como explorado por la civilización activa.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_LAND_SETTING">
+			<Text>Tierra libre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_LAND_SETTING_HELP">
+			<Text>Deja este hexágono libre de la propiedad de cualquiera.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_YOUR_LAND_SETTING">
+			<Text>Tu tierra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_YOUR_LAND_SETTING_HELP">
+			<Text>Marca este hexágono como propiedad de la civilización activa.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TERRAIN">
+			<Text>Terreno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FEATURES_AND_WONDERS">
+			<Text>Accidentes y Maravillas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RESOURCES">
+			<Text>Recursos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_IMPROVEMENTS">
+			<Text>Mejoras</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_OTHERS">
+			<Text>Otros</Text>
+		</Row>
+		
+		
+		<!--IGE_CitiesPanel.xml-->
+		<Row Tag="TXT_KEY_IGE_NO_UNIT_ON_PLOT">
+			<Text>[COLOR_POSITIVE_TEXT]No hay una unidad en esta casilla[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NO_CITY_ON_PLOT">
+			<Text>[COLOR_POSITIVE_TEXT]No hay una ciudad en esta casilla[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DISBAND_UNIT_BUTTON">
+			<Text>Suprimir</Text>
+		</Row>			
+		<Row Tag="TXT_KEY_IGE_PROMOTE_UNIT_BUTTON">
+			<Text>Ascender</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_HEAL_UNIT_BUTTON">
+			<Text>Curar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CITY_POPULATION">
+			<Text>Población de la ciudad.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_HURRY_CITY_BUTTON">
+			<Text>Apurar producción</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_HURRY_CITY_BUTTON_HELP">
+			<Text>Apura la producción de la ciudad. Se construirá la unidad o edificio el turno que viene.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CAPTURE_CITY_BUTTON">
+			<Text>Capturar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CAPTURE_CITY_BUTTON_HELP">
+			<Text>Traspasa la propiedad de esta ciudad hacia ti. No se considera un movimiento ofensivo y no empieza una guerra.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DISBAND_CITY_BUTTON">
+			<Text>Suprimir</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DISBAND_CITY_BUTTON_HELP">
+			<Text>Borra esta ciudad.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_HEAL_CITY_BUTTON">
+			<Text>Curar</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_IGE_HEAL_CITY_BUTTON_HELP">
+			<Text>Cura los puntos de vida de la ciudad.</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_IGE_LOVE_KING_10_BUTTON">
+			<Text>Amamos al rey (20t)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_LOVE_KING_10_BUTTON_HELP">
+			<Text>Activa 20 turnos de crecimiento fuerte de la población.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_LOVE_KING_250_BUTTON">
+			<Text>Amamos al rey (250t)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_LOVE_KING_250_BUTTON_HELP">
+			<Text>Activa 250 turnos de crecimiento fuerte de la población.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPAND_CITY_BUTTON">
+			<Text>Expandir frontera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPAND_CITY_BUTTON_HELP">
+			<Text>Expande la frontera cultural en una casilla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NEVER_LOST_CITY_CB">
+			<Text>Nuestra (nunca perdida)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NEVER_LOST_CITY_CB_HELP">
+			<Text>Marca esta ciudad como establecida por ti, y que nunca ha sido perdida (para prevenir una derrota por dominación).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RECONQUERED_CITY_CB">
+			<Text>Nuestra (reconquistada)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RECONQUERED_CITY_CB_HELP">
+			<Text>Marca esta ciudad como perdida y luego reconquistada</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_OCCUPIED_CITY_CB">
+			<Text>Ocupada</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_OCCUPIED_CITY_CB_HELP">
+			<Text>Marca esta ciudad como ocupada por una civilización. La infelicidad será mas grande a menos que construyas una delegación.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PUPPET_CITY_CB">
+			<Text>Títere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PUPPET_CITY_CB_HELP">
+			<Text>Marca esta ciudad como títere. La infelicidad será la misma que en una ciudad regular.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NO_RELIGION">
+			<Text>Sin religión</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOLLOWERS">
+			<Text>Seguidores de {1_Religion}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOLLOWERS_MIN">
+			<Text>MIN</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOLLOWERS_MIN_HELP">
+			<Text>Quita todos los seguidores de {1_Religion} (Los convierte en ateístas).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOLLOWERS_MAX">
+			<Text>MAX</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOLLOWERS_MAX_HELP">
+			<Text>Convierte todo los ciudadanos en seguidores de {1_Religion}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MOVE_UNIT">
+			<Text>Teletransporte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MOVE_UNIT_HELP">
+			<Text>Has clic para entrar al modo de teletransporte, después has clic derecho en una casilla para transportar a todas las unidades a ese lugar.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MOVE_UNIT_MESSAGE">
+			<Text>Clic derecho en el mapa para transportar las unidades.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MOVE_UNIT_CANCEL">
+			<Text>Cancelar</Text>
+		</Row>
+		
+
+
+
+		<!--IGE_PlayersPanel.xml-->
+		<Row Tag="TXT_KEY_IGE_CURRENT_FAITH">
+			<Text>Puntos de fe actuales.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CURRENT_CULTURE">
+			<Text>Cultura actual.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AVAILABLE_GOLD">
+			<Text>Oro disponible.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TAKE_SEAT_BUTTON">
+			<Text>Controlar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TAKE_SEAT_BUTTON_HELP">
+			<Text>Juega como esta civilización.[NEWLINE][COLOR_NEGATIVE_TEXT]No tendrás el control completo, y además tendrás que cambiar a tu civilización antes de finalizar el turno. Esto puede hacer que el juego se cierre inesperadamente en algunos computadores</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_REVEAL_MAP_BUTTON">
+			<Text>Revelar todo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_REVEAL_MAP_BUTTON_HELP">
+			<Text>Revela el mapa, activa los contactos diplomáticos y los descubrimientos de las maravillas naturales, muestra las unidades enemigas en el mapa.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPLORE_MAP_BUTTON">
+			<Text>Explorar el mapa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPLORE_MAP_BUTTON_HELP">
+			<Text>Muestra el mapa como si lo hubieras explorado por completo. Activa los descubrimientos de las maravillas naturales, pero no los contactos diplomáticos.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNEXPLORE_MAP_BUTTON">
+			<Text>Ocultar el mapa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNEXPLORE_MAP_BUTTON_HELP">
+			<Text>Oculta el mapa como si nunca lo hubieras explorado. Deja tal cual los contactos diplomáticos y descubrimiento de maravillas naturales.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_KILL_UNITS_BUTTON">
+			<Text>Suprimir unidades</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_KILL_UNITS_BUTTON_HELP">
+			<Text>Suprime todas las unidades de esta civilización. No serás considerado el asesino de estas.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_KILL_CIV_BUTTON">
+			<Text>Matar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_KILL_CIV_BUTTON_HELP">
+			<Text>Mata esta civilización. No serás considerado el asesino de esta.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_TECH_BUTTON">
+			<Text>Tecnología gratis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_TECH_BUTTON_HELP">
+			<Text>Otorga una tecnología gratis.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_POLICY_BUTTON">
+			<Text>Política social gratis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_POLICY_BUTTON_HELP">
+			<Text>Otorga una política social gratis.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GOLDEN_AGE_10_BUTTON">
+			<Text>Edad de oro (10t)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GOLDEN_AGE_10_BUTTON_HELP">
+			<Text>Otorga una edad de oro de 10 turnos.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GOLDEN_AGE_250_BUTTON">
+			<Text>Edad de oro (250t)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GOLDEN_AGE_250_BUTTON_HELP">
+			<Text>Otorga una edad de oro de 250 turnos.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALL_BUTTON">
+			<Text>Todos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALL_BUTTON_HELP">
+			<Text>Aplica esta acción a todos los candidatos validos.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_INVALID_BUTTON">
+			<Text>[COLOR_POSITIVE_TEXT]No hay candidatos validos.[ENDCOLOR]</Text>
+		</Row>
+		
+	
+		<!--IGE_PlayersPanel.lua-->
+		<Row Tag="TXT_KEY_IGE_MEET">
+			<Text>Conoce</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MEET_NONE">
+			<Text>Has establecido contacto con todos.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FORM_TEAM">
+			<Text>Formar equipo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FORM_TEAM_NONE">
+			<Text>Todos están.. ¡¿En el mismo equipo?!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MAKE_PEACE">
+			<Text>Hacer las paces</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MAKE_PEACE_NONE">
+			<Text>Nadie está en guerra contigo. :(</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SIGN_DOF">
+			<Text>Firmar declaración de amistad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SIGN_DOF_NONE">
+			<Text>Has firmado declaraciones de amistad con todos.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MAX_MINOR_INFLUENCE">
+			<Text>Maximizar influencia con ciudad estado</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MAX_MINOR_INFLUENCE_NONE">
+			<Text>Tu influencia está maximizada con todas las ciudades estado.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FLAG_STATE_LIBERATED">
+			<Text>Marca la ciudad estado como liberada</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FLAG_STATE_LIBERATED_NONE">
+			<Text>Error :(</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DENOUNCE">
+			<Text>Denunciar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DENOUNCE_NONE">
+			<Text>Has denunciado a todos.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DENOUNCED_BY">
+			<Text>Denunciado por</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DENOUNCED_BY_NONE">
+			<Text>Has sido denunciado por todos.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DECLARE_WAR">
+			<Text>Declarar la guerra a</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DECLARE_WAR_BY">
+			<Text>Te ha declarado la guerra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SET_EMBARGO">
+			<Text>Poner un embargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TWO_SIDES_NONE">
+			<Text>Todas las civilizaciones están en tu mismo bando, o en guerra contigo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALREADY_IN_TEAM_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]Esta civilización ya es parte de tu bando[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALREADY_UNDER_DOF_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]Esta civilización ya ha firmado una declaración de amistad contigo.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MAX_MINOR_INFLUENCE_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]Tu influencia con está ciudad estado ya está maximizada.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAME_TEAM_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]Ambos están en el mismo bando.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALREADY_AT_WAR_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]Ya estás en guerra.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALREADY_DENOUNCED_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]Ya has denunciado a esta civilización.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALREADY_DENOUNCED_BY_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]Esta civilización ya te ha denunciado.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_ALLIANCE_SHORT">
+			<Text>Aliarse con {1_PlyrName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_ALLIANCE_LONG">
+			<Text>Hiciste una alianza con {1_PlyrName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_DOF_SHORT">
+			<Text>Declarar amistad con {1_PlyrName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_DOF_LONG">
+			<Text>Firmaste una declaración de amistad con {1_PlyrName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_EMBARGO_SHORT">
+			<Text>Embargar a {1_PlyrName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_EMBARGO_LONG">
+			<Text>Dejas de intercambiar con {1_PlyrName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOUND_PANTHEON">
+			<Text>Establece un panteón.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOUND_RELIGION">
+			<Text>Establece una religión.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ENHANCE_RELIGION">
+			<Text>Potenciar una religión.</Text>
+		</Row>
+
+
+		<!--IGE_UnitsPanel.lua-->
+		<Row Tag="TXT_KEY_IGE_CIVILIAN_UNITS">
+			<Text>Unidades civiles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNITS_LEVEL">
+			<Text>Nivel de las unidades creadas.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RELIGIOUS_UNITS">
+			<Text>Unidades religiosas*</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RELIGIOUS_UNITS_HELP">
+			<Text>Estas unidades tienen que ser compradas, así que solo las religiones disponibles en tus propias ciudades están disponibles. Una civilización humana/de jugador tiene que estar seleccionada.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RELIGIOUS_UNITS_WARNING">
+			<Text>[COLOR_NEGATIVE_TEXT]ADVERTENCIA: Las unidades religiosas son en realidad compradas (gratis). El proceso puede fallar si no tienes ciudades que puedan comprar esa unidad; ignora los puntos de fe que tienes y la regla de "una unidad por casilla".[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RELIGIOUS_UNITS_ERROR">
+			<Text>[COLOR_ADVISOR_HIGHLIGHT_TEXT]ERROR: ninguna de tus ciudades puede comprar esa unidad.[ENDCOLOR]</Text>
+		</Row>
+
+
+		<!--IGE_API_Data.lua-->
+		<Row Tag="TXT_KEY_IGE_NO_GRAPHICAL_UPDATE">
+			<Text>[COLOR_NEGATIVE_TEXT]ERROR: Las graficas no serán actualizadas hasta que guardes y recargues el juego. Por favor, dirijan sus quejas a Firaxis por esto.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAVE_GAME_CORRUPTION">
+			<Text>[COLOR_NEGATIVE_TEXT]PROHIBIDO: Hacer esto podría corromper el juego guardado[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FLAT_LAND">
+			<Text>Tierra baja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_COAST_OR_LAKE">
+			<Text>Costa o lago</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_COAST_OR_LAKE_HELP">
+			<Text>Creara una costa o un lago según corresponda.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AFRICA">
+			<Text>África</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AFRICA_HELP">
+			<Text>Terreno Africano</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AMERICA">
+			<Text>América</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AMERICA_HELP">
+			<Text>Terreno Americano</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ASIA">
+			<Text>Asia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ASIA_HELP">
+			<Text>Terreno Asiático</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EUROPE">
+			<Text>Europa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EUROPE_HELP">
+			<Text>Terreno Europeo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NATIONAL_WONDER">
+			<Text>[COLOR_CYAN]Maravilla Nacional[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_WONDER">
+			<Text>[COLOR_CYAN]Maravilla[ENDCOLOR]</Text>
+		</Row>
+
+		<!--IGE_TechsPanel.xml-->
+		<Row Tag="TXT_KEY_IGE_TECH_PREREQ">
+			<Text>REQUIERE:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_ERA_HEADER_HELP">
+			<Text>Clic para otorgar todas las tecnologías de esta era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_COMPATIBILITY">
+			<Text>Filtro para compatibilidad de MODS:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_COMPATIBILITY_NONE">
+			<Text>Ninguno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_COMPATIBILITY_STANDARD">
+			<Text>Estándar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_COMPATIBILITY_NIGHTS">
+			<Text>Civilization Nights</Text>
+		</Row>
+
+
+		<!--IGE_API_Misc.lua -->
+		<Row Tag="TXT_KEY_IGE_YIELD_CHANGE_TEMPLATE">
+			<Text>{1_Amount} con {2_Cause}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NO_YIELD_CHANGE_TEMPLATE">
+			<Text>Sin bonificación de {1_Cause}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAVED_AS">
+			<Text>Juego guardado como '{1_FileName}'.</Text>
+		</Row>		
+	</Language_ES_ES>
+</GameData>

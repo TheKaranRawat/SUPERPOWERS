@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Released under GPL v3 -->
+<GameData>
+	<Language_ru_RU>
+		<!--Panels -->
+		<Row Tag="TXT_KEY_IGE_EDIT">
+			<Text>Редактировать</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PAINT">
+			<Text>Создать</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CHANGE">
+			<Text>Изменить</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PLAYER">
+			<Text>Игрок</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TERRAIN_EDIT_PANEL">
+			<Text>Ландшафт (F1)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TERRAIN_EDIT_PANEL_HELP">
+			<Text>[ICON_BULLET]Левый клик - выделить клетку.[NEWLINE][ICON_BULLET]Правый клик - отменить выделение.[NEWLINE][ICON_BULLET]Ctrl + Z/Y чтобы отменить/вернуть.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CITIES_AND_UNITS_PANEL">
+			<Text>Города и юниты (F2)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CITIES_AND_UNITS_PANEL_HELP">
+			<Text>[ICON_BULLET]Левый клик - выделить клетку.[NEWLINE][ICON_BULLET]Правый клик - отменить выделение.[NEWLINE][ICON_BULLET]Shift + левый клик чтобы основать город.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TERRAIN_PAINT_PANEL">
+			<Text>Ландшафт (F3)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TERRAIN_PAINT_PANEL_HELP">
+			<Text>[ICON_BULLET]Зажав правую кнопку - рисовать на клетках.[NEWLINE][ICON_BULLET]Shift + правая кнопка - рисовать на 7-ми клетках сразу.[NEWLINE][ICON_BULLET]Ctrl + Z/Y чтобы отменить/вернуть.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNITS_PANEL">
+			<Text>Юниты (F4)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNITS_PANEL_HELP">
+			<Text>[ICON_BULLET]Правая кнопка - создать юнит.[NEWLINE][ICON_BULLET]Shift + правый клик - удалить последний созданный юнит под курсором.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_PANEL">
+			<Text>Технологии (F7)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_PANEL_HELP">
+			<Text>[ICON_BULLET]Кликнуть для добавления/удаления технологии.[NEWLINE][ICON_BULLET]Shift + клик - добавить технологию и все требующиеся для неё, или удалить технологию со всеми зависящими от неё.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PLAYERS_PANEL">
+			<Text>Игроки (F6)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SOCIAL_POLICIES_PANEL">
+			<Text>Институты (F8)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ACTIVE_PLAYER_BUTTON_HELP">
+			<Text>Изменить активного игрока.[NEWLINE]Эта опция влияет на то, что относится к игрокам (туман войны, владения, прочее).[NEWLINE][COLOR_NEGATIVE_TEXT]Если происходит вылет из игры при смене игрока, кликните правой кнопкой на [ICON_CAPITAL]IGE[ICON_CAPITAL] и включите Безопасный режим.[ENDCOLOR]</Text>
+		</Row>
+
+		
+		<!-- Common -->
+		<Row Tag="TXT_KEY_IGE_NONE">
+			<Text>Пусто</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ERA">
+			<Text>Эра</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PLOT_SELECTION_PROMPT">
+			<Text>[COLOR_POSITIVE_TEXT]Выделите клетку левой кнопкой мыши.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PLOT_SELECTION_HINT">
+			<Text>[COLOR_POSITIVE_TEXT]Использовать стратегический вид (F10) для отображения изменений ландшафта.[ENDCOLOR]</Text>
+		</Row>
+
+
+		<!--IGE_Window.xml-->
+		<Row Tag="TXT_KEY_IGE_IGE">
+			<Text>[ICON_CAPITAL] IGE [ICON_CAPITAL]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_IGE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Открыть или закрыть IGE (InGame Editor) - Ctrl + i[ENDCOLOR][NEWLINE]Кликнуть правой кнопкой для настройки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAFE_MODE">
+			<Text>Безопасный режим</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAFE_MODE_HELP">
+			<Text>[COLOR_NEGATIVE_TEXT]Включите, если у вас вылетает игра при смене активного игрока. Туман не будет обновляться и могут возникнуть другие баги.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SHOW_YIELDS">
+			<Text>Показывать урожай</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SHOW_YIELDS_HELP">
+			<Text>Показывать урожай с клеток когда IGE открыт.[NEWLINE][COLOR_POSITIVE_TEXT]Отключите отображение урожая и иконок ресурсов чтобы ускорить загрузку IGE.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SHOW_RESOURCES">
+			<Text>Показывать ресурсы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SHOW_RESOURCES_HELP">
+			<Text>Показывать иконки ресурсов когда IGE открыт.[NEWLINE][COLOR_POSITIVE_TEXT]Отключите отображение урожая и иконок ресурсов чтобы ускорить загрузку IGE.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AUTO_SAVE">
+			<Text>Автосохранение</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CLEAN_UP_FILES">
+			<Text>Удалить лишние файлы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CLEAN_UP_FILES_HELP">
+			<Text>Эта опция позволит IGE удалять свои старые файлы ("IGE1", и т.д.), у которых одинаковые названия.[NEWLINE][COLOR_NEGATIVE_TEXT]Удаление файлов может привести к вылетам игры на некоторых компьютерах (очередной баг Civ5).[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SHOW_UNKNOWN_RESOURCES">
+			<Text>Неизвестные ресурсы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SHOW_UNKNOWN_RESOURCES_HELP">
+			<Text>Отображать ресурсы, для которых требуются технологии, которые ещё не открыты вами.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DISABLE_STRATEGIC_VIEW">
+			<Text>Отключить стратегический вид</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DISABLE_STRATEGIC_VIEW_HELP">
+			<Text>Когда IGE открыт, он заменяет обычную карту клоном стратегической, которая лучше реагирует на редактирование ландшафта, но может приводить к крашам при большой отдалении.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AUTO_SAVE_HELP">
+			<Text>Сохраняет игру как 'IGEn' при каждом открытии IGE, где n - номер сохранения.[NEWLINE][COLOR_POSITIVE_TEXT]Отключите эту опцию чтобы ускорить загрузку IGE.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CLOSE">
+			<Text>Закрыть</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CLOSE_BUTTON_HELP">
+			<Text>Закрыть IGE (Escape)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RELOAD_BUTTON_HELP">
+			<Text>Сохранить и загрузить игру (Ctrl + F5).[NEWLINE][COLOR_NEGATIVE_TEXT]Баг Civ5 может привести к заморозке или вылету из игры (при загрузке сохранения во время игры) на некоторых компьютерах. Однако это может происходить и из-за других модов.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAVE_BUTTON_HELP">
+			<Text>Быстрое сохранение игры в формате 'IGEn' (F5)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CAMERA_BUTTON_HELP">
+			<Text>Передвинуть камеру к столице.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GLANCE_AT_MAP_BUTTON">
+			<Text>Взглянуть под туман.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GLANCE_AT_MAP_BUTTON_HELP">
+			<Text>Просмотреть карту.[NEWLINE]Это позволит вам увидеть карту без тумана войны, но не контактируя с цивилизациями и городами-государствами. Туман восстановится после закрытия IGE.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_COVER_MAP_BUTTON_HELP">
+			<Text>Вернуть туман.</Text>
+		</Row>
+
+
+		<!--IGE_Window.lua-->
+		<Row Tag="TXT_KEY_IGE_CONFIRM_SAVE_AND_RELOAD">
+			<Text>Вы правда уверены?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_LOADING_ERROR">
+			<Text>IGE не смог запуститься, скорее всего из-за другого мода/модов.[NEWLINE][ICON_BULLET]Пожалуйста сообщите об этом в Steam или CivFanatics с текстом этой ошибки и названием мода/модов, чтобы я смог быстро всё исправить.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MORE_THAN_ONE_VERSION_ERROR">
+			<Text>У вас более одной версии IGE в клиенте игры.[NEWLINE]Это сбивает игру с толку и поэтому работать правильно мод не будет.[NEWLINE]Удалите старую версию мода чтобы исправить это нелепое недоразумение.</Text>
+		</Row>
+
+
+		<!--IGE_TerrainPanel.xml-->
+		<Row Tag="TXT_KEY_IGE_PILLAGE_CB">
+			<Text>Разграблено</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PILLAGE_CB_HELP">
+			<Text>Это улучшение разграблено?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_STRATEGIC_RESOURCE_QTY">
+			<Text>Количество стратегических ресурсов.</Text>
+		</Row>
+
+
+		<!--IGE_TerrainPanel.lua-->
+		<Row Tag="TXT_KEY_IGE_UNEXPLORED_SETTING">
+			<Text>Неисследованное</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNEXPLORED_SETTING_HELP">
+			<Text>Пометить клетку как неисследованную активным игроком.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPLORED_SETTING">
+			<Text>Исследованное</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPLORED_SETTING_HELP">
+			<Text>Пометить клетку как исследованную активным игроком.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_LAND_SETTING">
+			<Text>Ничья земля</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_LAND_SETTING_HELP">
+			<Text>Освобождает клетку от чьего-либо влияния.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_YOUR_LAND_SETTING">
+			<Text>Ваша земля</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_YOUR_LAND_SETTING_HELP">
+			<Text>Клетка переходит во владение активного игрока.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TERRAIN">
+			<Text>Ландшафт</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FEATURES_AND_WONDERS">
+			<Text>Особенности и Чудеса</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RESOURCES">
+			<Text>Ресурсы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_IMPROVEMENTS">
+			<Text>Улучшения</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_OTHERS">
+			<Text>Другое</Text>
+		</Row>
+		
+		
+		<!--IGE_CitiesPanel.xml-->
+		<Row Tag="TXT_KEY_IGE_NO_UNIT_ON_PLOT">
+			<Text>[COLOR_POSITIVE_TEXT]На этой клетке нет юнитов[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NO_CITY_ON_PLOT">
+			<Text>[COLOR_POSITIVE_TEXT]На этой клетке нет города[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DISBAND_UNIT_BUTTON">
+			<Text>Удалить</Text>
+		</Row>			
+		<Row Tag="TXT_KEY_IGE_PROMOTE_UNIT_BUTTON">
+			<Text>Повысить</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_HEAL_UNIT_BUTTON">
+			<Text>Исцелить</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CITY_POPULATION">
+			<Text>Население города.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_HURRY_CITY_BUTTON">
+			<Text>Ускорить производство.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_HURRY_CITY_BUTTON_HELP">
+			<Text>Визит президента в город (здание/юнит будет готово на следующий ход).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CAPTURE_CITY_BUTTON">
+			<Text>Захватить</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CAPTURE_CITY_BUTTON_HELP">
+			<Text>Делает город вашим. Это не будет рассмотрено как злое действие по отношению к другому игроку и не начнёт войну.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DISBAND_CITY_BUTTON">
+			<Text>Удалить</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DISBAND_CITY_BUTTON_HELP">
+			<Text>Удалить этот город.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_HEAL_CITY_BUTTON">
+			<Text>Восстановить</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_IGE_HEAL_CITY_BUTTON_HELP">
+			<Text>Восстановить очки здоровья города.</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_IGE_LOVE_KING_10_BUTTON">
+			<Text>Праздник любви (20)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_LOVE_KING_10_BUTTON_HELP">
+			<Text>Праздник любви к правителю в течение 20-ти ходов (увеличение производства пищи).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_LOVE_KING_250_BUTTON">
+			<Text>Праздник любви (250)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_LOVE_KING_250_BUTTON_HELP">
+			<Text>Праздник любви к правителю в течение 250-ти ходов (увеличение производства пищи).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPAND_CITY_BUTTON">
+			<Text>Расширить границы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPAND_CITY_BUTTON_HELP">
+			<Text>Расширить границы культурного влияния на одну клетку.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NEVER_LOST_CITY_CB">
+			<Text>Мой (всегда)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NEVER_LOST_CITY_CB_HELP">
+			<Text>Отмечает город, как основанный вами и никогда не бывший кем-либо завоёванным (чтобы предотвратить поражение доминированием).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RECONQUERED_CITY_CB">
+			<Text>Мой (возвращён)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RECONQUERED_CITY_CB_HELP">
+			<Text>Отмечает город, как основанный вами, отданный врагу и вновь вами захваченный.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_OCCUPIED_CITY_CB">
+			<Text>Оккупирован</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_OCCUPIED_CITY_CB_HELP">
+			<Text>Отмечает город, как захваченный вами у другого игрока. Постройте Суд для снижения недовольства.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PUPPET_CITY_CB">
+			<Text>Сателлит</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_PUPPET_CITY_CB_HELP">
+			<Text>Отметить город, как сделанный сателлитом. Недовольство будет таким же, как и в обычном городе.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NO_RELIGION">
+			<Text>Нет религии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOLLOWERS">
+			<Text>Последователи {1_Religion}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOLLOWERS_MIN">
+			<Text>Мин</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOLLOWERS_MIN_HELP">
+			<Text>Убирает всех последователей {1_Religion} (сделать атеистами).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOLLOWERS_MAX">
+			<Text>Макс</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOLLOWERS_MAX_HELP">
+			<Text>Превратить всех жителей в последователей {1_Religion}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MOVE_UNIT">
+			<Text>Телепорт</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MOVE_UNIT_HELP">
+			<Text>Нажмите чтобы войти в режим "телепорт", потом нажмите правой кнопкой туда, куда хотите телепортировать всех юнитов с этой клетки.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MOVE_UNIT_MESSAGE">
+			<Text>Нажмите правую кнопку мыши для перемещения юнитов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MOVE_UNIT_CANCEL">
+			<Text>Отменить</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_INTELLIGENCE_AGENCY_WARNING">
+			<Text>[COLOR_NEGATIVE_TEXT]Не добавляйте это здание несколько раз в целях получить больше шпионов, чем возможно! Это может привести к крашу игры (серьёзному).[ENDCOLOR]</Text>
+		</Row>
+		
+
+
+
+		<!--IGE_PlayersPanel.xml-->
+		<Row Tag="TXT_KEY_IGE_CURRENT_FAITH">
+			<Text>Текущие очки веры.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_CURRENT_CULTURE">
+			<Text>Текущие очки культуры.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AVAILABLE_GOLD">
+			<Text>Доступное золото.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TAKE_SEAT_BUTTON">
+			<Text>Занять место</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TAKE_SEAT_BUTTON_HELP">
+			<Text>Играть за эту цивилизацию.[NEWLINE][COLOR_NEGATIVE_TEXT]У вас не будет полного контроля и вам нужно будет переключиться обратно на вашу цивилизацию перед концом хода. Иначе эта опция может привести к вылету игры в некоторых случаях!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_REVEAL_MAP_BUTTON">
+			<Text>Открыть карту</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_REVEAL_MAP_BUTTON_HELP">
+			<Text>Показ карты провоцирует дипломатические контакты и открытие чудес природы, показывает вражеских юнитов по всему миру.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPLORE_MAP_BUTTON">
+			<Text>Исследовать карту</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EXPLORE_MAP_BUTTON_HELP">
+			<Text>Показать карту так, будто бы вы всю её уже исследовали (с открытием чудес природы, но без дипломатических контактов).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNEXPLORE_MAP_BUTTON">
+			<Text>Скрыть карту</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNEXPLORE_MAP_BUTTON_HELP">
+			<Text>Спрятать карту так, будто бы вы никогда её не исследовали. Не обновляет открытие чудес природы и дипломатические контакты.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_KILL_UNITS_BUTTON">
+			<Text>Удалить юнитов</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_KILL_UNITS_BUTTON_HELP">
+			<Text>Удалить всех юнитов этой цивилизации (вы не будите приняты за их уничтожителя).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_KILL_CIV_BUTTON">
+			<Text>Уничтожить</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_KILL_CIV_BUTTON_HELP">
+			<Text>Убрать цивилизацию (вы не будите приняты за её уничтожителя).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_TECH_BUTTON">
+			<Text>Бесплатная технология</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_TECH_BUTTON_HELP">
+			<Text>Дать цивилизации одну бесплатную технологию.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_POLICY_BUTTON">
+			<Text>Бесплатный институт</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FREE_POLICY_BUTTON_HELP">
+			<Text>Дать цивилизации один бесплатный институт.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GOLDEN_AGE_10_BUTTON">
+			<Text>Золотой век (10)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GOLDEN_AGE_10_BUTTON_HELP">
+			<Text>Дать цивилизации золотой век в течение 10-ти ходов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GOLDEN_AGE_250_BUTTON">
+			<Text>Золотой век (250)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_GOLDEN_AGE_250_BUTTON_HELP">
+			<Text>Дать цивилизации золотой век в течение 250-ти ходов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALL_BUTTON">
+			<Text>Всем</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALL_BUTTON_HELP">
+			<Text>Эта опция позволяет влиять на всех сразу.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_INVALID_BUTTON">
+			<Text>[COLOR_POSITIVE_TEXT]Не отмечена/не верная цивилизация.[ENDCOLOR]</Text>
+		</Row>
+		
+	
+		<!--IGE_PlayersPanel.lua-->
+		<Row Tag="TXT_KEY_IGE_MEET">
+			<Text>Встретить</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MEET_NONE">
+			<Text>Вы познакомились со всеми.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FORM_TEAM">
+			<Text>Сформировать команду</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FORM_TEAM_NONE">
+			<Text>Все... в одной команде?!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MAKE_PEACE">
+			<Text>Заключить мир</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MAKE_PEACE_NONE">
+			<Text>Никто с вами не воюет. :(</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SIGN_DOF">
+			<Text>Подружиться</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SIGN_DOF_NONE">
+			<Text>Вы подписали декларацию дружбы со всеми.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MAX_MINOR_INFLUENCE">
+			<Text>Союз (влияние = 120/60)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MAX_MINOR_INFLUENCE_NONE">
+			<Text>Ваше влияние на пике со всеми городами-государствами.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FLAG_STATE_LIBERATED">
+			<Text>Признать независимость (+150)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FLAG_STATE_LIBERATED_NONE">
+			<Text>Баг :(</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DENOUNCE">
+			<Text>Публично осудить</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DENOUNCE_NONE">
+			<Text>Вы осудили всех.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DENOUNCED_BY">
+			<Text>Вас осудили</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DENOUNCED_BY_NONE">
+			<Text>Вы были осуждены всеми. :)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DECLARE_WAR">
+			<Text>Объявить войну кому-то</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_DECLARE_WAR_BY">
+			<Text>Вам объявили войну</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SET_EMBARGO">
+			<Text>Объявить торговое эмбарго</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TWO_SIDES_NONE">
+			<Text>Все цивилизации заключили с вами союз или объявили войну.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALREADY_IN_TEAM_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]Эта цивилизация уже в вашей команде.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALREADY_UNDER_DOF_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]С этой цивилизацией уже подписана декларация дружбы.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_MAX_MINOR_INFLUENCE_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]Ваше влияние на этот город-государство уже на пике.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAME_TEAM_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]Вы оба в одной команде.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALREADY_AT_WAR_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]Вы уже воюете.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALREADY_DENOUNCED_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]Вы уже осудили эту цивилизацию.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ALREADY_DENOUNCED_BY_ERROR">
+			<Text>[COLOR_NEGATIVE_TEXT]Эта цивилизация уже осудила вас.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_ALLIANCE_SHORT">
+			<Text>Союз с {1_PlyrName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_ALLIANCE_LONG">
+			<Text>Вы заключили союз с {1_PlyrName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_DOF_SHORT">
+			<Text>Декларация дружбы с {1_PlyrName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_DOF_LONG">
+			<Text>Вы подписали декларацию дружбы с {1_PlyrName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_EMBARGO_SHORT">
+			<Text>Торговое эмбарго с {1_PlyrName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NOTIFY_EMBARGO_LONG">
+			<Text>Вы прекратили торговлю с {1_PlyrName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOUND_PANTHEON">
+			<Text>Основать пантеон</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FOUND_RELIGION">
+			<Text>Основать религию</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ENHANCE_RELIGION">
+			<Text>Укрепить религию</Text>
+		</Row>
+
+
+		<!--IGE_UnitsPanel.lua-->
+		<Row Tag="TXT_KEY_IGE_CIVILIAN_UNITS">
+			<Text>Особые юниты</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_UNITS_LEVEL">
+			<Text>Уровень создаваемых юнитов.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RELIGIOUS_UNITS">
+			<Text>Юниты веры*</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RELIGIOUS_UNITS_HELP">
+			<Text>Эти юниты могут быть приобретены, только если в городах есть религия (должен быть выбран активный игрок).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RELIGIOUS_UNITS_WARNING">
+			<Text>[COLOR_NEGATIVE_TEXT]ВНИМАНИЕ: Юниты веры на самом деле покупаются (но без затрат). Создание юнита может провалиться, если ни один из городов не обладает религией, но цена в очках веры и правило "один юнит на одной клетке" - игнорируются.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_RELIGIOUS_UNITS_ERROR">
+			<Text>[COLOR_ADVISOR_HIGHLIGHT_TEXT]ОШИБКА: Ни один из городов не позволяет создать юнит.[ENDCOLOR]</Text>
+		</Row>
+
+
+		<!--IGE_API_Data.lua-->
+		<Row Tag="TXT_KEY_IGE_NO_GRAPHICAL_UPDATE">
+			<Text>[COLOR_NEGATIVE_TEXT]БАГ: Графика этого изменения не обновится пока вы не сохраните и загрузите игру. Все жалобы к Firaxis.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAVE_GAME_CORRUPTION">
+			<Text>[COLOR_NEGATIVE_TEXT]ЗАПРЕЩЕНО: Это приведёт к "поломке" вашего сохранения![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_FLAT_LAND">
+			<Text>Равнина</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_COAST_OR_LAKE">
+			<Text>Берег или озеро</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_COAST_OR_LAKE_HELP">
+			<Text>Создать берег или озеро.[NEWLINE]Озеро по размеру не более 9-ти водных клеток.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AFRICA">
+			<Text>Африка</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AFRICA_HELP">
+			<Text>Tileset Африки</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AMERICA">
+			<Text>Америка</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_AMERICA_HELP">
+			<Text>Tileset Америки</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ASIA">
+			<Text>Азия</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_ASIA_HELP">
+			<Text>Tileset Азии</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EUROPE">
+			<Text>Европа</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_EUROPE_HELP">
+			<Text>Tileset Европы</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NATIONAL_WONDER">
+			<Text>[COLOR_CYAN]Национальное чудо природы[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_WONDER">
+			<Text>[COLOR_CYAN]Чудо природы[ENDCOLOR]</Text>
+		</Row>
+
+		<!--IGE_TechsPanel.xml-->
+		<Row Tag="TXT_KEY_IGE_TECH_PREREQ">
+			<Text>ТРЕБУЕТСЯ:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_ERA_HEADER_HELP">
+			<Text>Нажмите, чтобы получить все технологии этой эры.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_COMPATIBILITY">
+			<Text>Фильтр совместимости с модами:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_COMPATIBILITY_NONE">
+			<Text>Нет</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_COMPATIBILITY_STANDARD">
+			<Text>Стандарт</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_TECHS_COMPATIBILITY_NIGHTS">
+			<Text>Civilization Nights</Text>
+		</Row>
+
+
+		<!--IGE_API_Misc.lua -->
+		<Row Tag="TXT_KEY_IGE_YIELD_CHANGE_TEMPLATE">
+			<Text>{1_Amount} с {2_Cause}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_NO_YIELD_CHANGE_TEMPLATE">
+			<Text>Нет бонусов от {1_Cause}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IGE_SAVED_AS">
+			<Text>Игра сохранена как '{1_FileName}'.</Text>
+		</Row>
+	</Language_ru_RU>
+</GameData>

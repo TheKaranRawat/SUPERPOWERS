@@ -893,12 +893,12 @@ function CitySetSize(city,player,cityPop)
 	end
 
 
-
+	--[[ CITY BUILDINGS NEED TO BE 1 TO BE PRESENT IN CITY, ADD MODDED CITY SIZES TO CONDITION]]--
 
 	if cityPop >= 80 then
 		local pCity = player:GetCapitalCity()
 
-		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_TOWN"],0)
+		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_TOWN"],1)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_SMALL"],1)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_MEDIUM"],1)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_LARGE"],1)
@@ -916,7 +916,7 @@ function CitySetSize(city,player,cityPop)
 		end
 		
 	elseif cityPop >= 60 then
-		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_TOWN"],0)
+		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_TOWN"],1)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_SMALL"],1)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_MEDIUM"],1)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_LARGE"],1)
@@ -934,7 +934,7 @@ function CitySetSize(city,player,cityPop)
 
 		
 	elseif cityPop >= 40 then
-		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_TOWN"],0)
+		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_TOWN"],1)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_SMALL"],1)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_MEDIUM"],1)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_LARGE"],1)
@@ -955,7 +955,7 @@ function CitySetSize(city,player,cityPop)
 		local pCity = player:GetCapitalCity()
 
 		
-		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_TOWN"],0)
+		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_TOWN"],1)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_SMALL"],1)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_MEDIUM"],1)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_LARGE"],1)
@@ -974,7 +974,7 @@ function CitySetSize(city,player,cityPop)
 
 	
 	elseif cityPop >= 15 then
-		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_TOWN"],0)
+		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_TOWN"],1)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_SMALL"],1)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_MEDIUM"],1)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_LARGE"],0)
@@ -994,7 +994,7 @@ function CitySetSize(city,player,cityPop)
 
 	
 	elseif cityPop >= 6 then
-		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_TOWN"],0)
+		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_TOWN"],1)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_SMALL"],1)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_MEDIUM"],0)
 		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_SIZE_LARGE"],0)

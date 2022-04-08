@@ -32,8 +32,8 @@ FROM Building_LocalResourceOrs WHERE BuildingType = 'BUILDING_CIRCUS';
 ------------------------------		
 INSERT INTO Building_YieldChanges 	
 		(BuildingType, 				YieldType, Yield)
-VALUES	('BUILDING_3UC_HIPPODROME',	'YIELD_CULTURE', 2),
-		('BUILDING_3UC_HIPPODROME',	'YIELD_FAITH', 1);
+VALUES	('BUILDING_3UC_HIPPODROME',	'YIELD_CULTURE', 6),
+		('BUILDING_3UC_HIPPODROME',	'YIELD_FAITH', 2);
 
 ------------------------------	
 -- Building_YieldModifiers

@@ -15,8 +15,8 @@
 		<Row>
 			<Class>UNITCLASS_SMAN_EU_SIEGE_ELEPHANT</Class>
 			<Type>UNIT_SMAN_EU_SIEGE_ELEPHANT</Type>
-			<Combat>10</Combat>
-			<RangedCombat>35</RangedCombat>
+			<Combat>30</Combat>
+			<RangedCombat>40</RangedCombat>
 			<Range>2</Range>
 			<Cost>100</Cost>
 			
@@ -49,7 +49,7 @@
 			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>6</UnitFlagIconOffset>
 			<MoveRate>PHANT</MoveRate>
-			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>100</ExtraMaintenanceCost>
 		</Row>
 	</Units>
 

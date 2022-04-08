@@ -18,7 +18,7 @@
 			<SpecialistCount>2</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
-			<BuildingProductionModifier>10</BuildingProductionModifier>
+			<BuildingProductionModifier>20</BuildingProductionModifier>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>19</PortraitIndex>
@@ -46,12 +46,12 @@
 		<Row>
 			<BuildingType>BUILDING_NETHERLANDS_DIKE</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_NETHERLANDS_DIKE</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>6</Yield>
 		</Row>
 	</Building_YieldChanges>
 
@@ -60,7 +60,7 @@
 			<Text>[ICON_PRODUCTION] Dike</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NETHERLANDS_DIKE_HELP">
-			<Text>Increases a city's [ICON_PRODUCTION] Production and [ICON_FOOD] Food. Increases [ICON_PRODUCTION] Production when constructing buildings by 10%. Only the Netherlands can build it.[NEWLINE][NEWLINE]City must not be built on Hills.</Text>
+			<Text>Increases a city's [ICON_PRODUCTION] Production and [ICON_FOOD] Food. Increases [ICON_PRODUCTION] Production when constructing buildings by 20%. Only the Netherlands can build it.[NEWLINE][NEWLINE]City must not be built on Hills.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NETHERLANDS_DIKE_STRATEGY">
 			<Text>The Dike is a Dutch unique replacement for the Windmill. In addition to yielding [ICON_PRODUCTION] Production, the Dike also generates [ICON_FOOD] Food and has a second Engineer Specialist slot. Cities constructed on hills may not build Dikes.</Text>

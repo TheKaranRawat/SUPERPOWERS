@@ -50,7 +50,7 @@
 			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>26</UnitFlagIconOffset>
 			<MoveRate>BIPED</MoveRate>
-			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>120</ExtraMaintenanceCost>
 		</Row>
 	</Units>
 
@@ -94,10 +94,7 @@
 			<UnitType>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</UnitType>
 			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</UnitType>
 			<PromotionType>PROMOTION_MUST_SET_UP</PromotionType>

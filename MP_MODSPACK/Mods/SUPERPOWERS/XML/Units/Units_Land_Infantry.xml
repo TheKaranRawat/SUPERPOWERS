@@ -2015,6 +2015,7 @@
 			<PortraitIndex>47</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
 		</Row>
+		-->
 
 		<Row>
 			<Class>UNITCLASS_FW_UAV</Class>
@@ -2046,6 +2047,7 @@
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
 
+		<!--
 		<Row>
 			<Class>UNITCLASS_FW_HYBRID_DRONE</Class>
 			<Type>UNIT_FW_HYBRID_DRONE</Type>
@@ -2491,7 +2493,7 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_OFFENSE</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FW_ROBOT_INFANTRY</Description>
 			<Civilopedia>TXT_KEY_UNIT_FW_ROBOT_INFANTRY_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_FW_ROBOT_INFANTRY_STRATEGY</Strategy>
@@ -2973,10 +2975,7 @@
 
 		<Unit_FreePromotions>
 
-			<Row>
-			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
@@ -2993,10 +2992,7 @@
 			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
 			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
 			<PromotionType>PROMOTION_SIGHT_PENALTY</PromotionType>
@@ -3005,10 +3001,14 @@
 			<UnitType>UNIT_FW_MECH_ARTILLERY</UnitType>
 			<PromotionType>PROMOTION_CARGO_II</PromotionType>
 		</Row>
+
+		<!--
 		<Row>
 			<UnitType>UNIT_FW_AUTOMATON</UnitType>
 			<PromotionType>PROMOTION_FW_NETWORKED</PromotionType>
 		</Row>
+		-->
+
 		<Row>
 			<UnitType>UNIT_FW_ROBOT_INFANTRY</UnitType>
 			<PromotionType>PROMOTION_FW_NETWORKED</PromotionType>
@@ -3025,22 +3025,16 @@
 			<UnitType>UNIT_FW_CRAWLER</UnitType>
 			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_CRAWLER</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_FW_CRAWLER</UnitType>
 			<PromotionType>PROMOTION_SIGHT_PENALTY</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FW_CRAWLER</UnitType>
-			<PromotionType>PROMOTION_CARGO_III</PromotionType>
+			<PromotionType>PROMOTION_CARGO_II</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_CRAWLER</UnitType>
-			<PromotionType>PROMOTION_FREE_PILLAGE_MOVES</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_FW_VERTOL</UnitType>
 			<PromotionType>PROMOTION_FLAT_MOVEMENT_COST</PromotionType>
@@ -3053,14 +3047,8 @@
 			<UnitType>UNIT_FW_VERTOL</UnitType>
 			<PromotionType>PROMOTION_ANTI_TANK</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_VERTOL</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FW_VERTOL</UnitType>
-			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
-		</Row>
+		
+		
 		<Row>
 			<UnitType>UNIT_FW_HOVERTANK</UnitType>
 			<PromotionType>PROMOTION_FLAT_MOVEMENT_COST</PromotionType>
@@ -3073,24 +3061,10 @@
 			<UnitType>UNIT_FW_HOVERTANK</UnitType>
 			<PromotionType>PROMOTION_ANTI_TANK</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_HOVERTANK</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FW_HOVERTANK</UnitType>
-			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
-		</Row>
-		<!--
-		<Row>
-			<UnitType>UNIT_FW_HOVERTANK</UnitType>
-			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
-		</Row>
-		-->
-		<Row>
-			<UnitType>UNIT_FW_DRONE_FIGHTER_2</UnitType>
-			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
-		</Row>
+		
+		
+		
+		
 		<Row>
 			<UnitType>UNIT_FW_DRONE_FIGHTER_2</UnitType>
 			<PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
@@ -3111,14 +3085,10 @@
 			<UnitType>UNIT_FW_SUBORBITAL_BOMBER</UnitType>
 			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_MISSILE_DESTROYER</UnitType>
-			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FW_MISSILE_DESTROYER</UnitType>
-			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
-		</Row>
+
+		<!--
+		
+		
 		<Row>
 			<UnitType>UNIT_FW_MISSILE_DESTROYER</UnitType>
 			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
@@ -3131,14 +3101,8 @@
 			<UnitType>UNIT_FW_MISSILE_DESTROYER</UnitType>
 			<PromotionType>PROMOTION_CARGO_I</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_NEODESTROYER</UnitType>
-			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FW_NEODESTROYER</UnitType>
-			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
-		</Row>
+		
+		
 		<Row>
 			<UnitType>UNIT_FW_NEODESTROYER</UnitType>
 			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
@@ -3151,10 +3115,9 @@
 			<UnitType>UNIT_FW_NEODESTROYER</UnitType>
 			<PromotionType>PROMOTION_CARGO_II</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
-			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
-		</Row>
+		
+
+		
 		<Row>
 			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
 			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
@@ -3167,10 +3130,7 @@
 			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
 			<PromotionType>PROMOTION_CARGO_I</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
-			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
@@ -3179,6 +3139,8 @@
 			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
 			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
 		</Row>
+		
+
 		<Row>
 			<UnitType>UNIT_FW_SUPERCARRIER</UnitType>
 			<PromotionType>PROMOTION_CARGO_IV</PromotionType>
@@ -3191,14 +3153,13 @@
 			<UnitType>UNIT_FW_SUPERCARRIER</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
+		
+
 		<Row>
 			<UnitType>UNIT_FW_CYBERSUB</UnitType>
 			<PromotionType>PROMOTION_INVISIBLE_SUBMARINE</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_CYBERSUB</UnitType>
-			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_FW_CYBERSUB</UnitType>
 			<PromotionType>PROMOTION_CARGO_II</PromotionType>
@@ -3219,6 +3180,8 @@
 			<UnitType>UNIT_FW_CYBERSUB</UnitType>
 			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
 		</Row>
+		-->
+
 		<Row>
 			<UnitType>UNIT_FW_UAV</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
@@ -3235,6 +3198,8 @@
 			<UnitType>UNIT_FW_UAV</UnitType>
 			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
 		</Row>
+
+		<!--
 		<Row>
 			<UnitType>UNIT_FW_HYBRID_DRONE</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
@@ -3255,6 +3220,8 @@
 			<UnitType>UNIT_FW_HYBRID_DRONE</UnitType>
 			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
 		</Row>
+		
+
 		<Row>
 			<UnitType>UNIT_FW_BIODRONE</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
@@ -3275,10 +3242,14 @@
 			<UnitType>UNIT_FW_BIODRONE</UnitType>
 			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
 		</Row>
+		-->
+
 		<Row>
 			<UnitType>UNIT_FW_HYPERMISSILE</UnitType>
 			<PromotionType>PROMOTION_EVASION_II</PromotionType>
 		</Row>
+
+		<!--
 		<Row>
 			<UnitType>UNIT_MUTANT</UnitType>
 			<PromotionType>PROMOTION_MARCH</PromotionType>
@@ -3307,6 +3278,8 @@
 			<UnitType>UNIT_FW_CHIMERA</UnitType>
 			<PromotionType>PROMOTION_VOLLEY</PromotionType>
 		</Row>
+		
+
 		<Row>
 			<UnitType>UNIT_FW_HYDRA</UnitType>
 			<PromotionType>PROMOTION_MARCH</PromotionType>
@@ -3319,14 +3292,13 @@
 			<UnitType>UNIT_FW_HYDRA</UnitType>
 			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_HYDRA</UnitType>
-			<PromotionType>PROMOTION_FREE_PILLAGE_MOVES</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_FW_HYDRA</UnitType>
 			<PromotionType>PROMOTION_VOLLEY</PromotionType>
 		</Row>
+		
+
 		<Row>
 			<UnitType>UNIT_FW_SPEC_FORCES</UnitType>
 			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
@@ -3335,14 +3307,15 @@
 			<UnitType>UNIT_FW_SPEC_FORCES</UnitType>
 			<PromotionType>PROMOTION_RIVAL_TERRITORY</PromotionType>
 		</Row>
+		
+
 		<Row>
 			<UnitType>UNIT_FW_AIRBORNE_FORCES</UnitType>
 			<PromotionType>PROMOTION_PARADROP_2</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_AIRBORNE_FORCES</UnitType>
-			<PromotionType>PROMOTION_FREE_PILLAGE_MOVES</PromotionType>
-		</Row>
+		
+		
+
 		<Row>
 			<UnitType>UNIT_FW_BIOTROOPER</UnitType>
 			<PromotionType>PROMOTION_MARCH</PromotionType>
@@ -3367,6 +3340,8 @@
 			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
 			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
 		</Row>
+		
+
 		<Row>
 			<UnitType>UNIT_FW_NANOHIVE</UnitType>
 			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
@@ -3375,16 +3350,17 @@
 			<UnitType>UNIT_FW_NANOHIVE</UnitType>
 			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
 		</Row>
-		<!--
-		<Row>
-			<UnitType>UNIT_FW_NANOHIVE</UnitType>
-			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
-		</Row>
-		-->
+		
+		
+		
 		<Row>
 			<UnitType>UNIT_FW_NANOHIVE</UnitType>
 			<PromotionType>PROMOTION_FW_NANOHIVE_PROMOTION</PromotionType>
 		</Row>
+		-->
+
+		<!--
+
 		<Row>
 			<UnitType>UNIT_FW_NEXUS</UnitType>
 			<PromotionType>PROMOTION_FW_MOVE_ALL_TERRAIN</PromotionType>
@@ -3397,10 +3373,7 @@
 			<UnitType>UNIT_FW_NEXUS</UnitType>
 			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_NEXUS</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_FW_NEXUS</UnitType>
 			<PromotionType>PROMOTION_COVER_1</PromotionType>
@@ -3421,7 +3394,9 @@
 			<UnitType>UNIT_FW_NEXUS</UnitType>
 			<PromotionType>PROMOTION_CARGO_IV</PromotionType>
 		</Row>
+		-->
 
+		<!--
 		<Row>
 			<UnitType>UNIT_FW_TRICERATOPS</UnitType>
 			<PromotionType>PROMOTION_COVER_1</PromotionType>
@@ -3434,6 +3409,7 @@
 			<UnitType>UNIT_FW_RAPTOR</UnitType>
 			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
 		</Row>
+		-->
 
 		<Delete UnitType="UNIT_STEALTH_BOMBER" PromotionType="PROMOTION_EVASION_II"/>
 		<!--
@@ -4046,10 +4022,12 @@
 		<!--************************Resource Required**********************-->
 		<Unit_ResourceQuantityRequirements>
 
+		<!--
 		<Row>
 			<UnitType>UNIT_FW_SUPERCARRIER</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
 		</Row>
+		-->
 		
 		<Row>
 			<UnitType>UNIT_FW_VERTOL</UnitType>
@@ -4075,10 +4053,14 @@
 			<UnitType>UNIT_FW_CRAWLER</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
 		</Row>
+
+		<!--
 		<Row>
 			<UnitType>UNIT_FW_BIODRONE</UnitType>
 			<ResourceType>RESOURCE_NANOMAT</ResourceType>
 		</Row>
+		
+
 		<Row>
 			<UnitType>UNIT_FW_HYDRA</UnitType>
 			<ResourceType>RESOURCE_NANOMAT</ResourceType>
@@ -4087,18 +4069,25 @@
 			<UnitType>UNIT_FW_HYDRA</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_CYBERSUB</UnitType>
-			<ResourceType>RESOURCE_NANOMAT</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FW_HOVERTANK</UnitType>
-			<ResourceType>RESOURCE_NANOMAT</ResourceType>
-		</Row>
+
 		<Row>
 			<UnitType>UNIT_FW_NANOHIVE</UnitType>
 			<ResourceType>RESOURCE_NANOMAT</ResourceType>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_FW_CYBERSUB</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		-->
+
+		
+		<Row>
+			<UnitType>UNIT_FW_HOVERTANK</UnitType>
+			<ResourceType>RESOURCE_NANOMAT</ResourceType>
+		</Row>
+		
+		<!--
 		<Row>
 			<UnitType>UNIT_FW_NEXUS</UnitType>
 			<ResourceType>RESOURCE_NANOMAT</ResourceType>
@@ -4107,6 +4096,7 @@
 			<UnitType>UNIT_FW_NEXUS</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
 		</Row>
+		-->
 
 			<!--Special Forces-->		
 			<Row>
@@ -4334,11 +4324,13 @@
 
 			<!-- postfuture units-->
 
+			<!--
 			<Row>
 				<UnitType>UNIT_FW_NEXUS</UnitType>
 				<ResourceType>RESOURCE_MANPOWER</ResourceType>
 				<Cost>10</Cost>
 			</Row>
+			-->
 
 			<Row>
 				<UnitType>UNIT_FW_CRAWLER</UnitType>
@@ -4392,11 +4384,13 @@
 
 			<!-- special resource future units -->
 
+			<!--
 			<Row>
 				<UnitType>UNIT_FW_NEXUS</UnitType>
 				<ResourceType>RESOURCE_IRON</ResourceType>
 				<Cost>6</Cost>
 			</Row>
+			-->
 
 			<Row>
 				<UnitType>UNIT_FW_CRAWLER</UnitType>
@@ -4452,6 +4446,14 @@
 				<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 				<Cost>2</Cost>
 			</Row>
+
+			<Row>
+				<UnitType>UNIT_FW_UAV</UnitType>
+				<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+				<Cost>1</Cost>
+			</Row>
+
+			
 
 		
 
@@ -4512,7 +4514,7 @@
 			</Row>
 
 			<Row>
-				<UnitType>TXT_KEY_UNIT_EXOTIC_UNIT_GHAZI</UnitType>
+				<UnitType>UNIT_EXOTIC_UNIT_GHAZI</UnitType>
 				<ResourceType>RESOURCE_MANPOWER</ResourceType>
 			</Row>
 
@@ -4687,6 +4689,8 @@
 			<UnitType>UNIT_FW_SUBORBITAL_BOMBER</UnitType>
 			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
 		</Row>
+
+		<!--
 		<Row>
 			<UnitType>UNIT_FW_MISSILE_DESTROYER</UnitType>
 			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
@@ -4719,6 +4723,8 @@
 			<UnitType>UNIT_FW_NEODESTROYER</UnitType>
 			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
 		</Row>
+		
+
 		<Row>
 			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
 			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
@@ -4751,10 +4757,15 @@
 			<UnitType>UNIT_FW_CYBERSUB</UnitType>
 			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
 		</Row>
+	
+
 		<Row>
 			<UnitType>UNIT_FW_SUPERCARRIER</UnitType>
 			<UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
 		</Row>
+			
+		-->
+
 		<Row>
 			<UnitType>UNIT_FW_UAV</UnitType>
 			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
@@ -4779,6 +4790,8 @@
 			<UnitType>UNIT_FW_BATTLESUIT</UnitType>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
+
+		<!--
 		<Row>
 			<UnitType>UNIT_FW_HYBRID_DRONE</UnitType>
 			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
@@ -4786,7 +4799,8 @@
 		<Row>
 			<UnitType>UNIT_FW_HYBRID_DRONE</UnitType>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
-		</Row>
+		</Row>		
+
 		<Row>
 			<UnitType>UNIT_FW_BIODRONE</UnitType>
 			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
@@ -4795,6 +4809,8 @@
 			<UnitType>UNIT_FW_BIODRONE</UnitType>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
+		-->
+
 		<Row>
 			<UnitType>UNIT_FW_HYPERMISSILE</UnitType>
 			<UnitAIType>UNITAI_MISSILE_AIR</UnitAIType>
@@ -4815,6 +4831,8 @@
 			<UnitType>UNIT_FW_CRAWLER</UnitType>
 			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
 		</Row>
+
+		<!--
 		<Row>
 			<UnitType>UNIT_FW_CHIMERA</UnitType>
 			<UnitAIType>UNITAI_ATTACK</UnitAIType>
@@ -4831,6 +4849,8 @@
 			<UnitType>UNIT_FW_CHIMERA</UnitType>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
+		
+
 		<Row>
 			<UnitType>UNIT_FW_HYDRA</UnitType>
 			<UnitAIType>UNITAI_ATTACK</UnitAIType>
@@ -4894,7 +4914,8 @@
 		<Row>
 			<UnitType>UNIT_FW_BIOTROOPER</UnitType>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
-		</Row>
+		</Row>		
+
 		<Row>
 			<UnitType>UNIT_FW_AUTOMATON</UnitType>
 			<UnitAIType>UNITAI_ATTACK</UnitAIType>
@@ -4907,6 +4928,17 @@
 			<UnitType>UNIT_FW_AUTOMATON</UnitType>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_FW_NANOHIVE</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NANOHIVE</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		-->
+
 		<Row>
 			<UnitType>UNIT_FW_ROBOT_INFANTRY</UnitType>
 			<UnitAIType>UNITAI_ATTACK</UnitAIType>
@@ -4923,14 +4955,8 @@
 			<UnitType>UNIT_FW_ROBOT_INFANTRY</UnitType>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_NANOHIVE</UnitType>
-			<UnitAIType>UNITAI_ATTACK</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FW_NANOHIVE</UnitType>
-			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
-		</Row>
+		
+		<!--
 		<Row>
 			<UnitType>UNIT_FW_NEXUS</UnitType>
 			<UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
@@ -4951,6 +4977,7 @@
 			<UnitType>UNIT_FW_NEXUS</UnitType>
 			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
 		</Row>
+		-->
 
 			<Row>
 				<UnitType>UNIT_WARRIOR</UnitType>
@@ -5503,6 +5530,8 @@
 			<FlavorType>FLAVOR_AIR</FlavorType>
 			<Flavor>30</Flavor>
 		</Row>
+
+		<!--
 		<Row>
 			<UnitType>UNIT_FW_CYBERSUB</UnitType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
@@ -5533,6 +5562,8 @@
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
 			<Flavor>15</Flavor>
 		</Row>
+		
+
 		<Row>
 			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
@@ -5542,12 +5573,15 @@
 			<UnitType>UNIT_FW_ARSENAL_SHIP</UnitType>
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
 			<Flavor>7</Flavor>
-		</Row>
+		</Row>		
+
 		<Row>
 			<UnitType>UNIT_FW_SUPERCARRIER</UnitType>
 			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
 			<Flavor>40</Flavor>
 		</Row>
+		-->
+
 		<Row>
 			<UnitType>UNIT_FW_UAV</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -5573,6 +5607,8 @@
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>24</Flavor>
 		</Row>
+
+		<!--
 		<Row>
 			<UnitType>UNIT_FW_HYBRID_DRONE</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -5588,6 +5624,8 @@
 			<FlavorType>FLAVOR_RANGED</FlavorType>
 			<Flavor>18</Flavor>
 		</Row>
+		
+
 		<Row>
 			<UnitType>UNIT_FW_BIODRONE</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -5603,6 +5641,8 @@
 			<FlavorType>FLAVOR_RANGED</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
+		-->
+
 		<Row>
 			<UnitType>UNIT_FW_HYPERMISSILE</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -5643,6 +5683,8 @@
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
+
+		<!--
 		<Row>
 			<UnitType>UNIT_FW_CHIMERA</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -5658,6 +5700,7 @@
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
+
 		<Row>
 			<UnitType>UNIT_FW_HYDRA</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -5683,6 +5726,67 @@
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>16</Flavor>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOTROOPER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_BIOTROOPER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>24</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_AUTOMATON</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_AUTOMATON</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_FW_NANOHIVE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_NANOHIVE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_FW_TREX</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_TRICERATOPS</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FW_RAPTOR</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		-->
+
+		
 		<Row>
 			<UnitType>UNIT_PARATROOPER</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -5703,36 +5807,7 @@
 			<FlavorType>FLAVOR_RECON</FlavorType>
 			<Flavor>4</Flavor>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>16</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FW_BIOINFANTRY</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FW_BIOTROOPER</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FW_BIOTROOPER</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>24</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FW_AUTOMATON</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>16</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FW_AUTOMATON</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_FW_ROBOT_INFANTRY</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -5743,16 +5818,9 @@
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>24</Flavor>
 		</Row>
-		<Row>
-			<UnitType>UNIT_FW_NANOHIVE</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FW_NANOHIVE</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>30</Flavor>
-		</Row>
+
+		<!--
+		
 		<Row>
 			<UnitType>UNIT_FW_NEXUS</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -5767,22 +5835,8 @@
 			<UnitType>UNIT_FW_NEXUS</UnitType>
 			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
 			<Flavor>40</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FW_TREX</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FW_TRICERATOPS</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>25</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FW_RAPTOR</UnitType>
-			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
+		</Row>	
+		-->	
 
 	
 			<Row>

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="170c8ed1-b516-4fe2-b571-befeac39d220" version="39">
+  <Properties>
+    <Name>Ingame Editor</Name>
+    <Teaser>[COLOR_GREEN]Change terrain, units, cities, ...[ENDCOLOR]</Teaser>
+    <Description>[ICON_CAPITAL] IGE [ICON_CAPITAL][NEWLINE]
+An ingame editor to alter the map and many other things on the fly.
+[NEWLINE]
+http://forums.civfanatics.com/showthread.php?t=436912
+[NEWLINE]
+[NEWLINE]
+[COLOR_GREEN]Frequent problems[ENDCOLOR][NEWLINE]
+[ICON_BULLET] IGE does not load/appear in-game. Do NOT click back. Click Next. Do NOT click back. Click Solo.[NEWLINE]
+[ICON_BULLET] IGE does not load/appear in-game (bis). You enabled another mod incompatible with savegame you tried to reload. Civ5 disabled all mods[NEWLINE]
+[ICON_BULLET] The UI is messed up/I have weird bugs. *Delete* older versions and empty your cache folder (My Documents/My Games/Civ5/cache)[NEWLINE]
+[ICON_BULLET] Civ5 crashes when I select another player in IGE. Right-click the IGE label and enable 'safe mode'.[NEWLINE]
+[NEWLINE]
+[COLOR_GREEN]Translation credits[ENDCOLOR][NEWLINE]
+[ICON_BULLET]Chinese: Ne Ko Chan, Yche2990[NEWLINE]
+[ICON_BULLET]German: al Qamar[NEWLINE]
+[ICON_BULLET]Spanish: Emerald Viper[NEWLINE]
+[ICON_BULLET]Italian: Error404[NEWLINE]
+[ICON_BULLET]Russian: Zodiak69[NEWLINE]
+[ICON_BULLET]Japanese: CJ_GOROH[NEWLINE]</Description>
+    <Authors>DonQuiche</Authors>
+    <SpecialThanks>CivFanatics, the folks lurking there, Ne Ko Chan and the translators</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?p=10812084</Homepage>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="8539E1686278757E2C066188D2B1CCA7" import="1">Art/IgeBarbarian32.dds</File>
+    <File md5="E046C18ED442E506BD81F44C00F01B26" import="1">Art/IgeBarbarian64.dds</File>
+    <File md5="CBE1AB7BBC1EEA8AD0BB66555E55F05C" import="1">Art/IgeCheckmark.dds</File>
+    <File md5="02FB7A096F934304DDBDE32287486999" import="1">Art/IgeElevation.dds</File>
+    <File md5="E6635BD0F213ED5BA7AF866971892D47" import="1">Art/IgeFog.dds</File>
+    <File md5="7C5BBB0ECC0E59625110789F9D77A1BA" import="1">Art/IgeHexHighlight.dds</File>
+    <File md5="63D04CB29B18BB9008C0DB9A0794F565" import="1">Art/IgeSelectN.dds</File>
+    <File md5="0A27A83DDE2D938E9BB83B1E69E47179" import="1">Art/IgeSelectHL.dds</File>
+    <File md5="B5D64349E6B43855E8032EBC379346AF" import="1">Art/IgeMenuIcons64.dds</File>
+    <File md5="BBF574123B55D4DE8F5B6966680651A9" import="1">Art/IgeMenuIcons45.dds</File>
+    <File md5="08AD5B5D6E99B9E69B8C615F8C99740C" import="1">Art/IgeNone48.dds</File>
+    <File md5="31305C3F1DB6181ABD687AA10F7CFBBA" import="1">Art/IgeNone64.dds</File>
+    <File md5="4414C4D3B992E61ED291421E5B4F933A" import="1">Art/IgeRiverVertex10.dds</File>
+    <File md5="956311F6DBC8D297A0C48927E5783584" import="1">Art/IgeTile256Base.dds</File>
+    <File md5="7E36579B9A5E2F2168790CA66C709EE0" import="1">Art/IgeTile256CCW.dds</File>
+    <File md5="3E6A94D9215AF4F50855A438016DE55A" import="1">Art/IgeTile256CW.dds</File>
+    <File md5="EABC1B2B0345240CC9014411CDF9440D" import="1">Art/IgeTile256Glow.dds</File>
+    <File md5="2206BAC96FD03FD2C48E55C88F159FE5" import="1">Art/IgeTopIcons.dds</File>
+    <File md5="3B80A83012380F009F764058D421BFE8" import="1">Art/IgeCoast.dds</File>
+    <File md5="E8C65EBA8C3B0DD86612A6CD8AD78A85" import="1">Art/IgeDesert.dds</File>
+    <File md5="F2047A23016B9E75F2F1CAD429A910EF" import="1">Art/IgeGrass.dds</File>
+    <File md5="8D756DAFFAE11B93A1F20CB5161871BE" import="1">Art/IgeOcean.dds</File>
+    <File md5="AA7DC456E84311F65C59AA1C90F6AEF0" import="1">Art/IgePlains.dds</File>
+    <File md5="C7A221118B96F652280BF62F3989461C" import="1">Art/IgeRivers.dds</File>
+    <File md5="8BB4F44830BC5E3D1C7F80792FCEEB70" import="1">Art/IgeSnow.dds</File>
+    <File md5="75447E1514A5893FF61CFFF452A9D50B" import="1">Art/IgeTundra.dds</File>
+    <File md5="1E8E4673CD4E9E5D86067086D28A2983" import="1">BulkUI/IGE_AlertStack.lua</File>
+    <File md5="11E524B5594686345A4432E7169B3101" import="1">BulkUI/IGE_AlertStack.xml</File>
+    <File md5="C48CD391BB791901B8BB08EBF67A0BCB" import="1">BulkUI/IGE_ChoosePantheonPopup.lua</File>
+    <File md5="78DFF4F20880AA709190EB062CB38CCA" import="1">BulkUI/IGE_ChoosePantheonPopup.xml</File>
+    <File md5="C6F324D5805FE532CFAA2A38B448189F" import="1">BulkUI/IGE_ChooseReligionPopup.lua</File>
+    <File md5="6E67F8A3B28E03BA34EF5C083CE171C5" import="1">BulkUI/IGE_ChooseReligionPopup.xml</File>
+    <File md5="975E6ABE8AED08ECEC37780679004148" import="1">BulkUI/IGE_CityBanner.lua</File>
+    <File md5="C0BCA20D49742AA531AC180AE644B9EB" import="1">BulkUI/IGE_CityBanner.xml</File>
+    <File md5="EFCBECDE7AA1FB113C02579DE66171F8" import="1">BulkUI/IGE_MiniMap.lua</File>
+    <File md5="C83CE2259C5BCDBC8C4109934578D956" import="1">BulkUI/IGE_MiniMap.xml</File>
+    <File md5="DB2B24712C7845CE9C9D8E4EA7CD7741" import="1">BulkUI/IGE_NotificationPanel.lua</File>
+    <File md5="D23332BFD15147C93B6A8A4F09B4054F" import="1">BulkUI/IGE_NotificationPanel.xml</File>
+    <File md5="07A6D289AECE95579B4B494376401F41" import="1">BulkUI/IGE_Overlay.lua</File>
+    <File md5="18BF24AF30412F79048386C0D6C0C0A3" import="1">BulkUI/IGE_Overlay.xml</File>
+    <File md5="AFC93DA480B86167D645B588FD480915" import="1">BulkUI/IGE_ProductionPopup.lua</File>
+    <File md5="1FCADE99930687FBBD40CD85C7176EC5" import="1">BulkUI/IGE_ProductionPopup.xml</File>
+    <File md5="823BA84B22B7DA1788694B3A8CE309C2" import="1">BulkUI/IGE_StrategicMap.lua</File>
+    <File md5="884EB228F0EB9FEA6FF89F916A4F791A" import="1">BulkUI/IGE_StrategicMap.xml</File>
+    <File md5="9C3303E762F69A6518CD16A589B4FEAB" import="1">BulkUI/IGE_WonderPopup.lua</File>
+    <File md5="6B5865976523DD86BDF7A5BE476986B9" import="1">BulkUI/IGE_WonderPopup.xml</File>
+    <File md5="F561C54C7C07BFDDC32C7C7D59AC3DDB" import="1">IGE_Controller_Core.lua</File>
+    <File md5="9F5F10EC2BF62149F6312FF10504AE54" import="1">IGE_Controller_Debug.lua</File>
+    <File md5="38ABCF62E09FE2CEF233F54B9D49D272" import="1">IGE_API_All.lua</File>
+    <File md5="2A9CB2EE003A95B3087E6AD35311E2EF" import="1">IGE_API_Data.lua</File>
+    <File md5="3BC63E6B1B914DB4A542E6A1F88DA69C" import="1">IGE_API_Misc.lua</File>
+    <File md5="0F7F2220EBE67BAAD5C3838366C94EFB" import="1">IGE_API_Rivers.lua</File>
+    <File md5="7A2C8391482F4597FC2BF17A1487F330" import="1">IGE_API_Terrain.lua</File>
+    <File md5="1AF20EDF1A7C1FAF1D4E726A52924F21" import="1">IGE_API_UI.lua</File>
+    <File md5="3A2442A00874833DDDB7EF136D0B9CB1" import="1">IGE_Controller_All.xml</File>
+    <File md5="0F3D15FD03FF456964D91DBD5F9FCED8" import="1">IGE_Controller_Fog.lua</File>
+    <File md5="5546BD6748DFC7CBD59F6239D90CDB57" import="1">IGE_Controller_All.lua</File>
+    <File md5="9EFA395686FB9580A886A1D0193F42C0" import="1">IGE_InfoToolTipInclude.lua</File>
+    <File md5="F5124E2E1D69912D158F93759556E371" import="1">IGE_Loader.lua</File>
+    <File md5="28A52DB9C98E03AAA9609E1478EC8D45" import="1">IGE_Loader.xml</File>
+    <File md5="71E11EB0B5E5784B7F6C0AB2B40F0C1C" import="1">IGE_Utils.lua</File>
+    <File md5="C1296FC92663DE847AE23C0E37AB0AD1" import="1">IGE_Window.lua</File>
+    <File md5="7C1ECB7FFB8F3565622DCD66DBAD2A05" import="1">IGE_Window.xml</File>
+    <File md5="98F9B8E63C3DF4BA292752C3427901D4" import="0">Localization/changes.txt</File>
+    <File md5="AB0138BE7A66E1C276D10EF09CBB4283" import="0">Localization/IGE_DE_DE.xml</File>
+    <File md5="3270F120592A77BC7FECA37B08260A47" import="0">Localization/IGE_EN_US.xml</File>
+    <File md5="6F64FF7EEEF297E425C60DD1BA9F776E" import="0">Localization/IGE_ES_ES.xml</File>
+    <File md5="7DF381FC2AD58E675A9E762AE44797F3" import="0">Localization/IGE_FR_FR.xml</File>
+    <File md5="1C6C1A0549678F0D8F6A7E5A33C37687" import="0">Localization/IGE_IT_IT.xml</File>
+    <File md5="65669591188010BD124EB28C6E5267DC" import="0">Localization/IGE_JA_JP.xml</File>
+    <File md5="D291E307B26933C2A015B88085DB9F61" import="1">Localization/IGE_RU_RU.xml</File>
+    <File md5="9709ECA8FD1B666518B4A8E09AB75D48" import="0">Localization/IGE_ZH_CN.xml</File>
+    <File md5="B52F9E81D5AB8B06BDEAF144363A09C2" import="1">Panels/IGE_CitiesPanel.xml</File>
+    <File md5="BC847A4948E9686EEF8FD3DB03B49F0A" import="1">Panels/IGE_CitiesPanel.lua</File>
+    <File md5="A9EDAB8CAFC36B9FCACC79E7AC0757A9" import="1">Panels/IGE_ActivePlayerSelection.lua</File>
+    <File md5="D35E3E5AFE54E4B466BDF5EC472A3B7F" import="1">Panels/IGE_ActivePlayerSelection.xml</File>
+    <File md5="A33D50EA568B5DFBDC4BFD2BEC5EC7A4" import="1">Panels/IGE_PlayersPanel.lua</File>
+    <File md5="3F38B74B9FC96D1C78DCE48500D7DDC0" import="1">Panels/IGE_PlayersPanel.xml</File>
+    <File md5="E31C65C71B6A4BE25AD8354F5B56BB44" import="1">Panels/IGE_PoliciesPanel.lua</File>
+    <File md5="15253BAF4CB0143986653F03DCB09D43" import="1">Panels/IGE_PoliciesPanel.xml</File>
+    <File md5="8FFFBA5A42A8DEF2865748261A42DEE2" import="1">Panels/IGE_TechsPanel.lua</File>
+    <File md5="8183B5F8A31AADEFA4B4C3927797B1FA" import="1">Panels/IGE_TechsPanel.xml</File>
+    <File md5="517E3F20C94964FD8CB976107856F4CD" import="1">Panels/IGE_TerrainPanel.lua</File>
+    <File md5="F5A13E9D62A8DC6B0A0DFF7963C0D45B" import="1">Panels/IGE_TerrainPanel.xml</File>
+    <File md5="80904732384F01C99E49E26D92286F57" import="1">Panels/IGE_UnitsPanel.lua</File>
+    <File md5="0CDDDBC87D5FBA1071F58125651330FD" import="1">Panels/IGE_UnitsPanel.xml</File>
+    <File md5="F875749557EA1B1E4CC588AE0D89AB2D" import="1">Widgets/IGE_ConfirmPopup.lua</File>
+    <File md5="A6E5F7C654B462A9C3D75483DE264587" import="1">Widgets/IGE_ConfirmPopup.xml</File>
+    <File md5="32728A2BD49FDF023D5AD9D73FB8AC47" import="1">Widgets/IGE_RiversElement.lua</File>
+    <File md5="63DE978FE5056E18609D1493C62164EA" import="1">Widgets/IGE_RiversElement.xml</File>
+    <File md5="4DB70533F459BE436A98349ADC77E252" import="1">Widgets/IGE_TabsBar.lua</File>
+    <File md5="0CA046471C0BC8859E606A677B8E52FC" import="1">Widgets/IGE_TabsBar.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Localization/IGE_EN_US.xml</UpdateDatabase>
+      <UpdateDatabase>Localization/IGE_ZH_CN.xml</UpdateDatabase>
+      <UpdateDatabase>Localization/IGE_FR_FR.xml</UpdateDatabase>
+      <UpdateDatabase>Localization/IGE_DE_DE.xml</UpdateDatabase>
+      <UpdateDatabase>Localization/IGE_ES_ES.xml</UpdateDatabase>
+      <UpdateDatabase>Localization/IGE_IT_IT.xml</UpdateDatabase>
+      <UpdateDatabase>Localization/IGE_RU_RU.xml</UpdateDatabase>
+      <UpdateDatabase>Localization/IGE_JA_JP.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="IGE_Loader.lua">
+      <Name>InGameEditor</Name>
+      <Description>An in-game map editor</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

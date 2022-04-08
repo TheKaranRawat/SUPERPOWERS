@@ -50,11 +50,19 @@
 			<Where Type="BELIEF_MONUMENT_GODS" />
 		</Update>
 
-
 		<Update>
 			<Set CityGrowthModifier="25" />
 			<Where Type="BELIEF_SWORD_PLOWSHARES" />
 		</Update>
+
+		<Update>
+			<Set SpyPressure="50" />
+			<Where Type="BELIEF_UNDERGROUND_SECT" />
+		</Update>
+
+
+
+		<!-- ADDITIONS -->
 		
 		<Row>
 			<Type>BELIEF_MARSH_BELIEF</Type>

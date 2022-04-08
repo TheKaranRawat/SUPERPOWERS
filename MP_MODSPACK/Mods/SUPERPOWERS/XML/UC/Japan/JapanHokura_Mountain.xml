@@ -3,7 +3,7 @@
 	<Building_FeatureYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_HOKURA</BuildingType>
-			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -20,11 +20,11 @@
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_HOKURA_STRATEGY"/>
 			<Set>
-				<Text>The Japanese unique Shrine, the Hokura is much cheaper to build, costs no maintenance, and produces [ICON_CULTURE] Culture. It also provides bonus [ICON_PEACE] Faith from working Mountain tiles.</Text>
+				<Text>The Japanese unique Shrine, the Hokura is much cheaper to build, costs no maintenance, and produces [ICON_CULTURE] Culture. It also provides bonus [ICON_PEACE] Faith from working Forest tiles.</Text>
 			</Set>
 		</Update>
 		<Row Tag="TXT_KEY_BUILDING_HOKURA_HELP">
-			<Text>+1 [ICON_PEACE] Faith from all Mountain tiles worked by this City.</Text>
+			<Text>+1 [ICON_PEACE] Faith from all Forest tiles worked by this City.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

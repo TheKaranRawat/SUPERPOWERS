@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 4/8/2015 10:02:37 PM -->
 <GameData>
+
+	<!--
 	<ArtDefine_UnitInfos>
 		<Row>
 			<Type>ART_DEF_UNIT_UAV</Type>
@@ -77,6 +79,7 @@
 			<Asset>SV_FW_Drone_UAV.dds</Asset>
 		</Row>
 	</ArtDefine_StrategicView>
+	
 
 	<ArtDefine_UnitInfos>
 		<Row>
@@ -154,6 +157,7 @@
 			<Asset>SV_FW_Hybrid_Drone.dds</Asset>
 		</Row>
 	</ArtDefine_StrategicView>
+	-->
 
 	<ArtDefine_UnitInfos>
 		<Row>
@@ -467,7 +471,7 @@
 		</Row>
 	</ArtDefine_StrategicView>
 
-
+	<!--
 	<ArtDefine_UnitInfos>
 		<Row>
 			<Type>ART_DEF_UNIT_FW_CYBERSUB</Type>
@@ -516,6 +520,7 @@
 			<Asset>SV_FW_Cybersub.dds</Asset>
 		</Row>
 	</ArtDefine_StrategicView>
+	
 
 	<ArtDefine_UnitInfos>
 		<Row>
@@ -643,6 +648,7 @@
 		</Row>
 	</ArtDefine_StrategicView>
 	
+	
 	<ArtDefine_UnitInfos>
 		<Row>
 			<Type>ART_DEF_UNIT_FW_SUPERCARRIER</Type>
@@ -709,6 +715,8 @@
 			<Asset>SV_SuperCarrier.dds</Asset>
 		</Row>
 	</ArtDefine_StrategicView>
+	-->
+	<!--
 
 	<ArtDefine_UnitInfos>
 		<Row>
@@ -772,6 +780,7 @@
 			<Asset>SV_FW_Missile_Destroyer.dds</Asset>
 		</Row>
 	</ArtDefine_StrategicView>
+	-->
 
 	<ArtDefine_UnitInfos>
 		<Row>
@@ -901,6 +910,7 @@
 		</Row>
 	</ArtDefine_StrategicView>
 
+	<!--
 	<ArtDefine_UnitInfos>
 		<Row>
 			<Type>ART_DEF_UNIT_FW_CHIMERA</Type>
@@ -951,6 +961,7 @@
 			<Asset>SV_FW_Chimera.dds</Asset>
 		</Row>
 	</ArtDefine_StrategicView>
+	
 
 	<ArtDefine_UnitInfos>
 		<Row>
@@ -1001,6 +1012,8 @@
 			<Asset>SV_FW_Hydra.dds</Asset>
 		</Row>
 	</ArtDefine_StrategicView>
+	-->
+
 	<ArtDefine_UnitInfos>
 		<Row>
 			<Type>ART_DEF_UNIT_SCORPION_GREEN</Type>
@@ -1329,6 +1342,7 @@
 		</Row>
 	</ArtDefine_StrategicView>
 
+	<!--
 	<ArtDefine_UnitInfos>
 		<Row>
 			<Type>ART_DEF_UNIT_FW_NANOHIVE</Type>
@@ -1391,6 +1405,7 @@
 			<Asset>SV_FW_Nanohive.dds</Asset>
 		</Row>
 	</ArtDefine_StrategicView>
+	
 
 	<ArtDefine_UnitInfos>
 		<Row>
@@ -1751,6 +1766,9 @@
 		</Row>
 	</ArtDefine_StrategicView>
 
+	-->
+
+	<!--
 	<ArtDefine_UnitInfos>
 		<Row>
 			<Type>ART_DEF_UNIT_SEAL_TEAM</Type>
@@ -1938,7 +1956,9 @@
 			<Asset>SV_FW_Automaton.dds</Asset>
 		</Row>
 	</ArtDefine_StrategicView>
-
+	-->
+	
+	<!--
 	<ArtDefine_UnitInfos>
 		<Row>
 			<Type>ART_DEF_UNIT_FW_BIODRONE</Type>
@@ -2015,6 +2035,7 @@
 			<Asset>SV_FW_Biodrone.dds</Asset>
 		</Row>
 	</ArtDefine_StrategicView>
+	-->
 
 </GameData>
 

@@ -46,6 +46,11 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>4</Yield>
+		</Row>
 		<!--<Row>
 			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
@@ -53,31 +58,7 @@
 		</Row>-->
 	</Improvement_Yields>
 	
-	<BuildFeatures>
-		<Row>
-			<BuildType>IMPROVEMENT_EGYPTIAN_FLAX</BuildType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
-			<Time>699</Time>
-			<Production>20</Production>
-			<Remove>true</Remove>
-		</Row>
-		<Row>
-			<BuildType>IMPROVEMENT_EGYPTIAN_FLAX</BuildType>
-			<FeatureType>FEATURE_FOREST</FeatureType>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
-			<Time>399</Time>
-			<Production>20</Production>
-			<Remove>true</Remove>
-		</Row>
-		<Row>
-			<BuildType>IMPROVEMENT_EGYPTIAN_FLAX</BuildType>
-			<FeatureType>FEATURE_MARSH</FeatureType>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
-			<Time>599</Time>
-			<Remove>true</Remove>
-		</Row>
-	</BuildFeatures>
+	
 	
 	<Improvement_TechFreshWaterYieldChanges>
 		<Row>
@@ -142,6 +123,32 @@
 		</Row>
 	</Builds>
 
+	<BuildFeatures>
+		<Row>
+			<BuildType>BUILD_EGYPTIAN_FLAX</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>699</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_EGYPTIAN_FLAX</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>399</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_EGYPTIAN_FLAX</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>599</Time>
+			<Remove>true</Remove>
+		</Row>
+	</BuildFeatures>
+
 	<Unit_Builds>
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
@@ -180,12 +187,7 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>-->
-		<Row>
-			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
-			<TechType>TECH_INDUSTRIALIZATION</TechType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
+		
 	</Improvement_TechYieldChanges>
 
 

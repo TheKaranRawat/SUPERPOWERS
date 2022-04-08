@@ -391,6 +391,7 @@ if player:IsHuman() then
 
 end
 
+	
 
 
 
@@ -398,8 +399,150 @@ end------function end
 GameEvents.PlayerDoTurn.Add(NewUnitCreationRules)
 
 
+-- AI CARRIER RESUPPLY CODE
+
+--[[
+function AICarrierResupply (playerID)   
+
+	print ("AI Carrier invoked.")
+
+		local player = Players[playerID]
+	
+		if player == nil then
+			return
+		end
+	
+		if player:IsBarbarian() then 
+		   return
+		end  
+		
+		
+		if player:IsMinorCiv() then 
+		   return
+		end 
+		
+
+		if player:GetNumCities() < 1 then ---- In case of 0 city error
+			return
+		end
 
 
+		if not player:IsHuman() then
+
+			print ("AI Carrier Promotions")
+
+			local AirCraftCarrierID = GameInfo.UnitPromotions["PROMOTION_CARRIER_UNIT"].ID
+			local CarrierID = GameInfo.UnitPromotions["PROMOTION_CARRIER_UNIT"].ID
+	
+			local CarrierSupply3ID = GameInfo.UnitPromotions["PROMOTION_CARRIER_SUPPLY_3"].ID
+			local MissileCarrierID = GameInfo.UnitPromotions["PROMOTION_MISSILE_CARRIER"].ID
+			local DroneCarrierID = GameInfo.UnitPromotions["PROMOTION_DRONE_CARRIER"].ID
+			
+			
+			local Penetration1ID = GameInfo.UnitPromotions["PROMOTION_PENETRATION_1"].ID
+			local Penetration2ID = GameInfo.UnitPromotions["PROMOTION_PENETRATION_2"].ID
+			local SlowDown1ID = GameInfo.UnitPromotions["PROMOTION_MOVEMENT_LOST_1"].ID
+			local SlowDown2ID = GameInfo.UnitPromotions["PROMOTION_MOVEMENT_LOST_2"].ID
+			local MoralWeaken1ID = GameInfo.UnitPromotions["PROMOTION_MORAL_WEAKEN_1"].ID
+			local MoralWeaken2ID = GameInfo.UnitPromotions["PROMOTION_MORAL_WEAKEN_2"].ID
+			local LoseSupplyID = GameInfo.UnitPromotions["PROMOTION_LOSE_SUPPLY"].ID
+				
+			local RapidMarchID = GameInfo.UnitPromotions["PROMOTION_RAPID_MARCH"].ID
+			local MarkedTargetID = GameInfo.UnitPromotions["PROMOTION_MARKED_TARGET"].ID
+		 --	local ClearShot1ID = GameInfo.UnitPromotions["PROMOTION_TRAGET_CLEARSHOOT_1"].ID
+		 --	local ClearShot2ID = GameInfo.UnitPromotions["PROMOTION_TRAGET_CLEARSHOOT_2"].ID
+			local ClearShot3ID = GameInfo.UnitPromotions["PROMOTION_TRAGET_CLEARSHOOT_3"].ID
+			
+			local Formation1ID = GameInfo.UnitPromotions["PROMOTION_FORMATION_1"].ID
+			local Formation2ID = GameInfo.UnitPromotions["PROMOTION_FORMATION_2"].ID
+			local Ambush1ID = GameInfo.UnitPromotions["PROMOTION_AMBUSH_1"].ID
+			local Ambush2ID = GameInfo.UnitPromotions["PROMOTION_AMBUSH_2"].ID
+			
+			local LegionGroupID = GameInfo.UnitPromotions["PROMOTION_LEGION_GROUP"].ID
+			
+			local BlackBirdID = GameInfo.UnitPromotions["PROMOTION_BLACKBIRD_RECON"].ID
+				
+			local SetUpID = GameInfo.UnitPromotions["PROMOTION_MUST_SET_UP"].ID	
+
+			for unit in player:Units() do
+
+				print ("AI Carrier Search")
+
+				local plot = unit:GetPlot()
+	
+				if unit:IsHasPromotion(CarrierID) and not unit:IsFull() then
+					print ("AI Carrier Detected")
+					 
+					if unit:GetUnitType() == GameInfoTypes.UNIT_CARRIER then
+			
+					    if plot ~= nil and not plot:IsCity() then
+					       player:InitUnit(GameInfoTypes.UNIT_JAPANESE_ZERO, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)					      
+					    end
+					end   
+					  
+					if unit:GetUnitType() == GameInfoTypes.UNIT_AMERICAN_NIMITZ then
+						print ("Found AI Nimitz!")
+						local pTeam = Teams[player:GetTeam()]
+						if pTeam:IsHasTech(GameInfoTypes["TECH_NUCLEAR_FUSION"]) then
+			
+						    if plot ~= nil and not plot:IsCity() then
+								player:InitUnit(GameInfoTypes.UNIT_CARRIER_FIGHTER_ADV, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)	
+						    end
+						    
+						else
+			
+						    if plot ~= nil and not plot:IsCity() then
+						    	player:InitUnit(GameInfoTypes.UNIT_CARRIER_FIGHTER_JET, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)							    
+						    end
+					 	end	
+					end 	
+					 
+					   
+					if unit:GetUnitType() == GameInfoTypes.UNIT_NUCLEAR_CARRIER then
+				
+						if player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_ENGLAND"] then
+						 	 print ("Found AI English Nuclear Carrier!")
+	
+						     if plot ~= nil and not plot:IsCity() then
+								 player:InitUnit(GameInfoTypes.UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)								 
+							 end		
+						else
+						     print ("Found AI Normal Nuclear Carrier!")
+	
+						     if plot ~= nil and not plot:IsCity() then
+							     player:InitUnit(GameInfoTypes.UNIT_CARRIER_FIGHTER_JET, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)
+						     end
+					 	end	
+					end
+					 
+					 	
+					if unit:GetUnitType() == GameInfoTypes.UNIT_SUPER_CARRIER then	
+						print ("Found AI Normal Super Carrier1!")
+								
+					 	if player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_ENGLAND"] then
+
+						     if plot ~= nil and not plot:IsCity() then
+						 		 print ("Found AI English Super Carrier!")
+								 player:InitUnit(GameInfoTypes.UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER_ADV, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)								 
+							 end			
+						else
+
+						     if not plot:IsCity() then
+								 print ("Found AI Normal Super Carrier2!")
+							     player:InitUnit(GameInfoTypes.UNIT_CARRIER_FIGHTER_ADV, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)
+						     end			
+					 	end				   
+					end
+					print ("AI:Aircrafts carrier code complete")
+				end
+
+			end
+		end
+
+
+end
+GameEvents.PlayerDoTurn.Add(AICarrierResupply)
+]]--
 
 
 function LegionMovement (playerID, unitID, bRemainingMoves)

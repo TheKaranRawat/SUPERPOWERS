@@ -20,6 +20,12 @@
 		<!-- More Wonders v2 -->
 
 		<Row>
+			<CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+			<BuildingType>BUILDING_BOLLHUSET</BuildingType>
+		</Row>
+
+		<Row>
 			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_ABUSIMBEL</BuildingClassType>
 			<BuildingType/>
@@ -116,6 +122,8 @@
 			<BuildingClassType>BUILDINGCLASS_HORYUJI</BuildingClassType>
 			<BuildingType/>
 		</Row>
+
+		<!--
 		<Row>
 			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_MILLAU</BuildingClassType>
@@ -126,6 +134,7 @@
 			<BuildingClassType>BUILDINGCLASS_MILLAU</BuildingClassType>
 			<BuildingType/>
 		</Row>
+		-->
 
 		<Row>
 			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
@@ -344,12 +353,12 @@
 
 		<Row>
 			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_FW_FW_ENRICHMENT_CENTRE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_FW_ENRICHMENT_CENTRE</BuildingClassType>
 			<BuildingType/>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_FW_FW_ENRICHMENT_CENTRE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_FW_ENRICHMENT_CENTRE</BuildingClassType>
 			<BuildingType/>
 		</Row>
 	
@@ -375,34 +384,34 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_FW_FW_VIRTUAL_IDOL</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_FW_VIRTUAL_IDOL</BuildingClassType>
 			<BuildingType/>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_FW_FW_VIRTUAL_IDOL</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_FW_VIRTUAL_IDOL</BuildingClassType>
 			<BuildingType/>
 		</Row>
 
 		<Row>
 			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_FW_FW_ORBITAL_REFINERY</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_FW_ORBITAL_REFINERY</BuildingClassType>
 			<BuildingType/>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_FW_FW_ORBITAL_REFINERY</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_FW_ORBITAL_REFINERY</BuildingClassType>
 			<BuildingType/>
 		</Row>
 
 		<Row>
 			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_FW_FW_SKYNET</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_FW_SKYNET</BuildingClassType>
 			<BuildingType/>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_FW_FW_SKYNET</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_FW_SKYNET</BuildingClassType>
 			<BuildingType/>
 		</Row>
 

@@ -166,7 +166,7 @@
 			<Type>BUILDING_GDR_HEADQUARTERS</Type>
 			<BuildingClass>BUILDINGCLASS_GDR_HEADQUARTERS</BuildingClass>
 			<Cost>-1</Cost>
-			<PrereqTech>TECH_NEURAL_INTERFACE</PrereqTech>
+			<PrereqTech>NULL</PrereqTech>
 			<UnlockedByLeague>true</UnlockedByLeague>
 			<NukeImmune>true</NukeImmune>
 			<ConquestProb>100</ConquestProb>

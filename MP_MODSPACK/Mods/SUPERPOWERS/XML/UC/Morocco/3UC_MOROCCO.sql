@@ -73,10 +73,10 @@ INSERT INTO Unit_FreePromotions
 SELECT	'UNIT_3GOUM', 	PromotionType
 FROM Unit_FreePromotions WHERE UnitType = 'UNIT_MUSKETMAN';	
 
-INSERT INTO Unit_FreePromotions
-		(UnitType, 					PromotionType)
-VALUES	('UNIT_3GOUM',  'PROMOTION_DRILL_2'),
-		('UNIT_3GOUM',  'PROMOTION_DRILL_1');
+--INSERT INTO Unit_FreePromotions
+--		(UnitType, 					PromotionType)
+--VALUES	('UNIT_3GOUM',  'PROMOTION_DRILL_2'),
+--		('UNIT_3GOUM',  'PROMOTION_DRILL_1');
 
 --------------------------------	
 -- Civilization_UnitClassOverrides 

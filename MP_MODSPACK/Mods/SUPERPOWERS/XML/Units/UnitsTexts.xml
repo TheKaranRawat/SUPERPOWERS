@@ -874,9 +874,12 @@
 			<Text>[ICON_BULLET]First nuclear weapon in the game. [NEWLINE][NEWLINE][ICON_BULLET]Can damage enemy City, Improvements and Units within the range of 2 tiles. [NEWLINE][ICON_BULLET]Cannot destroy enemy city. [NEWLINE][ICON_BULLET]Consumes 3 Air Unit Capacity in a city.[NEWLINE][ICON_BULLET]Cannot be deployed on [COLOR_NEGATIVE_TEXT]Aircraft Carriers[ENDCOLOR].</Text>
 		</Replace>
 
-
 		<Replace Tag="TXT_KEY_UNIT_HELP_NUCLEAR_MISSILE">
 			<Text>[ICON_BULLET]Advanced nuclear weapon.[NEWLINE][NEWLINE][ICON_BULLET]Can damage enemy City and destroy Improvements and Units within the range of 2 tiles. [NEWLINE][ICON_BULLET]Can destroy enemy city which Population is less than 5. [NEWLINE][ICON_BULLET]Consumes 3 Air Unit Capacity in a city.[NEWLINE][ICON_BULLET]Can be loaded on [COLOR_POSITIVE_TEXT]SSBNs[ENDCOLOR].</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_GUIDED_MISSILE">
+			<Text>Cruise Missile</Text>
 		</Replace>
 
 
@@ -928,7 +931,7 @@
 			<Text>[COLOR_MAGENTA]Minuteman[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR">
-			<Text>[COLOR_MAGENTA]Hohawk Warrior[ENDCOLOR]</Text>
+			<Text>[COLOR_MAGENTA]Mohawk Warrior[ENDCOLOR]</Text>
 		</Replace>
 		
 		
@@ -1637,7 +1640,15 @@
 			<Text>Georgios Averof (Greek: Θ/Κ Γεώργιος Αβέρωφ) is a modified Pisa-class armored cruiser built in Italy for the Royal Hellenic Navy in the first decade of the 20th century. The ship served as the Greek flagship during most of the first half of the century. Although popularly known as a battleship (θωρηκτό) in Greek, she is in fact an armored cruiser (θωρακισμένο καταδρομικό), the only ship of this type still in existence.</Text>
 		</Row>
 
-		
+		<Row Tag="TXT_KEY_UNIT_DIESEL_SUB">
+			<Text>Diesel-Electric Attack Submarine</Text>
+			<Plurality>2</Plurality>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_CACADOR">
+			<Text>Caçador</Text>
+			<Plurality>2</Plurality>
+		</Row>
 		
 
 		<Row Tag="TXT_KEY_UNIT_GERMAN_UBOAT">
@@ -2862,7 +2873,7 @@
 		</Row>
 
 		<Replace Tag="TXT_KEY_UNIT_BAZOOKA">
-			<Text>[COLOR_YELLOW]Davy Crockett (Nuclear Rocket Launcher)[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]Davy Crockett (Nuclear Launcher)[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_HELP_BAZOOKA">
 			<Text>A tactical nuclear device launching a rocket with nuclear warhead, which can destroy any single unit in one-hit. The shooter himself will also be killed in the explosion. [NEWLINE][NEWLINE]Requires Tactical Nuclear Recoilless Gun Project. Only one can exist in the world. </Text>
@@ -2956,6 +2967,7 @@
 			</Text>
 		</Row>
 
+		
 		<Row Tag="TXT_KEY_UNIT_ODST">
 			<Text>Orbital Drop Shock Trooper</Text>
 			<Plurality>2</Plurality>
@@ -2973,6 +2985,7 @@
 			<Text>"Most of the crew - not to mention your fellow jarheads - will be leaving the ship in lifeboats. They'll ride to the surface in air conditioned comfort, sipping wine, and nibbling on appetizers. Not you, however. Oh no, you're going to leave the Pillar of Autumn in a different method. Tell me boys and girls… how will you leave?" - Major Antonio
 			</Text>
 		</Row>
+		
 
 
 		<Replace Tag="TXT_KEY_UNIT_MECH">
@@ -5038,6 +5051,8 @@
 		<Row Tag="TXT_KEY_UNIT_FW_SUBORBITAL_BOMBER_HELP">
 			<Text>A long-range Air Unit that rains death from above onto enemy Units and Cities.</Text>
 		</Row>
+
+		<!--
 		<Row Tag="TXT_KEY_UNIT_FW_AUTOMATON">
 			<Text>Automaton</Text>
 		</Row>
@@ -5050,6 +5065,8 @@
 		<Row Tag="TXT_KEY_UNIT_FW_AUTOMATON_HELP">
 			<Text>Cheap and powerful futuristic Unit that is stronger in groups. Constructed more quickly in cities with Autoplants and Drone Hives.</Text>
 		</Row>
+
+		
 		<Row Tag="TXT_KEY_UNIT_FW_CHIMERA">
 			<Text>Chimera</Text>
 		</Row>
@@ -5062,33 +5079,12 @@
 		<Row Tag="TXT_KEY_UNIT_FW_CHIMERA_HELP">
 			<Text>Fast, cheap Unit of the future that requires no special resources to build.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_UNIT_FW_HYDRA">
-			<Text>Bio-Titan</Text>
-		</Row>
-		<Row Tag="TXT_KEY_UNIT_FW_HYDRA_TEXT">
-			<Text>The ultimate product of bioengineering, the Bio-Titan is a massive organism engineered solely for combat. With the increasingly refined development of genetic chimeras and other warforms, some bioengineers decided to see just how powerful a warform could become. Utilizing lessons learned from the genetic cloning of ancient dinosaurs, themselves some of the largest animals to have walked the earth, the Bio-Titan was engineered to be massive. Its skeleton reinforced with nanomaterials grown in biofactories, and its metabolism enhanced by implanted radioisotope generators. It has been further augmented by incorporating organic biogenesis tanks into its body, allowing it to spawn short-lived "genoswarms" when threatened by an enemy. Combined with the attacks by its accompanying swarms, a Bio-Titan can deliver a massive barrage of attacks rivalling that of GDRs, while still possessing the regenerative capabilities of other organic warforms.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_UNIT_FW_HYDRA_STRATEGY">
-			<Text>The Bio-Titan is a futuristic melee unit.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_UNIT_FW_HYDRA_HELP">
-			<Text>One of the most powerful end-game units, the Bio-Titan can spawn additional units when enemies are near.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_UNIT_FW_SWARM">
-			<Text>Genoswarm</Text>
-		</Row>
-		<Row Tag="TXT_KEY_UNIT_FW_SWARM_TEXT">
-			<Text>Many of the original bioengineered chimeras were short-lived, lacking in some of the survival instincts and even necessary organs for prolonged survival. While many of these early warforms were discarded in favor of later, more successful designs, the development of the Bio-Titan caused bioengineers to re-examine these early designs to enable the Bio-Titans to function somewhat as transports or carriers, giving them small support units that could be spawned when the Bio-Titan was under immediate threat. Longevity was not a requirement for these swarms -- in fact, most lack even any gastrointestinal system, surviving solely upon stored energy reserves until they perish. Designed as relentless, short-lived attackers, they need no survival instinct, and have little more than a basic need to make frenzied attacks against their enemies.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_UNIT_FW_SWARM_STRATEGY">
-			<Text>The Genoswarm is a futuristic infantry unit.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_UNIT_FW_SWARM_HELP">
-			<Text>Fast infantry unit that dies at the end of the turn, causing damage to enemies nearby.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_UNIT_FW_BIOINFANTRY">
-			<Text>Organic Infantry</Text>
-		</Row>
+
+		
+		-->
+		
+		<!--
+		
 		<Row Tag="TXT_KEY_UNIT_FW_BIOINFANTRY_TEXT">
 			<Text>Advances in genetic engineering and forced tissue growth lead to increasing developments in the fields of organic composites and implants. Many of these advances were turned towards military ends, used to develop regenerative body armor and combat implants that enhanced the performance of soldiers.</Text>
 		</Row>
@@ -5110,6 +5106,8 @@
 		<Row Tag="TXT_KEY_UNIT_FW_BIOTROOPER_HELP">
 			<Text>Elite infantry unit of the future that can travel through rough terrain and is stronger in enemy territory.</Text>
 		</Row>
+		-->
+
 		<Row Tag="TXT_KEY_UNIT_FW_BATTLESUIT">
 			<Text>BattleMech</Text>
 		</Row>
@@ -5183,6 +5181,8 @@
 		<Row Tag="TXT_KEY_UNIT_FW_HOVERTANK_HELP">
 			<Text>Unit specialized in fighting Railgun Armor and Giant Death Robots. It is capable of hovering over Mountains, but takes damage if ending its turn on one.</Text>
 		</Row>
+
+		<!--
 		<Row Tag="TXT_KEY_UNIT_FW_CYBERSUB">
 			<Text>Cybersub</Text>
 		</Row>
@@ -5219,6 +5219,8 @@
 		<Row Tag="TXT_KEY_UNIT_FW_NEODESTROYER_HELP">
 			<Text>Fast futuristic ship making it highly effective at recon. Also used to hunt down and destroy enemy Submarines. Fights as a naval melee unit.</Text>
 		</Row>
+		
+
 		<Row Tag="TXT_KEY_UNIT_FW_ARSENAL_SHIP">
 			<Text>Arsenal Ship</Text>
 		</Row>
@@ -5231,6 +5233,8 @@
 		<Row Tag="TXT_KEY_UNIT_FW_ARSENAL_SHIP_HELP">
 			<Text>The Arsenal Ship is a futuristic successor to the Missile Cruiser. It can carry four Missile units, as well as having its own powerful ranged attack.</Text>
 		</Row>
+		
+
 		<Row Tag="TXT_KEY_UNIT_FW_SUPERCARRIER">
 			<Text>Supercarrier</Text>
 		</Row>
@@ -5243,8 +5247,10 @@
 		<Row Tag="TXT_KEY_UNIT_FW_SUPERCARRIER_TEXT">
 			<Text>The Supercarrier is the nuclear age evolution of the Aircraft Carrier.</Text>
 		</Row>
+		-->
+
 		<Row Tag="TXT_KEY_UNIT_FW_UAV">
-			<Text>Drone UAV</Text>
+			<Text>UCAV</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_UAV_TEXT">
 			<Text>Unmanned aerial vehicles were used as early as 1964, during the Vietnam War, but did not enter widespread use until the necessary technologies matured towards the end of the 20th century. While initially used in a primarily reconnaissance role in environments too hazardous to risk human pilots in, armed UAVs became increasingly prevalent as a means of delivering precision strikes at long range without needing an expensive manned aircraft.</Text>
@@ -5255,6 +5261,8 @@
 		<Row Tag="TXT_KEY_UNIT_FW_UAV_HELP">
 			<Text>A modern recon and ranged unit</Text>
 		</Row>
+
+		<!--
 		<Row Tag="TXT_KEY_UNIT_FW_HYBRID_DRONE">
 			<Text>Hybrid Drone</Text>
 		</Row>
@@ -5267,6 +5275,8 @@
 		<Row Tag="TXT_KEY_UNIT_FW_HYBRID_DRONE_HELP">
 			<Text>The most powerful ranged combat unit.</Text>
 		</Row>
+		
+
 		<Row Tag="TXT_KEY_UNIT_FW_BIODRONE">
 			<Text>Biodrone</Text>
 		</Row>
@@ -5279,6 +5289,8 @@
 		<Row Tag="TXT_KEY_UNIT_FW_BIODRONE_HELP">
 			<Text>The most powerful ranged combat unit.</Text>
 		</Row>
+		-->
+
 		<Row Tag="TXT_KEY_UNIT_FW_HYPERMISSILE">
 			<Text>Hypersonic Missile</Text>
 		</Row>
@@ -5303,6 +5315,8 @@
 		<Row Tag="TXT_KEY_UNIT_FW_CRAWLER_HELP">
 			<Text>Siege unit that can carry three Missile units. Has a 33% chance of manufacturing one Missile unit each turn if carrying less than three.</Text>
 		</Row>
+
+		<!--
 		<Row Tag="TXT_KEY_UNIT_FW_NANOHIVE">
 			<Text>Nanohive</Text>
 		</Row>
@@ -5315,6 +5329,8 @@
 		<Row Tag="TXT_KEY_UNIT_FW_NANOHIVE_HELP">
 			<Text>The Nanohive is a futuristic unit that heals friendly units while damaging enemy units within two tiles of it each turn.</Text>
 		</Row>
+		
+
 		<Row Tag="TXT_KEY_UNIT_FW_NEXUS">
 			<Text>Nexus</Text>
 		</Row>
@@ -5327,6 +5343,9 @@
 		<Row Tag="TXT_KEY_UNIT_FW_NEXUS_HELP">
 			<Text>Futuristic support unit that heals friendly units while damaging enemy units adjacent to it each turn, and can carry up to 4 Aircraft.</Text>
 		</Row>
+		-->
+
+		<!--
 		<Row Tag="TXT_KEY_UNIT_FW_SPEC_FORCES">
 			<Text>Special Forces</Text>
 		</Row>
@@ -5388,6 +5407,7 @@
 		<Row Tag="TXT_KEY_UNIT_FW_RAPTOR_HELP">
 			<Text>A dinosaur unit that escaped from Jurassic Park.</Text>
 		</Row>
+		-->
 
 </Language_en_US>
 

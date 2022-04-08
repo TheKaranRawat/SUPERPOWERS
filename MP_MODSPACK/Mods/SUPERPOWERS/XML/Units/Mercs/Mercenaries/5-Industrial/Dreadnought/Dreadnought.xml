@@ -52,14 +52,14 @@
 			<UnitFlagIconOffset>9</UnitFlagIconOffset>
 
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>150</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>450</ExtraMaintenanceCost>
 		</Row>
 	</Units>
 
 	<Unit_BuildingClassRequireds>
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_SMAN_DREADNOUGHT</UnitType>
-			<BuildingClassType>BUILDING_SMAN_EU_NAVAL_YARD</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_NAVAL_YARD</BuildingClassType>
 		</Row>
 	</Unit_BuildingClassRequireds>
 

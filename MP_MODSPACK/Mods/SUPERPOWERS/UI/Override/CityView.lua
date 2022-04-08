@@ -1653,6 +1653,52 @@ function OnCityViewUpdate()
 		if bCityHall ~= nil then
 			IconHookup( bCityHall.PortraitIndex, 64, bCityHall.IconAtlas, Controls.CityHallImage );
 			local strToolTip = GetHelpTextForBuilding(bCityHall.ID, false, false, false, pCity);
+
+			--CHECK FOR ADMIN BUILDING
+			--[[
+			local cityOwner = Players[city:GetOwner()]
+
+			if cityOwner:IsHuman() then
+
+				print("City Hall text function")
+				
+				if city:IsPuppet() then				
+				end
+
+				if city:IsHasBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV1"]) then
+					if not city:IsHasBuilding(GameInfoTypes["BUILDING_SATRAPS_COURT"]) then
+						local strToolTip = Locale.ConvertTextKey("TXT_KEY_BUILDING_CITY_HALL_LV1_HELP");
+					end
+				
+				elseif city:IsHasBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV2"]) then
+					if not city:IsHasBuilding(GameInfoTypes["BUILDING_CONSTABLE"]) then						
+						local strToolTip = Locale.ConvertTextKey("TXT_KEY_BUILDING_CITY_HALL_NOAC_LV2");
+				    end
+
+					if not city:IsHasBuilding(GameInfoTypes["BUILDING_ROMAN_SENATE"]) then
+						local strToolTip = Locale.ConvertTextKey("TXT_KEY_BUILDING_CITY_HALL_NOAC_LV2");
+					end				
+
+				elseif city:IsHasBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV3"]) then
+					if not city:IsHasBuilding(GameInfoTypes["BUILDING_SHERIFF_OFFICE"])then
+						local strToolTip = Locale.ConvertTextKey("TXT_KEY_BUILDING_CITY_HALL_NOAC_LV3");
+					end
+
+				elseif city:IsHasBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV4"]) then
+					if not city:IsHasBuilding(GameInfoTypes["BUILDING_POLICE_STATION"])then
+						local strToolTip = Locale.ConvertTextKey("TXT_KEY_BUILDING_CITY_HALL_NOAC_LV4");
+					end
+
+				elseif city:IsHasBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV5"]) then
+					if not city:IsHasBuilding(GameInfoTypes["BUILDING_PROCURATORATE"])then
+						local strToolTip = Locale.ConvertTextKey("TXT_KEY_BUILDING_CITY_HALL_NOAC_LV5");
+					end
+
+				end
+			
+			end
+			]]--
+
 			-- Can we sell this thing?
 			if (pCity:IsBuildingSellable(bCityHall.ID) and not pCity:IsPuppet()) then
 				strToolTip = strToolTip .. "[NEWLINE][NEWLINE]" .. Locale.ConvertTextKey( "TXT_KEY_CLICK_TO_SELL" );
@@ -2986,7 +3032,7 @@ Events.GameplaySetActivePlayer.Add(OnEventActivePlayerChanged);
 
 
 
-
+--[[
 --------------------------------------------------------SP City Copy Focus (used to be copy capital but I think copying current city is better!)----------------------------------------------------------------
 function OnCopyCapitalFocus()
     print ("Copy Capital Focus pressed!")
@@ -3114,10 +3160,11 @@ function OnCityAutomation(bIsChecked)
 		end
 	end	
 end
-Controls.BTNCityAuto:RegisterCheckHandler(OnCityAutomation)
+Controls.BTNCityAuto:RegisterCheckHandler(OnCityAutomation)
 
 
 
+]]--
 
 ----------------------------------------------------------SP One-Clik to fill all same types of specialists---------------------------------------------------------------
 

@@ -74,43 +74,59 @@
     </Stack>
     <Label Anchor="C,T" Offset="0,18" String="TXT_KEY_CITYVIEW_CITYINFO_TEXT" ColorSet="Beige_Black_Alpha" Font="TwCenMT20" FontStyle="Shadow"/>
   </Grid>
-  <Image Anchor="L,B" Offset="428,28" Texture="assets\UI\Art\WorldView\citytrimleft.dds" Size="141.78" Hidden="0" ID="LeftTrim"/>
-  <Image Anchor="R,B" Offset="0,28" Texture="assets\UI\Art\WorldView\citytrimright.dds" Size="141.78" Hidden="0"/>
+  
+  <!-- bottom corners -->
+  <!-- bottom bar offset 28 -->
+  <Image Anchor="L,B" Offset="489,0" Texture="assets\UI\Art\WorldView\citytrimleft.dds" Size="141.78" Hidden="0" ID="LeftTrim"/>
+  <Image Anchor="R,B" Offset="0,0" Texture="assets\UI\Art\WorldView\citytrimright.dds" Size="141.78" Hidden="0"/>
+  
+  <!-- 0000000000000000000000000000000000000000000000000000000000000000000000000 -->
+  
   <!-- Production Queue Size="400,490"  -->
-  <Grid Size="450,300" Anchor="L,B" Offset="-16,-8" Style="Grid9DetailSix140" Hidden="0" ID="ProdQueueBackground" ConsumeMouse="1">
-    <Stack Anchor="L,T" Offset="20,12" Size="0,0" StackGrowth="Right" Padding="4">
+  <!-- total offset x34 y22-->
+  <!-- temp offset x30+25+7 y24-->
+  
+  <Grid Size="515,300" Anchor="L,B" Offset="-16,-30" Style="Grid9DetailSix140" Hidden="0" ID="ProdQueueBackground" ConsumeMouse="1">
+    
+	<!-- production button -->
+	<Stack Anchor="L,T" Offset="20,4" Size="0,0" StackGrowth="Right" Padding="4">
+	
       <!-- Purchase Production Button -->
       <GridButton ID="PurchaseButton" Anchor="C,C" Size="160,27" Offset="0,0" Style="SmallButton" ToolTip="TXT_KEY_CITYVIEW_PURCHASE_TT">
         <Label Anchor="L,C" Offset="5,-1" String="[ICON_GOLD]/[ICON_PEACE]" ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Shadow"/>
         <Label Anchor="R,C" Offset="25,-1" String="TXT_KEY_CITYVIEW_PURCHASE_BUTTON" ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Shadow"/>
       </GridButton>
+	  
       <!-- Choose/Change/Add Production Button -->
       <GridButton Anchor="C,C" Size="220,27" Offset="0,0" ID="ProductionButton" Style="SmallButton" ToolTip="TXT_KEY_CITYVIEW_CHANGE_PROD_TT">
         <Label Anchor="C,C" Offset="0,0" String="TXT_KEY_CITYVIEW_QUEUE_PROD" ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Shadow" ID="ProductionButtonLabel"/>
       </GridButton>
+	  
     </Stack>
+	
     <Stack Anchor="L,T" Offset="20,44" Size="0,0" StackGrowth="Bottom" Padding="0">
-      <!--This is the top entry in the queue and gets special treatment-->
+      <!--This is the top entry in the queue and gets special treatment  x80 y60-->
       <Box Offset="0,0" Anchor="L,T" Size="362,180" Color="255,255,255,0">
         <Label Anchor="L,B" Offset="0,6" String="1." Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT24" FontStyle="Shadow" Hidden="0" ID="b1number"/>
-        <Button Anchor="R,B" Offset="592,-7" Style="SelectedDown32" ToolTip="TXT_KEY_CITYVIEW_Q_DOWN_TEXT" Hidden="0" ID="b1down"/>
-        <Button Anchor="R,B" Size="18,18" Offset="195.2" TextureOffset="0,0" Texture="assets\UI\Art\Controls\9 Grids\NewX.dds" ToolTip="TXT_KEY_CITYVIEW_Q_X_TEXT" Hidden="0" ID="b1remove"/>
-        <!-- Production Description -->
-        <Box ID="ProductionDescriptionBox" Offset="12,0" Anchor="L,T" Size="230,100" Color="255,255,255,0" Hidden="0">
+        <Button Anchor="R,B" Offset="22,-51" Style="SelectedDown32" ToolTip="TXT_KEY_CITYVIEW_Q_DOWN_TEXT" Hidden="0" ID="b1down"/>
+        <Button Anchor="R,B" Size="18,18" Offset="0.-42" TextureOffset="0,0" Texture="assets\UI\Art\Controls\9 Grids\NewX.dds" ToolTip="TXT_KEY_CITYVIEW_Q_X_TEXT" Hidden="0" ID="b1remove"/>
+        
+		<!-- Production Description -->
+        <Box ID="ProductionDescriptionBox" Offset="65,0" Anchor="L,T" Size="230,100" Color="255,255,255,0" Hidden="0">
           <Stack Anchor="L,T" Offset="0,6" Size="256,128" StackGrowth="Bottom" Padding="8">
-            <Label ID="ProductionItemName" Offset="112,0" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow">
+            <Label ID="ProductionItemName" Offset="120,0" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow">
               <Label ID="ProductionTurnsLabel" Anchor="L,T" LeadingOffset="-4" WrapWidth="230" AnchorSide="O,I" Offset="-270,15" Font="TwCenMT22" Color0="Production" Color1="Black,200" FontStyle="Shadow"/>
             </Label>
-            <Label ID="ProductionOutput" Offset="135,0" Font="TwCenMT14" Color0="Production" Color1="Black,200" FontStyle="Shadow"/>
+            <Label ID="ProductionOutput" Offset="138,0" Font="TwCenMT14" Color0="Production" Color1="Black,200" FontStyle="Shadow"/>
 			<!-- dividers -->
             <Image Anchor="L,T" Offset="10,0" TextureOffset="69.0" Texture="bar500x2.dds" Size="362.1" Color="White.128" Hidden="0"/>	
 			
 			<!-- Scroll Desc -->
-            <ScrollPanel ID="ProductionHelpScroll" Offset="160,-5" Anchor="L,T" Size="225,126" Vertical="1" AutoScrollBar="1">
+            <ScrollPanel ID="ProductionHelpScroll" Offset="167,-5" Anchor="L,T" Size="225,126" Vertical="1" AutoScrollBar="1">
               <Stack Anchor="L,T" Offset="0,0" Size="0,0" StackGrowth="Bottom" Padding="0">
                 <Container Size="1,3" ID="Spacer1">
                 </Container>
-                <Label ID="ProductionHelp" Offset="0,0" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" LeadingOffset="-4" WrapWidth="230"/>
+                <Label ID="ProductionHelp" Offset="-4,0" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" LeadingOffset="-4" WrapWidth="230"/>
               </Stack>
               <!-- Scroll Controls -->
               <ScrollBar Style="VertSlider" Length="90" Offset="0.18" Anchor="R,T" AnchorSide="O,I"/>
@@ -125,73 +141,89 @@
         </Box>
 		
         <!-- Production Meter Image -->
-        <Button Anchor="L,B" Offset="0,4" Texture="TechTreeMeterBack.dds" Size="128.128" ID="ProductionPortraitButton" NoStateChange="1" ToolTip="TXT_KEY_CITYVIEW_PROD_METER_TT">
-          <Meter Anchor="L,B" Size="128,128" Texture="ProductionPanelMeter128.dds" HasShadow="1" ID="ProductionMeter"/>
-          <Image Anchor="L,B" Offset="0,0" Texture="TechTreeMeterFrame.dds" Size="128.128"/>
-		  <!-- Change Prod Image -->
-          <Image Anchor="L,B" Offset="-50,-46" Texture="UnitPortraitsAncientMedieval1024.dds" Size="256.256" ID="ProductionPortrait"/>
+        <Button Anchor="L,B" Offset="0,23" Texture="TechTreeMeterBack.dds" Size="128.128" ID="ProductionPortraitButton" NoStateChange="1" ToolTip="TXT_KEY_CITYVIEW_PROD_METER_TT">
+            
+		  <!-- bottom corner frame -->
+          <Image Anchor="L,B" Offset="-4,-52" Texture="assets\UI\Art\UnitPanel\UnitPanel.dds" Size="550.256"/>
+		  
+		  <!-- background frame -->
+		  <Image Anchor="L,B" Offset="-32,-75" Texture="ProductionPanelBack.dds" Size="256.256"/>
+		  
+		  <!-- progress bar -->
+		  <Meter Anchor="L,B" Offset="-32,-75" Size="256,256" Texture="ProductionPanelMeter.dds" HasShadow="1" Color="White,255" ID="ProductionMeter"/>
+		  
+		  <!-- second frame -->
+		  <Image Anchor="L,B" Offset="-32,-75" Texture="ProductionPanelFrame.dds" Size="256.256"/>
+		  
+		  <!-- Production Image -->
+          <Image Anchor="L,B" Offset="-32,-74" Texture="UnitPortraitsAncientMedieval1024.dds" Size="256.256" ID="ProductionPortrait"/>
+		  
         </Button>
       </Box>
 	  
 	  <!-- queue -->
+	  <!--- offset and padding y45 x50-->
 	  
-      <Box Offset="0,0" Anchor="L,T" Size="362,38" Color="255,255,255,0" ToolTip="Production Information" Hidden="0" ID="b2box">
+      <Box Offset="0,43" Anchor="L,T" Size="362,38" Color="255,255,255,0" ToolTip="Production Information" Hidden="0" ID="b2box">
         <Image Anchor="L,C" Offset="14,1" Texture="UnitPortraitsAncientMedieval360.dds" Size="45.45" ID="b2image"/>
         <Label Anchor="L,B" Offset="60,22" Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT16" FontStyle="Shadow" ID="b2name"/>
         <Label Anchor="L,B" Offset="60,6" Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT16" FontStyle="Shadow" ID="b2turns"/>
         <Label Anchor="L,B" Offset="0,6" String="2." Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT24" FontStyle="Shadow"/>
-        <Image Anchor="L,T"  Offset="0,0" TextureOffset="69.0" Texture="bar500x2.dds" Size="362.1" Color="White.128" Hidden="0"/>
+        <Image Anchor="L,T"  Offset="40,2" TextureOffset="69.0" Texture="bar500x2.dds" Size="362.1" Color="White.128" Hidden="0"/>
+
         <Button Anchor="R,T" Offset="54,7" Style="SelectedUp32" ToolTip="TXT_KEY_CITYVIEW_Q_UP_TEXT" ID="b2up"/>
         <Button Anchor="R,B" Offset="22,-2" Style="SelectedDown32" ToolTip="TXT_KEY_CITYVIEW_Q_DOWN_TEXT" ID="b2down"/>
         <Button Anchor="R,B" Size="18,18" Offset="0.7" TextureOffset="0,0" Texture="assets\UI\Art\Controls\9 Grids\NewX.dds" ToolTip="TXT_KEY_CITYVIEW_Q_X_TEXT" ID="b2remove"/>
       </Box>
-      <Box Offset="0,0" Anchor="L,T" Size="362,38" Color="255,255,255,0" ToolTip="Production Information" Hidden="0" ID="b3box">
+      <Box Offset="0,-7" Anchor="L,T" Size="362,38" Color="255,255,255,0" ToolTip="Production Information" Hidden="0" ID="b3box">
         <Image Anchor="L,C" Offset="14,1" Texture="UnitPortraitsAncientMedieval360.dds" Size="45.45" ID="b3image"/>
         <Label Anchor="L,B" Offset="60,22" Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT16" FontStyle="Shadow" ID="b3name"/>
         <Label Anchor="L,B" Offset="60,6" Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT16" FontStyle="Shadow" ID="b3turns"/>
         <Label Anchor="L,B" Offset="0,6" String="3." Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT24" FontStyle="Shadow"/>
-        <Image Anchor="L,T"  Offset="0,0" TextureOffset="69.0" Texture="bar500x2.dds" Size="362.1" Color="White.128" Hidden="0"/>
+        <Image Anchor="L,T"  Offset="40,2" TextureOffset="69.0" Texture="bar500x2.dds" Size="362.1" Color="White.128" Hidden="0"/>
+		
         <Button Anchor="R,T" Offset="54,7" Style="SelectedUp32" ToolTip="TXT_KEY_CITYVIEW_Q_UP_TEXT" ID="b3up"/>
         <Button Anchor="R,B" Offset="22,-2" Style="SelectedDown32" ToolTip="TXT_KEY_CITYVIEW_Q_DOWN_TEXT" ID="b3down"/>
         <Button Anchor="R,B" Size="18,18" Offset="0.7" TextureOffset="0,0" Texture="assets\UI\Art\Controls\9 Grids\NewX.dds" ToolTip="TXT_KEY_CITYVIEW_Q_X_TEXT" ID="b3remove"/>
       </Box>
-      <Box Offset="0,0" Anchor="L,T" Size="362,38" Color="255,255,255,0" ToolTip="Production Information" Hidden="0" ID="b4box">
+      <Box Offset="0,-7" Anchor="L,T" Size="362,38" Color="255,255,255,0" ToolTip="Production Information" Hidden="0" ID="b4box">
         <Image Anchor="L,C" Offset="14,1" Texture="UnitPortraitsAncientMedieval360.dds" Size="45.45" ID="b4image"/>
         <Label Anchor="L,B" Offset="60,22" Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT16" FontStyle="Shadow" ID="b4name"/>
         <Label Anchor="L,B" Offset="60,6" Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT16" FontStyle="Shadow" ID="b4turns"/>
         <Label Anchor="L,B" Offset="0,6" String="4." Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT24" FontStyle="Shadow"/>
-        <Image Anchor="L,T"  Offset="0,0" TextureOffset="69.0" Texture="bar500x2.dds" Size="362.1" Color="White.128" Hidden="0"/>
+        <Image Anchor="L,T"  Offset="40,2" TextureOffset="69.0" Texture="bar500x2.dds" Size="362.1" Color="White.128" Hidden="0"/>
 
         <Button Anchor="R,T" Offset="54,7" Style="SelectedUp32" ToolTip="TXT_KEY_CITYVIEW_Q_UP_TEXT" ID="b4up"/>
         <Button Anchor="R,B" Offset="22,-2" Style="SelectedDown32" ToolTip="TXT_KEY_CITYVIEW_Q_DOWN_TEXT" ID="b4down"/>
         <Button Anchor="R,B" Size="18,18" Offset="0.7" TextureOffset="0,0" Texture="assets\UI\Art\Controls\9 Grids\NewX.dds"  ToolTip="TXT_KEY_CITYVIEW_Q_X_TEXT" ID="b4remove"/>
       </Box>
-      <Box Offset="0,0" Anchor="L,T" Size="362,38" Color="255,255,255,0" ToolTip="Production Information" Hidden="0" ID="b5box">
+      <Box Offset="0,-7" Anchor="L,T" Size="362,38" Color="255,255,255,0" ToolTip="Production Information" Hidden="0" ID="b5box">
         <Image Anchor="L,C" Offset="14,1" Texture="UnitPortraitsAncientMedieval360.dds" Size="45.45" ID="b5image"/>
         <Label Anchor="L,B" Offset="60,22" Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT16" FontStyle="Shadow" ID="b5name"/>
         <Label Anchor="L,B" Offset="60,6" Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT16" FontStyle="Shadow" ID="b5turns"/>
         <Label Anchor="L,B" Offset="0,6" String="5." Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT24" FontStyle="Shadow"/>
-        <Image Anchor="L,T"  Offset="0,0" TextureOffset="69.0" Texture="bar500x2.dds" Size="362.1" Color="White.128" Hidden="0"/>
+        <Image Anchor="L,T"  Offset="40,2" TextureOffset="69.0" Texture="bar500x2.dds" Size="362.1" Color="White.128" Hidden="0"/>
 
         <Button Anchor="R,T" Offset="54,7" Style="SelectedUp32" ToolTip="TXT_KEY_CITYVIEW_Q_UP_TEXT" ID="b5up"/>
         <Button Anchor="R,B" Offset="22,-2" Style="SelectedDown32" ToolTip="TXT_KEY_CITYVIEW_Q_DOWN_TEXT" ID="b5down"/>
         <Button Anchor="R,B" Size="18,18" Offset="0.7" TextureOffset="0,0" Texture="assets\UI\Art\Controls\9 Grids\NewX.dds"  ToolTip="TXT_KEY_CITYVIEW_Q_X_TEXT" ID="b5remove"/>
       </Box>
-      <Box Offset="0,0" Anchor="L,T" Size="362,38" Color="255,255,255,0" ToolTip="Production Information" Hidden="0" ID="b6box">
+      <Box Offset="0,-7" Anchor="L,T" Size="362,38" Color="255,255,255,0" ToolTip="Production Information" Hidden="0" ID="b6box">
         <Image Anchor="L,C" Offset="14,1" Texture="UnitPortraitsAncientMedieval360.dds" Size="45.45" ID="b6image"/>
         <Label Anchor="L,B" Offset="60,22" Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT16" FontStyle="Shadow" ID="b6name"/>
         <Label Anchor="L,B" Offset="60,6" Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT16" FontStyle="Shadow" ID="b6turns"/>
         <Label Anchor="L,B" Offset="0,6" String="6." Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT24" FontStyle="Shadow"/>
-        <Image Anchor="L,T"  Offset="0,0" TextureOffset="69.0" Texture="bar500x2.dds" Size="362.1" Color="White.128" Hidden="0"/>
+        <Image Anchor="L,T"  Offset="40,2" TextureOffset="69.0" Texture="bar500x2.dds" Size="362.1" Color="White.128" Hidden="0"/>
 
         <Button Anchor="R,T" Offset="54,0" Style="SelectedUp32" ToolTip="TXT_KEY_CITYVIEW_Q_UP_TEXT" ID="b6up"/>
         <Button Anchor="R,B" Offset="22,-9" Style="SelectedDown32" ToolTip="TXT_KEY_CITYVIEW_Q_DOWN_TEXT" ID="b6down"/>
         <Button Anchor="R,B" Size="18,18" Offset="0.14" TextureOffset="0,0" Texture="assets\UI\Art\Controls\9 Grids\NewX.dds"  ToolTip="TXT_KEY_CITYVIEW_Q_X_TEXT" ID="b6remove"/>
       </Box>
     </Stack>
+	
     <!-- Queue Button -->
-    <!--<Box Anchor="L,B" Color="27.53.64.255" Offset="20,74" Size="362,1"/>-->
-    <CheckBox Style="SquareCheck" Anchor="L,B" Offset="121,36" TextAnchor="L,C" Font="TwCenMT18" String="TXT_KEY_CITYVIEW_QUEUE_O" IsChecked="0" ToolTip="TXT_KEY_CITYVIEW_QUEUE_O_TT" ID="HideQueueButton"/>
+    <!--<Box Anchor="L,B" Color="27.53.64.255" Offset="20,74" Size="362,1"/>  x230+120  x470 -->
+    <CheckBox Style="SquareCheck" Anchor="L,B" Offset="470,35" TextAnchor="L,C" Font="TwCenMT18" String="TXT_KEY_CITYVIEW_QUEUE_O" IsChecked="0" ToolTip="TXT_KEY_CITYVIEW_QUEUE_O_TT" ID="HideQueueButton"/>
  
 
 
@@ -259,16 +291,24 @@
 	<Image Anchor="L,T" Size="128,128" Offset="206,19" Texture="leaderportraits1024frame.dds" ID="CityLevelFrame" Hidden="1">
 		<!-- City Level -->
 		<Image Anchor="C,C" Size="128,128" ID="CityLevelImage"/>
+    <Image Anchor="C,C" Offset="40,42" Texture="Art/Icons/HelpButton_32.dds" Size="32.32" ToolTip="TXT_KEY_CITY_LEVEL_HELP"/>
 		<!-- Civ Icon  -->
 		<Image Anchor="R,T" Offset="-22,9" Texture="IconFrame64.dds" Size="64.64" ID="CivIconFrame">
 			<Image ID="CivIconBG" Size="64.64" Anchor="C,C" Offset="-1,-1" Texture="CivIconBGSizes.dds"/>
 			<Image ID="CivIconShadow" Size="48.48" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas48.dds" Color="Black.128"/>
 			<Image ID="CivIcon" Size="48,48" Offset="0,0" Anchor="C,C" Texture="CivSymbolsColor512.dds"/>
+      <!--
+      <Image Anchor="C,C" Offset="10,10" Texture="Art/Icons/HelpButton_32.dds" Size="32.32" ToolTip="TXT_KEY_UNIT_PRODUCTION_HELP"/>
+      -->
 		</Image>
 		<!-- City Hall -->
 		<Image Anchor="L,B" Offset="0,-22" Texture="IconFrame64.dds" Size="64.64" ID="CityHallFrame">
 			<Button NoStateChange="1" Anchor="C,C" Size="64,64" ID="CityHallButton" ToolTip="Placeholder Tooltip">
 				<Image Anchor="C,C" Texture="WonderAtlas512.dds" Size="64,64" ID="CityHallImage"/>
+        <Image Anchor="C,C" Offset="23,28" Texture="Art/Icons/HelpButton_32.dds" Size="32.32" ToolTip="TXT_KEY_CITY_POLICE_LEVEL_HELP"/>
+        <!--
+        <Image Anchor="C,C" Offset="10,10" Texture="Art/Icons/HelpButton_32.dds" Size="32.32" ToolTip="TXT_KEY_UNIT_PRODUCTION_HELP"/>
+        -->
 			</Button>
 		</Image>
 	</Image>
@@ -382,6 +422,7 @@
         <!-- City Focus -->
         <Button Anchor="L,B" Size="254,27" Offset="2,0" Texture="CivilopediaButtons272x27.dds" ID="WorkerHeader">
           <Label Anchor="L,C" Offset="12,-2" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="WorkerHeaderLabel"/>
+          <Image Anchor="R,C" Offset="-4,0" Texture="Art/Icons/tooltip_32.dds" Size="32.32" ToolTip="TXT_KEY_CITY_FOCUS_HELP"/>
         </Button>
         <Stack Anchor="L,T" Offset="0,0" Size="64,64" StackGrowth="Bottom" Padding="0" ID="WorkerManagementBox" Hidden="1">
 		  <!-- Focus Buttons changed into one (slightly smaller) Box -->
@@ -432,10 +473,14 @@
 		  
 		  <Box Anchor="L,B" Color="27.53.64.255" Offset="0,0" Size="254,2"/>
 		  
-
+			
+		  <!-- specialist buildings -->		  
+		  
 		  <Stack Anchor="L,T" Size="0,0" StackGrowth="B" Padding="0" ID="BuildingStack">
+          
           <Button Anchor="L,C" Size="254,27" Offset="2,0" Texture="CivilopediaButtons272x27.dds" ID="SpecialBuildingsHeader">
             <Label Anchor="L,C" Offset="12,-2" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="SpecialBuildingsHeaderLabel"/>
+            <Image Anchor="R,C" Offset="-4,0" Texture="Art/Icons/tooltip_32.dds" Size="32.32" ToolTip="TXT_KEY_SPECIALIST_HELP"/>
           </Button>
           <Box Anchor="L,C" Color="White.0" Offset="0,0" Size="254,32" ID="SpecialistControlBox">
             <Label Anchor="R,T" Offset="64,8" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
@@ -451,6 +496,7 @@
 		  
           <Button Anchor="L,C" Size="254,27" Offset="2,0" Texture="CivilopediaButtons272x27.dds" ID="WondersHeader">
             <Label Anchor="L,C" Offset="12,-2" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="WondersHeaderLabel"/>
+            <Image Anchor="R,C" Offset="-4,0" Texture="Art/Icons/tooltip_32.dds" Size="32.32" ToolTip="TXT_KEY_WONDER_DETAIL_HELP"/>
           </Button>
           <Box Anchor="L,C" Color="White.0" Offset="0,0" Size="254,32" ID="SpecialistControlBox2">
             <Label Anchor="R,T" Offset="64,8" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
@@ -463,6 +509,7 @@
 		  
           <Button Anchor="L,C" Size="254,27" Offset="2,0" Texture="CivilopediaButtons272x27.dds" ID="BuildingsHeader">
             <Label Anchor="L,C" Offset="12,-2" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="BuildingsHeaderLabel"/>
+            <Image Anchor="R,C" Offset="-4,0" Texture="Art/Icons/tooltip_32.dds" Size="32.32" ToolTip="TXT_KEY_BUILDING_PRODUCTION_HELP"/>
           </Button>
 
 		<Box Anchor="L,B" Color="27.53.64.255" Offset="0,0" Size="254,2"/>
@@ -480,8 +527,10 @@
     <Meter Anchor="C,C" Size="128,128" Texture="TechGold1024Frame.dds" HasShadow="1" ID="GrowthMeter"/>
     <Image Anchor="C,C" Offset="0,0" Texture="TechGold1024Frame.dds" Size="128.128"/>
   </Image>
-  <!-- Bottom Panel Bar -->
+  <!-- Bottom Panel Bar 
   <Image Anchor="C,B" Texture="assets\UI\Art\WorldView\BottomPanelBar.dds" Size="Full.32"/>
+  -->
+  
   <!-- Sell Building Confirmation Popup -->
   <Box Color="Black.100" Size="Full.Full" ID="SellBuildingConfirm" Hidden="1" ConsumeMouseOver="1">
     <Grid Size="500,410" Anchor="C,C" Offset="0,0" Padding="0,20" Style="Grid9DetailFive140" Hidden="0">

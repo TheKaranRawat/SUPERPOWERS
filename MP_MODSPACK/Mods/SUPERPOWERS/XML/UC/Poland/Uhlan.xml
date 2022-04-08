@@ -83,18 +83,12 @@
 			<UnitType>UNIT_UHLAN</UnitType>
 			<PromotionType>PROMOTION_SHOCK_CHARGER</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_UHLAN</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_UHLAN</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_UHLAN</UnitType>
-			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
-		</Row>
+		
 	</Unit_FreePromotions>
 
 	<Unit_ResourceQuantityRequirements>

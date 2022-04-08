@@ -43,10 +43,7 @@
 		</Unit_ResourceQuantityRequirements>
 
 	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_GOLDENHORDE</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_GOLDENHORDE</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
@@ -59,10 +56,7 @@
 			<UnitType>UNIT_GOLDENHORDE</UnitType>
 			<PromotionType>PROMOTION_FORMATION_2</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_GOLDENHORDE</UnitType>
-			<PromotionType>PROMOTION_EXTRA_MOVES_I</PromotionType>
-		</Row>
+		
 	</Unit_FreePromotions>
 
 	<Unit_AITypes>

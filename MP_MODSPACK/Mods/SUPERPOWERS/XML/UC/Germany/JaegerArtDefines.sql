@@ -61,9 +61,7 @@ VALUES		('CIVILIZATION_GERMANY', 	'UNITCLASS_RIFLEMAN', 	'UNIT_4UC_JAEGER');
 --==========================================================================================================================	
 INSERT OR REPLACE INTO UnitPromotions_UnitCombats
 			(PromotionType,				UnitCombatType)
-VALUES		('PROMOTION_SURVIVALISM_2',	'UNITCOMBAT_GUN'),
-			('PROMOTION_SURVIVALISM_3',	'UNITCOMBAT_GUN'),
-			('PROMOTION_SCOUTING_2',	'UNITCOMBAT_GUN'),
+VALUES		('PROMOTION_SCOUTING_2',	'UNITCOMBAT_GUN'),
 			('PROMOTION_SCOUTING_3',	'UNITCOMBAT_GUN');
 			--==========================================================================================================================
 -- Units
@@ -98,8 +96,7 @@ FROM Unit_Flavors WHERE (UnitType = 'UNIT_RIFLEMAN');
 --==========================================================================================================================	
 INSERT OR REPLACE INTO Unit_FreePromotions 
 			(UnitType, 				PromotionType)
-VALUES		('UNIT_4UC_JAEGER', 	'PROMOTION_SURVIVALISM_1'),
-			('UNIT_4UC_JAEGER',		'PROMOTION_SCOUTING_1');
+VALUES		('UNIT_4UC_JAEGER',		'PROMOTION_SCOUTING_1');
 --==========================================================================================================================
 -- Unit_ClassUpgrades
 --==========================================================================================================================	

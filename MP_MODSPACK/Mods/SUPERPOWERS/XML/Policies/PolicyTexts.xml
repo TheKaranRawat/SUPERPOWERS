@@ -5,7 +5,17 @@
 	<!--************************* Policy Info Change *************************** -->
 
 	<Language_en_US>
-		<!--*************** Tradition******************** -->
+		
+
+		<!--  ****************   T R A D I T I O N ****************   -->
+
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_TRADITION">
+			<Text>Tradition</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_TRADITION_CAP">
+			<Text>TRADITION</Text>
+		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_TRADITION_HELP" >
 			<Text>
@@ -14,7 +24,7 @@
 				[NEWLINE][ICON_BULLET]+8 [ICON_CULTURE] and +8 [ICON_RESEARCH] Science in the [ICON_CAPITAL] Capital.
 				[NEWLINE][ICON_BULLET]-50% [ICON_CULTURE] Culture Exponent cost for acquiring new plots in all cities.
 				[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]Amount of [ICON_HAPPINESS_4] Unhappiness from number of cities increased by 50%.[ENDCOLOR]
-				[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]Culture cost of acquiring new [ICON_CULTURE]policies increased by 15% for every city.[ENDCOLOR]
+				[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]Culture cost of acquiring new [ICON_CULTURE]policies increased by 10% for every city.[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Wonder Unlocked: Hanging Gardens.
 				[NEWLINE][ICON_BULLET]Building Unlocked: Public Baths.
 				[NEWLINE][NEWLINE]Finishing Bonus:
@@ -63,12 +73,7 @@
 				[NEWLINE][ICON_BULLET]-50% extra [ICON_HAPPINESS_4] Unhappiness due to city's Population Size.
 				[NEWLINE][ICON_BULLET]+30% [ICON_RES_MANPOWER] Manpower provided by cities Population Size.
 			</Text>
-		</Replace>
-
-		
-		
-		
-		
+		</Replace>		
 		
 		
 		<Row Tag="TXT_KEY_POLICY_PREFECTURE">
@@ -126,7 +131,15 @@
 		</Row>
 
 
-		<!--*******************Liberty********************* -->
+		<!--  ****************   L I B E R T Y ****************   -->
+
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_LIBERTY">
+			<Text>Liberty</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_CAP">
+			<Text>LIBERTY</Text>
+		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_HELP">
 			<Text>
@@ -144,8 +157,7 @@
 				[NEWLINE][ICON_BULLET]Starts a Golden Age.
 				[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Tradition.[ENDCOLOR]
 			</Text>
-		</Replace>
-		
+		</Replace>		
 		
 		<Replace Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP" >
 			<Text>
@@ -238,20 +250,32 @@
 		</Replace>
 		
 
-		
+
+		<!--  ****************   H O N O R ****************   -->
+
+
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_HONOR">
+			<Text>Honor</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_HONOR_CAP">
+			<Text>HONOR</Text>
+		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP" >
 			<Text>
 				[COLOR_POSITIVE_TEXT]Honor[ENDCOLOR] is designed for militaristic empires.
 
 				[NEWLINE][NEWLINE]Opening Effect:
-				[NEWLINE][ICON_BULLET]Gain [ICON_GOLD] Gold for killing enemy units (50% of its [ICON_STRENGTH] Combat Strength).
+				[NEWLINE][ICON_BULLET]Gain [ICON_GOLD] Gold for killing enemy units (100% of its [ICON_STRENGTH] Combat Strength).
 				[NEWLINE][ICON_BULLET]World Wonder Unlocked: The Statue of Zeus.
 				[NEWLINE][ICON_BULLET]National Wonder Unlocked: Heroic Epic.
-				[NEWLINE][ICON_BULLET]BuildingUnlocked: Stronghold.
+				[NEWLINE][ICON_BULLET]Building Unlocked: Stronghold.
 				[NEWLINE][NEWLINE]Finishing Bonus:
 				[NEWLINE][ICON_BULLET]Gain [ICON_CULTURE] Culture when you kill an enemy unit (50% of its [ICON_STRENGTH] Combat Strength).
-				[NEWLINE][ICON_BULLET]It also allows the purchase of Great Generals with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+				[NEWLINE][ICON_BULLET]It also allows the purchase of Great Generals with [ICON_PEACE] Faith starting in the Industrial Era.
+				[NEWLINE][ICON_BULLET]Reduce unit [ICON_GOLD] Gold maintenance by 10%.
+				</Text>
 		</Replace>
 		
 		<Row Tag="TXT_KEY_POLICY_HORSEMAN_TRAINING">
@@ -272,6 +296,7 @@
 				[COLOR_POSITIVE_TEXT]Warrior Code[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]A Great General appears outside the [ICON_CAPITAL] Capital.
 				[NEWLINE][ICON_BULLET]Great Generals are earned 50% faster.
+				[NEWLINE][ICON_BULLET]Increases the [ICON_STRENGTH] Strength of city strikes by 33%.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DISCIPLINE_HELP" >
@@ -297,7 +322,7 @@
 			<Text>
 				[COLOR_POSITIVE_TEXT]Military Tradition[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Military Units gain 50% more Experience from combat.
-				[NEWLINE][ICON_BULLET]-33% [ICON_GOLD] Gold Cost for Unit Upgrade.
+				[NEWLINE][ICON_BULLET]-50% [ICON_GOLD] Gold Cost for Unit Upgrade.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY">
@@ -305,13 +330,24 @@
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP" >
 			<Text>[COLOR_POSITIVE_TEXT]Professional Army[ENDCOLOR]
-			[NEWLINE][ICON_BULLET]New Units receive +15 XP. </Text>
+			[NEWLINE][ICON_BULLET]New Units receive +30 XP. </Text>
 		</Replace>
 		<!--<Replace Tag="TXT_KEY_POLICY_PROFESSIONALARMY_TEXT" >
 			<Text>In a society with a military caste, all members of the military are from a specific tribe, nationality, religion, or other socio-economic subgroup. Citizens who are not part of the caste are forbidden from joining the military and often from carrying any weapons at all, often because the military caste fears that the citizens might use the weapons against them. Much of feudal Japan was under a military caste system, as was ancient Sparta.</Text>
 		</Replace>-->
 		
-		
+
+
+		<!--  ****************   P I E T Y ****************    -->
+
+
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_PIETY">
+			<Text>Piety</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_PIETY_CAP">
+			<Text>PIETY</Text>
+		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
 			<Text>
@@ -369,8 +405,17 @@
 		</Row>
 		
 		
-		
+
+		<!--  ****************   P A T R O N A G E  ****************   -->
 	
+
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE">
+			<Text>Patronage</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_CAP">
+			<Text>PATRONAGE</Text>
+		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP" >
 			<Text>
@@ -440,6 +485,17 @@
 
 
 
+		<!--  ****************   A E S T H E T I C S  ****************   -->
+
+
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS">
+			<Text>Aesthetics</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_CAP">
+			<Text>AESTHETICS</Text>
+		</Replace>
+
 
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP">
 			<Text>
@@ -508,7 +564,17 @@
 		</Row>
 		
 		
-		
+
+		<!--  ****************   C O M M E R C E  ****************   -->
+
+
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_COMMERCE">
+			<Text>Commerce</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_CAP">
+			<Text>COMMERCE</Text>
+		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP" >
 			<Text>
@@ -525,9 +591,7 @@
 				[NEWLINE][ICON_BULLET]Allows the purchase of Great Merchants with [ICON_PEACE] Faith starting in the Industrial Era.
 
 			</Text>
-		</Replace>
-		
-		
+		</Replace>		
 		
 		<Replace Tag="TXT_KEY_POLICY_CARAVANS_HELP" >
 			<Text>
@@ -569,7 +633,7 @@
 			<Text>
 				[COLOR_POSITIVE_TEXT]Protectionism[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]-50% [ICON_GOLD] Maintenance Cost for Roads and Railroads .
-				[NEWLINE][ICON_BULLET]+50% [ICON_FOOD] Food and [ICON_PRODUCTION] Production provided by Internal trade routes.
+				[NEWLINE][ICON_BULLET]+250% [ICON_FOOD] Food and [ICON_PRODUCTION] Production provided by Internal trade routes.
 			</Text>
 		</Replace>
 		
@@ -587,12 +651,18 @@
 		</Row>
 
 
+
+		<!--  ****************   M A R I T I M E  ****************   -->
+
+
 		<!--<Replace Tag="TXT_KEY_EXPLORATION_TITLE">
 			<Text>MARITIME</Text>
 		</Replace>-->
+
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION">
 			<Text>Maritime</Text>
 		</Replace>
+
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_CAP">
 			<Text>MARITIME</Text>
 		</Replace>
@@ -613,13 +683,7 @@
 				[NEWLINE][ICON_BULLET]Great Admirals are earned 50% faster.
 				[NEWLINE][ICON_BULLET]Allows the purchase of Great Admirals with [ICON_PEACE] Faith starting in the Industrial Era.
 			</Text>
-
-
-		</Replace>
-
-
-		
-		
+		</Replace>		
 
 		<Replace Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE_HELP" >
 			<Text>
@@ -674,11 +738,19 @@
 		<Replace Tag="TXT_KEY_POLICY_TREASURE_FLEETS_TEXT">
 			<Text>The term thalassocracy (from Greek language θάλασσα (thalassa), meaning "sea", and κρατεῖν (kratein), meaning "to rule", giving θαλασσοκρατία (thalassokratia), "rule of the sea") refers to a state with primarily maritime realms—an empire at sea, such as the Phoenician network of merchant cities. Traditional thalassocracies seldom dominate interiors, even in their home territories (for example: Phoenician Tyre, Sidon and Carthage or Srivijaya and Majapahit in Southeast Asia).</Text>
 		</Replace>
-		
-		
 
 		
+		
+		<!--  ****************   R A T I O N A L I S M  ****************   -->		
 
+
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM">
+			<Text>Rationalism</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_CAP">
+			<Text>RATIONALISM</Text>
+		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP" >
 			<Text>
@@ -744,11 +816,10 @@
 		</Replace>
 
 
+		<!--  ****************   I D E O L O G Y   T R A I T S  ****************   -->
 
 
-
-
-
+		<!--  ****************   F R E E D O M   ****************   -->
 
 		<Replace Tag="TXT_KEY_POLICY_COVERT_ACTION_HELP" >
 			<Text>[COLOR_POSITIVE_TEXT]Covert Action[ENDCOLOR][NEWLINE]Spies have double the chance to successfully rig City-State elections and to capture an enemy spy attempting to steal a technology.</Text>
@@ -829,9 +900,7 @@
 		</Replace>
 
 
-
-
-
+		<!--  ****************   O R D E R  ****************   -->
 
 		<Replace Tag="TXT_KEY_POLICY_DOUBLE_AGENTS" >
 			<Text>Planned Economy</Text>
@@ -908,7 +977,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Dictatorship of the Proletariat[ENDCOLOR][NEWLINE]+1 Level up for all Lv2 - Lv5 cities. (NOT stack with any Trait Effect) All previous [COLOR_POSITIVE_TEXT]Anti-corruption and Public Security Buildings[ENDCOLOR] will also change automatically. </Text>
+			<Text>[COLOR_POSITIVE_TEXT]Dictatorship of the Proletariat[ENDCOLOR][NEWLINE]+1 Level up for all Lv2 - Lv5 cities. (NOT stack with any Trait Effect) All previous [COLOR_POSITIVE_TEXT]Administrative Buildings[ENDCOLOR] will also change automatically. </Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_IRON_CURTAIN_HELP" >
@@ -916,7 +985,7 @@
 		</Replace>
 
 		
-		
+		<!--  ****************   A U T O C R A C Y  ****************   -->
 		
 		
 		<Replace Tag="TXT_KEY_POLICY_FUTURISM_HELP" >
@@ -962,7 +1031,7 @@
 
 
 		<Replace Tag="TXT_KEY_POLICY_POLICE_STATE_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Police State[ENDCOLOR][NEWLINE]+10 [ICON_HAPPINESS_1] Local Happiness from every Courthouse, Constabulary, Sheriff Office, Police Station and Procuratorate. -50% extra [ICON_GOLD] Maintenance Cost added by cities' [ICON_CITIZEN] Population for these buildings.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Police State[ENDCOLOR][NEWLINE]+10 [ICON_HAPPINESS_1] Local Happiness from every Courthouse, Constabulary, Sheriff Office, Police Station and Consulate. -50% extra [ICON_GOLD] Maintenance Cost added by cities' [ICON_CITIZEN] Population for these buildings.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_CULT_PERSONALITY_HELP" >

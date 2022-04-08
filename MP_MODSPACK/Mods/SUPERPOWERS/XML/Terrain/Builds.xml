@@ -185,6 +185,7 @@
 		<Delete BuildType="BUILD_MOAI"/>
 		<Delete BuildType="BUILD_FEITORIA"/>
 
+		<!--
 		<Row>
 			<BuildType>BUILD_FW_COMM_ARRAY</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
@@ -206,6 +207,8 @@
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 			<Time>600</Time>
 		</Row>
+		-->
+
 		<Row>
 			<BuildType>BUILD_FW_GENOCENTRE</BuildType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
@@ -389,10 +392,14 @@
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_FW_PRESERVE</BuildType>
 		</Row>
+
+		<!--
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_FW_COMM_ARRAY</BuildType>
 		</Row>
+		-->
+		
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_FW_INDUSTRIAL_COMPLEX</BuildType>

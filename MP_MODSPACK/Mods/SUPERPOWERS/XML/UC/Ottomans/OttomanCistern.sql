@@ -56,7 +56,7 @@ FROM Building_ResourceQuantityRequirements WHERE BuildingType = 'BUILDING_AQUEDU
 ------------------------------
 INSERT INTO Building_YieldModifiers 	
 			(BuildingType, YieldType, Yield)
-VALUES ('BUILDING_5UC_CISTERN', 'YIELD_FOOD', 10);
+VALUES ('BUILDING_5UC_CISTERN', 'YIELD_FOOD', 25);
 
 ------------------------------	
 -- Building_ResourceYieldChanges

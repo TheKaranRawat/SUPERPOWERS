@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Released under GPL v3 -->
+<Context>
+	<Container ID="CityBanners" Size="F,F"/>
+
+	<Instance  Name="CityBanner">
+		<WorldAnchor ID="Anchor" >
+
+			<!-- CityBannerButton -->
+			<Button Anchor="C,C" Offset="0,0" TextureOffset="0,0"  Size="111,40"  ID="BannerButton">
+				<Image Anchor="C,C" Offset="0,0" TextureOffset="0,0"  Size="32,32" Texture="Assets/UI/Art/Icons/CityBannerBackground.dds" ID="CityBannerBackground" Hidden="0"  />
+				<Image Anchor="C,C" Offset="0,0" TextureOffset="0,0" Size="32,32" Texture="Assets/UI/Art/Icons/CityBannerFrame.dds" ID="CityBannerBaseFrame" Hidden="0"/>
+
+				<!-- Left background + population -->
+				<Image Anchor="L,C"  AnchorSide="O,I" Size="32,32" Color="Black.180" Texture="Assets/UI/Art/Icons/CityBannerLeftBackground.dds" ID="LeftBackground" >
+					<Image Anchor="C,C"  Size="32,32" Texture="Assets/UI/Art/Icons/CityBannerLeftBackgroundHL.dds" />
+					<Image Anchor="C,C"  Size="32,32" Texture="Assets/UI/Art/Icons/CityBannerFrameLeft.dds" />
+					<Label  Anchor="C,C" Offset="0,-1" Font="TwCenMT20" Color0="255,255,200,255" Color1="Black,255"  FontStyle="Stroke" ID="CityPopulation" Hidden="0" ForceNonIME="1" />
+				</Image>
+
+				<!-- Right background -->
+				<Image Anchor="R,C"  AnchorSide="O,I" Size="32,32"  Color="Black.180" Texture="Assets/UI/Art/Icons/CityBannerRightBackground.dds" ID="RightBackground" >
+					<Image Anchor="C,C"  Size="32,32" Texture="Assets/UI/Art/Icons/CityBannerRightBackgroundHL.dds" />
+					<Image Anchor="C,C"  Size="32,32" Texture="Assets/UI/Art/Icons/CityBannerFrameRight.dds" />
+					<Button NoStateChange="1" Anchor="L,C"    Size="48,64" Texture="Assets/UI/Art/Icons/CityBannerProductionBackground.dds" Hidden="0" ID="CityBannerProductionButton"/>
+					<Image NoStateChange="1" Anchor="C,C"    Offset="0,0" Size="45,45" Texture="Assets/UI/Art/Icons/CityBannerProductionImage.dds" Hidden="0" ID="CityBannerProductionImage"/>
+				</Image>
+			</Button>
+
+			<!-- Background overlay -->
+			<Image Anchor="C,C" Offset="0,0" TextureOffset="0,0" Size="111,32" Texture="Assets/UI/Art/Icons/CityBannerBackgroundHL.dds" ID="CityBannerBackgroundHL" Hidden="0" >
+
+				<!-- GrowthMeter CityBannerGrowthBackground -->
+				<Box Anchor="L,C" Offset="0,0" Size="6,30" Color="0,0,0,255" Hidden="0" ID="GrowthBox">
+					<Bar Anchor="C,B" Offset="0,0" Size="4,30" FGColor="Food,128" Hidden="0" ID="GrowthBarShadow" Direction="Up" />
+					<Bar Anchor="C,B" Offset="0,0" Size="4,30" FGColor="Food,255" Hidden="0" ID="GrowthBar" Direction="Up" />
+					<Box Anchor="L,C" Offset="0,0" Size="3,30" Color="0,0,0,64" Hidden="0" />
+					<Label Anchor="R,B" AnchorSide="O.I" Offset="1,2" Color0="Food,255" Color1="0,0,0,200" Font="TwCenMT14" FontStyle="Stroke" ForceNonIME="1" ID="CityGrowth" Hidden="0"/>
+				</Box>
+
+				<!-- ProductionMeter  -->
+				<Box Anchor="R,C" Offset="0,0" Size="6,30" Color="0,0,0,255" Hidden="0">
+					<Bar Anchor="C,B" Offset="0,0" Size="4,30" FGColor="Production,128" Hidden="0" ID="ProductionBarShadow" Direction="Up" />
+					<Bar Anchor="C,B" Offset="0,0" Size="4,30" FGColor="Production,255" Hidden="0" ID="ProductionBar" Direction="Up" />
+					<Box Anchor="L,C" Offset="0,0" Size="3,30" Color="0,0,0,64" Hidden="0" />
+					<Label Anchor="L,B" AnchorSide="O.I" Offset="1,2" Color0="Production,255" Color1="0,0,0,200" Font="TwCenMT14" FontStyle="Stroke" ForceNonIME="1" ID="BuildGrowth" Hidden="0"/>
+				</Box>
+
+				<!-- Status Meter-->
+				<Image ID="StatusMeterFrame" Anchor="C,B" Offset="0,-6" AnchorSide="O.I"  Texture="Assets/UI/Art/Notification/CityStateMeterBase.dds" Size="156.7"  Hidden="1" >
+					<TextureBar ID="StatusMeter" Anchor="C,C" Size="156.7" Direction="Right" Texture="Assets/UI/Art/Notification/CityStateMeterBaseRed.dds" Hidden="0" />
+				</Image>
+			</Image>
+
+			<!-- CityProductionName -->
+			<Label  Anchor="C,C" Offset="0,6" Font="TwCenMT14" FontStyle="Base"   ID="CityProductionName" Hidden="1"/>
+
+			<!-- CityName -->
+			<Box Color="0,0,0,0" Size="160,40" Anchor="C,C">
+				<!-- CityName -->
+				<Stack ID="NameStack" Anchor="C,C" Offset="0,0" StackGrowth="Right" Padding="2">
+					<Label Anchor="L,C" Offset="0,-1" Font="TwCenMT18" FontStyle="Shadow" ID="CityName" Hidden="0"/>
+					<Container Size="32,32" Hidden="0" ID="ReligiousIconContainer">
+						<Image Anchor="L,C" ID="ReligiousIconShadow" Offset="1,1" Color="0,0,0,255" Size="32,32"/>
+						<Image Anchor="L,C" ID="ReligiousIcon" Offset="0,0" Color="255,255,255,255" Size="32,32"/>
+					</Container>
+				</Stack>
+			</Box>
+
+			<!-- CityBannerHealthBar CityBannerStrengthFrame CityCapitalIcon CityStrength -->
+			<Box Anchor="C,C" Offset="0,-32"  Size="128,48" Color="0.0.0.0" Hidden="0" >
+
+				<!-- CityBannerHealthBarBase color needs Color="255,255,0,255" when its the Capital -->
+				<Box Anchor="C,B"  Offset="0,1" Size="102,7" Color="255,255,200,255" ID="CityBannerHealthBarBase" Hidden="1"  >
+					<Box Anchor="C,C"  Offset="0,0" Size="100,5" Color="0,0,0,255" Hidden="0"  />
+					<Bar Anchor="C,C" Offset="0,0" Size="98,3" Direction="Right" FGColor="Green,255" ID="CityBannerHealthBar" Hidden="0" />
+					<Box Anchor="C,T" Offset="0,1" Size="98,1" Color="255,255,255,64" Hidden="0" />
+					<Box Anchor="C,B" Offset="0,0" Size="98,2" Color="0,0,0,64" Hidden="0" />
+				</Box>
+
+				<!-- City strength  -->
+				<Image Anchor="C,C" Offset="0,3"  Size="128,48" Texture="Assets/UI/Art/Icons/CityBannerStrengthFrameOther.dds"  Hidden="0" />
+				<Box Anchor="C,C" Offset="0,5"  Size="64,24" Color="0,0,0,0" Hidden="0" ConsumeMouse="0" ToolTip="TXT_KEY_CITYVIEW_CITY_COMB_STRENGTH_TT"/>
+				<Label Anchor="C,C"  Offset="6,8" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Stroke" ForceNonIME="1" ID="CityStrength" Hidden="0"/>
+			</Box>
+
+			<!-- List of Icons -->
+			<Stack ID="IconsStack" Anchor="C,C" Offset="0,30" StackGrowth="Right" Padding="3">
+				<Label ID="RazingIcon"      Anchor="C,C" Offset="0,0" String="[ICON_RAZING]"        Hidden="1"/>
+				<Label ID="ResistanceIcon"  Anchor="C,C" Offset="0,0" String="[ICON_RESISTANCE]"    Hidden="1"/>
+				<Label ID="ConnectedIcon"   Anchor="C,C" Offset="0,0" String="[ICON_CONNECTED]"     Hidden="1"/>
+				<Label ID="BlockadedIcon"   Anchor="C,C" Offset="0,0" String="[ICON_BLOCKADED]"     Hidden="1"/>
+				<Label ID="PuppetIcon"      Anchor="C,C" Offset="0,0" String="[ICON_PUPPET]"        Hidden="1"/>
+				<Label ID="OccupiedIcon"    Anchor="C,C" Offset="0,0" String="[ICON_OCCUPIED]"      Hidden="1"/>
+			</Stack>
+		</WorldAnchor>
+	</Instance>
+</Context>

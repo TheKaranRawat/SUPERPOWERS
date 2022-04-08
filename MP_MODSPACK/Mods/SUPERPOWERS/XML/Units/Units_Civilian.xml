@@ -9,7 +9,7 @@
 			<ID>0</ID>
 			<Class>UNITCLASS_SETTLER</Class>
 			<Type>UNIT_SETTLER</Type>
-			<Moves>4</Moves>
+			<Moves>2</Moves>
 			<BaseSightRange>1</BaseSightRange>
 			<!--<Capture>UNITCLASS_WORKER</Capture>-->
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH_EARLY_GAME_ONLY</CivilianAttackPriority>
@@ -575,7 +575,7 @@
 			<Cost>-1</Cost>
 			<Moves>4</Moves>
 			<BaseGold>1000</BaseGold>
-			<NumGoldPerEra>400</NumGoldPerEra>
+			<NumGoldPerEra>2000</NumGoldPerEra>
 			<Capture>UNITCLASS_PROPHET</Capture>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
 			<Special>SPECIALUNIT_PEOPLE</Special>
@@ -589,7 +589,7 @@
 			<CombatLimit>0</CombatLimit>
 			<FoundReligion>true</FoundReligion>
 			<SpreadReligion>true</SpreadReligion>
-			<ReligionSpreads>4</ReligionSpreads>
+			<ReligionSpreads>6</ReligionSpreads>
 			<ReligiousStrength>3000</ReligiousStrength>
 			<UnitArtInfo>ART_DEF_UNIT_GREAT_PROPHET</UnitArtInfo>
 			<UnitFlagIconOffset>94</UnitFlagIconOffset>
@@ -629,8 +629,11 @@
 		<Row>
 			<Class>UNITCLASS_INQUISITOR</Class>
 			<Type>UNIT_HUN_SHAMAN</Type>
-			<Cost>85</Cost>
+			<Cost>15</Cost>
 			<FaithCost>55</FaithCost>
+			<!--
+			
+			-->
 			<Moves>4</Moves>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
 			<Domain>DOMAIN_LAND</Domain>
@@ -682,6 +685,9 @@
 			<Type>UNIT_SIAMESE_MONK</Type>
 			<Cost>-1</Cost>
 			<FaithCost>120</FaithCost>
+			<!--
+			
+			-->
 			<Moves>5</Moves>
 			<Capture>UNITCLASS_MISSIONARY</Capture>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>

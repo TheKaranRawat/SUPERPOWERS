@@ -48,7 +48,7 @@
 			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>30</UnitFlagIconOffset>
 			<MoveRate>QUADRUPED</MoveRate>
-			<ExtraMaintenanceCost>45</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>130</ExtraMaintenanceCost>
 			
 		</Row>
 	</Units>
@@ -90,18 +90,12 @@
 	</Unit_Flavors>
 
 	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
-			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
 			<PromotionType>PROMOTION_FORMATION_1</PromotionType>

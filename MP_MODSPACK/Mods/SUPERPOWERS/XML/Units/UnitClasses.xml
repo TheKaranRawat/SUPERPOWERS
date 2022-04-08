@@ -1151,11 +1151,14 @@
 			<Description>TXT_KEY_UNIT_FW_HOVERTANK</Description>
 			<DefaultUnit>UNIT_FW_HOVERTANK</DefaultUnit>
 		</Row>
+
+		<!--
 		<Row>
 			<Type>UNITCLASS_FW_CYBERSUB</Type>
 			<Description>TXT_KEY_UNIT_FW_CYBERSUB</Description>
 			<DefaultUnit>UNIT_FW_CYBERSUB</DefaultUnit>
 		</Row>
+
 		<Row>
 			<Type>UNITCLASS_FW_MISSILE_DESTROYER</Type>
 			<Description>TXT_KEY_UNIT_FW_MISSILE_DESTROYER</Description>
@@ -1166,16 +1169,23 @@
 			<Description>TXT_KEY_UNIT_FW_NEODESTROYER</Description>
 			<DefaultUnit>UNIT_FW_NEODESTROYER</DefaultUnit>
 		</Row>
+
 		<Row>
 			<Type>UNITCLASS_FW_ARSENAL_SHIP</Type>
 			<Description>TXT_KEY_UNIT_FW_ARSENAL_SHIP</Description>
 			<DefaultUnit>UNIT_FW_ARSENAL_SHIP</DefaultUnit>
 		</Row>
+
+		
+
+		
 		<Row>
 			<Type>UNITCLASS_FW_SUPERCARRIER</Type>
 			<Description>TXT_KEY_UNIT_FW_SUPERCARRIER</Description>
 			<DefaultUnit>UNIT_FW_SUPERCARRIER</DefaultUnit>
 		</Row>
+		-->
+
 		<Row>
 			<Type>UNITCLASS_FW_HYPERMISSILE</Type>
 			<Description>TXT_KEY_UNIT_FW_HYPERMISSILE</Description>
@@ -1191,6 +1201,8 @@
 			<Description>TXT_KEY_UNIT_FW_UAV</Description>
 			<DefaultUnit>UNIT_FW_UAV</DefaultUnit>
 		</Row>
+
+		<!--
 		<Row>
 			<Type>UNITCLASS_FW_HYBRID_DRONE</Type>
 			<Description>TXT_KEY_UNIT_FW_HYBRID_DRONE</Description>
@@ -1201,11 +1213,15 @@
 			<Description>TXT_KEY_UNIT_FW_BIODRONE</Description>
 			<DefaultUnit>UNIT_FW_BIODRONE</DefaultUnit>
 		</Row>
+		-->
+
 		<Row>
 			<Type>UNITCLASS_FW_BATTLESUIT</Type>
 			<Description>TXT_KEY_UNIT_FW_BATTLESUIT</Description>
 			<DefaultUnit>UNIT_FW_BATTLESUIT</DefaultUnit>
 		</Row>
+
+		<!--
 		<Row>
 			<Type>UNITCLASS_FW_CHIMERA</Type>
 			<Description>TXT_KEY_UNIT_FW_CHIMERA</Description>
@@ -1216,6 +1232,8 @@
 			<Description>TXT_KEY_UNIT_FW_HYDRA</Description>
 			<DefaultUnit>UNIT_FW_HYDRA</DefaultUnit>
 		</Row>
+		
+
 		<Row>
 			<Type>UNITCLASS_FW_SWARM</Type>
 			<Description>TXT_KEY_UNIT_FW_SWARM</Description>
@@ -1243,27 +1261,36 @@
 			<Description>TXT_KEY_UNIT_FW_BIOTROOPER</Description>
 			<DefaultUnit>UNIT_FW_BIOTROOPER</DefaultUnit>
 		</Row>
-		<Row>
-			<Type>UNITCLASS_FW_AUTOMATON</Type>
-			<Description>TXT_KEY_UNIT_FW_AUTOMATON</Description>
-			<DefaultUnit>UNIT_FW_AUTOMATON</DefaultUnit>
-		</Row>
-		<Row>
-			<Type>UNITCLASS_FW_ROBOT_INFANTRY</Type>
-			<Description>TXT_KEY_UNIT_FW_ROBOT_INFANTRY</Description>
-			<DefaultUnit>UNIT_FW_ROBOT_INFANTRY</DefaultUnit>
-		</Row>
+
 		<Row>
 			<Type>UNITCLASS_FW_NANOHIVE</Type>
 			<Description>TXT_KEY_UNIT_FW_NANOHIVE</Description>
 			<DefaultUnit>UNIT_FW_NANOHIVE</DefaultUnit>
 		</Row>
+
+		<Row>
+			<Type>UNITCLASS_FW_AUTOMATON</Type>
+			<Description>TXT_KEY_UNIT_FW_AUTOMATON</Description>
+			<DefaultUnit>UNIT_FW_AUTOMATON</DefaultUnit>
+		</Row>
+		-->
+
+		
+		<Row>
+			<Type>UNITCLASS_FW_ROBOT_INFANTRY</Type>
+			<Description>TXT_KEY_UNIT_FW_ROBOT_INFANTRY</Description>
+			<DefaultUnit>UNIT_FW_ROBOT_INFANTRY</DefaultUnit>
+		</Row>
+		
+		<!--
+			
 		<Row>
 			<Type>UNITCLASS_FW_NEXUS</Type>
 			<Description>TXT_KEY_UNIT_FW_NEXUS</Description>
 			<DefaultUnit>UNIT_FW_NEXUS</DefaultUnit>
 		</Row>
 
+		
 		<Row>
 			<Type>UNITCLASS_FW_TREX</Type>
 			<Description>TXT_KEY_UNIT_FW_TREX</Description>
@@ -1279,6 +1306,7 @@
 			<Description>TXT_KEY_UNIT_FW_RAPTOR</Description>
 			<DefaultUnit>UNIT_FW_RAPTOR</DefaultUnit>
 		</Row>
+		-->
 
 	</UnitClasses>
 

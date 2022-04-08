@@ -52,14 +52,14 @@
 			<PortraitIndex>41</PortraitIndex>
 			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>33</UnitFlagIconOffset>
-			<ExtraMaintenanceCost>32</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>80</ExtraMaintenanceCost>
 		</Row>
 	</Units>
 
 	<Unit_BuildingClassRequireds>
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_ZEPPELIN</UnitType>
-			<BuildingClassType>BUILDING_SMAN_EU_NAVAL_YARD</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_NAVAL_YARD</BuildingClassType>
 		</Row>
 	</Unit_BuildingClassRequireds>
 

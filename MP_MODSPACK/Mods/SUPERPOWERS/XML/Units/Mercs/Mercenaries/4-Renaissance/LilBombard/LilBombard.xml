@@ -15,7 +15,7 @@
 			<Class>UNITCLASS_EXOTIC_UNIT_LIL_BOMBARD</Class>
 			<Type>UNIT_EXOTIC_UNIT_LIL_BOMBARD</Type>
 			<Combat>15</Combat>
-			<RangedCombat>60</RangedCombat>
+			<RangedCombat>80</RangedCombat>
 			<Range>2</Range>
 			<Moves>3</Moves>
 			<Cost>185</Cost>
@@ -50,7 +50,7 @@
 			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>25</UnitFlagIconOffset>
 			<MoveRate>BIPED</MoveRate>
-			<ExtraMaintenanceCost>50</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>140</ExtraMaintenanceCost>
 		</Row>
 	</Units>
 
@@ -94,10 +94,7 @@
 			<UnitType>UNIT_EXOTIC_UNIT_LIL_BOMBARD</UnitType>
 			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_LIL_BOMBARD</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_LIL_BOMBARD</UnitType>
 			<PromotionType>PROMOTION_MUST_SET_UP</PromotionType>

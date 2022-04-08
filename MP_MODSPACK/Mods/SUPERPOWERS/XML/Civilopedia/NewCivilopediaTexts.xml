@@ -6,13 +6,18 @@
 	<Language_en_US>
 		<!-- Super Power Modded Game -->
 		<Row Tag="TXT_KEY_SP_GS_TITLE">
-			<Text>SuperPowers Singleplayer</Text>
+			<Text>SUPERPOWERS Singleplayer</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SP_GS_DESC">
 			<Text>[COLOR_YELLOW]Important Notes:[ENDCOLOR][NEWLINE]1. Check the Civilopedia before playing and learn more about the mods mechanics. (Press [COLOR_POSITIVE_TEXT]F1[ENDCOLOR] Now!). [NEWLINE]2. For better performance use DX9 mode, and reduce CS and AI.</Text>
 		</Row>
+		<!--
 		<Row Tag="TXT_KEY_SP_VERSION">
-			<Text>[COLOR_YELLOW]Version 1.2(Beta)[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]Version 1.5(Beta)[ENDCOLOR]</Text>
+		</Row>
+		-->
+		<Row Tag="TXT_KEY_SP_VERSION">
+			<Text>v1.5b</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_SP_MOD_SETUP">
@@ -37,6 +42,17 @@
 
 
 	<Language_en_US>
+
+		
+		<Replace Tag="TXT_KEY_TP_TECH_CITY_COST">
+			<Text>Each City or [ICON_PUPPET] Puppeted City you own will increase Technology costs by {1_Num}%. [NEWLINE][NEWLINE][ICON_RES_ELECTRICITY]Electrcity deficit can cause upto 50% reduction in Science due to disruptions to research facilities.</Text>
+		</Row>
+
+		
+		<Replace Tag="TXT_KEY_TP_GOLD_EXPLANATION">
+			<Text>With [ICON_GOLD] Gold you may purchase land, units and buildings in your cities, or provide gifts to city-states to make them like you more. [NEWLINE][NEWLINE][ICON_RES_MANPOWER]Surplus manpower reduces the gold cost of buying units and buildings in cities, due to the availability of cheap labor. </Text>
+		</Row>
+
 	
 		<Replace Tag="TXT_KEY_CITYVIEW_CHANGE_PROD">
 			<Text>[ICON_PRODUCTION]CHANGE PRODUCTION</Text>
@@ -52,7 +68,7 @@
 
 
 		<Replace Tag="TXT_KEY_FREE_POLICIES">
-			<Text>Num of Free Policies: </Text>
+			<Text>Number of Free Policies: </Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_BO1">
@@ -104,7 +120,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_GP111">
-			<Text>Free GreatPeople: </Text>
+			<Text>Free Great People: </Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_MTPC_444">
@@ -157,19 +173,19 @@
 			<Text>Destroyed after Attacking</Text>
 		</Replace>
 
-		<Replace Tag="TXT_MOVE_AFTER_PC">
-			<Text>Can Move After Purchased</Text>
+		<Replace Tag="TXT_KEY_MOVE_AFTER_PC">
+			<Text>Can Move After Purchase</Text>
 		</Replace>
 
-		<Replace Tag="TXT_REQUIRES_E">
+		<Replace Tag="TXT_KEY_REQUIRES_E">
 			<Text>Requires Enhanced Religion to Purchase</Text>
 		</Replace>
 
-		<Replace Tag="TXT_PROHIBITS_SPREAD">
-			<Text>Prohibits Other Religions Spread to the City Garrisoned</Text>
+		<Replace Tag="TXT_KEY_PROHIBITS_SPREAD">
+			<Text>Prohibits Other Religions Spread to the Garrisoned City</Text>
 		</Replace>
 
-		<Replace Tag="TXT_REL_STR">
+		<Replace Tag="TXT_KEY_REL_STR">
 			<Text>Religious Strength</Text>
 		</Replace>
 

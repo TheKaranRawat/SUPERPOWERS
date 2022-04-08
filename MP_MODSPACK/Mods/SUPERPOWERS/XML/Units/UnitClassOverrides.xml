@@ -256,11 +256,7 @@
 			<UnitClassType>UNITCLASS_CHARIOT_ARCHER</UnitClassType>
 			<UnitType>UNIT_HUN_HORSE_ARCHER</UnitType>
 		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_HUNS</CivilizationType>
-			<UnitClassType>UNITCLASS_INQUISITOR</UnitClassType>
-			<UnitType>UNIT_HUN_SHAMAN</UnitType>
-		</Row>
+		
 
 		<Row>
 			<CivilizationType>CIVILIZATION_ASSYRIA</CivilizationType>
@@ -510,24 +506,14 @@
 			<CivilizationType>CIVILIZATION_INDIA</CivilizationType>
 			<UnitClassType>UNITCLASS_MEDIEVAL_CHARIOT</UnitClassType>
 			<UnitType>UNIT_INDIAN_WARELEPHANT</UnitType>
-		</Row>
-		
-		<Row>
-			<CivilizationType>CIVILIZATION_BYZANTIUM</CivilizationType>
-			<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
-			<UnitType>UNIT_BYZANTINE_CATAPHRACT</UnitType>
-		</Row>
+		</Row>		
 
 		<Row>
 			<CivilizationType>CIVILIZATION_SIAM</CivilizationType>
 			<UnitClassType>UNITCLASS_LANCER</UnitClassType>
 			<UnitType>UNIT_SIAMESE_WARELEPHANT</UnitType>
 		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_SIAM</CivilizationType>
-			<UnitClassType>UNITCLASS_MISSIONARY</UnitClassType>
-			<UnitType>UNIT_SIAMESE_MONK</UnitType>
-		</Row>
+		
 
 		<Row>
 			<CivilizationType>CIVILIZATION_ARABIA</CivilizationType>
@@ -566,6 +552,29 @@
 	</Civilization_UnitClassOverrides>
 
 
+	<!-- attempt to fix override issues -->
+
+	<Civilization_UnitClassOverrides>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_BYZANTIUM</CivilizationType>
+			<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
+			<UnitType>UNIT_BYZANTINE_CATAPHRACT</UnitType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SIAM</CivilizationType>
+			<UnitClassType>UNITCLASS_MISSIONARY</UnitClassType>
+			<UnitType>UNIT_SIAMESE_MONK</UnitType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_HUNS</CivilizationType>
+			<UnitClassType>UNITCLASS_INQUISITOR</UnitClassType>
+			<UnitType>UNIT_HUN_SHAMAN</UnitType>
+		</Row>
+
+	</Civilization_UnitClassOverrides>
 
 
 	
@@ -576,6 +585,8 @@
 
 
 	<!--********* Forbid Minor Civs and Barbs from building certain Units*******************	-->
+	<!-- MINOR CIV/ CITY STATE BLOCK LIST -->
+
 	<Civilization_UnitClassOverrides>
 		<Delete UnitClassType="UNITCLASS_WORKBOAT"/>
 		<Delete UnitClassType="UNITCLASS_MOBILE_SAM"/>

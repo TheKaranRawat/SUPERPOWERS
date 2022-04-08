@@ -1,0 +1,69 @@
+GameSpeed_Turns
+
+DELETE FROM GameSpeed_Turns;
+
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_MARATHON',180,100); -- 15 years/turn, 4000BC-2500BC
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_MARATHON',120,300); -- 10 years/turn, 2500BC-500AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_MARATHON',60,170); -- 5 years/turn, 500AD-1350AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_MARATHON',24,201); -- 2 years/turn, 1350AD-1752AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_MARATHON',12,129); -- 1 year/turn, 1752AD-1881AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_MARATHON',6,180); -- 6 months/turn, 1881AD-1971AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_MARATHON',3,264); -- 3 months/turn, 1971AD-2037AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_MARATHON',1,156); -- 1 month/turn, 2037AD-2050AD
+
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_EPIC',300,140); -- 25 years/turn, 4000BC-500BC
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_EPIC',180,90); -- 15 years/turn, 500BC-850AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_EPIC',120,40); -- 10 years/turn, 850AD-1250AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_EPIC',60,90); -- 5 years/turn, 1250AD-1700AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_EPIC',24,70); -- 2 years/turn, 1700AD-1840AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_EPIC',12,100); -- 1 year/turn, 1840AD-1940AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_EPIC',6,220); -- 6 months/turn, 1940AD-2050AD
+
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_STANDARD',480,75); -- 40 years/turn, 4000BC-1000BC
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_STANDARD',300,60); -- 25 years/turn, 1000BC-500AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_STANDARD',240,25); -- 20 years/turn, 500AD-1000AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_STANDARD',120,50); -- 10 years/turn, 1000AD-1500AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_STANDARD',60,60); -- 5 years/turn, 1500AD-1800AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_STANDARD',24,50); -- 2 years/turn, 1800AD-1900AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_STANDARD',12,120); -- 1 year/turn, 1900AD-2020AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_STANDARD',6,60); -- 6 months/turn, 2020AD-2050AD
+
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_QUICK',720,50); -- 60 years/turn, 4000BC-1000BC
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_QUICK',480,30); -- 40 years/turn, 1000BC-200AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_QUICK',360,20); -- 30 years/turn, 200AD-800AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_QUICK',240,30); -- 20 years/turn, 800AD-1400AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_QUICK',120,25); -- 10 years/turn, 1400AD-1650AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_QUICK',60,40); -- 5 years/turn, 1650AD-1850AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_QUICK',24,65); -- 2 years/turn, 1850AD-1980AD
+INSERT INTO GameSpeed_Turns(GameSpeedType,MonthIncrement,TurnsPerIncrement)
+VALUES ('GAMESPEED_QUICK',12,70); -- 1 year/turn, 1980AD-2050AD

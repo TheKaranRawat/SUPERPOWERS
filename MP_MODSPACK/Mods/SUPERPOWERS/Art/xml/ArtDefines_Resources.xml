@@ -17,6 +17,7 @@
 	
 	<ArtDefine_Landmarks>
 
+		<!--
 		<Row>
 			<Era>Any</Era>
 			<State>Constructed</State>
@@ -44,6 +45,8 @@
 			<ResourceType>ART_DEF_RESOURCE_ALL</ResourceType>
 			<Model>CommsArray_build.fxsxml</Model>
 		</Row>
+		
+
 		<Row>
 			<Era>Any</Era>
 			<State>Constructed</State>
@@ -71,6 +74,8 @@
 			<ResourceType>ART_DEF_RESOURCE_ALL</ResourceType>
 			<Model>NetworkNode_build.fxsxml</Model>
 		</Row>
+		-->
+
 		<Row>
 			<Era>Any</Era>
 			<State>UnderConstruction</State>
@@ -317,7 +322,8 @@
 			<ResourceType>ART_DEF_RESOURCE_ALL</ResourceType>
 			<Model>Arcology_pl.fxsxml</Model>
 		</Row>
-
+		
+		<!--
 		<Row>
 			<Era>Any</Era>
 			<State>Constructed</State>
@@ -327,6 +333,7 @@
 			<ResourceType>ART_DEF_RESOURCE_ALL</ResourceType>
 			<Model>FungalGrowth.fxsxml</Model>
 		</Row>
+		-->
 
 		<!--
 		<Row>
@@ -1024,16 +1031,21 @@
 
 	<ArtDefine_LandmarkTypes>
 
+		<!--
 		<Row>
 			<Type>ART_DEF_IMPROVEMENT_FW_COMM_ARRAY</Type>
 			<LandmarkType>Improvement</LandmarkType>
 			<FriendlyName>FW_COMM_ARRAY</FriendlyName>
 		</Row>
+
 		<Row>
 			<Type>ART_DEF_IMPROVEMENT_FW_NETWORKNODE</Type>
 			<LandmarkType>Improvement</LandmarkType>
 			<FriendlyName>FW_NETWORKNODE</FriendlyName>
 		</Row>
+		-->
+
+		
 		<Row>
 			<Type>ART_DEF_IMPROVEMENT_FW_HYDROPONICS_DOME</Type>
 			<LandmarkType>Improvement</LandmarkType>
@@ -1115,6 +1127,25 @@
 			<LandmarkType>Resource</LandmarkType>
 			<FriendlyName>Sugar</FriendlyName>
 		</Row>-->
+
+		<Row>
+			<Type>ART_DEF_IMPROVEMENT_FW_GENOCENTRE</Type>
+			<LandmarkType>Improvement</LandmarkType>
+			<FriendlyName>Genocentre</FriendlyName>
+		</Row>
+
+		<Row>
+			<Type>ART_DEF_IMPROVEMENT_FW_PRESERVE</Type>
+			<LandmarkType>Improvement</LandmarkType>
+			<FriendlyName>Preserve</FriendlyName>
+		</Row>
+
+		<Row>
+			<Type>ART_DEF_IMPROVEMENT_FW_ARCOLOGY</Type>
+			<LandmarkType>Improvement</LandmarkType>
+			<FriendlyName>Arcology</FriendlyName>
+		</Row>
+
 	</ArtDefine_LandmarkTypes>
 
 	<ArtDefine_StrategicView>
@@ -1134,11 +1165,15 @@
 			<TileType>Improvement</TileType>
 			<Asset>sv_Genocentre.dds</Asset>
 		</Row>
+
+		<!--
 		<Row>
 			<StrategicViewType>ART_DEF_IMPROVEMENT_FW_COMM_ARRAY</StrategicViewType>
 			<TileType>Improvement</TileType>
 			<Asset>sv_CommArray.dds</Asset>
 		</Row>
+		-->
+
 		<Row>
 			<StrategicViewType>ART_DEF_IMPROVEMENT_FW_CORE</StrategicViewType>
 			<TileType>Improvement</TileType>
@@ -1169,12 +1204,15 @@
 			<TileType>Improvement</TileType>
 			<Asset>sv_HERC.dds</Asset>
 		</Row>
+
+		<!--
 		<Row>
 			<StrategicViewType>ART_DEF_IMPROVEMENT_FW_FUNGAL_GROWTH</StrategicViewType>
 			<TileType>Improvement</TileType>
 			<Asset>sv_FungalGrowth.dds</Asset>
 		</Row>
-		
+		-->
+
 		<Row>
 			<StrategicViewType>ART_DEF_RESOURCE_COFFEE</StrategicViewType>
 			<TileType>Resource</TileType>

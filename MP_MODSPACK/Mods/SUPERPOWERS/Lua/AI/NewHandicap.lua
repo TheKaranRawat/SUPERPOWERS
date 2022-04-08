@@ -366,7 +366,7 @@ function AIUnitsAssist(playerID)
 
 
     
---    local handicap = Game:GetHandicapType()   	
+	--    local handicap = Game:GetHandicapType()   	
 
 
 	
@@ -409,28 +409,28 @@ function AIUnitsAssist(playerID)
 			print ("AI get Manpower Supply!")
 		end		
 		
---		
---		
---		-----------Force AI to make peace with distant AI other than wasting time
---		for OtherplayerID,OtherAIPlayer in pairs(Players) do
---			if not OtherAIPlayer:IsHuman() and not OtherAIPlayer:IsMinorCiv() and not OtherAIPlayer:IsBarbarian() then
---				if PlayersAtWar (player,OtherAIPlayer) then
---				
---					if OtherAIPlayer:IsWillAcceptPeaceWithPlayer (playerID) and not player:IsPeaceBlocked (OtherAIPlayer:GetTeam()) then
---						Teams[player:GetTeam()]:MakePeace(OtherAIPlayer:GetTeam())
---						print ("We two AIs have no need to fight! It might be the human's provocation! We should make peace!")
---					end
---				
---				
---					if and not player:IsPeaceBlocked (OtherAIPlayer:GetTeam()) then
---						Teams[player:GetTeam()]:MakePeace(OtherAIPlayer:GetTeam())
---						print ("We two AIs have no need to fight! It might be the human's provocation! We should make peace!")
---					end
---					
---					
---				end
---			end	
---		end
+				--		
+				--		
+				--		-----------Force AI to make peace with distant AI other than wasting time
+				--		for OtherplayerID,OtherAIPlayer in pairs(Players) do
+				--			if not OtherAIPlayer:IsHuman() and not OtherAIPlayer:IsMinorCiv() and not OtherAIPlayer:IsBarbarian() then
+				--				if PlayersAtWar (player,OtherAIPlayer) then
+				--				
+				--					if OtherAIPlayer:IsWillAcceptPeaceWithPlayer (playerID) and not player:IsPeaceBlocked (OtherAIPlayer:GetTeam()) then
+				--						Teams[player:GetTeam()]:MakePeace(OtherAIPlayer:GetTeam())
+				--						print ("We two AIs have no need to fight! It might be the human's provocation! We should make peace!")
+				--					end
+				--				
+				--				
+				--					if and not player:IsPeaceBlocked (OtherAIPlayer:GetTeam()) then
+				--						Teams[player:GetTeam()]:MakePeace(OtherAIPlayer:GetTeam())
+				--						print ("We two AIs have no need to fight! It might be the human's provocation! We should make peace!")
+				--					end
+				--					
+				--					
+				--				end
+				--			end	
+				--		end
 		
 		
 	
@@ -439,27 +439,27 @@ function AIUnitsAssist(playerID)
 			
 				local plot = unit:GetPlot()
 				
-	--------------------------Fix AI turn freeze when moving certain Units (temp method)--this bug has been confirmed since G&K, when AI who is at war moving too many units on map -----maybe I'll find a better method in the future 
---				if not PlotIsVisibleToHuman(plot) then
---				 	if unit:IsRanged() and unit:GetDomainType()~= DomainTypes.DOMAIN_AIR then
---				 		local OriPlotX = plot:GetX()	
---				 		local OriPlotY = plot:GetY()			 	 
---						unit:JumpToNearestValidPlot()
---						unit:SetXY (OriPlotX,OriPlotY)
-----						print ("---------------------BUG Check------------------------------------Unit moved")
---					end
---				end
-			
-			
-	------------------------AI Remove Obsolete Units (If force AI to upgrade their units it may cause freezing! so just delete them)
+		--------------------------Fix AI turn freeze when moving certain Units (temp method)--this bug has been confirmed since G&K, when AI who is at war moving too many units on map -----maybe I'll find a better method in the future 
+	--				if not PlotIsVisibleToHuman(plot) then
+	--				 	if unit:IsRanged() and unit:GetDomainType()~= DomainTypes.DOMAIN_AIR then
+	--				 		local OriPlotX = plot:GetX()	
+	--				 		local OriPlotY = plot:GetY()			 	 
+	--						unit:JumpToNearestValidPlot()
+	--						unit:SetXY (OriPlotX,OriPlotY)
+	----						print ("---------------------BUG Check------------------------------------Unit moved")
+	--					end
+	--				end
+				
+				
+		------------------------AI Remove Obsolete Units (If force AI to upgrade their units it may cause freezing! so just delete them)
 
-	------------------------AI Force Upgrade Units	----------May cause CTD!!!!!!!!!!!!!!Disabled for safety
---								
---				if unit:CanUpgradeRightNow() then
---					unit:DoCommand(CommandTypes["COMMAND_UPGRADE"])
---					print ("AI Unit upgraded!")
---				end	
---					
+		------------------------AI Force Upgrade Units	----------May cause CTD!!!!!!!!!!!!!!Disabled for safety
+	--								
+	--				if unit:CanUpgradeRightNow() then
+	--					unit:DoCommand(CommandTypes["COMMAND_UPGRADE"])
+	--					print ("AI Unit upgraded!")
+	--				end	
+	--					
 
 				if not PlayerAtWarWithHuman(player) and not PlotIsVisibleToHuman(plot) then
 					if unit:CanUpgradeRightNow() then
@@ -487,18 +487,18 @@ function AIUnitsAssist(playerID)
 
 			
 			
-	-------	Fix Possible 0 HP Unit Bug (Temp Method)
---				if unit:GetDamage() >=100 or unit:GetCurrHitPoints() <=0 then
---					print ("-----------------------BUG Fix-------0HP Unit---------------")
---					unit:Kill()	
---				end
---			
+						-------	Fix Possible 0 HP Unit Bug (Temp Method)
+					--				if unit:GetDamage() >=100 or unit:GetCurrHitPoints() <=0 then
+					--					print ("-----------------------BUG Fix-------0HP Unit---------------")
+					--					unit:Kill()	
+					--				end
+					--			
 			
 
 				
 	
 	
-		-------------------Remove AI miss-placed units
+					-------------------Remove AI miss-placed units
 				if unit:IsHasPromotion(GameInfo.UnitPromotions["PROMOTION_CITADEL_DEFENSE"].ID) then
 					if plot~= nil then
 						if plot:GetImprovementType() == nil or plot:GetImprovementType() ~= GameInfo.Improvements["IMPROVEMENT_CITADEL"].ID then
@@ -508,7 +508,7 @@ function AIUnitsAssist(playerID)
 					end
 				end
 	
-	------------------------AI Units Restoring
+					------------------------AI Units Restoring
 	
 				if unit:GetUnitType() == GameInfoTypes.UNIT_SSBN and not unit:IsFull() then	
 				
@@ -533,114 +533,113 @@ function AIUnitsAssist(playerID)
 				if unit:IsHasPromotion(MissileCarrierID) and not unit:IsFull() then
 				
 				
-			-------------------	Can cause infinite loop for no reason!!!!!!!!For safty Use stupid temp method
---				 	while not unit:IsFull() do				 	
---						player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR):SetMoves(0)			
---						print ("Missile restored!")
---					end	
+								-------------------	Can cause infinite loop for no reason!!!!!!!!For safty Use stupid temp method
+					--				 	while not unit:IsFull() do				 	
+					--						player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR):SetMoves(0)			
+					--						print ("Missile restored!")
+					--					end	
 				
-				 if plot ~= nil and not plot:IsCity() then
-				 
-				 	 if unit:GetUnitType() == GameInfoTypes.UNIT_KIROV_BATTLECRUISER then
-					 	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
-						 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
-						 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
-						 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
-						 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
-					--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
-					--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
-					--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
-					--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)		
-						 	
-					 elseif unit:GetUnitType() == GameInfoTypes.UNIT_MISSILE_CRUISER or unit:GetUnitType() == GameInfoTypes.UNIT_KOREAN_SEJONG_CLASS then
-						 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
-					--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)
-						 
-						 
-					-- elseif unit:GetUnitType() == GameInfoTypes.UNIT_MODERN_DESTROYER then
- 					--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
-					-- end
+					if plot ~= nil and not plot:IsCity() then
+					
+						if unit:GetUnitType() == GameInfoTypes.UNIT_KIROV_BATTLECRUISER then
+							player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
+							player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
+							player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
+							player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
+							player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
+						--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
+						--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
+						--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
+						--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)		
+								
+						elseif unit:GetUnitType() == GameInfoTypes.UNIT_MISSILE_CRUISER or unit:GetUnitType() == GameInfoTypes.UNIT_KOREAN_SEJONG_CLASS then
+							player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
+							--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)
+								
+								
+							-- elseif unit:GetUnitType() == GameInfoTypes.UNIT_MODERN_DESTROYER then
+							--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
+							-- end
 
-				 end
-				
+						end
+					
 
-				end			 	
+					end			 	
 						
---				if unit:IsHasPromotion(DroneCarrierID) and not unit:IsFull() then
---		
---				    if plot ~= nil and not plot:IsCity() then
---				        player:InitUnit(GameInfoTypes.UNIT_UAV, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)				
---					    print ("AI:UAV restored!")
---				    end					
---				end									
-													
+					--				if unit:IsHasPromotion(DroneCarrierID) and not unit:IsFull() then
+					--		
+					--				    if plot ~= nil and not plot:IsCity() then
+					--				        player:InitUnit(GameInfoTypes.UNIT_UAV, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)				
+					--					    print ("AI:UAV restored!")
+					--				    end					
+					--				end									
+					
+				end	
+				
 				if unit:IsHasPromotion(CarrierID) and not unit:IsFull() then
-					 
+						
 					if unit:GetUnitType() == GameInfoTypes.UNIT_CARRIER then
 			
-					    if plot ~= nil and not plot:IsCity() then
-					       player:InitUnit(GameInfoTypes.UNIT_JAPANESE_ZERO, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)					      
-					    end
+						if plot ~= nil and not plot:IsCity() then
+						player:InitUnit(GameInfoTypes.UNIT_JAPANESE_ZERO, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)					      
+						end
 					end   
-					  
+					
 					if unit:GetUnitType() == GameInfoTypes.UNIT_AMERICAN_NIMITZ then
 						print ("Found AI Nimitz!")
 						local pTeam = Teams[player:GetTeam()]
 						if pTeam:IsHasTech(GameInfoTypes["TECH_NUCLEAR_FUSION"]) then
 			
-						    if plot ~= nil and not plot:IsCity() then
+							if plot ~= nil and not plot:IsCity() then
 								player:InitUnit(GameInfoTypes.UNIT_CARRIER_FIGHTER_ADV, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)	
-						    end
-						    
+							end
+							
 						else
 			
-						    if plot ~= nil and not plot:IsCity() then
-						    	player:InitUnit(GameInfoTypes.UNIT_CARRIER_FIGHTER_JET, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)							    
-						    end
-					 	end	
+							if plot ~= nil and not plot:IsCity() then
+								player:InitUnit(GameInfoTypes.UNIT_CARRIER_FIGHTER_JET, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)							    
+							end
+						end	
 					end 	
-					 
-					   
+					
+					
 					if unit:GetUnitType() == GameInfoTypes.UNIT_NUCLEAR_CARRIER then
 				
 						if player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_ENGLAND"] then
-						 	 print ("Found AI English Nuclear Carrier!")
+							print ("Found AI English Nuclear Carrier!")
 	
-						     if plot ~= nil and not plot:IsCity() then
-								 player:InitUnit(GameInfoTypes.UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)								 
-							 end		
+							if plot ~= nil and not plot:IsCity() then
+								player:InitUnit(GameInfoTypes.UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)								 
+							end		
 						else
-						     print ("Found AI Normal Nuclear Carrier!")
+							print ("Found AI Normal Nuclear Carrier!")
 	
-						     if plot ~= nil and not plot:IsCity() then
-							     player:InitUnit(GameInfoTypes.UNIT_CARRIER_FIGHTER_JET, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)
-						     end
-					 	end	
-					 end
-					 
-					 	
-					 if unit:GetUnitType() == GameInfoTypes.UNIT_SUPER_CARRIER then	
-					 	if player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_ENGLAND"] then
+							if plot ~= nil and not plot:IsCity() then
+								player:InitUnit(GameInfoTypes.UNIT_CARRIER_FIGHTER_JET, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)
+							end
+						end	
+					end
+					
+						
+					if unit:GetUnitType() == GameInfoTypes.UNIT_SUPER_CARRIER then	
+						if player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_ENGLAND"] then
 
-						     if plot ~= nil and not plot:IsCity() then
-						 		 print ("Found AI English Super Carrier!")
-								 player:InitUnit(GameInfoTypes.UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER_ADV, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)								 
-							 end			
+							if plot ~= nil and not plot:IsCity() then
+								print ("Found AI English Super Carrier!")
+								player:InitUnit(GameInfoTypes.UNIT_CARRIER_FIGHTER_ENGLISH_HARRIER_ADV, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)								 
+							end			
 						else
 
-						     if plot ~= nil and not plot:IsCity() then
-								 print ("Found AI Normal Super Carrier!")
-							     player:InitUnit(GameInfoTypes.UNIT_CARRIER_FIGHTER_ADV, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)
-						     end			
-					 	end				   
+							if plot ~= nil and not plot:IsCity() then
+								print ("Found AI Normal Super Carrier!")
+								player:InitUnit(GameInfoTypes.UNIT_CARRIER_FIGHTER_ADV, plot:GetX(), plot:GetY(),UNITAI_ATTACK_AIR)
+							end			
+						end				   
 					end
 					print ("AI:Aircrafts carrier loaded!")
-				end	
+				end
 				
-				
-			end		
-				
-		end	
+			end	
 	end
 	
 	

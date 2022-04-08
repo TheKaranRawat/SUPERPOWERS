@@ -17,7 +17,7 @@
 		</Update>
 
 		<Update>
-			<Set CityCountUnhappinessMod="50" NumCitiesPolicyCostDiscount="-15"/>
+			<Set CityCountUnhappinessMod="50" NumCitiesPolicyCostDiscount="-10"/>
 			<Where Type="POLICY_TRADITION"/>
 		</Update>
 		
@@ -191,7 +191,7 @@
 	<!--*******************Honor********************* -->
 	<Policies>
 		<Update>
-			<Set BarbarianCombatBonus="0" AlwaysSeeBarbCamps="false" CultureFromBarbarianKills="0" GoldFromKills="50"/>
+			<Set BarbarianCombatBonus="0" AlwaysSeeBarbCamps="false" CultureFromBarbarianKills="0" GoldFromKills="100"/>
 			<Where Type="POLICY_HONOR"/>
 		</Update>
 		<Update>
@@ -199,19 +199,19 @@
 			<Where Type="POLICY_MILITARY_CASTE"/>
 		</Update>
 		<Update>
-			<Set GridY="2" />
+			<Set GridY="2" GarrisonedCityRangeStrikeModifier="33" />
 			<Where Type="POLICY_WARRIOR_CODE"/>
 		</Update>
 		<Update>
-			<Set UnitUpgradeCostMod="-33" GridY="3" />
+			<Set UnitUpgradeCostMod="-50" GridY="3" />
 			<Where Type="POLICY_MILITARY_TRADITION"/>
 		</Update>
 		<Update>
-			<Set PortraitIndex="22" FreeExperience="15"/>
+			<Set PortraitIndex="22" FreeExperience="30"/>
 			<Where Type="POLICY_PROFESSIONAL_ARMY"/>
 		</Update>
 		<Update>
-			<Set CultureFromKills="50" GoldFromKills="0"/>
+			<Set CultureFromKills="50" GoldFromKills="0" UnitGoldMaintenanceMod="-10" />
 			<Where Type="POLICY_HONOR_FINISHER"/>
 		</Update>
 
@@ -228,6 +228,9 @@
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
+
+		
+		
 	</Policies>
 
 	
@@ -381,7 +384,7 @@
 			<Where Type="POLICY_CARAVANS"/>
 		</Update>
 		<Update>
-			<Set ExtraHappinessPerLuxury="0" InternalTradeRouteYieldModifier="50" RouteGoldMaintenanceMod="-50" GridX="1" GridY="2" PortraitIndex="31"/>
+			<Set ExtraHappinessPerLuxury="0" InternalTradeRouteYieldModifier="250" RouteGoldMaintenanceMod="-50" GridX="1" GridY="2" PortraitIndex="31"/>
 			<Where Type="POLICY_PROTECTIONISM"/>
 		</Update>
 		<Update>

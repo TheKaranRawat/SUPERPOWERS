@@ -219,7 +219,7 @@
 			<Where Name="CITY_CAPTURE_POPULATION_PERCENT" />
 		</Update>
 
-		<!-- MORE DEFINES -->
+		<!-- HAPPINESS -->
 
 		<Update>
 			<Set Value="-33"/>
@@ -227,34 +227,105 @@
 		</Update>
 
 		<Update>
-			<Set Value="-75"/>
+			<Set Value="-50"/>
 			<Where Name="VERY_UNHAPPY_GROWTH_PENALTY" />
 		</Update>
 
 		<Update>
-			<Set Value="-20"/>
+			<Set Value="-15"/>
 			<Where Name="VERY_UNHAPPY_THRESHOLD" />
 		</Update>
 
 		<Update>
-			<Set Value="-33"/>
+			<Set Value="-1"/>
+			<Where Name="VERY_UNHAPPY_COMBAT_PENALTY_PER_UNHAPPY" />
+		</Update>
+
+		<Update>
+			<Set Value="-25"/>
+			<Where Name="VERY_UNHAPPY_MAX_COMBAT_PENALTY" />
+		</Update>
+
+
+		<Update>
+			<Set Value="-25"/>
 			<Where Name="STRATEGIC_RESOURCE_EXHAUSTED_PENALTY" />
 		</Update>
 
 		<Update>
-			<Set Value="-33"/>
-			<Where Name="VERY_UNHAPPY_PRODUCTION_PENALTY" />
+			<Set Value="-1"/>
+			<Where Name="VERY_UNHAPPY_PRODUCTION_PENALTY_PER_UNHAPPY" />
 		</Update>
 
 		<Update>
 			<Set Value="-40"/>
+			<Where Name="VERY_UNHAPPY_MAX_PRODUCTION_PENALTY" />
+		</Update>
+
+		<Update>
+			<Set Value="-1"/>
+			<Where Name="VERY_UNHAPPY_GOLD_PENALTY_PER_UNHAPPY" />
+		</Update>
+
+		<Update>
+			<Set Value="-40"/>
+			<Where Name="VERY_UNHAPPY_MAX_GOLD_PENALTY" />
+		</Update>
+
+		<Update>
+			<Set Value="-30"/>
 			<Where Name="SUPER_UNHAPPY_THRESHOLD" />
+		</Update>
+
+		<!-- UPRISING/ REBELLION-->
+
+		<Update>
+			<Set Value="3"/>
+			<Where Name="UPRISING_COUNTER_POSSIBLE" />
+		</Update>
+
+		<Update>
+			<Set Value="1"/>
+			<Where Name="UPRISING_COUNTER_MIN" />
+		</Update>
+
+		<Update>
+			<Set Value="350"/>
+			<Where Name="UPRISING_NUM_BASE" />
+		</Update>
+
+		<Update>
+			<Set Value="200"/>
+			<Where Name="UPRISING_NUM_CITY_COUNT" />
+		</Update>
+
+		<!-- REVOLT/ CITY FLIP-->
+
+		<Update>
+			<Set Value="10"/>
+			<Where Name="REVOLT_COUNTER_MIN" />
 		</Update>
 
 		<Update>
 			<Set Value="250"/>
 			<Where Name="REVOLT_NUM_BASE" />
 		</Update>
+
+		<!-- ECONOMIC -->
+
+		<Update>
+			<Set Value="100"/>
+			<Where Name="NEW_HURRY_MODIFIER" />
+		</Update>
+
+		<!-- WAR -->
+
+		<Update>
+			<Set Value="20"/>
+			<Where Name="PEACE_TREATY_LENGTH" />
+		</Update>
+
+		<!-- CITY STATE DEFINES -->
 
 		<Update>
 			<Set Value="8000"/>
@@ -272,7 +343,7 @@
 		</Update>
 
 		<Update>
-			<Set Value="15000"/>
+			<Set Value="12000"/>
 			<Where Name="MINOR_CIV_BUYOUT_COST" />
 		</Update>
 
@@ -287,7 +358,7 @@
 		</Update>
 
 		<Update>
-			<Set Value="200"/>
+			<Set Value="300"/>
 			<Where Name="CULTURE_BOMB_MINOR_FRIENDSHIP_CHANGE" />
 		</Update>
 
@@ -324,7 +395,7 @@
 			<Where Name="MAX_INTERCEPTION_PROBABILITY" />
 		</Update>
 		<Update>
-			<Set Value="50"/>
+			<Set Value="80"/>
 			<Where Name="MAX_EVASION_PROBABILITY" />
 		</Update>
 		<Update>
@@ -400,7 +471,14 @@
 			<Set Value="400"/>
 			<Where Name="LANDMARK_MINOR_FRIENDSHIP_CHANGE" />
 		</Update>
+
 		<!-- Minor Civ Defines -->
+
+		<Update>
+			<Set Value="300"/>
+			<Where Name="MINOR_CIV_PLOT_CULTURE_COST_MULTIPLIER" />
+		</Update>
+
 		<Update>
 			<Set Value="300"/>
 			<Where Name="MINOR_CIV_CONTACT_GOLD_FIRST" />
@@ -441,7 +519,7 @@
 			<Where Name="MAX_CITY_HIT_POINTS" />
 		</Update>
 		<Update>
-			<Set Value="20"/>
+			<Set Value="10"/>
 			<Where Name="CITY_HIT_POINTS_HEALED_PER_TURN" />
 		</Update>
 		<Update>
@@ -461,7 +539,7 @@
 			<Where Name="INSTA_HEAL_RATE" />
 		</Update>
 		<Update>
-			<Set Value="15"/>
+			<Set Value="35"/>
 			<Where Name="CITY_HEAL_RATE" />
 		</Update>
 		<Update>
@@ -480,7 +558,7 @@
 			<Where Name="CITY_STRENGTH_DEFAULT" />
 		</Update>
 		<Update>
-			<Set Value="40"/>
+			<Set Value="80"/>
 			<Where Name="CITY_STRENGTH_POPULATION_CHANGE" />
 		</Update>
 		<Update>
@@ -655,14 +733,18 @@
 		</Update>
 
 		<!--International Trade-->
+
 		<Update>
-			<Set Value="150"/>
+			<Set Value="100"/>
 			<Where Name="INTERNATIONAL_TRADE_BASE" />
 		</Update>
 		<Update>
-			<Set Value="10"/>
+			<Set Value="5"/>
 			<Where Name="INTERNATIONAL_TRADE_CITY_GPT_DIVISOR" />
 		</Update>
+
+		<!-- UN -->
+
 		<Update>
 			<Set Value="3"/>
 			<Where Name="LEAGUE_SESSION_SOON_WARNING_TURNS" />
@@ -718,11 +800,22 @@
 			<Where Name="AIR_UNIT_REBASE_RANGE_MULTIPLIER" />
 		</Update>
 
-
 		<Update>
 			<Set Value="8"/>
 			<Where Name="BASE_CULTURE_PER_GREAT_WORK" />
 		</Update>
+
+		<Update>
+			<Set Value="16"/>
+			<Where Name="MIN_CIV_STARTING_DISTANCE" />
+		</Update>
+
+		<Update>
+			<Set Value="15"/>
+			<Where Name="PILLAGE_HEAL_AMOUNT" />
+		</Update>
+
+		
 		
 
 	</Defines>

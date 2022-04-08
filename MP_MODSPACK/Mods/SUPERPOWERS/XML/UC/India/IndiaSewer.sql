@@ -56,7 +56,7 @@ FROM Building_ResourceQuantityRequirements WHERE BuildingType = 'BUILDING_WATERM
 ------------------------------
 INSERT INTO Building_YieldModifiers 	
 			(BuildingType, YieldType, Yield)
-VALUES ('BUILDING_5UC_SEWER', 'YIELD_FOOD', 10);
+VALUES ('BUILDING_5UC_SEWER', 'YIELD_FOOD', 33);
 
 ------------------------------	
 -- Building_ResourceYieldChanges

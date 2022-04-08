@@ -53,7 +53,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_SP_ANTI_CORRUPTION_BUILDINGS_STRATEGY</Tag>
-			<Text>[COLOR_POSITIVE_TEXT]Anti-corruption and Public Security Buildings[ENDCOLOR] help you to deal with the city's corruption and public security issues in distanct cities. These buildings can be built in cities at any population size level. [NEWLINE][NEWLINE]These buildings will cost you a lot of extra [ICON_GOLD] Gold for maintenance fee, so make sure they worth the cost! </Text>
+			<Text>[COLOR_POSITIVE_TEXT]Admin Buildings[ENDCOLOR] help you to deal with the city's corruption and public security issues in distanct cities. These buildings can be built in cities at any population size level. [NEWLINE][NEWLINE]These buildings will cost you a lot of extra [ICON_GOLD] Gold for maintenance fee, so make sure they worth the cost! </Text>
 		</Row>
 
 
@@ -69,132 +69,138 @@
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_SIZE_TOWN</Tag>
-			<Text>#City Size: [COLOR_SELECTED_TEXT]Town[ENDCOLOR]</Text>
+			<Text>City Size(I): [ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]Village[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_SIZE_TOWN_HELP</Tag>
 			<Text>
-				City Size: [COLOR_SELECTED_TEXT]Town[ENDCOLOR]
+				A [COLOR_SELECTED_TEXT]Village[ENDCOLOR] is a small settlement. It is sparsely populated, and has weak defences.
 				[NEWLINE]
-				[NEWLINE][ICON_BULLET][ICON_CITIZEN] Citizens' Working Range of this city: 3 Hexes.
-				[NEWLINE][ICON_BULLET]+3 [ICON_RES_MANPOWER] Manpower.
-				[NEWLINE][ICON_BULLET]Consume 3 [ICON_RES_ELECTRICITY] Electricity.
-				[NEWLINE][ICON_BULLET]Consume 3 [ICON_RES_CONSUMER] Consumer Goods.
-				[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]No Traffic and Pollution Problems[ENDCOLOR].
-				[NEWLINE][ICON_BULLET]Upgrade to [COLOR_POSITIVE_TEXT]Small City[ENDCOLOR] when the popluation reaches 6.</Text>
+				[NEWLINE][ICON_BULLET]Citizens [ICON_WORKER]Working Range of this city: 3 Tiles
+				[NEWLINE][ICON_BULLET][COLOR_FONT_GREEN]Provides[ENDCOLOR] 6 [ICON_RES_MANPOWER]Manpower
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Consumes[ENDCOLOR] 3 [ICON_RES_ELECTRICITY]Electricity
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Consumes[ENDCOLOR] 3 [ICON_RES_CONSUMER]Consumer Goods
+				[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Minimal Traffic and Pollution Problems[ENDCOLOR]
+				[NEWLINE][ICON_BULLET]Upgrades to [ICON_CITYBANNER_CITY_SMALL][COLOR_POSITIVE_TEXT]Town[ENDCOLOR] when the [ICON_CITIZEN]Population reaches 6</Text>
 		</Row>
 
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_SIZE_SMALL</Tag>
-			<Text>#City Size: [COLOR_SELECTED_TEXT]Small[ENDCOLOR]</Text>
+			<Text>City Size(II): [ICON_CITYBANNER_CITY_SMALL][COLOR_SELECTED_TEXT]Town[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_SIZE_SMALL_HELP</Tag>
 			<Text>
-				City Size: [COLOR_SELECTED_TEXT]Small[ENDCOLOR]
+				A [COLOR_SELECTED_TEXT]Town[ENDCOLOR] is a compactly settled area usually larger than a village but smaller than a city. The foundations of industry and culture are laid as the settlement expands.
 				[NEWLINE]
-				[NEWLINE][ICON_BULLET][ICON_CITIZEN] Citizens' Working Range of this city: 4 Hexes.
-				[NEWLINE][ICON_BULLET]+6 [ICON_RES_MANPOWER] Manpower.
-				[NEWLINE][ICON_BULLET]Consume 6 [ICON_RES_ELECTRICITY] Electricity.
-				[NEWLINE][ICON_BULLET]Consume 6 [ICON_RES_CONSUMER] Consumer Goods.
-				[NEWLINE][ICON_BULLET]Upgrade to [COLOR_POSITIVE_TEXT]Medium City[ENDCOLOR] when the popluation reaches 15.</Text>
+				[NEWLINE][ICON_BULLET]Citizens [ICON_WORKER]Working Range of this city: 4 Tiles
+				[NEWLINE][ICON_BULLET][COLOR_FONT_GREEN]Provides[ENDCOLOR] 6 [ICON_RES_MANPOWER]Manpower
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Consumes[ENDCOLOR] 6 [ICON_RES_ELECTRICITY]Electricity
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Consumes[ENDCOLOR] 6 [ICON_RES_CONSUMER]Consumer Goods
+				[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Traffic and Pollution[ENDCOLOR] cause 2 [ICON_HAPPINESS_4]Unhappiness
+				[NEWLINE][ICON_BULLET][COLOR_FONT_GREEN]Tarrifs generate[ENDCOLOR] 8 [ICON_INVEST]GPT per [ICON_INTERNATIONAL_TRADE]Trade Route 
+				[NEWLINE][ICON_BULLET]Upgrades to [ICON_CITYBANNER_CITY_MEDIUM][COLOR_POSITIVE_TEXT]City[ENDCOLOR] when the [ICON_CITIZEN]Population reaches 15</Text>
 		</Row>
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_SIZE_MEDIUM</Tag>
-			<Text>#City Size: [COLOR_SELECTED_TEXT]Medium[ENDCOLOR]</Text>
+			<Text>City Size(III): [ICON_CITYBANNER_CITY_MEDIUM][COLOR_SELECTED_TEXT]City[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_SIZE_MEDIUM_HELP</Tag>
 			<Text>
-				City Size: [COLOR_SELECTED_TEXT]Medium[ENDCOLOR]
+				A [COLOR_SELECTED_TEXT]City[ENDCOLOR] is a permanent and densely settled location, with administratively defined boundaries whose members work primarily on non-agricultural tasks. They serve as centers of Industry, Culture and Science.
 				[NEWLINE]
-				[NEWLINE][ICON_BULLET][ICON_CITIZEN] Citizens' Working Range of this city: 4 Hexes.
-				[NEWLINE][ICON_BULLET]+12 [ICON_RES_MANPOWER] Manpower.
-				[NEWLINE][ICON_BULLET]Consume 12 [ICON_RES_ELECTRICITY] Electricity.
-				[NEWLINE][ICON_BULLET]Consume 12 [ICON_RES_CONSUMER] Consumer Goods.
-				[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Traffic and Pollution Problems[ENDCOLOR] cause 2 extra [ICON_HAPPINESS_4] Unhappiness.
-				[NEWLINE][ICON_BULLET]Upgrade to [COLOR_POSITIVE_TEXT]Large City[ENDCOLOR] when the popluation reaches 26.</Text>
+				[NEWLINE][ICON_BULLET]Citizens [ICON_WORKER]Working Range of this city: 4 Tiles
+				[NEWLINE][ICON_BULLET][COLOR_FONT_GREEN]Provides[ENDCOLOR] 15 [ICON_RES_MANPOWER]Manpower
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Consumes[ENDCOLOR] 12 [ICON_RES_ELECTRICITY]Electricity
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Consumes[ENDCOLOR] 12 [ICON_RES_CONSUMER]Consumer Goods
+				[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Traffic and Pollution[ENDCOLOR] cause 4 [ICON_HAPPINESS_4]Unhappiness
+				[NEWLINE][ICON_BULLET][COLOR_FONT_GREEN]Tarrifs generate[ENDCOLOR] 16 [ICON_INVEST]GPT per [ICON_INTERNATIONAL_TRADE]Trade Route 
+				[NEWLINE][ICON_BULLET]Upgrades to [ICON_CITYBANNER_CITY_LARGE][COLOR_POSITIVE_TEXT]Municipality[ENDCOLOR] when the [ICON_CITIZEN]Population reaches 26</Text>
 		</Row>
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_SIZE_LARGE</Tag>
-			<Text>#City Size: [COLOR_SELECTED_TEXT]Large[ENDCOLOR]</Text>
+			<Text>City Size(IV): [ICON_CITYBANNER_CITY_LARGE][COLOR_SELECTED_TEXT]Municipality[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_SIZE_LARGE_HELP</Tag>
 			<Text>
-				City Size: [COLOR_SELECTED_TEXT]Large[ENDCOLOR]
+				A [COLOR_SELECTED_TEXT]Municipality[ENDCOLOR] is a large administrative division having corporate status and powers of self-government or jurisdiction as granted by national and regional laws to which it is subordinate. Development is heavily concentrated, and lays the groundwork for even more growth potential.
 				[NEWLINE]
-				[NEWLINE][ICON_BULLET][ICON_CITIZEN] Citizens' Working Range of this city: 4 Hexes.
-				[NEWLINE][ICON_BULLET]+24 [ICON_RES_MANPOWER] Manpower.
-				[NEWLINE][ICON_BULLET]Consume 24 [ICON_RES_ELECTRICITY] Electricity.
-				[NEWLINE][ICON_BULLET]Consume 24 [ICON_RES_CONSUMER] Consumer Goods.
-				[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Traffic and Pollution Problems[ENDCOLOR] cause -5% [ICON_FOOD] Food Growth and 4 extra [ICON_HAPPINESS_4] Unhappiness.
-				[NEWLINE][ICON_BULLET]Upgrade to [COLOR_POSITIVE_TEXT]XL City[ENDCOLOR] when the popluation reaches 40.</Text>
+				[NEWLINE][ICON_BULLET]Citizens [ICON_WORKER]Working Range of this city: 4 Tiles
+				[NEWLINE][ICON_BULLET][COLOR_FONT_GREEN]Provides[ENDCOLOR] 26 [ICON_RES_MANPOWER]Manpower
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Consumes[ENDCOLOR] 25 [ICON_RES_ELECTRICITY]Electricity
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Consumes[ENDCOLOR] 25 [ICON_RES_CONSUMER]Consumer Goods
+				[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Traffic and Pollution[ENDCOLOR] cause 8 [ICON_HAPPINESS_4]Unhappiness
+				[NEWLINE][ICON_BULLET][COLOR_FONT_GREEN]Tarrifs generate[ENDCOLOR] 35 [ICON_INVEST]GPT per [ICON_INTERNATIONAL_TRADE]Trade Route 
+				[NEWLINE][ICON_BULLET]Upgrades to [ICON_CITYBANNER_CITY_XL][COLOR_POSITIVE_TEXT]Metropolis[ENDCOLOR] when the [ICON_CITIZEN]Population reaches 40</Text>
 		</Row>
-
+		<!-- -5% [ICON_FOOD]Growth and  -->
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_SIZE_XL</Tag>
-			<Text>#City Size: [COLOR_SELECTED_TEXT]XL[ENDCOLOR]</Text>
+			<Text>City Size(V): [ICON_CITYBANNER_CITY_XL][COLOR_SELECTED_TEXT]Metropolis[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_SIZE_XL_HELP</Tag>
 			<Text>
-				City Size: [COLOR_SELECTED_TEXT]XL[ENDCOLOR]
+				A [COLOR_SELECTED_TEXT]Metropolis[ENDCOLOR] is an urban region, which is a significant economic, political, and cultural center for a country or region, and an important hub for regional or international connections, commerce, and communications. With one foot in the past and one foot in the future, Metropolises are a symbol of human endurance and progress.
 				[NEWLINE]
-				[NEWLINE][ICON_BULLET][ICON_CITIZEN] Citizens' Working Range of this city: 5 Hexes.
-				[NEWLINE][ICON_BULLET][ICON_TOURISM] Tourism output: +25%.
-				[NEWLINE][ICON_BULLET]+42 [ICON_RES_MANPOWER] Manpower.
-				[NEWLINE][ICON_BULLET]Consume 42 [ICON_RES_ELECTRICITY] Electricity.
-				[NEWLINE][ICON_BULLET]Consume 42 [ICON_RES_CONSUMER] Consumer Goods.
-				[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Traffic and Pollution Problems[ENDCOLOR] cause -10% [ICON_FOOD] Food Growth and 6 extra [ICON_HAPPINESS_4] Unhappiness.
-				[NEWLINE][ICON_BULLET]Upgrade to [COLOR_POSITIVE_TEXT]XXL City[ENDCOLOR] when the popluation reaches 60.</Text>
+				[NEWLINE][ICON_BULLET]Citizens [ICON_WORKER]Working Range of this city: 5 Tiles
+				[NEWLINE][ICON_BULLET][COLOR_FONT_GREEN]Provides[ENDCOLOR] 40 [ICON_RES_MANPOWER]Manpower
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Consumes[ENDCOLOR] 50 [ICON_RES_ELECTRICITY]Electricity
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Consumes[ENDCOLOR] 50 [ICON_RES_CONSUMER]Consumer Goods
+				[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Traffic and Pollution[ENDCOLOR] cause 16 [ICON_HAPPINESS_4]Unhappiness
+				[NEWLINE][ICON_BULLET][COLOR_FONT_GREEN]Tarrifs generate[ENDCOLOR] 75 [ICON_INVEST]GPT per [ICON_INTERNATIONAL_TRADE]Trade Route 
+				[NEWLINE][ICON_BULLET][COLOR_CULTURE_STORED]Global Prominence[ENDCOLOR] increases [ICON_TOURISM]Tourism by 15% 
+				[NEWLINE][ICON_BULLET]Upgrades to [ICON_CITYBANNER_CITY_XXL][COLOR_POSITIVE_TEXT]Megapolis[ENDCOLOR] when the [ICON_CITIZEN]Population reaches 60</Text>
 		</Row>
-
+		<!-- 10% [ICON_FOOD]Growth and -->
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_SIZE_XXL</Tag>
-			<Text>#City Size: [COLOR_SELECTED_TEXT]XXL[ENDCOLOR]</Text>
+			<Text>City Size(VI): [ICON_CITYBANNER_CITY_XXL][COLOR_SELECTED_TEXT]Megapolis[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_SIZE_XXL_HELP</Tag>
 			<Text>
-				City Size: [COLOR_SELECTED_TEXT]XXL[ENDCOLOR]
+				A [COLOR_SELECTED_TEXT]Megapolis[ENDCOLOR] is a thickly populated region centering in a metropolis or embracing several Metropolises. As multiple Metropolises merge into one, the resonance effect of dense population leads to exponentially more productive urban regions. The population of entire countries may inhabit such regions, rising crime and stratification of society leads to massive wealth inequality if not actively prevented.
 				[NEWLINE]
-				[NEWLINE][ICON_BULLET][ICON_CITIZEN] Citizens' Working Range of this city: 5 Hexes.
-				[NEWLINE][ICON_BULLET][ICON_TOURISM] Tourism output: +50%.
-				[NEWLINE][ICON_BULLET]+78 [ICON_RES_MANPOWER] Manpower.
-				[NEWLINE][ICON_BULLET]Consume 78 [ICON_RES_ELECTRICITY] Electricity.
-				[NEWLINE][ICON_BULLET]Consume 78 [ICON_RES_CONSUMER] Consumer Goods.
-				[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Traffic and Pollution Problems[ENDCOLOR] cause -20% [ICON_FOOD] Food Growth and 10 extra [ICON_HAPPINESS_4] Unhappiness.
-				[NEWLINE][ICON_BULLET]+5% [ICON_CULTURE] Culture cost for future Policies.
+				[NEWLINE][ICON_BULLET]Citizens [ICON_WORKER]Working Range of this city: 5 Tiles
+				[NEWLINE][ICON_BULLET][COLOR_FONT_GREEN]Provides[ENDCOLOR] 60 [ICON_RES_MANPOWER]Manpower
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Consumes[ENDCOLOR] 75 [ICON_RES_ELECTRICITY]Electricity
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Consumes[ENDCOLOR] 75 [ICON_RES_CONSUMER]Consumer Goods
+				[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Traffic and Pollution[ENDCOLOR] cause 32 [ICON_HAPPINESS_4]Unhappiness
+				[NEWLINE][ICON_BULLET][COLOR_FONT_GREEN]Tarrifs generate[ENDCOLOR] 100 [ICON_INVEST]GPT per [ICON_INTERNATIONAL_TRADE]Trade Route 				
+				[NEWLINE][ICON_BULLET][COLOR_CULTURE_STORED]Global Prominence[ENDCOLOR] increases [ICON_TOURISM]Tourism by 25% 
+				[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Social Stratification increases[ENDCOLOR] the [ICON_CULTURE]Culture cost for future Policies by +5%.
 				[NEWLINE][ICON_BULLET]Upgrade to [COLOR_POSITIVE_TEXT]Global City[ENDCOLOR] when the popluation reaches 80.</Text>
 		</Row>
-
+		<!--- 20% [ICON_FOOD]Growth and  -->
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_SIZE_GLOBAL</Tag>
-			<Text>#City Size: [COLOR_SELECTED_TEXT]Global[ENDCOLOR]</Text>
+			<Text>City Size(VII): [ICON_CITYBANNER_CITY_GLOBAL][COLOR_SELECTED_TEXT]Gigapolis[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_SIZE_GLOBAL_HELP</Tag>
 			<Text>
-				City Size: [COLOR_SELECTED_TEXT]Global[ENDCOLOR]
+				A [COLOR_SELECTED_TEXT]Gigaapolis[ENDCOLOR] is an amalgamation of Urban regions, combining the populations of many multiple settlements that rival the population of subcontinents. Urban dwellings reach kilometers into the sky, as sunlight becomes a luxury commodity in this dystopian construct. Arms and Limbs slave away in the underground Megafactories, and it is said a Gigapolis can manufacture more goods than entire Nation-States of past.
 				[NEWLINE]
-				[ICON_BULLET][ICON_CITIZEN] Citizens' Working Range of this city: 5 Hexes.
-				[NEWLINE]
-				[NEWLINE][ICON_BULLET][ICON_TOURISM] Tourism output: +100%.
-				[NEWLINE][ICON_BULLET]+150 [ICON_RES_MANPOWER] Manpower.
-				[NEWLINE][ICON_BULLET]Consume 132 [ICON_RES_ELECTRICITY] Electricity.
-				[NEWLINE][ICON_BULLET]Consume 132 [ICON_RES_CONSUMER] Consumer Goods.
-				[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Traffic and Pollution Problems[ENDCOLOR] cause -33% [ICON_FOOD] Food Growth and 16 extra [ICON_HAPPINESS_4] Unhappiness.
-				[NEWLINE][ICON_BULLET]+10% [ICON_CULTURE] Culture cost for future Policies.
-				[NEWLINE][ICON_BULLET]Congratulations! You have built such an epic city which will stand the test of the time!</Text>
+				[NEWLINE][ICON_BULLET]Citizens [ICON_WORKER]Working Range of this city: 5 Tiles
+				[NEWLINE][ICON_BULLET][COLOR_FONT_GREEN]Provides[ENDCOLOR] 80 [ICON_RES_MANPOWER]Manpower
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Consumes[ENDCOLOR] 120 [ICON_RES_ELECTRICITY]Electricity
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Consumes[ENDCOLOR] 120 [ICON_RES_CONSUMER]Consumer Goods
+				[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Traffic and Pollution[ENDCOLOR] cause 64 [ICON_HAPPINESS_4]Unhappiness
+				[NEWLINE][ICON_BULLET][COLOR_FONT_GREEN]Tarrifs generate[ENDCOLOR] 150 [ICON_INVEST]GPT per [ICON_INTERNATIONAL_TRADE]Trade Route				
+				[NEWLINE][ICON_BULLET][COLOR_CULTURE_STORED]Global Prominence[ENDCOLOR] increases [ICON_TOURISM]Tourism by 50% 
+				[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]Social Stratification increases[ENDCOLOR] the [ICON_CULTURE]Culture cost for future Policies by +5%.
+				[NEWLINE][ICON_BULLET]As the Population of entire Subcontinents coalesce into this settlement, it has become a living, breathing Wonder in its own right. Our ancient ancestors may only wonder why we replaced their breathing blue skies for constricting concrete ones...</Text>
 		</Row>
-
+		<!-- -33% [ICON_FOOD]Growth and  -->
 
 
 
@@ -202,125 +208,136 @@
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_HALL_LV1</Tag>
-			<Text>#City Hall [COLOR_POSITIVE_TEXT](Lv1)[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT][ICON_CITYBANNER_CITY_LV1]Core City[ENDCOLOR][ICON_CAPITAL]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_HALL_LV1_HELP</Tag>
 			<Text>
-				City Level: [COLOR_YIELD_FOOD]Lv1[ENDCOLOR]
-				[NEWLINE][NEWLINE][ICON_BULLET]+4 [ICON_RES_MANPOWER] Manpower.
-				[NEWLINE][ICON_BULLET]Maintenance Cost: 2 [ICON_GOLD] Gold.
-				[NEWLINE][ICON_BULLET]2 extra [ICON_HAPPINESS_4] Unhappiness.
-				[NEWLINE][ICON_BULLET]Consume 2 [ICON_RES_CONSUMER] Consumer Goods.
-				[NEWLINE][NEWLINE]If you sell the City Hall Building, this city will become a puppet but suffer a [COLOR_NEGATIVE_TEXT]Resistance Time[ENDCOLOR] (equals 50% of its Population).
+				[ICON_CITYBANNER_CITY_LV1]Core Cities form part of the Core Territory of a Civilization. This is the very heartland, and the lands comprising the origin of its great journey.
+				[NEWLINE]
+				[NEWLINE]The [ICON_PUPPET]Local Administration is under the direct purview of [ICON_CAPITAL]Central Administration and Bureaucrats
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Requires[ENDCOLOR] 0 [ICON_RES_MANPOWER]Manpower
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Requires[ENDCOLOR] 0 [ICON_RES_CONSUMER]Consumer Goods
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Requires[ENDCOLOR] 16 [ICON_GOLD]GPT				
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Causes[ENDCOLOR] 0 [ICON_HAPPINESS_4]Unhappiness
+				[NEWLINE][NEWLINE]If you sell the City Hall Building, this City will become a [ICON_PUPPET]Puppet but will suffer a period of[COLOR_NEGATIVE_TEXT][ICON_RESISTANCE]Resistance[ENDCOLOR]
 			</Text>
 		</Row>
 
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_HALL_LV2</Tag>
-			<Text>#City Hall [COLOR_POSITIVE_TEXT](Lv2)[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT][ICON_CITYBANNER_CITY_LV2]Provincial City[ENDCOLOR][ICON_CAPITAL]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_HALL_LV2_HELP</Tag>
 			<Text>
-				City Level: [COLOR_YIELD_FOOD]Lv2[ENDCOLOR]
-			[NEWLINE][NEWLINE][ICON_BULLET]+3 [ICON_RES_MANPOWER] Manpower.
-			[NEWLINE][ICON_BULLET]Maintenance Cost: 4 [ICON_GOLD] Gold.
-			[NEWLINE][ICON_BULLET]4 extra [ICON_HAPPINESS_4] Unhappiness.
-			[NEWLINE][ICON_BULLET]Consume 4 [ICON_RES_CONSUMER] Consumer Goods.
-			[NEWLINE][NEWLINE]If you sell the City Hall Building, this city will become a puppet but suffer a [COLOR_NEGATIVE_TEXT]Resistance Time[ENDCOLOR] (equals 50% of its Population).
-		</Text>
+				[ICON_CITYBANNER_CITY_LV2]Provincial Cities are auxillary cities, often built as a Civilization expands, and to support and defend Core Territory.
+				[NEWLINE]
+				<!--[NEWLINE]The [ICON_PUPPET]Local Administration has been replaced with more competent [ICON_CAPITAL]Central Administration and Bureaucrats-->
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Requires[ENDCOLOR] 6 [ICON_RES_MANPOWER]Manpower
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Requires[ENDCOLOR] 4 [ICON_RES_CONSUMER]Consumer Goods
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Requires[ENDCOLOR] 32 [ICON_GOLD]GPT				
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Causes[ENDCOLOR] 4 [ICON_HAPPINESS_4]Unhappiness
+				[NEWLINE][NEWLINE]If you sell the City Hall Building, this City will become a [ICON_PUPPET]Puppet but will suffer a period of[COLOR_NEGATIVE_TEXT][ICON_RESISTANCE]Resistance[ENDCOLOR]
+			</Text>
 		</Row>
 
 
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_HALL_LV3</Tag>
-			<Text>#City Hall [COLOR_CITY_BROWN](Lv3)[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT][ICON_CITYBANNER_CITY_LV3]Territorial City[ENDCOLOR][ICON_CAPITAL]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_HALL_LV3_HELP</Tag>
 			<Text>
-				City Level: [COLOR_YIELD_FOOD]Lv3[ENDCOLOR]
-				[NEWLINE][NEWLINE][ICON_BULLET]+2 [ICON_RES_MANPOWER] Manpower.
-				[NEWLINE][ICON_BULLET]Maintenance Cost: 8 [ICON_GOLD] Gold.
-				[NEWLINE][ICON_BULLET]Consume 8 [ICON_RES_CONSUMER] Consumer Goods.
-				[NEWLINE][ICON_BULLET]6 extra [ICON_HAPPINESS_4] Unhappiness.
-				[NEWLINE][NEWLINE]If you sell the City Hall Building, this city will become a puppet but suffer a [COLOR_NEGATIVE_TEXT]Resistance Time[ENDCOLOR] (equals 50% of its Population).
+				[ICON_CITYBANNER_CITY_LV3]Territorial Cities are often newly settled cities, on the edges of Civilization. These cities are often far enough from the Capital to cause Bureaucratic issues.
+				[NEWLINE]
+				<!--[NEWLINE]The [ICON_PUPPET]Local Administration has been replaced with more competent [ICON_CAPITAL]Central Administration and Bureaucrats-->
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Requires[ENDCOLOR] 12 [ICON_RES_MANPOWER]Manpower
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Requires[ENDCOLOR] 8 [ICON_RES_CONSUMER]Consumer Goods
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Requires[ENDCOLOR] 64 [ICON_GOLD]GPT				
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Causes[ENDCOLOR] 16 [ICON_HAPPINESS_4]Unhappiness
+				[NEWLINE][NEWLINE]If you sell the City Hall Building, this City will become a [ICON_PUPPET]Puppet but will suffer a period of[COLOR_NEGATIVE_TEXT][ICON_RESISTANCE]Resistance[ENDCOLOR]
 			</Text>
 		</Row>
 
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_HALL_LV4</Tag>
-			<Text>#City Hall [COLOR_NEGATIVE_TEXT](Lv4)[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT][ICON_CITYBANNER_CITY_LV4]Colonial City[ENDCOLOR][ICON_CAPITAL]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_HALL_LV4_HELP</Tag>
 			<Text>
-				City Level: [COLOR_YIELD_FOOD]Lv4[ENDCOLOR]
-				[NEWLINE][NEWLINE][ICON_BULLET]+1 [ICON_RES_MANPOWER] Manpower.
-				[NEWLINE][ICON_BULLET]Maintenance Cost: 16 [ICON_GOLD] Gold.
-				[NEWLINE][ICON_BULLET]Consume 12 [ICON_RES_CONSUMER] Consumer Goods.
-				[NEWLINE][ICON_BULLET]8 extra [ICON_HAPPINESS_4] Unhappiness.
-				[NEWLINE][NEWLINE]If you sell the City Hall Building, this city will become a puppet but suffer a [COLOR_NEGATIVE_TEXT]Resistance Time[ENDCOLOR] (equals 50% of its Population).
+				[ICON_CITYBANNER_CITY_LV4]Colonial Cities are far flung cities, that are often disconnected from the Core Territories. These Cities may be of immense strategic value, however they suffer from Bureaucratic issues until better Communication Technology is invented.
+				[NEWLINE]
+				<!--[NEWLINE]The [ICON_PUPPET]Local Administration has been replaced with more competent [ICON_CAPITAL]Central Administration and Bureaucrats-->
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Requires[ENDCOLOR] 24 [ICON_RES_MANPOWER]Manpower
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Requires[ENDCOLOR] 16 [ICON_RES_CONSUMER]Consumer Goods
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Requires[ENDCOLOR] 128 [ICON_GOLD]GPT				
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Causes[ENDCOLOR] 32 [ICON_HAPPINESS_4]Unhappiness
+				[NEWLINE][NEWLINE]If you sell the City Hall Building, this City will become a [ICON_PUPPET]Puppet but will suffer a period of[COLOR_NEGATIVE_TEXT][ICON_RESISTANCE]Resistance[ENDCOLOR]
 			</Text>
 		</Row>
 
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_HALL_LV5</Tag>
-			<Text>#City Hall [COLOR_NEGATIVE_TEXT](Lv5)[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT][ICON_CITYBANNER_CITY_LV5]Peripheral City[ENDCOLOR][ICON_CAPITAL]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_HALL_LV5_HELP</Tag>
 			<Text>
-				City Level: [COLOR_YIELD_FOOD]Lv5[ENDCOLOR]
-				[NEWLINE][NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]NO[ENDCOLOR] [ICON_RES_MANPOWER] Manpower is provided.
-				[NEWLINE][ICON_BULLET]Maintenance Cost: 24 [ICON_GOLD] Gold.
-				[NEWLINE][ICON_BULLET]Consume 16 [ICON_RES_CONSUMER] Consumer Goods.
-				[NEWLINE][ICON_BULLET]8 extra [ICON_HAPPINESS_4] Unhappiness.
-				[NEWLINE][NEWLINE]If you sell the City Hall Building, this city will become a puppet but suffer a [COLOR_NEGATIVE_TEXT]Resistance Time[ENDCOLOR] (equals 50% of its Population).
+				[ICON_CITYBANNER_CITY_LV5]Peripheral Cities are not viewed as viable inhabitations except in special cases, and cause Bureaucratic and Monetary strain on a Civilization. These may hold massive Strategic value and often server as Military Bases.
+				[NEWLINE]
+				<!--[NEWLINE]The [ICON_PUPPET]Local Administration has been replaced with more competent [ICON_CAPITAL]Central Administration and Bureaucrats-->
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Requires[ENDCOLOR] 48 [ICON_RES_MANPOWER]Manpower
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Requires[ENDCOLOR] 32 [ICON_RES_CONSUMER]Consumer Goods
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Requires[ENDCOLOR] 200 [ICON_GOLD]GPT				
+				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Causes[ENDCOLOR] 32 [ICON_HAPPINESS_4]Unhappiness
+				[NEWLINE][NEWLINE]If you sell the City Hall Building, this City will become a [ICON_PUPPET]Puppet but will suffer a period of[COLOR_NEGATIVE_TEXT][ICON_RESISTANCE]Resistance[ENDCOLOR]
 			</Text>
 		</Row>
 
 
-
+		<!-- central administration -->
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_HALL_NOAC_LV2</Tag>
 			<Text>
-				City Level: [COLOR_YIELD_FOOD]Lv2[ENDCOLOR]
-				[NEWLINE][COLOR_WARNING_TEXT]Corruption and Public Security Problems![ENDCOLOR]
-				[NEWLINE][NEWLINE][ICON_BULLET]There are minor Corruption and Public Security problems in this city, which cause +1% extra Nationwide [ICON_HAPPINESS_4] Unhappiness!
-				[NEWLINE][ICON_BULLET]Build a [COLOR_YIELD_FOOD]Constable[ENDCOLOR] to eliminate the Nationwide [ICON_HAPPINESS_4] Unhappiness!
+				[ICON_CITYBANNER_CITY_LV2][COLOR_YIELD_FOOD]Provincial City[ENDCOLOR] ([ICON_PUPPET][COLOR_FONT_RED]Local Administration[ENDCOLOR])
+				[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]This City is currently administered by an inefficient [ICON_PUPPET]Local Administration.[ENDCOLOR]
+				<!--[NEWLINE][ICON_BULLET]Build a Government building to bring the City under Central Administation-->
+				[NEWLINE][NEWLINE][ICON_BULLET]There are minor Corruption and Public Security problems in this city, which cause +1% extra Nationwide [ICON_HAPPINESS_4]Unhappiness!
+				[NEWLINE][ICON_BULLET]Build a [COLOR_YIELD_FOOD]Constabulary[ENDCOLOR] to eliminate the Nationwide [ICON_HAPPINESS_4]Unhappiness!
 			</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_HALL_NOAC_LV3</Tag>
 			<Text>
-				City Level: [COLOR_YIELD_FOOD]Lv3[ENDCOLOR]
-				[NEWLINE][COLOR_WARNING_TEXT]Corruption and Public Security Problems![ENDCOLOR]
-				[NEWLINE][NEWLINE][ICON_BULLET]There are major Corruption and Public Security problems in this city, which cause +2% extra Nationwide [ICON_HAPPINESS_4] Unhappiness!
-				[NEWLINE][ICON_BULLET]Build a [COLOR_YIELD_FOOD]Sheriff Office[ENDCOLOR] to eliminate the Nationwide [ICON_HAPPINESS_4] Unhappiness!
+				[ICON_CITYBANNER_CITY_LV3][COLOR_YIELD_FOOD]Territorial City[ENDCOLOR] ([ICON_PUPPET][COLOR_FONT_RED]Local Administration[ENDCOLOR])
+				[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]This City is currently administered by an inefficient [ICON_PUPPET]Local Administration.[ENDCOLOR]
+				[NEWLINE][NEWLINE][ICON_BULLET]There are major Corruption and Public Security problems in this city, which cause +2% extra Nationwide [ICON_HAPPINESS_4]Unhappiness!
+				[NEWLINE][ICON_BULLET]Build a [COLOR_YIELD_FOOD]Sheriffs Office[ENDCOLOR] to eliminate the Nationwide [ICON_HAPPINESS_4] Unhappiness!
 			</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_HALL_NOAC_LV4</Tag>
 			<Text>
-				City Level: [COLOR_YIELD_FOOD]Lv4[ENDCOLOR]
-				[NEWLINE][COLOR_WARNING_TEXT]Corruption and Public Security Problems![ENDCOLOR]
-				[NEWLINE][NEWLINE][ICON_BULLET]There are major Corruption and Public Security problems in this city, which cause +3% extra Nationwide [ICON_HAPPINESS_4] Unhappiness!
-				[NEWLINE][ICON_BULLET]Build a [COLOR_YIELD_FOOD]Police Staion[ENDCOLOR] to eliminate the Nationwide [ICON_HAPPINESS_4] Unhappiness!
+				[COLOR_YIELD_FOOD][ICON_CITYBANNER_CITY_LV4]Colonial City[ENDCOLOR] ([ICON_PUPPET][COLOR_FONT_RED]Local Administration[ENDCOLOR])
+				[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]This City is currently administered by an inefficient [ICON_PUPPET]Local Administration.[ENDCOLOR]
+				[NEWLINE][NEWLINE][ICON_BULLET]There are major Corruption and Public Security problems in this city, which cause +3% extra Nationwide [ICON_HAPPINESS_4]Unhappiness!
+				[NEWLINE][ICON_BULLET]Build a [COLOR_YIELD_FOOD]Police Station[ENDCOLOR] to eliminate the Nationwide [ICON_HAPPINESS_4]Unhappiness!
 			</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CITY_HALL_NOAC_LV5</Tag>
 			<Text>
-				City Level: [COLOR_YIELD_FOOD]Lv5[ENDCOLOR]
-				[NEWLINE][COLOR_WARNING_TEXT]Corruption and Public Security Problems![ENDCOLOR]
-				[NEWLINE][NEWLINE][ICON_BULLET]There are major Corruption and Public Security problems in this city, which cause +3% extra Nationwide [ICON_HAPPINESS_4] Unhappiness!
-				[NEWLINE][ICON_BULLET]Build a [COLOR_YIELD_FOOD]Police Staion[ENDCOLOR] to eliminate the Nationwide [ICON_HAPPINESS_4] Unhappiness!
+				[COLOR_YIELD_FOOD][ICON_CITYBANNER_CITY_LV5]Peripheral City[ENDCOLOR] ([ICON_PUPPET][COLOR_FONT_RED]Local Administration[ENDCOLOR])
+				[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]This City is currently administered by an inefficient [ICON_PUPPET]Local Administration.[ENDCOLOR]
+				[NEWLINE][NEWLINE][ICON_BULLET]There are major Corruption and Public Security problems in this city, which cause +3% extra Nationwide [ICON_HAPPINESS_4]Unhappiness!
+				[NEWLINE][ICON_BULLET]Build a [COLOR_YIELD_FOOD]Provac[ENDCOLOR] to eliminate the Nationwide [ICON_HAPPINESS_4]Unhappiness!
 			</Text>
 		</Row>
 		
@@ -330,12 +347,12 @@
 		
 		<Row>
 			<Tag>TXT_KEY_BUILDING_PUPPET_GOVERNEMENT</Tag>
-			<Text>#City Hall (Puppet)</Text>
+			<Text>[ICON_PUPPET]City Hall</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_PUPPET_GOVERNEMENT_HELP</Tag>
 			<Text>
-				[ICON_BULLET]This city is a puppet. It is free from Corruption and Public Security problems.
+				[ICON_BULLET]This city is a Puppet. It is free from Corruption and Public Security problems, however provides much lower resources.
 				[NEWLINE][ICON_BULLET]Consume 4 [ICON_RES_CONSUMER] Consumer Goods.
 				[NEWLINE][ICON_BULLET][COLOR_NEGATIVE_TEXT]NO[ENDCOLOR] [ICON_RES_MANPOWER] Manpower is provided.
 				[NEWLINE][NEWLINE]As a puppet city, -33% [ICON_CULTURE] Culture output, [ICON_RESEARCH] Science output and -50% [ICON_FOOD] Food Growth. Also, You cannot control the city's production.
@@ -346,12 +363,12 @@
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_PUPPET_GOVERNEMENT_FULL</Tag>
-			<Text>#Palazzo Ducale</Text>
+			<Text>[ICON_PUPPET]Palazzo Ducale</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_PUPPET_GOVERNEMENT_FULL_HELP</Tag>
 			<Text>
-				[ICON_BULLET]This city is a puppet city owned by Vencie. It is free from Corruption and Public Security problems.
+				[ICON_BULLET]This city is a Puppet City owned by Venice. It is free from Corruption and Public Security problems.
 				[NEWLINE][ICON_BULLET]+4 [ICON_RES_MANPOWER] Manpower.
 				[NEWLINE][ICON_BULLET]Consume No [ICON_RES_CONSUMER] Consumer Goods.
 				[NEWLINE][ICON_BULLET]-50% [ICON_CULTURE] Culture cost for acquiring new Tiles.
@@ -387,7 +404,7 @@
 			<Text>[ICON_CITYBANNER_CITY_LV2] Constabulary</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_CONSTABLE_HELP">
-			<Text>Can only be built in in Lv2 Cities. [NEWLINE][NEWLINE]Eliminates extra Nationwide [ICON_HAPPINESS_4] Unhappiness caused by Corruption and Public Security problems. [NEWLINE][NEWLINE]Pay extra 1 [ICON_GOLD] Gold for every 6 [ICON_CITIZEN] Population. </Text>
+			<Text>Can only be built in in [ICON_CITYBANNER_CITY_LV2]Provincial Cities. [NEWLINE][NEWLINE]Eliminates extra Nationwide [ICON_HAPPINESS_4] Unhappiness caused by Corruption and Public Security problems. [NEWLINE][NEWLINE]Pay extra 1 [ICON_GOLD] Gold for every 6 [ICON_CITIZEN] Population. </Text>
 		</Replace>
 
 
@@ -403,18 +420,18 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ROMAN_SENATE_HELP</Tag>
-			<Text>Can only be built in in Lv2 Cities. [NEWLINE][NEWLINE]Eliminates extra Nationwide [ICON_HAPPINESS_4] Unhappiness caused by Corruption and Public Security problems. [NEWLINE][NEWLINE]Elimate the extra [ICON_CULTURE] Culture cost of adopting new Policies created by Lv2 Cities (stacked with the "Representation" Policy effect) . [NEWLINE][NEWLINE]Pay extra 1 [ICON_GOLD] Gold for every 6 [ICON_CITIZEN] Population. </Text>
+			<Text>Can only be built in [ICON_CITYBANNER_CITY_LV2]Provincial Cities. [NEWLINE][NEWLINE]Eliminates extra Nationwide [ICON_HAPPINESS_4] Unhappiness caused by Corruption and Public Security problems. [NEWLINE][NEWLINE]Elimate the extra [ICON_CULTURE] Culture cost of adopting new Policies created by Lv2 Cities (stacked with the "Representation" Policy effect) . [NEWLINE][NEWLINE]Pay extra 1 [ICON_GOLD] Gold for every 6 [ICON_CITIZEN] Population. </Text>
 		</Row>
 
 
 		<Row Tag="TXT_KEY_BUILDING_SHERIFF_OFFICE">
-			<Text>[ICON_CITYBANNER_CITY_LV3] Sheriff Office</Text>
+			<Text>[ICON_CITYBANNER_CITY_LV3] Sheriffs Office</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SHERIFF_OFFICE_HELP">
-			<Text>Can only be built in in Lv3 Cities. [NEWLINE][NEWLINE]Eliminates extra Nationwide [ICON_HAPPINESS_4] Unhappiness caused by Corruption and Public Security problems. Lower the increasing [ICON_CULTURE] Culture Cost for adopting new Policies by this city to 10%. [NEWLINE][NEWLINE]Pay extra 1 [ICON_GOLD] Gold for every 5 [ICON_CITIZEN] Population. </Text>
+			<Text>Can only be built in in [ICON_CITYBANNER_CITY_LV3]Territorial Cities. [NEWLINE][NEWLINE]Eliminates extra Nationwide [ICON_HAPPINESS_4] Unhappiness caused by Corruption and Public Security problems. Lower the increasing [ICON_CULTURE] Culture Cost for adopting new Policies by this city to 10%. [NEWLINE][NEWLINE]Pay extra 1 [ICON_GOLD] Gold for every 5 [ICON_CITIZEN] Population. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SHERIFF_OFFICE_TEXT">
-			<Text>In principle, a sheriff is a legal official with responsibility for a "shire", i.e. county. In practice, the specific combination of legal, political and ceremonial duties of a sheriff varies greatly from country to country.</Text>
+			<Text>In principle, a Sheriff is a legal official with responsibility for a "shire", i.e. county. In practice, the specific combination of legal, political and ceremonial duties of a sheriff varies greatly from country to country.</Text>
 		</Row>
 
 
@@ -422,15 +439,15 @@
 			<Text>[ICON_CITYBANNER_CITY_LV4] Police Station</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_POLICE_STATION_HELP">
-			<Text>Can only be built in in Lv4 Cities. [NEWLINE][NEWLINE]Eliminates extra Nationwide [ICON_HAPPINESS_4] Unhappiness caused by Corruption and Public Security problems. Lower the increasing [ICON_CULTURE] Culture Cost for adopting new Policies by this city to 25%. [NEWLINE][NEWLINE]Pay extra 1 [ICON_GOLD] Gold for every 4 [ICON_CITIZEN] Population. </Text>
+			<Text>Can only be built in in [ICON_CITYBANNER_CITY_LV4]Colonial Cities. [NEWLINE][NEWLINE]Eliminates extra Nationwide [ICON_HAPPINESS_4] Unhappiness caused by Corruption and Public Security problems. Lower the increasing [ICON_CULTURE] Culture Cost for adopting new Policies by this city to 25%. [NEWLINE][NEWLINE]Pay extra 1 [ICON_GOLD] Gold for every 4 [ICON_CITIZEN] Population. </Text>
 		</Replace>
 
 
 		<Row Tag="TXT_KEY_BUILDING_PROCURATORATE">
-			<Text>[ICON_CITYBANNER_CITY_LV5] Procuratorate</Text>
+			<Text>[ICON_CITYBANNER_CITY_LV5] Consulate</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PROCURATORATE_HELP">
-			<Text>Can only be built in in Lv5 Cities. [NEWLINE][NEWLINE]Eliminates extra Nationwide [ICON_HAPPINESS_4] Unhappiness caused by Corruption and Public Security problems. Lower the increasing [ICON_CULTURE] Culture Cost for adopting new Policies by this city to 25%. [NEWLINE][NEWLINE]Pay extra 1 [ICON_GOLD] Gold for every 3 [ICON_CITIZEN] Population. </Text>
+			<Text>Can only be built in in [ICON_CITYBANNER_CITY_LV5]Peripheral Cities. [NEWLINE][NEWLINE]Eliminates extra Nationwide [ICON_HAPPINESS_4] Unhappiness caused by Corruption and Public Security problems. Lower the increasing [ICON_CULTURE] Culture Cost for adopting new Policies by this city to 25%. [NEWLINE][NEWLINE]Pay extra 1 [ICON_GOLD] Gold for every 3 [ICON_CITIZEN] Population. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PROCURATORATE_TEXT">
 			<Text>The judicial branch is one of three branches of government in the People's Republic of China, along with the executive and legislative branches. Strictly speaking, it refers to the activities of the People's Court system. The Chinese court system is based on civil law modeled after the legal systems of Germany and France, but with local characteristics.</Text>
@@ -441,7 +458,7 @@
 		<!--***************Manpower Condition Texts*****************-->
 
 		<Row Tag="TXT_KEY_BUILDING_SP_MANPOWER_CONDITION">
-			<Text>-Current Manpower Condition[ENDCOLOR]-</Text>
+			<Text>[COLOR_YIELD_FOOD]Current Manpower Condition[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_MANPOWER_BONUS_33_HELP">
@@ -461,12 +478,12 @@
 
 		<!--***************Consumer Condition  Texts*****************-->
 		<Row Tag="TXT_KEY_BUILDING_SP_POPULATION_TOTAL_COUNT">
-			<Text>-Population Condition[ENDCOLOR]-</Text>
+			<Text>[COLOR_FONT_GREEN]Population Condition[ENDCOLOR]</Text>
 		</Row>
 		
 		
 		<Row Tag="TXT_KEY_BUILDING_SP_CONSUMER_CONDITION">
-			<Text>-Current Consumer Goods Supply Condition[ENDCOLOR]-</Text>
+			<Text>[COLOR_SELECTED_TEXT]Current Consumer Goods Supply Condition[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CONSUMER_BONUS_HELP">
 			<Text>We have enough [ICON_RES_CONSUMER] Consumer Goods Supply! [NEWLINE][NEWLINE]-15% [ICON_HAPPINESS_4] Unhappiness and +25% [ICON_TOURISM] Tourism output nationalwide for every 50 abundant [ICON_RES_CONSUMER] Consumer Goods.</Text>
@@ -653,7 +670,7 @@
 		<Row Tag="TXT_KEY_BUILDING_DUTCH_DTP_HELP">
 			<Text>
 				[COLOR_POSITIVE_TEXT]No Pollution[ENDCOLOR]
-				[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold for every water tiles worked by the city.
+				[NEWLINE][NEWLINE]+3 [ICON_PRODUCTION] Production and +3 [ICON_GOLD] Gold for every water tiles worked by the city.
 				[NEWLINE][NEWLINE]Must be constructed in a costal city.
 			</Text>
 		</Row>
@@ -724,7 +741,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BASILICA_CISTERN_HELP</Tag>
-			<Text>33% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born. [NEWLINE][NEWLINE]Can only be built in Small Cities.[NEWLINE][NEWLINE]Pay extra 1 [ICON_GOLD] Gold for every 5 [ICON_CITIZEN] Citizen. </Text>
+			<Text>40% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born. [NEWLINE][NEWLINE]Can only be built in Small Cities.[NEWLINE][NEWLINE]Pay extra 1 [ICON_GOLD] Gold for every 5 [ICON_CITIZEN] Citizen. </Text>
 		</Row>
 
 
@@ -927,7 +944,7 @@
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BYZANTIUM_RESORT_HELP</Tag>
 			<Text>
-				+25% Length of [ICON_GOLDEN_AGE] Golden Ages for every Resort.
+				+33% Length of [ICON_GOLDEN_AGE] Golden Ages for every Resort.
 				[NEWLINE][NEWLINE]50% from [ICON_CULTURE] Culture of Wonders and improvements in the city added to its [ICON_TOURISM] Tourism output.
 				[NEWLINE][NEWLINE]+1 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold for each source of [ICON_RES_TRUFFLES] Truffles, [ICON_RES_TOBACCO] Tobacco, [ICON_RES_PERFUME] Perfume, [ICON_RES_WINE] Wine, [ICON_RES_INCENSE] Incense，[ICON_RES_SPICES] Spices [ICON_RES_MARBLE] Marble and [ICON_RES_HORSE] Horses worked by this city.
 				[NEWLINE][NEWLINE]Must be built in Large Cities.
@@ -1187,7 +1204,7 @@
 			<Tag>TXT_KEY_BUILDING_CHINESE_GARDEN_HELP</Tag>
 			<Text>
 				+25% [ICON_GREAT_PEOPLE] Great People generation rate in the city.
-				[NEWLINE]-2% [ICON_HAPPINESS_4] Unhappiness nationwide for every Chinese Garden.
+				[NEWLINE]-5% [ICON_HAPPINESS_4] Unhappiness nationwide for every Chinese Garden.
 				[NEWLINE][NEWLINE]Must be built in large Cities.</Text>
 		</Row>
 
@@ -1689,7 +1706,7 @@
 		<Replace Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP">
 			<Text>
 				Mughal Mosque is a Public Education building which can boost both the city's [ICON_RESEARCH] Science and [ICON_CULTURE] Culture output by enhancing the quality of its [ICON_CITIZEN] Population.
-				[NEWLINE][NEWLINE]+1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in this City.
+				[NEWLINE][NEWLINE]+1 [ICON_RESEARCH] Science for every [ICON_CITIZEN] Citizen in this City.
 				[NEWLINE][NEWLINE]No extra [ICON_GOLD] Gold Maintenance.
 				[NEWLINE][NEWLINE]Must be built in Large Cities.
 			</Text>

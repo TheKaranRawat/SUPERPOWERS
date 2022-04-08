@@ -107,6 +107,7 @@
 			<PortraitIndex>18</PortraitIndex>
 			<IconAtlas>FW_IMPROVEMENTS_ATLAS</IconAtlas>
 		</Row>
+
 		<Row>
 			<Type>IMPROVEMENT_FW_GENOCENTRE</Type>
 			<Description>TXT_KEY_IMPROVEMENT_FW_GENOCENTRE</Description>
@@ -118,6 +119,8 @@
 			<PortraitIndex>22</PortraitIndex>
 			<IconAtlas>FW_IMPROVEMENTS_ATLAS</IconAtlas>
 		</Row>
+
+		<!--
 		<Row>
 			<Type>IMPROVEMENT_FW_FUNGAL_GROWTH</Type>
 			<Description>TXT_KEY_IMPROVEMENT_FW_FUNGAL_GROWTH</Description>
@@ -130,7 +133,7 @@
 			<IconAtlas>FW_IMPROVEMENTS_ATLAS</IconAtlas>
 			<DestroyedWhenPillaged>true</DestroyedWhenPillaged>
 		</Row>
-		
+		-->
 		
 		
 		
@@ -313,7 +316,21 @@
 			<IconAtlas>SP_IMPROVEMENTS_ATLAS</IconAtlas>
 		</Row>
 		
-		
+		<Delete Type="IMPROVEMENT_POLDER"/>
+
+		<Row>
+			<Type>IMPROVEMENT_POLDER</Type>
+			<Description>TXT_KEY_IMPROVEMENT_POLDER</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_POLDER_TEXT</Civilopedia>
+			<Help>TXT_KEY_CIV5_IMPROVEMENTS_POLDER_HELP</Help>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_POLDER</ArtDefineTag>
+			<RequiresFeature>false</RequiresFeature>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_NETHERLANDS</CivilizationType>
+			<PillageGold>18</PillageGold>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>EXPANSION_TERRAIN_ATLAS</IconAtlas>
+		</Row>
 		
 		
 		
@@ -344,6 +361,18 @@
 		</Row>
 		-->
 
+
+		<!-- POLDER -->
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+
 		<!-- HYDROPONICS DOME -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
@@ -372,11 +401,16 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_INDUSTRIAL_COMPLEX</ImprovementType>
 			<TerrainType>TERRAIN_PLAINS</TerrainType>
-		</Row>		
+		</Row>	
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_INDUSTRIAL_COMPLEX</ImprovementType>
 			<TerrainType>TERRAIN_DESERT</TerrainType>
 		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FW_INDUSTRIAL_COMPLEX</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>		
+		
 
 
 		<Row>
@@ -611,6 +645,22 @@
 
 	<Improvement_ValidFeatures>
 
+		<Delete ImprovementType="IMPROVEMENT_POLDER"/>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+		</Row>
+
+		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_COMM_ARRAY</ImprovementType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
@@ -623,6 +673,8 @@
 			<ImprovementType>IMPROVEMENT_FW_COMM_ARRAY</ImprovementType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
 		</Row>
+		-->
+
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
 			<FeatureType>FEATURE_FOREST</FeatureType>
@@ -769,7 +821,7 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_INDUSTRIAL_COMPLEX</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>8</Yield>
+			<Yield>4</Yield>
 		</Row>
 
 		<!-- HERC -->
@@ -832,6 +884,7 @@
 
 		<!-- 00000000000000000000000000000000000000000000000 -->
 
+		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_FUNGAL_GROWTH</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -847,7 +900,7 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
-
+		-->
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHERY_MOD</ImprovementType>
@@ -857,7 +910,7 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_GAS_RIG_MOD</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
 		
 		<Row>
@@ -1722,13 +1775,22 @@
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
 			<TechType>TECH_RAILROAD</TechType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>3</Yield>
 		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<TechType>TECH_DYNAMITE</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+
+
 		<Row>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<TechType>TECH_ENGINEERING</TechType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>3</Yield>
+			<Yield>2</Yield>
 		</Row>
 		
 		<Row>
@@ -1856,11 +1918,21 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+
+		
+		<Row>
+			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
+			<TechType>TECH_FERTILIZER</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+
 		<Row>
 			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
 			<TechType>TECH_FERTILIZER</TechType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
@@ -1919,7 +1991,7 @@
 			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
 			<TechType>TECH_GENETIC_ENGEERING</TechType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
@@ -2105,6 +2177,12 @@
 	<Improvement_RiverSideYields>
 
 		<Row>
+			<ImprovementType>IMPROVEMENT_FW_INDUSTRIAL_COMPLEX</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+
+		<Row>
 			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>4</Yield>
@@ -2288,7 +2366,7 @@
 			<ImprovementType>IMPROVEMENT_FW_INDUSTRIAL_COMPLEX</ImprovementType>
 			<TechType>TECH_QUANTUM_COMPUTERS</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_HERC</ImprovementType>
@@ -2302,6 +2380,8 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>4</Yield>
 		</Row>
+
+		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_COMM_ARRAY</ImprovementType>
 			<TechType>TECH_MEMETICS</TechType>
@@ -2314,6 +2394,8 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		-->
+
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_PRESERVE</ImprovementType>
 			<TechType>TECH_ECOSOPHY</TechType>

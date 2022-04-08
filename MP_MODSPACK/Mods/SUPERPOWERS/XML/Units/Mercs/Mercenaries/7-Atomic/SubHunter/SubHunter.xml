@@ -46,7 +46,7 @@
 			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>46</UnitFlagIconOffset>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>80</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>250</ExtraMaintenanceCost>
 		</Row>
 	</Units>
 
@@ -90,14 +90,8 @@
 	</Unit_Flavors>
 
 	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_SMAN_SUB_HUNTER</UnitType>
-			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_SMAN_SUB_HUNTER</UnitType>
-			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
-		</Row>
+		
+		
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_SMAN_SUB_HUNTER</UnitType>
 			<PromotionType>PROMOTION_WITHDRAW_BEFORE_MELEE</PromotionType>

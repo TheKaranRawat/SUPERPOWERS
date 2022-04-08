@@ -23,7 +23,7 @@
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
 			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
 			<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
-			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_AKKADIAN_HORSE_ARCHER</Description>
@@ -48,7 +48,7 @@
 			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>56</UnitFlagIconOffset>
 			<MoveRate>QUADRUPED</MoveRate>
-			<ExtraMaintenanceCost>8</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>40</ExtraMaintenanceCost>
 		</Row>
 	</Units>
 
@@ -104,10 +104,7 @@
 	</Unit_Flavors>
 
 	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_AKKADIAN_HORSE_ARCHER</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_AKKADIAN_HORSE_ARCHER</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>

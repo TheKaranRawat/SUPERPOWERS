@@ -6,7 +6,7 @@
 			<Text>[ICON_FOOD] Cistern</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_5UC_CISTERN_HELP">
-			<Text>+10% [ICON_FOOD] Food in this City. 20% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born. Only the Ottomans may build it.</Text>
+			<Text>+25% [ICON_FOOD] Food in this City. 20% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born. Only the Ottomans may build it.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_5UC_CISTERN_STRATEGY">
 			<Text>The Cistern carries over less [ICON_FOOD] Food after a City grows than the Aqueduct it replaces, but it also increases the [ICON_FOOD] Food output of the City directly, improves [ICON_HAPPINESS_1] Happiness, and has no maintenance. The Cistern will stack with the Medical Lab to increase growth, and with the Aqueducts that the Ottomans can still receive if they complete the Tradition policy line.</Text>

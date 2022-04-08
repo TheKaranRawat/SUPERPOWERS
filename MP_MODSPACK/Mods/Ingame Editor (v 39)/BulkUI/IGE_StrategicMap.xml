@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Released under GPLv3 -->
+<Context ColorSet="Beige_Black_Alpha" Font="TwCenMT14" FontStyle="Shadow" ConsumeMouse="0" >
+
+	<Instance Name="IgeHexInstance" >
+		<WorldAnchor ID="Anchor" Scaling="True" Anchor="C,C" Offset="0,0">
+			<Image ID="Terrain"				Size="512,512"	Anchor="C,C"	Offset="0,0"	Texture="IgeDesert.dds"							Sampler="Linear" />
+			<Image ID="Feature"				Size="256,256"	Anchor="C,C"	Offset="0,0"	Texture="sv_forest.dds"							Sampler="Linear"/>
+			<Image ID="Type"				Size="256,256"	Anchor="C,C"	Offset="0,0"	Texture="sv_hills.dds"							Sampler="Linear"/>
+			<Image ID="Resource"			Size="176,176"	Anchor="C,C"	Offset="105,0"	Texture="sv_pearl.dds"							Sampler="Linear"/>
+			<Image ID="Improvement"			Size="176,176"	Anchor="C,C"	Offset="-105,0"	Texture="sv_pasture.dds"						Sampler="Linear"/>
+			<Image ID="Highlight"			Size="256,256"	Anchor="C,C"	Offset="0,0"	Texture="IgeHexHighlight.dds"					Sampler="Linear"/>
+		</WorldAnchor>
+	</Instance>
+
+	<Instance Name="IgeRiverInstance" >
+		<WorldAnchor ID="Anchor" Scaling="True" Anchor="C,C" Offset="0,0">
+			<Image ID="Vertex0"		Size="140,140"	Anchor="C,C"	Offset="   0, -200"		Texture="IgeRivers.dds"		Sampler="Linear"/>
+			<Image ID="Vertex1"		Size="140,140"	Anchor="C,C"	Offset="-160, -100"		Texture="IgeRivers.dds"		Sampler="Linear"/>
+			<Image ID="Vertex2"		Size="140,140"	Anchor="C,C"	Offset="-160,  100"		Texture="IgeRivers.dds"		Sampler="Linear"/>
+			<Image ID="Vertex3"		Size="140,140"	Anchor="C,C"	Offset="   0,  200"		Texture="IgeRivers.dds"		Sampler="Linear"/>
+			<Image ID="Vertex4"		Size="140,140"	Anchor="C,C"	Offset=" 160, -100"		Texture="IgeRivers.dds"		Sampler="Linear"/>
+			<Image ID="Vertex5"		Size="140,140"	Anchor="C,C"	Offset=" 160,  100"		Texture="IgeRivers.dds"		Sampler="Linear"/>
+		</WorldAnchor>
+	</Instance>
+
+	<Instance Name="IgeCityInstance" >
+		<WorldAnchor ID="Anchor" Scaling="True" Anchor="C,C" Offset="0,0">
+			<Image ID="City"				Size="256,256"	Anchor="C,C"	Offset="0,0"	Texture="sv_ancient_africa_large_city.dds"		Sampler="Linear"/>
+
+			<Image ID="MilitaryManyStatus1"	Size="64,64"	Anchor="C,C"	Offset="15,-110" Texture="unitflagbase.dds"			Sampler="Linear"	/>
+			<Image ID="MilitaryManyStatus2"	Size="64,64"	Anchor="C,C"	Offset="15,-110" Texture="unitflagbase.dds"			Sampler="Linear"	TextureOffset="0,128"/>
+			<Image ID="MilitaryStatus1"		Size="64,64"	Anchor="C,C"	Offset="0,-125"	 Texture="unitflagbase.dds"			Sampler="Linear"	/>
+			<Image ID="MilitaryStatus2"		Size="64,64"	Anchor="C,C"	Offset="0,-125"	 Texture="unitflagbase.dds"			Sampler="Linear"	TextureOffset="0,128"/>
+			<Image ID="MilitaryIcon"		Size="32,32"	Anchor="C,C"	Offset="0,-125"	 Texture="UnitFlagAtlasWhite.dds"	Sampler="Linear"	/>
+
+			<Image ID="CivilianManyStatus1"	Size="64,64"	Anchor="C,C"	Offset="15,140"	Texture="unitflagciv.dds"			Sampler="Linear"	/>
+			<Image ID="CivilianManyStatus2"	Size="64,64"	Anchor="C,C"	Offset="15,140"	Texture="unitflagciv.dds"			Sampler="Linear"	TextureOffset="0,128"/>
+			<Image ID="CivilianStatus1"		Size="64,64"	Anchor="C,C"	Offset="0,125"	Texture="unitflagciv.dds"			Sampler="Linear"	/>
+			<Image ID="CivilianStatus2"		Size="64,64"	Anchor="C,C"	Offset="0,125"	Texture="unitflagciv.dds"			Sampler="Linear"	TextureOffset="0,128"/>
+			<Image ID="CivilianIcon"		Size="32,32"	Anchor="C,C"	Offset="0,125"	Texture="UnitFlagAtlasWhite.dds"	Sampler="Linear"	/>
+		</WorldAnchor>
+	</Instance>
+
+	<Instance Name="IgeFogInstance" >
+		<WorldAnchor ID="Anchor" Scaling="True" Anchor="C,C" Offset="0,0">
+			<Image ID="Fog"					Size="512,512"	Anchor="C,C"	Offset="0,0"	Texture="IgeFog.dds"				Sampler="Linear"/>
+		</WorldAnchor>
+	</Instance>
+
+	<Box Size="F,F" Color="Black,255"/>
+	<Container ID="HexContainer"	Size="F,F"	Hidden="0"/>
+	<Container ID="RiverContainer"	Size="F,F"	Hidden="0"/>
+	<Container ID="CityContainer"	Size="F,F"	Hidden="0"/>
+	<Container ID="FogContainer"	Size="F,F"	Hidden="0"/>
+</Context>

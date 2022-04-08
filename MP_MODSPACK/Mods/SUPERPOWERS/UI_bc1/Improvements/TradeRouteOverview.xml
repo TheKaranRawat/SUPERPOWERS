@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
+<Context ColorSet="Beige_Black_Alpha" Font="TwCenMT16" FontStyle="Shadow">
+	<Container ID="Scrap" Hidden="1"/>
+
+	<Instance Name="TRInstance">
+		<Button ID="Root" Size="940,34">
+			<ShowOnMouseOver>
+				<AlphaAnim Anchor="C,C" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+					<Grid Anchor="C,C" Size="940,38" Style="Grid9FrameTurnsHL"/>
+				</AlphaAnim>
+			</ShowOnMouseOver>
+			<Stack StackGrowth="Right" Padding="1">
+				<Container Size="30,34">
+					<Image ID="FromCivIconBG" Size="32.32" Anchor="C,C" TextureOffset="32,0" Texture="CivIconBGSizes.dds">
+						<Image ID="FromCivIconShadow" Size="24.24" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas16.dds" Color="Black.128"/>
+						<Image ID="FromCivIcon" Size="24.24" Anchor="C,C" Texture="CivSymbolsColor256.dds"/>
+						<Image ID="FromCivIconHighlight" Size="32.32" Anchor="C,C" TextureOffset="32,0" Texture="CivIconBGSizes_Highlight.dds"/>
+					</Image>
+				</Container>
+				<Container Size="160,34">
+					<Label ID="FromCity" Anchor="L,C" String="FromCity" TruncateWidth="156" Font="TwCenMT20" FontStyle="Stroke"/>
+				</Container>
+				<Container Size="55,34">
+					<Label ID="FromGPT" Anchor="C,C" String="FromGPT" Color0="Gold.255" Color1="Black.255" Font="TwCenMT20" FontStyle="Stroke"/>
+				</Container>
+				<Container Size="55,34">
+					<Label ID="FromScience" Anchor="C,C" Font="TwCenMT20" Color="Science" Color1="Black.255" FontStyle="Stroke"/>
+				</Container>
+				<Container Size="70,34">
+					<Label ID="FromReligion" Anchor="C,C" String="FromReligion" Font="TwCenMT20" FontStyle="Stroke"/>
+				</Container>
+				<Container Size="35,34">
+					<Image ID="Domain_Land" Anchor="C,C" Size="22,22" Texture="TradeCaravan_22.dds" ToolTip="TXT_KEY_TRO_LAND_DOMAIN_TT" Hidden="1"/>
+					<Image ID="Domain_Sea" Anchor="C,C" Size="22,22" Texture="CargoShip_22.dds" ToolTip="TXT_KEY_TRO_SEA_DOMAIN_TT" Hidden="1"/>
+				</Container>
+				<Container Size="35,34">
+					<Label ID="TurnsLeft" Anchor="C,C" Font="TwCenMT20" FontStyle="Stroke"/>
+				</Container>
+				<Container Size="30,34">
+					<Image ID="ToCivIconBG" Size="32.32" Anchor="C,C" TextureOffset="32,0" Texture="CivIconBGSizes.dds">
+						<Image ID="ToCivIconShadow" Size="24.24" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas16.dds" Color="Black.128"/>
+						<Image ID="ToCivIcon" Size="24.24" Anchor="C,C" Texture="CivSymbolsColor256.dds"/>
+						<Image ID="ToCivIconHighlight" Size="32.32" Anchor="C,C" TextureOffset="32,0" Texture="CivIconBGSizes_Highlight.dds"/>
+					</Image>
+				</Container>
+				<Container Size="160,34">
+					<Label ID="ToCity" Anchor="L,C" String="ToCity" TruncateWidth="156" Font="TwCenMT20" FontStyle="Stroke"/>
+				</Container>
+				<Container Size="55,34">
+					<Label ID="ToGPT" Anchor="C,C" String="ToGPT" Color0="Gold.255" Color1="Black.255" Font="TwCenMT20" FontStyle="Stroke"/>
+				</Container>
+				<Container Size="55,34">
+					<Label ID="ToScience" Anchor="C,C" Font="TwCenMT20" Color="Science" Color1="Black.255" FontStyle="Stroke"/>
+				</Container>
+				<Container Size="55,34">
+					<Label ID="ToFood" Anchor="C,C" String="ToFood" Color0="Food.255" Color1="Black.255" Font="TwCenMT20" FontStyle="Stroke"/>
+				</Container>
+				<Container Size="55,34">
+					<Label ID="ToProduction" Anchor="C,C" String="ToProduction" Color0="Production.255" Color1="Black.255" Font="TwCenMT20" FontStyle="Stroke"/>
+				</Container>
+				<Container Size="70,34">
+					<Label ID="ToReligion" Anchor="C,C" String="ToReligion" Font="TwCenMT20" FontStyle="Stroke"/>
+				</Container>
+			</Stack>
+			<Grid ID="Divider" Style="Grid9Bar" Anchor="L,B" Size="940,1"/>
+		</Button>
+	</Instance>
+
+	<Box Style="BGBlock_ClearTopBar"/>
+	<Grid Size="990,653" Anchor="C,C" Offset="0,6" Style="Grid9DetailFive140">
+		<Image Anchor="C,T" AnchorSide="I.O" Size="256,64" Offset="0,-14" Texture="assets\UI\Art\Icons\Top512IconTrim.dds">
+			<Image ID="CivIconBG" Size="64.64" Anchor="C,C" Offset="-1,-1" TextureOffset="77,0" Texture="CivIconBGSizes.dds"/>
+			<Image ID="CivIconShadow" Size="48.48" Anchor="C,C" Texture="CivSymbolAtlas48.dds" Color="Black.128"/>
+			<Image ID="CivIcon" Size="48,48" Offset="-1,-1" Anchor="C,C" Texture="CivSymbolsColor512.dds"/>
+		</Image>
+		<Box Style="MenuLeftSideTreatment"/>
+		<Box Style="MenuRightSideTreatment"/>
+		<Label Style="MenuTitleCaption" String="TXT_KEY_TRADE_ROUTE_OVERVIEW" />
+
+		<!-- Top Panel  -->
+		<Box Anchor="C,T" Size="955,32" Offset="0,44" Color="0.0.0.128">
+			<Stack Anchor="C,T" Size="971,32" StackGrowth="Right">
+				<Button ID="TabButtonYourTR" Size="300,24" String="TXT_KEY_TRO_TAB_EXISTING_TR" ToolTip="TXT_KEY_TO_EXISTING_TR_TT">
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="L,C" Size="300,27" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+							<Grid Size="300,27" Offset="0,2" Style="Grid9FrameTurnsHL"/>
+						</AlphaAnim>
+					</ShowOnMouseOver>
+					<!-- Selected State  -->
+					<Grid ID="YourTRSelectHighlight" Anchor="C,C" Offset="0,1" Size="300,26" Style="Grid9FrameTurns" Hidden="0"/>
+				</Button>
+				<Button ID="TabButtonAvailableTR" Size="300,24" String="TXT_KEY_TRO_TAB_AVAILABLE_TR" ToolTip="TXT_KEY_TO_AVAILABLE_TR_TT">
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="L,C" Size="300,27" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+							<Grid Size="300,27" Offset="0,2" Style="Grid9FrameTurnsHL"/>
+						</AlphaAnim>
+					</ShowOnMouseOver>
+					<!-- Selected State  -->
+					<Grid ID="AvailableTRSelectHighlight" Anchor="C,C" Offset="0,1" Size="300,26" Style="Grid9FrameTurns" Hidden="1"/>
+				</Button>
+				<Button ID="TabButtonTRWithYou" Size="300,24" String="TXT_KEY_TRO_TAB_TR_WITH_YOU" ToolTip="TXT_KEY_TO_OTHERS_TR_TT">
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="L,C" Size="300,27" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+							<Grid Size="300,27" Offset="0,2" Style="Grid9FrameTurnsHL"/>
+						</AlphaAnim>
+					</ShowOnMouseOver>
+					<!-- Selected State  -->
+					<Grid ID="TRWithYouSelectHighlight" Anchor="C,C" Offset="0,1" Size="300,26" Style="Grid9FrameTurns" Hidden="1"/>
+				</Button>
+			</Stack>
+			<Image Anchor="C,B" Texture="HorizontalTrim.dds" Size="971,5"/>
+		</Box>
+		<!-- Content Panel -->
+		<Box Size="957,459" Color="1,16,13,255" Offset="17,77">
+			<!-- Column Backgrounds-->
+			<Stack StackGrowth="Right">
+				<Box Size="190,459" Color="1,26,23,255"/>
+				<Box Size="1,459" Color="18,108,98,255"/>
+
+				<Container Size="55,459"/>
+				<Box Size="1,459" Color="18,108,98,255"/>
+
+				<Box Size="55,459" Color="1,26,23,255"/>
+				<Box Size="1,459" Color="18,108,98,255"/>
+
+				<Container Size="70,459"/>
+				<Box Size="1,459" Color="18,108,98,255"/>
+
+				<Box Size="35,459" Color="1,26,23,255"/>
+				<Box Size="1,459" Color="18,108,98,255"/>
+
+				<Container Size="35,459"/>
+				<Box Size="1,459" Color="18,108,98,255"/>
+
+				<Box Size="190,459" Color="1,26,23,255"/>
+				<Box Size="1,459" Color="18,108,98,255"/>
+
+				<Container Size="55,459"/>
+				<Box Size="1,459" Color="18,108,98,255"/>
+
+				<Box Size="55,459" Color="1,26,23,255"/>
+				<Box Size="1,459" Color="18,108,98,255"/>
+
+				<Container Size="55,459"/>
+				<Box Size="1,459" Color="18,108,98,255"/>
+
+				<Box Size="55,459" Color="1,26,23,255"/>
+				<Box Size="1,459" Color="18,108,98,255"/>
+
+				<Container Size="70,459"/>
+				<Box Size="1,459" Color="18,108,98,255"/>
+			</Stack>
+			<!-- Column Headers -->
+			<Stack StackGrowth="Right" Padding="1">
+				<Button ID="FromOwnerHeader" Size="30,45" Style="BoxButton" ToolTip="TXT_KEY_TRO_COL_FROM_CIV_TT">
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="C,C" Size="30,45" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+							<Grid Size="30,45" Anchor="C,C" Style="Grid9FrameTurnsHL"/>
+						</AlphaAnim>
+					</ShowOnMouseOver>
+					<Image Anchor="C,C" Texture="Diplomacy_24.dds" Size="24,24"/>
+				</Button>
+				<Button ID="FromCityHeader" Size="160,45" Style="BoxButton" ToolTip="TXT_KEY_TRO_COL_FROM_CITY_TT">
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="C,C" Size="160,45" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+							<Grid Size="160,45" Anchor="C,C" Style="Grid9FrameTurnsHL"/>
+						</AlphaAnim>
+					</ShowOnMouseOver>
+					<Label Anchor="L,C" Offset="0.-1" Font="TwCenMT18" String="TXT_KEY_TRO_COL_FROM_CITY"/>
+				</Button>
+				<Button ID="FromGPT" Size="55,45" Style="BoxButton" ToolTip="TXT_KEY_TRO_COL_FROM_GPT_TT">
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="C,C" Size="55,45" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+							<Grid Size="55,45" Anchor="C,C" Style="Grid9FrameTurnsHL"/>
+						</AlphaAnim>
+					</ShowOnMouseOver>
+					<Label Anchor="C,C" Offset="0.-1" Font="TwCenMT18" String="[ICON_GOLD]"/>
+				</Button>
+				<Button ID="FromScience" Size="55,45" Style="BoxButton" ToolTip="TXT_KEY_TRO_COL_FROM_SCIENCE_TT">
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="C,C" Size="55,45" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+							<Grid Size="55,45" Anchor="C,C" Style="Grid9FrameTurnsHL"/>
+						</AlphaAnim>
+					</ShowOnMouseOver>
+					<Label Anchor="C,C" Offset="0.-1" Font="TwCenMT18" String="[ICON_RESEARCH]"/>
+				</Button>
+				<Button ID="FromReligion" Size="70,45" Style="BoxButton" ToolTip="TXT_KEY_TRO_COL_FROM_RELIGION_TT">
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="C,C" Size="70,45" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+							<Grid Size="70,45" Anchor="C,C" Style="Grid9FrameTurnsHL"/>
+						</AlphaAnim>
+					</ShowOnMouseOver>
+					<Label Anchor="C,C" Offset="0,-1" Font="TwCenMT18" String="[ICON_RELIGION]"/>
+				</Button>
+				<Button ID="Domain" Size="35,45" Style="BoxButton" ToolTip="TXT_KEY_TRO_COL_DOMAIN_TT">
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="C,C" Size="35,45" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+							<Grid Size="35,45" Anchor="C,C" Style="Grid9FrameTurnsHL"/>
+						</AlphaAnim>
+					</ShowOnMouseOver>
+					<Label Anchor="C,C" Offset="0.-1" Font="TwCenMT18" String="TXT_KEY_TRO_COL_DOMAIN"/>
+				</Button>
+				<Button ID="TurnsLeft" Size="35,45" Style="BoxButton" ToolTip="TXT_KEY_TRO_COL_TURNS_REMAINING_TT">
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="C,C" Size="35,45" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+							<Grid Size="35,45" Anchor="C,C" Style="Grid9FrameTurnsHL"/>
+						</AlphaAnim>
+					</ShowOnMouseOver>
+					<Label Anchor="C,C" Offset="0,-1" Font="TwCenMT18" String="TXT_KEY_TRO_COL_TURNS_REMAINING"/>
+				</Button>
+				<Button ID="ToOwnerHeader" Size="30,45" Style="BoxButton" ToolTip="TXT_KEY_TRO_COL_TO_CIV_TT">
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="C,C" Size="30,45" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+							<Grid Size="30,45" Anchor="C,C" Style="Grid9FrameTurnsHL"/>
+						</AlphaAnim>
+					</ShowOnMouseOver>
+					<Image Anchor="C,C" Texture="Diplomacy_24.dds" Size="24,24"/>
+				</Button>
+				<Button ID="ToCityHeader" Size="160,45" Style="BoxButton" ToolTip="TXT_KEY_TRO_COL_TO_CITY_TT">
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="C,C" Size="160,45" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+							<Grid Size="160,45" Anchor="C,C" Style="Grid9FrameTurnsHL"/>
+						</AlphaAnim>
+					</ShowOnMouseOver>
+					<Label Anchor="L,C" Offset="0.-1" Font="TwCenMT18" String="TXT_KEY_TRO_COL_TO_CITY"/>
+				</Button>
+				<Button ID="ToGPT" Size="55,45" Style="BoxButton" ToolTip="TXT_KEY_TRO_COL_TO_GPT_TT">
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="C,C" Size="55,45" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+							<Grid Size="55,45" Anchor="C,C" Style="Grid9FrameTurnsHL"/>
+						</AlphaAnim>
+					</ShowOnMouseOver>
+					<Label Anchor="C,C" Offset="0.-1" Font="TwCenMT18" String="[ICON_GOLD]"/>
+				</Button>
+				<Button ID="ToScience" Size="55,45" Style="BoxButton" ToolTip="TXT_KEY_TRO_COL_TO_SCIENCE_TT">
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="C,C" Size="55,45" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+							<Grid Size="55,45" Anchor="C,C" Style="Grid9FrameTurnsHL"/>
+						</AlphaAnim>
+					</ShowOnMouseOver>
+					<Label Anchor="C,C" Offset="0.-1" Font="TwCenMT18" String="[ICON_RESEARCH]"/>
+				</Button>
+				<Button ID="ToFood" Size="55,45" Style="BoxButton" ToolTip="TXT_KEY_TRO_COL_TO_FOOD_TT">
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="C,C" Size="55,45" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+							<Grid Size="55,45" Anchor="C,C" Style="Grid9FrameTurnsHL"/>
+						</AlphaAnim>
+					</ShowOnMouseOver>
+					<Label Anchor="C,C" Offset="0.-1" Font="TwCenMT18" String="[ICON_FOOD]"/>
+				</Button>
+				<Button ID="ToProduction" Size="55,45" Style="BoxButton" ToolTip="TXT_KEY_TRO_COL_TO_PRODUCTION_TT">
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="C,C" Size="55,45" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+							<Grid Size="55,45" Anchor="C,C" Style="Grid9FrameTurnsHL"/>
+						</AlphaAnim>
+					</ShowOnMouseOver>
+					<Label Anchor="C,C" Offset="0.-1" Font="TwCenMT18" String="[ICON_PRODUCTION]"/>
+				</Button>
+				<Button ID="ToReligion" Size="70,45" Style="BoxButton" ToolTip="TXT_KEY_TRO_COL_TO_RELIGION_TT">
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="C,C" Size="70,45" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+							<Grid Size="75,45" Anchor="C,C" Style="Grid9FrameTurnsHL"/>
+						</AlphaAnim>
+					</ShowOnMouseOver>
+					<Label Anchor="C,C" Offset="0.-1" Font="TwCenMT18" String="[ICON_RELIGION]"/>
+				</Button>
+			</Stack>
+			<!-- City List -->
+			<ScrollPanel ID="MainScroll" Offset="0,45" Size="956,400" Vertical="1" AutoScrollBar="0">
+				<ScrollBar ID="MainScrollBar" Offset="0,18" Style="VertSlider" Anchor="R,T" Length="377"/>
+				<UpButton ID="MainUpButton" Style="ScrollBarUp" Anchor="R,T"/>
+				<DownButton ID="MainDownButton" Offset="0,395" Style="ScrollBarDown" Anchor="R,T"/>
+				<Stack ID="MainStack" Size="784,440" StackGrowth="Bottom">
+          </Stack>
+			</ScrollPanel>
+		</Box>
+		<!-- Bottom Panel -->
+		<Image Anchor="C,B" Offset="0,110" Texture="HorizontalTrim.dds" Size="971,5"/>
+		<Container Anchor="C,B" Offset="0,54" Size="927,56">
+			<!-- Close Button  -->
+			<GridButton ID="CloseButton" Anchor="L,B" Style="SmallButton" Size="150,32" Offset="14,0" StateOffsetIncrement="0,0">
+				<Label Anchor="C,C" String="TXT_KEY_CLOSE" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+			</GridButton>
+		</Container>
+	</Grid>
+</Context>

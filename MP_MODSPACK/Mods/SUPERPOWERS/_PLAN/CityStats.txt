@@ -1,0 +1,78 @@
+TOTAL
+<!--
+		[ICON_GOLD]Maintenance,	
+						new_name	pop		MP		ele		CG		unhapp	trade	tour	defence		pollution	tarrif			
+		town			village		0		4		3		2		0		0		0		0/0hp		0			0
+		small city		town		6		6		6		4		2		8		0		10/30hp		0			8
+		medium city		city		15		15		12		12		4		16		0		25/50hp		0			16
+		large city		Municipality26		26		25		25		8		32		10		40/75hp		-5			35
+		XL city			metropolis	40		40		50		50		16		64		15		60/100hp	-10			75	
+		XXL city		megacity	60		60		75		75		32		128		25		80/120hp	-15			100
+		global city		gigacity	80		80		120		120		64		256		50		120/150hp	-20			150
+
+		-->
+
+ADDITIVE		
+<!--
+		[ICON_GOLD]Maintenance,	
+						new_name	pop		MP		ele		CG		unhapp	trade	tour	defence		pollution	tarrif	policy		
+		town			village		0		4		3		2		0		0		0		0/0hp		0			0		0
+		small city		town		6		2		3		2		2		8		0		10/40hp		0			8		0
+		medium city		city		15		9		6		8		2		8		0		15/50hp		0			16		0
+		large city		Municipality26		11		13		13		4		16		10		15/100hp	0			16		0
+		XL city			district	40		14		25		25		8		32		5		20/120hp	-5			16		0
+		XXL city		megacity	60		20		25		25		16		64		10		20/150hp	-10			16		5
+		global city		gigacity	80		20		45		25		32		128		25		40/200hp	-20			36		10
+
+		-->
+		
+CODE
+		BUILDING_CITY_SIZE_TOWN		BUILDINGCLASS_CITY_SIZE_TOWN
+		BUILDING_CITY_SIZE_SMALL	BUILDINGCLASS_CITY_SIZE_SMALL
+		BUILDING_CITY_SIZE_MEDIUM	BUILDINGCLASS_CITY_SIZE_MEDIUM
+		BUILDING_CITY_SIZE_LARGE	BUILDINGCLASS_CITY_SIZE_LARGE
+		BUILDING_CITY_SIZE_XL		BUILDINGCLASS_CITY_SIZE_XL
+		BUILDING_CITY_SIZE_XXL		BUILDINGCLASS_CITY_SIZE_XXL
+		BUILDING_CITY_SIZE_GLOBAL	BUILDINGCLASS_CITY_SIZE_GLOBAL	fix present buildings on future start
+		
+
+		<Row>
+			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClassType>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_MEDIUM</BuildingClassType>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XL</BuildingClassType>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XXL</BuildingClassType>
+		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_LIBRARY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_GLOBAL</BuildingClassType>
+		</Row>
+		
+								MAINT 	MANP	CG	UNHAPP
+	LEVEL 1		CORE			16		 0		0	0		[ICON_CITYBANNER_CITY_LV1]
+	LEVEL 2		PROVINCIAL		32		-6		4	4		[ICON_CITYBANNER_CITY_LV2]
+	LEVEL 3		TERRITORIAL		64		-12		8	8		[ICON_CITYBANNER_CITY_LV3]
+	LEVEL 4		COLONIAL		128		-24		16	16		[ICON_CITYBANNER_CITY_LV4]
+	LEVEL 5		PERIPHERAL		200		-48		32	32		[ICON_CITYBANNER_CITY_LV5]
+		
+	TODO
+	CHECK FOR ADMIN BUILDING ->	cityview.lua
+		

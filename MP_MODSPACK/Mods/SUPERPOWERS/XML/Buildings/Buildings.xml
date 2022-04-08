@@ -2071,7 +2071,7 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>59</PortraitIndex>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
+			<SpecialistCount>2</SpecialistCount>
 			<EnhancedYieldTech>TECH_INTERNET</EnhancedYieldTech>
 			<TechEnhancedTourism>2</TechEnhancedTourism>
 			<AllowsProductionTradeRoutes>true</AllowsProductionTradeRoutes>
@@ -2241,6 +2241,7 @@
 			<Help>TXT_KEY_BUILDING_INLAND_CANAL_HELP</Help>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
+			<River>true</River>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>29</PortraitIndex>
@@ -2264,7 +2265,7 @@
 			<IconAtlas>SPWondersUB_ATLAS</IconAtlas>
 			<PortraitIndex>41</PortraitIndex>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 		</Row>
 		
 		
@@ -2424,6 +2425,11 @@
 	<Building_ClassesNeededInCity>
 
 		<Row>
+			<BuildingType>BUILDING_BOLLHUSET</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
+		</Row>
+
+		<Row>
 			<BuildingType>BUILDING_FW_GEOTHERMAL_PLANT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 		</Row>
@@ -2541,7 +2547,7 @@
 			<BuildingClassType>BUILDINGCLASS_BOMB_SHELTER</BuildingClassType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_FW_AEROSPACE_COMPLEX</BuildingType>
+			<BuildingType>BUILDING_AEROSPACE_COMPLEX</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_AIRPORT</BuildingClassType>
 		</Row>
 
@@ -2792,7 +2798,7 @@
 			<Strategy>TXT_KEY_BUILDING_SP_CITY_BASIC_BUILDINGS_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_UNIVERSITY</ArtDefineTag>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>85</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
@@ -2833,7 +2839,7 @@
 			<Help>TXT_KEY_BUILDING_EGYPT_SIRIUS_HELP</Help>
 			<ArtDefineTag>ART_DEF_BUILDING_OBSERVATORY</ArtDefineTag>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
+			<SpecialistCount>4</SpecialistCount>
 			<!--<NearbyMountainRequired>true</NearbyMountainRequired>-->
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
@@ -2978,7 +2984,7 @@
 		</Row>
 		<Row>
 			<Type>BUILDING_BAZAAR</Type>
-			<BuildingClass>BUILDINGCLASS_CARAVANSARY</BuildingClass>
+			<BuildingClass>BUILDINGCLASS_MARKET</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
 			<Cost>20</Cost>
 			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
@@ -2990,6 +2996,8 @@
 			<!--<ExtraLuxuries>true</ExtraLuxuries>-->
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>3</SpecialistCount>
 			<HurryCostModifier>25</HurryCostModifier>
 			<ArtInfoEraVariation>true</ArtInfoEraVariation>
 			<TradeRouteLandGoldBonus>600</TradeRouteLandGoldBonus>
@@ -3358,7 +3366,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_HYDRO_PLANT</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
-			<HurryCostModifier>0</HurryCostModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>ANCIENT2_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>4</PortraitIndex>
 		</Row>
@@ -3655,7 +3663,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<NeverCapture>true</NeverCapture>
 			<!--<CapturePlunderModifier>100</CapturePlunderModifier>-->
-			<Happiness>2</Happiness>
+			<Happiness>6</Happiness>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>55</PortraitIndex>
@@ -3884,6 +3892,27 @@
 			<DisplayPosition>2</DisplayPosition>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>35</PortraitIndex>
+		</Row>
+	
+		<Row>
+			<Type>BUILDING_BOLLHUSET</Type>
+			<BuildingClass>BUILDINGCLASS_THEATRE</BuildingClass>
+			<Cost>200</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_BOLLHUSET</Description>
+			<Help>TXT_KEY_BUILDING_BOLLHUSET_STRATEGY</Help>
+			<Civilopedia>TXT_KEY_BUILDING_BOLLHUSET_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BOLLHUSET_STRATEGY</Strategy>
+			<ArtDefineTag>THEATRE</ArtDefineTag>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<SpecialistCount>3</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<Happiness>6</Happiness>
+			<HurryCostModifier>10</HurryCostModifier>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>21</PortraitIndex>
 		</Row>
 		
 	

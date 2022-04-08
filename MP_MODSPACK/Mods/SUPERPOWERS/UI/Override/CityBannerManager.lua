@@ -398,7 +398,7 @@ function RefreshCityBanner(cityBanner, iActiveTeam, iActivePlayer)
 		
 		
 		
-		
+			-- banner manager to display custom icons
 			-------------------------------------------- SP City Levels & Sizes & Resource Demend Icon-----------------------------------------
 		local cityOwner = Players[city:GetOwner()]
 		

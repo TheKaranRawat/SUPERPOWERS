@@ -13,7 +13,7 @@
 			<Text>Pax Sinica</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_ART_OF_WAR">
-			<Text>[ICON_BULLET]During a Golden Age, China receive additional +20% [ICON_RESEARCH] Science, [ICON_FOOD] Food, [ICON_PEACE] Faith output in all cities and +20% [ICON_GREAT_PEOPLE] Great Person generation nationwide. [NEWLINE][ICON_BULLET]Chinese mercantilist tradition grants +25% trade routes. Land maintenance is reduced by 10%.</Text>
+			<Text>[ICON_BULLET]During a Golden Age, China receive additional +20% [ICON_RESEARCH] Science, [ICON_FOOD] Food, [ICON_PEACE] Faith output in all cities and +20% [ICON_GREAT_PEOPLE] Great Person generation nationwide. [NEWLINE][ICON_BULLET]Chinese mercantilist tradition grants +40% [ICON_INTERNATIONAL_TRADE]trade routes. Land maintenance is reduced by 10%.</Text>
 		</Replace>
 
 		<Row Tag="TXT_KEY_SP_UA_CHINA_GOLDENAGE_ANNOUNCE">
@@ -24,7 +24,7 @@
 		</Row>
 
 		<Replace Tag="TXT_KEY_TRAIT_RIVER_EXPANSION">
-			<Text>[ICON_BULLET]Each Scientist +3 [ICON_RESEARCH] Science, Engineer +2 [ICON_PRODUCTION] Production, Merchant +3 [ICON_GOLD] Gold, Writer, Artist and Musician +2 [ICON_CULTURE] Culture. [NEWLINE][ICON_BULLET]American expansionist tradition grants +35% faster border growth for cities; Naval [ICON_GOLD]maintenance is reduced by 10%</Text>
+			<Text>[ICON_BULLET]Each Scientist +3 [ICON_RESEARCH] Science, Engineer +2 [ICON_PRODUCTION] Production, Merchant +3 [ICON_GOLD] Gold, Writer, Artist and Musician +2 [ICON_CULTURE] Culture. [NEWLINE][ICON_BULLET]American expansionist tradition grants +35% faster border growth for cities; Naval [ICON_GOLD]maintenance is reduced by 10% [NEWLINE][ICON_BULLET]Gain +25 [ICON_CULTURE]culture for every city.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES_SHORT">
@@ -39,7 +39,7 @@
     	</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT">
-			<Text>[ICON_BULLET]1 Level up for all Lv2-Lv5 cities (England only has Lv1-Lv4 cities). All Units +15% [ICON_STRENGTH] Combat Strength bonus while fighting outside their own territory. [NEWLINE][ICON_BULLET]English Imperialism grants +16 [ICON_RESEARCH] Science and +16 [ICON_CULTURE] Culture for every international trade route.</Text>
+			<Text>[ICON_BULLET]1 Level up for all Lv2-Lv5 cities (England only has Lv1-Lv4 cities). [NEWLINE][ICON_BULLET]All Units +15% [ICON_STRENGTH] Combat Strength bonus while fighting outside their own territory. [NEWLINE][ICON_BULLET]English Imperialism grants +16 [ICON_RESEARCH] Science and +16 [ICON_CULTURE] Culture for every international trade route.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE_SHORT">
@@ -69,7 +69,7 @@
 			<Text>The Gift from the Nile</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_WONDER_BUILDER">
-			<Text>[ICON_BULLET]+3 [ICON_GOLD] Gold in every tile next to a river and +3 [ICON_PRODUCTION] Production for every Flood Plains tiles worked by your city. +8 [ICON_RES_MANPOWER] Manpower per city. +25% [ICON_PRODUCTION] Production towards Wonder construction. [NEWLINE][ICON_BULLET]Egypt and it's magnificent capital grants +20% [ICON_PRODUCTION]production towards buildings in the capital.</Text>
+			<Text>[ICON_BULLET]+4 [ICON_GOLD] Gold and +4 [ICON_PRODUCTION] in every tile next to a river. [NEWLINE][ICON_BULLET]+12 [ICON_RES_MANPOWER] Manpower per city. +25% [ICON_PRODUCTION] Production towards Wonder construction. [NEWLINE][ICON_BULLET]Egypt and it's magnificent capital grants +20% [ICON_PRODUCTION]production towards buildings in the capital.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_SOLIDARITY_SHORT">
@@ -123,7 +123,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
-			<Text>[ICON_BULLET]+2 [ICON_PRODUCTION] Production for every Quarry, Fishing Net. +4 [ICON_PRODUCTION] Production for every Strategic Resources. +25% speed for worker's Tile Improvement construction rate. [NEWLINE][ICON_BULLET]Ottoman expansionism grants faster city border growth rate.</Text>
+			<Text>[ICON_BULLET]+4 [ICON_PRODUCTION] Production for every Quarry, Fishing Net. +8 [ICON_PRODUCTION] Production for every Strategic Resources. [NEWLINE][ICON_BULLET]+25% speed for worker's Tile Improvement construction rate. [NEWLINE][ICON_BULLET]Ottoman expansionism grants faster city border growth rate.</Text>
 		</Replace>
 		
 		
@@ -134,7 +134,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_LUXURY_RETENTION">
-			<Text>[ICON_BULLET]Only lose 2 [ICON_HAPPINESS_1] Happiness from a Luxury Resource if your last copy of it is traded away. All cities receive a free Market. [NEWLINE][ICON_BULLET]Naval [ICON_GOLD]unit maintenance is reduced by 15%.</Text>
+			<Text>[ICON_BULLET]Lose no [ICON_HAPPINESS_1] Happiness from a Luxury Resource if your last copy of it is traded away. All cities receive a free Market. [NEWLINE][ICON_BULLET]Naval [ICON_GOLD]unit maintenance is reduced by 25%. [NEWLINE][ICON_BULLET]30% [ICON_STRENGTH]Combat Strength vs larger Civs.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_PHOENICIAN_HERITAGE">
@@ -146,7 +146,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_SUPER_CITY_STATE">
-			<Text>[ICON_BULLET]Cannot gain settlers nor annex cities. May purchase in puppet cities and puppet cities offers full [ICON_RESEARCH] Science, [ICON_CULTURE] Culture output and [ICON_FOOD] Food Growth. [NEWLINE][ICON_BULLET]Double the normal number of Trade Routes and [ICON_TOURISM] Theming Bonus in [ICON_CAPITAL] Captal. A Merchant of Venice appears after researching Optics. [NEWLINE][ICON_BULLET]Venetian mercantilism grants +35 gold for every international trade route operated from the city.</Text>
+			<Text>[ICON_BULLET]Cannot gain settlers nor annex cities. May purchase in puppet cities and puppet cities offers full [ICON_RESEARCH] Science, [ICON_CULTURE] Culture output and [ICON_FOOD] Food Growth. [NEWLINE][ICON_BULLET]Double the normal number of Trade Routes and [ICON_TOURISM] Theming Bonus in [ICON_CAPITAL] Captal. A Merchant of Venice appears after researching Optics. [NEWLINE][ICON_BULLET]Venetian mercantilism grants +10 gold for every international trade route operated from the city.</Text>
 		</Replace>
 
 
@@ -209,7 +209,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_EXTRA_BELIEF">
-			<Text>[ICON_BULLET]Choose one more Belief than normal when you found a Religion. A Great Prophet appears after researching Writing. [NEWLINE][ICON_BULLET]Byzantine religious traditions grants +50% religion spread from trade routes; +20% [ICON_PRODUCTION]production towards Wonders. </Text>
+			<Text>[ICON_BULLET]Choose one more Belief than normal when you found a Religion. A Great Prophet appears after researching Writing. [NEWLINE][ICON_BULLET]Byzantine religious traditions grants +50% religion spread from trade routes; +25% [ICON_PRODUCTION]production towards Wonders. </Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_SEVEN_CITIES">
@@ -233,7 +233,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES">
-			<Text>[ICON_BULLET][ICON_FOOD] Food, [ICON_CULTURE] Culture, and [ICON_PEACE] Faith from friendly City-States increased by 200%. +2 [ICON_GOLD] Gold for all Specialists. [NEWLINE][ICON_BULLET]Siamese diplomatic tradition grants the ability to annex long term City State allies for gold.</Text>
+			<Text>[ICON_BULLET][ICON_FOOD] Food, [ICON_CULTURE] Culture, and [ICON_PEACE] Faith from friendly City-States increased by 200%. [NEWLINE][ICON_BULLET]+2 [ICON_GOLD] Gold for all Specialists. [NEWLINE][ICON_BULLET]Siamese diplomatic tradition grants the ability to annex long term City State allies for gold.</Text>
 		</Replace>
 		
 		

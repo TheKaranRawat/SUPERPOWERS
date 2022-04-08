@@ -67,9 +67,9 @@ INSERT INTO Unit_FreePromotions
 SELECT	'UNIT_3_HAWAIIAN_KOA', 	PromotionType
 FROM Unit_FreePromotions WHERE UnitType = 'UNIT_SWORDSMAN';	
 
-INSERT INTO Unit_FreePromotions
-		(UnitType, 					PromotionType)
-VALUES	('UNIT_3_HAWAIIAN_KOA',  'PROMOTION_AMPHIBIOUS');
+--INSERT INTO Unit_FreePromotions
+--		(UnitType, 					PromotionType)
+--VALUES	('UNIT_3_HAWAIIAN_KOA',  'PROMOTION_AMPHIBIOUS');
 
 --------------------------------	
 -- Civilization_UnitClassOverrides 

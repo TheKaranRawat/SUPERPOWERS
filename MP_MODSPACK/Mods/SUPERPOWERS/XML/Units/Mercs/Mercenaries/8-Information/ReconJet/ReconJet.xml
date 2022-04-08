@@ -52,7 +52,7 @@
 		  <DomainCargo>DOMAIN_AIR</DomainCargo>
 		  <AirUnitCap>1</AirUnitCap>
 		  <DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
-		  <ExtraMaintenanceCost>170</ExtraMaintenanceCost>
+		  <ExtraMaintenanceCost>350</ExtraMaintenanceCost>
 	  </Row>
   </Units>
 
@@ -136,10 +136,7 @@
       <UnitType>UNIT_SMAN_EU_RECON_JET</UnitType>
       <PromotionType>PROMOTION_EXTRA_SIGHT_III</PromotionType>
     </Row>
-    <Row>
-      <UnitType>UNIT_SMAN_EU_RECON_JET</UnitType>
-      <PromotionType>PROMOTION_EXTRA_SIGHT_IV</PromotionType>
-    </Row>
+    
   </Unit_FreePromotions>
   
 	

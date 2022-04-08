@@ -52,8 +52,8 @@ FROM Building_ResourceYieldChanges WHERE BuildingType = 'BUILDING_STABLE';
 
 INSERT INTO Building_ResourceYieldChanges 	
 			(BuildingType, ResourceType, YieldType, Yield)
-VALUES ('BUILDING_3UC_RANCH', 'RESOURCE_DEER', 'YIELD_PRODUCTION', 1),
-	   ('BUILDING_3UC_RANCH', 'RESOURCE_BISON', 'YIELD_PRODUCTION', 1);
+VALUES ('BUILDING_3UC_RANCH', 'RESOURCE_DEER', 'YIELD_PRODUCTION', 4),
+	   ('BUILDING_3UC_RANCH', 'RESOURCE_BISON', 'YIELD_PRODUCTION', 4);
 
 --------------------------------	
 -- Civilization_BuildingClassOverrides 

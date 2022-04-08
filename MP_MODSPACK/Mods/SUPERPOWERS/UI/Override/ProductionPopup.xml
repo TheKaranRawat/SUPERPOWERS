@@ -54,18 +54,22 @@
 				<Stack Anchor="L,T" Size="256,32" StackGrowth="B" Padding="0" ID="StackOStacks">
 					<Button Anchor="L,T" Size="342,27" Offset="1,0" Texture="CivilopediaButtons272x27.dds" ID="UnitButton">
 						<Label Anchor="L,C" Offset="0,0" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_POP_UNITS" ID="UnitButtonLabel"/>
+						<Image Anchor="R,C" Offset="-4,0" Texture="Art/Icons/tooltip_32.dds" Size="32.32" ToolTip="TXT_KEY_UNIT_PRODUCTION_HELP"/>
 					</Button>
 					<Stack Anchor="L,T" Size="256,32" StackGrowth="B" Padding="-5" ID="UnitButtonStack"/>
 					<Button Anchor="L,T" Size="342,27" Offset="1,0" Texture="CivilopediaButtons272x27.dds" ID="BuildingsButton">
 						<Label Anchor="L,C" Offset="0,0" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_POP_BUILDINGS" ID="BuildingsButtonLabel"/>
+						<Image Anchor="R,C" Offset="-4,0" Texture="Art/Icons/tooltip_32.dds" Size="32.32" ToolTip="TXT_KEY_BUILDING_PRODUCTION_HELP"/>
 					</Button>
 					<Stack Anchor="L,T" Size="256,32" StackGrowth="B" Padding="-5" ID="BuildingButtonStack"/>
 					<Button Anchor="L,T" Size="342,27" Offset="1,0" Texture="CivilopediaButtons272x27.dds" ID="WondersButton">
 						<Label Anchor="L,C" Offset="0,0" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_POP_WONDERS" ID="WondersButtonLabel"/>
+						<Image Anchor="R,C" Offset="-4,0" Texture="Art/Icons/tooltip_32.dds" Size="32.32" ToolTip="TXT_KEY_WONDER_PRODUCTION_HELP"/>
 					</Button>
 					<Stack Anchor="L,T" Size="256,32" StackGrowth="B" Padding="-5" ID="WonderButtonStack"/>
 					<Button Anchor="L,T" Size="342,27" Offset="1,0" Texture="CivilopediaButtons272x27.dds" ID="OtherButton">
 						<Label Anchor="L,C" Offset="0,0" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_CITYVIEW_OTHER" ID="OtherButtonLabel"/>
+						<Image Anchor="R,C" Offset="-4,0" Texture="Art/Icons/tooltip_32.dds" Size="32.32" ToolTip="TXT_KEY_OTHER_PRODUCTION_HELP"/>
 					</Button>
 					<Stack Anchor="L,T" Size="256,32" StackGrowth="B" Padding="-5" ID="OtherButtonStack"/>
 					<!--

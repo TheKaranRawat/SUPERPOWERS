@@ -894,7 +894,7 @@
 			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
-			<Description>Diesel-Electric Attack Submarine</Description>
+			<Description>TXT_KEY_UNIT_DIESEL_SUB</Description>
 			<Civilopedia>TXT_KEY_DIESEL_SUB_CIVPEDIA</Civilopedia>
 			<Strategy>TXT_KEY_SP_UNITS_NAVAL_HIT_AND_RUN_SHIPS_STRATEGY</Strategy>
 			<Help>TXT_KEY_PROMOTION_SUBMARINE_COMBAT_HELP</Help>

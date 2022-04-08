@@ -74,9 +74,7 @@ INSERT INTO Unit_FreePromotions
 SELECT	'UNIT_3ROYALRIFLE', 	PromotionType
 FROM Unit_FreePromotions WHERE UnitType = 'UNIT_RIFLEMAN';	
 
-INSERT INTO Unit_FreePromotions
-		(UnitType, 					PromotionType)
-VALUES	('UNIT_3ROYALRIFLE',  'PROMOTION_HOMELAND_GUARDIAN');
+
 
 --------------------------------	
 -- Civilization_UnitClassOverrides 

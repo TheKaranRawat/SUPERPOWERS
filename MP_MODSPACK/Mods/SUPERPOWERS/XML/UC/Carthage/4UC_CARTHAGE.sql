@@ -69,8 +69,7 @@ FROM Unit_ResourceQuantityRequirements WHERE UnitType = 'UNIT_CHARIOT_ARCHER';
 --------------------------------	
 INSERT INTO Unit_FreePromotions
 		(UnitType, 					PromotionType)
-VALUES	('UNIT_4NUMIDIAN',  'PROMOTION_SHOCK_1'),
-		('UNIT_4NUMIDIAN',  'PROMOTION_NO_DEFENSIVE_BONUSES'),
+VALUES	('UNIT_4NUMIDIAN',  'PROMOTION_SHOCK_1'),		
 		('UNIT_4NUMIDIAN',  'PROMOTION_ONLY_DEFENSIVE');
 
 --------------------------------	

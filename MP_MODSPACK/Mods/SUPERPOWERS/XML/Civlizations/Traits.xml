@@ -13,7 +13,7 @@
 			<Type>TRAIT_ART_OF_WAR</Type>
 			<Description>TXT_KEY_TRAIT_ART_OF_WAR</Description>
 			<ShortDescription>TXT_KEY_TRAIT_ART_OF_WAR_SHORT</ShortDescription>
-			<NumTradeRoutesModifier>25</NumTradeRoutesModifier> 
+			<NumTradeRoutesModifier>40</NumTradeRoutesModifier> 
 			<LandUnitMaintenanceModifier>-10</LandUnitMaintenanceModifier> 
 			<!--<GreatGeneralRateModifier>50</GreatGeneralRateModifier>-->
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
@@ -248,7 +248,7 @@
 			<ShortDescription>TXT_KEY_TRAIT_EXTRA_BELIEF_SHORT</ShortDescription>
 			<BonusReligiousBelief>true</BonusReligiousBelief>
 			<TradeReligionModifier>50</TradeReligionModifier> 
-			<WonderProductionModifier>20</WonderProductionModifier> 
+			<WonderProductionModifier>25</WonderProductionModifier> 
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 			<FreeUnit>UNITCLASS_PROPHET</FreeUnit>
 			<FreeUnitPrereqTech>TECH_WRITING</FreeUnitPrereqTech>
@@ -293,8 +293,9 @@
 			<Type>TRAIT_LUXURY_RETENTION</Type>
 			<Description>TXT_KEY_TRAIT_LUXURY_RETENTION</Description>
 			<ShortDescription>TXT_KEY_TRAIT_LUXURY_RETENTION_SHORT</ShortDescription>
-			<LuxuryHappinessRetention>50</LuxuryHappinessRetention>
-			<NavalUnitMaintenanceModifier>-15</NavalUnitMaintenanceModifier> 
+			<LuxuryHappinessRetention>100</LuxuryHappinessRetention>
+			<NavalUnitMaintenanceModifier>-25</NavalUnitMaintenanceModifier> 
+			<CombatBonusVsLargerCiv>30</CombatBonusVsLargerCiv>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 			<FreeBuilding>BUILDING_MARKET</FreeBuilding>
 		</Row>
@@ -459,7 +460,513 @@
 
 	</Traits>
 
+	<!-- MODERN TRAITS -->
 
+	<!-- MODERN TRAIT EXAMPLE
+
+		<Row>
+			<Type>TRAIT_LONG_COUNT</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_WRITING</FreeUnitPrereqTech>
+			
+		</Row>
+
+	-->
+
+	<Traits>
+
+		<Row>
+			<Type>TRAIT_LEADER_AHMAD_ALMANSUR_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_ALEXANDER_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_ASHURBANIPAL_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_ASKIA_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_ATTILA_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_AUGUSTUS_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_BISMARCK_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_BOUDICCA_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_CASIMIR_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_CATHERINE_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_DARIUS</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_DIDO_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_ELIZABETH_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_ENRICO_DANDOLO_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_GAJAH_MADA_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_GANDHI_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_GENGHIS_KHAN_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_GUSTAVUS_ADOLPHUS_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_SELASSIE_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_HARALD_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_HARUN_AL_RASHID_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_HIAWATHA_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_ISABELLA_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_KAMEHAMEHA_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_MARIA_I_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_MARIA_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+		
+		<Row>
+			<Type>TRAIT_LEADER_MONTEZUMA_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_NAPOLEON_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_NEBUCHADNEZZAR_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_ODA_NOBUNAGA_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_PACAL_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_PACHACUTI_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_PEDRO_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_POCATELLO_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_RAMESSES_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_RAMKHAMHAENG_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_SEJONG_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_SHAKA_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_SULEIMAN_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_THEODORA_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_WASHINGTON_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_WILLIAM_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+		<Row>
+			<Type>TRAIT_LEADER_WU_ZETIAN_2</Type>
+			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+		</Row>
+
+	</Traits>
+
+	<!--	LEADERS LIST
+
+		LEADER_AHMAD_ALMANSUR
+		LEADER_ALEXANDER
+		LEADER_ASHURBANIPAL
+		LEADER_ASKIA
+		LEADER_ATTILA
+		LEADER_AUGUSTUS
+		LEADER_BISMARCK
+		LEADER_BOUDICCA
+		LEADER_CASIMIR
+		LEADER_CATHERINE
+		LEADER_DARIUS
+		LEADER_DIDO
+		LEADER_ELIZABETH
+		LEADER_ENRICO_DANDOLO
+		LEADER_GAJAH_MADA
+		LEADER_GANDHI
+		LEADER_GENGHIS_KHAN
+		LEADER_GUSTAVUS_ADOLPHUS
+		LEADER_SELASSIE
+		LEADER_HARALD
+		LEADER_HARUN_AL_RASHID
+		LEADER_HIAWATHA
+		LEADER_ISABELLA
+		LEADER_KAMEHAMEHA
+		LEADER_MARIA_I
+		LEADER_MARIA
+		LEADER_MONTEZUMA
+		LEADER_NAPOLEON
+		LEADER_NEBUCHADNEZZAR
+		LEADER_ODA_NOBUNAGA
+		LEADER_PACAL
+		LEADER_PACHACUTI
+		LEADER_PEDRO
+		LEADER_POCATELLO
+		LEADER_RAMESSES
+		LEADER_RAMKHAMHAENG
+		LEADER_SEJONG
+		LEADER_SHAKA
+		LEADER_SULEIMAN
+		LEADER_THEODORA
+		LEADER_WASHINGTON
+		LEADER_WILLIAM
+		LEADER_WU_ZETIAN
+
+
+	-->
+
+
+
+
+
+
+
+	
 
 
 	<!--<Traits>
@@ -701,13 +1208,13 @@
 			<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
 			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
 			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>4</Yield>
 		</Row>
 		
 	</Trait_ImprovementYieldChanges>
@@ -756,7 +1263,7 @@
 		<Row>
 			<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>4</Yield>
+			<Yield>8</Yield>
 		</Row>
 	</Trait_YieldChangesStrategicResources>
 	
@@ -1432,7 +1939,7 @@
 		<Row>
 			<TraitType>TRAIT_SUPER_CITY_STATE</TraitType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>35</Yield>
+			<Yield>10</Yield>
 		</Row>
 
 		
@@ -1592,7 +2099,7 @@
 			<Type>BUILDING_TB_STRATEGIC_RICHES</Type>
 			<BuildingClass>BUILDINGCLASS_TAITS_EFFECTS_BUILDINGS</BuildingClass>
 			<Cost>-1</Cost>
-			<Description>TXT_KEY_TRAIT_STRATEGIC_RICHES</Description>
+			<Description>TXT_KEY_TRAIT_STRATEGIC_RICHES_PERK</Description>
 			<Civilopedia>TXT_KEY_TRAIT_STRATEGIC_RICHES</Civilopedia>
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -1723,8 +2230,16 @@
 		<Row>
 			<BuildingType>BUILDING_TB_TRAIT_WONDER_BUILDER</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
+			<Yield>4</Yield>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TB_TRAIT_WONDER_BUILDER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+
+
 	</Building_RiverPlotYieldChanges>
 
 
@@ -1732,7 +2247,7 @@
 		<Row>
 			<BuildingType>BUILDING_TB_TRAIT_WONDER_BUILDER</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>8</Quantity>
+			<Quantity>12</Quantity>
 		</Row>
 
 		<Row>
@@ -1743,16 +2258,16 @@
 		
 	</Building_ResourceQuantity>
 	
-	
+	<!--
 	<Building_FeatureYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_TB_TRAIT_WONDER_BUILDER</BuildingType>
 			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>3</Yield>
+			<Yield>4</Yield>
 		</Row>
 	</Building_FeatureYieldChanges>
-	
+	-->
 	
 	<!--<Building_YieldModifiers>
 		<Row>

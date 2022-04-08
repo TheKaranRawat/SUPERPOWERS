@@ -47,7 +47,7 @@
 			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>31</UnitFlagIconOffset>
 			<MoveRate>WOODEN_BOAT</MoveRate>
-			<ExtraMaintenanceCost>28</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>150</ExtraMaintenanceCost>
 		</Row>
 	</Units>
 
@@ -100,18 +100,12 @@
 	</Unit_Flavors>
 
 	<Unit_FreePromotions>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_CORSAIR</UnitType>
-			<PromotionType>PROMOTION_COASTAL_RAIDER_1</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_CORSAIR</UnitType>
 			<PromotionType>PROMOTION_PRIZE_SHIPS</PromotionType>
 		</Row>		
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_CORSAIR</UnitType>
-			<PromotionType>PROMOTION_SUPPLY</PromotionType>
-		</Row>
+		
 	</Unit_FreePromotions>
 	
 	<UnitGameplay2DScripts>

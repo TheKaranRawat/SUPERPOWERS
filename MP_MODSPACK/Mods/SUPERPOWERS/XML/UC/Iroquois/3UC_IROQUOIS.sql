@@ -98,8 +98,7 @@ FROM Unit_FreePromotions WHERE UnitType = 'UNIT_MUSKETMAN';
 
 INSERT INTO Unit_FreePromotions
 		(UnitType, 					PromotionType)
-VALUES	('UNIT_3UC_RUSHER',  'PROMOTION_SIEGE'),
-		('UNIT_3UC_RUSHER',  'PROMOTION_3UC_RUSHER');
+VALUES	('UNIT_3UC_RUSHER',  'PROMOTION_3UC_RUSHER');
 
 
 --------------------------------	
