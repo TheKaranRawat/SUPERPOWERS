@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/08/17 7:00:36 AM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_GREEK_HIPPEIS</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</DefaultUnit>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_GREEK_HIPPEIS</Class>
+			<Type>UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</Type>
+			<Combat>45</Combat>
+			<Moves>6</Moves>
+			<Cost>120</Cost>
+			<!--<FaithCost>160</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<ObsoleteTech>TECH_CHIVALRY</ObsoleteTech>
+			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_GREEK_HIPPEIS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_GREEK_HIPPEIS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_GREEK_HIPPEIS_HELP</Help>
+
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			
+			<Pillage>true</Pillage>
+
+			<AdvancedStartCost>100</AdvancedStartCost>
+			
+			<MinAreaSize>-1</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</UnitArtInfo>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>29</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>21</UnitFlagIconOffset>
+			<MoveRate>QUADRUPED</MoveRate>
+			<ExtraMaintenanceCost>50</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_MEAD_HALL</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<!--
+	<Unit_FreePromotions>
+		
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		
+	</Unit_FreePromotions>
+	-->
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</UnitType>
+			<SelectionSound>AS2D_SELECT_HORSEMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_HORSEMAN</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GREEK_HIPPEIS">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Spartan Hippeis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GREEK_HIPPEIS_HELP">
+			<Text>Fast, early mounted Mercenary melee unit. Price shown is how much it costs to hire this unit for 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GREEK_HIPPEIS_STRATEGY">
+			<Text>Use the Spartan Hippeis to quickly route and scatter your enemies. They may move after attacking, but receive no defensive bonus from terrain and a penalty when attacking cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GREEK_HIPPEIS_PEDIA">
+			<Text>
+				The Spartan Hippeis is a Classical era Mercenary mounted melee unit, available upon the discovery of Horseback Riding. The Mead Hall is required for this unit to be built. The Spartan Hippeis becomes obsolete upon the discovery of Chivalry.[NEWLINE][NEWLINE]
+				'Hippeis' is a Greek term for cavalry. In ancient Athenian society, after the political reforms of Solon, the hippeus was the second highest of the four social classes. It was composed of men who had at least 300 medimnoi or their equivalent as yearly income. According to the Timocratic Constitution the average citizen had a yearly income of less than 200 medimnoi. This gave the men who made 300 medimnoi the ability to purchase and maintain a war horse during their service to the state.[NEWLINE][NEWLINE]Its counterparts were the Roman Equestrians and medieval knights.[NEWLINE][NEWLINE]In Sparta, the hippeus was the royal guard of honor. It consisted of 300 Spartan youths under the age of thirty. These soldiers were initially mounted, but later they would serve as heavily armed foot soldiers. The Athenian cavalry was formed after the Greco-Persian War in the 5th century BC; it originally consisted of 300 men and then increased to 1,200 men following Athens' Golden Age. This included 200 mounted bowmen and 1,000 Athenian citizens. The hippeus continued drilling in times of peace. They also took part in processions at public festivals. They were commanded by two hipparchi, who superintended the levy. Subordinated to each hipparch were five phylarchi, who each commanded a phyla. Both sets of officers were drawn from the two highest classes. It was the duty of the boule (council) to see that the cavalry was in good condition and to examine new members with respect to their equipment and eligibility.[NEWLINE][NEWLINE]The number of horsemen dispatched was determined by the decree of the popular assembly. Every horseman received equipment money on joining and a subsidy for keeping a groom and two horses; this grew to be an annual grant from the state, amounting to forty talents, but regular pay was only given in the field.[NEWLINE][NEWLINE]In 404 BC, a regular body of horses was formed, remedying long-standing neglect when compared with the infantry. The rich had only to provide horses, equipment, and armor; in time of war, those deemed unfit for service as hoplites were drafted to the cavalry and dispatched without any preliminary drill. In later times, every hoplite mora seems to have been allotted 60 cavalry. By enlisting mercenaries and introducing allies into their forces, the Spartans eventually obtained better cavalry.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

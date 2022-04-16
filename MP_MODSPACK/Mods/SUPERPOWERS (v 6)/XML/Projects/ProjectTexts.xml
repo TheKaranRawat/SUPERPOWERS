@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/31/2014 6:29:27 PM -->
+<GameData>
+	<Language_en_US>
+
+		<Replace Tag="TXT_KEY_PROJECT_APOLLO_PROGRAM_HELP" >
+			<Text>Allows your cities to build [COLOR_POSITIVE_TEXT]Satellite Units[ENDCOLOR], which offer global bonus to all nations. [NEWLINE]It also unlocks the [COLOR_POSITIVE_TEXT]Starship Project[ENDCOLOR] for achieving a [COLOR_POSITIVE_TEXT]Science victory[ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROJECT_APOLLO_PROGRAM_STRATEGY" >
+			<Text>In SuperPower Mod, the journey to the space is more detailed. The Apollo program is only the first step of the space travelling. To build spaceship parts, you must finish the [COLOR_POSITIVE_TEXT]Starship Project[ENDCOLOR], unlock by the Apollo program, in the future era.</Text>
+		</Replace>
+		
+		
+		
+
+
+		<Row Tag="TXT_KEY_PROJECT_STARSHIP_PROGRAM">
+			<Text>Starship Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_STARSHIP_PROGRAM_HELP">
+			<Text>Allows the building of [COLOR_POSITIVE_TEXT]Spaceship Parts[ENDCOLOR] for achieving a [COLOR_POSITIVE_TEXT]Science victory[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_STARSHIP_PROGRAM_PEDIA">
+			<Text>A starship, starcraft or interstellar spacecraft is a theoretical spacecraft designed for traveling between planetary systems, as opposed to a vehicle designed for orbital spaceflight or interplanetary travel.</Text>
+		</Row>
+		
+
+
+
+		<Row Tag="TXT_KEY_PROJECT_SPARTAN300_TRAINING">
+			<Text>Spartiates Training Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_SPARTAN300_TRAINING_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to purchase the elite infantry unit: [COLOR_YIELD_GOLD]Spartiates[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_SPARTAN300_TRAINING_PEDIA">
+			<Text>The Spartiates (Greek: Σπαρτιάται, "Spartans") or Homoioi (Greek: Ὅμοιοι, "those who are alike"; sing. homoios) were the males of Sparta known to the Spartans as "peers" or "men of equal status". From a young age, male Spartiates were trained for battle and put through gruelling challenges intended to craft them into fearless warriors. In battle, they had the reputation of being the best soldiers in Greece, and the strength of Sparta's hoplite forces let the city become the dominant state in Greece throughout much of the Classical period. </Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_PROJECT_NUMIDIAN_TRAINING">
+			<Text>Numidian Cavalry Training Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_NUMIDIAN_TRAINING_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to purchase the elite infantry unit: [COLOR_YIELD_GOLD]Numidian Cavalry[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_NUMIDIAN_TRAINING_PEDIA">
+			<Text>The Numidians were the Berber people who lived in Numidia (present day Algeria) and in a smaller part of Tunisia. The Numidians were one of the earliest natives to trade with the settlers of Carthage. As Carthage grew, the relationship with the Numidians blossomed. Carthage's military used the Numidian cavalry as mercenaries. </Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_PROJECT_RIDER_TRAINING">
+			<Text>Elite Rider Training Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_RIDER_TRAINING_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to purchase the elite cavalry unit: [COLOR_YIELD_GOLD]Dark Armored Rider[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_RIDER_TRAINING_PEDIA">
+			<Text>The Dark Armored Rider were a Chinese elite heavy cavalry troops. They served as the Emperor Taizong of Tang's guards. This troop is made up of elite knights wearing dark steel armor. With their distinction in the war, they were always considered as on of the most powerful cavalry troops of the 7th centry.</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_PROJECT_LANDSKNECHT_TRAINING">
+			<Text>Landsknecht Mercenary Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_LANDSKNECHT_TRAINING_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to purchase the elite mercenary unit: [COLOR_YIELD_GOLD]Landsknecht[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_LANDSKNECHT_TRAINING_PEDIA">
+			<Text>The landsknecht were German mercenary pikemen of the 16th century. Created in imitation of the legendary Swiss mercenary pikemen, the landsknecht would eventually supplant them as the best mercenary infantry available in Europe, fighting in almost every major engagement in the 16th century - often on both sides. </Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROJECT_LONGBOWMAN_TRAINING">
+			<Text>Longbowman Training Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_LONGBOWMAN_TRAINING_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the elite archery unit: [COLOR_YIELD_GOLD]Longbowman[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_LONGBOWMAN_TRAINING_PEDIA">
+			<Text>It was the difficulty in using the longbow that led various monarchs of England to issue instructions encouraging their ownership and practice, including the Assize of Arms of 1252 and King Edward III's declaration of 1363: "Whereas the people of our realm, rich and poor alike, were accustomed formerly in their games to practise archery – whence by God's help, it is well known that high honour and profit came to our realm, and no small advantage to ourselves in our warlike enterprises... </Text>
+		</Row>
+
+
+
+
+		<Row Tag="TXT_KEY_PROJECT_ZHENGHE_FLEET">
+			<Text>Treasure Voyages Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_ZHENGHE_FLEET_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the treasure voyages fleet: [COLOR_YIELD_GOLD]Zheng He's Fleet[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_ZHENGHE_FLEET_PEDIA">
+			<Text>In Chinese history, the treasure voyages were the seven Ming-era maritime voyages of the treasure fleet between 1405 and 1433. The Yongle Emperor initiated the construction of the treasure fleet in 1403. The grand project resulted in seven far-reaching ocean voyages to the coastal territories and islands in and around the South China Sea, the Indian Ocean, and beyond. Admiral Zheng He was commissioned to command the treasure fleet for the expeditions. Six of the voyages occurred during the Yongle reign (r. 1402–24), while the seventh voyage occurred under the Xuande reign (r. 1425–1435). The first three voyages reached up to Calicut on India's southwestern coast, while the fourth voyage went as far as Hormuz in the Persian Gulf. Afterwards, the fleet made voyages farther away to the Arabian Peninsula and East Africa.</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_PROJECT_PROTOTYPE_KOREAN_HWACHA">
+			<Text>Early Multiple Rocket Launcher Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_PROTOTYPE_KOREAN_HWACHA_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the prototype multiple rocket launcher: [COLOR_YIELD_GOLD]Hwacha[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_PROTOTYPE_KOREAN_HWACHA_PEDIA">
+			<Text>
+				ong before the development of the hwachas, China imposed severe restrictions on exporting gunpowder to Joseon Korea, fiercely guarding a military asset. Yet gunpowder weapons were key to the Koreans in maintaining a predominant navy in the Sea of Japan (East Sea) to protect fishermen and merchants against the increasing numbers of invading Japanese and Wokou pirates. In response, there was an effort by Koreans to develop gunpowder on their own. Korea first began production of gunpowder during the period 1374–76. In 1377 a Korean scholar named Choe Mu-seon discovered a way to obtain it by extracting potassium nitrate from the soil and subsequently invented the juhwa, Korea's very first rocket.Further developments led to the birth of the family of singijeons. The hwacha was a further development from the juhwa and the singijeon. The first hwacha was developed in Korea in 1409 during the Joseon Dynasty.
+			</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_PROJECT_MUSKETEER_TRAINING">
+			<Text>Ski Infantry Training Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_MUSKETEER_TRAINING_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to train the elite infantry unit: [COLOR_YIELD_GOLD]Ski Infantry[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_MUSKETEER_TRAINING_PEDIA">
+			<Text>Ski warfare, the use of ski-equipped troops in war, is first recorded by the Danish historian Saxo Grammaticus in the 13th century.</Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_PROJECT_PROTOTYPE_SUBMARINE">
+			<Text>Prototype Submarine Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_PROTOTYPE_SUBMARINE_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to train the Experimental Unit: [COLOR_YIELD_GOLD]The Nautilus[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_PROTOTYPE_SUBMARINE_PEDIA">
+			<Text>The Nautilus is the fictional submarine captained by Nemo featured in Jules Verne's novels Twenty Thousand Leagues Under the Sea (1870) and The Mysterious Island (1874). Verne named the Nautilus after Robert Fulton's real-life submarine Nautilus (1800). Three years before writing his novel, Jules Verne also studied a model of the newly developed French Navy submarine Plongeur at the 1867 Exposition Universelle, which inspired him for his definition of the Nautilus. </Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_PROJECT_LAND_IRONCLAD">
+			<Text>Land Ironclad Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_LAND_IRONCLAD_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the pre-tank unit: [COLOR_YIELD_GOLD]Land Ironclad[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_LAND_IRONCLAD_PEDIA">
+			<Text>"The Land Ironclads" is a short story by H.G. Wells that originally appeared in the December 1903 issue of the Strand Magazine. It features "land ironclads," 100-foot-long (30 m) machines that are equipped with remote-controlled guns and that carry riflemen, engineers, and a captain.</Text>
+		</Row>
+
+
+
+
+
+		<Row Tag="TXT_KEY_PROJECT_SUPER_HOWITZER">
+			<Text>Super Howitzer Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_SUPER_HOWITZER_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the super howitzer unit: [COLOR_POSITIVE_TEXT]Big Bertha[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_SUPER_HOWITZER_PEDIA">
+			<Text>Big Bertha (German: Dicke Bertha)—literal translation "Fat or heavy Bertha"—is the name of a type of super-heavy mortar developed by the armaments manufacturer Krupp in Germany on the eve of World War I. Its official designation was the L/12, i.e., the barrel was 12 calibre in length, 42-cm (16.5 inch) Type M-Gerät 14 (M-Equipment 1914) Kurze Marine-Kanone ("short naval gun", a name intended to camouflage the weapon's real purpose).</Text>
+		</Row>
+
+		
+		
+		
+		
+		
+		<Row Tag="TXT_KEY_PROJECT_PROTOTYPE_AIRSHIP">
+			<Text>Airship Carrier Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_PROTOTYPE_AIRSHIP_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the airship carrier unit: [COLOR_POSITIVE_TEXT]Zeppelin[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_PROTOTYPE_AIRSHIP_PEDIA">
+			<Text>Big Bertha (German: Dicke Bertha)—literal translation "Fat or heavy Bertha"—is the name of a type of super-heavy mortar developed by the armaments manufacturer Krupp in Germany on the eve of World War I. Its official designation was the L/12, i.e., the barrel was 12 calibre in length, 42-cm (16.5 inch) Type M-Gerät 14 (M-Equipment 1914) Kurze Marine-Kanone ("short naval gun", a name intended to camouflage the weapon's real purpose).</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_PROJECT_ELITE_SNIPER_TRAINING">
+			<Text>Elite Sniper Training Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_ELITE_SNIPER_TRAINING_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the elite sniper unit: [COLOR_YIELD_GOLD]Elite Sniper[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_ELITE_SNIPER_TRAINING_PEDIA">
+			<Text>A sniper is a trained marksman who operates alone, in a pair, or with a sniper team to maintain close visual contact with a target and engage the targets from concealed positions or distances exceeding the detection capabilities of enemy personnel.</Text>
+		</Row>
+		
+
+		<Row Tag="TXT_KEY_PROJECT_ELITE_BATTLECRUISER">
+			<Text>Heavy Armored Battle Ship Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_ELITE_BATTLECRUISER_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the super battleship unit: [COLOR_YIELD_GOLD]Bismarck[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_ELITE_BATTLECRUISER_PEDIA">
+			<Text>The Bismarck class was a pair of battleships built for Nazi Germany's Kriegsmarine shortly before the outbreak of World War II. The ships were the largest warships built for the Kriegsmarine. </Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_PROJECT_SR71_BLACKBIRD">
+			<Text>Project Habu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_SR71_BLACKBIRD_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the strategic reconnaissance aircraft unit: [COLOR_YIELD_GOLD]SR-71 "Blackbird"[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_SR71_BLACKBIRD_PEDIA">
+			<Text>Lockheed's previous reconnaissance aircraft was the relatively slow U-2, designed for the Central Intelligence Agency (CIA). In late 1957, the CIA approached the defense contractor Lockheed to build an undetectable spy plane. While deployed in Okinawa, the SR-71s and their aircrew members gained the nickname Habu (as did the A-12s preceding them) after a pit viper indigenous to Japan, which the Okinawans thought the plane resembled.</Text>
+		</Row>
+
+
+
+
+		<Row Tag="TXT_KEY_PROJECT_SUPER_HEAVY_TANK">
+			<Text>Super-heavy Tank Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_SUPER_HEAVY_TANK_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the super-heavy tank unit: [COLOR_YIELD_GOLD]Panzer VIII Maus[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_SUPER_HEAVY_TANK_PEDIA">
+			<Text>Super-heavy tanks are armoured fighting vehicles of very large size, generally over 75 tonnes[citation needed]. Programs have been initiated on several occasions with the aim of creating an invincible vehicle for penetrating enemy formations without fear of being destroyed in combat; however, only a few examples have ever been built, and there is no clear evidence any of these vehicles saw combat. Examples were designed in World War I and World War II, along with a few in the Cold War.</Text>
+		</Row>
+
+
+
+		<Row Tag="TXT_KEY_PROJECT_TSAR_BOMBA_BOMB">
+			<Text>Trutnev-Babaev Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_TSAR_BOMBA_BOMB_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the King of Bombs: [COLOR_YIELD_GOLD]The Tsar Bomba[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_TSAR_BOMBA_BOMB_PEDIA">
+			<Text>The Tsar Bomba was a three-stage bomb with Trutnev-Babaev[6] second and third stage design,[7] with a yield of 50 megatons.</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_PROJECT_NUCLEAR_ARTILLERY">
+			<Text>Nuclear Artillery Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_NUCLEAR_ARTILLERY_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the prototype Nuclear Artillery Weapon: [COLOR_YIELD_GOLD]Kondensator[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_NUCLEAR_ARTILLERY_PEDIA">
+			<Text>The development of nuclear artillery was part of a broad push by nuclear weapons countries to develop nuclear weapons which could be used tactically against enemy armies in the field (as opposed to strategic uses against cities, military bases, and heavy industry).</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_PROJECT_BAZOOKA_TRAINING">
+			<Text>Tactical Nuclear Recoilless Gun Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_BAZOOKA_TRAINING_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the prototype Tactical Nuclear Weapon: [COLOR_YIELD_GOLD]Nuclear Rocket Launcher[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_BAZOOKA_TRAINING_PEDIA">
+			<Text>A tactical nuclear weapon (or TNW) also known as non-strategic nuclear weapon refers to a nuclear weapon which is designed to be used on a battlefield in military situations, mostly with friendly forces in proximity and perhaps even on contested friendly territory.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROJECT_COSSACK_MILITIA">
+			<Text>Elite Militia Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_COSSACK_MILITIA_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to purchase the elite militia unit: [COLOR_YIELD_GOLD]Cossack Militia[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_COSSACK_MILITIA_PEDIA">
+			<Text>Cossack society and government were heavily militarized. The nation was called a host (vois’ko, or viys’ko, translated as 'army'). The people and territories were subdivided into regimental and company districts, and village posts (polky, sotni, and stanytsi). A unit of a Cossack troop could be called a kuren.</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_PROJECT_SUPER_BATTLESHIP">
+			<Text>Super Battleship Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_SUPER_BATTLESHIP_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the super battleship unit: [COLOR_YIELD_GOLD]Yamato[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_SUPER_BATTLESHIP_PEDIA">
+			<Text>Super battleship is an unofficial classification of battleships encompassing the largest types constructed or planned, displacing roughly 60,000 tons or more. Only two such battleships were ever constructed, though many more were planned by several navies of the world before and during the Second World War. Their design emphasized thick armor and big-caliber guns, the most ideal warships for the decisive battle doctrine between battleships, which then had large support. However the advent of the aircraft carriers compromised their use, and the only two ever built (both by the Japanese Empire) were both sunk during World War II.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROJECT_PROTOTYPE_STEALTH_BOMBER">
+			<Text>Prototype Stealth Bomber Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_PROTOTYPE_STEALTH_BOMBER_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the prototype stealth bomber unit: [COLOR_YIELD_GOLD]Horten Ho 229[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_PROTOTYPE_STEALTH_BOMBER_PEDIA">
+			<Text>In the closing weeks of World War 2, the US military initiated "Operation Paperclip", an effort by the US Army to capture as much advanced German weapons research as possible, and also to deny that research to advancing Soviet troops. A Horten glider and the nearly complete Ho 229 V3 third prototype airframe were secured and sent to Northrop Aviation for evaluation in the United States,[3] who much later used a flying wing design for the B-2 stealth bomber.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROJECT_UNDERWATER_CARRIER">
+			<Text>Prototype Underwater Carrier Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_UNDERWATER_CARRIER_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the prototype underwater carrier unit: [COLOR_YIELD_GOLD]Hydra[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_UNDERWATER_CARRIER_PEDIA">
+			<Text>A submarine aircraft carrier is a submarine equipped with aircraft for observation or attack missions. These submarines saw their most extensive use during World War II, although their operational significance remained rather small. The most famous of them were the Japanese I-400 class submarine and the French submarine Surcouf, although small numbers of similar craft were built for other nations' navies as well.</Text>
+		</Row>
+		
+
+		<Row Tag="TXT_KEY_PROJECT_CRUSADER_ARTILLERY">
+			<Text>Next-Gen Howitzer Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_CRUSADER_ARTILLERY_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the prototype mobile artillery unit: [COLOR_YIELD_GOLD]XM2001 Crusader[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_CRUSADER_ARTILLERY_PEDIA">
+			<Text>The XM2001 Crusader was to be the United States Army's next-generation self-propelled howitzer (SPH), designed to improve the survivability, lethality, mobility, and effectiveness of the artillery as well as the overall force. It was initially scheduled for fielding by 2008. United Defense was the prime contractor; General Dynamics the major subcontractor. In early May 2002, Secretary of Defense Donald Rumsfeld cancelled the $11 billion USD program because he considered it neither mobile nor precise enough.</Text>
+		</Row>
+		
+
+		<Row Tag="TXT_KEY_PROJECT_TASKFORCE141">
+			<Text>Task Force 141 Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_TASKFORCE141_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the elite special forces unit: [COLOR_YIELD_GOLD]Task Force 141[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_TASKFORCE141_PEDIA">
+			<Text>Task Force 141, colloquially referred to as "The One-Four-One," is a multinational special operations force composed of members of British, Australian, American, Canadian and possibly other foreign personnel, usually those with previous Special Ops experience. </Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_PROJECT_WEISHI_ROCKETS">
+			<Text>Anti-ship MLRS Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_WEISHI_ROCKETS_HELP">
+			<Text>
+				Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the prototype Anti-ship MLRS unit: [COLOR_YIELD_GOLD]Weishi Rockets[ENDCOLOR].
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_WEISHI_ROCKETS_PEDIA">
+			<Text>The Weishi (WS; Chinese: 卫士; literally: "Guardian") family of the multiple rocket launcher systems were mainly developed by Sichuan Aerospace Industry Corporation (SCAIC, also known as Base 062) in Chengdu, Sichuan Province. The Weishi series rocket systems include the 302mm WS-1 (100 km range), the improved 302mm WS-1B (180 km range), the 122mm WS-1E (40 km), the 400mm WS-2 (200 km range), as well as many other models. The WS-1 series weapon system did not enter PLA service and has order from Thailand. The WS-2 may finally see PLA service in the future. It's worth noticing that although sharing the same name, there are other developers for different models of Weishi series multiple rocket launchers (MRL) other than the primary developer SCAIC.</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_PROJECT_PAK_FA">
+			<Text>PAK FA Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_PAK_FA_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the prototype stealth multirole fighter unit: [COLOR_YIELD_GOLD]PAK FA T-50[ENDCOLOR].
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_PAK_FA_PEDIA">
+			<Text>The PAK FA ( Perspektivny Aviatsionny Kompleks Frontovoy Aviatsii, literally "Prospective Airborne Complex of Frontline Aviation") is a fifth-generation fighter programme of the Russian Air Force. The T-50 is the aircraft designed by Sukhoi for the PAK FA programme.</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_PROJECT_STEALTH_HELICOPTER">
+			<Text>Light Helicopter Experimental Program</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_STEALTH_HELICOPTER_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the prototype stealth helicopter unit: [COLOR_YIELD_GOLD]RAH-66 Comanche[ENDCOLOR].
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_STEALTH_HELICOPTER_PEDIA">
+			<Text>During the early 1980s, the U.S. Army began formulating a requirement for the replacement of its helicopters then in service, resulting in the Light Helicopter Experimental program. In 1991, the Boeing-Sikorsky team was chosen to produce prototypes. The Comanche would incorporate stealth technologies, featuring a number of designs previously untried. It was to employ advanced sensors in its reconnaissance role, and was intended to designate targets for the AH-64 Apache. The aircraft was also armed with missiles and rockets to destroy armored vehicles. Two RAH-66 prototypes were built and conducted flight testing from 1996 to 2004. Since the cancellation the prototypes have been placed on display.</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_PROJECT_ADV_MECH">
+			<Text>Jaeger Program</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_ADV_MECH_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the prototype mecha unit: [COLOR_YIELD_GOLD]Giant Death Robot[ENDCOLOR].
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_ADV_MECH_PEDIA">
+			<Text>Mecha is a science fiction genre that centers on robots or machines controlled by people. These machines vary greatly in size, shape, and appearance. Some are little more than cars with arms and legs, while others are giant humanoid constructs. Different sub-genres exist, with varying connotations of realism. The concept of Super Robot and Real Robot are two such examples found in Japanese anime.</Text>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_PROJECT_HACKER_ATTACK">
+			<Text>Bit Weapon Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_HACKER_ATTACK_HELP">
+			<Text>
+				Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the prototype cyber war weapon: [COLOR_YIELD_GOLD]Bit Weapon[ENDCOLOR].
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_HACKER_ATTACK_PEDIA">
+			<Text>In computer security, a hacker is someone who focuses on security mechanisms of computer and network systems. While including those who endeavor to strengthen such mechanisms, it is more often used by the mass media and popular culture to refer to those who seek access despite these security measures. </Text>
+		</Row>
+		
+		
+
+		<Row Tag="TXT_KEY_PROJECT_PARTICLE_CANNON">
+			<Text>Particle Weapon Development Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_PARTICLE_CANNON_HELP">
+			<Text>
+				Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the prototype particle weapon unit: [COLOR_YIELD_GOLD]Particle Cannon Vessel[ENDCOLOR].
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_PARTICLE_CANNON_PEDIA">
+			<Text>A particle-beam weapon uses a high-energy beam of atomic or subatomic particles to damage the target by disrupting its atomic and/or molecular structure. A particle-beam weapon is a type of directed-energy weapon, which directs energy in a particular and focused direction using particles with negligible mass. </Text>
+		</Row>
+		
+
+		<!--<Row Tag="TXT_KEY_PROJECT_ORBITAL_STRIKE">
+			<Text>Kinetic Bombardment System Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_ORBITAL_STRIKE_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the kinetic orbital strike unit: [COLOR_YIELD_GOLD]Kinetic Bombardment System[ENDCOLOR].
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_ORBITAL_STRIKE_PEDIA">
+			<Text>A kinetic bombardment or a kinetic orbital strike is the hypothetical act of attacking a planetary surface with an inert projectile, where the destructive force comes from the kinetic energy of the projectile impacting at very high velocities. The concept is often encountered in science fiction and originated during the Cold War.</Text>
+		</Row>-->
+		
+		
+		
+		
+		
+		
+
+		<Row Tag="TXT_KEY_PROJECT_NAVAL_EXPLORATION">
+			<Text>Naval Exploration Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_NAVAL_EXPLORATION_HELP">
+			<Text>Allows you to build all [COLOR_POSITIVE_TEXT]Naval Unit[ENDCOLOR] able enter the [COLOR_POSITIVE_TEXT]Deep Ocean[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_NAVAL_EXPLORATION_PEDIA">
+			<Text>The Age of Discovery is a historical period of European global exploration that started in the early 15th century with the first Portuguese discoveries in the Atlantic archipelagos and Africa, as well as the discovery of America by Spain in 1492, and the discovery of the ocean route to the East in 1498, and by a series of European naval expeditions across the Atlantic and later the Pacific, which continued until the 18th century. It is sometimes regarded as a bridge between the Middle Ages and the Modern era, along with its contemporary Renaissance movement. European overseas expansion led to the rise of colonial empires, with the contact between the Old and New Worlds producing the Columbian Exchange: a wide transfer of plants, animals, foods, human populations (including slaves), communicable diseases and culture between the Eastern and Western hemispheres. </Text>
+		</Row>
+		
+		
+		
+		
+	</Language_en_US>
+  
+</GameData>

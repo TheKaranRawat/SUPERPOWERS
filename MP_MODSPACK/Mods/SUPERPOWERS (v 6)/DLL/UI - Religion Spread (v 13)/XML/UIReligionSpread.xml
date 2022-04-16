@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Table name="Religion_MapColors">
+    <Column name="ReligionType" type="text" reference="Religions(Type)"/>
+    <Column name="ColorType" type="text" reference="Colors(Type)"/>
+  </Table>
+
+  <Religion_MapColors>
+    <Row>
+      <ReligionType>RELIGION_BUDDHISM</ReligionType>
+      <ColorType>COLOR_PLAYER_ORANGE</ColorType>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_CHRISTIANITY</ReligionType>
+      <ColorType>COLOR_PLAYER_LIGHT_BROWN</ColorType>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_CONFUCIANISM</ReligionType>
+      <ColorType>COLOR_PLAYER_DARK_PURPLE</ColorType>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_HINDUISM</ReligionType>
+      <ColorType>COLOR_PLAYER_PALE_ORANGE</ColorType>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_ISLAM</ReligionType>
+      <ColorType>COLOR_PLAYER_GREEN</ColorType>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_JUDAISM</ReligionType>
+      <ColorType>COLOR_PLAYER_CYAN</ColorType>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_SHINTO</ReligionType>
+      <ColorType>COLOR_PLAYER_RED</ColorType>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_SIKHISM</ReligionType>
+      <ColorType>COLOR_PLAYER_MIDDLE_GREEN</ColorType>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_TAOISM</ReligionType>
+      <ColorType>COLOR_PLAYER_DARK_INDIGO</ColorType>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_TENGRIISM</ReligionType>
+      <ColorType>COLOR_PLAYER_MAROON</ColorType>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_ZOROASTRIANISM</ReligionType>
+      <ColorType>COLOR_PLAYER_DARK_LEMON</ColorType>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_ORTHODOXY</ReligionType>
+      <ColorType>COLOR_PLAYER_BLUE</ColorType>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_PROTESTANTISM</ReligionType>
+      <ColorType>COLOR_PLAYER_LIGHT_YELLOW</ColorType>
+    </Row>
+  </Religion_MapColors>
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_RO_WR_TOTAL_CITIES">
+      <Text>Cities</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_TOTAL_FOLLOWERS">
+      <Text>Followers</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_RO_TAB_MAP">
+      <Text>Map</Text>
+    </Row>
+  </Language_en_US>
+</GameData>

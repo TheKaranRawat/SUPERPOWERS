@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/07/17 1:36:07 PM -->
+<GameData>
+
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_EXOTIC_UNIT_BARQUE</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>TwoBigGuns</Formation>
+		</Row>
+	</ArtDefine_UnitInfos>
+
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_EXOTIC_UNIT_BARQUE</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_EXOTIC_UNIT_BARQUE</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_EXOTIC_UNIT_BARQUE</Type>
+			<Scale>0.18</Scale>
+			<Domain>Sea</Domain>
+			<Model>SMAN_EU_Barque.fxsxml</Model>
+			<MaterialTypeTag>WOOD</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>WOODLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_EXOTIC_UNIT_BARQUE</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<DisableActions></DisableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLongRangedAttack>1</HasLongRangedAttack>
+			<HasLeftRightAttack>1</HasLeftRightAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_EXOTIC_UNIT_BARQUE</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>10.0</VisKillStrengthMin>
+			<VisKillStrengthMax>20.0</VisKillStrengthMax>
+			<WeaponTypeTag>ARROW</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>ARROW</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_EXOTIC_UNIT_BARQUE</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>sv_sea_mercenary.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+
+</GameData>

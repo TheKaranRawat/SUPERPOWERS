@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Font="TwCenMT16" FontStyle="Base">
+  <Box Style="BGBlock_ClearTopBar" />
+
+  <Instance Name="CityProduction">
+    <Stack ID="City" Padding="0" StackGrowth="Right">
+      <Box Size="24,32" Color="Black,0">
+        <Label ID="Pop" Anchor="R,C" String="99" Color0="White,255" Color1="Black255" Font="TwCenMT20" FontStyle="Stroke"/>
+      </Box>
+      <Box Size="30,32" Color="Black,0">
+        <Label ID="Icon" Anchor="C,C" String="[ICON_CITY_STATE]"/>
+      </Box>
+      <Box Size="180,32" Color="Black,0">
+        <TextButton ID="Name" Anchor="L,C" String="Llanfairpwllgwyngyll" Font="TwCenMT22" WrapWidth="170" ToolTip="TXT_KEY_CP_CITY_TT"/>
+      </Box>
+
+      <Box Size="40,32" Color="Black,0">
+        <Label ID="Production" Anchor="R,C" String="99" Color0="Production,255" Color1="Black,255" Font="TwCenMT20" FontStyle="Stroke"/>
+      </Box>
+      <Box Size="40,32" Color="Black,0">
+        <Label ID="Food" Anchor="R,C" String="99" Color0="Food,255" Color1="Black,255" Font="TwCenMT20" FontStyle="Stroke"/>
+      </Box>
+      <Box Size="40,32" Color="Black,0">
+        <Label ID="Science" Anchor="R,C" String="99" Color0="Science,255" Color1="Black,255" Font="TwCenMT20" FontStyle="Stroke"/>
+      </Box>
+      <Box Size="40,32" Color="Black,0">
+        <Label ID="Gold" Anchor="R,C" String="99" Color0="Gold,255" Color1="Black,255" Font="TwCenMT20" FontStyle="Stroke"/>
+      </Box>
+      <Box Size="40,32" Color="Black,0">
+        <Label ID="Culture" Anchor="R,C" String="99" Color0="Culture,255" Color1="Black,255" Font="TwCenMT20" FontStyle="Stroke"/>
+      </Box>
+      <Box Size="40,32" Color="Black,0">
+        <Label ID="Faith" Anchor="R,C" String="99" Color0="White,255" Color1="Black,255" Font="TwCenMT20" FontStyle="Stroke"/>
+      </Box>
+
+      <Box Size="20,32" Color="Black,0"/>
+
+      <Box Size="24,32" Color="Black,0">
+        <TextButton ID="FocusDefault" Anchor="L,C" String="[ICON_RANGE_STRENGTH]" ToolTip="TXT_KEY_CP_FOCUS_DEFAULT"/>
+      </Box>
+      <Box Size="24,32" Color="Black,0">
+        <TextButton ID="FocusProduction" Anchor="L,C" String="[ICON_PRODUCTION]" ToolTip="TXT_KEY_CP_FOCUS_PRODUCTION"/>
+      </Box>
+      <Box Size="24,32" Color="Black,0">
+        <TextButton ID="FocusFood" Anchor="L,C" String="[ICON_FOOD]" ToolTip="TXT_KEY_CP_FOCUS_FOOD"/>
+      </Box>
+      <Box Size="24,32" Color="Black,0">
+        <TextButton ID="FocusScience" Anchor="L,C" String="[ICON_RESEARCH]" ToolTip="TXT_KEY_CP_FOCUS_SCIENCE"/>
+      </Box>
+      <Box Size="24,32" Color="Black,0">
+        <TextButton ID="FocusGold" Anchor="L,C" String="[ICON_GOLD]" ToolTip="TXT_KEY_CP_FOCUS_GOLD"/>
+      </Box>
+      <Box Size="24,32" Color="Black,0">
+        <TextButton ID="FocusGP" Anchor="L,C" String="[ICON_GREAT_PEOPLE]" ToolTip="TXT_KEY_CP_FOCUS_GP"/>
+      </Box>
+      <Box Size="24,32" Color="Black,0">
+        <TextButton ID="FocusCulture" Anchor="L,C" String="[ICON_CULTURE]" ToolTip="TXT_KEY_CP_FOCUS_CULTURE"/>
+      </Box>
+      <Box Size="24,32" Color="Black,0">
+        <TextButton ID="FocusFaith" Anchor="L,C" String="[ICON_PEACE]" ToolTip="TXT_KEY_CP_FOCUS_FAITH"/>
+      </Box>
+
+      <Box Size="10,32" Color="Black,0"/>
+
+      <Box Size="24,32" Color="Black,0">
+        <Label ID="ManualTiles" Anchor="L,C" String="[ICON_LOCKED]"/>
+      </Box>
+      <Box Size="24,32" Color="Black,0">
+        <Label ID="ManualSpecialists" Anchor="L,C" String="[ICON_CITIZEN]"/>
+      </Box>
+      <Box Size="24,32" Color="Black,0">
+        <Label ID="ManualGrowth" Anchor="L,C" String="[ICON_TEAM_2]"/>
+      </Box>
+
+      <Box Size="10,32" Color="Black,0"/>
+
+      <Box Size="32,32" Color="Black,0">
+        <Image ID="BuildImage" Anchor="C,C" Size="45,45" Texture="WonderAtlas360.dds"/>
+      </Box>
+      <Box Size="80,32" Color="Black,0">
+          <TextureBar ID="BuildProgress" Anchor="L,C" Offset="0,0" Size="75,10" Direction="Right" Texture="XPmeter.dds"/>
+      </Box>
+      <Box Size="30,32" Color="Black,0">
+        <Label ID="BuildTurns" Anchor="L,C" String="99" Color0="White,255" Color1="Black,255" Font="TwCenMT20" FontStyle="Stroke"/>
+      </Box>
+    </Stack>
+  </Instance>
+
+  <Grid Size="990,653" Anchor="C,C" Offset="0,42" Style="Grid9DetailFive140" ConsumeMouse="1">
+
+    <Label Style="MenuTitleCaption" String="TXT_KEY_CP_OVERVIEW" />
+    <!-- Panel Header Text 
+    <Label String="TXT_KEY_CP_OVERVIEW" Anchor="C,T" Offset="0,19" Font="TwCenMT20" Color0="30,50,80,255" Color1="133,184,186,255" Color2="133,184,186,255" FontStyle="SoftShadow"  />
+    -->
+    <Box Style="PopupLeftSideTreatment"/>
+    <Box Style="PopupRightSideTreatment"/>
+
+    <Image Anchor="C,T" AnchorSide="I,O" Size="256,64" Offset="0,-14"  Texture="Top512IconTrim.dds" >
+      <Image ID="CivIconBG" Size="64,64" Anchor="C,C" Offset="-1,-1" TextureOffset="77,0" Texture="CivIconBGSizes.dds" />
+      <Image ID="CivIconShadow" Size="48,48" Anchor="C,C" Offset="0,0" Texture="CivSymbolAtlas48.dds" Color="Black,128"/>
+      <Image ID="Icon" Size="48,48" Offset="-1,-1"  Anchor="C,C" Texture="CivSymbolsColor512.dds" />
+    </Image>
+
+    <!-- Top Panel  -->
+    <Box Anchor="C,T" Size="955,32" Offset="0,44" Color="0,0,0,128" >
+      <Stack Anchor="C,T" Size="971,32" Offset="0,0" Padding="0" StackGrowth="Right">
+        <Button  Anchor="L,T" Size="300,24" Offset="0,0" String="TXT_KEY_CP_CITIES" ID="CitiesButton" >
+<!--
+          <ShowOnMouseOver>
+            <AlphaAnim Anchor="L,C" Size="300,27" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1"  >
+              <Grid   Size="300,27" Offset="0,2" Padding="0,0" Style="Grid9FrameTurnsHL" />
+            </AlphaAnim>
+          </ShowOnMouseOver>
+-->
+          <!-- Selected State  -->
+<!--
+          <Grid Anchor="C,C" Offset="0,1" Size="300,26"  Style="Grid9FrameTurns" Hidden="1" ID="CitiesSelectHighlight" />
+-->
+        </Button>
+      </Stack>
+
+      <Image Anchor="C,B" Offset="0,0" Texture="HorizontalTrim.dds" Size="971,5" />
+    </Box>
+
+    <Box Size="990,625" Anchor="C,C" Offset="0,42" Color="White,0">
+      <Box Anchor="L,T" Size="954,450" Offset="19,13" Color="White,0" ID="ProductionPanel">
+        <Box Anchor="L,T" Size="930,32" Offset="10,2" Color="White,0">
+          <Stack Padding="0" StackGrowth="Right">
+            <Box Size="24,32" Color="Black,0">
+              <TextButton ID="SortPop" Anchor="R,C" String="[ICON_CITIZEN]" ToolTip="TXT_KEY_CP_SORT_POP_TT"/>
+            </Box>
+            <Box Size="30,32" Color="Black,0">
+              <TextButton ID="SortIcon" Anchor="C,C" String="[ICON_CITY_STATE]" ToolTip="TXT_KEY_CP_SORT_STATUS_TT"/>
+            </Box>
+            <Box Size="180,32" Color="Black,0">
+              <TextButton ID="SortName" Anchor="L,C" Font="TwCenMT22" String="TXT_KEY_CP_CITY" WrapWidth="170" ToolTip="TXT_KEY_CP_SORT_NAME_TT"/>
+            </Box>
+
+            <Box Size="40,32" Color="Black,0">
+              <TextButton ID="SortProduction" Anchor="R,C" String="[ICON_PRODUCTION]" ToolTip="TXT_KEY_CP_SORT_PRODUCTION_TT"/>
+            </Box>
+            <Box Size="40,32" Color="Black,0">
+              <TextButton ID="SortFood" Anchor="R,C" String="[ICON_FOOD]" ToolTip="TXT_KEY_CP_SORT_FOOD_TT"/>
+            </Box>
+            <Box Size="40,32" Color="Black,0">
+              <TextButton ID="SortScience" Anchor="R,C" String="[ICON_RESEARCH]" ToolTip="TXT_KEY_CP_SORT_SCIENCE_TT"/>
+            </Box>
+            <Box Size="40,32" Color="Black,0">
+              <TextButton ID="SortGold" Anchor="R,C" String="[ICON_GOLD]" ToolTip="TXT_KEY_CP_SORT_GOLD_TT"/>
+            </Box>
+            <Box Size="40,32" Color="Black,0">
+              <TextButton ID="SortCulture" Anchor="R,C" String="[ICON_CULTURE]" ToolTip="TXT_KEY_CP_SORT_CULTURE_TT"/>
+            </Box>
+            <Box Size="40,32" Color="Black,0">
+              <TextButton ID="SortFaith" Anchor="R,C" String="[ICON_PEACE]" ToolTip="TXT_KEY_CP_SORT_FAITH_TT"/>
+            </Box>
+
+            <Box Size="20,32" Color="Black,0"/>
+
+            <Box Size="24,32" Color="Black,0">
+              <TextButton ID="AllFocusDefault" Anchor="L,C" String="[ICON_RANGE_STRENGTH]" ToolTip="TXT_KEY_CP_SORT_FOCUS_DEFAULT_TT"/>
+            </Box>
+            <Box Size="24,32" Color="Black,0">
+              <TextButton ID="AllFocusProduction" Anchor="L,C" String="[ICON_PRODUCTION]" ToolTip="TXT_KEY_CP_SORT_FOCUS_PRODUCTION_TT"/>
+            </Box>
+            <Box Size="24,32" Color="Black,0">
+              <TextButton ID="AllFocusFood" Anchor="L,C" String="[ICON_FOOD]" ToolTip="TXT_KEY_CP_SORT_FOCUS_FOOD_TT"/>
+            </Box>
+            <Box Size="24,32" Color="Black,0">
+              <TextButton ID="AllFocusScience" Anchor="L,C" String="[ICON_RESEARCH]" ToolTip="TXT_KEY_CP_SORT_FOCUS_SCIENCE_TT"/>
+            </Box>
+            <Box Size="24,32" Color="Black,0">
+              <TextButton ID="AllFocusGold" Anchor="L,C" String="[ICON_GOLD]" ToolTip="TXT_KEY_CP_SORT_FOCUS_GOLD_TT"/>
+            </Box>
+            <Box Size="24,32" Color="Black,0">
+              <TextButton ID="AllFocusGP" Anchor="L,C" String="[ICON_GREAT_PEOPLE]" ToolTip="TXT_KEY_CP_SORT_FOCUS_GP_TT"/>
+            </Box>
+            <Box Size="24,32" Color="Black,0">
+              <TextButton ID="AllFocusCulture" Anchor="L,C" String="[ICON_CULTURE]" ToolTip="TXT_KEY_CP_SORT_FOCUS_CULTURE_TT"/>
+            </Box>
+            <Box Size="24,32" Color="Black,0">
+              <TextButton ID="AllFocusFaith" Anchor="L,C" String="[ICON_PEACE]" ToolTip="TXT_KEY_CP_SORT_FOCUS_FAITH_TT"/>
+            </Box>
+
+            <Box Size="10,32" Color="Black,0"/>
+
+            <Box Size="24,32" Color="Black,0">
+              <TextButton ID="SortManualTiles" Anchor="L,C" String="[ICON_LOCKED]" ToolTip="TXT_KEY_CP_SORT_MANUAL_TILES_TT"/>
+            </Box>
+            <Box Size="24,32" Color="Black,0">
+              <TextButton ID="SortManualSpecialists" Anchor="L,C" String="[ICON_CITIZEN]" ToolTip="TXT_KEY_CP_SORT_MANUAL_CITIZENS_TT"/>
+            </Box>
+            <Box Size="24,32" Color="Black,0">
+              <TextButton ID="SortManualGrowth" Anchor="L,C" String="[ICON_TEAM_2]" ToolTip="TXT_KEY_CP_SORT_MANUAL_GROWTH_TT"/>
+            </Box>
+
+            <Box Size="6,32" Color="Black,0"/>
+            
+            <Box Size="36,32" Color="Black,0">
+              <TextButton ID="SortBuildIcon" Anchor="L,C" String="TXT_KEY_CP_CURRENT" ToolTip="TXT_KEY_CP_SORT_BUILD_ICON_TT"/>
+            </Box>
+            <Box Size="80,32" Color="Black,0">
+              <TextButton ID="SortBuildProgress" Anchor="L,C" String="TXT_KEY_CP_PROGRESS" ToolTip="TXT_KEY_CP_SORT_BUILD_PROGRESS_TT"/>
+            </Box>
+            <Box Size="30,32" Color="Black,0">
+              <TextButton ID="SortBuildTurns" Anchor="L,C" String="TXT_KEY_CP_TURNS" ToolTip="TXT_KEY_CP_SORT_BUILD_TURNS_TT"/>
+            </Box>
+          </Stack>
+        </Box>
+
+        <Image Anchor="C,T" Offset="0,32" Texture="HorizontalTrim.dds" Size="953,5" />
+
+        <ScrollPanel Anchor="L,T" ID="ProductionScrollPanel" Vertical="1" Size="950,440" Offset="0,37" AutoScrollBar="1">
+          <!-- Scroll Controls -->
+          <ScrollBar  Anchor="R,T" Offset="0,18" Length="404" Style="VertSlider"/>
+          <UpButton   Anchor="R,T" Offset="0,0" Style="ScrollBarUp"/>
+          <DownButton Anchor="R,B" Offset="0,0" Style="ScrollBarDown"/>
+
+          <!-- Listing Stack (Dynamic) -->
+          <Stack ID="ProductionStack" StackGrowth="Bottom" Offset="10,0" Padding="0" />
+        </ScrollPanel>
+      </Box>
+
+      <Image Anchor="C,B" Offset="0,130" Texture="HorizontalTrim.dds" Size="971,5" />
+    </Box>
+
+    <Box Anchor="C,B" AnchorSide="I,I" Offset="0,54" Size="960,56" Color="255,255,255,0" >
+      <GridButton Anchor="L,B" Style="SmallButton" Size="150,32"  Offset="14,0" StateOffsetIncrement="0,0" ID="CloseButton">
+        <Label Anchor="C,C"  Offset="0,0"  String="TXT_KEY_CLOSE" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+      </GridButton>
+
+      <Label ID="PuppetWarning" Anchor="L,B" Offset="180,10" String="TXT_KEY_CP_PUPPET_WARNING" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" Hidden="1"/>
+    </Box>
+  </Grid>
+</Context>

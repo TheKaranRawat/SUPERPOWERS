@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/27/2010 4:15:53 AM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_LANCER</Class>
+			<Type>UNIT_GOLDENHORDE</Type>
+			<PrereqTech>TECH_METALLURGY</PrereqTech>
+			<Combat>25</Combat>
+			<Cost>185</Cost>
+			<FaithCost>370</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>4</Moves>
+			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_GOLDENHORDE</Description>
+			<Civilopedia>TXT_KEY_UNIT_GOLDENHORDE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GOLDENHORDE_STRATEGY</Strategy>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_COMBINED_ARMS</ObsoleteTech>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_CAVALRY</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_GOLDENHORDE</UnitArtInfo>
+			<UnitFlagAtlas>GOLDEHORDE_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>37</PortraitIndex>
+			<MoveRate>QUADRUPED</MoveRate>
+		</Row>
+	</Units>
+	
+	<Unit_ResourceQuantityRequirements>
+	<Row>
+		<UnitType>UNIT_GOLDENHORDE</UnitType>
+		<ResourceType>RESOURCE_HORSE</ResourceType>
+	</Row>
+		</Unit_ResourceQuantityRequirements>
+
+	<Unit_FreePromotions>
+		
+		<Row>
+			<UnitType>UNIT_GOLDENHORDE</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GOLDENHORDE</UnitType>
+			<PromotionType>PROMOTION_FORMATION_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GOLDENHORDE</UnitType>
+			<PromotionType>PROMOTION_FORMATION_2</PromotionType>
+		</Row>
+		
+	</Unit_FreePromotions>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_GOLDENHORDE</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GOLDENHORDE</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_GOLDENHORDE</UnitType>
+			<UnitClassType>UNITCLASS_CAVALRY</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_GOLDENHORDE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GOLDENHORDE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GOLDENHORDE</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+	</Unit_Flavors>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_GOLDENHORDE">
+			<Text>Rapid Lancer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GOLDENHORDE_TEXT">
+			<Text>Six of every ten Mongol troopers were light cavalry horse archers; the remaining four were more heavily armored and armed lancers. Mongol light cavalry were extremely light troops compared to contemporary standards, allowing them to execute tactics and maneuvers that would have been impractical for a heavier enemy (such as European knights). Most of the remaining troops were heavier cavalry with lances for close combat after the archers had brought the enemy into disarray. [NEWLINE][NEWLINE]The main drawback to Mongol horses was their lack of speed. They would lose short-distance races under equal conditions with larger horses from other regions. However, since most other armies carried much heavier armor, the Mongols could still outrun most enemy horsemen in battle. In addition, Mongolian horses were extremely durable and sturdy, allowing the Mongols to move over large distances quickly, often surprising enemies that had expected them to arrive days or even weeks later.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GOLDENHORDE_STRATEGY">
+			<Text>Rapid Lancer is a Mongolian unique unit. Unlike the Lancer it replaces, the Rapid Lancer has faster movement, suffers no penalty when attacking cities, and is also better at dealing with enemy mounted units. It upgrades to Cavalry instead of Anti-Tank Gun.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+			<UnitClassType>UNITCLASS_LANCER</UnitClassType>
+			<UnitType>UNIT_GOLDENHORDE</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<ArtDefine_StrategicView>
+		<Replace>
+			<StrategicViewType>ART_DEF_UNIT_GOLDENHORDE</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>IconGoldeSV.dds</Asset>
+		</Replace>
+	</ArtDefine_StrategicView>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>GOLDEHORDE_FLAG</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>IconGolde32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+	<UnitGameplay2DScripts>
+		<Row UnitType="UNIT_GOLDENHORDE">
+			<SelectionSound>AS2D_SELECT_LANCER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_LANCER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+</GameData>

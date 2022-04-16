@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/12/2014 8:03:19 PM -->
+<GameData>
+	<!--Diplo Corner Hook-->
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_DIPLO_CORNER_HOOK_TOP_CITY">
+			<Text>WELTST&#196;DTE DIPLOCORNER HOOK</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CORNER_HOOK_TOP_CITY_TT">
+			<Text>TOPST&#196;DTE DIPLOCORNER HOOK TT</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CORNER_HOOK_TOP_CITY_ADDINS">
+			<Text>[COLOR_POSITIVE_TEXT]Weltgr&#246;&#223;te St&#228;dte[ENDCOLOR]</Text>
+		</Row>
+	</Language_DE_DE>
+	<!--Top Cities Screen-->
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_TOP_CITIES_OVERVIEW">
+			<Text>Weltgr&#246;&#223;te St&#228;dte</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TC_TAB_WORLDCITIES">
+			<Text>Weltst&#228;dte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_WORLDCITIES_NONE">
+			<Text>Bisher keine St&#228;dte!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_TAB_MYCITIES">
+			<Text>Meine St&#228;dte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_MYCITIES_NONE">
+			<Text>Wir haben keine St&#228;dte!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_TAB_HISTORIC">
+			<Text>Ruhmeshalle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_HISTORIC_NONE">
+			<Text>Wenn eine Zivilisation in eine neue &#196;ra eintritt, wird die [COLOR_POSITIVE_TEXT]Weltgr&#246;&#223;te Stadt[ENDCOLOR] in der Ruhmeshalle aufgenommen.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TC_LABEL_RANK">
+			<Text>Rang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_LABEL_ERA">
+			<Text>&#196;ra gewonnen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_LABEL_CIVILIZATION">
+			<Text>Ziv</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_LABEL_CITY">
+			<Text>Stadtname</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_LABEL_POPULATION">
+			<Text>Bev&#246;lkerung</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_LABEL_SCORE">
+			<Text>Punkte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_LABEL_SCORE_DETAILS">
+			<Text>Punkte Details</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_LABEL_STATUS">
+			<Text>Status</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TC_WORLD_CURRENT_TOPCITY">
+			<Text>{1_CityName} ([ICON_TOPCITY])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_WORLD_QUESTION">
+			<Text>???</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TC_STATUS_TOPCITY">
+			<Text>Weltgr&#246;&#223;te Stadt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_STATUS_RAZING">
+			<Text>Ausl&#246;schend</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_STATUS_RESISTANCE">
+			<Text>Widerstand</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_STATUS_HOLYCITY">
+			<Text>Heilige Stadt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_STATUS_PUPPET">
+			<Text>Marionette</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_STATUS_CAPITAL">
+			<Text>Hauptstadt</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TC_SCORE_WONDERS_TT">
+			<Text>{1_Num} von [ICON_GREAT_PEOPLE] Wunder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_HOLYCITY_TT">
+			<Text>{1_Num} von [ICON_GREAT_PEOPLE] Wunder/[ICON_RELIGION] Heilige Stadt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_POP_TT">
+			<Text>{1_Num} von [ICON_CITIZEN] Bev&#246;lkerung</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_PROD_TT">
+			<Text>{1_Num} von [ICON_PRODUCTION] Produktion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_GOLD_TT">
+			<Text>{1_Num} von [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_SCIENCE_TT">
+			<Text>{1_Num} von [ICON_RESEARCH] Wissenschaft</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_CULTURE_TT">
+			<Text>{1_Num} von [ICON_CULTURE] Kultur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_FAITH_TT">
+			<Text>{1_Num} von [ICON_PEACE] Glauben</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_SCORE_TOURISM_TT">
+			<Text>{1_Num} von[ICON_TOURISM] Tourismus</Text>
+		</Row>
+	</Language_DE_DE>
+	<!--Event Notifications-->
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_TC_HOF_POPUP_WINNER">
+			<Text>
+				{1_CityName} wurde als
+				[NEWLINE][COLOR_POSITIVE_TEXT]Weltgr&#246;&#223;te Stadt des {2_Era}[ENDCOLOR] ausgezeichnet!
+				[NEWLINE][NEWLINE]Diese Stadt, kann jetzt einen Triumphbogen errichten, ein Nationalwunder welches ein [ICON_GOLDEN_AGE] Goldenes Zeitalter einleitet.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TC_HOF_POPUP_LOSER">
+			<Text>
+				Die {1_CivAdj} Stadt {2_CityName} wurde als
+				[NEWLINE][COLOR_POSITIVE_TEXT]Weltgr&#246;&#223;te Stadt des {3_Era}[ENDCOLOR] ausgezeichnet!
+			</Text>
+		</Row>
+	</Language_DE_DE>
+	<!--Buildings-->
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_TC_TRIUMPHARCH">
+			<Text>[COLOR_POSITIVE_TEXT]Triumphbogen[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TC_TRIUMPHARCH_HELP">
+			<Text>
+				Beginnt ein [ICON_GOLDEN_AGE] Goldenes Zeitalter. Kann nur in der [ICON_TOPCITY] Weltgr&#246;&#223;ten Stadt errichtet werden.
+				[NEWLINE][NEWLINE]Die Kosten erh&#246;hen sich mit der Anzahl der St&#228;dte.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TC_TRIUMPHARCH_STRATEGY">
+			<Text>Der Triumphbogen ist ein Nationalwunder welches nur in der Weltgr&#246;&#223;ten Stadt errichtet werden kann. Wie alle Nationalwunder, kann dieses nur einaml errichtet werden, und die Kosten erh&#246;hen sich mit der Anzahl der St&#228;dte.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TC_TRIUMPHARCH_TEXT">
+			<Text>
+				Ein Triumphbogen (fornix oder arcus, ab den Severern arcus triumphalis) ist ein freistehendes, torf&#246;rmiges Bauwerk, das urspr&#252;nglich in Rom zu Ehren triumphierender Feldherren oder Kaiser errichtet wurde.
+				[NEWLINE][NEWLINE]Der Bau eines Triumphbogens, in der Zeit der R&#246;mischen Republik stets fornix, ab der Kaiserzeit arcus genannt, sollte an Ereignisse von gro&#223;er Tragweite erinnern, die von ranghohen Mitgliedern der r&#246;mischen F&#252;hrungsschicht zumeist in milit&#228;rischen Aktionen bewirkt wurden. Bereits zu Beginn des 2. Jahrhunderts v. Chr. wurden erste Triumphb&#246;gen durch Feldherren in Rom erbaut.[1] Wurden in republikanischer Zeit G&#246;tter, deren Statuen man in einer Quadriga auf der Attika des Bogens aufstellte, durch den Bau des Bogens geehrt, hob man ab dem Prinzipat den Kaiser in entsprechender Aufstellung &#252;ber die Welt hinaus.Die Bogeninschrift auf der Attika verk&#252;ndete den Anlass der Errichtung und das Verdienst des Geehrten.
+			</Text>
+		</Row>
+	</Language_DE_DE>
+	<!--Pedia Concepts-->
+
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_CITIES_GREATEST_HEADING3_TITLE">
+			<Text>[COLOR_POSITIVE_TEXT]Gr&#246;&#223;te St&#228;dte[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITIES_GREATEST_HEADING3_BODY">
+			<Text>
+				[ICON_BULLET]Liste der Gr&#246;&#223;ten St&#228;dte
+				[NEWLINE]Einsehbar via Diplo corner Pulldown Men&#252;, dieser Bildschirm, zeigt aktuell Top Bewertesten St&#228;dte auf der Welt. Ebenso kann man hier die Ruhmeshalle einsehen, welche die aktuellen und vergangenen Gewinner auflistet.
+				[NEWLINE]
+				[NEWLINE][ICON_BULLET]Wie setzt sich das Ranking zusammen
+				[NEWLINE]St&#228;dte werden im Ranking nach verschieden Kategorien bewertet. Bev&#246;lkerung, Produktion, Gold, Wissenschaft, Kultur, Glaube (GnK) und Tourismus (BNW). St&#228;dte bekommen Punkte f&#252;r Wunder und f&#252;r die heilige Stadt. In jeder Kategorie, ist ein maximum von 10 Punkten m&#246;glich.
+				[NEWLINE]
+				[NEWLINE][ICON_BULLET]W&#228;hlen der Weltgr&#246;&#223;ten Stadt ([ICON_TOPCITY])
+				[NEWLINE]Wenn zum ersten mal eine neue &#196;ra erreicht wird (egal welche Zivilisation), wird die Stadt mit der aktuell h&#246;chsten Punktzahl zur "Weltgr&#246;&#223;ten Stadt" erkl&#228;rt. Bei gleicher Punktzahl, entscheidet das Los.
+				[NEWLINE]
+				[NEWLINE][ICON_BULLET]Belohnung als Auszeichnung zur Weltgr&#246;&#223;ten Stadt
+				[NEWLINE]Diese Stadt, kann jetzt einen Triumphbogen errichten, ein Nationalwunder welches ein Goldenes Zeitalter einleitet.
+			</Text>
+		</Row>
+	</Language_DE_DE>
+</GameData>

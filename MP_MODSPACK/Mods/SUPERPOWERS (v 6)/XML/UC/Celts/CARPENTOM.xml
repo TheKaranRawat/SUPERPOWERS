@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/27/2014 12:59:45 PM -->
+<GameData>
+	<Language_en_US>
+	<Row Tag="TXT_KEY_UNIT_4CARPENTOM">
+		<Text>Carpentom</Text>
+	</Row>
+	<Row Tag="TXT_KEY_UNIT_4CARPENTOM_TEXT">
+		<Text>The chariot was a popular tool of war in Celtic armies, who used them to great effect against Greek and Roman troops. They were often employed in surprise attacks, using the chariots' mobility to quickly transport troops over long distances.[NEWLINE][NEWLINE]The ancient writers described the Celtic chariots use as a mixture of cavalry and infantry tactics. The chariot would drive into the battle where the warrior jumps out of the vehicle and fights as an infantry warrior. Once the warrior tired he would jump back on the chariot. The chariots would also drive up and down the battle lines throwing javelins and intimidating opponents with the load noises they made. Caesar describes that the drivers as extremely agile on the chariot, they would even climb forward on the yoke in order to steer the horses better. Celtic chariots used a suspension system that allowed them to operate on rough ground and even on steep hillsides.</Text>
+	</Row>
+		<Row Tag="TXT_KEY_UNIT_4CARPENTOM_STRATEGY">
+			<Text>The Carpentom is a Celtic unique unit that replaces the Horseman. The Carpentom has an attack bonus against other mounted units, but ends its turn if it enters rough terrain. Requires discovery of The Wheel instead of Horseback Riding. Adjacent units heal faster.</Text>
+
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_4CARPENTOM_HELP">
+			<Text>Ancient-era melee unit that has an attack bonus against other mounted units, but struggles in rough terrain. Units adjacent to a Carpentom heal faster. Only the Celts may build it.</Text>
+		</Row>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+
+		<Row>
+			<Atlas>4CARPENTOM_FLAG</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>3celtknot32.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4CARPENTOM_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>3carpentom256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4CARPENTOM_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>3carpentom128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4CARPENTOM_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>3carpentom80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4CARPENTOM_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>3carpentom64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4CARPENTOM_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>3carpentom45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

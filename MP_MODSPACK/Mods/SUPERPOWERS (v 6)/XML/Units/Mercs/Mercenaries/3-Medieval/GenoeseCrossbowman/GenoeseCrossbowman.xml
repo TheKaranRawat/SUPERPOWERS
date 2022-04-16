@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/08/17 7:00:36 AM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</DefaultUnit>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</Class>
+			<Type>UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</Type>
+			<Combat>15</Combat>
+			<RangedCombat>30</RangedCombat>
+			<Range>2</Range>
+			<Moves>2</Moves>
+			<Cost>140</Cost>
+			<!--<FaithCost>190</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<PrereqTech>TECH_MACHINERY</PrereqTech>
+			<ObsoleteTech>TECH_CHEMISTRY</ObsoleteTech>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN_HELP</Help>
+
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			
+			<Pillage>true</Pillage>
+
+			<AdvancedStartCost>150</AdvancedStartCost>
+			
+			<MinAreaSize>-1</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</UnitArtInfo>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>52</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>44</UnitFlagIconOffset>
+			<MoveRate>BIPED</MoveRate>
+			<ExtraMaintenanceCost>45</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_MEAD_HALL</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</UnitType>
+			<SelectionSound>AS2D_SELECT_CROSSBOWMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CROSSBOWMAN</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Genoese Crossbowman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN_HELP">
+			<Text>Medieval Mercenary ranged unit. Price shown is how much it costs to hire this unit for 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN_STRATEGY">
+			<Text>Use the Genoese Crossbowman to rain down death on your enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN_PEDIA">
+			<Text>
+				The Genoese Crossbowman is a Medieval era Mercenary ranged melee unit, available upon the discovery of Machinery. The Mead Hall is required for this unit to be built. The Genoese Crossbowman becomes obsolete upon the discovery of Chemistry.[NEWLINE][NEWLINE]
+				The Genoese crossbowmen were a famous military corps of the Middle Ages, which acted both in defense of the Republic of Genoa, and as mercenaries for other Italian or European powers. Armed with crossbows made in Genoa by the Balistai Corporation, they fought both on land and in naval battles; notable cases of the latter are the battles of Meloria and Curzola. They came also from other parts of Liguria, but were trained and organized in Genoa.[NEWLINE][NEWLINE]Apart from the crossbow, they were equipped with a dagger, a light metal helmet, a gorget, a hauberk and a large shield, called a pavese, which was used while reloading the crossbow. A groom often supported the shield during the reloading. Commanders of the companies usually came from the noble families of the city.[NEWLINE][NEWLINE]The Genoese crossbowmen came to prominence during the First Crusade, when the Genoese commander Guglielmo Embriaco used them in the course of the siege of Jerusalem, and again at the Battle of Jaffa in 1192 during the Third Crusade. The Genoese crossbowmen remained one of the most respected military corps until the 16th century, well after the introduction of black-powder weapons in Europe.[NEWLINE][NEWLINE]The heavy losses created by Genoese crossbows led medieval monarchs to extreme measures. Emperor Frederick II, after the defeat at the siege of Parma triggered by a Genoese sally, ordered that the crossbowmen taken prisoner have their fingers cut off.[NEWLINE][NEWLINE]During the Battle of Crecy, in August 1346, upwards of 5,000 Genoese crossbowmen were employed by the French in the first line against the English. At around 4 PM, a sudden rainstorm arose. The English longbowmen simply removed their bowstrings, and stored them under their water-resistant leather caps to keep them dry. Crossbows, on the other hand, cannot be unstrung and restrung without tools. The strings of the crossbows thus became stretched upon being drenched by rain. When the rain-soaked and now-stretched crossbow strings were used roughly an hour later during the initial attack against the emplaced and defending English, the crossbows were largely rendered useless, with their maximum ranges and bolt speeds greatly reduced from their normal performance. When the Genoese crossbowmen came under heavy long distance clouds of clothyard shafts from the English longbowmen, the Genoese commander, Ottone Doria, ordered his troops to retreat. The French knights behind the Genoese crossbowmen saw this as cowardice and cut them down as they retreated. Most of the crossbowmen were killed, their commander included. Losing only a very small number of soldiers, the English won the battle handily through directed long distance shooting with longbows against the French men-at-arms and the Genoese crossbowmen.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

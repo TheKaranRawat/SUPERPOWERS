@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<GameData>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_3_GOUMIER">
+			<Text>Goumier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_3_GOUMIER_STRATEGY">
+			<Text>The Goumier is a Moroccan unique unit. Unlike the Musketman it replaces, it fights better in rough terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_3_GOUMIER_HELP">
+			<Text>Gunpowder unit that fights better in rough terrain. Only Morocco may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_3_GOUMIER_TEXT">
+			<Text>Moroccan Goumiers were soldiers who served in auxiliary units attached to the French Army of Africa, between 1908 and 1956. These semi-permanently employed Moroccan goumiers were initially raised by General Albert D'Amade to patrol recently-occupied areas. Goumiers also served as scouts and in support of regular French troops, and in 1911 they became permanent units. Nominally, they were under the control of the Sultan of Morocco, but in practice they formed an extension of the French Army and subsequently fought for France in third countries.[NEWLINE][NEWLINE]Initially, the Moroccan Goums wore tribal dress with only blue cloaks as uniform items, but as they achieved permanent status they adopted the distinctive brown and grey striped jellaba (a hooded Moroccan cloak) that was to remain their trademark throughout their history with the French Army. Their normal headdress was a turban. Goums included both infantry and cavalry elements. Their traditional and favoured weapons were sabres or elongated daggers. </Text>
+		</Row>
+	</Language_en_US>
+
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>3_GOUMIER_FLAG_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>3GOUM32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>3_GOUMIER_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>3MorcGoum256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3_GOUMIER_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>3MorcGoum128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3_GOUMIER_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>3MorcGoum80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3_GOUMIER_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>3MorcGoum64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3_GOUMIER_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>3MorcGoum45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!-- Adds the new Stupa -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_STUPA</Type>
+			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<Cost>100</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_STUPA</Description>
+			<Civilopedia>TXT_KEY_BUILDING_STUPA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_STUPA_STRATEGY</Strategy>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<CapturePlunderModifier>100</CapturePlunderModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>23</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_STUPA</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STUPA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_STUPA</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STUPA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_STUPA</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+
+	<!-- Adds new text -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_STUPA">
+			<Text>[ICON_PEACE] Stupa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STUPA_STRATEGY">
+			<Text>The Chinese unique building, replacing the Temple. In addition to its [ICON_PEACE] Faith, the Stupa also yields [ICON_CULTURE] Culture and costs no maintenance. However, any enemy who captures this City will gain doubled pillage [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STUPA_TEXT">
+			<Text>
+				A stupa is a mound-like or hemispherical structure containing Buddhist relics, typically the ashes of Buddhist monks, used by Buddhists as a place of meditation. All stupas contain a treasury filled with various objects. Sutra scripts, Buddha statues, Tsa-Tsas, hair clippings, fingernails, relics, and cremation ashes of saints are usually enshrined in them along with jewels, herbs and other objects. Jewellery and other "precious" objects are also placed in the treasury. It is not necessary that they be expensive, since it is the symbolic value that is important, not the market price. It is believed that the more objects placed into the stupa, the stronger the energy of the stupa.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

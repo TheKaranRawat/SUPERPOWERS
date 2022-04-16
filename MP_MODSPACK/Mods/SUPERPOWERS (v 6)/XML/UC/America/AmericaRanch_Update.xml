@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Updates the 3UC Ranch -->
+<GameData>
+
+	<Buildings>
+		<Update>
+			<Set PlotCultureCostModifier="0" />
+			<Where Type="BUILDING_3UC_RANCH" />
+		</Update>
+	</Buildings>
+
+	<Building_UnitCombatProductionModifiers>
+		<Delete BuildingType="BUILDING_3UC_RANCH" />
+	</Building_UnitCombatProductionModifiers>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_3UC_RANCH</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_3UC_RANCH</BuildingType>
+			<ResourceType>RESOURCE_BISON</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_3UC_RANCH</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_3UC_RANCH</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_3UC_RANCH</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_3UC_RANCH</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Quantity>10</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_3UC_RANCH_HELP" />
+			<Set Text="Each source of [ICON_RES_BISON] Bison, [ICON_RES_COW] Cattle, [ICON_RES_DEER] Deer, [ICON_RES_HORSE] Horses, and [ICON_RES_SHEEP] Sheep worked by this City produces +1 [ICON_PRODUCTION] Production and [ICON_FOOD] Food. Creates a nearby bonus resource." />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_3UC_RANCH_STRATEGY" />
+			<Set Text="The Ranch is the American unique building, replacing the Stable. It affects more resources, and provides added [ICON_FOOD] compared to a normal Stable, but does not increase production for mounted units. Upon construction, it generates an extra resource." />
+		</Update>
+	</Language_en_US>
+
+</GameData>

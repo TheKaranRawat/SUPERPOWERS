@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/22/2014 12:44:48 PM -->
+<GameData>
+	<Audio_Sounds>
+		<Row>
+			<SoundID>SND_VICTORY_SPEECH_RELIGIOUS_VICTORY</SoundID>
+			<Filename>Speech_Religious_Victory</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+		<Row>
+			<SoundID>SND_VICTORY_SPEECH_ECONOMIC_VICTORY</SoundID>
+			<Filename>Speech_Economic_Victory</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<Row>
+			<ScriptID>AS2D_VICTORY_SPEECH_RELIGIOUS_VICTORY</ScriptID>
+			<SoundID>SND_VICTORY_SPEECH_RELIGIOUS_VICTORY</SoundID>
+			<SoundType>GAME_SPEECH</SoundType>
+			<MinVolume>100</MinVolume>
+			<MaxVolume>100</MaxVolume>
+			<TaperSoundtrackVolume>0.75</TaperSoundtrackVolume>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_VICTORY_SPEECH_ECONOMIC_VICTORY</ScriptID>
+			<SoundID>SND_VICTORY_SPEECH_ECONOMIC_VICTORY</SoundID>
+			<SoundType>GAME_SPEECH</SoundType>
+			<MinVolume>100</MinVolume>
+			<MaxVolume>100</MaxVolume>
+			<TaperSoundtrackVolume>0.75</TaperSoundtrackVolume>
+		</Row>
+	</Audio_2DSounds>
+</GameData>

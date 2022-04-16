@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/6/2015 5:26:31 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_3DOGEPALACE">
+			<Text>[ICON_CULTURE] Doge's Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3DOGEPALACE_TEXT">
+			<Text>
+				The Doge's Palace (Italian: Palazzo Ducale) is a palace built in Venetian Gothic style, and one of the main landmarks of the city of Venice, northern Italy. The palace was the residence of the Doge of Venice, the supreme authority of the Republic of Venice, opening as a museum in 1923. Today, it is one of the 11 museums run by the Fondazione Musei Civici di Venezia.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3DOGEPALACE_STRATEGY">
+			<Text>Indicates this city is the [ICON_CAPITAL] Capital of Venice. Contains 1 slot for a Great Work of Art.[NEWLINE][NEWLINE][ICON_CONNECTED] Connecting other cities to the [ICON_CAPITAL] Capital will produce additional [ICON_GOLD] Gold.[NEWLINE][NEWLINE]The Doge's Palace is a Venetian unique building. This building has higher defense than the standard Palace it replaces and yields +3 [ICON_CULTURE] Culture, +3 [ICON_PRODUCTION] Production, +3 [ICON_RESEARCH] Science, and +3 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3DOGEPALACE_HELP">
+			<Text>Unique and well-defended [ICON_CAPITAL] Capital building of Venice.</Text>
+		</Row>
+	</Language_en_US>
+
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>3DOGEPALACE_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>5dogepalace256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3DOGEPALACE_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>5dogepalace128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3DOGEPALACE_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>5dogepalace64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3DOGEPALACE_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>5dogepalace45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+</GameData>

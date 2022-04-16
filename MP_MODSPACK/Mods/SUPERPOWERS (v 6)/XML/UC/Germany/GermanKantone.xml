@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_KANTONE</Type>
+			<BuildingClass>BUILDINGCLASS_BARRACKS</BuildingClass>
+			<Cost>75</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_KANTONE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_KANTONE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_KANTONE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_KANTONE_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>27</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_KANTONE</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KANTONE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_KANTONE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KANTONE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_KANTONE</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KANTONE</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KANTONE</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>15</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_KANTONE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_KANTONE">
+			<Text>[ICON_WAR] Kantone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KANTONE_PEDIA">
+			<Text>The Canton System (German: Kantonsystem or Kantonssystem) or Canton Regulation (Kantonreglement) was a system of recruitment used by the Prussian army between 1733 and 1813. The country was divided into recruiting districts called cantons (Kantone), and each canton was the responsibility of a regiment. Every male was from the youngest possible age enrolled in the army. The new system replaced coercive recruiting, which in turn replaced the hiring of undependable and expensive mercenary forces. The system demonstrated its worth in a number of conflicts such as the Great Northern War, in which the tiny Brandenburg was able to annex Pommerania from Sweden, and even more decisively, under Frederick I. By fielding a more professional, standing army, Prussia was able to punch way, way above its weight in military - sucessfully warring her former hegemon Austria in numerous successful conflicts which expanded Prussian influence and territory. Despite this, the system was gradually replaced after the abolition of serfdom in 1807 and the rise of volunteer armies made it obselete. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KANTONE_HELP">
+			<Text>+15 XP for all units produced in this City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KANTONE_STRATEGY">
+			<Text>The Kantone is the German unique replacement for the Barracks. In addition to having no maintenance, the Kantone also increases the [ICON_PRODUCTION] Production and [ICON_GOLD] Gold of the City.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

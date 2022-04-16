@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/08/17 7:00:36 AM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_PMC</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_PMC</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_PMC</DefaultUnit>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_PMC</Class>
+			<Type>UNIT_EXOTIC_UNIT_PMC</Type>
+			<Combat>160</Combat>
+			<Moves>2</Moves>
+			<Cost>3000</Cost>
+			<!--<FaithCost>750</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
+			<!--<ObsoleteTech>TECH_MOBILE_TACTICS</ObsoleteTech>-->
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_PMC</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_PMC_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_PMC_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_PMC_HELP</Help>
+
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			
+			<Pillage>true</Pillage>
+
+			<AdvancedStartCost>200</AdvancedStartCost>
+			
+			<MinAreaSize>-1</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_PMC_MECHANIZED_INFANTRY</UnitArtInfo>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>48</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>40</UnitFlagIconOffset>
+			<MoveRate>WHEELED</MoveRate>
+			<ExtraMaintenanceCost>300</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_PMC</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_CONTRACTING_AGENCY</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_PMC</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_PMC</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_PMC</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_PMC</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_PMC</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_PMC</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_PMC</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<!--
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_PMC</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_PMC</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	-->
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_PMC</UnitType>
+			<SelectionSound>AS2D_SELECT_MECH_INFANTRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MECH_INFANTRY</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_PMC">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Private Military Company</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_PMC_HELP">
+			<Text>Information Era Mercenary melee unit. Price shown is how much it costs to hire this unit for 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_PMC_STRATEGY">
+			<Text>
+				Use the Private Military Contractors to quickly close on your enemies and destroy them all.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_PMC_PEDIA">
+			<Text>
+				Private Military Contractors are an Information Era Mercenary melee unit, available upon the discovery of Mobile Tactics. The Contracting Agency is required for this unit to be built. Private Military Contractors do not become obsolete.[NEWLINE][NEWLINE]
+				A private military company, or PMC, is a private company providing armed combat or security services. They are one type of private security companies. PMCs refer to their staff as 'security contractors' or 'private military contractors.' Private military companies refer to their business generally as the 'private military industry' or 'The Circuit.' The UN General Assembly, in a convention so far ratified by 35 states, considers PMCs to be mercenaries and prohibits them. None of the permanent members of the Security Council are signatories to the convention, and the United States has rejected the classification of PMCs as mercenaries.[NEWLINE][NEWLINE]The services and expertise offered by PMCs are typically similar to those of governmental security, military or police forces, most often on a smaller scale. While PMCs often provide services to train or supplement official armed forces in service of governments, they can also be employed by private companies to provide bodyguards for key staff or protection of company premises, especially in hostile territories. However, contractors who use offensive force in a war zone could be considered unlawful combatants, in reference to a concept outlined in the Geneva Conventions and explicitly specified by the 2006 American Military Commissions Act.[NEWLINE][NEWLINE]The services of private contractors are used around the world. P. W. Singer, author of Corporate Warriors: The Rise of the Privatized Military Industry, says 'In geographic terms, it operates in over 50 different countries. It’s operated in every single continent but Antarctica.' Singer states that in the 1990s there used to be 50 military personnel for every 1 contractor, and now the ratio is 10 to 1. He also points out that these contractors have a number of duties depending on whom they are hired by. In developing countries that have natural resources, such as oil refineries in Iraq, they are hired to guard the area. They are also hired to guard companies that contract services and reconstruction efforts such as General Electric. Apart from securing companies, they secure officials and government affiliates. Private military companies carry out many different missions and jobs. Some examples are supplying bodyguards to the Afghan president Hamid Karzai and piloting reconnaissance airplanes and helicopters as a part of Plan Colombia. According to a study from 2003 the PMC industry was worth over $100 billion a year at that time.[NEWLINE][NEWLINE]According to a 2008 study by the Office of the Director of National Intelligence, private contractors make up 29% of the workforce in the United States Intelligence Community and cost the equivalent of 49% of their personnel budgets. [NEWLINE][NEWLINE]According to the Brazilian geostrategist De Leon Petta, far from meaning a possible weakening of the national state power and its monopoly on violence, these PMCs will actually serve as alternative forms of power application abroad through irregular means, without violating international law, causing troubles in the domestic or public policy, or too many international repercussions. American scholar Phelps makes a similar claim by finding that PMCs wrap themselves in state governments 'cloak of legitimacy.' It is often difficult to tell national troops from private security contractors, or national support personnel from supply and support contractors. The obfuscation between private and public actors allows for the responsibility of criminal actions to be placed on the private firm, while allowing the state to achieve its foreign policy goals.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

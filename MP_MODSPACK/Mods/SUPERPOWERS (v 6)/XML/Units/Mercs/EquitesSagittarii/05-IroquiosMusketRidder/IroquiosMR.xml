@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/08/17 7:00:36 AM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</DefaultUnit>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</Class>
+			<Type>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</Type>
+			<Combat>30</Combat>
+			<RangedCombat>50</RangedCombat>
+			<Range>1</Range>
+			<Moves>7</Moves>
+			<Cost>155</Cost>
+			<!--<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<PrereqTech>TECH_RIFLING</PrereqTech>
+			<ObsoleteTech>TECH_BALLISTICS</ObsoleteTech>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER_HELP</Help>
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<NoMaintenance>true</NoMaintenance>
+			<Pillage>true</Pillage>
+
+			<AdvancedStartCost>100</AdvancedStartCost>
+			
+			<MinAreaSize>-1</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitArtInfo>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>60</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>60</UnitFlagIconOffset>
+			<MoveRate>QUADRUPED</MoveRate>
+			<ExtraMaintenanceCost>100</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<!--
+	
+	
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	-->
+	
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_MERC_GUILD</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+	
+	
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitType>
+			<SelectionSound>AS2D_SELECT_CAVALRY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CAVALRY</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Musket Rider</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER_HELP">
+			<Text>Fast Industrial Era ranged mounted unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER_STRATEGY">
+			<Text>Use the Iroquios Musket Rider to rapidly attack your enemies, then move away to fight another day. They may move after attacking, but receive no defensive bonus from terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER_PEDIA">
+			<Text>
+				The Iroquios Musket Rider is an Industrial era ranged mounted unit, available upon the discovery of Rifling. The Iroquios Musket Rider becomes obsolete upon the discovery of Ballistics.[NEWLINE][NEWLINE]
+				According to historians, the Iroquois fondness for guns and willingness to adopt new modes of warfare meant that they quickly applied the use of firearms to mounted warriors. Unlike the old European tradition, among the Iroquois the mounted warriors were not necessarily considered the highest-ranking or noblest.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

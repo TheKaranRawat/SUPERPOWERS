@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/6/2015 9:41:06 PM -->
+<GameData>
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_4GREEK_PELTER</Type>
+			<Description>TXT_KEY_PROMOTION_4GREEK_PELTER</Description>
+			<Help>TXT_KEY_PROMOTION_4GREEK_PELTER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>59</PortraitIndex>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<ExtraWithdrawal>33</ExtraWithdrawal>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_4GREEK_PELTER_HELP</PediaEntry>
+		</Row>
+	</UnitPromotions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_4GREEK_PELTER">
+			<Text>Peltast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_4GREEK_PELTER_TEXT">
+			<Text>
+				A peltast was a type of light infantry in Thrace and Paeonia who often served as skirmishers. They carried a crescent-shaped wicker shield called pelte as their main protection, hence their name. The shield could be carried with a central strap and a hand grip near the rim or with just a central hand-grip. It may also have had a carrying strap (or baldric) as Thracian peltasts slung their shields on their backs when evading the enemy.[NEWLINE][NEWLINE]Peltasts gradually became more important in Greek warfare, in particular during the Peloponnesian War.  When faced with a charge from the Persian cavalry they opened their ranks and allowed the cavalry through while striking them with swords and hurling javelins at them.[NEWLINE][NEWLINE]They became the main type of Greek mercenary infantry in the 4th century BCE. Their equipment was less expensive than that of traditional hoplites and would have been more readily available to poorer members of society. The Athenian general Iphicrates destroyed a Spartan phalanx in the Battle of Lechaeum in 390 BCE, using mostly peltasts. Alexander the Great employed peltasts drawn from the Thracian tribes to the north of Macedonia, particularly the Agrianoi. Later references to peltasts may not in fact refer to their style of equipment as the word peltast became a synonym for mercenary.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_4GREEK_PELTER_STRATEGY">
+			<Text>The Peltast is a ranged Greek unique unit. Unlike the Archer it replaces, it is available immediately without researching Archery and has the potential to withdraw from melee attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_4GREEK_PELTER_HELP">
+			<Text>Ancient-era ranged unit that has the potential to withdraw from melee attacks. Only Greece may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_4GREEK_PELTER">
+			<Text>Harass</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_4GREEK_PELTER_HELP">
+			<Text>33% chance to withdraw from melee attacks.</Text>
+		</Row>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>4GREEK_PELTER_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>GreekPeltast256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4GREEK_PELTER_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>GreekPeltast128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4GREEK_PELTER_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>GreekPeltast80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4GREEK_PELTER_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>GreekPeltast64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4GREEK_PELTER_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>GreekPeltast45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>4GREEK_PELTER_FLAG</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>IconPelt32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

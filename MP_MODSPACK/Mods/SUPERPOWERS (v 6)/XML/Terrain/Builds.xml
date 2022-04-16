@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/16/2014 10:51:30 AM -->
+<GameData>
+	<!-- ************************New Builds ********************************-->
+	<Builds>
+
+		<Row>
+			<Type>BUILD_REMOVE_ICE</Type>
+			<PrereqTech>TECH_ADV_ENGINEERING</PrereqTech>
+			<Description>TXT_KEY_BUILD_REMOVE_ICE</Description>
+			<Help>TXT_KEY_BUILD_REMOVE_ICE_HELP</Help>
+			<EntityEvent>ENTITY_EVENT_CHOP</EntityEvent>
+			<HotKey>KB_C</HotKey>
+			<OrderPriority>50</OrderPriority>
+			<AltDown>1</AltDown>
+			<IconIndex>8</IconIndex>
+			<IconAtlas>SPUINT_ACTION_ATLAS</IconAtlas>
+			<CanBeEmbarked>true</CanBeEmbarked>
+		</Row>
+
+
+
+		
+		<!--**********************************Citadel******************************-->
+		<Update>
+			<Set PrereqTech="TECH_GUNPOWDER" Time="1200" IconIndex="30" IconAtlas="UNIT_ACTION_ATLAS"/>
+			<Where Type="BUILD_CITADEL" />
+		</Update>
+		
+		<Update>
+			<Set PrereqTech="TECH_OPTICS" IconIndex="2" IconAtlas="UNIT_ACTION_ATLAS_EXP2"/>
+			<Where Type="BUILD_FORT"/>
+		</Update>
+
+
+		<Update>
+			<Set PrereqTech="TECH_COMPASS"  Time="500" />
+			<Where Type="BUILD_MOAI"/>
+		</Update>
+		<!--**********************************Tweaks for Old Builds******************************-->
+		
+		
+		
+
+		<Update>
+			<Set PrereqTech="TECH_BIOLOGY" CanBeEmbarked="true" Kill="false" Time="900" Help="TXT_KEY_BUILD_SP_NOT_CONSUMED_HELP"/>
+			<Where Type="BUILD_OFFSHORE_PLATFORM" />
+		</Update>
+		<Update>
+			<Set CanBeEmbarked="true" Kill="false" Time="600" Help="TXT_KEY_BUILD_SP_NOT_CONSUMED_HELP"/>
+			<Where Type="BUILD_FISHING_BOATS" />
+		</Update>
+		<Update>
+			<Set PrereqTech="TECH_CURRENCY" Time="500" OrderPriority="85"/>
+			<Where Type="BUILD_TRADING_POST"/>
+		</Update>
+		
+		<Update>
+			<Set PrereqTech="TECH_ART_THEORY"/>
+			<Where Type="BUILD_CHATEAU"/>
+		</Update>
+		
+		<Update>
+			<Set PrereqTech="TECH_HUNTING" OrderPriority="140"/>
+			<Where Type="BUILD_CAMP"/>
+		</Update>
+		<Update>
+			<Set PrereqTech="TECH_BRONZE_WORKING"/>
+			<Where Type="BUILD_MINE"/>
+		</Update>
+		<Update>
+			<Set PrereqTech="NULL"/>
+			<Where Type="BUILD_REMOVE_FOREST"/>
+		</Update>
+		<Update>
+			<Set PrereqTech="NULL"/>
+			<Where Type="BUILD_REMOVE_JUNGLE"/>
+		</Update>
+		<Update>
+			<Set PrereqTech="TECH_BRONZE_WORKING"/>
+			<Where Type="BUILD_REMOVE_MARSH"/>
+		</Update>
+
+		<Update>
+			<Set Time="500" OrderPriority="150" PrereqTech="TECH_BRONZE_WORKING"/>
+			<Where Type="BUILD_QUARRY"/>
+		</Update>
+
+		<Update>
+			<Set PrereqTech="TECH_FISHERY" IconIndex="24" IconAtlas="SPUINT_ACTION_ATLAS"/>
+			<Where Type="BUILD_FISHING_BOATS"/>
+		</Update>
+		<Update>
+			<Set Kill="false" Time="600" PrereqTech="TECH_FISHERY" IconIndex="23" IconAtlas="SPUINT_ACTION_ATLAS"/>
+			<Where Type="BUILD_FISHING_BOATS_NO_KILL"/>
+		</Update>
+	
+
+		<!--**********************************Workers' builds Tweak******************************-->
+	
+		
+		<Update>
+			<Set Time="50"/>
+			<Where Type="BUILD_ROAD"/>
+		</Update>
+		<Update>
+			<Set Time="100" OrderPriority="200"/>
+			<Where Type="BUILD_RAILROAD" />
+		</Update>
+		<Update>
+			<Set Time="500" OrderPriority="140"/>
+			<Where Type="BUILD_FARM"/>
+		</Update>
+		<Update>
+			<Set Time="400" OrderPriority="80"/>
+			<Where Type="BUILD_LUMBERMILL"/>
+		</Update>
+
+		<Update>
+			<Set Time="500" PrereqTech="TECH_HUNTING" OrderPriority="140"/>
+			<Where Type="BUILD_PASTURE"/>
+		</Update>
+		<Update>
+			<Set Time="500" OrderPriority="140"/>
+			<Where Type="BUILD_PLANTATION"/>
+		</Update>
+		<Update>
+			<Set OrderPriority="0" />
+			<Where Type="BUILD_REMOVE_JUNGLE"/>
+		</Update>
+		<Update>
+			<Set OrderPriority="15"/>
+			<Where Type="BUILD_REMOVE_FOREST"/>
+		</Update>
+		<Update>
+			<Set OrderPriority="5"/>
+			<Where Type="BUILD_REMOVE_MARSH"/>
+		</Update>
+		<Update>
+			<Set OrderPriority="500"/>
+			<Where Type="BUILD_SCRUB_FALLOUT"/>
+		</Update>
+		<Update>
+			<Set Time="600" OrderPriority="999"/>
+			<Where Type="BUILD_REPAIR"/>
+		</Update>
+		<Update>
+			<Set Time="50"/>
+			<Where Type="BUILD_REMOVE_ROUTE"/>
+		</Update>
+		<Update>
+			<Set OrderPriority="96"/>
+			<Where Type="BUILD_CITADEL"/>
+		</Update>
+		<Update>
+			<Set OrderPriority="999"/>
+			<Where Type="BUILD_ARCHAEOLOGY_DIG"/>
+		</Update>
+		<Update>
+			<Set Time="500" OrderPriority="550" PrereqTech="TECH_CONSTRUCTION"/>
+			<Where Type="BUILD_BRAZILWOOD_CAMP" />
+		</Update>
+		<!--<Update>
+			<Set PrereqTech="TECH_OPTICS"/>
+			<Where Type="BUILD_FEITORIA"/>
+		</Update>-->
+		<Update>
+			<Set PrereqTech="TECH_MASONRY" OrderPriority="600" />
+			<Where Type="BUILD_POLDER"/>
+		</Update>
+
+
+		<Update>
+			<Set PrereqTech="TECH_POTTERY" OrderPriority="600" />
+			<Where Type="BUILD_KASBAH"/>
+		</Update>
+
+
+	</Builds>
+	
+	
+	
+	<BuildFeatures>
+
+		<Delete BuildType="BUILD_MOAI"/>
+		<Delete BuildType="BUILD_FEITORIA"/>
+
+		<!--
+		<Row>
+			<BuildType>BUILD_FW_COMM_ARRAY</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_COMM_ARRAY</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_COMM_ARRAY</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+		</Row>
+		-->
+
+		<Row>
+			<BuildType>BUILD_FW_GENOCENTRE</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_GENOCENTRE</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_GENOCENTRE</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_HYDROPONICS_DOME</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_INDUSTRIAL_COMPLEX</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_INDUSTRIAL_COMPLEX</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_INDUSTRIAL_COMPLEX</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_PRESERVE</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_PRESERVE</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>400</Time>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_PRESERVE</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_GENERATOR</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_GENERATOR</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_GENERATOR</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_BIOWELL</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>400</Time>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_BIOWELL</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_BIOWELL</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_CORE</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_CORE</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_CORE</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_ARCOLOGY</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_ARCOLOGY</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FW_ARCOLOGY</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+		
+		<Row>
+			<BuildType>BUILD_REMOVE_ICE</BuildType>
+			<FeatureType>FEATURE_ICE</FeatureType>
+			<PrereqTech>TECH_ADV_ENGINEERING</PrereqTech>
+			<Time>200</Time>
+			<Remove>true</Remove>
+		</Row>
+
+		<Update>
+			<Set PrereqTech="TECH_BRONZE_WORKING"/>
+			<Where BuildType="BUILD_REMOVE_MARSH"/>
+		</Update>
+	</BuildFeatures>
+
+
+	<!-- ************************Unit Builds Change********************************************-->
+	<Unit_Builds>
+		<Delete UnitType="UNIT_JAPANESE_SAMURAI"/>
+
+		
+		<Delete UnitType="UNIT_WORKBOAT"/>
+		
+
+		<Delete UnitType="UNIT_GREAT_GENERAL"/>
+		<Delete UnitType="UNIT_MONGOLIAN_KHAN"/>
+
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_FW_PRESERVE</BuildType>
+		</Row>
+
+		<!--
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_FW_COMM_ARRAY</BuildType>
+		</Row>
+		-->
+		
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_FW_INDUSTRIAL_COMPLEX</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_FW_BIOWELL</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_FW_GENERATOR</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_FW_HYDROPONICS_DOME</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_FW_GENOCENTRE</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_FW_CORE</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_FW_ARCOLOGY</BuildType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_WORKBOAT</UnitType>
+			<BuildType>BUILD_OFFSHORE_PLATFORM</BuildType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_WORKBOAT</UnitType>
+			<BuildType>BUILD_FISHING_BOATS</BuildType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_WORKBOAT</UnitType>
+			<BuildType>BUILD_FISHFARM_MOD</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKBOAT</UnitType>
+			<BuildType>BUILD_GAS_RIG_MOD</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKBOAT</UnitType>
+			<BuildType>BUILD_FISHERY_MOD</BuildType>
+		</Row>
+
+		
+	
+		
+		
+		<Row>
+			<UnitType>UNIT_MILITIA_ANCIENT</UnitType>
+			<BuildType>BUILD_CITADEL</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MINUTEMAN</UnitType>
+			<BuildType>BUILD_CITADEL</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<BuildType>BUILD_CITADEL</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CONSCRIPTMAN</UnitType>
+			<BuildType>BUILD_CITADEL</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MILITIA_MODERN</UnitType>
+			<BuildType>BUILD_CITADEL</BuildType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_GREAT_GENERAL</UnitType>
+			<BuildType>BUILD_CITADEL</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MONGOLIAN_KHAN</UnitType>
+			<BuildType>BUILD_CITADEL</BuildType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_FISHING_BOATS</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_OFFSHORE_PLATFORM</BuildType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_FISHING_BOATS</BuildType>
+		</Row>
+		
+		
+
+		<Row>
+			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
+			<BuildType>BUILD_FISHING_BOATS</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
+			<BuildType>BUILD_OFFSHORE_PLATFORM</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
+			<BuildType>BUILD_REMOVE_ICE</BuildType>
+		</Row>
+
+	</Unit_Builds>
+
+
+	
+	
+	<BuildFeatures>
+		<Update>
+			<Set Time="5000"/>
+			<Where BuildType="BUILD_SCRUB_FALLOUT"/>
+		</Update>
+		<Update>
+			<Set Time="50" Production="30"/>
+			<Where BuildType="BUILD_REMOVE_FOREST"/>
+		</Update>
+		<Update>
+			<Set Time="400" Production="20"/>
+			<Where BuildType="BUILD_REMOVE_JUNGLE"/>
+		</Update>
+
+		<Update>
+			<Set PrereqTech="NULL" />
+			<Where PrereqTech="TECH_BRONZE_WORKING"/>
+		</Update>
+		<Update>
+			<Set PrereqTech="TECH_BRONZE_WORKING" />
+			<Where PrereqTech="TECH_MASONRY"/>
+		</Update>
+
+
+		<Row>
+			<BuildType>BUILD_BYZANTIUM_ANGELOKASTRO</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<Production>30</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_BYZANTIUM_ANGELOKASTRO</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<Production>20</Production>
+			<Time>400</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_BYZANTIUM_ANGELOKASTRO</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+	</BuildFeatures>
+
+	
+	
+	
+
+
+</GameData>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/02/17 11:25:43 AM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_EU_CAMEL_BOWMAN</Type>
+			<Description>TXT_KEY_UNIT_SMAN_EU_CAMEL_BOWMAN</Description>
+			<DefaultUnit>UNIT_SMAN_EU_CAMEL_BOWMAN</DefaultUnit>
+			<MaxPlayerInstances>4</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SMAN_EU_CAMEL_BOWMAN</Class>
+			<Type>UNIT_SMAN_EU_CAMEL_BOWMAN</Type>
+			<Combat>10</Combat>
+			<RangedCombat>20</RangedCombat>
+			<Range>2</Range>
+			<Cost>90</Cost>
+			<Moves>3</Moves>
+			<BaseSightRange>2</BaseSightRange>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_EU_CAMEL_BOWMAN</Description>
+			<Help>TXT_KEY_UNIT_SMAN_EU_CAMEL_BOWMAN_HELP</Help>
+			<Strategy>TXT_KEY_UNIT_SMAN_EU_CAMEL_BOWMAN_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_EU_CAMEL_BOWMAN_PEDIA</Civilopedia>
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			
+			
+			<AdvancedStartCost>100</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_EU_CAMEL_BOWMAN</UnitArtInfo>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<MoveRate>QUADRUPED</MoveRate>
+			<ExtraMaintenanceCost>40</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<!--
+	
+	-->
+
+	<Unit_BuildingClassRequireds>
+		
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_BOWMAN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_MEAD_HALL</BuildingClassType>
+		</Row>
+		
+	</Unit_BuildingClassRequireds>
+	
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_BOWMAN</UnitType>
+			<PromotionType>PROMOTION_SMAN_SANDSTORM_PROMOTION</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_BOWMAN</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_BOWMAN</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>		
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_BOWMAN</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_BOWMAN</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_BOWMAN</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_BOWMAN</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_EU_CAMEL_RIFLEMAN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_BOWMAN</UnitType>
+			<SelectionSound>AS2D_SELECT_CAMEL_ARCHER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CAMEL_ARCHER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_EU_CAMEL_BOWMAN">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Camel Bowman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_EU_CAMEL_BOWMAN_HELP">
+			<Text>Fast Classical Era ranged Unit, weak to Pikemen. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_EU_CAMEL_BOWMAN_STRATEGY">
+			<Text>The Camel Bowman is a powerful ranged attack unit, allowing it to do damage to enemies 2 hexes away. It can move after combat. It also receives +33% attack bonus when attacking from Desert tiles, doubles its movement in Desert tiles, and can pillage at no movement cost. The Camel Bowman is less powerful than the Arabian Camel Archer or the Knight in melee combat. As a mounted unit, the Camel Bowman is vulnerable to Pikemen attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_EU_CAMEL_BOWMAN_PEDIA">
+			<Text>
+				The Camel Bowman is a Classical Era ranged unit, available at the discovery of Horseback Riding. It becomes obsolete at the discovery of Gunpowder, at which time it may upgrade to the Camel Rifleman unit.[NEWLINE][NEWLINE]Some Muslim cavalrymen rode camels into battle. This often had an unsettling effect upon European-bred horses that had not before encountered those unusual beasts. As might be expected, camels are better-suited to desert terrain than are horses. Generally, the Camel Bowman employed hit-and-run tactics against the enemy, more similar to Mongol horse archers than to knights or other heavy cavalry units. A well-trained Camel Bowman unit could be extremely difficult for knights to deal with, if those knights were not protected by archers or their own light cavalry.
+			</Text>
+		</Row>
+	</Language_en_US>	
+	
+</GameData>

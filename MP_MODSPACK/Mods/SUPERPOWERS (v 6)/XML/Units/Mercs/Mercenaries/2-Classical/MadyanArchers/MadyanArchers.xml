@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/08/17 7:00:36 AM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_MADYAN_ARCHER</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_MADYAN_ARCHER</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_MADYAN_ARCHER</DefaultUnit>
+			<!--<MaxPlayerInstances>3</MaxPlayerInstances>-->
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_MADYAN_ARCHER</Class>
+			<Type>UNIT_EXOTIC_UNIT_MADYAN_ARCHER</Type>
+			<Combat>8</Combat>
+			<RangedCombat>20</RangedCombat>
+			<Range>2</Range>
+			<Moves>2</Moves>
+			<Cost>100</Cost>
+			<!--<FaithCost>190</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<ObsoleteTech>TECH_MACHINERY</ObsoleteTech>
+			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_MADYAN_ARCHER</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_MADYAN_ARCHER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_MADYAN_ARCHER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_MADYAN_ARCHER_HELP</Help>
+
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			
+			<Pillage>true</Pillage>
+
+			<AdvancedStartCost>150</AdvancedStartCost>
+			
+			<MinAreaSize>-1</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_EXOTIC_UNIT_MADYAN_ARCHER</UnitArtInfo>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>28</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>20</UnitFlagIconOffset>
+			<MoveRate>BIPED</MoveRate>
+			<ExtraMaintenanceCost>30</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_MADYAN_ARCHER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_MEAD_HALL</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_MADYAN_ARCHER</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_MADYAN_ARCHER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_MADYAN_ARCHER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_MADYAN_ARCHER</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_MADYAN_ARCHER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_MADYAN_ARCHER</UnitType>
+			<SelectionSound>AS2D_SELECT_ARCHER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_ARCHER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_MADYAN_ARCHER">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Madyan Archer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_MADYAN_ARCHER_HELP">
+			<Text>Early Mercenary ranged unit. Price shown is how much it costs to hire this unit for 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_MADYAN_ARCHER_STRATEGY">
+			<Text>Use the Madyan Arhcer to rain down death on your enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_MADYAN_ARCHER_PEDIA">
+			<Text>
+				The Madyan Archer is a Classical era Mercenary ranged melee unit, available upon the discovery of Construction. The Mead Hall is required for this unit to be built. The Madyan Archer becomes obsolete upon the discovery of Machinery.[NEWLINE][NEWLINE]
+				The Madyan Archers were experts with the bow from the ancient land of Midian, which was a geographical place mentioned in the Torah and Qur’an. William G. Dever states that biblical Midian was in the 'northwest Arabian Peninsula, on the east shore of the Gulf of Aqaba on the Red Sea, in an area which was never extensively settled until the 8th-7th century B.C.'[NEWLINE][NEWLINE]According to the Book of Genesis, the Midianites were the descendants of Midian, who was a son of Abraham and his wife Keturah: 'Abraham took a wife, and her name was Keturah. And she bare him Zimran, and Jokshan, and Medan, and Midian, and Ishbak, and Shuah' , from Genesis chapter 25, King James Version.[NEWLINE][NEWLINE]Based on indirect evidence, the bow seems to have been invented near the transition from the Upper Paleolithic to the Mesolithic, some 10,000 years ago. The oldest direct evidence dates to 8,000 years ago. The discovery of stone points in Sibudu Cave, South Africa, has prompted the proposal that bow and arrow technology existed as early as 64,000 years ago.[NEWLINE][NEWLINE]Chariot-borne archers became a defining feature of Middle Bronze Age warfare, from Europe to Eastern Asia and India. However, in the Middle Bronze Age, with the development of massed infantry tactics, and with the use of chariots for shock tactics or as prestigious command vehicles, archery seems to have lessened in importance in European warfare. In approximately the same period, with the Seima-Turbino Phenomenon and the spread of the Andronovo culture, mounted archery became a defining feature of Eurasian nomad cultures and a foundation of their military success, until the massed use of guns. In China, crossbows were developed, and Han Dynasty writers attributed Chinese success in battles against nomad invaders to the massed use of crossbows, first definitely attested at the Battle of Ma-Ling in 341 BCE.[NEWLINE][NEWLINE]The ancient Egyptian people took to archery as early as 5,000 years ago. Archery was widespread by the time of the earliest pharaohs and was practiced both for hunting and use in warfare. Legendary figures from the tombs of Thebes are depicted giving 'lessons in archery.' Some Egyptian deities are also connected to archery. The 'Nine bows' were a conventional representation of Egypt's external enemies. One of the oldest representations of the Nine bows is on the seated statue of Pharaoh Djoser, in the 3rd Dynasty, 27th century BCE. [NEWLINE][NEWLINE]The Assyrians and Babylonians extensively used the bow and arrow; the Old Testament has multiple references to archery as a skill identified with the ancient Hebrews. Xenophon describes long bows used to great effect in Corduene. [NEWLINE][NEWLINE]The Chariot warriors of the Kassites relied heavily on the bow. The Nuzi texts detail the bows and the number of arrows assigned to the chariot crew. Archery was essential to the role of the light horse-drawn chariot as a vehicle of warfare.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

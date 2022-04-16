@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_5UC_CISTERN">
+			<Text>[ICON_FOOD] Cistern</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_5UC_CISTERN_HELP">
+			<Text>+25% [ICON_FOOD] Food in this City. 20% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born. Only the Ottomans may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_5UC_CISTERN_STRATEGY">
+			<Text>The Cistern carries over less [ICON_FOOD] Food after a City grows than the Aqueduct it replaces, but it also increases the [ICON_FOOD] Food output of the City directly, improves [ICON_HAPPINESS_1] Happiness, and has no maintenance. The Cistern will stack with the Medical Lab to increase growth, and with the Aqueducts that the Ottomans can still receive if they complete the Tradition policy line.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_5UC_CISTERN_TEXT">
+			<Text>A cistern is a waterproof receptacle for holding liquids, usually water. Cisterns are often built to catch and store rainwater. Cisterns are distinguished from wells by their waterproof linings. Cisterns are commonly prevalent in areas where water is scarce, either because it is rare or has been depleted due to heavy use. Historically, the water was used for many purposes including cooking, irrigation, and washing. The Ottoman empire employed cisterns for a variety of purposes, often agricultural. The Basilica Cistern is the largest of several hundred ancient cisterns that lie beneath the city of Istanbul.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

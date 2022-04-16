@@ -1,0 +1,382 @@
+<!-- MERC BUILDINGS TEXT -->
+
+<GameData>
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_HEPTASTADION">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Naval Quarters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_HEPTASTADION_HELP">
+			<Text>Allows certain naval Mercenary units to be purchased. Adds +1 Production and +1 Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_HEPTASTADION_PEDIA">
+			<Text>
+				A Heptastadion is an Ancient Era building available upon the discovery of Sailing. Building it will allow the purchse of the XX and YY naval units. It also adds +1 to Production and +1 to Science in the city.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MEAD_HALL">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Retinue Quarters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MEAD_HALL_HELP">
+			<Text>Allows certain Mercenary units to be purchased. Adds +1 Production and +1 Culture. Requires a Monument in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MEAD_HALL_PEDIA">
+			<Text>
+				A Mead Hall is a Classical Era building available upon the discovery of Currency. Building it will allow the purchse of the XX and YY units. It also adds +1 to Productionand +1 Culture in the city.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_GUILD">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Mercenary Guild</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_GUILD_HELP">
+			<Text>Allows certain Mercenary units to be purchased. Adds +1 Production and +2 Culture. +6 City Defense Strength. Requires a Market in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_GUILD_PEDIA">
+			<Text>
+				A Mercenary Guild is a Renaissance Era building available upon the discovery of Currency. Building it will allow the purchse of the XX and YY units. It also adds +1 to Production and +2 Culture in the city. +6 City Defense Strength.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_SHIPYARD">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Privateering Company</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_SHIPYARD_HELP">
+			<Text>Allows certain naval Mercenary units to be purchased. Adds +1 Production, +1 Science, and +1 Culture. Requires a Harbor in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_SHIPYARD_PEDIA">
+			<Text>
+				A Shipyard is an Industrial Era building available upon the discovery of Military Science. Building it will allow the purchse of the XX and YY naval units. It also adds +1 to Production, +1 to Science, and +1 Culture in the city.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_CONSULATE">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Colonial Recruitment Agency</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_CONSULATE_HELP">
+			<Text>Allows certain Mercenary units to be purchased. Adds +1 Production and +2 Culture. +9 City Defense Strength. Requires a Market in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_CONSULATE_PEDIA">
+			<Text>
+				A Mercenary Consulate is a Modern Era building available upon the discovery of Railroad. Building it will allow the purchse of the XX and YY units. It also adds +1 to Production and +2 Culture in the city. +9 City Defense Strength.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_NAVAL_YARD">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Naval Procurement Department</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_NAVAL_YARD_HELP">
+			<Text>Allows certain naval Mercenary units to be purchased. Adds +2 Production, +1 Science, and +1 Culture. Requires a Seaport in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_NAVAL_YARD_PEDIA">
+			<Text>
+				A Naval Yard is an Atomic Era building available upon the discovery of Combined Arms. Building it will allow the purchse of the XX and YY naval units. It also adds +2 to Production, +1 to Science, and +1 Culture in the city.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_CONTRACTING_AGENCY">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Private Military Contractor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_CONTRACTING_AGENCY_HELP">
+			<Text>Allows certain Mercenary units to be purchased. Adds +2 Production and +2 Culture. Requires an Airport in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_CONTRACTING_AGENCY_PEDIA">
+			<Text>
+				A Contracting Agency is an Information Era building available upon the discovery of Telecommunications. Building it will allow the purchse of the XX and YY units. It also adds +2 to Production and +2 Culture in the city.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BOLLHUSET">
+			<Text>[ICON_CULTURE] Bollhuset</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BOLLHUSET_STRATEGY">
+			<Text>The Bollhuset is the Swedish embodiment of fine arts and theater. In addition to the normal [ICON_HAPPINESS_1] Happiness increase, the Bollhuset has no maintenance cost and instead generates [ICON_GOLD] Gold.
+		    </Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BOLLHUSET_TEXT">
+			<Text>
+				Bollhuset was the name of the first theater in Stockholm, Sweden. It was the first Swedish theater and the first real theater building in the whole of Scandinavia. The name "Bollhuset" means "The Ball House", and it was built in 1627 for ball sports and used in this way for forty years.[NEWLINE][NEWLINE]
+
+				Bollhuset was the scene of a long series of most important events in the history of the theater in the city and in the history of Swedish theater. Between 1667 and 1792 it was used as a theater until it was demolished in 1793; between 1737 and 1754, the first national theater was located here; in 1773–1782 the Royal Swedish Opera (and thereby also the Royal Swedish Ballet) was located here; in 1783–1792 the French theater of Stockholm was housed here; in 1787 the second national theater was re-founded in the building; and from 1788 to 1792 it was the home of the Royal Dramatic Theatre.
+			</Text>
+		</Row>
+
+		<!-- MISSING LOCALIZATION -->
+
+		<Row Tag="TXT_KEY_BUILDING_FW_ANGELNET_HELP">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_NEPHILIMGENETEMPLATE_HELP">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_SHIMIZUMCP_HELP">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_DATA_HAVEN_HELP">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_ANGELNET_STRATEGY">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_NEPHILIMGENETEMPLATE_STRATEGY">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_SHIMIZUMCP_STRATEGY">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_DATA_HAVEN_STRATEGY">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TOGETHER_TT_STARS_PROJECT_1_STRATEGY">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_2_STRATEGY">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_ANGELNET_PEDIA">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_NEPHILIMGENETEMPLATE_PEDIA">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_SHIMIZUMCP_PEDIA">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_DATA_HAVEN_PEDIA">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_ANGELNET_DESC">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_NEPHILIMGENETEMPLATE_DESC">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_SHIMIZUMCP_DESC">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FW_DATA_HAVEN_DESC">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_HR_ESOTERIC_DUMMY_HELP">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_HR_SPIRITUALIST_DUMMY_HELP">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_GLOBAL_WARGAMES_DUMMY_TEXT">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_HR_ESOTERIC_DUMMY_TEXT">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_HR_SPIRITUALIST_DUMMY">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_HR_SPIRITUALIST_DUMMY_TEXT">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_HR_ESOTERIC_DUMMY">
+			<Text>
+			</Text>
+		</Row>
+
+		<!-- RUSSIAN ABILITY TOOLTIP -->
+
+		<Row Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES_PERK">
+			<Text>+12 [ICON_RES_CONSUMER]Consumer Goods for all Russian Cities
+			</Text>			
+		</Row>
+
+		<!--[NEWLINE][NEWLINE][ICON_WORKER]Civilian units are cheap, and have very low maintenance.-->
+
+		<Row Tag="TXT_KEY_UNIT_PRODUCTION_HELP">
+			<Text>Units serve as the agents of your will across history.				  
+				  [NEWLINE][NEWLINE][ICON_WAR]The professional army serves as the backbone of your military.
+				  [NEWLINE][ICON_BULLET][COLOR_GREEN]It is expensive to maintain massive standing armies, but they are cheaper than Mercenaries.[ENDCOLOR]
+				  [NEWLINE][ICON_BULLET][COLOR_RED]Require [ICON_RES_MANPOWER]manpower, and [ICON_RES_IRON]strategic resources.[ENDCOLOR]
+				  [NEWLINE][NEWLINE][ICON_IDEOLOGY_AUTOCRACY]Mercenaries serve to augment your military capabilities, for a price.
+				  [NEWLINE][ICON_BULLET][COLOR_RED]They are relatively cheap to hire, and very expensive to maintain for extended periods.[ENDCOLOR]
+				  [NEWLINE][ICON_BULLET][COLOR_GREEN]Do not require [ICON_RES_MANPOWER]manpower or [ICON_RES_IRON]strategic resources.[ENDCOLOR]				  
+				  [NEWLINE][NEWLINE][ICON_WAR]Military and [ICON_WORKER]civilian casualties, will eventually lead to [ICON_HAPPINESS_4]loss of population in your cities. Human lives are no longer mere statistics.
+				  [NEWLINE][NEWLINE]Due to foreign recruitment, [ICON_IDEOLOGY_AUTOCRACY]Mercenary units do not cause [ICON_HAPPINESS_1]loss of population.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_PRODUCTION_HELP">
+			<Text>Buildings and Infrastructure serve as the backbone of your Civilization. 
+				  [NEWLINE][NEWLINE][ICON_FOOD][COLOR_FONT_GREEN]Agricultural Buildings[ENDCOLOR] increase the food and growth rate of your cities.
+				  [NEWLINE][ICON_BULLET]Food surplus leads to population growth. A large population is the backbone of an Empire.
+				  [NEWLINE][NEWLINE][ICON_PRODUCTION][COLOR_YIELD_FOOD]Production Buildings[ENDCOLOR] increase the production of your cities.
+				  [NEWLINE][ICON_BULLET]Production Buildings provide Engineer slots, which provide manpower and generate [ICON_GREAT_ENGINEER]Great Engineers.
+				  [NEWLINE][NEWLINE][ICON_RESEARCH][COLOR_XP_BLUE]Science Buildings[ENDCOLOR] help research new technologies, and advance your Civilization.
+				  [NEWLINE][ICON_BULLET]Science Buildings provide Scientist slots, which generate [ICON_GREAT_SCIENTIST]Great Scientists. A technological advantage is extremely advantageous.
+				  [NEWLINE][NEWLINE][ICON_INVEST][COLOR_SELECTED_TEXT]Market Buildings[ENDCOLOR] provide avenues for the generation of wealth.
+				  [NEWLINE][ICON_BULLET]Markets provide employment for merchants, which generate [ICON_GREAT_MERCHANT]Great Merchants. Wealth is true power.
+				  [NEWLINE][NEWLINE][ICON_INTERNATIONAL_TRADE][COLOR_PROJECT_TEXT]Trade Buildings[ENDCOLOR] help facilitate local and international trade.
+				  [NEWLINE][ICON_BULLET]Trade buildings increase the range and value of trade routes. The majority of wealth is created by global trade.
+				  [NEWLINE][NEWLINE][ICON_CULTURE][COLOR_CULTURE_STORED]Cultural Buildings[ENDCOLOR] provide culture, tourism and boost golden age frequency.
+				  [NEWLINE][ICON_BULLET]They generate [ICON_GREAT_ARTIST]Great Artists, [ICON_GREAT_WRITER]Great Writers and [ICON_GREAT_MUSICIAN]Great Musicians. Cultural significance leads to Societal development.
+				  [NEWLINE][NEWLINE][COLOR_RED]Buildings require significant [ICON_INVEST]maintenance, and one should consider the effectiveness of certain buildings before proceeding with their construction.[ENDCOLOR]
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_WONDER_PRODUCTION_HELP">
+			<Text>Leave a mark on human history with awe inspiring monuments, and pursue Special Weapon Projects and Space Programs.
+				  [NEWLINE][NEWLINE][ICON_CITY_STATE]Wonders take many years, and massive investment to complete. They provide a varying set of benefits depending on the particular Wonder.
+				  [NEWLINE][ICON_BULLET]Wonders require massive amounts of [ICON_RES_MANPOWER]manpower to construct and maintain. It is advisable to only focus on Wonders once your Civilization is large enough to support them.
+				  [NEWLINE][NEWLINE][COLOR_GREEN]Due to their impressive structural strength, Wonders cannot be destroyed by [ICON_RES_URANIUM]Nuclear Attack or [ICON_RESISTANCE]Conquest.[ENDCOLOR]
+				  [NEWLINE][NEWLINE][COLOR_RED]Other [ICON_DIPLOMAT]World Leaders will react negatively if your Civilization constructs Wonders they covet. Building every Wonder possible may be viewed aggressively.[ENDCOLOR]
+				  [NEWLINE][NEWLINE][ICON_OMEGA]Special Weapon Projects, are secret endeavours to produce cutting edge technologies that provide an advantage on the Battlefield.
+				  [NEWLINE][ICON_BULLET]These Weapon Systems are highly coveted, and only the first Civilization to manufacture them shall know the secrets of its production.
+				  [NEWLINE][NEWLINE][ICON_VICTORY_SPACE]Space Programs are highly prestigious undertakings, that are the first step to forging an interstellar Civilization. Do not go gentle into that good night.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_OTHER_PRODUCTION_HELP">
+			<Text>Accomplish National Plans and Global Initiatives.				  
+				  [NEWLINE][NEWLINE][ICON_VICTORY_DIPLOMACY]Participate in international collaborations and global projects, as various World Powers compete to display their supremacy. These may range from events like the Olympics, to International World Fairs and Planetary Defense Initiatives.
+			</Text>
+		</Row>		
+
+		<Row Tag="TXT_KEY_WONDER_DETAIL_HELP">
+			<Text>Leave a mark on human history with awe inspiring monuments.
+				  [NEWLINE][NEWLINE][ICON_CITY_STATE]Wonders take many years, and massive investment to complete. They provide a varying set of benefits depending on the particular Wonder.
+				  [NEWLINE][ICON_BULLET]Wonders require massive amounts of [ICON_RES_MANPOWER]manpower to construct and maintain. It is advisable to only focus on Wonders once your Civilization is large enough to support them.
+				  [NEWLINE][NEWLINE][COLOR_GREEN]Due to their impressive structural strength, Wonders cannot be destroyed by [ICON_RES_URANIUM]Nuclear Attack or [ICON_RESISTANCE]Conquest.[ENDCOLOR]
+				  [NEWLINE][NEWLINE][COLOR_RED]Other [ICON_DIPLOMAT]World Leaders will react negatively if your Civilization constructs Wonders they covet. Building every Wonder possible may be viewed aggressively.[ENDCOLOR]				  
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_FOCUS_HELP">
+			<Text>[ICON_CHECKBOX]City Focuses instruct the cities governors to prioritize labor towards certain objectives. The possible priorities are listed below.
+			[NEWLINE][NEWLINE][ICON_FOOD][COLOR_FONT_GREEN]Food Focus[ENDCOLOR], prioritizes the growth of food. Useful for faster population growth.
+			[NEWLINE][ICON_PRODUCTION][COLOR_YIELD_FOOD]Production Focus[ENDCOLOR], prioritizes manufacturing and industry. Useful during wars, and for completing critical projects like Wonders.
+			[NEWLINE][ICON_GOLD][COLOR_SELECTED_TEXT]Gold Focus[ENDCOLOR], prioritizes commerce and trade. Useful for increasing the budget, and balancing deficits.
+			[NEWLINE][ICON_RESEARCH][COLOR_XP_BLUE]Research Focus[ENDCOLOR], prioritizes research and development. Useful for accelerating the progress of your Civilization.
+			[NEWLINE][ICON_CULTURE][COLOR_CULTURE_STORED]Culture Focus[ENDCOLOR], prioritizes the social sciences and arts. Useful for achieving Social Progress and promoting Tourism.
+			[NEWLINE][ICON_GREAT_PEOPLE][COLOR_WATER_TEXT]Great People Focus[ENDCOLOR], prioritizes the promotion of exemplary individuals. Useful for promoting the creation of Geniuses.
+			[NEWLINE][ICON_PEACE][COLOR_POPUP_TEXT]Faith Focus[ENDCOLOR], prioritizes the spiritual arts and faith. Useful for the promotion of Great Prophets and staying on Gods good side.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPECIALIST_HELP">
+			<Text>[ICON_CITIZEN]Specialists are skilled labour, and provide essential, specialized services to augment an economy.			
+			[NEWLINE][NEWLINE][ICON_PRODUCTION][COLOR_YIELD_FOOD]Engineers[ENDCOLOR], provide production.
+			[NEWLINE][ICON_GOLD][COLOR_SELECTED_TEXT]Merchants[ENDCOLOR], create profits and currency.
+			[NEWLINE][ICON_RESEARCH][COLOR_XP_BLUE]Scientists[ENDCOLOR], undertake research, and make breakthroughs.
+			[NEWLINE][ICON_CULTURE][COLOR_CULTURE_STORED]Artists and Writers[ENDCOLOR], promote the arts and progress culture.
+			[NEWLINE][NEWLINE][COLOR_FONT_GREEN]The output of Specialists can be improved by completing Guild, Foundation and Assosciation projects, which are unlocked as you progress tech.[ENDCOLOR]
+			[NEWLINE][COLOR_FONT_RED]Specialists require to be paid a significant salary, and the costs of employing Specialists should be kept in mind.[ENDCOLOR]
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_LEVEL_HELP">
+			<Text>[ICON_CITY_STATE]Cities are the beating hearts of a Civilization. Cities are sized into different categories depending on their population.
+			[NEWLINE][COLOR_GREEN]Larger Cities grant more [ICON_RES_MANPOWER]Manpower, and increases [ICON_STRENGTH]City Defence.
+			[NEWLINE][COLOR_RED]Larger Cities cause more [ICON_HAPPINESS_4]Unhappiness, and require more [ICON_RES_ELECTRICITY]Electricity, and [ICON_RES_CONSUMER]Consumer Goods.[ENDCOLOR]			
+			[NEWLINE][NEWLINE]The different City Sizes, and their details are listed below.				  	
+			[NEWLINE][ICON_CITYBANNER_CITY_TOWN]Village       [ICON_CITIZEN]0   [ICON_HAPPINESS_4]0     [ICON_RES_CONSUMER]2      [ICON_RES_MANPOWER]4     [ICON_RES_ELECTRICITY]3   
+			[NEWLINE][ICON_CITYBANNER_CITY_SMALL]Town          [ICON_CITIZEN]6   [ICON_HAPPINESS_4]2     [ICON_RES_CONSUMER]4      [ICON_RES_MANPOWER]6     [ICON_RES_ELECTRICITY]6
+			[NEWLINE][ICON_CITYBANNER_CITY_MEDIUM]City            [ICON_CITIZEN]15  [ICON_HAPPINESS_4]4    [ICON_RES_CONSUMER]12   [ICON_RES_MANPOWER]15  [ICON_RES_ELECTRICITY]12	
+			[NEWLINE][ICON_CITYBANNER_CITY_LARGE]District        [ICON_CITIZEN]26  [ICON_HAPPINESS_4]8    [ICON_RES_CONSUMER]25   [ICON_RES_MANPOWER]26   [ICON_RES_ELECTRICITY]25
+			[NEWLINE][ICON_CITYBANNER_CITY_XL]Metropolis  [ICON_CITIZEN]40  [ICON_HAPPINESS_4]16  [ICON_RES_CONSUMER]50   [ICON_RES_MANPOWER]40   [ICON_RES_ELECTRICITY]50
+			[NEWLINE][ICON_CITYBANNER_CITY_XXL]Megapolis  [ICON_CITIZEN]60  [ICON_HAPPINESS_4]32  [ICON_RES_CONSUMER]75   [ICON_RES_MANPOWER]60    [ICON_RES_ELECTRICITY]75
+			[NEWLINE][ICON_CITYBANNER_CITY_GLOBAL]Gigapolis   [ICON_CITIZEN]80  [ICON_HAPPINESS_4]64  [ICON_RES_CONSUMER]100 [ICON_RES_MANPOWER]80  [ICON_RES_ELECTRICITY]120
+			</Text>
+		</Row>
+
+		
+
+		<Row Tag="TXT_KEY_CITY_POLICE_LEVEL_HELP">
+			<Text>[ICON_CITY_STATE]The further a city is from the Capital, the higher its level
+			[NEWLINE][ICON_CITYBANNER_CITY_LV1]Core Cities are closest to the Capital, and have almost no detriments
+			[NEWLINE][ICON_CITYBANNER_CITY_LV5]Peripheral Cities are furthest from the Capital, and have significant detriments	
+			[NEWLINE]City levels can cause [ICON_HAPPINESS_4]Unhapppiness, require [ICON_INVEST]maintenance, reduce [ICON_RES_MANPOWER]Manpower, and require [ICON_RES_CONSUMER]Consumer Goods
+			[NEWLINE]
+			[NEWLINE][ICON_CITYBANNER_CITY_LV1]Core City          [ICON_HAPPINESS_4]0     [ICON_INVEST]16     [ICON_RES_MANPOWER]0       [ICON_RES_CONSUMER]0	
+			[NEWLINE][ICON_CITYBANNER_CITY_LV2]Provincial City  [ICON_HAPPINESS_4]4     [ICON_INVEST]32     [ICON_RES_MANPOWER]-6    [ICON_RES_CONSUMER]4
+			[NEWLINE][ICON_CITYBANNER_CITY_LV3]Territorial City  [ICON_HAPPINESS_4]8     [ICON_INVEST]48     [ICON_RES_MANPOWER]-12     [ICON_RES_CONSUMER]8
+			[NEWLINE][ICON_CITYBANNER_CITY_LV4]Colonial City     [ICON_HAPPINESS_4]16   [ICON_INVEST]64     [ICON_RES_MANPOWER]-24     [ICON_RES_CONSUMER]16
+			[NEWLINE][ICON_CITYBANNER_CITY_LV5]Peripheral City  [ICON_HAPPINESS_4]32   [ICON_INVEST]128   [ICON_RES_MANPOWER]-48   [ICON_RES_CONSUMER]32
+			[NEWLINE]
+			[NEWLINE][ICON_CITYBANNER_CITY_NOAC]Cities beyond [ICON_CITYBANNER_CITY_LV1]Core Cities, require [ICON_INQUISITOR][COLOR_YIELD_FOOD]Governance Buildings[ENDCOLOR], otherwise they will cause Global Unhappiness. These buildings include [COLOR_YIELD_FOOD]Constables, Sheriffs Office and Police Stations[ENDCOLOR].
+			[NEWLINE][ICON_BULLET]Cities without [ICON_INQUISITOR][COLOR_YIELD_FOOD]Admin buildings[ENDCOLOR] have major [ICON_HAPPINESS_4]Corruption and [ICON_PIRATE]Public Security problems, which cause +3% extra Nationwide [ICON_HAPPINESS_4]Unhappiness!
+			[NEWLINE][ICON_BULLET]Build a [COLOR_YIELD_FOOD]Admin Building[ENDCOLOR] to eliminate the Nationwide [ICON_HAPPINESS_4]Unhappiness!
+			[NEWLINE]
+			[NEWLINE][ICON_PUPPET]Puppet Cities are free from Admin problems, after a Courthouse has been built.
+			[NEWLINE][ICON_BULLET]Provide no [ICON_RES_MANPOWER]Manpower
+			[NEWLINE][ICON_BULLET]Suffer from weak governance which causes -33% [ICON_CULTURE]Culture output, [ICON_RESEARCH]Science output and -50% [ICON_FOOD]Food Growth	in the City		
+			</Text>			
+		</Row>
+
+		
+		
+		
+		
+
+		<!--	
+		[ICON_GOLD]Maintenance,	
+						new_name	pop		MP		ele		CG		unhapp	trade	tour	defence		pollution	tarrif			
+		town			village		0		4		3		2		0		0		0		0/0hp		0			0
+		small city		town		6		6		6		4		2		8		0		10/30hp		0			8
+		medium city		city		15		15		12		12		4		16		0		25/50hp		0			16
+		large city		district	26		26		25		25		8		32		10		40/75hp		-5			32
+		XL city			metropolis	40		40		50		50		16		64		15		60/100hp	-10			48	
+		XXL city		megacity	60		60		75		75		32		128		25		80/120hp	-15			64
+		global city		gigacity	80		80		120		100		64		256		50		120/150hp	-20			100
+
+		-->
+		
+	</Language_en_US>
+</GameData>

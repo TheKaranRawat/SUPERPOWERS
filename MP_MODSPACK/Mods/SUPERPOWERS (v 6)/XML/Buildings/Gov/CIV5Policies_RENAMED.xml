@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/5/2013 12:08:18 PM -->
+<GameData>
+		<Policy_BuildingClassHappiness>
+			<Row>
+				<PolicyType>POLICY_POLICE_STATE</PolicyType>
+				<BuildingClassType>BUILDINGCLASS_MILITARY_HQ</BuildingClassType>
+				<Happiness>8</Happiness>
+			</Row>
+			<Row>
+				<PolicyType>POLICY_PARTY_LEADERSHIP</PolicyType>
+				<BuildingClassType>BUILDINGCLASS_PEOPLE_COUNCIL</BuildingClassType>
+				<Happiness>8</Happiness>
+			</Row>
+		</Policy_BuildingClassHappiness>
+</GameData>

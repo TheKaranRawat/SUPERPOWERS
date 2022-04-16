@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/07/17 1:35:50 PM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_BATTLE_GALLEY</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_BATTLE_GALLEY</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_BATTLE_GALLEY</DefaultUnit>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_BATTLE_GALLEY</Class>
+			<Type>UNIT_EXOTIC_UNIT_BATTLE_GALLEY</Type>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<ObsoleteTech>TECH_COMPASS</ObsoleteTech>
+			<Combat>35</Combat>
+			<RangedCombat>35</RangedCombat>
+			<Range>2</Range>
+			<Moves>8</Moves>
+			<Cost>60</Cost>			
+			<!--<FaithCost>120</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_BATTLE_GALLEY</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_BATTLE_GALLEY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_BATTLE_GALLEY_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_BATTLE_GALLEY_HELP</Help>
+
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			
+			<Pillage>true</Pillage>
+			
+			<Mechanized>true</Mechanized>			
+			<AdvancedStartCost>100</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_KARVI</UnitArtInfo>			
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>24</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>16</UnitFlagIconOffset>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+			<ExtraMaintenanceCost>30</ExtraMaintenanceCost>
+			
+		</Row>
+	</Units>
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BATTLE_GALLEY</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_HEPTASTADION</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BATTLE_GALLEY</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BATTLE_GALLEY</UnitType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BATTLE_GALLEY</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BATTLE_GALLEY</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BATTLE_GALLEY</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BATTLE_GALLEY</UnitType>
+			<UnitAIType>UNITAI_PIRATE_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BATTLE_GALLEY</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BATTLE_GALLEY</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BATTLE_GALLEY</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BATTLE_GALLEY</UnitType>
+			<SelectionSound>AS2D_SELECT_TRIREME</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TRIREME</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_BATTLE_GALLEY">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Battle Galley</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_BATTLE_GALLEY_HELP">
+			<Text>Early naval melee Mercenary unit. Price shown is how much it costs to hire this unit for 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_BATTLE_GALLEY_STRATEGY">
+			<Text>Use the Battle Galleys to explore the world, and to spread fear upon the seas.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_BATTLE_GALLEY_PEDIA">
+			<Text>
+				The Battle Galley is an Ancient era naval melee Mercenary unit, available upon the discovery of Sailing. The Heptastadion is required for this unit to be built. The Battle Galley becomes obsolete upon the discovery of the Compass.[NEWLINE][NEWLINE]
+				Mankind has fought battles on the sea for more than 3,000 years. Even in the interior of large landmasses, transportation before the advent of extensive railroads was largely dependent upon rivers, canals, and other navigable waterways.[NEWLINE][NEWLINE]The latter were crucial in the development of the modern world in the United Kingdom, the Low Countries and northern Germany, for they enabled the bulk movement of goods and raw materials without which the Industrial Revolution would not have occurred. Prior to 1750, materials largely moved by river barge or sea vessels. Thus armies, with their exorbitant needs for food, ammunition and fodder, were tied to the river valleys throughout the ages.[NEWLINE][NEWLINE]The oceanic influences throughout pre-recorded history, such as Homeric Legends, e.g. Troy, and classical works such as The Odyssey underscore the past influences. The Persian Empire, united and strong, could not prevail against the might of the Athenian fleet combined with that of lesser city states in several attempts to conquer the Greek city states. Phoenicia's and Egypt's power, Carthage's and even Rome's largely depended upon control of the seas.[NEWLINE][NEWLINE]So too did the Venetian Republic dominate Italy's city states, thwart the Ottoman Empire, and dominate commerce on the Silk Road and the Mediterranean in general for centuries. For three centuries, the Northmen, commonly called Vikings, raided and pillaged and went where they willed, far into central Russia and the Ukraine, and even to distant Constantinople, both via the Black Sea tributaries and through the Strait of Gibraltar.
+			</Text>
+		</Row>
+	</Language_en_US>	
+  
+</GameData>

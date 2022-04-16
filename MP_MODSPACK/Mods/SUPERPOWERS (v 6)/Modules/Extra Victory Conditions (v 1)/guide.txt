@@ -1,0 +1,23 @@
+Tutorial for Modifying the Victory Conditions in this Mod
+
+This brief tutorial is to guide those who want to modify the parameters of the victory conditions in this mod. It lists possible modifications from easiest to hardest to implement. As always, remember to back up your files before editing them:
+Change the economic victory gold threshholds
+In the mod's directory, navigate to Extra Victory Conditions (v 1)\Lua and open the file "EconomicVictory.lua" using a text editor (such as notepad). Look for the following lines:
+g_EVCGoldTarget = 20000;
+g_EVCGPTTarget = 400;
+Editing the numerical values here will change the threshholds at which the gold value victory conditions are triggered. Note that these values are the defaults, which are modified per difficulty level by the following lines:
+local iGPTModifier = (iHandicapID - 3)*50
+g_EVCGoldTarget = g_EVCGoldTarget + (iHandicapID - 3)*5000;
+If you want to change the difficulty modification, edit the final numerical values in these lines. The variable "iHandicapID" is determined by the difficulty of the game, with 0 being the easiest and 3 being the default difficulty, thus the "-3" operator will modify the gold threshholds either negatively (if easier than default) or positively (if harder). Editing the "50" or "5000" will change the scale of modification per difficulty level, and if you don't want it to scale at all you can simple replace those values with "0".
+Change the religious victory "spread" requirement
+If you want to modify the percentage of cities required for religious victory, navigate to the Lua folder in the mod's directory and open the file "ReligiousVictory.lua" using a text editor (such as notepad). Look for the following line:
+if ((g_EVCReligiousSpread[eReligion] >= 70) and (g_EVCReligiousFollowers[eReligion] >= g_EVCMaxFollowers) and (g_EVCReligiousHolyCities[eReligion] == g_EVCMaxHolyCities)) then
+Change the "70" to whatever percentage value you desire (from 0-100).
+Change the economic victory resource threshhold
+If you want to reduce the percentage of luxury resource types owned required for victory, open the file "EconomicVictory.lua" using a text editor and navigate to the definition of the function GetMapResources(). In the function definition, before the final "end" add the following line:
+iTargetLuxResources = iTargetLuxResources*0.5;
+This will change it so that you only need to require one of half of every luxury resource. Modify the 0.5 as desired to change the percentage of luxury resources needed.
+Change the religious victory "followers" requirement
+To change the minimum number of followers required to achieve religious victory, open the file "ReligiousVictory.lua" using a text editor and find the following line:
+g_EVCMaxFollowers = round(worldSize.EstimatedNumCities*6*0.7) + 20;
+This formula determines the number of followers required by taking the estimated number of cities on a map (based on map size), multiplying that number by 6 (assuming all cities must have an average size of 6), multiplying that again by 0.7 (assuming the average city is 70% converted), rounding the result, and then adding 20 for good measure. Modify the formula as you see fit.

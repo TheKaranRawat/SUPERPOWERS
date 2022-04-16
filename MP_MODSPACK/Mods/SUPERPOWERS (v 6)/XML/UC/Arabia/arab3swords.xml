@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/6/2013 1:15:40 AM -->
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_3UC_DOUBLE</Type>
+			<Description>TXT_KEY_PROMOTION_3UC_DOUBLE</Description>
+			<Help>TXT_KEY_PROMOTION_3UC_DOUBLE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<OrderPriority>2</OrderPriority>
+			<RoughDefense>25</RoughDefense>
+			<PortraitIndex>14</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_MELEE</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_3UC_DOUBLE</PediaEntry>
+		</Row>
+	</UnitPromotions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_3UC_DOUBLE">
+			<Text>Double Defense</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_3UC_DOUBLE_HELP">
+			<Text>25% [ICON_STRENGTH] Combat Strength when defending in forest, jungle, or hills.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_3GHAZI_SWORDSMAN">
+			<Text>Ghazi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_3GHAZI_SWORDSMAN_HELP">
+			<Text>Melee unit of the Classical era that receives a double defensive terrain bonus. When garrisoned, prevents other Great Prophets and Missionaries from converting in the city. Only Arabia may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_3GHAZI_SWORDSMAN_STRATEGY">
+			<Text>The Ghazi is an Arabic unique unit. Unlike the Swordsman it replaces, the Ghazi receives stronger defensive terrain bonuses and prevents the spread of other religions by rival Prophets and Missionaries when garrisoned in a city. Requires 1 [ICON_RES_IRON] Iron resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_3GHAZI_SWORDSMAN_TEXT">
+			<Text>
+				Ghazi is an Arabic term originally referring to an individual who participates in military expeditions or raiding; after the emergence of Islam it took on new connotations of religious warfare.[NEWLINE][NEWLINE]Ghazi warriors depended upon plunder for their livelihood, and were prone to brigandage and sedition in times of peace. The corporations into which they organized themselves attracted adventurers, zealots and religious and political dissidents of all ethnicities. In time, though, soldiers of Turkic ethnicity predominated, mirroring the acquisition of Mamluks, Turkic slaves in the Mamluk retinues and guard corps of the caliphs and emirs and in the ranks of the ghazi corporation, some of whom would ultimately rise to military and later political dominance in various Muslim states.[NEWLINE][NEWLINE]The only way of avoiding the onslaughts of the ghazis was to become subjects of the Islamic state. Non-Muslims acquired the status of dhimmis, living under its protection. Most Christian sources confuse these two stages in the Ottoman conquests. The Ottomans, however, were careful to abide by these rules. Faced with the terrifying onslaught of the ghazis, the population living outside the confines of the empire, in the 'abode of war', often renounced the ineffective protection of Christian states, and sought refuge in subjection to the Ottoman empire. Peasants in open country in particular lost nothing by this change.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>UNIT_3GHAZI_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>4UC_GAZ256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_3GHAZI_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>4UC_GAZ128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_3GHAZI_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>4UC_GAZ80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_3GHAZI_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>4UC_GAZ64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>UNIT_3GHAZI_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>4UC_GAZ45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>3GHAZI_SWORDSMAN_FLAG</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>IconGhazi32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

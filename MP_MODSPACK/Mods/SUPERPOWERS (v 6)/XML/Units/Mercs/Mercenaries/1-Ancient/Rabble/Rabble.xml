@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/07/17 1:35:50 PM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_RABBLE</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_RABBLE</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_RABBLE</DefaultUnit>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_RABBLE</Class>
+			<Type>UNIT_EXOTIC_UNIT_RABBLE</Type>
+			<Combat>15</Combat>
+			<Moves>2</Moves>
+			<Cost>80</Cost>			
+			<!--<FaithCost>40</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<!--<PrereqTech>TECH_SAILING</PrereqTech>-->
+			<ObsoleteTech>TECH_CURRENCY</ObsoleteTech>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_RABBLE</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_RABBLE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_RABBLE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_RABBLE_HELP</Help>
+
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			
+			<Pillage>true</Pillage>
+			
+			<AdvancedStartCost>100</AdvancedStartCost>
+			
+			<MinAreaSize>-1</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_RAIDER</UnitArtInfo>			
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>26</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>18</UnitFlagIconOffset>
+			<MoveRate>BIPED</MoveRate>
+			<ExtraMaintenanceCost>0</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_RABBLE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_HEPTASTADION</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_RABBLE</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_RABBLE</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_RABBLE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_RABBLE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<!--
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_RABBLE</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	-->
+	
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_RABBLE</UnitType>
+			<SelectionSound>AS2D_SELECT_WARRIER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_WARRIER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_RABBLE">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Clubmen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_RABBLE_HELP">
+			<Text>Early, inexpensive Mercenary melee unit. Price shown is how much it costs to hire this unit for 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_RABBLE_STRATEGY">
+			<Text>Use the Rabble to defend your lands from your enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_RABBLE_PEDIA">
+			<Text>
+				The Rabble is an Ancient era Mercenary melee unit, available at the start of the game. The Heptastadion is required for this unit to be built. The Rabble becomes obsolete upon the discovery of Currency.[NEWLINE][NEWLINE]
+				Around the reign of Hammurabi, 1791–1750 BC, the Babylonian Empire used a system of conscription called Ilkum. Under that system those eligible were required to serve in the royal army in time of war. During times of peace they were instead required to provide labor for other activities of the state. In return for this service, people subject to it gained the right to hold land. It is possible that this right was not to hold land per se but specific land supplied by the state.[NEWLINE][NEWLINE]Various forms of avoiding military service are recorded. While it was outlawed by the Code of Hammurabi, the hiring of substitutes appears to have been practiced both before and after the creation of the code. Later records show that Ilkum commitments could become regularly traded. In other places, people simply left their towns to avoid their Ilkum service. Another option was to sell Ilkum lands and the commitments along with them. With the exception of a few exempted classes, this was forbidden by the Code of Hammurabi.[NEWLINE][NEWLINE]Under the feudal conditions for holding land in the medieval period, all peasants, freemen commoners and noblemen aged 15 to 60 living in the countryside or in urban centers, were summoned for military duty when required by either the king or the local lord bringing with them weapons and armor according to their wealth. These levies fought as footmen, sergeants, and men at arms under local superiors appointed by the king or the local lord. Although the exact laws varied greatly depending on the country and the period, generally these levies were only obliged to fight for one to three months. Many were subsistence farmers, and it was in everyone's interest to send the men home for harvest-time.[NEWLINE][NEWLINE]The bulk of the Anglo-Saxon English army, called the fyrd, was composed of part-time English soldiers drawn from the landowning minor nobility. These thegns were the land-holding aristocracy of the time and were required to serve with their own armor and weapons for a certain number of days each year. The historian David Sturdy has cautioned about regarding the fyrd as a precursor to a modern national army composed of all ranks of society, describing it as a ridiculous fantasy:[NEWLINE][NEWLINE]'The persistent old belief that peasants and small farmers gathered to form a national army or fyrd is a strange delusion dreamt up by antiquarians in the late eighteenth or early nineteenth centuries to justify universal military conscription.'
+			</Text>
+		</Row>
+	</Language_en_US>	
+  
+</GameData>

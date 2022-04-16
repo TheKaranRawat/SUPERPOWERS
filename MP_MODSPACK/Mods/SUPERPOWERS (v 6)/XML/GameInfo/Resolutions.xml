@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/18/2014 8:52:36 PM -->
+<GameData>
+	<!-- ********************************Resoultion Buildings*************************************-->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_INTERNATIONAL_SPACE_STATION</Type>
+			<DefaultBuilding>BUILDING_INTERNATIONAL_SPACE_STATION</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_WORLD_TRADE_ORGANIZATION</Type>
+			<DefaultBuilding>BUILDING_WORLD_TRADE_ORGANIZATION_TRADEROUTE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION</Description>
+		</Row>
+	</BuildingClasses>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_INTERNATIONAL_SPACE_STATION</Type>
+			<BuildingClass>BUILDINGCLASS_INTERNATIONAL_SPACE_STATION</BuildingClass>
+			<Cost>-1</Cost>
+			<UnlockedByLeague>true</UnlockedByLeague>
+			<Description>TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION</Description>
+			<Quote>TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION_QUOTE</Quote>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_INTERNATIONAL_SPACE_STATION_TEXT</Civilopedia>
+			<Help>TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_INTERNATIONAL_SPACE_STATION</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<GreatScientistBeakerModifier>33</GreatScientistBeakerModifier>
+			<FreeBuildingThisCity>BUILDINGCLASS_SPACESHIP_FACTORY</FreeBuildingThisCity>
+			<GlobalSpaceProductionModifier>100</GlobalSpaceProductionModifier>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<DisplayPosition>2</DisplayPosition>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>EXPANSION2_WONDER_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<WonderSplashImage>WonderConceptSpaceStation.dds</WonderSplashImage>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_INTERNATIONAL_SPACE_STATION</WonderSplashAudio>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_WORLD_TRADE_ORGANIZATION_TRADEROUTE</Type>
+			<BuildingClass>BUILDINGCLASS_WORLD_TRADE_ORGANIZATION</BuildingClass>
+			<Cost>-1</Cost>
+			<UnlockedByLeague>true</UnlockedByLeague>
+			<Description>TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</Description>
+			<Civilopedia>TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</Civilopedia>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_1_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>EXPANSION2_WONDER_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+		<Row>
+			<Type>BUILDING_WORLD_TRADE_ORGANIZATION_ADDING_VOTES</Type>
+			<BuildingClass>BUILDINGCLASS_WORLD_TRADE_ORGANIZATION</BuildingClass>
+			<Cost>-1</Cost>
+			<UnlockedByLeague>true</UnlockedByLeague>
+			<Description>TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</Description>
+			<Civilopedia>TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</Civilopedia>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_3_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>EXPANSION2_WONDER_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<ExtraLeagueVotes>5</ExtraLeagueVotes>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+	</Buildings>
+
+
+	<!-- ********************************Resoultion Tweaks*************************************-->
+	<LeagueSpecialSessions>
+		<Update>
+			<Set TurnsBetweenSessions="20" />
+			<Where Type="LEAGUE_SPECIAL_SESSION_START_WORLD_CONGRESS"/>
+		</Update>
+		<Update>
+			<Set TurnsBetweenSessions="15" />
+			<Where Type="LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES"/>
+		</Update>
+		<Update>
+			<Set TurnsBetweenSessions="10" CivDelegates="2" HostDelegates="1"/>
+			<Where Type="LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL"/>
+		</Update>
+		<Update>
+			<Set TurnsBetweenSessions="10" CivDelegates="3" CityStateDelegates="2" HostDelegates="1"/>
+			<Where Type="LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS"/>
+		</Update>
+		
+	</LeagueSpecialSessions>
+
+	<LeagueProjects>
+
+		<Row>
+			<Type>LEAGUE_PROJECT_FW_GENOME_PROJECT</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_FW_GENOME_PROJECT</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_FW_GENOME_PROJECT_SPLASH</Help>
+			<ProjectSplashImage>GenomeProject_Splash.dds</ProjectSplashImage>
+			<Process>PROCESS_FW_GENOME_PROJECT</Process>
+			<CostPerPlayer>3850</CostPerPlayer>
+			<RewardTier1>LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_1</RewardTier1>
+			<RewardTier2>LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_2</RewardTier2>
+			<RewardTier3>LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_3</RewardTier3>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_FW_ASTEROID_MINING</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_FW_ASTEROID_MINING</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_FW_ASTEROID_MINING_SPLASH</Help>
+			<ProjectSplashImage>AsteroidMining_Splash.dds</ProjectSplashImage>
+			<Process>PROCESS_FW_ASTEROID_MINING</Process>
+			<CostPerPlayer>4000</CostPerPlayer>
+			<RewardTier1>LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_1</RewardTier1>
+			<RewardTier2>LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_2</RewardTier2>
+			<RewardTier3>LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_3</RewardTier3>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+		</Row>
+
+		<Update>
+			<Set CostPerPlayer="3000"/>
+			<Where Type="LEAGUE_PROJECT_INTERNATIONAL_SPACE_STATION"/>
+		</Update>
+		<Update>
+			<Set CostPerPlayer="1200" />
+			<Where Type="LEAGUE_PROJECT_WORLD_FAIR"/>
+		</Update>
+		<Update>
+			<Set CostPerPlayer="1800"/>
+			<Where Type="LEAGUE_PROJECT_WORLD_GAMES"/>
+		</Update>
+
+		<Row>			
+			<Type>LEAGUE_PROJECT_CURE_FOR_CANCER</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_CURE_FOR_CANCER</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_CURE_FOR_CANCER_SPLASH</Help>
+			<ProjectSplashImage>CureForCancerProject_939x614.dds</ProjectSplashImage>			
+			<Process>PROCESS_CURE_FOR_CANCER</Process>
+			<CostPerPlayer>3250</CostPerPlayer>
+			<RewardTier1>LEAGUE_PROJECT_REWARD_CFC_1</RewardTier1>
+			<RewardTier2>LEAGUE_PROJECT_REWARD_CFC_2</RewardTier2>
+			<RewardTier3>LEAGUE_PROJECT_REWARD_CFC_3</RewardTier3>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+		</Row>
+		
+	</LeagueProjects>
+
+	<LeagueProjectRewards>
+
+		<Row>			
+			<Type>LEAGUE_PROJECT_REWARD_CFC_1</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_CFC_1</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_CFC_1_HELP</Help>
+			<BaseBeakersTurnsToCount>4</BaseBeakersTurnsToCount>
+			<GoldenAgePoints>250</GoldenAgePoints>			
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_CFC_2</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_CFC_2</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_CFC_2_HELP</Help>
+			<BaseBeakersTurnsToCount>8</BaseBeakersTurnsToCount>
+			<GoldenAgePoints>500</GoldenAgePoints>
+			<FreeUnitClass>UNITCLASS_SCIENTIST</FreeUnitClass>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_CFC_3</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_CFC_3</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_CFC_3_HELP</Help>
+			<Building>BUILDING_CURE_FOR_CANCER</Building>
+		</Row>
+
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_1</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_1</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_1_HELP</Help>
+			<Building>BUILDING_FW_GENOME_PROJECT_1</Building>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_2</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_2</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_2_HELP</Help>
+			<Building>BUILDING_FW_GENOME_PROJECT_2</Building>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_3</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_3</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_3_HELP</Help>
+			<Building>BUILDING_FW_GENOME_PROJECT</Building>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_1</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_1</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_1_HELP</Help>
+			<Building>BUILDING_FW_ASTEROID_MINING_1</Building>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_2</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_2</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_2_HELP</Help>
+			<Building>BUILDING_FW_ASTEROID_MINING_2</Building>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_3</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_3</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_3_HELP</Help>
+			<Building>BUILDING_FW_ASTEROID_MINING</Building>
+		</Row>
+
+		<Update>
+			<Set Happiness="10" />
+			<Where Type="LEAGUE_PROJECT_REWARD_WORLD_GAMES_1"/>
+		</Update>
+		<Update>
+			<Set FreeSocialPolicies="0" CityStateInfluenceBoost="45"/>
+			<Where Type="LEAGUE_PROJECT_REWARD_WORLD_GAMES_2"/>
+		</Update>
+		<Update>
+			<Set FreeSocialPolicies="0" TourismBonusTurns="12"/>
+			<Where Type="LEAGUE_PROJECT_REWARD_WORLD_GAMES_3"/>
+		</Update>
+		<Update>
+			<Set FreeSocialPolicies="0" CultureBonusTurns="12"/>
+			<Where Type="LEAGUE_PROJECT_REWARD_WORLD_FAIR_3"/>
+		</Update>
+	</LeagueProjectRewards>
+
+	<Resolutions>
+
+		<Row>
+			<Type>RESOLUTION_CURE_FOR_CANCER</Type>
+			<Description>TXT_KEY_RESOLUTION_CURE_FOR_CANCER</Description>
+			<Help>TXT_KEY_RESOLUTION_CURE_FOR_CANCER_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<TechPrereqAnyMember>TECH_TRANSHUMANISM</TechPrereqAnyMember>
+			<LeagueProjectEnabled>LEAGUE_PROJECT_CURE_FOR_CANCER</LeagueProjectEnabled>
+		</Row>
+
+		<Row>
+			<Type>RESOLUTION_FW_GENOME_PROJECT</Type>
+			<Description>TXT_KEY_RESOLUTION_FW_GENOME_PROJECT</Description>
+			<Help>TXT_KEY_RESOLUTION_FW_GENOME_PROJECT_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<TechPrereqAnyMember>TECH_GEN_MANIP</TechPrereqAnyMember>
+			<LeagueProjectEnabled>LEAGUE_PROJECT_FW_GENOME_PROJECT</LeagueProjectEnabled>
+		</Row>
+		
+		<Row>
+			<Type>RESOLUTION_FW_ASTEROID_MINING</Type>
+			<Description>TXT_KEY_RESOLUTION_FW_ASTEROID_MINING</Description>
+			<Help>TXT_KEY_RESOLUTION_FW_ASTEROID_MINING_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<TechPrereqAnyMember>TECH_ORBITAL_DEV</TechPrereqAnyMember>
+			<LeagueProjectEnabled>LEAGUE_PROJECT_FW_ASTEROID_MINING</LeagueProjectEnabled>
+		</Row>
+
+		<Update>
+			<Set TechPrereqAnyMember="TECH_URBANLIZATION"/>
+			<Where Type="RESOLUTION_WORLD_FAIR"/>
+		</Update>
+		<Update>
+			<Set TechPrereqAnyMember="TECH_MASS_MEDIA"/>
+			<Where Type="RESOLUTION_WORLD_GAMES"/>
+		</Update>
+		
+		<Update>
+			<Set LeadersVoteBonusOnFail="1"/>
+			<Where Type="RESOLUTION_DIPLOMATIC_VICTORY"/>
+		</Update>
+		<Update>
+			<Set VotesForFollowingIdeology="1"/>
+			<Where Type="RESOLUTION_WORLD_IDEOLOGY"/>
+		</Update>
+		<Update>
+			<Set OtherIdeologyRebellionMod="1"/>
+			<Where Type="RESOLUTION_WORLD_IDEOLOGY"/>
+		</Update>	
+		<Update>
+			<Set VotesForFollowingReligion="1"/>
+			<Where Type="RESOLUTION_WORLD_RELIGION"/>
+		</Update>
+		<Update>
+			<Set TechPrereqAnyMember="TECH_NUCLEAR_FISSION"/>
+			<Where Type="RESOLUTION_NUCLEAR_NON_PROLIFERATION"/>
+		</Update>
+
+		<Update>
+			<Set HolyCityTourism="100" ReligionSpreadStrengthMod="50" />
+			<Where Type="RESOLUTION_WORLD_RELIGION"/>
+		</Update>
+
+		<Update>
+			<Set UnitMaintenanceGoldPercent="40" />
+			<Where Type="RESOLUTION_STANDING_ARMY_TAX"/>
+		</Update>
+
+		<Update>
+			<Set MemberDiscoveredTechMod="35" />
+			<Where Type="RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT"/>
+		</Update>
+
+		<Update>
+			<Set CulturePerWonder="4" />
+			<Where Type="RESOLUTION_CULTURAL_HERITAGE_SITES"/>
+		</Update>
+
+		<Update>
+			<Set CulturePerNaturalWonder="8" />
+			<Where Type="RESOLUTION_NATURAL_HERITAGE_SITES"/>
+		</Update>
+
+		
+		
+	</Resolutions>
+
+
+
+
+
+
+	<!-- *********************************New Resoultions********************************************-->
+	<Resolutions>
+		<Row>
+			<Type>RESOLUTION_HOST_IMPEACHMENT</Type>
+			<Description>TXT_KEY_RESOLUTION_HOST_IMPEACHMENT</Description>
+			<Help>TXT_KEY_RESOLUTION_HOST_IMPEACHMENT_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<ChangeLeagueHost>true</ChangeLeagueHost>
+			<TechPrereqAnyMember>TECH_GLOBALIZATION</TechPrereqAnyMember>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_WORLD_TRADE_ORGANIZATION</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</Description>
+			<Help>TXT_KEY_RESOLUTION_WORLD_TRADE_ORGANIZATION_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<LeagueProjectEnabled>LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</LeagueProjectEnabled>
+		</Row>
+
+
+	</Resolutions>
+
+	
+	<LeagueProjects>
+		<Row>
+			<Type>LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION_SPLASH</Help>
+			<ProjectSplashImage>International_WorldsFair_939x614.dds</ProjectSplashImage>
+			<Process>PROCESS_WORLD_TRADE_ORGANIZATION</Process>
+			<CostPerPlayer>700</CostPerPlayer>
+			<RewardTier1>LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_1</RewardTier1>
+			<RewardTier2>LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_2</RewardTier2>
+			<RewardTier3>LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_3</RewardTier3>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+		</Row>
+	</LeagueProjects>
+	
+	
+	<LeagueProjectRewards>
+	<Row>
+		<Type>LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_1</Type>
+		<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_1</Description>
+		<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_1_HELP</Help>
+		<Building>BUILDING_WORLD_TRADE_ORGANIZATION_TRADEROUTE</Building>
+	</Row>
+	<Row>
+		<Type>LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_2</Type>
+		<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_2</Description>
+		<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_2_HELP</Help>
+		<FreeUnitClass>UNITCLASS_MERCHANT</FreeUnitClass>
+	</Row>
+	<Row>
+		<Type>LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_3</Type>
+		<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_3</Description>
+		<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_3_HELP</Help>
+		<Building>BUILDING_WORLD_TRADE_ORGANIZATION_ADDING_VOTES</Building>
+	</Row>
+	</LeagueProjectRewards>
+
+
+
+	<Processes>
+
+		<Row>
+			<Type>PROCESS_FW_GENOME_PROJECT</Type>
+			<Description>TXT_KEY_PROCESS_FW_GENOME_PROJECT</Description>
+			<Help>TXT_KEY_PROCESS_FW_GENOME_PROJECT_HELP</Help>
+			<Strategy>TXT_KEY_PROCESS_FW_GENOME_PROJECT_HELP</Strategy>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>PROCESS_FW_ASTEROID_MINING</Type>
+			<Description>TXT_KEY_PROCESS_FW_ASTEROID_MINING</Description>
+			<Help>TXT_KEY_PROCESS_FW_ASTEROID_MINING_HELP</Help>
+			<Strategy>TXT_KEY_PROCESS_FW_ASTEROID_MINING_HELP</Strategy>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>PROCESS_WORLD_TRADE_ORGANIZATION</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION</Description>
+			<Help>TXT_KEY_RESOLUTION_WORLD_TRADE_ORGANIZATION_HELP</Help>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+
+		<Row>
+			<Type>PROCESS_CURE_FOR_CANCER</Type>
+			<Description>TXT_KEY_PROCESS_CURE_FOR_CANCER</Description>
+			<Help>TXT_KEY_PROCESS_CURE_FOR_CANCER_HELP</Help>
+			<Strategy>TXT_KEY_PROCESS_CURE_FOR_CANCER_HELP</Strategy>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>	
+
+	</Processes>
+
+	<Process_Flavors>
+
+		<Row>
+			<ProcessType>PROCESS_FW_GENOME_PROJECT</ProcessType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_FW_GENOME_PROJECT</ProcessType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_FW_GENOME_PROJECT</ProcessType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_FW_ASTEROID_MINING</ProcessType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_FW_ASTEROID_MINING</ProcessType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_FW_ASTEROID_MINING</ProcessType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+
+		<Row>
+			<ProcessType>PROCESS_WORLD_TRADE_ORGANIZATION</ProcessType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>150</Flavor>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_WORLD_TRADE_ORGANIZATION</ProcessType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>150</Flavor>
+		</Row>
+
+		<Row>
+			<ProcessType>PROCESS_CURE_FOR_CANCER</ProcessType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_CURE_FOR_CANCER</ProcessType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_CURE_FOR_CANCER</ProcessType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_CURE_FOR_CANCER</ProcessType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_CURE_FOR_CANCER</ProcessType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_CURE_FOR_CANCER</ProcessType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+
+	</Process_Flavors>
+			<!-- *******************************New Resoultions Texts********************************************-->
+
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_PROCESS_FW_GENOME_PROJECT">
+			<Text>Human Genome Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_FW_GENOME_PROJECT_HELP">
+			<Text>Contribute this city's [ICON_PRODUCTION] Production towards the Human Genome project.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_FW_ASTEROID_MINING">
+			<Text>Asteroid Mining Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_FW_ASTEROID_MINING_HELP">
+			<Text>Contribute this city's [ICON_PRODUCTION] Production towards the Asteroid Mining project.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_FW_GENOME_PROJECT">
+			<Text>Human Genome Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_FW_GENOME_PROJECT_SPLASH">
+			<Text>The Human Genome Project is an effort to map out the human genome, in an effort to better understand human genetics.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_1">
+			<Text>Research Exchange</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_1_HELP">
+			<Text>Research Labs gain +2 [ICON_RESEARCH] Science. Medical Labs gain +2 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_2">
+			<Text>Genetic Treatments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_2_HELP">
+			<Text>All cities gain +1 [ICON_CITIZEN] Citizen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_3">
+			<Text>Applied Genomics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_3_HELP">
+			<Text>Human Genome Project wonder appears in [ICON_CAPITAL] Capital. ({TXT_KEY_WONDER_FW_GENOME_PROJECT_HELP})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_FW_GENOME_PROJECT">
+			<Text>Human Genome Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_FW_GENOME_PROJECT_HELP">
+			<Text>Begins the project to fund the Human Genome Project. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list. When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_FW_GENOME_PROJECT_1_HELP}[NEWLINE][NEWLINE]Available once any Civilization discovers Genetic Manipulation.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_FW_ASTEROID_MINING">
+			<Text>International Asteroid Mining Conference</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_FW_ASTEROID_MINING_SPLASH">
+			<Text>The International Asteroid Mining Conference was convened in an effort to establish an international agreement on how the extensive mineral resources of the solar system, particularly within the asteroid belt, would be exploited, distributed, or protected.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_1">
+			<Text>M-Type Asteroids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_1_HELP">
+			<Text>Gain 6 [ICON_RES_ALUMINUM] Aluminum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_2">
+			<Text>S-Type Asteroids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_2_HELP">
+			<Text>Gain 6 [ICON_RES_NANOMAT] Nanomaterials.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_3">
+			<Text>C-Type Asteroids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_3_HELP">
+			<Text>Ceres Station wonder appears in [ICON_CAPITAL] Capital. ({TXT_KEY_WONDER_FW_ASTEROID_MINING_HELP})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_FW_ASTEROID_MINING">
+			<Text>International Asteroid Mining Conference</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_FW_ASTEROID_MINING_HELP">
+			<Text>Begins the project to fund the International Asteroid Mining Conference. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list. When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_FW_ASTEROID_MINING_1_HELP}[NEWLINE][NEWLINE]Available once any Civilization discovers Orbital Development.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_RESOLUTION_HOST_IMPEACHMENT">
+			<Text>League Host Change</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_HOST_IMPEACHMENT_HELP">
+			<Text>Vote to change the League Host. If passed, the next League Host will be the Civilization who has the most delegates.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION">
+			<Text>World Trade Organization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_TRADE_ORGANIZATION_SPLASH">
+			<Text>Countries are connected through trade. With the development of the international trades, an organization is founded deals with the global rules of trade between nations. Trade between nations will boost global economy development and keep the world in peace.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_1">
+			<Text>Observer Member State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_1_HELP">
+			<Text>Gain an additional Trade Route slot.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_2">
+			<Text>Member State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_2_HELP">
+			<Text>One Great Merchant appears.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_3">
+			<Text>Host State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_3_HELP">
+			<Text>+5 additional Delegates in World Congress and United Nations.</Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_RESOLUTION_WORLD_TRADE_ORGANIZATION_HELP">
+			<Text>
+				Begins the World trade Organization project.  Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list.  When complete, Civilizations receive bonuses based on how much they contributed.
+				[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_3_HELP}
+				[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_2_HELP}
+				[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_TRADE_ORGANIZATION_1_HELP}
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROCESS_CURE_FOR_CANCER">
+			<Text>Cure for Cancer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_CURE_FOR_CANCER_HELP">
+			<Text>Contribute this city's [ICON_PRODUCTION] Production towards the Cure for Cancer project.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_CURE_FOR_CANCER">
+			<Text>Cure for Cancer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_CURE_FOR_CANCER_SPLASH">
+			<Text>The Cure for Cancer has been found and is being made available free to all citizens of the world regardless of race, religion, or economic means.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_CFC_1">
+			<Text>Novel Idea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_CFC_1_HELP">
+			<Text>Small one time Research boost. 250 points towards next [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_CFC_2">
+			<Text>Key Insight</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_CFC_2_HELP">
+			<Text>Large one time Research boost. 500 points towards next [ICON_GOLDEN_AGE] Golden Age. Free Great Scientist.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_CFC_3">
+			<Text>Eureka!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_CFC_3_HELP">
+			<Text>Cure for Cancer wonder appears in [ICON_CAPITAL] Capital. ({TXT_KEY_BUILDING_CURE_FOR_CANCER_HELP})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_CURE_FOR_CANCER">
+			<Text>Cure for Cancer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOLUTION_CURE_FOR_CANCER_HELP">
+			<Text>Begins the project to discover the Cure for Cancer. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list. When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_CFC_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_CFC_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_CFC_1_HELP}[NEWLINE][NEWLINE]Available once any Civilization discovers Genetic Engineering.</Text>
+		</Row>
+		
+		<Replace Tag="TXT_KEY_RESOLUTION_STANDING_ARMY_TAX_HELP">
+			<Text>Unit maintenance costs are raised by 40% [ICON_GOLD] Gold.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_RESOLUTION_CULTURAL_HERITAGE_SITES_HELP">
+			<Text>Each World Wonder provides +4 [ICON_CULTURE] Culture to its city.</Text>
+		</Row>
+
+		<Replace Tag="TXT_KEY_RESOLUTION_NATURAL_HERITAGE_SITES_HELP">
+			<Text>Each Natural Wonder provides +8 [ICON_CULTURE] Culture when worked.</Text>
+		</Row>
+
+		<Replace Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP">
+			<Text>Civilizations research a technology 35% more quickly if it has been discovered by at least one other Civilization.</Text>
+		</Row>
+
+		<Replace Tag="TXT_KEY_RESOLUTION_WORLD_RELIGION_HELP">
+			<Text>Designate a religion as the official World Religion.  Civilizations who have a majority of the cities in their empire following the religion get an additional 2 Delegates.  The religion spreads 50% faster, and its Holy City receives +100% [ICON_TOURISM] Tourism.  There can only be one World Religion at a time.</Text>
+		</Row>
+		
+		
+	</Language_en_US>
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+  
+</GameData>

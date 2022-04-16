@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/29/2013 8:37:33 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>JUSTGOV_ATLAS_1</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>JustGovBuilding256(2).dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>JUSTGOV_ATLAS_1</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>JustGovBuilding128(2).dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>JUSTGOV_ATLAS_1</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>JustGovBuilding64(2).dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>JUSTGOV_ATLAS_1</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>JustGovBuilding45(2).dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

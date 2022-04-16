@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/14/2014 2:15:53 PM -->
+<GameData>
+	<Leaders>
+		<Update>
+			<Set VictoryCompetitiveness="12" WonderCompetitiveness="1" Boldness="5" DiploBalance="9" WarmongerHate="1" DenounceWillingness="1" DoFWillingness="4" Loyalty="2" Forgiveness="8" Meanness="7"/>
+			<Where Type="LEADER_WU_ZETIAN"/>
+		</Update>
+		<Update>
+			<Set VictoryCompetitiveness="12" WonderCompetitiveness="2" Boldness="8" DiploBalance="10" WarmongerHate="1" DenounceWillingness="2" DoFWillingness="6" Loyalty="6" Forgiveness="9" Meanness="2"/>
+			<Where Type="LEADER_WASHINGTON"/>
+		</Update>
+		<Update>
+			<Set VictoryCompetitiveness="12" WonderCompetitiveness="4" Boldness="9" DiploBalance="6" WarmongerHate="1" DenounceWillingness="6" DoFWillingness="7" Loyalty="3" Forgiveness="7" Meanness="5"/>
+			<Where Type="LEADER_CATHERINE"/>
+		</Update>
+		<Update>
+			<Set VictoryCompetitiveness="12" WonderCompetitiveness="4" Boldness="12" DiploBalance="5" WarmongerHate="0" DenounceWillingness="2" DoFWillingness="7" Loyalty="7" Forgiveness="8" Meanness="1"/>
+			<Where Type="LEADER_NAPOLEON"/>
+		</Update>
+		<Update>
+			<Set VictoryCompetitiveness="12" WonderCompetitiveness="3" Boldness="3" DiploBalance="11" WarmongerHate="8" DenounceWillingness="8" DoFWillingness="5" Loyalty="5" Forgiveness="5" Meanness="4"/>
+			<Where Type="LEADER_ELIZABETH"/>
+		</Update>
+		<Update>
+			<Set VictoryCompetitiveness="8" WonderCompetitiveness="5" Boldness="0" DiploBalance="11" WarmongerHate="12" DenounceWillingness="2" DoFWillingness="12" Loyalty="10" Forgiveness="10" Meanness="0"/>
+			<Where Type="LEADER_GANDHI"/>
+		</Update>
+		<Update>
+			<Set VictoryCompetitiveness="12" WonderCompetitiveness="6" Boldness="9" DiploBalance="6" WarmongerHate="0" DenounceWillingness="2" DoFWillingness="7" Loyalty="1" Forgiveness="8" Meanness="6"/>
+			<Where Type="LEADER_ODA_NOBUNAGA"/>
+		</Update>
+		<Update>
+			<Set VictoryCompetitiveness="4" WonderCompetitiveness="4" Boldness="0" DiploBalance="12" WarmongerHate="9" DenounceWillingness="4" DoFWillingness="9" Loyalty="10" Forgiveness="8" Meanness="3"/>
+			<Where Type="LEADER_RAMKHAMHAENG"/>
+		</Update>
+		<Update>
+			<Set VictoryCompetitiveness="12" WonderCompetitiveness="0" Boldness="12" DiploBalance="2" WarmongerHate="0" DenounceWillingness="6" DoFWillingness="10" Loyalty="12" Forgiveness="0" Meanness="0"/>
+			<Where Type="LEADER_GENGHIS_KHAN"/>
+		</Update>
+		<Update>
+			<Set VictoryCompetitiveness="12" WonderCompetitiveness="0" Boldness="12" DiploBalance="1" WarmongerHate="0" DenounceWillingness="8" DoFWillingness="0" Loyalty="0" Forgiveness="5" Meanness="10"/>
+			<Where Type="LEADER_ATTILA"/>
+		</Update>
+		<Update>
+			<Set VictoryCompetitiveness="8" WonderCompetitiveness="6" Boldness="2" DiploBalance="1" WarmongerHate="8" DenounceWillingness="2" DoFWillingness="9" Loyalty="10" Forgiveness="2" Meanness="1"/>
+			<Where Type="LEADER_ISABELLA"/>
+		</Update>
+		<Update>
+			<Set VictoryCompetitiveness="12" WonderCompetitiveness="0" Boldness="12" DiploBalance="6" WarmongerHate="8" DenounceWillingness="8" DoFWillingness="4" Loyalty="8" Forgiveness="2" Meanness="3"/>
+			<Where Type="LEADER_SHAKA"/>
+		</Update>
+	</Leaders>
+
+
+	<Leader_MajorCivApproachBiases>
+		<Update>
+			<Set Bias="9"/>
+			<Where LeaderType="LEADER_WU_ZETIAN" MajorCivApproachType="MAJOR_CIV_APPROACH_DECEPTIVE"/>
+		</Update>
+		<Update>
+			<Set Bias="6"/>
+			<Where LeaderType="LEADER_WU_ZETIAN" MajorCivApproachType="MAJOR_CIV_APPROACH_WAR"/>
+		</Update>
+		<Update>
+			<Set Bias="9"/>
+			<Where LeaderType="LEADER_WASHINGTON" MajorCivApproachType="MAJOR_CIV_APPROACH_NEUTRAL"/>
+		</Update>
+		<Update>
+			<Set Bias="0"/>
+			<Where LeaderType="LEADER_GANDHI" MajorCivApproachType="MAJOR_CIV_APPROACH_WAR"/>
+		</Update>
+		<Update>
+			<Set Bias="0"/>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" MajorCivApproachType="MAJOR_CIV_APPROACH_WAR"/>
+		</Update>
+		<Update>
+			<Set Bias="9"/>
+			<Where LeaderType="LEADER_GENGHIS_KHAN" MajorCivApproachType="MAJOR_CIV_APPROACH_WAR"/>
+		</Update>
+		<Update>
+			<Set Bias="12"/>
+			<Where LeaderType="LEADER_ATTILA" MajorCivApproachType="MAJOR_CIV_APPROACH_WAR"/>
+		</Update>
+		<Update>
+			<Set Bias="12"/>
+			<Where LeaderType="LEADER_SHAKA" MajorCivApproachType="MAJOR_CIV_APPROACH_WAR"/>
+		</Update>
+		
+	</Leader_MajorCivApproachBiases>
+
+	<Leader_Flavors>
+		<Update>
+			<Set Flavor="11"/>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_EXPANSION"/>
+		</Update>
+		<Update>
+			<Set Flavor="6"/>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_OFFENSE"/>
+		</Update>
+		<Update>
+			<Set Flavor="9"/>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_DEFENSE"/>
+		</Update>
+		<Update>
+			<Set Flavor="9"/>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_CULTURE"/>
+		</Update>
+		<Update>
+			<Set Flavor="1"/>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_RELIGION"/>
+		</Update>
+		<Update>
+			<Set Flavor="8"/>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_DIPLOMACY"/>
+		</Update>
+		<Update>
+			<Set Flavor="8"/>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_NUKE"/>
+		</Update>
+		<Update>
+			<Set Flavor="8"/>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_AIR"/>
+		</Update>
+		<Update>
+			<Set Flavor="10"/>
+			<Where LeaderType="LEADER_WU_ZETIAN" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+		</Update>
+
+		<Update>
+			<Set Flavor="11"/>
+			<Where LeaderType="LEADER_WASHINGTON" FlavorType="FLAVOR_EXPANSION"/>
+		</Update>
+		<Update>
+			<Set Flavor="7"/>
+			<Where LeaderType="LEADER_WASHINGTON" FlavorType="FLAVOR_OFFENSE"/>
+		</Update>
+		<Update>
+			<Set Flavor="10"/>
+			<Where LeaderType="LEADER_WASHINGTON" FlavorType="FLAVOR_SCIENCE"/>
+		</Update>
+		<Update>
+			<Set Flavor="7"/>
+			<Where LeaderType="LEADER_WASHINGTON" FlavorType="FLAVOR_CULTURE"/>
+		</Update>
+		<Update>
+			<Set Flavor="12"/>
+			<Where LeaderType="LEADER_WASHINGTON" FlavorType="FLAVOR_AIR"/>
+		</Update>
+		<Update>
+			<Set Flavor="1"/>
+			<Where LeaderType="LEADER_WASHINGTON" FlavorType="FLAVOR_RELIGION"/>
+		</Update>
+		<Update>
+			<Set Flavor="10"/>
+			<Where LeaderType="LEADER_WASHINGTON" FlavorType="FLAVOR_ANTIAIR"/>
+		</Update>
+		<Update>
+			<Set Flavor="10"/>
+			<Where LeaderType="LEADER_WASHINGTON" FlavorType="FLAVOR_NUKE"/>
+		</Update>
+		<Update>
+			<Set Flavor="10"/>
+			<Where LeaderType="LEADER_WASHINGTON" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+		</Update>
+		<Update>
+			<Set Flavor="9"/>
+			<Where LeaderType="LEADER_WASHINGTON" FlavorType="FLAVOR_GREAT_PEOPLE"/>
+		</Update>
+
+		<Update>
+			<Set Flavor="12"/>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_EXPANSION"/>
+		</Update>
+		<Update>
+			<Set Flavor="2"/>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_RELIGION"/>
+		</Update>
+		<Update>
+			<Set Flavor="9"/>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_AIR"/>
+		</Update>
+		<Update>
+			<Set Flavor="9"/>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_MOBILE"/>
+		</Update>
+		<Update>
+			<Set Flavor="9"/>
+			<Where LeaderType="LEADER_CATHERINE" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+		</Update>
+
+		<Update>
+			<Set Flavor="12"/>
+			<Where LeaderType="LEADER_NAPOLEON" FlavorType="FLAVOR_EXPANSION"/>
+		</Update>
+		<Update>
+			<Set Flavor="10"/>
+			<Where LeaderType="LEADER_NAPOLEON" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+		</Update>
+		
+		<Update>
+			<Set Flavor="1"/>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+		</Update>
+		<Update>
+			<Set Flavor="0"/>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_EXPANSION"/>
+		</Update>
+		<Update>
+			<Set Flavor="12"/>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_FLAVOR_RELIGION"/>
+		</Update>
+		<Update>
+			<Set Flavor="12"/>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_WONDER"/>
+		</Update>
+		<Update>
+			<Set Flavor="3"/>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+		</Update>
+		<Update>
+			<Set Flavor="2"/>
+			<Where LeaderType="LEADER_RAMKHAMHAENG" FlavorType="FLAVOR_EXPANSION"/>
+		</Update>
+		<Update>
+			<Set Flavor="1"/>
+			<Where LeaderType="LEADER_PEDRO" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+		</Update>
+		<Update>
+			<Set Flavor="1"/>
+			<Where LeaderType="LEADER_POCATELLO" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+		</Update>
+		<Update>
+			<Set Flavor="9"/>
+			<Where LeaderType="LEADER_POCATELLO" FlavorType="FLAVOR_EXPANSION"/>
+		</Update>
+		<Update>
+			<Set Flavor="12"/>
+			<Where LeaderType="LEADER_RAMESSES" FlavorType="FLAVOR_WONDER"/>
+		</Update>
+
+		
+
+
+		<!-- 
+		<Update>
+			<Set Flavor="0"/>
+			<Where FlavorType="FLAVOR_GOLD"/>
+		</Update>
+		-->
+
+		<Update>
+			<Set Flavor="8"/>
+			<Where FlavorType="FLAVOR_NUKE"/>
+		</Update>
+
+		<Update>
+			<Set Flavor="2"/>
+			<Where FlavorType="FLAVOR_USE_NUKE"/>
+		</Update>
+
+		<Update>
+			<Set Flavor="12"/>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_NUKE"/>
+		</Update>
+
+		<Update>
+			<Set Flavor="12"/>
+			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_USE_NUKE"/>
+		</Update>
+		
+		
+	</Leader_Flavors>
+
+
+
+
+	<Leader_Flavors>
+		<Row>
+			<LeaderType>LEADER_POCATELLO</LeaderType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_POCATELLO</LeaderType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_POCATELLO</LeaderType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_POCATELLO</LeaderType>
+			<FlavorType>FLAVOR_USE_NUKE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Leader_Flavors>
+
+
+	<!-- CIV TRAITS OVERHAUL -->
+
+	
+	<Leader_Traits>
+
+		<Row>
+			<LeaderType>LEADER_AUGUSTUS</LeaderType>
+			<TraitType>TRAIT_SLAYER_OF_TIAMAT</TraitType>
+		</Row>	
+
+	</Leader_Traits>
+
+	<!--	LEADERS LIST
+
+		LEADER_AHMAD_ALMANSUR
+		LEADER_ALEXANDER
+		LEADER_ASHURBANIPAL
+		LEADER_ASKIA
+		LEADER_ATTILA
+		LEADER_AUGUSTUS
+		LEADER_BISMARCK
+		LEADER_BOUDICCA
+		LEADER_CASIMIR
+		LEADER_CATHERINE
+		LEADER_DARIUS
+		LEADER_DIDO
+		LEADER_ELIZABETH
+		LEADER_ENRICO_DANDOLO
+		LEADER_GAJAH_MADA
+		LEADER_GANDHI
+		LEADER_GENGHIS_KHAN
+		LEADER_GUSTAVUS_ADOLPHUS
+		LEADER_SELASSIE
+		LEADER_HARALD
+		LEADER_HARUN_AL_RASHID
+		LEADER_HIAWATHA
+		LEADER_ISABELLA
+		LEADER_KAMEHAMEHA
+		LEADER_MARIA_I
+		LEADER_MARIA
+		LEADER_MONTEZUMA
+		LEADER_NAPOLEON
+		LEADER_NEBUCHADNEZZAR
+		LEADER_ODA_NOBUNAGA
+		LEADER_PACAL
+		LEADER_PACHACUTI
+		LEADER_PEDRO
+		LEADER_POCATELLO
+		LEADER_RAMESSES
+		LEADER_RAMKHAMHAENG
+		LEADER_SEJONG
+		LEADER_SHAKA
+		LEADER_SULEIMAN
+		LEADER_THEODORA
+		LEADER_WASHINGTON
+		LEADER_WILLIAM
+		LEADER_WU_ZETIAN
+
+
+	-->
+	
+
+</GameData>

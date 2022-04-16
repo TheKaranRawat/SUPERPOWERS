@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/05/17 5:24:12 AM -->
+<GameData>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_EU_TURRETED_ELEPHANT</Type>
+			<Description>TXT_KEY_UNIT_SMAN_EU_TURRETED_ELEPHANT</Description>
+			<DefaultUnit>UNIT_SMAN_EU_TURRETED_ELEPHANT</DefaultUnit>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SMAN_EU_TURRETED_ELEPHANT</Class>
+			<Type>UNIT_SMAN_EU_TURRETED_ELEPHANT</Type>
+			<Combat>60</Combat>
+			<Cost>140</Cost>
+			
+			<Moves>3</Moves>
+			<BaseSightRange>2</BaseSightRange>
+			<PrereqTech>TECH_PHYSICS</PrereqTech>
+			<ObsoleteTech>TECH_MILITARY_SCIENCE</ObsoleteTech>
+			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_EU_TURRETED_ELEPHANT</Description>
+			<Help>TXT_KEY_UNIT_SMAN_EU_TURRETED_ELEPHANT_HELP</Help>
+			<Strategy>TXT_KEY_UNIT_SMAN_EU_TURRETED_ELEPHANT_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_EU_TURRETED_ELEPHANT_PEDIA</Civilopedia>
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			
+			
+			<AdvancedStartCost>100</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_EU_TURRETED_ELEPHANT</UnitArtInfo>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>7</UnitFlagIconOffset>
+			<MoveRate>PHANT</MoveRate>
+			<ExtraMaintenanceCost>140</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<!--
+	
+	
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TURRETED_ELEPHANT</UnitType>
+			<ResourceType>RESOURCE_SMAN_EU_ELEPHANTS</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	-->
+
+	<Unit_BuildingClassRequireds>
+		
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TURRETED_ELEPHANT</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_MERC_GUILD</BuildingClassType>
+		</Row>
+		
+	</Unit_BuildingClassRequireds>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TURRETED_ELEPHANT</UnitType>
+			<PromotionType>PROMOTION_SMAN_PERILOUS_PACHYDERM_4_PROMOTION</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TURRETED_ELEPHANT</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TURRETED_ELEPHANT</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TURRETED_ELEPHANT</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>14</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TURRETED_ELEPHANT</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>19</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TURRETED_ELEPHANT</UnitType>
+			<UnitClassType>UNITCLASS_CAVALRY</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_TURRETED_ELEPHANT</UnitType>
+			<SelectionSound>AS2D_SELECT_SIAMESE_WAR_ELEPHANT</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SIAMESE_WAR_ELEPHANT</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_EU_TURRETED_ELEPHANT">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Howdah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_EU_TURRETED_ELEPHANT_HELP">
+			<Text>Powerful Medieval Era melee Unit, weak to Pikemen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_EU_TURRETED_ELEPHANT_STRATEGY">
+			<Text>Howdah Elephant Strategy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_EU_TURRETED_ELEPHANT_PEDIA">
+			<Text>
+				The Howdah, or Turreted Elephant, is a Medieval Era ranged unit, available at the discovery of Physics. It becomes obsolete at the discovery of Military Science, at which time it may upgrade to the Cavalry unit.[NEWLINE][NEWLINE]One of the most interesting and unusual uses of domesticated animals in history was the use of war elephants, which probably first began around 4,000 BCE in the Indus River Valley. Later, the largest land mammals in the animal kingdom were used in many battles including against Alexander the Great's forces, by Hannibal's Carthaginian army against the Romans and by the Sultans of India when fighting the Mongols. Working with animals on the battlefield had both advantages and disadvantages and this was particularly true of the war elephant, whose use down the ages has had varying degrees of success.
+			</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

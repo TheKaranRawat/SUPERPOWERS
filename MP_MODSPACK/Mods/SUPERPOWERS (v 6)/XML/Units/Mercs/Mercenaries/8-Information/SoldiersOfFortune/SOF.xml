@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/08/17 7:00:36 AM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_SOF</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_SOF</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_SOF</DefaultUnit>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_SOF</Class>
+			<Type>UNIT_EXOTIC_UNIT_SOF</Type>
+			<Combat>120</Combat>
+			<Moves>3</Moves>
+			<Cost>2000</Cost>
+			<!--<FaithCost>750</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<!--<ObsoleteTech>TECH_MOBILE_TACTICS</ObsoleteTech>-->
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_PARADROP</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_SOF</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_SOF_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_SOF_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_SOF_HELP</Help>
+
+			
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			
+			<Pillage>true</Pillage>
+
+			<AdvancedStartCost>200</AdvancedStartCost>
+			
+			<MinAreaSize>-1</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SOF</UnitArtInfo>
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>49</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>41</UnitFlagIconOffset>
+			<MoveRate>BIPED</MoveRate>
+			<ExtraMaintenanceCost>360</ExtraMaintenanceCost>
+		</Row>
+	</Units>
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SOF</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_MERC_CONSULATE</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SOF</UnitType>
+			<UnitAIType>UNITAI_PARADROP</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SOF</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SOF</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SOF</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SOF</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SOF</UnitType>
+			<PromotionType>PROMOTION_PARADROP_II</PromotionType>
+		</Row>
+		
+	</Unit_FreePromotions>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SOF</UnitType>
+			<SelectionSound>AS2D_SELECT_PARATROOPER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_PARATROOPER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_SOF">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Soldiers of Fortune</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_SOF_HELP">
+			<Text>Atomic Era Mercenary paramobile unit. Price shown is how much it costs to hire this unit for 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_SOF_STRATEGY">
+			<Text>
+				Use the Private Military Contractors to reach out to your enemies and rain down death from the skies.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_SOF_PEDIA">
+			<Text>
+				Soldiers of Fortune are an Atomic Era Mercenary paramobile unit, available upon the discovery of Radar. The Contracting Agency is required for this unit to be built. Soldiers of Fortune do not become obsolete.[NEWLINE][NEWLINE]
+				A Soldier of Fortune, or SOF, is the modern terminology for a mercenary, and is a person who takes part in an armed conflict who is completely funded by the government and is 'motivated to take part in the hostilities by desire for private gain.' SOFs fight for money or other recompense rather than for political interests. In the 20th century, and as reflected in the Geneva Convention, SOFs have increasingly come to be seen as less entitled to protections by rules of war than non-mercenaries. However, whether or not a person is a mercenary may be a matter of degree, as financial and political interests may overlap.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

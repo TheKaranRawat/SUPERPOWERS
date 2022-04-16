@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/07/17 1:35:50 PM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_EXOTIC_UNIT_BARQUE</Type>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_BARQUE</Description>
+			<DefaultUnit>UNIT_EXOTIC_UNIT_BARQUE</DefaultUnit>
+			<MaxPlayerInstances>4</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Units>
+		
+		<!--
+		
+		
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_BARQUE</Class>
+			<Type>UNIT_EXOTIC_UNIT_BARQUE</Type>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<ObsoleteTech>TECH_COMPASS</ObsoleteTech>
+			<Combat>7</Combat>
+			<Moves>3</Moves>
+			<Cost>40</Cost>			
+			
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_BARQUE</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_BARQUE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_BARQUE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_BARQUE_HELP</Help>
+
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<NoMaintenance>true</NoMaintenance>
+			<Pillage>true</Pillage>
+			
+			<Mechanized>true</Mechanized>			
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_EXOTIC_UNIT_BARQUE</UnitArtInfo>			
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>25</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>17</UnitFlagIconOffset>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+		</Row>
+		-->
+		
+		<Row>
+			<Class>UNITCLASS_EXOTIC_UNIT_BARQUE</Class>
+			<Type>UNIT_EXOTIC_UNIT_BARQUE</Type>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<ObsoleteTech>TECH_COMPASS</ObsoleteTech>
+			<Combat>55</Combat>
+			<Moves>5</Moves>
+			<Cost>70</Cost>			
+			<!--<FaithCost>120</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_BARQUE</Description>
+			<Civilopedia>TXT_KEY_UNIT_EXOTIC_UNIT_BARQUE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_EXOTIC_UNIT_BARQUE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_EXOTIC_UNIT_BARQUE_HELP</Help>
+
+			
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			
+			<Mechanized>true</Mechanized>			
+			<AdvancedStartCost>100</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_EXOTIC_UNIT_BARQUE</UnitArtInfo>			
+			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>25</PortraitIndex>
+			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>17</UnitFlagIconOffset>
+			<MoveRate>WOODEN_BOAT</MoveRate>
+			<ExtraMaintenanceCost>36</ExtraMaintenanceCost>
+		</Row>
+		
+	</Units>
+
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BARQUE</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_HEPTASTADION</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BARQUE</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BARQUE</UnitType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BARQUE</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BARQUE</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BARQUE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BARQUE</UnitType>
+			<UnitAIType>UNITAI_PIRATE_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BARQUE</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BARQUE</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BARQUE</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BARQUE</UnitType>
+			<SelectionSound>AS2D_SELECT_TRIREME</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TRIREME</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_BARQUE">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Barque</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_BARQUE_HELP">
+			<Text>Early naval ranged Mercenary unit. Price shown is how much it costs to hire this unit for 20 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_BARQUE_STRATEGY">
+			<Text>Use the Barques to explore the world, and to spread fear upon the seas.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXOTIC_UNIT_BARQUE_PEDIA">
+			<Text>
+				The Barque is an Ancient era naval ranged Mercenary unit, available upon the discovery of Sailing. The Heptastadion is required for this unit to be built. The Barque becomes obsolete upon the discovery of the Compass.[NEWLINE][NEWLINE]
+				In Ancient Egypt barques, referred to using the French word as Egyptian hieroglyphs were first translated by the Frenchman Jean-Francois Champollion, were a type of boat used from Egypt's earliest recorded times and are depicted in many drawings, paintings, and reliefs that document the culture. Transportation to the afterlife was believed to be accomplished by way of barques as well, and the image is used in many of the religious murals and carvings in temples and tombs.[NEWLINE][NEWLINE]The most important Egyptian barque carried the dead pharaoh to become a deity. Great care was taken to provide a beautiful barque to the pharaoh for this journey, and models of the boats were placed in their tombs. Many models of these boats, that range from tiny to huge in size, have been found. Wealthy and royal members of the culture also provided barques for their final journey. The type of vessel depicted in Egyptian images remains quite similar throughout the thousands of years the culture persisted.[NEWLINE][NEWLINE]Barques were important religious artifacts and since the deities were thought to travel in this fashion in the sky, the Milky Way was seen as a great waterway that was as important as the Nile on Earth, cult statues of the deities traveled by boats on water and ritual boats were carried about by the priests during festival ceremonies. Temples included barque shrines, sometimes more than one in a temple, in which the sacred barques rested when a procession was not in progress. In these stations the boats would be watched over and cared for by the priests.
+			</Text>
+		</Row>
+	</Language_en_US>	
+  
+</GameData>
