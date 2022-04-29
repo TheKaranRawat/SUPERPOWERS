@@ -36,9 +36,24 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>25</Yield>
 		</Row>-->
+
+		<Row>
+			<PolicyType>POLICY_TRADITION</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>25</Yield>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_TRADITION</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>25</Yield>
+		</Row>
+
 	</Policy_CapitalYieldModifiers>
 
 	<Policy_CapitalYieldChanges>
+
+		<!--
 		<Row>
 			<PolicyType>POLICY_TRADITION</PolicyType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -49,6 +64,7 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>8</Yield>
 		</Row>
+		-->
 	</Policy_CapitalYieldChanges>
 
 	<!--<Policy_CapitalYieldPerPopChanges>
@@ -488,26 +504,28 @@
 	</Policy_BuildingClassYieldChanges>
 
 	<Policy_CityYieldChanges>
+
+		<!--
 		<Row>
 			<PolicyType>POLICY_REPUBLIC</PolicyType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>15</Yield>
+			<Yield>5</Yield>
 		</Row>
+		
 		<Row>
 			<PolicyType>POLICY_REPUBLIC</PolicyType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>10</Yield>
 		</Row>
+		-->
+		
 		<Row>
 			<PolicyType>POLICY_LIBERTY</PolicyType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>4</Yield>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>12</Yield>
 		</Row>
-		<Row>
-			<PolicyType>POLICY_LIBERTY</PolicyType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>4</Yield>
-		</Row>
+		
+
 		<Row>
 			<PolicyType>POLICY_MERITOCRACY</PolicyType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
@@ -674,13 +692,13 @@
 			<PolicyType>POLICY_IRON_CURTAIN</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_PUPPET_GOVERNEMENT</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldMod>33</YieldMod>
+			<YieldMod>50</YieldMod>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_IRON_CURTAIN</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_PUPPET_GOVERNEMENT</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldMod>33</YieldMod>
+			<YieldMod>50</YieldMod>
 		</Row>
 	</Policy_BuildingClassYieldModifiers>
 
@@ -998,12 +1016,12 @@
 		<Row>
 			<PolicyType>POLICY_SOCIALIST_REALISM</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MECHANIZED_FARM</BuildingClassType>
-			<Happiness>6</Happiness>
+			<Happiness>9</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_SOCIALIST_REALISM</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_GRAIN_DEPOT</BuildingClassType>
-			<Happiness>6</Happiness>
+			<Happiness>9</Happiness>
 		</Row>
 		
 		<Row>
@@ -1344,31 +1362,31 @@
 			<PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType>
 			<ImprovementType>IMPROVEMENT_WELL</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType>
 			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType>
 			<ImprovementType>IMPROVEMENT_GAS_RIG_MOD</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 
 	</Policy_ImprovementYieldChanges>
@@ -1462,7 +1480,7 @@
 		<Row>
 			<PolicyType>POLICY_CITIZENSHIP</PolicyType>
 			<UnitClassType>UNITCLASS_WORKER</UnitClassType>
-			<Count>5</Count>
+			<Count>3</Count>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_ARTISTIC_GENIUS</PolicyType>
@@ -1474,11 +1492,15 @@
 			<UnitClassType>UNITCLASS_GREAT_ADMIRAL</UnitClassType>
 			<Count>1</Count>
 		</Row>
+
+		<Delete PolicyType="POLICY_COLLECTIVE_RULE"/>
+		<!--
 		<Row>
 			<PolicyType>POLICY_COLLECTIVE_RULE</PolicyType>
 			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
 			<Count>1</Count>
 		</Row>
+		-->
 
 		<Row>
 			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>

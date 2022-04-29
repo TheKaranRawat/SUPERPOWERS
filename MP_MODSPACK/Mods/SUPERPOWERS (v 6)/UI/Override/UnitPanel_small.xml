@@ -2,9 +2,7 @@
 <Context ColorSet="Beige_Black" Font="TwCenMT20" FontStyle="Shadow" >
 
 <!-- civ icon background -->
-  <Image Anchor="L,B" Offset="234,88" Size="64,64" Color="White.0" Texture="IconFrame64.dds"  Hidden="1" ID="BackgroundCivFrame">
-    <Image Anchor="C,C" Offset="0,0" Size="128,128" Color="White.128" Texture="CivSymbolsColor.dds"  ID="BackgroundCivSymbol"/>
-  </Image>
+  
 
   <Image Anchor="L,B"  Offset="455,0"  Texture="assets/UI/Art/UnitPanel/BottomLeft128x224.dds" Size="128,224"/>
 
@@ -77,6 +75,11 @@
   <!-- Background -->
 
   <Grid Anchor="L,B" Offset="-37,-39" Size="500,238" Padding="0,0" Style="Grid9DetailFive140" Hidden="0"  ConsumeMouse="1">
+	
+	<!-- civ icon -->
+	<Image Anchor="L,B" Offset="250,119	" Size="32,32" Color="White.0" Texture="IconFrame64.dds"  Hidden="1" ID="BackgroundCivFrame">
+		<Image Anchor="C,C" Offset="0,0" Size="128,128" Color="White.128" Texture="CivSymbolsColor.dds"  ID="BackgroundCivSymbol"/>
+	</Image>
 
     <Box Anchor="R,T" Size="400,128" Offset="17,45" Color="White,0" HideBox="0" >
 
@@ -147,6 +150,7 @@
       </Grid>
 
     </Box>
+
 
 
 
@@ -234,7 +238,7 @@
   <!-- Health Bar  -->
 
 
-  <Image Anchor="L,B"  Offset="458,1"  Texture="assets/UI/Art/UnitPanel/HealthBarBlack.dds" Size="17,127" ToolTip="TXT_KEY_UPANEL_HEALTH"  Hidden="1" ID="HealthBar">
+  <Image Anchor="L,B"  Offset="447,1"  Texture="assets/UI/Art/UnitPanel/HealthBarBlack.dds" Size="17,127" ToolTip="TXT_KEY_UPANEL_HEALTH"  Hidden="1" ID="HealthBar">
     <Image Anchor="C,B"  Offset="-1,2"  Texture="assets/UI/Art/UnitPanel/HealthBarGreen.dds" Size="9,122" Hidden="1" ID="GreenBar"/>
     <Image Anchor="C,B"  Offset="-1,2"  Texture="assets/UI/Art/UnitPanel/HealthBarYellow.dds" Size="9,122" Hidden="1" ID="YellowBar"/>
     <Image Anchor="C,B"  Offset="-1,2" Color="255.255.255.100" Texture="assets/UI/Art/UnitPanel/HealthBarRed.dds" Size="14,30" Hidden="1" ID="RedBar">

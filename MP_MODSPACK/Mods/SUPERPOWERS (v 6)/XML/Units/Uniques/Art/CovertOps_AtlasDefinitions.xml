@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/23/17 5:15:19 AM -->
+<GameData>
+
+	<IconTextureAtlases>
+
+		<!--    Unit/Building/Flag Atlas    -->
+		<Row>
+			<Atlas>SMAN_COVERT_OPS_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>CovertOpsAtlas256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_COVERT_OPS_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>CovertOpsAtlas128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_COVERT_OPS_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>CovertOpsAtlas080.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_COVERT_OPS_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>CovertOpsAtlas064.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_COVERT_OPS_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>CovertOpsAtlas045.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_COVERT_OPS_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>CovertOpsAtlas032.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+
+
+		<!--    Flag Atlas    -->
+
+		<!--
+		<Row>
+			<Atlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>CovertOpsAtlasFlagAtlas032.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+-->
+
+		<!--    Promotion Atlas    -->		
+		<Row>
+			<Atlas>SMAN_COVERT_OPS_PROMOTION_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>CovertOpsPromotionAtlas256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_COVERT_OPS_PROMOTION_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>CovertOpsPromotionAtlas064.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_COVERT_OPS_PROMOTION_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>CovertOpsPromotionAtlas045.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_COVERT_OPS_PROMOTION_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>CovertOpsPromotionAtlas032.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+			
+
+		<!--    Actions Atlas    -->
+		<Row>
+			<Atlas>SMAN_COVERT_OPS_ACTION_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>CovertOpsActionAtlas064.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_COVERT_OPS_ACTION_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>CovertOpsActionAtlas045.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		
+		
+	</IconTextureAtlases>
+
+
+
+</GameData>

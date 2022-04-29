@@ -2571,7 +2571,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_RECONNAISSANCE</Tag>
-			<Text>[COLOR_GREEN]Spy Satellite[ENDCOLOR]</Text>
+			<Text>[COLOR_GREEN]Reconnaissance Satellite[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_RECONNAISSANCE_PEDIA</Tag>
@@ -2669,7 +2669,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_WEATHER</Tag>
-			<Text>[COLOR_GREEN]Weather Control Satellite[ENDCOLOR]</Text>
+			<Text>[COLOR_GREEN]Project Eden[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_WEATHER_PEDIA</Tag>
@@ -2729,7 +2729,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_ANTIFALLOUT</Tag>
-			<Text>[COLOR_GREEN]Fallout Removing Satellite[ENDCOLOR]</Text>
+			<Text>[COLOR_GREEN]Operation Scrubber[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_ANTIFALLOUT_PEDIA</Tag>
@@ -3038,7 +3038,7 @@
 			<Text>[ICON_FOOD] Botanical Gardens</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TCS_PATENT_OFFICE">
-			<Text>[ICON_SCIENCE] Patent Office</Text>
+			<Text>[ICON_RESEARCH] Patent Office</Text>
 		</Row>
 		<!-- Help Tags -->
 		<Row Tag="TXT_KEY_BUILDING_TCS_PUBLIC_BATHS_HELP">

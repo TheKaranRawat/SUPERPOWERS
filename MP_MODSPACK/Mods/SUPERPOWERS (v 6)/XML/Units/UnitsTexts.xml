@@ -948,10 +948,10 @@
 
 		
 		<Row Tag="TXT_KEY_UNIT_MILITIA_MODERN">
-			<Text>[COLOR_MAGENTA]Modern Militia[ENDCOLOR]</Text>
+			<Text>[COLOR_MAGENTA]Territorial Army[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_MILITIA_MODERN_TEXT">
-			<Text>Modern Militia services as the modern national defense force.</Text>
+			<Text>Territorial Armies serve as the auxillary modern national defense force.</Text>
 		</Row>
 
 		<Replace Tag="TXT_KEY_UNIT_JAPANESE_SAMURAI">
@@ -1115,11 +1115,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_MOBILE_AA_GUN">
-			<Text>Mobile AA</Text>
+			<Text>Self-Propelled AA</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_MOBILE_AA_GUN_HEADING">
-			<Text>Mobile AA</Text>
+			<Text>Self-Propelled AA</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_MOBILE_AA_GUN_PEDIA">
 			<Text>Anti-aircraft warfare or counter-air defence is defined by NATO as "all measures designed to nullify or reduce the effectiveness of hostile air action.</Text>
@@ -1234,7 +1234,7 @@
 
 		
 		<Row Tag="TXT_KEY_UNIT_ZULU_G6_SPG">
-			<Text>G6 Self-propelled Howitzer</Text>
+			<Text>G6 Rhino</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ZULU_G6_SPG_HEADING">
@@ -1362,7 +1362,7 @@
 
 
 	<Row Tag="TXT_KEY_UNIT_SAM_INFANTRY">
-		<Text>Land Support Vehicle</Text>
+		<Text>Mobile SAM</Text>
 		<Plurality>2</Plurality>
 	</Row>	
 	<Row Tag="TXT_KEY_UNIT_SAM_INFANTRY_HEADING">
@@ -1399,7 +1399,7 @@
 		
 
 		<Row Tag="TXT_KEY_UNIT_ATGM_VEHICLE">
-			<Text>Anti-tank Missile</Text>
+			<Text>ATGM Carrier</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ATGM_VEHICLE_HEADING">
@@ -1801,7 +1801,7 @@
 
 
 	<Row Tag="TXT_KEY_UNIT_MODERN_DESTROYER">
-		<Text>Guided-Missile Destroyer</Text>
+		<Text>Guided-Missile Destroyer (DDG)</Text>
 		<Plurality>2</Plurality>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_MODERN_DESTROYER_HEADING">
@@ -1889,7 +1889,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_DANISH_ABSALON">
-			<Text>[COLOR_MAGENTA]Absalon-class Support Ship[ENDCOLOR]</Text>
+			<Text>[COLOR_MAGENTA]Absalon-class Frigate[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_DANISH_ABSALON_HEADING">
@@ -1912,7 +1912,7 @@
 	<!-- *************************Air Units****************************-->
 
 		<Row Tag="TXT_KEY_UNIT_FRANCE_MIRRAGE2000">
-			<Text>Dassault Mirage 2000</Text>
+			<Text>Mirage 2000</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FRANCE_MIRRAGE2000_HEADING">
@@ -1963,7 +1963,7 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_SWEDISH_JAS39_FIGHTER">
-			<Text>Saab JAS 39 Gripen</Text>
+			<Text>JAS 39 Gripen</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SWEDISH_JAS39_FIGHTER_HEADING">
@@ -1978,7 +1978,7 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_RUSSIAN_SU27">
-			<Text>Sukhoi Su-27</Text>
+			<Text>Su-27 Flanker</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_RUSSIAN_SU27_HEADING">
@@ -2116,12 +2116,12 @@
 
 
 	<Row Tag="TXT_KEY_UNIT_JET_BOMBER">
-		<Text>Jet Bomber</Text>
+		<Text>Strategic Bomber</Text>
 		<Plurality>2</Plurality>
 	</Row>
 	
 	<Row Tag="TXT_KEY_UNIT_JET_BOMBER_HEADING">
-		<Text>Jet Bomber</Text>
+		<Text>Strategic Bomber</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_JET_BOMBER_PEDIA">
 		<Text>A strategic bomber is a mid-to-long range heavy bomber aircraft designed to drop large amounts of ordnance onto a distant target for the purposes of debilitating the enemy's capacity to wage war. </Text>
@@ -2224,7 +2224,7 @@
 
 
 	<Replace Tag="TXT_KEY_UNIT_PARATROOPER">
-		<Text>[COLOR_SELECTED_TEXT]Airborne Forces[ENDCOLOR]</Text>
+		<Text>[COLOR_SELECTED_TEXT]Special Forces[ENDCOLOR]</Text>
 	</Replace>	
 	<Replace Tag="TXT_KEY_UNIT_PARATROOPER_STRATEGY">
 		<Text>The Airborne Forces is an advanced paradroping unit specially developed to breach enemy lines. This specialized infantry acts coupled with transport airplanes which allow them to use a Paradrop maneuver to instantly move up to 20 tiles into enemy territory (he has to start from friendly territory), and then it could even use its remaining moves to take up a suitable attack position. After earning the "Blitz" Promotion, it can attack in the same turn as paradropping.</Text>
@@ -2292,6 +2292,11 @@
 	<Replace Tag="TXT_KEY_UNIT_HELP_CARRIER">
 		<Text>Initially carries 3 Aircraft; capacity may be boosted through promotions.</Text>
 	</Replace>
+
+	<Replace Tag="TXT_KEY_UNIT_MISSILE_CRUISER">
+		<Text>Guided-Missile Cruiser (CG)</Text>
+	</Replace>	
+
 	<Replace Tag="TXT_KEY_UNIT_HELP_MISSILE_CRUISER">
 		<Text>Advanced naval ranged unit of the Information Era, can be upgraded from Battleships. It can carry 3 Missiles and defend itself against attack from the air. However it is weak against submarines.</Text>
 	</Replace>
@@ -2347,7 +2352,9 @@
 			<Text>First multiple rocket launcher with Area of Effect damage in the game. Strong against land units, but weak against cities. Only Korea may build it. Replaces the Culverin.  </Text>
 		</Replace>
 
-
+	<Replace Tag="TXT_KEY_UNIT_JET_FIGHTER">
+		<Text>Stealth Fighter</Text>
+	</Replace>
 
 	<Replace Tag="TXT_KEY_UNIT_ROCKET_ARTILLERY">
 		<Text>MLRS</Text>
@@ -2720,7 +2727,7 @@
 		
 
 		<Row Tag="TXT_KEY_UNIT_ELITE_SNIPER">
-			<Text>[COLOR_YELLOW]Elite Sniper[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]Sniper Elite[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_ELITE_SNIPER">
@@ -2737,7 +2744,7 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_ELITE_BATTLECRUISER">
-			<Text>[COLOR_YELLOW]Bismarck (Super Battleship)[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]Bismarck[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_ELITE_BATTLECRUISER">
@@ -2754,7 +2761,7 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_SR71_BLACKBIRD">
-			<Text>[COLOR_YELLOW]SR71 "Black Bird"[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]SR-71 Blackbird[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_SR71_BLACKBIRD">
@@ -2778,7 +2785,7 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_SUPER_TANK">
-			<Text>[COLOR_YELLOW]Panzer VIII Maus (Super-heavy Tank)[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]Panzer VIII Maus[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_SUPER_TANK">
@@ -2802,7 +2809,7 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_SUPER_BATTLESHIP">
-			<Text>[COLOR_YELLOW]Yamato (Super Battleship)[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]Yamato[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_SUPER_BATTLESHIP">
@@ -2820,7 +2827,7 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_PROTOTYPE_BOMBER">
-			<Text>[COLOR_YELLOW]Prototype Stealth Bomber[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]Horten Ho 229[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_ELITE_NAME_PROTOTYPE_BOMBER">
@@ -2842,7 +2849,7 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_TSAR_BOMBA">
-			<Text>[COLOR_YELLOW]Tsar Bomba(King of Bombs)[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]Tsar Bomba[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_TSAR_BOMBA">
@@ -2856,7 +2863,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_NUCLEAR_ARTILLERY">
-			<Text>[COLOR_YELLOW]Kondensator(Nuclear Artillery)[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]2A3 Kondensator[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_NUCLEAR_ARTILLERY">
@@ -2873,7 +2880,7 @@
 		</Row>
 
 		<Replace Tag="TXT_KEY_UNIT_BAZOOKA">
-			<Text>[COLOR_YELLOW]Davy Crockett (Nuclear Launcher)[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]M-29 Davy Crockett[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_HELP_BAZOOKA">
 			<Text>A tactical nuclear device launching a rocket with nuclear warhead, which can destroy any single unit in one-hit. The shooter himself will also be killed in the explosion. [NEWLINE][NEWLINE]Requires Tactical Nuclear Recoilless Gun Project. Only one can exist in the world. </Text>
@@ -2890,7 +2897,7 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_UNDERWATER_CARRIER">
-			<Text>[COLOR_YELLOW]Hydra (Underwater Carrier)[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]SSV-1 Hydra[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_UNDERWATER_CARRIER_HELP">
@@ -2911,7 +2918,7 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_CRUSADER_ARTILLERY">
-			<Text>[COLOR_YELLOW]XM2001 Crusader (Prototype SPG)[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]XM2001 Crusader[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CRUSADER_ARTILLERY_HELP">
@@ -3019,11 +3026,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_CHINESE_WEISHI">
-			<Text>[COLOR_YELLOW]Weishi Rockets (WS-64)[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]WS-64 Weishi MLRS[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CHINESE_WEISHI_HEADING">
-			<Text>Weishi Rockets (WS-64)</Text>
+			<Text>WS-64 Weishi</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_CHINESE_WEISHI">
 			<Text>Elite Long Range Multiple Rocket Launcher. It has great mobility and huge combat bonus against naval units.[NEWLINE][NEWLINE]Requires Anti-ship MLRS Project and only one can exist in the world. </Text>
@@ -3053,7 +3060,7 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_PARTICLE_CANNON">
-			<Text>[COLOR_YELLOW]Proton Collider Vessel[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]Neo-Dreadnought[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_PARTICLE_CANNON">
@@ -4695,6 +4702,12 @@
 			<Text>In [COLOR_POSITIVE_TEXT]Snow, Tundra, Hills[ENDCOLOR]: Double [ICON_MOVES] Movement +50% [ICON_STRENGTH] Combat Bonus. </Text>
 		</Replace>
 
+		<Replace Tag="TXT_KEY_UNIT_GERMAN_PANZER">
+			<Text>Panzer VI Tiger</Text>
+		</Replace>
+
+		
+
 
 		<Row Tag="TXT_KEY_PROMOTION_FULL_FIRE">
 			<Text>Full Attack</Text>
@@ -4733,7 +4746,7 @@
 
 
 		<Row Tag="TXT_KEY_PROMOTION_SNIPER_ELITE">
-			<Text>Elite Sniper</Text>
+			<Text>Sniper Elite</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SNIPER_ELITE_HELP">
 			<Text>
@@ -5158,7 +5171,7 @@
 			<Text>Powerful siege unit of the future.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_VERTOL">
-			<Text>Vertol</Text>
+			<Text>Heavy Gunship</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_VERTOL_TEXT">
 			<Text>As the technology behind vertical take-off and landing aircraft matured, an increasing variety of designs began to appear, displacing the standard helicopter gunship. An increasing number of VTOL aircraft utilized jet turbines, but were designed to allow the engines to pivot or otherwise direct their thrust. These aircraft, because of their VTOL capabilities, were often referred to as "vertols" as a shorthand.</Text>

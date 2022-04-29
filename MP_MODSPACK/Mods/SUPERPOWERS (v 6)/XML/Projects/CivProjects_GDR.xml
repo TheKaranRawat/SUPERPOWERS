@@ -89,7 +89,7 @@
 
 		<Update>
 			<Where Tag="TXT_KEY_UNIT_MECH"/>
-			<Set Text="MechWarrior"/>
+			<Set Text="Jaeger"/>
 		</Update>
 
 		<Row Tag="TXT_KEY_BUILDING_GDR_HEADQUARTERS">
@@ -178,7 +178,7 @@
 			<Defense>1000</Defense>
 			<ExtraCityHitPoints>100</ExtraCityHitPoints>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_3</IconAtlas>
-			<PortraitIndex>27</PortraitIndex>
+			<PortraitIndex>18</PortraitIndex>
 			<MinAreaSize>-1</MinAreaSize>
 			<WonderSplashImage>GDRSplashy.dds</WonderSplashImage>
 			<WonderSplashAudio>AS2D_WONDER_GDR_HEADQUARTERS</WonderSplashAudio>

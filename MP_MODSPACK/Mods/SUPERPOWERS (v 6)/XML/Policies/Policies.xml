@@ -12,12 +12,12 @@
 	<Policies>
 		
 		<Update>
-			<Set PlotCultureExponentModifier="-40" GreatGeneralRateModifier="25" GreatAdmiralRateModifier="25"/>
+			<Set PlotCultureExponentModifier="-33" GreatGeneralRateModifier="25" GreatAdmiralRateModifier="25"/>
 			<Where Type="POLICY_TRADITION"/>
 		</Update>
 
 		<Update>
-			<Set CityCountUnhappinessMod="50" NumCitiesPolicyCostDiscount="-10"/>
+			<Set CityCountUnhappinessMod="150" NumCitiesPolicyCostDiscount="-10"/>
 			<Where Type="POLICY_TRADITION"/>
 		</Update>
 		
@@ -34,7 +34,7 @@
 			<Where Type="POLICY_OLIGARCHY"/>
 		</Update>
 		<Update>
-			<Set CapitalGrowthMod="25" CityGrowthMod="10" GridX="5" GridY="1"/>
+			<Set CapitalGrowthMod="25" CityGrowthMod="15" GridX="5" GridY="1"/>
 			<Where Type="POLICY_LANDED_ELITE"/>
 		</Update>
 		<Update>
@@ -42,7 +42,7 @@
 			<Where Type="POLICY_MONARCHY"/>
 		</Update>
 		<Update>
-			<Set CityGrowthMod="0" NumCitiesFreeFoodBuilding="0"/>
+			<Set CityGrowthMod="0" NumFreeGreatPeople="1" NumCitiesFreeFoodBuilding="0"/>
 			<Where Type="POLICY_TRADITION_FINISHER"/>
 		</Update>
 		<Row>
@@ -91,7 +91,7 @@
 	<Policies>
 		
 		<Update>
-			<Set WorkerSpeedModifier="50" GreatGeneralRateModifier="25" GreatAdmiralRateModifier="25"/>
+			<Set WorkerSpeedModifier="33" GreatGeneralRateModifier="25" GreatAdmiralRateModifier="25"/>
 			<Where Type="POLICY_LIBERTY"/>
 		</Update>
 
@@ -107,15 +107,15 @@
 			<Where Type="POLICY_CITIZENSHIP"/>
 		</Update>
 		<Update>
-			<Set IncludesOneShotFreeUnits="true" CapitalSettlerProductionModifier="25" SettlerProductionModifier="25" GridX="1"  GridY="1"/>
+			<Set IncludesOneShotFreeUnits="false" CapitalSettlerProductionModifier="15" SettlerProductionModifier="20" GridX="1"  GridY="1"/>
 			<Where Type="POLICY_COLLECTIVE_RULE"/>
 		</Update>
 		<Update>
-			<Set HappinessPerTradeRoute="4" BuildingProductionModifier="0" GridX="3" GridY="2" PortraitIndex="29"/>
+			<Set HappinessPerTradeRoute="4" BuildingProductionModifier="0" ExtraHappinessPerLuxury="1" GridX="3" GridY="2" PortraitIndex="29"/>
 			<Where Type="POLICY_REPUBLIC"/>
 		</Update>
 		<Update>
-			<Set NumCitiesPolicyCostDiscount="0" GoldenAgeTurns="25" GridX="4" GridY="3" PortraitIndex="41"/>
+			<Set NumCitiesPolicyCostDiscount="0" GoldenAgeTurns="0" GridX="4" GridY="3" PortraitIndex="41"/>
 			<Where Type="POLICY_REPRESENTATION"/>
 		</Update>
 		<Update>
@@ -123,7 +123,7 @@
 			<Where Type="POLICY_MERITOCRACY"/>
 		</Update>
 		<Update>
-			<Set NumFreeGreatPeople="1" GoldenAgeTurns="10"/>
+			<Set NumFreeGreatPeople="0" GoldenAgeTurns="20"/>
 			<Where Type="POLICY_LIBERTY_FINISHER"/>
 		</Update>
 
@@ -165,7 +165,7 @@
 			<CultureCost>10</CultureCost>
 			<GridX>5</GridX>
 			<GridY>2</GridY>
-			<HappinessPerTradeRoute>400</HappinessPerTradeRoute>
+			<OccupiedPopulationUnhappinessMod>50</OccupiedPopulationUnhappinessMod>
 			<PortraitIndex>13</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -180,7 +180,7 @@
 			<GridX>2</GridX>
 			<GridY>3</GridY>
 			<HappinessPerGarrisonedUnit>2</HappinessPerGarrisonedUnit>
-			<CulturePerGarrisonedUnit>4</CulturePerGarrisonedUnit>
+			<CulturePerGarrisonedUnit>2</CulturePerGarrisonedUnit>
 			<PortraitIndex>23</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -557,7 +557,7 @@
 		</Update>
 		
 		<Update>
-			<Set GreatPeopleRateModifier="40"/>
+			<Set GreatPeopleRateModifier="35"/>
 			<Where Type="POLICY_OPEN_SOCIETY"/>
 		</Update>
 		<!--<Update>
@@ -587,7 +587,7 @@
 			<Where Type="POLICY_CREATIVE_EXPRESSION"/>
 		</Update>
 		<Update>
-			<Set CommonFoeTourismModifier="50" MilitaryProductionModifier="15" MilitaryUnitGiftExtraInfluence="10"/>
+			<Set CommonFoeTourismModifier="50" MilitaryProductionModifier="15" MilitaryUnitGiftExtraInfluence="20"/>
 			<Where Type="POLICY_ARSENAL_DEMOCRACY"/>
 		</Update>
 		<Update>
@@ -622,7 +622,7 @@
 			<Where Type="POLICY_RESETTLEMENT"/>
 		</Update>
 		<Update>
-			<Set SharedIdeologyTourismModifier="25" Level="1"/>
+			<Set SharedIdeologyTourismModifier="25" CultureWonderMultiplier="33" Level="1" />
 			<Where Type="POLICY_CULTURAL_REVOLUTION"/>
 		</Update>	
 		<Update>
@@ -647,7 +647,7 @@
 			<Where Type="POLICY_UNITED_FRONT"/>
 		</Update>-->
 		<Update>
-			<Set UnitGoldMaintenanceMod="-50" Level="1"/>
+			<Set UnitGoldMaintenanceMod="-40" StrategicResourceMod="100" Level="1"/>
 			<Where Type="POLICY_NATIONALISM"/>
 		</Update>
 		<Update>
@@ -655,7 +655,7 @@
 			<Where Type="POLICY_THIRD_ALTERNATIVE"/>
 		</Update>
 		<Update>
-			<Set CulturalPlunderMultiplier="50"/>
+			<Set CulturalPlunderMultiplier="60"/>
 			<Where Type="POLICY_FUTURISM"/>
 		</Update>
 		
@@ -671,7 +671,7 @@
 			<Where Type="POLICY_CULT_PERSONALITY"/>
 		</Update>
 		<Update>
-			<Set AfraidMinorPerTurnInfluence="0" MinorBullyScoreModifier="0"/>
+			<Set AfraidMinorPerTurnInfluence="0" MinorBullyScoreModifier="0"  MinorScienceAllies="true"/>
 			<Where Type="POLICY_GUNBOAT_DIPLOMACY"/>
 		</Update>
 		<Update>

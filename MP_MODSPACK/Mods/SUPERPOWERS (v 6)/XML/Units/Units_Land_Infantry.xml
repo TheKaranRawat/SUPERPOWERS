@@ -516,10 +516,10 @@
 			<XPValueAttack>6</XPValueAttack>
 			<XPValueDefense>6</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_XCOM_SQUAD</UnitArtInfo>
-			<UnitFlagAtlas>EXPANSION2_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagAtlas>SMAN_COVERT_OPS_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>15</UnitFlagIconOffset>
-			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
-			<PortraitIndex>15</PortraitIndex>
+			<IconAtlas>SMAN_COVERT_OPS_ATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
 			<MoveRate>QUADRUPED</MoveRate>
 			<ExtraMaintenanceCost>120</ExtraMaintenanceCost>
 		</Row>

@@ -425,8 +425,8 @@
 			<CannotBeChosen>true</CannotBeChosen>
 			<EnemyDamageChance>100</EnemyDamageChance>
 			<NeutralDamageChance>100</NeutralDamageChance>
-			<EnemyDamage>10</EnemyDamage>
-			<NeutralDamage>10</NeutralDamage>
+			<EnemyDamage>20</EnemyDamage>
+			<NeutralDamage>20</NeutralDamage>
 			<PortraitIndex>57</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_SHARED</PediaType>

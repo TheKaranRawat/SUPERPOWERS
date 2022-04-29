@@ -79,9 +79,9 @@
 					<Stack Anchor="L,T" Offset="0,0" Padding="0" Size="0,0" StackGrowth="Right">
 						<!-- TRADITION BOX  -->
 						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
-							<Image Anchor="C,T" TextureOffset="0,0" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Assets/UI/Art/Icons/SocialPoliciesTradition.dds"/>
+							<Image Anchor="C,T" TextureOffset="0,0" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/1_tradition.dds"/>
 							<!-- Policy Branch Image -->
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Texture="Assets/UI/Art/Icons/SocialPoliciesTradition.dds" ID="BranchBack0" ToolTip="TXT_KEY_POLICY_BRANCH_TRADITION_HELP"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Texture="Art/Policy/1_tradition.dds" ID="BranchBack0" ToolTip="TXT_KEY_POLICY_BRANCH_TRADITION_HELP"/>
 							<Image ID="ImageMask0" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
 							<Box ID="DisabledMask0" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 							<Image Anchor="C,T" Offset="0,0" Size="190,290" Texture="Assets/UI/Art/Icons/SocialPoliciesTrim.dds">
@@ -95,7 +95,7 @@
 							<!-- Disabled Boxes -->
 							<Box ID="LockedBox0" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" TextureOffset="0,30" Offset="0,0" Size="190,260" Color="255,255,255,255" Texture="Assets/UI/Art/Icons/SocialPoliciesTradition.dds"/>
+									<Image Anchor="C,T" TextureOffset="0,30" Offset="0,0" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/1_tradition.dds"/>
 								</HideOnMouseOver>
 							</Box>
 							<!-- adopt button -->
@@ -105,7 +105,7 @@
 							</GridButton>
 							<Box ID="DisabledBox0" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Assets/UI/Art/Icons/SocialPoliciesTradition.dds"/>
+									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/1_tradition.dds"/>
 									<Box Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0"/>
 								</HideOnMouseOver>
 							</Box>
@@ -118,9 +118,9 @@
 						<Image Anchor="R,T" Offset="0,0" Texture="VerticalTrim.dds" Size="5,290"/>
 						<!-- LIBERTY BOX  -->
 						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
-							<Image Anchor="C,T" TextureOffset="0,0" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Assets/UI/Art/Icons/SocialPoliciesLiberty.dds"/>
+							<Image Anchor="C,T" TextureOffset="0,0" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/2_liberty.dds"/>
 							<!-- Policy Branch Image -->
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Texture="Assets/UI/Art/Icons/SocialPoliciesLiberty.dds" ID="BranchBack1" ToolTip="TXT_KEY_POLICY_BRANCH_LIBERTY_HELP"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Texture="Art/Policy/2_liberty.dds" ID="BranchBack1" ToolTip="TXT_KEY_POLICY_BRANCH_LIBERTY_HELP"/>
 							<Image ID="ImageMask1" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
 							<Box ID="DisabledMask1" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 							<Image Anchor="C,T" Offset="0,0" Size="190,290" Texture="Assets/UI/Art/Icons/SocialPoliciesTrim.dds">
@@ -134,7 +134,7 @@
 							<!-- Disabled Boxes -->
 							<Box ID="LockedBox1" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="Assets/UI/Art/Icons/SocialPoliciesLiberty.dds"/>
+									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/2_liberty.dds"/>
 								</HideOnMouseOver>
 							</Box>
 							<!-- adopt button -->
@@ -143,7 +143,7 @@
 							</GridButton>
 							<Box ID="DisabledBox1" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Assets/UI/Art/Icons/SocialPoliciesLiberty.dds"/>
+									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/2_liberty.dds"/>
 									<Box Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0"/>
 								</HideOnMouseOver>
 							</Box>
@@ -156,9 +156,9 @@
 						<Image Anchor="R,T" Offset="0,0" Texture="VerticalTrim.dds" Size="5,290"/>
 						<!-- HONOR BOX  -->
 						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
-							<Image Anchor="C,T" TextureOffset="0,0" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Assets/UI/Art/Icons/SocialPoliciesHonor.dds"/>
+							<Image Anchor="C,T" TextureOffset="0,0" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/3_honor.dds"/>
 							<!-- Policy Branch Image -->
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Texture="SocialPoliciesHonor.dds" ID="BranchBack2" ToolTip="TXT_KEY_POLICY_BRANCH_HONOR_HELP"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Texture="Art/Policy/3_honor.dds" ID="BranchBack2" ToolTip="TXT_KEY_POLICY_BRANCH_HONOR_HELP"/>
 							<Image ID="ImageMask2" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
 							<Box ID="DisabledMask2" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 							<Image Anchor="C,T" Offset="0,0" Size="190,290" Texture="Assets/UI/Art/Icons/SocialPoliciesTrim.dds">
@@ -172,7 +172,7 @@
 							<!-- Disabled Boxes -->
 							<Box ID="LockedBox2" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" TextureOffset="0,30" Offset="0,0" Size="190,260" Color="255,255,255,255" Texture="SocialPoliciesHonor.dds"/>
+									<Image Anchor="C,T" TextureOffset="0,30" Offset="0,0" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/3_honor.dds"/>
 								</HideOnMouseOver>
 							</Box>
 							<!-- adopt button -->
@@ -181,7 +181,7 @@
 							</GridButton>
 							<Box ID="DisabledBox2" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="SocialPoliciesHonor.dds"/>
+									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/3_honor.dds"/>
 									<Box Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0"/>
 								</HideOnMouseOver>
 							</Box>
@@ -194,9 +194,9 @@
 						<Image Anchor="R,T" Offset="0,0" Texture="VerticalTrim.dds" Size="5,290"/>
 						<!-- PIETY BOX  -->
 						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
-							<Image Anchor="C,T" TextureOffset="0,0" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="SocialPoliciesPiety.dds" ToolTip="TXT_KEY_POLICY_BRANCH_PIETY_HELP"/>
+							<Image Anchor="C,T" TextureOffset="0,0" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/4_piety.dds" ToolTip="TXT_KEY_POLICY_BRANCH_PIETY_HELP"/>
 							<!-- Policy Branch Image -->
-							<Image Anchor="C,T" Offset="0,0" Size="190,90" Texture="SocialPoliciesPiety.dds" ID="BranchBack3" ToolTip="TXT_KEY_POLICY_BRANCH_PIETY_HELP"/>
+							<Image Anchor="C,T" Offset="0,0" Size="190,90" Texture="Art/Policy/4_piety.dds" ID="BranchBack3" ToolTip="TXT_KEY_POLICY_BRANCH_PIETY_HELP"/>
 							<Image ID="ImageMask3" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
 							<Box ID="DisabledMask3" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 							<Image Anchor="C,T" Offset="0,0" Size="190,290" Texture="Assets/UI/Art/Icons/SocialPoliciesTrim.dds">
@@ -210,7 +210,7 @@
 							<!-- Disabled Boxes -->
 							<Box ID="LockedBox3" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" TextureOffset="0,30" Offset="0,0" Size="190,260" Color="255,255,255,255" Texture="SocialPoliciesPiety.dds"/>
+									<Image Anchor="C,T" TextureOffset="0,30" Offset="0,0" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/4_piety.dds"/>
 								</HideOnMouseOver>
 							</Box>
 							<!-- adopt button -->
@@ -219,7 +219,7 @@
 							</GridButton>
 							<Box ID="DisabledBox3" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image ID="DisabledBoxImage3" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="SocialPoliciesPiety.dds"/>
+									<Image ID="DisabledBoxImage3" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/4_piety.dds"/>
 									<Box Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 								</HideOnMouseOver>
 							</Box>
@@ -232,9 +232,9 @@
 						<Image Anchor="R,T" Offset="0,0" Texture="VerticalTrim.dds" Size="5,290"/>
 						<!-- PATRONAGE BOX  -->
 						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="SocialPoliciesPatronage.dds" ToolTip="TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/5_patronage.dds" ToolTip="TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP"/>
 							<!-- Policy Branch Image -->
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="SocialPoliciesPatronage.dds" ID="BranchBack4" ToolTip="TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="Art/Policy/5_patronage.dds" ID="BranchBack4" ToolTip="TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP"/>
 							<Image ID="ImageMask4" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
 							<Box ID="DisabledMask4" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 							<Image Anchor="C,T" Offset="0,0" Size="190,290" Texture="Assets/UI/Art/Icons/SocialPoliciesTrim.dds">
@@ -248,7 +248,7 @@
 							<!-- Disabled Boxes -->
 							<Box ID="LockedBox4" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="SocialPoliciesPatronage.dds"/>
+									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/5_patronage.dds"/>
 								</HideOnMouseOver>
 							</Box>
 							<!-- adopt button -->
@@ -257,7 +257,7 @@
 							</GridButton>
 							<Box ID="DisabledBox4" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="SocialPoliciesPatronage.dds"/>
+									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/5_patronage.dds"/>
 									<Box Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 								</HideOnMouseOver>
 							</Box>
@@ -273,7 +273,7 @@
 					<Stack Anchor="L,T" Offset="0,0" Padding="0" Size="0,0" StackGrowth="Right">
 						<!-- IDEOLOGY BOX  -->
 						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,255">
-							<Image Anchor="L,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="SocialPoliciesFreedom.dds" ID="IdeologyImage1"/>
+							<Image Anchor="L,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/6_ideology.dds" ID="IdeologyImage1"/>
 							<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
 							<Box Size="190,290" Anchor="L,T" Color="0,0,0,0" Hidden="1" ID="IdeologyDetails">
 								<Stack StackGrowth="Bottom" Padding="10" Anchor="C,T" Offset="0,128" ID="TenetsStack">
@@ -293,9 +293,9 @@
 						<Image Anchor="R,T" Offset="0,0" Texture="VerticalTrim.dds" Size="5,290"/>
 						<!-- RATIONALISM BOX  -->
 						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="SocialPoliciesRationalism.dds" ToolTip="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/7_rationalism.dds" ToolTip="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP"/>
 							<!-- Policy Branch Image -->
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="SocialPoliciesRationalism.dds" ID="BranchBack5" ToolTip="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="Art/Policy/7_rationalism.dds" ID="BranchBack5" ToolTip="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP"/>
 							<Image ID="ImageMask8" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
 							<Box ID="DisabledMask8" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 							<Image Anchor="C,T" Offset="0,0" Size="190,290" Texture="Assets/UI/Art/Icons/SocialPoliciesTrim.dds">
@@ -309,7 +309,7 @@
 							<!-- Disabled Boxes -->
 							<Box ID="LockedBox8" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="SocialPoliciesRationalism.dds"/>
+									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/7_rationalism.dds"/>
 								</HideOnMouseOver>
 							</Box>
 							<!-- adopt button -->
@@ -318,7 +318,7 @@
 							</GridButton>
 							<Box ID="DisabledBox8" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="SocialPoliciesRationalism.dds"/>
+									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/7_rationalism.dds"/>
 									<Box Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 								</HideOnMouseOver>
 							</Box>
@@ -329,9 +329,9 @@
 						<Image Anchor="R,T" Offset="0,0" Texture="VerticalTrim.dds" Size="5,290"/>
 						<!-- EXPLORATION BOX  -->
 						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="SocialPoliciesCommerce.dds" ToolTip="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/8_exploration.dds" ToolTip="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP"/>
 							<!-- Policy Branch Image -->
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="SocialPoliciesCommerce.dds" ID="BranchBack6" ToolTip="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="Art/Policy/8_exploration.dds" ID="BranchBack6" ToolTip="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP"/>
 							<Image ID="ImageMask7" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
 							<Box ID="DisabledMask7" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 							<Image Anchor="C,T" Offset="0,0" Size="190,290" Texture="Assets/UI/Art/Icons/SocialPoliciesTrim.dds">
@@ -345,7 +345,7 @@
 							<!-- Disabled Boxes -->
 							<Box ID="LockedBox7" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="SocialPoliciesCommerce.dds"/>
+									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/8_exploration.dds"/>
 								</HideOnMouseOver>
 							</Box>
 							<!-- adopt button -->
@@ -354,7 +354,7 @@
 							</GridButton>
 							<Box ID="DisabledBox7" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="SocialPoliciesCommerce.dds"/>
+									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/8_exploration.dds"/>
 									<Box Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 								</HideOnMouseOver>
 							</Box>
@@ -365,9 +365,9 @@
 						<Image Anchor="R,T" Offset="0,0" Texture="VerticalTrim.dds" Size="5,290"/>
 						<!-- COMMERCE BOX  -->
 						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="SP_Policy_NewCommerce.dds" ToolTip="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/9_commerce.dds" ToolTip="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP"/>
 							<!-- Policy Branch Image -->
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="SocialPoliciesCommerce.dds" ID="BranchBack7" ToolTip="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="Art/Policy/9_commerce.dds" ID="BranchBack7" ToolTip="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP"/>
 							<Image ID="ImageMask6" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
 							<Box ID="DisabledMask6" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 							<Image Anchor="C,T" Offset="0,0" Size="190,290" Texture="Assets/UI/Art/Icons/SocialPoliciesTrim.dds">
@@ -381,7 +381,7 @@
 							<!-- Disabled Boxes -->
 							<Box ID="LockedBox6" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="SP_Policy_NewCommerce.dds"/>
+									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/9_commerce.dds"/>
 								</HideOnMouseOver>
 							</Box>
 							<!-- adopt button -->
@@ -390,7 +390,7 @@
 							</GridButton>
 							<Box ID="DisabledBox6" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="SP_Policy_NewCommerce.dds"/>
+									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/9_commerce.dds"/>
 									<Box Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 								</HideOnMouseOver>
 							</Box>
@@ -401,9 +401,9 @@
 						<Image Anchor="R,T" Offset="0,0" Texture="VerticalTrim.dds" Size="5,290"/>
 						<!-- AESTHETICS BOX  -->
 						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="PolicyBranch_Aesthetics.dds" ToolTip="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/10_aesthetics.dds" ToolTip="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP"/>
 							<!-- Policy Branch Image -->
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="PolicyBranch_Aesthetics.dds" ID="BranchBack8" ToolTip="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="Art/Policy/10_aesthetics.dds" ID="BranchBack8" ToolTip="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP"/>
 							<Image ID="ImageMask5" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
 							<Box ID="DisabledMask5" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 							<Image Anchor="C,T" Offset="0,0" Size="190,290" Texture="Assets/UI/Art/Icons/SocialPoliciesTrim.dds">
@@ -417,7 +417,7 @@
 							<!-- Disabled Boxes -->
 							<Box ID="LockedBox5" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="PolicyBranch_Aesthetics.dds"/>
+									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/10_aesthetics.dds"/>
 								</HideOnMouseOver>
 							</Box>
 							<!-- adopt button -->
@@ -426,7 +426,7 @@
 							</GridButton>
 							<Box ID="DisabledBox5" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="PolicyBranch_Aesthetics.dds"/>
+									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/10_aesthetics.dds"/>
 									<Box Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 								</HideOnMouseOver>
 							</Box>

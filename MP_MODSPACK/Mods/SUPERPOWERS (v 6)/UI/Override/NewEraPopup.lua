@@ -23,6 +23,47 @@ function OnPopup( popupInfo )
 	
 	-- Change Image for Era
 	if (strEra == "ERA_MEDIEVAL") then
+		lastBackgroundImage = "Art/Images/Era/2_medieval.dds";
+	elseif (strEra == "ERA_CLASSICAL") then
+		lastBackgroundImage = "Art/Images/Era/1_classical.dds";
+	elseif (strEra == "ERA_RENAISSANCE") then
+		lastBackgroundImage = "Art/Images/Era/3_renaissance.dds";
+	elseif (strEra == "ERA_INDUSTRIAL") then
+		lastBackgroundImage = "Art/Images/Era/4_industrial.dds";
+	elseif (strEra == "ERA_MODERN") then
+		lastBackgroundImage = "Art/Images/Era/5_modern.dds";
+	elseif (strEra == "ERA_WORLDWAR") then
+		lastBackgroundImage = "Art/Images/Era/6_worldwar.dds";
+	elseif (strEra == "ERA_POSTMODERN") then
+		lastBackgroundImage = "Art/Images/Era/7_atomic.dds";
+	elseif (strEra == "ERA_INFORMATION") then
+		lastBackgroundImage = "Art/Images/Era/8_information.dds";
+	elseif (strEra == "ERA_FUTURE") then
+		lastBackgroundImage = "Art/Images/Era/9_future.dds";
+	end
+	Controls.EraImage:SetTexture(lastBackgroundImage);
+	
+	UIManager:QueuePopup( ContextPtr, PopupPriority.NewEraPopup );
+end
+Events.SerialEventGameMessagePopup.Add( OnPopup );
+
+--[[ BACKUP FUNCTION
+
+function OnPopup( popupInfo )
+
+	if( popupInfo.Type ~= ButtonPopupTypes.BUTTONPOPUP_NEW_ERA ) then
+		return;
+	end
+
+	m_PopupInfo = popupInfo;
+
+    local iEra = popupInfo.Data1;
+	Controls.DescriptionLabel:LocalizeAndSetText("TXT_KEY_POP_NEW_ERA_DESCRIPTION", GameInfo.Eras[iEra].Description);
+	
+	local strEra = GameInfo.Eras[iEra].Type;
+	
+	-- Change Image for Era
+	if (strEra == "ERA_MEDIEVAL") then
 		lastBackgroundImage = "ERA_Medievel.dds";
 	elseif (strEra == "ERA_CLASSICAL") then
 		lastBackgroundImage = "ERA_Classical.dds";
@@ -47,6 +88,7 @@ function OnPopup( popupInfo )
 end
 Events.SerialEventGameMessagePopup.Add( OnPopup );
 
+]]--
 
 ----------------------------------------------------------------        
 -- Input processing

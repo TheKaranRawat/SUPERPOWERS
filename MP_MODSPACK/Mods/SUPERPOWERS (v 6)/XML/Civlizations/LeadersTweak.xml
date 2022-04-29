@@ -203,7 +203,7 @@
 			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_MILITARY_TRAINING"/>
 		</Update>
 		<Update>
-			<Set Flavor="0"/>
+			<Set Flavor="3"/>
 			<Where LeaderType="LEADER_GANDHI" FlavorType="FLAVOR_EXPANSION"/>
 		</Update>
 		<Update>

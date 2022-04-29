@@ -241,6 +241,7 @@
 			<Type>UNIT_ARTIST</Type>
 			<Cost>-1</Cost>
 			<Moves>2</Moves>
+			<Capture>UNITCLASS_ARTIST</Capture>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Domain>DOMAIN_LAND</Domain>
@@ -266,6 +267,7 @@
 			<Type>UNIT_WRITER</Type>
 			<Cost>-1</Cost>
 			<Moves>2</Moves>
+			<Capture>UNITCLASS_WRITER</Capture>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Domain>DOMAIN_LAND</Domain>
@@ -291,6 +293,7 @@
 			<Type>UNIT_MUSICIAN</Type>
 			<Cost>-1</Cost>
 			<Moves>2</Moves>
+			<Capture>UNITCLASS_MUSICIAN</Capture>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Domain>DOMAIN_LAND</Domain>
@@ -317,6 +320,7 @@
 			<Type>UNIT_BRAZIL_SCOCCER_STAR</Type>
 			<Cost>-1</Cost>
 			<Moves>2</Moves>
+			<Capture>UNITCLASS_BRAZIL_SCOCCER_STAR</Capture>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
 			<!--<Special>SPECIALUNIT_PEOPLE</Special>-->
 			<Domain>DOMAIN_LAND</Domain>
@@ -346,6 +350,7 @@
 			<Type>UNIT_SCIENTIST</Type>
 			<Cost>-1</Cost>
 			<Moves>2</Moves>
+			<Capture>UNITCLASS_SCIENTIST</Capture>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Domain>DOMAIN_LAND</Domain>
@@ -370,6 +375,7 @@
 			<Type>UNIT_MERCHANT</Type>
 			<Cost>-1</Cost>
 			<Moves>2</Moves>
+			<Capture>UNITCLASS_MERCHANT</Capture>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Domain>DOMAIN_LAND</Domain>
@@ -396,6 +402,7 @@
 			<Type>UNIT_ENGINEER</Type>
 			<Cost>-1</Cost>
 			<Moves>2</Moves>
+			<Capture>UNITCLASS_ENGINEER</Capture>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Domain>DOMAIN_LAND</Domain>
@@ -421,6 +428,7 @@
 			<Type>UNIT_VENETIAN_MERCHANT</Type>
 			<Cost>-1</Cost>
 			<Moves>4</Moves>
+			<Capture>UNITCLASS_MERCHANT</Capture>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Domain>DOMAIN_LAND</Domain>
@@ -629,7 +637,7 @@
 		<Row>
 			<Class>UNITCLASS_INQUISITOR</Class>
 			<Type>UNIT_HUN_SHAMAN</Type>
-			<Cost>15</Cost>
+			<Cost>-1</Cost>
 			<FaithCost>55</FaithCost>
 			<!--
 			

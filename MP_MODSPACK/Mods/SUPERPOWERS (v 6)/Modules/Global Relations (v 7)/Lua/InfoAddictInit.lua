@@ -29,7 +29,8 @@ ContextPtr:LoadNewContext("InfoAddictHooks");
 
 function InputHandler( uiMsg, wParam, lParam )
     if uiMsg == KeyEvents.KeyDown then
-        if (wParam == Keys.VK_NUMPAD0 or wParam == Keys.W ) then
+			--[[ removed from condition below; or wParam == Keys.W ]]--
+        if (wParam == Keys.VK_NUMPAD0  ) then
 			if MapModData.InfoAddict.InfoAddictScreenContext:IsHidden() then
 				MapModData.InfoAddict.InfoAddictScreenContext:SetHide(false);
 				return true;

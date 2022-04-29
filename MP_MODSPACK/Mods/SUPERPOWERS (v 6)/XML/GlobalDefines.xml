@@ -644,7 +644,7 @@
 			<Where Name="CULTURE_COST_LATER_PLOT_EXPONENT" />
 		</Update>
 		<Update>
-			<Set Value="6"/>
+			<Set Value="7"/>
 			<Where Name="MAXIMUM_ACQUIRE_PLOT_DISTANCE" />
 		</Update>
 

@@ -181,6 +181,12 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
 	
 	<File md5="E9DFEE5D23C31CB0D7B0732DFDAD9D21" import="0">DLL/AI - Warmonger Adjustments (v 4)/XML/AIWarmongerAdjustments.xml</File>
 	
+	<!-- NUKE NOTIFICATION -->
+	<File md5="FBEC00A0A66559D823A0EB412FE33DA9" import="1">Lua/Notifications/Nuclear Attack/ART/NuclearAttack55.dds</File>
+    <File md5="4F418A044D9AC3BE7CB12F3AD1E33800" import="1">Lua/Notifications/Nuclear Attack/CustomNotification/NuclearAttackNotification.lua</File>
+    <File md5="CD13927D253125D0BEC3B69FDD413860" import="1">Lua/Notifications/Nuclear Attack/CustomNotification/NuclearAttackNotification.xml</File>
+    <File md5="BF57ADF990B31C2657D5DE4129A9F48A" import="0">Lua/Notifications/Nuclear Attack/LUA/GAIA_NotifyNuclearAttack.lua</File>
+	
 	<File md5="BF45527DDEE760C8DC3927A6AA41862D" import="0">Modules/Meaningful City State Colors (v 1)/Colors.xml</File>
     <File md5="B9AD45CE8090D0AD73C5127111B785B5" import="0">Modules/Meaningful City State Colors (v 1)/MinorCivs.xml</File>
     <File md5="2B19CB472DEDD167946B3D5649B49F0E" import="0">Modules/Meaningful City State Colors (v 1)/PlayerColors.xml</File>
@@ -424,7 +430,18 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
 	
     <File md5="7F9FBC9A5BD9C658E396DE72AA2AEB23" import="1">Modules/Global Relations (v 7)/XML/UITradeOpportunities.xml</File>
 	
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/Images/Era/1_classical.dds</File>
+	<File md5="834895DAD5B459DA9FCDEA1CB58B77EA" import="1">Art/Images/Era/2_medieval.dds</File>
+	<File md5="348F2F7C8E75CE47A4D1821C199B0789" import="1">Art/Images/Era/3_renaissance.dds</File>
+	<File md5="3F5AA3481015EA64DE6F91BB2310857A" import="1">Art/Images/Era/4_industrial.dds</File>
+	<File md5="329D606D5A481882B7FEB32CF1EE815F" import="1">Art/Images/Era/5_modern.dds</File>
+	<File md5="A8E80F84890D9DB95D387CE7947EF831" import="1">Art/Images/Era/6_worldwar.dds</File>
+	<File md5="6E297292F9AAB986EDDF60179DA55FD0" import="1">Art/Images/Era/7_atomic.dds</File>
+	<File md5="8F8C562CD4FFE353216A15450D95F5C8" import="1">Art/Images/Era/8_information.dds</File>
+	<File md5="E862EEC92B08477D276A5334DEA4D531" import="1">Art/Images/Era/9_future.dds</File>
+	
     <File md5="A413CB811715C8EE85A9933C74B01BD5" import="1">Art/Flags/SPUnitFlags.dds</File>
+	<File md5="949AC914609AED7910E8E90B29E20EC3" import="1">Art/Flags/Strategic/uhlanicon.dds</File>
     <File md5="E09CC6EDD8A756A0534550B637485077" import="1">Art/Flags/Strategic/SPUnitFlags__BombaTsar_.dds</File>
     <File md5="8BE2A50DE3B197BA17F6EEC2CF94A67F" import="1">Art/Flags/Strategic/SPUnitFlags__141.dds</File>
     <File md5="3748B5C2D475A2C7D41C2632D592A05D" import="1">Art/Flags/Strategic/SPUnitFlags__A10.dds</File>
@@ -1313,6 +1330,27 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="4DB8C1D2B17255833878519BA8CF4568" import="1">Art/_Edited_Animations/ModernMarine_Fortify_Idle.gr2</File>
     <File md5="A6DDF301AB9DFC99838E77EC71416A0C" import="1">Art/_Edited_Animations/ModernMarine_Idle.gr2</File>
     <File md5="DCB52786F02DF0FE8C8C64A68733041A" import="1">Art/_Edited_Animations/ModernMarine_Run.gr2</File>
+	
+	<!-- MISC UNITS -->
+	<File md5="009B0A127781BBD53239B6B1D09AB3DA" import="1">XML/Units/Uniques/Art/CovertOpsAtlas032.dds</File>
+    <File md5="04D07066A63CCA5066EB84329A08F3B1" import="1">XML/Units/Uniques/Art/CovertOpsAtlas045.dds</File>
+    <File md5="9E9140D830BC350AB60A5253B7F5CEE7" import="1">XML/Units/Uniques/Art/CovertOpsAtlas064.dds</File>
+    <File md5="DB7CE513E365072F6ED4D0634AAACE4D" import="1">XML/Units/Uniques/Art/CovertOpsAtlas080.dds</File>
+    <File md5="002EE47C0AF3034E82034589F8DF4486" import="1">XML/Units/Uniques/Art/CovertOpsAtlas128.dds</File>
+    <File md5="0B070E23E3F3FA39194DE6CD3092ADAB" import="1">XML/Units/Uniques/Art/CovertOpsAtlas256.dds</File>
+    <File md5="501D2B3AFC7B3BF271ABD285211FB0AE" import="1">XML/Units/Uniques/Art/CovertOpsActionAtlas045.dds</File>
+    <File md5="C38926F4827481DACBA7DDD61958EE8A" import="1">XML/Units/Uniques/Art/CovertOpsActionAtlas064.dds</File>
+    <File md5="7F731E9CAA2463C8EA58390B5E1434B3" import="0">XML/Units/Uniques/Art/CovertOps_AtlasDefinitions.xml</File>
+    <File md5="D455F0756BB51FC242D22FD34FEDBF58" import="1">XML/Units/Uniques/Art/CovertOpsPromotionAtlas032.dds</File>
+    <File md5="F1AABC543AD64E318838EA3B2C0D8489" import="1">XML/Units/Uniques/Art/CovertOpsPromotionAtlas045.dds</File>
+    <File md5="F12E350CAEE7E721B57AB68C67DA944E" import="1">XML/Units/Uniques/Art/CovertOpsPromotionAtlas064.dds</File>
+    <File md5="76CC5347C4205D45C1A0600CFC7A8957" import="1">XML/Units/Uniques/Art/CovertOpsPromotionAtlas256.dds</File>
+    <File md5="E0658813EFBB43EC428F54C6B196E808" import="1">XML/Units/Uniques/Art/CovertOpsAction80.dds</File>
+    <File md5="6DB231FD19B4B2D5C893C9530E4CD6B9" import="1">XML/Units/Uniques/Art/CovertOpsActionGold80.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">XML/Units/Uniques/Art/no_gloss_16x16.dds</File>
+    <File md5="F861DA96D9342C190CFF5454056439B0" import="1">XML/Units/Uniques/Art/sv_covert_operative.dds</File>
+	
+	
     <File md5="F95FABEFBB406F39C31C439BAA512D46" import="0">Lua/AI/NewHandicap.lua</File>
     <File md5="9524ED42A6CDF8B019B030C840AB7EDD" import="0">Lua/Combat/NewUnitsRules.lua</File>
     <File md5="71F68BB2E5EEEA0ABA0CECA5D9288A1F" import="0">Lua/Combat/NewAttackEffects.lua</File>
@@ -2153,6 +2191,18 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="ACF7602F94C7F34456E70B6008861B3D" import="1">Art/Policy/policybranch_industry.dds</File>
 	<File md5="E26DBF00D1CEEAAFACB1E13CB2F2D20E" import="1">Art/Policy/IdeologyOverview_Background_Iska.dds</File>
 	
+	<File md5="DF66D20F971177183D1D34F8C183177B" import="1">Art/Policy/1_tradition.dds</File>
+	<File md5="471F94A7E6B1567249BDEE75C0576B8C" import="1">Art/Policy/2_liberty.dds</File>
+	<File md5="7548E572FD38D61AC14E6E913170A31E" import="1">Art/Policy/3_honor.dds</File>
+	<File md5="9A8502F48466E192E2311DB849E10FAD" import="1">Art/Policy/4_piety.dds</File>
+	<File md5="019E0704B81411208C0BB32D3194FCEC" import="1">Art/Policy/5_patronage.dds</File>
+	<File md5="74B30B9312282904FF65E12F03BDF567" import="1">Art/Policy/6_ideology.dds</File>
+	<File md5="4B15990B055E8F05E8F7E28DBEA60177" import="1">Art/Policy/7_rationalism.dds</File>
+	<File md5="89138ED40219B19183171D5180161871" import="1">Art/Policy/8_exploration.dds</File>
+	<File md5="204BBC8396FB65C9BE2EA9B7F3A1B6FA" import="1">Art/Policy/9_commerce.dds</File>
+	<File md5="02CC02E005AA205EAD0FAF1A9606C4BB" import="1">Art/Policy/10_aesthetics.dds</File>
+	
+	
 	<!-- JFD BUILDING CODE -->
 	<File md5="0277DDAA4619E0EA3E56F0091BE6D31A" import="0">Lua/Misc/JFD_BuildingClassesNeededInCityOR.lua</File>
 	
@@ -2250,7 +2300,7 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="31D2FC4C0010C0A9FB8942CE40BE386C" import="0">XML/UC/Japan/JapanHokura_Mountain.xml</File>
     <File md5="952F44234C1B1C34526609D753ED6531" import="0">XML/UC/Korea/KoreaHallOfWorthies.xml</File>
     <File md5="80690507D36304696F2C15F796C61F37" import="0">XML/UC/Maya/MayaSacbe.xml</File>
-    <File md5="45C12A9D400BA5FDF8ACA2DB3D3E5399" import="0">XML/UC/Mongolia/IconGolde32.dds</File>
+    <File md5="45C12A9D400BA5FDF8ACA2DB3D3E5399" import="1">XML/UC/Mongolia/IconGolde32.dds</File>
     <File md5="1D2940126D6320D638075531AFFAD1F1" import="0">XML/UC/Mongolia/IconGoldeSV.dds</File>
     <File md5="585325DE7F091CA73A9F540304581D6E" import="0">XML/UC/Mongolia/Knight_Mongol.dds</File>
     <File md5="15ACE682FCEF4CBBEA90BC128C8E7402" import="0">XML/UC/Mongolia/Knight_Mongol.fxsxml</File>
@@ -2274,7 +2324,7 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="10ADC0F87643EAD4CE615FC831715293" import="0">XML/UC/Poland/gerlr1_sref.dds</File>
     <File md5="723269E0C8528D81CD69BFC9AA3A8D2B" import="0">XML/UC/Poland/Uhlan.sql</File>
     <File md5="6D780D41C32D7FFF534EC8BA6AF9E16E" import="0">XML/UC/Poland/Uhlan.xml</File>
-    <File md5="949AC914609AED7910E8E90B29E20EC3" import="0">XML/UC/Poland/uhlanicon.dds</File>
+    
     <File md5="FBAFEE372115A4304247A1BCE1E81466" import="0">XML/UC/Polynesia/FaleTele.sql</File>
     <File md5="22C7DA8F2DB09FBE38688CB3D2D14C39" import="0">XML/UC/Polynesia/FaleTele.xml</File>
     <File md5="EB6544330DDC7C9FA03AD120A07D1F37" import="0">XML/UC/Portugal/PortugalWinery.lua</File>
@@ -3663,6 +3713,7 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
       <UpdateDatabase>Modules/Global Relations (v 7)/XML/InfoAddictText_RU.xml</UpdateDatabase>
 	  -->
       <UpdateDatabase>Modules/Global Relations (v 7)/XML/UITradeOpportunities.xml</UpdateDatabase>
+	  <UpdateDatabase>XML/Units/Uniques/Art/CovertOps_AtlasDefinitions.xml</UpdateDatabase>
 	  
       <UpdateDatabase>SQL/Deletor.sql</UpdateDatabase>
       <UpdateDatabase>Art/xml/IconAtlases.xml</UpdateDatabase>
@@ -4267,7 +4318,15 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
       <Description>Global Relations Code</Description>
     </EntryPoint>
 	
+	<EntryPoint type="InGameUIAddin" file="Lua/Notifications/Nuclear Attack/LUA/GAIA_NotifyNuclearAttack.lua">
+      <Name>NotifyNuclearAttack</Name>
+      <Description>NotifyNuclearAttack</Description>
+    </EntryPoint>
 	
+    <EntryPoint type="CustomNotificationAddin" file="Lua/Notifications/Nuclear Attack/CustomNotification/NuclearAttackNotification.lua">
+      <Name>NuclearAttackNotification</Name>
+      <Description>NuclearAttackNotification</Description>
+    </EntryPoint>
 	
   </EntryPoints>
 </Mod>

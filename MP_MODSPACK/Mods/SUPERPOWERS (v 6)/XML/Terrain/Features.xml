@@ -46,6 +46,13 @@
 			<Set Movement="4"/>
 			<Where Type="FEATURE_MARSH"/>
 		</Update>
+
+		<!-- FALLOUT DAMAGE -->
+		<Update>
+			<Set TurnDamage="10"/>
+			<Where Type="FEATURE_FALLOUT"/>
+		</Update>
+
 	</Features>
 
 
