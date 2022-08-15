@@ -68,8 +68,9 @@
 		<Replace Tag="TXT_KEY_TRAIT_WONDER_BUILDER_SHORT">
 			<Text>The Gift from the Nile</Text>
 		</Replace>
+	<!--	Egypt nerfed UA	-->
 		<Replace Tag="TXT_KEY_TRAIT_WONDER_BUILDER">
-			<Text>[ICON_BULLET]+4 [ICON_GOLD] Gold and +4 [ICON_PRODUCTION] in every tile next to a river. [NEWLINE][ICON_BULLET]+12 [ICON_RES_MANPOWER] Manpower per city. +25% [ICON_PRODUCTION] Production towards Wonder construction. [NEWLINE][ICON_BULLET]Egypt and it's magnificent capital grants +20% [ICON_PRODUCTION]production towards buildings in the capital.</Text>
+			<Text>[ICON_BULLET]+1 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] in every tile next to a river. [NEWLINE][ICON_BULLET]+6 [ICON_RES_MANPOWER] Manpower per city. +25% [ICON_PRODUCTION] Production towards Wonder construction. [NEWLINE][ICON_BULLET]Egypt and it's magnificent capital grants +15% [ICON_PRODUCTION]production towards buildings in the capital.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_SOLIDARITY_SHORT">

@@ -6,6 +6,438 @@
 
 	<Language_en_US>
 		
+		<!-- NEW TREES -->		
+
+		<!-- PROSPERITY -->
+
+		<Row Tag="TXT_KEY_POLICY_BRANCH_ORDER1">
+			<Text>Prosperity</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_BRANCH_ORDER1_CAP">
+			<Text>PROSPERITY</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_BRANCH_ORDER1_HELP">
+			<Text>
+				[COLOR_POSITIVE_TEXT]Prosperity[ENDCOLOR] guides our nation to a materialist and mercantilist path.
+				[NEWLINE]"For the human condition is but a struggle for capital and it's acquisition."
+				[NEWLINE][NEWLINE]Opening Effects:
+				[NEWLINE][ICON_BULLET]50% of [ICON_CULTURE] Culture is converted to [ICON_HAPPINESS_1] Happiness.
+				[NEWLINE][ICON_BULLET]Roads and Railways cost [ICON_INVEST] no maintenance.
+								
+				[NEWLINE][NEWLINE]Finishing Bonus:
+				[NEWLINE][ICON_BULLET]+25% [ICON_GREAT_PEOPLE] Great Person Generation
+				[NEWLINE][ICON_BULLET]Free [ICON_GREAT_PEOPLE] Great Person				
+			</Text>
+		</Row>
+
+		<!-- HARMONY -->
+
+		<Row Tag="TXT_KEY_POLICY_BRANCH_FREEDOM1">
+			<Text>Harmony</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_BRANCH_FREEDOM1_CAP">
+			<Text>HARMONY</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_BRANCH_FREEDOM1_HELP">
+			<Text>
+				[COLOR_POSITIVE_TEXT]Harmony[ENDCOLOR] guides our nation to an environmentalist and sustainable future.
+				[NEWLINE]"The forces of nature are not to be reckoned, but cooperated with."
+				[NEWLINE][NEWLINE]Opening Effects:
+				[NEWLINE][ICON_BULLET]+25% [ICON_CITIZEN] Pop Growth.
+				[NEWLINE][ICON_BULLET]New [ICON_CITY_STATE] Cities start with +5 [ICON_CITIZEN] Population.
+								
+				[NEWLINE][NEWLINE]Finishing Bonus:
+				[NEWLINE][ICON_BULLET]Starts a [ICON_GOLDEN_AGE] Golden Age for 20 turns.
+			</Text>
+		</Row>
+
+		<!-- DOMINATION -->
+
+		<Row Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY1">
+			<Text>Domination</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY1_CAP">
+			<Text>DOMINATION</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY1_HELP">
+			<Text>
+				[COLOR_POSITIVE_TEXT]Domination[ENDCOLOR] shapes our nation into an Imperialistic and Hegemonic power.
+				[NEWLINE]"True peace can only be achieved by total Hegemonic Domination of all parts of the sum."
+				[NEWLINE][NEWLINE]Opening Effects:
+				[NEWLINE][ICON_BULLET]-33% [ICON_INVEST] cost of purchasing units.
+				[NEWLINE][ICON_BULLET]+50% chance of capturing [ICON_SPY] enemy spies.
+								
+				[NEWLINE][NEWLINE]Finishing Bonus:
+				[NEWLINE][ICON_BULLET]-15% [ICON_STRENGTH][ICON_GOLD] unit maintenance.
+			</Text>
+		</Row>
+
+		<!-- PROSPERITY POLICY TEXTS -->
+
+		<Row Tag="TXT_KEY_POLICY_ENTERPRISE">
+			<Text>Commercial Enterprise</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_ENTERPRISE_TEXT">
+			<Text>Commercial Enterprise</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_ENTERPRISE_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]Commercial Enterprise[ENDCOLOR]
+			[NEWLINE]+2 [ICON_GOLD] Gold per [ICON_CITIZEN] Merchant.
+			[NEWLINE]+2 [RESOURCE_CONSUMER] Consumer Goods per [ICON_CITIZEN] Merchant.
+			</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_PROFIT">
+			<Text>The Pursuit of Profit</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_PROFIT_TEXT">
+			<Text>The Pursuit of Profit</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_PROFIT_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]The Pursuit of Profit[ENDCOLOR]
+			[NEWLINE]+15% [ICON_GOLD] Gold from [ICON_INTERNATIONAL_TRADE] Trade Routes
+			[NEWLINE]+1 [ICON_INTERNATIONAL_TRADE] Trade Route per City.
+			</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_WELFARE">
+			<Text>Collective Welfare</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_WELFARE_TEXT">
+			<Text>Collective Welfare</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_WELFARE_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]Collective Welfare[ENDCOLOR]
+			[NEWLINE]+4 [ICON_HAPPINESS_1] from [ICON_GOLD] Markets, Banks and Stock Exchanges.
+			[NEWLINE]+4 [ICON_CULTURE] from [ICON_GOLD] Markets, Banks and Stock Exchanges.
+			</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_IDEAS">
+			<Text>Marketplace of Ideas</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_IDEAS_TEXT">
+			<Text>Marketplace of Ideas</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_IDEAS_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]Marketplace of Ideas[ENDCOLOR]
+			[NEWLINE]+2 [ICON_CULTURE] Culture per [ICON_CITIZEN] Merchant.
+			[NEWLINE]+2 [ICON_RESEARCH] Science per [ICON_CITIZEN] Merchant.
+			</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_TRICKLE">
+			<Text>Trickle Down Economics</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_TRICKLE_TEXT">
+			<Text>Trickle Down Economics</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_TRICKLE_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]Trickle-Down Economics[ENDCOLOR]
+			[NEWLINE]-20% [ICON_INVEST] Building Maintenance.
+			</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_PATERNAL">
+			<Text>The Paternal State</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_PATERNAL_TEXT">
+			<Text>The Paternal State</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_PATERNAL_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]The Paternal State[ENDCOLOR]
+			[NEWLINE]+15% [ICON_FOOD] Food generated by cities.
+			[NEWLINE]+15% [ICON_CITIZEN] Population Growth Rate.
+			</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_CARDS">
+			<Text>A House of Cards</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_CARDS_TEXT">
+			<Text>A House of Cards</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_CARDS_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]A House of Cards[ENDCOLOR]
+			[NEWLINE][COLOR_WARNING_TEXT]+33% [ICON_INVEST] Military Unit Maintenance.[ENDCOLOR]
+			[NEWLINE]+10% [ICON_CULTURE] Culture Generation.
+			[NEWLINE]+10% [ICON_RESEARCH] Science generation.
+			</Text>	
+		</Row>
+
+		<!-- DOMINATION POLICIES -->
+
+		<Row Tag="TXT_KEY_POLICY_AMBITION">
+			<Text>Global Ambition</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_AMBITION_TEXT">
+			<Text>Global Ambition</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_AMBITION_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]Global Ambition[ENDCOLOR]
+			[NEWLINE]+2 [ICON_SPY] Spies are recruited.
+			[NEWLINE]Elections in [ICON_CITY_STATE] City States are now rigged at double the rate.
+			</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_DIPLO">
+			<Text>Big Stick Diplomacy</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_DIPLO_TEXT">
+			<Text>Big Stick Diplomacy</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_DIPLO_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]Big-Stick Diplomacy[ENDCOLOR]
+			[NEWLINE]+3 votes in the [ICON_DIPLOMAT] World Congress
+			[NEWLINE]Techs are stolen by [ICON_SPY] spies at double the rate.
+			</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_ADMIRALTY">
+			<Text>The Admiralty</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_ADMIRALTY_TEXT">
+			<Text>The Admiralty</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_ADMIRALTY_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]The Admiralty[ENDCOLOR]
+			[NEWLINE]+50% Experience generated by [ICON_WAR] Military Units in Combat.
+			[NEWLINE]+50% Generation of [ICON_GREAT_GENERAL] Great Generals.			
+			</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_ARMADA">
+			<Text>The Grand Armada</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_ARMADA_TEXT">
+			<Text>The Grand Armada</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_ARMADA_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]The Admiralty[ENDCOLOR]
+			[NEWLINE]Free [ICON_INVEST] Maintenance for garrisoned [ICON_WAR] Military Units.
+			[NEWLINE]-10% [ICON_INVEST] Maintenance for [ICON_GREAT_ADMIRAL] Naval Units.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_IMPERIAL">
+			<Text>Imperial Prerogative</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_IMPERIAL_TEXT">
+			<Text>Imperial Prerogative</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_IMPERIAL_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]Imperial Prerogative[ENDCOLOR]
+			[NEWLINE]+10 [ICON_INFLUENCE] Influence for Gifting Units to City States.
+			[NEWLINE]+5 [ICON_INFLUENCE] Influence generated by Trade Routes with City States per turn.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_BYZANTINE">
+			<Text>Byzantine Bureaucracy</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_BYZANTINE_TEXT">
+			<Text>Byzantine Bureaucracy</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_BYZANTINE_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]Byzantine Bureaucracy[ENDCOLOR]
+			[NEWLINE]+10 [ICON_CULTURE] Culture generated per City.
+			[NEWLINE]+10% [ICON_PRODUCTION] Production when constructing Buildings.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_FEDERATION">
+			<Text>The Federation</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_FEDERATION_TEXT">
+			<Text>The Federation</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_FEDERATION_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]The Federation[ENDCOLOR]
+			[NEWLINE]Allied City States provide 100% of their [ICON_RESEARCH] Science Output.
+			[NEWLINE]Luxuries donated by City States provide double [ICON_HAPPINESS_1] happiness. 
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_GAME">
+			<Text>The Great Game</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_GAME_TEXT">
+			<Text>The Great Game</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_GAME_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]The Great Game[ENDCOLOR]
+			[NEWLINE][COLOR_WARNING_TEXT]+33% [ICON_HAPPINESS_4] Unhappiness generated by opposition to belligerent Foreign Policy.[ENDCOLOR]
+			[NEWLINE]+1 [ICON_HAPPINESS_1] Happiness generated by each [ICON_WAR] Military Unit.
+			[NEWLINE]+10% [ICON_PRODUCTION] Production towards [ICON_WAR] Military Units.
+			</Text>
+		</Row>
+
+		<!-- HARMONY -->
+
+		<Row Tag="TXT_KEY_POLICY_ONE_VISION">
+			<Text>One Vision</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_ONE_VISION_TEXT">
+			<Text>One Vision</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_ONE_VISION_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]One Vision[ENDCOLOR]
+			[NEWLINE]+2 [ICON_CULTURE] Culture from Mines.
+			[NEWLINE]+2 [ICON_CULTURE] Culture from Lumber Mills.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_BIOPHILIA">
+			<Text>Biophilia</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_BIOPHILIA_TEXT">
+			<Text>Biophilia</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_BIOPHILIA_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]Biophilia[ENDCOLOR]
+			[NEWLINE]+2 [ICON_FOOD] Food from Farms.
+			[NEWLINE]+2 [ICON_FOOD] Food from Fishing Nets.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_ENIGMATIC">
+			<Text>Enigmatic Engineering</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_ENIGMATIC_TEXT">
+			<Text>Enigmatic Engineering</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_ENIGMATIC_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]Enigmatic Engineering[ENDCOLOR]
+			[NEWLINE]+15% [ICON_FOOD] Population growth rate.
+			[NEWLINE]-15% [ICON_GOLD] Building Maintenance.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_MASTERY">
+			<Text>Mastery of Nature</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_MASTERY_TEXT">
+			<Text>Mastery of Nature</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_MASTERY_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]Mastery of Nature[ENDCOLOR]
+			[NEWLINE]+100% [ICON_WORKER] work rate for Workers.
+			[NEWLINE]+2 [ICON_ARROW_RIGHT] Movement for Embarked Units.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_PERFECTION">
+			<Text>Engineered Perfection</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_PERFECTION_TEXT">
+			<Text>Engineered Perfection</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_PERFECTION_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]Engineered Perfection[ENDCOLOR]
+			[NEWLINE]+3 [ICON_RESEARCH] Free Techs.
+			[NEWLINE]+33% [ICON_CULTURE] from World Wonders.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_SERENE">
+			<Text>The Serene Realm</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_SERENE_TEXT">
+			<Text>The Serene Realm</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_SERENE_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]The Serene Realm[ENDCOLOR]
+			[NEWLINE]+10% [ICON_RESEARCH] Science output.
+			[NEWLINE]-15% [ICON_CULTURE] Policy cost.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_STAND">
+			<Text>United We Stand</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_STAND_TEXT">
+			<Text>United We Stand</Text>	
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_STAND_HELP">
+			<Text>
+			[COLOR_POSITIVE_TEXT]United We Stand[ENDCOLOR]
+			[NEWLINE]+10 [ICON_CULTURE] Culture for every [ICON_WAR] Garrisoned Unit.
+			[NEWLINE]+10% [ICON_PRODUCTION] Production for [ICON_WAR] Military Units.
+			</Text>
+		</Row>
+
+		
 
 		<!--  ****************   T R A D I T I O N ****************   -->
 

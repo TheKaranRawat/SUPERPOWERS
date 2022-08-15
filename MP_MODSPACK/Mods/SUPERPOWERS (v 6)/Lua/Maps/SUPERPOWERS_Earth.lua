@@ -10,7 +10,7 @@ include("MapGenerator");
 
 function GetMapScriptInfo()
 	return {
-		Name = "Superpowers earth map (lua)",
+		Name = "SUPERPOWERS Earth TSL",
 		Description = [[Converted map by Civ5Map to LUA-script Tools v.1.0.2 [2013.07.31].
 Map size: 119x63]],
 		SupportsSinglePlayer = true,

@@ -7,10 +7,9 @@
 			<Type>BUILDING_HOUSE_GARDEN</Type>
 			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
 			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
-			<Cost>60</Cost>
+			<Cost>20</Cost>
 			<GoldMaintenance>0</GoldMaintenance>
 			<AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
-			<PrereqTech>TECH_POTTERY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_HOUSE_GARDEN</Description>
 			<Civilopedia>TXT_KEY_BUILDING_HOUSE_GARDEN_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_HOUSE_GARDEN_STRATEGY</Strategy>
@@ -21,6 +20,9 @@
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>24</PortraitIndex>
+			<ObsoleteTech>TECH_FERTILIZER</ObsoleteTech>
+			<EnhancedYieldTech>TECH_MASS_MEDIA</EnhancedYieldTech>
+			<TechEnhancedTourism>1</TechEnhancedTourism>
 		</Row>
 	</Buildings>
 
@@ -31,7 +33,13 @@
 			<Yield>2</Yield>
 		</Row>
 	</Building_YieldChanges>
-
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_YieldModifiers>
 	<Building_Flavors>
 		<Row>
 			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>

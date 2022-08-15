@@ -6,8 +6,8 @@
 		<Row>
 			<Type>BUILDING_INTIWASI</Type>
 			<BuildingClass>BUILDINGCLASS_GRAND_TEMPLE</BuildingClass>
-			<Cost>125</Cost>
-			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<Cost>50</Cost>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_INTIWASI</Description>
 			<Civilopedia>TXT_KEY_BUILDING_INTIWASI_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_INTIWASI_STRATEGY</Strategy>

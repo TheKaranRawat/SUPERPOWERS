@@ -7,10 +7,10 @@
 			<Type>UNIT_GOLDENHORDE</Type>
 			<PrereqTech>TECH_METALLURGY</PrereqTech>
 			<Combat>25</Combat>
-			<Cost>185</Cost>
+			<Cost>250</Cost>
 			<FaithCost>370</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>4</Moves>
+			<Moves>5</Moves>
 			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>

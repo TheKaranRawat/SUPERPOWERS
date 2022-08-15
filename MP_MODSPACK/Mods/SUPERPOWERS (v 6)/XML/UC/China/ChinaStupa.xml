@@ -7,9 +7,9 @@
 			<Type>BUILDING_STUPA</Type>
 			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<Cost>100</Cost>
+			<Cost>50</Cost>
 			<GoldMaintenance>0</GoldMaintenance>
-			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_STUPA</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STUPA_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_STUPA_STRATEGY</Strategy>
@@ -27,7 +27,7 @@
 		<Row>
 			<BuildingType>BUILDING_STUPA</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STUPA</BuildingType>

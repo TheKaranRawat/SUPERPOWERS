@@ -4,9 +4,9 @@
 		<Row>
 			<Type>BUILDING_SALOON</Type>
 			<BuildingClass>BUILDINGCLASS_WINDMILL</BuildingClass>
-			<Cost>250</Cost>
-			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_ECONOMICS</PrereqTech>
+			<Cost>60</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SALOON</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SALOON_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_SALOON_STRATEGY</Strategy>
@@ -14,26 +14,26 @@
 			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
 			<PlotCultureCostModifier>-25</PlotCultureCostModifier>
 			<Happiness>1</Happiness>
-			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
-			<BuildingProductionModifier>10</BuildingProductionModifier>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>29</PortraitIndex>
+			<ObsoleteTech>TECH_INDUSTRIALIZATION</ObsoleteTech>
+			<EnhancedYieldTech>TECH_MASS_MEDIA</EnhancedYieldTech>
+			<TechEnhancedTourism>1</TechEnhancedTourism>
 		</Row>
 	</Buildings>
 	<Building_Flavors>
 		<Row>
 			<BuildingType>BUILDING_SALOON</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>50</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SALOON</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>30</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SALOON</BuildingType>
@@ -45,30 +45,31 @@
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>40</Flavor>
 		</Row>
-		<Row>
-			<BuildingType>BUILDING_SALOON</BuildingType>
-			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
-			<Flavor>2</Flavor>
-		</Row>
 	</Building_Flavors>
 
 	<Building_YieldChanges>
 		<Row>
 			<BuildingType>BUILDING_SALOON</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>6</Yield>
+			<Yield>4</Yield>
 		</Row>
 	</Building_YieldChanges>
-
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_SALOON</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+	</Building_YieldModifiers>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_SALOON">
 			<Text>[ICON_PRODUCTION] Saloon</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SALOON_HELP">
-			<Text>Increases a city's [ICON_PRODUCTION] Production and [ICON_HAPPINESS_1] Happiness. Increases the rate of border growth by 25%. Increases [ICON_PRODUCTION] Production when constructing buildings by 10%. Only America can build it.</Text>
+			<Text>Increases a city's [ICON_PRODUCTION] Production and [ICON_HAPPINESS_1] Happiness. Increases the rate of border growth by 25%. Increases [ICON_PRODUCTION] Production by 4. Increases [ICON_FOOD] Food in the city by 15%. Only America can build it.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SALOON_STRATEGY">
-			<Text>The Saloon is an American unique building that increases the [ICON_PRODUCTION] Production of a city. Unlike the Windmill it replaces, it does not require flat land, yields [ICON_HAPPINESS_1] Happiness, and increases the rate of border growth.</Text>
+			<Text>The Saloon is an American unique building that increases the [ICON_PRODUCTION] Production and [ICON_FOOD] Food of a city. Unlike the Windmill it replaces, it does not require flat land, yields [ICON_HAPPINESS_1] Happiness, and increases the rate of border growth.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SALOON_TEXT">
 			<Text>A Western saloon is a kind of bar particular to the Old West. Saloons served customers such as fur trappers, cowboys, soldiers, prospectors, miners, and gamblers. The first saloon was established at Brown's Hole, Wyoming, in 1822. By the late 1850s the term saloon had begun to appear in directories and common usage as a term for an establishment that specialized in beer and liquor sales by the drink, with food and lodging as secondary concerns in some places. By 1880, the growth of saloons were in full swing. In Leavenworth, Kansas there were "about 150 saloons and four wholesale liquor houses"</Text>

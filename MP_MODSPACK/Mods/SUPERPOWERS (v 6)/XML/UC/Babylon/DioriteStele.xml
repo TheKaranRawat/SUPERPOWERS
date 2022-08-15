@@ -5,7 +5,7 @@
 			<Type>BUILDING_HAMMER_MONUMENT</Type>
 			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
 			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
-			<Cost>40</Cost>
+			<Cost>30</Cost>
 			<Help>TXT_KEY_BUILDING_HAMMER_MONUMENT_HELP</Help>
 			<Description>TXT_KEY_BUILDING_HAMMER_MONUMENT</Description>
 			<Civilopedia>TXT_KEY_BUILDING_HAMMER_MONUMENT_TEXT</Civilopedia>
@@ -59,7 +59,7 @@
 			<Text>[ICON_CULTURE] Diorite Stele</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HAMMER_MONUMENT_HELP">
-			<Text>Increases the [ICON_CULTURE] Culture of a city and contributes to the generation of a [ICON_GREAT_SCIENTIST] Great Scientist. Only Babylon may build it.</Text>
+			<Text>Increases the [ICON_CULTURE] Culture of a city and contributes to the generation of a [ICON_GREAT_SCIENTIST] Great Scientist. Recieves an extra [ICON_CULTURE] after researching Writing. Only Babylon may build it.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HAMMER_MONUMENT_STRATEGY">
 			<Text>The Diorite Stele is a Babylonian unique building that increases the [ICON_CULTURE] Culture of a city. Unlike the Monument it replaces, the Diorite Stele costs no maintenance, contributes points toward the generation of a [ICON_GREAT_SCIENTIST] Great Scientist, and yields additional [ICON_CULTURE] Culture upon the discovery of Writing.</Text>

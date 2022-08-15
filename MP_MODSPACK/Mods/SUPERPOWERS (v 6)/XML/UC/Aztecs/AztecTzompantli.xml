@@ -4,16 +4,16 @@
 		<Row>
 			<Type>BUILDING_TZOMPANTLI</Type>
 			<BuildingClass>BUILDINGCLASS_WALLS</BuildingClass>
-			<Cost>50</Cost>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Cost>25</Cost>
+			<PrereqTech>TECH_BRONZE_MASONRY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_TZOMPANTLI_HELP</Help>
 			<Description>TXT_KEY_BUILDING_TZOMPANTLI</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TZOMPANTLI_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_TZOMPANTLI_STRATEGY</Strategy>
 			<MinAreaSize>-1</MinAreaSize>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
-			<Defense>500</Defense>
-			<ExtraCityHitPoints>50</ExtraCityHitPoints>
+			<Defense>1000</Defense>
+			<ExtraCityHitPoints>25</ExtraCityHitPoints>
 			<CityWall>true</CityWall>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>

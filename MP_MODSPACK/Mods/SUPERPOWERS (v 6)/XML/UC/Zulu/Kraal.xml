@@ -4,7 +4,7 @@
 		<Row>
 			<Type>BUILDING_KRAAL</Type>
 			<BuildingClass>BUILDINGCLASS_STABLE</BuildingClass>
-			<Cost>100</Cost>
+			<Cost>75</Cost>
 			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
 			<GoldMaintenance>1</GoldMaintenance>
 			<Help>TXT_KEY_BUILDING_KRAAL_HELP</Help>

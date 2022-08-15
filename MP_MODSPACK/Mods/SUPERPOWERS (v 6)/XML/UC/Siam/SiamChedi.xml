@@ -5,9 +5,9 @@
 			<Type>BUILDING_CHEDI</Type>
 			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<Cost>100</Cost>
+			<Cost>50</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_CHEDI_HELP</Help>
 			<Description>TXT_KEY_BUILDING_CHEDI</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CHEDI_TEXT</Civilopedia>

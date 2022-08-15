@@ -78,13 +78,14 @@
 			<FasterInHills>1</FasterInHills> 
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
 		</Row>
+	<!--	Egypt 15% boost for buildings	-->	
 		<Row>
 			<Type>TRAIT_WONDER_BUILDER</Type>
 			<Description>TXT_KEY_TRAIT_WONDER_BUILDER</Description>
 			<ShortDescription>TXT_KEY_TRAIT_WONDER_BUILDER_SHORT</ShortDescription>
 			<WonderProductionModifier>25</WonderProductionModifier>
 			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
-			<CapitalBuildingModifier>20</CapitalBuildingModifier> 
+			<CapitalBuildingModifier>15</CapitalBuildingModifier> 
 			<FreeBuilding>BUILDING_TB_TRAIT_WONDER_BUILDER</FreeBuilding>
 		</Row>
 	</Traits>
@@ -2225,18 +2226,18 @@
 
 	</Building_YieldChanges>
 
-
+<!--	Egypt river (1p,1g)	-->
 	<Building_RiverPlotYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_TB_TRAIT_WONDER_BUILDER</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>1</Yield>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_TB_TRAIT_WONDER_BUILDER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>4</Yield>
+			<Yield>1</Yield>
 		</Row>
 
 
@@ -2247,7 +2248,7 @@
 		<Row>
 			<BuildingType>BUILDING_TB_TRAIT_WONDER_BUILDER</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>12</Quantity>
+			<Quantity>6</Quantity>
 		</Row>
 
 		<Row>

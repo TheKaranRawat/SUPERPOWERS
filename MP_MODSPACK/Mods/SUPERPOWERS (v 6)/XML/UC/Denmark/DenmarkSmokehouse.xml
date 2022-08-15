@@ -7,10 +7,9 @@
 			<Type>BUILDING_SMOKEHOUSE</Type>
 			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
 			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
-			<Cost>60</Cost>
+			<Cost>20</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
-			<PrereqTech>TECH_POTTERY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMOKEHOUSE</Description>
 			<Help>TXT_KEY_BUILDING_SMOKEHOUSE_HELP</Help>
 			<Strategy>TXT_KEY_BUILDING_SMOKEHOUSE_STRATEGY</Strategy>
@@ -139,6 +138,13 @@
 			<Yield>2</Yield>
 		</Row>
 	</Building_YieldChanges>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_YieldModifiers>
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_SMOKEHOUSE">

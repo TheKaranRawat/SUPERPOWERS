@@ -7,7 +7,7 @@
 			<Type>BUILDING_KOUROS</Type>
 			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
 			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
-			<Cost>40</Cost>
+			<Cost>30</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
 			<Description>TXT_KEY_BUILDING_KOUROS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_KOUROS_TEXT</Civilopedia>
@@ -28,7 +28,7 @@
 		<Row>
 			<BuildingType>BUILDING_KOUROS</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>6</Yield>
+			<Yield>3</Yield>
 		</Row>
 	</Building_YieldChanges>
 

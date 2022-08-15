@@ -129,8 +129,12 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
-
 		
+		<Row>
+			<PolicyType>POLICY_ISKA_UNITED_FRONT</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
 
 
 	</Policy_SpecialistExtraYields>
@@ -301,6 +305,24 @@
 			<PolicyType>POLICY_STATECRAFT</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
 			<CultureChange>2</CultureChange>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_PLANNED_ECONOMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			<CultureChange>4</CultureChange>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_PLANNED_ECONOMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+			<CultureChange>4</CultureChange>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_PLANNED_ECONOMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClassType>
+			<CultureChange>4</CultureChange>
 		</Row>
 	
 
@@ -1173,6 +1195,26 @@
 			<BuildingClassType>BUILDINGCLASS_PROCURATORATE</BuildingClassType>
 			<Happiness>10</Happiness>
 		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_PLANNED_ECONOMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_PLANNED_ECONOMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_PLANNED_ECONOMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClassType>
+			<Happiness>4</Happiness>
+		</Row>
+
+		
 	</Policy_BuildingClassHappiness>
 	
 
@@ -1389,6 +1431,40 @@
 			<Yield>3</Yield>
 		</Row>
 
+		<!-- NEW POLICIES -->
+		<Row>
+			<PolicyType>POLICY_ISKA_UNIVERSAL_SUFFRAGE</PolicyType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_UNIVERSAL_SUFFRAGE</PolicyType>
+			<ImprovementType>IMPROVEMENT_FISHERY_MOD</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_UNIVERSAL_SUFFRAGE</PolicyType>
+			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_UNIVERSAL_SUFFRAGE</PolicyType>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		
+		
+
+		
+
 	</Policy_ImprovementYieldChanges>
 
 	<Policy_ImprovementCultureChanges>
@@ -1397,6 +1473,20 @@
 			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
 			<CultureChange>4</CultureChange>
 		</Row>-->
+
+		<Row>
+			<PolicyType>POLICY_ISKA_CONSTITUTION</PolicyType>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<CultureChange>2</CultureChange>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_CONSTITUTION</PolicyType>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<CultureChange>2</CultureChange>
+		</Row>
+
+
 		<Row>
 			<PolicyType>POLICY_NEW_DEAL</PolicyType>
 			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
@@ -2189,6 +2279,14 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>10</Yield>
 		</Row>
+
+		<Row>
+			<PolicyType>POLICY_SERENE_REALM</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+
+
 	</Policy_YieldModifiers>
 
 	
@@ -2220,6 +2318,134 @@
 			<PolicyType>POLICY_EXPLORATION</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_EXPLORATION_REMOVE_DEBUFF</BuildingClassType>
 		</Row>
+
+		<!-- PROSPERITY FREE BUILDING CLASSES -->
+
+		<Row>
+			<PolicyType>POLICY_ISKA_ORDER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PROSPERITY_OPENER</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_NATIONALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PURSUIT_PROFIT</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_SOCIALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MARKET_IDEAS</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_PATERNAL_STATE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PATERNAL_STATE</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_HOUSE_CARDS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HOUSE_CARDS</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_ORDER_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PROSPERITY_FINISHER</BuildingClassType>
+		</Row>
+
+		<!-- DOMINATION FREE BUILDING CLASSES -->
+
+		<Row>
+			<PolicyType>POLICY_ISKA_AUTOCRACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_DOMINATION_OPENER</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_POPULISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GLOBAL_AMBITION</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_MILITARISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BIG_STICK</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_FASCISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ADMIRALTY</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_POLICE_STATE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_ARMADA</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_TOTAL_WAR</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_IMPERIAL_PREROG</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_BYZ_BUREAU</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BYZ_BUR</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_FEDERATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FEDERATION</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_GREAT_GAME</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GREAT_GAME</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_AUTOCRACY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_DOMINATION_FINISHER</BuildingClassType>
+		</Row>
+		
+		<!-- HARMONY FREE BUILDING CLASSES -->
+
+		<Row>
+			<PolicyType>POLICY_ISKA_FREEDOM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HARMONY_OPENER</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_CONSTITUTION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ONE_VISION</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_UNIVERSAL_SUFFRAGE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BIOPHILIA</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_CIVIL_SOCIETY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ENIGMATIC_ENG</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_FREE_SPEECH</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MASTERY_NATURE</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_DEMOCRACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ENG_PERFECTION</BuildingClassType>
+		</Row>
+
+		
+
+		<Row>
+			<PolicyType>POLICY_UNITED_STAND</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UNITED_STAND</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_FREEDOM_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HARMONY_FINISHER</BuildingClassType>
+		</Row>
 		
 	</Policy_FreeBuildingClass>
 
@@ -2228,6 +2454,14 @@
 			<PolicyType>POLICY_MERCHANT_CONFEDERACY</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_PATRONAGE_TRADEROUTE</BuildingClassType>
 		</Row>
+
+		<Row>
+			<PolicyType>POLICY_SERENE_REALM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SERENE_REALM</BuildingClassType>
+		</Row>
+
+		
+
 		<!--<Row>
 			<PolicyType>POLICY_REPRESENTATION</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_REPRESENTATION_CULTURE</BuildingClassType>
@@ -2312,7 +2546,165 @@
 			<DefaultBuilding>BUILDING_TRADITION_FINISHER_BONUS</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_TRADITION_FINISHER_BONUS</Description>
 		</Row>
+
+		<!-- PROSPERITY BUILDING CLASSES -->
+
+		<Row>
+			<Type>BUILDINGCLASS_PURSUIT_PROFIT</Type>
+			<DefaultBuilding>BUILDING_PURSUIT_PROFIT</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_MARKET_IDEAS</Type>
+			<DefaultBuilding>BUILDING_MARKET_IDEAS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_PATERNAL_STATE</Type>
+			<DefaultBuilding>BUILDING_PATERNAL_STATE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_HOUSE_CARDS</Type>
+			<DefaultBuilding>BUILDING_HOUSE_CARDS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_PROSPERITY_OPENER</Type>
+			<DefaultBuilding>BUILDING_PROSPERITY_OPENER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_PROSPERITY_FINISHER</Type>
+			<DefaultBuilding>BUILDING_PROSPERITY_FINISHER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
 		
+		<!-- DOMINAITON BUILDING CLASSES -->
+
+		<Row>
+			<Type>BUILDINGCLASS_DOMINATION_OPENER</Type>
+			<DefaultBuilding>BUILDING_DOMINATION_OPENER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_GLOBAL_AMBITION</Type>
+			<DefaultBuilding>BUILDING_GLOBAL_AMBITION</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_BIG_STICK</Type>
+			<DefaultBuilding>BUILDING_BIG_STICK</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_ADMIRALTY</Type>
+			<DefaultBuilding>BUILDING_ADMIRALTY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_GRAND_ARMADA</Type>
+			<DefaultBuilding>BUILDING_GRAND_ARMADA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_IMPERIAL_PREROG</Type>
+			<DefaultBuilding>BUILDING_IMPERIAL_PREROG</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_BYZ_BUR</Type>
+			<DefaultBuilding>BUILDING_BYZ_BUR</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_FEDERATION</Type>
+			<DefaultBuilding>BUILDING_FEDERATION</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_GREAT_GAME</Type>
+			<DefaultBuilding>BUILDING_GREAT_GAME</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_DOMINATION_FINISHER</Type>
+			<DefaultBuilding>BUILDING_DOMINATION_FINISHER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<!-- HARMONY BUILDING CLASSES -->
+
+		<Row>
+			<Type>BUILDINGCLASS_HARMONY_OPENER</Type>
+			<DefaultBuilding>BUILDING_HARMONY_OPENER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_ONE_VISION</Type>
+			<DefaultBuilding>BUILDING_ONE_VISION</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_BIOPHILIA</Type>
+			<DefaultBuilding>BUILDING_BIOPHILIA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_ENIGMATIC_ENG</Type>
+			<DefaultBuilding>BUILDING_ENIGMATIC_ENG</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_MASTERY_NATURE</Type>
+			<DefaultBuilding>BUILDING_MASTERY_NATURE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_ENG_PERFECTION</Type>
+			<DefaultBuilding>BUILDING_ENG_PERFECTION</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_SERENE_REALM</Type>
+			<DefaultBuilding>BUILDING_SERENE_REALM</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_UNITED_STAND</Type>
+			<DefaultBuilding>BUILDING_UNITED_STAND</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_HARMONY_FINISHER</Type>
+			<DefaultBuilding>BUILDING_HARMONY_FINISHER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<!-- FIN -->
+
 		<Row>
 			<Type>BUILDINGCLASS_PATRONAGE_TRADEROUTE</Type>
 			<DefaultBuilding>BUILDING_PATRONAGE_TRADEROUTE</DefaultBuilding>
@@ -2533,6 +2925,373 @@
 			<Help>TXT_KEY_BUILDING_TRADITION_FINISHER_BONUS_HELP</Help>
 			<GreatWorkCount>-1</GreatWorkCount>
 		</Row>
+
+		<!-- PROSPERITY POLICY BUILDINGS -->
+
+		<Row>
+			<Type>BUILDING_PURSUIT_PROFIT</Type>
+			<BuildingClass>BUILDINGCLASS_PURSUIT_PROFIT</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<TradeRouteRecipientBonus>15</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>15</TradeRouteTargetBonus>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_MARKET_IDEAS</Type>
+			<BuildingClass>BUILDINGCLASS_MARKET_IDEAS</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_PATERNAL_STATE</Type>
+			<BuildingClass>BUILDINGCLASS_PATERNAL_STATE</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			<FoodKept>15</FoodKept>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_HOUSE_CARDS</Type>
+			<BuildingClass>BUILDINGCLASS_HOUSE_CARDS</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<!-- DOMINATION POLICY FREE BUILDINGS -->
+
+		<Row>
+			<Type>BUILDING_DOMINATION_OPENER</Type>
+			<BuildingClass>BUILDINGCLASS_DOMINATION_OPENER</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_GLOBAL_AMBITION</Type>
+			<BuildingClass>BUILDINGCLASS_GLOBAL_AMBITION</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+
+			<ExtraSpies>2</ExtraSpies>
+			<Espionage>true</Espionage>
+			<SpyRankChange>1</SpyRankChange>
+			<InstantSpyRankChange>1</InstantSpyRankChange>			
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_BIG_STICK</Type>
+			<BuildingClass>BUILDINGCLASS_BIG_STICK</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>	
+
+			<ExtraLeagueVotes>3</ExtraLeagueVotes>		
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_ADMIRALTY</Type>
+			<BuildingClass>BUILDINGCLASS_ADMIRALTY</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_GRAND_ARMADA</Type>
+			<BuildingClass>BUILDINGCLASS_GRAND_ARMADA</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_IMPERIAL_PREROG</Type>
+			<BuildingClass>BUILDINGCLASS_IMPERIAL_PREROG</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_BYZ_BUR</Type>
+			<BuildingClass>BUILDINGCLASS_BYZ_BUR</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_FEDERATION</Type>
+			<BuildingClass>BUILDINGCLASS_FEDERATION</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_GREAT_GAME</Type>
+			<BuildingClass>BUILDINGCLASS_GREAT_GAME</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_DOMINATION_FINISHER</Type>
+			<BuildingClass>BUILDINGCLASS_DOMINATION_FINISHER</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<!-- HARMONY POLICY FREE BUILDINGS -->
+
+		<Row>
+			<Type>BUILDING_HARMONY_OPENER</Type>
+			<BuildingClass>BUILDINGCLASS_HARMONY_OPENER</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_ONE_VISION</Type>
+			<BuildingClass>BUILDINGCLASS_ONE_VISION</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_BIOPHILIA</Type>
+			<BuildingClass>BUILDINGCLASS_BIOPHILIA</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_ENIGMATIC_ENG</Type>
+			<BuildingClass>BUILDINGCLASS_ENIGMATIC_ENG</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_MASTERY_NATURE</Type>
+			<BuildingClass>BUILDINGCLASS_MASTERY_NATURE</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_ENG_PERFECTION</Type>
+			<BuildingClass>BUILDINGCLASS_ENG_PERFECTION</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			
+			
+
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_SERENE_REALM</Type>
+			<BuildingClass>BUILDINGCLASS_SERENE_REALM</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>	
+
+			<PolicyCostModifier>-15</PolicyCostModifier>		
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_UNITED_STAND</Type>
+			<BuildingClass>BUILDINGCLASS_UNITED_STAND</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_HARMONY_FINISHER</Type>
+			<BuildingClass>BUILDINGCLASS_HARMONY_FINISHER</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>			
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<!-- FIN -->
+
 
 		<Row>
 			<Type>BUILDING_PATRONAGE_TRADEROUTE</Type>

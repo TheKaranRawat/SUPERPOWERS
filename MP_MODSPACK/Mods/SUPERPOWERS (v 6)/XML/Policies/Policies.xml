@@ -970,6 +970,55 @@
 	</Policy_PrereqPolicies>
 
 	<PolicyBranchTypes>
+
+		<!-- experimental policies credit:iska -->
+
+		<Update>
+			<Where Type="POLICY_BRANCH_FREEDOM"/>
+			<Set ID="12"/>
+		</Update>
+		<Update>
+			<Where Type="POLICY_BRANCH_ORDER"/>
+			<Set ID="13"/>
+		</Update>
+		<Update>
+			<Where Type="POLICY_BRANCH_AUTOCRACY"/>
+			<Set ID="14"/>
+		</Update>
+
+		<Row>
+			<ID>9</ID>
+			<Type>POLICY_ISKA_BRANCH_FREEDOM</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_FREEDOM1</Description>
+			<Help>TXT_KEY_POLICY_BRANCH_FREEDOM1_HELP</Help>
+			<Title>TXT_KEY_FREEDOM_TITLE</Title>
+			<EraPrereq>ERA_INDUSTRIAL</EraPrereq>
+			<FreePolicy>POLICY_ISKA_FREEDOM</FreePolicy>
+			<FreeFinishingPolicy>POLICY_ISKA_FREEDOM_FINISHER</FreeFinishingPolicy>
+		</Row>
+		<Row>
+			<ID>10</ID>
+			<Type>POLICY_ISKA_BRANCH_ORDER</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_ORDER1</Description>
+			<Help>TXT_KEY_POLICY_BRANCH_ORDER1_HELP</Help>
+			<Title>TXT_KEY_ORDER_TITLE</Title>
+			<EraPrereq>ERA_INDUSTRIAL</EraPrereq>
+			<FreePolicy>POLICY_ISKA_ORDER</FreePolicy>
+			<FreeFinishingPolicy>POLICY_ISKA_ORDER_FINISHER</FreeFinishingPolicy>
+		</Row>
+		<Row>
+			<ID>11</ID>
+			<Type>POLICY_ISKA_BRANCH_AUTOCRACY</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_AUTOCRACY1</Description>
+			<Help>TXT_KEY_POLICY_BRANCH_AUTOCRACY1_HELP</Help>
+			<Title>TXT_KEY_AUTOCRACY_TITLE</Title>
+			<EraPrereq>ERA_INDUSTRIAL</EraPrereq>
+			<FreePolicy>POLICY_ISKA_AUTOCRACY</FreePolicy>
+			<FreeFinishingPolicy>POLICY_ISKA_AUTOCRACY_FINISHER</FreeFinishingPolicy>
+		</Row>
+
+		<!--  ####################   -->
+
 		<Update>
 			<Set AIMutuallyExclusive="true"/>
 			<Where Type="POLICY_BRANCH_TRADITION"/>
@@ -987,11 +1036,845 @@
 			<Set EraPrereq="ERA_CLASSICAL"/>
 			<Where Type="POLICY_BRANCH_PIETY"/>
 		</Update>
+
 		<Update>
 			<Set EraPrereq="ERA_MEDIEVAL"/>
 			<Where Type="POLICY_BRANCH_AESTHETICS"/>
 		</Update>
+
+		<Update>
+			<Set EraPrereq="ERA_MEDIEVAL"/>
+			<Where Type="POLICY_PATRONAGE"/>
+		</Update>
+
+
 	</PolicyBranchTypes>
+
+	<!-- POLICIES NEW PROTOTYPE -->
+	<Policies>
+
+		<!-- HARMONY = 7 POLICIES-->
+
+		<!-- OPENER -->
+		<Row>
+			<Type>POLICY_ISKA_FREEDOM</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_FREEDOM</Description>
+			<PortraitIndex>1</PortraitIndex>
+
+			<CityGrowthMod>25</CityGrowthMod>
+			<NewCityExtraPopulation>5</NewCityExtraPopulation>
+
+			<Civilopedia>TXT_KEY_POLICY_FREEDOM_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_FREEDOM_HELP</Help>
+			<IconAtlas>JFD_INDUSTRY_POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>JFD_INDUSTRY_POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>		
+
+		<!-- ONE VISION (1)-->
+		<Row>
+			<Type>POLICY_ISKA_CONSTITUTION</Type>
+			<Description>TXT_KEY_POLICY_ONE_VISION</Description>
+			<Civilopedia>TXT_KEY_POLICY_ONE_VISION_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ONE_VISION_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_FREEDOM</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>1</GridX>
+			<GridY>1</GridY>
+			
+			<PortraitIndex>29</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- BIOPHILIA (2) -->
+		<Row>
+			<Type>POLICY_ISKA_UNIVERSAL_SUFFRAGE</Type>
+			<Description>TXT_KEY_POLICY_BIOPHILIA</Description>
+			<Civilopedia>TXT_KEY_POLICY_BIOPHILIA_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_BIOPHILIA_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_FREEDOM</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>3</GridX>
+			<GridY>1</GridY>
+			
+			<PortraitIndex>14</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- ENIGMATIC ENGINEERING (3) -->
+		<Row>
+			<Type>POLICY_ISKA_CIVIL_SOCIETY</Type>
+			<Description>TXT_KEY_POLICY_ENIGMATIC</Description>
+			<Civilopedia>TXT_KEY_POLICY_ENIGMATIC_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ENIGMATIC_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_FREEDOM</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>5</GridX>
+			<GridY>1</GridY>
+
+			<BuildingGoldMaintenanceMod>-15</BuildingGoldMaintenanceMod>
+			<CityGrowthMod>15</CityGrowthMod>
+			
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>JFD_CONSERVATION_POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>JFD_CONSERVATION_POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- MASTERY OF NATURE (4) -->
+		<Row>
+			<Type>POLICY_ISKA_FREE_SPEECH</Type>
+			<Description>TXT_KEY_POLICY_MASTERY</Description>
+			<Civilopedia>TXT_KEY_POLICY_MASTERY_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_MASTERY_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_FREEDOM</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>1</GridX>
+			<GridY>2</GridY>
+
+			<WorkerSpeedModifier>100</WorkerSpeedModifier>
+			<EmbarkedExtraMoves>2</EmbarkedExtraMoves>
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>JFD_CONSERVATION_POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>JFD_CONSERVATION_POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- ENGINEERED PERFECTION -->
+		<Row>
+			<Type>POLICY_ISKA_DEMOCRACY</Type>
+			<Description>TXT_KEY_POLICY_PERFECTION</Description>
+			<Civilopedia>TXT_KEY_POLICY_PERFECTION_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_PERFECTION_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_FREEDOM</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>5</GridX>
+			<GridY>2</GridY>
+
+			<CulturePerWonder>33</CulturePerWonder>
+			<NumFreeTechs>3</NumFreeTechs>
+			
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>JFD_CONSERVATION_POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>JFD_CONSERVATION_POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- THE SERENE REALM -->
+		<Row>
+			<Type>POLICY_SERENE_REALM</Type>
+			<Description>TXT_KEY_POLICY_SERENE</Description>
+			<Civilopedia>TXT_KEY_POLICY_SERENE_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_SERENE_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_FREEDOM</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>1</GridX>
+			<GridY>3</GridY>
+
+
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>JFD_INDUSTRY_POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>JFD_INDUSTRY_POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- UNITED WE STAND -->
+		<Row>
+			<Type>POLICY_UNITED_STAND</Type>
+			<Description>TXT_KEY_POLICY_STAND</Description>
+			<Civilopedia>TXT_KEY_POLICY_STAND_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_STAND_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_FREEDOM</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>5</GridX>
+			<GridY>3</GridY>
+
+			<CulturePerGarrisonedUnit>10</CulturePerGarrisonedUnit>
+			<MilitaryProductionModifier>10</MilitaryProductionModifier>
+			
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>JFD_CONSERVATION_POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>JFD_CONSERVATION_POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- FINISHER -->
+		<Row>
+			<Type>POLICY_ISKA_FREEDOM_FINISHER</Type>
+			<Description>TXT_KEY_POLICY_FREEDOM_FINISHER</Description>
+			<GoldenAgeDurationMod>20</GoldenAgeDurationMod>
+		</Row>
+
+		<!-- ########################################## -->
+
+		<!-- PROSPERITY 7 POLICIES -->
+
+		<!-- OPENER -->
+		<Row>
+			<Type>POLICY_ISKA_ORDER</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_ORDER</Description>
+			<PortraitIndex>30</PortraitIndex>
+			<Civilopedia>TXT_KEY_POLICY_ORDER_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ORDER_HELP</Help>
+
+			<HappinessToCulture>50</HappinessToCulture>
+			<RouteGoldMaintenanceMod>-100</RouteGoldMaintenanceMod>
+
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- COMMERCIAL ENTERPRISE (1) -->
+		<Row>
+			<Type>POLICY_ISKA_UNITED_FRONT</Type>
+			<Description>TXT_KEY_POLICY_ENTERPRISE</Description>
+			<Civilopedia>TXT_KEY_POLICY_ENTERPRISE_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ENTERPRISE_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_ORDER</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			
+			<GridX>1</GridX>
+			<GridY>1</GridY>
+
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>JFD_INDUSTRY_POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>JFD_INDUSTRY_POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- MARKETPLACE OF IDEAS (2) -->
+		<Row>
+			<Type>POLICY_ISKA_SOCIALISM</Type>
+			<Description>TXT_KEY_POLICY_IDEAS</Description>
+			<Civilopedia>TXT_KEY_POLICY_IDEAS_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_IDEAS_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_ORDER</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>3</GridX>
+			<GridY>2</GridY>
+			
+			<PortraitIndex>16</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- THE PURSUIT OF PROFIT (3) -->
+		<Row>
+			<Type>POLICY_ISKA_NATIONALISM</Type>
+			<Description>TXT_KEY_POLICY_PROFIT</Description>
+			<Civilopedia>TXT_KEY_POLICY_PROFIT_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_PROFIT_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_ORDER</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>5</GridX>
+			<GridY>1</GridY>
+
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>JFD_INDUSTRY_POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>JFD_INDUSTRY_POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- COLLECTIVE WELFARE (4) -->
+		<Row>
+			<Type>POLICY_ISKA_PLANNED_ECONOMY</Type>
+			<Description>TXT_KEY_POLICY_WELFARE</Description>
+			<Civilopedia>TXT_KEY_POLICY_WELFARE_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_WELFARE_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_ORDER</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>1</GridX>
+			<GridY>2</GridY>
+
+
+			<PortraitIndex>34</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- TRICKLE DOWN ECONOMICS (5) -->
+		<Row>
+			<Type>POLICY_ISKA_COMMUNISM</Type>
+			<Description>TXT_KEY_POLICY_TRICKLE</Description>
+			<Civilopedia>TXT_KEY_POLICY_TRICKLE_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_TRICKLE_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_ORDER</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+
+			<BuildingGoldMaintenanceMod>-20</BuildingGoldMaintenanceMod>
+
+			<GridX>5</GridX>
+			<GridY>2</GridY>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>JFD_INDUSTRY_POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>JFD_INDUSTRY_POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- THE PATERNAL STATE (6) -->
+		<Row>
+			<Type>POLICY_PATERNAL_STATE</Type>
+			<Description>TXT_KEY_POLICY_PATERNAL</Description>
+			<Civilopedia>TXT_KEY_POLICY_PATERNAL_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_PATERNAL_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_ORDER</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			
+			<CityGrowthMod>15</CityGrowthMod>
+
+			<GridX>1</GridX>
+			<GridY>3</GridY>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>JFD_INDUSTRY_POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>JFD_INDUSTRY_POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- HOUSE OF CARDS (7) -->
+		<Row>
+			<Type>POLICY_HOUSE_CARDS</Type>
+			<Description>TXT_KEY_POLICY_CARDS</Description>
+			<Civilopedia>TXT_KEY_POLICY_CARDS_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_CARDS_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_ORDER</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			
+			<UnitGoldMaintenanceMod>33</UnitGoldMaintenanceMod>
+
+			<GridX>5</GridX>
+			<GridY>3</GridY>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- FINISHER -->
+		<Row>
+			<Type>POLICY_ISKA_ORDER_FINISHER</Type>
+			<Description>TXT_KEY_POLICY_ORDER_FINISHER</Description>
+			<NumFreeGreatPeople>1</NumFreeGreatPeople>
+			<GreatPeopleRateModifier>25</GreatPeopleRateModifier>
+		</Row>
+
+		<!-- ########################################## -->
+
+		<!-- DOMINATION 8 POLICIES -->
+
+		<!-- OPENER -->
+		<Row>
+			<Type>POLICY_ISKA_AUTOCRACY</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_AUTOCRACY</Description>
+			<PortraitIndex>0</PortraitIndex>
+
+			<UnitPurchaseCostModifier>-33</UnitPurchaseCostModifier>
+			<CatchSpiesModifier>50</CatchSpiesModifier>
+			
+			<Civilopedia>TXT_KEY_POLICY_AUTOCRACY_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_AUTOCRACY_HELP</Help>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- GLOBAL AMBITION (1) -->
+		<Row>
+			<Type>POLICY_ISKA_POPULISM</Type>
+			<Description>TXT_KEY_POLICY_AMBITION</Description>
+			<Civilopedia>TXT_KEY_POLICY_AMBITION_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_AMBITION_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_AUTOCRACY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>1</GridX>
+			<GridY>1</GridY>
+
+			<RiggingElectionModifier>100</RiggingElectionModifier>
+			
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>JFD_INTRIGUE_POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>JFD_INTRIGUE_POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- DIRECT DIPLOMACY (2) -->
+		<Row>
+			<Type>POLICY_ISKA_MILITARISM</Type>
+			<Description>TXT_KEY_POLICY_DIPLO</Description>
+			<Civilopedia>TXT_KEY_POLICY_DIPLO_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_DIPLO_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_AUTOCRACY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>3</GridX>
+			<GridY>1</GridY>
+			
+			<StealTechFasterModifier>100</StealTechFasterModifier>
+
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- THE ADMIRALTY (3) -->
+		<Row>
+			<Type>POLICY_ISKA_FASCISM</Type>
+			<Description>TXT_KEY_POLICY_ADMIRALTY</Description>
+			<Civilopedia>TXT_KEY_POLICY_ADMIRALTY_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ADMIRALTY_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_AUTOCRACY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>5</GridX>
+			<GridY>1</GridY>
+
+			<GreatGeneralRateModifier>50</GreatGeneralRateModifier>
+			<GreatAdmiralRateModifier>50</GreatAdmiralRateModifier>
+			
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- THE GRAND ARMADA (4) -->
+				
+		<Row>
+			<Type>POLICY_ISKA_POLICE_STATE</Type>
+			<Description>TXT_KEY_POLICY_ARMADA</Description>
+			<Civilopedia>TXT_KEY_POLICY_ARMADA_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ARMADA_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_AUTOCRACY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>1</GridX>
+			<GridY>2</GridY>
+
+			<GarrisonFreeMaintenance>true</GarrisonFreeMaintenance>
+			<UnitGoldMaintenanceMod>-10</UnitGoldMaintenanceMod>
+
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS_EXP2</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS_EXP2</IconAtlasAchieved>
+		</Row>
+
+		<!-- IMPERIAL PREROGATIVE (5) -->
+		<Row>
+			<Type>POLICY_ISKA_TOTAL_WAR</Type>
+			<Description>TXT_KEY_POLICY_IMPERIAL</Description>
+			<Civilopedia>TXT_KEY_POLICY_IMPERIAL_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_IMPERIAL_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_AUTOCRACY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>3</GridX>
+			<GridY>2</GridY>
+
+			<MilitaryUnitGiftExtraInfluence>10</MilitaryUnitGiftExtraInfluence>
+			<ProtectedMinorPerTurnInfluence>500</ProtectedMinorPerTurnInfluence>
+			
+			
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>JFD_INTRIGUE_POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>JFD_INTRIGUE_POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- BYZANTINE BUREAUCRACY -->
+		<Row>
+			<Type>POLICY_BYZ_BUREAU</Type>
+			<Description>TXT_KEY_POLICY_BYZANTINE</Description>
+			<Civilopedia>TXT_KEY_POLICY_BYZANTINE_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_BYZANTINE_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_AUTOCRACY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>5</GridX>
+			<GridY>2</GridY>
+
+			<BuildingProductionModifier>10</BuildingProductionModifier>
+			<CulturePerCity>10</CulturePerCity>
+			
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>JFD_INTRIGUE_POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>JFD_INTRIGUE_POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- THE FEDERATION-->
+		<Row>
+			<Type>POLICY_FEDERATION</Type>
+			<Description>TXT_KEY_POLICY_FEDERATION</Description>
+			<Civilopedia>TXT_KEY_POLICY_FEDERATION_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_FEDERATION_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_AUTOCRACY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>1</GridX>
+			<GridY>3</GridY>
+			
+			<MinorScienceAllies>true</MinorScienceAllies>
+			<MinorResourceBonus>true</MinorResourceBonus>
+			
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+
+		<!-- THE GREAT GANE -->
+		<Row>
+			<Type>POLICY_GREAT_GAME</Type>
+			<Description>TXT_KEY_POLICY_GAME</Description>
+			<Civilopedia>TXT_KEY_POLICY_GAME_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_GAME_HELP</Help>
+			<PolicyBranchType>POLICY_ISKA_BRANCH_AUTOCRACY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>5</GridX>
+			<GridY>3</GridY>
+			
+			<UnhappinessMod>25</UnhappinessMod>
+			<HappyPerMilitaryUnit>1</HappyPerMilitaryUnit>	
+			<MilitaryProductionModifier>10</MilitaryProductionModifier>				
+			
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>		
+		
+		<!-- FINISHER -->
+		<Row>
+			<Type>POLICY_ISKA_AUTOCRACY_FINISHER</Type>
+			<Description>TXT_KEY_POLICY_AUTOCRACY_FINISHER</Description>
+			
+			<UnitGoldMaintenanceMod>-15</UnitGoldMaintenanceMod>
+			
+		</Row>
+
+	</Policies>
+
+
+
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_ISKA_FREEDOM</PolicyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_FREEDOM</PolicyType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_CONSTITUTION</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_CONSTITUTION</PolicyType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_UNIVERSAL_SUFFRAGE</PolicyType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_CIVIL_SOCIETY</PolicyType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_CIVIL_SOCIETY</PolicyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_FREE_SPEECH</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_FREE_SPEECH</PolicyType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_DEMOCRACY</PolicyType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_DEMOCRACY</PolicyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_ORDER</PolicyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_ORDER</PolicyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_UNITED_FRONT</PolicyType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_UNITED_FRONT</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_UNITED_FRONT</PolicyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_SOCIALISM</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_NATIONALISM</PolicyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_PLANNED_ECONOMY</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_PLANNED_ECONOMY</PolicyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_COMMUNISM</PolicyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_COMMUNISM</PolicyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_AUTOCRACY</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_AUTOCRACY</PolicyType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_POPULISM</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_POPULISM</PolicyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_MILITARISM</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_MILITARISM</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_MILITARISM</PolicyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_FASCISM</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_FASCISM</PolicyType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_POLICE_STATE</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_POLICE_STATE</PolicyType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_TOTAL_WAR</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_TOTAL_WAR</PolicyType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	
+		<Row>
+			<PolicyType>POLICY_ISKA_FREEDOM_FINISHER</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_FREEDOM_FINISHER</PolicyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_AUTOCRACY_FINISHER</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_ORDER_FINISHER</PolicyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_ORDER_FINISHER</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_ORDER_FINISHER</PolicyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_ORDER_FINISHER</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ISKA_ORDER_FINISHER</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+
+	<Policy_PrereqPolicies>
+
+		<!-- HARMONY REQS -->
+		
+		<Row>
+			<PolicyType>POLICY_ISKA_FREE_SPEECH</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_CONSTITUTION</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_FREE_SPEECH</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_UNIVERSAL_SUFFRAGE</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_SERENE_REALM</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_FREE_SPEECH</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_DEMOCRACY</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_CIVIL_SOCIETY</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_DEMOCRACY</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_UNIVERSAL_SUFFRAGE</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_UNITED_STAND</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_DEMOCRACY</PrereqPolicy>
+		</Row>
+
+		<!-- DOMINATION REQS -->
+		<Row>
+			<PolicyType>POLICY_ISKA_TOTAL_WAR</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_POPULISM</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_TOTAL_WAR</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_FASCISM</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_POLICE_STATE</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_POPULISM</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_FEDERATION</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_POLICE_STATE</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_FEDERATION</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_TOTAL_WAR</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_TOTAL_WAR</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_MILITARISM</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_BYZ_BUREAU</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_FASCISM</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_GREAT_GAME</PolicyType>
+			<PrereqPolicy>POLICY_BYZ_BUREAU</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_GREAT_GAME</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_TOTAL_WAR</PrereqPolicy>
+		</Row>
+
+		<!-- PROSPERITY REQS -->
+		<Row>
+			<PolicyType>POLICY_ISKA_PLANNED_ECONOMY</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_UNITED_FRONT</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_PATERNAL_STATE</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_PLANNED_ECONOMY</PrereqPolicy>
+		</Row>
+		
+
+		<Row>
+			<PolicyType>POLICY_ISKA_COMMUNISM</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_NATIONALISM</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_HOUSE_CARDS</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_COMMUNISM</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_PATERNAL_STATE</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_SOCIALISM</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_HOUSE_CARDS</PolicyType>
+			<PrereqPolicy>POLICY_ISKA_SOCIALISM</PrereqPolicy>
+		</Row>
+
+
+	</Policy_PrereqPolicies>
+
+
+	
+
+
+	<!-- PROTO TYPE END -->
 
 	<PolicyBranch_Disables>
 		<Row>

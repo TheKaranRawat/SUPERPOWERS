@@ -1,0 +1,25 @@
+Github Desktop: https://desktop.github.com/
+SUPERPOWERS Internal Build: https://github.com/TheKaranRawat/SUPERPOWERS-Internal-Build
+Visual Studio Code: https://code.visualstudio.com/download
+
+Step 1: Just open the app and go to the file section at the top left, then go to Clone Repository, it'll look like this: 
+https://cdn.discordapp.com/attachments/980393162205966346/981078966045646858/unknown.png
+
+Step 2: Just put the link for the Repo here (I've linked it above) and make sure to edit the path correctly, I'll elaborate in the next step:
+https://cdn.discordapp.com/attachments/980393162205966346/981079278290628658/unknown.png
+
+Step 3: Make sure your Local Path is correct, it should lead to the Civ 5 Folder, and then "SUPERPOWERS" (this name is dynamic but it helps to keep it organized)
+The path should look like this: "C:\Users\Your PC Name\Documents\My Games\Sid Meier's Civilization 5\MODS\SUPERPOWERS"
+
+PS: Make sure it points to the correct location for your User on the PC (My PC name is Karan, it might be different for yours) 
+https://cdn.discordapp.com/attachments/980393162205966346/981079856437669938/unknown.png
+
+
+That's all, after that you can click on the "Fetch Origin" button which downloads the files, after that you can load it up as a mod ingame (You'll need to add the DLL folder to run it, and the Modpack Generator to create a modpack but it's more or less done at this point)
+
+Just drop these in your mod folder, contains the DLL (Required), Ingame Editor (Helps with debugging) and the MP Mod Workaround (Modpack Generator)
+After that just load up the DLL and SUPERPOWERS from the ingame mod menu. You can make edits to the files directly like the XML for example, and then load the game back up and the changes will be there
+
+compression for dds
+uncompressed
+alpha layers yes

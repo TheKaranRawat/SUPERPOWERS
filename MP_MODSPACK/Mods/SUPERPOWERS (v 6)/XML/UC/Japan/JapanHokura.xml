@@ -8,9 +8,8 @@
 			<BuildingClass>BUILDINGCLASS_SHRINE</BuildingClass>
 			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<Cost>20</Cost>
+			<Cost>7</Cost>
 			<GoldMaintenance>0</GoldMaintenance>
-			<PrereqTech>TECH_POTTERY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_HOKURA</Description>
 			<Civilopedia>TXT_KEY_BUILDING_HOKURA_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_HOKURA_STRATEGY</Strategy>

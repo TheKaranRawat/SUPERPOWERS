@@ -37,11 +37,11 @@
 		</Button>
 	</Instance>
 	<!-- Box Size="1024,738"  -->
-	<Box Size="1024,768" Anchor="C,C" Offset="0,24" Color="0,0,0,0" Hidden="0">
-		<Grid Size="1005,783" Anchor="C,T" Offset="0,-5" Padding="0,0" Style="Grid9DetailFive140">
+	<Box Size="1219,768" Anchor="C,C" Offset="0,24" Color="0,0,0,0" Hidden="0">
+		<Grid Size="1200,783" Anchor="C,T" Offset="0,-5" Padding="0,0" Style="Grid9DetailFive140">
 			<!-- Panel Header Text -->
 			<Label Style="MenuTitleCaption" String="TXT_KEY_SOCIAL_POLICIES_SCREEN_TITLE"/>
-			<Box Anchor="L,T" Size="970,30" Offset="18,43" Color="0,0,0,128" ID="TabPanel">
+			<Box Anchor="L,T" Size="1165,30" Offset="18,43" Color="0,0,0,128" ID="TabPanel">
 				<Stack Anchor="C,T" Size="971,24" Offset="0,0" Padding="0" StackGrowth="Right">
 					<Button Anchor="L,T" Size="300,24" Offset="0,0" String="TXT_KEY_POLICYSCREEN_SOCIAL_POLICIES_TAB" ID="TabButtonSocialPolicies">
 						<ShowOnMouseOver>
@@ -62,21 +62,26 @@
 						<Grid Anchor="C,C" Offset="0,1" Size="300,26" Style="Grid9FrameTurns" Hidden="1" ID="TabButtonIdeologiesHL"/>
 					</Button>
 				</Stack>
-				<Image Anchor="C,B" Offset="0,0" Texture="HorizontalTrim.dds" Size="971.5"/>
+				<Image Anchor="C,B" Offset="0,0" Texture="HorizontalTrim.dds" Size="1166.5"/>
 			</Box>
-			<Box Anchor="L,T" Size="970,668" Offset="18,73" Color="0,0,0,0" ID="SocialPolicyPane" Hidden="1">
+			<Box Anchor="L,T" Size="1165,668" Offset="18,73" Color="0,0,0,0" ID="SocialPolicyPane" Hidden="1">
 				<Box Size="970,25" Anchor="L,T" Offset="0,0" Color="0,0,0,0">
 					<Label Anchor="C,C" Offset="0,0" Font="TwCenMT20" FontStyle="Shadow" Color0="Beige.255" Color1="Black.128" String="Warlord A of the B" ID="PlayerTitleLabel"/>
 					<!-- Advanced Checkbox -->
-					<CheckBox Anchor="R,C" Offset="0,0" Font="TwCenMT18" FontStyle="Shadow" String="TXT_KEY_ADVANCED_VIEW" IsChecked="0" ID="PolicyInfo"/>
+					
+					<CheckBox Anchor="R,C" Offset="0,-1000" Font="TwCenMT18" FontStyle="Shadow" String="TXT_KEY_ADVANCED_VIEW" IsChecked="0" ID="PolicyInfo"/>
 					<AlphaAnim Anchor="L,C" Offset="-10,0" AnchorSide="O.I" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0">
 						<Label Anchor="L,C" Offset="0,0" String="" Font="TwCenMT18" ID="FreePoliciesLabel" FontStyle="SoftShadow" Color0="Culture.255" Color1="Black.128" Color2="Culture.255" Hidden="1"/>
 					</AlphaAnim>
+					
 				</Box>
 				<Stack Anchor="L,T" Offset="0,25" Padding="0" Size="0,0" StackGrowth="Bottom" Hidden="0">
 					<!-- TOP ROW of 5 Policies HorizontalTrim -->
-					<Image Anchor="L,T" Offset="0,0" Size="970,5" Texture="HorizontalTrim.dds"/>
+					<Image Anchor="L,T" Offset="0,0" Size="1165,5" Texture="HorizontalTrim.dds"/>
 					<Stack Anchor="L,T" Offset="0,0" Padding="0" Size="0,0" StackGrowth="Right">
+
+						
+						
 						<!-- TRADITION BOX  -->
 						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
 							<Image Anchor="C,T" TextureOffset="0,0" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/1_tradition.dds"/>
@@ -230,6 +235,44 @@
                         -->
 						</Box>
 						<Image Anchor="R,T" Offset="0,0" Texture="VerticalTrim.dds" Size="5,290"/>
+						<!-- AESTHETICS BOX  -->
+						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/10_aesthetics.dds" ToolTip="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP"/>
+							<!-- Policy Branch Image -->
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="Art/Policy/10_aesthetics.dds" ID="BranchBack8" ToolTip="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP"/>
+							<Image ID="ImageMask5" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
+							<Box ID="DisabledMask5" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
+							<Image Anchor="C,T" Offset="0,0" Size="190,290" Texture="Assets/UI/Art/Icons/SocialPoliciesTrim.dds">
+								<!-- Policy Choices ScrollPanel  -->
+								<ScrollPanel Anchor="C,T" Offset="0,86" Size="190,500" Vertical="1" ID="AestheticsPanel">
+									<ScrollBar Offset="-4,0" Style="VertSlider" Anchor="R,C" AnchorSide="I,I" Length="460"/>
+									<UpButton Offset="-4,-3" Style="ScrollBarUp" Anchor="R,T" AnchorSide="I,I"/>
+									<DownButton Offset="-4,-3" Style="ScrollBarDown" Anchor="R,B" AnchorSide="I,I"/>
+								</ScrollPanel>
+							</Image>
+							<!-- Disabled Boxes -->
+							<Box ID="LockedBox5" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
+								<HideOnMouseOver>
+									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/10_aesthetics.dds"/>
+								</HideOnMouseOver>
+							</Box>
+							<!-- adopt button -->
+							<GridButton Size="170,36" Anchor="C,T" Offset="0,46" Font="TwCenMT18" Color="255,255,255,200" String="" FontStyle="Shadow" Color0="Beige.255" Color1="Black.128" Style="BaseButton" ToolTip="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP" Hidden="0" ID="BranchButton5">
+								<Image Anchor="R,C" Offset="0,0" Size="48,48" Texture="48Lock.dds" ID="Lock5"/>
+							</GridButton>
+							<Box ID="DisabledBox5" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
+								<HideOnMouseOver>
+									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/10_aesthetics.dds"/>
+									<Box Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
+								</HideOnMouseOver>
+							</Box>
+							<!-- Title -->
+							<Label Anchor="C,T" Offset="0,8" String="TXT_KEY_POLICY_BRANCH_AESTHETICS_CAP" Font="TwCenMT20" FontStyle="Shadow" Color0="Beige.255" Color1="Black.255"/>
+							-->
+						</Box>
+
+						<Image Anchor="R,T" Offset="0,0" Texture="VerticalTrim.dds" Size="5,290"/>
+
 						<!-- PATRONAGE BOX  -->
 						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
 							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/5_patronage.dds" ToolTip="TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP"/>
@@ -266,14 +309,16 @@
 							<!-- Era Label 
                         <Label ID="EraLabel4" Anchor="C,T" Offset="0,40"  WrapWidth="185" LeadingOffset="-4" String="TXT_KEY_ERA_AVAILALBE" Font="TwCenMT16"  FontStyle="Shadow"  Color0="Beige.255" Color1="Black.128"  />
                         -->
-						</Box>
+						</Box>						
+
+
 					</Stack>
 					<!-- BOTTOM ROW Horizontal Stack of 5 Policies  -->
-					<Image Anchor="L,T" Offset="0,0" Size="970,5" Texture="HorizontalTrim.dds"/>
+					<Image Anchor="L,T" Offset="0,0" Size="1165,5" Texture="HorizontalTrim.dds"/>
 					<Stack Anchor="L,T" Offset="0,0" Padding="0" Size="0,0" StackGrowth="Right">
 						<!-- IDEOLOGY BOX  -->
 						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,255">
-							<Image Anchor="L,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/6_ideology.dds" ID="IdeologyImage1"/>
+							<Image Anchor="L,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="SocialPoliciesFreedom.dds" ID="IdeologyImage1"/>
 							<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
 							<Box Size="190,290" Anchor="L,T" Color="0,0,0,0" Hidden="1" ID="IdeologyDetails">
 								<Stack StackGrowth="Bottom" Padding="10" Anchor="C,T" Offset="0,128" ID="TenetsStack">
@@ -289,10 +334,49 @@
 							<GridButton Anchor="C,B" Style="SmallButton" Size="180,32" Offset="0,5" StateOffsetIncrement="0,0" ID="ToIdeologyTab">
 								<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_POLICYSCREEN_TO_IDEOLOGY_BUTTON" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
 							</GridButton>
+
+							<!-- EXPLORATION BOX  -->
+							<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
+								<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/8_exploration.dds" ToolTip="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP"/>
+								<!-- Policy Branch Image -->
+								<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="Art/Policy/8_exploration.dds" ID="BranchBack6" ToolTip="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP"/>
+								<Image ID="ImageMask7" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
+								<Box ID="DisabledMask7" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
+								<Image Anchor="C,T" Offset="0,0" Size="190,290" Texture="Assets/UI/Art/Icons/SocialPoliciesTrim.dds">
+									<!-- Policy Choices ScrollPanel  -->
+									<ScrollPanel Anchor="C,T" Offset="0,86" Size="190,500" Vertical="1" ID="ExplorationPanel">
+										<ScrollBar Offset="-4,0" Style="VertSlider" Anchor="R,C" AnchorSide="I,I" Length="460"/>
+										<UpButton Offset="-4,-3" Style="ScrollBarUp" Anchor="R,T" AnchorSide="I,I"/>
+										<DownButton Offset="-4,-3" Style="ScrollBarDown" Anchor="R,B" AnchorSide="I,I"/>
+									</ScrollPanel>
+								</Image>
+								<!-- Disabled Boxes -->
+								<Box ID="LockedBox7" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
+									<HideOnMouseOver>
+										<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/8_exploration.dds"/>
+									</HideOnMouseOver>
+								</Box>
+								<!-- adopt button -->
+								<GridButton Size="170,36" Anchor="C,T" Offset="0,46" Font="TwCenMT18" Color="255,255,255,200" String="" FontStyle="Shadow" Color0="Beige.255" Color1="Black.128" Style="BaseButton" ToolTip="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP" Hidden="0" ID="BranchButton7">
+									<Image Anchor="R,C" Offset="0,0" Size="48,48" Texture="48Lock.dds" ID="Lock7"/>
+								</GridButton>
+								<Box ID="DisabledBox7" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
+									<HideOnMouseOver>
+										<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/8_exploration.dds"/>
+										<Box Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
+									</HideOnMouseOver>
+								</Box>
+								<!-- Title -->
+								<Label Anchor="C,T" Offset="0,8" String="TXT_KEY_POLICY_BRANCH_EXPLORATION_CAP" Font="TwCenMT20" FontStyle="Shadow" Color0="Beige.255" Color1="Black.255"/>
+								-->
+							</Box>
 						</Box>
+							
 						<Image Anchor="R,T" Offset="0,0" Texture="VerticalTrim.dds" Size="5,290"/>
+
+
 						<!-- RATIONALISM BOX  -->
-						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
+						<Box Size="190,290 " Anchor="L,T" Color="0,0,0,0">
 							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/7_rationalism.dds" ToolTip="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP"/>
 							<!-- Policy Branch Image -->
 							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="Art/Policy/7_rationalism.dds" ID="BranchBack5" ToolTip="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP"/>
@@ -324,118 +408,167 @@
 							</Box>
 							<!-- Title -->
 							<Label Anchor="C,T" Offset="0,8" String="TXT_KEY_POLICY_BRANCH_RATIONALISM_CAP" Font="TwCenMT20" FontStyle="Shadow" Color0="Beige.255" Color1="Black.255"/>
-              -->
-            </Box>
+							
+						</Box>
+							
 						<Image Anchor="R,T" Offset="0,0" Texture="VerticalTrim.dds" Size="5,290"/>
-						<!-- EXPLORATION BOX  -->
+						<!-- ORDER BOX  -->
 						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/8_exploration.dds" ToolTip="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/11_prosperity.dds" ToolTip="TXT_KEY_POLICY_BRANCH_ORDER1_HELP"/>
+
 							<!-- Policy Branch Image -->
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="Art/Policy/8_exploration.dds" ID="BranchBack6" ToolTip="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP"/>
-							<Image ID="ImageMask7" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
-							<Box ID="DisabledMask7" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="Art/Policy/11_prosperity.dds" ID="BranchBack10" ToolTip="TXT_KEY_POLICY_BRANCH_ORDER1_HELP"/>
+							<Image ID="ImageMask10" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
+							<Box ID="DisabledMask10" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 							<Image Anchor="C,T" Offset="0,0" Size="190,290" Texture="Assets/UI/Art/Icons/SocialPoliciesTrim.dds">
 								<!-- Policy Choices ScrollPanel  -->
-								<ScrollPanel Anchor="C,T" Offset="0,86" Size="190,500" Vertical="1" ID="ExplorationPanel">
+								<ScrollPanel Anchor="C,T" Offset="0,86" Size="190,500" Vertical="1" ID="OrderPanel">
 									<ScrollBar Offset="-4,0" Style="VertSlider" Anchor="R,C" AnchorSide="I,I" Length="460"/>
 									<UpButton Offset="-4,-3" Style="ScrollBarUp" Anchor="R,T" AnchorSide="I,I"/>
 									<DownButton Offset="-4,-3" Style="ScrollBarDown" Anchor="R,B" AnchorSide="I,I"/>
 								</ScrollPanel>
 							</Image>
 							<!-- Disabled Boxes -->
-							<Box ID="LockedBox7" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
+							<Box ID="LockedBox10" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/8_exploration.dds"/>
+									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/11_prosperity.dds"/>
 								</HideOnMouseOver>
 							</Box>
 							<!-- adopt button -->
-							<GridButton Size="170,36" Anchor="C,T" Offset="0,46" Font="TwCenMT18" Color="255,255,255,200" String="" FontStyle="Shadow" Color0="Beige.255" Color1="Black.128" Style="BaseButton" ToolTip="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP" Hidden="0" ID="BranchButton7">
-								<Image Anchor="R,C" Offset="0,0" Size="48,48" Texture="48Lock.dds" ID="Lock7"/>
+							<GridButton Size="170,36" Anchor="C,T" Offset="0,46" Font="TwCenMT18" Color="255,255,255,200" String="" FontStyle="Shadow" Color0="Beige.255" Color1="Black.128" Style="BaseButton" ToolTip="TXT_KEY_POLICY_BRANCH_ORDER1_HELP" Hidden="0" ID="BranchButton10">
+								<Image Anchor="R,C" Offset="0,0" Size="48,48" Texture="48Lock.dds" ID="Lock10"/>
 							</GridButton>
-							<Box ID="DisabledBox7" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
+							<Box ID="DisabledBox10" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/8_exploration.dds"/>
+									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/11_prosperity.dds"/>
 									<Box Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 								</HideOnMouseOver>
 							</Box>
 							<!-- Title -->
-							<Label Anchor="C,T" Offset="0,8" String="TXT_KEY_POLICY_BRANCH_EXPLORATION_CAP" Font="TwCenMT20" FontStyle="Shadow" Color0="Beige.255" Color1="Black.255"/>
-              -->
-            </Box>
+							<Label Anchor="C,T" Offset="0,8" String="TXT_KEY_POLICY_BRANCH_ORDER1_CAP" Font="TwCenMT20" FontStyle="Shadow" Color0="Beige.255" Color1="Black.255"/>
+							<!-- Era Label 
+						<Label ID="EraLabel8" Anchor="C,T" Offset="0,40"  WrapWidth="185" LeadingOffset="-4" String="TXT_KEY_ERA_AVAILALBE" Font="TwCenMT16"  FontStyle="Shadow"  Color0="Beige.255" Color1="Black.128"  />
+                        -->
+						</Box>
 						<Image Anchor="R,T" Offset="0,0" Texture="VerticalTrim.dds" Size="5,290"/>
-						<!-- COMMERCE BOX  -->
+						<!-- AUTOCRACY BOX  -->
 						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/9_commerce.dds" ToolTip="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/10_domination.dds" ToolTip="TXT_KEY_POLICY_BRANCH_AUTOCRACY1_HELP"/>
+
 							<!-- Policy Branch Image -->
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="Art/Policy/9_commerce.dds" ID="BranchBack7" ToolTip="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP"/>
-							<Image ID="ImageMask6" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
-							<Box ID="DisabledMask6" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="Art/Policy/10_domination.dds" ID="BranchBack11" ToolTip="TXT_KEY_POLICY_BRANCH_AUTOCRACY1_HELP"/>
+							<Image ID="ImageMask11" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
+							<Box ID="DisabledMask11" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 							<Image Anchor="C,T" Offset="0,0" Size="190,290" Texture="Assets/UI/Art/Icons/SocialPoliciesTrim.dds">
 								<!-- Policy Choices ScrollPanel  -->
-								<ScrollPanel Anchor="C,T" Offset="0,86" Size="190,500" Vertical="1" ID="CommercePanel">
+								<ScrollPanel Anchor="C,T" Offset="0,86" Size="190,500" Vertical="1" ID="AutocracyPanel">
 									<ScrollBar Offset="-4,0" Style="VertSlider" Anchor="R,C" AnchorSide="I,I" Length="460"/>
 									<UpButton Offset="-4,-3" Style="ScrollBarUp" Anchor="R,T" AnchorSide="I,I"/>
 									<DownButton Offset="-4,-3" Style="ScrollBarDown" Anchor="R,B" AnchorSide="I,I"/>
 								</ScrollPanel>
 							</Image>
 							<!-- Disabled Boxes -->
-							<Box ID="LockedBox6" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
+							<Box ID="LockedBox11" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/9_commerce.dds"/>
+									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/10_domination.dds"/>
 								</HideOnMouseOver>
 							</Box>
 							<!-- adopt button -->
-							<GridButton Size="170,36" Anchor="C,T" Offset="0,46" Font="TwCenMT18" Color="255,255,255,200" String="" FontStyle="Shadow" Color0="Beige.255" Color1="Black.128" Style="BaseButton" ToolTip="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP" Hidden="0" ID="BranchButton6">
-								<Image Anchor="R,C" Offset="0,0" Size="48,48" Texture="48Lock.dds" ID="Lock6"/>
+							<GridButton Size="170,36" Anchor="C,T" Offset="0,46" Font="TwCenMT18" Color="255,255,255,200" String="" FontStyle="Shadow" Color0="Beige.255" Color1="Black.128" Style="BaseButton" ToolTip="TXT_KEY_POLICY_BRANCH_AUTOCRACY1_HELP" Hidden="0" ID="BranchButton11">
+								<Image Anchor="R,C" Offset="0,-1000" Size="48,48" Texture="48Lock.dds" ID="Lock11"/>
 							</GridButton>
-							<Box ID="DisabledBox6" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
+							<Box ID="DisabledBox11" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/9_commerce.dds"/>
+									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/10_domination.dds"/>
 									<Box Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 								</HideOnMouseOver>
 							</Box>
 							<!-- Title -->
-							<Label Anchor="C,T" Offset="0,8" String="TXT_KEY_POLICY_BRANCH_COMMERCE_CAP" Font="TwCenMT20" FontStyle="Shadow" Color0="Beige.255" Color1="Black.255"/>
-              -->
-            </Box>
+							<Label Anchor="C,T" Offset="0,8" String="TXT_KEY_POLICY_BRANCH_AUTOCRACY1_CAP" Font="TwCenMT20" FontStyle="Shadow" Color0="Beige.255" Color1="Black.255"/>
+							<!-- Era Label 
+						<Label ID="EraLabel9" Anchor="C,T" Offset="0,40"  WrapWidth="185" LeadingOffset="-4" String="TXT_KEY_ERA_AVAILALBE" Font="TwCenMT16"  FontStyle="Shadow"  Color0="Beige.255" Color1="Black.128"  />
+                        -->
+						</Box>
 						<Image Anchor="R,T" Offset="0,0" Texture="VerticalTrim.dds" Size="5,290"/>
-						<!-- AESTHETICS BOX  -->
+						<!-- FREEDOM BOX  -->
 						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/10_aesthetics.dds" ToolTip="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/12_harmony2.dds" ToolTip="TXT_KEY_POLICY_BRANCH_FREEDOM1_HELP"/>
+
 							<!-- Policy Branch Image -->
-							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="Art/Policy/10_aesthetics.dds" ID="BranchBack8" ToolTip="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP"/>
-							<Image ID="ImageMask5" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
-							<Box ID="DisabledMask5" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
+							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="Art/Policy/12_harmony2.dds" ID="BranchBack9" ToolTip="TXT_KEY_POLICY_BRANCH_FREEDOM1_HELP"/>
+							<Image ID="ImageMask9" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
+							<Box ID="DisabledMask9" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 							<Image Anchor="C,T" Offset="0,0" Size="190,290" Texture="Assets/UI/Art/Icons/SocialPoliciesTrim.dds">
 								<!-- Policy Choices ScrollPanel  -->
-								<ScrollPanel Anchor="C,T" Offset="0,86" Size="190,500" Vertical="1" ID="AestheticsPanel">
+								<ScrollPanel Anchor="C,T" Offset="0,86" Size="190,500" Vertical="1" ID="FreedomPanel">
 									<ScrollBar Offset="-4,0" Style="VertSlider" Anchor="R,C" AnchorSide="I,I" Length="460"/>
 									<UpButton Offset="-4,-3" Style="ScrollBarUp" Anchor="R,T" AnchorSide="I,I"/>
 									<DownButton Offset="-4,-3" Style="ScrollBarDown" Anchor="R,B" AnchorSide="I,I"/>
 								</ScrollPanel>
 							</Image>
 							<!-- Disabled Boxes -->
-							<Box ID="LockedBox5" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
+							<Box ID="LockedBox9" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/10_aesthetics.dds"/>
+									<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/12_harmony2.dds"/>
 								</HideOnMouseOver>
 							</Box>
 							<!-- adopt button -->
-							<GridButton Size="170,36" Anchor="C,T" Offset="0,46" Font="TwCenMT18" Color="255,255,255,200" String="" FontStyle="Shadow" Color0="Beige.255" Color1="Black.128" Style="BaseButton" ToolTip="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP" Hidden="0" ID="BranchButton5">
-								<Image Anchor="R,C" Offset="0,0" Size="48,48" Texture="48Lock.dds" ID="Lock5"/>
+							<GridButton Size="170,36" Anchor="C,T" Offset="0,46" Font="TwCenMT18" Color="255,255,255,200" String="" FontStyle="Shadow" Color0="Beige.255" Color1="Black.128" Style="BaseButton" ToolTip="TXT_KEY_POLICY_BRANCH_FREEDOM1_HELP" Hidden="0" ID="BranchButton9">
+								<Image Anchor="R,C" Offset="0,0" Size="48,48" Texture="48Lock.dds" ID="Lock9"/>
 							</GridButton>
-							<Box ID="DisabledBox5" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
+							<Box ID="DisabledBox9" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
 								<HideOnMouseOver>
-									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/10_aesthetics.dds"/>
+									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/12_harmony2.dds"/>
 									<Box Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 								</HideOnMouseOver>
 							</Box>
 							<!-- Title -->
-							<Label Anchor="C,T" Offset="0,8" String="TXT_KEY_POLICY_BRANCH_AESTHETICS_CAP" Font="TwCenMT20" FontStyle="Shadow" Color0="Beige.255" Color1="Black.255"/>
-              -->
-            </Box>
+							<Label Anchor="C,T" Offset="0,8" String="TXT_KEY_POLICY_BRANCH_FREEDOM1_CAP" Font="TwCenMT20" FontStyle="Shadow" Color0="Beige.255" Color1="Black.255"/>
+							<!-- Era Label 
+                        <Label ID="EraLabel7" Anchor="C,T" Offset="0,40"  WrapWidth="185" LeadingOffset="-4" String="TXT_KEY_ERA_AVAILALBE" Font="TwCenMT16"  FontStyle="Shadow"  Color0="Beige.255" Color1="Black.128"  />
+                        -->
+						</Box>
+
+
+							<Image Anchor="R,T" Offset="0,0" Texture="VerticalTrim.dds" Size="5,290"/>
+							<!-- COMMERCE BOX  -->
+							<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
+								<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/9_commerce.dds" ToolTip="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP"/>
+								<!-- Policy Branch Image -->
+								<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,90" Texture="Art/Policy/9_commerce.dds" ID="BranchBack7" ToolTip="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP"/>
+								<Image ID="ImageMask6" Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,200" Texture="Assets/UI/Art/Icons/SocialPoliciesBranchBlackMask.dds"/>
+								<Box ID="DisabledMask6" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
+								<Image Anchor="C,T" Offset="0,0" Size="190,290" Texture="Assets/UI/Art/Icons/SocialPoliciesTrim.dds">
+									<!-- Policy Choices ScrollPanel  -->
+									<ScrollPanel Anchor="C,T" Offset="0,86" Size="190,500" Vertical="1" ID="CommercePanel">
+										<ScrollBar Offset="-4,0" Style="VertSlider" Anchor="R,C" AnchorSide="I,I" Length="460"/>
+										<UpButton Offset="-4,-3" Style="ScrollBarUp" Anchor="R,T" AnchorSide="I,I"/>
+										<DownButton Offset="-4,-3" Style="ScrollBarDown" Anchor="R,B" AnchorSide="I,I"/>
+									</ScrollPanel>
+								</Image>
+								<!-- Disabled Boxes -->
+								<Box ID="LockedBox6" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
+									<HideOnMouseOver>
+										<Image Anchor="C,T" Offset="0,0" TextureOffset="0,30" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/9_commerce.dds"/>
+									</HideOnMouseOver>
+								</Box>
+								<!-- adopt button -->
+								<GridButton Size="170,36" Anchor="C,T" Offset="0,46" Font="TwCenMT18" Color="255,255,255,200" String="" FontStyle="Shadow" Color0="Beige.255" Color1="Black.128" Style="BaseButton" ToolTip="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP" Hidden="0" ID="BranchButton6">
+									<Image Anchor="R,C" Offset="0,0" Size="48,48" Texture="48Lock.dds" ID="Lock6"/>
+								</GridButton>
+								<Box ID="DisabledBox6" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
+									<HideOnMouseOver>
+										<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/9_commerce.dds"/>
+										<Box Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
+									</HideOnMouseOver>
+								</Box>
+								<!-- Title -->
+								<Label Anchor="C,T" Offset="0,8" String="TXT_KEY_POLICY_BRANCH_COMMERCE_CAP" Font="TwCenMT20" FontStyle="Shadow" Color0="Beige.255" Color1="Black.255"/>
+								-->
+							</Box>
+							
 					</Stack>
-					<Image Anchor="L,T" Offset="0,0" Size="970,5" Texture="HorizontalTrim.dds"/>
+					<Image Anchor="L,T" Offset="0,0" Size="1165,5" Texture="HorizontalTrim.dds"/>
 					<!-- End bottom row -->
 					<Box Anchor="L,B" AnchorSide="I.I" Offset="0,0" Size="970,46" Color="0,0,0,0">
 						<Label Anchor="L,C" Offset="200,0" WrapWidth="500" Font="TwCenMT16" ID="LabelPoliciesDisabled" FontStyle="Shadow" Color0="Beige.255" Color1="Black.128" String="TXT_KEY_TOP_PANEL_POLICIES_OFF_TOOLTIP" Hidden="1"/>
@@ -452,18 +585,18 @@
 					</Box>
 				</Stack>
 			</Box>
-			<Box Anchor="L,T" Size="970,668" Offset="18,73" Color="0,0,0,0" ID="IdeologyPane" Hidden="1">
-				<Image Anchor="L,T" Texture="IdeologyOverview_Background.dds" Size="966,668" TextureOffset="0,0" Color="255,255,255,100" Offset="0,0"/>
+			<Box Anchor="L,T" Size="1165,668" Offset="18,73" Color="0,0,0,0" ID="IdeologyPane" Hidden="1">
+				<Image Anchor="L,T" Texture="IdeologyOverview_Background_Iska.dds" Size="1165,668" TextureOffset="0,0" Color="255,255,255,100" Offset="0,0"/>
 				<AlphaAnim Anchor="L,T" Offset="-10,20" AnchorSide="O.I" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0">
 					<Label Anchor="L,C" Offset="0,0" String="" Font="TwCenMT18" ID="FreeTenetsLabel" FontStyle="SoftShadow" Color0="Culture.255" Color1="Black.128" Color2="Culture.255" Hidden="1"/>
 				</AlphaAnim>
-        <Box Anchor="L,T" Size="970,668" Offset="0,0" Color="0,0,0,0" ID="DisabledIdeology" Hidden="1">
+        <Box Anchor="L,T" Size="1165,668" Offset="0,0" Color="0,0,0,0" ID="DisabledIdeology" Hidden="1">
           <Label Anchor="C,C" Offset="0,0" WrapWidth="400" String="TXT_KEY_POLICYSCREEN_IDEOLOGY_DISABLED" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
         </Box>
-				<Box Anchor="L,T" Size="970,668" Offset="0,0" Color="0,0,0,0" ID="NoIdeology" Hidden="1">
+				<Box Anchor="L,T" Size="1165,668" Offset="0,0" Color="0,0,0,0" ID="NoIdeology" Hidden="1">
 					<Label Anchor="C,C" Offset="0,0" WrapWidth="400" String="TXT_KEY_POLICYSCREEN_IDEOLOGY_NOT_STARTED" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
 				</Box>
-				<Box Anchor="L,T" Size="970,668" Offset="0,0" Color="0,0,0,0" ID="HasIdeology" Hidden="0">
+				<Box Anchor="L,T" Size="1165,668" Offset="0,0" Color="0,0,0,0" ID="HasIdeology" Hidden="0">
 					<Label Anchor="C,T" Offset="0,20" String="CELTIC FREEDOM" Font="TwCenMT24" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="IdeologyTitle"/>
 					<Image Anchor="C,T" Size="900,2" Texture="bar900x2.dds" Offset="0,50"/>
 					<Label Anchor="L,T" Offset="20,92" String="TXT_KEY_POLICYSCREEN_IDEOLOGY_LEVEL1" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>

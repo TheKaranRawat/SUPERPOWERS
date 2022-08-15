@@ -6,7 +6,7 @@
 		<Row>
 			<Type>BUILDING_VENETIAN_CA_DORO</Type>
 			<BuildingClass>BUILDINGCLASS_COURTHOUSE</BuildingClass>
-			<Cost>100</Cost>
+			<Cost>80</Cost>
 			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_VENETIAN_CA_DORO_HELP</Help>
 			<Description>TXT_KEY_BUILDING_VENETIAN_CA_DORO</Description>
@@ -15,7 +15,7 @@
 			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
-			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<GreatPeopleRateChange>6</GreatPeopleRateChange>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>0</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>

@@ -10,8 +10,8 @@
 		<Row>
 			<Type>BUILDING_ENGLISH_STEAM_MILL</Type>
 			<BuildingClass>BUILDINGCLASS_FACTORY</BuildingClass>
-			<Cost>360</Cost>
-			<GoldMaintenance>3</GoldMaintenance>
+			<Cost>250</Cost>
+			<GoldMaintenance>8</GoldMaintenance>
 			<PrereqTech>TECH_ECONOMICS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_ENGLISH_STEAM_MILL_HELP</Help>
 			<Description>TXT_KEY_BUILDING_ENGLISH_STEAM_MILL</Description>
@@ -85,17 +85,9 @@
 		<Row>
 			<BuildingType>BUILDING_ENGLISH_STEAM_MILL</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>4</Yield>
+			<Yield>15</Yield>
 		</Row>
 	</Building_YieldChanges>
-
-	<Building_YieldModifiers>
-		<Row>
-			<BuildingType>BUILDING_ENGLISH_STEAM_MILL</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>10</Yield>
-		</Row>
-	</Building_YieldModifiers>
 
 	<Civilization_BuildingClassOverrides>
 		<Row>

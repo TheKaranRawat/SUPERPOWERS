@@ -75,11 +75,11 @@
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod>
 			<StartPercent>10</StartPercent>
 			<BuildingMaintenancePercent>100</BuildingMaintenancePercent>
-			<GrowthPercent>100</GrowthPercent>
-			<TrainPercent>80</TrainPercent>
-			<ConstructPercent>85</ConstructPercent>
-			<CreatePercent>85</CreatePercent>
-			<ResearchPercent>67</ResearchPercent>
+			<GrowthPercent>95</GrowthPercent>
+			<TrainPercent>95</TrainPercent>
+			<ConstructPercent>95</ConstructPercent>
+			<CreatePercent>100</CreatePercent>
+			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>100</BuildPercent>
 			<ImprovementPercent>100</ImprovementPercent>
 			<GreatPeoplePercent>100</GreatPeoplePercent>
@@ -123,11 +123,11 @@
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod>
 			<StartPercent>25</StartPercent>
 			<BuildingMaintenancePercent>100</BuildingMaintenancePercent>
-			<GrowthPercent>100</GrowthPercent>
-			<TrainPercent>67</TrainPercent>
-			<ConstructPercent>75</ConstructPercent>
-			<CreatePercent>75</CreatePercent>
-			<ResearchPercent>50</ResearchPercent>
+			<GrowthPercent>90</GrowthPercent>
+			<TrainPercent>90</TrainPercent>
+			<ConstructPercent>90</ConstructPercent>
+			<CreatePercent>100</CreatePercent>
+			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>100</BuildPercent>
 			<ImprovementPercent>100</ImprovementPercent>
 			<GreatPeoplePercent>100</GreatPeoplePercent>
@@ -170,16 +170,16 @@
 			<FreePopulation>1</FreePopulation>
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod>
 			<StartPercent>37</StartPercent>
-			<BuildingMaintenancePercent>75</BuildingMaintenancePercent>
-			<GrowthPercent>90</GrowthPercent>
-			<TrainPercent>50</TrainPercent>
-			<ConstructPercent>55</ConstructPercent>
-			<CreatePercent>55</CreatePercent>
-			<ResearchPercent>33</ResearchPercent>
-			<BuildPercent>90</BuildPercent>
+			<BuildingMaintenancePercent>100</BuildingMaintenancePercent>
+			<GrowthPercent>85</GrowthPercent>
+			<TrainPercent>85</TrainPercent>
+			<ConstructPercent>85</ConstructPercent>
+			<CreatePercent>100</CreatePercent>
+			<ResearchPercent>100</ResearchPercent>
+			<BuildPercent>100</BuildPercent>
 			<ImprovementPercent>90</ImprovementPercent>
-			<GreatPeoplePercent>90</GreatPeoplePercent>
-			<CulturePercent>90</CulturePercent>
+			<GreatPeoplePercent>100</GreatPeoplePercent>
+			<CulturePercent>100</CulturePercent>
 			<TradeRouteFoodBonusTimes100>400</TradeRouteFoodBonusTimes100>
 			<TradeRouteProductionBonusTimes100>400</TradeRouteProductionBonusTimes100>
 			<EventChancePerTurn>4</EventChancePerTurn>
@@ -218,12 +218,12 @@
 			<FreePopulation>2</FreePopulation>
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod>
 			<StartPercent>50</StartPercent>
-			<BuildingMaintenancePercent>60</BuildingMaintenancePercent>
-			<GrowthPercent>75</GrowthPercent>
-			<TrainPercent>33</TrainPercent>
-			<ConstructPercent>37</ConstructPercent>
+			<BuildingMaintenancePercent>100</BuildingMaintenancePercent>
+			<GrowthPercent>80</GrowthPercent>
+			<TrainPercent>80</TrainPercent>
+			<ConstructPercent>80</ConstructPercent>
 			<CreatePercent>37</CreatePercent>
-			<ResearchPercent>20</ResearchPercent>
+			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>80</BuildPercent>
 			<ImprovementPercent>80</ImprovementPercent>
 			<GreatPeoplePercent>80</GreatPeoplePercent>
@@ -266,12 +266,12 @@
 			<FreePopulation>3</FreePopulation>
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod>
 			<StartPercent>65</StartPercent>
-			<BuildingMaintenancePercent>50</BuildingMaintenancePercent>
-			<GrowthPercent>60</GrowthPercent>
-			<TrainPercent>25</TrainPercent>
-			<ConstructPercent>30</ConstructPercent>
+			<BuildingMaintenancePercent>100</BuildingMaintenancePercent>
+			<GrowthPercent>75</GrowthPercent>
+			<TrainPercent>75</TrainPercent>
+			<ConstructPercent>75</ConstructPercent>
 			<CreatePercent>30</CreatePercent>
-			<ResearchPercent>12</ResearchPercent>
+			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>70</BuildPercent>
 			<ImprovementPercent>70</ImprovementPercent>
 			<GreatPeoplePercent>70</GreatPeoplePercent>
@@ -316,12 +316,12 @@
 			<FreePopulation>3</FreePopulation>
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod>
 			<StartPercent>65</StartPercent>
-			<BuildingMaintenancePercent>50</BuildingMaintenancePercent>
-			<GrowthPercent>60</GrowthPercent>
-			<TrainPercent>25</TrainPercent>
-			<ConstructPercent>30</ConstructPercent>
+			<BuildingMaintenancePercent>110</BuildingMaintenancePercent>
+			<GrowthPercent>70</GrowthPercent>
+			<TrainPercent>70</TrainPercent>
+			<ConstructPercent>70</ConstructPercent>
 			<CreatePercent>30</CreatePercent>
-			<ResearchPercent>12</ResearchPercent>
+			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>70</BuildPercent>
 			<ImprovementPercent>70</ImprovementPercent>
 			<GreatPeoplePercent>70</GreatPeoplePercent>
@@ -366,12 +366,12 @@
 			<FreePopulation>3</FreePopulation>
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod>
 			<StartPercent>65</StartPercent>
-			<BuildingMaintenancePercent>50</BuildingMaintenancePercent>
-			<GrowthPercent>60</GrowthPercent>
-			<TrainPercent>25</TrainPercent>
-			<ConstructPercent>30</ConstructPercent>
+			<BuildingMaintenancePercent>120</BuildingMaintenancePercent>
+			<GrowthPercent>65</GrowthPercent>
+			<TrainPercent>70</TrainPercent>
+			<ConstructPercent>70</ConstructPercent>
 			<CreatePercent>30</CreatePercent>
-			<ResearchPercent>12</ResearchPercent>
+			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>70</BuildPercent>
 			<ImprovementPercent>70</ImprovementPercent>
 			<GreatPeoplePercent>70</GreatPeoplePercent>
@@ -416,12 +416,12 @@
 			<FreePopulation>3</FreePopulation>
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod>
 			<StartPercent>65</StartPercent>
-			<BuildingMaintenancePercent>50</BuildingMaintenancePercent>
+			<BuildingMaintenancePercent>130</BuildingMaintenancePercent>
 			<GrowthPercent>60</GrowthPercent>
-			<TrainPercent>25</TrainPercent>
-			<ConstructPercent>30</ConstructPercent>
+			<TrainPercent>70</TrainPercent>
+			<ConstructPercent>70</ConstructPercent>
 			<CreatePercent>30</CreatePercent>
-			<ResearchPercent>12</ResearchPercent>
+			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>70</BuildPercent>
 			<ImprovementPercent>70</ImprovementPercent>
 			<GreatPeoplePercent>70</GreatPeoplePercent>
@@ -469,12 +469,12 @@
 			<FreePopulation>4</FreePopulation>
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod>
 			<StartPercent>80</StartPercent>
-			<BuildingMaintenancePercent>40</BuildingMaintenancePercent>
-			<GrowthPercent>50</GrowthPercent>
-			<TrainPercent>18</TrainPercent>
-			<ConstructPercent>21</ConstructPercent>
+			<BuildingMaintenancePercent>150</BuildingMaintenancePercent>
+			<GrowthPercent>55</GrowthPercent>
+			<TrainPercent>70</TrainPercent>
+			<ConstructPercent>70</ConstructPercent>
 			<CreatePercent>21</CreatePercent>
-			<ResearchPercent>5</ResearchPercent>
+			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>60</BuildPercent>
 			<ImprovementPercent>60</ImprovementPercent>
 			<GreatPeoplePercent>60</GreatPeoplePercent>

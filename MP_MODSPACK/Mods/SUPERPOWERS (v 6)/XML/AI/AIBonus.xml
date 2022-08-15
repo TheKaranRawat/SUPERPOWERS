@@ -134,7 +134,7 @@
 			<UnitGoldMaintenanceMod>-25</UnitGoldMaintenanceMod>
 			<InternalTradeRouteYieldModifier>50</InternalTradeRouteYieldModifier>
 			<BuildingProductionModifier>50</BuildingProductionModifier>
-			<StrategicResourceMod>180</StrategicResourceMod>
+			<StrategicResourceMod>150</StrategicResourceMod>
 		</Row>
 
 		<Row>
@@ -160,7 +160,7 @@
 			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
 			<CityGrowthMod>100</CityGrowthMod>
 			
-			<StrategicResourceMod>150</StrategicResourceMod>
+			<StrategicResourceMod>200</StrategicResourceMod>
 			
 			<MilitaryProductionModifier>300</MilitaryProductionModifier>
 			<BuildingProductionModifier>300</BuildingProductionModifier>

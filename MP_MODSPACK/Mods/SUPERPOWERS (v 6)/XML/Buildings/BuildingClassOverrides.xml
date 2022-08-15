@@ -614,6 +614,14 @@
 			<BuildingType>BUILDING_CARTHAGINIAN_AGORA</BuildingType>
 		</Row>
 
+	
+		<Row>
+			<CivilizationType>CIVILIZATION_CARTHAGE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<BuildingType>BUILDING_BREAKWATER</BuildingType>
+		</Row>
+	
+
 		<Row>
 			<CivilizationType>CIVILIZATION_PORTUGAL</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>

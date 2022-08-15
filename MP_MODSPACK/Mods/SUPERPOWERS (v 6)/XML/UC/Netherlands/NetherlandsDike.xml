@@ -5,9 +5,9 @@
 		<Row>
 			<Type>BUILDING_NETHERLANDS_DIKE</Type>
 			<BuildingClass>BUILDINGCLASS_WINDMILL</BuildingClass>
-			<Cost>250</Cost>
+			<Cost>60</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
-			<PrereqTech>TECH_ECONOMICS</PrereqTech>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_NETHERLANDS_DIKE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NETHERLANDS_DIKE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_NETHERLANDS_DIKE_STRATEGY</Strategy>
@@ -15,7 +15,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
 			<Flat>true</Flat>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
+			<SpecialistCount>1</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<BuildingProductionModifier>20</BuildingProductionModifier>
@@ -46,7 +46,7 @@
 		<Row>
 			<BuildingType>BUILDING_NETHERLANDS_DIKE</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>6</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_NETHERLANDS_DIKE</BuildingType>
@@ -54,7 +54,13 @@
 			<Yield>6</Yield>
 		</Row>
 	</Building_YieldChanges>
-
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_WINDMILL</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+	</Building_YieldModifiers>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_NETHERLANDS_DIKE">
 			<Text>[ICON_PRODUCTION] Dike</Text>

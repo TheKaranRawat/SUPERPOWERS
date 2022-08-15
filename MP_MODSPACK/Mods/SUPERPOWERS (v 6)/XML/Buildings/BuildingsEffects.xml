@@ -3899,6 +3899,20 @@
 			<Yield>10</Yield>
 		</Row>
 
+		<!-- POLICY BUILDINGS -->
+
+		<Row>
+			<BuildingType>BUILDING_HOUSE_CARDS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_HOUSE_CARDS</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+
 	</Building_YieldModifiers>
 
 
@@ -5580,8 +5594,20 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
-		
-		
+
+		<Row>
+			<BuildingType>BUILDING_PURSUIT_PROFIT</BuildingType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_PURSUIT_PROFIT</BuildingType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>		
 		
 		
 		<Row>
@@ -5653,6 +5679,23 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_MARKET_IDEAS</BuildingType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_MARKET_IDEAS</BuildingType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+
+
 
 
 	</Building_SpecialistYieldChanges>

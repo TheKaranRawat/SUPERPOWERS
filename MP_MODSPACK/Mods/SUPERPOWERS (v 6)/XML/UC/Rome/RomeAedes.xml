@@ -7,9 +7,9 @@
 			<Type>BUILDING_AEDES</Type>
 			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<Cost>60</Cost>
+			<Cost>50</Cost>
 			<GoldMaintenance>0</GoldMaintenance>
-			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_AEDES</Description>
 			<Civilopedia>TXT_KEY_BUILDING_AEDES_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_AEDES_STRATEGY</Strategy>

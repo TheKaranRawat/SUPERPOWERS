@@ -14,20 +14,20 @@ UPDATE ArtDefine_UnitMemberCombats SET TurnRateMax = 2*TurnRateMax WHERE MoveRat
 --Trade Route Scale
 
 
-UPDATE Worlds SET TradeRouteDistanceMod=80 WHERE Type='WORLDSIZE_DUEL';
-UPDATE Worlds SET TradeRouteDistanceMod=80 WHERE Type='WORLDSIZE_TINY';
-UPDATE Worlds SET TradeRouteDistanceMod=90 WHERE Type='WORLDSIZE_SMALL';
-UPDATE Worlds SET TradeRouteDistanceMod=100 WHERE Type='WORLDSIZE_STANDARD';
-UPDATE Worlds SET TradeRouteDistanceMod=120 WHERE Type='WORLDSIZE_LARGE';
-UPDATE Worlds SET TradeRouteDistanceMod=140 WHERE Type='WORLDSIZE_HUGE';
+UPDATE Worlds SET TradeRouteDistanceMod=90 WHERE Type='WORLDSIZE_DUEL';
+UPDATE Worlds SET TradeRouteDistanceMod=100 WHERE Type='WORLDSIZE_TINY';
+UPDATE Worlds SET TradeRouteDistanceMod=110 WHERE Type='WORLDSIZE_SMALL';
+UPDATE Worlds SET TradeRouteDistanceMod=130 WHERE Type='WORLDSIZE_STANDARD';
+UPDATE Worlds SET TradeRouteDistanceMod=150 WHERE Type='WORLDSIZE_LARGE';
+UPDATE Worlds SET TradeRouteDistanceMod=200 WHERE Type='WORLDSIZE_HUGE';
 
 
 
 
-UPDATE GameSpeeds SET TradeRouteSpeedMod=66 WHERE Type='GAMESPEED_QUICK';
-UPDATE GameSpeeds SET TradeRouteSpeedMod=100 WHERE Type='GAMESPEED_STANDARD';
-UPDATE GameSpeeds SET TradeRouteSpeedMod=100 WHERE Type='GAMESPEED_EPIC';
-UPDATE GameSpeeds SET TradeRouteSpeedMod=150 WHERE Type='GAMESPEED_MARATHON';
+UPDATE GameSpeeds SET TradeRouteSpeedMod=3000 WHERE Type='GAMESPEED_QUICK';
+UPDATE GameSpeeds SET TradeRouteSpeedMod=3000 WHERE Type='GAMESPEED_STANDARD';
+UPDATE GameSpeeds SET TradeRouteSpeedMod=3000 WHERE Type='GAMESPEED_EPIC';
+UPDATE GameSpeeds SET TradeRouteSpeedMod=3000 WHERE Type='GAMESPEED_MARATHON';
 
 
 UPDATE Units SET Moves=3 WHERE Type='UNIT_CARAVAN';

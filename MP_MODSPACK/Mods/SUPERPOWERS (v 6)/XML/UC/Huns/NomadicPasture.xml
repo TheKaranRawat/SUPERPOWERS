@@ -66,16 +66,17 @@
 			<TerrainType>TERRAIN_PLAINS</TerrainType>
 		</Row>
 	</Improvement_ValidTerrains>
+<!--	Huns eki yields (1f,1p)	-->	
 	<Improvement_Yields>
 		<Row>
 			<ImprovementType>IMPROVEMENT_3EKI</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_3EKI</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>4</Yield>
+			<Yield>1</Yield>
 		</Row>
 	</Improvement_Yields>
 	<Improvement_TechNoFreshWaterYieldChanges>
@@ -101,6 +102,8 @@
 			<Yield>1</Yield>
 		</Row>
 	</Improvement_YieldAdjacentTwoSameType>-->
+<!--	Huns eki remove +1p form chivalry	-->	
+<!--	
 	<Improvement_TechYieldChanges>
 		<Row>
 			<ImprovementType>IMPROVEMENT_3EKI</ImprovementType>
@@ -109,6 +112,7 @@
 			<Yield>1</Yield>
 		</Row>
 	</Improvement_TechYieldChanges>
+	-->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_IMPROVEMENT_3EKI">
 			<Text>Eki</Text>

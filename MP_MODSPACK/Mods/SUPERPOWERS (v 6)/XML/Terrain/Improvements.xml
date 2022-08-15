@@ -1919,7 +1919,23 @@
 			<Yield>1</Yield>
 		</Row>
 
-		
+		<!--	flax boost at civil service (1f,1p), fertilizer (2f) and genetic engineering (1f,1p)	-->
+		<Row>
+			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
+			<TechType>TECH_CIVIL_SERVICE</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+			
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
+			<TechType>TECH_CIVIL_SERVICE</TechType>
+			
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
 		<Row>
 			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
 			<TechType>TECH_FERTILIZER</TechType>
@@ -1927,6 +1943,21 @@
 			<Yield>2</Yield>
 		</Row>
 
+		<Row>
+			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
+			<TechType>TECH_GENETIC_ENGEERING</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+			
+		</Row>
+		
+		<Row>
+			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
+			<TechType>TECH_GENETIC_ENGEERING</TechType>
+			
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>

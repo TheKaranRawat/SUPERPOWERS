@@ -3,6 +3,77 @@
 <GameData>
 	<IconTextureAtlases>
 
+		<!-- policy art defines -->
+
+		<!-- 
+
+		0 1 2 3 4
+
+		_PROSPERITY	
+		JFD_INDUSTRY_POLICY_ATLAS 
+		JFD_INDUSTRY_POLICY_A_ATLAS
+		2
+		
+		_HARMONY
+		JFD_CONSERVATION_POLICY_ATLAS
+		JFD_CONSERVATION_POLICY_A_ATLAS
+		
+		_DOMINATION
+		JFD_INTRIGUE_POLICY_ATLAS
+		JFD_INTRIGUE_POLICY_A_ATLAS
+
+		-->
+
+		<Row>
+			<Atlas>JFD_INDUSTRY_POLICY_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>JFD_Industry_PolicyAtlas_64.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>JFD_INDUSTRY_POLICY_A_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>JFD_Industry_PolicyAAtlas_64.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+
+		<Row>
+			<Atlas>JFD_CONSERVATION_POLICY_A_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>JFD_Conservation_PolicyAAtlas_64.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>JFD_CONSERVATION_POLICY_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>JFD_Conservation_PolicyAtlas_64.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+
+		<Row>
+			<Atlas>JFD_INTRIGUE_POLICY_A_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>JFD_Intrigue_PolicyAAtlas_64.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>JFD_INTRIGUE_POLICY_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>JFD_Intrigue_PolicyAtlas_64.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
 		<Row>
 			<Atlas>BLUE_TOOLTIP</Atlas>
 			<IconSize>45</IconSize>

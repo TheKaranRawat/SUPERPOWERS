@@ -3,8 +3,8 @@
 		<Row>
 			<Type>BUILDING_MASGID</Type>
 			<BuildingClass>BUILDINGCLASS_COURTHOUSE</BuildingClass>
-			<Cost>100</Cost>
-			<GoldMaintenance>1</GoldMaintenance>
+			<Cost>80</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
 			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_MASGID_HELP</Help>
 			<Description>TXT_KEY_BUILDING_MASGID</Description>
@@ -36,12 +36,12 @@
 		<Row>
 			<BuildingType>BUILDING_MASGID</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MASGID</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 	</Building_YieldChanges>
 

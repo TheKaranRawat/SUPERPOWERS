@@ -18,6 +18,9 @@ local g_PatronagePipeManager = InstanceManager:new( "ConnectorPipe", "ConnectorI
 local g_CommercePipeManager = InstanceManager:new( "ConnectorPipe", "ConnectorImage", Controls.CommercePanel );
 local g_ExplorationPipeManager = InstanceManager:new ( "ConnectorPipe", "ConnectorImage", Controls.ExplorationPanel );
 local g_RationalismPipeManager = InstanceManager:new( "ConnectorPipe", "ConnectorImage", Controls.RationalismPanel );
+local g_FreedomPipeManager = InstanceManager:new( "ConnectorPipe", "ConnectorImage", Controls.FreedomPanel );
+local g_OrderPipeManager = InstanceManager:new( "ConnectorPipe", "ConnectorImage", Controls.OrderPanel );
+local g_AutocracyPipeManager = InstanceManager:new( "ConnectorPipe", "ConnectorImage", Controls.AutocracyPanel );
 
 local g_LibertyInstanceManager = InstanceManager:new( "PolicyButton", "PolicyIcon", Controls.LibertyPanel );
 local g_TraditionInstanceManager = InstanceManager:new( "PolicyButton", "PolicyIcon", Controls.TraditionPanel );
@@ -28,6 +31,10 @@ local g_PatronageInstanceManager = InstanceManager:new( "PolicyButton", "PolicyI
 local g_CommerceInstanceManager = InstanceManager:new( "PolicyButton", "PolicyIcon", Controls.CommercePanel );
 local g_ExplorationInstanceManager = InstanceManager:new( "PolicyButton", "PolicyIcon", Controls.ExplorationPanel );
 local g_RationalismInstanceManager = InstanceManager:new( "PolicyButton", "PolicyIcon", Controls.RationalismPanel );
+local g_RationalismInstanceManager = InstanceManager:new( "PolicyButton", "PolicyIcon", Controls.RationalismPanel );
+local g_FreedomInstanceManager = InstanceManager:new( "PolicyButton", "PolicyIcon", Controls.FreedomPanel );
+local g_OrderInstanceManager = InstanceManager:new( "PolicyButton", "PolicyIcon", Controls.OrderPanel );
+local g_AutocracyInstanceManager = InstanceManager:new( "PolicyButton", "PolicyIcon", Controls.AutocracyPanel );
 
 local g_TenetInstanceManager = InstanceManager:new( "TenetChoice", "TenetButton", Controls.TenetStack );
 
@@ -337,7 +344,7 @@ function UpdateDisplay()
 			end
 			
 			local lockName = "Lock"..numString;
-			local thisLock = Controls[lockName];
+			local thisLock = Controls[lockName] or Controls.Lock0 
 			
 			-- Branch is not yet unlocked
 			if not player:IsPolicyBranchUnlocked( i ) then
@@ -361,13 +368,14 @@ function UpdateDisplay()
 						thisButton:SetText( strEraTitle );
 						--thisEraLabel:SetText(strEraTitle);
 						--thisEraLabel:SetHide( true );
-						
-						--thisButton:SetHide( true );
+						--hides adopt button
+						thisButton:SetHide( true );
 						
 					-- Don't have enough Culture Yet
 					else
 						strToolTip = strToolTip .. " " .. Locale.ConvertTextKey("TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_CULTURE", player:GetNextPolicyCost());
-						thisButton:SetHide( false );
+						-- hides adopy button
+						thisButton:SetHide( true );
 						thisButton:SetText( Locale.ConvertTextKey( "TXT_KEY_POP_ADOPT_BUTTON" ) );
 						--thisEraLabel:SetHide( true );
 					end
@@ -424,9 +432,10 @@ function UpdateDisplay()
 				thisDisabledBox:SetHide(true);
 			end
 			
+			--disable advanced checkbox
 			if (bShowAll) then
-				thisDisabledBox:SetHide(true);
-				thisLockedBox:SetHide(true);
+				--thisDisabledBox:SetHide(true);
+				--thisLockedBox:SetHide(true);
 			end
 			
 			i = i + 1;
@@ -899,6 +908,12 @@ function GetPipe(branchType)
 		controlTable = g_ExplorationPipeManager:GetInstance();
 	elseif branchType == "POLICY_BRANCH_RATIONALISM" then
 		controlTable = g_RationalismPipeManager:GetInstance();
+	elseif branchType == "POLICY_ISKA_BRANCH_FREEDOM" then
+		controlTable = g_FreedomPipeManager:GetInstance();
+	elseif branchType == "POLICY_ISKA_BRANCH_ORDER" then
+		controlTable = g_OrderPipeManager:GetInstance();
+	elseif branchType == "POLICY_ISKA_BRANCH_AUTOCRACY" then
+		controlTable = g_AutocracyPipeManager:GetInstance();
 	end
 	return controlTable;
 end
@@ -928,19 +943,21 @@ function Init()
 	-- add the pipes
 	local policyPipes = {};
 	for row in GameInfo.Policies() do
-		policyPipes[row.Type] = 
-		{
-			upConnectionLeft = false;
-			upConnectionRight = false;
-			upConnectionCenter = false;
-			upConnectionType = 0;
-			downConnectionLeft = false;
-			downConnectionRight = false;
-			downConnectionCenter = false;
-			downConnectionType = 0;
-			yOffset = 0;
-			policyType = row.Type;
-		};
+		if row.Level == 0 then
+			policyPipes[row.Type] = 
+			{
+				upConnectionLeft = false;
+				upConnectionRight = false;
+				upConnectionCenter = false;
+				upConnectionType = 0;
+				downConnectionLeft = false;
+				downConnectionRight = false;
+				downConnectionCenter = false;
+				downConnectionType = 0;
+				yOffset = 0;
+				policyType = row.Type;
+			};
+		end
 	end
 	
 	local cnxCenter = 1
@@ -951,7 +968,8 @@ function Init()
 	for row in GameInfo.Policy_PrereqPolicies() do
 		local prereq = GameInfo.Policies[row.PrereqPolicy];
 		local policy = GameInfo.Policies[row.PolicyType];
-		if policy and prereq then
+		if policy and prereq and policyPipes[policy.Type] then
+			print(policy.Type)
 			if policy.GridX < prereq.GridX then
 				policyPipes[policy.Type].upConnectionRight = true;
 				policyPipes[prereq.Type].downConnectionLeft = true;
@@ -1049,7 +1067,7 @@ function Init()
 		local policy = GameInfo.Policies[thisPipe.policyType];
 		local xOffset = (policy.GridX-1)*g_PolicyPipeXOffset + 30;
 		if thisPipe.downConnectionType >= 1 then
-			
+			print(policy.Type)
 			local startPipe = GetPipe(policy.PolicyBranchType);
 			startPipe.ConnectorImage:SetOffsetVal( xOffset, (policy.GridY-1)*g_PolicyPipeYOffset + 48 );
 			startPipe.ConnectorImage:SetTexture(vTexture);
@@ -1178,6 +1196,12 @@ function Init()
 				controlTable = g_ExplorationInstanceManager:GetInstance();
 			elseif iBranch == "POLICY_BRANCH_RATIONALISM" then
 				controlTable = g_RationalismInstanceManager:GetInstance();
+			elseif iBranch == "POLICY_ISKA_BRANCH_FREEDOM" then
+				controlTable = g_FreedomInstanceManager:GetInstance();
+			elseif iBranch == "POLICY_ISKA_BRANCH_ORDER" then
+				controlTable = g_OrderInstanceManager:GetInstance();
+			elseif iBranch == "POLICY_ISKA_BRANCH_AUTOCRACY" then
+				controlTable = g_AutocracyInstanceManager:GetInstance();
 			end
 			
 			if (controlTable ~= nil) then

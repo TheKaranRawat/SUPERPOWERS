@@ -4,8 +4,8 @@
 		<Row>
 			<Type>BUILDING_ALCAZAR</Type>
 			<BuildingClass>BUILDINGCLASS_CASTLE</BuildingClass>
-			<Cost>160</Cost>
-			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Cost>70</Cost>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_ALCAZAR_HELP</Help>
 			<Description>TXT_KEY_BUILDING_ALCAZAR</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ALCAZAR_TEXT</Civilopedia>
@@ -13,7 +13,7 @@
 			<ArtDefineTag>CASTLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
-			<Defense>700</Defense>
+			<Defense>2500</Defense>
 			<ExtraCityHitPoints>25</ExtraCityHitPoints>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>

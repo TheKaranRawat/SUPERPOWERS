@@ -6,7 +6,8 @@
 		<Row>
 			<Type>BUILDING_FUNDUQ</Type>
 			<BuildingClass>BUILDINGCLASS_CARAVANSARY</BuildingClass>
-			<Cost>120</Cost>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>20</Cost>
 			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_FUNDUQ</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FUNDUQ_TEXT</Civilopedia>
@@ -19,6 +20,8 @@
 			<ArtInfoEraVariation>true</ArtInfoEraVariation>
 			<TradeRouteLandDistanceModifier>100</TradeRouteLandDistanceModifier>
 			<TradeRouteLandGoldBonus>2000</TradeRouteLandGoldBonus>
+			<TradeRouteRecipientBonus>6</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>6</TradeRouteTargetBonus>
 			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>6</PortraitIndex>
 		</Row>

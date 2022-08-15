@@ -16,8 +16,8 @@
 			<IconAtlas>EGYPTIAN_FLAX_ATLAS</IconAtlas>
 		</Row>
 	</Improvements>
-
-	<Improvement_ValidTerrains>
+<!--	Egypt fax only on flood plains	-->
+<!--	<Improvement_ValidTerrains>
 		<Row>
 			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
 			<TerrainType>TERRAIN_GRASS</TerrainType>
@@ -27,14 +27,14 @@
 			<TerrainType>TERRAIN_PLAINS</TerrainType>
 		</Row>
 	</Improvement_ValidTerrains>
-	
+-->	
 	<Improvement_ValidFeatures>
 		<Row>
 			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
 			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
 		</Row>
 	</Improvement_ValidFeatures>
-	
+<!--	Egypt flax (1c,1g)	-->	
 	<Improvement_Yields>
 		<Row>
 			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
@@ -46,11 +46,13 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+	<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>4</Yield>
+			<Yield>1</Yield>
 		</Row>
+	-->	
 		<!--<Row>
 			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
@@ -122,7 +124,8 @@
 			<IconIndex>0</IconIndex>
 		</Row>
 	</Builds>
-
+<!--	Egypt flax feature romoval not needed	-->
+<!--
 	<BuildFeatures>
 		<Row>
 			<BuildType>BUILD_EGYPTIAN_FLAX</BuildType>
@@ -148,14 +151,15 @@
 			<Remove>true</Remove>
 		</Row>
 	</BuildFeatures>
-
+-->
 	<Unit_Builds>
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_EGYPTIAN_FLAX</BuildType>
 		</Row>
 	</Unit_Builds>
-
+<!--	Egypt flax feature romoval not needed	-->
+<!--
 	<BuildFeatures>
 		<Row>
 			<BuildType>BUILD_EGYPTIAN_FLAX</BuildType>
@@ -179,15 +183,29 @@
 			<Remove>true</Remove>
 		</Row>
 	</BuildFeatures>
-
+-->
+<!--	Egypt flax boost at civil service (1f,1p), fertilizer (2f) and genetic engineering (1f,1p) 	-->
 	<Improvement_TechYieldChanges>
-		<!--<Row>
+		<Row>
 			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
-			<TechType>TECH_ECONOMICS</TechType>
-			<YieldType>YIELD_GOLD</YieldType>
+			<TechType>TECH_CIVIL_SERVICE</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
-		</Row>-->
-		
+			
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
+			<TechType>TECH_FERTILIZER</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
+			<TechType>TECH_GENETIC_ENGEERING</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+			
+		</Row>
 	</Improvement_TechYieldChanges>
 
 
@@ -200,9 +218,10 @@
 		<Row Tag="TXT_KEY_BUILD_EGYPTIAN_FLAX">
 			<Text>Plant Flax</Text>
 		</Row>
+	<!--	Egypt flax change description	-->
 		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_EGYPTIAN_FLAX_TEXT">
 			<Text>
-				Requires flat Grassland, Plains, or Flood Plains tile. Generates 1 [ICON_CULTURE] Culture and 1 [ICON_GOLD] Gold, plus 1 [ICON_PEACE] Faith when built next to a river or lake. Yields an additional 1 [ICON_GOLD] Gold upon the discovery of Industrialization.[NEWLINE][NEWLINE]Flax fibres are among the longest and strongest of all natural fibres used by man. They even gain in strength when wet due to a high pectin content which acts like a glue under moist conditions. They dry quickly and resist decay better than most other natural fibres. In Egypt, the role of the Flax plant was probably more important than in many other cultures, as Egyptians rarely used wool and cotton was unknown during much of their ancient history. Temple walls had paintings of flowering flax and mummies were entombed in linen. A number of wall paintings in tombs show flax being grown as a crop.
+				Requires flat Flood Plains. Generates 1 [ICON_CULTURE] Culture and 1 [ICON_GOLD] Gold, plus 1 [ICON_PEACE] Faith when built next Flood Plains. Yields an additional 1 [ICON_FOOD] Food and 1 [ICON_PRODUCTION] upon the discovery of Civil Service, 1 [ICON_FOOD] at Fertilizer and 1 [ICON_FOOD] and 1 [ICON_PRODUCTION] at Genetic Engineering.[NEWLINE][NEWLINE]Flax fibres are among the longest and strongest of all natural fibres used by man. They even gain in strength when wet due to a high pectin content which acts like a glue under moist conditions. They dry quickly and resist decay better than most other natural fibres. In Egypt, the role of the Flax plant was probably more important than in many other cultures, as Egyptians rarely used wool and cotton was unknown during much of their ancient history. Temple walls had paintings of flowering flax and mummies were entombed in linen. A number of wall paintings in tombs show flax being grown as a crop.
 			</Text>
 		</Row>
 	</Language_en_US>

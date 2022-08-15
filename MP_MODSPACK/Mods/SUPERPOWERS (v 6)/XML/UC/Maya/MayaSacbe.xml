@@ -6,8 +6,8 @@
 		<Row>
 			<Type>BUILDING_SACBE</Type>
 			<BuildingClass>BUILDINGCLASS_CARAVANSARY</BuildingClass>
-			<Cost>75</Cost>
-			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
+			<Cost>20</Cost>
+			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SACBE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SACBE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_SACBE_STRATEGY</Strategy>
@@ -18,7 +18,7 @@
 			<HurryCostModifier>25</HurryCostModifier>
 			<ArtInfoEraVariation>true</ArtInfoEraVariation>
 			<TradeRouteLandDistanceModifier>50</TradeRouteLandDistanceModifier>
-			<TradeRouteLandGoldBonus>200</TradeRouteLandGoldBonus>
+			<TradeRouteLandGoldBonus>600</TradeRouteLandGoldBonus>
 			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>22</PortraitIndex>
 		</Row>
