@@ -23,7 +23,7 @@
 				[COLOR_POSITIVE_TEXT]Prosperity[ENDCOLOR] guides our nation to a materialist and mercantilist path.
 				[NEWLINE]"For the human condition is but a struggle for capital and it's acquisition."
 				[NEWLINE][NEWLINE]Opening Effects:
-				[NEWLINE][ICON_BULLET]50% of [ICON_CULTURE] Culture is converted to [ICON_HAPPINESS_1] Happiness.
+				[NEWLINE][ICON_BULLET]50% of [ICON_HAPPINESS_1] Happiness is converted to [ICON_CULTURE] Culture.
 				[NEWLINE][ICON_BULLET]Roads and Railways cost [ICON_INVEST] no maintenance.
 								
 				[NEWLINE][NEWLINE]Finishing Bonus:
@@ -461,7 +461,6 @@
 				[NEWLINE][ICON_BULLET]Building Unlocked: Public Baths
 				[NEWLINE][NEWLINE]Finishing Bonus:
 				[NEWLINE][ICON_BULLET]+10% [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, [ICON_PRODUCTION] Production and [ICON_GOLD] Gold output in all cities
-				[NEWLINE][ICON_BULLET]Free Great Person
 				[NEWLINE][ICON_BULLET]Allows the purchase of Great Engineers with [ICON_PEACE] Faith starting in the Industrial Era
 				[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch CANNOT be active at the same time as Empire[ENDCOLOR]</Text>
 		</Replace>

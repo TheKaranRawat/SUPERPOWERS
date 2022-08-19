@@ -42,7 +42,7 @@
 			<Where Type="POLICY_MONARCHY"/>
 		</Update>
 		<Update>
-			<Set CityGrowthMod="0" NumFreeGreatPeople="1" NumCitiesFreeFoodBuilding="0"/>
+			<Set CityGrowthMod="0" NumFreeGreatPeople="0" NumCitiesFreeFoodBuilding="0"/>
 			<Where Type="POLICY_TRADITION_FINISHER"/>
 		</Update>
 		<Row>

@@ -47,10 +47,19 @@
 			<Where Name="RIVER_ATTACK_MODIFIER" />
 		</Update>
 
+		<Update>
+			<Set Value="25"/>
+			<Where Name="INDUSTRIAL_ROUTE_PRODUCTION_MOD" />
+		</Update>
 
 		<Update>
-			<Set Value="0"/>
-			<Where Name="INDUSTRIAL_ROUTE_PRODUCTION_MOD" />
+			<Set Value="250"/>
+			<Where Name="PROJECT_PRODUCTION_PERCENT" />
+		</Update>
+
+		<Update>
+			<Set Value="2"/>
+			<Where Name="CIRCUMNAVIGATE_FREE_MOVES" />
 		</Update>
 		
 		
@@ -88,8 +97,17 @@
 			<Set Value="1"/>
 			<Where Name="UNHAPPINESS_PER_POPULATION" />
 		</Update>
+
 		<Update>
-			<Set Value="0"/>
+			<Set Value="3"/>
+			<Where Name="HAPPINESS_PER_CITY_WITH_STATE_RELIGION" />
+		</Update>
+
+		
+
+
+		<Update>
+			<Set Value="3"/>
 			<Where Name="UNHAPPINESS_PER_CITY" />
 		</Update>
 		<Update>
@@ -145,7 +163,7 @@
 			<Where Name="TRADE_ROUTE_CAPITAL_POP_GOLD_MULTIPLIER" />
 		</Update>
 		<Update>
-			<Set Value="60"/>
+			<Set Value="50"/>
 			<Where Name="TRADE_ROUTE_CITY_POP_GOLD_MULTIPLIER" />
 		</Update>
 		<Update>
@@ -222,17 +240,17 @@
 		<!-- HAPPINESS -->
 
 		<Update>
-			<Set Value="-33"/>
+			<Set Value="-25"/>
 			<Where Name="UNHAPPY_GROWTH_PENALTY" />
 		</Update>
 
 		<Update>
-			<Set Value="-50"/>
+			<Set Value="-33"/>
 			<Where Name="VERY_UNHAPPY_GROWTH_PENALTY" />
 		</Update>
 
 		<Update>
-			<Set Value="-15"/>
+			<Set Value="-10"/>
 			<Where Name="VERY_UNHAPPY_THRESHOLD" />
 		</Update>
 
@@ -273,7 +291,7 @@
 		</Update>
 
 		<Update>
-			<Set Value="-30"/>
+			<Set Value="-50"/>
 			<Where Name="SUPER_UNHAPPY_THRESHOLD" />
 		</Update>
 
@@ -321,7 +339,7 @@
 		<!-- WAR -->
 
 		<Update>
-			<Set Value="20"/>
+			<Set Value="30"/>
 			<Where Name="PEACE_TREATY_LENGTH" />
 		</Update>
 
@@ -382,14 +400,14 @@
 			<Set Value="-90"/>
 			<Where Name="UNIT_UPGRADE_COST_DISCOUNT_MAX" />
 		</Update>
-		<!--<Update>
-			<Set Value="1"/>
+		<Update>
+			<Set Value="15"/>
 			<Where Name="RESEARCH_AGREEMENT_TIMER" />
 		</Update>
 		<Update>
 			<Set Value="3"/>
 			<Where Name="RESEARCH_AGREEMENT_BOOST_DIVISOR" />
-		</Update>-->
+		</Update>
 		<Update>
 			<Set Value="100"/>
 			<Where Name="MAX_INTERCEPTION_PROBABILITY" />
@@ -475,7 +493,7 @@
 		<!-- Minor Civ Defines -->
 
 		<Update>
-			<Set Value="300"/>
+			<Set Value="1000"/>
 			<Where Name="MINOR_CIV_PLOT_CULTURE_COST_MULTIPLIER" />
 		</Update>
 
@@ -488,7 +506,7 @@
 			<Where Name="MINOR_CIV_CONTACT_GOLD_OTHER" />
 		</Update>
 		<Update>
-			<Set Value="400"/>
+			<Set Value="500"/>
 			<Where Name="MINOR_CIV_GROWTH_PERCENT" />
 		</Update>
 		<Update>
@@ -504,7 +522,7 @@
 			<Where Name="MINOR_CIV_TECH_PERCENT" />
 		</Update>
 		<Update>
-			<Set Value="300"/>
+			<Set Value="100"/>
 			<Where Name="MINOR_FRIENDSHIP_FROM_TRADE_MISSION" />
 		</Update>
 		<Update>
@@ -515,9 +533,15 @@
 		<!-- Unit/Combat Defines -->
 	
 		<Update>
-			<Set Value="500"/>
+			<Set Value="450"/>
 			<Where Name="MAX_CITY_HIT_POINTS" />
 		</Update>
+
+		<Update>
+			<Set Value="5"/>
+			<Where Name="CRAMPED_RANGE_FROM_CITY" />
+		</Update>
+
 		<Update>
 			<Set Value="10"/>
 			<Where Name="CITY_HIT_POINTS_HEALED_PER_TURN" />
@@ -739,7 +763,7 @@
 			<Where Name="INTERNATIONAL_TRADE_BASE" />
 		</Update>
 		<Update>
-			<Set Value="15"/>
+			<Set Value="25"/>
 			<Where Name="INTERNATIONAL_TRADE_CITY_GPT_DIVISOR" />
 		</Update>
 

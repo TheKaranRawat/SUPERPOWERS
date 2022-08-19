@@ -623,6 +623,9 @@ function SetCitySpecialistResources(player,city)
 				if player:HasPolicy(GameInfo.Policies["POLICY_MERCANTILISM"].ID) then
 					ComsumerGoodsMultiplier = ComsumerGoodsMultiplier + 1
 				end
+				if player:HasPolicy(GameInfo.Policies["POLICY_ISKA_UNITED_FRONT"].ID) then
+					ComsumerGoodsMultiplier = ComsumerGoodsMultiplier + 1
+				end
 				if player:HasPolicy(GameInfo.Policies["POLICY_SPACE_PROCUREMENTS"].ID) then
 					ComsumerGoodsMultiplier = ComsumerGoodsMultiplier + 1
 				end

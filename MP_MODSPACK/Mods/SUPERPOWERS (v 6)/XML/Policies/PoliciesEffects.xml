@@ -1453,18 +1453,6 @@
 			<Yield>2</Yield>
 		</Row>
 
-		<Row>
-			<PolicyType>POLICY_ISKA_UNIVERSAL_SUFFRAGE</PolicyType>
-			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-
-		
-		
-
-		
-
 	</Policy_ImprovementYieldChanges>
 
 	<Policy_ImprovementCultureChanges>
@@ -2331,10 +2319,7 @@
 			<BuildingClassType>BUILDINGCLASS_PURSUIT_PROFIT</BuildingClassType>
 		</Row>
 
-		<Row>
-			<PolicyType>POLICY_ISKA_SOCIALISM</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_MARKET_IDEAS</BuildingClassType>
-		</Row>
+		
 
 		<Row>
 			<PolicyType>POLICY_PATERNAL_STATE</PolicyType>
@@ -2363,10 +2348,7 @@
 			<BuildingClassType>BUILDINGCLASS_GLOBAL_AMBITION</BuildingClassType>
 		</Row>
 
-		<Row>
-			<PolicyType>POLICY_ISKA_MILITARISM</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_BIG_STICK</BuildingClassType>
-		</Row>
+		
 
 		<Row>
 			<PolicyType>POLICY_ISKA_FASCISM</PolicyType>
@@ -2449,18 +2431,27 @@
 		
 	</Policy_FreeBuildingClass>
 
-	<Policy_FreeBuildingClassCapital>
+	<Policy_FreeBuildingClassCapital>		
+
 		<Row>
 			<PolicyType>POLICY_MERCHANT_CONFEDERACY</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_PATRONAGE_TRADEROUTE</BuildingClassType>
 		</Row>
 
 		<Row>
+			<PolicyType>POLICY_ISKA_SOCIALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MARKET_IDEAS</BuildingClassType>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_ISKA_MILITARISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BIG_STICK</BuildingClassType>
+		</Row>
+
+		<Row>
 			<PolicyType>POLICY_SERENE_REALM</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_SERENE_REALM</BuildingClassType>
 		</Row>
-
-		
 
 		<!--<Row>
 			<PolicyType>POLICY_REPRESENTATION</PolicyType>

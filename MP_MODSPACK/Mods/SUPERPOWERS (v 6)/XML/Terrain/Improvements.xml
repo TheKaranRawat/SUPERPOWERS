@@ -2338,8 +2338,17 @@
 			<Set CivilizationType="CIVILIZATION_PORTUGAL" NoTwoAdjacent="false" DefenseModifier="0"/>
 			<Where Type="IMPROVEMENT_CHATEAU"/>
 		</Update>
-
 	</Improvements>
+
+	<!-- RAILROAD COST UPDATE -->
+	<Routes>		
+		<Update>
+			<Set GoldMaintenance="10"/>
+			<Where Type="ROUTE_RAILROAD"/>			
+		</Update>		
+	</Routes>
+
+	
 
 	<Improvement_Yields>
 		<Row>
@@ -2490,7 +2499,7 @@
 		</Row>
 	</Improvement_TechYieldChanges>
 
-
+	
 
 
 
