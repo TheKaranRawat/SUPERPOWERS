@@ -107,7 +107,7 @@
 
 
 		<Update>
-			<Set Value="3"/>
+			<Set Value="2"/>
 			<Where Name="UNHAPPINESS_PER_CITY" />
 		</Update>
 		<Update>

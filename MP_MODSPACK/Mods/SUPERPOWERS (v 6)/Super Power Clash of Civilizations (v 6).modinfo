@@ -209,6 +209,9 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="E0DBE4287AA671DE8AFDFC98B5420B01" import="0">Modules/Greatest Cities (v 11)/Lua/UI/TopCities.xml</File>
     <File md5="FA224CF6320CE41309C0864F202F4007" import="1">Modules/Greatest Cities (v 11)/Lua/Utility/Serializer.lua</File>
 	
+	<File md5="CA02F80FFAC00A070C09F059CE239751" import="0">Modules/Global - Separate GP Counters (v 1)/XML/GlobalSeparateGPCounters.xml</File>
+	
+	<!--
 	<File md5="C4933C99E92EE003C92D3DF8593EB2D3" import="1">Modules/Historical Religions Complete (BNW or GK) (v 45)/Art/HistoricalReligionsMaster128.dds</File>
     <File md5="D34D65755D92226BB78480204E34C795" import="1">Modules/Historical Religions Complete (BNW or GK) (v 45)/Art/HistoricalReligionsMaster16.dds</File>
     <File md5="89B712FBF090D67F2FA1975EEF18D556" import="1">Modules/Historical Religions Complete (BNW or GK) (v 45)/Art/HistoricalReligionsMaster214.dds</File>
@@ -284,7 +287,8 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="D46CFF4012A30F70EDFD23AB50597856" import="0">Modules/Historical Religions Complete (BNW or GK) (v 45)/XML/Text/Non-English XML Tags/HistoricalReligionsMasterText KO_KR.xml</File>
     <File md5="4C19B1F59DBF936C6D27A5D29F3E8EE0" import="0">Modules/Historical Religions Complete (BNW or GK) (v 45)/XML/Text/Non-English XML Tags/HistoricalReligionsMasterText PL_PL.xml</File>
     <File md5="719543C806BE89682F50124233D45AAF" import="0">Modules/Historical Religions Complete (BNW or GK) (v 45)/XML/Text/Non-English XML Tags/HistoricalReligionsMasterText RU_RU.xml</File>
-    
+    -->
+	
 	<File md5="4CD3D785097EAA4C9CABDF5D0C70F116" import="1">Modules/Extra Victory Conditions (v 1)/Art/CoronationOfCharlemagne.dds</File>
     <File md5="4270E07B078D97590B6294FF373198D7" import="1">Modules/Extra Victory Conditions (v 1)/Art/EVCIconBG45.dds</File>
     <File md5="8B917EB30774F037319019A32765F508" import="1">Modules/Extra Victory Conditions (v 1)/Art/EVCIconBG45_GoldFramed-BNW.dds</File>
@@ -2246,8 +2250,9 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
 	<File md5="02CC02E005AA205EAD0FAF1A9606C4BB" import="1">Art/Policy/10_aesthetics.dds</File>
 	
 	
-	<!-- JFD BUILDING CODE -->
+	<!-- JFD BUILDING CODE 
 	<File md5="0277DDAA4619E0EA3E56F0091BE6D31A" import="0">Lua/Misc/JFD_BuildingClassesNeededInCityOR.lua</File>
+	-->
 	
 	<File md5="D8AA530B924143534CEE90475495F455" import="0">XML/UC/Zulu/4UC_ZULU.sql</File>
     <File md5="D1CCB9296C24820C4FB57332E3B50E73" import="0">XML/UC/Zulu/gumboot.xml</File>
@@ -3596,9 +3601,9 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     
 	<File md5="D2C4C8500CF5B8B183E5F5D4DA605AA9" import="0">XML/Buildings/WonderTexts.xml</File>
 	
-	<!-- JFD BUILDING -->
+	<!-- JFD BUILDING 
 	<File md5="3C18B4C1A72209CBD894F173FCB1D26F" import="0">SQL/JFD_BuildingClassesNeededInCityOR.sql</File>
-	
+	-->
 	
 	
 	
@@ -3613,7 +3618,11 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
 	
     <OnModActivated>
 		
+	  <!--
 	  <UpdateDatabase>SQL/JFD_BuildingClassesNeededInCityOR.sql</UpdateDatabase>	
+	  -->
+	  
+	  <UpdateDatabase>Modules/Global - Separate GP Counters (v 1)/XML/GlobalSeparateGPCounters.xml</UpdateDatabase>
 		
 	  <!--
 	  <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/CustomModTables.xml</UpdateDatabase>
@@ -3711,7 +3720,7 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
       <UpdateDatabase>Modules/Meaningful City State Colors (v 1)/MinorCivs.xml</UpdateDatabase>
 	  
 	  
-	  
+	  <!--
 	  <UpdateDatabase>Modules/Historical Religions Complete (BNW or GK) (v 45)/SQL/HistoricalReligionsMasterArt.sql</UpdateDatabase>
       <UpdateDatabase>Modules/Historical Religions Complete (BNW or GK) (v 45)/SQL/HistoricalReligionsMasterReligion.sql</UpdateDatabase>
       <UpdateDatabase>Modules/Historical Religions Complete (BNW or GK) (v 45)/SQL/HistoricalReligionsMasterPreference.sql</UpdateDatabase>
@@ -3738,6 +3747,7 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
       <UpdateDatabase>Modules/Historical Religions Complete (BNW or GK) (v 45)/Modules/Historical Religions Complete (BNW or GK) (v 45)/Decisions/Historical Religion Decisions Text.xml</UpdateDatabase>
       <UpdateDatabase>Modules/Historical Religions Complete (BNW or GK) (v 45)/XML/Historical Religions Mod Edits.xml</UpdateDatabase>
       <UpdateDatabase>Modules/Historical Religions Complete (BNW or GK) (v 45)/Decisions/Historical Religion Decisions BNW.xml</UpdateDatabase>
+	  -->
 	  
 	  <UpdateDatabase>Modules/Extra Victory Conditions (v 1)/XML/IconFontMapping.xml</UpdateDatabase>
       <UpdateDatabase>Modules/Extra Victory Conditions (v 1)/XML/Text.xml</UpdateDatabase>
@@ -4215,12 +4225,13 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
       <Name>STFU</Name>
       <Description>STFU Leave Leader Handler</Description>
     </EntryPoint>
-	-->
+	
 	
 	<EntryPoint type="InGameUIAddin" file="Lua/Misc/JFD_BuildingClassesNeededInCityOR.lua">
       <Name>JFD_BuildingClassesNeededInCityOR</Name>
       <Description>Look at the title</Description>
     </EntryPoint>
+	-->
 	
     <EntryPoint type="InGameUIAddin" file="Lua/Maps/Terra.lua">
       <Name>Terra</Name>
@@ -4341,10 +4352,12 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
       <Description>Top Cities UI</Description>
     </EntryPoint>
 	
+	<!--
 	<EntryPoint type="InGameUIAddin" file="Modules/Historical Religions Complete (BNW or GK) (v 45)/Lua/Historical Religions Preference Handle.lua">
       <Name>Preference</Name>
       <Description>Preference</Description>
     </EntryPoint>
+	-->
 	
 	<EntryPoint type="InGameUIAddin" file="Modules/Extra Victory Conditions (v 1)/Lua/ReligiousVictory.lua">
       <Name>ReligiousVictory</Name>

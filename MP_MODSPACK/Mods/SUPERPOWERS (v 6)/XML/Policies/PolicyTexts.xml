@@ -24,7 +24,7 @@
 				[NEWLINE]"For the human condition is but a struggle for capital and it's acquisition."
 				[NEWLINE][NEWLINE]Opening Effects:
 				[NEWLINE][ICON_BULLET]50% of [ICON_HAPPINESS_1] Happiness is converted to [ICON_CULTURE] Culture.
-				[NEWLINE][ICON_BULLET]Roads and Railways cost [ICON_INVEST] no maintenance.
+				[NEWLINE][ICON_BULLET]Roads and Railways cost 25% less[ICON_INVEST] maintenance.
 								
 				[NEWLINE][NEWLINE]Finishing Bonus:
 				[NEWLINE][ICON_BULLET]+25% [ICON_GREAT_PEOPLE] Great Person Generation
@@ -1642,6 +1642,10 @@
 		<Row Tag="TXT_KEY_BUILDING_AUTOCRACY_FIREWALL_HELP" >
 			<Text>Negates the Tourism bonus from other players' technologies.</Text>
 		</Row>
+
+		<Replace Tag="TXT_KEY_BUILD_RAILROAD_HELP" >
+			<Text>[COLOR_NEGATIVE_TEXT]Costs[ENDCOLOR] 10 [ICON_GOLD] Gold per turn to maintain.[NEWLINE][NEWLINE]An unbroken chain of Railroads allows Units to move extremely quickly through Tiles.[NEWLINE][NEWLINE]Connecting Cities to your capital by Railroad will give them a 25% [ICON_PRODUCTION] Production bonus.</Text>		
+		</Replace>
 		
 		
 	</Language_en_US>
@@ -1651,6 +1655,3 @@
 
 
 </GameData>
-
-
-

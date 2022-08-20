@@ -2343,10 +2343,7 @@
 			<BuildingClassType>BUILDINGCLASS_DOMINATION_OPENER</BuildingClassType>
 		</Row>
 
-		<Row>
-			<PolicyType>POLICY_ISKA_POPULISM</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_GLOBAL_AMBITION</BuildingClassType>
-		</Row>
+		
 
 		
 
@@ -2432,6 +2429,11 @@
 	</Policy_FreeBuildingClass>
 
 	<Policy_FreeBuildingClassCapital>		
+
+		<Row>
+			<PolicyType>POLICY_ISKA_POPULISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GLOBAL_AMBITION</BuildingClassType>
+		</Row>
 
 		<Row>
 			<PolicyType>POLICY_MERCHANT_CONFEDERACY</PolicyType>
@@ -3008,8 +3010,11 @@
 
 			<ExtraSpies>2</ExtraSpies>
 			<Espionage>true</Espionage>
+
+			<!--
 			<SpyRankChange>1</SpyRankChange>
-			<InstantSpyRankChange>1</InstantSpyRankChange>			
+			<InstantSpyRankChange>1</InstantSpyRankChange>	
+			-->		
 			
 			<PortraitIndex>2</PortraitIndex>
 			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
