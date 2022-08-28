@@ -34,10 +34,10 @@
 			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>100</BuildPercent>
 			<ImprovementPercent>100</ImprovementPercent>
-			<GreatPeoplePercent>100</GreatPeoplePercent>
+			<GreatPeoplePercent>80</GreatPeoplePercent>
 			<CulturePercent>100</CulturePercent>
-			<TradeRouteFoodBonusTimes100>100</TradeRouteFoodBonusTimes100>
-			<TradeRouteProductionBonusTimes100>100</TradeRouteProductionBonusTimes100>
+			<TradeRouteFoodBonusTimes100>1500</TradeRouteFoodBonusTimes100>
+			<TradeRouteProductionBonusTimes100>1500</TradeRouteProductionBonusTimes100>
 			<EventChancePerTurn>1</EventChancePerTurn>
 			<SpiesGrantedForPlayer>0</SpiesGrantedForPlayer>
 			<SpiesGrantedForEveryone>1</SpiesGrantedForEveryone>
@@ -76,19 +76,19 @@
 			<StartPercent>10</StartPercent>
 			<BuildingMaintenancePercent>100</BuildingMaintenancePercent>
 			<GrowthPercent>95</GrowthPercent>
-			<TrainPercent>95</TrainPercent>
-			<ConstructPercent>95</ConstructPercent>
+			<TrainPercent>105</TrainPercent>
+			<ConstructPercent>100</ConstructPercent>
 			<CreatePercent>100</CreatePercent>
 			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>100</BuildPercent>
 			<ImprovementPercent>100</ImprovementPercent>
-			<GreatPeoplePercent>100</GreatPeoplePercent>
+			<GreatPeoplePercent>80</GreatPeoplePercent>
 			<CulturePercent>100</CulturePercent>
-			<TradeRouteFoodBonusTimes100>200</TradeRouteFoodBonusTimes100>
-			<TradeRouteProductionBonusTimes100>200</TradeRouteProductionBonusTimes100>
+			<TradeRouteFoodBonusTimes100>2000</TradeRouteFoodBonusTimes100>
+			<TradeRouteProductionBonusTimes100>2000</TradeRouteProductionBonusTimes100>
 			<EventChancePerTurn>2</EventChancePerTurn>
 			<SpiesGrantedForPlayer>0</SpiesGrantedForPlayer>
-			<SpiesGrantedForEveryone>1</SpiesGrantedForEveryone>
+			<SpiesGrantedForEveryone>0</SpiesGrantedForEveryone>
 			<FaithCostMultiplier>100</FaithCostMultiplier>
 			<DiploEmphasisReligion>100</DiploEmphasisReligion>
 			<DiploEmphasisLatePolicies>0</DiploEmphasisLatePolicies>
@@ -124,19 +124,19 @@
 			<StartPercent>25</StartPercent>
 			<BuildingMaintenancePercent>100</BuildingMaintenancePercent>
 			<GrowthPercent>90</GrowthPercent>
-			<TrainPercent>90</TrainPercent>
-			<ConstructPercent>90</ConstructPercent>
+			<TrainPercent>110</TrainPercent>
+			<ConstructPercent>110</ConstructPercent>
 			<CreatePercent>100</CreatePercent>
 			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>100</BuildPercent>
 			<ImprovementPercent>100</ImprovementPercent>
-			<GreatPeoplePercent>100</GreatPeoplePercent>
+			<GreatPeoplePercent>80</GreatPeoplePercent>
 			<CulturePercent>100</CulturePercent>
-			<TradeRouteFoodBonusTimes100>300</TradeRouteFoodBonusTimes100>
-			<TradeRouteProductionBonusTimes100>300</TradeRouteProductionBonusTimes100>
+			<TradeRouteFoodBonusTimes100>3000</TradeRouteFoodBonusTimes100>
+			<TradeRouteProductionBonusTimes100>3000</TradeRouteProductionBonusTimes100>
 			<EventChancePerTurn>4</EventChancePerTurn>
 			<SpiesGrantedForPlayer>0</SpiesGrantedForPlayer>
-			<SpiesGrantedForEveryone>0</SpiesGrantedForEveryone>
+			<SpiesGrantedForEveryone>1</SpiesGrantedForEveryone>
 			<FaithCostMultiplier>100</FaithCostMultiplier>
 			<DiploEmphasisReligion>100</DiploEmphasisReligion>
 			<DiploEmphasisLatePolicies>0</DiploEmphasisLatePolicies>
@@ -172,19 +172,19 @@
 			<StartPercent>37</StartPercent>
 			<BuildingMaintenancePercent>100</BuildingMaintenancePercent>
 			<GrowthPercent>85</GrowthPercent>
-			<TrainPercent>85</TrainPercent>
-			<ConstructPercent>85</ConstructPercent>
-			<CreatePercent>100</CreatePercent>
+			<TrainPercent>115</TrainPercent>
+			<ConstructPercent>115</ConstructPercent>
+			<CreatePercent>150</CreatePercent>
 			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>100</BuildPercent>
 			<ImprovementPercent>90</ImprovementPercent>
-			<GreatPeoplePercent>100</GreatPeoplePercent>
+			<GreatPeoplePercent>80</GreatPeoplePercent>
 			<CulturePercent>100</CulturePercent>
-			<TradeRouteFoodBonusTimes100>400</TradeRouteFoodBonusTimes100>
-			<TradeRouteProductionBonusTimes100>400</TradeRouteProductionBonusTimes100>
+			<TradeRouteFoodBonusTimes100>4000</TradeRouteFoodBonusTimes100>
+			<TradeRouteProductionBonusTimes100>4000</TradeRouteProductionBonusTimes100>
 			<EventChancePerTurn>4</EventChancePerTurn>
 			<SpiesGrantedForPlayer>0</SpiesGrantedForPlayer>
-			<SpiesGrantedForEveryone>1</SpiesGrantedForEveryone>
+			<SpiesGrantedForEveryone>0</SpiesGrantedForEveryone>
 			<FaithCostMultiplier>100</FaithCostMultiplier>
 			<DiploEmphasisReligion>50</DiploEmphasisReligion>
 			<DiploEmphasisLatePolicies>0</DiploEmphasisLatePolicies>
@@ -220,16 +220,16 @@
 			<StartPercent>50</StartPercent>
 			<BuildingMaintenancePercent>100</BuildingMaintenancePercent>
 			<GrowthPercent>80</GrowthPercent>
-			<TrainPercent>80</TrainPercent>
-			<ConstructPercent>80</ConstructPercent>
-			<CreatePercent>37</CreatePercent>
+			<TrainPercent>120</TrainPercent>
+			<ConstructPercent>120</ConstructPercent>
+			<CreatePercent>150</CreatePercent>
 			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>80</BuildPercent>
 			<ImprovementPercent>80</ImprovementPercent>
 			<GreatPeoplePercent>80</GreatPeoplePercent>
 			<CulturePercent>80</CulturePercent>
-			<TradeRouteFoodBonusTimes100>500</TradeRouteFoodBonusTimes100>
-			<TradeRouteProductionBonusTimes100>500</TradeRouteProductionBonusTimes100>
+			<TradeRouteFoodBonusTimes100>5000</TradeRouteFoodBonusTimes100>
+			<TradeRouteProductionBonusTimes100>5000</TradeRouteProductionBonusTimes100>
 			<EventChancePerTurn>6</EventChancePerTurn>
 			<SpiesGrantedForPlayer>0</SpiesGrantedForPlayer>
 			<SpiesGrantedForEveryone>1</SpiesGrantedForEveryone>
@@ -268,18 +268,18 @@
 			<StartPercent>65</StartPercent>
 			<BuildingMaintenancePercent>100</BuildingMaintenancePercent>
 			<GrowthPercent>75</GrowthPercent>
-			<TrainPercent>75</TrainPercent>
-			<ConstructPercent>75</ConstructPercent>
-			<CreatePercent>30</CreatePercent>
+			<TrainPercent>125</TrainPercent>
+			<ConstructPercent>125</ConstructPercent>
+			<CreatePercent>150</CreatePercent>
 			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>70</BuildPercent>
 			<ImprovementPercent>70</ImprovementPercent>
-			<GreatPeoplePercent>70</GreatPeoplePercent>
+			<GreatPeoplePercent>80</GreatPeoplePercent>
 			<CulturePercent>70</CulturePercent>
-			<TradeRouteFoodBonusTimes100>600</TradeRouteFoodBonusTimes100>
-			<TradeRouteProductionBonusTimes100>600</TradeRouteProductionBonusTimes100>
+			<TradeRouteFoodBonusTimes100>6000</TradeRouteFoodBonusTimes100>
+			<TradeRouteProductionBonusTimes100>6000</TradeRouteProductionBonusTimes100>
 			<EventChancePerTurn>8</EventChancePerTurn>
-			<SpiesGrantedForPlayer>1</SpiesGrantedForPlayer>
+			<SpiesGrantedForPlayer>0</SpiesGrantedForPlayer>
 			<SpiesGrantedForEveryone>0</SpiesGrantedForEveryone>
 			<FaithCostMultiplier>200</FaithCostMultiplier>
 			<DiploEmphasisReligion>0</DiploEmphasisReligion>
@@ -318,19 +318,19 @@
 			<StartPercent>65</StartPercent>
 			<BuildingMaintenancePercent>110</BuildingMaintenancePercent>
 			<GrowthPercent>70</GrowthPercent>
-			<TrainPercent>70</TrainPercent>
-			<ConstructPercent>70</ConstructPercent>
-			<CreatePercent>30</CreatePercent>
+			<TrainPercent>130</TrainPercent>
+			<ConstructPercent>130</ConstructPercent>
+			<CreatePercent>200</CreatePercent>
 			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>70</BuildPercent>
 			<ImprovementPercent>70</ImprovementPercent>
-			<GreatPeoplePercent>70</GreatPeoplePercent>
+			<GreatPeoplePercent>80</GreatPeoplePercent>
 			<CulturePercent>70</CulturePercent>
-			<TradeRouteFoodBonusTimes100>700</TradeRouteFoodBonusTimes100>
-			<TradeRouteProductionBonusTimes100>700</TradeRouteProductionBonusTimes100>
+			<TradeRouteFoodBonusTimes100>7000</TradeRouteFoodBonusTimes100>
+			<TradeRouteProductionBonusTimes100>7000</TradeRouteProductionBonusTimes100>
 			<EventChancePerTurn>8</EventChancePerTurn>
-			<SpiesGrantedForPlayer>1</SpiesGrantedForPlayer>
-			<SpiesGrantedForEveryone>0</SpiesGrantedForEveryone>
+			<SpiesGrantedForPlayer>0</SpiesGrantedForPlayer>
+			<SpiesGrantedForEveryone>1</SpiesGrantedForEveryone>
 			<FaithCostMultiplier>250</FaithCostMultiplier>
 			<DiploEmphasisReligion>0</DiploEmphasisReligion>
 			<DiploEmphasisLatePolicies>900</DiploEmphasisLatePolicies>
@@ -368,18 +368,18 @@
 			<StartPercent>65</StartPercent>
 			<BuildingMaintenancePercent>120</BuildingMaintenancePercent>
 			<GrowthPercent>65</GrowthPercent>
-			<TrainPercent>70</TrainPercent>
-			<ConstructPercent>70</ConstructPercent>
-			<CreatePercent>30</CreatePercent>
+			<TrainPercent>135</TrainPercent>
+			<ConstructPercent>135</ConstructPercent>
+			<CreatePercent>200</CreatePercent>
 			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>70</BuildPercent>
 			<ImprovementPercent>70</ImprovementPercent>
-			<GreatPeoplePercent>70</GreatPeoplePercent>
+			<GreatPeoplePercent>80</GreatPeoplePercent>
 			<CulturePercent>70</CulturePercent>
-			<TradeRouteFoodBonusTimes100>800</TradeRouteFoodBonusTimes100>
-			<TradeRouteProductionBonusTimes100>800</TradeRouteProductionBonusTimes100>
+			<TradeRouteFoodBonusTimes100>8000</TradeRouteFoodBonusTimes100>
+			<TradeRouteProductionBonusTimes100>8000</TradeRouteProductionBonusTimes100>
 			<EventChancePerTurn>8</EventChancePerTurn>
-			<SpiesGrantedForPlayer>1</SpiesGrantedForPlayer>
+			<SpiesGrantedForPlayer>0</SpiesGrantedForPlayer>
 			<SpiesGrantedForEveryone>0</SpiesGrantedForEveryone>
 			<FaithCostMultiplier>300</FaithCostMultiplier>
 			<DiploEmphasisReligion>0</DiploEmphasisReligion>
@@ -418,19 +418,19 @@
 			<StartPercent>65</StartPercent>
 			<BuildingMaintenancePercent>130</BuildingMaintenancePercent>
 			<GrowthPercent>60</GrowthPercent>
-			<TrainPercent>70</TrainPercent>
-			<ConstructPercent>70</ConstructPercent>
-			<CreatePercent>30</CreatePercent>
+			<TrainPercent>140</TrainPercent>
+			<ConstructPercent>140</ConstructPercent>
+			<CreatePercent>200</CreatePercent>
 			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>70</BuildPercent>
 			<ImprovementPercent>70</ImprovementPercent>
-			<GreatPeoplePercent>70</GreatPeoplePercent>
+			<GreatPeoplePercent>80</GreatPeoplePercent>
 			<CulturePercent>70</CulturePercent>
-			<TradeRouteFoodBonusTimes100>1000</TradeRouteFoodBonusTimes100>
-			<TradeRouteProductionBonusTimes100>1000</TradeRouteProductionBonusTimes100>
+			<TradeRouteFoodBonusTimes100>10000</TradeRouteFoodBonusTimes100>
+			<TradeRouteProductionBonusTimes100>10000</TradeRouteProductionBonusTimes100>
 			<EventChancePerTurn>8</EventChancePerTurn>
-			<SpiesGrantedForPlayer>1</SpiesGrantedForPlayer>
-			<SpiesGrantedForEveryone>0</SpiesGrantedForEveryone>
+			<SpiesGrantedForPlayer>0</SpiesGrantedForPlayer>
+			<SpiesGrantedForEveryone>1</SpiesGrantedForEveryone>
 			<FaithCostMultiplier>400</FaithCostMultiplier>
 			<DiploEmphasisReligion>0</DiploEmphasisReligion>
 			<DiploEmphasisLatePolicies>50</DiploEmphasisLatePolicies>
@@ -471,16 +471,16 @@
 			<StartPercent>80</StartPercent>
 			<BuildingMaintenancePercent>150</BuildingMaintenancePercent>
 			<GrowthPercent>55</GrowthPercent>
-			<TrainPercent>70</TrainPercent>
-			<ConstructPercent>70</ConstructPercent>
+			<TrainPercent>145</TrainPercent>
+			<ConstructPercent>145</ConstructPercent>
 			<CreatePercent>21</CreatePercent>
 			<ResearchPercent>100</ResearchPercent>
 			<BuildPercent>60</BuildPercent>
 			<ImprovementPercent>60</ImprovementPercent>
-			<GreatPeoplePercent>60</GreatPeoplePercent>
+			<GreatPeoplePercent>80</GreatPeoplePercent>
 			<CulturePercent>60</CulturePercent>
-			<TradeRouteFoodBonusTimes100>1500</TradeRouteFoodBonusTimes100>
-			<TradeRouteProductionBonusTimes100>1500</TradeRouteProductionBonusTimes100>
+			<TradeRouteFoodBonusTimes100>15000</TradeRouteFoodBonusTimes100>
+			<TradeRouteProductionBonusTimes100>15000</TradeRouteProductionBonusTimes100>
 			<EventChancePerTurn>10</EventChancePerTurn>
 			<SpiesGrantedForPlayer>0</SpiesGrantedForPlayer>
 			<SpiesGrantedForEveryone>0</SpiesGrantedForEveryone>

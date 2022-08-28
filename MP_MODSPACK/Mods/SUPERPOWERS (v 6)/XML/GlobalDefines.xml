@@ -103,11 +103,16 @@
 			<Where Name="HAPPINESS_PER_CITY_WITH_STATE_RELIGION" />
 		</Update>
 
+		<Update>
+			<Set Value="33"/>
+			<Where Name="WLTKD_GROWTH_MULTIPLIER" />
+		</Update>
+
 		
 
 
 		<Update>
-			<Set Value="2"/>
+			<Set Value="3"/>
 			<Where Name="UNHAPPINESS_PER_CITY" />
 		</Update>
 		<Update>
@@ -115,7 +120,7 @@
 			<Where Name="UNHAPPINESS_PER_OCCUPIED_POPULATION" />
 		</Update>
 		<Update>
-			<Set Value="3"/>
+			<Set Value="6"/>
 			<Where Name="UNHAPPINESS_PER_CAPTURED_CITY" />
 		</Update>
 		<Update>
@@ -123,7 +128,7 @@
 			<Where Name="NONCOMBAT_UNIT_RANGED_DAMAGE" />
 		</Update>
 		<Update>
-			<Set Value="1"/>
+			<Set Value="2"/>
 			<Where Name="HAPPINESS_PER_EXTRA_LUXURY" />
 		</Update>
 		
@@ -240,17 +245,17 @@
 		<!-- HAPPINESS -->
 
 		<Update>
-			<Set Value="-25"/>
+			<Set Value="-20"/>
 			<Where Name="UNHAPPY_GROWTH_PENALTY" />
 		</Update>
 
 		<Update>
-			<Set Value="-33"/>
+			<Set Value="-25"/>
 			<Where Name="VERY_UNHAPPY_GROWTH_PENALTY" />
 		</Update>
 
 		<Update>
-			<Set Value="-10"/>
+			<Set Value="-15"/>
 			<Where Name="VERY_UNHAPPY_THRESHOLD" />
 		</Update>
 
@@ -346,17 +351,17 @@
 		<!-- CITY STATE DEFINES -->
 
 		<Update>
-			<Set Value="8000"/>
+			<Set Value="9000"/>
 			<Where Name="MINOR_GOLD_GIFT_LARGE" />
 		</Update>
 
 		<Update>
-			<Set Value="4000"/>
+			<Set Value="4500"/>
 			<Where Name="MINOR_GOLD_GIFT_MEDIUM" />
 		</Update>
 
 		<Update>
-			<Set Value="2000"/>
+			<Set Value="3000"/>
 			<Where Name="MINOR_GOLD_GIFT_SMALL" />
 		</Update>
 
@@ -376,7 +381,7 @@
 		</Update>
 
 		<Update>
-			<Set Value="300"/>
+			<Set Value="100"/>
 			<Where Name="CULTURE_BOMB_MINOR_FRIENDSHIP_CHANGE" />
 		</Update>
 
@@ -433,7 +438,7 @@
 			<Where Name="SETTLER_EVALUATION_DISTANCE" />
 		</Update>
 		<Update>
-			<Set Value="99"/>
+			<Set Value="75"/>
 			<Where Name="SETTLER_DISTANCE_DROPOFF_MODIFIER" />
 		</Update>
 		<Update>
@@ -477,6 +482,12 @@
 		<Update>
 			<Set Value="35"/>
 			<Where Name="PLOT_INFLUENCE_WATER_COST" />
+		</Update>
+		
+		<!-- SUPPLY DEBUFF -->
+		<Update>
+			<Set Value="80"/>
+			<Where Name="MAX_UNIT_SUPPLY_PRODMOD" />
 		</Update>
 		
 		
@@ -830,12 +841,12 @@
 		</Update>
 
 		<Update>
-			<Set Value="16"/>
+			<Set Value="18"/>
 			<Where Name="MIN_CIV_STARTING_DISTANCE" />
 		</Update>
 
 		<Update>
-			<Set Value="15"/>
+			<Set Value="10"/>
 			<Where Name="PILLAGE_HEAL_AMOUNT" />
 		</Update>
 

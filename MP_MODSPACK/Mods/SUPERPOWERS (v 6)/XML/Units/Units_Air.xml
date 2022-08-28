@@ -29,11 +29,11 @@
 
 	<SpecialUnits>
 		<Update>
-			<Set CityLoad="fasle"/>
+			<Set CityLoad="false"/>
 			<Where Type="SPECIALUNIT_FIGHTER"/>
 		</Update>
 		<Update>
-			<Set CityLoad="fasle"/>
+			<Set CityLoad="false"/>
 			<Where Type="SPECIALUNIT_MISSILE"/>
 		</Update>
 		<Row>

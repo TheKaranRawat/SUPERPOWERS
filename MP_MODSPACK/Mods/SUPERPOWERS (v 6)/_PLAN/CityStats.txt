@@ -3,12 +3,12 @@ TOTAL
 		[ICON_GOLD]Maintenance,	
 						new_name	pop		MP		ele		CG		unhapp	trade	tour	defence		pollution	tarrif			
 		town			village		0		4		3		2		0		0		0		0/0hp		0			0
-		small city		town		6		6		6		4		2		8		0		10/30hp		0			8
-		medium city		city		15		15		12		12		4		16		0		25/50hp		0			16
-		large city		Municipality26		26		25		25		8		32		10		40/75hp		-5			35
-		XL city			metropolis	40		40		50		50		16		64		15		60/100hp	-10			75	
-		XXL city		megacity	60		60		75		75		32		128		25		80/120hp	-15			100
-		global city		gigacity	80		80		120		120		64		256		50		120/150hp	-20			150
+		small city		town		6		6		6		4		6		8		0		10/30hp		0			8
+		medium city		city		15		15		12		12		12		16		0		25/50hp		0			16
+		large city		Municipality26		26		25		25		24		32		10		40/75hp		-5			35
+		XL city			metropolis	40		40		50		50		48		64		15		60/100hp	-10			75	
+		XXL city		megapolis	60		60		75		75		72		128		25		80/120hp	-15			100
+		global city		gigapolis	80		80		120		120		100		256		50		120/150hp	-20			150
 
 		-->
 
@@ -17,12 +17,12 @@ ADDITIVE
 		[ICON_GOLD]Maintenance,	
 						new_name	pop		MP		ele		CG		unhapp	trade	tour	defence		pollution	tarrif	policy		
 		town			village		0		4		3		2		0		0		0		0/0hp		0			0		0
-		small city		town		6		2		3		2		2		8		0		10/40hp		0			8		0
-		medium city		city		15		9		6		8		2		8		0		15/50hp		0			16		0
-		large city		Municipality26		11		13		13		4		16		10		15/100hp	0			16		0
-		XL city			district	40		14		25		25		8		32		5		20/120hp	-5			16		0
-		XXL city		megacity	60		20		25		25		16		64		10		20/150hp	-10			16		5
-		global city		gigacity	80		20		45		25		32		128		25		40/200hp	-20			36		10
+		small city		town		6		2		3		2		6		8		0		10/40hp		0			8		0
+		medium city		city		15		9		6		8		6		8		0		15/50hp		0			16		0
+		large city		Municipality26		11		13		13		12		16		10		15/100hp	0			16		0
+		XL city			district	40		14		25		25		24		32		5		20/120hp	-5			16		0
+		XXL city		megacity	60		20		25		25		24		64		10		20/150hp	-10			16		5
+		global city		gigacity	80		20		45		25		28		128		25		40/200hp	-20			36		10
 
 		-->
 		

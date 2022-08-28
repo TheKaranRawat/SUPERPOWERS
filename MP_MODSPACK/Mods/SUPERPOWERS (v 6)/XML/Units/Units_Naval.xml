@@ -391,7 +391,7 @@
 			<PortraitIndex>8</PortraitIndex>
 			<MoveRate>WOODEN_BOAT</MoveRate>
 			<ProjectPrereq>PROJECT_NAVAL_EXPLORATION</ProjectPrereq>
-			<ExtraMaintenanceCost>16</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>28</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_FRIGATE</Class>
@@ -496,7 +496,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>10</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>32</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>42</ExtraMaintenanceCost>
 		</Row>
 
 		

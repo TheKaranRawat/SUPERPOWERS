@@ -730,7 +730,7 @@
 			<PortraitIndex>13</PortraitIndex>
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>50</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>70</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_TANK</Class>
@@ -799,7 +799,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>41</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>80</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>100</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_MAIN_BATTLE_TANK</Class>
@@ -900,7 +900,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>27</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>80</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>120</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>

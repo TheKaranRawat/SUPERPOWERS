@@ -134,7 +134,7 @@
 			<UnitGoldMaintenanceMod>-25</UnitGoldMaintenanceMod>
 			<InternalTradeRouteYieldModifier>50</InternalTradeRouteYieldModifier>
 			<BuildingProductionModifier>50</BuildingProductionModifier>
-			<StrategicResourceMod>150</StrategicResourceMod>
+			<StrategicResourceMod>100</StrategicResourceMod>
 		</Row>
 
 		<Row>
@@ -150,7 +150,7 @@
 			<UnitGoldMaintenanceMod>-35</UnitGoldMaintenanceMod>
 			<ThemingBonusMultiplier>100</ThemingBonusMultiplier>
 			<InternalTradeRouteYieldModifier>50</InternalTradeRouteYieldModifier>
-			<StrategicResourceMod>200</StrategicResourceMod>
+			<StrategicResourceMod>150</StrategicResourceMod>
 		</Row>
 
 
@@ -160,7 +160,7 @@
 			<Description>TXT_KEY_POLICY_PHILANTHROPY</Description>
 			<CityGrowthMod>100</CityGrowthMod>
 			
-			<StrategicResourceMod>200</StrategicResourceMod>
+			<StrategicResourceMod>100</StrategicResourceMod>
 			
 			<MilitaryProductionModifier>300</MilitaryProductionModifier>
 			<BuildingProductionModifier>300</BuildingProductionModifier>
@@ -207,22 +207,22 @@
 		
 		
 		<Update>
-			<Set StrategicResourceMod="150"/>
+			<Set StrategicResourceMod="20"/>
 			<Where Type="POLICY_AI_INDUSTRY"/>
 		</Update>
 
 		<Update>
-			<Set StrategicResourceMod="170"/>
+			<Set StrategicResourceMod="30"/>
 			<Where Type="POLICY_AI_MODERN"/>
 		</Update>
 
 		<Update>
-			<Set StrategicResourceMod="190"/>
+			<Set StrategicResourceMod="40"/>
 			<Where Type="POLICY_AI_WORLDWAR"/>
 		</Update>
 
 		<Update>
-			<Set StrategicResourceMod="200"/>
+			<Set StrategicResourceMod="50"/>
 			<Where Type="POLICY_AI_ATOMIC"/>
 		</Update>
 

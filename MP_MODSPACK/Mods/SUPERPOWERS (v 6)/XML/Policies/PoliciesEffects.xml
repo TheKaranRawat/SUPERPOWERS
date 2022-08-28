@@ -84,7 +84,7 @@
 		<Row>
 			<PolicyType>POLICY_FINE_ARTS</PolicyType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<Yield>8</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_CREATIVE_EXPRESSION</PolicyType>
@@ -2425,6 +2425,11 @@
 			<PolicyType>POLICY_ISKA_FREEDOM_FINISHER</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_HARMONY_FINISHER</BuildingClassType>
 		</Row>
+
+		<Row>
+			<PolicyType>POLICY_AESTHETICS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_AESTHETICS</BuildingClassType>
+		</Row>
 		
 	</Policy_FreeBuildingClass>
 
@@ -2693,6 +2698,12 @@
 		<Row>
 			<Type>BUILDINGCLASS_HARMONY_FINISHER</Type>
 			<DefaultBuilding>BUILDING_HARMONY_FINISHER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+		</Row>
+
+		<Row>
+			<Type>BUILDINGCLASS_AESTHETICS</Type>
+			<DefaultBuilding>BUILDING_AESTHETICS</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
 		</Row>
 
@@ -3287,6 +3298,23 @@
 		</Row>
 
 		<!-- FIN -->
+
+		<Row>
+			<Type>BUILDING_AESTHETICS</Type>
+			<BuildingClass>BUILDINGCLASS_AESTHETICS</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>		
+			
+			<CultureRateModifier>33</CultureRateModifier>
+			
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description>
+			<Help>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Help>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
 
 
 		<Row>

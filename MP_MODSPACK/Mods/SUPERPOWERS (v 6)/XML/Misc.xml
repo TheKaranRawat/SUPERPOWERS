@@ -133,6 +133,71 @@
 			<Where Type="WORLDSIZE_HUGE"/>
 		</Update>
 
+		<!-- number of civs adjustment -->
+
+		<Update>
+			<Set DefaultPlayers="4"/>
+			<Where Type="WORLDSIZE_DUEL"/>
+		</Update>
+
+		<Update>
+			<Set DefaultPlayers="6"/>
+			<Where Type="WORLDSIZE_TINY"/>
+		</Update>
+
+		<Update>
+			<Set DefaultPlayers="8"/>
+			<Where Type="WORLDSIZE_SMALL"/>
+		</Update>
+
+		<Update>
+			<Set DefaultPlayers="12"/>
+			<Where Type="WORLDSIZE_STANDARD"/>
+		</Update>
+
+		<Update>
+			<Set DefaultPlayers="16"/>
+			<Where Type="WORLDSIZE_LARGE"/>
+		</Update>
+
+		<Update>
+			<Set DefaultPlayers="20"/>
+			<Where Type="WORLDSIZE_HUGE"/>
+		</Update>
+
+		<!-- number of natural wonders adjustment -->
+		
+		<Update>
+			<Set NumNaturalWonders="8"/>
+			<Where Type="WORLDSIZE_DUEL"/>
+		</Update>
+
+		<Update>
+			<Set NumNaturalWonders="8"/>
+			<Where Type="WORLDSIZE_TINY"/>
+		</Update>
+
+		<Update>
+			<Set NumNaturalWonders="10"/>
+			<Where Type="WORLDSIZE_SMALL"/>
+		</Update>
+
+		<Update>
+			<Set NumNaturalWonders="12"/>
+			<Where Type="WORLDSIZE_STANDARD"/>
+		</Update>
+
+		<Update>
+			<Set NumNaturalWonders="14"/>
+			<Where Type="WORLDSIZE_LARGE"/>
+		</Update>
+
+		<Update>
+			<Set NumNaturalWonders="17"/>
+			<Where Type="WORLDSIZE_HUGE"/>
+		</Update>
+
+		
 		
 
 

@@ -535,6 +535,9 @@ function AddBuildingButton( pCity, building )
 				if player:HasPolicy(GameInfo.Policies["POLICY_MERCANTILISM"].ID) then
 					ConsumerCount = ConsumerCount + 2
 				end
+				if player:HasPolicy(GameInfo.Policies["POLICY_ISKA_UNITED_FRONT"].ID) then
+					ConsumerCount = ConsumerCount + 2
+				end
 				ToolTipString = ToolTipString .. " +" ..ConsumerCount.. "[ICON_RES_CONSUMER]";
 				
 			end

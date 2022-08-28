@@ -1326,7 +1326,7 @@
 			<Combat>22</Combat>
 			<Cost>25</Cost>
 			<Moves>2</Moves>
-			<HurryCostModifier>20</HurryCostModifier+>
+			<HurryCostModifier>20</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>

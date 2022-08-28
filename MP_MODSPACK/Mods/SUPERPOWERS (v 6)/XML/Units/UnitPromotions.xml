@@ -4704,10 +4704,12 @@
 			<PromotionType>PROMOTION_MARCH</PromotionType>
 			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
 		</Row>
+		<!--
 		<Row>
 			<PromotionType>PROMOTION_MARCH</PromotionType>
 			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
 		</Row>
+		-->
 		<Row>
 			<PromotionType>PROMOTION_MARCH</PromotionType>
 			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>

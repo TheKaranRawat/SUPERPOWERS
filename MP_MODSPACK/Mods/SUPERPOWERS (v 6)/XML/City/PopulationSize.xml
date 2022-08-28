@@ -75,7 +75,7 @@
 			<PortraitIndex>57</PortraitIndex>
 			<Defense>1000</Defense>
 			<ExtraCityHitPoints>40</ExtraCityHitPoints>
-			<Happiness>-2</Happiness>
+			<Happiness>-6</Happiness>
 			<CityWorkingChange>1</CityWorkingChange>
 			<TradeRouteSeaGoldBonus>800</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>800</TradeRouteLandGoldBonus>
@@ -97,7 +97,7 @@
 			<PortraitIndex>58</PortraitIndex>
 			<Defense>1500</Defense>
 			<ExtraCityHitPoints>50</ExtraCityHitPoints>
-			<Happiness>-2</Happiness>
+			<Happiness>-6</Happiness>
 			<TradeRouteSeaGoldBonus>1600</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>1600</TradeRouteLandGoldBonus>
 			<TradeRouteRecipientBonus>16</TradeRouteRecipientBonus>
@@ -119,7 +119,7 @@
 			<Defense>1500</Defense>
 			<ExtraCityHitPoints>100</ExtraCityHitPoints>
 			<FoodKept>-5</FoodKept>
-			<Happiness>-4</Happiness>
+			<Happiness>-12</Happiness>
 			<TradeRouteSeaGoldBonus>3200</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>3200</TradeRouteLandGoldBonus>
 			<TradeRouteRecipientBonus>32</TradeRouteRecipientBonus>
@@ -141,7 +141,7 @@
 			<Defense>2000</Defense>
 			<ExtraCityHitPoints>120</ExtraCityHitPoints>
 			<FoodKept>-5</FoodKept>
-			<Happiness>-8</Happiness>
+			<Happiness>-24</Happiness>
 			<CityWorkingChange>1</CityWorkingChange>
 			<TradeRouteSeaGoldBonus>4800</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>4800</TradeRouteLandGoldBonus>
@@ -164,7 +164,7 @@
 			<Defense>2000</Defense>
 			<ExtraCityHitPoints>150</ExtraCityHitPoints>
 			<FoodKept>-10</FoodKept>
-			<Happiness>-16</Happiness>
+			<Happiness>-24</Happiness>
 			<TradeRouteSeaGoldBonus>6400</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>6400</TradeRouteLandGoldBonus>
 			<TradeRouteRecipientBonus>128</TradeRouteRecipientBonus>
@@ -187,7 +187,7 @@
 			<Defense>4000</Defense>
 			<ExtraCityHitPoints>200</ExtraCityHitPoints>
 			<FoodKept>-13</FoodKept>
-			<Happiness>-32</Happiness>
+			<Happiness>-28</Happiness>
 			<TradeRouteSeaGoldBonus>10000</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>10000</TradeRouteLandGoldBonus>
 			<TradeRouteRecipientBonus>256</TradeRouteRecipientBonus>

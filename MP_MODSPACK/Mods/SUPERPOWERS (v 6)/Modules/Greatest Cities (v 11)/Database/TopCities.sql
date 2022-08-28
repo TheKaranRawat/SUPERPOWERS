@@ -41,5 +41,5 @@ SELECT 'BUILDING_TC_TRIUMPHARCH',				'FLAVOR_GOLD',						50;
 -----------------------------------------------------------------------------------------------------
 --Pedia Entries
 ----------------------------------------------------------------------------------------------------- 
-INSERT INTO Concepts (Type,			Topic,					Description,								Summary,									AdvisorQuestion,			Advisor,	CivilopediaHeaderType,	InsertBefore)
-SELECT 'CONCEPT_GREATEST_CITY',		'TXT_KEY_TOPIC_CITIES',	'TXT_KEY_CITIES_GREATEST_HEADING3_TITLE',	'TXT_KEY_CITIES_GREATEST_HEADING3_BODY',	'TXT_KEY_CITIES_ADV_QUEST',	'ECONOMIC',	'HEADER_CITIES',		'CONCEPT_CITIES';
+INSERT INTO Concepts (Type,			Topic,					Description,								Summary,									AdvisorQuestion,			Advisor,	CivilopediaHeaderType)
+SELECT 'CONCEPT_GREATEST_CITY',		'TXT_KEY_TOPIC_CITIES',	'TXT_KEY_CITIES_GREATEST_HEADING3_TITLE',	'TXT_KEY_CITIES_GREATEST_HEADING3_BODY',	'TXT_KEY_CITIES_ADV_QUEST',	'ECONOMIC',	'HEADER_SUPERPOWERS';

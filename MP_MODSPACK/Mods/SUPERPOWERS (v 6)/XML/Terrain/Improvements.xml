@@ -1666,22 +1666,22 @@
 		</Row>-->
 		
 		<Update>
-			<Set Yield="12"/>
+			<Set Yield="14"/>
 			<Where ImprovementType="IMPROVEMENT_HOLY_SITE"/>
 		</Update>
 
 		<Update>
-			<Set Yield="16"/>
+			<Set Yield="14"/>
 			<Where ImprovementType="IMPROVEMENT_LANDMARK"/>
 		</Update>
 
 
 		<Update>
-			<Set Yield="12"/>
+			<Set Yield="14"/>
 			<Where ImprovementType="IMPROVEMENT_CUSTOMS_HOUSE"/>
 		</Update>
 		<Update>
-			<Set Yield="12"/>
+			<Set Yield="14"/>
 			<Where ImprovementType="IMPROVEMENT_MANUFACTORY"/>
 		</Update>
 
@@ -1878,6 +1878,13 @@
 			<TechType>TECH_CIVIL_SERVICE</TechType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<TechType>TECH_CIVIL_SERVICE</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
 		</Row>
 
 		<Row>

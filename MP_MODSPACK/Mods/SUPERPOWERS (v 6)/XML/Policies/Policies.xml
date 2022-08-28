@@ -96,7 +96,7 @@
 		</Update>
 
 		<Update>
-			<Set CityGrowthMod="-15" />
+			<Set CityGrowthMod="-10" />
 			<Where Type="POLICY_LIBERTY"/>
 		</Update>
 
@@ -334,7 +334,7 @@
 
 	
 		<Update>
-			<Set HappinessToCulture="0" ThemingBonusMultiplier="100" />
+			<Set HappinessToCulture="50" ThemingBonusMultiplier="100" />
 			<Where Type="POLICY_FINE_ARTS"/>
 		</Update>
 		<Update>
@@ -992,7 +992,7 @@
 			<Description>TXT_KEY_POLICY_BRANCH_FREEDOM1</Description>
 			<Help>TXT_KEY_POLICY_BRANCH_FREEDOM1_HELP</Help>
 			<Title>TXT_KEY_FREEDOM_TITLE</Title>
-			<EraPrereq>ERA_INDUSTRIAL</EraPrereq>
+			<EraPrereq>ERA_MODERN</EraPrereq>
 			<FreePolicy>POLICY_ISKA_FREEDOM</FreePolicy>
 			<FreeFinishingPolicy>POLICY_ISKA_FREEDOM_FINISHER</FreeFinishingPolicy>
 		</Row>
@@ -1002,7 +1002,7 @@
 			<Description>TXT_KEY_POLICY_BRANCH_ORDER1</Description>
 			<Help>TXT_KEY_POLICY_BRANCH_ORDER1_HELP</Help>
 			<Title>TXT_KEY_ORDER_TITLE</Title>
-			<EraPrereq>ERA_INDUSTRIAL</EraPrereq>
+			<EraPrereq>ERA_MODERN</EraPrereq>
 			<FreePolicy>POLICY_ISKA_ORDER</FreePolicy>
 			<FreeFinishingPolicy>POLICY_ISKA_ORDER_FINISHER</FreeFinishingPolicy>
 		</Row>
@@ -1012,7 +1012,7 @@
 			<Description>TXT_KEY_POLICY_BRANCH_AUTOCRACY1</Description>
 			<Help>TXT_KEY_POLICY_BRANCH_AUTOCRACY1_HELP</Help>
 			<Title>TXT_KEY_AUTOCRACY_TITLE</Title>
-			<EraPrereq>ERA_INDUSTRIAL</EraPrereq>
+			<EraPrereq>ERA_MODERN</EraPrereq>
 			<FreePolicy>POLICY_ISKA_AUTOCRACY</FreePolicy>
 			<FreeFinishingPolicy>POLICY_ISKA_AUTOCRACY_FINISHER</FreeFinishingPolicy>
 		</Row>
@@ -1032,6 +1032,7 @@
 			<Set EraPrereq="ERA_CLASSICAL"/>
 			<Where Type="POLICY_BRANCH_HONOR"/>
 		</Update>
+		
 		<Update>
 			<Set EraPrereq="ERA_CLASSICAL"/>
 			<Where Type="POLICY_BRANCH_PIETY"/>
@@ -1046,6 +1047,23 @@
 			<Set EraPrereq="ERA_MEDIEVAL"/>
 			<Where Type="POLICY_PATRONAGE"/>
 		</Update>
+
+		<Update>
+			<Set EraPrereq="ERA_INDUSTRIAL"/>
+			<Where Type="POLICY_COMMERCE"/>
+		</Update>
+
+		<Update>
+			<Set EraPrereq="ERA_INDUSTRIAL"/>
+			<Where Type="POLICY_RATIONALISM"/>
+		</Update>
+
+		<Update>
+			<Set EraPrereq="ERA_INDUSTRIAL"/>
+			<Where Type="POLICY_EXPLORATION"/>
+		</Update>
+
+		
 
 
 	</PolicyBranchTypes>
@@ -1151,7 +1169,7 @@
 			<GridX>5</GridX>
 			<GridY>2</GridY>
 
-			<CulturePerWonder>33</CulturePerWonder>
+			<CulturePerWonder>8</CulturePerWonder>
 			<NumFreeTechs>3</NumFreeTechs>
 			
 			<PortraitIndex>1</PortraitIndex>

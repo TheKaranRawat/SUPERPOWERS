@@ -885,6 +885,7 @@
 			<Strategy>TXT_KEY_BUILDING_PALACE_STRATEGY</Strategy>
 			<ArtDefineTag>PALACE</ArtDefineTag>
 			<Capital>true</Capital>
+			<UnmoddedHappiness>10</UnmoddedHappiness>
 			<NukeImmune>true</NukeImmune>
 			<MinAreaSize>-1</MinAreaSize>
 			<Defense>500</Defense>
@@ -1852,7 +1853,7 @@
 		<Row>
 			<Type>BUILDING_TEMPLE_ARTEMIS</Type>
 			<BuildingClass>BUILDINGCLASS_TEMPLE_ARTEMIS</BuildingClass>
-			<Cost>100</Cost>
+			<Cost>130</Cost>
 			<PrereqTech>TECH_POTTERY</PrereqTech>
 			<Help>TXT_KEY_WONDER_TEMPLE_ARTEMIS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_TEMPLE_ARTEMIS</Description>
@@ -1878,7 +1879,7 @@
 		<Row>
 			<Type>BUILDING_STONEHENGE</Type>
 			<BuildingClass>BUILDINGCLASS_STONEHENGE</BuildingClass>
-			<Cost>100</Cost>
+			<Cost>130</Cost>
 			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<Description>TXT_KEY_BUILDING_STONEHENGE</Description>
 			<Help>TXT_KEY_BUILDING_STONEHENGE_HELP</Help>
@@ -1906,7 +1907,7 @@
 		<Row>
 			<Type>BUILDING_COLOSSUS</Type>
 			<BuildingClass>BUILDINGCLASS_COLOSSUS</BuildingClass>
-			<Cost>135</Cost>
+			<Cost>170</Cost>
 			<PrereqTech>TECH_SAILING</PrereqTech>
 			<Help>TXT_KEY_WONDER_COLOSSUS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_COLOSSUS</Description>
@@ -1935,7 +1936,7 @@
 		<Row>
 			<Type>BUILDING_GREAT_LIBRARY</Type>
 			<BuildingClass>BUILDINGCLASS_GREAT_LIBRARY</BuildingClass>
-			<Cost>135</Cost>
+			<Cost>170</Cost>
 			<PrereqTech>TECH_WRITING</PrereqTech>
 			<Help>TXT_KEY_WONDER_GREAT_LIBRARY_HELP</Help>
 			<ThemingBonusHelp>TXT_KEY_GREAT_LIBRARY_THEMING_BONUS_HELP</ThemingBonusHelp>
@@ -1964,7 +1965,7 @@
 		<Row>
 			<Type>BUILDING_MAUSOLEUM_HALICARNASSUS</Type>
 			<BuildingClass>BUILDINGCLASS_MAUSOLEUM_HALICARNASSUS</BuildingClass>
-			<Cost>135</Cost>
+			<Cost>170</Cost>
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 			<Help>TXT_KEY_WONDER_MAUSOLEUM_HALICARNASSUS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_MAUSOLEUM_HALICARNASSUS</Description>
@@ -1988,7 +1989,7 @@
 		<Row>
 			<Type>BUILDING_PYRAMID</Type>
 			<BuildingClass>BUILDINGCLASS_PYRAMID</BuildingClass>
-			<Cost>135</Cost>
+			<Cost>170</Cost>
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_CHICHEN_ITZA_HELP</Help>
@@ -2017,7 +2018,7 @@
 		<Row>
 			<Type>BUILDING_GREAT_LIGHTHOUSE</Type>
 			<BuildingClass>BUILDINGCLASS_GREAT_LIGHTHOUSE</BuildingClass>
-			<Cost>180</Cost>
+			<Cost>230</Cost>
 			<PrereqTech>TECH_OPTICS</PrereqTech>
 			<Help>TXT_KEY_WONDER_GREAT_LIGHTHOUSE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_GREAT_LIGHTHOUSE</Description>
@@ -2044,7 +2045,7 @@
 		<Row>
 			<Type>BUILDING_HANGING_GARDEN</Type>
 			<BuildingClass>BUILDINGCLASS_HANGING_GARDEN</BuildingClass>
-			<Cost>180</Cost>
+			<Cost>230</Cost>
 			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_HANGING_GARDEN_HELP</Help>
@@ -2068,7 +2069,7 @@
 			<Type>BUILDING_COLOSSEUM</Type>
 			<BuildingClass>BUILDINGCLASS_COLOSSEUM</BuildingClass>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
-			<Cost>180</Cost>
+			<Cost>230</Cost>
 			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_COLOSSEUM_HELP</Help>
 			<Description>TXT_KEY_BUILDING_COLOSSEUM</Description>
@@ -2091,7 +2092,7 @@
 		<Row>
 			<Type>BUILDING_GREAT_WALL</Type>
 			<BuildingClass>BUILDINGCLASS_GREAT_WALL</BuildingClass>
-			<Cost>180</Cost>
+			<Cost>230</Cost>
 			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 			<Help>TXT_KEY_WONDER_GREAT_WALL_HELP</Help>
 			<Description>TXT_KEY_BUILDING_GREAT_WALL</Description>
@@ -2119,7 +2120,7 @@
 		<Row>
 			<Type>BUILDING_TERRACOTTA_ARMY</Type>
 			<BuildingClass>BUILDINGCLASS_TERRACOTTA_ARMY</BuildingClass>
-			<Cost>135</Cost>
+			<Cost>170</Cost>
 			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
 			<Help>TXT_KEY_WONDER_TERRA_COTTA_ARMY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_TERRACOTTA_ARMY</Description>
@@ -2143,7 +2144,7 @@
 		<Row>
 			<Type>BUILDING_STATUE_ZEUS</Type>
 			<BuildingClass>BUILDINGCLASS_STATUE_ZEUS</BuildingClass>
-			<Cost>180</Cost>
+			<Cost>230</Cost>
 			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 			<Help>TXT_KEY_WONDER_STATUE_ZEUS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_STATUE_ZEUS</Description>
@@ -2168,7 +2169,7 @@
 		<Row>
 			<Type>BUILDING_PARTHENON</Type>
 			<BuildingClass>BUILDINGCLASS_PARTHENON</BuildingClass>
-			<Cost>180</Cost>
+			<Cost>230</Cost>
 			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_PARTHENON</Description>
 			<Quote>TXT_KEY_BUILDING_PARTHENON_QUOTE</Quote>
@@ -2194,7 +2195,7 @@
 		<Row>
 			<Type>BUILDING_ORACLE</Type>
 			<BuildingClass>BUILDINGCLASS_ORACLE</BuildingClass>
-			<Cost>180</Cost>
+			<Cost>230</Cost>
 			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
 			<Help>TXT_KEY_WONDER_ORACLE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_ORACLE</Description>
@@ -2220,7 +2221,7 @@
 		<Row>
 			<Type>BUILDING_ANGKOR_WAT</Type>
 			<BuildingClass>BUILDINGCLASS_ANGKOR_WAT</BuildingClass>
-			<Cost>240</Cost>
+			<Cost>300</Cost>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<Help>TXT_KEY_WONDER_ANGKOR_WAT_HELP</Help>
 			<Description>TXT_KEY_BUILDING_ANGKOR_WAT</Description>
@@ -2245,7 +2246,7 @@
 		<Row>
 			<Type>BUILDING_HAGIA_SOPHIA</Type>
 			<BuildingClass>BUILDINGCLASS_HAGIA_SOPHIA</BuildingClass>
-			<Cost>240</Cost>
+			<Cost>300</Cost>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<Help>TXT_KEY_WONDER_HAGIA_SOPHIA_HELP</Help>
 			<Description>TXT_KEY_BUILDING_HAGIA_SOPHIA</Description>
@@ -2269,7 +2270,7 @@
 		<Row>
 			<Type>BUILDING_BOROBUDUR</Type>
 			<BuildingClass>BUILDINGCLASS_BOROBUDUR</BuildingClass>
-			<Cost>240</Cost>
+			<Cost>300</Cost>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_BOROBUDUR</Description>
 			<Quote>TXT_KEY_BUILDING_BOROBUDUR_QUOTE</Quote>
@@ -2294,7 +2295,7 @@
 		<Row>
 			<Type>BUILDING_MOSQUE_OF_DJENNE</Type>
 			<BuildingClass>BUILDINGCLASS_MOSQUE_OF_DJENNE</BuildingClass>
-			<Cost>240</Cost>
+			<Cost>300</Cost>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<Help>TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_PIETY</PolicyBranchType>
@@ -2322,7 +2323,7 @@
 		<Row>
 			<Type>BUILDING_PETRA</Type>
 			<BuildingClass>BUILDINGCLASS_PETRA</BuildingClass>
-			<Cost>240</Cost>
+			<Cost>300</Cost>
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 			<Help>TXT_KEY_WONDER_PETRA_HELP</Help>
 			<Description>TXT_KEY_BUILDING_PETRA</Description>
@@ -2355,7 +2356,7 @@
 			<Civilopedia>TXT_KEY_WONDER_POTALA_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_POTALA_QUOTE</Quote>
 			<ThemingBonusHelp>TXT_KEY_POTALA_THEMING_BONUS_HELP</ThemingBonusHelp>
-			<Cost>240</Cost>
+			<Cost>300</Cost>
 			<PrereqTech>TECH_ART_THEORY</PrereqTech>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
 			<NearbyTerrainRequired>TERRAIN_TUNDRA</NearbyTerrainRequired>
@@ -2376,7 +2377,7 @@
 		<Row>
 			<Type>BUILDING_NOTRE_DAME</Type>
 			<BuildingClass>BUILDINGCLASS_NOTRE_DAME</BuildingClass>
-			<Cost>320</Cost>
+			<Cost>400</Cost>
 			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_NOTRE_DAME</Description>
 			<Help>TXT_KEY_WONDER_NOTRE_DAME_HELP</Help>
@@ -2422,7 +2423,7 @@
 		<Row>
 			<Type>BUILDING_MACHU_PICHU</Type>
 			<BuildingClass>BUILDINGCLASS_MACHU_PICHU</BuildingClass>
-			<Cost>320</Cost>
+			<Cost>400</Cost>
 			<PrereqTech>TECH_GUILDS</PrereqTech>
 			<Help>TXT_KEY_WONDER_MACHU_PICHU_HELP</Help>
 			<Description>TXT_KEY_BUILDING_MACHU_PICHU</Description>
@@ -2452,7 +2453,7 @@
 		<Row>
 			<Type>BUILDING_HANSEATIC_LEAGUE</Type>
 			<BuildingClass>BUILDINGCLASS_HANSEATIC_LEAGUE</BuildingClass>
-			<Cost>420</Cost>
+			<Cost>500</Cost>
 			<PrereqTech>TECH_EDUCATION</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_PATRONAGE</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_HANSEATIC_LEAGUE_HELP</Help>
@@ -2473,7 +2474,7 @@
 		<Row>
 			<Type>BUILDING_ALHAMBRA</Type>
 			<BuildingClass>BUILDINGCLASS_ALHAMBRA</BuildingClass>
-			<Cost>420</Cost>
+			<Cost>500</Cost>
 			<PrereqTech>TECH_CHIVALRY</PrereqTech>
 			<Help>TXT_KEY_WONDER_ALHAMBRA_HELP</Help>
 			<Description>TXT_KEY_BUILDING_ALHAMBRA</Description>
@@ -2499,7 +2500,7 @@
 			<Help>TXT_KEY_WONDER_CAIRO_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_CAIRO_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_CAIRO_QUOTE</Quote>
-			<Cost>420</Cost>
+			<Cost>500</Cost>
 			<PrereqTech>TECH_MACHINERY</PrereqTech>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
 			<NukeImmune>true</NukeImmune>
@@ -2516,7 +2517,7 @@
 		<Row>
 			<Type>BUILDING_RED_FORT</Type>
 			<BuildingClass>BUILDINGCLASS_RED_FORT</BuildingClass>
-			<Cost>420</Cost>
+			<Cost>500</Cost>
 			<PrereqTech>TECH_MACHINERY</PrereqTech>
 			<Help>TXT_KEY_WONDER_RED_FORT_HELP</Help>
 			<Description>TXT_KEY_BUILDING_RED_FORT</Description>
@@ -2545,7 +2546,7 @@
 		<Row>
 			<Type>BUILDING_SISTINE_CHAPEL</Type>
 			<BuildingClass>BUILDINGCLASS_SISTINE_CHAPEL</BuildingClass>
-			<Cost>500</Cost>
+			<Cost>750</Cost>
 			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
 			<Help>TXT_KEY_WONDER_SISTINE_CHAPEL_HELP</Help>
 			<ThemingBonusHelp>TXT_KEY_SISTINE_CHAPEL_THEMING_BONUS_HELP</ThemingBonusHelp>
@@ -2570,7 +2571,7 @@
 		<Row>
 			<Type>BUILDING_KREMLIN</Type>
 			<BuildingClass>BUILDINGCLASS_KREMLIN</BuildingClass>
-			<Cost>500</Cost>
+			<Cost>750</Cost>
 			<PrereqTech>TECH_ADMINISTRATION</PrereqTech>
 			<Help>TXT_KEY_WONDER_KREMLIN_HELP</Help>
 			<Description>TXT_KEY_BUILDING_KREMLIN</Description>
@@ -2590,7 +2591,7 @@
 		<Row>
 			<Type>BUILDING_FORBIDDEN_PALACE</Type>
 			<BuildingClass>BUILDINGCLASS_FORBIDDEN_PALACE</BuildingClass>
-			<Cost>500</Cost>
+			<Cost>750</Cost>
 			<PrereqTech>TECH_ADMINISTRATION</PrereqTech>
 			<Help>TXT_KEY_WONDER_FORBIDDEN_PALACE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FORBIDDEN_PALACE</Description>
@@ -2614,7 +2615,7 @@
 		<Row>
 			<Type>BUILDING_LEANING_TOWER</Type>
 			<BuildingClass>BUILDINGCLASS_LEANING_TOWER</BuildingClass>
-			<Cost>500</Cost>
+			<Cost>750</Cost>
 			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
 			<Help>TXT_KEY_WONDER_LEANING_TOWER_HELP</Help>
 			<Description>TXT_KEY_BUILDING_LEANING_TOWER</Description>
@@ -2639,7 +2640,7 @@
 		<Row>
 			<Type>BUILDING_HIMEJI_CASTLE</Type>
 			<BuildingClass>BUILDINGCLASS_HIMEJI_CASTLE</BuildingClass>
-			<Cost>500</Cost>
+			<Cost>750</Cost>
 			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
 			<Help>TXT_KEY_WONDER_HIMEJI_CASTLE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_HIMEJI_CASTLE</Description>
@@ -2672,7 +2673,7 @@
 			<Help>TXT_KEY_WONDER_PORT_OF_ROTTERDAM_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_PORT_OF_ROTTERDAM_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_PORT_OF_ROTTERDAM_QUOTE</Quote>
-			<Cost>500</Cost>
+			<Cost>750</Cost>
 			<PrereqTech>TECH_NAVIGATION</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_EXPLORATION</PolicyBranchType>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
@@ -2692,7 +2693,7 @@
 		<Row>
 			<Type>BUILDING_GLOBE_THEATER</Type>
 			<BuildingClass>BUILDINGCLASS_GLOBE_THEATER</BuildingClass>
-			<Cost>625</Cost>
+			<Cost>850</Cost>
 			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_GLOBE_THEATER</Description>
 			<Quote>TXT_KEY_BUILDING_GLOBE_THEATER_QUOTE</Quote>
@@ -2718,7 +2719,7 @@
 		<Row>
 			<Type>BUILDING_TAJ_MAHAL</Type>
 			<BuildingClass>BUILDINGCLASS_TAJ_MAHAL</BuildingClass>
-			<Cost>625</Cost>
+			<Cost>850</Cost>
 			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
 			<Help>TXT_KEY_WONDER_PYRAMIDS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_TAJ_MAHAL</Description>
@@ -2743,7 +2744,7 @@
 		<Row>
 			<Type>BUILDING_NEUSCHWANSTEIN</Type>
 			<BuildingClass>BUILDINGCLASS_NEUSCHWANSTEIN</BuildingClass>
-			<Cost>625</Cost>
+			<Cost>850</Cost>
 			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
 			<Help>TXT_KEY_WONDER_NEUSCHWANSTEIN_HELP</Help>
 			<Description>TXT_KEY_BUILDING_NEUSCHWANSTEIN</Description>
@@ -2768,7 +2769,7 @@
 		<Row>
 			<Type>BUILDING_UFFIZI</Type>
 			<BuildingClass>BUILDINGCLASS_UFFIZI</BuildingClass>
-			<Cost>625</Cost>
+			<Cost>850</Cost>
 			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_UFFIZI</Description>
 			<Quote>TXT_KEY_BUILDING_UFFIZI_QUOTE</Quote>
@@ -2793,7 +2794,7 @@
 		<Row>
 			<Type>BUILDING_PORCELAIN_TOWER</Type>
 			<BuildingClass>BUILDINGCLASS_PORCELAIN_TOWER</BuildingClass>
-			<Cost>625</Cost>
+			<Cost>850</Cost>
 			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_RATIONALISM</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_PORCELAIN_TOWER_HELP</Help>
@@ -2819,7 +2820,7 @@
 		<Row>
 			<Type>BUILDING_LOUVRE</Type>
 			<BuildingClass>BUILDINGCLASS_LOUVRE</BuildingClass>
-			<Cost>750</Cost>
+			<Cost>1000</Cost>
 			<PrereqTech>TECH_ARCHAEOLOGY</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_AESTHETICS</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_LOUVRE_HELP</Help>
@@ -2846,7 +2847,7 @@
 		<Row>
 			<Type>BUILDING_EIFFEL_TOWER</Type>
 			<BuildingClass>BUILDINGCLASS_EIFFEL_TOWER</BuildingClass>
-			<Cost>825</Cost>
+			<Cost>1200</Cost>
 			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
 			<Help>TXT_KEY_WONDER_EIFFEL_TOWER_HELP</Help>
 			<Description>TXT_KEY_BUILDING_EIFFEL_TOWER</Description>
@@ -2872,7 +2873,7 @@
 		<Row>
 			<Type>BUILDING_BIG_BEN</Type>
 			<BuildingClass>BUILDINGCLASS_BIG_BEN</BuildingClass>
-			<Cost>825</Cost>
+			<Cost>1200</Cost>
 			<PrereqTech>TECH_RAILROAD</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_COMMERCE</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_BIG_BEN_HELP</Help>
@@ -2918,7 +2919,7 @@
 		<Row>
 			<Type>BUILDING_BRANDENBURG_GATE</Type>
 			<BuildingClass>BUILDINGCLASS_BRANDENBURG_GATE</BuildingClass>
-			<Cost>825</Cost>
+			<Cost>1200</Cost>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
 			<Help>TXT_KEY_WONDER_BRANDENBURG_GATE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_BRANDENBURG_GATE</Description>
@@ -2944,7 +2945,7 @@
 		<Row>
 			<Type>BUILDING_STATUE_OF_LIBERTY</Type>
 			<BuildingClass>BUILDINGCLASS_STATUE_OF_LIBERTY</BuildingClass>
-			<Cost>1000</Cost>
+			<Cost>1400</Cost>
 			<PrereqTech>TECH_URBANLIZATION</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_FREEDOM</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_STATUE_OF_LIBERTY_HELP</Help>
@@ -2967,7 +2968,7 @@
 		<Row>
 			<Type>BUILDING_PRORA_RESORT</Type>
 			<BuildingClass>BUILDINGCLASS_PRORA_RESORT</BuildingClass>
-			<Cost>1000</Cost>
+			<Cost>1400</Cost>
 			<PrereqTech>TECH_BALLISTICS</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_AUTOCRACY</PolicyBranchType>
 			<Description>TXT_KEY_BUILDING_PRORA_RESORT</Description>
@@ -2992,7 +2993,7 @@
 		<Row>
 			<Type>BUILDING_MOTHERLAND_CALLS</Type>
 			<BuildingClass>BUILDINGCLASS_MOTHERLAND_CALLS</BuildingClass>
-			<Cost>1000</Cost>
+			<Cost>1400</Cost>
 			<PrereqTech>TECH_DYNAMITE</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_ORDER</PolicyBranchType>
 			<Description>TXT_KEY_BUILDING_MOTHERLAND_CALLS</Description>
@@ -3014,7 +3015,7 @@
 		<Row>
 			<Type>BUILDING_BROADWAY</Type>
 			<BuildingClass>BUILDINGCLASS_BROADWAY</BuildingClass>
-			<Cost>1250</Cost>
+			<Cost>1750</Cost>
 			<PrereqTech>TECH_RADIO</PrereqTech>
 			<Description>TXT_KEY_BUILDING_BROADWAY</Description>
 			<Quote>TXT_KEY_BUILDING_BROADWAY_QUOTE</Quote>
@@ -3037,7 +3038,7 @@
 		<Row>
 			<Type>BUILDING_CRISTO_REDENTOR</Type>
 			<BuildingClass>BUILDINGCLASS_CRISTO_REDENTOR</BuildingClass>
-			<Cost>1250</Cost>
+			<Cost>1750</Cost>
 			<PrereqTech>TECH_PLASTIC</PrereqTech>
 			<Help>TXT_KEY_WONDER_CRISTO_REDENTOR_HELP</Help>
 			<Description>TXT_KEY_BUILDING_CRISTO_REDENTOR</Description>
@@ -3062,7 +3063,7 @@
 			<Help>TXT_KEY_WONDER_EMPIRE_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_EMPIRE_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_EMPIRE_QUOTE</Quote>
-			<Cost>1250</Cost>
+			<Cost>1750</Cost>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<GreatPeopleRateChange>2</GreatPeopleRateChange>
@@ -3084,7 +3085,7 @@
 			<Help>TXT_KEY_WONDER_BAUHAUS_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_BAUHAUS_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_BAUHAUS_QUOTE</Quote>
-			<Cost>1250</Cost>
+			<Cost>1750</Cost>
 			<PrereqTech>TECH_ADV_ENGINEERING</PrereqTech>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<GreatPeopleRateChange>2</GreatPeopleRateChange>
@@ -3121,7 +3122,7 @@
 		<Row>
 			<Type>BUILDING_PENTAGON</Type>
 			<BuildingClass>BUILDINGCLASS_PENTAGON</BuildingClass>
-			<Cost>2100</Cost>
+			<Cost>3000</Cost>
 			<PrereqTech>TECH_PENICILIN</PrereqTech>
 			<Help>TXT_KEY_WONDER_PENTAGON_HELP</Help>
 			<Description>TXT_KEY_BUILDING_PENTAGON</Description>
@@ -3168,7 +3169,7 @@
 		<Row>
 			<Type>BUILDING_CN_TOWER</Type>
 			<BuildingClass>BUILDINGCLASS_CN_TOWER</BuildingClass>
-			<Cost>2500</Cost>
+			<Cost>3500</Cost>
 			<PrereqTech>TECH_TELECOM</PrereqTech>
 			<Help>TXT_KEY_WONDER_CN_TOWER_HELP</Help>
 			<Description>TXT_KEY_BUILDING_CN_TOWER</Description>
@@ -3195,7 +3196,7 @@
 			<Help>TXT_KEY_WONDER_PEARL_TOWER_HELP</Help>
 			<Civilopedia>TXT_KEY_WONDER_PEARL_TOWER_PEDIA</Civilopedia>
 			<Quote>TXT_KEY_WONDER_PEARL_TOWER_QUOTE</Quote>
-			<Cost>2500</Cost>
+			<Cost>3500</Cost>
 			<PrereqTech>TECH_TELECOM</PrereqTech>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -3210,7 +3211,7 @@
 		<Row>
 			<Type>BUILDING_SYDNEY_OPERA_HOUSE</Type>
 			<BuildingClass>BUILDINGCLASS_SYDNEY_OPERA_HOUSE</BuildingClass>
-			<Cost>2500</Cost>
+			<Cost>3500</Cost>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<Help>TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP</Help>
 			<ThemingBonusHelp>TXT_KEY_SYDNEY_OPERA_HOUSE_THEMING_BONUS_HELP</ThemingBonusHelp>
@@ -3257,7 +3258,7 @@
 		<Row>
 			<Type>BUILDING_GREAT_FIREWALL</Type>
 			<BuildingClass>BUILDINGCLASS_GREAT_FIREWALL</BuildingClass>
-			<Cost>3000</Cost>
+			<Cost>5000</Cost>
 			<PrereqTech>TECH_INTERNET</PrereqTech>
 			<Help>TXT_KEY_BUILDING_GREAT_FIREWALL_HELP</Help>
 			<Description>TXT_KEY_BUILDING_GREAT_FIREWALL</Description>
