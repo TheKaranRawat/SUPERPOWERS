@@ -265,13 +265,13 @@
 		</Update>
 
 		<Update>
-			<Set Value="-25"/>
+			<Set Value="-20"/>
 			<Where Name="VERY_UNHAPPY_MAX_COMBAT_PENALTY" />
 		</Update>
 
 
 		<Update>
-			<Set Value="-25"/>
+			<Set Value="-35"/>
 			<Where Name="STRATEGIC_RESOURCE_EXHAUSTED_PENALTY" />
 		</Update>
 
@@ -308,17 +308,17 @@
 		</Update>
 
 		<Update>
-			<Set Value="1"/>
+			<Set Value="2"/>
 			<Where Name="UPRISING_COUNTER_MIN" />
 		</Update>
 
 		<Update>
-			<Set Value="350"/>
+			<Set Value="200"/>
 			<Where Name="UPRISING_NUM_BASE" />
 		</Update>
 
 		<Update>
-			<Set Value="200"/>
+			<Set Value="400"/>
 			<Where Name="UPRISING_NUM_CITY_COUNT" />
 		</Update>
 
@@ -574,7 +574,7 @@
 			<Where Name="INSTA_HEAL_RATE" />
 		</Update>
 		<Update>
-			<Set Value="35"/>
+			<Set Value="30"/>
 			<Where Name="CITY_HEAL_RATE" />
 		</Update>
 		<Update>

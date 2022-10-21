@@ -23,7 +23,7 @@ FROM Building_ClassesNeededInCity WHERE BuildingType = 'BUILDING_LABORATORY';
 ------------------------------		
 INSERT INTO Building_YieldChanges 	
 		(BuildingType, 				YieldType, Yield)
-VALUES	('BUILDING_4UC_RUSSIANRESEARCH',	'YIELD_SCIENCE', 8);
+VALUES	('BUILDING_4UC_RUSSIANRESEARCH',	'YIELD_SCIENCE', 12);
 
 ------------------------------	
 -- Building_DomainProductionModifiers

@@ -155,6 +155,7 @@
 			<Where Type="WORLDSIZE_STANDARD"/>
 		</Update>
 
+		<!--
 		<Update>
 			<Set DefaultPlayers="16"/>
 			<Where Type="WORLDSIZE_LARGE"/>
@@ -164,6 +165,7 @@
 			<Set DefaultPlayers="20"/>
 			<Where Type="WORLDSIZE_HUGE"/>
 		</Update>
+		-->
 
 		<!-- number of natural wonders adjustment -->
 		

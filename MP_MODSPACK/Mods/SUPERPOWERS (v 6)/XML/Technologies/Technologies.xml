@@ -2043,7 +2043,7 @@
 
 		<Row>
 			<Type>TECH_GENGINEERING</Type>
-			<Cost>70000</Cost>
+			<Cost>60000</Cost>
 			<Description>TXT_KEY_TECH_FW_GENGINEERING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_GENGINEERING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_GENGINEERING_HELP</Help>
@@ -2057,7 +2057,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_BIOMODIFICATION</Type>
-			<Cost>70000</Cost>
+			<Cost>60000</Cost>
 			<Description>TXT_KEY_TECH_FW_BIOMODIFICATION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_BIOMODIFICATION_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_BIOMODIFICATION_HELP</Help>
@@ -2071,7 +2071,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_CYBERNETICS</Type>
-			<Cost>70000</Cost>
+			<Cost>60000</Cost>
 			<Description>TXT_KEY_TECH_FW_CYBERNETICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_CYBERNETICS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_CYBERNETICS_HELP</Help>
@@ -2085,7 +2085,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_AI</Type>
-			<Cost>70000</Cost>
+			<Cost>60000</Cost>
 			<Description>TXT_KEY_TECH_FW_AI_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_AI_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_AI_HELP</Help>
@@ -2099,7 +2099,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ADAMANTIUM</Type>
-			<Cost>70000</Cost>
+			<Cost>60000</Cost>
 			<Description>TXT_KEY_TECH_FW_ADAMANTIUM_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_ADAMANTIUM_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_ADAMANTIUM_HELP</Help>
@@ -2114,7 +2114,7 @@
 		
 		<Row>
 			<Type>TECH_TERRAFORMING</Type>
-			<Cost>80000</Cost>
+			<Cost>60000</Cost>
 			<Description>TXT_KEY_TECH_FW_TERRAFORMING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_TERRAFORMING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_TERRAFORMING_HELP</Help>
@@ -2128,7 +2128,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_HUMAN_AUGMENTATION</Type>
-			<Cost>80000</Cost>
+			<Cost>60000</Cost>
 			<Description>TXT_KEY_TECH_FW_HUMAN_AUGMENTATION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_HUMAN_AUGMENTATION_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_HUMAN_AUGMENTATION_HELP</Help>
@@ -2143,7 +2143,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_DIGITAL_SOCIETY</Type>
-			<Cost>80000</Cost>
+			<Cost>60000</Cost>
 			<Description>TXT_KEY_TECH_FW_DIGITAL_SOCIETY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_DIGITAL_SOCIETY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_DIGITAL_SOCIETY_HELP</Help>
@@ -2158,7 +2158,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_SMART_MATERIALS</Type>
-			<Cost>80000</Cost>
+			<Cost>60000</Cost>
 			<Description>TXT_KEY_TECH_FW_SMART_MATERIALS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_SMART_MATERIALS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_SMART_MATERIALS_HELP</Help>
@@ -2172,7 +2172,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ENERGY_THEORY</Type>
-			<Cost>80000</Cost>
+			<Cost>60000</Cost>
 			<Description>TXT_KEY_TECH_FW_ENERGY_THEORY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_ENERGY_THEORY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_ENERGY_THEORY_HELP</Help>
@@ -2186,7 +2186,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_HYPERSTRUCTURES</Type>
-			<Cost>80000</Cost>
+			<Cost>60000</Cost>
 			<Description>TXT_KEY_TECH_FW_HYPERSTRUCTURES_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_HYPERSTRUCTURES_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_HYPERSTRUCTURES_HELP</Help>
@@ -2201,7 +2201,7 @@
 
 		<Row>
 			<Type>TECH_HOMO_SUPERIOR</Type>
-			<Cost>80000</Cost>
+			<Cost>60000</Cost>
 			<Description>TXT_KEY_TECH_FW_HOMO_SUPERIOR_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_HOMO_SUPERIOR_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_HOMO_SUPERIOR_HELP</Help>
@@ -2215,7 +2215,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_COMPUTRONIUM</Type>
-			<Cost>80000</Cost>
+			<Cost>60000</Cost>
 			<Description>TXT_KEY_TECH_FW_COMPUTRONIUM_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_COMPUTRONIUM_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_COMPUTRONIUM_HELP</Help>
@@ -2229,7 +2229,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_SPACE_COLONIZATION</Type>
-			<Cost>80000</Cost>
+			<Cost>60000</Cost>
 			<Description>TXT_KEY_TECH_FW_SPACE_COLONIZATION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_SPACE_COLONIZATION_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_SPACE_COLONIZATION_HELP</Help>
@@ -2246,7 +2246,7 @@
 		
 		<Row>
 			<Type>TECH_FUTURE_TECH</Type>
-			<Cost>200000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FUTURE_TECH_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FUTURE_TECH_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>

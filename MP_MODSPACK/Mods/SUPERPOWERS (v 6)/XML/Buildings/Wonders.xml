@@ -2272,6 +2272,7 @@
 			<BuildingClass>BUILDINGCLASS_BOROBUDUR</BuildingClass>
 			<Cost>300</Cost>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_PIETY</PolicyBranchType>
 			<Description>TXT_KEY_BUILDING_BOROBUDUR</Description>
 			<Quote>TXT_KEY_BUILDING_BOROBUDUR_QUOTE</Quote>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BOROBUDUR_TEXT</Civilopedia>

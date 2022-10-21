@@ -49,7 +49,7 @@
 
 		<!-- FALLOUT DAMAGE -->
 		<Update>
-			<Set TurnDamage="10"/>
+			<Set TurnDamage="33"/>
 			<Where Type="FEATURE_FALLOUT"/>
 		</Update>
 

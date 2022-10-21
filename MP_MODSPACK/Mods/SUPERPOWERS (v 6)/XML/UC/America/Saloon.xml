@@ -66,7 +66,7 @@
 			<Text>[ICON_PRODUCTION] Saloon</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SALOON_HELP">
-			<Text>Increases a city's [ICON_PRODUCTION] Production and [ICON_HAPPINESS_1] Happiness. Increases the rate of border growth by 25%. Increases [ICON_PRODUCTION] Production by 4. Increases [ICON_FOOD] Food in the city by 15%. Only America can build it.</Text>
+			<Text>Increases a city's [ICON_PRODUCTION] Production and [ICON_HAPPINESS_1] Happiness. Increases [ICON_PRODUCTION] Production by 4. Increases [ICON_FOOD] Food in the city by 15%. Only America can build it.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SALOON_STRATEGY">
 			<Text>The Saloon is an American unique building that increases the [ICON_PRODUCTION] Production and [ICON_FOOD] Food of a city. Unlike the Windmill it replaces, it does not require flat land, yields [ICON_HAPPINESS_1] Happiness, and increases the rate of border growth.</Text>
