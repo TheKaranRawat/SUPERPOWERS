@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<!--<Units>
+		<Delete Type="UNIT_ENGLISH_SHIPOFTHELINE"/>
+	</Units>
+	<DeleteMissingReferences table="Units" column="Type"/>-->
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_ENGLISH_STEAM_MILL</Type>
+			<BuildingClass>BUILDINGCLASS_FACTORY</BuildingClass>
+			<Cost>250</Cost>
+			<GoldMaintenance>8</GoldMaintenance>
+			<PrereqTech>TECH_ECONOMICS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_ENGLISH_STEAM_MILL_HELP</Help>
+			<Description>TXT_KEY_BUILDING_ENGLISH_STEAM_MILL</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDING_ENGLISH_STEAM_MILL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ENGLISH_STEAM_MILL_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FACTORY</ArtDefineTag>
+			<XBuiltTriggersIdeologyChoice>3</XBuiltTriggersIdeologyChoice>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>14</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_ENGLISH_STEAM_MILL</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_ENGLISH_STEAM_MILL</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ENGLISH_STEAM_MILL</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ENGLISH_STEAM_MILL</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_ENGLISH_STEAM_MILL</BuildingType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ENGLISH_STEAM_MILL</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ENGLISH_STEAM_MILL</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ENGLISH_STEAM_MILL</BuildingType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_ENGLISH_STEAM_MILL</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>20</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+			<BuildingType>BUILDING_ENGLISH_STEAM_MILL</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_ENGLISH_STEAM_MILL_HELP">
+			<Text>Each source of [ICON_RES_WHALE] Whales, [ICON_RES_COAL] Coal, [ICON_RES_OIL] Oil, and [ICON_RES_URANIUM] Uranium worked by this City produces +2 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ENGLISH_STEAM_MILL">
+			<Text>[ICON_PRODUCTION] Steam Mill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_ENGLISH_STEAM_MILL_TEXT">
+			<Text>A steam mill is a type of grinding mill using a stationary steam engine to power its mechanism. Steam engines can be powered by a variety of fuels, usually coal, to produce mechanical work for any number of functions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ENGLISH_STEAM_MILL_STRATEGY">
+			<Text>The Steam Mill is the English unique replacement for the Factory. It is available one technology sooner, at Economics instead of Industrialization, allowing the English to industrialize their nation (and thus pick an Ideology) sooner than others. In addition, the Steam Mill requires no resource to construct, instead providing bonus [ICON_PRODUCTION] Production to several types of fuel resources. The city must already possess a Workshop.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

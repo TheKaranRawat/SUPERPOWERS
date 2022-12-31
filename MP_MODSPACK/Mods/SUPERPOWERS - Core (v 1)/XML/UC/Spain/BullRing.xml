@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_3UC_BULLRING">
+			<Text>[ICON_HAPPINESS_1] Bull Ring</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_BULLRING_HELP">
+			<Text>Increases a civilization's [ICON_HAPPINESS_1] Happiness and improves the [ICON_CULTURE] Culture yield from [ICON_RES_COW] Cow resources. Only Spain may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_BULLRING_STRATEGY">
+			<Text>The Bull Ring is a Spanish unique building that increases the [ICON_HAPPINESS_1] Happiness of a city. Unlike the Zoo it replaces, the Bullring has no maintenance cost. Each [ICON_RES_COW] Cow resource worked by the city yields 3 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_BULLRING_TEXT">
+			<Text>A bullring is an arena where bullfighting is performed. Often historically and culturally significant centers, bullrings bear many structural similarities to the Roman amphitheatre.
+                              [NEWLINE][NEWLINE]The classic bullring is an enclosed, roughly circular amphitheatre with tiered rows of stands that surround an open central space. Also on the ground level, the central arena is surrounded by a staging area where the bullfighters prepare and take refuge, called the callejon (alley). The arena is surrounded by climbing rows of seats. The seats are priced differently according to the position of the sun during the show, normally in the afternoon. The hot sol, "sun", are cheaper than the fresher sombra, "shade".</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

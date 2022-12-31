@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!-- Adds the new Iwan Palace -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_IWAN_PALACE</Type>
+			<BuildingClass>BUILDINGCLASS_MINT</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_IWAN_PALACE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_IWAN_PALACE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_IWAN_PALACE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_IWAN_PALACE_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_BANK</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<UnmoddedHappiness>1</UnmoddedHappiness>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_IWAN_PALACE</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IWAN_PALACE</BuildingType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_IWAN_PALACE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IWAN_PALACE</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>80</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_PERSIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
+			<BuildingType>BUILDING_IWAN_PALACE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+
+	<!-- Adds new text -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_IWAN_PALACE">
+			<Text>[ICON_GOLD] Iwan Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_IWAN_PALACE_HELP">
+			<Text>+4 [ICON_GOLD] Gold from every [ICON_RES_GOLD] Gold and [ICON_RES_SILVER] Silver resource worked by this City. Improves global [ICON_HAPPINESS_1] Happiness. Only Persia may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_IWAN_PALACE_STRATEGY">
+			<Text>The Persian unique replacement for the Mint, the Iwan Palace retains the normal gold bonus from resources, but can be built in any City. It also increases global [ICON_HAPPINESS_1] Happiness, so you'll get the full bonus regardless of City [ICON_CITIZEN] Population. Build them early to help generate points toward [ICON_GOLDEN_AGE] Golden Ages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_IWAN_PALACE_TEXT">
+			<Text>
+				An iwan is a rectangular hall or space, usually vaulted, walled on three sides, with one end entirely open. The formal gateway to the iwan is called pishtaq, a Persian term for a portal projecting from the facade of a building, usually decorated with calligraphy bands, glazed tilework, and geometric designs. The Persians favored the iwan form, and adopted it into much of their architecture.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

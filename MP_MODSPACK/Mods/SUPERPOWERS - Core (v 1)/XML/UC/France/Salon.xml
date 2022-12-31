@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/31/2013 8:34:22 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_3UC_SALON">
+			<Text>[ICON_CULTURE] Salon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_SALON_HELP">
+			<Text>Yields [ICON_HAPPINESS_1] Happiness, [ICON_RESEARCH] Science, and [ICON_CULTURE] Culture. Only France may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_SALON_STRATEGY">
+			<Text>The Salon is a French unique building that increases the [ICON_HAPPINESS_1] Happiness of a city. Unlike the Zoo it replaces, it also yields 4 [ICON_CULTURE] Culture and 2 [ICON_RESEARCH] Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_3UC_SALON_TEXT">
+			<Text>A salon is a gathering of people under the roof of an inspiring host, held partly to amuse one another and partly to refine the taste and increase the knowledge of the participants through conversation. These gatherings often consciously followed Horace's definition of the aims of poetry, "either to please or to educate" ("aut delectare aut prodesse est"). Salons, commonly associated with French literary and philosophical movements of the 17th and 18th centuries, were carried on until quite recently in urban settings.</Text>
+		</Row>
+	</Language_en_US>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>SALON_ICON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>3uc_salon256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SALON_ICON_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>3uc_salon128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SALON_ICON_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>3uc_salon64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SALON_ICON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>3uc_salon45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>
