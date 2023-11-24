@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- YOU CAN MODIFY THESE VALUES AS YOU SEE FIT -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_TACTICAL_NUCLEAR_MISSILE</Class>
+			<Type>UNIT_TACTICAL_NUCLEAR_MISSILE</Type>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+			<RangedCombat>2000</RangedCombat>
+			<Cost>1500</Cost>
+			<Moves>2</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<Immobile>true</Immobile>
+			<NoMaintenance>true</NoMaintenance>
+			<Range>2</Range>
+			<Special>SPECIALUNIT_MISSILE</Special>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ICBM</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_TACTICAL_NUCLEAR_MISSILE</Description>
+			<Civilopedia>TXT_KEY_CIV5_TACTICAL_NUCLEAR_MISSILE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_TACTICAL_NUCLEAR_MISSILE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_TACTICAL_NUCLEAR_MISSILE</Help>
+			<ProjectPrereq>PROJECT_MANHATTAN_PROJECT</ProjectPrereq>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Mechanized>true</Mechanized>
+			<Suicide>true</Suicide>
+			<AdvancedStartCost>80</AdvancedStartCost>
+			<RangedCombatLimit>500</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_GUIDED_MISSILE</UnitArtInfo>
+						
+			<IconAtlas>UNIT_COLOR_ATLAS_TACTICAL_NUCLEAR_MISSILE</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<UnitFlagAtlas>UNIT_FLAG_ITG_EXTRA_2_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<ExtraMaintenanceCost>200</ExtraMaintenanceCost>
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>
+	</Units>
+	
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_TACTICAL_NUCLEAR_MISSILE</UnitType>
+			<UnitAIType>UNITAI_ICBM</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_TACTICAL_NUCLEAR_MISSILE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>21</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TACTICAL_NUCLEAR_MISSILE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>21</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TACTICAL_NUCLEAR_MISSILE</UnitType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TACTICAL_NUCLEAR_MISSILE</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>21</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TACTICAL_NUCLEAR_MISSILE</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>21</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_TACTICAL_NUCLEAR_MISSILE</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+</GameData>

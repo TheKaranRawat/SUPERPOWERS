@@ -105,7 +105,10 @@
 	</Unit_Flavors>
 
 	<Unit_FreePromotions>
-		
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
+			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
+		</Row>
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>

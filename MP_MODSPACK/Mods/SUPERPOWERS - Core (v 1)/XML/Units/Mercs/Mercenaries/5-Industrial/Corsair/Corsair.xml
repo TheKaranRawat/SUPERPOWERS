@@ -5,7 +5,7 @@
 		<Row>
 			<Type>UNITCLASS_EXOTIC_UNIT_CORSAIR</Type>
 			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_CORSAIR</Description>
-			<DefaultUnit>UNIT_EXOTIC_UNIT_CORSAIR</DefaultUnit>-->			
+			<DefaultUnit>UNIT_EXOTIC_UNIT_CORSAIR</DefaultUnit>		
 			<MaxPlayerInstances>5</MaxPlayerInstances>
 		</Row>
 	</UnitClasses>
@@ -104,7 +104,11 @@
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_CORSAIR</UnitType>
 			<PromotionType>PROMOTION_PRIZE_SHIPS</PromotionType>
-		</Row>		
+		</Row>	
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_CORSAIR</UnitType>
+			<PromotionType>PROMOTION_NAVALMELEE_COMBAT</PromotionType>
+		</Row>	
 		
 	</Unit_FreePromotions>
 	

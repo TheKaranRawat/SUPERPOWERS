@@ -295,7 +295,7 @@
 		<!-- Civ Icon  -->
 		<Image Anchor="R,T" Offset="-22,9" Texture="IconFrame64.dds" Size="64.64" ID="CivIconFrame">
 			<Image ID="CivIconBG" Size="64.64" Anchor="C,C" Offset="-1,-1" Texture="CivIconBGSizes.dds"/>
-			<Image ID="CivIconShadow" Size="48.48" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas48.dds" Color="Black.128"/>
+			<Image ID="CivIconShadow" Size="256.48" Anchor="C,C" Offset="1,1" Texture="CivSymbolAtlas48.dds" Color="Black.128"/>
 			<Image ID="CivIcon" Size="48,48" Offset="0,0" Anchor="C,C" Texture="CivSymbolsColor512.dds"/>
       <!--
       <Image Anchor="C,C" Offset="10,10" Texture="Art/Icons/HelpButton_32.dds" Size="32.32" ToolTip="TXT_KEY_UNIT_PRODUCTION_HELP"/>

@@ -83,14 +83,14 @@
 		</Row>
 	</Unit_Flavors>
 
-	<!--
+	
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_CONDOTTIERI</UnitType>
-			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+			<PromotionType>PROMOTION_INFANTRY_COMBAT</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
-	-->
+	
 
 	<UnitGameplay2DScripts>
 		<Row>

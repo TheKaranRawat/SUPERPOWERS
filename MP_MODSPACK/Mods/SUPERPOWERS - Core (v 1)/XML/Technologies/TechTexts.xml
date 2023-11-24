@@ -906,7 +906,7 @@
 			<Text>The earliest experiments in cloning were conducted on farm animals. As human cloning has a variety of ethical concerns, the most likely uses of cloning in the near future will be to increase the productivity of animal herds.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_AQUACULTURE_LAB_DESC">
-			<Text>[ICON_RESEARCH][ICON_FOOD] Aquaculture Lab</Text>
+			<Text>[ICON_FOOD] Aquaculture Lab</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_AQUACULTURE_LAB_HELP">
 			<Text>Sea resources worked by the city produce +1 [ICON_FOOD] Food and [ICON_GOLD] Gold. Requires a Lighthouse, and city must not contain an Undersea Mining Platform.</Text>
@@ -993,7 +993,7 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_FW_NANOFORGE_DESC">
-			<Text>[ICON_RES_ELECTRICITY][ICON_PRODUCTION] Nanoforge</Text>
+			<Text>[ICON_PRODUCTION] Nanoforge</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_NANOFORGE_HELP">
 			<Text>Increases the production of military units by 15%. Requires an Autoplant.</Text>
@@ -1079,7 +1079,7 @@
 			<Text>As society became more ecologically conscious, the impact that heavy industry can have upon the environment also became increasingly scrutinized. Under increasing social pressure, industries began to try and find more ecologically-friendly ways to maintain production, switching their existing factories and industrial plants over to newer "biofactories", that had a reduced impact on both the natural environment, as well as the humans that worked in and around them. Eventually, these "biofactories" became similar to the synthecologies that were becoming common in some areas -- artificially created environments that served industrial needs. The most sophisticated of these incorporated modified humans into the ecological infrastructure, and the engineered ecologies were so sophisticated they could manufacture materials similar to basic nanotechnological processes.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_NETWORK_BACKBONE_DESC">
-			<Text>[ICON_RESEARCH][ICON_CULTURE] Network Backbone</Text>
+			<Text>[ICON_RESEARCH] Network Backbone</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_NETWORK_BACKBONE_HELP">
 			<Text>Adds 1 [ICON_RESEARCH] Science for each Research Server in the empire, adds 1 [ICON_CULTURE] Culture for each Entertainment Server in the empire, and adds 1 [ICON_GOLD] for each Comm Array in the City's radius. Requires a Server Hub. Cannot be built if the City contains an Information Hub, Distribution Hub, or Metroplex Hub.</Text>
@@ -1116,7 +1116,7 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_FW_SIMULATION_SERVER_DESC">
-			<Text>[ICON_RESEARCH][ICON_CULTURE] AI Network</Text>
+			<Text>[ICON_RESEARCH] AI Network</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_SIMULATION_SERVER_HELP">
 			<Text>Each AI Network in the empire adds 1 [ICON_RESEARCH] Science and 1 [ICON_CULTURE] Culture. Adds 1 [ICON_PRODUCTION] Production and 1 [ICON_GOLD] Gold for each Support Node in the city's radius. Requires a Network Backbone. Cannot be built if the City contains an Information Hub, Distribution Hub, or Metroplex Hub.</Text>
@@ -1287,7 +1287,7 @@
 			<Text>With the successful emergence of centralized distribution hubs in the largest cities, and the increasing population capacity of arcologies, the largest metroplexes began to take steps to ensure that their increasingly massive communities ran efficiently. Centralized city planning helped ensure that people and commerce were able to flow freely, even during peak business hours. While some objected to what was sometimes strict regulation in population and business zoning, the new metroplex arrangements ensured that people and commerce were able to flow freely through the city. No longer did citizens have to wait for hours in rush-hour traffic, wasting valuable time and energy. Planned traffic patterns and zoning meant that everyone could get to work, or return back home, quickly and efficiently, saving time and money.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_CENTRAL_COMMAND_DESC">
-			<Text>Central Command</Text>
+			<Text>[ICON_CAPITAL] Central Command</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_CENTRAL_COMMAND_HELP">
 			<Text>Adds 6 [ICON_CULTURE] Culture to each Information Hub, adds +6 [ICON_PRODUCTION] Production to each Distribution Hub, and adds +1 [ICON_GOLD] Gold to each Metroplex Hub. Requires an Information Hub in every city. Must be built in the Capital.</Text>
@@ -1349,7 +1349,7 @@
 			<Text>While very basic rockets could be sent to the edge of the atmosphere from practically any location, sending people and materiel into orbit required much more complex facilities. These launch facilities would construct and maintain the rockets and spacecraft needed to reach orbit, and were so expensive and required such immense support that any empire would typically only support a single facility to handle all of its launches. They did provide a significant boost to the scientific community, however, and aerospace development even helped support industrial efforts, as the facility would require a number of different services and skilled workers.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_SPACE_STATION_DESC">
-			<Text>[ICON_PRODUCTION][ICON_RESEARCH]Space Station</Text>
+			<Text>[ICON_RESEARCH]Space Station</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_SPACE_STATION_HELP">
 			<Text>Enables construction of Research, Engineering, and Commercial Modules. Requires your empire to have a Launch Facility.</Text>
@@ -1516,7 +1516,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_FW_ASTEROID_MINING_1_DESC">
-			<Text>M-Type Asteroid</Text>
+			<Text>[ICON_ITG_LAWS_INFLUENCE] M-Type Asteroid</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_ASTEROID_MINING_1_HELP">
 			<Text>Gain 6 [ICON_RES_ALUMINUM] Aluminum.</Text>
@@ -1528,7 +1528,7 @@
 			<Text>M-type asteroids are asteroids of partially known composition; they are moderately bright (albedo 0.1–0.2). Some, but not all, are made of nickel–iron, either pure or mixed with small amounts of stone. These are thought to be pieces of the metallic core of differentiated asteroids that were fragmented by impacts, and are thought to be the source of iron meteorites. M-type asteroids are the third most common asteroid type.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_ASTEROID_MINING_2_DESC">
-			<Text>S-Type Asteroid</Text>
+			<Text>[ICON_ITG_LAWS_INFLUENCE] S-Type Asteroid</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_ASTEROID_MINING_2_HELP">
 			<Text>Gain 6 [ICON_RES_NANOMAT] Nanomaterials.</Text>
@@ -1541,7 +1541,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_FW_GENOME_PROJECT_1_DESC">
-			<Text>Research Exchange</Text>
+			<Text>[ICON_ITG_LAWS_INFLUENCE] Research Exchange</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_GENOME_PROJECT_1_HELP">
 			<Text>Research Labs gain +2 [ICON_RESEARCH] Science. Medical Labs gain +2 [ICON_FOOD] Food.</Text>
@@ -1553,7 +1553,7 @@
 			<Text>Those civilizations that contributed only minor amounts of time and resources towards the Human Genome Project still stood to benefit from the exchange of information and technology that resulted. Research laboratories benefited from the new technologies that were developed, while medical labs were able to more effectively treat diseases and other ailments.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_GENOME_PROJECT_2_DESC">
-			<Text>Genetic Treatments</Text>
+			<Text>[ICON_ITG_LAWS_INFLUENCE] Genetic Treatments</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FW_GENOME_PROJECT_2_HELP">
 			<Text>All cities gain +2 [ICON_CITIZEN] Citizen.</Text>
@@ -1815,9 +1815,12 @@
 			<Text>The Aperture Science Enrichment Centre was the main facility operated by the Aperture Science corporation to develop and test new products. Constructed in a salt mine in Michigan, it was a truly enormous facility, built in shafts that extended kilometers into the ground. Part of the reason for this design was its research into high-energy physics and artificial intelligence, which necessitated a high degree of security and protection. However, in the early 22nd century, the Aperture Science corporation went bankrupt, and the Enrichment Centre was presumably abandoned.</Text>
 		</Row>
 
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_FW_PHOLUS_MUTAGEN">
 			<Text>Pholus Mutagen</Text>
 		</Row>
+		-->
+
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_WONDER_FW_PHOLUS_MUTAGEN_HELP">
 			<Text>Units receive the Gengineered promotion for free. Fungal Growths will randomly appear in Plains or Grasslands tiles with Farms, Plantations, Nature Preserves, or no improvements.</Text>

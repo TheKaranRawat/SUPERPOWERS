@@ -11,13 +11,13 @@
 		<Update>
 			<Where ResourceType="RESOURCE_MARBLE" YieldType="YIELD_GOLD"/>
 			<Set>
-				<Yield>4</Yield>
+				<Yield>2</Yield>
 			</Set>
 		</Update>
 		<Update>
 			<Where ResourceType="RESOURCE_COPPER" YieldType="YIELD_GOLD"/>
 			<Set>
-				<Yield>5</Yield>
+				<Yield>3</Yield>
 			</Set>
 		</Update>
 
@@ -76,7 +76,14 @@
 			<Set>
 				<Yield>2</Yield>
 			</Set>
-		</Update>			
+		</Update>	
+
+		<Update>
+			<Where ResourceType="RESOURCE_COW" YieldType="YIELD_FOOD"/>
+			<Set>
+				<Yield>2</Yield>
+			</Set>
+		</Update>
 
 		<Row>
 			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
@@ -86,7 +93,7 @@
 		<Row>
 			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_WINE</ResourceType>
@@ -101,7 +108,7 @@
 		<Row>
 			<ResourceType>RESOURCE_WINE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>		
 		<Row>
 			<ResourceType>RESOURCE_SUGAR</ResourceType>
@@ -111,7 +118,7 @@
 		<Row>
 			<ResourceType>RESOURCE_SUGAR</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>		
 		<Row>
 			<ResourceType>RESOURCE_SPICES</ResourceType>
@@ -121,7 +128,7 @@
 		<Row>
 			<ResourceType>RESOURCE_SPICES</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>		
 		<Row>
 			<ResourceType>RESOURCE_COTTON</ResourceType>
@@ -131,7 +138,7 @@
 		<Row>
 			<ResourceType>RESOURCE_COTTON</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>		
 		<Row>
 			<ResourceType>RESOURCE_SILK</ResourceType>
@@ -141,7 +148,7 @@
 		<Row>
 			<ResourceType>RESOURCE_SILK</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>		
 		<Row>
 			<ResourceType>RESOURCE_DYE</ResourceType>
@@ -151,7 +158,7 @@
 		<Row>
 			<ResourceType>RESOURCE_DYE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>		
 		<Row>
 			<ResourceType>RESOURCE_INCENSE</ResourceType>
@@ -161,7 +168,7 @@
 		<Row>
 			<ResourceType>RESOURCE_INCENSE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>		
 		<Row>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
@@ -171,7 +178,7 @@
 		<Row>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>3</Yield>
 		</Row>		
 		<Row>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
@@ -187,12 +194,12 @@
 		<Row>
 			<ResourceType>RESOURCE_CITRUS</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>	
 		<Row>
 			<ResourceType>RESOURCE_COCOA</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>	
 		<Row>
 			<ResourceType>RESOURCE_COCOA</ResourceType>
@@ -202,17 +209,22 @@
 		<Row>
 			<ResourceType>RESOURCE_CRAB</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>		
 		<Row>
 			<ResourceType>RESOURCE_CRAB</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
-		</Row>				
+		</Row>	
+		<Row>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>					
 		<Row>
 			<ResourceType>RESOURCE_FUR</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>			
 		<Row>
 			<ResourceType>RESOURCE_FUR</ResourceType>
@@ -222,7 +234,7 @@
 		<Row>
 			<ResourceType>RESOURCE_GEMS</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>3</Yield>
 		</Row>			
 		<Row>
 			<ResourceType>RESOURCE_GEMS</ResourceType>
@@ -234,55 +246,59 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>5</Yield>
 		</Row>
-		<Row>
+<!--		<Row>
 			<ResourceType>RESOURCE_GOLD</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
-		</Row>			
+		</Row>-->			
 			<Row>
 			<ResourceType>RESOURCE_IVORY</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>		
 		<Row>
 			<ResourceType>RESOURCE_IVORY</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
-		</Row>			
+		</Row>		
+		<!--	
 		<Row>
 			<ResourceType>RESOURCE_PEARLS</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
-		</Row>		
+			<Yield>2</Yield>
+		</Row>	
+		-->
+
 		<Row>
 			<ResourceType>RESOURCE_PEARLS</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
-		</Row>				
-		<Row>
+		</Row>
+						
+<!--		<Row>
 			<ResourceType>RESOURCE_SALT</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
-		</Row>			
+		</Row>-->			
 		<Row>
 			<ResourceType>RESOURCE_SALT</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>			
 		<Row>
 			<ResourceType>RESOURCE_SILVER</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>5</Yield>
 		</Row>			
-		<Row>
+<!--		<Row>
 			<ResourceType>RESOURCE_SILVER</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
-		</Row>			
+		</Row>			-->
 		<Row>
 			<ResourceType>RESOURCE_WHALE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>			
 		<Row>
 			<ResourceType>RESOURCE_WHALE</ResourceType>
@@ -569,7 +585,7 @@
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
 			<ResourceType>RESOURCE_SALT</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>				
 		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>

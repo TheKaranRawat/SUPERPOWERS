@@ -25,6 +25,54 @@
 		-->
 
 		<Row>
+			<Atlas>UNIT_FLAG_ITG_EXTRA_1_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>UnitAlphaITGExtra1Atlas.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>5</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>UNIT_FLAG_ITG_EXTRA_2_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>UnitAlphaITGExtra2Atlas.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>5</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>DLC03_TERRAIN_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Art/Buildings/TerrainIcons256_DLC_032.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>DLC02_TERRAIN_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Art/Buildings/TerrainIcons256_DLC_022.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>EXPANSION_TERRAIN_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Art/Buildings/TerrainIcons256_Expansion22.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
+		<Row>
+			<Atlas>TERRAIN_IMPROVEMENT_ICON_ATLAS_EXP2</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>TerrainIconAtlas128_Exp23.dds</Filename>
+			<IconsPerRow>3</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+
+		<Row>
 			<Atlas>JFD_INDUSTRY_POLICY_ATLAS</Atlas>
 			<IconSize>64</IconSize>
 			<Filename>JFD_Industry_PolicyAtlas_64.dds</Filename>

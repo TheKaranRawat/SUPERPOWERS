@@ -78,6 +78,10 @@
 			<UnitType>UNIT_SMAN_EU_BATTLE_ELEPHANT</UnitType>
 			<PromotionType>PROMOTION_SMAN_PERILOUS_PACHYDERM_2_PROMOTION</PromotionType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_BATTLE_ELEPHANT</UnitType>
+			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
+		</Row>
 	</Unit_FreePromotions>
 
 	<Unit_AITypes>

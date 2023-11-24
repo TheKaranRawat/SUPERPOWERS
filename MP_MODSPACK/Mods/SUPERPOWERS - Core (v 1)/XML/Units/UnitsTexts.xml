@@ -33,19 +33,19 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_UNIT_WORKER">
-			<Text>[ICON_WORKER]Worker</Text>
+			<Text>[ICON_WORKER] Worker</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_UNIT_SETTLER">
-			<Text>[ICON_WORKER]Settler</Text>
+			<Text>[ICON_WORKER] Settler</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_UNIT_CARAVAN">
-			<Text>[ICON_INTERNATIONAL_TRADE]Caravan</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Caravan</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_UNIT_CARGO_SHIP">
-			<Text>[ICON_INTERNATIONAL_TRADE]Cargo Ship</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Cargo Ship</Text>
 		</Replace>
 		
 	</Language_en_US>
@@ -69,7 +69,7 @@
 				[NEWLINE][ICON_BULLET]If you order your worker to change the Citadel Improvement into other kinds of Improvements, its Citadel Unit will be also removed.
 				[NEWLINE][ICON_BULLET]If the city where the Citadel is captured by the enemy, the Citadel Unit suffers -50 HP per turn and -50% [ICON_STRENGTH]Combat Strength due to lack of supply, so it will be destroyed in two turns if you don't retake that city.
 				[NEWLINE][ICON_BULLET]The Citadel units are structures indeed so they can NOT earn Promotions.
-				[NEWLINE][ICON_BULLET]Land-based Aircrafts are allowed to deployed on the Citadel tile with a Firebase or Military Airbase.
+				[NEWLINE][ICON_BULLET]Land-based Aircraft can be deployed on the Citadel tile with a Firebase or Military Airbase.
 
 
 				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Pros:[ENDCOLOR]
@@ -79,15 +79,15 @@
 
 				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cons:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Expensive Maintenance Cost
-				[NEWLINE][ICON_BULLET]Don't think you can be free from invasion only by building servel Citadels. They cannot move so the enemy can easily take a detour.
+				[NEWLINE][ICON_BULLET]Citadels are static defences, and can still be flanked by enemy forces.
 
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Use its sight and firepower to keep an eye on your territory while your troops are on the frontline，especially for areas with important resources or choke points in case of possible enemy harassment.
-				[NEWLINE][ICON_BULLET]It is a relatively cheap way to deploy Land-based Aircrafts outside your cities. Build them on safe areas to allow your aircrafts to extend their flight range.
+				[NEWLINE][ICON_BULLET]Use its sight and firepower to keep an eye on your territory while your troops are on the frontline, especially for areas with important resources or choke points in case of possible enemy harassment.
+				[NEWLINE][ICON_BULLET]It is a relatively cheap way to deploy Land-based Aircraft outside your cities. Build them in safe areas to allow your aircraft to extend their flight range.
 
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Like other strategy games, Siege Units have great combat bonus against Citadel Units. One Siege Units can destroy a firebase easily from a long distance.
-				[NEWLINE][ICON_BULLET]It is a waste of time to mess with an enemy's Citadel Unit not in your way. You could simply bypass it and take the enemy's city directly.
+				[NEWLINE][ICON_BULLET]It is a waste of time to mess with an enemy Citadel Unit not in your way. You could simply bypass it and take the enemy city directly.
 			</Text>
 		</Row>
 
@@ -120,7 +120,7 @@
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Transfer your first Warrior to a Worker, if there are available resources nearby, to speed up the development of your first city.
 				[NEWLINE][ICON_BULLET]If you are embroiled in an unexpected war, or attacked by barbarians, but you have no or few military units. Transfer your Workers to Militia Units to buy you some time.
-				[NEWLINE][ICON_BULLET]Bring some Militia Units with "Military Reserve" promotion to frontline during an invasion to serve as medical troops. What's more, they are competent cannon fodder to waste enemy's firepower.
+				[NEWLINE][ICON_BULLET]Bring some Militia Units with "Military Reserve" promotion to frontline during an invasion to serve as medical troops. What's more, they are competent cannon fodder to waste enemy firepower.
 
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]They cannot defeat your professional army in a fair fight. If outnumbered, call artillery or air-ground support like in the real life.
@@ -145,7 +145,7 @@
 
 				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Pros:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Can perform special missions that regular army can't
-				[NEWLINE][ICON_BULLET]Effective against enemy's guerrilla warfare
+				[NEWLINE][ICON_BULLET]Effective against enemy guerrilla warfare
 				[NEWLINE][ICON_BULLET]Good mobility
 
 				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cons:[ENDCOLOR]
@@ -156,7 +156,7 @@
 				[NEWLINE][ICON_BULLET]Use its "Riot Control" ability to speed up the submission of newly conquered cities.
 				[NEWLINE][ICON_BULLET]Use its "Emergency Heal" ability to save your high value units in danger.
 				[NEWLINE][ICON_BULLET]Use its "Shock and Awe" ability to capture enemy unique elite units or experimental units you have missed before.
-				[NEWLINE][ICON_BULLET]Sneak into enemy's territory to sabotage cities, high value units, bridges, strategic resources.
+				[NEWLINE][ICON_BULLET]Sneak into enemy territory to sabotage cities, high value units, bridges, strategic resources.
 				[NEWLINE][ICON_BULLET]One experienced Special Forces Unit (with "Blitz" and "Sabotage Cities" Promotion) can capture a small city in the same turn after paradropping. If carefully planned, you can completely destory a nation in one turn.
 
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
@@ -223,8 +223,8 @@
 				[NEWLINE][ICON_BULLET]Poor mobility
 
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]They can defend your position from ferocious enemy's charging with Heavy Mounted Units or Tanks. it is worthwhile to sacrifice one cheap Counter Unit in exchange of damaging or destroying several enemy's Heavy Mounted Units or Tanks.
-				[NEWLINE][ICON_BULLET]They are competent cannon fodder to waste enemy's firepower. If necessary, order one Counter Unit to capture the city which will certainly be recaptured in the next turn to reduce your loss.
+				[NEWLINE][ICON_BULLET]They can defend your position from ferocious enemy charging with Heavy Mounted Units or Tanks. it is worthwhile to sacrifice one cheap Counter Unit in exchange of damaging or destroying several enemy Heavy Mounted Units or Tanks.
+				[NEWLINE][ICON_BULLET]They are competent cannon fodder to waste enemy firepower. If necessary, order one Counter Unit to capture the city which will certainly be recaptured in the next turn to reduce your loss.
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Ranged Units can destroy them easily under most circumstances.
 				[NEWLINE][ICON_BULLET]Use Siege Units to bombard enemy fortified Counter Units.
@@ -258,7 +258,7 @@
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]They can help you to explore the map to offer inportant intels. Do not forget to train them in early-game. In most cases, the whole map should be fully dsicoved before you entering the modern era.
 				[NEWLINE][ICON_BULLET]Use Explorer's "Sell Exotic Goods" ability to earn some fast cash inside other civilizations' or city-states' territories.
-				[NEWLINE][ICON_BULLET]If you have available Caravels and Explorers, send them into your furtue enemy's territory to gather intels for your planned invasion.
+				[NEWLINE][ICON_BULLET]If you have available Caravels and Explorers, send them into your furtue enemy territory to gather intels for your planned invasion.
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]They are not aggressive units and cannot pillage. Do not worry about them.
 			</Text>
@@ -281,7 +281,7 @@
 				[NEWLINE][ICON_BULLET]Best explosiveness
 				[NEWLINE][ICON_BULLET]Easy to use, easy to kill
 				[NEWLINE][ICON_BULLET]Good mobility
-				[NEWLINE][ICON_BULLET]Can easily break through enemy's line
+				[NEWLINE][ICON_BULLET]Can easily break through enemy line
 
 				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cons:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Weak vs Counter Units which are much cheaper
@@ -289,15 +289,15 @@
 				[NEWLINE][ICON_BULLET]Weak in defending and can be easily outnumbered
 
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Use them to crush enemy's line. They are unstoppable against almost any other units except Counter Units. Even enemy's unit cannot be killed in one hit, it can also "push" the enemy unit away to break the line or reveal other units under its protection.
-				[NEWLINE][ICON_BULLET]If the enemy's front-line is guarded with Counter Units, try to flank them.
+				[NEWLINE][ICON_BULLET]Use them to crush enemy line. They are unstoppable against almost any other units except Counter Units. Even enemy unit cannot be killed in one hit, it can also "push" the enemy unit away to break the line or reveal other units under its protection.
+				[NEWLINE][ICON_BULLET]If the enemy front-line is guarded with Counter Units, try to flank them.
 				[NEWLINE][ICON_BULLET]Pick your target wisely for efficiency. Do not waste their firepower on low value targets like militias.
 				[NEWLINE][ICON_BULLET]Do not run too far, save some MPs to back to safe areas after attacking. They are vulnerable while defending.
 				[NEWLINE][ICON_BULLET]Protect your experienced Heavy Mounted Units or Tanks. They are high value units and can fight much more efficiently than rookies.
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Put some Counter Units on your flanks and gurad your high value units.
-				[NEWLINE][ICON_BULLET]"Every man is his own worst enemy", your Heavy Mounted Units or Tanks can easily catch up and eliminate enemy's Heavy Mounted Units or Tanks. It is less efficient than using Counter Units, however Counter Units can always be shaken off due to their limited mobilities.
-				[NEWLINE][ICON_BULLET]Under the worst case, use cannon fodder untis to waste enemy's charge to save your high value units.
+				[NEWLINE][ICON_BULLET]"Every man is his own worst enemy", your Heavy Mounted Units or Tanks can easily catch up and eliminate enemy Heavy Mounted Units or Tanks. It is less efficient than using Counter Units, however Counter Units can always be shaken off due to their limited mobilities.
+				[NEWLINE][ICON_BULLET]Under the worst case, use cannon fodder untis to waste enemy charge to save your high value units.
 
 
 			</Text>
@@ -314,7 +314,7 @@
 
 				[NEWLINE][NEWLINE][COLOR_YIELD_FOOD]Operation:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]The default "Right Click" will order the unit to perform a ranged attack. If you want it to perform a melee attack, click the "Attack" button on the left or press "A" key and click on the enemy unit.
-				[NEWLINE][ICON_BULLET]If it successfully put the debuff an enemy unit or your unit gets a debuff by the enemy's attack. You will hear a special sound effect and get a notice on the right side of the screen.
+				[NEWLINE][ICON_BULLET]If it successfully put the debuff an enemy unit or your unit gets a debuff by the enemy attack. You will hear a special sound effect and get a notice on the right side of the screen.
 
 				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Pros:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Can make strong enemy units much more vulnerable
@@ -330,17 +330,17 @@
 
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Hit-and-run Units are not so "easy to use" for new players. Careful plan and mirco control are required to make full use of these units. You have four different ways to bring them into play.
-				[NEWLINE][ICON_BULLET]1. Scouting: Before attacking enemy's units, send Hit-and-run Units with "Scouting" promotions to move next to the target. This will reduce the target's defense as well as providing flank bonus to make your attack more efficient. In most cases, the first Hit-and-run Units you trained should choose this promotion.
-				[NEWLINE][ICON_BULLET]2. Adding Debuff: If you face strong enemy units, like advanced units, elite units and experimental units, use Hit-and-run Units with "Sunder" promotions to attack them to reduce thier combat strength in defence. The "sunder" effect can be multiplied to -50% combat strength, so you can kill enemy's units even two eras ahead of yours.
-				[NEWLINE][ICON_BULLET]3. Hunt Down: Hit-and-run Units with "Hunt Down" promotions have significant combat bonus against wounded units (even a unit with 99 HP is also considered "wounded"). As a result, they are very powerful to finish up enemy's debuffed or escaping units, especailly those on the other side of a river.
+				[NEWLINE][ICON_BULLET]1. Scouting: Before attacking enemy units, send Hit-and-run Units with "Scouting" promotions to move next to the target. This will reduce the target's defense as well as providing flank bonus to make your attack more efficient. In most cases, the first Hit-and-run Units you trained should choose this promotion.
+				[NEWLINE][ICON_BULLET]2. Adding Debuff: If you face strong enemy units, like advanced units, elite units and experimental units, use Hit-and-run Units with "Sunder" promotions to attack them to reduce thier combat strength in defence. The "sunder" effect can be multiplied to -50% combat strength, so you can kill enemy units even two eras ahead of yours.
+				[NEWLINE][ICON_BULLET]3. Hunt Down: Hit-and-run Units with "Hunt Down" promotions have significant combat bonus against wounded units (even a unit with 99 HP is also considered "wounded"). As a result, they are very powerful to finish up enemy debuffed or escaping units, especailly those on the other side of a river.
 				[NEWLINE][ICON_BULLET]4. Gank: Besides working as a support unit. A group of 3-5 Hit-and-run Units is able to work alone as a tactical team with high mobility. One unit with "Scouting" promotions provides reconnaissance, while 1-2 unit(s) with"Sunder" promotions softening the enemy and 1-3 unit(s) with "Hunt Down" promotions to finish the enemy up. Such a tactical team can defeat almost all kinds of combination of enemy units in all terrains, without any loss.
-				[NEWLINE][ICON_BULLET]Hit-and-run Units cannot function as your main force due to its low combat strength and high training cost. Make sure they are back to safe areas by the end of your turn. They are vulnerable while defending.
+				[NEWLINE][ICON_BULLET]Hit-and-run Units cannot function as your main force due to their low combat strength and high training cost. Make sure they are back in safe territory by the end of your turn since they are vulnerable while defending.
 				[NEWLINE][ICON_BULLET]Protect your experienced Hit-and-run Units. They are high value units and can fight much more efficiently than rookies.
-				[NEWLINE][ICON_BULLET]Remember Hit-and-run Units can perform both melee attacks and ranged attacks. Use melee attacks against enemy's Ranged Units while use ranged attacks for enemy melee units to minimize your casualties.
+				[NEWLINE][ICON_BULLET]Remember Hit-and-run Units can perform both melee attacks and ranged attacks. Use melee attacks against enemy Ranged Units while use ranged attacks for enemy melee units to minimize your casualties.
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]They are weak while defending and can be easily defeated by your main force units. Beaware that enemy's units with "Hunt Down" promotions also have combat bonus while defending. You should use unit of full HP to attack them.
-				[NEWLINE][ICON_BULLET]With an advantage of shooting range and great combat bonus, Archery Units can easily kill enemy's mounted archers while Anti-air Units can quickly bring down enemy's helicopters. Stack Archery Units or Anti-air Units with Infantry Units or Counter Units to defend your flanks.
-				[NEWLINE][ICON_BULLET]Always keep a neat formation to leave no gaps for enemy's Hit-and-run Units to slip in.
+				[NEWLINE][ICON_BULLET]They are weak while defending and can be easily defeated by your main force units. Beaware that enemy units with "Hunt Down" promotions also have combat bonus while defending. You should use unit of full HP to attack them.
+				[NEWLINE][ICON_BULLET]With an advantage of shooting range and great combat bonus, Archery Units can easily kill enemy mounted archers while Anti-air Units can quickly bring down enemy helicopters. Stack Archery Units or Anti-air Units with Infantry Units or Counter Units to defend your flanks.
+				[NEWLINE][ICON_BULLET]Always keep a neat formation to leave no gaps the for enemy Hit-and-run Units to slip in.
 
 			</Text>
 		</Row>
@@ -356,7 +356,7 @@
 
 				[NEWLINE][NEWLINE][COLOR_YIELD_FOOD]Operation:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]If gained "Fire Support" promotions and stacked with an Infantry Unit, an Counter Unit, a Citadel Unit or a Militia Unit, this unit will automatically launch a Counter-attack at the enemy unit attacking at this plot.
-				[NEWLINE][ICON_BULLET]If it successfully put the debuff an enemy unit or your unit gets a debuff by the enemy's attack. You will hear a special sound effect and get a notice on the right side of the screen.
+				[NEWLINE][ICON_BULLET]If it successfully put the debuff an enemy unit or your unit gets a debuff by the enemy attack. You will hear a special sound effect and get a notice on the right side of the screen.
 
 				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Pros:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Can disable enemy units and create chaos
@@ -370,15 +370,15 @@
 
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Archery Units and Anti-air Units are very different from their counterparts in BNW. They are no longer main force units as they shoudl be. They are support units and must work with other units for a better output.
-				[NEWLINE][ICON_BULLET]Units with "Barrage" Promotions can paralyze any enemy's units. Use it to disable strong enemies which cannot be killed in the current turn. This is very helpful if you are outnumbered.
-				[NEWLINE][ICON_BULLET]The perfect defensive formation: stack an Infantry Unit, an Counter Unit, a Citadel Unit or a Militia Unit with a Ranged Unit which has "Fire Support" promotions together during defensive turns. The enemy's Infantry Units, Hit-and-run Units will suffer huge casualties if they dare to attack your position. However, it is useless against Siege Units' bombardment.
+				[NEWLINE][ICON_BULLET]Units with "Suppression" Promotions can paralyze any enemy units. Use it to disable strong enemies which cannot be killed in the current turn. This is very helpful if you are outnumbered.
+				[NEWLINE][ICON_BULLET]The perfect defensive formation: stack an Infantry Unit, an Counter Unit, a Citadel Unit or a Militia Unit with a Ranged Unit which has "Fire Support" promotions together during defensive turns. The enemy Infantry Units, Hit-and-run Units will suffer huge casualties if they dare to attack your position. However, it is useless against Siege Units' bombardment.
 				[NEWLINE][ICON_BULLET]Always work with Hit-and-run Units with "Scouting" promotions to have the best effect.
 				[NEWLINE][ICON_BULLET]Special Forces Units can offer "Target Guide" for this unit to boost its damage.
-				[NEWLINE][ICON_BULLET]Comparing with the Siege Units, Archery Units and Anti-air Units are more fit with defensive missions. However they can still be very useful to eliminate enemy's Counter Units to open a way for your Heavy Mounted Units and Tanks.
+				[NEWLINE][ICON_BULLET]Comparing with the Siege Units, Archery Units and Anti-air Units are more fit with defensive missions. However they can still be very useful to eliminate enemy Counter Units to open a way for your Heavy Mounted Units and Tanks.
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]They are very weak in melee combat, which means any melee units in the same era can easily kill them in one hit.
 				[NEWLINE][ICON_BULLET]Siege Units have longer shooting ranges and combat bonus against them.
-				[NEWLINE][ICON_BULLET]Anti-air Units have limited firepower against Fighters or Carrier-based Aircrafts. Use "Air Sweep" ability to damage or destroy them to clear a path for your air strike if your land units cannot reach them.
+				[NEWLINE][ICON_BULLET]Anti-air Units have limited firepower against Fighters or Carrier-based Aircraft. Use "Air Sweep" ability to damage or destroy them to clear a path for your air strike if your land units cannot reach them.
 				[NEWLINE][ICON_BULLET]Although they cannot capture your city, your citizens in the city will be killed by their ranged attacks once the city HP is 0. So get rid of them ASAP!
 			</Text>
 		</Row>
@@ -395,7 +395,7 @@
 
 				[NEWLINE][NEWLINE][COLOR_YIELD_FOOD]Operation:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]As long as other friendly units can see the target and it is within the attacking range, it is attackable. Even this unit cannot see the target.
-				[NEWLINE][ICON_BULLET]If it successfully put the debuff an enemy unit or your unit gets a debuff by the enemy's attack. You will hear a special sound effect and get a notice on the right side of the screen.
+				[NEWLINE][ICON_BULLET]If it successfully put the debuff an enemy unit or your unit gets a debuff by the enemy attack. You will hear a special sound effect and get a notice on the right side of the screen.
 
 				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Pros:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Long firing range
@@ -411,14 +411,14 @@
 
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]In SuperPower Mod, cities have less initial HPs but their HPs regain faster. Cities with a larger population size will have much more HPs. As a result, Siege Unit is vital for attacking a big city.
-				[NEWLINE][ICON_BULLET]Siege Units have great combat bonus attacking enemy fortified units, Archery Units and Anti-air Units, which makes it capable of destroying enemy's defensive formations to break the deadlock.
+				[NEWLINE][ICON_BULLET]Siege Units have great combat bonus attacking enemy fortified units, Archery Units and Anti-air Units, which makes it capable of destroying enemy defensive formations to break the deadlock.
 				[NEWLINE][ICON_BULLET]Siege Units with "Collateral Damage" promotions can also be used to "suppress" the enemy by to weaken their attacks in the next turn. This is very helpful if you are outnumbered.
 				[NEWLINE][ICON_BULLET]Always work with Hit-and-run Units with "Scouting" promotions to have the best effect.
 				[NEWLINE][ICON_BULLET]Special Forces Units can offer "Target Guide" for this unit to boost its damage.
 				[NEWLINE][ICON_BULLET]Experienced Siege Unit are high value units and should never go out alone.
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]They are very weak in melee combat, which means any melee units in the same era can easily kill them in one hit.
-				[NEWLINE][ICON_BULLET]Cancel the fortification of your Infantry Units or Counter Units by moving them back and forth, also separate stacked units, if enemy's Siege Units' bombardment is unavoidable. Fortified units and stacked units will suffer much more damage during Siege Units' bombardment and may be killed in one hit.
+				[NEWLINE][ICON_BULLET]Cancel the fortification of your Infantry Units or Counter Units by moving them back and forth, also separate stacked units, if enemy Siege Units' bombardment is unavoidable. Fortified units and stacked units will suffer much more damage during Siege Units' bombardment and may be killed in one hit.
 				[NEWLINE][ICON_BULLET]Although they cannot capture your city, your citizens in the city will be killed by their ranged attacks once the city HP is 0. So get rid of them ASAP!
 
 			</Text>
@@ -452,7 +452,7 @@
 				[NEWLINE][ICON_BULLET]No bonus attacking cities
 
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]These weapons with AoE Effect can damage multiple enemy's units in one shot. So open fire at crowds!
+				[NEWLINE][ICON_BULLET]These weapons with AoE Effect can damage multiple enemy units in one shot. So open fire at crowds!
 				[NEWLINE][ICON_BULLET]Their long firing range can be used agaisnt naval ships near the coast, which is the only way that land force can have the change to deal with the naval force in a fair fight.
 				[NEWLINE][ICON_BULLET]Pick your target wisely for efficiency. Do not waste their firepower on low value targets like militias.
 				[NEWLINE][ICON_BULLET]Always work with Hit-and-run Units with "Scouting" promotions to have the best effect.
@@ -461,7 +461,7 @@
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]They are very weak in melee combat, which means any melee units in the same era can easily kill them in one hit.
 				[NEWLINE][ICON_BULLET]They are very slow, so you have plenty of time for counter attack.
-				[NEWLINE][ICON_BULLET]Separate your groups of units to minimize the loss, if enemy's AoE bombardment is unavoidable.
+				[NEWLINE][ICON_BULLET]Separate your groups of units to minimize the loss, if enemy AoE bombardment is unavoidable.
 				[NEWLINE][ICON_BULLET]Although they cannot capture your city, your citizens in the city will be killed by their ranged attacks once the city HP is 0. So get rid of them ASAP!
 
 			</Text>
@@ -493,12 +493,12 @@
 				[NEWLINE][ICON_BULLET]If you are building up an navy, but don't know which unit you should choose, build a Naval Melee Unit.
 				[NEWLINE][ICON_BULLET]Naval Melee Units are competent for both aggressive and defensive missions, which makes them the main force (but not the flagships) of your navy.
 				[NEWLINE][ICON_BULLET]Always stay in groups for flanking bonus.
-				[NEWLINE][ICON_BULLET]They can move after attacking and very useful for capturing enemy's coastal cities.
-				[NEWLINE][ICON_BULLET]Early Naval Melee Units are very powerful for a rush strategy since ealy cities are quite vulnerable. Two Trireme can take down an enemy's coastal Capital in two turns in Ancient Era. However, the cost of a Trireme almsot equals an ancient World Wonder.
+				[NEWLINE][ICON_BULLET]They can move after attacking and very useful for capturing enemy coastal cities.
+				[NEWLINE][ICON_BULLET]Early Naval Melee Units are very powerful for a rush strategy since ealy cities are quite vulnerable. Two Trireme can take down an enemy coastal Capital in two turns in Ancient Era. However, the cost of a Trireme almsot equals an ancient World Wonder.
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Naval Ranged Units and Cruisers have great combat bonus against them. In most cases, them can be destroyed in one or two hit by melee attacks.
-				[NEWLINE][ICON_BULLET]Although Naval Hit-and-run units are weak against them, but you can use wolfpack strategy to paralyze them by "Barrage" effects.
-				[NEWLINE][ICON_BULLET]Destroyers have limited firepower against Fighters and Carrier-based Aircrafts. Use "Air Sweep" ability to damage or destroy them to clear a path for your air strike if your land units cannot reach them.
+				[NEWLINE][ICON_BULLET]Although Naval Hit-and-run units are weak against them, but you can use wolfpack strategy to paralyze them by "Suppression" effects.
+				[NEWLINE][ICON_BULLET]Destroyers have limited firepower against Fighters and Carrier-based Aircraft. Use "Air Sweep" ability to damage or destroy them to clear a path for your air strike if your land units cannot reach them.
 			</Text>
 		</Row>
 
@@ -515,7 +515,7 @@
 
 				[NEWLINE][NEWLINE][COLOR_YIELD_FOOD]Operation:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]The default "Right Click" will order the unit to perform a ranged attack. If you want it to perform a melee attack, click the "Attack" button on the left or press "A" key and click on the enemy unit.
-				[NEWLINE][ICON_BULLET]If it successfully put the debuff an enemy unit or your unit gets a debuff by the enemy's attack. You will hear a special sound effect and get a notice on the right side of the screen.
+				[NEWLINE][ICON_BULLET]If it successfully put the debuff an enemy unit or your unit gets a debuff by the enemy attack. You will hear a special sound effect and get a notice on the right side of the screen.
 
 				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Pros:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Excellent mobility
@@ -528,11 +528,11 @@
 
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]They are the cheapest regular Naval Units. So build more for reconnaissance and wolfpack strategy. Also don't be afraid of losing one of them.
-				[NEWLINE][ICON_BULLET]They are support units so they cannot serve as the main force. However they can still work in group as a tactical team away of your navy like Land Hit-and-run units. Use them to ambush enemy's flagships or pillage enemy's cargo ships.
-				[NEWLINE][ICON_BULLET]Early Naval Hit-and-run Units can use their ranged attack agaisnt enemy's units in coastal areas or harass enemy coastal cities. While Submarines have longer initial shooting range but lose the ability to attack land units or cities.
+				[NEWLINE][ICON_BULLET]They are support units so they cannot serve as the main force. However they can still work in group as a tactical team away of your navy like Land Hit-and-run units. Use them to ambush enemy flagships or pillage enemy cargo ships.
+				[NEWLINE][ICON_BULLET]Early Naval Hit-and-run Units can use their ranged attack agaisnt enemy units in coastal areas or harass enemy coastal cities. While Submarines have longer initial shooting range but lose the ability to attack land units or cities.
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Escort your larger navy ships with enough Naval Melee Units. Naval Melee Units can destroy those small vessels in all cases with one hit.
-				[NEWLINE][ICON_BULLET]Always keep a neat formation to leave no gaps for enemy's Naval Hit-and-run Units to slip in. It is very troublesome to have your flagships ambushed during expedition.
+				[NEWLINE][ICON_BULLET]Always keep a neat formation to leave no gaps for enemy Naval Hit-and-run Units to slip in. It is very troublesome to have your flagships ambushed during expedition.
 				[NEWLINE][ICON_BULLET]Although Naval Hit-and-run Units cannot capture your cities, they can cause catastrophic result by pillaging all your improvements on water plots and block your coastal cities. Place some naval militia units to guard your coastline.
 			</Text>
 		</Row>
@@ -549,14 +549,14 @@
 
 				[NEWLINE][NEWLINE][COLOR_YIELD_FOOD]Operation:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]The default "Right Click" will order the unit to perform a ranged attack. If you want it to perform a melee attack, click the "Attack" button on the left or press "A" key and click on the enemy unit.
-				[NEWLINE][ICON_BULLET]If it successfully put the debuff an enemy unit or your unit gets a debuff by the enemy's attack. You will hear a special sound effect and get a notice on the right side of the screen.
+				[NEWLINE][ICON_BULLET]If it successfully put the debuff an enemy unit or your unit gets a debuff by the enemy attack. You will hear a special sound effect and get a notice on the right side of the screen.
 				[NEWLINE][ICON_BULLET]Missile Cruisers will automatically resupply its guided missiles.
 
 
 				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Pros:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Strong Combat Strength
 				[NEWLINE][ICON_BULLET]Long firing range
-				[NEWLINE][ICON_BULLET]Can add debuffs to the enemy's units
+				[NEWLINE][ICON_BULLET]Can add debuffs to the enemy units
 
 				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cons:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Expensive
@@ -564,12 +564,12 @@
 				[NEWLINE][ICON_BULLET]Weak vs Counter Units which are much cheaper
 
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]If owned both "Barrage" and Collateral Damage" promotions, Naval Ranged Ships can weaken enemy's both defending and attacking combat strength to quickly disable its combat effectiveness.
-				[NEWLINE][ICON_BULLET]With decisive high melee combat strength, Naval Ranged Ships can efficiently destroy an enemy's Naval Melee Unit with minimum loss. Remember to use its melee attack ablity.
+				[NEWLINE][ICON_BULLET]If owned both "Suppression" and Collateral Damage" promotions, Naval Ranged Ships can weaken enemy both defending and attacking combat strength to quickly disable its combat effectiveness.
+				[NEWLINE][ICON_BULLET]With decisive high melee combat strength, Naval Ranged Ships can efficiently destroy an enemy Naval Melee Unit with minimum loss. Remember to use its melee attack ablity.
 				[NEWLINE][ICON_BULLET]Naval Ranged Ships can also capture coastal cities by using melee attacks, but it cannot move after capturing the city. So make sure the captured city is secure in the next turn.
 				[NEWLINE][ICON_BULLET]Heavy Cruisers and Missile Cruisers can provide capable anti-air support. Missile Cruisers can even intercept guided missiles.
 				[NEWLINE][ICON_BULLET]Always work with Naval Hit-and-run Units with "Scouting" promotions to have the best effect.
-				[NEWLINE][ICON_BULLET]Great Admirals can offer "Target Guide" for this unit to boost its damage.
+				[NEWLINE][ICON_BULLET]Great Admirals can guide Naval Firepower using "Target Guide" for higher accuracy and damage.
 				[NEWLINE][ICON_BULLET]They are support units, so always escort them with Naval Melee Units.
 				[NEWLINE][ICON_BULLET]Missile Cruisers have unlimited supplies of guided missiles. You may use them for a saturation attack.
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
@@ -607,18 +607,18 @@
 
 
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Boasting the Strongest Combat Strength in its era, Battleships can take out most of enemy's units of the same era in one shot if accompanied with enough buffs and debuffs to the target.
+				[NEWLINE][ICON_BULLET]Boasting the Strongest Combat Strength in its era, Battleships can take out most of enemy units of the same era in one shot if accompanied with enough buffs and debuffs to the target.
 				[NEWLINE][ICON_BULLET]Always work with Naval Hit-and-run Units with "Scouting" promotions to have the best effect.
 				[NEWLINE][ICON_BULLET]Great Admirals can offer "Target Guide" for this unit to boost its damage.
-				[NEWLINE][ICON_BULLET]These weapons with AoE Effect can damage multiple enemy's units in one shot. So open fire at crowds!
+				[NEWLINE][ICON_BULLET]These weapons with AoE Effect can damage multiple enemy units in one shot. So open fire at crowds!
 				[NEWLINE][ICON_BULLET]Their long firing range can be used to offer fire support for inland forces.
-				[NEWLINE][ICON_BULLET]Pick your target wisely for efficiency. Do not waste their firepower on low value targets like militias.
-				[NEWLINE][ICON_BULLET]Even after the rise of naval aviation, Battleships are still useful to break the deadlock whiel the enemy have strong anti-air powers.
-				[NEWLINE][ICON_BULLET]Battleships are high value units but not dependent on experience. Even rookie Battleship units can cause massive damage to the enemy, which means you don't need to care about your experienced battleships too much. It is worthwhile to sacrifice your battleship to save an experienced Aircraft Carrier if necessary.
+				[NEWLINE][ICON_BULLET]Pick your target wisely for efficiency. Do not waste their firepower on low value targets such as militias.
+				[NEWLINE][ICON_BULLET]Even after the rise of naval aviation, Battleships are still useful to break a deadlock when the enemy have concentrated forces.
+				[NEWLINE][ICON_BULLET]Battleships are expensive Naval Units and take a long time to produce. Even fresh Battleship units can cause massive damage to the enemy, which means you don't need to care about your experienced battleships too much. It is worthwhile to sacrifice your battleship to save an experienced Aircraft Carrier if necessary.
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Naval Hit-and-run Units have great combat bonus to quickly paralyze them. Battleships are very tough. You may need 5-7 Naval Hit-and-run Units of its same era to destroy a Battleship in one turn.
+				[NEWLINE][ICON_BULLET]Naval Hit-and-run Units have great combat bonuses to quickly paralyze them. Battleships are very tough. You may need 5-7 Naval Hit-and-run Units of its same era to destroy a Battleship in one turn.
 				[NEWLINE][ICON_BULLET]Use the attacking range advantage of Aircraft Carriers to attack them from a safe distance.
-				[NEWLINE][ICON_BULLET]Separate your groups of units to minimize the loss, if enemy's AoE bombardment is unavoidable.
+				[NEWLINE][ICON_BULLET]Separate your groups of units to minimize the loss, if enemy AoE bombardment is unavoidable.
 
 			</Text>
 		</Row>
@@ -634,12 +634,12 @@
 				[NEWLINE][ICON_BULLET]Flagship
 
 				[NEWLINE][NEWLINE][COLOR_YIELD_FOOD]Operation:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Automatically resupply its Carrier-based Aircrafts (One Aircraft Unit per turn) when it is inside Friendly Territory. After gained "Carrier Supply III" promotion, it can resupply its Carrier-based Aircrafts even outside Friendly Territory.
-				[NEWLINE][ICON_BULLET]EXP earned by its Carrier-based Aircrafts will transfer to the Aircraft Carrier. So the Aircraft Carrier will earn the promotions. Even the Carrier-based Aircrafts are all shot down, those promotions will not lose.
-				[NEWLINE][ICON_BULLET]New Carrier-based Aircrafts added to the Aircraft Carrier CANNOT move until NEXT turn and it will automatically inherit all available promotions in the NEXT turn.
-				[NEWLINE][ICON_BULLET]if the Aircraft Carrier is destroyed, it will lose all of its Carrier-based Aircrafts on board.
-				[NEWLINE][ICON_BULLET]Carrier-based Aircrafts is allowed to rebase to other Aircraft Carriers but the promotions will NOT be transferred with the aircraft.
-				[NEWLINE][ICON_BULLET]For the Game balance other than the reality, Carrier-based Aircrafts is not allowed to rebase to cities.
+				[NEWLINE][ICON_BULLET]Automatically resupply its Carrier-based Aircraft (One Aircraft Unit per turn) when it is inside Friendly Territory. After gaining the "Carrier Supply III" promotion, it can resupply its Carrier-based Aircraft even outside Friendly Territory.
+				[NEWLINE][ICON_BULLET]EXP earned by its Carrier-based Aircraft will transfer to the Aircraft Carrier. So the Aircraft Carrier will earn the promotions. Even the Carrier-based Aircraft are all shot down, those promotions will not lose.
+				[NEWLINE][ICON_BULLET]New Carrier-based Aircraft added to the Aircraft Carrier CANNOT move until the next turn and it will automatically inherit all available promotions in the next turn.
+				[NEWLINE][ICON_BULLET]if the Aircraft Carrier is destroyed, it will lose all of its Carrier-based Aircraft on board.
+				[NEWLINE][ICON_BULLET]Carrier-based Aircraft is allowed to rebase to other Aircraft Carriers but the promotions will NOT be transferred with the aircraft.
+				[NEWLINE][ICON_BULLET]For the Game balance other than the reality, Carrier-based Aircraft are not allowed to rebase to cities.
 				[NEWLINE][ICON_BULLET]When clicking "Order ALL UNITS" button on the left, all Aircraft Carriers will instantly switch to "intercept" mode. However if its HP is lower than 30, it will sleep and heal till its HP is full.
 
 
@@ -653,19 +653,19 @@
 				[NEWLINE][ICON_BULLET]Extremely expensive
 				[NEWLINE][ICON_BULLET]Combat preparations takes a long time
 				[NEWLINE][ICON_BULLET]Poor mobility
-				[NEWLINE][ICON_BULLET]If running out of its Carrier-based Aircrafts, it is totally useless
+				[NEWLINE][ICON_BULLET]If running out of its Carrier-based Aircraft, it is totally useless
 
 
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Aircraft Carriers are the symbol of a modern navy. It is a strategic weapon. In the late game, one Super-Carrier is enough to defeat a small nation without enough anti-air forces.
-				[NEWLINE][ICON_BULLET]Newly built Aircraft Carriers are empty. You have to wait for a few turns for its Carrier-based Aircrafts fully loaded. So build them ahead of time!
+				[NEWLINE][ICON_BULLET]Newly built Aircraft Carriers are empty. You have to wait for a few turns for its Carrier-based Aircraft fully loaded. So build them ahead of time!
 				[NEWLINE][ICON_BULLET]Aircraft Carriers must be accompanied by a full carrier battle group to make full use of its power. One single Aircraft Carrier is easy to be outnumbered and destroyed.
 				[NEWLINE][ICON_BULLET]One carrier battle group able for continental warfare can includes 2-4 Aircraft Carriers, 1-3 Battleship(s), 2-5 Cruisers, 8-12 Destroyers, 6-9 Submarines. 1-2 Great Admirals(s).
-				[NEWLINE][ICON_BULLET]Since every Carrier-based Aircraft's attack will transfer its EXP to its carier, Aircraft Carrier will earn new promotions rapidly if engaged in a full fight.
-				[NEWLINE][ICON_BULLET]Needless to say, Aircraft Carriers are the most valued units. Protect your experienced Aircraft Carriers at all cost if you want to win the war.
+				[NEWLINE][ICON_BULLET]Since every Carrier-based Aircraft's attack will transfer its EXP to its Carrier, Aircraft Carrier will earn new promotions rapidly if engaged in a full fight.
+				[NEWLINE][ICON_BULLET]Needless to say, Aircraft Carriers are the most valued units. Protect your experienced Aircraft Carriers at all costs if you want to win the war.
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Submarines have great combat bonus to quickly paralyze them. Aircraft Carriers are not so tough as you may expect. They can be destroyed by 3-4 Submarines in one turn.
-				[NEWLINE][ICON_BULLET]If you have enough anti-air powers, enemy's Aircraft Carriers cannot cause too much damage. Land-based Fighters have higher combat strength, thus they can easily defeat Carrier-based Aircrafts during a dogfight.
+				[NEWLINE][ICON_BULLET]Submarines have great combat bonuses to quickly paralyze them. Aircraft Carriers are not as tough as you may expect. They can be destroyed by 3-4 Submarines in one turn.
+				[NEWLINE][ICON_BULLET]If you have enough anti-air powers, enemy Aircraft Carriers cannot cause too much damage. Land-based Fighters have higher combat strength, thus they can easily defeat Carrier-based Aircraft during a dogfight.
 				[NEWLINE][ICON_BULLET]Aircraft Carriers in deep ocean can be nuked without teh fear of nuclear winter.
 			</Text>
 		</Row>
@@ -682,9 +682,9 @@
 
 				[NEWLINE][NEWLINE][COLOR_YIELD_FOOD]Operation:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]It is a Land-based Aircraft so it cannot land on [COLOR_NEGATIVE_TEXT]Aircraft Carriers[ENDCOLOR].
-				[NEWLINE][ICON_BULLET]For the Game balance other than the reality, it can NOT attack land or naval units. However you can still use the "Airstrike" button on the left to show its intercepting range.
-				[NEWLINE][ICON_BULLET]When clicking "Order ALL UNITS" button on the left, all fighter units will instantly switch to "intercept" mode. However if its HP is lower than 30, it will sleep and heal till its HP is full.
-				[NEWLINE][ICON_BULLET]While performing "Air Sweep" it can damage or even destroy enemy intercepting aircrafts, land and sea AA units.
+				[NEWLINE][ICON_BULLET]For the Game balance other than the reality, it can NOT attack land or naval units. However, you can still use the "Airstrike" button on the left to show its intercepting range.
+				[NEWLINE][ICON_BULLET]When clicking the "Order ALL UNITS" button on the left, all fighter units will instantly switch to "intercept" mode. However if its HP is lower than 30, it will sleep and heal till its HP is full.
+				[NEWLINE][ICON_BULLET]While performing "Air Sweep" it can damage or even destroy enemy intercepting aircraft, land and sea AA units.
 
 				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Pros:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Can shoot down anything of the same era in the sky
@@ -695,15 +695,15 @@
 				[NEWLINE][ICON_BULLET]Can only engage in air combat
 
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]You must have enough Fighters to control the sky if you want to win a modern war. However do not build excessively since it can not do substantial damage to your enemy. Otherwise you may not have enough manpower to build attack aircrafts.
-				[NEWLINE][ICON_BULLET]Rember to perform an "Air Sweep" everytime before launching an air strike. The intercepting range of Fighters is very long. You will never know how many enemy's Fighters hiding in the fog of war.
-				[NEWLINE][ICON_BULLET]It is always wise to promote your Fighters with "Dogfight" promotion first, since the Fighters' top priority is air supremacy controling. This will also help them to survive from dogfights to have more time for further promotions. 
-				[NEWLINE][ICON_BULLET]Always keep your Fighters upgraded to the most advanced models. Dated Fighters will suffer a crushing defeat fighting against advanced Fighters due to the huge gap of their combat strength and flight range.
+				[NEWLINE][ICON_BULLET]You must have enough Fighters to control the sky if you want to win a modern war. However do not build excessively since it can not do substantial damage to your enemy. Otherwise, you may not have enough manpower to build attack aircraft.
+				[NEWLINE][ICON_BULLET]Remember to perform an "Air Sweep" before launching an air strike. The intercepting range of Fighters is very long. You will never know how many enemy are Fighters hiding in the fog of war.
+				[NEWLINE][ICON_BULLET]It is always wise to promote your Fighters with "Dogfight" promotion first, since the Fighters top priority is controlling airspace. This will also help them to survive dogfights to have more time for further promotions. 
+				[NEWLINE][ICON_BULLET]Always keep your Fighters upgraded to the most advanced models. Dated Fighters will suffer a crushing defeat fighting against advanced Fighters due to the huge gap in their combat strength and flight range.
 				[NEWLINE][ICON_BULLET]Protect your experienced Fighters. An ACE pilot can comfortably shoot down three rookies from the sky in one turn.
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]The most effective method against enemy's Fighters is to build more Fighters or build advanced Fighters to overwhelm the enemy.
-				[NEWLINE][ICON_BULLET]AA units are not so effective against enemy's Fighters, however they can buy you some time.
-				[NEWLINE][ICON_BULLET]The Military Airbase (Citadel Unit) can be attacked by enemy's Fighter's air sweep. But it won't cause damage.
+				[NEWLINE][ICON_BULLET]The most effective method against enemy Fighters is to build more Fighters or build advanced Fighters to overwhelm the enemy.
+				[NEWLINE][ICON_BULLET]AA units are not so effective against enemy Fighters, however they can buy you some time.
+				[NEWLINE][ICON_BULLET]The Military Airbase (Citadel Unit) can be attacked by the enemy Fighter's air sweep. But it won't cause damage.
 
 			</Text>
 		</Row>
@@ -722,20 +722,20 @@
 				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Pros:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]If the attack is successful, it can destroy any land or naval units of its era in one shot
 				[NEWLINE][ICON_BULLET]Receive little damage when attacking units
-				[NEWLINE][ICON_BULLET]Can easily take out enemy garrisoned units or aircrafts in the city
+				[NEWLINE][ICON_BULLET]Can easily take out enemy garrisoned units or aircraft in the city
 
 				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cons:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Weak when intercepted
 				[NEWLINE][ICON_BULLET]Relatively short flight range
 
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Since its attacks ignore all terrain or any defensive bonus, it is extremely efficient to take down enemy's units hiding in rough terrains like deep forest or jungles.
-				[NEWLINE][ICON_BULLET]Attack Aircrafts also have a deadly effect attacking enemy's naval ships. With enough Attack Aircrafts accompanied by Fighters, you are able to take out the enemy's fleet while your main naval force is out.
-				[NEWLINE][ICON_BULLET]With "Surgical Strike" promotions, Attack Aircrafts can even damage or destroy enemy's units in the city. Be aware they can damage or destroy enemy's aircrafts stationed in the target city as well. Use Fighters to clear a path and your Attack Aircrafts can wipe out enemy's air force on their runways in one turn.
-				[NEWLINE][ICON_BULLET]Rember to perform an "Air Sweep" everytime before launching an air strike. The intercepting range of Fighters is very long. You will never know how many enemy's Fighters hiding in the fog of war.
-				[NEWLINE][ICON_BULLET]Move up your Attack Aircrafts while pushing further, since they have a relatively shorter flight range.
+				[NEWLINE][ICON_BULLET]Since its attacks ignore all terrain or any defensive bonus, it is extremely efficient to take down enemy units hiding in rough terrains like deep forest or jungles.
+				[NEWLINE][ICON_BULLET]Attack Aircraft also have a deadly effect attacking enemy naval ships. With enough Attack Aircraft accompanied by Fighters, you are able to take out the enemy fleet while your main naval force is out.
+				[NEWLINE][ICON_BULLET]With "Surgical Strike" promotions, Attack Aircraft can even damage or destroy enemy units in the city. Be aware they can damage or destroy enemy aircraft stationed in the target city as well. Use Fighters to clear a path and your Attack Aircraft can wipe out enemy air force on their runways in one turn.
+				[NEWLINE][ICON_BULLET]Rember to perform an "Air Sweep" everytime before launching an air strike. The intercepting range of Fighters is very long. You will never know how many enemy Fighters hiding in the fog of war.
+				[NEWLINE][ICON_BULLET]Move up your Attack Aircraft while pushing further, since they have a relatively shorter flight range.
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Attack Aircrafts don't have any anti-air weapons. As a result, they are bobbing target for Fighters.
+				[NEWLINE][ICON_BULLET]Attack Aircraft don't have any anti-air weapons. As a result, they are bobbing target for Fighters.
 				[NEWLINE][ICON_BULLET]A land Anti-air Unit or Military Airbase (Citadel Unit) may not be able to shoot down an Attack Aircraft during interception. But it will cause severe damage to the Attack Aircraft and protect your unit under its attack.
 				[NEWLINE][ICON_BULLET]A Heavy Cruiser or a Missile Cruiser is able to shoot down an Attack Aircraft during interception if it has  "Flak Cannon I" promotion.
 			
@@ -765,15 +765,15 @@
 				[NEWLINE][ICON_BULLET]After a few bombardments, it can offer you a useless captured city
 
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]This is a strategic weapon, which will destory your enemy's war capability instead of killing units. it is not designed to win a battle but to win a war.
-				[NEWLINE][ICON_BULLET]Strategic Bombers' "Napalm Bomb" Promotions can cause catastrophic civilian casualties to enemy's cities, which will prove to be a great impact to your opponent's economy. What's more, it can reduce the resistance tiem of your newly captured city, in an inhumane way.
-				[NEWLINE][ICON_BULLET]Use its "Air Siege I" promotion to destroy enemy's military production to paralyze the war capability. What's more, the target city will be more vulnerable after its military buildings destroyed.
-				[NEWLINE][ICON_BULLET]If you want to bring further impact to your enemy's economy, use Strategic Bombers with "Air Siege II" and "Air Siege III" promotions to bomb enemy's main cities to destroy its production buildings adn power plants. This is especially effective if you want to stop your opponent from launching spaceship. However, if you want to capture and make use of the target city, do not do so. Otherwise you will destroy your own buildings.
-				[NEWLINE][ICON_BULLET]Strategic Bombers can also be used for tactical bombing by gaining "Supply Line Bombardment" which can cause chaos to enemy's invading units, especially for enemy's naval units.
+				[NEWLINE][ICON_BULLET]This is a strategic weapon, which will destroy your enemy war capability instead of killing units. it is not designed to win a battle but to win a war.
+				[NEWLINE][ICON_BULLET]Strategic Bombers' "Napalm Bomb" Promotions can cause catastrophic civilian casualties to enemy cities, which will prove to be a great impact to your opponent's economy. What's more, it can reduce the resistance time of your newly captured city, in an inhumane way.
+				[NEWLINE][ICON_BULLET]Use its "Air Siege I" promotion to destroy enemy military production to paralyze the war capability. What's more, the target city will be more vulnerable after its military buildings destroyed.
+				[NEWLINE][ICON_BULLET]If you want to bring further impact to your enemy economy, use Strategic Bombers with "Air Siege II" and "Air Siege III" promotions to bomb enemy main cities to destroy its production buildings and power plants. This is especially effective if you want to stop your opponent from launching spaceship. However, if you want to capture and make use of the target city, do not do so. Otherwise you will destroy your own buildings.
+				[NEWLINE][ICON_BULLET]Strategic Bombers can also be used for tactical bombing by gaining "Supply Line Bombardment" which can cause chaos to enemy invading units, especially for enemy naval units.
 
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Land and sea AA units are not abel to stop the Strategic Bombers. Only Fighters of the same era can intercept and shoot down these huge aircrafts.
-				[NEWLINE][ICON_BULLET]You can build Bomb Shelters in you main cities to minize the citizen casualty, but it cannot prevent building loss. Unfortunately Bomb Shelters will consume additional electricity and expensive maintenance cost. This is another way how Strategic Bombers impact the opponent's economy as strategic weapons.
+				[NEWLINE][ICON_BULLET]Land and sea AA units are not able to stop the Strategic Bombers. Only Fighters of the same era can intercept and shoot down these huge aircraft.
+				[NEWLINE][ICON_BULLET]You can build Bomb Shelters in you main cities to minimize the civilian casualty, but it cannot prevent building loss. Unfortunately Bomb Shelters will consume additional electricity and expensive maintenance cost. This is another way how Strategic Bombers impact the opponent's economy as strategic weapons.
 
 
 
@@ -806,7 +806,7 @@
 			[NEWLINE][ICON_BULLET]May cause [COLOR_NEGATIVE_TEXT]Nuclear Winter[ENDCOLOR] which will make the planet uninhabitable
 
 			[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
-			[NEWLINE][ICON_BULLET]The Atomic Bomb is the first strategic nuclear weapon but it is less effective and cannot destroy cities,it can be upgraded to the nuclear missile in the information era, which has much longer attacking range, and it is more powerful to destroy cities with with a population less than 6.
+			[NEWLINE][ICON_BULLET]The Atomic Bomb is the first strategic nuclear weapon but it is less effective and cannot destroy cities,it can be upgraded to the nuclear missile in the information era, which has much longer attacking range, and it is more powerful to destroy cities with a population less than 6.
 			[NEWLINE][ICON_BULLET]The ultimate weapon in SuperPower Mod is ICBM. It can wipe out any non-capital cities or reduce the population of capital city to 1.
 			[NEWLINE][ICON_BULLET]If there are too many nuclear explosions in the planet (the number of plots covered with fallout reaches 1% of the whole map, including the water plots). The nuclear winter will fall, which cause all tiles with Food Output larger than 3 will reduce by 1 until it reaches 3. If more nuclear explosions occur, the nuclear winter will deteriorate. If the the number of plots covered with fallout reaches 10% of the map, all tiles' Food and Production output will reduce to 0 and the planet will be uninhabitable.
 			[NEWLINE][ICON_BULLET]Once the nuclear winter is triggered, it cannot be stopped. But if no more nuclear explosions occur,
@@ -888,13 +888,13 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ICBM_MISSILE_HELP">
-			<Text>[ICON_BULLET]The most powerful nuclear weapon in the game. [NEWLINE][NEWLINE][ICON_BULLET]One single ICBM can utterly destroy a non-captial city and everything within the range of 2 tiles.[NEWLINE][ICON_BULLET]Consumes 3 Air Unit Capacity in a city.[NEWLINE][ICON_BULLET]Can be loaded on [COLOR_POSITIVE_TEXT]SSBNs[ENDCOLOR].</Text>
+			<Text>[ICON_BULLET]The most powerful nuclear weapon in the game. [NEWLINE][NEWLINE][ICON_BULLET]One single ICBM can utterly destroy a non-capital city and everything within the range of 2 tiles.[NEWLINE][ICON_BULLET]Consumes 3 Air Unit Capacity in a city.[NEWLINE][ICON_BULLET]Can be loaded on [COLOR_POSITIVE_TEXT]SSBNs[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ICBM_MISSILE_HEADING">
 			<Text>Intercontinental Ballistic Missile (ICBM) </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_ICBM_MISSILE_TEXT">
-			<Text>An intercontinental ballistic missile (ICBM) is a ballistic missile with a minimum range of more than 5,500 kilometres (3,400 mi)[1] primarily designed for nuclear weapons delivery (delivering one or more nuclear warheads). Similarly conventional, chemical and biological weapons can also be delivered with varying effectiveness. Most modern designs support multiple independently targetable reentry vehicles (MIRVs), allowing a single missile to carry several warheads, each of which can strike a different target.</Text>
+			<Text>An intercontinental ballistic missile (ICBM) is a ballistic missile with a minimum range of more than 5,500 kilometers (3,400 mi)[1] primarily designed for nuclear weapons delivery (delivering one or more nuclear warheads). Similarly conventional, chemical and biological weapons can also be delivered with varying effectiveness. Most modern designs support multiple independently targetable reentry vehicles (MIRVs), allowing a single missile to carry several warheads, each of which can strike a different target.</Text>
 		</Row>
 
 
@@ -931,7 +931,7 @@
 			<Text>[COLOR_MAGENTA]Minuteman[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR">
-			<Text>[COLOR_MAGENTA]Mohawk Warrior[ENDCOLOR]</Text>
+			<Text>[ICON_CAPITAL] [COLOR_MAGENTA]Mohawk Warrior[ENDCOLOR]</Text>
 		</Replace>
 		
 		
@@ -963,11 +963,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_INCAN_CHASQUI">
-			<Text>Chasqui</Text>
+			<Text>[ICON_CAPITAL] Chasqui</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_INCAN_CHASQUI_HEADING">
-			<Text>Chasqui</Text>
+			<Text>[ICON_CAPITAL] Chasqui</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_UNIT_INCAN_CHASQUI_TEXT">
 			<Text>The Chasquis (also Chaskis) were agile and highly trained and physically fit messengers that were in charge of carrying the quipus, messages and gifts throughout the Inca empire. A message could travel up to 240 km per day through the chasquis relay system. </Text>
@@ -995,22 +995,22 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_IROQUOIAN_MUSKETEER">
-			<Text>Iroquoian Musketman</Text>
+			<Text>[ICON_CAPITAL] Iroquoian Musketman</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_IROQUOIAN_MUSKETEER_HEADING">
-			<Text>Iroquoian Musketman</Text>
+			<Text>[ICON_CAPITAL] Iroquoian Musketman</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_IROQUOIAN_MUSKETEER_TEXT">
 			<Text>The Iroquoian soldiers were one of the most powerful and influential Indian nations. If their desperate efforts failed, they would all die -- either by musket and tomahawk in the burning villages, or by barbarous torture after capture. </Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_CELT_BLACKWATCH">
-			<Text>Black Watch</Text>
+			<Text>[ICON_CAPITAL] Black Watch</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CELT_BLACKWATCH_HEADING">
-			<Text>Black Watch</Text>
+			<Text>[ICON_CAPITAL] Black Watch</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CELT_BLACKWATCH_PEDIA">
 			<Text>The Black Watch, 3rd Battalion, Royal Regiment of Scotland (3 SCOTS) is an infantry battalion of the Royal Regiment of Scotland.</Text>
@@ -1033,11 +1033,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_POLYNESIAN_CARGOSHIP">
-			<Text>Polynesian Cargoship</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Polynesian Cargoship</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_POLYNESIAN_CARGOSHIP_HEADING">
-			<Text>Polynesian Cargoship</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Polynesian Cargoship</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_UNIT_POLYNESIAN_CARGOSHIP_TEXT">
 			<Text>
@@ -1070,11 +1070,11 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_ENGLISH_CROMWELL_TANK">
-			<Text>Cromwell Tank</Text>
+			<Text>[ICON_CAPITAL] A27 Cromwell</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ENGLISH_CROMWELL_TANK_HEADING">
-			<Text>Cromwell Tank</Text>
+			<Text>[ICON_CAPITAL] A27 Cromwell</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ENGLISH_CROMWELL_TANK_PEDIA">
 			<Text>The Cromwell tank was one of the most successful of the series of cruiser tanks fielded by Britain in the Second World War. Named after the English Civil War leader Oliver Cromwell, the Cromwell was the first tank put into service by the British to combine a dual-purpose gun, high speed from the powerful and reliable Meteor engine, and reasonable armour, in a balanced package. </Text>
@@ -1098,11 +1098,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_PERSIAN_CATAPHRACT">
-			<Text>Sassanid-era Cataphract</Text>
+			<Text>[ICON_CAPITAL] Sassanid Cataphract</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PERSIAN_CATAPHRACT_HEADING">
-			<Text>Sassanid-era Cataphract</Text>
+			<Text>[ICON_CAPITAL] Sassanid Cataphract</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_PERSIAN_CATAPHRACT">
 			<Text>WIP</Text>
@@ -1139,11 +1139,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_RUSSIAN_T80">
-			<Text>T-80</Text>
+			<Text>[ICON_CAPITAL] T-80</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_RUSSIAN_T80_HEADING">
-			<Text>T-80</Text>
+			<Text>[ICON_CAPITAL] T-80</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_RUSSIAN_T80">
 			<Text>WIP</Text>
@@ -1154,11 +1154,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_CHINESE_TYPE99">
-			<Text>Type 99A2</Text>
+			<Text>[ICON_CAPITAL] Type 99A2</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CHINESE_TYPE99_HEADING">
-			<Text>Type 99A2</Text>
+			<Text>[ICON_CAPITAL] Type 99A2</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_CHINESE_TYPE99">
 			<Text>WIP</Text>
@@ -1169,11 +1169,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_PERSIAN_ZULFIQAR">
-			<Text>Zulfiqar</Text>
+			<Text>[ICON_CAPITAL] Zulfiqar</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PERSIAN_ZULFIQAR_HEADING">
-			<Text>Zulfiqar</Text>
+			<Text>[ICON_CAPITAL] Zulfiqar</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_PERSIAN_ZULFIQAR">
 			<Text>WIP</Text>
@@ -1183,11 +1183,11 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_GERMAN_EUROCOPTER_TIGER">
-			<Text>Eurocopter Tiger (UAT)</Text>
+			<Text>[ICON_CAPITAL] Eurocopter Tiger</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GERMAN_EUROCOPTER_TIGER_HEADING">
-			<Text>Eurocopter Tiger (UAT)</Text>
+			<Text>[ICON_CAPITAL] Eurocopter Tiger</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GERMAN_EUROCOPTER_TIGER_HELP">
 			<Text>WIP</Text>
@@ -1200,11 +1200,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_MONGOLIAN_HUIHUIPAO">
-			<Text>Huihui Pao</Text>
+			<Text>[ICON_CAPITAL] Huihui Pao</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_MONGOLIAN_HUIHUIPAO_HEADING">
-			<Text>Huihui Pao</Text>
+			<Text>[ICON_CAPITAL] Huihui Pao</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_MONGOLIAN_HUIHUIPAO_PEDIA">
 			<Text>Counterweight trebuchets do not appear with certainty in Chinese historical records until about 1268, when the Mongols laid siege to Fancheng and Xiangyang. At the Siege of Fancheng and Xiangyang, the Mongol army, unable to capture the cities despite besieging the Song defenders for years, brought in two Persian engineers who built hinged counterweight trebuchets. These engines were called by the Chinese historians the Huihui Pao (回回砲)("huihui" means Muslim) or Xiangyang Pao (襄陽砲), because they were first encountered in that battle.</Text>
@@ -1219,11 +1219,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_ZULU_OLIFANT">
-			<Text>Olifant Mk1B</Text>
+			<Text>[ICON_CAPITAL] Olifant Mk1B</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ZULU_OLIFANT_HEADING">
-			<Text>Olifant Mk1B</Text>
+			<Text>[ICON_CAPITAL] Olifant Mk1B</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ZULU_OLIFANT_HELP">
 			<Text>WIP</Text>
@@ -1234,11 +1234,11 @@
 
 		
 		<Row Tag="TXT_KEY_UNIT_ZULU_G6_SPG">
-			<Text>G6 Rhino</Text>
+			<Text>[ICON_CAPITAL] G6 Rhino</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ZULU_G6_SPG_HEADING">
-			<Text>G6 Self-propelled Howitzer</Text>
+			<Text>[ICON_CAPITAL] G6 Self-propelled Howitzer</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ZULU_G6_SPG_HELP">
 			<Text>WIP</Text>
@@ -1249,11 +1249,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_AUSTRIAN_SKODA">
-			<Text>Skoda Howitzer</Text>
+			<Text>[ICON_CAPITAL] Skoda Howitzer</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_AUSTRIAN_SKODA_HEADING">
-			<Text>Skoda Howitzer</Text>
+			<Text>[ICON_CAPITAL] Skoda Howitzer</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_AUSTRIAN_SKODA_PEDIA">
 			<Text>The Skoda 75 mm Model 1939 (75 mm M.39) was a mountain gun manufactured in by Skoda Works and exported in small numbers to Romania and Iran. The design was related to the Bofors L/22 sold to Switzerland. For transport, the gun could be broken into eight sections and carried by mule. </Text>
@@ -1347,17 +1347,17 @@
 	</Row>
 
 	<Row Tag="TXT_KEY_UNIT_FRANCE_BATTERY">
-		<Text>Grand Battery</Text>
+		<Text>[ICON_CAPITAL] Grand Battery</Text>
 		<Plurality>2</Plurality>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_FRANCE_BATTERY_HELP">
 		<Text>Fast and Powerful Sige Unit. Only the France may build it. It can sunder the enemy and doesn't need to set up before attacking.</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_FRANCE_BATTERY_HEADING">
-		<Text>Grand Battery</Text>
+		<Text>[ICON_CAPITAL] Grand Battery</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_FRANCE_BATTERY_PEDIA">
-		<Text>Grand Battery (Grande Batterie, meaning big or great battery) was a French artillery tactic of the Napoleonic wars. It involved massing all available batteries into a single large, temporary one, and concentrating the firepower of their guns at a single point in the enemy's lines.</Text>
+		<Text>Grand Battery (Grande Batterie, meaning big or great battery) was a French artillery tactic of the Napoleonic wars. It involved massing all available batteries into a single large, temporary one, and concentrating the firepower of their guns at a single point in the enemy lines.</Text>
 	</Row>
 
 
@@ -1374,11 +1374,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_OTTOMAN_COBRA">
-			<Text>Otokar Cobra</Text>
+			<Text>[ICON_CAPITAL] Otokar Cobra</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_OTTOMAN_COBRA_HEADING">
-			<Text>Otokar Cobra Anti-air Vehicle</Text>
+			<Text>[ICON_CAPITAL] Otokar Cobra Anti-air Vehicle</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_OTTOMAN_COBRA_PEDIA">
 			<Text>The Cobra (Turkish: Kobra) is an infantry mobility vehicle developed by Turkish firm Otokar which uses some mechanical components and sub-systems of the HMMWV.</Text>
@@ -1387,14 +1387,14 @@
 		
 		
 		<Row Tag="TXT_KEY_UNIT_SWEDISH_GUSTAV_RECOILESS_GUN">
-			<Text>Carl Gustav Recoilless Rifle</Text>
+			<Text>[ICON_CAPITAL] Norrlands Regiment</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SWEDISH_GUSTAV_RECOILESS_GUN_HEADING">
-			<Text>Carl Gustav Recoilless Rifle</Text>
+			<Text>[ICON_CAPITAL] Norrlands Regiment</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SWEDISH_GUSTAV_RECOILESS_GUN_PEDIA">
-			<Text>The Carl Gustaf (Swedish pronunciation: [ˈkʰɑːɭ ˈɡɵ̞stɑːv]; also known as, Gustaf Bazooka and M2CG) is an 84 mm man-portable reusable anti-tank recoilless rifle produced by Saab Bofors Dynamics (formerly Bofors Anti-Armour AB) in Sweden. Although most rounds fired by the Carl Gustav work on the classic recoilless principle, modern rounds sometimes add a post-firing booster that technically make it a rocket launcher.</Text>
+			<Text>The Norrbotten Regiment, is a Swedish Army arctic armoured, light infantry and commando regiment that traces its origins back to the 19th century.  The regiment has the responsibility for training two armoured and one special recon battalion, as well as number of Arctic light infantry battalions from the home guard as well as running the army's winter unit.</Text>
 		</Row>
 		
 
@@ -1432,7 +1432,7 @@
 			<Text>[ICON_WORKER] Brazilian Labor</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BRAZILIAN_LABOR_HELP">
-			<Text>Brazilian Labor is unique civilian unit of Nrazil, replacing the Worker. It can move ignore terrain cost and build improvements 25% faster than ordinary Workers.</Text>
+			<Text>Brazilian Labor is unique civilian unit of Brazil, replacing the Worker. It can move ignore terrain cost and build improvements 25% faster than ordinary Workers.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BRAZILIAN_LABOR_TEXT">
 			<Text>Brazil has the world's seventh largest economy by nominal GDP, and the seventh largest by purchasing power parity.</Text>
@@ -1440,11 +1440,11 @@
 
 		
 		<Row Tag="TXT_KEY_UNIT_SIAMESE_MONK">
-			<Text>Monk</Text>
+			<Text>[ICON_RELIGION_BUDDHISM] Monk</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SIAMESE_MONK_HEADING">
-			<Text>Monk</Text>
+			<Text>[ICON_RELIGION_BUDDHISM] Monk</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SIAMESE_MONK_HELP">
 			<Text>Monk is the unique religious unit of Siam, replacing the Missionary. It has better mobility and religious strength. It can Spreads religion to other cities three times.</Text>
@@ -1455,11 +1455,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_HUN_SHAMAN">
-			<Text>Shaman</Text>
+			<Text>[ICON_RELIGION_TENGRIISM] Shaman</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HUN_SHAMAN_HEADING">
-			<Text>Shaman</Text>
+			<Text>[ICON_RELIGION_TENGRIISM] Shaman</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HUN_SHAMAN_HELP">
 			<Text>Shaman is the unique unit of Hun, replacing the Inquisitor. It can betrained or be purchased with faith in cities. However it is not a religious unit and cannot remove other religions from cities. It can use mysterious sorcery to remove any debuffs of your units and make units around it healing +30HP per turn.</Text>
@@ -1473,17 +1473,17 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_EGYPT_UNIT777">
-			<Text>[COLOR_SELECTED_TEXT]Unit 777[ENDCOLOR]</Text>
+			<Text>[ICON_CAPITAL] [COLOR_SELECTED_TEXT]Unit 777[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_EGYPT_UNIT777_HEADING">
-			<Text>[COLOR_SELECTED_TEXT]Unit 777[ENDCOLOR]</Text>
+			<Text>[ICON_CAPITAL] [COLOR_SELECTED_TEXT]Unit 777[ENDCOLOR]</Text>
 		</Row>
 		<!--<Row Tag="TXT_KEY_UNIT_EGYPT_UNIT777_HELP">
 			<Text>WIP</Text>
 		</Row>-->
 		<Row Tag="TXT_KEY_UNIT_EGYPT_UNIT777_TEXT">
-			<Text>Unit 777 (Arabic: الوحدة 777 قتال‎), also known as Task Force 777, is an Egyptian military counter-terrorism and special operations unit. It was created in 1978[1] by the government of Anwar Sadat in response to concerns of increased terrorist activity following the expulsion of Soviet military advisors from the country by Sadat and his efforts to achieve peace with Israel.</Text>
+			<Text>Unit 777, also known as Task Force 777, is an Egyptian military counter-terrorism and special operations unit. It was created in 1978[1] by the government of Anwar Sadat in response to concerns of increased terrorist activity following the expulsion of Soviet military advisors from the country by Sadat and his efforts to achieve peace with Israel.</Text>
 		</Row>
 
 
@@ -1535,7 +1535,7 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_ROMAN_REUMBERTO">
-			<Text>Ironclad Battleship</Text>
+			<Text>[ICON_CAPITAL] Ironclad Battleship</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ROMAN_REUMBERTO_HEADING">
@@ -1554,11 +1554,11 @@
 		
 
 		<Row Tag="TXT_KEY_UNIT_OTTOMAN_PRIVATEER">
-			<Text>Turkish Privateer</Text>
+			<Text>[ICON_CAPITAL] Turkish Privateer</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_OTTOMAN_PRIVATEER_HEADING">
-			<Text>Turkish Privateer</Text>
+			<Text>[ICON_CAPITAL] Turkish Privateer</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_OTTOMAN_PRIVATEER_PEDIA">
 			<Text>A privateer (sometimes called corsair or buccaneer) was a private person or ship authorized by a government by letters of marque to attack foreign vessels during wartime, and take them as prizes. Captured ships were subject to condemnation and sale under prize law, with the proceeds divided between the privateer shipowners and crew. Privateering was a way of mobilizing armed ships and sailors as naval auxiliaries.</Text>
@@ -1580,11 +1580,11 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_JAPANESE_DESTROYER">
-			<Text>1st Class Destroyer</Text>
+			<Text>[ICON_CAPITAL] 1st Class Destroyer</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_JAPANESE_DESTROYER_HEADING">
-			<Text>1st Class Destroyers</Text>
+			<Text>[ICON_CAPITAL] 1st Class Destroyers</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_JAPANESE_DESTROYER">
 			<Text>WIP</Text>
@@ -1594,11 +1594,11 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_JAPANESE_BATTLESHIP">
-			<Text>Dreadnought Battleship</Text>
+			<Text>[ICON_CAPITAL] Dreadnought Battleship</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_JAPANESE_BATTLESHIP_HEADING">
-			<Text>Dreadnought Battleship</Text>
+			<Text>[ICON_CAPITAL] Dreadnought Battleship</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_JAPANESE_BATTLESHIP_PEDIA">
 			<Text>With their victory in the Russo-Japanese War of 1904–05, the Japanese became concerned about the potential for conflict with the US. The theorist Satō Tetsutarō developed the doctrine that Japan should have a battlefleet at least 70% the size of that of the US. This would enable the Japanese navy to win two decisive battles, the first early in a war against the US Pacific Fleet, and the second against the US Atlantic Fleet which would inevitably be dispatched as reinforcements.</Text>
@@ -1630,11 +1630,11 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_GREEK_ARMORED_CRUISER">
-			<Text>Cruiser Georgios Averof</Text>
+			<Text>[ICON_CAPITAL] Cruiser Georgios Averof</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREEK_ARMORED_CRUISER_HEADING">
-			<Text>Cruiser Georgios Averof</Text>
+			<Text>[ICON_CAPITAL] Cruiser Georgios Averof</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GREEK_ARMORED_CRUISER_PEDIA">
 			<Text>Georgios Averof (Greek: Θ/Κ Γεώργιος Αβέρωφ) is a modified Pisa-class armored cruiser built in Italy for the Royal Hellenic Navy in the first decade of the 20th century. The ship served as the Greek flagship during most of the first half of the century. Although popularly known as a battleship (θωρηκτό) in Greek, she is in fact an armored cruiser (θωρακισμένο καταδρομικό), the only ship of this type still in existence.</Text>
@@ -1646,17 +1646,17 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_CACADOR">
-			<Text>Caçador</Text>
+			<Text>[ICON_CAPITAL] Caçador</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		
 
 		<Row Tag="TXT_KEY_UNIT_GERMAN_UBOAT">
-			<Text>U-boat</Text>
+			<Text>[ICON_CAPITAL] U-Boat</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_GERMAN_UBOAT_HEADING">
-			<Text>U-boat</Text>
+			<Text>[ICON_CAPITAL] U-Boat</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_GERMAN_UBOAT">
 			<Text>WIP</Text>
@@ -1679,11 +1679,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_SONGHAI_EXPEDITION_FLEET">
-			<Text>Empire Expedition Fleet</Text>
+			<Text>[ICON_CAPITAL] Empire Expedition Fleet</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SONGHAI_EXPEDITION_FLEET_HEADING">
-			<Text>Empire Expedition Fleet</Text>
+			<Text>[ICON_CAPITAL] Empire Expedition Fleet</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SONGHAI_EXPEDITION_FLEET_PEDIA">
 			<Text>The Songhai Empire held a great naval fleet and planned to cross the Atlantic Ocean. Unfortunately they failed to set off before the disintegration of the empire. </Text>
@@ -1691,16 +1691,16 @@
 		
 
 		<Replace Tag="TXT_KEY_UNIT_ENGLISH_SHIPOFTHELINE">
-			<Text>First Rate</Text>
+			<Text>[ICON_CAPITAL] First Rate</Text>
 		</Replace>
 
 		
 		<Row Tag="TXT_KEY_UNIT_KIROV_BATTLECRUISER">
-			<Text>Kirov-class Battlecruiser</Text>
+			<Text>[ICON_CAPITAL] Kirov-Class Battlecruiser</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_KIROV_BATTLECRUISER_HEADING">
-			<Text>Kirov-class Battlecruiser</Text>
+			<Text>[ICON_CAPITAL] Kirov-Class Battlecruiser</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_KIROV_BATTLECRUISER">
 			<Text>WIP</Text>
@@ -1712,11 +1712,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_FRANCE_MISTRAL">
-			<Text>Mistral-class Amphibious Assault Ship</Text>
+			<Text>[ICON_CAPITAL] Mistral-Class Amphibious Assault Ship</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FRANCE_MISTRAL_HEADING">
-			<Text>Mistral-class Amphibious Assault Ship</Text>
+			<Text>[ICON_CAPITAL] Mistral-Class Amphibious Assault Ship</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_FRANCE_MISTRAL">
 			<Text>WIP</Text>
@@ -1733,7 +1733,7 @@
 			<Text>Eurocopter EC665 Tigre</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_FRANCE_EUROCOPTER_TIGER">
-			<Text>Eurocopter EC665 Tigre is a carrier-based attack helicopter. It can be automatically resupplied on a Mistral-class Amphibious Assault Ship. It is more powerful and has a longer flight range than the guided missile. It will transfer EXPs earned in battle and inherit all promotions of its carrier like other carrier-based aircrafts. </Text>
+			<Text>Eurocopter EC665 Tigre is a carrier-based attack helicopter. It can be automatically resupplied on a Mistral-class Amphibious Assault Ship. It is more powerful and has a longer flight range than the guided missile. It will transfer EXPs earned in battle and inherit all promotions of its carrier like other carrier-based aircraft. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FRANCE_EUROCOPTER_TIGER_PEDIA">
 			<Text>The Airbus Helicopters Tiger, formerly known as the Eurocopter Tiger, is a four-bladed, twin-engined attack helicopter which first entered service in 2003. It is manufactured by Eurocopter (now Airbus Helicopters), the successor company to Aérospatiale's and DASA's respective helicopter divisions, which designate it as the EC665. In Germany it is known as the Tiger; in France and Spain it is called the Tigre.</Text>
@@ -1753,11 +1753,11 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_AMERICAN_NIMITZ">
-			<Text>Nimitz-class Carrier</Text>
+			<Text>[ICON_CAPITAL] Nimitz-class Carrier</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_AMERICAN_NIMITZ_HEADING">
-			<Text>Nimitz-class Carrier</Text>
+			<Text>[ICON_CAPITAL] Nimitz-class Carrier</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_AMERICAN_NIMITZ_HELP">
 			<Text>WIP</Text>
@@ -1785,11 +1785,11 @@
 		<Plurality>2</Plurality>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_SSBN_HELP">
-		<Text>Can carry up to 9 Nuclear Missiles, ICBM or EMP missile.</Text>
+		<Text>Can carry up to 9 Nuclear Missiles.</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_SSBN_STRATEGY">
 		<Text>
-			The SSBN is the only unit can load and launch Nuclear Missile, ICBM and EMP missiles. One SSBN can destroy the whole civilization! Besides being a stealthy missile carrier, it is also equipped with torpedoes and can fight like a noraml nuclear attack submarine.
+			The SSBN is the only unit can load and launch Nuclear Missile, ICBM and EMP missiles. One SSBN can destroy the whole civilization! Besides being a stealthy missile carrier, it is also equipped with torpedoes and can fight like a normal nuclear attack submarine.
 		</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_SSBN_HEADING">
@@ -1811,11 +1811,11 @@
 		<Text>Destroyers (with a DD hull classification symbol) primarily perform anti-submarine warfare duty while guided missile destroyers (DDGs) are multi-mission (anti-submarine, anti-aircraft and anti-surface warfare) surface combatants, with an emphasis on anti-surface warfare.</Text>
 	</Row>
 		<Row Tag="TXT_KEY_UNIT_KOREAN_SEJONG_CLASS">
-			<Text>Sejong the Great-class Destroyer</Text>
+			<Text>[ICON_CAPITAL] Sejong the Great-Class Destroyer</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_KOREAN_SEJONG_CLASS_HEADING">
-			<Text>Sejong the Great-class Destroyer</Text>
+			<Text>[ICON_CAPITAL] Sejong the Great-Class Destroyer</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_KOREAN_SEJONG_CLASS_PEDIA">
 			<Text>The Sejong the Great-class destroyers (Sejongdaewang-Ham or Hangul: 세종대왕급 구축함, Hanja: 世宗大王級驅逐艦), also known as KD-III, are guided missile destroyers of the Republic of Korea Navy (ROKN). The second ship was commissioned in August 2010. As of 2010, the ROKN has committed itself to deploy three ships with an option for three more.</Text>
@@ -1836,7 +1836,7 @@
 
 
 	<Row Tag="TXT_KEY_UNIT_SPANISH_ARMADA">
-		<Text>La Armada Invincible</Text>
+		<Text>[ICON_CAPITAL] La Armada Invincible</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_HELP_SPANISH_ARMADA">
 		<Text>La Armada Invincible is a heavy combat vessel that can also be used to gain some gold uppon defeat enermy naval units. Only the Spanish civilization can build it.</Text>
@@ -1875,7 +1875,7 @@
 	</Row>
 
 		<Row Tag="TXT_KEY_UNIT_DANISH_DRAGONSHIP">
-			<Text>Dragonship</Text>
+			<Text>[ICON_CAPITAL] Dragonship</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_UNIT_DANISH_DRAGONSHIP">
@@ -1885,11 +1885,11 @@
 			<Text>Dragonship</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_DANISH_DRAGONSHIP_PEDIA">
-			<Text>Viking ships were marine vessels of particular designs, used and built by the Vikings during the Viking Age. The boat-types were quite varied, depending on what the ship was intended for, but they were generally characterized as being slender and flexible boats, with symmetrical ends with true keel. </Text>
+			<Text>Viking ships were marine vessels of particular designs, used and built by the Vikings during the Viking Age. The types of boat were quite varied, depending on what the ship was intended for, but they were generally characterized as being slender and flexible boats, with symmetrical ends with true keel. </Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_DANISH_ABSALON">
-			<Text>[COLOR_MAGENTA]Absalon-class Frigate[ENDCOLOR]</Text>
+			<Text>[ICON_CAPITAL] [COLOR_MAGENTA]Absalon-class Frigate[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_DANISH_ABSALON_HEADING">
@@ -1912,7 +1912,7 @@
 	<!-- *************************Air Units****************************-->
 
 		<Row Tag="TXT_KEY_UNIT_FRANCE_MIRRAGE2000">
-			<Text>Mirage 2000</Text>
+			<Text>[ICON_CAPITAL] Mirage 2000</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FRANCE_MIRRAGE2000_HEADING">
@@ -1933,11 +1933,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_POLISH_PZL23">
-			<Text>PZL.23 Karas</Text>
+			<Text>[ICON_CAPITAL] PZL.23 Karas</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_POLISH_PZL23_HEADING">
-			<Text>PZL.23 Karas</Text>
+			<Text>[ICON_CAPITAL] PZL.23 Karas</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_POLISH_PZL23_HELP">
 			<Text>WIP</Text>
@@ -1947,23 +1947,23 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_POLISH_PZLW3_HELICOPTER">
-			<Text>PZL W3 Sokol</Text>
+			<Text>[ICON_CAPITAL] PZL W3 Sokol</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_POLISH_PZLW3_HELICOPTER_HEADING">
-			<Text>PZL W3 Sokol</Text>
+			<Text>[ICON_CAPITAL] PZL W3 Sokol</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_POLISH_PZLW3_HELICOPTER_HELP">
 			<Text>WIP</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_POLISH_PZLW3_HELICOPTER_PEDIA">
-			<Text>The PZL W-3 Sokół (en: Falcon) is a Polish medium-size, twin-engine, multipurpose helicopter manufactured by PZL-Świdnik (now AgustaWestland Świdnik).</Text>
+			<Text>The PZL W-3 Sokół (en: Falcon) is a Polish medium-sized, twin-engine, multipurpose helicopter manufactured by PZL-Świdnik (now AgustaWestland Świdnik).</Text>
 		</Row>
 
 
 
 		<Row Tag="TXT_KEY_UNIT_SWEDISH_JAS39_FIGHTER">
-			<Text>JAS 39 Gripen</Text>
+			<Text>[ICON_CAPITAL] JAS 39 Gripen</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SWEDISH_JAS39_FIGHTER_HEADING">
@@ -1978,11 +1978,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_RUSSIAN_SU27">
-			<Text>Su-27 Flanker</Text>
+			<Text>[ICON_CAPITAL] Su-27 Flanker</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_RUSSIAN_SU27_HEADING">
-			<Text>Sukhoi Su-27</Text>
+			<Text>[ICON_CAPITAL] Sukhoi Su-27</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_RUSSIAN_SU27_HELP">
 			<Text>WIP</Text>
@@ -2009,7 +2009,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CARRIER_FIGHTER_ADV_HEADING">
-			<Text>Carrier-based Aircraft ((STOVL)</Text>
+			<Text>Carrier-based Aircraft (STOVL)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CARRIER_FIGHTER_ADV_PEDIA">
 			<Text>STOVL takeoffs are accomplished with "ski-jumps", instead of a catapult. STOVL use usually allows aircraft to carry a larger payload as compared to during VTOL use, while avoiding the complexity of a catapult. The best known example is the Hawker Siddeley Harrier Jump Jet,[4] despite being capable of VTOL takeoffs, is usually operated as a STOVL aircraft to increase its fuel and weapons load. </Text>
@@ -2017,18 +2017,18 @@
 		
 
 		<Row Tag="TXT_KEY_UNIT_CARRIER_ENGLISH_HARRIER">
-			<Text>Sea Harrier FRS1</Text>
+			<Text>[ICON_CAPITAL] Sea Harrier FRS1</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CARRIER_ENGLISH_HARRIER_HEADING">
-			<Text>Sea Harrier FRS1</Text>
+			<Text>[ICON_CAPITAL] Sea Harrier FRS1</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CARRIER_ENGLISH_HARRIER_ADV">
-			<Text>Sea Harrier FA2</Text>
+			<Text>[ICON_CAPITAL] Sea Harrier FA2</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CARRIER_ENGLISH_HARRIER_ADV_HEADING">
-			<Text>Sea Harrier FA2</Text>
+			<Text>[ICON_CAPITAL] Sea Harrier FA2</Text>
 		</Row>
 		
 		<Row Tag="TXT_KEY_UNIT_HELP_ENGLISH_HARRIER_JET">
@@ -2100,12 +2100,12 @@
 	</Row>
 
 	<Row Tag="TXT_KEY_UNIT_AMERICAN_APACHE">
-		<Text>AH-64 Apahce</Text>
+		<Text>[ICON_CAPITAL] AH-64 Apahce</Text>
 		<Plurality>2</Plurality>
 	</Row>
 	
 	<Row Tag="TXT_KEY_UNIT_AMERICAN_APACHE_HEADING">
-		<Text>AH-64 Apahce</Text>
+		<Text>[ICON_CAPITAL] AH-64 Apahce</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_AMERICAN_APACHE_HELP">
 		<Text>WIP</Text>
@@ -2124,7 +2124,7 @@
 		<Text>Strategic Bomber</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_JET_BOMBER_PEDIA">
-		<Text>A strategic bomber is a mid-to-long range heavy bomber aircraft designed to drop large amounts of ordnance onto a distant target for the purposes of debilitating the enemy's capacity to wage war. </Text>
+		<Text>A strategic bomber is a mid-to-long range heavy bomber aircraft designed to drop large amounts of ordnance onto a distant target for the purposes of debilitating the enemy capacity to wage war. </Text>
 	</Row>
 
 
@@ -2140,8 +2140,8 @@
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_EMP_BOMBER_AIR_STRATEGY">
 		<Text>
-			EMP Missile is not designed to destroy enemy' units or cities but to disabel them from functioning. It can be used for both tactical and strategic purposes. For tactical attacks, it can disable a large group of enemy army or fleet to buy you some time from being ambushed, or make them vulnerable to your area-of-effect damage. For strategic purposes, it can stop enemy's main cities' production to impact its war capacity and economy. Since it can be intercepted by enemy anti-air units, make sure the sky is clear before launching or strike first at the begining of your invasion. It is a high-tech weapon so it can only affect your enemies' units and cities who already owned the Computer Technology. 
-			[NEWLINE][NEWLINE]It won't cause fallout and cannot be banned by the nuclear non-roliferation resolution.
+			EMP Missile is not designed to destroy enemy units or cities but to disable them. It can be used for both tactical and strategic purposes. For tactical attacks, it can disable a large group of enemy army or fleet to buy you some time from being ambushed, or make them vulnerable to your area-of-effect damage. For strategic purposes, it can stop enemy main cities' production to impact its war capacity and economy. Since it can be intercepted by enemy anti-air units, make sure the sky is clear before launching or strike first at the beginning of your invasion. It is a high-tech weapon so it can only affect your enemies units and cities who already owned the Computer Technology. 
+			[NEWLINE][NEWLINE]It won't cause fallout and cannot be banned by the nuclear non-proliferation resolution.
 		</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UNIT_EMP_BOMBER_AIR_PEDIA">
@@ -2227,7 +2227,7 @@
 		<Text>[COLOR_SELECTED_TEXT]Special Forces[ENDCOLOR]</Text>
 	</Replace>	
 	<Replace Tag="TXT_KEY_UNIT_PARATROOPER_STRATEGY">
-		<Text>The Airborne Forces is an advanced paradroping unit specially developed to breach enemy lines. This specialized infantry acts coupled with transport airplanes which allow them to use a Paradrop maneuver to instantly move up to 20 tiles into enemy territory (he has to start from friendly territory), and then it could even use its remaining moves to take up a suitable attack position. After earning the "Blitz" Promotion, it can attack in the same turn as paradropping.</Text>
+		<Text>The Airborne Forces is an advanced paradropping unit specially developed to breach enemy lines. This specialized infantry acts coupled with transport airplanes which allow them to use a Paradrop maneuver to instantly move up to 20 tiles into enemy territory (he has to start from friendly territory), and then it could even use its remaining moves to take up a suitable attack position. After earning the "Blitz" Promotion, it can attack in the same turn as paradropping.</Text>
 	</Replace>
 
 
@@ -2238,6 +2238,10 @@
 		<Replace Tag="TXT_KEY_UNIT_XCOM_SQUAD">
 			<Text>[COLOR_SELECTED_TEXT]Orbital Drop Shock Troopers[ENDCOLOR]</Text>
 		</Replace>
+
+		<Row Tag="TXT_KEY_UNIT_SPACEMARINE">
+			<Text>[COLOR_SELECTED_TEXT]Space Marines[ENDCOLOR]</Text>
+		</Row>	
 
 	<!-- *************************New Hit-and-Run Units****************************-->
 	<Row Tag="TXT_KEY_UNIT_MEDIEVAL_CHARIOT">
@@ -2266,11 +2270,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_AZTEC_EAGLE">
-			<Text>Eagle Warrior</Text>
+			<Text>[ICON_CAPITAL] Eagle Warrior</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_AZTEC_EAGLE_HEADING">
-			<Text>Eagle Warrior</Text>
+			<Text>[ICON_CAPITAL] Eagle Warrior</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_AZTEC_EAGLE_PEDIA">
 			<Text>Eagle warriors or eagle knights (Classical Nahuatl: cuāuhtli [ˈkʷaːwtɬi] (singular) or cuāuhmeh [ˈkʷaːwmeʔ] (plural)) were a special class of infantry soldier in the Aztec army, one of the two leading military orders in Aztec society. </Text>
@@ -2310,7 +2314,7 @@
 		<Text>Advanced front-line Infantry Unit, stronger than its previous version and can build Fort. Weak vs Tanks.</Text>
 	</Replace>
 	<Replace Tag="TXT_KEY_UNIT_HELP_GREAT_WAR_INFANTRY">
-		<Text>Upgraded front-line Infantry Unit, stronger and faster than its previous version. Weak vs Landships and Machine Gun, however, it has the ability to build Fort in the battle field to improve its survivability.</Text>
+		<Text>Upgraded front-line Infantry Unit, stronger and faster than its previous version. Weak vs Landships and Machine Gun, however, it has the ability to build Fort in the battlefield to improve its survivability.</Text>
 	</Replace>
 	<Replace Tag="TXT_KEY_UNIT_HELP_MACHINE_GUN">
 		<Text>The Machine Gun is a ranged unit which is best against enemy infantry. Use it at the front line for additional firepower.</Text>
@@ -2327,7 +2331,7 @@
 		<Text>Advanced hovering fast-attack unit can cross mountain and water. It can also offer fire support for ground troops.</Text>
 	</Replace>
 	<Replace Tag="TXT_KEY_UNIT_HELICOPTER_GUNSHIP_STRATEGY">
-		<Text>Helicopter only spend 1 MP in all terrians and can also cross mountain and water. Use its firepower to cover your ground troops. However it is weak when attacked by anti-air units.</Text>
+		<Text>Helicopters only spend 1 MP in all terrain and can also cross mountain and water. Use its firepower to cover your ground troops. However it is weak when attacked by anti-air units.</Text>
 	</Replace>
 
 	<Replace Tag="TXT_KEY_UNIT_ARTILLERY">
@@ -2409,10 +2413,10 @@
 		<Text>Unique unit of the Japanese civilization. Strong vs Cities and fortified units. Replaces the Longswordsman. </Text>
 	</Replace>
 	<Replace Tag="TXT_KEY_UNIT_JAPANESE_ZERO_STRATEGY">
-		<Text>The Zero is the Japanese unique mutil-purpose Attacking Aircraft unit, replacing the Dive Bomber. With its "Anti-Fighter"Promotion, its air-sweep proves to be deadly for enemy intercepting fighters. What's more, with its anti-fighter ability, it can always survive and finish its mission even intercepted. It is always smart for Zeros to attack in groups - and it is very cheap for mass production. Use some Zero to shoot down enemy fighters while others can safely attack land or naval targets. </Text>
+		<Text>The Zero is the Japanese unique Multi-Purpose Aircraft unit, replacing the Dive Bomber. With its "Anti-Fighter"Promotion, its air-sweep proves to be deadly for enemy intercepting fighters. What's more, with its anti-fighter ability, it can always survive and finish its mission even intercepted. It is always smart for Zeros to attack in groups - and it is very cheap for mass production. Use some Zero to shoot down enemy fighters while others can safely attack land or naval targets. </Text>
 	</Replace>
 	<Replace Tag="TXT_KEY_UNIT_HELP_ZERO">
-		<Text>A mutil-purpose Attacking Aircraft. Only the Japanese may build it. This Unit can not only attack land or naval units but also can perform an air sweep to take down enemy intercepting fighters. </Text>
+		<Text>A multi-purpose Attacking Aircraft. Only the Japanese may build it. This Unit can not only attack land or naval units but also can perform an air sweep to take down enemy intercepting fighters. </Text>
 	</Replace>
 
 
@@ -2420,7 +2424,7 @@
 			<Text>
 				Fast naval unit designed for naval exploration to find new continents.
 				[NEWLINE][NEWLINE][ICON_BULLET]The first unit can enter the [COLOR_POSITIVE_TEXT]Deep Ocean[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Can enter other nation's [COLOR_POSITIVE_TEXT]Territory[ENDCOLOR] without a "Open Border" agreement.
+				[NEWLINE][ICON_BULLET]Can enter other nation's [COLOR_POSITIVE_TEXT]Territory[ENDCOLOR] without an "Open Border" agreement.
 				[NEWLINE][ICON_BULLET]Can disembark to become an Explorer Unit to explore the inland and do [COLOR_POSITIVE_TEXT]Trading Missions[ENDCOLOR].
 				[NEWLINE][ICON_BULLET]Require the Naval Exploration Project.
 			</Text>
@@ -2449,17 +2453,198 @@
 			<Text>The Conquistador is a multi-purpose unit that is strong both on land and at sea. Replacing the Explorer, it is a great scout on land with strong combat strength and extra visibility. It also has the ability to found new cities, but only on a foreign continent that does not contain the Spanish capital. The Conquistador can enter the ocean without researching Navigation and in the water, it has the defensive embarkation promotion that allows it to defend itself against naval units. </Text>
 		</Replace>
 
-
+		<Replace Tag="TXT_KEY_UNIT_BERBER_CAVALRY">
+			<Text>[ICON_CAPITAL] Berber Cavalry</Text>
+		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_BERBER_CAVALRY_HELP">
-			<Text>Unique unit of the Moroccan civilization. Replaces the Cavalry. It is a strng hit-and-run unit which boasts a better self-defense ability.</Text>
+			<Text>Unique unit of the Moroccan civilization. Replaces the Cavalry. It is a strong hit-and-run unit which boasts a better self-defense ability.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_BERBER_CAVALRY_STRATEGY">
 			<Text>The Berber Cavalry is a unit good at desfesive actions. It has bonus defending enemy ranged units' attacks, which are the worst enemy of hit-and-run units. Therefore, the Berber Cavalry will give the Moroccans an edge when defending their territory in deserts.</Text>
 		</Replace>
 
+		<!-- UNIQUE UNITS NAME TAGS -->
 
+		<Replace Tag="TXT_KEY_UNIT_GREEK_HOPLITE">
+      		<Text>[ICON_CAPITAL] Hoplite</Text>
+   		</Replace>
 
+		<Replace Tag="TXT_KEY_UNIT_GREEK_COMPANIONCAVALRY">
+			<Text>[ICON_CAPITAL] Companion Cavalry</Text>
+		</Replace>
 
+		<Replace Tag="TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER">
+			<Text>[ICON_CAPITAL] Siege Tower</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_SONGHAI_MUSLIMCAVALRY">
+			<Text>[ICON_CAPITAL] Mandekalu Cavalry</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_HUN_BATTERING_RAM">
+			<Text>[ICON_CAPITAL] Battering Ram</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_HUN_HORSE_ARCHER">
+			<Text>[ICON_CAPITAL] Horse Archer</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_ROMAN_BALLISTA">
+			<Text>[ICON_CAPITAL] Ballista</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_ROMAN_LEGION">
+      		<Text>[ICON_CAPITAL] Legion</Text>
+    	</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_CELT_PICTISH_WARRIOR">
+			<Text>[ICON_CAPITAL] Pictish Warrior</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_POLISH_WINGED_HUSSAR">
+			<Text>[ICON_CAPITAL] Winged Hussar</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_PERSIAN_IMMORTAL">
+			<Text>[ICON_CAPITAL] Immortal</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_CARTHAGINIAN_FOREST_ELEPHANT">
+			<Text>[ICON_CAPITAL] African War Elephant</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_CARTHAGINIAN_QUINQUEREME">
+     		<Text>[ICON_CAPITAL] Quinquereme</Text>
+   		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_VENETIAN_MERCHANT">
+			<Text>[ICON_GREAT_PEOPLE] Merchant of Venice</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_INDONESIAN_KRIS_SWORDSMAN">
+			<Text>[ICON_CAPITAL] Kris Swordsman</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_INDIAN_WARELEPHANT">
+			<Text>[ICON_CAPITAL] War Elephant</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_MONGOL_KESHIK">
+			<Text>[ICON_CAPITAL] Keshik</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_MONGOL_KHAN">
+     		 <Text>[ICON_CAPITAL] Khan</Text>
+    	</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_SWEDISH_CAROLEAN">
+			<Text>[ICON_CAPITAL] Carolean</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_MEHAL_SEFARI">
+      		<Text>[ICON_CAPITAL] Mehal Sefari</Text>
+  		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_DANISH_BERSERKER">
+     		<Text>[ICON_CAPITAL] Berserker</Text>
+  		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_ARABIAN_CAMELARCHER">
+			<Text>[ICON_CAPITAL] Camel Archer</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_SPANISH_CONQUISTADOR">
+			<Text>[ICON_CAPITAL] Conquistador</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_POLYNESIAN_MAORI_WARRIOR">
+			<Text>[ICON_CAPITAL] Maori Warrior</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_PORTUGUESE_NAU">
+			<Text>[ICON_CAPITAL] Nau</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_AUSTRIAN_HUSSAR">
+			<Text>[ICON_CAPITAL] Hussar</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_AZTEC_JAGUAR">
+			<Text>[ICON_CAPITAL] Jaguar Warrior</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_BABYLON_BOWMAN">
+			<Text>[ICON_CAPITAL] Bowman</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_JAPANESE_SAMURAI">
+      		<Text>[ICON_CAPITAL] Samurai</Text>
+    	</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_MAYAN_ATLATLIST">
+			<Text>[ICON_CAPITAL] Atlatlist</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_INCAN_SLINGER">
+			<Text>[ICON_CAPITAL] Slinger</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_BRAZILIAN_PRACINHA">
+      		<Text>[ICON_CAPITAL] Pracinha</Text>
+    	</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_SHOSHONE_PATHFINDER">
+			<Text>[ICON_CAPITAL] Pathfinder</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_SHOSHONE_COMANCHE_RIDERS">
+			<Text>[ICON_CAPITAL] Comanche Riders</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_EGYPT_WARCHARIOT">
+			<Text>[ICON_CAPITAL] War Chariot</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_SIAMESE_WARELEPHANT">
+			<Text>[ICON_CAPITAL] Naresuan's Elephant</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_CIV5_KOREA_TURTLESHIP_HEADING">
+          <Text>[ICON_CAPITAL] Turtle Ship</Text>
+        </Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_ZULU_IMPI">
+      		<Text>[ICON_CAPITAL] Impi</Text>
+    	</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_OTTOMAN_JANISSARY">
+			<Text>[ICON_CAPITAL] Janissary</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_BYZANTINE_CATAPHRACT">
+			<Text>[ICON_CAPITAL] Cataphract</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_CIV5_INDUSTRIAL_B17_HEADING">
+      		<Text>[ICON_CAPITAL] B-17</Text>
+    	</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_SEA_BEGGAR">
+			<Text>[ICON_CAPITAL] Sea Beggar</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_CHINESE_CHUKONU">
+			<Text>[ICON_CAPITAL] Chu-Ko-Nu</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_INQUISITOR">
+      		<Text>[ICON_PEACE] Inquisitor</Text>
+    	</Replace>
+
+		<Replace Tag="TXT_KEY_UNIT_MISSIONARY">
+      		<Text>[ICON_PEACE] Missionary</Text>
+    	</Replace>
+		
 	</Language_en_US>
 
 
@@ -2477,7 +2662,7 @@
 			<Text>Elite infantry unit. Extremely strong when defending. [NEWLINE][NEWLINE]Requires Spartiates Training Project and only one can exist in the world.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SPARTAN300_STRATEGY">
-			<Text>It could be the best unit for defensive actions. Deployed in the suitable terrain, it can hold up the whole enemy's army from marching. However it has no bonuses attacking enemy units.</Text>
+			<Text>It could be the best unit for defensive actions. Deployed in the suitable terrain, it can hold up the whole enemy army from marching. However it has no bonuses attacking enemy units.</Text>
 		</Row>				
 		<Row Tag="TXT_KEY_UNIT_SPARTAN300_HEADING">
 			<Text>[COLOR_YELLOW]Elite Spartan Infantry[ENDCOLOR]</Text>
@@ -2498,7 +2683,7 @@
 			<Text>Elite hit-and-run unit. Can perform both melee attacks and ranged attacks. Can gain additional [ICON_MOVES] Movement by switching to "Rapid March" mode. [NEWLINE][NEWLINE]Requires Numidian Cavalry Training Project and only one can exist in the world.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_NUMIDIAN_STRATEGY">
-			<Text>It is an elite hit-and-run unit focusing on rapid offensive operations with its excellent mobility. Its ranged attack ability allows it to strike the enemy safely within one-hex distance. What's more, you can use its "Rapid March" mode to gain additional movement for the current turn to send it to the front-line in time or quickly withdraw from the danger. Be aware that when entering the "Rapid March" mode, it is not allowed to attack.</Text>
+			<Text>It is an elite hit-and-run unit focusing on rapid offensive operations with its excellent mobility. Its ranged attack ability allows it to strike the enemy safely within one-hex distance. What's more, you can use its "Rapid March" mode to gain additional movement for the current turn to send it to the frontline in time or quickly withdraw from the danger. Be aware that when entering the "Rapid March" mode, it is not allowed to attack.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_NUMIDIAN_HEADING">
 			<Text>[COLOR_YELLOW]Elite Light Cavalry[ENDCOLOR]</Text>
@@ -2517,7 +2702,7 @@
 			<Text>Elite Archery Unit with longer shooting range, sundering ability and combat bonus against Heavy Mounted Units. [NEWLINE][NEWLINE]Requires Longbowman Training Project and only one can exist in the world.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_ENGLISH_LONGBOWMAN_STRATEGY">
-			<Text>The longbowman starts with a shooting range of 3 hexes and can be multiplied to 4. What's more, it can also "sunder" the enemy's units to reduce their defending combat strength like Hit-and-run Units. As it is in the real history, the longbowman also has bonus against Heavy Mounted Units. All make it a wonderful ranged unit for defensive missions.</Text>
+			<Text>The longbowman starts with a shooting range of 3 hexes and can be multiplied to 4. What's more, it can also "sunder" the enemy units to reduce their defending combat strength like Hit-and-run Units. As it is in the real history, the longbowman also has bonus against Heavy Mounted Units. All make it a wonderful ranged unit for defensive missions.</Text>
 		</Replace>
 	
 		
@@ -2569,14 +2754,14 @@
 
 
 		<Replace Tag="TXT_KEY_UNIT_OTTOMAN_SIPAHI">
-			<Text>Assyrian Spear Horseman</Text>
+			<Text>[ICON_CAPITAL] Assyrian Spear Horseman</Text>
 			<Plurality>2</Plurality>
 		</Replace>
 		<!--<Row Tag="TXT_KEY_ELITE_NAME_OTTOMAN_SIPAHI">
 			<Text>[COLOR_YELLOW]Sipahi[ENDCOLOR]</Text>
 		</Row>
 		<Replace Tag="TXT_KEY_UNIT_HELP_SIPAHI">
-			<Text>Elite anti-cavalry unit. Very effective fighting enemy's mounted units. Also can weaken nearby enemy's combat strength.[NEWLINE][NEWLINE]Requires Elite Anti-Cavalry Training Project and only one can exist in the world.</Text>
+			<Text>Elite anti-cavalry unit. Very effective fighting enemy mounted units. Also can weaken nearby enemy combat strength.[NEWLINE][NEWLINE]Requires Elite Anti-Cavalry Training Project and only one can exist in the world.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_OTTOMAN_SIPAHI_STRATEGY">
 			<Text>This unit is teh terrible enemy of all mounted units. What's more, unlike pikemen, this unit does not suffer penalty when attacked by ranged units. Also, its fame of cruelty can stun nearby enemy units to make them fight less effectively. </Text>
@@ -2639,7 +2824,7 @@
 			<Text>You are right, it is a real submarine and can move underwater. [NEWLINE][NEWLINE]Requires Prototype Submarine Project and only one can exist in the world.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PROTOTYPE_SUBMARINE_STRATEGY">
-			<Text>This is the first thing which can move underwater in the game. Since nobody can see it in this era, it can freely enter other nation's territory without an open border deal. Although it is still an experimental unit armed with inferior weapons, it can still cause chaos in the enemy's fleet without being detected. (You are right that The Nautilus doesn't attack with torpedoes but now it is not in the novel but in the game. We need BALANCE! )</Text>
+			<Text>This is the first thing which can move underwater in the game. Since nobody can see it in this era, it can freely enter other nation's territory without an open border deal. Although it is still an experimental unit armed with inferior weapons, it can still cause chaos in the enemy fleet without being detected. (You are right that The Nautilus doesn't attack with torpedoes but now it is not in the novel but in the game. We need BALANCE! )</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PROTOTYPE_SUBMARINE_HEADING">
 			<Text>[COLOR_YELLOW]Prototype Submarine[ENDCOLOR]</Text>
@@ -2664,7 +2849,7 @@
 			[NEWLINE][NEWLINE]Requires Super Howitzer Project and only one can exist in the world.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SUPER_HOWITZER_STRATEGY">
-			<Text>This super-heavy mortar can frie from a very long range. Its accrucy and power allows it to destroy one enemy's city's milltary building every shot like stragic bombers. Although it is powerful, you still need to protect it from enemy's assault. </Text>
+			<Text>This super-heavy mortar can frie from a very long range. Its accrucy and power allows it to destroy one enemy city's milltary building every shot like stragic bombers. Although it is powerful, you still need to protect it from enemy assault. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SUPER_HOWITZER_HEADING">
 			<Text>[COLOR_YELLOW]Super Howitzer[ENDCOLOR]</Text>
@@ -2675,18 +2860,18 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_PROTOTYPE_AIRSHIP">
-			<Text>[COLOR_YELLOW]Zeppelin (Airship Carrier)[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]Airship Carrier[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PROTOTYPE_AIRSHIP_HELP">
 			<Text>
-				A large airship wich can carry 6 Land-based Aircrafts. Can cross mountain and water.
+				A large airship which can carry 6 Land-based Aircraft. Can cross mountain and water.
 				[NEWLINE][NEWLINE]Requires Airship Carrier Project and only one can exist in the world.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PROTOTYPE_AIRSHIP_STRATEGY">
 			<Text>
-				This large airship carrier can carry 6 Land-based Aircrafts (including stealth bombers). It can serve as a floating airbase to make sure the enemy targets are within the flight range of your aircrafts, especially for those early aircrafts with a poor flight range. It cannot attack the enemy units on its own but it can sustain a lot of damage by its size and armor. it is highly recommended to build this airship carrier as fast as you can since the late-game aircrafts like jet fighters have long flight range so they no longer need this old fashioned floating airbase.
-				[NEWLINE][NEWLINE]It CANNOT load or resupply Carrier-based Aircrafts. 
+				This large airship carrier can carry 6 Land-based Aircraft (including stealth bombers). It can serve as a floating airbase to make sure the enemy targets are within the flight range of your aircraft, especially for those early aircraft with a poor flight range. It cannot attack the enemy units on its own but it can sustain a lot of damage by its size and armor. it is highly recommended to build this airship carrier as fast as you can since the late-game aircraft like jet fighters have long flight range so they no longer need this old fashioned floating airbase.
+				[NEWLINE][NEWLINE]It CANNOT load or resupply Carrier-based Aircraft. 
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PROTOTYPE_AIRSHIP_HEADING">
@@ -2698,17 +2883,17 @@
 
 
 		<Replace Tag="TXT_KEY_UNIT_LAND_IRONCLAD">
-			<Text>[COLOR_YELLOW]Land Ironclad[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]Prototype Tank[ENDCOLOR]</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_UNIT_LAND_IRONCLAD_HELP">
 			<Text>
 				An experimental steam-powered armored vehicle.
-				[NEWLINE][NEWLINE]Requires Land Ironclad Project. You can build or purchase as many as you want.
+				[NEWLINE][NEWLINE]Requires Prototype Tank Project. You can build or purchase as many as you want.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_LAND_IRONCLAD_STRATEGY">
-			<Text>The Land Ironclad is a legendary steam-powered unit designed to break through enemy battle line. It is an Armored Unit so pikes cannot stop it for its heavy armor and machine gun so there is no way to stop this iron monster in its era. However, it will quickly become old-fashioned when landship is unlocked.</Text>
+			<Text>The Prototype Tank is a legendary steam-powered unit designed to break through enemy battle line. It is an Armored Unit so pikes cannot stop it for its heavy armor and machine gun so there is no way to stop this iron monster in its era. However, it will quickly become old-fashioned when landship is unlocked.</Text>
 		</Replace>
 
 
@@ -2751,7 +2936,7 @@
 			<Text>An extremely durable heavy armored battleship. [NEWLINE][NEWLINE]Requires Heavy Armored Battle Ship Project and only one can exist in the world.  </Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ELITE_BATTLECRUISER_STRATEGY">
-			<Text>Bismark is actrually a Battlecruiser in the game. It has the attributes of Heavy Cruisers and receive same promotions, but its combat strength is the same with Battleships. This heavy armored battleship is very durable and recovers its HP very fast. If you want to destroy it in one turn, you need at least 15 submarines or aircrafts. Thus, it can serve as an excellent "body shield" of your fleet to draw the enemy's firepower and protect your high value units.</Text>
+			<Text>Bismark is actrually a Battlecruiser in the game. It has the attributes of Heavy Cruisers and receive same promotions, but its combat strength is the same with Battleships. This heavy armored battleship is very durable and recovers its HP very fast. If you want to destroy it in one turn, you need at least 15 submarines or aircraft. Thus, it can serve as an excellent "body shield" of your fleet to draw the enemy firepower and protect your high value units.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_ELITE_BATTLECRUISER_TEXT">
 			<Text>Bismarck was the first of two Bismarck-class battleships built for Nazi Germany's Kriegsmarine. Named after Chancellor Otto von Bismarck, the primary force behind the unification of Germany in 1871, the ship was laid down at the Blohm Voss shipyard in Hamburg in July 1936 and launched in February 1939. Work was completed in August 1940, when she was commissioned into the German fleet. Bismarck and her sister ship Tirpitz were the largest battleships ever built by Germany, and two of the largest built by any European power.</Text>
@@ -2765,10 +2950,10 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_SR71_BLACKBIRD">
-			<Text>Provides global combat bonus for all aircrafts you own. [NEWLINE][NEWLINE]Requires Project Habu and only one can exist in the world. </Text>
+			<Text>Provides global combat bonus for all aircraft you own. [NEWLINE][NEWLINE]Requires Project Habu and only one can exist in the world. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SR71_BLACKBIRD_STRATEGY">
-			<Text>SR71 "Black Bird" is not a fighter but a reconnaissance aircraft. It cannot attack the enemy but can carry out aerial reconnaissance to offer intels for your air force and give you an edge in air combat or air strike. Click the [COLOR_POSITIVE_TEXT]"Perform Long-range Reconnaissance Mission"[ENDCOLOR] on the unit commands panel to offer a temporarily Combat Bonus (+25%) for all of your aircrafts in this turn. SR71 "Black Bird" flies high in the sky where no fighters can reach, so it is indestructible unless its city is breached. </Text>
+			<Text>SR71 "Black Bird" is not a fighter but a reconnaissance aircraft. It cannot attack the enemy but can carry out aerial reconnaissance to offer intels for your air force and give you an edge in air combat or air strike. Click the [COLOR_POSITIVE_TEXT]"Perform Long-range Reconnaissance Mission"[ENDCOLOR] on the unit commands panel to offer a temporarily Combat Bonus (+25%) for all of your aircraft in this turn. SR71 "Black Bird" flies high in the sky where no fighters can reach, so it is indestructible unless its city is breached. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SR71_BLACKBIRD_HEADING">
 			<Text>[COLOR_YELLOW]SR71 "Black Bird"[ENDCOLOR]</Text>
@@ -2792,7 +2977,7 @@
 			<Text>A heavy armored tank armed with devastating 128 mm gun. It is almost invincible on the ground. [NEWLINE][NEWLINE]Requires Super-heavy Tank Project and only one can exist in the world.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SUPER_TANK_STRATEGY">
-			<Text>Its large size and mass make it withstand a lot of damage and its main gun makes it can perform one-hex ranged attack. However its size and mass make it lack of mobility and can be overwhlemed by enemy's attack aircrafts from the sky. </Text>
+			<Text>Its large size and mass make it withstand a lot of damage and its main gun makes it can perform one-hex ranged attack. However its size and mass make it lack of mobility and can be overwhlemed by enemy attack aircraft from the sky. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SUPER_TANK_HEADING">
 			<Text>[COLOR_YELLOW]Panzer VIII Maus[ENDCOLOR]</Text>
@@ -2837,7 +3022,7 @@
 			<Text>An experimental prototype stealth bomber. Apart from its long air-range, it has a chance of 50% to evade enemy fighter's interception. [NEWLINE][NEWLINE]It cannot be deployed on Carriers.[NEWLINE][NEWLINE]Requires Prototype Stealth Bomber Project and only one can exist in the world.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PROTOTYPE_BOMBER_STRATEGY">
-			<Text>It is a transcendal weapon which can avoid enemy's fighter's interception. Also its flight range can match the next-generation bomber. However the chance is 50%, not 100%. If you don't trust your luck, do some air-sweep before its mission. This aircraft is very expensive. </Text>
+			<Text>It is a transcendal weapon which can avoid enemy fighter's interception. Also its flight range can match the next-generation bomber. However the chance is 50%, not 100%. If you don't trust your luck, do some air-sweep before its mission. This aircraft is very expensive. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PROTOTYPE_BOMBER_HEADING">
 			<Text>[COLOR_YELLOW]Prototype Stealth Bomber[ENDCOLOR]</Text>
@@ -2867,7 +3052,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_NUCLEAR_ARTILLERY">
-			<Text>A tactical nuclear artillery can cause massive damage to enemy's units in groups or kill citizens in a city. [NEWLINE][NEWLINE]Requires Nuclear Artillery Project. Only one can exist in the world. </Text>
+			<Text>A tactical nuclear artillery can cause massive damage to enemy units in groups or kill citizens in a city. [NEWLINE][NEWLINE]Requires Nuclear Artillery Project. Only one can exist in the world. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_NUCLEAR_ARTILLERY_STRATEGY">
 			<Text>
@@ -2901,12 +3086,12 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_UNDERWATER_CARRIER_HELP">
-			<Text>An experimental underwater carrier. It can carry 9 Land-based Aircrafts, including stealth bombers and move underwater like a submarine. [NEWLINE][NEWLINE]Requires Prototype Underwater Carrier Project and only one can exist in the world.</Text>
+			<Text>An experimental underwater carrier. It can carry 9 Land-based Aircraft, including stealth bombers and move underwater like a submarine. [NEWLINE][NEWLINE]Requires Prototype Underwater Carrier Project and only one can exist in the world.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_UNDERWATER_CARRIER_STRATEGY">
 			<Text>
-				This gaint underwater carrier can move deep into enemy's territory without being noticed by hiding underwater. You can image enemy will be shocked by suffering from ferocious air attacks from no where. It is also armed with torpedo launchers to defend itself from enemy submarine attacks. Although it can work independently from your naval fleet but try not to make too much attraction. Maybe you don't think it is vaulable but think about all aircrafts inside.
-				[NEWLINE][NEWLINE]It CANNOT load or resupply Carrier-based Aircrafts.
+				This gaint underwater carrier can move deep into enemy territory without being noticed by hiding underwater. You can image enemy will be shocked by suffering from ferocious air attacks from no where. It is also armed with torpedo launchers to defend itself from enemy submarine attacks. Although it can work independently from your naval fleet but try not to make too much attraction. Maybe you don't think it is vaulable but think about all aircraft inside.
+				[NEWLINE][NEWLINE]It CANNOT load or resupply Carrier-based Aircraft.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PROTOTYPE_UNDERWATER_CARRIER_HEADING">
@@ -2953,8 +3138,6 @@
 			<Text>The Boeing-Sikorsky RAH-66 Comanche was an advanced five-blade armed reconnaissance and attack helicopter designed for the United States Army. The RAH-66 program was canceled in 2004, before mass production began, after nearly US$7 billion was spent on the program.
 			</Text>
 		</Row>
-		
-
 
 		<Row Tag="TXT_KEY_UNIT_TASKFORCE_141">
 			<Text>[COLOR_YELLOW]Task Force 141[ENDCOLOR]</Text>
@@ -2964,7 +3147,7 @@
 			<Text>The Elite Special Forces Unit whic start with all Special Forces Unit's Promotions. Can use air EVAC to return to your Capital at any time from anywhere.  [NEWLINE][NEWLINE]Requires Task Force 141 Project and only one can exist in the world.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TASKFORCE_141_STRATEGY">
-			<Text>This unit is made up of a well-trained soldiers. It not only has all Special Forces Unit's Promotions after training but also can paradrop 20 tiles aways, as well as attack mutiple times in its turn. Task Force 141 is made up by the best soldiers in the world for carrying out the most dangerous missions. Yeah, Captain Price and Captain MacTavish both love these missions. Don't worry if they are in trouble. Just call Nikolai to get them out and send back to your Capital. </Text>
+			<Text>This unit is made up of a well-trained soldiers. It not only has all Special Forces Unit's Promotions after training but also can paradrop 20 tiles aways, as well as attack multiple times in its turn. Task Force 141 is made up by the best soldiers in the world for carrying out the most dangerous missions. Yeah, Captain Price and Captain MacTavish both love these missions. Don't worry if they are in trouble. Just call Nikolai to get them out and send back to your Capital. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TASKFORCE_141_HEADING">
 			<Text>[COLOR_YELLOW]Task Force 141[ENDCOLOR]</Text>
@@ -2983,7 +3166,7 @@
 			<Text>Orbital Drop Shock Troopers are the ultimate war fighters, having served on multiple frontiers on Earth and Space. Use carefully, as they are very expensive to maintain. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ODST_STRATEGY">
-			<Text>This unit is made up of a well-trained soldiers. It not only has all Special Forces Unit's Promotions after training but also can paradrop 20 tiles aways, as well as attack mutiple times in its turn. Task Force 141 is made up by the best soldiers in the world for carrying out the most dangerous missions. Yeah, Captain Price and Captain MacTavish both love these missions. Don't worry if they are in trouble. Just call Nikolai to get them out and send back to your Capital. </Text>
+			<Text>This unit is made up of a well-trained soldiers. It not only has all Special Forces Unit's Promotions after training but also can paradrop 20 tiles aways, as well as attack multiple times in its turn. Task Force 141 is made up by the best soldiers in the world for carrying out the most dangerous missions. Yeah, Captain Price and Captain MacTavish both love these missions. Don't worry if they are in trouble. Just call Nikolai to get them out and send back to your Capital. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ODST_HEADING">
 			<Text>Orbital Drop Shock Trooper</Text>
@@ -2994,11 +3177,12 @@
 		</Row>
 		
 
-
+		<!--
 		<Replace Tag="TXT_KEY_UNIT_MECH">
 			<Text>[COLOR_YELLOW]Gipsy Danger[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Replace>	
+		-->
 		<Replace Tag="TXT_KEY_UNIT_HELP_MECH">
 			<Text>It is so tall that it can cross the mountains or walking in costal area. It is immune to strategic nuclear weapons' blasts and free from some debuff effects from the enemy like "sundered" and "slowed down". Can heal every turn.[NEWLINE][NEWLINE]Requires Prototype Jager Project and only one can exist in the world.</Text>
 		</Replace>
@@ -3048,7 +3232,7 @@
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_HACKER">
-			<Text>Can hack into your enemy's national network and cause the whole country fall into anarchy for two turns. Must inside the target nation's territory to perform its action. [NEWLINE][NEWLINE]Requires Bit Weapon Project and only one can exist in the world.</Text>
+			<Text>Can hack into your enemy national network and cause the whole country fall into anarchy for two turns. Must inside the target nation's territory to perform its action. [NEWLINE][NEWLINE]Requires Bit Weapon Project and only one can exist in the world.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HACKER_STRATEGY">
 			<Text>Super Hacker is a strategic weapon which can cause a whole nation to stop functioning for 2 turns. It can reverse the whole situation when your opponent will launch Spaceship or everyone will wear its jeans in the next turn. For game balance, the hacker can only hack into the civilization currently at war with you and the Hacker must be inside your target's nation's territory for hacking. The hacker is only a computer geek who cannot fight with a gun. You must protect it with military units.</Text>
@@ -3060,14 +3244,14 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_PARTICLE_CANNON">
-			<Text>[COLOR_YELLOW]Neo-Dreadnought[ENDCOLOR]</Text>
+			<Text>[COLOR_YELLOW]Juggernaut[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_PARTICLE_CANNON">
 			<Text>Its proton collider gun will cause "butterfly effects", one shot will do damage to every visible enemy unit on the map. [NEWLINE][NEWLINE]Requires Particle Weapon Development Project and only one can exist in the world.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_PARTICLE_CANNON_STRATEGY">
-			<Text>Just like the Proton Collider in Red Alert 3 for golbal bombardment. This superweapon can spread its damage to every visible enemy unit (33% of the damage caused to the target) across the whole map. There will be no safe place for your enemy to hide. However its combat strength is limited, it is almost impossible to kill all enemy units in one shot. </Text>
+			<Text>Just like the Proton Collider in Red Alert 3 for global bombardment. This superweapon can spread its damage to every visible enemy unit (33% of the damage caused to the target) across the whole map. There will be no safe place for your enemy to hide. However its combat strength is limited, it is almost impossible to kill all enemy units in one shot. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_PARTICLE_CANNON_TEXT">
 			<Text>Classified</Text>
@@ -3076,14 +3260,14 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_ORBITAL_STRIKE">
-			<Text>[COLOR_GREEN]Kinetic Bombardment System[ENDCOLOR]</Text>
+			<Text>[ICON_ITG_SATELLITE] [COLOR_GREEN]Kinetic Bombardment System[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_ORBITAL_STRIKE">
-			<Text>A superweapon for golbal bombardment. Once the tungsten rods launched, every enemy city's HP will immediately drop to 0. [NEWLINE][NEWLINE]If the controller unit is destroyed, this weapon system is disabled. </Text>
+			<Text>A superweapon for global bombardment. Once the tungsten rods launched, every enemy city's HP will immediately drop to 0. [NEWLINE][NEWLINE]If the controller unit is destroyed, this weapon system is disabled. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ORBITAL_STRIKE_STRATEGY">
-			<Text>The Kinetic Bombardment System can make all of your enemy's cities capturable by one click at the [COLOR_POSITIVE_TEXT]"Start Global Kinetic rbital Strike"[ENDCOLOR] button on unit commands panel. If you have enough melee units in position, you are abel to wipe out a superpower country of more than 20 cities in one turn.</Text>
+			<Text>The Kinetic Bombardment System can make all of your enemy cities capturable by one click at the [COLOR_POSITIVE_TEXT]"Start Global Kinetic rbital Strike"[ENDCOLOR] button on unit commands panel. If you have enough melee units in position, you are abel to wipe out a superpower country of more than 20 cities in one turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ORBITAL_STRIKE_HEADING">
 			<Text>[COLOR_GREEN]Kinetic Bombardment System[ENDCOLOR]</Text>
@@ -3097,17 +3281,19 @@
 
 
 		<Replace Tag="TXT_KEY_SS_STASIS_CHAMBER">
-			<Text>[COLOR_GREEN]SS Stasis Chamber[ENDCOLOR]</Text>
+			<Text>[ICON_ITG_SATELLITE] [COLOR_GREEN]Spaceship Stasis Chamber[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_SS_ENGINE">
-			<Text>[COLOR_GREEN]SS Stasis Engine[ENDCOLOR]</Text>
+			<Text>[ICON_ITG_SATELLITE] [COLOR_GREEN]Spaceship Engine[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_SS_COCKPIT">
-			<Text>[COLOR_GREEN]SS Stasis Cockpit[ENDCOLOR]</Text>
+			<Text>[ICON_ITG_SATELLITE] [COLOR_GREEN]Spaceship Cockpit[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_SS_BOOSTER">
-			<Text>[COLOR_GREEN]SS Stasis Booster[ENDCOLOR]</Text>
+			<Text>[ICON_ITG_SATELLITE] [COLOR_GREEN]Spaceship Booster[ENDCOLOR]</Text>
 		</Replace>
+
+		
 
 
 	</Language_en_US>
@@ -3209,7 +3395,7 @@
 			<Text>Armor Piercing I</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_AMBUSH_1_HELP">
-			<Text>+50% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Tanks[ENDCOLOR] .</Text>
+			<Text>+50% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Tanks[ENDCOLOR].</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_AMBUSH_2">
 			<Text>Armor Piercing II</Text>
@@ -3228,13 +3414,13 @@
 
 
 		<Row Tag="TXT_KEY_PROMOTION_CQB_COMBAT_1">
-			<Text>Close Quarters Combat I</Text>
+			<Text>Close Quarters Battle I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CQB_COMBAT_1_HELP">
 			<Text>When defending, if the attacker's HP is less than 80, the attacker will lose all [ICON_MOVES] MP after attacking this unit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CQB_COMBAT_2">
-			<Text>Close Quarters Combat II</Text>
+			<Text>Close Quarters Battle II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CQB_COMBAT_2_HELP">
 			<Text>When defending, the attacker will lose all [ICON_MOVES] MP after attacking this unit.</Text>
@@ -3278,15 +3464,25 @@
 			<Text>Charge II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CHARGE_2_HELP" >
-			<Text>[ICON_BULLET]If the enemy unit attacked by this unit withdraws, cause 100% damage to the another unit in the same tile with the enemy unit attacked.[NEWLINE][ICON_BULLET]The withdrawed enemy unit will receive additional 10 HP damage</Text>
+			<Text>[ICON_BULLET]If the enemy unit attacked by this unit withdraws, cause 100% damage to the another unit in the same tile with the enemy unit attacked.[NEWLINE][ICON_BULLET]The withdrawn enemy unit will receive additional 10 HP damage</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CHARGE_3">
 			<Text>Charge III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CHARGE_3_HELP" >
-			<Text>[ICON_BULLET]If the enemy unit attacked by this unit withdraws, cause 150% damage to the another unit in the same tile with the enemy unit attacked.[NEWLINE][ICON_BULLET]The withdrawed enemy unit will receive additional 20 HP damage</Text>
+			<Text>[ICON_BULLET]If the enemy unit attacked by this unit withdraws, cause 150% damage to the another unit in the same tile with the enemy unit attacked.[NEWLINE][ICON_BULLET]The withdrawn enemy unit will receive additional 20 HP damage</Text>
 		</Row>
 
+
+		<Row Tag="TXT_KEY_PROMOTION_HEAVY_SHOCK_1" >
+			<Text>Breakthrough I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAVY_SHOCK_2" >
+			<Text>Breakthrough II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAVY_SHOCK_3" >
+			<Text>Breakthrough III</Text>
+		</Row>
 
 
 		<Row Tag="TXT_KEY_PROMOTION_HEAVY_SHOCK_1_HELP" >
@@ -3296,7 +3492,7 @@
 			<Text>+25% [ICON_STRENGTH] Combat Strength when attacking.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HEAVY_SHOCK_3_HELP" >
-			<Text>Heals 15 HP If Kills Non-Barbarian Unit.</Text>
+			<Text>Heal 15 HP after killing a Non-Barbarian Unit.</Text>
 		</Row>
 		
 		
@@ -3316,7 +3512,7 @@
 			<Text>Anti-Air Unit</Text>
 		</Replace>
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_HELP" >
-			<Text>Will intercept enemy aircraft which try to bomb nearby Units. Can also attack land targets and slow them down. [NEWLINE][NEWLINE][ICON_BULLET]Can intercept enemy aircrafts once per turn.[NEWLINE][NEWLINE][ICON_BULLET]Strong vs [COLOR_POSITIVE_TEXT]Helicopter[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Attack Aircrafts[ENDCOLOR]. [NEWLINE][ICON_BULLET]Weak vs [COLOR_NEGATIVE_TEXT]Siege Weapons[ENDCOLOR] or engaged in [COLOR_NEGATIVE_TEXT]Melee Combat[ENDCOLOR].[NEWLINE][ICON_BULLET]Cannot receive [COLOR_NEGATIVE_TEXT]Terrain Bonus[ENDCOLOR].</Text>
+			<Text>Will intercept enemy aircraft which try to bomb nearby Units. Can also attack land targets and slow them down. [NEWLINE][NEWLINE][ICON_BULLET]Can intercept enemy aircraft once per turn.[NEWLINE][NEWLINE][ICON_BULLET]Strong vs [COLOR_POSITIVE_TEXT]Helicopter[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Attack Aircraft[ENDCOLOR]. [NEWLINE][ICON_BULLET]Weak vs [COLOR_NEGATIVE_TEXT]Siege Weapons[ENDCOLOR] or engaged in [COLOR_NEGATIVE_TEXT]Melee Combat[ENDCOLOR].[NEWLINE][ICON_BULLET]Cannot receive [COLOR_NEGATIVE_TEXT]Terrain Bonus[ENDCOLOR].</Text>
 		</Row>
 
 
@@ -3347,14 +3543,29 @@
 			<Text>+15% [ICON_STRENGTH] Combat Strength when attacking.</Text>
 		</Replace>-->
 
+
+		<Replace Tag="TXT_KEY_PROMOTION_BARRAGE_1" >
+			<Text>Suppression I</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_PROMOTION_BARRAGE_2" >
+			<Text>Suppression II</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_PROMOTION_BARRAGE_3" >
+			<Text>Suppression III</Text>
+		</Replace>
+
+
+
 		<Replace Tag="TXT_KEY_PROMOTION_BARRAGE_1_HELP" >
-			<Text>[ICON_BULLET]If the Target Unit's HP is less than 60 after this attack, its [ICON_MOVES] MP will reduce to 1 for the next turn. [NEWLINE][ICON_BULLET]One more Barrage shot will make it lose all [ICON_MOVES] MP and suffers -1 [ICON_MOVES] MP Penalty for the next turn. It won't recover until HP is full.</Text>
+			<Text>[ICON_BULLET]If the Target Unit's HP is less than 60 after this attack, its [ICON_MOVES] MP will reduce to 1 for the next turn. [NEWLINE][ICON_BULLET]One more Suppression shot will make it lose all [ICON_MOVES] MP and suffers -1 [ICON_MOVES] MP Penalty for the next turn. It won't recover until HP is full.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_BARRAGE_2_HELP" >
-			<Text>[ICON_BULLET]If the Target Unit's HP is less than 75 after this attack, its [ICON_MOVES] MP will reduce to 1 for the next turn. [NEWLINE][ICON_BULLET]One more Barrage shot will make it lose all [ICON_MOVES] MP and suffers -1 [ICON_MOVES] MP Penalty for the next turn. It won't recover until HP is full.</Text>
+			<Text>[ICON_BULLET]If the Target Unit's HP is less than 75 after this attack, its [ICON_MOVES] MP will reduce to 1 for the next turn. [NEWLINE][ICON_BULLET]One more Suppression shot will make it lose all [ICON_MOVES] MP and suffers -1 [ICON_MOVES] MP Penalty for the next turn. It won't recover until HP is full.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_BARRAGE_3_HELP" >
-			<Text>[ICON_BULLET]If the Target Unit's HP is less than 90 after this attack, its [ICON_MOVES] MP will reduce to 1 for the next turn. [NEWLINE][ICON_BULLET]One more Barrage shot will make it lose all [ICON_MOVES] MP and suffers -1 [ICON_MOVES] MP Penalty for the next turn. It won't recover until HP is full.</Text>
+			<Text>[ICON_BULLET]If the Target Unit's HP is less than 90 after this attack, its [ICON_MOVES] MP will reduce to 1 for the next turn. [NEWLINE][ICON_BULLET]One more Suppression shot will make it lose all [ICON_MOVES] MP and suffers -1 [ICON_MOVES] MP Penalty for the next turn. It won't recover until HP is full.</Text>
 		</Replace>
 
 
@@ -3374,13 +3585,13 @@
 
 
 		<Row Tag="TXT_KEY_PROMOTION_FLANK_GUN_1">
-			<Text>Flak Cannon I</Text>
+			<Text>Air Superiority I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FLANK_GUN_1_HELP">
 			<Text>+50% [ICON_STRENGTH] Combat Strength when intercepting enemy aircraft. [NEWLINE][ICON_BULLET]+50% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Helicopter Units[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FLANK_GUN_2">
-			<Text>Flak Cannon II</Text>
+			<Text>Air Superiority II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FLANK_GUN_2_HELP">
 			<Text>+1 [COLOR_POSITIVE_TEXT]Interception[ENDCOLOR] per turn.</Text>
@@ -3442,38 +3653,38 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SUNDER_1">
-			<Text>Sunder I</Text>
+			<Text>Shock I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SUNDER_1_HELP">
 			<Text>If the Target Unit's HP is less than 60 after this attack, the target unit suffers -25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Defending[ENDCOLOR] and it won't recover until HP is full. (This effect can be multiplied to -50% )</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SUNDER_2">
-			<Text>Sunder II</Text>
+			<Text>Shock II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SUNDER_2_HELP">
 			<Text>If the Target Unit's HP is less than 75 after this attack, the target unit suffers -25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Defending[ENDCOLOR] and it won't recover until HP is full. (This effect can be multiplied to -50% )</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SUNDER_3">
-			<Text>Sunder III</Text>
+			<Text>Shock III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SUNDER_3_HELP">
 			<Text>If the Target Unit's HP is less than 90 after this attack, the target unit suffers -25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Defending[ENDCOLOR] and it won't recover until HP is full. (This effect can be multiplied to -50% )</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HUNTDOWN_1">
-			<Text>Hunt Down I</Text>
+			<Text>Hunter Killer I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HUNTDOWN_1_HELP">
 			<Text>+33% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Wounded Units[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HUNTDOWN_2">
-			<Text>Hunt Down II</Text>
+			<Text>Hunter Killer II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HUNTDOWN_2_HELP">
 			<Text>+33% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Wounded Units[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HUNTDOWN_3">
-			<Text>Hunt Down III</Text>
+			<Text>Hunter Killer III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HUNTDOWN_3_HELP">
 			<Text>+34% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Wounded Units[ENDCOLOR].</Text>
@@ -3489,34 +3700,34 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_PROMOTION_VOLLEY">
-			<Text>Volley I</Text>
+			<Text>Siege I</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_VOLLEY_HELP" >
 			<Text>+100% [ICON_RANGE_STRENGTH] Ranged Combat Strength VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR], [COLOR_POSITIVE_TEXT]Citadels[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Fortified Units[ENDCOLOR].</Text>
 		</Replace>
 		<Row Tag="TXT_KEY_PROMOTION_VOLLEY_2">
-			<Text>Volley II</Text>
+			<Text>Siege II</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_VOLLEY_3">
-			<Text>Volley III</Text>
+			<Text>Siege III</Text>
 		</Row>
 
 
 		<Row Tag="TXT_KEY_PROMOTION_COLLATERAL_DAMAGE_1">
-			<Text>Collateral Damage I</Text>
+			<Text>Concentrated Fire I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COLLATERAL_DAMAGE_1_HELP" >
 			<Text>[ICON_BULLET]+33% Damage to other units in the target plot. [NEWLINE][ICON_BULLET]If the Target Unit's HP is less than 60 after this attack, the target unit suffers -25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Attacking[ENDCOLOR] and it won't recover until HP is full. (This effect can be multiplied to -50%). It won't apply to other units suffered from collateral damage.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COLLATERAL_DAMAGE_2">
-			<Text>Collateral Damage II</Text>
+			<Text>Concentrated Fire II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COLLATERAL_DAMAGE_2_HELP" >
 			<Text>[ICON_BULLET]+33% Damage to other units in the target plot. [NEWLINE][ICON_BULLET]If the Target Unit's HP is less than 75 after this attack, the target unit suffers -25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Attacking[ENDCOLOR] and it won't recover until HP is full. (This effect can be multiplied to -50%). It won't apply to other units suffered from collateral damage.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COLLATERAL_DAMAGE_3">
-			<Text>Collateral Damage III</Text>
+			<Text>Concentrated Fire III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COLLATERAL_DAMAGE_3_HELP" >
 			<Text>[ICON_BULLET]+34% Damage to other units in the target plot. [NEWLINE][ICON_BULLET]If the Target Unit's HP is less than 90 after this attack, the target unit suffers -25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Attacking[ENDCOLOR] and it won't recover until HP is full. (This effect can be multiplied to -50%). It won't apply to other units suffered from collateral damage.</Text>
@@ -3532,20 +3743,20 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SPLASH_DAMAGE_HELP">
 			<Text>
-				Powerful heavy Weapons can cause Area of Effect damage to mutiple enemy units.
+				Powerful heavy Weapons can cause Area of Effect damage to multiple enemy units.
 				[NEWLINE][NEWLINE][ICON_BULLET]Cause 50% Damage to all enemy units [COLOR_POSITIVE_TEXT]Adjacent[ENDCOLOR] to the target unit. But cause No [COLOR_NEGATIVE_TEXT]Collateral Damage[ENDCOLOR].
 				[NEWLINE][ICON_BULLET]The Area of Effect is not effective when attacking [COLOR_NEGATIVE_TEXT]Cities[ENDCOLOR]. But the Area of Effect will still affect unit inside the city nearby the target tile.
 				[NEWLINE][ICON_BULLET]Weak when engaged in [COLOR_NEGATIVE_TEXT]Melee Combat[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CLUSTER_ROCKET_1">
-			<Text>Firepower Coverage I</Text>
+			<Text>Overwhelming Firepower  I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CLUSTER_ROCKET_1_HELP">
 			<Text>Area of Effect damage +25%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CLUSTER_ROCKET_2">
-			<Text>Firepower Coverage II</Text>
+			<Text>Overwhelming Firepower II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CLUSTER_ROCKET_2_HELP">
 			<Text>Area of Effect damage +25% .</Text>
@@ -3553,13 +3764,13 @@
 		
 		
 		<Row Tag="TXT_KEY_PROMOTION_FAE_ROCKET_1">
-			<Text>Anti-ship Rocket I</Text>
+			<Text>Anti-Ship Missile I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FAE_ROCKET_1_HELP">
-			<Text>+50% [ICON_RANGE_STRENGTH] Ranged Combat Strength attacking [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
+			<Text>+50% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FAE_ROCKET_2">
-			<Text>Anti-ship Rocket Rocket II</Text>
+			<Text>Anti-Ship Missile II</Text>
 		</Row>
 		<!--<Row Tag="TXT_KEY_PROMOTION_FAE_ROCKET_2_HELP">
 			<Text>+50% [ICON_RANGE_STRENGTH] Ranged Combat Strength attacking [COLOR_POSITIVE_TEXT]Fortified Units[ENDCOLOR] and Units in [COLOR_POSITIVE_TEXT]Rough Terrain[ENDCOLOR].</Text>
@@ -3588,10 +3799,10 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_PROMOTION_SCOUTING_1_HELP" >
-			<Text>Report the nearby enemy's condition, so all [COLOR_POSITIVE_TEXT]Adjacent[ENDCOLOR] Enemy Untis -10% [ICON_STRENGTH] Combat Strength.</Text>
+			<Text>Report the nearby enemy condition, so all [COLOR_POSITIVE_TEXT]Adjacent[ENDCOLOR] Enemy Untis -10% [ICON_STRENGTH] Combat Strength.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_SCOUTING_2_HELP" >
-			<Text>Report the nearby enemy's condition, so all [COLOR_POSITIVE_TEXT]Adjacent[ENDCOLOR] Enemy Untis -20% [ICON_STRENGTH] Combat Strength.</Text>
+			<Text>Report the nearby enemy condition, so all [COLOR_POSITIVE_TEXT]Adjacent[ENDCOLOR] Enemy Untis -20% [ICON_STRENGTH] Combat Strength.</Text>
 		</Replace>
 		
 		<Replace Tag="TXT_KEY_PROMOTION_SCOUTING_3_HELP" >
@@ -3662,19 +3873,19 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SP_FORCE_1">
-			<Text>Passive Skills I - Sabotage Supply Lines</Text>
+			<Text>Sabotage Supply</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SP_FORCE_1_HELP">
 			<Text>The Target Enemy Unit will suffer -20 Hp if Ends Turn outside of Friendly Territory, no matter how much damage dealt. The Target Enemy Unit won't recover until its HP is full.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SP_FORCE_2">
-			<Text>Passive Skills II - Sabotage Cities</Text>
+			<Text>Incite Rebellion</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SP_FORCE_2_HELP">
-			<Text>[ICON_BULLET]Cause 1 turn Chaos in the target City when attacking the enemy [COLOR_POSITIVE_TEXT]City[ENDCOLOR] (the effect can multiply). [NEWLINE][ICON_BULLET]If the target City is without a garrsion, cause 250 Damage instantly to the city.</Text>
+			<Text>[ICON_BULLET]Cause 1 turn Chaos in the target City when attacking the enemy [COLOR_POSITIVE_TEXT]City[ENDCOLOR] (the effect can multiply). [NEWLINE][ICON_BULLET]If the target City is without a garrison, cause 250 Damage instantly to the city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SP_FORCE_3">
-			<Text>Passive Skills III - Shock and Awe</Text>
+			<Text>Shock and Awe</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SP_FORCE_3_HELP">
 			<Text>May [COLOR_POSITIVE_TEXT]Capture[ENDCOLOR] the defeated Enemy Unit.</Text>
@@ -3682,19 +3893,19 @@
 
 
 		<Row Tag="TXT_KEY_PROMOTION_SP_FORCE_I">
-			<Text>Active Skills I - Riot Control</Text>
+			<Text>Riot Control</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SP_FORCE_I_HELP">
 			<Text>Can reduce the [COLOR_POSITIVE_TEXT]Resistance[ENDCOLOR] in your own cities. The Resistance Time must be longer than 3 turns.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SP_FORCE_II">
-			<Text>Active Skills II - Target Guide</Text>
+			<Text>Spotter</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SP_FORCE_II_HELP">
 			<Text>[ICON_BULLET]Allows to enable the "Target Guide" ability: +33% [ICON_RANGE_STRENGTH] Ranged Combat Strength for the [COLOR_POSITIVE_TEXT]Ranged Unit[ENDCOLOR] in the Same Tile with this unit for this turn. [NEWLINE][ICON_BULLET]Using this ability will consume all [ICON_MOVES] MPs of this unit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SP_FORCE_III">
-			<Text>Active Skills III - Emergency Supply</Text>
+			<Text>Emergency Supply</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SP_FORCE_III_HELP">
 			<Text>+50 HP for the other unit in the [COLOR_POSITIVE_TEXT]Same Tile[ENDCOLOR]. But cannot remove its debuff condition in this turn.</Text>
@@ -3703,7 +3914,7 @@
 		
 
 		<Row Tag="TXT_KEY_PROMOTION_STEALTH_OPERATION">
-			<Text>Small Size Unit</Text>
+			<Text>Concealment</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_STEALTH_OPERATION_HELP">
 			<Text>
@@ -3763,13 +3974,13 @@
 
 
 		<Replace Tag="TXT_KEY_PROMOTION_MEDIC" >
-			<Text>Military Reserve I</Text>
+			<Text>Field Hospital I</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_MEDIC_HELP" >
 			<Text>[ICON_BULLET]All units in adjacent tiles or in the same tile Heal +15 HP per turn. [NEWLINE][ICON_BULLET]This unit Heals +15 HP per turn.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_MEDIC_II" >
-			<Text>Military Reserve II</Text>
+			<Text>Field Hospital II</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_MEDIC_II_HELP" >
 			<Text>[ICON_BULLET]All units in adjacent tiles or in the same tile Heal +15 HP per turn. [NEWLINE][ICON_BULLET]This unit Heals +15 HP per turn.</Text>
@@ -3803,10 +4014,10 @@
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_II_HELP" >
 			<Text>
 				Air Superiority Fighter designed to wrest control of the skies and intercept incoming enemy aircraft.
-				[NEWLINE][NEWLINE][ICON_BULLET]Can [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] enemy aircrafts once per turn.
+				[NEWLINE][NEWLINE][ICON_BULLET]Can [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] enemy aircraft once per turn.
 				[NEWLINE][ICON_BULLET]Can Perform [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR] once per turn and +50% [ICON_STRENGTH] Combat Strength when performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR].
 				[NEWLINE][ICON_BULLET]Can still Intercept after performing an Air Sweep.
-				[NEWLINE][ICON_BULLET]Strong vs [COLOR_POSITIVE_TEXT]Attack Aircrafts[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Bombers[ENDCOLOR].
+				[NEWLINE][ICON_BULLET]Strong vs [COLOR_POSITIVE_TEXT]Attack Aircraft[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Bombers[ENDCOLOR].
 				[NEWLINE][ICON_BULLET]6 tiles in every direction from the unit's base of operation is always visible.
 				[NEWLINE][ICON_BULLET]Cannot attack [COLOR_NEGATIVE_TEXT]Land or Naval units[ENDCOLOR].
 				[NEWLINE][ICON_BULLET]This is a Land-based Aircraft so it cannot land on [COLOR_NEGATIVE_TEXT]Aircraft Carriers[ENDCOLOR].</Text>
@@ -3825,6 +4036,17 @@
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_INTERCEPTION_3_HELP">
 			<Text>[ICON_BULLET]+25% [ICON_STRENGTH] Combat Strength when intercepting enemy aircraft. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
+		</Replace>
+
+
+		<Replace Tag="TXT_KEY_PROMOTION_DOGFIGHTING_1">
+			<Text>Wild Weasel I</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROMOTION_DOGFIGHTING_2">
+			<Text>Wild Weasel II</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROMOTION_DOGFIGHTING_3">
+			<Text>Wild Weasel III</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_PROMOTION_DOGFIGHTING_1_HELP">
@@ -3854,19 +4076,19 @@
 
 		
 		<Row Tag="TXT_KEY_PROMOTION_AIR_BOMBARDMENT_1">
-			<Text>Air Bombardment I</Text>
+			<Text>Close Air Support I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_BOMBARDMENT_1_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength vs [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_BOMBARDMENT_2">
-			<Text>Air Bombardment II</Text>
+			<Text>Close Air Support II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_BOMBARDMENT_2_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength vs [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_BOMBARDMENT_3">
-			<Text>Air Bombardment III</Text>
+			<Text>Close Air Support III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_BOMBARDMENT_3_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength vs [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
@@ -3876,19 +4098,19 @@
 			<Text>Surgical Strike I</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1_HELP" >
-			<Text>When attacking a city. Cause 20 Hp Damage to all enemy [COLOR_POSITIVE_TEXT]Garrisoned Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircrafts[ENDCOLOR] inside the Target City.</Text>
+			<Text>When attacking a city. Cause 20 Hp Damage to all enemy [COLOR_POSITIVE_TEXT]Garrisoned Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircraft[ENDCOLOR] inside the Target City.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2" >
 			<Text>Surgical Strike II</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2_HELP" >
-			<Text>When attacking a city. Cause 30 Hp Damage to all enemy [COLOR_POSITIVE_TEXT]Garrisoned Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircrafts[ENDCOLOR] inside the Target City.</Text>
+			<Text>When attacking a city. Cause 30 Hp Damage to all enemy [COLOR_POSITIVE_TEXT]Garrisoned Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircraft[ENDCOLOR] inside the Target City.</Text>
 		</Replace>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3">
 			<Text>Surgical Strike III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP">
-			<Text>When attacking a city. Cause 40 Hp Damage to all enemy [COLOR_POSITIVE_TEXT]Garrisoned Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircrafts[ENDCOLOR] inside the Target City.</Text>
+			<Text>When attacking a city. Cause 40 Hp Damage to all enemy [COLOR_POSITIVE_TEXT]Garrisoned Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircraft[ENDCOLOR] inside the Target City.</Text>
 		</Row>
 
 		<!--<Replace Tag="TXT_KEY_PROMOTION_AIR_AMBUSH_1_HELP" >
@@ -3910,23 +4132,34 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_1">
-			<Text>Napalm Bomb I</Text>
+			<Text>Firebombing I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_1_HELP">
-			<Text>Kill 20% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the Target City. (Kill only 5% if the city has a bomb shelter)</Text>
+			<Text>Kill 10% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the Target City. (Kill only 5% if the city has a bomb shelter)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_2">
-			<Text>Napalm Bomb II</Text>
+			<Text>Firebombing II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_2_HELP">
-			<Text>Kill 40% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the Target City. (Kill only 10% if the city has a bomb shelter)</Text>
+			<Text>Kill 20% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the Target City. (Kill only 10% if the city has a bomb shelter)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_3">
-			<Text>Napalm Bomb III</Text>
+			<Text>Firebombing III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_3_HELP">
-			<Text>Kill 60% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the [COLOR_POSITIVE_TEXT]Target City[ENDCOLOR]. (Kill only 15% if the city has a bomb shelter)</Text>
+			<Text>Kill 30% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the [COLOR_POSITIVE_TEXT]Target City[ENDCOLOR]. (Kill only 15% if the city has a bomb shelter)</Text>
 		</Row>
+
+
+		<Replace Tag="TXT_KEY_PROMOTION_AIR_SIEGE_1_HELP" >
+			<Text>Strategic Bombing I</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROMOTION_AIR_SIEGE_2_HELP" >
+			<Text>Strategic Bombing II</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROMOTION_AIR_SIEGE_3_HELP" >
+			<Text>Strategic Bombing III</Text>
+		</Replace>
 
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_SIEGE_1_HELP" >
 			<Text>Destroy 1 Military Building per attack in the [COLOR_POSITIVE_TEXT]Target City[ENDCOLOR].</Text>
@@ -3940,14 +4173,14 @@
 
 
 		<Row Tag="TXT_KEY_PROMOTION_DESTROY_SUPPLY_1">
-			<Text>Supply Line Bombardment I</Text>
+			<Text>Supply Strike I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DESTROY_SUPPLY_1_HELP">
 			<Text>The Target [COLOR_POSITIVE_TEXT]Enemy Unit[ENDCOLOR] will suffer -20 Hp if Ends Turn outside of Friendly Territory, no matter how much damage dealt. The Target Enemy Unit won't recover until its HP is full.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_DESTROY_SUPPLY_2">
-			<Text>Supply Line Bombardment II (Area of Effect)</Text>
+			<Text>Supply Strike II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DESTROY_SUPPLY_2_HELP">
 			<Text>The Target Enemy Unit and all [COLOR_POSITIVE_TEXT]Adjacent[ENDCOLOR] Enemy Units will suffer -20 Hp if Ends Turn outside of Friendly Territory, no matter how much damage dealt. Those Enemy Units won't recover until their HP is full.</Text>
@@ -3989,27 +4222,27 @@
 				Versatile Naval Melee Unit, good at both attacking and escorting. Also designed to fight against enemy Submarines and porvide anti-air support.
 				[NEWLINE][ICON_BULLET]Can See Submarines.
 				[NEWLINE][ICON_BULLET]Can move after attacking.
-				[NEWLINE][NEWLINE][ICON_BULLET]Can [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] enemy aircrafts within 1 hex once per turn.
-				[NEWLINE][ICON_BULLET]Strong vs [COLOR_POSITIVE_TEXT]Submarines[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Attack Aircrafts[ENDCOLOR].
+				[NEWLINE][NEWLINE][ICON_BULLET]Can [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] enemy aircraft within 1 hex once per turn.
+				[NEWLINE][ICON_BULLET]Strong vs [COLOR_POSITIVE_TEXT]Submarines[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Attack Aircraft[ENDCOLOR].
 				[NEWLINE][ICON_BULLET]Can force the enemy to withdraw when it inflicts more damage to the enemy than it receives.
-				[NEWLINE][NEWLINE][ICON_BULLET]Weak during enemy's [COLOR_NEGATIVE_TEXT]Airsweep[ENDCOLOR].
+				[NEWLINE][NEWLINE][ICON_BULLET]Weak during enemy [COLOR_NEGATIVE_TEXT]Airsweep[ENDCOLOR].
 			</Text>
 		</Row>
 
 		<Replace Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_1" >
-			<Text>Naval Combat I</Text>
+			<Text>Decisive Battle I</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_1_HELP" >
 			<Text>+25% [ICON_STRENGTH] Combat Strength when attacking.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_2" >
-			<Text>Naval Combat II</Text>
+			<Text>Decisive Battle II</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_2_HELP" >
 			<Text>+25% [ICON_STRENGTH] Combat Strength when attacking.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_3" >
-			<Text>Naval Combat III</Text>
+			<Text>Decisive Battle III</Text>
 		</Replace>	
 		<Replace Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_3_HELP" >
 			<Text>Have a chance of [COLOR_POSITIVE_TEXT]Capturing[ENDCOLOR] the defeated Enemy Unit.</Text>
@@ -4061,42 +4294,42 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_RANGED_CRUISER" >
-			<Text>Cruiser Unit</Text>
+			<Text>Cruiser</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_RANGED_CRUISER_HELP" >
 			<Text>
 				Modern Naval Ranged Unit, designed for fire support and soften the enemy fleet, also provides anti-air support.
 				[NEWLINE][ICON_BULLET]Can perform both [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Melee Attacks[ENDCOLOR].
-				[NEWLINE][ICON_BULLET]Can intercept enemy aircrafts within 3 hexes twice per turn.
+				[NEWLINE][ICON_BULLET]Can intercept enemy aircraft within 3 hexes twice per turn.
 				[NEWLINE][ICON_BULLET]Cause 50% Damage to other units in the Target Tile.
 				[NEWLINE][ICON_BULLET]Strong vs [COLOR_POSITIVE_TEXT]Naval Melee Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Guided Missiles[ENDCOLOR].
-				[NEWLINE][ICON_BULLET]Strong during enemy's [COLOR_POSITIVE_TEXT]Airsweep[ENDCOLOR].
+				[NEWLINE][ICON_BULLET]Strong during enemy [COLOR_POSITIVE_TEXT]Airsweep[ENDCOLOR].
 				[NEWLINE][ICON_BULLET]Weak vs [COLOR_NEGATIVE_TEXT]Naval Hit-and-run Units[ENDCOLOR] and [COLOR_NEGATIVE_TEXT]Submarines[ENDCOLOR].
 			</Text>
 		</Row>
 
 		
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_CAPITAL_SHIP" >
-			<Text>Capital Ship Unit</Text>
+			<Text>Capital Ship</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_CAPITAL_SHIP_HELP" >
 			<Text>
 				Most powerful Unit of its era able to deal or receive massive damage. Its devasting firepower can deal Area of Effects (AoE) damge.
 				[NEWLINE][NEWLINE][ICON_BULLET]Boast the [COLOR_POSITIVE_TEXT]Strongest[ENDCOLOR] [ICON_STRENGTH] Combat Strength of all units in its Era.
 				[NEWLINE][ICON_BULLET]Cause 50% Damage to all enemy units [COLOR_POSITIVE_TEXT]Adjacent[ENDCOLOR] to the target unit. But cause No Collateral Damage.
-				[NEWLINE][ICON_BULLET]Weak vs [COLOR_NEGATIVE_TEXT]Aircrafts[ENDCOLOR] and [COLOR_NEGATIVE_TEXT]Submarines[ENDCOLOR].</Text>
+				[NEWLINE][ICON_BULLET]Weak vs [COLOR_NEGATIVE_TEXT]Aircraft[ENDCOLOR] and [COLOR_NEGATIVE_TEXT]Submarines[ENDCOLOR].</Text>
 		</Row>
 	
 
 
 		<Row Tag="TXT_KEY_PROMOTION_ARMOR_BATTLESHIP_1">
-			<Text>Belt Armor I</Text>
+			<Text>Armoured Citadel I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ARMOR_BATTLESHIP_1_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Defending[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ARMOR_BATTLESHIP_2">
-			<Text>Belt Armor II</Text>
+			<Text>Armoured Citadel II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ARMOR_BATTLESHIP_2_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Defending[ENDCOLOR].</Text>
@@ -4168,9 +4401,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_UNIT_HELP">
 			<Text>
-				A floating Weapons Platform carrying Multirole Carrier-based Aircrafts to control the sky and the ocean and even the land.[NEWLINE][NEWLINE][ICON_BULLET]Can load Carrier-based Aircrafts.
-				[NEWLINE][ICON_BULLET]XP earned by its Carrier-based Aircrafts will transfer to the Aircraft Carrier.
-				[NEWLINE][ICON_BULLET]Automatically [COLOR_POSITIVE_TEXT]Resupply[ENDCOLOR] its Carrier-based Aircrafts (One Aircraft Unit per turn) when inside Friendly Territory.
+				A floating Weapons Platform carrying Multirole Carrier-based Aircraft to control the sky and the ocean and even the land.[NEWLINE][NEWLINE][ICON_BULLET]Can load Carrier-based Aircraft.
+				[NEWLINE][ICON_BULLET]XP earned by its Carrier-based Aircraft will transfer to the Aircraft Carrier.
+				[NEWLINE][ICON_BULLET]Automatically [COLOR_POSITIVE_TEXT]Resupply[ENDCOLOR] its Carrier-based Aircraft (One Aircraft Unit per turn) when inside Friendly Territory.
 				[NEWLINE][ICON_BULLET]All units in the same tile Heal +15 HP per turn.
 				[NEWLINE][ICON_BULLET]This unit Heals +15 HP per turn.
 				[NEWLINE][ICON_BULLET]Weak vs [COLOR_NEGATIVE_TEXT]Naval Hit-and-run Units[ENDCOLOR] and [COLOR_NEGATIVE_TEXT]Submarines[ENDCOLOR].
@@ -4190,22 +4423,22 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_SUPPLY_1">
-			<Text>Supply I</Text>
+			<Text>Carrier Logistics I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_SUPPLY_1_HELP">
 			<Text>[ICON_BULLET]All units in adjacent tiles or in the same tile Heal +15 HP per turn. [NEWLINE][ICON_BULLET]This unit Heals +15 HP per turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_SUPPLY_2">
-			<Text>Supply II</Text>
+			<Text>Carrier Logistics II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_SUPPLY_2_HELP">
-			<Text>This Aircraft Carrier and all its Carrier-based Aircrafts will Heal Every Turn, even if it performs an action.</Text>
+			<Text>This Aircraft Carrier and all its Carrier-based Aircraft will Heal Every Turn, even if it performs an action.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_SUPPLY_3">
-			<Text>Supply III</Text>
+			<Text>Carrier Logistics III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_SUPPLY_3_HELP">
-			<Text>This Aircraft Carrier [COLOR_POSITIVE_TEXT]Resupplies[ENDCOLOR] its Carrier-based Aircrafts outside friendly territory.</Text>
+			<Text>This Aircraft Carrier [COLOR_POSITIVE_TEXT]Resupplies[ENDCOLOR] its Carrier-based Aircraft outside friendly territory.</Text>
 		</Row>
 
 
@@ -4217,26 +4450,26 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_ANTI_AIR_1">
-			<Text>Air Combat I</Text>
+			<Text>Dogfighting I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_ANTI_AIR_1_HELP">
 			<Text>[ICON_BULLET]+25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Intercepting[ENDCOLOR] or performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_ANTI_AIR_2">
-			<Text>Air Combat II</Text>
+			<Text>Dogfighting II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_ANTI_AIR_2_HELP">
 			<Text>[ICON_BULLET]+25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Intercepting[ENDCOLOR] or performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_AIRFIGHT_1">
-			<Text>Air Combat I</Text>
+			<Text>Top Gun Program I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_AIRFIGHT_1_HELP">
 			<Text>[ICON_BULLET]+25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Intercepting[ENDCOLOR] or performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_AIRFIGHT_2">
-			<Text>Air Combat II</Text>
+			<Text>Top Gun Program II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_AIRFIGHT_2_HELP">
 			<Text>[ICON_BULLET]+25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Intercepting[ENDCOLOR] or performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR]. [NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Intercept[ENDCOLOR] chance per turn.</Text>
@@ -4244,13 +4477,13 @@
 
 		
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_ATTACK_1">
-			<Text>Air Attack I</Text>
+			<Text>Precision Munitions I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_ATTACK_1_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength when attacking.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_ATTACK_2">
-			<Text>Air Attack II</Text>
+			<Text>Precision Munitions II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_ATTACK_2_HELP">
 			<Text>+25% [ICON_STRENGTH] Combat Strength when attacking.</Text>
@@ -4258,16 +4491,16 @@
 
 
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_SIEGE_1">
-			<Text>Air Siege I</Text>
+			<Text>Sudden Strike I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_SIEGE_1_HELP">
 			<Text>The Target [COLOR_POSITIVE_TEXT]Enemy Unit[ENDCOLOR] will suffer -20 Hp if Ends Turn outside of Friendly Territory, no matter how much damage dealt. The Target Enemy Unit won't recover until its HP is full.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_SIEGE_2">
-			<Text>Air Siege II</Text>
+			<Text>Sudden Strike II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_SIEGE_2_HELP">
-			<Text>When attacking a city. Cause 20 Hp Damage to all enemy [COLOR_POSITIVE_TEXT]Garrisoned Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircrafts[ENDCOLOR] inside the Target City.</Text>
+			<Text>When attacking a city. Cause 20 Hp Damage to all enemy [COLOR_POSITIVE_TEXT]Garrisoned Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircraft[ENDCOLOR] inside the Target City.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_SORTIE">
@@ -4310,14 +4543,14 @@
 			<Text>[COLOR_NEGATIVE_TEXT]Under Suppression[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MOVEMENT_LOST_1_HELP">
-			<Text>[ICON_BULLET]This unit has been attacked by the enmey Archery Units, Anti-Air Units or naval Hit-and-run Units with [COLOR_NEGATIVE_TEXT]"Barrage"[ENDCOLOR] Effect and it is under suppression. [NEWLINE][ICON_BULLET]It has only 1 [ICON_MOVES] MP left for this turn.[NEWLINE][ICON_BULLET]It will recovers in the next turn.</Text>
+			<Text>[ICON_BULLET]This unit has been attacked by the enmey Archery Units, Anti-Air Units or naval Hit-and-run Units with [COLOR_NEGATIVE_TEXT]"Suppression"[ENDCOLOR] Effect and it is under suppression. [NEWLINE][ICON_BULLET]It has only 1 [ICON_MOVES] MP left for this turn.[NEWLINE][ICON_BULLET]It will recovers in the next turn.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MOVEMENT_LOST_2">
 			<Text>[COLOR_NEGATIVE_TEXT]Pinned Down[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MOVEMENT_LOST_2_HELP">
-			<Text>[ICON_BULLET]This unit has been attacked by the enmey Archery Units, Anti-Air Units or naval Hit-and-run Units with [COLOR_NEGATIVE_TEXT]"Barrage"[ENDCOLOR] Effect twice in a turn and now it is pinned down. [NEWLINE][ICON_BULLET]It is totally [COLOR_NEGATIVE_TEXT]Paralysed[ENDCOLOR] for this turn.[NEWLINE][ICON_BULLET]It will recovers in the next turn but will suffer -1 [ICON_MOVES] MP till unitl its HP fully restored.[NEWLINE][ICON_BULLET]If it survives to the next turn, You'd better withdraw it from the frontline  to heal or call your Great General, Great Admiral or Special Forces Unit to help it recover.</Text>
+			<Text>[ICON_BULLET]This unit has been attacked by the enmey Archery Units, Anti-Air Units or naval Hit-and-run Units with [COLOR_NEGATIVE_TEXT]"Suppression"[ENDCOLOR] Effect twice in a turn and now it is pinned down. [NEWLINE][ICON_BULLET]It is totally [COLOR_NEGATIVE_TEXT]Paralysed[ENDCOLOR] for this turn.[NEWLINE][ICON_BULLET]It will recovers in the next turn but will suffer -1 [ICON_MOVES] MP till unitl its HP fully restored.[NEWLINE][ICON_BULLET]If it survives to the next turn, You'd better withdraw it from the frontline  to heal or call your Great General, Great Admiral or Special Forces Unit to help it recover.</Text>
 		</Row>
 
 
@@ -4325,7 +4558,7 @@
 			<Text>Marked Target</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MARKED_TARGET_HELP">
-			<Text>-50% [ICON_STRENGTH] Combat Strength vs [COLOR_NEGATIVE_TEXT]Naval Ranged Units, Siege Weapons, Helicopters, Attack Aircrafts and Bombers[ENDCOLOR] for this turn. [NEWLINE][ICON_BULLET]It will recovers in the next turn.</Text>
+			<Text>-50% [ICON_STRENGTH] Combat Strength vs [COLOR_NEGATIVE_TEXT]Naval Ranged Units, Siege Weapons, Helicopters, Attack Aircraft and Bombers[ENDCOLOR] for this turn. [NEWLINE][ICON_BULLET]It will recovers in the next turn.</Text>
 		</Row>
 
 
@@ -4343,6 +4576,14 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NUKE_IMMUNE_HELP">
 			<Text>Immnue to [COLOR_POSITIVE_TEXT]Nuclear Attacks[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FRENCH_ARTY">
+			<Text>The Gribeauval System</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FRENCH_ARTY_HELP">
+			<Text>+2 [ICON_MOVES] Movement and +2 [ICON_STRENGTH] Attacks for French Artillery Units</Text>
 		</Row>
 		
 
@@ -4454,7 +4695,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_PROMOTION_DESERT_WARRIOR_HELP" >
-			<Text>+20% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]Desert[ENDCOLOR]Tiles</Text>
+			<Text>+20% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]Desert[ENDCOLOR] Tiles</Text>
 		</Replace>
 
 
@@ -4540,8 +4781,8 @@
 		</Replace>
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_HELICOPTER_HELP">
 			<Text>
-				[ICON_BULLET]+200% [ICON_STRENGTH] Combat Strength vs [COLOR_POSITIVE_TEXT]Helicopters[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircrafts[ENDCOLOR].
-				[NEWLINE][ICON_BULLET]Can intercept enemy aircrafts once per turn within 2 Hex Range. 
+				[ICON_BULLET]+200% [ICON_STRENGTH] Combat Strength vs [COLOR_POSITIVE_TEXT]Helicopters[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircraft[ENDCOLOR].
+				[NEWLINE][ICON_BULLET]Can intercept enemy aircraft once per turn within 2 Hex Range. 
 			</Text>
 		</Row>
 
@@ -4625,7 +4866,7 @@
 			<Text>
 				[ICON_BULLET]+1 Attack Chance per turn (can multiply)
 				[NEWLINE][ICON_BULLET]+2 [ICON_MOVES] Movement.
-				[NEWLINE][ICON_BULLET]+100% [ICON_STRENGTH] Combat Strength vs [COLOR_POSITIVE_TEXT]Submarines[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircrafts[ENDCOLOR].</Text>
+				[NEWLINE][ICON_BULLET]+100% [ICON_STRENGTH] Combat Strength vs [COLOR_POSITIVE_TEXT]Submarines[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircraft[ENDCOLOR].</Text>
 		</Row>
 
 
@@ -4646,7 +4887,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_SHIP_HELP">
 			<Text>
-				[ICON_BULLET]+200% Combat Strength vs [COLOR_POSITIVE_TEXT]Aircrafts[ENDCOLOR]. +1000% Combat Strength vs[COLOR_POSITIVE_TEXT]Guided Missiles[ENDCOLOR].
+				[ICON_BULLET]+200% Combat Strength vs [COLOR_POSITIVE_TEXT]Aircraft[ENDCOLOR]. +1000% Combat Strength vs[COLOR_POSITIVE_TEXT]Guided Missiles[ENDCOLOR].
 				[NEWLINE][ICON_BULLET]+1 [COLOR_POSITIVE_TEXT]Interception[ENDCOLOR] per turn.
 			</Text>
 		</Row>
@@ -4703,7 +4944,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_UNIT_GERMAN_PANZER">
-			<Text>Panzer VI Tiger</Text>
+			<Text>[ICON_CAPITAL] Panzer VI Tiger</Text>
 		</Replace>
 
 		
@@ -4720,7 +4961,7 @@
 			<Text>Fire at Will</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_UNLIMITED_ATTACK_HELP">
-			<Text>Can attack mutiple times per turn until movement is depleted.</Text>
+			<Text>Can attack multiple times per turn until movement is depleted.</Text>
 		</Row>
 
 
@@ -4736,7 +4977,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIRSHIP_CARRIER_HELP">
 			<Text>
-				[ICON_BULLET]Can carry aircrafts and +15 HP per turn for all loaded units.
+				[ICON_BULLET]Can carry aircraft and +15 HP per turn for all loaded units.
 				[NEWLINE][ICON_BULLET]Hovering movement.
 				[NEWLINE][ICON_BULLET]Can fly across the Ocean.
 				[NEWLINE][ICON_BULLET]Can not melee attack.
@@ -4779,7 +5020,7 @@
 			<Text>Tactical Nuclear Artillery</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NUCLEAR_ARTILLERY_HELP">
-			<Text>[ICON_BULLET]Cause 100% Damage to all units within 1 hex range.[NEWLINE][ICON_BULLET]Kill 60% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the [COLOR_POSITIVE_TEXT]Target City[ENDCOLOR]. (Kill only 15% if the city has a bomb shelter)[NEWLINE][ICON_BULLET]Won't create Fallout after firing.</Text>
+			<Text>[ICON_BULLET]Cause 100% Damage to all units within 1 hex range.[NEWLINE][ICON_BULLET]Kill 10% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the [COLOR_POSITIVE_TEXT]Target City[ENDCOLOR]. (Kill only 5% if the city has a bomb shelter)[NEWLINE][ICON_BULLET]Won't create Fallout after firing.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CHAIN_REACTION">
@@ -4836,6 +5077,9 @@
 		<Row Tag="TXT_KEY_PROMOTION_FW_NETWORKED_HELP">
 			<Text>+20% [ICON_STRENGTH] Combat Strength when adjacent to another friendly unit.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FW_MOVE_ALL_TERRAIN_HELP">
+			<Text>This unit may traverse any terrain.</Text>
+		</Row>		
 		<Row Tag="TXT_KEY_PEDIA_PROMOTION_FW_NETWORKED">
 			<Text>+20% [ICON_STRENGTH] Combat Strength when adjacent to another friendly unit.</Text>
 		</Row>
@@ -5134,7 +5378,7 @@
 			<Text>Basic Unit of the future that requires no special resources to build.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_ROBOT_INFANTRY">
-			<Text>Cyberdyne T-800</Text>
+			<Text>T-800</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_FW_ROBOT_INFANTRY_TEXT">
 			<Text>While powered armor gave human soldiers unparalleled protection and strength, it still relies on a human to operate the suit. Advances in artificial intelligence eventually lead to the ultimate soldier - a robotic unit that could fight equally as well as a human. Although there were a number of concerns about the prospect of fielding large numbers of robotic units with minimal human control, those societies that did so found them to be highly efficient and effective on the battlefield, with fewer issues involved in adapting them back to civilian duties during peacetime.</Text>

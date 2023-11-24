@@ -228,6 +228,11 @@
 			<Description>TXT_KEY_UNIT_XCOM_SQUAD</Description>
 			<DefaultUnit>UNIT_XCOM_SQUAD</DefaultUnit>
 		</Row>
+		<Row>
+			<Type>UNITCLASS_SPACEMARINE</Type>
+			<Description>TXT_KEY_UNIT_SPACEMARINE</Description>
+			<DefaultUnit>UNIT_SPACEMARINE</DefaultUnit>
+		</Row>
 
 
 		<!--******Infantry******-->
@@ -317,6 +322,7 @@
 			<Type>UNITCLASS_SCOUT</Type>
 			<Description>TXT_KEY_UNIT_SCOUT</Description>
 			<DefaultUnit>UNIT_SCOUT</DefaultUnit>
+			<MaxPlayerInstances>10</MaxPlayerInstances>
 		</Row>
 		<!--<Row>
 			<Type>UNITCLASS_SCOUT_HORSEMAN</Type>
@@ -699,6 +705,7 @@
 			<Type>UNITCLASS_EXPLORERX</Type>
 			<Description>TXT_KEY_UNIT_EXPLORERX</Description>
 			<DefaultUnit>UNIT_EXPLORERX</DefaultUnit>
+			<MaxPlayerInstances>10</MaxPlayerInstances>
 		</Row>	
 		
 		
@@ -841,6 +848,21 @@
 			<DefaultUnit>UNIT_SPARTAN300</DefaultUnit>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
+
+		<Row>
+			<Type>UNITCLASS_TDF</Type>
+			<Description>TXT_KEY_UNIT_TDF</Description>
+			<DefaultUnit>UNIT_TDF</DefaultUnit>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+
+		<Row>
+			<Type>UNITCLASS_VADER</Type>
+			<Description>TXT_KEY_UNIT_DVADERCIVUNIT</Description>
+			<DefaultUnit>UNIT_DVADERCIVUNIT</DefaultUnit>
+			<MaxPlayerInstances>6</MaxPlayerInstances>
+		</Row>
+
 		<Row>
 			<Type>UNITCLASS_NUMIDIAN</Type>
 			<Description>TXT_KEY_UNIT_NUMIDIAN</Description>
@@ -1001,10 +1023,22 @@
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 		<Row>
+			<Type>UNITCLASS_MIG_21</Type>
+			<Description>TXT_KEY_UNIT_MC_SOVIET_MIG_21_HELP</Description>
+			<DefaultUnit>UNIT_MC_SOVIET_MIG_21</DefaultUnit>
+			<MaxPlayerInstances>10</MaxPlayerInstances>
+		</Row>
+		<Row>
 			<Type>UNITCLASS_MECH</Type>
 			<Description>TXT_KEY_UNIT_MECH</Description>
 			<DefaultUnit>UNIT_MECH</DefaultUnit>
-			<MaxPlayerInstances>2</MaxPlayerInstances>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>UNITCLASS_METALGEAR</Type>
+			<Description>TXT_KEY_UNIT_METALGEAR</Description>
+			<DefaultUnit>UNIT_METALGEAR</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 		<Row>
 			<Type>UNITCLASS_HACKER</Type>

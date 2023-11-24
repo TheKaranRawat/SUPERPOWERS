@@ -6,7 +6,8 @@
 			<Text>[ICON_GREAT_PEOPLE] Banya</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BANYA_HELP">
-			<Text>+25% [ICON_GREAT_PEOPLE] Great People generation in the city. +1 [ICON_FOOD] Food from every Tundra and Snow tile worked by this City. Culture growth of borders costs 25% less. Only Russia may build it.</Text>
+			<Text>+25% [ICON_GREAT_PEOPLE] Great People generation in the city. +1 [ICON_FOOD] Food from every Tundra and Snow tile worked by this City. Culture growth of borders costs 25% less. Only Russia may build it.
+			[NEWLINE]-1% [ICON_HAPPINESS_4] Unhappiness nationwide for every Banya.			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BANYA_STRATEGY">
 			<Text>Like the standard Garden, the Russian Banya increases the rate of [ICON_GREAT_PEOPLE] Great Person generation in the City. However, it also provides [ICON_FOOD] Food for each Tundra and Snow tile worked, doesn't require fresh water, and costs no maintenance. The Banya reduces the culture cost to grow a city's borders, letting Russia rapidly expand into and use colder lands.</Text>

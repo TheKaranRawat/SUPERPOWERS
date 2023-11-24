@@ -17,14 +17,13 @@
 			<Class>UNITCLASS_EXOTIC_UNIT_FLYING_CIRCUS</Class>
 			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
 			<ObsoleteTech>TECH_LASERS</ObsoleteTech>
-			<Combat>0</Combat>
 			<RangedCombat>35</RangedCombat>
 			<Range>10</Range>
 			<Moves>2</Moves>
 			<Cost>500</Cost>			
 			<!--<FaithCost>650</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
-			<Special>SPECIALUNIT_FIGHTER</Special>
+			<Special>SPECIALUNIT_STEALTH</Special>
 			<Immobile>true</Immobile>
 			<AirInterceptRange>5</AirInterceptRange>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>

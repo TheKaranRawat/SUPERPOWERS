@@ -5,7 +5,7 @@
 		<Row>
 			<Type>UNITCLASS_EXOTIC_UNIT_THALAI_THIRVAI</Type>
 			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_THALAI_THIRVAI</Description>
-			<DefaultUnit>UNIT_EXOTIC_UNIT_THALAI_THIRVAI</DefaultUnit>-->			
+			<DefaultUnit>UNIT_EXOTIC_UNIT_THALAI_THIRVAI</DefaultUnit>			
 			<!--<MaxPlayerInstances>3</MaxPlayerInstances>-->
 		</Row>
 	</UnitClasses>
@@ -90,6 +90,17 @@
 			<UnitType>UNIT_EXOTIC_UNIT_THALAI_THIRVAI</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>	
+
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_THALAI_THIRVAI</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_THALAI_THIRVAI</UnitType>
+			<PromotionType>PROMOTION_NAVAL_RANGED_SHIP</PromotionType>
+		</Row>
+
+
 	</Unit_FreePromotions>
 	
 	<UnitGameplay2DScripts>

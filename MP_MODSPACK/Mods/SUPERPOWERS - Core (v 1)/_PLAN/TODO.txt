@@ -1,0 +1,108 @@
+TD- barbarian units
+D- unit obsolescence information to future
+TD- improvement osbsolescence?
+D- carl gustav era change
+TD- carrier resupply for players
+D- better CS city defences after capture
+D- 45dds compression fixes in icons
+D- merc ship promotion fixes for ocean traversal
+D- all new merc/future unit promotion correction
+D- late game gold surplus rebalance
+D- unit maintenance rebalance
+TD- higher strat resource costs for certain units
+D- domination spy fixes
+TD- final: unique unit/ cold war hot scenario
+TD- UI: toast notifications for important events
+TD- intro scene for changelog and fixes
+TD- internal trade policy fix mercantilism
+TD- new loading screens
+TD- some art changes
+TD- ministries changes
+TD- remove tech deficit from electricity (maybe)
+TD- add tech deficit surplus indicators
+TD- military class icons
+TD- new promotion icons
+TD- more ancient era units
+TD- scg search function
+D- happ rework
+D- more unit maintenance
+
+TD- enable policy trees for the early game
+D- future tech arrangement 
+D- obsolete ww2 units by the modern era
+TD- future units icons
+TD- mech artillery size increase
+D- Remove CS leaders
+D- battlemech size reduction, count increase
+D- domination great game rebalance
+TD- updated promotions art
+TD- updated unit/building icons
+- fix texts
+T- FIX MERC SHIPS/UNITS
+TD- fix carrier aircraft not defending (?)
+D- more pop growth for AI
+D- reduce trade routes
+D- integrate fish resource fixes
+D- neo-dreadnought -> Juggernaut
+- CS cannot build many buildings/deliberation
+- AI Artillery promotions for siege
+- AI ship promotion vs cities
+- increase supply
+- fix IGE
+- allow purchasing in puppets
+- spawn preferences for civs
+- lakes yield
+- fix fireships
+- transfer fish farm yield to coast
+- transfer deep sea rig yield to ocean
+- integrate changes
+- city text fixes
+D- cruiser air sweep balance
+D- embarked strength increase
+- city AA changes
+D- fishfarm adjustments/fixes
+- specialist slots increase
+- manpower adjust
+- PROMOTION TEXT CORRECTION
+- STRENGTH FIXES
+- city plane view
+- supercarrier icon change
+- automated armies
+- mecha projects
+- AI buff adjust/two boss civs
+- puppet view
+- CS defences given by lua
+
+- ballista buff (naval + unit)
+D- gametime (set to vanilla)
+D- manpower reduction
+D- trade gold reduction
+- production automation ui icon
+- aircraft ranges
+- interception promotion for carriers
+- fix UU promotions
+- more specialists
+- orbital bombardment fix
+-----------------------------------------------------------------------------------------------
+
+CS DEFENCE BUILDING
+	UNIQUE DEFENCE BUILDINGS FOR CS
+	NEVER LOST ON CAPTURE
+	cs version of defensive buildings
+	
+BUILDING REPLACEMENT FOR CS
+	BUILDING_PALISADE_WALL		BUILDINGCLASS_PALISADE_WALL		BUILDING_PALISADE_WALL_CS		TXT_KEY_BUILDING_PALISADE_WALL
+	BUILDING_WALLS				BUILDINGCLASS_WALLS				BUILDING_WALLS_CS				TXT_KEY_BUILDING_WALLS
+	BUILDING_CASTLE				BUILDINGCLASS_CASTLE			BUILDING_CASTLE_CS				TXT_KEY_BUILDING_CASTLE
+	BUILDING_BARRACKS			BUILDINGCLASS_BARRACKS			BUILDING_BARRACKS_CS			TXT_KEY_BUILDING_BARRACKS
+	BUILDING_ARMORY				BUILDINGCLASS_ARMORY			BUILDING_ARMORY_CS				TXT_KEY_BUILDING_ARMORY
+	BUILDING_ARSENAL			BUILDINGCLASS_ARSENAL			BUILDING_ARSENAL_CS				TXT_KEY_BUILDING_ARSENAL
+	BUILDING_MILITARY_BASE		BUILDINGCLASS_MILITARY_BASE		BUILDING_MILITARY_BASE_CS		TXT_KEY_BUILDING_MILITARY_BASE
+	
+	BUILDING_WOOD_DOCK			BUILDINGCLASS_WOOD_DOCK			BUILDING_WOOD_DOCK_CS			TXT_KEY_BUILDING_WOOD_DOCK
+	BUILDING_SHIPYARD			BUILDINGCLASS_SHIPYARD			BUILDING_SHIPYARD_CS			TXT_KEY_BUILDING_SHIPYARD
+	
+Unit_ResourceQuantityRequirements
+
+Units-------
+metal gear rex

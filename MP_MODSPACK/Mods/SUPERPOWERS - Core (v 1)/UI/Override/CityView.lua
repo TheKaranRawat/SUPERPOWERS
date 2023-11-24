@@ -1899,7 +1899,7 @@ function OnCityViewUpdate()
 			
 		local fGrowthProgressPercent = iCurrentFood / iFoodNeeded;			
 		
-		-- Viewing mode only
+		-- Viewing mode only		(CITY else PUPPET)
 		if (UI.IsCityScreenViewingMode()) then
 		
 		
@@ -1945,7 +1945,7 @@ function OnCityViewUpdate()
 		
 		
 			--SP City Automation
---			Controls.BTNCityAuto:SetDisabled( false );
+			Controls.BTNCityAuto:SetDisabled( false );
 --			Controls.BTNCityCopyOrder:SetDisabled( false );
 			
 			
@@ -3035,7 +3035,7 @@ Events.GameplaySetActivePlayer.Add(OnEventActivePlayerChanged);
 
 
 
---[[
+
 --------------------------------------------------------SP City Copy Focus (used to be copy capital but I think copying current city is better!)----------------------------------------------------------------
 function OnCopyCapitalFocus()
     print ("Copy Capital Focus pressed!")
@@ -3122,6 +3122,8 @@ Controls.BTNCopyCapitalOrder:RegisterCallback( Mouse.eLClick, OnCopyCapitalOrder
 
 
 --------------------------------------------------------SP Clear All Orders----------------------------------------------------------------
+
+--[[
 function OnClearAllOrder()
     print ("Copy Capital Focus pressed!")
     local player = Players[Game.GetActivePlayer()]
@@ -3139,7 +3141,7 @@ function OnClearAllOrder()
 	end	
 end
 Controls.BTNClearAllProduction:RegisterCallback( Mouse.eLClick, OnClearAllOrder);
-
+]]--
 
 
 
@@ -3167,7 +3169,6 @@ Controls.BTNCityAuto:RegisterCheckHandler(OnCityAutomation)
 
 
 
-]]--
 
 ----------------------------------------------------------SP One-Clik to fill all same types of specialists---------------------------------------------------------------
 

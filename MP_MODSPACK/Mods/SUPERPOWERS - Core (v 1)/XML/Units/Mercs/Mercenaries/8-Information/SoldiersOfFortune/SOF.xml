@@ -95,7 +95,10 @@
 			<UnitType>UNIT_EXOTIC_UNIT_SOF</UnitType>
 			<PromotionType>PROMOTION_PARADROP_II</PromotionType>
 		</Row>
-		
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SOF</UnitType>
+			<PromotionType>PROMOTION_SPECIAL_FORCES_COMBAT</PromotionType>
+		</Row>		
 	</Unit_FreePromotions>
 
 	<UnitGameplay2DScripts>

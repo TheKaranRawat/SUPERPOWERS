@@ -17,15 +17,15 @@
 			</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SPECIALISTS_SCIENTIFIC_LV1</Tag>
-			<Text>[COLOR_CYAN]Science Foundation (Lv1)[ENDCOLOR]</Text>
+			<Text>[ICON_GREAT_SCIENTIST] [COLOR_CYAN]Early Research Grants[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SPECIALISTS_SCIENTIFIC_LV2</Tag>
-			<Text>[COLOR_CYAN]Science Foundation (Lv2)[ENDCOLOR]</Text>
+			<Text>[ICON_GREAT_SCIENTIST] [COLOR_CYAN]Industrial Research Grants[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SPECIALISTS_SCIENTIFIC_LV3</Tag>
-			<Text>[COLOR_CYAN]Science Foundation (Lv3)[ENDCOLOR]</Text>
+			<Text>[ICON_GREAT_SCIENTIST] [COLOR_CYAN]Modern Research Grants [ENDCOLOR]</Text>
 		</Row>
 
 		<Row>
@@ -35,15 +35,15 @@
 		
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SPECIALISTS_ENGINEERING_LV1</Tag>
-			<Text>[COLOR_YIELD_FOOD]Engineering Association (Lv1)[ENDCOLOR]</Text>
+			<Text>[ICON_GREAT_ENGINEER] [COLOR_YIELD_FOOD]Early Engineering Subsidies[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SPECIALISTS_ENGINEERING_LV2</Tag>
-			<Text>[COLOR_YIELD_FOOD]Engineering Association (Lv2)[ENDCOLOR]</Text>
+			<Text>[ICON_GREAT_ENGINEER] [COLOR_YIELD_FOOD]Industrial Engineering Subsidies[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SPECIALISTS_ENGINEERING_LV3</Tag>
-			<Text>[COLOR_YIELD_FOOD]Engineering Association (Lv3)[ENDCOLOR]</Text>
+			<Text>[ICON_GREAT_ENGINEER] [COLOR_YIELD_FOOD]Modern Engineering Subsidies[ENDCOLOR]</Text>
 		</Row>
 
 		<Row>
@@ -52,15 +52,15 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SPECIALISTS_ARTISTIC_LV1</Tag>
-			<Text>[COLOR_MAGENTA]Art Foundation (Lv1)[ENDCOLOR]</Text>
+			<Text>[ICON_GREAT_ARTIST] [COLOR_MAGENTA]Early Arts Funding[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SPECIALISTS_ARTISTIC_LV2</Tag>
-			<Text>[COLOR_MAGENTA]Art Foundation (Lv2)[ENDCOLOR]</Text>
+			<Text>[ICON_GREAT_ARTIST] [COLOR_MAGENTA]Industrial Arts Funding[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SPECIALISTS_ARTISTIC_LV3</Tag>
-			<Text>[COLOR_MAGENTA]Art Foundation (Lv3)[ENDCOLOR]</Text>
+			<Text>[ICON_GREAT_ARTIST] [COLOR_MAGENTA]Modern Arts Funding[ENDCOLOR]</Text>
 		</Row>
 
 		<Row>
@@ -73,15 +73,15 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SPECIALISTS_MERCHANT_LV1</Tag>
-			<Text>[COLOR_YELLOW]Commercial Guild (Lv1)[ENDCOLOR]</Text>
+			<Text>[ICON_GREAT_MERCHANT] [COLOR_YELLOW]Early Market Regulation[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SPECIALISTS_MERCHANT_LV2</Tag>
-			<Text>[COLOR_YELLOW]Commercial Guild (Lv2)[ENDCOLOR]</Text>
+			<Text>[ICON_GREAT_MERCHANT] [COLOR_YELLOW]Industrial Market Regulation[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_SPECIALISTS_MERCHANT_LV3</Tag>
-			<Text>[COLOR_YELLOW]Commercial Guild (Lv3)[ENDCOLOR]</Text>
+			<Text>[ICON_GREAT_MERCHANT] [COLOR_YELLOW]Modern Market Regulation[ENDCOLOR]</Text>
 		</Row>
 
 

@@ -1,0 +1,22 @@
+1. Enable mods to compile (DLL, CORE, MPMODPACK CREATOR)
+2. Launch a game
+3. Open Firetuner
+4. Switch to the MPMPM Instance
+5. Run the command: CreateMP()
+6. Open the compiled modpack in (Assets/DLC)
+7. Place DLL in Modpack folder
+8. Navigate to Modpack/mods/superpowers/UI/override and delete InGame.lua
+
+NEW DLL STEPS
+1. Go to Modpack/mods/DLL
+2. Replace all files with new DLL files
+3. Replace DLL in /modpack with new DLL
+
+NEW INSTALL STEPS:
+ACTIVATE V97, SUPERPOWERS, MPMPM
+COMPILE PACK
+GO TO MP_MODPACKS AND PUT V88 DLL HERE
+
+HOW TO CHECK ISSUES:
+PRODUCTION SPECIALIST TEST
+DREADNOUGHT AOE TEST

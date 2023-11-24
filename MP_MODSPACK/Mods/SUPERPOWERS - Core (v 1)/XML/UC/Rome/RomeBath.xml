@@ -10,7 +10,8 @@
 			<Text>The Thermae is a Roman unique building that increases the speed at which [ICON_GREAT_PEOPLE] Great People are generated within a city. Unlike the Garden it replaces, it yields an additional 2 [ICON_FOOD] Food, 2 [ICON_CULTURE] Culture, and 2 [ICON_RESEARCH] Science. Requires Fresh Water.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_3ROMEGARDEN_HELP">
-			<Text>Increases the speed at which [ICON_GREAT_PEOPLE] Great People are generated in a city and yields a small amount of [ICON_FOOD] Food, [ICON_CULTURE] Culture, and [ICON_RESEARCH] Science. Requires Fresh Water. Only Rome may build it.</Text>
+			<Text>Increases the speed at which [ICON_GREAT_PEOPLE] Great People are generated in a city and yields a small amount of [ICON_FOOD] Food, [ICON_CULTURE] Culture, and [ICON_RESEARCH] Science. Requires Fresh Water. Only Rome may build it.
+			[NEWLINE]-1% [ICON_HAPPINESS_4] Unhappiness nationwide for every Thermae.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_3ROMEGARDEN_TEXT">
 			<Text>

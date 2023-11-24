@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/16/2018 7:42:01 PM -->
+<GameData>
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_SABR</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>Vehicle</Formation>
+		</Row>
+	</ArtDefine_UnitInfos>
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_SABR</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SABR</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_SABR</Type>
+			<Scale>0.100000001490116</Scale>
+			<Model>sabr.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALSM</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SABR</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLongRangedAttack>1</HasLongRangedAttack>
+			<HasStationaryMelee>1</HasStationaryMelee>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+			<ReformBeforeCombat>1</ReformBeforeCombat>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SABR</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25.0</VisKillStrengthMin>
+			<VisKillStrengthMax>50.0</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_TANK_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION20POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SABR</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<ProjectileSpeed>4.0</ProjectileSpeed>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_SABR</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>MSFFlagMetalGear.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+	
+
+	<IconTextureAtlases>
+		
+		<Row>
+			<Atlas>MECHARTY_ICON</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>MechArty256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MECHARTY_ICON</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>MechArty128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MECHARTY_ICON</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>MechArty80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MECHARTY_ICON</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>MechArty64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MECHARTY_ICON</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>MechArty45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		
+		<!-- icon atlas -->
+		<Row>
+			<Atlas>FLAG_MECHARTY</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>MechArtyFlag.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		
+	</IconTextureAtlases>	
+
+</GameData>

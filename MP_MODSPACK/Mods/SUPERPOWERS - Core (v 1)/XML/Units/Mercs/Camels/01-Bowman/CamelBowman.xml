@@ -70,6 +70,10 @@
 			<UnitType>UNIT_SMAN_EU_CAMEL_BOWMAN</UnitType>
 			<PromotionType>PROMOTION_SMAN_SANDSTORM_PROMOTION</PromotionType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_BOWMAN</UnitType>
+			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
+		</Row>
 	</Unit_FreePromotions>
 	
 	<Unit_AITypes>

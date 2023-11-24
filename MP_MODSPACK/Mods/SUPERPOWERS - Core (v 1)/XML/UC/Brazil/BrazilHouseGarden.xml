@@ -26,20 +26,22 @@
 		</Row>
 	</Buildings>
 
-	<Building_YieldChanges>
+<!--	<Building_YieldChanges>
 		<Row>
 			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
 		</Row>
 	</Building_YieldChanges>
-	<Building_YieldModifiers>
+-->	
+<!--	<Building_YieldModifiers>
 		<Row>
 			<BuildingType>BUILDING_GRANARY</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>5</Yield>
 		</Row>
 	</Building_YieldModifiers>
+-->	
 	<Building_Flavors>
 		<Row>
 			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
@@ -74,7 +76,7 @@
 	</Building_Flavors>
 
 	<Building_ResourceYieldChanges>
-		<Row>
+<!--		<Row>
 			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
 			<ResourceType>RESOURCE_DEER</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -85,19 +87,19 @@
 			<ResourceType>RESOURCE_WHEAT</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
 			<ResourceType>RESOURCE_BANANA</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>3</Yield>
 		</Row>
-		<Row>
+<!--		<Row>
 			<BuildingType>BUILDING_HOUSE_GARDEN</BuildingType>
 			<ResourceType>RESOURCE_BISON</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
-		</Row>
+		</Row>-->
 	</Building_ResourceYieldChanges>
 
 	<Building_FeatureYieldChanges>
@@ -123,10 +125,10 @@
 			<Text>[ICON_FOOD] House Garden</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOUSE_GARDEN_HELP">
-			<Text>Each source of [ICON_RES_BANANA] Bananas produces +3 [ICON_FOOD] Foodand each source of [ICON_RES_BISON] Bison, [ICON_RES_WHEAT] Wheat, and [ICON_RES_DEER] Deer worked by this City produces +1 [ICON_FOOD] Food. +1 [ICON_FOOD] Food from Jungle tiles worked by this City.[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.</Text>
+			<Text>Each source of [ICON_RES_BANANA] Bananas produces +3 [ICON_FOOD] Food. +1 [ICON_FOOD] Food from Jungle tiles worked by this City.[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOUSE_GARDEN_STRATEGY">
-			<Text>The House Garden is the Brazilian unique building that greatly increases the food intake of a city. Unlike the Granary it replaces, the House Garden costs no maintenance and also increases the [ICON_FOOD] Food yield from Jungle tiles, regardless of their resource.</Text>
+			<Text>The House Garden is the Brazilian unique building that greatly increases the food intake of a city. Unlike the Granary it replaces, the House Garden costs no maintenance and also increases the [ICON_FOOD] Food yield from Jungle tiles, regardless of their resource, but all other Food sources will not receive the usual Granary buff.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOUSE_GARDEN_TEXT">
 			<Text>

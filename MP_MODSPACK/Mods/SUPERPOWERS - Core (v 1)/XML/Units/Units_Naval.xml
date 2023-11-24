@@ -110,7 +110,7 @@
 			<UnitFlagAtlas>CIVIL_WAR_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>CIVIL_WAR_UNIT_ATLAS</IconAtlas>
-			<ExtraMaintenanceCost>5</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -146,7 +146,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>21</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>16</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
@@ -180,7 +180,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>7</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>24</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>30</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_LITTORAL_COMBAT_SHIP</Class>
@@ -190,6 +190,7 @@
 			<Combat>260</Combat>
 			<RangedCombat>260</RangedCombat>
 			<Cost>320</Cost>
+			<HurryCostModifier>50</HurryCostModifier>
 			<Moves>8</Moves>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
@@ -213,7 +214,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>55</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>40</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -263,7 +264,7 @@
 			<Combat>50</Combat>
 			<Cost>130</Cost>
 			<Moves>6</Moves>
-			<HurryCostModifier>-1</HurryCostModifier>
+			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
@@ -286,7 +287,7 @@
 			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>11</PortraitIndex>
 			<MoveRate>WOODEN_BOAT</MoveRate>
-			<ExtraMaintenanceCost>6</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>4</ExtraMaintenanceCost>
 		</Row>
 		
 		
@@ -329,8 +330,8 @@
 			<Type>UNIT_DANISH_DRAGONSHIP</Type>
 			<PrereqTech>TECH_COMPASS</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>80</Combat>
-			<Cost>225</Cost>
+			<Combat>95</Combat>
+			<Cost>160</Cost>
 			<Moves>7</Moves>
 			<HurryCostModifier>25</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
@@ -391,15 +392,15 @@
 			<PortraitIndex>8</PortraitIndex>
 			<MoveRate>WOODEN_BOAT</MoveRate>
 			<ProjectPrereq>PROJECT_NAVAL_EXPLORATION</ProjectPrereq>
-			<ExtraMaintenanceCost>28</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>30</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_FRIGATE</Class>
 			<Type>UNIT_OTTOMAN_PRIVATEER</Type>
 			<PrereqTech>TECH_NAVIGATION</PrereqTech>
 			<BaseSightRange>3</BaseSightRange>
-			<Combat>100</Combat>
-			<Cost>340</Cost>
+			<Combat>110</Combat>
+			<Cost>200</Cost>
 			<Moves>8</Moves>
 			<HurryCostModifier>33</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
@@ -426,7 +427,7 @@
 			<PortraitIndex>21</PortraitIndex>
 			<MoveRate>WOODEN_BOAT</MoveRate>
 			<ProjectPrereq>PROJECT_NAVAL_EXPLORATION</ProjectPrereq>
-			<ExtraMaintenanceCost>14</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_FRIGATE</Class>
@@ -461,7 +462,7 @@
 			<PortraitIndex>17</PortraitIndex>
 			<MoveRate>WOODEN_BOAT</MoveRate>
 			<ProjectPrereq>PROJECT_NAVAL_EXPLORATION</ProjectPrereq>
-			<ExtraMaintenanceCost>16</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
@@ -496,7 +497,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>10</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>42</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>50</ExtraMaintenanceCost>
 		</Row>
 
 		
@@ -505,6 +506,7 @@
 			<Class>UNITCLASS_DESTROYER</Class>
 			<Type>UNIT_DESTROYER</Type>
 			<PrereqTech>TECH_SONAR</PrereqTech>
+			<ObsoleteTech>TECH_ROBOTICS</ObsoleteTech>
 			<BaseSightRange>3</BaseSightRange>
 			<Combat>180</Combat>
 			<Cost>875</Cost>
@@ -533,7 +535,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>20</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>64</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>70</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_DESTROYER</Class>
@@ -568,7 +570,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>37</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>64</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -605,7 +607,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>120</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>150</ExtraMaintenanceCost>
 			<!-- 
 			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
@@ -643,7 +645,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>59</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>100</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>130</ExtraMaintenanceCost>
 			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 		</Row>
@@ -686,7 +688,7 @@
 			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>5</PortraitIndex>
 			<MoveRate>WOODEN_BOAT</MoveRate>
-			<ExtraMaintenanceCost>12</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
@@ -723,7 +725,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>19</PortraitIndex>
 			<MoveRate>WOODEN_BOAT</MoveRate>
-			<ExtraMaintenanceCost>16</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 			<ProjectPrereq>PROJECT_NAVAL_EXPLORATION</ProjectPrereq>
 		</Row>
 		<Row>
@@ -761,7 +763,7 @@
 			<PortraitIndex>12</PortraitIndex>
 			<MoveRate>WOODEN_BOAT</MoveRate>
 			<ProjectPrereq>PROJECT_NAVAL_EXPLORATION</ProjectPrereq>
-			<ExtraMaintenanceCost>14</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
 		</Row>
 	
 
@@ -801,7 +803,7 @@
 			<UnitFlagAtlas>CIVIL_WAR_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<PortraitIndex>3</PortraitIndex>
 			<IconAtlas>CIVIL_WAR_UNIT_ATLAS</IconAtlas>
-			<ExtraMaintenanceCost>24</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>30</ExtraMaintenanceCost>
 		</Row>
 		
 		
@@ -810,6 +812,7 @@
 			<Class>UNITCLASS_SUBMARINE</Class>
 			<Type>UNIT_SUBMARINE</Type>
 			<PrereqTech>TECH_SONAR</PrereqTech>
+			<ObsoleteTech>TECH_COMPUTERS</ObsoleteTech>
 			<BaseSightRange>5</BaseSightRange>
 			<Combat>60</Combat>
 			<RangedCombat>120</RangedCombat>
@@ -840,12 +843,13 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>22</PortraitIndex>
 			<MoveRate>SUB</MoveRate>
-			<ExtraMaintenanceCost>32</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>40</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_SUBMARINE</Class>
 			<Type>UNIT_GERMAN_UBOAT</Type>
 			<PrereqTech>TECH_SONAR</PrereqTech>
+			<ObsoleteTech>TECH_COMPUTERS</ObsoleteTech>
 			<BaseSightRange>5</BaseSightRange>
 			<Combat>80</Combat>
 			<RangedCombat>120</RangedCombat>
@@ -877,7 +881,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>53</PortraitIndex>
 			<MoveRate>SUB</MoveRate>
-			<ExtraMaintenanceCost>26</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>30</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
@@ -955,8 +959,45 @@
 			<ExtraMaintenanceCost>100</ExtraMaintenanceCost>
 		</Row>
 
-		
-		
+		<Row>
+			<Class>UNITCLASS_SSBN</Class>
+			<Type>UNIT_SSBN</Type>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+			<BaseSightRange>6</BaseSightRange>
+			<Combat>300</Combat>
+			<RangedCombat>250</RangedCombat>
+			<Cost>3500</Cost>
+			<Moves>10</Moves>
+			<Range>2</Range>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SSBN</Description>
+			<Civilopedia>TXT_KEY_UNIT_SSBN_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SSBN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SSBN_HELP</Help>
+			<ProjectPrereq>PROJECT_MANHATTAN_PROJECT</ProjectPrereq>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>80</AdvancedStartCost>
+			<MinAreaSize>20</MinAreaSize>
+			<RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
+			<XPValueAttack>12</XPValueAttack>
+			<XPValueDefense>12</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_NUKE</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_NUCLEAR_SUBMARINE</UnitArtInfo>
+			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>76</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>34</PortraitIndex>
+			<MoveRate>SUB</MoveRate>
+			<ExtraMaintenanceCost>120</ExtraMaintenanceCost>
+		</Row>		
 		
 
 		<!--Naval Ranged-->
@@ -994,16 +1035,16 @@
 			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
 			<PortraitIndex>19</PortraitIndex>
 			<MoveRate>WOODEN_BOAT</MoveRate>
-			<ExtraMaintenanceCost>14</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_GREAT_GALLEASS</Class>
 			<Type>UNIT_KOREAN_TURTLE_SHIP</Type>
 			<PrereqTech>TECH_GUILDS</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>100</Combat>
-			<RangedCombat>60</RangedCombat>
-			<Cost>280</Cost>
+			<Combat>120</Combat>
+			<RangedCombat>80</RangedCombat>
+			<Cost>230</Cost>
 			<Moves>5</Moves>
 			<Range>3</Range>
 			<HurryCostModifier>50</HurryCostModifier>
@@ -1029,7 +1070,7 @@
 			<UnitFlagIconOffset>1</UnitFlagIconOffset>
 			<PortraitIndex>1</PortraitIndex>
 			<MoveRate>WOODEN_BOAT</MoveRate>
-			<ExtraMaintenanceCost>14</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -1066,7 +1107,7 @@
 			<PortraitIndex>9</PortraitIndex>
 			<MoveRate>WOODEN_BOAT</MoveRate>
 			<ProjectPrereq>PROJECT_NAVAL_EXPLORATION</ProjectPrereq>
-			<ExtraMaintenanceCost>28</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>30</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
@@ -1103,7 +1144,7 @@
 			<PortraitIndex>24</PortraitIndex>
 			<MoveRate>WOODEN_BOAT</MoveRate>
 			<ProjectPrereq>PROJECT_NAVAL_EXPLORATION</ProjectPrereq>
-			<ExtraMaintenanceCost>26</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_SHIP_OF_THE_LINE</Class>
@@ -1139,7 +1180,7 @@
 			<PortraitIndex>44</PortraitIndex>
 			<MoveRate>WOODEN_BOAT</MoveRate>
 			<ProjectPrereq>PROJECT_NAVAL_EXPLORATION</ProjectPrereq>
-			<ExtraMaintenanceCost>24</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -1177,7 +1218,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>20</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>50</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
 		</Row>
 		
 		<Row>
@@ -1215,12 +1256,13 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>23</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>64</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>80</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_HEAVY_CRUISER</Class>
 			<Type>UNIT_GREEK_ARMORED_CRUISER</Type>
 			<PrereqTech>TECH_SONAR</PrereqTech>
+			<ObsoleteTech>TECH_ADVANCED_BALLISTICS</ObsoleteTech>
 			<BaseSightRange>3</BaseSightRange>
 			<Combat>280</Combat>
 			<RangedCombat>180</RangedCombat>
@@ -1228,7 +1270,7 @@
 			<Moves>8</Moves>
 			<Range>3</Range>
 			<AirInterceptRange>3</AirInterceptRange>
-			<HurryCostModifier>-1</HurryCostModifier>
+			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1251,7 +1293,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>54</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>55</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -1265,7 +1307,7 @@
 			<Cost>1800</Cost>
 			<Moves>9</Moves>
 			<Range>3</Range>
-			<AirInterceptRange>4</AirInterceptRange>
+			<AirInterceptRange>5</AirInterceptRange>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -1372,11 +1414,11 @@
 			<Class>UNITCLASS_GUIDED_MISSILE</Class>
 			<Type>UNIT_FRANCE_EUROCOPTER_TIGER</Type>
 			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
-			<RangedCombat>370</RangedCombat>
+			<RangedCombat>250</RangedCombat>
 			<Cost>-1</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
-			<Range>12</Range>
+			<Range>8</Range>
 			<Special>SPECIALUNIT_MISSILE</Special>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_MISSILE_AIR</DefaultUnitAI>
@@ -1445,7 +1487,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>80</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>100</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_DREADNOUGHT</Class>
@@ -1457,7 +1499,7 @@
 			<Cost>1000</Cost>
 			<Moves>6</Moves>
 			<Range>4</Range>
-			<HurryCostModifier>-1</HurryCostModifier>
+			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1480,7 +1522,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>29</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>64</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
 		</Row>
 		
 		
@@ -1529,7 +1571,7 @@
 			<Cost>2500</Cost>
 			<Moves>7</Moves>
 			<Range>5</Range>
-			<HurryCostModifier>-1</HurryCostModifier>
+			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -1590,16 +1632,7 @@
 			<MoveRate>BOAT</MoveRate>
 			<ExtraMaintenanceCost>450</ExtraMaintenanceCost>
 		</Row>
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		
 		<!--Aircraft Carriers-->
 
@@ -1608,8 +1641,9 @@
 			<Class>UNITCLASS_CARRIER</Class>
 			<Type>UNIT_CARRIER</Type>
 			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+			<ObsoleteTech>TECH_COMPUTERS</ObsoleteTech>
 			<BaseSightRange>4</BaseSightRange>
-			<Combat>200</Combat>
+			<Combat>250</Combat>
 			<Cost>2600</Cost>
 			<Moves>7</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -1636,7 +1670,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>23</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>120</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>300</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
@@ -1672,7 +1706,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>42</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>300</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>1000</ExtraMaintenanceCost>
 		</Row>
 		
 		<Row>
@@ -1680,10 +1714,10 @@
 			<Type>UNIT_AMERICAN_NIMITZ</Type>
 			<PrereqTech>TECH_COMPUTERS</PrereqTech>
 			<BaseSightRange>4</BaseSightRange>
-			<Combat>360</Combat>
+			<Combat>350</Combat>
 			<Cost>6000</Cost>
 			<Moves>8</Moves>
-			<HurryCostModifier>-1</HurryCostModifier>
+			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
@@ -1708,7 +1742,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>39</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>600</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>1000</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
@@ -1716,7 +1750,7 @@
 			<Type>UNIT_SUPER_CARRIER</Type>
 			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
 			<BaseSightRange>4</BaseSightRange>
-			<Combat>360</Combat>
+			<Combat>400</Combat>
 			<Cost>8500</Cost>
 			<Moves>8</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -1744,7 +1778,7 @@
 			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
 			<PortraitIndex>47</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>800</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>2000</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -1780,16 +1814,16 @@
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>43</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
-			<ExtraMaintenanceCost>16</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_CARAVEL</Class>
 			<Type>UNIT_PORTUGUESE_NAU</Type>
 			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
 			<BaseSightRange>4</BaseSightRange>
-			<Combat>40</Combat>
+			<Combat>60</Combat>
 			<Cost>90</Cost>
-			<Moves>9</Moves>
+			<Moves>10</Moves>
 			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -1816,50 +1850,6 @@
 			<MoveRate>BOAT</MoveRate>
 			<NoMaintenance>true</NoMaintenance>
 		</Row>
-		
-
-
-
-		<Row>
-			<Class>UNITCLASS_SSBN</Class>
-			<Type>UNIT_SSBN</Type>
-			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
-			<BaseSightRange>6</BaseSightRange>
-			<Combat>300</Combat>
-			<RangedCombat>250</RangedCombat>
-			<Cost>3500</Cost>
-			<Moves>10</Moves>
-			<Range>2</Range>
-			<HurryCostModifier>-1</HurryCostModifier>
-			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
-			<Domain>DOMAIN_SEA</Domain>
-			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_SSBN</Description>
-			<Civilopedia>TXT_KEY_UNIT_SSBN_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_SSBN_STRATEGY</Strategy>
-			<Help>TXT_KEY_UNIT_SSBN_HELP</Help>
-			<ProjectPrereq>PROJECT_MANHATTAN_PROJECT</ProjectPrereq>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<Mechanized>true</Mechanized>
-			<AdvancedStartCost>80</AdvancedStartCost>
-			<MinAreaSize>20</MinAreaSize>
-			<RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
-			<XPValueAttack>12</XPValueAttack>
-			<XPValueDefense>12</XPValueDefense>
-			<SpecialCargo>SPECIALUNIT_NUKE</SpecialCargo>
-			<DomainCargo>DOMAIN_AIR</DomainCargo>
-			<UnitArtInfo>ART_DEF_UNIT_NUCLEAR_SUBMARINE</UnitArtInfo>
-			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
-			<UnitFlagIconOffset>76</UnitFlagIconOffset>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
-			<PortraitIndex>34</PortraitIndex>
-			<MoveRate>SUB</MoveRate>
-			<ExtraMaintenanceCost>120</ExtraMaintenanceCost>
-		</Row>
-		
 		
 	</Units>
 
@@ -2631,9 +2621,10 @@
 			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
 		</Row>
 	
-
-
-	
+		<Row>
+			<UnitType>UNIT_PARTICLE_CANNON</UnitType>
+			<PromotionType>PROMOTION_NAVAL_CAPITAL_SHIP</PromotionType>
+		</Row>	
 
 
 
@@ -3034,76 +3025,76 @@
 		<Row>
 			<UnitType>UNIT_TRIREME</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 
 		<Row>
 			<UnitType>UNIT_GALLEASS</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_DANISH_DRAGONSHIP</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 
 		
 		<Row>
 			<UnitType>UNIT_FRIGATE</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>4</Cost>
+			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_OTTOMAN_PRIVATEER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>4</Cost>
+			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SPANISH_ARMADA</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>4</Cost>
+			<Cost>8</Cost>
 		</Row>
 
 
 		<Row>
 			<UnitType>UNIT_IRONCLAD</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>4</Cost>
+			<Cost>10</Cost>
 		</Row>
 	
 
 		<Row>
 			<UnitType>UNIT_DESTROYER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>5</Cost>
+			<Cost>10</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_JAPANESE_DESTROYER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>5</Cost>
+			<Cost>10</Cost>
 		</Row>
 		
 		<Row>
 			<UnitType>UNIT_MODERN_DESTROYER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>5</Cost>
+			<Cost>12</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_KOREAN_SEJONG_CLASS</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>5</Cost>
+			<Cost>12</Cost>
 		</Row>
 
 		<Row>
 			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SLOOP_OF_WAR</UnitType>
@@ -3119,29 +3110,29 @@
 		<Row>
 			<UnitType>UNIT_LIGHT_IRONCLAD</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>4</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SUBMARINE</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>4</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GERMAN_UBOAT</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>4</Cost>
+			<Cost>6</Cost>
 		</Row>
 
 		<Row>
 			<UnitType>UNIT_DIESEL_SUBMARINE</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>4</Cost>
+			<Cost>8</Cost>
 		</Row>
 
 		<Row>
 			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>6</Cost>
+			<Cost>10</Cost>
 		</Row>
 
 
@@ -3150,130 +3141,132 @@
 		<Row>
 			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>5</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_KOREAN_TURTLE_SHIP</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>5</Cost>
+			<Cost>6</Cost>
 		</Row>
 		
 		<Row>
 			<UnitType>UNIT_SHIP_OF_THE_LINE</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>6</Cost>
+			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>6</Cost>
+			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SONGHAI_EXPEDITION_FLEET</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>6</Cost>
+			<Cost>8</Cost>
 		</Row>
 
 		<Row>
 			<UnitType>UNIT_PROTECTED_CRUISER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>7</Cost>
+			<Cost>10</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_HEAVY_CRUISER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>8</Cost>
+			<Cost>12</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GREEK_ARMORED_CRUISER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>8</Cost>
+			<Cost>12</Cost>
 		</Row>
 
 		<Row>
 			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>9</Cost>
+			<Cost>14</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_KIROV_BATTLECRUISER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>9</Cost>
+			<Cost>14</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FRANCE_MISTRAL</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>12</Cost>
+			<Cost>14</Cost>
 		</Row>
 
 
 		<Row>
 			<UnitType>UNIT_DREADNOUGHT</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>12</Cost>
+			<Cost>16</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ROMAN_REUMBERTO</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>8</Cost>
+			<Cost>16</Cost>
 		</Row>
 
 
 		<Row>
 			<UnitType>UNIT_BATTLESHIP</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>14</Cost>
+			<Cost>18</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_JAPANESE_BATTLESHIP</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>10</Cost>
+			<Cost>18</Cost>
 		</Row>
 		
 		<Row>
 			<UnitType>UNIT_FUTURE_BATTLESHIP</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>16</Cost>
+			<Cost>24</Cost>
 		</Row>
 	
 
 		<Row>
 			<UnitType>UNIT_CARRIER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>10</Cost>
+			<Cost>20</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_NUCLEAR_CARRIER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>12</Cost>
+			<Cost>24</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_AMERICAN_NIMITZ</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>12</Cost>
+			<Cost>24</Cost>
 		</Row>
 		
 		<Row>
 			<UnitType>UNIT_SUPER_CARRIER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>14</Cost>
+			<Cost>30</Cost>
 		</Row>
 
 
 		<Row>
 			<UnitType>UNIT_CARAVEL</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_PORTUGUESE_NAU</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>4</Cost>
 		</Row>
 
 
 		<Row>
 			<UnitType>UNIT_SSBN</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>8</Cost>
 		</Row>
 		
 	</Unit_ResourceQuantityRequirements>
@@ -3666,6 +3659,12 @@
 			<UnitType>UNIT_SSBN</UnitType>
 			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_SSBN</UnitType>
+			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+		</Row>
+		
 	</Unit_AITypes>
 
 	

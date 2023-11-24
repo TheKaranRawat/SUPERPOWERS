@@ -2,7 +2,7 @@
 <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" version="88">
   <Properties>
     <Name>SUPERPOWERS - DLL</Name>
-    <Teaser>Various DLL mod components (1.0.3.279)</Teaser>
+    <Teaser>[COLOR_GREEN]Various DLL mod components (1.0.3.279)[ENDCOLOR]</Teaser>
     <Description>IMPORTANT - Only one mod with a replacement DLL may be active at a time.
 
 See http://forums.civfanatics.com/showthread.php?t=479600 for details
@@ -102,7 +102,9 @@ Source code can be obtained from https://github.com/whoward69/DLL-VMC</Descripti
     <File md5="90B35957364D5B777E968ADC0A7ED7A8" import="0">DB/_TEXT/AllText_ru_RU.xml</File>
     <File md5="258FF4838BADA3829D6657C907D92E2A" import="0">DB/_TEXT/AllText_zh_CN.xml</File>
     <File md5="C0C6F16E22726E8CAF6477CBA9D43EF5" import="0">DB/_TEXT/AllText_zh_Hant_HK.xml</File>
+	<!--
     <File md5="86E4E06F4E5A8A04ABD323475F92E18F" import="0">DLL/CvGameCore_Expansion2.dll</File>
+	-->
     <File md5="F442DF2BB92D28AB8EFFFB8E8FDECB60" import="0">LUA/Stfu.lua</File>
     <File md5="AC521922E5A32A03FE894DC12A5C9533" import="1">UI/InGame/YieldIconManager.lua</File>
     <File md5="8FD4EF5AAB5BD6E16DB8EBE95963FC33" import="1">UI/InGame/YieldIconManager.xml</File>

@@ -5,7 +5,7 @@
 		<Row>
 			<Type>UNITCLASS_EXOTIC_UNIT_SMAN_SUB_HUNTER</Type>
 			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_SMAN_SUB_HUNTER</Description>
-			<DefaultUnit>UNIT_EXOTIC_UNIT_SMAN_SUB_HUNTER</DefaultUnit>-->			
+			<DefaultUnit>UNIT_EXOTIC_UNIT_SMAN_SUB_HUNTER</DefaultUnit>
 			<MaxPlayerInstances>5</MaxPlayerInstances>
 		</Row>
 	</UnitClasses>
@@ -96,6 +96,11 @@
 			<UnitType>UNIT_EXOTIC_UNIT_SMAN_SUB_HUNTER</UnitType>
 			<PromotionType>PROMOTION_WITHDRAW_BEFORE_MELEE</PromotionType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SMAN_SUB_HUNTER</UnitType>
+			<PromotionType>PROMOTION_NAVALMELEE_COMBAT</PromotionType>
+		</Row>
+
 	</Unit_FreePromotions>
 	
 	<UnitGameplay2DScripts>

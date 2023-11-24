@@ -16,6 +16,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<GreatPeopleRateModifier>25</GreatPeopleRateModifier>
+			<UnhappinessModifier>-1</UnhappinessModifier>			
 			<EnhancedYieldTech>TECH_FLIGHT</EnhancedYieldTech>
 			<TechEnhancedTourism>4</TechEnhancedTourism>
 			<HurryCostModifier>25</HurryCostModifier>
@@ -99,7 +100,8 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_RIAD_HELP">
-			<Text>+25% [ICON_GREAT_PEOPLE] Great People generation in the city. +1 [ICON_FOOD] Food, [ICON_PRODUCTION] and [ICON_GOLD] from each Desert Tile.</Text>
+			<Text>+25% [ICON_GREAT_PEOPLE] Great People generation in the city. +1 [ICON_FOOD] Food, [ICON_PRODUCTION] and [ICON_GOLD] from each Desert Tile.
+			[NEWLINE]-1% [ICON_HAPPINESS_4] Unhappiness nationwide for every Riad.</Text>
 		</Row>
 
 	</Language_en_US>

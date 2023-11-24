@@ -15,7 +15,7 @@
 			<Set Follower="true" Pantheon="false"/>
 			<Where Type="BELIEF_GODDESS_LOVE" Pantheon="true"/>
 		</Update>-->
-
+		
 		<Update>
 			<Set CityRangeStrikeModifier="100" />
 			<Where Type="BELIEF_GODDESS_STRATEGY" />
@@ -63,7 +63,19 @@
 
 
 		<!-- ADDITIONS -->
-		
+		<Row>
+			<Type>BELIEF_GODDESS_OF_BEAUTY</Type>
+			<Description>TXT_KEY_BELIEF_GODDESS_OF_BEAUTY</Description>
+			<ShortDescription>TXT_KEY_BELIEF_GODDESS_OF_BEAUTY_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>		
+		<Row>
+			<Type>BELIEF_HOLY_BEVERAGE</Type>
+			<Description>TXT_KEY_BELIEF_HOLY_BEVERAGE</Description>
+			<ShortDescription>TXT_KEY_BELIEF_HOLY_BEVERAGE_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+
 		<Row>
 			<Type>BELIEF_MARSH_BELIEF</Type>
 			<Description>TXT_KEY_BELIEF_MARSH_BELIEF</Description>
@@ -140,6 +152,7 @@
 
 
 	<Belief_ResourceHappiness>
+		
 		<Row>
 			<BeliefType>BELIEF_TEARS_OF_GODS</BeliefType>
 			<ResourceType>RESOURCE_PEARLS</ResourceType>
@@ -304,6 +317,44 @@
 			<Yield>6</Yield>
 		</Row>
 
+		<Row>
+			<BeliefType>BELIEF_HOLY_BEVERAGE</BeliefType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_HOLY_BEVERAGE</BeliefType>
+			<ResourceType>RESOURCE_TEA</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_HOLY_BEVERAGE</BeliefType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>6</Yield>
+		</Row>				
+
+		<Row>
+			<BeliefType>BELIEF_GODDESS_OF_BEAUTY</BeliefType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GODDESS_OF_BEAUTY</BeliefType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>6</Yield>
+		</Row>		
+		<Row>
+			<BeliefType>BELIEF_GODDESS_OF_BEAUTY</BeliefType>
+			<ResourceType>RESOURCE_PERFUME</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>6</Yield>
+		</Row>								
+
 		<!--<Row>
 			<BeliefType>BELIEF_GOD_SEA</BeliefType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
@@ -316,17 +367,16 @@
 	
 	<Belief_ImprovementYieldChanges>
 		<Delete BeliefType="BELIEF_GOD_SEA"/>
-
-
+		
 		<Row>
 			<BeliefType>BELIEF_GOD_SEA</BeliefType>
-			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_GOD_SEA</BeliefType>
-			<ImprovementType>IMPROVEMENT_FISHERY_MOD</ImprovementType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -355,14 +405,27 @@
 			<BeliefType>BELIEF_MARSH_BELIEF</BeliefType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>8</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
+			<BeliefType>BELIEF_MARSH_BELIEF</BeliefType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_PATH</BeliefType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<!--<Row>
 			<BeliefType>BELIEF_MARSH_BELIEF</BeliefType>
 			<FeatureType>FEATURE_LAKE</FeatureType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>8</Yield>
-		</Row>
+		</Row>-->
 	</Belief_FeatureYieldChanges>
 
 	<Belief_YieldChangePerForeignCity>
@@ -391,6 +454,12 @@
 	<Belief_TerrainYieldChanges>
 		<Delete BeliefType="BELIEF_DANCE_AURORA" />
 	
+		<Row>
+			<BeliefType>BELIEF_GOD_SEA</BeliefType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>	
 		<Row>
 			<BeliefType>BELIEF_DESERT_FOLKLORE</BeliefType>
 			<TerrainType>TERRAIN_DESERT</TerrainType>

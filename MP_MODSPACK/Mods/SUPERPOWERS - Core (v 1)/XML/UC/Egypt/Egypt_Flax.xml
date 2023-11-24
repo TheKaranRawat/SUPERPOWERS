@@ -44,7 +44,7 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 
 		<Row>
@@ -54,17 +54,6 @@
 		</Row>
 	</Improvement_Yields>
 	
-	
-	
-	<Improvement_TechFreshWaterYieldChanges>
-		<Row>
-			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
-			<TechType>TECH_CALENDAR</TechType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
-		</Row>
-	</Improvement_TechFreshWaterYieldChanges>
-
 	<IconTextureAtlases>
 		<Row>
 			<Atlas>EGYPTIAN_FLAX_ATLAS</Atlas>
@@ -73,6 +62,15 @@
 			<IconsPerRow>1</IconsPerRow>
 			<IconsPerColumn>1</IconsPerColumn>
 		</Row>
+
+		<Row>
+			<Atlas>EGYPTIAN_FLAX_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>XML/UC/Egypt/EGYPT_flax128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+
 		<Row>
 			<Atlas>EGYPTIAN_FLAX_ATLAS</Atlas>
 			<IconSize>64</IconSize>
@@ -186,40 +184,23 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 			
-		</Row>
+		</Row>	
+
 		<Row>
 			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
-			<TechType>TECH_CIVIL_SERVICE</TechType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
-			
-		</Row>		
-		<Row>
-			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
-			<TechType>TECH_FERTILIZER</TechType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
-			<TechType>TECH_FERTILIZER</TechType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
-		</Row>		
-		<Row>
-			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
-			<TechType>TECH_GENETIC_ENGEERING</TechType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-			
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
-			<TechType>TECH_GENETIC_ENGEERING</TechType>
+			<TechType>TECH_CIVIL_SERVICE</TechType>			
 			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>	
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
+			<TechType>TECH_FERTILIZER</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
+		</Row>
+		
 			
-		</Row>		
 	</Improvement_TechYieldChanges>
 
 

@@ -17,9 +17,10 @@
 			<Type>UNIT_EXOTIC_UNIT_FIRE_SHIP</Type>
 			<PrereqTech>TECH_MACHINERY</PrereqTech>
 			<ObsoleteTech>TECH_STEAM_POWER</ObsoleteTech>
-			<Combat>50</Combat>
+			<Combat>40</Combat>
+			<RangedCombat>120</RangedCombat>
 			<Cost>60</Cost>
-			<Moves>2</Moves>
+			<Moves>4</Moves>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
@@ -43,7 +44,7 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_SMAN_EU_FIRESHIP</UnitArtInfo>
-			<Suicide>1</Suicide>
+			
 			
 			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
 			<PortraitIndex>31</PortraitIndex>
@@ -89,6 +90,14 @@
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_FIRE_SHIP</UnitType>
 			<PromotionType>PROMOTION_SMAN_EU_FIRESHIP</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FIRE_SHIP</UnitType>
+			<PromotionType>PROMOTION_NAVALMELEE_COMBAT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
 

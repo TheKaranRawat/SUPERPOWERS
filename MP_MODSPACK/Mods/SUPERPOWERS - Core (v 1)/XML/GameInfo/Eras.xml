@@ -16,7 +16,7 @@
 			<NoBarbUnits>false</NoBarbUnits>
 			<NoReligion>false</NoReligion>
 			<ResearchAgreementCost>100</ResearchAgreementCost>
-			<EmbarkedUnitDefense>3</EmbarkedUnitDefense>
+			<EmbarkedUnitDefense>5</EmbarkedUnitDefense>
 			<StartingUnitMultiplier>1</StartingUnitMultiplier>
 			<StartingDefenseUnits>2</StartingDefenseUnits>
 			<StartingWorkerUnits>2</StartingWorkerUnits>
@@ -64,7 +64,7 @@
 			<NoBarbUnits>false</NoBarbUnits>
 			<NoReligion>false</NoReligion>
 			<ResearchAgreementCost>150</ResearchAgreementCost>
-			<EmbarkedUnitDefense>4</EmbarkedUnitDefense>
+			<EmbarkedUnitDefense>10</EmbarkedUnitDefense>
 			<StartingUnitMultiplier>1</StartingUnitMultiplier>
 			<StartingDefenseUnits>1</StartingDefenseUnits>
 			<StartingWorkerUnits>1</StartingWorkerUnits>
@@ -112,7 +112,7 @@
 			<NoBarbUnits>false</NoBarbUnits>
 			<NoReligion>false</NoReligion>
 			<ResearchAgreementCost>200</ResearchAgreementCost>
-			<EmbarkedUnitDefense>6</EmbarkedUnitDefense>
+			<EmbarkedUnitDefense>20</EmbarkedUnitDefense>
 			<StartingUnitMultiplier>2</StartingUnitMultiplier>
 			<StartingDefenseUnits>2</StartingDefenseUnits>
 			<StartingWorkerUnits>1</StartingWorkerUnits>
@@ -160,7 +160,7 @@
 			<NoBarbUnits>false</NoBarbUnits>
 			<NoReligion>false</NoReligion>
 			<ResearchAgreementCost>250</ResearchAgreementCost>
-			<EmbarkedUnitDefense>8</EmbarkedUnitDefense>
+			<EmbarkedUnitDefense>20</EmbarkedUnitDefense>
 			<StartingUnitMultiplier>2</StartingUnitMultiplier>
 			<StartingDefenseUnits>2</StartingDefenseUnits>
 			<StartingWorkerUnits>1</StartingWorkerUnits>
@@ -208,7 +208,7 @@
 			<NoBarbUnits>true</NoBarbUnits>
 			<NoReligion>true</NoReligion>
 			<ResearchAgreementCost>300</ResearchAgreementCost>
-			<EmbarkedUnitDefense>10</EmbarkedUnitDefense>
+			<EmbarkedUnitDefense>30</EmbarkedUnitDefense>
 			<StartingUnitMultiplier>3</StartingUnitMultiplier>
 			<StartingDefenseUnits>3</StartingDefenseUnits>
 			<StartingWorkerUnits>2</StartingWorkerUnits>
@@ -256,7 +256,7 @@
 			<NoBarbUnits>true</NoBarbUnits>
 			<NoReligion>true</NoReligion>
 			<ResearchAgreementCost>350</ResearchAgreementCost>
-			<EmbarkedUnitDefense>13</EmbarkedUnitDefense>
+			<EmbarkedUnitDefense>30</EmbarkedUnitDefense>
 			<StartingUnitMultiplier>3</StartingUnitMultiplier>
 			<StartingDefenseUnits>3</StartingDefenseUnits>
 			<StartingWorkerUnits>2</StartingWorkerUnits>
@@ -306,7 +306,7 @@
 			<NoBarbUnits>true</NoBarbUnits>
 			<NoReligion>true</NoReligion>
 			<ResearchAgreementCost>350</ResearchAgreementCost>
-			<EmbarkedUnitDefense>13</EmbarkedUnitDefense>
+			<EmbarkedUnitDefense>40</EmbarkedUnitDefense>
 			<StartingUnitMultiplier>3</StartingUnitMultiplier>
 			<StartingDefenseUnits>3</StartingDefenseUnits>
 			<StartingWorkerUnits>2</StartingWorkerUnits>
@@ -356,7 +356,7 @@
 			<NoBarbUnits>true</NoBarbUnits>
 			<NoReligion>true</NoReligion>
 			<ResearchAgreementCost>400</ResearchAgreementCost>
-			<EmbarkedUnitDefense>15</EmbarkedUnitDefense>
+			<EmbarkedUnitDefense>60</EmbarkedUnitDefense>
 			<StartingUnitMultiplier>3</StartingUnitMultiplier>
 			<StartingDefenseUnits>3</StartingDefenseUnits>
 			<StartingWorkerUnits>2</StartingWorkerUnits>
@@ -406,7 +406,7 @@
 			<NoBarbUnits>true</NoBarbUnits>
 			<NoReligion>true</NoReligion>
 			<ResearchAgreementCost>450</ResearchAgreementCost>
-			<EmbarkedUnitDefense>16</EmbarkedUnitDefense>
+			<EmbarkedUnitDefense>80</EmbarkedUnitDefense>
 			<StartingUnitMultiplier>3</StartingUnitMultiplier>
 			<StartingDefenseUnits>3</StartingDefenseUnits>
 			<StartingWorkerUnits>2</StartingWorkerUnits>
@@ -459,7 +459,7 @@
 			<NoBarbUnits>true</NoBarbUnits>
 			<NoReligion>true</NoReligion>
 			<ResearchAgreementCost>500</ResearchAgreementCost>
-			<EmbarkedUnitDefense>20</EmbarkedUnitDefense>
+			<EmbarkedUnitDefense>100</EmbarkedUnitDefense>
 			<StartingUnitMultiplier>3</StartingUnitMultiplier>
 			<StartingDefenseUnits>3</StartingDefenseUnits>
 			<StartingWorkerUnits>3</StartingWorkerUnits>

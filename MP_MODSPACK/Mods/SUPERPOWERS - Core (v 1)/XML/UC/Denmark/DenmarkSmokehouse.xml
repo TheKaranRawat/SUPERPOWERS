@@ -146,6 +146,21 @@
 		</Row>
 	</Building_YieldModifiers>
 
+	<Building_TerrainYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SMOKEHOUSE</BuildingType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>	
+		<Row>
+			<BuildingType>BUILDING_SMOKEHOUSE</BuildingType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>			
+	</Building_TerrainYieldChanges>		
+
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_SMOKEHOUSE">
 			<Text>[ICON_FOOD] Smokehouse</Text>

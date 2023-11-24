@@ -9,7 +9,7 @@
 			<Set>
 				<StartingLocPercent>50</StartingLocPercent>
 				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
-				<HappinessDefault>11</HappinessDefault>
+				<HappinessDefault>20</HappinessDefault>
 				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
 				<PopulationUnhappinessMod>20</PopulationUnhappinessMod>
 				<Gold>0</Gold>
@@ -38,7 +38,7 @@
 				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
 				<AIDeclareWarProb>33</AIDeclareWarProb>
 				<AIUnhappinessPercent>100</AIUnhappinessPercent>
-				<AIGrowthPercent>100</AIGrowthPercent>
+				<AIGrowthPercent>70</AIGrowthPercent>
 				<AITrainPercent>100</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
 				<AIConstructPercent>100</AIConstructPercent>
@@ -64,7 +64,7 @@
 			<Set>
 				<StartingLocPercent>50</StartingLocPercent>
 				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
-				<HappinessDefault>11</HappinessDefault>
+				<HappinessDefault>20</HappinessDefault>
 				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
 				<PopulationUnhappinessMod>40</PopulationUnhappinessMod>
 				<Gold>0</Gold>
@@ -93,7 +93,7 @@
 				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
 				<AIDeclareWarProb>66</AIDeclareWarProb>
 				<AIUnhappinessPercent>100</AIUnhappinessPercent>
-				<AIGrowthPercent>90</AIGrowthPercent>
+				<AIGrowthPercent>60</AIGrowthPercent>
 				<AITrainPercent>100</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
 				<AIConstructPercent>100</AIConstructPercent>
@@ -117,7 +117,7 @@
 			<Set>
 				<StartingLocPercent>50</StartingLocPercent>
 				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
-				<HappinessDefault>11</HappinessDefault>
+				<HappinessDefault>20</HappinessDefault>
 				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
 				<PopulationUnhappinessMod>60</PopulationUnhappinessMod>
 				<Gold>0</Gold>
@@ -150,7 +150,7 @@
 				<AIDeclareWarProb>100</AIDeclareWarProb>
 				<AIWorkRateModifier>150</AIWorkRateModifier>
 				<AIUnhappinessPercent>100</AIUnhappinessPercent>
-				<AIGrowthPercent>80</AIGrowthPercent>
+				<AIGrowthPercent>50</AIGrowthPercent>
 				<AITrainPercent>100</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
 				<AIConstructPercent>100</AIConstructPercent>
@@ -159,7 +159,7 @@
 				<AIWorldCreatePercent>100</AIWorldCreatePercent>
 				<AIBuildingCostPercent>66</AIBuildingCostPercent>
 				<AIUnitCostPercent>100</AIUnitCostPercent>
-				<AIUnitSupplyPercent>0</AIUnitSupplyPercent>
+				<AIUnitSupplyPercent>5</AIUnitSupplyPercent>
 				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-1</AIPerEraModifier>
@@ -176,7 +176,7 @@
 			<Set>
 				<StartingLocPercent>50</StartingLocPercent>
 				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
-				<HappinessDefault>11</HappinessDefault>
+				<HappinessDefault>20</HappinessDefault>
 				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
 				<PopulationUnhappinessMod>80</PopulationUnhappinessMod>
 				<Gold>0</Gold>
@@ -209,7 +209,7 @@
 				<AIDeclareWarProb>100</AIDeclareWarProb>
 				<AIWorkRateModifier>200</AIWorkRateModifier>
 				<AIUnhappinessPercent>100</AIUnhappinessPercent>
-				<AIGrowthPercent>85</AIGrowthPercent>
+				<AIGrowthPercent>40</AIGrowthPercent>
 				<AITrainPercent>100</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
 				<AIConstructPercent>100</AIConstructPercent>
@@ -218,7 +218,7 @@
 				<AIWorldCreatePercent>100</AIWorldCreatePercent>
 				<AIBuildingCostPercent>50</AIBuildingCostPercent>
 				<AIUnitCostPercent>100</AIUnitCostPercent>
-				<AIUnitSupplyPercent>0</AIUnitSupplyPercent>
+				<AIUnitSupplyPercent>10</AIUnitSupplyPercent>
 				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-2</AIPerEraModifier>
@@ -234,7 +234,7 @@
 			<Set>
 				<StartingLocPercent>50</StartingLocPercent>
 				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
-				<HappinessDefault>11</HappinessDefault>
+				<HappinessDefault>20</HappinessDefault>
 				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
 				<PopulationUnhappinessMod>100</PopulationUnhappinessMod>
 				<Gold>0</Gold>
@@ -269,7 +269,7 @@
 				<AIDeclareWarProb>100</AIDeclareWarProb>
 				<AIWorkRateModifier>250</AIWorkRateModifier>
 				<AIUnhappinessPercent>90</AIUnhappinessPercent>
-				<AIGrowthPercent>75</AIGrowthPercent>
+				<AIGrowthPercent>30</AIGrowthPercent>
 				<AITrainPercent>100</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
 				<AIConstructPercent>100</AIConstructPercent>
@@ -278,7 +278,7 @@
 				<AIWorldCreatePercent>100</AIWorldCreatePercent>
 				<AIBuildingCostPercent>40</AIBuildingCostPercent>
 				<AIUnitCostPercent>100</AIUnitCostPercent>
-				<AIUnitSupplyPercent>0</AIUnitSupplyPercent>
+				<AIUnitSupplyPercent>15</AIUnitSupplyPercent>
 				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-5</AIPerEraModifier>
@@ -295,9 +295,9 @@
 			<Set>
 				<StartingLocPercent>50</StartingLocPercent>
 				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
-				<HappinessDefault>11</HappinessDefault>
+				<HappinessDefault>20</HappinessDefault>
 				<NumCitiesUnhappinessMod>100</NumCitiesUnhappinessMod>
-				<PopulationUnhappinessMod>100</PopulationUnhappinessMod>
+				<PopulationUnhappinessMod>120</PopulationUnhappinessMod>
 				<Gold>0</Gold>
 				<GoldFreeUnits>10</GoldFreeUnits>
 				<ProductionFreeUnits>10</ProductionFreeUnits>
@@ -329,7 +329,7 @@
 				<AIDeclareWarProb>250</AIDeclareWarProb>
 				<AIWorkRateModifier>250</AIWorkRateModifier>
 				<AIUnhappinessPercent>60</AIUnhappinessPercent>
-				<AIGrowthPercent>60</AIGrowthPercent>
+				<AIGrowthPercent>20</AIGrowthPercent>
 				<AITrainPercent>60</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
 				<AIConstructPercent>80</AIConstructPercent>
@@ -338,7 +338,7 @@
 				<AIWorldCreatePercent>140</AIWorldCreatePercent>
 				<AIBuildingCostPercent>40</AIBuildingCostPercent>
 				<AIUnitCostPercent>45</AIUnitCostPercent>
-				<AIUnitSupplyPercent>0</AIUnitSupplyPercent>
+				<AIUnitSupplyPercent>25</AIUnitSupplyPercent>
 				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-7</AIPerEraModifier>
@@ -355,9 +355,9 @@
 			<Set>
 				<StartingLocPercent>50</StartingLocPercent>
 				<AdvancedStartPointsMod>200</AdvancedStartPointsMod>
-				<HappinessDefault>15</HappinessDefault>
+				<HappinessDefault>20</HappinessDefault>
 				<NumCitiesUnhappinessMod>120</NumCitiesUnhappinessMod>
-				<PopulationUnhappinessMod>120</PopulationUnhappinessMod>
+				<PopulationUnhappinessMod>150</PopulationUnhappinessMod>
 				<Gold>0</Gold>
 				<GoldFreeUnits>15</GoldFreeUnits>
 				<ProductionFreeUnits>10</ProductionFreeUnits>
@@ -366,7 +366,7 @@
 				<RouteCostPercent>100</RouteCostPercent>
 				<UnitCostPercent>120</UnitCostPercent>
 				<BuildingCostPercent>100</BuildingCostPercent>
-				<ResearchPercent>130</ResearchPercent>
+				<ResearchPercent>100</ResearchPercent>
 				<PolicyPercent>130</PolicyPercent>
 				<ImprovementCostPercent>100</ImprovementCostPercent>
 				<CityProductionNumOptionsConsidered>2</CityProductionNumOptionsConsidered>
@@ -386,10 +386,10 @@
 				<AIStartingExploreUnits>2</AIStartingExploreUnits>
 				<AIStartingWorkerUnits>2</AIStartingWorkerUnits>
 				<AIStartingUnitMultiplier>1</AIStartingUnitMultiplier>
-				<AIDeclareWarProb>500</AIDeclareWarProb>
+				<AIDeclareWarProb>400</AIDeclareWarProb>
 				<AIWorkRateModifier>350</AIWorkRateModifier>
 				<AIUnhappinessPercent>50</AIUnhappinessPercent>
-				<AIGrowthPercent>50</AIGrowthPercent>
+				<AIGrowthPercent>20</AIGrowthPercent>
 				<AITrainPercent>50</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
 				<AIConstructPercent>66</AIConstructPercent>
@@ -398,7 +398,7 @@
 				<AIWorldCreatePercent>100</AIWorldCreatePercent>
 				<AIBuildingCostPercent>33</AIBuildingCostPercent>
 				<AIUnitCostPercent>40</AIUnitCostPercent>
-				<AIUnitSupplyPercent>15</AIUnitSupplyPercent>
+				<AIUnitSupplyPercent>50</AIUnitSupplyPercent>
 				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-9</AIPerEraModifier>
@@ -415,7 +415,7 @@
 			<Set>
 				<StartingLocPercent>50</StartingLocPercent>
 				<AdvancedStartPointsMod>150</AdvancedStartPointsMod>
-				<HappinessDefault>11</HappinessDefault>
+				<HappinessDefault>20</HappinessDefault>
 				<NumCitiesUnhappinessMod>200</NumCitiesUnhappinessMod>
 				<PopulationUnhappinessMod>200</PopulationUnhappinessMod>
 				<Gold>0</Gold>
@@ -426,7 +426,7 @@
 				<RouteCostPercent>100</RouteCostPercent>
 				<UnitCostPercent>150</UnitCostPercent>
 				<BuildingCostPercent>150</BuildingCostPercent>
-				<ResearchPercent>175</ResearchPercent>
+				<ResearchPercent>100</ResearchPercent>
 				<PolicyPercent>175</PolicyPercent>
 				<ImprovementCostPercent>100</ImprovementCostPercent>
 				<CityProductionNumOptionsConsidered>2</CityProductionNumOptionsConsidered>
@@ -446,19 +446,19 @@
 				<AIStartingExploreUnits>2</AIStartingExploreUnits>
 				<AIStartingWorkerUnits>2</AIStartingWorkerUnits>
 				<AIStartingUnitMultiplier>2</AIStartingUnitMultiplier>
-				<AIDeclareWarProb>1500</AIDeclareWarProb>
+				<AIDeclareWarProb>800</AIDeclareWarProb>
 				<AIWorkRateModifier>400</AIWorkRateModifier>
 				<AIUnhappinessPercent>33</AIUnhappinessPercent>
-				<AIGrowthPercent>33</AIGrowthPercent>
+				<AIGrowthPercent>15</AIGrowthPercent>
 				<AITrainPercent>33</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
-				<AIConstructPercent>50</AIConstructPercent>
-				<AIWorldConstructPercent>350</AIWorldConstructPercent>
+				<AIConstructPercent>50</AIConstructPercent>4
+				<AIWorldConstructPercent>400</AIWorldConstructPercent>
 				<AICreatePercent>100</AICreatePercent>
 				<AIWorldCreatePercent>100</AIWorldCreatePercent>
 				<AIBuildingCostPercent>33</AIBuildingCostPercent>
 				<AIUnitCostPercent>33</AIUnitCostPercent>
-				<AIUnitSupplyPercent>25</AIUnitSupplyPercent>
+				<AIUnitSupplyPercent>100</AIUnitSupplyPercent>
 				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-10</AIPerEraModifier>
@@ -483,53 +483,66 @@
 
 	<Language_en_US>
 		<Replace Tag="TXT_KEY_HANDICAP_SETTLER" >
-			<Text>Microstate</Text>
+			<Text>Microstates</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_SETTLER_HELP" >
-			<Text>Friendly AI with no bonuses. Equals "Prince". </Text>
+			<Text>A Utopian world where differences are resolved using diplomacy, and the improvement of humanity is the ultimate goal.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_CHIEFTAIN" >
 			<Text>Small Powers</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_CHIEFTAIN_HELP" >
-			<Text>Calm AI with little bonuses on Growth, Production, Gold and Happiness.</Text>
+			<Text>The world is a bright place brimming with optimism, hopefully mutual benefit and cooperation will resolve our differences.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_WARLORD" >
 			<Text>Middle Powers</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_WARLORD_HELP" >
-			<Text>Indifferent AI with medium bonuses on Growth, Production, Gold, Happiness and Combat.</Text>
+			<Text>We tried to resolve our differences with friendship and diplomacy. Now, in peace we prepare for war.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_PRINCE" >
 			<Text>Rising Powers</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_PRINCE_HELP" >
-			<Text>Callous AI with medium bonuses on Growth, Production, Gold, Happiness and Combat. AI will get stronger when you enter a new era. </Text>
+			<Text>The thirst for power propels nations to conflict, only Hegemony can ensure the prosperity and wellbeing of our people.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_KING" >
 			<Text>Regional Powers</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_KING_HELP" >
-			<Text>Aggressive AI with large bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 1 settler and AI will get stronger when you enter a new era. </Text>
+			<Text>The world is a ruthless place, power is the only true currency, and the pursuit of power is the only rational objective.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_EMPEROR" >
 			<Text>Great Powers</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_EMPEROR_HELP" >
-			<Text>The standard difficulty for the experienced Civ player. Provides a competent AI with good economic and military management. AI start with no extra settlers. </Text>
+			<Text>There are no nations without sin. The greatest nations are forged over the graves of dead ones. </Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_IMMORTAL" >
 			<Text>Potential Superpowers</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_IMMORTAL_HELP" >
-			<Text>Crazy AI with huge bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 2 settlers and AI will get much more stronger when you enter a new era. </Text>
+			<Text>There was once hope, peace between men. Such idealism was not meant for this world. War is a continuation of politics by other means.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_DEITY" >
 			<Text>Superpowers</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HANDICAP_DEITY_HELP" >
-			<Text>Insane AI with insane bonuses on Growth, Production, Gold, Happiness and Combat. AI start with 3 settlers and AI will get on steroids when you enter a new era. </Text>
+			<Text>The world is a waking nightmare. Technological progress breeds more horrors, and the world teeters on the edge of total annihilation. If there is a hope, it is beyond Earth..</Text>
 		</Replace>
+
+		<Replace Tag="TXT_KEY_RANDOM_LEADER_HELP">
+			<Text>
+				[ICON_BULLET]The game will randomly pick one of the leaders for you to play.
+				[NEWLINE][ICON_BULLET]Every Civilization has four Unique Abilities (UA).
+				[NEWLINE][ICON_BULLET]The first three Unique Abilities are enabled from game start.
+				[NEWLINE][ICON_BULLET]The fourth Unique Ability is activated after Industrialisation is researched.
+				[NEWLINE][ICON_BULLET]Civilizations have 6 Unique Components (Units and Buildings)
+				[NEWLINE][ICON_BULLET]Every Civilization has a unique spawn preference as well.
+
+			</Text>
+		</Replace>
+
 	</Language_en_US>
 	
 	

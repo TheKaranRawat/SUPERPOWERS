@@ -106,7 +106,10 @@
 	</Unit_Flavors>
 
 	<Unit_FreePromotions>
-		
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
+			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
+		</Row>
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>

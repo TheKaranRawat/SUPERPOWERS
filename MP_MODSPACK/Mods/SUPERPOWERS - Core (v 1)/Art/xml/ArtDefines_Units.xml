@@ -13,13 +13,15 @@
 	</UnitArtInfos>-->
 
 	<!-- CONTROL EMBARKED GRAPHIC / CURRENTLY SET TO MODERN-->
+
+	<!--
 	<ArtDefine_UnitInfoMemberInfos>
 		<Update>
 			<Set UnitMemberInfoType="ART_DEF_UNIT_MEMBER_TRANSPORT"/>
 			<Where UnitInfoType="ART_DEF_UNIT_U_DANISH_LONGBOAT"/>
 		</Update>
 	</ArtDefine_UnitInfoMemberInfos>
-
+	-->	
 
 	<ArtDefine_UnitInfos>
 		<Row>
@@ -90,7 +92,7 @@
 	<ArtDefine_UnitMemberInfos>
 		<Row>
 			<Type>ART_DEF_UNIT_MEMBER_FW_BATTLESUIT</Type>
-			<Scale>0.09</Scale>
+			<Scale>0.08</Scale>
 			<Model>Battlesuit.fxsxml</Model>
 			<MaterialTypeTag>METAL</MaterialTypeTag>
 			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
@@ -165,7 +167,7 @@
 	<ArtDefine_UnitMemberInfos>
 		<Row>
 			<Type>ART_DEF_UNIT_MEMBER_FW_CRAWLER</Type>
-			<Scale>0.13</Scale>
+			<Scale>0.06</Scale>
 			<Model>Crawler.fxsxml</Model>
 			<MaterialTypeTag>METAL</MaterialTypeTag>
 			<MaterialTypeSoundOverrideTag>METALSM</MaterialTypeSoundOverrideTag>
@@ -488,7 +490,7 @@
 	<ArtDefine_UnitMemberInfos>
 		<Row>
 			<Type>ART_DEF_UNIT_MEMBER_FW_MECH_ARTILLERY</Type>
-			<Scale>0.0900000035762787</Scale>
+			<Scale>0.11</Scale>
 			<Model>MechArtillery.fxsxml</Model>
 			<MaterialTypeTag>METAL</MaterialTypeTag>
 			<MaterialTypeSoundOverrideTag>METALSM</MaterialTypeSoundOverrideTag>
@@ -6360,7 +6362,82 @@
 		</Row>
 	</ArtDefine_StrategicView>-->
 
-	
+	<!--Super Mech-->
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_METALGEAR</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>Vehicle</Formation>
+		</Row>
+	</ArtDefine_UnitInfos>
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_METALGEAR</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_METALGEAR</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_METALGEAR</Type>
+			<Scale>0.159999997317791</Scale>
+			<Model>XML/Units/Uniques/MetalGear/MetalGearUnit/metalgear.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_METALGEAR</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady</EnableActions>
+			<MoveRadius>5.0</MoveRadius>
+			<RangedAttackRadius>72.0</RangedAttackRadius>
+			<TargetHeight>12.0</TargetHeight>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasStationaryMelee>1</HasStationaryMelee>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+			<ReformBeforeCombat>1</ReformBeforeCombat>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_METALGEAR</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<ID>ART_DEF_VEFFECT_SPMECH_ROCKET_PROJECTILE</ID>
+			<VisKillStrengthMin>5.0</VisKillStrengthMin>
+			<VisKillStrengthMax>12.0</VisKillStrengthMax>
+			<ProjectileSpeed>5.30000019073486</ProjectileSpeed>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION20POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_METALGEAR</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>5.0</VisKillStrengthMin>
+			<VisKillStrengthMax>12.0</VisKillStrengthMax>
+			<ProjectileSpeed>5.30000019073486</ProjectileSpeed>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION20POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_METALGEAR</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>1</SubIndex>
+			<ID>ART_DEF_VEFFECT_TRAIL_RAILGUN_PROJ</ID>
+			<ProjectileSpeed>5.30000019073486</ProjectileSpeed>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>RAILGUN</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_METALGEAR</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>MSFFlagMetalGear.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
 	
 	
 	<!--ww1 Paratrooper-->
@@ -6417,7 +6494,61 @@
 		</Row>
 	</ArtDefine_StrategicView>
 
+	<!-- SPACE MARINES -->
 
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MARINE01</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>UnFormed</Formation>
+		</Row>
+	</ArtDefine_UnitInfos>
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_MARINE01</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_MARINE01</UnitMemberInfoType>
+			<NumMembers>5</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_MARINE01</Type>
+			<Scale>0.140000001490116</Scale>
+			<Model>marine01.fxsxml</Model>
+			<MaterialTypeTag>CLOTH</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MARINE01</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady Walk AttackCharge</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasStationaryMelee>1</HasStationaryMelee>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+			<ReformBeforeCombat>1</ReformBeforeCombat>
+			<HasOpponentTracking>1</HasOpponentTracking>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MARINE01</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25.0</VisKillStrengthMin>
+			<VisKillStrengthMax>50.0</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_TANK_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>BULLET</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>RAILGUN</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_MARINE01</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SpaceMarinesFlag.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
 	
 	<!--Others-->
 	<ArtDefine_StrategicView>

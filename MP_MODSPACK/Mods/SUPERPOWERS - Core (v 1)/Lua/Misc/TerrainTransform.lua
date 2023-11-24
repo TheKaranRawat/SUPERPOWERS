@@ -50,13 +50,13 @@ function ImprovementBuilt(iPlayer, x, y, eImprovement)
 	end
 	
 	
-
-	if (eImprovement == GameInfo.Improvements["IMPROVEMENT_FISHERY_MOD"].ID) then		
-		pPlot:SetImprovementType(-1)
-		pPlot:SetResourceType(-1)
-		pPlot:SetResourceType(GameInfoTypes.RESOURCE_FISH, 1)
-		pPlot:SetImprovementType(GameInfo.Improvements["IMPROVEMENT_FISHFARM_MOD"].ID)	
-		print ("fish farm created!")
+	
+	--if (eImprovement == GameInfo.Improvements["IMPROVEMENT_FISHERY_MOD"].ID) then		
+	--	pPlot:SetImprovementType(-1)
+	--	pPlot:SetResourceType(-1)
+	--	pPlot:SetResourceType(GameInfoTypes.RESOURCE_FISH, 1)
+	--	pPlot:SetImprovementType(GameInfo.Improvements["IMPROVEMENT_FISHFARM_MOD"].ID)	
+	--	print ("fish farm created!")
 
 		
 --	elseif (eImprovement == GameInfo.Improvements["IMPROVEMENT_SAND_DREDGE_MOD"].ID) then
@@ -65,15 +65,15 @@ function ImprovementBuilt(iPlayer, x, y, eImprovement)
 --		pPlot:SetResourceType(GameInfoTypes.RESOURCE_SAND_DREDGE, 1)
 --		pPlot:SetImprovementType(GameInfo.Improvements["IMPROVEMENT_SAND_DREDGE_MOD"].ID)	
 		
-	elseif (eImprovement == GameInfo.Improvements["IMPROVEMENT_GAS_RIG_MOD"].ID) then		
-		pPlot:SetImprovementType(-1)
-		pPlot:SetResourceType(-1)
-		pPlot:SetResourceType(GameInfoTypes.RESOURCE_NATRUALGAS, 1)
-		pPlot:SetImprovementType(GameInfo.Improvements["IMPROVEMENT_OFFSHORE_PLATFORM"].ID)	
-		print ("Gas Rig created!")
+	--elseif (eImprovement == GameInfo.Improvements["IMPROVEMENT_GAS_RIG_MOD"].ID) then		
+	--	pPlot:SetImprovementType(-1)
+	--	pPlot:SetResourceType(-1)
+	--	pPlot:SetResourceType(GameInfoTypes.RESOURCE_NATRUALGAS, 1)
+	--	pPlot:SetImprovementType(GameInfo.Improvements["IMPROVEMENT_OFFSHORE_PLATFORM"].ID)	
+	--	print ("Gas Rig created!")
 		
 		
-	elseif (eImprovement == GameInfo.Improvements["IMPROVEMENT_IROQUOIAN_FOREST_FARM"].ID) then		
+	if (eImprovement == GameInfo.Improvements["IMPROVEMENT_IROQUOIAN_FOREST_FARM"].ID) then		
 		pPlot:SetImprovementType(-1)
 		pPlot:SetImprovementType(GameInfo.Improvements["IMPROVEMENT_FARM"].ID)	
 		print ("Farm in Forest created!")

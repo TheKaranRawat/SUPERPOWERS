@@ -12,10 +12,9 @@
 			<Class>UNITCLASS_CAVALRY</Class>
 			<Type>UNIT_UHLAN</Type>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
-			<Combat>34</Combat>
-			<Cost>225</Cost>
-			<FaithCost>450</FaithCost>
-			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Combat>60</Combat>
+			<Cost>200</Cost>
+			<HurryCostModifier>50</HurryCostModifier>
 			<Moves>4</Moves>
 			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -100,7 +99,7 @@
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_UNIT_UHLAN">
-			<Text>Uhlan</Text>
+			<Text>[ICON_CAPITAL] Uhlan</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_UHLAN_HELP">
 			<Text>Mounted Unit capable of fighting toe-to-toe with contemporary infantry units. Only Poland may build it.</Text>

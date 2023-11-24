@@ -149,7 +149,7 @@ if not pDefendingUnit then --------------If attacking Cities
 					pDefendingCity:ChangePopulation( -math.floor(cityPop * 0.05 ), true )
 --					print("Has shelter!Lose less popluation!");
 					else 
-					pDefendingCity:ChangePopulation( -math.floor(cityPop * 0.2 ), true )
+					pDefendingCity:ChangePopulation( -math.floor(cityPop * 0.1 ), true )
 --					print("No shelter!Lose more popluation!");
 					end					
 				end
@@ -158,7 +158,7 @@ if not pDefendingUnit then --------------If attacking Cities
 					pDefendingCity:ChangePopulation( -math.floor(cityPop * 0.05 ), true )
 
 					else 
-					pDefendingCity:ChangePopulation( -math.floor(cityPop * 0.2 ), true )
+					pDefendingCity:ChangePopulation( -math.floor(cityPop * 0.1 ), true )
 
 					end					
 				end
@@ -167,7 +167,7 @@ if not pDefendingUnit then --------------If attacking Cities
 					pDefendingCity:ChangePopulation( -math.floor(cityPop * 0.05 ), true )
 
 					else 
-					pDefendingCity:ChangePopulation( -math.floor(cityPop * 0.2 ), true )
+					pDefendingCity:ChangePopulation( -math.floor(cityPop * 0.1 ), true )
 
 					end					
 				end

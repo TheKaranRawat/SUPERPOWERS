@@ -57,7 +57,7 @@
 			<PortraitIndex>0</PortraitIndex>
 			<ProjectPrereq>PROJECT_SPARTAN300_TRAINING</ProjectPrereq>
 			<ExtraMaintenanceCost>3</ExtraMaintenanceCost>
-		</Row>
+		</Row>		
 
 		<Row>
 			<Class>UNITCLASS_NUMIDIAN</Class>
@@ -935,8 +935,35 @@
 			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 
-
-
+		<Row>
+			<Class>UNITCLASS_TDF</Class>
+			<Type>UNIT_TDF</Type>
+			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
+			<BaseSightRange>3</BaseSightRange>
+			<Combat>180</Combat>
+			<Cost>1200</Cost>
+			<Moves>3</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SAS_TDF</Description>
+			<Civilopedia>TXT_KEY_UNIT_SAS_TDF_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SAS_TDF_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SAS_TDF_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<XPValueAttack>6</XPValueAttack>
+			<XPValueDefense>6</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SAS_TDF</UnitArtInfo>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<UnitFlagAtlas>SAS_TDF_FLAG</UnitFlagAtlas>
+			<IconAtlas>SAS_ZELENSKYY_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<ProjectPrereq>PROJECT_TDF</ProjectPrereq>
+			<ExtraMaintenanceCost>150</ExtraMaintenanceCost>
+		</Row>
 
 
 
@@ -1031,7 +1058,7 @@
 			<RangedCombat>600</RangedCombat>
 			<Range>2</Range>
 			<Cost>5000</Cost>
-			<Moves>5</Moves>
+			<Moves>3</Moves>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -1053,6 +1080,44 @@
 			<PortraitIndex>36</PortraitIndex>
 			<MoveRate>ROBOT</MoveRate>
 			<ProjectPrereq>PROJECT_ADV_MECH</ProjectPrereq>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<ExtraMaintenanceCost>600</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_METALGEAR</Class>
+			<Type>UNIT_METALGEAR</Type>
+			<PrereqTech>TECH_NEURAL_INTERFACE</PrereqTech>
+			<Combat>500</Combat>
+			<RangedCombat>500</RangedCombat>
+			<Range>3</Range>
+			<Cost>5000</Cost>
+			<Moves>5</Moves>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_METALGEAR</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MODERN_MECH_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_MECH_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_MECH</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>120</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_METALGEAR</UnitArtInfo>
+			
+			<UnitFlagAtlas>FLAG_METALGEAR</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+
+			<IconAtlas>METALGEAR_ICON</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+
+			<MoveRate>ROBOT</MoveRate>
+			<ProjectPrereq>PROJECT_METALGEAR</ProjectPrereq>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<ExtraMaintenanceCost>600</ExtraMaintenanceCost>
 		</Row>
@@ -1129,10 +1194,10 @@
 			<PrereqTech>TECH_PARTICLE_PHYSICS</PrereqTech>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<BaseSightRange>3</BaseSightRange>
-			<Combat>150</Combat>
-			<RangedCombat>200</RangedCombat>
-			<Cost>3800</Cost>
-			<Moves>9</Moves>
+			<Combat>1000</Combat>
+			<RangedCombat>600</RangedCombat>
+			<Cost>10000</Cost>
+			<Moves>6</Moves>
 			<Range>5</Range>
 			<Special>SPECIALUNIT_NUKE</Special>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
@@ -1150,11 +1215,11 @@
 			<MinAreaSize>16</MinAreaSize>
 			<XPValueAttack>8</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_MISSILE_CRUISER</UnitArtInfo>
+			<UnitArtInfo>ART_DEF_UNIT_NAVALFIGHTER04S</UnitArtInfo>
 			<UnitFlagIconOffset>70</UnitFlagIconOffset>
 			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
-			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
-			<PortraitIndex>18</PortraitIndex>
+			<IconAtlas>JUGGERNAUT_ICON</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
 			<MoveRate>BOAT</MoveRate>
 			<ProjectPrereq>PROJECT_PARTICLE_CANNON</ProjectPrereq>
 			<ExtraMaintenanceCost>70</ExtraMaintenanceCost>
@@ -1165,7 +1230,11 @@
 		<Row>
 			<Class>UNITCLASS_ORBITAL_STRIKE</Class>
 			<Type>UNIT_ORBITAL_STRIKE</Type>
+
+			<!--
 			<PrereqTech>TECH_INTEGRATED_DEFENSE</PrereqTech>
+			-->
+			
 			<Cost>-1</Cost>
 			<Moves>1</Moves>
 			<Immobile>true</Immobile>
@@ -1173,10 +1242,15 @@
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_MISSILE_AIR</DefaultUnitAI>
+			
+			
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_ORBITAL_STRIKE_TEXT</Civilopedia>
 			<Description>TXT_KEY_UNIT_ORBITAL_STRIKE</Description>
-			<!--<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_ORBITAL_STRIKE_TEXT</Civilopedia>-->
 			<Strategy>TXT_KEY_UNIT_ORBITAL_STRIKE_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_ORBITAL_STRIKE</Help>
+
+			
+			
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
@@ -1693,6 +1767,15 @@
 		</Row>
 
 		<Row>
+			<UnitType>UNIT_MC_SOVIET_MIG_21</UnitType>
+			<PromotionType>PROMOTION_ANTI_AIR_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MC_SOVIET_MIG_21</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_1</PromotionType>
+		</Row>
+
+		<Row>
 			<UnitType>UNIT_MECH</UnitType>
 			<PromotionType>PROMOTION_TANK_COMBAT</PromotionType>
 		</Row>
@@ -1724,13 +1807,55 @@
 			<UnitType>UNIT_MECH</UnitType>
 			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<PromotionType>PROMOTION_FW_MOVE_ALL_TERRAIN</PromotionType>
+		</Row>
 
 
+		<Row>
+			<UnitType>UNIT_METALGEAR</UnitType>
+			<PromotionType>PROMOTION_TANK_COMBAT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_METALGEAR</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
+		</Row>	
+		<Row>
+			<UnitType>UNIT_METALGEAR</UnitType>
+			<PromotionType>PROMOTION_NUKE_IMMUNE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_METALGEAR</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_METALGEAR</UnitType>
+			<PromotionType>PROMOTION_NO_CASUALTIES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_METALGEAR</UnitType>
+			<PromotionType>PROMOTION_ANTI_DEBUFF</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_METALGEAR</UnitType>
+			<PromotionType>PROMOTION_MARCH</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_METALGEAR</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_METALGEAR</UnitType>
+			<PromotionType>PROMOTION_FW_MOVE_ALL_TERRAIN</PromotionType>
+		</Row>
+
+		<!--
 		<Row>
 			<UnitType>UNIT_PARTICLE_CANNON</UnitType>
 			<PromotionType>PROMOTION_CHAIN_REACTION</PromotionType>
 		</Row>
-		<!--<Row>
+		<Row>
 			<UnitType>UNIT_PARTICLE_CANNON</UnitType>
 			<PromotionType>PROMOTION_NAVAL_RANGED_SHIP</PromotionType>
 		</Row>-->
@@ -1738,6 +1863,13 @@
 			<UnitType>UNIT_PARTICLE_CANNON</UnitType>
 			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_TDF</UnitType>
+			<PromotionType>PROMOTION_GUNPOWDER_INFANTRY_COMBAT</PromotionType>
+		</Row>
+
+		
 
 
 		<!--<Row>
@@ -1920,11 +2052,27 @@
 			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_MC_SOVIET_MIG_21</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MC_SOVIET_MIG_21</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
 			<UnitType>UNIT_MECH</UnitType>
 			<UnitAIType>UNITAI_ATTACK</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MECH</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_METALGEAR</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_METALGEAR</UnitType>
 			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
 		</Row>
 		<Row>
@@ -2215,6 +2363,17 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_PAKFA_T50</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_MC_SOVIET_MIG_21</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MC_SOVIET_MIG_21</UnitType>
 			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
 			<Flavor>999</Flavor>
 		</Row>
@@ -2525,14 +2684,34 @@
 		</Row>
 
 		<Row>
+			<UnitType>UNIT_MC_SOVIET_MIG_21</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MC_SOVIET_MIG_21</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>	
+		</Row>
+
+		<Row>
 			<UnitType>UNIT_MECH</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MECH</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_METALGEAR</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>4</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_METALGEAR</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>4</Cost>
 		</Row>
 
 		<Row>
@@ -2703,9 +2882,21 @@
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
 			<Cost>5</Cost>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_MC_SOVIET_MIG_21</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>5</Cost>
+		</Row>
 		
 		<Row>
 			<UnitType>UNIT_MECH</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>8</Cost>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_METALGEAR</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
 			<Cost>8</Cost>
 		</Row>
@@ -2727,6 +2918,18 @@
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
 			<Cost>30</Cost>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_TDF</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_TDF</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+
 	</Unit_ResourceQuantityRequirements>
 	
 	

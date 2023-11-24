@@ -205,6 +205,16 @@
 			<UnitClassType>UNITCLASS_XCOM_SQUAD</UnitClassType>
 			<UnitType/>
 		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SPACEMARINE</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SPACEMARINE</UnitClassType>
+			<UnitType/>
+		</Row>
 	</Civilization_UnitClassOverrides>
 	<UnitPromotions>
 		<Row>

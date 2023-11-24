@@ -96,6 +96,10 @@
 			<UnitType>UNIT_EXOTIC_UNIT_GURKHA</UnitType>
 			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GURKHA</UnitType>
+			<PromotionType>PROMOTION_SPECIAL_FORCES_COMBAT</PromotionType>
+		</Row>
 	</Unit_FreePromotions>
 
 	<UnitGameplay2DScripts>

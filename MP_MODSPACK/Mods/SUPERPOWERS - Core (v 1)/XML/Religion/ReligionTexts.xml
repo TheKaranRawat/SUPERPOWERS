@@ -93,10 +93,13 @@
 			<Text>+25% [ICON_FOOD] Food Growth rate for city if not at war.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_GOD_SEA">
-			<Text>+1 [ICON_CULTURE] Culture for every Fishing Net. </Text>
+			<Text>+1 [ICON_CULTURE] Faith for every Fishing Net, +1 [ICON_PEACE] Faith from Coast tile. </Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BELIEF_TEARS_OF_GODS">
 			<Text>+2 [ICON_PEACE] Faith for every Gem and Pearl. Pearls provide +2 [ICON_HAPPINESS_1] Happiness and Gem provide +4 [ICON_HAPPINESS_1] Happiness. </Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_SACRED_PATH">
+			<Text>+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith from Jungle. </Text>
 		</Replace>
 
 
@@ -105,11 +108,23 @@
 
 		<!--**************************************************New Belief Texts*************************************-->
 
+		<Row Tag="TXT_KEY_BELIEF_GODDESS_OF_BEAUTY_SHORT">
+			<Text>Goddess of Beauty</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_BELIEF_GODDESS_OF_BEAUTY">
+			<Text>+6 [ICON_PEACE] Faith from Dye, Silk and Perfume. </Text>
+		</Replace>
+		<Row Tag="TXT_KEY_BELIEF_HOLY_BEVERAGE_SHORT">
+			<Text>Holy Beverage</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_BELIEF_HOLY_BEVERAGE">
+			<Text>+6 [ICON_PEACE] Faith from Tea, Cocoa and Coffee. </Text>
+		</Replace>	
 		<Row Tag="TXT_KEY_BELIEF_MARSH_BELIEF_SHORT">
 			<Text>Swamp Belief</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_MARSH_BELIEF">
-			<Text>+12 [ICON_PEACE] Faith from Marsh tiles and +8 [ICON_PEACE] Faith from Lake tiles. </Text>
+			<Text>+2 [ICON_FOOD] Food and +6 [ICON_PEACE] Faith from Marsh tiles. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_SNOW_BELIEF_SHORT">
 			<Text>Snow Spirit</Text>

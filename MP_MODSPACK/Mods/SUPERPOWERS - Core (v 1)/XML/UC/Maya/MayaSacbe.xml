@@ -42,11 +42,13 @@
 		</Row>
 	</Building_YieldChanges>
 
+	<Building_ResourceQuantity>
 		<Row>
 			<BuildingType>BUILDING_SACBE</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Quantity>3</Quantity>
 		</Row>
+	</Building_ResourceQuantity>	
 
 	<Building_Flavors>
 		<Row>

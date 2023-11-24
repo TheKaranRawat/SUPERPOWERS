@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/23/2015 12:07:20 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_DVADERCIV_FIRSTGREETING_1">
+			<Text>Welcome, I'm Darth Vader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DVADERCIV_DEFEATED_1">
+			<Text>You reached your target, but know that my people will not succumb, and sooner or later my Sith's rise again! </Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DVADERCIV_NAME">
+			<Text>Darth Vader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DVADERCIV_NAME">
+			<Text>Darth Vader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DVADERCIV_SUBTITLE">
+			<Text>Galactic Empire Army</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DVADERCIV_SUBTITLE">
+			<Text>Galactic Empire Army</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_DVADERCIV">
+			<Text>Darth Vader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DVADERCIV_CIVILIZATION_HEADING_1">
+			<Text>About Darth Vader</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DVADERCIV_HEADING_1">
+			<Text>Galactic Empire Army</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DVADERCIV_CIVILIZATION_TEXT_1">
+			<Text>Darth Vader is a fictional character in the Star Wars franchise. He is a primary antagonist in the original trilogy, but, in his birth identity as Anakin Skywalker, is a main protagonist in the prequel trilogy. In the third film of the prequel trilogy, he becomes a main antagonist alongside Palpatine. Star Wars creator George Lucas has collectively referred to the first six episodic films of the franchise as "the tragedy of Darth Vader".</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DVADERCIV_TEXT_1">
+			<Text>Darth Vader/Anakin Skywalker appears in seven of the live-action Star Wars films, the animated series The Clone Wars (including the film), Rebels, and the micro-series Clone Wars and Forces of Destiny. He also has a main and recurring role in games, comics, books and the non-canon Star Wars Legends material.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DVADERCIV_LIVED">
+			<Text>long time ago in a galaxy far far away</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_DVADERCIV_ADJECTIVE">
+			<Text>Galactic Empire Army</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_DVADERCIV_DESC">
+			<Text>Galactic Empire Army</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_DVADERCIV_SHORT_DESC">
+			<Text>Galactic Empire Army</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_FREEDOOM_DVADERCIV">
+			<Text>Military Units require 25% less experience to acquire a new promotion. +25% Military [ICON_PRODUCTION] Production in Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_FREEDOOM_DVADERCIV_SHORT">
+			<Text>Join me or die</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_DVADERCIV_TEXT">
+			<Text>Darth Vader is a fictional character in the Star Wars franchise. He is a primary antagonist in the original trilogy, but, in his birth identity as Anakin Skywalker, is a main protagonist in the prequel trilogy. In the third film of the prequel trilogy, he becomes a main antagonist alongside Palpatine. Star Wars creator George Lucas has collectively referred to the first six episodic films of the franchise as "the tragedy of Darth Vader".
+
+			</Text>
+		</Row>
+
+		
+    <Row Tag="TXT_KEY_VADERBUILD">
+      <Text>Imperial Consulate</Text>
+    </Row>
+    
+    <Row Tag="TXT_KEY_VADERBUILD_HELP">
+      <Text>Replaces Police station. +2 Happiness.  +1 [ICON_CULTURE] Culture. </Text>
+    </Row>
+	
+		  <Row Tag="TXT_KEY_UNIT_DVADERCIVUNIT">
+			<Text>[COLOR_YELLOW]Stormtrooper[ENDCOLOR]</Text>
+		  </Row>
+		  <Row Tag="TXT_KEY_UNIT_DVADERCIVUNIT_STRATEGY">
+			<Text>An Elite Mercenary Group that aims to unite the world under a single Galactic Empire. +25% Combat Strength VS Wounded Units. +50% Combat Strength VS Armor Units. Gain -20 Unhappiness per Unit.</Text>
+		  </Row>
+		  <Row Tag="TXT_KEY_UNIT_HELP_DVADERCIVUNIT">
+			<Text>+25% Combat Strength VS Wounded Units. +50% Combat Strength VS Armor Units. Gain -20 Unhappiness per Unit.</Text>
+		  </Row>
+	
+	
+	
+	
+	
+	
+
+	</Language_en_US>
+
+</GameData>

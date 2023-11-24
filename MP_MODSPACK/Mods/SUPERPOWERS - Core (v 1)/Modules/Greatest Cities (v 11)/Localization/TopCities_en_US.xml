@@ -142,7 +142,7 @@
 	<!--Buildings-->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_TC_TRIUMPHARCH">
-			<Text>[COLOR_POSITIVE_TEXT]Triumphal Arch[ENDCOLOR]</Text>
+			<Text>[ICON_CAPITAL] [COLOR_POSITIVE_TEXT]Triumphal Arch[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TC_TRIUMPHARCH_HELP">
 			<Text>

@@ -6,10 +6,13 @@
 	<Language_en_US>
 		<!-- Super Power Modded Game -->
 		<Row Tag="TXT_KEY_SP_GS_TITLE">
-			<Text>SUPERPOWERS Singleplayer</Text>
+			<Text>[ICON_BULLET]SUPERPOWERS[ICON_BULLET]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SP_GS_DESC">
-			<Text>[COLOR_YELLOW]Important Notes:[ENDCOLOR][NEWLINE]1. Check the Civilopedia before playing and learn more about the mods mechanics. (Press [COLOR_POSITIVE_TEXT]F1[ENDCOLOR] Now!). [NEWLINE]2. For better performance use DX9 mode, and reduce CS and AI.</Text>
+			<Text>[ICON_BULLET] Check the Civilopedia (Press [COLOR_POSITIVE_TEXT]F1[ENDCOLOR]) before playing to learn more about the mods mechanics. 				  
+				  [NEWLINE][ICON_BULLET]Join our Discord for more: [COLOR_UNIT_TEXT]https://discord.gg/CtwmyXbttw[ENDCOLOR]
+				  
+			</Text>
 		</Row>
 		<!--
 		<Row Tag="TXT_KEY_SP_VERSION">
@@ -17,7 +20,7 @@
 		</Row>
 		-->
 		<Row Tag="TXT_KEY_SP_VERSION">
-			<Text>v1.5b</Text>
+			<Text>Steam Release v1.6a</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_SP_MOD_SETUP">
@@ -30,7 +33,7 @@
 		<Row Tag="TXT_KEY_SP_OPEN_CIVILOPEDIA_TOOLTIP">
 			<Text>
 				Open [COLOR_YELLOW]Civilopedia[ENDCOLOR]
-				[NEWLINE][NEWLINE]If you are new to this mod, you are strongly recommended to check the Civilopedia, to be aware of what's new and what has been changed in [COLOR_YELLOW]Super Power Mod[ENDCOLOR].
+				[NEWLINE][NEWLINE]It is strongly recommended to check the Civilopedia, to be aware of what's new and what mechanics have been added by [COLOR_YELLOW]SUPERPOWERS[ENDCOLOR].
 			</Text>
 		</Row>
 	</Language_en_US>
@@ -192,16 +195,16 @@
 
 	<Language_en_US>
 		<Replace Tag="TXT_KEY_GAMESPEED_QUICK_HELP">
-			<Text>Research Speed:75% Build Speed:66% All Units +1 [ICON_MOVES] Movement, +15hp healing and +50% EXP earning speed. Recommended for Multiplayer campaigns.</Text>
+			<Text>"There is more to life than simply increasing its speed." - Mahatma Gandhi</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_GAMESPEED_STANDARD_HELP">
-			<Text>Research Speed:100% Build Speed:100% Faster than vanilla "Standard", but will slow down in the late game. Recommended for post-industrial campaigns.</Text>
+			<Text>"The future is uncertain, but the end is always near." - Jim Morrison</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_GAMESPEED_EPIC_HELP">
-			<Text>Research Speed:150% Build Speed:115% Slow researching speeds, but training and building speeds are still fast. Recommended for epic length campaigns.</Text>
+			<Text>"In the end, it's not the years in your life that count. It's the life in your years." - Abraham Lincoln</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_GAMESPEED_MARATHON_HELP">
-			<Text>Research Speed:250% Build Speed:150% Slow but still quicker than vanilla "Marathon". Best for players who want to forge an empire that stands the test of time.</Text>
+			<Text>"It does not matter how slowly you go as long as you do not stop." - Confucius</Text>
 		</Replace>
 	</Language_en_US>
 	

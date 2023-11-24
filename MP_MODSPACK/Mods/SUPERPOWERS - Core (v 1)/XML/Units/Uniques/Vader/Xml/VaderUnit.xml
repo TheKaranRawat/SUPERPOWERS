@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/10/2014 4:53:23 PM -->
+<GameData>
+
+   <Units>	
+	<Row>
+	   <Class>UNITCLASS_VADER</Class>
+	   <Type>UNIT_DVADERCIVUNIT</Type>
+	   <PrereqTech>TECH_INTERSTELLAR_TRAVEL</PrereqTech>
+	   <BaseSightRange>2</BaseSightRange>	   
+       <Combat>350</Combat>
+       <Cost>4000</Cost>
+       <Moves>2</Moves>	  
+	   <HurryCostModifier>-1</HurryCostModifier>      
+       <CombatClass>UNITCOMBAT_MELEE</CombatClass>
+       <Domain>DOMAIN_LAND</Domain>
+	   <DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+	   <Description>TXT_KEY_UNIT_DVADERCIVUNIT</Description>
+	   <Strategy>TXT_KEY_UNIT_DVADERCIVUNIT_STRATEGY</Strategy>
+	   <Help>TXT_KEY_UNIT_HELP_DVADERCIVUNIT</Help>
+	   <Civilopedia>TXT_KEY_UNIT_DVADERCIVUNIT_STRATEGY</Civilopedia>
+	   <MilitarySupport>1</MilitarySupport>
+       <MilitaryProduction>1</MilitaryProduction>
+	   <Pillage>true</Pillage>
+	   <XPValueAttack>3</XPValueAttack>
+       <XPValueDefense>3</XPValueDefense>
+	   <UnitArtInfo>ART_DEF_UNIT_DVADERUNIT</UnitArtInfo>
+	   <IconAtlas>DVADERCIV_ICON</IconAtlas>
+	   <PortraitIndex>0</PortraitIndex>
+	   <UnitFlagAtlas>UNIT_FLAG_ITG_EXTRA_1_ATLAS</UnitFlagAtlas>
+	   <UnitFlagIconOffset>11</UnitFlagIconOffset>
+       <ProjectPrereq>PROJECT_VADER</ProjectPrereq>
+	   <ExtraMaintenanceCost>500</ExtraMaintenanceCost>   
+       <Unhappiness>-20</Unhappiness>
+	</Row>
+   </Units>
+	 
+
+  <Unit_FreePromotions>
+    
+	<Row>
+      <UnitType>UNIT_DVADERCIVUNIT</UnitType>
+      <PromotionType>PROMOTION_VADERONE</PromotionType>
+    </Row>
+	
+	<Row>
+      <UnitType>UNIT_DVADERCIVUNIT</UnitType>
+      <PromotionType>PROMOTION_AMBUSH_1</PromotionType>
+    </Row>
+
+	<Row>
+		<UnitType>UNIT_DVADERCIVUNIT</UnitType>
+		<PromotionType>PROMOTION_GUNPOWDER_INFANTRY_COMBAT</PromotionType>
+	</Row>
+
+  </Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+
+		<Row>
+			<UnitType>UNIT_DVADERCIVUNIT</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>12</Cost>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_DVADERCIVUNIT</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_DVADERCIVUNIT</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>	
+
+  	</Unit_ResourceQuantityRequirements>
+  
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_DVADERCIVUNIT</UnitType>
+      <UnitAIType>UNITAI_ATTACK</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_DVADERCIVUNIT</UnitType>
+      <UnitAIType>UNITAI_DEFENSE</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_DVADERCIVUNIT</UnitType>
+      <UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_DVADERCIVUNIT</UnitType>
+      <UnitAIType>UNITAI_EXPLORE</UnitAIType>
+    </Row>
+  </Unit_AITypes>
+  
+  <Unit_Flavors>
+    <Row>
+      <UnitType>UNIT_DVADERCIVUNIT</UnitType>
+      <FlavorType>FLAVOR_OFFENSE</FlavorType>
+      <Flavor>12</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_DVADERCIVUNIT</UnitType>
+      <FlavorType>FLAVOR_DEFENSE</FlavorType>
+      <Flavor>15</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_DVADERCIVUNIT</UnitType>
+      <FlavorType>FLAVOR_MOBILE</FlavorType>
+      <Flavor>6</Flavor>
+    </Row>
+  </Unit_Flavors>
+
+  <UnitGameplay2DScripts>
+    <Row>
+      <UnitType>UNIT_DVADERCIVUNIT</UnitType>
+      <SelectionSound>AS2D_SELECT_MECH_INFANTRY</SelectionSound>
+      <FirstSelectionSound>AS2D_BIRTH_MECH_INFANTRY</FirstSelectionSound>
+    </Row>
+  </UnitGameplay2DScripts>
+  
+<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_DVADERUNIT</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>Warrior</Formation>
+		</Row>
+	</ArtDefine_UnitInfos>
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_DVADERUNIT</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_DVADERUNIT</UnitMemberInfoType>
+			<NumMembers>12</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_DVADERUNIT</Type>
+			<Scale>0.125000000596046</Scale>
+			<Model>Stormtrooper.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_DVADERUNIT</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady Walk AttackCharge</EnableActions>
+			<ShortMoveRadius>12.0</ShortMoveRadius>
+			<ShortMoveRate>0.349999994039536</ShortMoveRate>
+			<TargetHeight>8.0</TargetHeight>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+			<ReformBeforeCombat>1</ReformBeforeCombat>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_DVADERUNIT</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<WeaponTypeTag>BULLET</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLET</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_DVADERUNIT</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_PoweredArmorInfantry.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+	
+</GameData>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2015 10:26:57 PM -->
+<GameData>
+	<IconTextureAtlases>
+		
+		<Row>
+			<Atlas>DVADERCIV_ICON</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Vader_Icons_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>DVADERCIV_ICON</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Vader_Icons_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>DVADERCIV_ICON</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>Vader_Icons_80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>DVADERCIV_ICON</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Vader_Icons_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>DVADERCIV_ICON</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Vader_Icons_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>DVADERCIV_ICON</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>Vader_Icons_32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		
+	</IconTextureAtlases>	
+</GameData>

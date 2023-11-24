@@ -96,18 +96,14 @@
 		</Row>
 	</Unit_Flavors>
 
-	<!--
+	
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_PMC</UnitType>
-			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_PMC</UnitType>
-			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
+			<PromotionType>PROMOTION_GUNPOWDER_INFANTRY_COMBAT</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
-	-->
+	
 
 	<UnitGameplay2DScripts>
 		<Row>

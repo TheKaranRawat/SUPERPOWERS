@@ -40,7 +40,7 @@
 			<Where Type="WORLDSIZE_DUEL"/>
 		</Update>
 		<Update>
-			<Set NumCitiesTechCostMod="5"/>
+			<Set NumCitiesTechCostMod="0"/>
 			<Where Type="WORLDSIZE_DUEL"/>
 		</Update>
 		<Update>
@@ -48,7 +48,7 @@
 			<Where Type="WORLDSIZE_TINY"/>
 		</Update>
 		<Update>
-			<Set NumCitiesTechCostMod="5"/>
+			<Set NumCitiesTechCostMod="0"/>
 			<Where Type="WORLDSIZE_TINY"/>
 		</Update>
 		<Update>
@@ -56,7 +56,7 @@
 			<Where Type="WORLDSIZE_SMALL"/>
 		</Update>
 		<Update>
-			<Set NumCitiesTechCostMod="4"/>
+			<Set NumCitiesTechCostMod="0"/>
 			<Where Type="WORLDSIZE_SMALL"/>
 		</Update>
 		<Update>
@@ -64,7 +64,7 @@
 			<Where Type="WORLDSIZE_STANDARD"/>
 		</Update>
 		<Update>
-			<Set NumCitiesTechCostMod="4"/>
+			<Set NumCitiesTechCostMod="0"/>
 			<Where Type="WORLDSIZE_STANDARD"/>
 		</Update>
 		<Update>
@@ -77,24 +77,21 @@
 			<Where Type="WORLDSIZE_LARGE"/>
 		</Update>
 		<Update>
-			<Set NumCitiesTechCostMod="3"/>
+			<Set NumCitiesTechCostMod="0"/>
 			<Where Type="WORLDSIZE_LARGE"/>
 		</Update>
 		<Update>
 			<Set EstimatedNumCities="85"/>
 			<Where Type="WORLDSIZE_LARGE"/>
 		</Update>
-		<Update>
-			<Set ResearchPercent="125"/>
-			<Where Type="WORLDSIZE_LARGE"/>
-		</Update>
+		
 
 		<Update>
 			<Set NumCitiesPolicyCostMod="0"/>
 			<Where Type="WORLDSIZE_HUGE"/>
 		</Update>
 		<Update>
-			<Set NumCitiesTechCostMod="2"/>
+			<Set NumCitiesTechCostMod="0"/>
 			<Where Type="WORLDSIZE_HUGE"/>
 		</Update>
 
@@ -128,10 +125,7 @@
 			<Set EstimatedNumCities="110"/>
 			<Where Type="WORLDSIZE_HUGE"/>
 		</Update>
-		<Update>
-			<Set ResearchPercent="150"/>
-			<Where Type="WORLDSIZE_HUGE"/>
-		</Update>
+		
 
 		<!-- number of civs adjustment -->
 

@@ -88,16 +88,21 @@
 		</Row>
 	</Unit_Flavors>
 
-	<!--
+	
 	<Unit_FreePromotions>
 		
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</UnitType>
+			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
+		</Row>
 		
 	</Unit_FreePromotions>
-	-->
+	
 
 	<UnitGameplay2DScripts>
 		<Row>

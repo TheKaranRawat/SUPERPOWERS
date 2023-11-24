@@ -314,6 +314,24 @@
 			<Text>Task Force 141, colloquially referred to as "The One-Four-One," is a multinational special operations force composed of members of British, Australian, American, Canadian and possibly other foreign personnel, usually those with previous Special Ops experience. </Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_PROJECT_TDF">
+			<Text>Territorial Defence Force Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_TDF_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the elite infantry forces unit: [COLOR_YIELD_GOLD]Territorial Defence Force[ENDCOLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_TDF_PEDIA">
+			<Text>Task Force 141, colloquially referred to as "The One-Four-One," is a multinational special operations force composed of members of British, Australian, American, Canadian and possibly other foreign personnel, usually those with previous Special Ops experience. </Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROJECT_VADER">
+			<Text>Stormtrooper Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_VADER_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the elite infantry unit: [COLOR_YIELD_GOLD]Stormtrooper[ENDCOLOR]. </Text>
+		</Row>
+		
+
 
 		<Row Tag="TXT_KEY_PROJECT_WEISHI_ROCKETS">
 			<Text>Anti-ship MLRS Project</Text>
@@ -339,6 +357,13 @@
 			<Text>The PAK FA ( Perspektivny Aviatsionny Kompleks Frontovoy Aviatsii, literally "Prospective Airborne Complex of Frontline Aviation") is a fifth-generation fighter programme of the Russian Air Force. The T-50 is the aircraft designed by Sukhoi for the PAK FA programme.</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_PROJECT_MIG">
+			<Text>MiG-21 Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_MIG_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the special multirole fighter unit: [COLOR_YIELD_GOLD]Mig-21[ENDCOLOR].
+			</Text>
+		</Row>
 
 		<Row Tag="TXT_KEY_PROJECT_STEALTH_HELICOPTER">
 			<Text>Light Helicopter Experimental Program</Text>
@@ -360,6 +385,17 @@
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROJECT_ADV_MECH_PEDIA">
+			<Text>Mecha is a science fiction genre that centers on robots or machines controlled by people. These machines vary greatly in size, shape, and appearance. Some are little more than cars with arms and legs, while others are giant humanoid constructs. Different sub-genres exist, with varying connotations of realism. The concept of Super Robot and Real Robot are two such examples found in Japanese anime.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROJECT_METALGEAR">
+			<Text>Jaeger Program</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_METALGEAR_HELP">
+			<Text>Only the [COLOR_POSITIVE_TEXT]First[ENDCOLOR] civilization finishing this project is allowed to build the prototype mecha unit: [COLOR_YIELD_GOLD]Giant Death Robot[ENDCOLOR].
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_METALGEAR_PEDIA">
 			<Text>Mecha is a science fiction genre that centers on robots or machines controlled by people. These machines vary greatly in size, shape, and appearance. Some are little more than cars with arms and legs, while others are giant humanoid constructs. Different sub-genres exist, with varying connotations of realism. The concept of Super Robot and Real Robot are two such examples found in Japanese anime.</Text>
 		</Row>
 

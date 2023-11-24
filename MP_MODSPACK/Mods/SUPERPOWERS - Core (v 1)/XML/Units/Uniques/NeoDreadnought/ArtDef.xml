@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/16/2018 7:42:01 PM -->
+<GameData>
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_NAVALFIGHTER04S</Type>
+			<DamageStates>1</DamageStates>
+		</Row>
+	</ArtDefine_UnitInfos>
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_NAVALFIGHTER04S</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_NAVALFIGHTER04S</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_NAVALFIGHTER04S</Type>
+			<Scale>0.07</Scale>
+			<Model>naval_fighter04s.fxsxml</Model>
+			<Domain>Sea</Domain>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_NAVALFIGHTER04S</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLongRangedAttack>1</HasLongRangedAttack>
+			<HasStationaryMelee>1</HasStationaryMelee>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_NAVALFIGHTER04S</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25.0</VisKillStrengthMin>
+			<VisKillStrengthMax>50.0</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_TANK_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION20POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_NAVALFIGHTER04S</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<ProjectileSpeed>4.0</ProjectileSpeed>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_NAVALFIGHTER04S</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_MissileCruiser.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+	
+	<IconTextureAtlases>
+		
+		<Row>
+			<Atlas>JUGGERNAUT_ICON</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Juggernaut256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>JUGGERNAUT_ICON</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Juggernaut128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>JUGGERNAUT_ICON</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>Juggernaut80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>JUGGERNAUT_ICON</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Juggernaut64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>JUGGERNAUT_ICON</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Juggernaut45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		
+		<!-- icon atlas -->
+		<Row>
+			<Atlas>FLAG_JUGGERNAUT</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>JuggernautFlag.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		
+	</IconTextureAtlases>	
+	
+</GameData>

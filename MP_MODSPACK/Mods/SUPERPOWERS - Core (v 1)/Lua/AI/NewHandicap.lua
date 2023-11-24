@@ -137,15 +137,15 @@ function AIForceImprovements (player)
 		if plotOwner ~= nil then
 			if plotOwner == player then
 			
-				if player:GetCurrentEra() >= 3 and plot:GetTerrainType() == TerrainTypes.TERRAIN_COAST and plot:GetResourceType(-1) == -1 and plot:GetFeatureType()== -1 then
-				   plot:SetResourceType(GameInfoTypes.RESOURCE_FISH, 1)
-				   plot:SetImprovementType (GameInfo.Improvements.IMPROVEMENT_FISHFARM_MOD.ID)
-				end
+				--if player:GetCurrentEra() >= 3 and plot:GetTerrainType() == TerrainTypes.TERRAIN_COAST and plot:GetResourceType(-1) == -1 and plot:GetFeatureType()== -1 then
+				--   plot:SetResourceType(GameInfoTypes.RESOURCE_FISH, 1)
+				--   plot:SetImprovementType (GameInfo.Improvements.IMPROVEMENT_FISHFARM_MOD.ID)
+				--end
 				
-				if player:GetCurrentEra() >= 5 and plot:GetTerrainType() == TerrainTypes.TERRAIN_OCEAN and plot:GetResourceType(-1) == -1 and plot:GetFeatureType()== -1 then
-				   plot:SetResourceType(GameInfoTypes.RESOURCE_NATRUALGAS, 1)
-				   plot:SetImprovementType (GameInfo.Improvements.IMPROVEMENT_OFFSHORE_PLATFORM.ID)
-				end
+				--if player:GetCurrentEra() >= 5 and plot:GetTerrainType() == TerrainTypes.TERRAIN_OCEAN and plot:GetResourceType(-1) == -1 and plot:GetFeatureType()== -1 then
+				--   plot:SetResourceType(GameInfoTypes.RESOURCE_NATRUALGAS, 1)
+				--   plot:SetImprovementType (GameInfo.Improvements.IMPROVEMENT_OFFSHORE_PLATFORM.ID)
+				--end
 				
 				local plotResource = plot:GetResourceType(-1)
 				
@@ -174,8 +174,8 @@ function AIForceImprovements (player)
 						plot:SetImprovementType (GameInfo.Improvements.IMPROVEMENT_PASTURE.ID)
 					elseif plot:CanHaveImprovement (GameInfo.Improvements.IMPROVEMENT_FISHING_BOATS.ID) then
 						plot:SetImprovementType (GameInfo.Improvements.IMPROVEMENT_FISHING_BOATS.ID)
-					elseif plot:CanHaveImprovement (GameInfo.Improvements.IMPROVEMENT_FISHFARM_MOD.ID) then
-						plot:SetImprovementType (GameInfo.Improvements.IMPROVEMENT_FISHFARM_MOD.ID)
+					--elseif plot:CanHaveImprovement (GameInfo.Improvements.IMPROVEMENT_FISHFARM_MOD.ID) then
+					--	plot:SetImprovementType (GameInfo.Improvements.IMPROVEMENT_FISHFARM_MOD.ID)
 					elseif plot:CanHaveImprovement (GameInfo.Improvements.IMPROVEMENT_PLANTATION.ID) then
 						RemoveConflictFeatures (plot)
 						plot:SetImprovementType (GameInfo.Improvements.IMPROVEMENT_PLANTATION.ID)
@@ -546,7 +546,7 @@ function AIUnitsAssist(playerID)
 							player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
 							player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
 							player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
-							player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
+						--	player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
 						--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
 						--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			
 						--	 player:InitUnit(GameInfoTypes.UNIT_GUIDED_MISSILE, plot:GetX(), plot:GetY(),UNITAI_MISSILE_AIR)			

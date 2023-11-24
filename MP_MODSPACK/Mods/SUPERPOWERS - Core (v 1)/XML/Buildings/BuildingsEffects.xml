@@ -1157,37 +1157,37 @@
 		<Row>
 			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>25</Quantity>
+			<Quantity>30</Quantity>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_FW_CRECHE</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>8</Quantity>
+			<Quantity>20</Quantity>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_FW_GENEJACK_FACILITY</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>8</Quantity>
+			<Quantity>10</Quantity>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_FW_IMPLANT_CLINIC</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>16</Quantity>
+			<Quantity>10</Quantity>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_FW_CYBERCLINIC</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>16</Quantity>
+			<Quantity>20</Quantity>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_FW_BRAIN_UPLOADING</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>16</Quantity>
+			<Quantity>30</Quantity>
 		</Row>
 
 		<Row>
@@ -1204,7 +1204,7 @@
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_ORDER</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>200</Quantity>
+			<Quantity>100</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_ORDER</BuildingType>
@@ -1215,42 +1215,42 @@
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_FREEDOM</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>50</Quantity>
+			<Quantity>100</Quantity>
 		</Row>
 
 
 		<Row>
 			<BuildingType>BUILDING_PETRA</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>15</Quantity>
+			<Quantity>16</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COLOSSUS</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>15</Quantity>
+			<Quantity>16</Quantity>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_SHOSHONE_HUNTING</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 		
 		<Row>
 			<BuildingType>BUILDING_MOROCCO_MARKET</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>6</Quantity>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_CARAVANSARY</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>15</Quantity>
+			<Quantity>16</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PORT_OF_ROTTERDAM</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>25</Quantity>
+			<Quantity>24</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_EMPIRE</BuildingType>
@@ -1266,12 +1266,12 @@
 		<Row>
 			<BuildingType>BUILDING_VENICE_FONDACO</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CARAVANSARY</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 		
 		<!--<Row>
@@ -1282,19 +1282,19 @@
 		<Row>
 			<BuildingType>BUILDING_INDONESIA_SPICE_HARBOR</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>3</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 		
 		<Row>
 			<BuildingType>BUILDING_PORTUGAL_PORT</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>2</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_OTTOMAN_EMPIRE_PORT</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>6</Quantity>
 		</Row>
 
 		<Row>
@@ -1308,7 +1308,7 @@
 		<Row>
 			<BuildingType>BUILDING_VENICE_FONDACO</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>15</Quantity>
+			<Quantity>16</Quantity>
 		</Row>
 		
 		<Row>
@@ -5433,6 +5433,60 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SHIPYARD</BuildingType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<!--
+		<Row>
+			<BuildingType>BUILDING_INTERNATIONAL_SHIPYARD</BuildingType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_INTERNATIONAL_SHIPYARD</BuildingType>
+			<TerrainType>TERRAIN_OCEAN</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		-->
+
+		<Row>
+			<BuildingType>BUILDING_SHIPYARD</BuildingType>
+			<TerrainType>TERRAIN_OCEAN</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		
+
+		<Row>
+			<BuildingType>BUILDING_CL_FALE_TELE</BuildingType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_CL_FALE_TELE</BuildingType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
 	</Building_TerrainYieldChanges>
 
 
@@ -7435,12 +7489,15 @@
 			<Flavor>40</Flavor>
 		</Row>
 		-->
-
+		
+		<!--
 		<Row>
 			<BuildingType>BUILDING_FW_PHOLUS_MUTAGEN</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>30</Flavor>
 		</Row>
+		-->
+
 		<Row>
 			<BuildingType>BUILDING_FW_SKYNET</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>

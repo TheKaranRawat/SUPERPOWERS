@@ -73,10 +73,10 @@
 			<Class>UNITCLASS_SCOUT</Class>
 			<Type>UNIT_SHOSHONE_PATHFINDER</Type>
 			<BaseSightRange>3</BaseSightRange>
-			<Combat>5</Combat>
+			<Combat>15</Combat>
 			<Cost>25</Cost>
 			<Moves>5</Moves>
-			<HurryCostModifier>-1</HurryCostModifier>
+			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
@@ -106,8 +106,8 @@
 			<BaseSightRange>3</BaseSightRange>
 			<Combat>15</Combat>
 			<Cost>25</Cost>
-			<Moves>4</Moves>
-			<HurryCostModifier>-1</HurryCostModifier>
+			<Moves>5</Moves>
+			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
@@ -163,7 +163,7 @@
 			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
 			<PortraitIndex>5</PortraitIndex>
 			<NumExoticGoods>1</NumExoticGoods>
-			<ExtraMaintenanceCost>16</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_EXPLORERX</Class>
@@ -228,6 +228,7 @@
 			<UnitFlagIconOffset>40</UnitFlagIconOffset>
 			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
+			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
 			<PortraitIndex>12</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
 		</Row>
@@ -525,7 +526,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>36</PortraitIndex>
 			<MoveRate>QUADRUPED</MoveRate>
-			<ExtraMaintenanceCost>12</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -560,8 +561,9 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
 			<MoveRate>QUADRUPED</MoveRate>
-			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>30</ExtraMaintenanceCost>
 		</Row>
+
 		<Row>
 			<Class>UNITCLASS_LANCER</Class>
 			<Type>UNIT_SWEDISH_HAKKAPELIITTA</Type>
@@ -592,7 +594,7 @@
 			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>6</PortraitIndex>
 			<MoveRate>QUADRUPED</MoveRate>
-			<ExtraMaintenanceCost>14</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_LANCER</Class>
@@ -625,14 +627,14 @@
 			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
 			<PortraitIndex>20</PortraitIndex>
 			<MoveRate>QUADRUPED</MoveRate>
-			<ExtraMaintenanceCost>14</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_LANCER</Class>
 			<Type>UNIT_SIAMESE_WARELEPHANT</Type>
 			<PrereqTech>TECH_METALLURGY</PrereqTech>
 			<BaseSightRange>2</BaseSightRange>
-			<Combat>65</Combat>
+			<Combat>70</Combat>
 			<Cost>300</Cost>
 			<Moves>5</Moves>
 			<HurryCostModifier>33</HurryCostModifier>
@@ -656,7 +658,7 @@
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>29</PortraitIndex>
 			<MoveRate>PHANT</MoveRate>
-			<ExtraMaintenanceCost>16</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 		
 		
@@ -695,7 +697,7 @@
 			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>23</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>40</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -730,7 +732,7 @@
 			<PortraitIndex>13</PortraitIndex>
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>70</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>80</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_TANK</Class>
@@ -763,7 +765,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>39</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>70</ExtraMaintenanceCost>
 		</Row>
 
 		
@@ -799,7 +801,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>41</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>100</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>120</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_MAIN_BATTLE_TANK</Class>
@@ -833,14 +835,14 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>34</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>100</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_MAIN_BATTLE_TANK</Class>
 			<Type>UNIT_ZULU_OLIFANT</Type>
 			<PrereqTech>TECH_COMPOSITE</PrereqTech>
 			<BaseSightRange>3</BaseSightRange>
-			<Combat>155</Combat>
+			<Combat>170</Combat>
 			<Cost>755</Cost>
 			<Moves>7</Moves>
 			<HurryCostModifier>75</HurryCostModifier>
@@ -866,7 +868,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>54</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>55</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>100</ExtraMaintenanceCost>
 		</Row>
 		
 				
@@ -875,6 +877,7 @@
 			<Class>UNITCLASS_MODERN_ARMOR</Class>
 			<Type>UNIT_MODERN_ARMOR</Type>
 			<PrereqTech>TECH_BVR_COMBAT</PrereqTech>
+			<ObsoleteTech>TECH_SUPERCONDUCTIVITY</ObsoleteTech>
 			<BaseSightRange>3</BaseSightRange>
 			<Combat>180</Combat>
 			<Cost>1300</Cost>
@@ -900,7 +903,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>27</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>120</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>150</ExtraMaintenanceCost>
 		</Row>
 
 		<Row>
@@ -933,7 +936,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>32</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>70</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>120</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_MODERN_ARMOR</Class>
@@ -965,10 +968,104 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>63</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>70</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>120</ExtraMaintenanceCost>
 		</Row>
 		
+		<Row>
+			<Class>UNITCLASS_FW_RAILGUN_TANK</Class>
+			<Type>UNIT_FW_RAILGUN_TANK</Type>
+			<PrereqTech>TECH_SUPERCONDUCTIVITY</PrereqTech>
+			<Combat>250</Combat>
+			<Cost>2000</Cost>
+			<Moves>6</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_RAILGUN_TANK</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_RAILGUN_TANK_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_RAILGUN_TANK_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_RAILGUN_TANK_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_RAILGUN_TANK</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE</UnitFlagAtlas>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>50</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+			<ExtraMaintenanceCost>200</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_FW_HOVERTANK</Class>
+			<Type>UNIT_FW_HOVERTANK</Type>
+			<PrereqTech>TECH_CYBERNETICS</PrereqTech>
+			<Combat>300</Combat>
+			<Cost>2500</Cost>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<Moves>6</Moves>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_HOVERTANK</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_HOVERTANK_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_HOVERTANK_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_HOVERTANK_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_HOVERTANK</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_4</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>42</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+			<ExtraMaintenanceCost>250</ExtraMaintenanceCost>
+		</Row>
 		
+		<Row>
+			<Class>UNITCLASS_FW_CRAWLER</Class>
+			<Type>UNIT_FW_CRAWLER</Type>
+			<PrereqTech>TECH_HYPERSTRUCTURES</PrereqTech>
+			<Combat>350</Combat>
+			<RangedCombat>250</RangedCombat>
+			<Cost>4000</Cost>
+			<Moves>3</Moves>
+			<Range>4</Range>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_CITY_BOMBARD</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_CRAWLER</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_CRAWLER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_CRAWLER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_CRAWLER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<AdvancedStartCost>80</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_CRAWLER</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE_6</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>58</PortraitIndex>
+			<ExtraMaintenanceCost>300</ExtraMaintenanceCost>
+		</Row>
 		
 		<!--Hit & Run-->
 
@@ -1010,8 +1107,8 @@
 			<Type>UNIT_EGYPTIAN_WARCHARIOT</Type>
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
 			<BaseSightRange>3</BaseSightRange>
-			<Combat>24</Combat>
-			<RangedCombat>12</RangedCombat>
+			<Combat>25</Combat>
+			<RangedCombat>15</RangedCombat>
 			<Cost>90</Cost>
 			<Moves>6</Moves>
 			<Range>1</Range>
@@ -1239,7 +1336,7 @@
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>19</PortraitIndex>
 			<MoveRate>PHANT</MoveRate>
-			<ExtraMaintenanceCost>6</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>4</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -1280,10 +1377,10 @@
 			<Type>UNIT_AZTEC_EAGLE</Type>
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
 			<BaseSightRange>3</BaseSightRange>
-			<Combat>35</Combat>
-			<RangedCombat>25</RangedCombat>
+			<Combat>40</Combat>
+			<RangedCombat>30</RangedCombat>
 			<Cost>150</Cost>
-			<Moves>7</Moves>
+			<Moves>5</Moves>
 			<Range>1</Range>
 			<HurryCostModifier>33</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
@@ -1343,7 +1440,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>5</PortraitIndex>
 			<MoveRate>QUADRUPED</MoveRate>
-			<ExtraMaintenanceCost>12</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>20</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_CAVALRY</Class>
@@ -1351,7 +1448,7 @@
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
 			<BaseSightRange>4</BaseSightRange>
 			<Combat>60</Combat>
-			<RangedCombat>40</RangedCombat>
+			<RangedCombat>50</RangedCombat>
 			<Cost>300</Cost>
 			<Range>1</Range>
 			<Moves>8</Moves>
@@ -1378,7 +1475,7 @@
 			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
 			<PortraitIndex>8</PortraitIndex>
 			<MoveRate>QUADRUPED</MoveRate>
-			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_CAVALRY</Class>
@@ -1413,15 +1510,15 @@
 			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
 			<PortraitIndex>2</PortraitIndex>
 			<MoveRate>QUADRUPED</MoveRate>
-			<ExtraMaintenanceCost>10</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_CAVALRY</Class>
 			<Type>UNIT_SHOSHONE_COMANCHE_RIDERS</Type>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
 			<BaseSightRange>4</BaseSightRange>
-			<Combat>55</Combat>
-			<RangedCombat>40</RangedCombat>
+			<Combat>60</Combat>
+			<RangedCombat>50</RangedCombat>
 			<Cost>200</Cost>
 			<Range>1</Range>
 			<Moves>8</Moves>
@@ -1448,7 +1545,7 @@
 			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
 			<PortraitIndex>18</PortraitIndex>
 			<MoveRate>QUADRUPED</MoveRate>
-			<ExtraMaintenanceCost>8</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>15</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -1520,7 +1617,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>25</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>40</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -1558,7 +1655,7 @@
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<PortraitIndex>35</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>50</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>70</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_HELICOPTER_GUNSHIP</Class>
@@ -1592,7 +1689,7 @@
 			<IconAtlas>SPUNITS02_ATLAS</IconAtlas>
 			<PortraitIndex>52</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>45</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
 		</Row>
 
 
@@ -1600,6 +1697,7 @@
 			<Class>UNITCLASS_ATTACK_HELICOPTER</Class>
 			<Type>UNIT_ATTACK_HELICOPTER</Type>
 			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
+			<ObsoleteTech>TECH_GRID_COMPUTING</ObsoleteTech>
 			<BaseSightRange>5</BaseSightRange>
 			<Combat>130</Combat>
 			<RangedCombat>200</RangedCombat>
@@ -1626,7 +1724,7 @@
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>100</ExtraMaintenanceCost>
 		</Row>
 		<Row>
 			<Class>UNITCLASS_ATTACK_HELICOPTER</Class>
@@ -1693,7 +1791,38 @@
 			<PortraitIndex>48</PortraitIndex>
 			<IconAtlas>SPUNITS01_ATLAS</IconAtlas>
 			<MoveRate>WHEELED</MoveRate>
-			<ExtraMaintenanceCost>50</ExtraMaintenanceCost>
+			<ExtraMaintenanceCost>80</ExtraMaintenanceCost>
+		</Row>
+
+		<Row>
+			<Class>UNITCLASS_FW_VERTOL</Class>
+			<Type>UNIT_FW_VERTOL</Type>
+			<PrereqTech>TECH_GRID_COMPUTING</PrereqTech>
+			<Combat>170</Combat>
+			<Cost>1600</Cost>
+			<Moves>6</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FW_VERTOL</Description>
+			<Civilopedia>TXT_KEY_UNIT_FW_VERTOL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_FW_VERTOL_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_FW_VERTOL_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_FW_VERTOL</UnitArtInfo>
+			<UnitFlagAtlas>FLAG_ATLAS_FUTURE</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+			<ExtraMaintenanceCost>150</ExtraMaintenanceCost>
 		</Row>
 
 	</Units>
@@ -1834,6 +1963,10 @@
 			<UnitClassType>UNITCLASS_MODERN_ARMOR</UnitClassType>
 		</Row>
 		
+		<Row>
+			<UnitType>UNIT_MODERN_ARMOR</UnitType>
+			<UnitClassType>UNITCLASS_FW_RAILGUN_TANK</UnitClassType>
+		</Row>
 		
 		<!--Hit and Run-->
 		
@@ -1914,6 +2047,10 @@
 		<Row>
 			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
 			<UnitClassType>UNITCLASS_ATTACK_HELICOPTER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ATTACK_HELICOPTER</UnitType>
+			<UnitClassType>UNITCLASS_FW_VERTOL</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_POLISH_PZLW3_HELICOPTER</UnitType>
@@ -2081,23 +2218,6 @@
 			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
 			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
 		</Row>
-
-
-		<Row>
-			<UnitType>UNIT_SMAN_EU_BATTLE_ELEPHANT</UnitType>
-			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_SMAN_EU_SIEGE_ELEPHANT</UnitType>
-			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_SMAN_EU_TURRETED_ELEPHANT</UnitType>
-			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
-		</Row>
-
 		<Row>
 			<UnitType>UNIT_BARBARIAN_HORSEMAN</UnitType>
 			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
@@ -2364,6 +2484,16 @@
 			<PromotionType>PROMOTION_UNLIMITED_ATTACK</PromotionType>
 		</Row>
 
+		<Row>
+			<UnitType>UNIT_FW_RAILGUN_TANK</UnitType>
+			<PromotionType>PROMOTION_TANK_COMBAT</PromotionType>
+		</Row>	
+
+		<Row>
+			<UnitType>UNIT_FW_HOVERTANK</UnitType>
+			<PromotionType>PROMOTION_TANK_COMBAT</PromotionType>
+		</Row>	
+
 
 		<!--Hit and Run-->
 
@@ -2391,29 +2521,6 @@
 			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
 			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
 		</Row>
-
-		<Row>
-			<UnitType>UNIT_SMAN_EU_CAMEL_BOWMAN</UnitType>
-			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
-			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_SMAN_EU_CAMEL_RIFLEMAN</UnitType>
-			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_SMAN_EU_CAMEL_WAR_PARTY</UnitType>
-			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
-		</Row>
-
-
-
 		<Row>
 			<UnitType>UNIT_BARBARIAN_AXMAN</UnitType>
 			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
@@ -2661,6 +2768,11 @@
 		
 		<Row>
 			<UnitType>UNIT_ATTACK_HELICOPTER</UnitType>
+			<PromotionType>PROMOTION_HELI_ATTACK</PromotionType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_FW_VERTOL</UnitType>
 			<PromotionType>PROMOTION_HELI_ATTACK</PromotionType>
 		</Row>
 
@@ -3310,120 +3422,120 @@
 		<Row>
 			<UnitType>UNIT_HORSEMAN</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CARTHAGINIAN_FOREST_ELEPHANT</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GREEK_COMPANIONCAVALRY</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_BARBARIAN_HORSEMAN</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_BYZANTINE_CATAPHRACT</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 
 
 		<Row>
 			<UnitType>UNIT_KNIGHT</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_PERSIAN_CATAPHRACT</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SONGHAI_MUSLIMCAVALRY</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 		
 		<Row>
 			<UnitType>UNIT_LANCER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SWEDISH_HAKKAPELIITTA</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_POLISH_WINGED_HUSSAR</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SIAMESE_WARELEPHANT</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>8</Cost>
 		</Row>
 
 
 		<Row>
 			<UnitType>UNIT_WWI_TANK</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>4</Cost>
+			<Cost>10</Cost>
 		</Row>
 
 		<Row>
 			<UnitType>UNIT_TANK</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>4</Cost>
+			<Cost>10</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GERMAN_PANZER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>4</Cost>
+			<Cost>10</Cost>
 		</Row>
 
 		<Row>
 			<UnitType>UNIT_MAIN_BATTLE_TANK</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>4</Cost>
+			<Cost>12</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_RUSSIAN_T80</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>4</Cost>
+			<Cost>12</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ZULU_OLIFANT</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>12</Cost>
 		</Row>
 
 		<Row>
 			<UnitType>UNIT_MODERN_ARMOR</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>4</Cost>
+			<Cost>12</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CHINESE_TYPE99</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>4</Cost>
+			<Cost>12</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_PERSIAN_ZULFIQAR</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>4</Cost>
+			<Cost>12</Cost>
 		</Row>
 
 <!--Hit and Run-->
@@ -3521,7 +3633,7 @@
 		<Row>
 			<UnitType>UNIT_SCOUT</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>1</Cost>
+			<Cost>2</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
@@ -3547,12 +3659,12 @@
 		<Row>
 			<UnitType>UNIT_EGYPTIAN_WARCHARIOT</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_HUN_HORSE_ARCHER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_BARBARIAN_AXMAN</UnitType>
@@ -3563,87 +3675,87 @@
 		<Row>
 			<UnitType>UNIT_MEDIEVAL_CHARIOT</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ARABIAN_CAMELARCHER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MONGOLIAN_KESHIK</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 
 		<Row>
 			<UnitType>UNIT_BOMBARD</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_AZTEC_EAGLE</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 
 		<Row>
 			<UnitType>UNIT_CAVALRY</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_BERBER_CAVALRY</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_AUSTRIAN_HUSSAR</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SHOSHONE_COMANCHE_RIDERS</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 
 		<Row>
 			<UnitType>UNIT_CRUISER_TANK</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>2</Cost>
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ENGLISH_CROMWELL_TANK</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>2</Cost>
+			<Cost>6</Cost>
 		</Row>
 
 		<Row>
 			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_POLISH_PZLW3_HELICOPTER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>8</Cost>
 		</Row>
 
 		<Row>
 			<UnitType>UNIT_ATTACK_HELICOPTER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GERMAN_EUROCOPTER_TIGER</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_AMERICAN_APACHE</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>8</Cost>
 		</Row>
 
 
@@ -3651,11 +3763,12 @@
 		<Row>
 			<UnitType>UNIT_EXPLORERX</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SPANISH_CONQUISTADOR</UnitType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>4</Cost>
 		</Row>
 	</Unit_ResourceQuantityRequirements>
 

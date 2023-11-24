@@ -46,7 +46,7 @@
 			<Text>Automated</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SP_UI_BTN_CITYAUTO">
-			<Text>Click to set this city [COLOR_POSITIVE_TEXT]Autonomous[ENDCOLOR]. It will automatically schedule its future production queue. [NEWLINE][NEWLINE]if this city is already assigned a production mission, it will be autonomous after finishing its current production queue. [NEWLINE][NEWLINE]You can still change its production queue anytime like adding or removing items in the queue. [NEWLINE][NEWLINE][COLOR_YELLOW]Important Notes:[ENDCOLOR] The AI is not as smart as you. You'd better keep an eye on these autonomous cities in case they start to build something you don't want. </Text>
+			<Text>Enables [COLOR_POSITIVE_TEXT]Autonomous Production[ENDCOLOR] in your cities. [NEWLINE][NEWLINE]If this city is already assigned a production, it will be autonomous after finishing its current production queue. [NEWLINE][NEWLINE]The Production Queue can still be edited, and Autonomous Construction will resume after the Queue is completed. [NEWLINE][NEWLINE][COLOR_YELLOW]Important Notes:[ENDCOLOR] Cities should be monitored in case they begin productions you do not desire. </Text>
 		</Row>
 
 		

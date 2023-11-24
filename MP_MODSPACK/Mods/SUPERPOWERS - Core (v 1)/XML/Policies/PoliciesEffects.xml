@@ -81,6 +81,7 @@
 	</Policy_CapitalYieldPerPopChanges>-->
 
 	<Policy_GreatWorkYieldChanges>
+
 		<Row>
 			<PolicyType>POLICY_FINE_ARTS</PolicyType>
 			<YieldType>YIELD_CULTURE</YieldType>
@@ -91,6 +92,13 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
 		</Row>
+
+		<Row>
+			<PolicyType>POLICY_AESTHETICS_FINISHER</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+
 	</Policy_GreatWorkYieldChanges>
 
 
@@ -1301,18 +1309,18 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		<!--<Row>
+		<Row>
 			<PolicyType>POLICY_LANDED_ELITE</PolicyType>
 			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
-		</Row>-->
-		<!--<Row>
+		</Row>
+		<Row>
 			<PolicyType>POLICY_LANDED_ELITE</PolicyType>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
-		</Row>-->
+		</Row>
 		<Row>
 			<PolicyType>POLICY_LANDED_ELITE</PolicyType>
 			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
@@ -1337,7 +1345,7 @@
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MARITIME_INFRASTRUCTURE</PolicyType>
-			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -1350,7 +1358,7 @@
 
 		<Row>
 			<PolicyType>POLICY_MARITIME_INFRASTRUCTURE</PolicyType>
-			<ImprovementType>IMPROVEMENT_FISHERY_MOD</ImprovementType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -1366,38 +1374,32 @@
 			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>1</Yield>
+			<Yield>3</Yield>
 		</Row>
-		<Row>
-			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
-			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>6</Yield>
-		</Row>
-		
+
 		<Row>
 			<PolicyType>POLICY_NEW_DEAL</PolicyType>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>4</Yield>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_NEW_DEAL</PolicyType>
 			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>6</Yield>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_NEW_DEAL</PolicyType>
 			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>6</Yield>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_NEW_DEAL</PolicyType>
 			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>6</Yield>
+			<Yield>5</Yield>
 		</Row>
 		
 		<Row>
@@ -1441,26 +1443,103 @@
 
 		<Row>
 			<PolicyType>POLICY_ISKA_UNIVERSAL_SUFFRAGE</PolicyType>
-			<ImprovementType>IMPROVEMENT_FISHERY_MOD</ImprovementType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
 		</Row>
 
 		<Row>
 			<PolicyType>POLICY_ISKA_UNIVERSAL_SUFFRAGE</PolicyType>
-			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
+		</Row>		
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
+		</Row>		
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
+		</Row>		
+
+		<Row>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
+		</Row>		
+		<Row>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
+		</Row>		
+
+		<Row>
+			<PolicyType>POLICY_ENTREPRENEURSHIP</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ENTREPRENEURSHIP</PolicyType>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>		
+		<Row>
+			<PolicyType>POLICY_ENTREPRENEURSHIP</PolicyType>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
 		</Row>
 
 	</Policy_ImprovementYieldChanges>
 
 	<Policy_ImprovementCultureChanges>
-		<!--<Row>
-			<PolicyType>POLICY_THEOCRACY</PolicyType>
-			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
-			<CultureChange>4</CultureChange>
-		</Row>-->
 
 		<Row>
 			<PolicyType>POLICY_ISKA_CONSTITUTION</PolicyType>
@@ -1478,7 +1557,7 @@
 		<Row>
 			<PolicyType>POLICY_NEW_DEAL</PolicyType>
 			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
-			<CultureChange>4</CultureChange>
+			<CultureChange>5</CultureChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_PARTY_LEADERSHIP</PolicyType>

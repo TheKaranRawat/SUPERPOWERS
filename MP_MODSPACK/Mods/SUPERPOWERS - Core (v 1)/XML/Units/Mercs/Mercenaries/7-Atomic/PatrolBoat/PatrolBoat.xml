@@ -5,7 +5,7 @@
 		<Row>
 			<Type>UNITCLASS_EXOTIC_UNIT_SMAN_PATROL_BOAT</Type>
 			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_SMAN_PATROL_BOAT</Description>
-			<DefaultUnit>UNIT_EXOTIC_UNIT_SMAN_PATROL_BOAT</DefaultUnit>-->			
+			<DefaultUnit>UNIT_EXOTIC_UNIT_SMAN_PATROL_BOAT</DefaultUnit>		
 			<MaxPlayerInstances>5</MaxPlayerInstances>
 		</Row>
 	</UnitClasses>
@@ -92,6 +92,10 @@
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_SMAN_PATROL_BOAT</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SMAN_PATROL_BOAT</UnitType>
+			<PromotionType>PROMOTION_MILITIA_COMBAT</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
 	

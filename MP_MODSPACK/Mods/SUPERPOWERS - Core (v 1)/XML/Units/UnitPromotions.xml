@@ -29,7 +29,7 @@
 		<Row>
 			<Type>PROMOTION_FW_MOVE_ALL_TERRAIN</Type>
 			<Description>TXT_KEY_PROMOTION_MOVE_ALL_TERRAIN</Description>
-			<Help>TXT_KEY_PROMOTION_MOVE_ALL_TERRAIN_HELP</Help>
+			<Help>TXT_KEY_PROMOTION_FW_MOVE_ALL_TERRAIN_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<IconAtlas>ABILITY_ATLAS</IconAtlas>
 			<PediaType>PEDIA_ATTRIBUTES</PediaType>
@@ -306,7 +306,7 @@
 		<Row>
 			<Type>PROMOTION_STEALTH_EVASION</Type>
 			<Description>TXT_KEY_PROMOTION_STEALTH_EVASION</Description>
-			<Help>TXT_KEY_PROMOTION_STEALTH_EVASION</Help>
+			<Help>TXT_KEY_PROMOTION_STEALTH_EVASION_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<LostWithUpgrade>true</LostWithUpgrade>
 			<CannotBeChosen>true</CannotBeChosen>
@@ -2093,7 +2093,7 @@
 		
 		<Row>
 			<Type>PROMOTION_HEAVY_SHOCK_1</Type>
-			<Description>TXT_KEY_PROMOTION_SHOCK_1</Description>
+			<Description>TXT_KEY_PROMOTION_HEAVY_SHOCK_1</Description>
 			<Help>TXT_KEY_PROMOTION_HEAVY_SHOCK_1_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<OrderPriority>11</OrderPriority>
@@ -2105,7 +2105,7 @@
 		</Row>
 		<Row>
 			<Type>PROMOTION_HEAVY_SHOCK_2</Type>
-			<Description>TXT_KEY_PROMOTION_SHOCK_2</Description>
+			<Description>TXT_KEY_PROMOTION_HEAVY_SHOCK_2</Description>
 			<Help>TXT_KEY_PROMOTION_HEAVY_SHOCK_2_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereq>PROMOTION_HEAVY_SHOCK_1</PromotionPrereq>
@@ -2118,7 +2118,7 @@
 		</Row>
 		<Row>
 			<Type>PROMOTION_HEAVY_SHOCK_3</Type>
-			<Description>TXT_KEY_PROMOTION_SHOCK_3</Description>
+			<Description>TXT_KEY_PROMOTION_HEAVY_SHOCK_3</Description>
 			<Help>TXT_KEY_PROMOTION_HEAVY_SHOCK_3_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereq>PROMOTION_HEAVY_SHOCK_2</PromotionPrereq>
@@ -3275,8 +3275,9 @@
 			<HealOutsideFriendly>true</HealOutsideFriendly>
 			<CannotBeChosen>true</CannotBeChosen>
 			<InterceptChanceChange>100</InterceptChanceChange>
-			<NumInterceptionChange>1</NumInterceptionChange>
-			<AirSweepCombatModifier>50</AirSweepCombatModifier>
+			<NumInterceptionChange>3</NumInterceptionChange>
+			<InterceptionCombatModifier>150</InterceptionCombatModifier>
+			<AirSweepCombatModifier>150</AirSweepCombatModifier>
 		</Row>
 
 		<Row>
@@ -3870,6 +3871,13 @@
 			<DomainType>DOMAIN_SEA</DomainType>
 			<Modifier>100</Modifier>
 		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NAVAL_RANGED_CRUISER</PromotionType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Modifier>100</Modifier>
+		</Row>
+
+
 	</UnitPromotions_Domains>
 
 
@@ -4751,6 +4759,22 @@
 	
 	<!--*****************************Civlization UA Promotions*******************************************-->
 	<UnitPromotions>
+		
+		<Row>
+			<Type>PROMOTION_FRENCH_ARTY</Type>
+			<Description>TXT_KEY_PROMOTION_FRENCH_ARTY</Description>
+			<Help>TXT_KEY_PROMOTION_FRENCH_ARTY_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>23</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_RESTLESSNESS</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<MovesChange>2</MovesChange>
+			<ExtraAttacks>2</ExtraAttacks>
+			<CanMoveAfterAttacking>true</CanMoveAfterAttacking>
+		</Row>
+
 		<Row>
 			<Type>PROMOTION_HEAVY_PAYLOAD</Type>
 			<Description>TXT_KEY_PROMOTION_HEAVY_PAYLOAD</Description>
@@ -5247,6 +5271,7 @@
 			<ExtraAttacks>1</ExtraAttacks>
 			<CanMoveAfterAttacking>true</CanMoveAfterAttacking>
 		</Row>
+
 		<Row>
 			<Type>PROMOTION_RECRUITMENT</Type>
 			<Description>TXT_KEY_PROMOTION_RECRUITMENT</Description>
@@ -6654,6 +6679,19 @@
 			<PediaEntry>TXT_KEY_PROMOTION_DOUBLE_CASUALTIES</PediaEntry>
 			<LostWithUpgrade>true</LostWithUpgrade>
 		</Row>-->
+
+		<Row>
+			<Type>PROMOTION_VADERONE</Type>
+			<Description>The Empire Strikes Back!</Description>
+			<Help>+25% Combat Strength VS Wounded Units.</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_UNIT_HELP_DVADERCIVUNIT</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<AttackWoundedMod>25</AttackWoundedMod>
+		</Row>
 
 	</UnitPromotions>
 

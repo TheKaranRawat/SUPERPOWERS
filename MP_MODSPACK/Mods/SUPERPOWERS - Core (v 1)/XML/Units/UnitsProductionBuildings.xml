@@ -536,6 +536,10 @@
 			<UnitType>UNIT_MECH</UnitType>
 			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_METALGEAR</UnitType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
 	</Unit_BuildingClassRequireds>
 
 
@@ -677,6 +681,10 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_PAKFA_T50</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MC_SOVIET_MIG_21</UnitType>
 			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
 		</Row>
 		<Row>
@@ -955,6 +963,11 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_XCOM_SQUAD</UnitType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_SPACEMARINE</UnitType>
 			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
 		</Row>
 

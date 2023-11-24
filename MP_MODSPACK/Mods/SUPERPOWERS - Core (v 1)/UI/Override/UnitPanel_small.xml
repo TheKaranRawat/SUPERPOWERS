@@ -176,7 +176,7 @@
 
 
   <Image Anchor="L,B" Offset="0,0" Texture="assets\UI\Art\UnitPanel\UnitPanel.dds" Size="550.256" />
-    <Image Anchor="L,B" Offset="-28,-23" Size="256,256" Texture="UnitPortraitsAncientMedieval.dds" ID="UnitPortrait" Hidden="0" Disabled="1" ToolTip="TXT_KEY_CURRENTLY_SELECTED_UNIT" />
+    <Image Anchor="L,B" Offset="-26,-23" Size="256,256" Texture="UnitPortraitsAncientMedieval.dds" ID="UnitPortrait" Hidden="0" Disabled="1" ToolTip="TXT_KEY_CURRENTLY_SELECTED_UNIT" />
     <Button Anchor="L,B" Offset="-28,-23" Size="256,225" ID="UnitPortraitButton" Hidden="0" Disabled="0"/>
     <Image Size="54,54" Offset="0,0" Anchor="L,B"  Texture="Assets/UI/Art/UnitPanel/UnitTypeFrame.dds" ID="UnitTypeFrame">
         <Image Size="38,38" Offset="0,0" Anchor="C,C" Color="PlayerColor2,255"  Texture="Assets/UI/Art/UnitPanel/unitbackteamcolor.dds" ID="UnitIconBackground" />

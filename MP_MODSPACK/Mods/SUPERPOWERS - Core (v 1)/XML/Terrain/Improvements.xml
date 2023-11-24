@@ -281,7 +281,7 @@
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_FARM</ArtDefineTag>
 			<SpecificCivRequired>true</SpecificCivRequired>
 			<CivilizationType>CIVILIZATION_IROQUOIS</CivilizationType>
-			<PillageGold>20</PillageGold>
+			<PillageGold>25</PillageGold>
 			<PortraitIndex>14</PortraitIndex>
 			<IconAtlas>SP_IMPROVEMENTS_ATLAS</IconAtlas>
 		</Row>
@@ -609,10 +609,14 @@
 			<ImprovementType>IMPROVEMENT_PONTOON_BRIDGE_MOD</ImprovementType>
 			<TerrainType>TERRAIN_COAST</TerrainType>
 		</Row>
+
+		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHERY_MOD</ImprovementType>
 			<TerrainType>TERRAIN_COAST</TerrainType>
 		</Row>
+		-->
+
 		<!--<Row>
 			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
 			<TerrainType>TERRAIN_COAST</TerrainType>
@@ -900,24 +904,26 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		-->
-
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHERY_MOD</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
+		-->
+
 		<Row>
 			<ImprovementType>IMPROVEMENT_GAS_RIG_MOD</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		
+		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		-->
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_SHOSHONE_TIPI</ImprovementType>
@@ -1291,7 +1297,9 @@
 
 			<Row>
 				<Type>BUILD_FISHERY_MOD</Type>
+				<!--
 				<PrereqTech>TECH_OPTICS</PrereqTech>
+				-->
 				<ImprovementType>IMPROVEMENT_FISHERY_MOD</ImprovementType>
 				<Description>TXT_KEY_BUILD_FISHERY_MOD</Description>
 				<Help>TXT_KEY_BUILD_FISHERY_MOD_HELP</Help>
@@ -1325,7 +1333,9 @@
 
 			<Row>
 				<Type>BUILD_GAS_RIG_MOD</Type>
+				<!--
 				<PrereqTech>TECH_TELEGRAPH</PrereqTech>
+				-->
 				<ImprovementType>IMPROVEMENT_GAS_RIG_MOD</ImprovementType>
 				<Description>TXT_KEY_BUILD_GAS_RIG_MOD</Description>
 				<Help>TXT_KEY_BUILD_GAS_RIG_MOD_HELP</Help>
@@ -1430,18 +1440,26 @@
 			<BuildType>BUILD_IROQUOIAN_FOREST_FARM</BuildType>
 		</Row>
 
+		<!--
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_FISHERY_MOD</BuildType>
 		</Row>
+		-->
+
+		<!--
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_FISHFARM_MOD</BuildType>
 		</Row>
+		-->
+
+		<!--
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_GAS_RIG_MOD</BuildType>
 		</Row>
+		-->
 		
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
@@ -1464,18 +1482,26 @@
 			<BuildType>BUILD_MOUNTAIN_ROCKS</BuildType>
 		</Row>
 		
+		<!--
 		<Row>
 			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
 			<BuildType>BUILD_FISHERY_MOD</BuildType>
 		</Row>
+		-->
+
+		<!--
 		<Row>
 			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
 			<BuildType>BUILD_FISHFARM_MOD</BuildType>
 		</Row>
+		-->
+
+		<!--
 		<Row>
 			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
 			<BuildType>BUILD_GAS_RIG_MOD</BuildType>
 		</Row>
+		-->
 
 		<Row>
 			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
@@ -1490,6 +1516,13 @@
 			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
 			<BuildType>BUILD_CREATE_JUNGLE</BuildType>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_ARABIAN_PROPHET</UnitType>
+			<BuildType>BUILD_HOLY_SITE</BuildType>
+		</Row>
+		
+
 	</Unit_Builds>
 
 
@@ -1613,14 +1646,157 @@
 			<ImprovementType>IMPROVEMENT_FW_INDUSTRIAL_COMPLEX</ImprovementType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
 		</Row>
-		
-		
-		
 
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+		</Row>		
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<ResourceType>RESOURCE_LAPIS</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+		</Row>
+
+
+		
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+		</Row>		
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+		</Row>		
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+		</Row>		
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+		</Row>		
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+		</Row>		
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+		</Row>		
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+		</Row>		
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_LAPIS</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_OLIVE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_PERFUME</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_SPICES</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_TEA</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+		</Row>
+
+		<!--
 		<Update>
 			<Set ImprovementType="IMPROVEMENT_FISHFARM_MOD"/>
 			<Where ResourceType="RESOURCE_FISH"/>
 		</Update>
+		-->
 		<Delete ImprovementType="IMPROVEMENT_CITADEL"/>
 
 		<!--<Row>
@@ -1666,22 +1842,22 @@
 		</Row>-->
 		
 		<Update>
-			<Set Yield="14"/>
+			<Set Yield="10"/>
 			<Where ImprovementType="IMPROVEMENT_HOLY_SITE"/>
 		</Update>
 
 		<Update>
-			<Set Yield="14"/>
+			<Set Yield="20"/>
 			<Where ImprovementType="IMPROVEMENT_LANDMARK"/>
 		</Update>
 
 
 		<Update>
-			<Set Yield="14"/>
+			<Set Yield="5"/>
 			<Where ImprovementType="IMPROVEMENT_CUSTOMS_HOUSE"/>
 		</Update>
 		<Update>
-			<Set Yield="14"/>
+			<Set Yield="10"/>
 			<Where ImprovementType="IMPROVEMENT_MANUFACTORY"/>
 		</Update>
 
@@ -1702,12 +1878,19 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>		
 	</Improvement_HillsYields>
 		
 
 
 
 	<Improvement_RouteYieldChanges>
+
+		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<RouteType>ROUTE_ROAD</RouteType>
@@ -1720,7 +1903,7 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>4</Yield>
 		</Row>
-
+		-->
 		<Row>
 			<ImprovementType>IMPROVEMENT_KASBAH</ImprovementType>
 			<RouteType>ROUTE_ROAD</RouteType>
@@ -1747,7 +1930,7 @@
 			<Where ImprovementType="IMPROVEMENT_CUSTOMS_HOUSE"/>
 		</Update>
 		<Update>
-			<Set Yield="4"/>
+			<Set Yield="5"/>
 			<Where ImprovementType="IMPROVEMENT_ACADEMY"/>
 		</Update>
 		
@@ -1756,7 +1939,7 @@
 			<Where ImprovementType="IMPROVEMENT_MANUFACTORY" YieldType="YIELD_PRODUCTION"/>
 			<Set>
 				<TechType>TECH_MACHINERY</TechType>
-				<Yield>2</Yield>
+				<Yield>5</Yield>
 			</Set>
 		</Update>
 
@@ -1790,57 +1973,57 @@
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<TechType>TECH_ENGINEERING</TechType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 		
 		<Row>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
 			<TechType>TECH_EDUCATION</TechType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>4</Yield>
+			<Yield>5</Yield>
 		</Row>
-		<!--<Row>
+		<Row>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
 			<TechType>TECH_ELECTRICITY</TechType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>4</Yield>
-		</Row>-->
+			<Yield>5</Yield>
+		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
 			<TechType>TECH_GUILDS</TechType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>4</Yield>
+			<Yield>5</Yield>
 		</Row>
 		
 		<Row>
 			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
 			<TechType>TECH_CURRENCY</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
 			<TechType>TECH_ADMINISTRATION</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
 			<TechType>TECH_INTEGRATED_CIRCUIT</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
 			<TechType>TECH_INTERNET</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
 			<TechType>TECH_IOT_NETWORK</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>5</Yield>
 		</Row>
 
 		
@@ -1849,25 +2032,25 @@
 			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
 			<TechType>TECH_ADV_ENGINEERING</TechType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>4</Yield>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
 			<TechType>TECH_METAMATERIAL</TechType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>4</Yield>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
 			<TechType>TECH_PARTICLE_PHYSICS</TechType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>4</Yield>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
 			<TechType>TECH_TRANSHUMANISM</TechType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>4</Yield>
+			<Yield>5</Yield>
 		</Row>
 
 
@@ -1884,14 +2067,14 @@
 			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
 			<TechType>TECH_CIVIL_SERVICE</TechType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>5</Yield>
 		</Row>
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 			<TechType>TECH_TERRAFORMING</TechType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>3</Yield>
+			<Yield>1</Yield>
 		</Row>
 		
 		<Row>
@@ -1926,45 +2109,7 @@
 			<Yield>1</Yield>
 		</Row>
 
-		<!--	flax boost at civil service (1f,1p), fertilizer (2f) and genetic engineering (1f,1p)	-->
-		<Row>
-			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
-			<TechType>TECH_CIVIL_SERVICE</TechType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-			
-		</Row>
-
-		<Row>
-			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
-			<TechType>TECH_CIVIL_SERVICE</TechType>
-			
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-
-		<Row>
-			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
-			<TechType>TECH_FERTILIZER</TechType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-
-		<Row>
-			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
-			<TechType>TECH_GENETIC_ENGEERING</TechType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-			
-		</Row>
-		
-		<Row>
-			<ImprovementType>IMPROVEMENT_EGYPTIAN_FLAX</ImprovementType>
-			<TechType>TECH_GENETIC_ENGEERING</TechType>
-			
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
+				
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
@@ -1992,18 +2137,21 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<!-- 
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
 			<TechType>TECH_FERTILIZER</TechType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHERY_MOD</ImprovementType>
 			<TechType>TECH_FERTILIZER</TechType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		-->
 		
 
 
@@ -2037,18 +2185,24 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+
+		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
 			<TechType>TECH_GENETIC_ENGEERING</TechType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		
+
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHERY_MOD</ImprovementType>
 			<TechType>TECH_GENETIC_ENGEERING</TechType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		-->
+
 		<Row>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
 			<TechType>TECH_GENETIC_ENGEERING</TechType>
@@ -2094,7 +2248,6 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
-
 	</Improvement_TechYieldChanges>
 
 	<Improvement_TechFreshWaterYieldChanges>
@@ -2153,16 +2306,24 @@
 	<Improvement_CoastalLandYields>
 
 		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>		
+
+		<Row>
 			<ImprovementType>IMPROVEMENT_FW_ARCOLOGY</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>4</Yield>
 		</Row>
-
+		
+		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		-->
 		
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_GENERATOR</ImprovementType>
@@ -2213,6 +2374,17 @@
 	</Improvement_CoastalLandYields>
 
 	<Improvement_RiverSideYields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_INDUSTRIAL_COMPLEX</ImprovementType>
@@ -2236,11 +2408,14 @@
 			<Yield>2</Yield>
 		</Row>
 		
+		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		-->
+
 		<Row>
 			<ImprovementType>IMPROVEMENT_KASBAH</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -2267,6 +2442,13 @@
 	<Improvement_AdjacentMountainYieldChanges>
 
 		<Row>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
+		</Row>		
+
+		<Row>
+
 			<ImprovementType>IMPROVEMENT_FW_GENOCENTRE</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>4</Yield>
@@ -2275,17 +2457,27 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>		
+		<Row>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_MAYA_ALTAR</ImprovementType>
-			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
+		</Row>		
+		<Row>
+			<ImprovementType>IMPROVEMENT_MAYA_ALTAR</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
 		</Row>
 	</Improvement_AdjacentMountainYieldChanges>
 
@@ -2331,7 +2523,7 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_GENOCENTRE</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>24</Yield>
+			<Yield>44</Yield>
 		</Row>	
 
 
@@ -2361,8 +2553,13 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_BRAZILWOOD_CAMP</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>3</Yield>
 		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_BRAZILWOOD_CAMP</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>		
 		<!--<Row>
 			<ImprovementType>IMPROVEMENT_POLDER</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -2372,6 +2569,20 @@
 	</Improvement_Yields>
 
 	<Improvement_TechYieldChanges>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
+			<TechType>TECH_DYNAMITE</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<TechType>TECH_DYNAMITE</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>		
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
@@ -2504,6 +2715,30 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_BRAZILWOOD_CAMP</ImprovementType>
+			<TechType>TECH_ADV_ENGINEERING</TechType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>		
+		<Row>
+			<ImprovementType>IMPROVEMENT_BRAZILWOOD_CAMP</ImprovementType>
+			<TechType>TECH_GENETIC_ENGEERING</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>	
+		<Row>
+			<ImprovementType>IMPROVEMENT_BRAZILWOOD_CAMP</ImprovementType>
+			<TechType>TECH_ECONOMICS</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>			
+		<Row>
+			<ImprovementType>IMPROVEMENT_BRAZILWOOD_CAMP</ImprovementType>
+			<TechType>TECH_MACHINERY</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>				
 	</Improvement_TechYieldChanges>
 
 	

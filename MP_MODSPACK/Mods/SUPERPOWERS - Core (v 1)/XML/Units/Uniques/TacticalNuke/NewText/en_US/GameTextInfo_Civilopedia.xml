@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- INFOS -->
+<GameData>
+		<Language_en_US>
+			<!--TACT NUKE INFO Info-->
+			<Row Tag="TXT_KEY_CIV5_TACTICAL_NUCLEAR_MISSILE_TEXT">
+				<Text>A Tactical Nuclear Weapon (or TNW) refers to a nuclear weapon which is designed to be used on a battlefield in military situations. This is as opposed to strategic nuclear weapons which are designed to menace large populations, to damage the enemy's ability to wage war, or for general deterrence. Tactical nuclear weapons were a large part of the peak nuclear weapons stockpile levels during the Cold War.[NEWLINE][NEWLINE]There is no precise definition of the "tactical" category, neither considering range nor yield of the nuclear weapon. The yield of tactical nuclear weapons is generally lower than that of strategic nuclear weapons, but they are still very powerful, and some variable-yield warheads serve in both roles. Modern tactical nuclear warheads have yields up to the tens of kilotons, or potentially hundreds, several times that of the weapons used in the atomic bombings of Hiroshima and Nagasaki.[NEWLINE][NEWLINE]Use of tactical nuclear weapons against similarly-armed opponents carries a significant danger of quickly escalating the conflict beyond anticipated boundaries, from the tactical to the strategic. Ironically, the smallest tactical nuclear warheads with the lowest-yields are the most dangerous in this respect because they greatly reduce the threshold for starting nuclear warfare; i.e. there is, naturally, much less reluctance to use a nuclear weapon with a destructive yield of 10 tons of TNT (e.g. the W54 warhead design) at times of crisis than there is for a warhead with a yield of 100 kilotons.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_UNIT_TACTICAL_NUCLEAR_MISSILE_STRATEGY">
+				<Text>Use Tactical Nuclear Missiles in situations where you need to take care of powerful units or cities. But keep in mind that the range of these weapons is dramatically less than traditional ICBMs.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_UNIT_HELP_TACTICAL_NUCLEAR_MISSILE">
+				<Text>A Tactical Nuclear Missile:[NEWLINE][NEWLINE][ICON_BULLET]Does extreme damage to a unit or city in a single tile[NEWLINE][ICON_BULLET]Causes no fallout[NEWLINE][ICON_BULLET]Uses 1 [ICON_RES_URANIUM] Uranium resource[NEWLINE][ICON_BULLET]Has a range of 3</Text>
+			</Row>
+			<!-- HARD MOBILE LAUNCHER INFO-->
+			<Row Tag="TXT_KEY_CIV5_HARD_MOBILE_LAUNCHER_TEXT">
+				<Text>A Hard Mobile Launcher or Transport Erector Launcher is a vehicle with an integrated prime mover that can carry, elevate to firing position and launch one or more missiles. Such vehicles exist for both surface-to-air missiles and surface-to-surface missiles. Early such missiles were launched from fixed sites and had to be loaded onto trucks for transport, making them more vulnerable to attack since once they were spotted by the enemy they couldn't easily be relocated, and if they were it often took hours or even days to prepare them for launch once they reached their new site.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_UNIT_HARD_MOBILE_LAUNCHER_STRATEGY">
+				<Text>Equip the Hard Mobile Launcher with Tactical Nuclear Missiles, ICBMs, or Guided Missiles and use them to deliver the payload.</Text>
+			</Row>
+			<Row Tag="TXT_KEY_UNIT_HELP_HARD_MOBILE_LAUNCHER">
+				<Text>A Hard Mobile Launcher is designed to transport and deliver missiles on land. Keep in mind that they are very vulnerable to attack. It can carry up to 3 Tactical Nuclear Missiles, Intercontinental Ballistic Missiles, or Guided Missiles.</Text>
+			</Row>
+		</Language_en_US>
+</GameData>

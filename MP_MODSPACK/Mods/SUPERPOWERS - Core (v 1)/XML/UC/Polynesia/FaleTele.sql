@@ -4,8 +4,8 @@
 -- Buildings
 ------------------------------
 INSERT INTO Buildings 	
-		(Type, 						BuildingClass, Cost, GoldMaintenance, PrereqTech,		Water, TradeRouteSeaDistanceModifier, TradeRouteSeaGoldBonus, Description, 					Civilopedia, 						Help, 									Strategy,									PlotBuyCostModifier, ArtDefineTag, 	ArtInfoEraVariation, DisplayPosition, AllowsWaterRoutes, MinAreaSize, ConquestProb, GreatPeopleRateModifier, FreshWater, HurryCostModifier, PortraitIndex, 	IconAtlas)
-SELECT	'BUILDING_CL_FALE_TELE',	BuildingClass, 90, 0, 'TECH_THEOLOGY',	Water, TradeRouteSeaDistanceModifier, TradeRouteSeaGoldBonus, 'TXT_KEY_BUILDING_CL_FALE_TELE', 	'TXT_KEY_CIV5_CL_FALE_TELE_TEXT', 	'TXT_KEY_BUILDING_CL_FALE_TELE_HELP', 	'TXT_KEY_BUILDING_CL_FALE_TELE_STRATEGY',		-15,				 ArtDefineTag,	ArtInfoEraVariation, DisplayPosition, AllowsWaterRoutes, MinAreaSize, ConquestProb, GreatPeopleRateModifier, FreshWater, HurryCostModifier, 18, 				'5UC_ICON_ATLAS'
+		(Type, 						BuildingClass, Cost, GoldMaintenance, PrereqTech,		Water, TradeRouteSeaDistanceModifier, TradeRouteSeaGoldBonus, Description, 					Civilopedia, 						Help, 									Strategy,									PlotBuyCostModifier, ArtDefineTag, 	ArtInfoEraVariation, DisplayPosition, AllowsWaterRoutes, MinAreaSize, ConquestProb, GreatPeopleRateModifier, FreshWater, HurryCostModifier, SpecialistType, SpecialistCount, PortraitIndex, 	IconAtlas)
+SELECT	'BUILDING_CL_FALE_TELE',	BuildingClass, 90, 0, 'TECH_THEOLOGY',	Water, TradeRouteSeaDistanceModifier, TradeRouteSeaGoldBonus, 'TXT_KEY_BUILDING_CL_FALE_TELE', 	'TXT_KEY_CIV5_CL_FALE_TELE_TEXT', 	'TXT_KEY_BUILDING_CL_FALE_TELE_HELP', 	'TXT_KEY_BUILDING_CL_FALE_TELE_STRATEGY',		-15,				 ArtDefineTag,	ArtInfoEraVariation, DisplayPosition, AllowsWaterRoutes, MinAreaSize, ConquestProb, GreatPeopleRateModifier, FreshWater, HurryCostModifier, SpecialistType, SpecialistCount, 18, 				'5UC_ICON_ATLAS'
 FROM Buildings WHERE Type = 'BUILDING_HARBOR';	
 
 ------------------------------	

@@ -1,0 +1,33 @@
+PUPPET_SCIENCE_MODIFIER
+
+<Row>
+	<Type>AICITYSTRATEGY_IS_PUPPET</Type>
+	<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
+	<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
+</Row>
+
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_IS_PUPPET</AICityStrategyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		
+		
+		</AICityStrategy_Flavors>
+		
+		
+		
+		
+		
+		
+		BTNCityAuto
+		BTNClearAllProduction
+		BTNCopyCapitalOrder
+		BTNCopyCapitalFocus
+		
+		
+		add icons
+		add tooltips
+		
+		check automation
+		check city puppet making option

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2015 10:26:57 PM -->
+<GameData>
+	<IconTextureAtlases>
+		
+		<Row>
+			<Atlas>SPACEMARINE_ICON</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>SpaceMarines256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SPACEMARINE_ICON</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>SpaceMarines128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SPACEMARINE_ICON</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>SpaceMarines80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SPACEMARINE_ICON</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>SpaceMarines64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SPACEMARINE_ICON</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>SpaceMarines45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		
+		<!-- icon atlas -->
+		<Row>
+			<Atlas>FLAG_SPACEMARINE</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>SpaceMarinesFlag.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		
+	</IconTextureAtlases>	
+</GameData>

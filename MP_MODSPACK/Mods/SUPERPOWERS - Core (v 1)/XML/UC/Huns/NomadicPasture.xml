@@ -191,6 +191,15 @@
 			<IconsPerRow>2</IconsPerRow>
 			<IconsPerColumn>2</IconsPerColumn>
 		</Row>
+
+		<Row>
+			<Atlas>TERRAIN_IMPROVEMENT_3EKI</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>XML/UC/Huns/EkiAtlas128.dds</Filename>
+			<IconsPerRow>3</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+
 		<Row>
 			<Atlas>TERRAIN_IMPROVEMENT_3EKI</Atlas>
 			<IconSize>256</IconSize>

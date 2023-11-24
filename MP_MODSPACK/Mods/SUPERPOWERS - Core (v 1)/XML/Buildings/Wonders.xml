@@ -281,12 +281,16 @@
 			<Description>TXT_KEY_BUILDING_FW_MNEMOSYNE</Description>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
+
+		<!--
 		<Row>
 			<Type>BUILDINGCLASS_FW_PHOLUS_MUTAGEN</Type>
 			<DefaultBuilding>BUILDING_FW_PHOLUS_MUTAGEN</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_FW_PHOLUS_MUTAGEN</Description>
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 		</Row>
+	    -->
+
 		<Row>
 			<Type>BUILDINGCLASS_FW_CITADEL_STATION</Type>
 			<DefaultBuilding>BUILDING_FW_CITADEL_STATION</DefaultBuilding>
@@ -640,6 +644,8 @@
 			<WonderSplashImage>CitadelStation_Splash.dds</WonderSplashImage>
 			<WonderSplashAnchor>R,T</WonderSplashAnchor>
 		</Row>
+
+		<!--
 		<Row>
 			<Type>BUILDING_FW_PHOLUS_MUTAGEN</Type>
 			<BuildingClass>BUILDINGCLASS_FW_PHOLUS_MUTAGEN</BuildingClass>
@@ -660,6 +666,8 @@
 			<WonderSplashImage>PholusMutagen_Splash.dds</WonderSplashImage>
 			<WonderSplashAnchor>L,T</WonderSplashAnchor>
 		</Row>
+		-->
+
 		<Row>
 			<Type>BUILDING_FW_SKYNET</Type>
 			<BuildingClass>BUILDINGCLASS_FW_SKYNET</BuildingClass>
@@ -1459,7 +1467,7 @@
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>NEW_BLDG_ATLAS_DLC</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
-			<NumTradeRouteBonus>2</NumTradeRouteBonus>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
 		</Row>
 		<Row>
 			<Type>BUILDING_NATIONAL_STOCK_EXCHANGE</Type>
@@ -1477,7 +1485,7 @@
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>SPWondersUB_ATLAS</IconAtlas>
 			<PortraitIndex>54</PortraitIndex>
-			<NumTradeRouteBonus>2</NumTradeRouteBonus>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
 		</Row>
 		<Row>
 			<Type>BUILDING_NATIONAL_FINANCE</Type>
@@ -1495,7 +1503,7 @@
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>SPWondersUB_ATLAS</IconAtlas>
 			<PortraitIndex>51</PortraitIndex>
-			<NumTradeRouteBonus>2</NumTradeRouteBonus>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
 		</Row>
 
 
@@ -3076,7 +3084,7 @@
 			<PortraitIndex>3</PortraitIndex>
 			<WonderSplashImage>EMPIRE_splash.dds</WonderSplashImage>
 			<WonderSplashAnchor>L,B</WonderSplashAnchor>
-			<!--<NumTradeRouteBonus>1</NumTradeRouteBonus>-->
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
 			<!--<FreeBuilding>BUILDINGCLASS_TRADEROUTE_INCOME_BOOST_EMPIRE</FreeBuilding>-->
 		</Row>
 		<Row>
@@ -4366,11 +4374,11 @@
 			<MinAreaSize>10</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<TradeRouteSeaDistanceModifier>25</TradeRouteSeaDistanceModifier>
-			<TradeRouteSeaGoldBonus>100</TradeRouteSeaGoldBonus>
+			<TradeRouteSeaGoldBonus>5000</TradeRouteSeaGoldBonus>
 			<TradeRouteLandDistanceModifier>25</TradeRouteLandDistanceModifier>
 			<TradeRouteLandGoldBonus>100</TradeRouteLandGoldBonus>
-			<TradeRouteRecipientBonus>4</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>2</TradeRouteTargetBonus>
+			<TradeRouteRecipientBonus>50</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>50</TradeRouteTargetBonus>
 			<NumTradeRouteBonus>1</NumTradeRouteBonus>
 			<IconAtlas>MEGAPACKWONDERS_ATLAS</IconAtlas>
 			<PortraitIndex>51</PortraitIndex>
@@ -4378,7 +4386,211 @@
 			<WonderSplashAnchor>L,B</WonderSplashAnchor>
 		</Row>
 
+
+		<Row>
+			<Type>BUILDING_TAIPEI</Type>
+			<BuildingClass>BUILDINGCLASS_TAIPEI</BuildingClass>
+			<Description>TXT_KEY_BUILDING_TAIPEI</Description>
+			<Help>TXT_KEY_WONDER_TAIPEI_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_TAIPEI_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_TAIPEI_QUOTE</Quote>
+			<Cost>1250</Cost>
+			<PrereqTech>TECH_TELECOM</PrereqTech>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<Gold>10</Gold>
+			<IconAtlas>BW_ATLAS_TAIPEI</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>TAIPEI_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_ARECIBO</Type>
+			<BuildingClass>BUILDINGCLASS_ARECIBO</BuildingClass>
+			<Description>TXT_KEY_BUILDING_ARECIBO</Description>
+			<Help>TXT_KEY_WONDER_ARECIBO_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_ARECIBO_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_ARECIBO_QUOTE</Quote>
+			<Cost>1250</Cost>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<SpaceProductionModifier>50</SpaceProductionModifier>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_ARECIBO</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>ARECIBO_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,B</WonderSplashAnchor>
+		</Row>
 		
+		<Row>
+			<Type>BUILDING_WILLIS</Type>
+			<BuildingClass>BUILDINGCLASS_WILLIS</BuildingClass>
+			<Cost>950</Cost>
+			<PrereqTech>TECH_ADV_FLIGHT</PrereqTech>
+			<Help>TXT_KEY_WONDER_WILLIS_HELP</Help>
+			<Description>TXT_KEY_BUILDING_WILLIS</Description>
+			<Civilopedia>TXT_KEY_WONDER_WILLIS_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_WILLIS_QUOTE</Quote>
+			<NukeImmune>true</NukeImmune>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<FreeBuildingThisCity>BUILDINGCLASS_BROADCAST_TOWER</FreeBuildingThisCity>
+	        <IconAtlas>WILLIS_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>willis_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,T</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_WASHINGTON</Type>
+			<BuildingClass>BUILDINGCLASS_WASHINGTON</BuildingClass>
+			<Description>TXT_KEY_BUILDING_WASHINGTON</Description>
+			<Help>TXT_KEY_WONDER_WASHINGTON_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_WASHINGTON_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_WASHINGTON_QUOTE</Quote>
+			<Cost>750</Cost>
+			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+			<MaxStartEra>ERA_MODERN</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<GlobalGreatPeopleRateModifier>25</GlobalGreatPeopleRateModifier>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_WASHINGTON</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>WASHINGTON_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,T</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_ABER</Type>
+			<BuildingClass>BUILDINGCLASS_ABER</BuildingClass>
+			<Description>TXT_KEY_BUILDING_ABER</Description>
+			<Help>TXT_KEY_WONDER_ABER_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_ABER_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_ABER_QUOTE</Quote>
+			<Cost>400</Cost>
+			<Hill>true</Hill>
+			<PrereqTech>TECH_PHYSICS</PrereqTech>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<ExtraLeagueVotes>1</ExtraLeagueVotes>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_DIWALI</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<WonderSplashImage>ABER_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,T</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_AGRA</Type>
+			<BuildingClass>BUILDINGCLASS_AGRA</BuildingClass>
+			<Description>TXT_KEY_BUILDING_AGRA</Description>
+			<Help>TXT_KEY_WONDER_AGRA_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_AGRA_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_AGRA_QUOTE</Quote>
+			<Cost>500</Cost>
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<ExtraCityHitPoints>150</ExtraCityHitPoints>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_DIWALI</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<WonderSplashImage>AGRA_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_HARMANDIR</Type>
+			<BuildingClass>BUILDINGCLASS_HARMANDIR</BuildingClass>
+			<Description>TXT_KEY_BUILDING_HARMANDIR</Description>
+			<Help>TXT_KEY_WONDER_HARMANDIR_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_HARMANDIR_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_HARMANDIR_QUOTE</Quote>
+			<Cost>625</Cost>
+			<PrereqTech>TECH_METALLURGY</PrereqTech>
+			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_DIWALI</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>HARMANDIR_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_HAWA</Type>
+			<BuildingClass>BUILDINGCLASS_HAWA</BuildingClass>
+			<Description>TXT_KEY_BUILDING_HAWA</Description>
+			<Help>TXT_KEY_WONDER_HAWA_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_HAWA_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_HAWA_QUOTE</Quote>
+			<Cost>625</Cost>
+			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
+			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_DIWALI</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<WonderSplashImage>HAWA_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_MAHADEVA</Type>
+			<BuildingClass>BUILDINGCLASS_MAHADEVA</BuildingClass>
+			<Description>TXT_KEY_BUILDING_MAHADEVA</Description>
+			<Help>TXT_KEY_WONDER_MAHADEVA_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_MAHADEVA_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_MAHADEVA_QUOTE</Quote>
+			<Cost>300</Cost>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_DIWALI</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+			<WonderSplashImage>MAHADEVA_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>	
 		
 
 		
@@ -4389,7 +4601,7 @@
 		<Row>
 			<BuildingType>BUILDING_MOTHER_CALLS_MANPOWER</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>30</Quantity>
 		</Row>
 
 
@@ -4543,7 +4755,7 @@
 			<Cost>4</Cost>
 		</Row>
 
-                <Row>
+        <Row>
 			<BuildingType>BUILDING_FW_MNEMOSYNE</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>2</Cost>
@@ -4555,11 +4767,13 @@
 			<Cost>6</Cost>
 		</Row>
 
+		<!--
          <Row>
 			<BuildingType>BUILDING_FW_PHOLUS_MUTAGEN</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>4</Cost>
 		</Row>
+		-->
 
          <Row>
 			<BuildingType>BUILDING_FW_SKYNET</BuildingType>
@@ -4582,7 +4796,7 @@
         <Row>
 			<BuildingType>BUILDING_FW_VIRTUAL_IDOL</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>2</Cost>
+			<Cost>8</Cost>
 		</Row>
 
          <Row>
@@ -4668,13 +4882,13 @@
 		<Row>
 			<BuildingType>BUILDING_HORYUJI</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_MADOL</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
-			<Cost>2</Cost>
+			<Cost>4</Cost>
 		</Row>
 
 		<Row>
@@ -4738,20 +4952,17 @@
 
 		<Row>
 			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>2</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>2</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>2</Cost>
 		</Row>
 
@@ -4760,121 +4971,102 @@
 
 		<Row>
 			<BuildingType>BUILDING_COLOSSEUM</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>3</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_HANSEATIC_LEAGUE</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>4</Cost>
 		</Row>
 
 		<!--<Row>
 			<BuildingType>BUILDING_TRIUMPHAL_ARCH</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>6</Cost>
 		</Row>-->
 
 		<!--<Row>
 			<BuildingType>BUILDING_MOTHERLAND_CALLS</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>		
-		
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>				
 		</Row>-->
 
 		<Row>
 			<BuildingType>BUILDING_HOOVER_DAM</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ASWAN_DAM</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>7</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LARGE_HADRON_COLLIDER</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>15</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>16</Cost>
 		</Row>
 
 
 		<Row>
 			<BuildingType>BUILDING_PORT_OF_ROTTERDAM</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-
 			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CAIRO</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_POTALA</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_EMPIRE</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>7</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BAUHAUS</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>1</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_YANGTZE</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>12</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TOKYO_METRO</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PEARL_TOWER</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>12</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PETRONAS</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_UNITED_NATIONS_HQ</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>10</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BURJ_TOWER</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>12</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SPACE_ELEVATOR</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>18</Cost>
 		</Row>
 
@@ -4882,264 +5074,221 @@
 
 		<Row>
 			<BuildingType>BUILDING_PYRAMID</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>2</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>3</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>1</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>3</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COLOSSUS</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>2</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>1</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ORACLE</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>2</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>2</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>2</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>3</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_NOTRE_DAME</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>3</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>3</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>3</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_KREMLIN</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FORBIDDEN_PALACE</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SISTINE_CHAPEL</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HIMEJI_CASTLE</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>3</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TAJ_MAHAL</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>3</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BIG_BEN</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BRANDENBURG_GATE</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>7</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LOUVRE</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_EIFFEL_TOWER</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>8</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CRISTO_REDENTOR</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PENTAGON</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>6</Cost>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_ALHAMBRA</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CN_TOWER</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>10</Cost>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_SYDNEY_OPERA_HOUSE</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-
 			<Cost>10</Cost>
 		</Row>
 		
 		<!--<Row>
 			<BuildingType>BUILDING_HUBBLE</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>12</Cost>
 		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_LEANING_TOWER</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>3</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_NEUSCHWANSTEIN</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PETRA</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>3</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<!--<Row>
 			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>3</Cost>
 		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_GREAT_FIREWALL</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>10</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_UFFIZI</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>1</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GLOBE_THEATER</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>1</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BROADWAY</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>1</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_RED_FORT</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>2</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PRORA_RESORT</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
 			<Cost>6</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>3</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>4</Cost>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PARTHENON</BuildingType>
-			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			
-			<Cost>1</Cost>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>			
+			<Cost>2</Cost>
 		</Row>
 
 
@@ -5147,7 +5296,6 @@
 		<Row>
 			<BuildingType>BUILDING_MEGACITY_PYRAMID</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-
 			<Cost>16</Cost>
 		</Row>
 

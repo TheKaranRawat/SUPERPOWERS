@@ -220,8 +220,52 @@ GameEvents.PlayerAdoptPolicy.Add(PolicyAdoptedEffects);
 
 print("New Policy Effects Check Pass!")
 
+----------------------------------------------CITY STATE DEFENSE SCRIPT------------------------
+
+--[[
+function csdefence(playerID, buildingTypeID)
+
+	local player = Players[playerID]	
+	local buildingID = buildingTypeID
+
+		if player== nil then
+			return
+		end
+	   
+		if not player:IsMinorCiv() then
+			print ("Civ City Skipped for CSdefence")
+			return 
+	    end
+
+	   if player:IsHuman() then 
+		   print ("Human City Skipped for CSdefence")
+		   return
+	   end
+	   
+	   if player:GetNumCities() < 1 then 
+		   return
+		   print("CS has less than one city")	
+	   end
+	   	   
+	   addcsdefence (player, buildingID)	
+	   
+   end
+
+   -- GameEvents.PlayerCanConstruct(playerID, buildingTypeID);
+   GameEvents.PlayerCanConstruct.Add(csdefence);
 
 
+   function addcsdefence (player, buildingID)	
+
+	for city in player:Cities() do
+		if city:IsHasBuilding(GameInfo.Buildings["BUILDING_CITY_SIZE_TOWN"].ID) then
+				
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_TRADITION_FOOD_GROWTH"],1)
+			print ("Aristocracy Growth Bonus!")
+		end
+	end
+end
+]]--
 
 
 ----------------------------------------------Utilities----------------------------------------

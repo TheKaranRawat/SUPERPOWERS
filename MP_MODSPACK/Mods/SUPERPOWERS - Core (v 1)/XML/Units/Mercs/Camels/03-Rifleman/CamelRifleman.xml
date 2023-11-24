@@ -76,6 +76,10 @@
 			<UnitType>UNIT_SMAN_EU_CAMEL_RIFLEMAN</UnitType>
 			<PromotionType>PROMOTION_SMAN_SIROCCO_PROMOTION</PromotionType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_RIFLEMAN</UnitType>
+			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
+		</Row>
 	</Unit_FreePromotions>
 
 	<Unit_AITypes>

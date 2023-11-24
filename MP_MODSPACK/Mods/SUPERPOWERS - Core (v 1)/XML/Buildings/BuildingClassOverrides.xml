@@ -1002,12 +1002,68 @@
 
 		
 		
-		
+		<!-- PALACE REPLACEMENT FOR CS -->
 		<Row>
 			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 			<BuildingType>BUILDING_CITYSTATE_RESOURCE</BuildingType>
 		</Row>
+
+		<!-- DEFENSE BUILDINGS REPLACEMENT FOR CS -->
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALISADE_WALL</BuildingClassType>
+			<BuildingType>BUILDING_PALISADE_WALL_CS</BuildingType>
+		</Row>
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<BuildingType>BUILDING_WALLS_CS</BuildingType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<BuildingType>BUILDING_CASTLE_CS</BuildingType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_BARRACKS_CS</BuildingType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+			<BuildingType>BUILDING_ARMORY_CS</BuildingType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+			<BuildingType>BUILDING_ARSENAL_CS</BuildingType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+			<BuildingType>BUILDING_MILITARY_BASE_CS</BuildingType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WOOD_DOCK</BuildingClassType>
+			<BuildingType>BUILDING_WOOD_DOCK_CS</BuildingType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_SHIPYARD</BuildingClassType>
+			<BuildingType>BUILDING_SHIPYARD_CS</BuildingType>
+		</Row>
+
 
 
 

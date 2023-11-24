@@ -399,7 +399,7 @@
 		<Row>
 			<ResourceType>RESOURCE_COCOA</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
@@ -409,12 +409,12 @@
 		<Row>
 			<ResourceType>RESOURCE_COFFEE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_TEA</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_TEA</ResourceType>
@@ -424,7 +424,7 @@
 		<Row>
 			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_TOBACCO</ResourceType>
@@ -439,7 +439,7 @@
 		<Row>
 			<ResourceType>RESOURCE_AMBER</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_JADE</ResourceType>
@@ -459,22 +459,27 @@
 		<Row>
 			<ResourceType>RESOURCE_OLIVE</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_PERFUME</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_PERFUME</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
-		</Row>		
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_CORAL</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>				
 		<Row>
 			<ResourceType>RESOURCE_CORAL</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<ResourceType>RESOURCE_CORAL</ResourceType>

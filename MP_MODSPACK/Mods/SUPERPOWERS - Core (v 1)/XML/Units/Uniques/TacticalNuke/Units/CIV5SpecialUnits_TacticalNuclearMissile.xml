@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- iNFO -->
+<GameData>
+	<SpecialUnits>
+		<Row>
+			<Type>SPECIALUNIT_TACTICALNUCLEARMISSILE</Type>
+			<Description>TXT_KEY_SPECIALUNIT_TACTICALNUCLEARMISSILE</Description>
+			<Valid>true</Valid>
+			<CityLoad>true</CityLoad>
+		</Row>
+	</SpecialUnits>
+</GameData>

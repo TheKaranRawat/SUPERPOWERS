@@ -15,13 +15,13 @@
       <Description>TXT_KEY_UNIT_SMAN_EU_RECON_PLANE</Description>
       <CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
       <Domain>DOMAIN_AIR</Domain>
-      <Special>SPECIALUNIT_FIGHTER</Special>
+      <Special>SPECIALUNIT_STEALTH</Special>
       <Class>UNITCLASS_SMAN_EU_RECON_PLANE</Class>
       <Cost>800</Cost>
       <AdvancedStartCost>200</AdvancedStartCost>
       <RangedCombat>120</RangedCombat>
       <Range>14</Range>
-	  <AirInterceptRange>3</AirInterceptRange>
+	    <AirInterceptRange>3</AirInterceptRange>
       <RangeAttackIgnoreLOS>true</RangeAttackIgnoreLOS>
       <IgnoreBuildingDefense>true</IgnoreBuildingDefense>
       <Moves>2</Moves>
@@ -105,6 +105,10 @@
 		  <UnitType>UNIT_SMAN_EU_RECON_PLANE</UnitType>
 		  <PromotionType>PROMOTION_AIR_SWEEP</PromotionType>
 	  </Row>
+    <Row>
+			<UnitType>UNIT_SMAN_EU_RECON_PLANE</UnitType>
+			<PromotionType>PROMOTION_ANTI_AIR_II</PromotionType>
+		</Row>
 	  
   </Unit_FreePromotions>
 	
@@ -216,4 +220,3 @@
     </Row>
   </Language_en_US>
 </GameData>
-

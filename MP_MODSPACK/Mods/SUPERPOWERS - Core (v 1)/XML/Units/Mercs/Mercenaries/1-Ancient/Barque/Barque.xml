@@ -141,10 +141,14 @@
 		</Row>
 	</Unit_Flavors>
 
-	<Unit_FreePromotions>
+	<Unit_FreePromotions>		
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_BARQUE</UnitType>
 			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BARQUE</UnitType>
+			<PromotionType>PROMOTION_NAVALMELEE_COMBAT</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
 	

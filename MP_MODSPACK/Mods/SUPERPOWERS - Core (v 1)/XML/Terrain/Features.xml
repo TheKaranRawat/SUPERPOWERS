@@ -67,6 +67,11 @@
 			<Set Yield="0"/>
 			<Where TerrainType="TERRAIN_OCEAN" />
 		</Update>
+
+		<Update>
+			<Set Yield="2"/>
+			<Where TerrainType="TERRAIN_COAST" />
+		</Update>
 		
 	</Terrain_Yields>
 	

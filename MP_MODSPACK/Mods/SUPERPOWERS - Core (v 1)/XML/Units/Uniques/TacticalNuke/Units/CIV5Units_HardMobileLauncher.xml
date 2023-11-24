@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/8/2012 3:48:20 PM -->
+<GameData>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_HARD_MOBILE_LAUNCHER</Class>
+			<Type>UNIT_HARD_MOBILE_LAUNCHER</Type>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+			<Combat>5</Combat>
+			<Cost>1000</Cost>
+			<Moves>2</Moves>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RECON</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_HARD_MOBILE_LAUNCHER</Description>
+			<Civilopedia>TXT_KEY_CIV5_HARD_MOBILE_LAUNCHER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_HARD_MOBILE_LAUNCHER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_HARD_MOBILE_LAUNCHER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>80</AdvancedStartCost>
+			<MinAreaSize>20</MinAreaSize>
+			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>		
+			<UnitArtInfo>ART_DEF_UNIT_ROCKET_ARTILLERY</UnitArtInfo>
+			<IconAtlas>UNIT_COLOR_ATLAS_HARD_MOBILE_LAUNCHER</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<UnitFlagAtlas>UNIT_FLAG_ITG_EXTRA_1_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>14</UnitFlagIconOffset>
+			
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+	</Units>	
+	
+	<SpecialUnit_CarrierUnitAI>
+		<Row>
+			<SpecialUnitType>SPECIALUNIT_TACTICALNUCLEARMISSILE</SpecialUnitType>
+			<UnitAIType>UNITAI_MISSILE_CARRIER_TACTICAL</UnitAIType>
+		</Row>		
+	</SpecialUnit_CarrierUnitAI>
+	
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_HARD_MOBILE_LAUNCHER</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HARD_MOBILE_LAUNCHER</UnitType>
+			<UnitAIType>UNITAI_MISSILE_CARRIER_TACTICAL</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	
+	<Unit_Flavors>
+		
+		<Row>
+			<UnitType>UNIT_HARD_MOBILE_LAUNCHER</UnitType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_HARD_MOBILE_LAUNCHER</UnitType>
+			<PromotionType>PROMOTION_CARGO_I</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+</GameData>

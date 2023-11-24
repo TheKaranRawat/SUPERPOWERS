@@ -844,6 +844,26 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_TDF</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_TDF</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_VADER</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_VADER</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
 			<UnitClassType>UNITCLASS_STEALTH_HELICOPTER</UnitClassType>
 			<UnitType/>
 		</Row>
@@ -864,12 +884,32 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_MIG_21</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_MIG_21</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
 			<UnitClassType>UNITCLASS_MECH</UnitClassType>
 			<UnitType/>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
 			<UnitClassType>UNITCLASS_MECH</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_METALGEAR</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_METALGEAR</UnitClassType>
 			<UnitType/>
 		</Row>
 	</Civilization_UnitClassOverrides>

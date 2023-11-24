@@ -5,7 +5,7 @@
 		<Row>
 			<Type>UNITCLASS_EXOTIC_UNIT_SMAN_DREADNOUGHT</Type>
 			<Description>TXT_KEY_UNIT_EXOTIC_UNIT_SMAN_DREADNOUGHT</Description>
-			<DefaultUnit>UNIT_EXOTIC_UNIT_SMAN_DREADNOUGHT</DefaultUnit>-->			
+			<DefaultUnit>UNIT_EXOTIC_UNIT_SMAN_DREADNOUGHT</DefaultUnit>
 			<MaxPlayerInstances>3</MaxPlayerInstances>
 		</Row>
 	</UnitClasses>
@@ -94,6 +94,10 @@
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_SMAN_DREADNOUGHT</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_SMAN_DREADNOUGHT</UnitType>
+			<PromotionType>PROMOTION_NAVAL_CAPITAL_SHIP</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
 	

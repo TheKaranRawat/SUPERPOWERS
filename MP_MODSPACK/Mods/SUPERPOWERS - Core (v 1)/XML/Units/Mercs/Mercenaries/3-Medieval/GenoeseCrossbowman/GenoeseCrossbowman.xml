@@ -91,6 +91,10 @@
 			<UnitType>UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</UnitType>
+			<PromotionType>PROMOTION_ARCHERY_COMBAT</PromotionType>
+		</Row>
 	</Unit_FreePromotions>
 
 	<UnitGameplay2DScripts>

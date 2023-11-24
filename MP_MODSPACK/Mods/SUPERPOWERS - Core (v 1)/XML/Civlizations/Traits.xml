@@ -13,26 +13,26 @@
 			<Type>TRAIT_ART_OF_WAR</Type>
 			<Description>TXT_KEY_TRAIT_ART_OF_WAR</Description>
 			<ShortDescription>TXT_KEY_TRAIT_ART_OF_WAR_SHORT</ShortDescription>
-			<NumTradeRoutesModifier>40</NumTradeRoutesModifier> 
-			<LandUnitMaintenanceModifier>-10</LandUnitMaintenanceModifier> 
+			<LandUnitMaintenanceModifier>-15</LandUnitMaintenanceModifier> 
 			<!--<GreatGeneralRateModifier>50</GreatGeneralRateModifier>-->
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			<FreeBuilding>BUILDING_TB_TRAIT_WU_2</FreeBuilding>
+			
 		</Row>
 		
 		<Row>
 			<Type>TRAIT_RIVER_EXPANSION</Type>
 			<Description>TXT_KEY_TRAIT_RIVER_EXPANSION</Description>
 			<ShortDescription>TXT_KEY_TRAIT_RIVER_EXPANSION_SHORT</ShortDescription>
-			<CityCultureBonus>25</CityCultureBonus>
-			<NavalUnitMaintenanceModifier>-10</NavalUnitMaintenanceModifier> 
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			<CityCultureBonus>10</CityCultureBonus>
+			<FreeBuilding>BUILDING_TB_TRAIT_WASHINGTON_2</FreeBuilding>
+
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_STRATEGIC_RICHES</Type>
 			<Description>TXT_KEY_TRAIT_STRATEGIC_RICHES</Description>
 			<ShortDescription>TXT_KEY_TRAIT_STRATEGIC_RICHES_SHORT</ShortDescription>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
-			<LandUnitMaintenanceModifier>-10</LandUnitMaintenanceModifier>
+			
 			<FreeBuilding>BUILDING_TB_STRATEGIC_RICHES</FreeBuilding>
 		</Row>
 		<Row>
@@ -40,17 +40,23 @@
 			<Description>TXT_KEY_TRAIT_OCEAN_MOVEMENT</Description>
 			<ShortDescription>TXT_KEY_TRAIT_OCEAN_MOVEMENT_SHORT</ShortDescription>
 			<!--<ExtraSpies>1</ExtraSpies>-->
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
+			<FreeBuilding>BUILDING_TB_TRAIT_ELIZABETH_2</FreeBuilding> 
+
+			
 		</Row>
+
 		<Row>
 			<Type>TRAIT_ENHANCED_CULTURE</Type>
 			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description>
 			<ShortDescription>TXT_KEY_TRAIT_ENHANCED_CULTURE_SHORT</ShortDescription>
 			<PolicyCostModifier>-15</PolicyCostModifier> 
 			<LevelExperienceModifier>50</LevelExperienceModifier> 
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 			<FreeBuilding>BUILDING_TB_ENHANCED_CULTURE</FreeBuilding>
+			
 		</Row>
+
 		<Row>
 			<Type>TRAIT_CONVERTS_LAND_BARBARIANS</Type>
 			<Description>TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS</Description>
@@ -58,7 +64,8 @@
 			<GreatGeneralRateModifier>20</GreatGeneralRateModifier> 			
 			<!--<FreeSocialPoliciesPerEra>1</FreeSocialPoliciesPerEra>-->
 			<!--<PrereqTech>TECH_EDUCATION</PrereqTech>-->
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			<FreeBuilding>BUILDING_TB_TRAIT_BISMARCK_2</FreeBuilding> 
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_CAPITAL_BUILDINGS_CHEAPER</Type>
@@ -66,7 +73,7 @@
 			<ShortDescription>TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER_SHORT</ShortDescription>
 			<FreeBuilding>BUILDING_TB_CAPITAL_BUILDINGS_CHEAPER</FreeBuilding>
 			<CityUnhappinessModifier>-33</CityUnhappinessModifier>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_ENHANCED_GOLDEN_AGES</Type>
@@ -76,7 +83,7 @@
 			<GoldenAgeMoveChange>2</GoldenAgeMoveChange>
 			<GoldenAgeCombatModifier>20</GoldenAgeCombatModifier>
 			<FasterInHills>1</FasterInHills> 
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 	<!--	Egypt 15% boost for buildings	-->	
 		<Row>
@@ -84,7 +91,7 @@
 			<Description>TXT_KEY_TRAIT_WONDER_BUILDER</Description>
 			<ShortDescription>TXT_KEY_TRAIT_WONDER_BUILDER_SHORT</ShortDescription>
 			<WonderProductionModifier>25</WonderProductionModifier>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 			<CapitalBuildingModifier>15</CapitalBuildingModifier> 
 			<FreeBuilding>BUILDING_TB_TRAIT_WONDER_BUILDER</FreeBuilding>
 		</Row>
@@ -103,23 +110,23 @@
 			<GreatGeneralExtraBonus>15</GreatGeneralExtraBonus>
 			<StaysAliveZeroCities>1</StaysAliveZeroCities> 
 			<TechFromCityConquer>1</TechFromCityConquer> 
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_FIGHT_WELL_DAMAGED</Type>
 			<Description>TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED</Description>
 			<ShortDescription>TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT</ShortDescription>
 			<FightWellDamaged>true</FightWellDamaged>
-			<LandUnitMaintenanceModifier>-10</LandUnitMaintenanceModifier> 
-			<NavalUnitMaintenanceModifier>-10</NavalUnitMaintenanceModifier> 
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
+			<FreeBuilding>BUILDING_TB_TRAIT_ODA_2</FreeBuilding>  
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_BUFFALO_HORNS</Type>
 			<Description>TXT_KEY_TRAIT_BUFFALO_HORNS</Description>
 			<ShortDescription>TXT_KEY_TRAIT_BUFFALO_HORNS_SHORT</ShortDescription>
 			<LevelExperienceModifier>-50</LevelExperienceModifier>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 			<FreeBuilding>BUILDING_IKANDA</FreeBuilding>
 		</Row>
 		
@@ -129,7 +136,7 @@
 			<Description>TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS</Description>
 			<ShortDescription>TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT</ShortDescription>
 			<PlotCultureCostModifier>-35</PlotCultureCostModifier> 
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 			<!--<NavalUnitMaintenanceModifier>-66</NavalUnitMaintenanceModifier>-->
 			<WorkerSpeedModifier>25</WorkerSpeedModifier>
 		</Row>
@@ -137,7 +144,7 @@
 			<Type>TRAIT_RAZE_AND_HORSES</Type>
 			<Description>TXT_KEY_TRAIT_RAZE_AND_HORSES</Description>
 			<ShortDescription>TXT_KEY_TRAIT_RAZE_AND_HORSES_SHORT</ShortDescription>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 			<StaysAliveZeroCities>1</StaysAliveZeroCities>
 			<!--<RazeSpeedModifier>100</RazeSpeedModifier>-->
 			<LandBarbarianConversionPercent>100</LandBarbarianConversionPercent>
@@ -150,7 +157,7 @@
 			<ShortDescription>TXT_KEY_TRAIT_VIKING_FURY_SHORT</ShortDescription>
 			<!--<ExtraEmbarkMoves>1</ExtraEmbarkMoves>-->
 			<PlunderModifier>300</PlunderModifier>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_CULTURE_FROM_KILLS</Type>
@@ -158,7 +165,8 @@
 			<ShortDescription>TXT_KEY_TRAIT_CULTURE_FROM_KILLS_SHORT</ShortDescription>
 			<CultureFromKills>70</CultureFromKills>
 			<LandUnitMaintenanceModifier>-20</LandUnitMaintenanceModifier>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			<WonderProductionModifier>25</WonderProductionModifier>
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_CITY_STATE_FRIENDSHIP</Type>
@@ -167,14 +175,14 @@
 			<CityStateFriendshipModifier>100</CityStateFriendshipModifier>
 			<AfraidMinorPerTurnInfluence>300</AfraidMinorPerTurnInfluence>
 			<LevelExperienceModifier>-33</LevelExperienceModifier> 
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_SLAYER_OF_TIAMAT</Type>
 			<Description>TXT_KEY_TRAIT_SLAYER_OF_TIAMAT</Description>
 			<ShortDescription>TXT_KEY_TRAIT_SLAYER_OF_TIAMAT_SHORT</ShortDescription>
 			<TechFromCityConquer>true</TechFromCityConquer>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 			<NearbyImprovementCombatBonus>25</NearbyImprovementCombatBonus>
 			<NearbyImprovementBonusRange>2</NearbyImprovementBonusRange>
 			<CityCultureBonus>12</CityCultureBonus>
@@ -186,7 +194,7 @@
 			<ShortDescription>TXT_KEY_TRAIT_SOLIDARITY_SHORT</ShortDescription>
 			<FreeSocialPoliciesPerEra>1</FreeSocialPoliciesPerEra>
 			<CombatBonusVsLargerCiv>15</CombatBonusVsLargerCiv> 
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 	</Traits>
 
@@ -202,16 +210,18 @@
 			<Description>TXT_KEY_TRAIT_POPULATION_GROWTH</Description>
 			<ShortDescription>TXT_KEY_TRAIT_POPULATION_GROWTH_SHORT</ShortDescription>
 			<!--<CityUnhappinessModifier>100</CityUnhappinessModifier>-->
-			<PopulationUnhappinessModifier>-25</PopulationUnhappinessModifier>
-			<PolicyCostModifier>-15</PolicyCostModifier> 
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			<PopulationUnhappinessModifier>-30</PopulationUnhappinessModifier>
+			
+			<CapitalBuildingModifier>25</CapitalBuildingModifier>
+			<FreeBuilding>BUILDING_TB_TRAIT_GANDHI_2</FreeBuilding>
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_CITY_STATE_BONUSES</Type>
 			<Description>TXT_KEY_TRAIT_CITY_STATE_BONUSES</Description>
 			<ShortDescription>TXT_KEY_TRAIT_CITY_STATE_BONUSES_SHORT</ShortDescription>
 			<CityStateBonusModifier>200</CityStateBonusModifier>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 			<AbleToAnnexCityStates>1</AbleToAnnexCityStates>
 		</Row>
 		<Row>
@@ -223,14 +233,14 @@
 			<PolicyCostModifier>-10</PolicyCostModifier> 
 			<ExtraEmbarkMoves>4</ExtraEmbarkMoves> 
 			<UniqueLuxuryRequiresNewArea>true</UniqueLuxuryRequiresNewArea>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_FAITH_FROM_NATURE</Type>
 			<Description>TXT_KEY_TRAIT_FAITH_FROM_NATURE</Description>
 			<ShortDescription>TXT_KEY_TRAIT_FAITH_FROM_NATURE_SHORT</ShortDescription>
 			<FaithFromUnimprovedForest>true</FaithFromUnimprovedForest>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 			<BonusReligiousBelief>1</BonusReligiousBelief> 
 		</Row>
 		<Row>
@@ -241,7 +251,7 @@
 			<TradeReligionModifier>300</TradeReligionModifier>
 			<BonusReligiousBelief>1</BonusReligiousBelief>
 			<GoldenAgeDurationModifier>30</GoldenAgeDurationModifier>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_EXTRA_BELIEF</Type>
@@ -250,7 +260,7 @@
 			<BonusReligiousBelief>true</BonusReligiousBelief>
 			<TradeReligionModifier>50</TradeReligionModifier> 
 			<WonderProductionModifier>25</WonderProductionModifier> 
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 			<FreeUnit>UNITCLASS_PROPHET</FreeUnit>
 			<FreeUnitPrereqTech>TECH_WRITING</FreeUnitPrereqTech>
 		</Row>
@@ -260,15 +270,15 @@
 			<ShortDescription>TXT_KEY_TRAIT_BONUS_AGAINST_TECH_SHORT</ShortDescription>
 			<CombatBonusVsLargerCiv>25</CombatBonusVsLargerCiv>
 			<BonusReligiousBelief>1</BonusReligiousBelief>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_ANNEX_CITY_STATE</Type>
 			<Description>TXT_KEY_TRAIT_ANNEX_CITY_STATE</Description>
 			<ShortDescription>TXT_KEY_TRAIT_ANNEX_CITY_STATE_SHORT</ShortDescription>
 			<AbleToAnnexCityStates>true</AbleToAnnexCityStates>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
-			<CultureBuildingYieldChange>10</CultureBuildingYieldChange>
+			
+			<CultureBuildingYieldChange>3</CultureBuildingYieldChange>
 			<FreeUnit>UNITCLASS_MUSICIAN</FreeUnit>
 			<FreeUnitPrereqTech>TECH_ACOUSTICS</FreeUnitPrereqTech>
 		</Row>
@@ -280,8 +290,8 @@
 			<GoldenAgeGreatArtistRateModifier>100</GoldenAgeGreatArtistRateModifier>
 			<GoldenAgeGreatMusicianRateModifier>100</GoldenAgeGreatMusicianRateModifier>
 			<GoldenAgeGreatWriterRateModifier>100</GoldenAgeGreatWriterRateModifier>
-			<PopulationUnhappinessModifier>-10</PopulationUnhappinessModifier> 
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			<PopulationUnhappinessModifier>-15</PopulationUnhappinessModifier> 
+			
 		</Row>
 
 
@@ -297,7 +307,7 @@
 			<LuxuryHappinessRetention>100</LuxuryHappinessRetention>
 			<NavalUnitMaintenanceModifier>-25</NavalUnitMaintenanceModifier> 
 			<CombatBonusVsLargerCiv>30</CombatBonusVsLargerCiv>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 			<FreeBuilding>BUILDING_MARKET</FreeBuilding>
 		</Row>
 		<Row>
@@ -307,14 +317,15 @@
 			<TradeRouteResourceModifier>100</TradeRouteResourceModifier>
 			<NavalUnitMaintenanceModifier>-20</NavalUnitMaintenanceModifier> 
 			<CityStateCombatModifier>20</CityStateCombatModifier> 
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 			<FreeBuilding>BUILDING_HARBOR</FreeBuilding>
 		</Row>
 		<Row>
 			<Type>TRAIT_GATEWAY_AFRICA</Type>
 			<Description>TXT_KEY_TRAIT_GATEWAY_AFRICA</Description>
 			<ShortDescription>TXT_KEY_TRAIT_GATEWAY_AFRICA_SHORT</ShortDescription>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			<BonusReligiousBelief>1</BonusReligiousBelief> 
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_AMPHIB_WARLORD</Type>
@@ -322,7 +333,7 @@
 			<ShortDescription>TXT_KEY_TRAIT_AMPHIB_WARLORD_SHORT</ShortDescription>
 			<RiverTradeRoad>true</RiverTradeRoad>
 			<FasterAlongRiver>true</FasterAlongRiver>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_PHOENICIAN_HERITAGE</Type>
@@ -330,7 +341,7 @@
 			<ShortDescription>TXT_KEY_TRAIT_PHOENICIAN_HERITAGE_SHORT</ShortDescription>
 			<NumTradeRoutesModifier>30</NumTradeRoutesModifier>
 			<!-- <CrossesMountainsAfterGreatGeneral>1</CrossesMountainsAfterGreatGeneral> -->
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 			<FreeBuilding>BUILDING_TB_TRAIT_PHOENICIAN_HERITAGE</FreeBuilding>
 		</Row>
 		<Row>
@@ -342,7 +353,7 @@
 			<FreeUnitPrereqTech>TECH_OPTICS</FreeUnitPrereqTech>
 			<NumTradeRoutesModifier>100</NumTradeRoutesModifier>
 			<CapitalThemingBonusModifier>100</CapitalThemingBonusModifier>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 		
 		
@@ -357,7 +368,7 @@
 			<Type>TRAIT_SCHOLARS_JADE_HALL</Type>
 			<Description>TXT_KEY_TRAIT_SCHOLARS_JADE_HALL</Description>
 			<ShortDescription>TXT_KEY_TRAIT_SCHOLARS_JADE_HALL_SHORT</ShortDescription>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_LONG_COUNT</Type>
@@ -367,7 +378,7 @@
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<MoveFriendlyWoodsAsRoad>1</MoveFriendlyWoodsAsRoad> 
 			<TechBoostFromCapitalScienceBuildings>true</TechBoostFromCapitalScienceBuildings>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_DIPLOMACY_GREAT_PEOPLE</Type>
@@ -376,7 +387,7 @@
 			<GreatPersonGiftInfluence>500</GreatPersonGiftInfluence>
 			<DOFGreatPersonModifier>15</DOFGreatPersonModifier>
 			<GreatScientistRateModifier>33</GreatScientistRateModifier>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_INGENIOUS</Type>
@@ -385,7 +396,7 @@
 			<GreatScientistRateModifier>50</GreatScientistRateModifier>
 			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
 			<FreeUnitPrereqTech>TECH_WRITING</FreeUnitPrereqTech>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 
 
@@ -408,7 +419,7 @@
 			<TradeReligionModifier>300</TradeReligionModifier> 
 			<NavalUnitMaintenanceModifier>-33</NavalUnitMaintenanceModifier> 
 			<EmbarkedAllWater>1</EmbarkedAllWater> 
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_GREAT_ANDEAN_ROAD</Type>
@@ -418,14 +429,14 @@
 			<ImprovementMaintenanceModifier>-50</ImprovementMaintenanceModifier>
 			<MoveFriendlyWoodsAsRoad>1</MoveFriendlyWoodsAsRoad>
 			<NoHillsImprovementMaintenance>true</NoHillsImprovementMaintenance>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_IGNORE_TERRAIN_IN_FOREST</Type>
 			<Description>TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST</Description>
 			<ShortDescription>TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST_SHORT</ShortDescription>
 			<MoveFriendlyWoodsAsRoad>true</MoveFriendlyWoodsAsRoad>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 		</Row>
 		<Row>
 			<Type>TRAIT_WAYFINDING</Type>
@@ -435,7 +446,7 @@
 			<NearbyImprovementCombatBonus>10</NearbyImprovementCombatBonus>
 			<NearbyImprovementBonusRange>2</NearbyImprovementBonusRange>
 			<CombatBonusImprovement>IMPROVEMENT_MOAI</CombatBonusImprovement>
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 			<ExtraEmbarkMoves>4</ExtraEmbarkMoves> 
 			<FreeBuilding>BUILDING_TB_WAYFINDING</FreeBuilding>
 		</Row>
@@ -445,7 +456,7 @@
 			<ShortDescription>TXT_KEY_TRAIT_GREAT_EXPANSE_SHORT</ShortDescription>
 			<ExtraFoundedCityTerritoryClaimRange>6</ExtraFoundedCityTerritoryClaimRange>
 			<AngerFreeIntrusionOfCityStates>1</AngerFreeIntrusionOfCityStates> 
-			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+			
 			<FreeBuilding>BUILDING_GRANARY</FreeBuilding>
 		</Row>
 
@@ -481,436 +492,654 @@
 	<Traits>
 
 		<Row>
-			<Type>TRAIT_LEADER_AHMAD_ALMANSUR_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			<Type>TRAIT_AHMAD_2</Type>
+			<Description>TXT_KEY_TRAIT_AHMAD_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_AHMAD_2</ShortDescription>
 			
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_ALEXANDER_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_ALEXANDER_2</Type>
+			<Description>TXT_KEY_TRAIT_ALEXANDER_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ALEXANDER_2</ShortDescription>
+			<CombatBonusVsLargerCiv>25</CombatBonusVsLargerCiv> 
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_ASHURBANIPAL_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_ASHURBANIPAL_2</Type>
+			<Description>TXT_KEY_TRAIT_ASHURBANIPAL_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ASHURBANIPAL_2</ShortDescription>
+			<PopulationUnhappinessModifier>10</PopulationUnhappinessModifier>
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_ASKIA_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_ASKIA_2</Type>
+			<Description>TXT_KEY_TRAIT_ASKIA_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ASKIA_2</ShortDescription>
+			<NumTradeRoutesModifier>15</NumTradeRoutesModifier> 
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_ATTILA_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_ATILLA_2</Type>
+			<Description>TXT_KEY_TRAIT_ATILLA_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ATILLA_2</ShortDescription>
+			<CombatBonusVsHigherTech>25</CombatBonusVsHigherTech>
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_AUGUSTUS_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_AUGUSTUS_2</Type>
+			<Description>TXT_KEY_TRAIT_AUGUSTUS_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_AUGUSTUS_2</ShortDescription>
+			<NavalUnitMaintenanceModifier>25</NavalUnitMaintenanceModifier>
+			<!--
+			<FreeBuilding>BUILDING_TB_TRAIT_AUGUSTUS_2</FreeBuilding> 
+			-->
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_BISMARCK_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			<Type>TRAIT_BISMARCK_2</Type>
+			<Description>TXT_KEY_TRAIT_BISMARCK_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_BISMARCK_2</ShortDescription>
+
+			<LandUnitMaintenanceModifier>25</LandUnitMaintenanceModifier>
+			<FreeBuildingOnConquest>BUILDING_GERMAN_AUTOBAHN</FreeBuildingOnConquest>
 			
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_BOUDICCA_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_BOUDICCA_2</Type>
+			<Description>TXT_KEY_TRAIT_BOUDICCA_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_BOUDICCA_2</ShortDescription>
+			<CultureFromKills>500</CultureFromKills>
+			<FaithFromKills>500</FaithFromKills>
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_CASIMIR_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_CASIMIR_2</Type>
+			<Description>TXT_KEY_TRAIT_CASIMIR_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CASIMIR_2</ShortDescription>
+			<UnresearchedTechBonusFromKills>15</UnresearchedTechBonusFromKills>
+			<FightWellDamaged>true</FightWellDamaged>
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_CATHERINE_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			<Type>TRAIT_CATHERINE_2</Type>
+			<Description>TXT_KEY_TRAIT_CATHERINE_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CATHERINE_2</ShortDescription>
+						
+			<LandUnitMaintenanceModifier>-20</LandUnitMaintenanceModifier>
 			
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_DARIUS</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
-		</Row>
-
-		<Row>
-			<Type>TRAIT_LEADER_DIDO_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
-		</Row>
-
-		<Row>
-			<Type>TRAIT_LEADER_ELIZABETH_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
-		</Row>
-
-		<Row>
-			<Type>TRAIT_LEADER_ENRICO_DANDOLO_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
-		</Row>
-
-		<Row>
-			<Type>TRAIT_LEADER_GAJAH_MADA_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
-		</Row>
-
-		<Row>
-			<Type>TRAIT_LEADER_GANDHI_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
-		</Row>
-
-		<Row>
-			<Type>TRAIT_LEADER_GENGHIS_KHAN_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
-		</Row>
-
-		<Row>
-			<Type>TRAIT_LEADER_GUSTAVUS_ADOLPHUS_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
-		</Row>
-
-		<Row>
-			<Type>TRAIT_LEADER_SELASSIE_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
-		</Row>
-
-		<Row>
-			<Type>TRAIT_LEADER_HARALD_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
-		</Row>
-
-		<Row>
-			<Type>TRAIT_LEADER_HARUN_AL_RASHID_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
-		</Row>
-
-		<Row>
-			<Type>TRAIT_LEADER_HIAWATHA_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
-		</Row>
-
-		<Row>
-			<Type>TRAIT_LEADER_ISABELLA_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
-		</Row>
-
-		<Row>
-			<Type>TRAIT_LEADER_KAMEHAMEHA_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
-		</Row>
-
-		<Row>
-			<Type>TRAIT_LEADER_MARIA_I_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
-		</Row>
-
-		<Row>
-			<Type>TRAIT_LEADER_MARIA_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
-		</Row>
+			<Type>TRAIT_DARIUS_2</Type>
+			<Description>TXT_KEY_TRAIT_DARIUS_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_DARIUS_2</ShortDescription>
 		
-		<Row>
-			<Type>TRAIT_LEADER_MONTEZUMA_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_NAPOLEON_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_DIDO_2</Type>
+			<Description>TXT_KEY_TRAIT_DIDO_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_DIDO_2</ShortDescription>
+			<PolicyCostModifier>-20</PolicyCostModifier>
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_NEBUCHADNEZZAR_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			<Type>TRAIT_ELIZABETH_2</Type>
+			<Description>TXT_KEY_TRAIT_ELIZABETH_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ELIZABETH_2</ShortDescription>
 			
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_ODA_NOBUNAGA_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_ENRICO_2</Type>
+			<Description>TXT_KEY_TRAIT_ENRICO_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ENRICO_2</ShortDescription>
+			<TechFromCityConquer>1</TechFromCityConquer> 
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_PACAL_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			<Type>TRAIT_GAJAH_2</Type>
+			<Description>TXT_KEY_TRAIT_GAJAH_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_GAJAH_2</ShortDescription>
 			
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_PACHACUTI_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_GANDHI_2</Type>
+			<Description>TXT_KEY_TRAIT_GANDHI_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_GANDHI_2</ShortDescription>
+			<PolicyCostModifier>-20</PolicyCostModifier> 
+			<!--
+			<FreeBuilding>BUILDING_TB_TRAIT_GANDHI_2</FreeBuilding>
+			-->
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_PEDRO_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			<Type>TRAIT_GENGHIS_2</Type>
+			<Description>TXT_KEY_TRAIT_GENGHIS_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_GENGHIS_2</ShortDescription>
+			<MoveFriendlyWoodsAsRoad>1</MoveFriendlyWoodsAsRoad> 
+			<FasterAlongRiver>1</FasterAlongRiver> 
+			<FasterInHills>1</FasterInHills> 
+			<FreeBuildingOnConquest>BUILDING_TB_TRAIT_GENGHIS_2</FreeBuildingOnConquest> 
 			
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_POCATELLO_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_GUSTAVUS_2</Type>
+			<Description>TXT_KEY_TRAIT_GUSTAVUS_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_GUSTAVUS_2</ShortDescription>
+		
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_RAMESSES_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_SELASSIE_2</Type>
+			<Description>TXT_KEY_TRAIT_SELASSIE_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_SELASSIE_2</ShortDescription>
+			<CrossesMountainsAfterGreatGeneral>1</CrossesMountainsAfterGreatGeneral>
+			<UnresearchedTechBonusFromKills>10</UnresearchedTechBonusFromKills>  
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_RAMKHAMHAENG_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_HARALD_2</Type>
+			<Description>TXT_KEY_TRAIT_HARALD_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_HARALD_2</ShortDescription>
+			<CityStateBonusModifier>150</CityStateBonusModifier> 
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_SEJONG_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_HARUN_2</Type>
+			<Description>TXT_KEY_TRAIT_HARUN_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_HARUN_2</ShortDescription>
+			<FightWellDamaged>1</FightWellDamaged> 
+			<CombatBonusVsHigherTech>15</CombatBonusVsHigherTech> 
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_SHAKA_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_HIAWATHA_2</Type>
+			<Description>TXT_KEY_TRAIT_HIAWATHA_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_HIAWATHA_2</ShortDescription>
+			<!--
+			<CombatBonusVsHigherTech>10</CombatBonusVsHigherTech> 
+			<CombatBonusVsLargerCiv>10</CombatBonusVsLargerCiv>
+			--> 
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_SULEIMAN_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_ISABELLA_2</Type>
+			<Description>TXT_KEY_TRAIT_ISABELLA_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ISABELLA_2</ShortDescription>
+			<BonusReligiousBelief>1</BonusReligiousBelief> 
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_THEODORA_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_KAMEHAMEHA_2</Type>
+			<Description>TXT_KEY_TRAIT_KAMEHAMEHA_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_KAMEHAMEHA_2</ShortDescription>
+		
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_WASHINGTON_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_MARIA_I_2</Type>
+			<Description>TXT_KEY_TRAIT_MARIA_I_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_MARIA_I_2</ShortDescription>
+		
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_WILLIAM_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
-			
+			<Type>TRAIT_MARIA_2</Type>
+			<Description>TXT_KEY_TRAIT_MARIA_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_MARIA_2</ShortDescription>
+			<CityCultureBonus>35</CityCultureBonus> 
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
 
 		<Row>
-			<Type>TRAIT_LEADER_WU_ZETIAN_2</Type>
-			<Description>TXT_KEY_TRAIT_LONG_COUNT</Description>
-			<ShortDescription>TXT_KEY_TRAIT_LONG_COUNT_SHORT</ShortDescription>
+			<Type>TRAIT_MONTEZUMA_2</Type>
+			<Description>TXT_KEY_TRAIT_MONTEZUMA_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_MONTEZUMA_2</ShortDescription>
+			<PlunderModifier>200</PlunderModifier>
+			<CultureFromKills>300</CultureFromKills>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+					
+		</Row>
+
+		<Row>
+			<Type>TRAIT_NAPOLEON_2</Type>
+			<Description>TXT_KEY_TRAIT_NAPOLEON_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_NAPOLEON_2</ShortDescription>
+
+			<FightWellDamaged>true</FightWellDamaged>
+
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>					
+		</Row>
+
+		<Row>
+			<Type>TRAIT_NEBUCHADNEZZAR_2</Type>
+			<Description>TXT_KEY_TRAIT_NEBUCHADNEZZAR_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_NEBUCHADNEZZAR_2</ShortDescription>
+			<FreeSocialPoliciesPerEra>2</FreeSocialPoliciesPerEra> 
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+					
+		</Row>
+
+		<Row>
+			<Type>TRAIT_ODA_2</Type>
+			<Description>TXT_KEY_TRAIT_ODA_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ODA_2</ShortDescription>
+			 
+			<LandUnitMaintenanceModifier>-20</LandUnitMaintenanceModifier> 
+			<NavalUnitMaintenanceModifier>-20</NavalUnitMaintenanceModifier>
 			
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
-			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
-			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>			
+					
 		</Row>
+
+		<Row>
+			<Type>TRAIT_PACAL_2</Type>
+			<Description>TXT_KEY_TRAIT_PACAL_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_PACAL_2</ShortDescription>
+			<RazeSpeedModifier>300</RazeSpeedModifier>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+					
+		</Row>
+
+		<Row>
+			<Type>TRAIT_PACHACUTI_2</Type>
+			<Description>TXT_KEY_TRAIT_PACHACUTI_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_PACHACUTI_2</ShortDescription>
+			<BonusReligiousBelief>1</BonusReligiousBelief>
+			<GoldenAgeDurationModifier>100</GoldenAgeDurationModifier>  
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+					
+		</Row>
+
+		<Row>
+			<Type>TRAIT_PEDRO_2</Type>
+			<Description>TXT_KEY_TRAIT_PEDRO_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_PEDRO_2</ShortDescription>
+			<NumTradeRoutesModifier>30</NumTradeRoutesModifier> 
+			<TradeRouteResourceModifier>100</TradeRouteResourceModifier> 
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+					
+		</Row>
+
+		<Row>
+			<Type>TRAIT_POCATELLO_2</Type>
+			<Description>TXT_KEY_TRAIT_POCATELLO_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_POCATELLO_2</ShortDescription>
+		
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+					
+		</Row>
+
+		<Row>
+			<Type>TRAIT_RAMESSES_2</Type>
+			<Description>TXT_KEY_TRAIT_RAMESSES_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_RAMESSES_2</ShortDescription>
+			<PolicyCostModifier>-15</PolicyCostModifier>
+			<PopulationUnhappinessModifier>-15</PopulationUnhappinessModifier>  
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+					
+		</Row>
+
+		<Row>
+			<Type>TRAIT_RAMKHAMHAENG_2</Type>
+			<Description>TXT_KEY_TRAIT_RAMKHAMHAENG_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_RAMKHAMHAENG_2</ShortDescription>
+			<GreatPersonGiftInfluence>500</GreatPersonGiftInfluence>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+					
+		</Row>
+
+		<Row>
+			<Type>TRAIT_SEJONG_2</Type>
+			<Description>TXT_KEY_TRAIT_SEJONG_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_SEJONG_2</ShortDescription>
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+					
+		</Row>
+
+		<Row>
+			<Type>TRAIT_SHAKA_2</Type>
+			<Description>TXT_KEY_TRAIT_SHAKA_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_SHAKA_2</ShortDescription>
+		
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+					
+		</Row>
+
+		<Row>
+			<Type>TRAIT_SULEIMAN_2</Type>
+			<Description>TXT_KEY_TRAIT_SULEIMAN_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_SULEIMAN_2</ShortDescription>
+			<LandUnitMaintenanceModifier>-30</LandUnitMaintenanceModifier>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+					
+		</Row>
+
+		<Row>
+			<Type>TRAIT_THEODORA_2</Type>
+			<Description>TXT_KEY_TRAIT_THEODORA_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_THEODORA_2</ShortDescription>
+			<CapitalBuildingModifier>30</CapitalBuildingModifier>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+					
+		</Row>
+
+		<Row>
+			<Type>TRAIT_WASHINGTON_2</Type>
+			<Description>TXT_KEY_TRAIT_WASHINGTON_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_WASHINGTON_2</ShortDescription>
+
+			<LandUnitMaintenanceModifier>-25</LandUnitMaintenanceModifier>			
+			<NavalUnitMaintenanceModifier>-25</NavalUnitMaintenanceModifier> 			
+			
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+					
+		</Row>
+
+		<Row>
+			<Type>TRAIT_WILLIAM_2</Type>
+			<Description>TXT_KEY_TRAIT_WILLIAM_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_WILLIAM_2</ShortDescription>
+			<NumTradeRoutesModifier>25</NumTradeRoutesModifier> 
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+					
+		</Row>
+
+		<Row>
+			<Type>TRAIT_WU_2</Type>
+			<Description>TXT_KEY_TRAIT_WU_2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_WU_2</ShortDescription>
+			<NavalUnitMaintenanceModifier>-20</NavalUnitMaintenanceModifier>
+			<LandUnitMaintenanceModifier>-20</LandUnitMaintenanceModifier> 
+
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+					
+		</Row>
+
+
 
 	</Traits>
+
+	<Leader_Traits>
+		
+		<Row> 
+			<LeaderType>LEADER_AHMAD_ALMANSUR</LeaderType> 
+			<TraitType>TRAIT_AHMAD_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_ALEXANDER</LeaderType> 
+			<TraitType>TRAIT_ALEXANDER_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_ASHURBANIPAL</LeaderType> 
+			<TraitType>TRAIT_ASHURBANIPAL_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_ASKIA</LeaderType> 
+			<TraitType>TRAIT_ASKIA_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_ATTILA</LeaderType> 
+			<TraitType>TRAIT_ATILLA_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_AUGUSTUS</LeaderType> 
+			<TraitType>TRAIT_AUGUSTUS_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_BISMARCK</LeaderType> 
+			<TraitType>TRAIT_BISMARCK_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_BOUDICCA</LeaderType> 
+			<TraitType>TRAIT_BOUDICCA_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_CASIMIR</LeaderType> 
+			<TraitType>TRAIT_CASIMIR_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_CATHERINE</LeaderType> 
+			<TraitType>TRAIT_CATHERINE_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_DARIUS</LeaderType> 
+			<TraitType>TRAIT_DARIUS_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_DIDO</LeaderType> 
+			<TraitType>TRAIT_DIDO_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_ELIZABETH</LeaderType> 
+			<TraitType>TRAIT_ELIZABETH_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_ENRICO_DANDOLO</LeaderType> 
+			<TraitType>TRAIT_ENRICO_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_GAJAH_MADA</LeaderType> 
+			<TraitType>TRAIT_GAJAH_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_GANDHI</LeaderType> 
+			<TraitType>TRAIT_GANDHI_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_GENGHIS_KHAN</LeaderType> 
+			<TraitType>TRAIT_GENGHIS_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_GUSTAVUS_ADOLPHUS</LeaderType> 
+			<TraitType>TRAIT_GUSTAVUS_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_SELASSIE</LeaderType> 
+			<TraitType>TRAIT_SELASSIE_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_HARALD</LeaderType> 
+			<TraitType>TRAIT_HARALD_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_HARUN_AL_RASHID</LeaderType> 
+			<TraitType>TRAIT_HARUN_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_HIAWATHA</LeaderType> 
+			<TraitType>TRAIT_HIAWATHA_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_ISABELLA</LeaderType> 
+			<TraitType>TRAIT_ISABELLA_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_KAMEHAMEHA</LeaderType> 
+			<TraitType>TRAIT_KAMEHAMEHA_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_MARIA_I</LeaderType> 
+			<TraitType>TRAIT_MARIA_I_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_MARIA</LeaderType> 
+			<TraitType>TRAIT_MARIA_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_MONTEZUMA</LeaderType> 
+			<TraitType>TRAIT_MONTEZUMA_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_NAPOLEON</LeaderType> 
+			<TraitType>TRAIT_NAPOLEON_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_NEBUCHADNEZZAR</LeaderType> 
+			<TraitType>TRAIT_NEBUCHADNEZZAR_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_ODA_NOBUNAGA</LeaderType> 
+			<TraitType>TRAIT_ODA_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_PACAL</LeaderType> 
+			<TraitType>TRAIT_PACAL_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_PACHACUTI</LeaderType> 
+			<TraitType>TRAIT_PACHACUTI_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_PEDRO</LeaderType> 
+			<TraitType>TRAIT_PEDRO_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_POCATELLO</LeaderType> 
+			<TraitType>TRAIT_POCATELLO_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_RAMESSES</LeaderType> 
+			<TraitType>TRAIT_RAMESSES_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_RAMKHAMHAENG</LeaderType> 
+			<TraitType>TRAIT_RAMKHAMHAENG_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_SEJONG</LeaderType> 
+			<TraitType>TRAIT_SEJONG_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_SHAKA</LeaderType> 
+			<TraitType>TRAIT_SHAKA_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_SULEIMAN</LeaderType> 
+			<TraitType>TRAIT_SULEIMAN_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_THEODORA</LeaderType> 
+			<TraitType>TRAIT_THEODORA_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_WASHINGTON</LeaderType> 
+			<TraitType>TRAIT_WASHINGTON_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_WILLIAM</LeaderType> 
+			<TraitType>TRAIT_WILLIAM_2</TraitType> 
+		</Row>
+
+		<Row> 
+			<LeaderType>LEADER_WU_ZETIAN</LeaderType> 
+			<TraitType>TRAIT_WU_2</TraitType> 
+		</Row>
+
+	</Leader_Traits>
+
+	<!-- MODERN TRAITS END -->
+
+
+	
 
 	<!--	LEADERS LIST
 
@@ -1213,9 +1442,30 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
-			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>4</Yield>
+		</Row>
+
+		<Row> 
+			<TraitType>TRAIT_GAJAH_2</TraitType> 
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType> 
+			<YieldType>YIELD_FOOD</YieldType> 
+			<Yield>5</Yield> 
+		</Row>
+
+		<Row> 
+			<TraitType>TRAIT_HIAWATHA_2</TraitType> 
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType> 
+			<YieldType>YIELD_FOOD</YieldType> 
+			<Yield>2</Yield> 
+		</Row> 
+
+		<Row> 
+			<TraitType>TRAIT_KAMEHAMEHA_2</TraitType> 
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType> 
+			<YieldType>YIELD_CULTURE</YieldType> 
+			<Yield>8</Yield> 
 		</Row>
 		
 	</Trait_ImprovementYieldChanges>
@@ -1247,6 +1497,13 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>2</Yield>
 		</Row>
+
+		<Row>
+			<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
 	</Trait_UnimprovedFeatureYieldChanges>
 
 	<Trait_YieldChangesStrategicResources>
@@ -1266,6 +1523,13 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>8</Yield>
 		</Row>
+
+		<Row> 
+			<TraitType>TRAIT_DARIUS_2</TraitType> 
+			<YieldType>YIELD_PRODUCTION</YieldType> 
+			<Yield>10</Yield> 
+		</Row> 
+
 	</Trait_YieldChangesStrategicResources>
 	
 	<Trait_ResourceQuantityModifiers>
@@ -1315,72 +1579,72 @@
 		
 
 		<Row>
-			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<TraitType>TRAIT_CATHERINE_2</TraitType>
 			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
 		</Row>	
 		<Row>
-			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<TraitType>TRAIT_CATHERINE_2</TraitType>
 			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
 			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
 		</Row>
 		<Row>
-			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<TraitType>TRAIT_CATHERINE_2</TraitType>
 			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
 			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
 		</Row>
 		<Row>
-			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<TraitType>TRAIT_CATHERINE_2</TraitType>
 			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
 			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
 		</Row>
 		<Row>
-			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<TraitType>TRAIT_CATHERINE_2</TraitType>
 			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
 			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
 		</Row>
 		<Row>
-			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<TraitType>TRAIT_CATHERINE_2</TraitType>
 			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
 			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
 		</Row>
 		<Row>
-			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<TraitType>TRAIT_CATHERINE_2</TraitType>
 			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
 			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
 		</Row>	
 		<Row>
-			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<TraitType>TRAIT_CATHERINE_2</TraitType>
 			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
 			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
 		</Row>
 		<Row>
-			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<TraitType>TRAIT_CATHERINE_2</TraitType>
 			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
 			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
 		</Row>
 		<Row>
-			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<TraitType>TRAIT_CATHERINE_2</TraitType>
 			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
 			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
 		</Row>
 		<Row>
-			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<TraitType>TRAIT_CATHERINE_2</TraitType>
 			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
 			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
 		</Row>
 		<Row>
-			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<TraitType>TRAIT_CATHERINE_2</TraitType>
 			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
 			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
 		</Row>
 		<Row>
-			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<TraitType>TRAIT_CATHERINE_2</TraitType>
 			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
 			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
 		</Row>
 		<Row>
-			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<TraitType>TRAIT_CATHERINE_2</TraitType>
 			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
 			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
 		</Row>
@@ -1453,6 +1717,79 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_OCEAN_MOVEMENT</TraitType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS_SMALL</PromotionType>
+		</Row>
+
+		<!--  AMERICAN PROMOTION -->
+
+		<Row>
+			<TraitType>TRAIT_WASHINGTON_2</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS_SMALL</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WASHINGTON_2</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS_SMALL</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WASHINGTON_2</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS_SMALL</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WASHINGTON_2</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS_SMALL</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WASHINGTON_2</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS_SMALL</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WASHINGTON_2</TraitType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS_SMALL</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WASHINGTON_2</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS_SMALL</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WASHINGTON_2</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS_SMALL</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WASHINGTON_2</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS_SMALL</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WASHINGTON_2</TraitType>
+			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS_SMALL</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WASHINGTON_2</TraitType>
+			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS_SMALL</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WASHINGTON_2</TraitType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS_SMALL</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WASHINGTON_2</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS_SMALL</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WASHINGTON_2</TraitType>
 			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
 			<PromotionType>PROMOTION_FOREIGN_LANDS_SMALL</PromotionType>
 		</Row>
@@ -1730,7 +2067,22 @@
 			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
 			<PromotionType>PROMOTION_SUNDER_1</PromotionType>
 		</Row>-->
-		</Trait_FreePromotionUnitCombats>
+		
+		<Row> 
+			<TraitType>TRAIT_SHAKA_2</TraitType> 
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType> 
+			<PromotionType>PROMOTION_MARCH</PromotionType> 
+		</Row> 
+
+		<Row> 
+			<TraitType>TRAIT_NAPOLEON_2</TraitType> 
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType> 
+			<PromotionType>PROMOTION_FRENCH_ARTY</PromotionType> 
+		</Row> 
+
+		
+
+	</Trait_FreePromotionUnitCombats>
 
 	<Trait_SpecialistYieldChanges>
 		<Row>
@@ -1893,28 +2245,72 @@
 			<Yield>2</Yield>
 		</Row>
 
+		<!--
+		<Row> 
+			<TraitType>TRAIT_CATHERINE_2</TraitType> 
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_SCIENCE</YieldType> 
+			<Yield>2</Yield> 
+		</Row> 
+		-->
+
+		<Row> 
+			<TraitType>TRAIT_GANDHI_2</TraitType> 
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_FOOD</YieldType> 
+			<Yield>3</Yield> 
+		</Row> 
+
+		<Row> 
+			<TraitType>TRAIT_GUSTAVUS_2</TraitType> 
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_SCIENCE</YieldType> 
+			<Yield>4</Yield> 
+		</Row>
+		
+		<Row> 
+			<TraitType>TRAIT_MARIA_I_2</TraitType> 
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_GOLD</YieldType> 
+			<Yield>2</Yield> 
+		</Row>
+		
+		<Row> 
+			<TraitType>TRAIT_ODA_2</TraitType> 
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType> 
+			<Yield>4</Yield> 
+		</Row> 
+
+		<Row> 
+			<TraitType>TRAIT_POCATELLO_2</TraitType> 
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType> 
+			<Yield>3</Yield> 
+		</Row> 
+
 
 	</Trait_SpecialistYieldChanges>
 
 	<Trait_YieldChangesPerTradePartner>
 		<Row>
-			<TraitType>TRAIT_GATEWAY_AFRICA</TraitType>
+			<TraitType>TRAIT_AHMAD_2</TraitType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>15</Yield>
 		</Row>
 		<Row>
-			<TraitType>TRAIT_GATEWAY_AFRICA</TraitType>
+			<TraitType>TRAIT_AHMAD_2</TraitType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>15</Yield>
 		</Row>
 		<Row>
-			<TraitType>TRAIT_GATEWAY_AFRICA</TraitType>
+			<TraitType>TRAIT_AHMAD_2</TraitType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>15</Yield>
 		</Row>
 
 		<Row>
-			<TraitType>TRAIT_GATEWAY_AFRICA</TraitType>
+			<TraitType>TRAIT_AHMAD_2</TraitType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>15</Yield>
 		</Row>
@@ -1926,21 +2322,39 @@
 		</Row>
 
 		<Row>
-			<TraitType>TRAIT_OCEAN_MOVEMENT</TraitType>
+			<TraitType>TRAIT_ELIZABETH_2</TraitType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>16</Yield>
+			<Yield>32</Yield>
 		</Row>
 
 		<Row>
-			<TraitType>TRAIT_OCEAN_MOVEMENT</TraitType>
+			<TraitType>TRAIT_ELIZABETH_2</TraitType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>16</Yield>
+			<Yield>32</Yield>
 		</Row>
 
 		<Row>
 			<TraitType>TRAIT_SUPER_CITY_STATE</TraitType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>10</Yield>
+			<Yield>30</Yield>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_SEJONG_2</TraitType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>20</Yield>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_WILLIAM_2</TraitType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>20</Yield>
+		</Row>
+
+		<Row>
+			<TraitType>TRAIT_WU_2</TraitType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>25</Yield>
 		</Row>
 
 		
@@ -1950,8 +2364,15 @@
 		<Row>
 			<TraitType>TRAIT_GATEWAY_AFRICA</TraitType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>30</Yield>
+			<Yield>25</Yield>
 		</Row>
+
+		<Row>
+			<TraitType>TRAIT_WU_2</TraitType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>25</Yield>
+		</Row>
+
 	</Trait_YieldChangesIncomingTradeRoute>
 
 
@@ -1965,44 +2386,45 @@
 
 	<Trait_ImprovementYieldChanges>
 		<!--<Delete TraitType="TRAIT_SCHOLARS_JADE_HALL"/>-->
-		<!--<Row>
+
+		<Row>
 			<TraitType>TRAIT_SCHOLARS_JADE_HALL</TraitType>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_SCHOLARS_JADE_HALL</TraitType>
 			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_SCHOLARS_JADE_HALL</TraitType>
 			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_SCHOLARS_JADE_HALL</TraitType>
 			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_SCHOLARS_JADE_HALL</TraitType>
 			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_SCHOLARS_JADE_HALL</TraitType>
 			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
-		</Row>-->
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
 
-
+		<!--
 		<Row>
 			<TraitType>TRAIT_VIKING_FURY</TraitType>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
@@ -2015,19 +2437,14 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
 		</Row>
-
+	--> 
 		<Row>
 			<TraitType>TRAIT_WAYFINDING</TraitType>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		<Row>
-			<TraitType>TRAIT_WAYFINDING</TraitType>
-			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
+		
 
 		<Row>
 			<TraitType>TRAIT_WAYFINDING</TraitType>
@@ -2035,19 +2452,17 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
 		</Row>
-		<Row>
-			<TraitType>TRAIT_WAYFINDING</TraitType>
-			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
-		</Row>
+		
 
+		<!--
 		<Row>
 			<TraitType>TRAIT_VIKING_FURY</TraitType>
 			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		-->
+		
 	</Trait_ImprovementYieldChanges>
 
 
@@ -2108,7 +2523,8 @@
 			<PortraitIndex>17</PortraitIndex>
 			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
 			<GreatWorkCount>-1</GreatWorkCount>
-			<Happiness>8</Happiness>
+			<GlobalPlotCultureCostModifier>-5</GlobalPlotCultureCostModifier>
+			<Happiness>4</Happiness>
 		</Row>
 		
 
@@ -2190,15 +2606,181 @@
 			<GreatWorkCount>-1</GreatWorkCount>
 		</Row>
 
+		<Row>
+			<Type>BUILDING_TB_TRAIT_NAPOLEON_2</Type>
+			<BuildingClass>BUILDINGCLASS_TAITS_EFFECTS_BUILDINGS</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_TRAIT_NAPOLEON_2</Description>
+			<Help>TXT_KEY_TRAIT_NAPOLEON_2</Help>
+			<XBuiltTriggersIdeologyChoice>1</XBuiltTriggersIdeologyChoice>
+			<FreePolicies>3</FreePolicies>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
 
-		
+		<Row>
+			<Type>BUILDING_TB_TRAIT_GANDHI_2</Type>
+			<BuildingClass>BUILDINGCLASS_TAITS_EFFECTS_BUILDINGS</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_TRAIT_GANDHI_2</Description>
+			<Help>TXT_KEY_TRAIT_GANDHI_2</Help>
+
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TB_TRAIT_AUGUSTUS_2</Type>
+			<BuildingClass>BUILDINGCLASS_TAITS_EFFECTS_BUILDINGS</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_TRAIT_AUGUSTUS_2</Description>
+			<Help>TXT_KEY_TRAIT_AUGUSTUS_2</Help>
+			<BuildingProductionModifier>30</BuildingProductionModifier>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TB_TRAIT_BISMARCK_2</Type>
+			<BuildingClass>BUILDINGCLASS_TAITS_EFFECTS_BUILDINGS</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_TRAIT_BISMARCK_2</Description>
+			<Help>TXT_KEY_TRAIT_BISMARCK_2</Help>			
+			<!--
+			<GreatPeopleRateModifier>30</GreatPeopleRateModifier>
+			-->			
+			<MilitaryProductionModifier>25</MilitaryProductionModifier>
+
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TB_TRAIT_CATHERINE_2</Type>
+			<BuildingClass>BUILDINGCLASS_TAITS_EFFECTS_BUILDINGS</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_TRAIT_CATHERINE_2</Description>
+			<Help>TXT_KEY_TRAIT_CATHERINE_2</Help>
+
+			<GlobalPlotCultureCostModifier>-5</GlobalPlotCultureCostModifier>
+
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TB_TRAIT_ELIZABETH_2</Type>
+			<BuildingClass>BUILDINGCLASS_TAITS_EFFECTS_BUILDINGS</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_TRAIT_ELIZABETH_2</Description>
+			<Help>TXT_KEY_TRAIT_ELIZABETH_2</Help>
+
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TB_TRAIT_GENGHIS_2</Type>
+			<BuildingClass>BUILDINGCLASS_TAITS_EFFECTS_BUILDINGS</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_TRAIT_ELIZABETH_2</Description>
+			<Help>TXT_KEY_TRAIT_ELIZABETH_2</Help>
+
+			<HappinessPerCity>2</HappinessPerCity>
+
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TB_TRAIT_ODA_2</Type>
+			<BuildingClass>BUILDINGCLASS_TAITS_EFFECTS_BUILDINGS</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_TRAIT_ODA_2</Description>
+			<Help>TXT_KEY_TRAIT_ODA_2</Help>
+			<MilitaryProductionModifier>20</MilitaryProductionModifier>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TB_TRAIT_WASHINGTON_2</Type>
+			<BuildingClass>BUILDINGCLASS_TAITS_EFFECTS_BUILDINGS</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_TRAIT_WASHINGTON_2</Description>
+			<Help>TXT_KEY_TRAIT_WASHINGTON_2</Help>
+			<GreatScientistBeakerModifier>10</GreatScientistBeakerModifier>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>
+
+		<Row>
+			<Type>BUILDING_TB_TRAIT_WU_2</Type>
+			<BuildingClass>BUILDINGCLASS_TAITS_EFFECTS_BUILDINGS</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<Description>TXT_KEY_TRAIT_WU_2</Description>
+			<Help>TXT_KEY_TRAIT_WU_2</Help>
+			<MilitaryProductionModifier>20</MilitaryProductionModifier>
+			<GreatWorkCount>-1</GreatWorkCount>
+		</Row>	
 
 
 
 	</Buildings>
 
 
+	<Building_YieldModifiers>
 
+		<Row>
+			<BuildingType>BUILDING_TB_TRAIT_GANDHI_2</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+
+	</Building_YieldModifiers>
 
 	<Building_YieldChanges>
 		<Row>
@@ -2254,7 +2836,7 @@
 		<Row>
 			<BuildingType>BUILDING_TB_STRATEGIC_RICHES</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>12</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 		
 	</Building_ResourceQuantity>

@@ -41,7 +41,7 @@
 			<Text>[ICON_INTERNATIONAL_TRADE] Caravansary</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_BAZAAR_DESC">
-			<Text>[ICON_INTERNATIONAL_TRADE][ICON_PEACE] Bazaar</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Bazaar</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_SEAPORT">
 			<Text>[ICON_INTERNATIONAL_TRADE] Seaport</Text>
@@ -52,10 +52,10 @@
 		</Replace>
 		
 		<Replace Tag="TXT_KEY_BUILDING_STABLE">
-			<Text>[ICON_PRODUCTION][ICON_RES_HORSE] Stable</Text>
+			<Text>[ICON_RES_HORSE] Stable</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_DUCAL_STABLE_DESC">
-			<Text>[ICON_PRODUCTION][ICON_RES_HORSE] Ducal Stable</Text>
+			<Text>[ICON_RES_HORSE] Ducal Stable</Text>
 		</Replace>
 		
 		<Replace Tag="TXT_KEY_BUILDING_WORKSHOP">
@@ -146,13 +146,13 @@
 		</Replace>
 		
 		<Replace Tag="TXT_KEY_BUILDING_LIBRARY">
-			<Text>[ICON_GREAT_WRITER][ICON_RESEARCH] Library</Text>
+			<Text>[ICON_RESEARCH] Library</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_AMPHITHEATER">
 			<Text>[ICON_GREAT_WRITER] Amphitheater</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_PUBLIC_SCHOOL">
-			<Text>[ICON_GREAT_WRITER][ICON_RESEARCH] Public School</Text>
+			<Text>[ICON_RESEARCH] Public School</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_BUILDING_MUSEUM">
@@ -247,7 +247,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_HUN_YURT</Tag>
-			<Text>[ICON_FOOD][ICON_PRODUCTION] Yurt</Text>
+			<Text>[ICON_FOOD] Yurt</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_CIV5_BUILDING_HUN_YURT_TEXT</Tag>
@@ -283,7 +283,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BABYLON_BABEL</Tag>
-			<Text>Tower of Babel</Text>
+			<Text>[ICON_RESEARCH] Tower of Babel</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_BABYLON_BABEL_PEDIA</Tag>
@@ -573,7 +573,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_OIL_REFINERY</Tag>
-			<Text>[ICON_PRODUCTION][ICON_RES_OIL] Oil Refinery</Text>
+			<Text>[ICON_RES_OIL] Oil Refinery</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_CIV5_BUILDINGS_OIL_REFINERY_TEXT</Tag>
@@ -591,7 +591,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_STEEL_MILL</Tag>
-			<Text>[ICON_PRODUCTION][ICON_RES_URANIUM] Uraninite Refinery</Text>
+			<Text>[ICON_RES_URANIUM] Uraninite Refinery</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_CIV5_BUILDINGS_STEEL_MILL_TEXT</Tag>
@@ -707,7 +707,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ARABIA_ISIAMIC_UNIVERSITY</Tag>
-			<Text>[ICON_RESEARCH][ICON_PEACE] Madrassah</Text>
+			<Text>[ICON_PEACE] Madrassah</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_ARABIA_ISIAMIC_UNIVERSITY_PEDIA</Tag>
@@ -827,7 +827,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_PORTUGAL_PORT</Tag>
-			<Text>[ICON_PRODUCTION][ICON_GOLD] Feitoria</Text>
+			<Text>[ICON_GOLD] Feitoria</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PORTUGAL_PORT_HELP">
 			<Text>
@@ -909,7 +909,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_OTTOMAN_EMPIRE_PORT</Tag>
-			<Text>[ICON_GOLD][ICON_PRODUCTION] Ottoman Imperial Seaport</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Imperial Seaport</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_OTTOMAN_EMPIRE_PORT_HELP">
 			<Text>
@@ -1160,7 +1160,7 @@
 			<Text>[ICON_STRENGTH] Walls</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_WALLS_OF_BABYLON_DESC">
-			<Text>[ICON_STRENGTH][ICON_RESEARCH] Walls of Babylon</Text>
+			<Text>[ICON_STRENGTH] Walls of Babylon</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_CASTLE">
 			<Text>[ICON_STRENGTH] Castle</Text>
@@ -1703,7 +1703,7 @@
 
 		<!-- Description tags -->
 		<Row Tag="TXT_KEY_BUILDING_SAN_MARCO">
-			<Text>Piazza San Marco</Text>
+			<Text>[ICON_CULTURE] San Marco</Text>
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_WONDER_SAN_MARCO_HELP">
@@ -1973,7 +1973,7 @@
 
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_HERMITAGE" />
-			<Set Text="National Museum" />
+			<Set Text="[ICON_CAPITAL] National Museum" />
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_HERMITAGE_HELP" />
@@ -1999,7 +1999,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CARTHAGINIAN_AGORA</Tag>
-			<Text>Carthaginian Agora</Text>
+			<Text>[ICON_CULTURE] Carthaginian Agora</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_CARTHAGINIAN_AGORA_PEDIA</Tag>
@@ -2018,7 +2018,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_NATIONAL_TREASURY_II</Tag>
-			<Text>West India Company</Text>
+			<Text>[ICON_CAPITAL] West India Company</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_CIV5_BUILDINGS_NATIONAL_TREASURY_II_TEXT</Tag>
@@ -2038,7 +2038,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_INDUSTRIAL_ZONE</Tag>
-			<Text>National Industrial Zone</Text>
+			<Text>[ICON_CAPITAL] National Industrial Zone</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_CIV5_BUILDINGS_INDUSTRIAL_ZONE_TEXT</Tag>
@@ -2058,7 +2058,7 @@
 
 		<!-- Description tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_SHRINE">
-			<Text>Grand Shrine</Text>
+			<Text>[ICON_CAPITAL] Grand Shrine</Text>
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_SHRINE_HELP">
@@ -2083,7 +2083,7 @@
 		
 		<!-- Description tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_CARAVANSARY">
-			<Text>National Fair</Text>
+			<Text>[ICON_CAPITAL] National Fair</Text>
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_CARAVANSARY_HELP">
@@ -2114,7 +2114,7 @@
 
 		<!-- Description tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_LIBRARY">
-			<Text>National Library</Text>
+			<Text>[ICON_CAPITAL] National Library</Text>
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_LIBRARY_HELP">
@@ -2150,7 +2150,7 @@
 
 		<!-- Description tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_THEATRE">
-			<Text>National Theatre</Text>
+			<Text>[ICON_CAPITAL] National Theatre</Text>
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_THEATRE_HELP">
@@ -2174,7 +2174,7 @@
 
 		<!-- Description tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_SCULPTURE">
-			<Text>Sclpture of the Emperor</Text>
+			<Text>[ICON_CAPITAL]Sculpture of the Emperor</Text>
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_SCULPTURE_HELP">
@@ -2209,7 +2209,7 @@
 		
 	
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_FINANCE">
-			<Text>National Finance Center</Text>
+			<Text>[ICON_CAPITAL] National Finance Center</Text>
 		</Row>
 	
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_FINANCE_HELP">
@@ -2226,7 +2226,7 @@
 
 		<!-- Description tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_BANK">
-			<Text>National Bank</Text>
+			<Text>[ICON_CAPITAL] National Bank</Text>
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_BANK_HELP">
@@ -2256,7 +2256,7 @@
 		
 		<!-- Description tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_OPERA_HOUSE">
-			<Text>National Concert Hall</Text>
+			<Text>[ICON_CAPITAL] National Concert Hall</Text>
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_OPERA_HOUSE_HELP">
@@ -2273,7 +2273,7 @@
 
 		<!-- Description tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_EXHIBITION">
-			<Text>National Convention Center</Text>
+			<Text>[ICON_CAPITAL] National Convention Center</Text>
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_EXHIBITION_HELP">
@@ -2308,7 +2308,7 @@
 
 		<!-- Description tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_STOCK_EXCHANGE">
-			<Text>National Stock Exchange</Text>
+			<Text>[ICON_CAPITAL] National Stock Exchange</Text>
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_STOCK_EXCHANGE_HELP">
@@ -2327,7 +2327,7 @@
 		
 		<!-- Description tags -->
 		<Row Tag="TXT_KEY_BUILDING_HARVARD">
-			<Text>Harvard University</Text>
+			<Text>[ICON_CAPITAL] Harvard University</Text>
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_BUILDING_HARVARD_HELP">
@@ -2346,7 +2346,7 @@
 		
 		<!-- Description tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_LABORATORY">
-			<Text>National Laboratory</Text>
+			<Text>[ICON_CAPITAL] National Laboratory</Text>
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_LABORATORY_HELP">
@@ -2367,7 +2367,7 @@
 
 		<!-- Description tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_AUTOCRACY">
-			<Text>Ministry of Peace</Text>
+			<Text>[ICON_CAPITAL] Ministry of Peace</Text>
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_AUTOCRACY_HELP">
@@ -2384,7 +2384,7 @@
 
 		<!-- Description tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_ORDER">
-			<Text>Ministry of Plenty</Text>
+			<Text>[ICON_CAPITAL] Ministry of Plenty</Text>
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_ORDER_HELP">
@@ -2401,7 +2401,7 @@
 
 		<!-- Description tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_FREEDOM">
-			<Text>Ministry of Truth</Text>
+			<Text>[ICON_CAPITAL] Ministry of Truth</Text>
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_BUILDING_NATIONAL_FREEDOM_HELP">
@@ -2511,7 +2511,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_BUILDING_NEW_PALACE</Tag>
-			<Text>[COLOR_POSITIVE_TEXT]Move Captial[ENDCOLOR]</Text>
+			<Text>[ICON_CAPITAL] [COLOR_POSITIVE_TEXT]Move Capital[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_BUILDING_NEW_PALACE_TEXT</Tag>
@@ -2550,7 +2550,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_SPUTNIK</Tag>
-			<Text>[COLOR_GREEN]Sputnik 1[ENDCOLOR]</Text>
+			<Text>[ICON_ITG_SATELLITE] [COLOR_GREEN]Sputnik 1[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_SPUTNIK_PEDIA</Tag>
@@ -2571,7 +2571,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_RECONNAISSANCE</Tag>
-			<Text>[COLOR_GREEN]Reconnaissance Satellite[ENDCOLOR]</Text>
+			<Text>[ICON_ITG_SATELLITE] [COLOR_GREEN]Reconnaissance Satellite[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_RECONNAISSANCE_PEDIA</Tag>
@@ -2592,7 +2592,7 @@
 		
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_GPS</Tag>
-			<Text>[COLOR_GREEN]GPS Satellite Blocks[ENDCOLOR]</Text>
+			<Text>[ICON_ITG_SATELLITE] [COLOR_GREEN]GPS Satellite[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_GPS_PEDIA</Tag>
@@ -2612,7 +2612,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_APOLLO11</Tag>
-			<Text>[COLOR_GREEN]Apollo 11[ENDCOLOR]</Text>
+			<Text>[ICON_ITG_SATELLITE] [COLOR_GREEN]Apollo 11[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_APOLLO11_PEDIA</Tag>
@@ -2632,7 +2632,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_HUBBLE</Tag>
-			<Text>[COLOR_GREEN]Hubble Space Telescope[ENDCOLOR]</Text>
+			<Text>[ICON_ITG_SATELLITE] [COLOR_GREEN]Hubble Space Telescope[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_HUBBLE_PEDIA</Tag>
@@ -2650,7 +2650,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_ECCM</Tag>
-			<Text>[COLOR_GREEN]ECCM Satellite[ENDCOLOR]</Text>
+			<Text>[ICON_ITG_SATELLITE] [COLOR_GREEN]ECCM Satellite[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_ECCM_PEDIA</Tag>
@@ -2669,7 +2669,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_WEATHER</Tag>
-			<Text>[COLOR_GREEN]Project Eden[ENDCOLOR]</Text>
+			<Text>[ICON_ITG_SATELLITE] [COLOR_GREEN]Project Eden[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_WEATHER_PEDIA</Tag>
@@ -2689,7 +2689,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_TIANGONG</Tag>
-			<Text>[COLOR_GREEN]Tiangong-1[ENDCOLOR]</Text>
+			<Text>[ICON_ITG_SATELLITE] [COLOR_GREEN]Tiangong-1[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_TIANGONG_PEDIA</Tag>
@@ -2709,7 +2709,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_ENVIRONMENT</Tag>
-			<Text>[COLOR_GREEN]GOES Satellite[ENDCOLOR]</Text>
+			<Text>[ICON_ITG_SATELLITE] [COLOR_GREEN]GOES Satellite[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_ENVIRONMENT_PEDIA</Tag>
@@ -2729,7 +2729,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_ANTIFALLOUT</Tag>
-			<Text>[COLOR_GREEN]Operation Scrubber[ENDCOLOR]</Text>
+			<Text>[ICON_ITG_SATELLITE] [COLOR_GREEN]Operation Scrubber[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_ANTIFALLOUT_PEDIA</Tag>
@@ -2749,7 +2749,7 @@
 
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_RESOURCEPLUS</Tag>
-			<Text>[COLOR_GREEN]Earth Resource Satellite[ENDCOLOR]</Text>
+			<Text>[ICON_ITG_SATELLITE] [COLOR_GREEN]Earth Resource Satellite[ENDCOLOR]</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_UNIT_SATELLITE_RESOURCEPLUS_PEDIA</Tag>
@@ -2957,6 +2957,37 @@
 		<Row Tag="TXT_KEY_BUILDING_PALISADE_WALL">
 			<Text>[ICON_WAR] Palisade Wall</Text>
 		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_PALISADE_WALL_CS">
+			<Text>[ICON_WAR] City State Palisade Wall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WALLS_CS">
+			<Text>[ICON_STRENGTH] City State Walls</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CASTLE_CS">
+			<Text>[ICON_STRENGTH] City State Castle</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BARRACKS_CS">
+			<Text>[ICON_WAR] City State Barracks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARMORY_CS">
+			<Text>[ICON_WAR] City State Armory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARSENAL_CS">
+			<Text>[ICON_WAR] City State Arsenal</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_MILITARY_BASE_CS">
+			<Text>[ICON_WAR] City State Military Base</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WOOD_DOCK_CS">
+			<Text>[ICON_WAR] City State Dock</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHIPYARD_CS">
+			<Text>[ICON_WAR] City State Shipyard</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_BUILDING_POTTER">
 			<Text>[ICON_PRODUCTION] Potter</Text>
 		</Row>
@@ -2976,6 +3007,7 @@
 		<Row Tag="TXT_KEY_BUILDING_WALLS_HELP">
 			<Text>Requires a Palisade Wall.</Text>
 		</Row>
+
 		<!-- Pedia Tags-->
 		<Row Tag="TXT_KEY_BUILDING_PALISADE_WALL_PEDIA">
 			<Text>Both the Greeks and Romans created palisades to protect their military camps. The Roman historian Livy describes the Greek method as being inferior to that of the Romans during the Second Macedonian War. The Greek stakes were too large to be easily carried, and were spaced too far apart. This made it easy for enemies to uproot them and create a large enough gap in which to enter. In contrast, the Romans used smaller and easier to carry stakes which were placed closer together, making them more difficult to uproot.[NEWLINE][NEWLINE]--Wikipedia</Text>
@@ -3505,6 +3537,299 @@
 			<Text>The Golden Gate Bridge is a suspension bridge spanning the Golden Gate strait, the mile-wide, three-mile-long channel between San Francisco Bay and the Pacific Ocean, an area known as the Golden Gate. Completed in 1937, the structure links the U.S. city of San Francisco, on the northern tip of the San Francisco Peninsula, to Marin County, bridging both U.S. Route 101 and California State Route 1 across the strait. The bridge is one of the most internationally recognized symbols of San Francisco, California, and the United States. The Frommers travel guide considers the Golden Gate Bridge "possibly the most beautiful, certainly the most photographed, bridge in the world". Conceived, designed, and promoted by engineering student Joseph Strauss, it once had the longest suspension bridge main span in the world, at 4,200 feet, a title held by it until 1964.</Text>
 		</Row>
 
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_HEPTASTADION">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Naval Quarters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_HEPTASTADION_HELP">
+			<Text>Allows certain naval Mercenary units to be purchased. Adds +1 Production and +1 Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_HEPTASTADION_PEDIA">
+			<Text>
+				A Heptastadion is an Ancient Era building available upon the discovery of Sailing. Building it will allow the purchse of the XX and YY naval units. It also adds +1 to Production and +1 to Science in the city.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MEAD_HALL">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Retinue Quarters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MEAD_HALL_HELP">
+			<Text>Allows certain Mercenary units to be purchased. Adds +1 Production and +1 Culture. Requires a Monument in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MEAD_HALL_PEDIA">
+			<Text>
+				A Mead Hall is a Classical Era building available upon the discovery of Currency. Building it will allow the purchse of the XX and YY units. It also adds +1 to Productionand +1 Culture in the city.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_GUILD">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Mercenary Guild</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_GUILD_HELP">
+			<Text>Allows certain Mercenary units to be purchased. Adds +1 Production and +2 Culture. +6 City Defense Strength. Requires a Market in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_GUILD_PEDIA">
+			<Text>
+				A Mercenary Guild is a Renaissance Era building available upon the discovery of Currency. Building it will allow the purchse of the XX and YY units. It also adds +1 to Production and +2 Culture in the city. +6 City Defense Strength.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_SHIPYARD">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Privateering Company</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_SHIPYARD_HELP">
+			<Text>Allows certain naval Mercenary units to be purchased. Adds +1 Production, +1 Science, and +1 Culture. Requires a Harbor in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_SHIPYARD_PEDIA">
+			<Text>
+				A Shipyard is an Industrial Era building available upon the discovery of Military Science. Building it will allow the purchse of the XX and YY naval units. It also adds +1 to Production, +1 to Science, and +1 Culture in the city.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_CONSULATE">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Colonial Recruitment Agency</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_CONSULATE_HELP">
+			<Text>Allows certain Mercenary units to be purchased. Adds +1 Production and +2 Culture. +9 City Defense Strength. Requires a Market in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_CONSULATE_PEDIA">
+			<Text>
+				A Mercenary Consulate is a Modern Era building available upon the discovery of Railroad. Building it will allow the purchse of the XX and YY units. It also adds +1 to Production and +2 Culture in the city. +9 City Defense Strength.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_NAVAL_YARD">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Naval Procurement Department</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_NAVAL_YARD_HELP">
+			<Text>Allows certain naval Mercenary units to be purchased. Adds +2 Production, +1 Science, and +1 Culture. Requires a Seaport in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_NAVAL_YARD_PEDIA">
+			<Text>
+				A Naval Yard is an Atomic Era building available upon the discovery of Combined Arms. Building it will allow the purchse of the XX and YY naval units. It also adds +2 to Production, +1 to Science, and +1 Culture in the city.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_CONTRACTING_AGENCY">
+			<Text>[ICON_IDEOLOGY_AUTOCRACY] Private Military Contractor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_CONTRACTING_AGENCY_HELP">
+			<Text>Allows certain Mercenary units to be purchased. Adds +2 Production and +2 Culture. Requires an Airport in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_CONTRACTING_AGENCY_PEDIA">
+			<Text>
+				A Contracting Agency is an Information Era building available upon the discovery of Telecommunications. Building it will allow the purchse of the XX and YY units. It also adds +2 to Production and +2 Culture in the city.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BOLLHUSET">
+			<Text>[ICON_CULTURE] Bollhuset</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BOLLHUSET_STRATEGY">
+			<Text>The Bollhuset is the Swedish embodiment of fine arts and theater. In addition to the normal [ICON_HAPPINESS_1] Happiness increase, the Bollhuset has no maintenance cost and instead generates [ICON_GOLD] Gold.
+		    </Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BOLLHUSET_TEXT">
+			<Text>
+				Bollhuset was the name of the first theater in Stockholm, Sweden. It was the first Swedish theater and the first real theater building in the whole of Scandinavia. The name "Bollhuset" means "The Ball House", and it was built in 1627 for ball sports and used in this way for forty years.[NEWLINE][NEWLINE]
+
+				Bollhuset was the scene of a long series of most important events in the history of the theater in the city and in the history of Swedish theater. Between 1667 and 1792 it was used as a theater until it was demolished in 1793; between 1737 and 1754, the first national theater was located here; in 1773–1782 the Royal Swedish Opera (and thereby also the Royal Swedish Ballet) was located here; in 1783–1792 the French theater of Stockholm was housed here; in 1787 the second national theater was re-founded in the building; and from 1788 to 1792 it was the home of the Royal Dramatic Theatre.
+			</Text>
+		</Row>
+
+
+
+		<!-- RUSSIAN ABILITY TOOLTIP -->
+
+		<Row Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES_PERK">
+			<Text>+12 [ICON_RES_CONSUMER]Consumer Goods for all Russian Cities
+			</Text>			
+		</Row>
+
+		<!--[NEWLINE][NEWLINE][ICON_WORKER]Civilian units are cheap, and have very low maintenance.-->
+
+		<Row Tag="TXT_KEY_UNIT_PRODUCTION_HELP">
+			<Text>Units serve as the agents of your will across history.				  
+				  [NEWLINE][NEWLINE][ICON_WAR]The professional army serves as the backbone of your military.
+				  [NEWLINE][ICON_BULLET][COLOR_GREEN]It is expensive to maintain massive standing armies, but they are cheaper than Mercenaries.[ENDCOLOR]
+				  [NEWLINE][ICON_BULLET][COLOR_RED]Require [ICON_RES_MANPOWER]manpower, and [ICON_RES_IRON]strategic resources.[ENDCOLOR]
+				  [NEWLINE][NEWLINE][ICON_IDEOLOGY_AUTOCRACY]Mercenaries serve to augment your military capabilities, for a price.
+				  [NEWLINE][ICON_BULLET][COLOR_RED]They are relatively cheap to hire, and very expensive to maintain for extended periods.[ENDCOLOR]
+				  [NEWLINE][ICON_BULLET][COLOR_GREEN]Do not require [ICON_RES_MANPOWER]manpower or [ICON_RES_IRON]strategic resources.[ENDCOLOR]				  
+				  [NEWLINE][NEWLINE][ICON_WAR]Military and [ICON_WORKER]civilian casualties, will eventually lead to [ICON_HAPPINESS_4]loss of population in your cities. Human lives are no longer mere statistics.
+				  [NEWLINE][NEWLINE]Due to foreign recruitment, [ICON_IDEOLOGY_AUTOCRACY]Mercenary units do not cause [ICON_HAPPINESS_1]loss of population.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_PRODUCTION_HELP">
+			<Text>Buildings and Infrastructure serve as the backbone of your Civilization. 
+				  [NEWLINE][NEWLINE][ICON_FOOD][COLOR_FONT_GREEN]Agricultural Buildings[ENDCOLOR] increase the food and growth rate of your cities.
+				  [NEWLINE][ICON_BULLET]Food surplus leads to population growth. A large population is the backbone of an Empire.
+				  [NEWLINE][NEWLINE][ICON_PRODUCTION][COLOR_YIELD_FOOD]Production Buildings[ENDCOLOR] increase the production of your cities.
+				  [NEWLINE][ICON_BULLET]Production Buildings provide Engineer slots, which provide manpower and generate [ICON_GREAT_ENGINEER]Great Engineers.
+				  [NEWLINE][NEWLINE][ICON_RESEARCH][COLOR_XP_BLUE]Science Buildings[ENDCOLOR] help research new technologies, and advance your Civilization.
+				  [NEWLINE][ICON_BULLET]Science Buildings provide Scientist slots, which generate [ICON_GREAT_SCIENTIST]Great Scientists. A technological advantage is extremely advantageous.
+				  [NEWLINE][NEWLINE][ICON_INVEST][COLOR_SELECTED_TEXT]Market Buildings[ENDCOLOR] provide avenues for the generation of wealth.
+				  [NEWLINE][ICON_BULLET]Markets provide employment for merchants, which generate [ICON_GREAT_MERCHANT]Great Merchants. Wealth is true power.
+				  [NEWLINE][NEWLINE][ICON_INTERNATIONAL_TRADE][COLOR_PROJECT_TEXT]Trade Buildings[ENDCOLOR] help facilitate local and international trade.
+				  [NEWLINE][ICON_BULLET]Trade buildings increase the range and value of trade routes. The majority of wealth is created by global trade.
+				  [NEWLINE][NEWLINE][ICON_CULTURE][COLOR_CULTURE_STORED]Cultural Buildings[ENDCOLOR] provide culture, tourism and boost golden age frequency.
+				  [NEWLINE][ICON_BULLET]They generate [ICON_GREAT_ARTIST]Great Artists, [ICON_GREAT_WRITER]Great Writers and [ICON_GREAT_MUSICIAN]Great Musicians. Cultural significance leads to Societal development.
+				  [NEWLINE][NEWLINE][COLOR_RED]Buildings require significant [ICON_INVEST]maintenance, and one should consider the effectiveness of certain buildings before proceeding with their construction.[ENDCOLOR]
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_WONDER_PRODUCTION_HELP">
+			<Text>Leave a mark on human history with awe inspiring monuments, and pursue Special Weapon Projects and Space Programs.
+				  [NEWLINE][NEWLINE][ICON_CITY_STATE]Wonders take many years, and massive investment to complete. They provide a varying set of benefits depending on the particular Wonder.
+				  [NEWLINE][ICON_BULLET]Wonders require massive amounts of [ICON_RES_MANPOWER]manpower to construct and maintain. It is advisable to only focus on Wonders once your Civilization is large enough to support them.
+				  [NEWLINE][NEWLINE][COLOR_GREEN]Due to their impressive structural strength, Wonders cannot be destroyed by [ICON_RES_URANIUM]Nuclear Attack or [ICON_RESISTANCE]Conquest.[ENDCOLOR]
+				  [NEWLINE][NEWLINE][COLOR_RED]Other [ICON_DIPLOMAT]World Leaders will react negatively if your Civilization constructs Wonders they covet. Building every Wonder possible may be viewed aggressively.[ENDCOLOR]
+				  [NEWLINE][NEWLINE][ICON_OMEGA]Special Weapon Projects, are secret endeavours to produce cutting edge technologies that provide an advantage on the Battlefield.
+				  [NEWLINE][ICON_BULLET]These Weapon Systems are highly coveted, and only the first Civilization to manufacture them shall know the secrets of its production.
+				  [NEWLINE][NEWLINE][ICON_VICTORY_SPACE]Space Programs are highly prestigious undertakings, that are the first step to forging an interstellar Civilization. Do not go gentle into that good night.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_OTHER_PRODUCTION_HELP">
+			<Text>Accomplish National Plans and Global Initiatives.				  
+				  [NEWLINE][NEWLINE][ICON_VICTORY_DIPLOMACY]Participate in international collaborations and global projects, as various World Powers compete to display their supremacy. These may range from events like the Olympics, to International World Fairs and Planetary Defense Initiatives.
+			</Text>
+		</Row>		
+
+		<Row Tag="TXT_KEY_WONDER_DETAIL_HELP">
+			<Text>Leave a mark on human history with awe inspiring monuments.
+				  [NEWLINE][NEWLINE][ICON_CITY_STATE]Wonders take many years, and massive investment to complete. They provide a varying set of benefits depending on the particular Wonder.
+				  [NEWLINE][ICON_BULLET]Wonders require massive amounts of [ICON_RES_MANPOWER]manpower to construct and maintain. It is advisable to only focus on Wonders once your Civilization is large enough to support them.
+				  [NEWLINE][NEWLINE][COLOR_GREEN]Due to their impressive structural strength, Wonders cannot be destroyed by [ICON_RES_URANIUM]Nuclear Attack or [ICON_RESISTANCE]Conquest.[ENDCOLOR]
+				  [NEWLINE][NEWLINE][COLOR_RED]Other [ICON_DIPLOMAT]World Leaders will react negatively if your Civilization constructs Wonders they covet. Building every Wonder possible may be viewed aggressively.[ENDCOLOR]				  
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_FOCUS_HELP">
+			<Text>[ICON_CHECKBOX]City Focuses instruct the Cities Governors to prioritize labor towards certain objectives. The possible priorities are listed below.
+			[NEWLINE][NEWLINE][ICON_FOOD][COLOR_FONT_GREEN]Food Focus[ENDCOLOR], prioritizes the growth of food. Useful for faster population growth.
+			[NEWLINE][ICON_PRODUCTION][COLOR_YIELD_FOOD]Production Focus[ENDCOLOR], prioritizes manufacturing and industry. Useful during wars, and for completing critical projects like Wonders.
+			[NEWLINE][ICON_GOLD][COLOR_SELECTED_TEXT]Gold Focus[ENDCOLOR], prioritizes commerce and trade. Useful for increasing the budget, and balancing deficits.
+			[NEWLINE][ICON_RESEARCH][COLOR_XP_BLUE]Research Focus[ENDCOLOR], prioritizes research and development. Useful for accelerating the progress of your Civilization.
+			[NEWLINE][ICON_CULTURE][COLOR_CULTURE_STORED]Culture Focus[ENDCOLOR], prioritizes the social sciences and arts. Useful for achieving Social Progress and promoting Tourism.
+			[NEWLINE][ICON_GREAT_PEOPLE][COLOR_WATER_TEXT]Great People Focus[ENDCOLOR], prioritizes the promotion of exemplary individuals. Useful for promoting the creation of Geniuses.
+			[NEWLINE][ICON_PEACE][COLOR_POPUP_TEXT]Faith Focus[ENDCOLOR], prioritizes the spiritual arts and faith. Useful for the promotion of Great Prophets and staying on Gods good side.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPECIALIST_HELP">
+			<Text>[ICON_CITIZEN]Specialists are skilled labour, and provide essential, specialized services to augment an economy.			
+			[NEWLINE][NEWLINE][ICON_PRODUCTION][COLOR_YIELD_FOOD]Engineers[ENDCOLOR], provide production.
+			[NEWLINE][ICON_GOLD][COLOR_SELECTED_TEXT]Merchants[ENDCOLOR], create profits and currency.
+			[NEWLINE][ICON_RESEARCH][COLOR_XP_BLUE]Scientists[ENDCOLOR], undertake research, and make breakthroughs.
+			[NEWLINE][ICON_CULTURE][COLOR_CULTURE_STORED]Artists and Writers[ENDCOLOR], promote the arts and progress culture.
+			[NEWLINE][NEWLINE][COLOR_FONT_GREEN]The output of Specialists can be improved by completing Guild, Foundation and Assosciation projects, which are unlocked as you progress tech.[ENDCOLOR]
+			[NEWLINE][COLOR_FONT_RED]Specialists require to be paid a significant salary, and the costs of employing Specialists should be kept in mind.[ENDCOLOR]
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_LEVEL_HELP">
+			<Text>[ICON_CITY_STATE]Cities are the beating hearts of a Civilization. Cities are sized into different categories depending on their population.
+			[NEWLINE][COLOR_GREEN]Larger Cities grant more [ICON_RES_MANPOWER]Manpower, and increases [ICON_STRENGTH]City Defence.
+			[NEWLINE][COLOR_RED]Larger Cities cause more [ICON_HAPPINESS_4]Unhappiness, and require more [ICON_RES_ELECTRICITY]Electricity, and [ICON_RES_CONSUMER]Consumer Goods.[ENDCOLOR]			
+			[NEWLINE][NEWLINE]The different City Sizes, and their details are listed below.				  	
+			[NEWLINE][ICON_CITYBANNER_CITY_TOWN]Village       [ICON_CITIZEN]0   [ICON_HAPPINESS_4]0     [ICON_RES_CONSUMER]2      [ICON_RES_MANPOWER]4     [ICON_RES_ELECTRICITY]3   
+			[NEWLINE][ICON_CITYBANNER_CITY_SMALL]Town          [ICON_CITIZEN]6   [ICON_HAPPINESS_4]2     [ICON_RES_CONSUMER]4      [ICON_RES_MANPOWER]6     [ICON_RES_ELECTRICITY]6
+			[NEWLINE][ICON_CITYBANNER_CITY_MEDIUM]City            [ICON_CITIZEN]15  [ICON_HAPPINESS_4]4    [ICON_RES_CONSUMER]12   [ICON_RES_MANPOWER]15  [ICON_RES_ELECTRICITY]12	
+			[NEWLINE][ICON_CITYBANNER_CITY_LARGE]District        [ICON_CITIZEN]26  [ICON_HAPPINESS_4]8    [ICON_RES_CONSUMER]25   [ICON_RES_MANPOWER]26   [ICON_RES_ELECTRICITY]25
+			[NEWLINE][ICON_CITYBANNER_CITY_XL]Metropolis  [ICON_CITIZEN]40  [ICON_HAPPINESS_4]16  [ICON_RES_CONSUMER]50   [ICON_RES_MANPOWER]40   [ICON_RES_ELECTRICITY]50
+			[NEWLINE][ICON_CITYBANNER_CITY_XXL]Megapolis  [ICON_CITIZEN]60  [ICON_HAPPINESS_4]32  [ICON_RES_CONSUMER]75   [ICON_RES_MANPOWER]60    [ICON_RES_ELECTRICITY]75
+			[NEWLINE][ICON_CITYBANNER_CITY_GLOBAL]Gigapolis   [ICON_CITIZEN]80  [ICON_HAPPINESS_4]64  [ICON_RES_CONSUMER]100 [ICON_RES_MANPOWER]80  [ICON_RES_ELECTRICITY]120
+			</Text>
+		</Row>
+
+		
+
+		<Row Tag="TXT_KEY_CITY_POLICE_LEVEL_HELP">
+			<Text>[ICON_CITY_STATE]The further a city is from the Capital, the higher its level
+			[NEWLINE][ICON_CITYBANNER_CITY_LV1]Core Cities are closest to the Capital, and have almost no detriments
+			[NEWLINE][ICON_CITYBANNER_CITY_LV5]Peripheral Cities are furthest from the Capital, and have significant detriments	
+			[NEWLINE]City levels can cause [ICON_HAPPINESS_4]Unhapppiness, require [ICON_INVEST]maintenance, reduce [ICON_RES_MANPOWER]Manpower, and require [ICON_RES_CONSUMER]Consumer Goods
+			[NEWLINE]
+			[NEWLINE][ICON_CITYBANNER_CITY_LV1]Core City          [ICON_HAPPINESS_4]0     [ICON_INVEST]16     [ICON_RES_MANPOWER]0       [ICON_RES_CONSUMER]0	
+			[NEWLINE][ICON_CITYBANNER_CITY_LV2]Provincial City  [ICON_HAPPINESS_4]4     [ICON_INVEST]32     [ICON_RES_MANPOWER]-6    [ICON_RES_CONSUMER]4
+			[NEWLINE][ICON_CITYBANNER_CITY_LV3]Territorial City  [ICON_HAPPINESS_4]8     [ICON_INVEST]48     [ICON_RES_MANPOWER]-12     [ICON_RES_CONSUMER]8
+			[NEWLINE][ICON_CITYBANNER_CITY_LV4]Colonial City     [ICON_HAPPINESS_4]16   [ICON_INVEST]64     [ICON_RES_MANPOWER]-24     [ICON_RES_CONSUMER]16
+			[NEWLINE][ICON_CITYBANNER_CITY_LV5]Peripheral City  [ICON_HAPPINESS_4]32   [ICON_INVEST]128   [ICON_RES_MANPOWER]-48   [ICON_RES_CONSUMER]32
+			[NEWLINE]
+			[NEWLINE][ICON_CITYBANNER_CITY_NOAC]Cities beyond [ICON_CITYBANNER_CITY_LV1]Core Cities, require [ICON_INQUISITOR][COLOR_YIELD_FOOD]Governance Buildings[ENDCOLOR], otherwise they will cause Global Unhappiness. These buildings include [COLOR_YIELD_FOOD]Constables, Sheriffs Office and Police Stations[ENDCOLOR].
+			[NEWLINE][ICON_BULLET]Cities without [ICON_INQUISITOR][COLOR_YIELD_FOOD]Admin buildings[ENDCOLOR] have major [ICON_HAPPINESS_4]Corruption and [ICON_PIRATE]Public Security problems, which cause +3% extra Nationwide [ICON_HAPPINESS_4]Unhappiness!
+			[NEWLINE][ICON_BULLET]Build a [COLOR_YIELD_FOOD]Admin Building[ENDCOLOR] to eliminate the Nationwide [ICON_HAPPINESS_4]Unhappiness!
+			[NEWLINE]
+			[NEWLINE][ICON_PUPPET]Puppet Cities are free from Admin problems, after a Courthouse has been built.
+			[NEWLINE][ICON_BULLET]Provide no [ICON_RES_MANPOWER]Manpower
+			[NEWLINE][ICON_BULLET]Suffer from weak governance which causes -33% [ICON_CULTURE]Culture output, [ICON_RESEARCH]Science output and -50% [ICON_FOOD]Food Growth	in the City		
+			</Text>			
+		</Row>
+
+		
+		
+		
+		
+
+		<!--	
+		[ICON_GOLD]Maintenance,	
+						new_name	pop		MP		ele		CG		unhapp	trade	tour	defence		pollution	tarrif			
+		town			village		0		4		3		2		0		0		0		0/0hp		0			0
+		small city		town		6		6		6		4		2		8		0		10/30hp		0			8
+		medium city		city		15		15		12		12		4		16		0		25/50hp		0			16
+		large city		district	26		26		25		25		8		32		10		40/75hp		-5			32
+		XL city			metropolis	40		40		50		50		16		64		15		60/100hp	-10			48	
+		XXL city		megacity	60		60		75		75		32		128		25		80/120hp	-15			64
+		global city		gigacity	80		80		120		100		64		256		50		120/150hp	-20			100
+
+		-->
+
+
+		<!-- NATIONAL WONDERS -->
+
+		<Replace Tag="TXT_KEY_BUILDING_CIRCUS_MAXIMUS">
+      		<Text>[ICON_CAPITAL] Circus Maximus</Text>
+    	</Replace>
+
+		<Replace Tag="TXT_KEY_BUILDING_EAST_INDIA">
+			<Text>[ICON_CAPITAL] East India Company</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_BUILDING_GRAND_TEMPLE">
+      		<Text>[ICON_CAPITAL] Grand Temple</Text>
+    	</Replace>
+
+		<Replace Tag="TXT_KEY_BUILDING_HEROIC_EPIC">
+      		<Text>[ICON_CAPITAL] Heroic Epic</Text>
+    	</Replace>
+
+		<Replace Tag="TXT_KEY_BUILDING_IRONWORKS">
+      		<Text>[ICON_CAPITAL] Ironworks</Text>      
+    	</Replace>
+
+		<Replace Tag="TXT_KEY_BUILDING_NATIONAL_EPIC">
+      		<Text>[ICON_CAPITAL] National Epic</Text>
+    	</Replace>
+
+		<Replace Tag="TXT_KEY_BUILDING_PALACE">
+      		<Text>[ICON_CAPITAL] Palace</Text>
+    	</Replace>
+
+		<Replace Tag="TXT_KEY_BUILDING_NATIONAL_COLLEGE">
+      		<Text>[ICON_CAPITAL] National College</Text>
+    	</Replace>
+
+		<Replace Tag="TXT_KEY_BUILDING_INTELLIGENCE_AGENCY">
+			<Text>[ICON_CAPITAL] National Intelligence Agency</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_BUILDING_OXFORD_UNIVERSITY">
+      		<Text>[ICON_CAPITAL] Oxford University</Text>
+    	</Replace>
 
 	</Language_en_US>
 

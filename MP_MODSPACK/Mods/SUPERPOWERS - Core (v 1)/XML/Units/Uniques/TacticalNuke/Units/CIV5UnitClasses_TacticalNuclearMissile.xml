@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- iNFO -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_TACTICAL_NUCLEAR_MISSILE</Type>
+			<Description>TXT_KEY_UNIT_TACTICAL_NUCLEAR_MISSILE</Description>
+			<DefaultUnit>UNIT_TACTICAL_NUCLEAR_MISSILE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+</GameData>

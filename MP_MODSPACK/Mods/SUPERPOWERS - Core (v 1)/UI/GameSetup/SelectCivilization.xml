@@ -6,23 +6,24 @@
 	<!--======================-->
 
 	<Instance Name="CivInstance" >
-		<Button Anchor="L,T" Size="922,100" Color="255,255,255,0" ID="Button" >
+		<Button Anchor="L,T" Size="922,100" Offset="10,0" Color="255,255,255,0" ID="Button" >
 
 			<ShowOnMouseOver>
-				<AlphaAnim Anchor="L,T" Size="962,102" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1.5" AlphaEnd="1">
+				<AlphaAnim Anchor="L,T" Size="1162,102" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1.5" AlphaEnd="1">
 					<Grid Size="962,104" Offset="0,-2" Padding="0,0" Style="Grid9FrameTurnsHL" ID="Anim"/>
 				</AlphaAnim>
 			</ShowOnMouseOver>
 
 			<!-- Leader portrait -->
-			<Image Anchor="L,C" Offset="-4,0" Size="128,128" Texture="Assets/UI/Art/Icons/LeaderPortraits1024Frame.dds">
-				<Image Anchor="C,C" Size="128,128" ID="Portrait"/>
+			<Image Anchor="L,C" Offset="-130,0" Size="256,256" Texture="256x256Frame.dds">
+				
+				<Image Anchor="C,C"  Size="256,256" ID="Portrait"/>
 			</Image>
 
 			<!-- Civ specific bonuses -->
-			<Stack Anchor="R,C" Offset="34,-0"  Padding="-5" StackGrowth="Right" WrapGrowth="Down" WrapWidth="150" ID="Icons"/>
+			<Stack Anchor="R,C" Offset="34,-0"  Padding="-5" StackGrowth="Right" WrapGrowth="Down" WrapWidth="250" ID="Icons"/>
 
-			<Stack Anchor="L,C" Offset="126,-2" StackGrowth="Bottom" Padding="10" >
+			<Stack Anchor="L,C" Offset="100,-2" StackGrowth="Bottom" Padding="10" >
 				<Label Anchor="L,T" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="Title" />
 				<Label Anchor="L,T" WrapWidth="600" LeadingOffset="-5" Font="TwCenMT18" FontStyle="Base" ID="Description" />
 			</Stack>
@@ -32,9 +33,9 @@
 	</Instance>
 
 	<Instance Name="IconInstance" >
-		<Container Anchor="L,T" Size="68.58" >
-			<Image Anchor="C,C" Texture="IconFrame64.dds" Size="64.64">
-				<Button Anchor="C,C" Size="64,64" NoStateChange="1" ID="Portrait"/>
+		<Container Anchor="L,T"  Size="100.100" Offset="6,0">
+			<Image Anchor="C,C" Texture="Assets/UI/Art/Icons/LeaderPortraits1024Frame.dds" Size="128.128">
+				<Button Anchor="C,C"  Size="128,128" NoStateChange="1" ID="Portrait"/>
 			</Image>
 		</Container>
 	</Instance>
@@ -44,7 +45,7 @@
 	<!-- Select Civilization -->
 	<!--=====================-->
 
-	<Grid Size="960,758" Anchor="C,C" Offset="0,36" Padding="0,0" Style="Grid9DetailFive140" >
+	<Grid Size="960,758" Anchor="C,C" Offset="0,16" Padding="0,0" Style="Grid9DetailFive140" >
 
 
 		<ScrollPanel Anchor="L,T" Offset="20,45" Size="902,612" Vertical="1" ID="CivPanel" >
@@ -55,7 +56,9 @@
 			<Stack Anchor="L,T" Offset="0,0" StackGrowth="Bottom" Padding="0" ID="CivStack"/>
 		</ScrollPanel>
 
+		<!-- 
 		<Box Style="MenuLeftSideTreatment"/>
+		-->
 		<Box Style="MenuRightSideTreatment"/>
 
 		<Box Style="MenuTopTreatment"/>

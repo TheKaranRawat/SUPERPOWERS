@@ -21,6 +21,36 @@
     <!-- Stacks for Combat Result Info -->
     <Grid Anchor="L,B" Offset="109,210" Size="520,190" Padding="0,26" Style="Grid9FrameBlack" Hidden="0" ID="DetailsGrid" >
 
+        <Image Anchor="R,T" Offset="-80,0" Texture="Assets/UI/Art/Icons/LeaderPortraits1024Frame.dds" Size="128.128" Hidden="0" >
+            <!-- <Image Anchor="C,C" Offset="0,0" Size="128,128" Texture="Assets/UI/Art/Icons/LeaderPortraits1024Frame.dds" Hidden="0"/> 
+            -->
+            <Image Anchor="C,C" Offset="0,0" Size="128,128" Texture="UnitPortraitsAncientMedieval512.dds" ID="UnitPortrait" Hidden="0"/>
+
+            <Image Size="54,54" Offset="-6,-6" Anchor="R,T"  Texture="Assets/UI/Art/UnitPanel/UnitTypeFrame.dds" >
+                <Image Size="38,38" Offset="0,0" Anchor="C,C" Color="PlayerColor2,255"  Texture="Assets/UI/Art/UnitPanel/unitbackteamcolor.dds" ID="UnitBackColor"/>
+                <Image Size="38,38" TextureOffset="0,39" Anchor="C,C"  Texture="Assets/UI/Art/UnitPanel/unitbackteamcolor.dds" />
+                <Image Size="32,32" Anchor="C,C"  Texture="Assets/UI/Art/Icons/Units/UnitFlagAtlasWhite.dds" Color="Black,128" ID="UnitIconShadow" />
+                <Image Size="32,32" Offset="-1,-1" Anchor="C,C" Color="PlayerColor1"  Texture="Assets/UI/Art/Icons/Units/UnitFlagAtlasWhite.dds"  ID="UnitIcon" />
+            </Image>
+
+            <!-- Promotions -->
+            <Box Anchor="R,T" Size="280,26" Offset="54,147" Color="White,0" HideBox="0">
+                <Stack Anchor="L,T"  Offset="-2,-4" Padding="-7"  StackGrowth="Right">
+                    <Image Size="32,32"  TextureOffset="0,0" Texture="Promotions256.dds" ID="UnitPromotion1"  />
+                    <Image Size="32,32"  TextureOffset="32,0" Texture="Promotions256.dds" ID="UnitPromotion2" />
+                    <Image Size="32,32"  TextureOffset="64,0" Texture="Promotions256.dds" ID="UnitPromotion3" />
+                    <Image Size="32,32"  TextureOffset="96,0" Texture="Promotions256.dds" ID="UnitPromotion4"  />
+                    <Image Size="32,32"  TextureOffset="0,32" Texture="Promotions256.dds" ID="UnitPromotion5"  />
+                    <Image Size="32,32"  TextureOffset="32,32" Texture="Promotions256.dds" ID="UnitPromotion6" />
+                    <Image Size="32,32"  TextureOffset="32,32" Texture="Promotions256.dds" ID="UnitPromotion7" />
+                </Stack>
+
+            </Box>
+
+        </Image>
+
+        
+
         <Box  Anchor="C,C" AnchorSide="o,o" Offset="0,0" Size="2,160" Color="255,255,200,32" HideBox="0" ID="DetailsSeperator" >
 
             <Stack Anchor="L,T" AnchorSide="o,i" Offset="25,24" Padding="6" StackGrowth="Bottom" ID="MyCombatResultsStack" >
@@ -168,24 +198,12 @@
 
     <!-- Unit Portrait -->
 
-    <Grid Anchor="L,B" Offset="370,-39" Size="316,208"  Padding="0,0" Style="Grid9DetailFive140" Hidden="0" >
+    <Grid Anchor="L,B" Offset="-1370,-39" Size="316,208"  Padding="0,0" Style="Grid9DetailFive140" Hidden="0" >
 
         <Stack Anchor="L,C" Offset="18,0"  Padding="0" Size="0,0" StackGrowth="Bottom">
 
 
-            <!-- Promotions -->
-            <Box Anchor="R,T" Size="280,26" Offset="0,0" Color="White,0" HideBox="0">
-                <Stack Anchor="L,T"  Offset="-2,-4" Padding="-7"  StackGrowth="Right">
-                    <Image Size="32,32"  TextureOffset="0,0" Texture="Promotions256.dds" ID="UnitPromotion1"  />
-                    <Image Size="32,32"  TextureOffset="32,0" Texture="Promotions256.dds" ID="UnitPromotion2" />
-                    <Image Size="32,32"  TextureOffset="64,0" Texture="Promotions256.dds" ID="UnitPromotion3" />
-                    <Image Size="32,32"  TextureOffset="96,0" Texture="Promotions256.dds" ID="UnitPromotion4"  />
-                    <Image Size="32,32"  TextureOffset="0,32" Texture="Promotions256.dds" ID="UnitPromotion5"  />
-                    <Image Size="32,32"  TextureOffset="32,32" Texture="Promotions256.dds" ID="UnitPromotion6" />
-                    <Image Size="32,32"  TextureOffset="32,32" Texture="Promotions256.dds" ID="UnitPromotion7" />
-                </Stack>
-
-            </Box>
+            
 
             <!-- XP METER -->
             <Grid Anchor="R,C" Offset="0,0" Size="280,12" Padding="0,0" Style="Grid9FrameTurns" >
@@ -221,14 +239,9 @@
         <Image Anchor="R,T" Offset="-6,-0" Texture="assets\UI\Art\UnitPanel\IconFrame64.dds" Size="64.64" Hidden="0" >
 
 
-            <Image Anchor="C,C" Offset="0,0" Size="64,64" Texture="UnitPortraitsAncientMedieval512.dds" ID="UnitPortrait" Hidden="0"/>
+           
 
-            <Image Size="54,54" Offset="-24,-24" Anchor="L,B" Texture="Assets/UI/Art/UnitPanel/UnitTypeFrame.dds" >
-                <Image Size="38,38" Offset="0,0" Anchor="C,C" Color="PlayerColor2,255"  Texture="Assets/UI/Art/UnitPanel/unitbackteamcolor.dds" ID="UnitBackColor"/>
-                <Image Size="38,38" TextureOffset="0,39" Anchor="C,C"  Texture="Assets/UI/Art/UnitPanel/unitbackteamcolor.dds" />
-                <Image Size="32,32" Anchor="C,C"  Texture="Assets/UI/Art/Icons/Units/UnitFlagAtlasWhite.dds" Color="Black,128" ID="UnitIconShadow" />
-                <Image Size="32,32" Offset="-1,-1" Anchor="C,C" Color="PlayerColor1"  Texture="Assets/UI/Art/Icons/Units/UnitFlagAtlasWhite.dds"  ID="UnitIcon" />
-            </Image>
+           
 
         </Image>
     </Grid>

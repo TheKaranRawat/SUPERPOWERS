@@ -11,7 +11,7 @@
 			<Where Type="GAMESPEED_MARATHON"/>
 		</Update>
 		<Update>
-			<Set DealDuration="30" GrowthPercent="120" TrainPercent="120" ConstructPercent="135" CreatePercent="120" ResearchPercent="180"
+			<Set DealDuration="30" GrowthPercent="120" TrainPercent="120" ConstructPercent="135" CreatePercent="120" ResearchPercent="150"
 				 GoldPercent="115" BuildPercent="115" ImprovementPercent="100" GreatPeoplePercent="115" CulturePercent="110" FaithPercent="100" BarbPercent="100"
 			 FeatureProductionPercent="90" UnitHurryPercent="150" UnitTradePercent="125" GoldenAgePercent="120" MinorCivElectionFreqMod="80"
 				 OpinionDurationPercent="50" SpyRatePercent="100" RelationshipDuration="50" LeaguePercent="100" ReligiousPressureAdjacentCity="100"
@@ -19,7 +19,7 @@
 			<Where Type="GAMESPEED_EPIC"/>
 		</Update>
 		<Update>
-			<Set DealDuration="30" GrowthPercent="100" TrainPercent="105" ConstructPercent="125" CreatePercent="100" ResearchPercent="150"
+			<Set DealDuration="30" GrowthPercent="100" TrainPercent="105" ConstructPercent="125" CreatePercent="100" ResearchPercent="100"
 				 GoldPercent="100" ImprovementPercent="85" GreatPeoplePercent="100" CulturePercent="100" FaithPercent="85" BarbPercent="100"
 			 FeatureProductionPercent="70" UnitHurryPercent="100" UnitTradePercent="100" GoldenAgePercent="100" MinorCivElectionFreqMod="80"
 				 OpinionDurationPercent="50" SpyRatePercent="100" RelationshipDuration="50" LeaguePercent="80" ReligiousPressureAdjacentCity="150"
@@ -27,7 +27,7 @@
 			<Where Type="GAMESPEED_STANDARD"/>
 		</Update>
 		<Update>
-			<Set DealDuration="20" GrowthPercent="66" TrainPercent="66" ConstructPercent="100" CreatePercent="66" ResearchPercent="100"
+			<Set DealDuration="20" GrowthPercent="66" TrainPercent="66" ConstructPercent="100" CreatePercent="66" ResearchPercent="75"
 				 GoldPercent="80" ImprovementPercent="45" GreatPeoplePercent="66" CulturePercent="75" FaithPercent="50" BarbPercent="66"
 			 FeatureProductionPercent="70" UnitHurryPercent="100" UnitTradePercent="66" GoldenAgePercent="80" MinorCivElectionFreqMod="66"
 				 OpinionDurationPercent="50" SpyRatePercent="66" RelationshipDuration="50" LeaguePercent="66"  ReligiousPressureAdjacentCity="200"
@@ -203,10 +203,186 @@
 		</Row>
 	</GameSpeed_Turns>
 
+
+
+<GameSpeed_Turns>
+		<Delete GameSpeedType="GAMESPEED_STANDARD"/>
+		
+		<Row>
+			<GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+			<MonthIncrement>1440</MonthIncrement>
+			<TurnsPerIncrement>25</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+			<MonthIncrement>420</MonthIncrement>
+			<TurnsPerIncrement>35</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+			<MonthIncrement>300</MonthIncrement>
+			<TurnsPerIncrement>45</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+			<MonthIncrement>120</MonthIncrement>
+			<TurnsPerIncrement>45</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+			<MonthIncrement>48</MonthIncrement>
+			<TurnsPerIncrement>25</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+			<MonthIncrement>12</MonthIncrement>
+			<TurnsPerIncrement>65</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+			<MonthIncrement>6</MonthIncrement>
+			<TurnsPerIncrement>100</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+			<MonthIncrement>3</MonthIncrement>
+			<TurnsPerIncrement>100</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+			<MonthIncrement>2</MonthIncrement>
+			<TurnsPerIncrement>60</TurnsPerIncrement>
+		</Row>
+		<Delete GameSpeedType="GAMESPEED_QUICK"/>
+		<Row>
+			<GameSpeedType>GAMESPEED_QUICK</GameSpeedType>
+			<MonthIncrement>2400</MonthIncrement>
+			<TurnsPerIncrement>15</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_QUICK</GameSpeedType>
+			<MonthIncrement>600</MonthIncrement>
+			<TurnsPerIncrement>25</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_QUICK</GameSpeedType>
+			<MonthIncrement>420</MonthIncrement>
+			<TurnsPerIncrement>30</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_QUICK</GameSpeedType>
+			<MonthIncrement>240</MonthIncrement>
+			<TurnsPerIncrement>25</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_QUICK</GameSpeedType>
+			<MonthIncrement>48</MonthIncrement>
+			<TurnsPerIncrement>25</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_QUICK</GameSpeedType>
+			<MonthIncrement>24</MonthIncrement>
+			<TurnsPerIncrement>25</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_QUICK</GameSpeedType>
+			<MonthIncrement>12</MonthIncrement>
+			<TurnsPerIncrement>15</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_QUICK</GameSpeedType>
+			<MonthIncrement>6</MonthIncrement>
+			<TurnsPerIncrement>170</TurnsPerIncrement>
+		</Row>
+		<Delete GameSpeedType="GAMESPEED_EPIC"/>
+		<Row>
+			<GameSpeedType>GAMESPEED_EPIC</GameSpeedType>
+			<MonthIncrement>900</MonthIncrement>
+			<TurnsPerIncrement>40</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_EPIC</GameSpeedType>
+			<MonthIncrement>300</MonthIncrement>
+			<TurnsPerIncrement>50</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_EPIC</GameSpeedType>
+			<MonthIncrement>180</MonthIncrement>
+			<TurnsPerIncrement>65</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_EPIC</GameSpeedType>
+			<MonthIncrement>84</MonthIncrement>
+			<TurnsPerIncrement>70</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_EPIC</GameSpeedType>
+			<MonthIncrement>36</MonthIncrement>
+			<TurnsPerIncrement>35</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_EPIC</GameSpeedType>
+			<MonthIncrement>12</MonthIncrement>
+			<TurnsPerIncrement>55</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_EPIC</GameSpeedType>
+			<MonthIncrement>4</MonthIncrement>
+			<TurnsPerIncrement>195</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_EPIC</GameSpeedType>
+			<MonthIncrement>2</MonthIncrement>
+			<TurnsPerIncrement>180</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_EPIC</GameSpeedType>
+			<MonthIncrement>1</MonthIncrement>
+			<TurnsPerIncrement>60</TurnsPerIncrement>
+		</Row>
+		<Delete GameSpeedType="GAMESPEED_MARATHON"/>
+		<Row>
+			<GameSpeedType>GAMESPEED_MARATHON</GameSpeedType>
+			<MonthIncrement>480</MonthIncrement>
+			<TurnsPerIncrement>75</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_MARATHON</GameSpeedType>
+			<MonthIncrement>144</MonthIncrement>
+			<TurnsPerIncrement>105</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_MARATHON</GameSpeedType>
+			<MonthIncrement>96</MonthIncrement>
+			<TurnsPerIncrement>130</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_MARATHON</GameSpeedType>
+			<MonthIncrement>48</MonthIncrement>
+			<TurnsPerIncrement>125</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_MARATHON</GameSpeedType>
+			<MonthIncrement>12</MonthIncrement>
+			<TurnsPerIncrement>100</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_MARATHON</GameSpeedType>
+			<MonthIncrement>4</MonthIncrement>
+			<TurnsPerIncrement>195</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_MARATHON</GameSpeedType>
+			<MonthIncrement>2</MonthIncrement>
+			<TurnsPerIncrement>250</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_MARATHON</GameSpeedType>
+			<MonthIncrement>1</MonthIncrement>
+			<TurnsPerIncrement>520</TurnsPerIncrement>
+		</Row>
+	</GameSpeed_Turns>
 -->
-
-
-
 
 
 

@@ -77,10 +77,10 @@
 			<ExtraCityHitPoints>40</ExtraCityHitPoints>
 			<Happiness>-4</Happiness>
 			<CityWorkingChange>1</CityWorkingChange>
-			<TradeRouteSeaGoldBonus>800</TradeRouteSeaGoldBonus>
-			<TradeRouteLandGoldBonus>800</TradeRouteLandGoldBonus>
-			<TradeRouteRecipientBonus>10</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>10</TradeRouteTargetBonus>
+			<TradeRouteSeaGoldBonus>500</TradeRouteSeaGoldBonus>
+			<TradeRouteLandGoldBonus>500</TradeRouteLandGoldBonus>
+			<TradeRouteRecipientBonus>20</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>20</TradeRouteTargetBonus>
 			<GreatWorkCount>-4</GreatWorkCount>
 		</Row>
 		<Row>
@@ -97,9 +97,9 @@
 			<PortraitIndex>58</PortraitIndex>
 			<Defense>1500</Defense>
 			<ExtraCityHitPoints>50</ExtraCityHitPoints>
-			<Happiness>-8</Happiness>
-			<TradeRouteSeaGoldBonus>1600</TradeRouteSeaGoldBonus>
-			<TradeRouteLandGoldBonus>1600</TradeRouteLandGoldBonus>
+			<Happiness>-12</Happiness>
+			<TradeRouteSeaGoldBonus>1000</TradeRouteSeaGoldBonus>
+			<TradeRouteLandGoldBonus>1000</TradeRouteLandGoldBonus>
 			<TradeRouteRecipientBonus>30</TradeRouteRecipientBonus>
 			<TradeRouteTargetBonus>30</TradeRouteTargetBonus>			
 			<GreatWorkCount>-5</GreatWorkCount>
@@ -119,11 +119,11 @@
 			<Defense>1500</Defense>
 			<ExtraCityHitPoints>100</ExtraCityHitPoints>
 			<FoodKept>-5</FoodKept>
-			<Happiness>-16</Happiness>
-			<TradeRouteSeaGoldBonus>3200</TradeRouteSeaGoldBonus>
-			<TradeRouteLandGoldBonus>3200</TradeRouteLandGoldBonus>
-			<TradeRouteRecipientBonus>70</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>70</TradeRouteTargetBonus>
+			<Happiness>-24</Happiness>
+			<TradeRouteSeaGoldBonus>2000</TradeRouteSeaGoldBonus>
+			<TradeRouteLandGoldBonus>2000</TradeRouteLandGoldBonus>
+			<TradeRouteRecipientBonus>40</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>40</TradeRouteTargetBonus>
 			<PolicyCostModifier>5</PolicyCostModifier>			
 			<GreatWorkCount>-6</GreatWorkCount>
 		</Row>
@@ -142,12 +142,12 @@
 			<Defense>2000</Defense>
 			<ExtraCityHitPoints>120</ExtraCityHitPoints>
 			<FoodKept>-5</FoodKept>
-			<Happiness>-24</Happiness>
+			<Happiness>-30</Happiness>
 			<CityWorkingChange>1</CityWorkingChange>
-			<TradeRouteSeaGoldBonus>4800</TradeRouteSeaGoldBonus>
-			<TradeRouteLandGoldBonus>4800</TradeRouteLandGoldBonus>
-			<TradeRouteRecipientBonus>200</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>200</TradeRouteTargetBonus>
+			<TradeRouteSeaGoldBonus>3000</TradeRouteSeaGoldBonus>
+			<TradeRouteLandGoldBonus>3000</TradeRouteLandGoldBonus>
+			<TradeRouteRecipientBonus>60</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>60</TradeRouteTargetBonus>
 			<PolicyCostModifier>10</PolicyCostModifier>			
 			<GreatWorkCount>-7</GreatWorkCount>
 		</Row>
@@ -166,11 +166,11 @@
 			<Defense>2000</Defense>
 			<ExtraCityHitPoints>150</ExtraCityHitPoints>
 			<FoodKept>-10</FoodKept>
-			<Happiness>-28</Happiness>
-			<TradeRouteSeaGoldBonus>6400</TradeRouteSeaGoldBonus>
-			<TradeRouteLandGoldBonus>6400</TradeRouteLandGoldBonus>
-			<TradeRouteRecipientBonus>600</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>600</TradeRouteTargetBonus>
+			<Happiness>-40</Happiness>
+			<TradeRouteSeaGoldBonus>4000</TradeRouteSeaGoldBonus>
+			<TradeRouteLandGoldBonus>4000</TradeRouteLandGoldBonus>
+			<TradeRouteRecipientBonus>80</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>80</TradeRouteTargetBonus>
 			<PolicyCostModifier>20</PolicyCostModifier>
 			<GreatWorkCount>-8</GreatWorkCount>
 		</Row>
@@ -189,11 +189,11 @@
 			<Defense>4000</Defense>
 			<ExtraCityHitPoints>200</ExtraCityHitPoints>
 			<FoodKept>-13</FoodKept>
-			<Happiness>-30</Happiness>
-			<TradeRouteSeaGoldBonus>10000</TradeRouteSeaGoldBonus>
-			<TradeRouteLandGoldBonus>10000</TradeRouteLandGoldBonus>
-			<TradeRouteRecipientBonus>2000</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>2000</TradeRouteTargetBonus>
+			<Happiness>-40</Happiness>
+			<TradeRouteSeaGoldBonus>5000</TradeRouteSeaGoldBonus>
+			<TradeRouteLandGoldBonus>5000</TradeRouteLandGoldBonus>
+			<TradeRouteRecipientBonus>100</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>100</TradeRouteTargetBonus>
 			<PolicyCostModifier>25</PolicyCostModifier>
 			<GreatWorkCount>-9</GreatWorkCount>
 		</Row>
@@ -214,7 +214,7 @@
 		<Row>
 			<BuildingType>BUILDING_PALACE</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>20</Quantity>
+			<Quantity>25</Quantity>
 		</Row>
 		
 		<!-- CITY MANPOWER -->
@@ -320,19 +320,19 @@
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_SMALL</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>3</Cost>
+			<Cost>2</Cost>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_MEDIUM</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>8</Cost>
+			<Cost>12</Cost>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_LARGE</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>13</Cost>
+			<Cost>15</Cost>
 		</Row>
 
 		<Row>
@@ -1031,6 +1031,7 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>24</PortraitIndex>
 			<GreatPeopleRateModifier>25</GreatPeopleRateModifier>
+			<UnhappinessModifier>-1</UnhappinessModifier>			
 		</Row>
 		<Row>
 			<Type>BUILDING_CHINESE_GARDEN</Type>
@@ -1050,7 +1051,7 @@
 			<IconAtlas>SPWondersUB_ATLAS</IconAtlas>
 			<PortraitIndex>22</PortraitIndex>
 			<GreatPeopleRateModifier>25</GreatPeopleRateModifier>
-			<UnhappinessModifier>-5</UnhappinessModifier>
+			<UnhappinessModifier>-2</UnhappinessModifier>
 		</Row>
 		<Row>
 			<Type>BUILDING_HALL_OF_WORTHIES</Type>
@@ -1071,6 +1072,7 @@
 			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<GreatPeopleRateModifier>25</GreatPeopleRateModifier>
+			<UnhappinessModifier>-1</UnhappinessModifier>			
 			<LandmarksTourismPercent>50</LandmarksTourismPercent>
 			<GreatWorksTourismModifier>50</GreatWorksTourismModifier>
 		</Row>
@@ -1150,9 +1152,9 @@
 			<LandmarksTourismPercent>50</LandmarksTourismPercent>
 			<GreatWorksTourismModifier>50</GreatWorksTourismModifier>
 			<TradeRouteLandGoldBonus>500</TradeRouteLandGoldBonus>
-			<TradeRouteSeaGoldBonus>500</TradeRouteSeaGoldBonus>
-			<TradeRouteRecipientBonus>5</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>5</TradeRouteTargetBonus>
+			<TradeRouteSeaGoldBonus>600</TradeRouteSeaGoldBonus>
+			<TradeRouteRecipientBonus>6</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>6</TradeRouteTargetBonus>
 			<Airlift>true</Airlift>
 			<AirModifier>4</AirModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -1217,7 +1219,7 @@
 			<BuildingClass>BUILDINGCLASS_THEME_PARK</BuildingClass>
 			<Cost>300</Cost>
 			<GoldMaintenance>4</GoldMaintenance>
-			<Happiness>5</Happiness>
+			<Happiness>3</Happiness>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_THEME_PARK_HELP</Help>
 			<Description>TXT_KEY_BUILDING_THEME_PARK</Description>
@@ -1358,7 +1360,7 @@
 			<BuildingClass>BUILDINGCLASS_STADIUM</BuildingClass>
 			<Cost>500</Cost>
 			<GoldMaintenance>5</GoldMaintenance>
-			<Happiness>6</Happiness>
+			<Happiness>3</Happiness>
 			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
 			<Help>TXT_KEY_BUILDING_STADIUM_HELP</Help>
 			<Description>TXT_KEY_BUILDING_STADIUM_DESC</Description>
@@ -1368,6 +1370,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<HurryCostModifier>75</HurryCostModifier>
+			<UnhappinessModifier>-1</UnhappinessModifier>			
 			<DisplayPosition>2</DisplayPosition>
 			<ArtInfoRandomVariation>true</ArtInfoRandomVariation>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
@@ -1387,6 +1390,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<HurryCostModifier>75</HurryCostModifier>
+			<UnhappinessModifier>-1</UnhappinessModifier>			
 			<DisplayPosition>2</DisplayPosition>
 			<ArtInfoRandomVariation>true</ArtInfoRandomVariation>
 			<IconAtlas>SPWondersUB_ATLAS</IconAtlas>
@@ -1535,7 +1539,7 @@
 			<BuildingClass>BUILDINGCLASS_VIDEO_GAME_COMPANY</BuildingClass>
 			<Cost>1000</Cost>
 			<GoldMaintenance>16</GoldMaintenance>
-			<UnmoddedHappiness>10</UnmoddedHappiness>
+			<UnmoddedHappiness>6</UnmoddedHappiness>
 			<PrereqTech>TECH_INTERNET</PrereqTech>
 			<Help>TXT_KEY_BUILDING_VIDEO_GAME_COMPANY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_VIDEO_GAME_COMPANY</Description>
@@ -1544,6 +1548,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<HurryCostModifier>-1</HurryCostModifier>
+			<UnhappinessModifier>-1</UnhappinessModifier>			
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>15</PortraitIndex>
 		</Row>
@@ -1564,9 +1569,9 @@
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_INTERNATIONAL_AIRPORT_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_SP_CITYSIZE_BUILDINGS_STRATEGY</Strategy>
 			<TradeRouteLandGoldBonus>2500</TradeRouteLandGoldBonus>
-			<TradeRouteSeaGoldBonus>2500</TradeRouteSeaGoldBonus>
-			<TradeRouteRecipientBonus>25</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>25</TradeRouteTargetBonus>
+			<TradeRouteSeaGoldBonus>2000</TradeRouteSeaGoldBonus>
+			<TradeRouteRecipientBonus>20</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>20</TradeRouteTargetBonus>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -1590,9 +1595,9 @@
 			<PortraitIndex>16</PortraitIndex>
 			<NumTradeRouteBonus>1</NumTradeRouteBonus>
 			<TradeRouteLandGoldBonus>5000</TradeRouteLandGoldBonus>
-			<TradeRouteSeaGoldBonus>5000</TradeRouteSeaGoldBonus>
-			<TradeRouteRecipientBonus>50</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>50</TradeRouteTargetBonus>
+			<TradeRouteSeaGoldBonus>2000</TradeRouteSeaGoldBonus>
+			<TradeRouteRecipientBonus>30</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>30</TradeRouteTargetBonus>
 			<TradeRouteSeaDistanceModifier>50</TradeRouteSeaDistanceModifier>
 			<Water>true</Water>
 			<MinAreaSize>10</MinAreaSize>

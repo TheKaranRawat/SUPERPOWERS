@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/10/2014 4:53:23 PM -->
+<GameData>
+
+   <Units>	
+		<Row>
+			<Class>UNITCLASS_MIG_21</Class>
+			<Type>UNIT_MC_SOVIET_MIG_21</Type>
+			<PrereqTech>TECH_ROCKETRY</PrereqTech>
+			<RangedCombat>180</RangedCombat>
+			<Cost>400</Cost>
+			<Moves>3</Moves>
+			<Immobile>true</Immobile>
+			<Range>15</Range>
+			<AirInterceptRange>15</AirInterceptRange>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_MC_SOVIET_MIG_21</Description>
+			<Civilopedia>TXT_KEY_UNIT_MC_SOVIET_MIG_21_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_MC_SOVIET_MIG_21_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_MC_SOVIET_MIG_21_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>100</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>2</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_MC_SOVIET_MIG_21</UnitArtInfo>
+			<UnitFlagAtlas>MC_SOVIET_MIG_21_FLAG</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>MC_SOVIETS_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<ProjectPrereq>PROJECT_MIG</ProjectPrereq>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<ExtraMaintenanceCost>200</ExtraMaintenanceCost>
+		</Row>
+	
+   </Units>
+	 
+
+  <Unit_FreePromotions>
+    
+	
+	
+  </Unit_FreePromotions>
+  
+  <Unit_AITypes>
+    
+  </Unit_AITypes>
+  
+  <Unit_Flavors>
+    
+  </Unit_Flavors>
+
+  <UnitGameplay2DScripts>
+  
+    
+	
+  </UnitGameplay2DScripts>
+  
+
+  
+</GameData>

@@ -106,6 +106,10 @@
 			<UnitType>UNIT_EXOTIC_UNIT_BATTLE_GALLEY</UnitType>
 			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_BATTLE_GALLEY</UnitType>
+			<PromotionType>PROMOTION_NAVAL_HIT_AND_RUN</PromotionType>
+		</Row>
 	</Unit_FreePromotions>
 	
 	<UnitGameplay2DScripts>

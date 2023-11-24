@@ -11,6 +11,7 @@
 			<Type>UNIT_SETTLER</Type>
 			<Moves>2</Moves>
 			<BaseSightRange>1</BaseSightRange>
+			<Capture>UNITCLASS_SETTLER</Capture>
 			<!--<Capture>UNITCLASS_WORKER</Capture>-->
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH_EARLY_GAME_ONLY</CivilianAttackPriority>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -22,7 +23,8 @@
 			<Help>TXT_KEY_UNIT_HELP_SETTLER</Help>
 			<Requirements>TXT_KEY_NO_ACTION_SETTLER_SIZE_LIMIT_HARDCODED</Requirements>
 			<Food>false</Food>
-			<Unhappiness>200</Unhappiness>
+			<!-- <Unhappiness>200</Unhappiness>
+			-->
 			<Found>true</Found>
 			<CombatLimit>0</CombatLimit>
 			<UnitArtInfo>ART_DEF_UNIT__SETTLER</UnitArtInfo>
@@ -318,6 +320,7 @@
 		<Row>
 			<Class>UNITCLASS_BRAZIL_SCOCCER_STAR</Class>
 			<Type>UNIT_BRAZIL_SCOCCER_STAR</Type>
+			<PrereqTech>TECH_RADIO</PrereqTech>
 			<Cost>-1</Cost>
 			<Moves>2</Moves>
 			<Capture>UNITCLASS_BRAZIL_SCOCCER_STAR</Capture>
@@ -773,7 +776,7 @@
 			<AirInterceptRange>1</AirInterceptRange>
 			<Cost>-1</Cost>
 			<Moves>1</Moves>
-			<Range>1</Range>
+			<Range>2</Range>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -811,7 +814,7 @@
 			<RangedCombat>360</RangedCombat>
 			<Cost>-1</Cost>
 			<Moves>1</Moves>
-			<Range>1</Range>
+			<Range>2</Range>
 			<AirInterceptRange>3</AirInterceptRange>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>

@@ -94,11 +94,14 @@
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
-		</Row>
-		
+		</Row>		
 		<Row>
 			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
 			<PromotionType>PROMOTION_FORMATION_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
+			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
 

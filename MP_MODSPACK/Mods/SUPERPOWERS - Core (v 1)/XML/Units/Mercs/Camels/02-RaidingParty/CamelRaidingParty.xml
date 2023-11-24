@@ -79,6 +79,10 @@
 			<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
 			<PromotionType>PROMOTION_SMAN_KHAMSIN_PROMOTION</PromotionType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
+			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
+		</Row>
 	</Unit_FreePromotions>
 	
 	<Unit_AITypes>
