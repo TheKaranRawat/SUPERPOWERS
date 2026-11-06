@@ -684,7 +684,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_3</IconAtlas>
-			<PortraitIndex>32</PortraitIndex>
+			<PortraitIndex>1</PortraitIndex>
 			<WonderSplashImage>Skynet_Splash.dds</WonderSplashImage>
 			<WonderSplashAnchor>L,T</WonderSplashAnchor>
 		</Row>
@@ -3547,6 +3547,8 @@
 	<!-- ***************************Satellite Units Building Effects***************************-->
 
 	<Buildings>
+
+		<!-- SATELLITE DISABLE
 		<Row>
 			<Type>BUILDING_SATELLITE_SPUTNIK</Type>
 			<BuildingClass>BUILDINGCLASS_BUILDING_SATELLITEEFFECTS</BuildingClass>
@@ -3631,6 +3633,9 @@
 			<IconAtlas>SPBalance_ATLAS</IconAtlas>
 			<FreePromotion>PROMOTION_GPS_MOVEMENT_SMALL</FreePromotion>
 		</Row>
+		-->
+
+		<!-- MOON LANDING 
 		<Row>
 			<Type>BUILDING_SATELLITE_APOLLO11</Type>
 			<BuildingClass>BUILDINGCLASS_BUILDING_SATELLITEEFFECTS</BuildingClass>
@@ -3645,17 +3650,19 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>49</PortraitIndex>
 			<IconAtlas>SPBalance_ATLAS</IconAtlas>
-			<!--<FreeTechs>1</FreeTechs>-->
-			<!--<FreePolicies>1</FreePolicies>-->
+			<FreeTechs>1</FreeTechs>
+			<FreePolicies>1</FreePolicies>
 			<GreatScientistBeakerModifier>33</GreatScientistBeakerModifier>
 			<WonderSplashImage>Apollo11.dds</WonderSplashImage>
 			<WonderSplashAnchor>L,T</WonderSplashAnchor>
 		</Row>
+		
+
 		<Row>
 			<Type>BUILDING_HUBBLE</Type>
 			<BuildingClass>BUILDINGCLASS_BUILDING_SATELLITEEFFECTS</BuildingClass>
 			<Cost>-1</Cost>
-			<!--<PrereqTech>TECH_SATELLITES</PrereqTech>-->
+			<PrereqTech>TECH_SATELLITES</PrereqTech>
 			<Help>TXT_KEY_UNIT_SATELLITE_HUBBLE_HELP</Help>
 			<Description>TXT_KEY_UNIT_SATELLITE_HUBBLE</Description>
 			<Civilopedia>TXT_KEY_WONDER_HUBBLE_DESC</Civilopedia>
@@ -3670,8 +3677,11 @@
 			<PortraitIndex>3</PortraitIndex>
 			<WonderSplashImage>WonderConceptHubble.dds</WonderSplashImage>
 			<WonderSplashAnchor>L,T</WonderSplashAnchor>
-			<!--<WonderSplashAudio>AS2D_WONDER_SPEECH_HUBBLE_SPACE_TELESCOPE</WonderSplashAudio>-->
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_HUBBLE_SPACE_TELESCOPE</WonderSplashAudio>
 		</Row>
+		-->
+
+		<!-- SATELLITE DISABLE
 		<Row>
 			<Type>BUILDING_SATELLITE_WEATHER</Type>
 			<BuildingClass>BUILDINGCLASS_BUILDING_SATELLITEEFFECTS</BuildingClass>
@@ -3778,6 +3788,7 @@
 			<WonderSplashImage>ResourceSate.dds</WonderSplashImage>
 			<WonderSplashAnchor>L,T</WonderSplashAnchor>
 		</Row>
+		-->
 
 		
 	</Buildings>

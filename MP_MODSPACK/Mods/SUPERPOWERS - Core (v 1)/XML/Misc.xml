@@ -135,17 +135,17 @@
 		</Update>
 
 		<Update>
-			<Set DefaultPlayers="6"/>
+			<Set DefaultPlayers="4"/>
 			<Where Type="WORLDSIZE_TINY"/>
 		</Update>
 
 		<Update>
-			<Set DefaultPlayers="8"/>
+			<Set DefaultPlayers="6"/>
 			<Where Type="WORLDSIZE_SMALL"/>
 		</Update>
 
 		<Update>
-			<Set DefaultPlayers="12"/>
+			<Set DefaultPlayers="8"/>
 			<Where Type="WORLDSIZE_STANDARD"/>
 		</Update>
 

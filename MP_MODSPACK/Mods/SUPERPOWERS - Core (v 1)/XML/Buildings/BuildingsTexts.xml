@@ -2952,6 +2952,7 @@
 		<Row Tag="TXT_KEY_WONDER_MAHADEVA_PEDIA">
 			<Text>The Kandariya Mahaadeva Temple is the largest and most decorated medieval temple found in the Khajuraho Group of Monuments in India. It is one of the best examples of preserved temples from India's medieval era. One of India's most popular tourist attractions today, Khajuraho was the religious capital of the Chandela Rajputs. The temple was built by King Vidyadhara, arguably one of the greatest of the Chandela kings, at about 1050.[NEWLINE][NEWLINE]The main spire - the shikhara - rises 31 meters and forms the shape of Mount Kailash, the residence of lord Shiva; of whom the temple worships, and is surrounded by 84 smaller spires. The temple features columned halls, an entrance porch and the inner sanctum. 646 statues decorate the sides of the temple and at the top of the shikhara is the amalaka; a circular ring motif commonly found in the architecture of temples in northern India. Also, 226 figures are found lining parts of the temple's wall, but some of these are of a sexual nature and are not publicly displayed.[NEWLINE][NEWLINE]The name of the site means 'the Cave of Mahadeva', Mahadeva being another name for Shiva. The temple represents the pinnacle of traditional medieval nouth Indian temple architecture. At first glance the temple appears to be formed from a single piece of solid stone, when this is not the case.</Text>
 		</Row>
+		
 
 		<!-- Description Tags-->
 		<Row Tag="TXT_KEY_BUILDING_PALISADE_WALL">
@@ -3044,7 +3045,9 @@
 			<Text>[ICON_RES_URANIUM] Secret Nuclear Weapons Program</Text>
 		</Row>
 
-		<!-- Description Tags -->
+		<!-- POLICY BUILDINGS DEPRECATE -->
+
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_TCS_PUBLIC_BATHS">
 			<Text>[ICON_FOOD] Public Baths</Text>
 		</Row>
@@ -3072,7 +3075,6 @@
 		<Row Tag="TXT_KEY_BUILDING_TCS_PATENT_OFFICE">
 			<Text>[ICON_RESEARCH] Patent Office</Text>
 		</Row>
-		<!-- Help Tags -->
 		<Row Tag="TXT_KEY_BUILDING_TCS_PUBLIC_BATHS_HELP">
 			<Text>+1 [ICON_FOOD] Food. +10% [ICON_FOOD] Food. +1 [ICON_CULTURE] Culture for every 4 Citizens.[NEWLINE][NEWLINE]Requires Tradition.</Text>
 		</Row>
@@ -3100,6 +3102,7 @@
 		<Row Tag="TXT_KEY_BUILDING_TCS_PATENT_OFFICE_HELP">
 			<Text>+3 [ICON_SCIENCE] Science. +1 [ICON_GOLD] Gold for every 4 Citizens.[NEWLINE][NEWLINE]Requires Rationalism.</Text>
 		</Row>
+		-->
 
 		<Row Tag="TXT_KEY_BUILDING_CURE_FOR_CANCER">
 			<Text>Cure for Cancer</Text>
@@ -3359,7 +3362,7 @@
 			<Text>Nan Madol</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_MADOL_HELP">
-			<Text>Provides +6 [ICON_CULTURE] culture. +1 [ICON_FOOD] Food, +1 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production from Sea Tiles worked by the city. City must be built on the coast</Text>
+			<Text>Provides +6 [ICON_CULTURE] culture. +1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production from Sea Tiles worked by the city. City must be built on the coast</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_MADOL_STRATEGY">
 			<Text>There should be some text!</Text>
@@ -3537,90 +3540,6 @@
 			<Text>The Golden Gate Bridge is a suspension bridge spanning the Golden Gate strait, the mile-wide, three-mile-long channel between San Francisco Bay and the Pacific Ocean, an area known as the Golden Gate. Completed in 1937, the structure links the U.S. city of San Francisco, on the northern tip of the San Francisco Peninsula, to Marin County, bridging both U.S. Route 101 and California State Route 1 across the strait. The bridge is one of the most internationally recognized symbols of San Francisco, California, and the United States. The Frommers travel guide considers the Golden Gate Bridge "possibly the most beautiful, certainly the most photographed, bridge in the world". Conceived, designed, and promoted by engineering student Joseph Strauss, it once had the longest suspension bridge main span in the world, at 4,200 feet, a title held by it until 1964.</Text>
 		</Row>
 
-
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_HEPTASTADION">
-			<Text>[ICON_IDEOLOGY_AUTOCRACY] Naval Quarters</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_HEPTASTADION_HELP">
-			<Text>Allows certain naval Mercenary units to be purchased. Adds +1 Production and +1 Science.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_HEPTASTADION_PEDIA">
-			<Text>
-				A Heptastadion is an Ancient Era building available upon the discovery of Sailing. Building it will allow the purchse of the XX and YY naval units. It also adds +1 to Production and +1 to Science in the city.
-			</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MEAD_HALL">
-			<Text>[ICON_IDEOLOGY_AUTOCRACY] Retinue Quarters</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MEAD_HALL_HELP">
-			<Text>Allows certain Mercenary units to be purchased. Adds +1 Production and +1 Culture. Requires a Monument in the city.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MEAD_HALL_PEDIA">
-			<Text>
-				A Mead Hall is a Classical Era building available upon the discovery of Currency. Building it will allow the purchse of the XX and YY units. It also adds +1 to Productionand +1 Culture in the city.
-			</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_GUILD">
-			<Text>[ICON_IDEOLOGY_AUTOCRACY] Mercenary Guild</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_GUILD_HELP">
-			<Text>Allows certain Mercenary units to be purchased. Adds +1 Production and +2 Culture. +6 City Defense Strength. Requires a Market in the city.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_GUILD_PEDIA">
-			<Text>
-				A Mercenary Guild is a Renaissance Era building available upon the discovery of Currency. Building it will allow the purchse of the XX and YY units. It also adds +1 to Production and +2 Culture in the city. +6 City Defense Strength.
-			</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_SHIPYARD">
-			<Text>[ICON_IDEOLOGY_AUTOCRACY] Privateering Company</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_SHIPYARD_HELP">
-			<Text>Allows certain naval Mercenary units to be purchased. Adds +1 Production, +1 Science, and +1 Culture. Requires a Harbor in the city.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_SHIPYARD_PEDIA">
-			<Text>
-				A Shipyard is an Industrial Era building available upon the discovery of Military Science. Building it will allow the purchse of the XX and YY naval units. It also adds +1 to Production, +1 to Science, and +1 Culture in the city.
-			</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_CONSULATE">
-			<Text>[ICON_IDEOLOGY_AUTOCRACY] Colonial Recruitment Agency</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_CONSULATE_HELP">
-			<Text>Allows certain Mercenary units to be purchased. Adds +1 Production and +2 Culture. +9 City Defense Strength. Requires a Market in the city.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_MERC_CONSULATE_PEDIA">
-			<Text>
-				A Mercenary Consulate is a Modern Era building available upon the discovery of Railroad. Building it will allow the purchse of the XX and YY units. It also adds +1 to Production and +2 Culture in the city. +9 City Defense Strength.
-			</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_NAVAL_YARD">
-			<Text>[ICON_IDEOLOGY_AUTOCRACY] Naval Procurement Department</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_NAVAL_YARD_HELP">
-			<Text>Allows certain naval Mercenary units to be purchased. Adds +2 Production, +1 Science, and +1 Culture. Requires a Seaport in the city.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_NAVAL_YARD_PEDIA">
-			<Text>
-				A Naval Yard is an Atomic Era building available upon the discovery of Combined Arms. Building it will allow the purchse of the XX and YY naval units. It also adds +2 to Production, +1 to Science, and +1 Culture in the city.
-			</Text>
-		</Row>
-
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_CONTRACTING_AGENCY">
-			<Text>[ICON_IDEOLOGY_AUTOCRACY] Private Military Contractor</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_CONTRACTING_AGENCY_HELP">
-			<Text>Allows certain Mercenary units to be purchased. Adds +2 Production and +2 Culture. Requires an Airport in the city.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_SMAN_EU_CONTRACTING_AGENCY_PEDIA">
-			<Text>
-				A Contracting Agency is an Information Era building available upon the discovery of Telecommunications. Building it will allow the purchse of the XX and YY units. It also adds +2 to Production and +2 Culture in the city.
-			</Text>
-		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_BOLLHUSET">
 			<Text>[ICON_CULTURE] Bollhuset</Text>

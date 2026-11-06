@@ -994,6 +994,8 @@
 
 	<!--***Misc*****-->
 	<Unit_BuildingClassRequireds>
+
+		<!-- SATELLITE DISABLE
 		<Row>
 			<UnitType>UNIT_SATELLITE_SPUTNIK</UnitType>
 			<BuildingClassType>BUILDINGCLASS_SPACESHIP_FACTORY</BuildingClassType>
@@ -1038,6 +1040,7 @@
 			<UnitType>UNIT_SATELLITE_RESOURCEPLUS</UnitType>
 			<BuildingClassType>BUILDINGCLASS_SPACESHIP_FACTORY</BuildingClassType>
 		</Row>
+		-->
 		
 		
 		<Row>

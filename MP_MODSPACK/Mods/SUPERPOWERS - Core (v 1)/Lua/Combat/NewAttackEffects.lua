@@ -6,6 +6,7 @@
 --------------------------------------------------------------
 
 
+--[[ DISABLE COMBAT EFFECTS/ NO DLL SUPPORT 
 
 include( "UtilityFunctions.lua" )
 
@@ -1031,3 +1032,4 @@ end
 
 print("New Attack Effect Check Pass!")
 
+]]--

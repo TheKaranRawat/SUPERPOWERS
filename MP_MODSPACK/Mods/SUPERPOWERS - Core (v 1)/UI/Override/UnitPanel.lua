@@ -22,6 +22,19 @@ local g_EarnedPromotionIM   = InstanceManager:new( "EarnedPromotionInstance", "U
 local g_EarnedPromotionIM2   = InstanceManager:new( "EarnedPromotionInstance", "UnitPromotionImage", Controls.EarnedPromotionStack2 );
 ----------------------SP two Rows of Promotions END-------------------
 
+-- Action types that should always go in the secondary (extra options) menu
+local g_ForceSecondary = {
+    INTERFACEMODE_ATTACK        = true,
+    INTERFACEMODE_RANGE_ATTACK  = true,
+    INTERFACEMODE_MOVE_TO       = true,
+    INTERFACEMODE_AIRSTRIKE     = true,
+	INTERFACEMODE_EMBARK       = true,
+    INTERFACEMODE_DISEMBARK     = true,
+	MISSION_SKIP       = true,
+	
+    --MISSION_PILLAGE             = true,
+    -- add more Type names here
+};
 
 local tipControlTable = {};
 TTManager:GetTypeControlTable( "TypeUnitAction", tipControlTable );
@@ -341,8 +354,10 @@ function UpdateUnitActions( unit )
 						Controls.RecommendedActionLabel:SetText( convertedKey ); 
 					end
 				end
-               
-            elseif( action.OrderPriority > 100 ) then
+            
+			--move some actions to the secondary menu
+            --elseif( action.OrderPriority > 100 ) then
+			elseif( action.OrderPriority > 100 and not g_ForceSecondary[action.Type] ) then
                 instance = g_PrimaryIM:GetInstance();
                 numPrimaryActions = numPrimaryActions + 1;
                 

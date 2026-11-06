@@ -453,10 +453,10 @@
 			<Text>
 				[COLOR_POSITIVE_TEXT]Republics[ENDCOLOR] value freedom and innovation.
 				[NEWLINE][NEWLINE]Opening Effects:
-				[NEWLINE][ICON_BULLET]+25% [ICON_CULTURE] Culture and +25% [ICON_RESEARCH] Science in the [ICON_CAPITAL] Capital
-				[NEWLINE][ICON_BULLET]-25% [ICON_CULTURE] Culture cost for acquiring new plots in all cities
+				[NEWLINE][ICON_BULLET]+10% [ICON_CULTURE] Culture and [ICON_RESEARCH] Science in the [ICON_CAPITAL] Capital
+				[NEWLINE][ICON_BULLET]-20% [ICON_CULTURE] Culture cost for acquiring new plots in cities
 				[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]Amount of [ICON_HAPPINESS_4] Unhappiness from number of cities increased by 50%[ENDCOLOR]
-				[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]Culture cost of acquiring new [ICON_CULTURE] Policies increased by 10% for every city[ENDCOLOR]
+				[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]Culture cost of adopting new [ICON_CULTURE] Policies increased by 10% for every city[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Wonder Unlocked: Hanging Gardens
 				[NEWLINE][ICON_BULLET]Building Unlocked: Public Baths
 				[NEWLINE][NEWLINE]Finishing Bonus:
@@ -485,8 +485,8 @@
 			<Text>
 				[COLOR_POSITIVE_TEXT]Collective Agriculture[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]+1 [ICON_FOOD] Food for every Farm and Fishing Net.				
-				[NEWLINE][ICON_BULLET]+20% [ICON_FOOD] Food growth in every city.
-				[NEWLINE][ICON_BULLET]+30% bonus [ICON_FOOD] Food growth in the Capital.
+				[NEWLINE][ICON_BULLET]+5% [ICON_FOOD] Food growth in every city.
+				[NEWLINE][ICON_BULLET]+20% bonus [ICON_FOOD] Food growth in the Capital.
 			</Text>
 		</Replace>
 
@@ -497,7 +497,7 @@
 		<Replace Tag="TXT_KEY_POLICY_LEGALISM_HELP" >
 			<Text>
 				[COLOR_POSITIVE_TEXT]Social Contract[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness for every 3 [ICON_CITIZEN] Citizens in all cities.
+				[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness for every 4 [ICON_CITIZEN] Citizens in all cities.
 				[NEWLINE][ICON_BULLET]-50% [ICON_HAPPINESS_4] Unhappiness in the Capital.
 			</Text>
 		</Replace>
@@ -513,10 +513,10 @@
 				[NEWLINE][ICON_BULLET]Gain additional [ICON_PRODUCTION] Production in cities reached certain Population Size:
 				[NEWLINE][ICON_BULLET]Town: +8 [ICON_PRODUCTION] Production.
 				[NEWLINE][ICON_BULLET]City: +16 [ICON_PRODUCTION] Production.
-				[NEWLINE][ICON_BULLET]Municipality: +32 [ICON_PRODUCTION] Production.
-				[NEWLINE][ICON_BULLET]Metropolis: +64 [ICON_PRODUCTION] Production.
-				[NEWLINE][ICON_BULLET]Megapolis: +100 [ICON_PRODUCTION] Production.
-				[NEWLINE][ICON_BULLET]Gigacity: +140 [ICON_PRODUCTION] Production.
+				[NEWLINE][ICON_BULLET]Municipality: +24 [ICON_PRODUCTION] Production.
+				[NEWLINE][ICON_BULLET]Metropolis: +48 [ICON_PRODUCTION] Production.
+				[NEWLINE][ICON_BULLET]Megapolis: +64 [ICON_PRODUCTION] Production.
+				[NEWLINE][ICON_BULLET]Gigacity: +80 [ICON_PRODUCTION] Production.
 			</Text>
 		</Replace>
 
@@ -542,10 +542,10 @@
 				[NEWLINE][ICON_BULLET]Gain additional [ICON_CULTURE] Culture in cities reached certain Population Size:
 				[NEWLINE][ICON_BULLET]Town: +8 [ICON_CULTURE] Culture.
 				[NEWLINE][ICON_BULLET]City: +16 [ICON_CULTURE] Culture.
-				[NEWLINE][ICON_BULLET]Municipality: +32 [ICON_CULTURE] Culture.
-				[NEWLINE][ICON_BULLET]Metropolis: +64 [ICON_CULTURE] Culture.
-				[NEWLINE][ICON_BULLET]Megapolis: +100 [ICON_CULTURE] Culture.
-				[NEWLINE][ICON_BULLET]Gigapolis: +140 [ICON_CULTURE] Culture.
+				[NEWLINE][ICON_BULLET]Municipality: +24 [ICON_CULTURE] Culture.
+				[NEWLINE][ICON_BULLET]Metropolis: +48 [ICON_CULTURE] Culture.
+				[NEWLINE][ICON_BULLET]Megapolis: +64 [ICON_CULTURE] Culture.
+				[NEWLINE][ICON_BULLET]Gigapolis: +80 [ICON_CULTURE] Culture.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_PREFECTURE_TEXT">
@@ -561,7 +561,7 @@
 		<Row Tag="TXT_KEY_POLICY_FAMILY_REGISTER_HELP" >
 			<Text>
 				[COLOR_POSITIVE_TEXT]Schools of Thought[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+1 [ICON_RESEARCH] Science for every [ICON_CITIZEN] Citizens in a city. 
+				[NEWLINE][ICON_BULLET]+1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in a city. 
 				[NEWLINE][ICON_BULLET]Add 2 [RESEARCH] Scientist Slots in every city.
 			</Text>
 		</Row>
@@ -577,17 +577,17 @@
 		<Row Tag="TXT_KEY_POLICY_CENTRALISATION_HELP" >
 			<Text>
 				[COLOR_POSITIVE_TEXT]Decentralisation[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]New Units receive +15 XP
-				[NEWLINE][ICON_BULLET]The [ICON_CITIZEN] Population Loss caused by Unit Casualties reduced by 50%
-				[NEWLINE][ICON_BULLET]+1 yield from [ICON_CITIZEN] Specialists
+				[NEWLINE][ICON_BULLET]New Units receive +30 XP
+				[NEWLINE][ICON_BULLET]The [ICON_CITIZEN] Population Loss caused by Unit Casualties reduced by 50%				
 				</Text>
 		</Row>
+		<!-- [NEWLINE][ICON_BULLET]+1 relevant yield from [ICON_CITIZEN] Specialists -->
 		<Row Tag="TXT_KEY_POLICY_CENTRALISATION_TEXT">
 			<Text>
 				Centralisation, or centralization (see spelling differences), is the process by which the activities of an organisation, particularly those regarding planning and decision-making, become concentrated within a particular location and/or group or keeping all of the important decisionmaking powers within head office or the centre of the organisation.
 			</Text>
 		</Row>
-
+		
 
 		<!--  ****************   L I B E R T Y ****************   -->
 
@@ -604,14 +604,14 @@
 				[COLOR_POSITIVE_TEXT]Empires[ENDCOLOR] value conquest and expansion.
 
 				[NEWLINE][NEWLINE]Opening Effect:
-				[NEWLINE][ICON_BULLET]+12 [ICON_GOLD] Gold per city
+				[NEWLINE][ICON_BULLET]+50 [ICON_GOLD] Gold per city
 				[NEWLINE][ICON_BULLET]+33% Tile Improvement rate
-				[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]City [ICON_FOOD] growth rate reduced by 10%[ENDCOLOR]	
+				[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]City [ICON_FOOD] growth rate reduced by 5%[ENDCOLOR]	
 				[NEWLINE][ICON_BULLET]Wonder Unlocked: The Pyramids
 				[NEWLINE][ICON_BULLET]Building Unlocked: Town Council
 				[NEWLINE][NEWLINE]Finishing Bonus:
-				[NEWLINE][ICON_BULLET]One free Settler
-				[NEWLINE][ICON_BULLET]Starts a Golden Age
+				[NEWLINE][ICON_BULLET]Starts a Golden Age				
+				[NEWLINE][ICON_BULLET]+15% [ICON_PRODUCTION] Production for [ICON_WAR] Military Units.
 				[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Republic[ENDCOLOR]
 			</Text>
 		</Replace>
@@ -624,7 +624,8 @@
 			<Text>
 				[COLOR_POSITIVE_TEXT]Settler Colonialism[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]+20% [ICON_PRODUCTION] Production for training [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+15% [ICON_PRODUCTION] Bonus Production for training [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR] in the Capital</Text>
+				[NEWLINE][ICON_BULLET]+20% [ICON_PRODUCTION] Bonus Production for training [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR] in the Capital
+				[NEWLINE][ICON_BULLET]One free [COLOR_POSITIVE_TEXT]Settler[ENDCOLOR]</Text>
 		</Replace>
 
 		<!-- [NEWLINE][ICON_BULLET]One free Settler appears near the [ICON_CAPITAL] Capital.(Venice receives a Merchant of Venice instead of a Settler)  -->
@@ -636,8 +637,8 @@
 		<Replace Tag="TXT_KEY_POLICY_REPUBLIC_HELP" >
 			<Text>
 				[COLOR_POSITIVE_TEXT]Pax Imperia[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+4 [ICON_HAPPINESS_1] happiness for every [ICON_INTERNATIONAL_TRADE] Trade Route
-				[NEWLINE][ICON_BULLET]+1 extra [ICON_HAPPINESS_1] happiness from every Luxury Resource
+				[NEWLINE][ICON_BULLET]+6 [ICON_HAPPINESS_1] happiness for every [ICON_INTERNATIONAL_TRADE] Trade Route
+				[NEWLINE][ICON_BULLET]+4 extra [ICON_HAPPINESS_1] happiness from every Luxury Resource
 			</Text>
 		</Replace>
 
@@ -659,8 +660,8 @@
 		<Replace Tag="TXT_KEY_POLICY_MERITOCRACY_HELP">
 			<Text>
 				[COLOR_POSITIVE_TEXT]Landed Elite[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+10 [ICON_PRODUCTION] Production for every City
-				[NEWLINE][ICON_BULLET]+10% [ICON_PRODUCTION] Production in cities when constructing Buildings
+				[NEWLINE][ICON_BULLET]+20 [ICON_PRODUCTION] Production for every City
+				[NEWLINE][ICON_BULLET]+20% [ICON_PRODUCTION] Production in cities when constructing Buildings
 			</Text>
 		</Replace>
 
@@ -670,8 +671,8 @@
 		<Row Tag="TXT_KEY_POLICY_BILL_OF_RIGHTS_HELP" >
 			<Text>
 				[COLOR_POSITIVE_TEXT]Imperial Examination[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+4 [ICON_RESEARCH] Science for each Library, Academy, University, Observatory, Public School and Laboratory
-				[NEWLINE][ICON_BULLET]+4 [ICON_CULTURE] Culture for each Monument, Amphitheater, Art Gallery, Opera House, Museum and Brocast Tower</Text>
+				[NEWLINE][ICON_BULLET]+6 [ICON_RESEARCH] Science from Science Buildings
+				[NEWLINE][ICON_BULLET]+6 [ICON_CULTURE] Culture from Culture Buildings</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_BILL_OF_RIGHTS_TEXT">
 			<Text>
@@ -701,8 +702,8 @@
 		<Row Tag="TXT_KEY_POLICY_DECENTRALIZATION_HELP" >
 			<Text>
 				[COLOR_POSITIVE_TEXT]Centralization[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Each City with at least 1 Garrisoned Unit increases Local [ICON_HAPPINESS_1] Happiness by 1.
-				[NEWLINE][ICON_BULLET]Each Garrisoned Unit will increase the local city's [ICON_CULTURE] Culture by 2. Can be up to +4 [ICON_CULTURE] Culture if you have 2 Garrisoned Unit in a city.</Text>
+				[NEWLINE][ICON_BULLET]Each Garrisoned Unit increases [ICON_HAPPINESS_1] Happiness by 4.
+				[NEWLINE][ICON_BULLET]Each Garrisoned Unit will increase [ICON_CULTURE] Culture by 8.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_DECENTRALIZATION_TEXT">
 			<Text>
@@ -717,11 +718,8 @@
 		<Replace Tag="TXT_KEY_POLICY_REPRESENTATION_HELP">
 			<Text>
 				[COLOR_POSITIVE_TEXT]Oligarchy[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Lower the extra [ICON_CULTURE] Culture cost for adopting new Policies from Lv1 - Lv5 cities (Effects multiply with anti-corruption buildings):
-				[NEWLINE][ICON_BULLET]Lv 1 City: NO extra [ICON_CULTURE] Culture cost.
-				[NEWLINE][ICON_BULLET]Lv 2 City: Extra [ICON_CULTURE] Culture cost lowered from 10% to 5%.
-				[NEWLINE][ICON_BULLET]Lv 3 City: Extra [ICON_CULTURE] Culture cost lowered from 20% to 10%.
-				[NEWLINE][ICON_BULLET]Lv 4-5 City: Extra [ICON_CULTURE] Culture cost lowered from 33% to 15%.
+				[NEWLINE][ICON_BULLET]The [ICON_CULTURE] Culture cost for new Policies is reduced by 5% per city.
+				[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] Production for every Mine and Lumber Mill.
 			</Text>
 		</Replace>
 		

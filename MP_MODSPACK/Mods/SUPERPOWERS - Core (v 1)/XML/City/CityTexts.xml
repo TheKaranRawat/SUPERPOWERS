@@ -822,7 +822,7 @@
 		
 
 		<Replace Tag="TXT_KEY_BUILDING_IRON_PROVIDER">
-			<Text>[ICON_RES_IRON] Steel Warehouse</Text>
+			<Text>[ICON_RES_IRON] Steel Foundry</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_IRON_PROVIDER_HELP">
 			<Text>+5 additional [ICON_RES_IRON] Iron.[NEWLINE][NEWLINE]Must be built in Small Cities.</Text>

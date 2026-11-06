@@ -2,7 +2,7 @@
 ------------------------------	
 INSERT INTO Buildings 	
 	(Type, TrainedFreePromotion, BuildingClass, Cost, FreeStartEra, NeverCapture, GoldMaintenance, PrereqTech, ArtDefineTag, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, Help, Description, Civilopedia, Strategy, IconAtlas, PortraitIndex)
-SELECT	'BUILDING_3UC_VIKING_LONGHOUSE', 'PROMOTION_VIKING_LEGACY', BuildingClass, Cost, FreeStartEra, NeverCapture, 0, PrereqTech, ArtDefineTag, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, 'TXT_KEY_BUILDING_3UC_VIKING_LONGHOUSE_HELP', 'TXT_KEY_BUILDING_3UC_VIKING_LONGHOUSE', 'TXT_KEY_BUILDING_3UC_VIKING_LONGHOUSE_TEXT', 'TXT_KEY_BUILDING_3UC_VIKING_LONGHOUSE_STRATEGY', 'ICON_ATLAS', 10
+SELECT	'BUILDING_3UC_VIKING_LONGHOUSE', 'PROMOTION_VIKING_LEGACY', BuildingClass, Cost, FreeStartEra, NeverCapture, 0, PrereqTech, ArtDefineTag, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, 'TXT_KEY_BUILDING_3UC_VIKING_LONGHOUSE_HELP', 'TXT_KEY_BUILDING_3UC_VIKING_LONGHOUSE', 'TXT_KEY_BUILDING_3UC_VIKING_LONGHOUSE_TEXT', 'TXT_KEY_BUILDING_3UC_VIKING_LONGHOUSE_STRATEGY', 'CIV_COLOR_ATLAS_FW', 60
 FROM Buildings WHERE Type = 'BUILDING_BARRACKS';	
 
 INSERT OR REPLACE INTO UnitPromotions 

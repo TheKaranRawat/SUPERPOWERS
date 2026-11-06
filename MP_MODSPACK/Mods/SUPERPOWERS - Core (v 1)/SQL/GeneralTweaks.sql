@@ -11,23 +11,7 @@ UPDATE ArtDefine_UnitMemberCombats SET TurnRateMax = 2*TurnRateMax WHERE MoveRat
 
 
 
---Trade Route Scale
 
-
-UPDATE Worlds SET TradeRouteDistanceMod=150 WHERE Type='WORLDSIZE_DUEL';
-UPDATE Worlds SET TradeRouteDistanceMod=150 WHERE Type='WORLDSIZE_TINY';
-UPDATE Worlds SET TradeRouteDistanceMod=150 WHERE Type='WORLDSIZE_SMALL';
-UPDATE Worlds SET TradeRouteDistanceMod=250 WHERE Type='WORLDSIZE_STANDARD';
-UPDATE Worlds SET TradeRouteDistanceMod=250 WHERE Type='WORLDSIZE_LARGE';
-UPDATE Worlds SET TradeRouteDistanceMod=300 WHERE Type='WORLDSIZE_HUGE';
-
-
-
-
-UPDATE GameSpeeds SET TradeRouteSpeedMod=3000 WHERE Type='GAMESPEED_QUICK';
-UPDATE GameSpeeds SET TradeRouteSpeedMod=3000 WHERE Type='GAMESPEED_STANDARD';
-UPDATE GameSpeeds SET TradeRouteSpeedMod=3000 WHERE Type='GAMESPEED_EPIC';
-UPDATE GameSpeeds SET TradeRouteSpeedMod=3000 WHERE Type='GAMESPEED_MARATHON';
 
 
 UPDATE Units SET Moves=3 WHERE Type='UNIT_CARAVAN';

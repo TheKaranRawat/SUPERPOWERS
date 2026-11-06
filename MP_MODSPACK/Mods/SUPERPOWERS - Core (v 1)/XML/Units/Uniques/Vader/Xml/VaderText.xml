@@ -70,7 +70,7 @@
     </Row>
 	
 		  <Row Tag="TXT_KEY_UNIT_DVADERCIVUNIT">
-			<Text>[COLOR_YELLOW]Stormtrooper[ENDCOLOR]</Text>
+			<Text>[ICON_SWORD] [COLOR_YELLOW]Stormtrooper[ENDCOLOR]</Text>
 		  </Row>
 		  <Row Tag="TXT_KEY_UNIT_DVADERCIVUNIT_STRATEGY">
 			<Text>An Elite Mercenary Group that aims to unite the world under a single Galactic Empire. +25% Combat Strength VS Wounded Units. +50% Combat Strength VS Armor Units. Gain -20 Unhappiness per Unit.</Text>
@@ -78,6 +78,15 @@
 		  <Row Tag="TXT_KEY_UNIT_HELP_DVADERCIVUNIT">
 			<Text>+25% Combat Strength VS Wounded Units. +50% Combat Strength VS Armor Units. Gain -20 Unhappiness per Unit.</Text>
 		  </Row>
+		   <Row Tag="TXT_KEY_UNIT_HELP_DVADERCIVUNIT_MINI">
+			<Text>+25% Combat Strength VS Wounded Units.</Text>
+		  </Row>
+		  <Row Tag="TXT_KEY_UNIT_HELP_DVADERCIVUNIT_MINI2">
+			<Text>The Empire Strikes Back!</Text>
+		  </Row>
+
+
+		  
 	
 	
 	

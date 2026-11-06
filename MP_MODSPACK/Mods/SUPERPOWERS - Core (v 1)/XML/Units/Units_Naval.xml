@@ -916,8 +916,8 @@
 			<UnitArtInfo>ART_DEF_UNIT_DIESEL_SUBMARINE</UnitArtInfo>
 			<UnitFlagAtlas>SPUnitFlags_FLAG</UnitFlagAtlas>
 			<UnitFlagIconOffset>112</UnitFlagIconOffset>
-			<IconAtlas>ShipAtlas_ATLAS</IconAtlas>
-			<PortraitIndex>28</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>46</PortraitIndex>
 			<MoveRate>SUB</MoveRate>
 			<ExtraMaintenanceCost>60</ExtraMaintenanceCost>
 		</Row>
@@ -2095,68 +2095,6 @@
 			<UnitType>UNIT_DANISH_ABSALON</UnitType>
 			<PromotionType>PROMOTION_HALF_CASUALTIES</PromotionType>
 		</Row>
-
-		<!-- MERC SHIP PROMOTIONS -->
-
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_DHOW</UnitType>
-			<PromotionType>PROMOTION_NAVALMELEE_COMBAT</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_BARQUE</UnitType>
-			<PromotionType>PROMOTION_NAVAL_HIT_AND_RUN</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_BATTLE_GALLEY</UnitType>
-			<PromotionType>PROMOTION_NAVAL_RANGED_SHIP</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_FIRE_SHIP</UnitType>
-			<PromotionType>PROMOTION_NAVAL_HIT_AND_RUN</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_SMAN_ARMORED_FRIGATE</UnitType>
-			<PromotionType>PROMOTION_NAVALMELEE_COMBAT</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_SMAN_DREADNOUGHT</UnitType>
-			<PromotionType>PROMOTION_NAVAL_CAPITAL_SHIP</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_WAR_JUNK</UnitType>
-			<PromotionType>PROMOTION_NAVAL_RANGED_SHIP</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_SMAN_PATROL_BOAT</UnitType>
-			<PromotionType>PROMOTION_NAVAL_HIT_AND_RUN</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_SMAN_SUB_HUNTER</UnitType>
-			<PromotionType>PROMOTION_NAVALMELEE_COMBAT</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_CORSAIR</UnitType>
-			<PromotionType>PROMOTION_NAVALMELEE_COMBAT</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_THALAI_THIRVAI</UnitType>
-			<PromotionType>PROMOTION_NAVAL_RANGED_SHIP</PromotionType>
-		</Row>
-
-
-
-
-
-
-
 
 		<Row>
 			<UnitType>UNIT_TRIREME</UnitType>
@@ -3684,27 +3622,27 @@
 	</Unit_YieldFromKills>
 
 
-
+	<!-- reduce naval militia flavor to prevent ai spam -->
 	<Unit_Flavors>
 		<Row>
 			<UnitType>UNIT_NAVAL_MILITIA</UnitType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>12</Flavor>
+			<Flavor>0</Flavor>	
 		</Row>
 		<Row>
 			<UnitType>UNIT_MONITOR_SHIP</UnitType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>30</Flavor>
+			<Flavor>0</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CORVETTE</UnitType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>65</Flavor>
+			<Flavor>0</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_LITTORAL_COMBAT_SHIP</UnitType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>100</Flavor>
+			<Flavor>0</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_DANISH_ABSALON</UnitType>
@@ -3715,22 +3653,22 @@
 		<Row>
 			<UnitType>UNIT_NAVAL_MILITIA</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>0</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MONITOR_SHIP</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>25</Flavor>
+			<Flavor>0</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CORVETTE</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>55</Flavor>
+			<Flavor>0</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_LITTORAL_COMBAT_SHIP</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>65</Flavor>
+			<Flavor>0</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_DANISH_ABSALON</UnitType>

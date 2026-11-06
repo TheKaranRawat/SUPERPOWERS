@@ -441,11 +441,229 @@
 			</Text>
 		</Replace>
 
+		
+
 
 	</Language_en_US>
 
+	<Language_en_US>
 
+		<Row Tag="TXT_KEY_TRAIT_NAPOLEON_2">
+			<Text>
+			</Text>
+		</Row>
 
+		<Row Tag="TXT_KEY_TRAIT_GANDHI_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_AUGUSTUS_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_BISMARCK_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_CATHERINE_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_ELIZABETH_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_ODA_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_WASHINGTON_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_WU_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_AHMAD_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_ALEXANDER_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_ASHURBANIPAL_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_ASKIA_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_ATILLA_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_BOUDICCA_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_CASIMIR_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_DARIUS_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_DIDO_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_ENRICO_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_GAJAH_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_GENGHIS_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_GUSTAVUS_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_SELASSIE_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_HARALD_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_HARUN_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_HIAWATHA_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_ISABELLA_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_KAMEHAMEHA_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_MARIA_I_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_MARIA_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_MONTEZUMA_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_NEBUCHADNEZZAR_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_PACAL_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_PACHACUTI_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_PEDRO_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_POCATELLO_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_RAMESSES_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_RAMKHAMHAENG_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_SEJONG_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_SHAKA_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_SULEIMAN_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_THEODORA_2">
+			<Text>
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_WILLIAM_2">
+			<Text>
+			</Text>
+		</Row>
+
+	</Language_en_US>
 
 
 <!--*******************Unique Units' Names*****************-->
@@ -1026,7 +1244,7 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_BRAZIL_SCOCCER_STAR">
-			<Text>Brazilian Soccer Player</Text>
+			<Text>[ICON_CAPITAL] Brazilian Soccer Player</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_BRAZIL_SCOCCER_STAR_HELP">
 			<Text>
@@ -1051,6 +1269,10 @@
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_ARABIAN_PROPHET_TEXT">
 			<Text>Prophets in Islam include "messengers", bringers of a divine revelation via an angel; and "prophets", lawbringers that Muslims believe were sent by God to every people, bringing God's message in a language they can understand. Belief in Islamic prophets is one of the six articles of the Islamic faith, and specifically mentioned in the Quran.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TURN_INDICATOR">
+			<Text>[ICON_SWAP]</Text>
 		</Row>
 
 

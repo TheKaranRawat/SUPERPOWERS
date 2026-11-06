@@ -148,11 +148,13 @@
 			<UnitType>UNIT_CARGO_SHIP</UnitType>
 			<NumUnits>1</NumUnits>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_HUBBLE</BuildingType>
 			<UnitType>UNIT_SCIENTIST</UnitType>
 			<NumUnits>1</NumUnits>
 		</Row>
+		-->
 		<Row>
 			<BuildingType>BUILDING_PETRA</BuildingType>
 			<UnitType>UNIT_CARAVAN</UnitType>
@@ -401,11 +403,17 @@
 			<Experience>25</Experience>
 		</Row>
 
+		<!-- POLICY BUILDINGS DEPRECATE -->
+
+		<!--
+
 		<Row>
 			<BuildingType>BUILDING_TCS_STRONGHOLD</BuildingType>
 			<DomainType>DOMAIN_LAND</DomainType>
 			<Experience>15</Experience>
 		</Row>
+
+		-->
 		
 	</Building_DomainFreeExperiences>
 
@@ -575,6 +583,7 @@
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 
+		<!--
 		<Row>
 			<BuildingType>BUILDING_SMELTER</BuildingType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
@@ -583,6 +592,7 @@
 			<BuildingType>BUILDING_SMELTER</BuildingType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
 		</Row>
+		-->
 		
 	</Building_LocalResourceOrs>
 
@@ -1122,7 +1132,7 @@
 			<Quantity>25</Quantity>
 		</Row>
 
-
+		<!-- SATELLITE DISABLE
 		<Row>
 			<BuildingType>BUILDING_SATELLITE_RESOURCEPLUS</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
@@ -1153,6 +1163,7 @@
 			<ResourceType>RESOURCE_IRON</ResourceType>
 			<Quantity>8</Quantity>
 		</Row>
+		-->
 
 		<Row>
 			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
@@ -1422,11 +1433,16 @@
 			<Quantity>8</Quantity>
 		</Row>
 
+		<!-- BUILDING 2 DEPRECATE -->
+		<!--
+
 		<Row>
 			<BuildingType>BUILDING_NUCLEAR_FISSION_REACTOR_PLANT</BuildingType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
 			<Quantity>4</Quantity>
 		</Row>
+
+		-->
 
 	</Building_ResourceQuantity>
 	
@@ -2765,6 +2781,8 @@
 			<Yield>10</Yield>
 		</Row>
 
+		<!--
+
 		<Row>
 			<BuildingType>BUILDING_POTTER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
@@ -2780,6 +2798,10 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>3</Yield>
 		</Row>
+		-->
+
+		<!-- BUILDING 2 DEPRECATE -->
+		<!--
 
 		<Row>
 			<BuildingType>BUILDING_NUCLEAR_FISSION_REACTOR_PLANT</BuildingType>
@@ -2787,6 +2809,10 @@
 			<Yield>16</Yield>
 		</Row>
 
+		-->
+
+		<!-- POLICY BUILDINGS DEPRECATE -->
+		<!--
 		<Row>
 			<BuildingType>BUILDING_TCS_PUBLIC_BATHS</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -2847,6 +2873,7 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>3</Yield>
 		</Row>
+		-->
 
 		<Row>
 			<BuildingType>BUILDING_LONDON_ARRAY</BuildingType>
@@ -2863,95 +2890,6 @@
 			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>32</Yield>
-		</Row>
-
-		<!-- MERC BUILDINGS YIELD -->
-
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_HEPTASTADION</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_HEPTASTADION</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>1</Yield>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_MEAD_HALL</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_MEAD_HALL</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_MERC_GUILD</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_MERC_GUILD</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_SHIPYARD</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_SHIPYARD</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_SHIPYARD</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_MERC_CONSULATE</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_MERC_CONSULATE</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_NAVAL_YARD</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_NAVAL_YARD</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_NAVAL_YARD</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_CONTRACTING_AGENCY</BuildingType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_CONTRACTING_AGENCY</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
 		</Row>
 
 		<Row>
@@ -3892,11 +3830,17 @@
 			<Yield>25</Yield>
 		</Row>
 
+		<!-- POLICY BUILDINGS DEPRECATE -->
+
+		<!--
+
 		<Row>
 			<BuildingType>BUILDING_TCS_PUBLIC_BATHS</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>10</Yield>
 		</Row>
+
+		-->
 
 		<Row>
 			<BuildingType>BUILDING_PALMJUMEIRAH</BuildingType>
@@ -3929,6 +3873,7 @@
 			<Yield>25</Yield>
 		</Row>
 
+		<!-- SATELLITE DISABLE
 		<Row>
 			<BuildingType>BUILDING_SATELLITE_WEATHER</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -3939,6 +3884,7 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>15</Yield>
 		</Row>
+		-->
 
 		<Row>
 			<BuildingType>BUILDING_KREMLIN</BuildingType>
@@ -4100,11 +4046,7 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		<Row>
-			<BuildingType>BUILDING_MADOL</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
+		
 		<Row>
 			<BuildingType>BUILDING_MADOL</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
@@ -4940,6 +4882,7 @@
 			<Yield>4</Yield>
 		</Row>
 
+		<!--
 		<Row>
 			<BuildingType>BUILDING_POTTER</BuildingType>
 			<ResourceType>RESOURCE_WINE</ResourceType>
@@ -4958,6 +4901,11 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		-->
+
+		<!-- POLICY BUILDINGS DEPRECATE -->
+
+		<!--
 
 		<Row>
 			<BuildingType>BUILDING_TCS_STRONGHOLD</BuildingType>
@@ -5001,6 +4949,7 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		-->
 
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_BIOSPHERE</BuildingType>
@@ -6196,11 +6145,15 @@
 			<Yield>300</Yield>
 		</Row>
 
+		<!-- POLICY BUILDINGS DEPRECATE -->
+
+		<!--
 		<Row>
 			<BuildingType>BUILDING_TCS_PATENT_OFFICE</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>25</Yield>
 		</Row>
+		-->
 
 	</Building_YieldChangesPerPop>
 
@@ -6248,7 +6201,7 @@
 		</Row>
 
 
-
+		<!-- SATELLITE DISABLE
 		<Row>
 			<Type>PROMOTION_SATELLITE_RECON</Type>
 			<Description>TXT_KEY_PROMOTION_SATELLITE_RECON</Description>
@@ -6261,6 +6214,7 @@
 			<PediaType>PEDIA_SHARED</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_SATELLITE_RECON</PediaEntry>
 		</Row>
+		-->
 
 		
 		<Row>
@@ -6358,6 +6312,7 @@
 			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
 		</Row>
 		
+		<!-- SATELLITE DISABLE
 		<Row>
 			<PromotionType>PROMOTION_SATELLITE_RECON</PromotionType>
 			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
@@ -6410,11 +6365,7 @@
 			<PromotionType>PROMOTION_SATELLITE_RECON</PromotionType>
 			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
 		</Row>
-
-
-
-
-
+		-->
 
 
 		<Row>
@@ -10803,6 +10754,9 @@
 			<Flavor>25</Flavor>
 		</Row>
 
+		<!-- BUILDING 2 DEPRECATE -->
+		<!--
+
 		<Row>
 			<BuildingType>BUILDING_PALISADE_WALL</BuildingType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
@@ -10839,8 +10793,12 @@
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
+		-->
+		
+		
+		<!-- POLICY BUILDINGS DEPRECATE -->
 
-		<!-- Public Baths-->
+		<!--
 		<Row>
 			<BuildingType>BUILDING_TCS_PUBLIC_BATHS</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -10851,7 +10809,6 @@
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
-		<!-- Town Council-->
 		<Row>
 			<BuildingType>BUILDING_TCS_TOWN_COUNCIL</BuildingType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
@@ -10872,7 +10829,6 @@
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
-		<!-- TCS_STRONGHOLD-->
 		<Row>
 			<BuildingType>BUILDING_TCS_STRONGHOLD</BuildingType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
@@ -10893,7 +10849,6 @@
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
-		<!-- Parochial School-->
 		<Row>
 			<BuildingType>BUILDING_TCS_PAROCHIAL_SCHOOL</BuildingType>
 			<FlavorType>FLAVOR_RELIGION</FlavorType>
@@ -10904,7 +10859,6 @@
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>15</Flavor>
 		</Row>
-		<!-- TCS_CHANCERY-->
 		<Row>
 			<BuildingType>BUILDING_TCS_CHANCERY</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -10915,13 +10869,11 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
-		<!-- TCS_MEMORIAL-->
 		<Row>
 			<BuildingType>BUILDING_TCS_MEMORIAL</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>30</Flavor>
 		</Row>
-		<!-- TCS_DEPOT-->
 		<Row>
 			<BuildingType>BUILDING_TCS_DEPOT</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
@@ -10932,7 +10884,6 @@
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
-		<!-- Botanical Gardens-->
 		<Row>
 			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
@@ -10953,7 +10904,6 @@
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
-		<!-- Patent Office-->
 		<Row>
 			<BuildingType>BUILDING_TCS_PATENT_OFFICE</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
@@ -10964,6 +10914,7 @@
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
+		-->
 
 		<Row>
 			<BuildingType>BUILDING_LONDON_ARRAY</BuildingType>
@@ -11017,131 +10968,7 @@
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
-
-		<!-- MERC BUILDINGS FLAVOR -->
-
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_HEPTASTADION</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_HEPTASTADION</BuildingType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_HEPTASTADION</BuildingType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_MEAD_HALL</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_MEAD_HALL</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_MEAD_HALL</BuildingType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>15</Flavor>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_MERC_GUILD</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_MERC_GUILD</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_MERC_GUILD</BuildingType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>17</Flavor>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_SHIPYARD</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_SHIPYARD</BuildingType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_SHIPYARD</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_SHIPYARD</BuildingType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_MERC_CONSULATE</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>8</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_MERC_CONSULATE</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_MERC_CONSULATE</BuildingType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_NAVAL_YARD</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>9</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_NAVAL_YARD</BuildingType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_NAVAL_YARD</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_NAVAL_YARD</BuildingType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_CONTRACTING_AGENCY</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_CONTRACTING_AGENCY</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SMAN_EU_CONTRACTING_AGENCY</BuildingType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>22</Flavor>
-		</Row>
-
+		
 		<Row>
 			<BuildingType>BUILDING_ABUSIMBEL</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>

@@ -76,6 +76,7 @@
 		</Row>
 		-->
 
+		<!-- FW 
 		<Row>
 			<Era>Any</Era>
 			<State>UnderConstruction</State>
@@ -322,6 +323,8 @@
 			<ResourceType>ART_DEF_RESOURCE_ALL</ResourceType>
 			<Model>Arcology_pl.fxsxml</Model>
 		</Row>
+
+		-->
 		
 		<!--
 		<Row>
@@ -1045,7 +1048,7 @@
 		</Row>
 		-->
 
-		
+		<!--
 		<Row>
 			<Type>ART_DEF_IMPROVEMENT_FW_HYDROPONICS_DOME</Type>
 			<LandmarkType>Improvement</LandmarkType>
@@ -1076,6 +1079,7 @@
 			<LandmarkType>Improvement</LandmarkType>
 			<FriendlyName>FW_CORE</FriendlyName>
 		</Row>
+		-->
 
 		<Row>
 			<Type>ART_DEF_RESOURCE_COFFEE</Type>
@@ -1122,11 +1126,12 @@
 			<LandmarkType>Resource</LandmarkType>
 			<FriendlyName>Lapis Lazuli</FriendlyName>
 		</Row>
-		<!--<Row>
+		<!--
+		<Row>
 			<Type>ART_DEF_RESOURCE_SUGAR_ALT</Type>
 			<LandmarkType>Resource</LandmarkType>
 			<FriendlyName>Sugar</FriendlyName>
-		</Row>-->
+		</Row>
 
 		<Row>
 			<Type>ART_DEF_IMPROVEMENT_FW_GENOCENTRE</Type>
@@ -1145,11 +1150,13 @@
 			<LandmarkType>Improvement</LandmarkType>
 			<FriendlyName>Arcology</FriendlyName>
 		</Row>
+		-->
 
 	</ArtDefine_LandmarkTypes>
 
 	<ArtDefine_StrategicView>
 
+		<!--
 		<Row>
 			<StrategicViewType>ART_DEF_IMPROVEMENT_FW_PRESERVE</StrategicViewType>
 			<TileType>Improvement</TileType>
@@ -1166,13 +1173,13 @@
 			<Asset>sv_Genocentre.dds</Asset>
 		</Row>
 
-		<!--
+		
 		<Row>
 			<StrategicViewType>ART_DEF_IMPROVEMENT_FW_COMM_ARRAY</StrategicViewType>
 			<TileType>Improvement</TileType>
 			<Asset>sv_CommArray.dds</Asset>
 		</Row>
-		-->
+		
 
 		<Row>
 			<StrategicViewType>ART_DEF_IMPROVEMENT_FW_CORE</StrategicViewType>
@@ -1204,8 +1211,6 @@
 			<TileType>Improvement</TileType>
 			<Asset>sv_HERC.dds</Asset>
 		</Row>
-
-		<!--
 		<Row>
 			<StrategicViewType>ART_DEF_IMPROVEMENT_FW_FUNGAL_GROWTH</StrategicViewType>
 			<TileType>Improvement</TileType>

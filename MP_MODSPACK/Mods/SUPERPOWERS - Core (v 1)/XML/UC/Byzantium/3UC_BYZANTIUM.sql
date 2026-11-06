@@ -2,7 +2,7 @@
 ------------------------------	
 INSERT INTO Buildings 	
 	(Type, BuildingClass, Cost, Happiness, GoldMaintenance, PrereqTech, ArtDefineTag, XBuiltTriggersIdeologyChoice, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, Help, Description, Civilopedia, Strategy, IconAtlas, PortraitIndex)
-SELECT	'BUILDING_3UC_HIPPODROME', BuildingClass, Cost, Happiness, GoldMaintenance, 'TECH_THE_WHEEL', ArtDefineTag, XBuiltTriggersIdeologyChoice, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, 'TXT_KEY_BUILDING_3UC_HIPPODROME_HELP', 'TXT_KEY_BUILDING_3UC_HIPPODROME', 'TXT_KEY_BUILDING_3UC_HIPPODROME_TEXT', 'TXT_KEY_BUILDING_3UC_HIPPODROME_STRATEGY', 'ICON_ATLAS', 6
+SELECT	'BUILDING_3UC_HIPPODROME', BuildingClass, Cost, Happiness, GoldMaintenance, 'TECH_THE_WHEEL', ArtDefineTag, XBuiltTriggersIdeologyChoice, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, 'TXT_KEY_BUILDING_3UC_HIPPODROME_HELP', 'TXT_KEY_BUILDING_3UC_HIPPODROME', 'TXT_KEY_BUILDING_3UC_HIPPODROME_TEXT', 'TXT_KEY_BUILDING_3UC_HIPPODROME_STRATEGY', 'CIV_COLOR_ATLAS_FW', 62
 FROM Buildings WHERE Type = 'BUILDING_CIRCUS';	
 ------------------------------	
 -- Building_Flavors

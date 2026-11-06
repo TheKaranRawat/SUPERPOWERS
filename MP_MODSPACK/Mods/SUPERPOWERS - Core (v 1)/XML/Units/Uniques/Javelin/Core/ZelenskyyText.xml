@@ -192,7 +192,7 @@
 		</Row>
 		<!--Kilosh-->
 		<Row Tag="TXT_KEY_UNIT_SAS_TDF">
-			<Text>[COLOR_YELLOW]Territorial Defense Force[ENDCOLOR]</Text>
+			<Text>[ICON_SWORD] [COLOR_YELLOW]Territorial Defense Force[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_SAS_TDF_HELP">
 			<Text>A foreign batalltion of the Territorial Defence Force, able to move after attacking. Enemy units adjacent to a Territorial Defense Force receive a -10% [ICON_STRENGTH] Combat Strength penalty.</Text>

@@ -17,7 +17,7 @@
 		
 
 			
-		<!--Global Units per Plot and City Range-->
+		<!--Global Units per Plot and City Range 4 -->
 		<Update>
 			<Set Value="2"/>
 			<Where Name="PLOT_UNIT_LIMIT" />
@@ -48,17 +48,17 @@
 		</Update>
 
 		<Update>
-			<Set Value="25"/>
+			<Set Value="10"/>
 			<Where Name="INDUSTRIAL_ROUTE_PRODUCTION_MOD" />
 		</Update>
 
 		<Update>
-			<Set Value="250"/>
+			<Set Value="100"/>
 			<Where Name="PROJECT_PRODUCTION_PERCENT" />
 		</Update>
 
 		<Update>
-			<Set Value="2"/>
+			<Set Value="1"/>
 			<Where Name="CIRCUMNAVIGATE_FREE_MOVES" />
 		</Update>
 		
@@ -526,10 +526,6 @@
 			<Where Name="MINOR_CIV_PRODUCTION_PERCENT" />
 		</Update>
 		<Update>
-			<Set Value="300"/>
-			<Where Name="MINOR_CIV_PLOT_CULTURE_COST_MULTIPLIER" />
-		</Update>
-		<Update>
 			<Set Value="40"/>
 			<Where Name="MINOR_CIV_TECH_PERCENT" />
 		</Update>
@@ -775,7 +771,7 @@
 			<Where Name="INTERNATIONAL_TRADE_BASE" />
 		</Update>
 		<Update>
-			<Set Value="15"/>
+			<Set Value="50"/>
 			<Where Name="INTERNATIONAL_TRADE_CITY_GPT_DIVISOR" />
 		</Update>
 

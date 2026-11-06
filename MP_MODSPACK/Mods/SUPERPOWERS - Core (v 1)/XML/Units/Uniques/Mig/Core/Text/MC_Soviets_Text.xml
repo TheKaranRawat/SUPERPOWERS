@@ -6,7 +6,7 @@
 		<!-- Unique Unit - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<!--=============================================================-->
 		<Row Tag="TXT_KEY_UNIT_MC_SOVIET_MIG_21">
-			<Text>[COLOR_YELLOW]MiG-21[ENDCOLOR]</Text>
+			<Text>[ICON_SWORD] [COLOR_YELLOW]MiG-21 Bison[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_MC_SOVIET_MIG_21_HELP">
 			<Text>An early multi-role fighter, designed for mass production. Weaker than more advanced aircraft, but is much cheaper to produce and maintain.</Text>

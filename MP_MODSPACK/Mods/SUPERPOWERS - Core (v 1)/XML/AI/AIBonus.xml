@@ -132,10 +132,10 @@
 			<ThemingBonusMultiplier>200</ThemingBonusMultiplier>
 			<RiggingElectionModifier>50</RiggingElectionModifier>
 			<BuildingGoldMaintenanceMod>-10</BuildingGoldMaintenanceMod>
-			<UnitGoldMaintenanceMod>-25</UnitGoldMaintenanceMod>
+			<UnitGoldMaintenanceMod>-15</UnitGoldMaintenanceMod>
 			<InternalTradeRouteYieldModifier>50</InternalTradeRouteYieldModifier>
 			<BuildingProductionModifier>50</BuildingProductionModifier>
-			<StrategicResourceMod>100</StrategicResourceMod>
+			<StrategicResourceMod>10</StrategicResourceMod>
 		</Row>
 
 		<Row>
@@ -148,10 +148,10 @@
 			<UnhappinessMod>-80</UnhappinessMod>
 			<CityGrowthMod>150</CityGrowthMod>
 			<BuildingGoldMaintenanceMod>-30</BuildingGoldMaintenanceMod>
-			<UnitGoldMaintenanceMod>-35</UnitGoldMaintenanceMod>
+			<UnitGoldMaintenanceMod>-25</UnitGoldMaintenanceMod>
 			<ThemingBonusMultiplier>100</ThemingBonusMultiplier>
 			<InternalTradeRouteYieldModifier>50</InternalTradeRouteYieldModifier>
-			<StrategicResourceMod>150</StrategicResourceMod>
+			<StrategicResourceMod>20</StrategicResourceMod>
 		</Row>
 
 

@@ -1,6 +1,7 @@
 
 
 
+-- DISABLE TERRAIN TRANSFORM IF CAUSING DESYNCS 
 
 --Road/Railroad turn mountain into hill
 
@@ -25,7 +26,7 @@
 
 --Build Improvements Effects
 
-
+--[[
 
 function ImprovementBuilt(iPlayer, x, y, eImprovement)
 
@@ -300,3 +301,5 @@ end
 --
 
 print("TerrainTransform Check Pass!")
+
+]]--

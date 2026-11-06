@@ -366,7 +366,7 @@
 				<RouteCostPercent>100</RouteCostPercent>
 				<UnitCostPercent>120</UnitCostPercent>
 				<BuildingCostPercent>100</BuildingCostPercent>
-				<ResearchPercent>100</ResearchPercent>
+				<ResearchPercent>200</ResearchPercent>
 				<PolicyPercent>130</PolicyPercent>
 				<ImprovementCostPercent>100</ImprovementCostPercent>
 				<CityProductionNumOptionsConsidered>2</CityProductionNumOptionsConsidered>
@@ -396,9 +396,9 @@
 				<AIWorldConstructPercent>300</AIWorldConstructPercent>
 				<AICreatePercent>100</AICreatePercent>
 				<AIWorldCreatePercent>100</AIWorldCreatePercent>
-				<AIBuildingCostPercent>33</AIBuildingCostPercent>
-				<AIUnitCostPercent>40</AIUnitCostPercent>
-				<AIUnitSupplyPercent>50</AIUnitSupplyPercent>
+				<AIBuildingCostPercent>50</AIBuildingCostPercent>
+				<AIUnitCostPercent>50</AIUnitCostPercent>
+				<AIUnitSupplyPercent>25</AIUnitSupplyPercent>
 				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-9</AIPerEraModifier>
@@ -424,9 +424,9 @@
 				<ProductionFreeUnitsPopulationPercent>15</ProductionFreeUnitsPopulationPercent>
 				<ProductionFreeUnitsPerCity>5</ProductionFreeUnitsPerCity>
 				<RouteCostPercent>100</RouteCostPercent>
-				<UnitCostPercent>150</UnitCostPercent>
+				<UnitCostPercent>200</UnitCostPercent>
 				<BuildingCostPercent>150</BuildingCostPercent>
-				<ResearchPercent>100</ResearchPercent>
+				<ResearchPercent>300</ResearchPercent>
 				<PolicyPercent>175</PolicyPercent>
 				<ImprovementCostPercent>100</ImprovementCostPercent>
 				<CityProductionNumOptionsConsidered>2</CityProductionNumOptionsConsidered>
@@ -449,16 +449,16 @@
 				<AIDeclareWarProb>800</AIDeclareWarProb>
 				<AIWorkRateModifier>400</AIWorkRateModifier>
 				<AIUnhappinessPercent>33</AIUnhappinessPercent>
-				<AIGrowthPercent>15</AIGrowthPercent>
-				<AITrainPercent>33</AITrainPercent>
+				<AIGrowthPercent>20</AIGrowthPercent>
+				<AITrainPercent>50</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
-				<AIConstructPercent>50</AIConstructPercent>4
+				<AIConstructPercent>50</AIConstructPercent>
 				<AIWorldConstructPercent>400</AIWorldConstructPercent>
 				<AICreatePercent>100</AICreatePercent>
 				<AIWorldCreatePercent>100</AIWorldCreatePercent>
-				<AIBuildingCostPercent>33</AIBuildingCostPercent>
-				<AIUnitCostPercent>33</AIUnitCostPercent>
-				<AIUnitSupplyPercent>100</AIUnitSupplyPercent>
+				<AIBuildingCostPercent>50</AIBuildingCostPercent>
+				<AIUnitCostPercent>50</AIUnitCostPercent>
+				<AIUnitSupplyPercent>25</AIUnitSupplyPercent>
 				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-10</AIPerEraModifier>

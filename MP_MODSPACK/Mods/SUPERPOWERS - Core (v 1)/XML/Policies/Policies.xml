@@ -12,7 +12,7 @@
 	<Policies>
 		
 		<Update>
-			<Set PlotCultureExponentModifier="-25" GreatGeneralRateModifier="10" GreatAdmiralRateModifier="10"/>
+			<Set PlotCultureExponentModifier="-20" GreatGeneralRateModifier="10" GreatAdmiralRateModifier="10"/>
 			<Where Type="POLICY_TRADITION"/>
 		</Update>
 
@@ -26,7 +26,7 @@
 			<Where Type="POLICY_ARISTOCRACY"/>
 		</Update>
 		<Update>
-			<Set NumCitiesFreeCultureBuilding="0" HappinessPerXPopulation="3" CapitalUnhappinessMod="-50" OneShot="false" GridX="3" GridY="1"/>
+			<Set NumCitiesFreeCultureBuilding="0" HappinessPerXPopulation="4" CapitalUnhappinessMod="-50" OneShot="false" GridX="3" GridY="1"/>
 			<Where Type="POLICY_LEGALISM"/>
 		</Update>
 		<Update>
@@ -34,7 +34,7 @@
 			<Where Type="POLICY_OLIGARCHY"/>
 		</Update>
 		<Update>
-			<Set CapitalGrowthMod="30" CityGrowthMod="20" GridX="5" GridY="1"/>
+			<Set CapitalGrowthMod="20" CityGrowthMod="5" GridX="5" GridY="1"/>
 			<Where Type="POLICY_LANDED_ELITE"/>
 		</Update>
 		<Update>
@@ -81,7 +81,7 @@
 			<GridX>2</GridX>
 			<GridY>3</GridY>
 			<PortraitIndex>3</PortraitIndex>
-			<FreeExperience>15</FreeExperience>
+			<FreeExperience>30</FreeExperience>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
@@ -94,9 +94,9 @@
 			<Set WorkerSpeedModifier="33" GreatGeneralRateModifier="25" GreatAdmiralRateModifier="25"/>
 			<Where Type="POLICY_LIBERTY"/>
 		</Update>
-
+		
 		<Update>
-			<Set CityGrowthMod="-10" />
+			<Set CityGrowthMod="-5" />
 			<Where Type="POLICY_LIBERTY"/>
 		</Update>
 
@@ -107,11 +107,11 @@
 			<Where Type="POLICY_CITIZENSHIP"/>
 		</Update>
 		<Update>
-			<Set IncludesOneShotFreeUnits="false" CapitalSettlerProductionModifier="15" SettlerProductionModifier="20" GridX="1"  GridY="1"/>
+			<Set IncludesOneShotFreeUnits="false" CapitalSettlerProductionModifier="20" SettlerProductionModifier="20" GridX="1"  GridY="1"/>
 			<Where Type="POLICY_COLLECTIVE_RULE"/>
 		</Update>
 		<Update>
-			<Set HappinessPerTradeRoute="4" BuildingProductionModifier="0" ExtraHappinessPerLuxury="1" GridX="3" GridY="2" PortraitIndex="29"/>
+			<Set HappinessPerTradeRoute="6" BuildingProductionModifier="0" ExtraHappinessPerLuxury="4" GridX="3" GridY="2" PortraitIndex="29"/>
 			<Where Type="POLICY_REPUBLIC"/>
 		</Update>
 		<Update>
@@ -119,11 +119,11 @@
 			<Where Type="POLICY_REPRESENTATION"/>
 		</Update>
 		<Update>
-			<Set BuildingProductionModifier="10" GridX="5" GridY="1"  PortraitIndex="27"/>
+			<Set BuildingProductionModifier="20" GridX="5" GridY="1"  PortraitIndex="27"/>
 			<Where Type="POLICY_MERITOCRACY"/>
 		</Update>
 		<Update>
-			<Set NumFreeGreatPeople="0" GoldenAgeTurns="20"/>
+			<Set NumFreeGreatPeople="0" GoldenAgeTurns="20" MilitaryProductionModifier="15"/>
 			<Where Type="POLICY_LIBERTY_FINISHER"/>
 		</Update>
 
@@ -179,8 +179,8 @@
 			<CultureCost>10</CultureCost>
 			<GridX>2</GridX>
 			<GridY>3</GridY>
-			<HappinessPerGarrisonedUnit>1</HappinessPerGarrisonedUnit>
-			<CulturePerGarrisonedUnit>2</CulturePerGarrisonedUnit>
+			<HappinessPerGarrisonedUnit>4</HappinessPerGarrisonedUnit>
+			<CulturePerGarrisonedUnit>8</CulturePerGarrisonedUnit>
 			<PortraitIndex>23</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>

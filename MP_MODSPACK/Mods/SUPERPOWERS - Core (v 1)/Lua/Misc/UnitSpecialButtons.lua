@@ -1,4 +1,6 @@
 
+--[[ DISABLED
+
 
 include( "UtilityFunctions.lua" )
 
@@ -1280,6 +1282,7 @@ LuaEvents.UnitPanelActionAddin(LegionLeaveButton);
 
 
 ----------remove Debuff
+--[[
 
 MoralBoostButton = {
   Name = "Moral Boost",
@@ -1542,3 +1545,5 @@ LuaEvents.UnitPanelActionAddin(SatelliteLaunchingButton);
 
 
 print("UnitSpecialButtons Check success!")
+
+]]--

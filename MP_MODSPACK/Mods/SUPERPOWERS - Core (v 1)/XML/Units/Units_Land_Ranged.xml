@@ -1371,15 +1371,6 @@
 			<PromotionType>PROMOTION_GAIN_EXPERIENCE</PromotionType>
 		</Row>
 
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</UnitType>
-			<PromotionType>PROMOTION_ARCHERY_COMBAT</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_MADYAN_ARCHER</UnitType>
-			<PromotionType>PROMOTION_ARCHERY_COMBAT</PromotionType>
-		</Row>
 		
 
 		<Row>
@@ -1527,20 +1518,6 @@
 		
 		<!--********Siege Units******-->
 
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</UnitType>
-			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_LIL_BOMBARD</UnitType>
-			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
-		</Row>
-
-		<Row>
-			<UnitType>UNIT_SMAN_EU_SIEGE_ELEPHANT</UnitType>
-			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
-		</Row>
 
 		<Row>
 			<UnitType>UNIT_CATAPULT</UnitType>

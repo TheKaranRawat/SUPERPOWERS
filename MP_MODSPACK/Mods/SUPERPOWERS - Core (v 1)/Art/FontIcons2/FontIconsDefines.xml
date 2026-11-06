@@ -12,82 +12,149 @@
 		</Row>
 	</IconFontTextures>
 	<IconFontMapping>
+
+		<!-- custom icons -->
+		
 		<Row>
-			<IconName>ICON_ITG_CODEX</IconName>
+			<IconName>ICON_KNIGHT</IconName>
 			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
 			<IconMapping>1</IconMapping>
 		</Row>
+
+		<!-- shield -->
 		<Row>
-			<IconName>ICON_ITG_LOTUS</IconName>
+			<IconName>ICON_SHIELD</IconName>
 			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
 			<IconMapping>2</IconMapping>
 		</Row>
+
+		<!-- sword -->
 		<Row>
-			<IconName>ICON_ITG_MORALE</IconName>
+			<IconName>ICON_SWORD</IconName>
 			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
 			<IconMapping>3</IconMapping>
 		</Row>
+
+		<!-- wonder -->
 		<Row>
-			<IconName>ICON_ITG_PILGRIM</IconName>
+			<IconName>ICON_WONDER</IconName>
 			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
 			<IconMapping>4</IconMapping>
 		</Row>
+
+		<!-- eye -->
 		<Row>
-			<IconName>ICON_ITG_INTRIGUE</IconName>
+			<IconName>ICON_ARTY</IconName>
 			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
 			<IconMapping>5</IconMapping>
 		</Row>
+
+		<!-- fighter -->
 		<Row>
-			<IconName>ICON_ITG_SPECIALIZATION</IconName>
+			<IconName>ICON_FIGHTER</IconName>
 			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
 			<IconMapping>6</IconMapping>
 		</Row>
+
+		<!-- eagle -->
 		<Row>
-			<IconName>ICON_ITG_MERITOCRACY</IconName>
+			<IconName>ICON_EAGLE</IconName>
 			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
 			<IconMapping>7</IconMapping>
 		</Row>
+
+		<!-- nuke -->
 		<Row>
-			<IconName>ICON_ITG_GOVERNOR</IconName>
+			<IconName>ICON_NUKE</IconName>
 			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
 			<IconMapping>8</IconMapping>
 		</Row>
+
+		<!-- anchors -->
 		<Row>
-			<IconName>ICON_ITG_POWER</IconName>
+			<IconName>ICON_ANCHORS</IconName>
 			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
 			<IconMapping>9</IconMapping>
 		</Row>
+
+		<!-- cannon -->
 		<Row>
-			<IconName>ICON_ITG_MENTOR</IconName>
+			<IconName>ICON_ARTILLERY</IconName>
 			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
 			<IconMapping>10</IconMapping>
 		</Row>
+
+		
 		<Row>
-			<IconName>ICON_ITG_UNIFY</IconName>
+			<IconName>ICON_RECON</IconName>
 			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
 			<IconMapping>11</IconMapping>
 		</Row>
+
+		
 		<Row>
-			<IconName>ICON_ITG_DIVIDE</IconName>
+			<IconName>ICON_DIVIDE</IconName>
 			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
 			<IconMapping>12</IconMapping>
 		</Row>
+
+		<!-- ANCHOR -->
 		<Row>
-			<IconName>ICON_ITG_CHARM</IconName>
+			<IconName>ICON_ANCHOR</IconName>
 			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
 			<IconMapping>13</IconMapping>
 		</Row>
+
+		<!-- eye -->
 		<Row>
-			<IconName>ICON_ITG_SEER</IconName>
+			<IconName>ICON_SMITH</IconName>
 			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
 			<IconMapping>14</IconMapping>
 		</Row>
+
+		<!-- law -->
 		<Row>
-			<IconName>ICON_ITG_LAWS_INFLUENCE</IconName>
+			<IconName>ICON_JETS</IconName>
 			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
 			<IconMapping>15</IconMapping>
 		</Row>
 
+		<!-- fort -->
+		<Row>
+			<IconName>ICON_FORT</IconName>
+			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
+			<IconMapping>16</IconMapping>
+		</Row>
+
+		<!-- swords -->
+		<Row>
+			<IconName>ICON_CROSSED</IconName>
+			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
+			<IconMapping>17</IconMapping>
+		</Row>
+
+		<!-- horse -->
+		<Row>
+			<IconName>ICON_CAVALRY</IconName>
+			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
+			<IconMapping>18</IconMapping>
+		</Row>
+
+		<!-- helmet -->
+		<Row>
+			<IconName>ICON_INFANTRY</IconName>
+			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
+			<IconMapping>19</IconMapping>
+		</Row>
+
+		<!-- target -->
+		<Row>
+			<IconName>ICON_RANGED</IconName>
+			<IconFontTexture>ICON_FONT_ATLAS_ITGSG_TWO</IconFontTexture>
+			<IconMapping>20</IconMapping>
+		</Row>
+
+		<!--!!!!!!!!!!!!! -->
 		<Row>
 			<IconName>ICON_RES_ITG_JADE</IconName>
 			<IconFontTexture>ICON_FONT_ATLAS_AH_LUXURIES</IconFontTexture>

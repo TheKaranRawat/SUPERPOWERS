@@ -63,7 +63,8 @@
 			<Class>UNITCLASS_WORKBOAT</Class>
 			<Type>UNIT_WORKBOAT</Type>
 			<PrereqTech>TECH_SAILING</PrereqTech>
-			<Cost>50</Cost>
+			<!-- disable -->
+			<Cost>-1</Cost>
 			<Moves>4</Moves>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
 			<Domain>DOMAIN_SEA</Domain>
@@ -615,7 +616,7 @@
 			<Class>UNITCLASS_INQUISITOR</Class>
 			<Type>UNIT_INQUISITOR</Type>
 			<Cost>-1</Cost>
-			<FaithCost>75</FaithCost>
+			<FaithCost>-1</FaithCost>
 			<Moves>4</Moves>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
 			<Domain>DOMAIN_LAND</Domain>
@@ -670,7 +671,7 @@
 			<Class>UNITCLASS_MISSIONARY</Class>
 			<Type>UNIT_MISSIONARY</Type>
 			<Cost>-1</Cost>
-			<FaithCost>120</FaithCost>
+			<FaithCost>-1</FaithCost>
 			<Moves>4</Moves>
 			<Capture>UNITCLASS_MISSIONARY</Capture>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
@@ -849,6 +850,7 @@
 	<!--***********************Satellite and Spaceship Units***********************-->
 	<Units>
 
+		<!-- SATELLITE DISABLE
 		<Row>
 			<Class>UNITCLASS_SATELLITE_SPUTNIK</Class>
 			<Type>UNIT_SATELLITE_SPUTNIK</Type>
@@ -1145,7 +1147,7 @@
 			<ExtraMaintenanceCost>80</ExtraMaintenanceCost>
 			<ProjectPrereq>PROJECT_APOLLO_PROGRAM</ProjectPrereq>
 		</Row>
-
+		-->
 
 
 
@@ -1384,7 +1386,7 @@
 		</Row>
 
 
-
+		<!-- SATELLITE DISABLE
 		<Row>
 			<UnitType>UNIT_SATELLITE_SPUTNIK</UnitType>
 			<PromotionType>PROMOTION_SATELLITE_UNIT</PromotionType>
@@ -1433,6 +1435,7 @@
 			<UnitType>UNIT_SATELLITE_ORBITAL_STRIKE</UnitType>
 			<PromotionType>PROMOTION_SATELLITE_UNIT</PromotionType>
 		</Row>
+		-->
 		
 	</Unit_FreePromotions>
 	
@@ -1675,6 +1678,7 @@
 			<Cost>4</Cost>
 		</Row>-->
 
+		<!-- SATELLITE DISABLE
 		<Row>
 			<UnitType>UNIT_SATELLITE_ORBITAL_STRIKE</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
@@ -1685,6 +1689,7 @@
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
 			<Cost>12</Cost>
 		</Row>
+		-->
 		
 	</Unit_ResourceQuantityRequirements>
 
@@ -1828,7 +1833,7 @@
 		</Row>
 
 
-
+		<!-- SATELLITE DISABLE
 		<Row>
 			<UnitType>UNIT_SATELLITE_SPUTNIK</UnitType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
@@ -1904,7 +1909,7 @@
 			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
 			<Flavor>999</Flavor>
 		</Row>
-		
+		-->
 		
 		<Row>
 			<UnitType>UNIT_SS_STASIS_CHAMBER</UnitType>
@@ -1948,10 +1953,14 @@
 			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
 			<BuildType>BUILD_MINE</BuildType>
 		</Row>
+
+		<!--
 		<Row>
 			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
 			<BuildType>BUILD_TRADING_POST</BuildType>
 		</Row>
+		-->
+		
 		<Row>
 			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
 			<BuildType>BUILD_LUMBERMILL</BuildType>

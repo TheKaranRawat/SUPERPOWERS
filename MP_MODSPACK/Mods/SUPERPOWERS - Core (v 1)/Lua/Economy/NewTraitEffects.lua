@@ -1,6 +1,6 @@
 -- New Trait and Policies
 
-
+--[[ TRAIT DISABLE
 -------------------------------------------------------------------------New Trait Effects-----------------------------------------------------------------------
 function SpecialUnitType(iPlayerID, iUnitID, iX, iY)
    local iPlayer = Players[iPlayerID]
@@ -159,11 +159,6 @@ GameEvents.CityCaptureComplete.Add(AssyriaCityCapture)
 --Events.SerialEventImprovementCreated.Add(PortugalBuildFeitoria)
 
 
-    
-    
-    
-    
-    
-    
-    
   print ("New Trait Effect Check Pass!")  
+
+]]--

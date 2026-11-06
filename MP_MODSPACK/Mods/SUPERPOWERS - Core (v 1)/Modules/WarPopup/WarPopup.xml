@@ -1,0 +1,31 @@
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<Context Name="WarPopup" ColorSet="Beige_Black_Alpha" Font="TwCenMT20" FontStyle="Shadow">
+
+	<!-- Banner near the top-centre of the main screen. Hidden until a war is declared. -->
+	<Box ID="WarBox" Anchor="C,T" Offset="0,50" Size="430,70" Color="25,10,10,135" Hidden="1">
+		<Grid Anchor="C.C" Size="436,76" Style="Grid9Frame" ID="NotiFrame" />
+		<Label ID="WarTitle" Anchor="C,T" Offset="0,14" Font="TwCenMT18" FontStyle="Shadow" String="WAR DECLARED"/>
+
+		<!-- Aggressor icon (left) -->
+		<Container ID="AggressorGroup" Anchor="L,C" Offset="2,-1" Size="64,64">
+			<Image ID="AggressorBG"     Anchor="C,C" Size="64,64" Texture="CivIconBGSizes.dds" />
+			<Image ID="AggressorShadow" Anchor="C,C" Size="64,64" Texture="CivSymbolsColor256.dds" Color="0,0,0,128"/>
+			<Image ID="AggressorIcon"   Anchor="C,C" Size="64,64" Texture="CivSymbolsColor256.dds"/>
+		</Container>
+
+		<!-- Defender icon (right) -->
+		<Container ID="DefenderGroup" Anchor="R,C" Offset="2,-1" Size="64,64">
+			<Image ID="DefenderBG"     Anchor="C,C" Size="64,64" Texture="CivIconBGSizes.dds"/>
+			<Image ID="DefenderShadow" Anchor="C,C" Size="64,64" Texture="CivSymbolsColor256.dds" Color="0,0,0,128"/>
+			<Image ID="DefenderIcon"   Anchor="C,C" Size="64,64" Texture="CivSymbolsColor256.dds"/>
+		</Container>
+
+		<Label ID="WarText" Anchor="C,C" Offset="0,7" WrapWidth="370" Font="TwCenMT16" String=""/>
+
+		<Button ID="CloseButton" Anchor="C,B" Offset="0,10" Size="110,30" Font="TwCenMT16" String="OK" Style="BaseButton" Hidden="1"/>
+
+	</Box>
+
+</Context>

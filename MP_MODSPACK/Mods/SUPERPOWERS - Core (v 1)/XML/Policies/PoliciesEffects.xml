@@ -40,13 +40,13 @@
 		<Row>
 			<PolicyType>POLICY_TRADITION</PolicyType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>25</Yield>
+			<Yield>10</Yield>
 		</Row>
 
 		<Row>
 			<PolicyType>POLICY_TRADITION</PolicyType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>25</Yield>
+			<Yield>10</Yield>
 		</Row>
 
 	</Policy_CapitalYieldModifiers>
@@ -114,6 +114,7 @@
 			<Yield>2</Yield>
 		</Row>
 
+		<!--	CENTRALIZATION POLICY SPECIALIST YIELDS
 		<Row>
 			<PolicyType>POLICY_CENTRALISATION</PolicyType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
@@ -137,7 +138,8 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		
+		-->
+
 		<Row>
 			<PolicyType>POLICY_ISKA_UNITED_FRONT</PolicyType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -194,53 +196,53 @@
 		<Row>
 			<PolicyType>POLICY_PREFECTURE</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
-			<CultureChange>16</CultureChange>
+			<CultureChange>8</CultureChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_PREFECTURE</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XL</BuildingClassType>
-			<CultureChange>32</CultureChange>
+			<CultureChange>24</CultureChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_PREFECTURE</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XXL</BuildingClassType>
-			<CultureChange>36</CultureChange>
+			<CultureChange>16</CultureChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_PREFECTURE</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_GLOBAL</BuildingClassType>
-			<CultureChange>40</CultureChange>
+			<CultureChange>16</CultureChange>
 		</Row>
 		
 		<Row>
 			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
-			<CultureChange>4</CultureChange>
+			<CultureChange>6</CultureChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
-			<CultureChange>4</CultureChange>
+			<CultureChange>6</CultureChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_CATHEDRAL</BuildingClassType>
-			<CultureChange>4</CultureChange>
+			<CultureChange>6</CultureChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
-			<CultureChange>4</CultureChange>
+			<CultureChange>6</CultureChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
-			<CultureChange>4</CultureChange>
+			<CultureChange>6</CultureChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
-			<CultureChange>4</CultureChange>
+			<CultureChange>6</CultureChange>
 		</Row>
 		<!--<Row>
 			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
@@ -361,37 +363,37 @@
 			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldChange>4</YieldChange>
+			<YieldChange>6</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_ACADEMY</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldChange>4</YieldChange>
+			<YieldChange>6</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldChange>4</YieldChange>
+			<YieldChange>6</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldChange>4</YieldChange>
+			<YieldChange>6</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldChange>4</YieldChange>
+			<YieldChange>6</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_BILL_OF_RIGHTS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_OBSERVATORY</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldChange>4</YieldChange>
+			<YieldChange>6</YieldChange>
 		</Row>
 
 
@@ -476,25 +478,25 @@
 			<PolicyType>POLICY_OLIGARCHY</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>16</YieldChange>
+			<YieldChange>8</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_OLIGARCHY</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XL</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>32	</YieldChange>
+			<YieldChange>24</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_OLIGARCHY</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_XXL</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>36</YieldChange>
+			<YieldChange>16</YieldChange>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_OLIGARCHY</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_GLOBAL</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<YieldChange>40</YieldChange>
+			<YieldChange>16</YieldChange>
 		</Row>
 
 
@@ -552,14 +554,14 @@
 		<Row>
 			<PolicyType>POLICY_LIBERTY</PolicyType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>12</Yield>
+			<Yield>50</Yield>
 		</Row>
 		
 
 		<Row>
 			<PolicyType>POLICY_MERITOCRACY</PolicyType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>10</Yield>
+			<Yield>25</Yield>
 		</Row>
 	</Policy_CityYieldChanges>
 
@@ -571,12 +573,14 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<YieldMod>15</YieldMod>
 		</Row>
+		<!--
 		<Row>
 			<PolicyType>POLICY_BOREHOLE</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_FW_GEOTHERMAL_PLANT</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<YieldMod>15</YieldMod>
 		</Row>
+		-->
 
 		<Row>
 			<PolicyType>POLICY_COASTAL_ADMINISTRATION</PolicyType>
@@ -786,7 +790,7 @@
 	
 	<Policy_BuildingClassHappiness>
 
-
+		<!-- REPUBLIC CITY SIZE UNHAPPINESS REDUCTION -->
 		<!--<Row>
 			<PolicyType>POLICY_MONARCHY</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClassType>
@@ -795,7 +799,7 @@
 		<Row>
 			<PolicyType>POLICY_MONARCHY</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_CITY_SIZE_MEDIUM</BuildingClassType>
-			<Happiness>2</Happiness>
+			<Happiness>4</Happiness>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MONARCHY</PolicyType>
@@ -1230,6 +1234,7 @@
 
 		<Delete ImprovementType="IMPROVEMENT_HOLY_SITE" />
 
+		<!--
 		<Row>
 			<PolicyType>POLICY_GENE_VAULT</PolicyType>
 			<ImprovementType>IMPROVEMENT_FW_PRESERVE</ImprovementType>
@@ -1248,6 +1253,8 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
+
+		-->
 		<Row>
 			<PolicyType>POLICY_BOREHOLE</PolicyType>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
@@ -1261,6 +1268,8 @@
 			<Yield>1</Yield>
 		</Row>
 
+		
+		<!--
 		<Row>
 			<PolicyType>POLICY_NEW_DEAL</PolicyType>
 			<ImprovementType>IMPROVEMENT_FW_HERC</ImprovementType>
@@ -1286,14 +1295,13 @@
 			<Yield>1</Yield>
 		</Row>
 
-		<!--
 		<Row>
 			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
 			<ImprovementType>IMPROVEMENT_FW_COMM_ARRAY</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		-->
+		
 		
 		<Row>
 			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
@@ -1301,6 +1309,7 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		-->
 
 
 		<Row>
@@ -1321,13 +1330,29 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+
+		<!--
 		<Row>
 			<PolicyType>POLICY_LANDED_ELITE</PolicyType>
 			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		-->
 
+		<Row>
+			<PolicyType>POLICY_REPRESENTATION</PolicyType>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_REPRESENTATION</PolicyType>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
 
 		<Row>
 			<PolicyType>POLICY_COMMERCE</PolicyType>
@@ -1362,13 +1387,15 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
+
+		<!--
 		<Row>
 			<PolicyType>POLICY_MARITIME_INFRASTRUCTURE</PolicyType>
 			<ImprovementType>IMPROVEMENT_GAS_RIG_MOD</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		
+		-->
 		
 		<Row>
 			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
@@ -1426,12 +1453,15 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>3</Yield>
 		</Row>
+
+		<!--
 		<Row>
 			<PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType>
 			<ImprovementType>IMPROVEMENT_GAS_RIG_MOD</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>3</Yield>
 		</Row>
+		-->
 
 		<!-- NEW POLICIES -->
 		<Row>
@@ -1660,7 +1690,7 @@
 		-->
 
 		<Row>
-			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<PolicyType>POLICY_CENTRALISATION</PolicyType>
 			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
 			<Count>1</Count>
 		</Row>
@@ -1692,7 +1722,7 @@
 	<!-- **********************Tourism Created*************************** -->
 	<Policy_TourismOnUnitCreation>
 
-
+		<!-- SATELLITE DISABLE
 		<Row>
 			<PolicyType>POLICY_TRADITION</PolicyType>
 			<UnitClassType>UNITCLASS_SATELLITE_SPUTNIK</UnitClassType>
@@ -1703,7 +1733,8 @@
 			<UnitClassType>UNITCLASS_SATELLITE_SPUTNIK</UnitClassType>
 			<Tourism>9999</Tourism>
 		</Row>
-		
+		-->
+
 		<Row>
 			<PolicyType>POLICY_OPEN_SOCIETY</PolicyType>
 			<UnitClassType>UNITCLASS_WRITER</UnitClassType>
@@ -1990,7 +2021,6 @@
 			<Help>TXT_KEY_PROMOTION_PASSABLE_WORKER_TECH</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
-			<CanCrossMountains>true</CanCrossMountains>
 			<CanMoveImpassable>true</CanMoveImpassable>
 			<AlwaysHeal>true</AlwaysHeal>
 			<FriendlyHealChange>50</FriendlyHealChange>
@@ -3460,7 +3490,7 @@
 		<Row>
 			<BuildingType>BUILDING_FAMILY_PRODUCTION</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>100</Yield>
+			<Yield>50</Yield>
 		</Row>
 
 		<Row>
@@ -3525,11 +3555,7 @@
 	</Building_ResourceQuantity>
 	
 
-	<Policy_FaithPurchaseUnitClasses>
-		<Delete UnitClassType="UNITCLASS_GREAT_DIPLOMAT"/>
-		
-	</Policy_FaithPurchaseUnitClasses>
-
+	
 
 
 

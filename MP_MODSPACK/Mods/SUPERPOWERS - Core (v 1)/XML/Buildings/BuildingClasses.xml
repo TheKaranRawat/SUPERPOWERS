@@ -1058,7 +1058,7 @@
 			</Row>
 
 
-
+		<!-- SATELLITE DISABLE
 		<Row>
 			<Type>BUILDINGCLASS_BUILDING_SATELLITEEFFECTS</Type>
 			<DefaultBuilding>BUILDING_SATELLITE_GPS</DefaultBuilding>
@@ -1078,6 +1078,7 @@
 			<Description>TXT_KEY_BUILDING_SATELLITEEFFECTS</Description>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
+		-->
 
 		<!-- NEW_WONDERS-->
 
@@ -1710,6 +1711,8 @@
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
 
+		<!-- BUILDING 2 DEPRECATE -->
+		<!--
 		<Row>
 			<Type>BUILDINGCLASS_PALISADE_WALL</Type>
 			<DefaultBuilding>BUILDING_PALISADE_WALL</DefaultBuilding>
@@ -1732,7 +1735,10 @@
 			<Description>TXT_KEY_BUILDING_NUCLEAR_FISSION_REACTOR_PLANT</Description>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
+		-->
 
+		<!-- POLICY BUILDINGS DEPRECATE -->
+		<!--
 		<Row>
 			<Type>BUILDINGCLASS_TCS_PUBLIC_BATHS</Type>
 			<DefaultBuilding>BUILDING_TCS_PUBLIC_BATHS</DefaultBuilding>
@@ -1778,6 +1784,7 @@
 			<DefaultBuilding>BUILDING_TCS_PATENT_OFFICE</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_TCS_PATENT_OFFICE</Description>
 		</Row>
+		-->
 
 		<Row>
 			<Type>BUILDINGCLASS_CURE_FOR_CANCER</Type>
@@ -1861,59 +1868,5 @@
 	
 
 	</BuildingClasses>
-
-
-	<!-- MERC BUILDING CLASSES -->
-
-	<BuildingClasses>
-
-		<Row>
-			<Type>BUILDINGCLASS_SMAN_EU_HEPTASTADION</Type>
-			<DefaultBuilding>BUILDING_SMAN_EU_HEPTASTADION</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_SMAN_EU_HEPTASTADION</Description>
-		</Row>
-
-		<Row>
-			<Type>BUILDINGCLASS_SMAN_EU_MEAD_HALL</Type>
-			<DefaultBuilding>BUILDING_SMAN_EU_MEAD_HALL</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_SMAN_EU_MEAD_HALL</Description>
-		</Row>
-
-		<Row>
-			<Type>BUILDINGCLASS_SMAN_EU_MERC_GUILD</Type>
-			<DefaultBuilding>BUILDING_SMAN_EU_MERC_GUILD</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_SMAN_EU_MERC_GUILD</Description>
-		</Row>
-
-		<Row>
-			<Type>BUILDINGCLASS_SMAN_EU_SHIPYARD</Type>
-			<DefaultBuilding>BUILDING_SMAN_EU_SHIPYARD</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_SMAN_EU_SHIPYARD</Description>
-		</Row>
-
-		<Row>
-			<Type>BUILDINGCLASS_SMAN_EU_MERC_CONSULATE</Type>
-			<DefaultBuilding>BUILDING_SMAN_EU_MERC_CONSULATE</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_SMAN_EU_MERC_CONSULATE</Description>
-		</Row>
-
-		<Row>
-			<Type>BUILDINGCLASS_SMAN_EU_NAVAL_YARD</Type>
-			<DefaultBuilding>BUILDING_SMAN_EU_NAVAL_YARD</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_SMAN_EU_NAVAL_YARD</Description>
-		</Row>
-
-		<Row>
-			<Type>BUILDINGCLASS_SMAN_EU_CONTRACTING_AGENCY</Type>
-			<DefaultBuilding>BUILDING_SMAN_EU_CONTRACTING_AGENCY</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_SMAN_EU_CONTRACTING_AGENCY</Description>
-		</Row>
-
-
-	</BuildingClasses>
-	
-	
-	
-	
 	
 </GameData>

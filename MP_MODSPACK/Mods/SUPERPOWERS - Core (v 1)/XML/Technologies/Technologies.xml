@@ -9,7 +9,7 @@
 		<Row>
 			<Type>TECH_AGRICULTURE</Type>
 			<ID>0</ID>
-			<Cost>10</Cost>
+			<Cost>15</Cost>
 			<Description>TXT_KEY_TECH_AGRICULTURE_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_AGRICULTURE_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -26,7 +26,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_FISHERY</Type>
-			<Cost>10</Cost>
+			<Cost>15</Cost>
 			<Description>TXT_KEY_TECH_FISHERY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FISHERY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -43,7 +43,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_HUNTING</Type>
-			<Cost>10</Cost>
+			<Cost>15</Cost>
 			<Description>TXT_KEY_TECH_HUNTING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_HUNTING_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -62,7 +62,7 @@
 
 		<Row>
 			<Type>TECH_CALENDAR</Type>
-			<Cost>20</Cost>
+			<Cost>30</Cost>
 			<Description>TXT_KEY_TECH_CALENDAR_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_CALENDAR_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -79,7 +79,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_POTTERY</Type>
-			<Cost>20</Cost>
+			<Cost>30</Cost>
 			<Description>TXT_KEY_TECH_POTTERY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_POTTERY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -97,7 +97,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ANIMAL_HUSBANDRY</Type>
-			<Cost>20</Cost>
+			<Cost>30</Cost>
 			<Description>TXT_KEY_TECH_ANIMAL_HUSBANDRY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ANIMAL_HUSBANDRY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -133,7 +133,7 @@
 
 		<Row>
 			<Type>TECH_BRONZE_WORKING</Type>
-			<Cost>20</Cost>
+			<Cost>30</Cost>
 			<Description>TXT_KEY_TECH_BRONZE_WORKING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_BRONZE_WORKING_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -152,7 +152,7 @@
 
 		<Row>
 			<Type>TECH_SAILING</Type>
-			<Cost>40</Cost>
+			<Cost>70</Cost>
 			<Description>TXT_KEY_TECH_SAILING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_SAILING_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -169,7 +169,7 @@
 		</Row>	
 		<Row>
 			<Type>TECH_WRITING</Type>
-			<Cost>40</Cost>
+			<Cost>70</Cost>
 			<Description>TXT_KEY_TECH_WRITING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_WRITING_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -187,7 +187,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_THE_WHEEL</Type>
-			<Cost>40</Cost>
+			<Cost>70</Cost>
 			<Description>TXT_KEY_TECH_THE_WHEEL_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_THE_WHEEL_DESC</Civilopedia>
 			<OpenBordersTradingAllowed>true</OpenBordersTradingAllowed>
@@ -206,7 +206,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_MASONRY</Type>
-			<Cost>40</Cost>
+			<Cost>70</Cost>
 			<Description>TXT_KEY_TECH_MASONRY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_MASONRY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -223,7 +223,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_IRON_WORKING</Type>
-			<Cost>40</Cost>
+			<Cost>70</Cost>
 			<Description>TXT_KEY_TECH_IRON_WORKING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_IRON_WORKING_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_WORKERSPEED_HELP</Help>
@@ -246,7 +246,7 @@
 	<Technologies>
 		<Row>
 			<Type>TECH_OPTICS</Type>
-			<Cost>80</Cost>
+			<Cost>150</Cost>
 			<Description>TXT_KEY_TECH_OPTICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_OPTICS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -280,7 +280,7 @@
 		</Row>-->
 		<Row>
 			<Type>TECH_PHILOSOPHY</Type>
-			<Cost>80</Cost>
+			<Cost>150</Cost>
 			<Description>TXT_KEY_TECH_PHILOSOPHY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_PHILOSOPHY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -296,7 +296,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_MATHEMATICS</Type>
-			<Cost>80</Cost>
+			<Cost>150</Cost>
 			<Description>TXT_KEY_TECH_MATHEMATICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_MATHEMATICS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -313,7 +313,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_HORSEBACK_RIDING</Type>
-			<Cost>80</Cost>
+			<Cost>150</Cost>
 			<Description>TXT_KEY_TECH_HORSEBACK_RIDING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_HORSEBACK_RIDING_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -329,7 +329,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_CONSTRUCTION</Type>
-			<Cost>80</Cost>
+			<Cost>150</Cost>
 			<Description>TXT_KEY_TECH_CONSTRUCTION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_CONSTRUCTION_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -348,7 +348,7 @@
 
 		<Row>
 			<Type>TECH_ART_THEORY</Type>
-			<Cost>150</Cost>
+			<Cost>250</Cost>
 			<Description>TXT_KEY_TECH_ART_THEORY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ART_THEORY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -364,7 +364,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_THEOLOGY</Type>
-			<Cost>150</Cost>
+			<Cost>250</Cost>
 			<Description>TXT_KEY_TECH_THEOLOGY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_THEOLOGY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -381,7 +381,7 @@
 	
 		<Row>
 			<Type>TECH_CURRENCY</Type>
-			<Cost>150</Cost>
+			<Cost>250</Cost>
 			<Description>TXT_KEY_TECH_CURRENCY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_CURRENCY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -398,7 +398,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ENGINEERING</Type>
-			<Cost>150</Cost>
+			<Cost>250</Cost>
 			<Description>TXT_KEY_TECH_ENGINEERING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ENGINEERING_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -420,7 +420,7 @@
 	<Technologies>
 		<Row>
 			<Type>TECH_COMPASS</Type>
-			<Cost>400</Cost>
+			<Cost>700</Cost>
 			<Description>TXT_KEY_TECH_COMPASS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_COMPASS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -440,7 +440,7 @@
 	
 		<Row>
 			<Type>TECH_CIVIL_SERVICE</Type>
-			<Cost>400</Cost>
+			<Cost>700</Cost>
 			<Description>TXT_KEY_TECH_CIVIL_SERVICE_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_CIVIL_SERVICE_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_WORKERSPEED_HELP</Help>
@@ -458,7 +458,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_GUILDS</Type>
-			<Cost>400</Cost>
+			<Cost>700</Cost>
 			<Description>TXT_KEY_TECH_GUILDS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_GUILDS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -475,7 +475,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_PHYSICS</Type>
-			<Cost>400</Cost>
+			<Cost>700</Cost>
 			<Description>TXT_KEY_TECH_PHYSICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_PHYSICS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -491,7 +491,7 @@
 		</Row>	
 		<Row>
 			<Type>TECH_STEEL</Type>
-			<Cost>400</Cost>
+			<Cost>700</Cost>
 			<Description>TXT_KEY_TECH_STEEL_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_STEEL_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -510,7 +510,7 @@
 		
 		<Row>
 			<Type>TECH_ASTRONOMY</Type>
-			<Cost>800</Cost>
+			<Cost>2000</Cost>
 			<Description>TXT_KEY_TECH_ASTRONOMY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ASTRONOMY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -527,7 +527,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_EDUCATION</Type>
-			<Cost>800</Cost>
+			<Cost>2000</Cost>
 			<Description>TXT_KEY_TECH_EDUCATION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_EDUCATION_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -543,7 +543,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_CHIVALRY</Type>
-			<Cost>800</Cost>
+			<Cost>2000</Cost>
 			<Description>TXT_KEY_TECH_CHIVALRY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_CHIVALRY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -560,7 +560,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_MACHINERY</Type>
-			<Cost>800</Cost>
+			<Cost>2000</Cost>
 			<Description>TXT_KEY_TECH_MACHINERY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_MACHINERY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -580,7 +580,7 @@
 	<Technologies>
 		<Row>
 			<Type>TECH_NAVIGATION</Type>
-			<Cost>1200</Cost>
+			<Cost>3000</Cost>
 			<Description>TXT_KEY_TECH_NAVIGATION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_NAVIGATION_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -597,7 +597,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ACOUSTICS</Type>
-			<Cost>1200</Cost>
+			<Cost>3000</Cost>
 			<Description>TXT_KEY_TECH_ACOUSTICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ACOUSTICS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -613,7 +613,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ADMINISTRATION</Type>
-			<Cost>1200</Cost>
+			<Cost>3000</Cost>
 			<Description>TXT_KEY_TECH_ADMINISTRATION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ADMINISTRATION_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -629,7 +629,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_PRINTING_PRESS</Type>
-			<Cost>1200</Cost>
+			<Cost>3000</Cost>
 			<Description>TXT_KEY_TECH_PRINTING_PRESS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_PRINTING_PRESS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -647,7 +647,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_CHEMISTRY</Type>
-			<Cost>1200</Cost>
+			<Cost>3000</Cost>
 			<Description>TXT_KEY_TECH_CHEMISTRY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_CHEMISTRY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -663,7 +663,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_GUNPOWDER</Type>
-			<Cost>1200</Cost>
+			<Cost>3000</Cost>
 			<Description>TXT_KEY_TECH_GUNPOWDER_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_GUNPOWDER_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -681,7 +681,7 @@
 
 		<Row>
 			<Type>TECH_ARCHITECTURE</Type>
-			<Cost>1600</Cost>
+			<Cost>4000</Cost>
 			<Description>TXT_KEY_TECH_ARCHITECTURE_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ARCHITECTURE_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -697,7 +697,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_SCIENTIFIC_THEORY</Type>
-			<Cost>1600</Cost>
+			<Cost>4000</Cost>
 			<Description>TXT_KEY_TECH_SCIENTIFIC_THEORY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_SCIENTIFIC_THEORY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -713,7 +713,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ECONOMICS</Type>
-			<Cost>1600</Cost>
+			<Cost>4000</Cost>
 			<Description>TXT_KEY_TECH_ECONOMICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ECONOMICS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -730,7 +730,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_METALLURGY</Type>
-			<Cost>1600</Cost>
+			<Cost>4000</Cost>
 			<Description>TXT_KEY_TECH_METALLURGY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_METALLURGY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -751,7 +751,7 @@
 	<Technologies>
 		<Row>
 			<Type>TECH_ARCHAEOLOGY</Type>
-			<Cost>2300</Cost>
+			<Cost>5000</Cost>
 			<Description>TXT_KEY_TECH_ARCHAEOLOGY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ARCHAEOLOGY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -768,7 +768,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_STEAM_POWER</Type>
-			<Cost>2300</Cost>
+			<Cost>5000</Cost>
 			<Description>TXT_KEY_TECH_STEAM_POWER_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_STEAM_POWER_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_WORKERSPEED_HELP</Help>
@@ -785,7 +785,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_BIOLOGY</Type>
-			<Cost>2300</Cost>
+			<Cost>5000</Cost>
 			<Description>TXT_KEY_TECH_BIOLOGY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_BIOLOGY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -801,7 +801,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ELECTRICITY</Type>
-			<Cost>2300</Cost>
+			<Cost>5000</Cost>
 			<Description>TXT_KEY_TECH_ELECTRICITY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ELECTRICITY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -817,7 +817,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_FERTILIZER</Type>
-			<Cost>2300</Cost>
+			<Cost>5000</Cost>
 			<Description>TXT_KEY_TECH_FERTILIZER_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FERTILIZER_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -833,7 +833,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_RIFLING</Type>
-			<Cost>2300</Cost>
+			<Cost>5000</Cost>
 			<Description>TXT_KEY_TECH_RIFLING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_RIFLING_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -852,7 +852,7 @@
 		
 		<Row>
 			<Type>TECH_TELEGRAPH</Type>
-			<Cost>2800</Cost>
+			<Cost>6000</Cost>
 			<Description>TXT_KEY_TECH_TELEGRAPH_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_TELEGRAPH_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -869,7 +869,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_RAILROAD</Type>
-			<Cost>2800</Cost>
+			<Cost>6000</Cost>
 			<Description>TXT_KEY_TECH_RAILROAD_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_RAILROAD_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -885,7 +885,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_MARINE_ENGINEERING</Type>
-			<Cost>2800</Cost>
+			<Cost>6000</Cost>
 			<Description>TXT_KEY_TECH_MARINE_ENGINEERING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_MARINE_ENGINEERING_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -903,7 +903,7 @@
 
 		<Row>
 			<Type>TECH_INDUSTRIALIZATION</Type>
-			<Cost>2800</Cost>
+			<Cost>6000</Cost>
 			<Description>TXT_KEY_TECH_INDUSTRIALIZATION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_INDUSTRIALIZATION_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -919,7 +919,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_MILITARY_SCIENCE</Type>
-			<Cost>2800</Cost>
+			<Cost>6000</Cost>
 			<Description>TXT_KEY_TECH_MILITARY_SCIENCE_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_MILITARY_SCIENCE_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -941,7 +941,7 @@
 	<Technologies>
 		<Row>
 			<Type>TECH_URBANLIZATION</Type>
-			<Cost>3500</Cost>
+			<Cost>8000</Cost>
 			<Description>TXT_KEY_TECH_URBANLIZATION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_URBANLIZATION_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -957,7 +957,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_FLIGHT</Type>
-			<Cost>3500</Cost>
+			<Cost>8000</Cost>
 			<Description>TXT_KEY_TECH_FLIGHT_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FLIGHT_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -973,7 +973,7 @@
 		</Row>	
 		<Row>
 			<Type>TECH_COMBUSTION</Type>
-			<Cost>3500</Cost>
+			<Cost>8000</Cost>
 			<Description>TXT_KEY_TECH_COMBUSTION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_COMBUSTION_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -990,7 +990,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_BALLISTICS</Type>
-			<Cost>3500</Cost>
+			<Cost>8000</Cost>
 			<Description>TXT_KEY_TECH_BALLISTICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_BALLISTICS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1007,7 +1007,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_DYNAMITE</Type>
-			<Cost>3500</Cost>
+			<Cost>8000</Cost>
 			<Description>TXT_KEY_TECH_DYNAMITE_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_DYNAMITE_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1024,7 +1024,7 @@
 
 		<Row>
 			<Type>TECH_RADIO</Type>
-			<Cost>4200</Cost>
+			<Cost>9000</Cost>
 			<Description>TXT_KEY_TECH_RADIO_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_RADIO_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1041,7 +1041,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_PLASTIC</Type>
-			<Cost>4200</Cost>
+			<Cost>9000</Cost>
 			<Description>TXT_KEY_TECH_PLASTICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_PLASTICS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1057,7 +1057,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_REPLACEABLE_PARTS</Type>
-			<Cost>4200</Cost>
+			<Cost>9000</Cost>
 			<Description>TXT_KEY_TECH_REPLACEABLE_PARTS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_REPLACEABLE_PARTS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1073,7 +1073,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_MILITARY_LOGISTICS</Type>
-			<Cost>4200</Cost>
+			<Cost>9000</Cost>
 			<Description>TXT_KEY_TECH_MILITARY_LOGISTICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_MILITARY_LOGISTICS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1094,7 +1094,7 @@
 		<!--*****************************************World War*******************************-->
 		<Row>
 			<Type>TECH_REFRIGERATION</Type>
-			<Cost>5000</Cost>
+			<Cost>12000</Cost>
 			<Description>TXT_KEY_TECH_REFRIGERATION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_REFRIGERATION_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1111,7 +1111,7 @@
 
 		<Row>
 			<Type>TECH_SONAR</Type>
-			<Cost>5000</Cost>
+			<Cost>12000</Cost>
 			<Description>TXT_KEY_TECH_SONAR_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_SONAR_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1127,7 +1127,7 @@
 		</Row>	
 		<Row>
 			<Type>TECH_RADAR</Type>
-			<Cost>5000</Cost>
+			<Cost>12000</Cost>
 			<Description>TXT_KEY_TECH_RADAR_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_RADAR_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1143,7 +1143,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_COMBINED_ARMS</Type>
-			<Cost>5000</Cost>
+			<Cost>12000</Cost>
 			<Description>TXT_KEY_TECH_COMBINED_ARMS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_COMBINED_ARMS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1159,7 +1159,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_MOBILIZATION_T</Type>
-			<Cost>5000</Cost>
+			<Cost>12000</Cost>
 			<Description>TXT_KEY_TECH_MOBILIZATION_T_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_MOBILIZATION_T_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1175,7 +1175,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ADV_ENGINEERING</Type>
-			<Cost>5000</Cost>
+			<Cost>12000</Cost>
 			<Description>TXT_KEY_TECH_ADV_ENGINEERING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ADV_ENGINEERING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_ADV_ENGINEERING_HELP</Help>
@@ -1194,7 +1194,7 @@
 
 		<Row>
 			<Type>TECH_PENICILIN</Type>
-			<Cost>6000</Cost>
+			<Cost>15000</Cost>
 			<Description>TXT_KEY_TECH_PENICILIN_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_PENICILIN_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1210,7 +1210,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ELECTRONICS</Type>
-			<Cost>6000</Cost>
+			<Cost>15000</Cost>
 			<Description>TXT_KEY_TECH_ELECTRONICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ELECTRONICS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1227,7 +1227,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ATOMIC_THEORY</Type>
-			<Cost>6000</Cost>
+			<Cost>15000</Cost>
 			<Description>TXT_KEY_TECH_ATOMIC_THEORY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ATOMIC_THEORY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1243,7 +1243,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_LARGE_CALIBRE</Type>
-			<Cost>6000</Cost>
+			<Cost>15000</Cost>
 			<Description>TXT_KEY_TECH_LARGE_CALIBRE_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_LARGE_CALIBRE_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1269,7 +1269,7 @@
 		
 		<Row>
 			<Type>TECH_MASS_MEDIA</Type>
-			<Cost>7500</Cost>
+			<Cost>20000</Cost>
 			<Description>TXT_KEY_TECH_MASS_MEDIA_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_MASS_MEDIA_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1287,7 +1287,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_NUCLEAR_FISSION</Type>
-			<Cost>7500</Cost>
+			<Cost>20000</Cost>
 			<Description>TXT_KEY_TECH_NUCLEAR_FISSION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_NUCLEAR_FISSION_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1303,7 +1303,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_INTEGRATED_CIRCUIT</Type>
-			<Cost>7500</Cost>
+			<Cost>20000</Cost>
 			<Description>TXT_KEY_TECH_INTEGRATED_CIRCUIT_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_INTEGRATED_CIRCUIT_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1319,7 +1319,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ROCKETRY</Type>
-			<Cost>7500</Cost>
+			<Cost>20000</Cost>
 			<Description>TXT_KEY_TECH_ROCKETRY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ROCKETRY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1336,7 +1336,7 @@
 
 		<Row>
 			<Type>TECH_TELECOM</Type>
-			<Cost>8500</Cost>
+			<Cost>20000</Cost>
 			<Description>TXT_KEY_TECH_TELECOM_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_TELECOM_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1352,7 +1352,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ECOLOGY</Type>
-			<Cost>8500</Cost>
+			<Cost>20000</Cost>
 			<Description>TXT_KEY_TECH_ECOLOGY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ECOLOGY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1368,7 +1368,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_COMPUTERS</Type>
-			<Cost>8500</Cost>
+			<Cost>20000</Cost>
 			<Description>TXT_KEY_TECH_COMPUTERS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_COMPUTERS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1384,7 +1384,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_COMPOSITE</Type>
-			<Cost>8500</Cost>
+			<Cost>20000</Cost>
 			<Description>TXT_KEY_TECH_COMPOSITE_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_COMPOSITE_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1400,7 +1400,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ADV_FLIGHT</Type>
-			<Cost>8500</Cost>
+			<Cost>20000</Cost>
 			<Description>TXT_KEY_TECH_ADV_FLIGHT_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ADV_FLIGHT_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1416,7 +1416,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ARMOR</Type>
-			<Cost>8500</Cost>
+			<Cost>20000</Cost>
 			<Description>TXT_KEY_TECH_ARMOR_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ARMOR_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1439,7 +1439,7 @@
 	<Technologies>
 		<Row>
 			<Type>TECH_ROBOTICS</Type>
-			<Cost>14000</Cost>
+			<Cost>30000</Cost>
 			<Description>TXT_KEY_TECH_ROBOTICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ROBOTICS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1455,7 +1455,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_GENETIC_ENGEERING</Type>
-			<Cost>14000</Cost>
+			<Cost>30000</Cost>
 			<Description>TXT_KEY_TECH_GENETIC_ENGEERING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_GENETIC_ENGEERING_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1471,7 +1471,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_INTERNET</Type>
-			<Cost>14000</Cost>
+			<Cost>30000</Cost>
 			<Description>TXT_KEY_TECH_INTERNET_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_INTERNET_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1488,7 +1488,7 @@
 		</Row>	
 		<Row>
 			<Type>TECH_SATELLITES</Type>
-			<Cost>14000</Cost>
+			<Cost>30000</Cost>
 			<Description>TXT_KEY_TECH_SATELLITES_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_SATELLITES_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1504,7 +1504,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_LASERS</Type>
-			<Cost>14000</Cost>
+			<Cost>30000</Cost>
 			<Description>TXT_KEY_TECH_LASERS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_LASERS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1522,7 +1522,7 @@
 
 		<Row>
 			<Type>TECH_AUTOMATION_T</Type>
-			<Cost>18000</Cost>
+			<Cost>40000</Cost>
 			<Description>TXT_KEY_TECH_AUTOMATION_T_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_AUTOMATION_T_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1538,7 +1538,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_GLOBALIZATION</Type>
-			<Cost>18000</Cost>
+			<Cost>40000</Cost>
 			<Description>TXT_KEY_TECH_GLOBALIZATION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_GLOBALIZATION_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1555,7 +1555,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ADVANCED_BALLISTICS</Type>
-			<Cost>18000</Cost>
+			<Cost>40000</Cost>
 			<Description>TXT_KEY_TECH_ADVANCED_BALLISTICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ADVANCED_BALLISTICS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1571,7 +1571,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_BVR_COMBAT</Type>
-			<Cost>18000</Cost>
+			<Cost>40000</Cost>
 			<Description>TXT_KEY_TECH_BVR_COMBAT_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_BVR_COMBAT_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1587,7 +1587,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_MOBILE_TACTICS</Type>
-			<Cost>18000</Cost>
+			<Cost>40000</Cost>
 			<Description>TXT_KEY_TECH_MOBILE_TACTICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_MOBILE_TACTICS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1607,7 +1607,7 @@
 
 		<Row>
 			<Type>TECH_ARTIFICIAL_INTELLIGENCE</Type>
-			<Cost>22000</Cost>
+			<Cost>50000</Cost>
 			<Description>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1621,7 +1621,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_IOT_NETWORK</Type>
-			<Cost>22000</Cost>
+			<Cost>50000</Cost>
 			<Description>TXT_KEY_TECH_IOT_NETWORK_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_IOT_NETWORK_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1636,7 +1636,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_NUCLEAR_FUSION</Type>
-			<Cost>22000</Cost>
+			<Cost>50000</Cost>
 			<Description>TXT_KEY_TECH_NUCLEAR_FUSION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_NUCLEAR_FUSION_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1652,7 +1652,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_STEALTH</Type>
-			<Cost>22000</Cost>
+			<Cost>50000</Cost>
 			<Description>TXT_KEY_TECH_STEALTH_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_STEALTH_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1668,7 +1668,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_SUPERCONDUCTOR</Type>
-			<Cost>22000</Cost>
+			<Cost>50000</Cost>
 			<Description>TXT_KEY_TECH_SUPERCONDUCTOR_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_SUPERCONDUCTOR_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1684,7 +1684,7 @@
 
 		<Row>
 			<Type>TECH_TRANSHUMANISM</Type>
-			<Cost>26000</Cost>
+			<Cost>55000</Cost>
 			<Description>TXT_KEY_TECH_TRANSHUMANISM_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_TRANSHUMANISM_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1699,7 +1699,7 @@
 
 		<Row>
 			<Type>TECH_PARTICLE_PHYSICS</Type>
-			<Cost>26000</Cost>
+			<Cost>55000</Cost>
 			<Description>TXT_KEY_TECH_PARTICLE_PHYSICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_PARTICLE_PHYSICS_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1715,7 +1715,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_SPACE_TECHNOLOGY</Type>
-			<Cost>26000</Cost>
+			<Cost>55000</Cost>
 			<Description>TXT_KEY_TECH_SPACE_TECHNOLOGY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_SPACE_TECHNOLOGY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1729,7 +1729,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_INTEGRATED_DEFENSE</Type>
-			<Cost>26000</Cost>
+			<Cost>55000</Cost>
 			<Description>TXT_KEY_TECH_INTEGRATED_DEFENSE_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_INTEGRATED_DEFENSE_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1743,7 +1743,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_METAMATERIAL</Type>
-			<Cost>26000</Cost>
+			<Cost>55000</Cost>
 			<Description>TXT_KEY_TECH_METAMATERIAL_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_METAMATERIAL_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1759,7 +1759,7 @@
 		
 		<Row>
 			<Type>TECH_PHOTON_COMPUTER</Type>
-			<Cost>30000</Cost>
+			<Cost>60000</Cost>
 			<Description>TXT_KEY_TECH_PHOTON_COMPUTER_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_PHOTON_COMPUTER_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1773,7 +1773,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_INTERSTELLAR_TRAVEL</Type>
-			<Cost>30000</Cost>
+			<Cost>60000</Cost>
 			<Description>TXT_KEY_TECH_INTERSTELLAR_TRAVEL_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_INTERSTELLAR_TRAVEL_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1788,7 +1788,7 @@
 
 		<Row>
 			<Type>TECH_NANOTECHNOLOGY</Type>
-			<Cost>30000</Cost>
+			<Cost>60000</Cost>
 			<Description>TXT_KEY_TECH_NANOTECHNOLOGY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_NANOTECHNOLOGY_DESC</Civilopedia>
 			<Help>TXT_KEY_SP_TECH_GENERAL_HELP</Help>
@@ -1807,7 +1807,7 @@
 
 		<Row>
 			<Type>TECH_ENVIRONMENTALISM</Type>
-			<Cost>35000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_ENVIRONMENTALISM_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_ENVIRONMENTALISM_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_ENVIRONMENTALISM_HELP</Help>
@@ -1821,7 +1821,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_GEN_MANIP</Type>
-			<Cost>35000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_GEN_MANIP_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_GEN_MANIP_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_GEN_MANIP_HELP</Help>
@@ -1835,7 +1835,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_CLONING</Type>
-			<Cost>40000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_CLONING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_CLONING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_CLONING_HELP</Help>
@@ -1849,7 +1849,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_MEMETICS</Type>
-			<Cost>40000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_MEMETICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_MEMETICS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_MEMETICS_HELP</Help>
@@ -1863,7 +1863,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_GRID_COMPUTING</Type>
-			<Cost>40000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_GRID_COMPUTING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_GRID_COMPUTING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_GRID_COMPUTING_HELP</Help>
@@ -1878,7 +1878,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_NANOMATERIALS</Type>
-			<Cost>40000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_NANOMATERIALS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_NANOMATERIALS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_NANOMATERIALS_HELP</Help>
@@ -1906,7 +1906,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ARTIFICIAL_ENVIRONMENTS</Type>
-			<Cost>40000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_ARTIFICIAL_ENVIRONMENTS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_ARTIFICIAL_ENVIRONMENTS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_ARTIFICIAL_ENVIRONMENTS_HELP</Help>
@@ -1921,7 +1921,7 @@
 
 		<Row>
 			<Type>TECH_ECOSOPHY</Type>
-			<Cost>45000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_ECOSOPHY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_ECOSOPHY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_ECOSOPHY_HELP</Help>
@@ -1935,7 +1935,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_IMPLANTS</Type>
-			<Cost>45000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_IMPLANTS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_IMPLANTS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_IMPLANTS_HELP</Help>
@@ -1949,7 +1949,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_COGNITIVE_TECH</Type>
-			<Cost>45000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_COGNITIVE_TECH_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_COGNITIVE_TECH_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_COGNITIVE_TECH_HELP</Help>
@@ -1963,7 +1963,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_QUANTUM_COMPUTERS</Type>
-			<Cost>45000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_QUANTUM_COMPUTERS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_QUANTUM_COMPUTERS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_QUANTUM_COMPUTERS_HELP</Help>
@@ -1977,7 +1977,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ORBITAL_DEV</Type>
-			<Cost>45000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_ORBITAL_DEV_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_ORBITAL_DEV_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_ORBITAL_DEV_HELP</Help>
@@ -1992,7 +1992,7 @@
 
 		<Row>
 			<Type>TECH_TRANSGENICS</Type>
-			<Cost>50000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_TRANSGENICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_TRANSGENICS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_TRANSGENICS_HELP</Help>
@@ -2006,7 +2006,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_NEURAL_INTERFACE</Type>
-			<Cost>50000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_NEURAL_INTERFACE_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_NEURAL_INTERFACE_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_NEURAL_INTERFACE_HELP</Help>
@@ -2020,7 +2020,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_AUTONOMOUS_SYSTEMS</Type>
-			<Cost>50000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_AUTONOMOUS_SYSTEMS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_AUTONOMOUS_SYSTEMS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_AUTONOMOUS_SYSTEMS_HELP</Help>
@@ -2034,7 +2034,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ARCOLOGIES</Type>
-			<Cost>50000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_ARCOLOGIES_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_ARCOLOGIES_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_ARCOLOGIES_HELP</Help>
@@ -2049,7 +2049,7 @@
 
 		<Row>
 			<Type>TECH_GENGINEERING</Type>
-			<Cost>55000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_GENGINEERING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_GENGINEERING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_GENGINEERING_HELP</Help>
@@ -2063,7 +2063,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_BIOMODIFICATION</Type>
-			<Cost>55000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_BIOMODIFICATION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_BIOMODIFICATION_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_BIOMODIFICATION_HELP</Help>
@@ -2077,7 +2077,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_CYBERNETICS</Type>
-			<Cost>55000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_CYBERNETICS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_CYBERNETICS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_CYBERNETICS_HELP</Help>
@@ -2091,7 +2091,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_AI</Type>
-			<Cost>55000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_AI_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_AI_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_AI_HELP</Help>
@@ -2105,7 +2105,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ADAMANTIUM</Type>
-			<Cost>55000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_ADAMANTIUM_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_ADAMANTIUM_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_ADAMANTIUM_HELP</Help>
@@ -2120,7 +2120,7 @@
 		
 		<Row>
 			<Type>TECH_TERRAFORMING</Type>
-			<Cost>60000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_TERRAFORMING_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_TERRAFORMING_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_TERRAFORMING_HELP</Help>
@@ -2134,7 +2134,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_HUMAN_AUGMENTATION</Type>
-			<Cost>60000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_HUMAN_AUGMENTATION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_HUMAN_AUGMENTATION_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_HUMAN_AUGMENTATION_HELP</Help>
@@ -2149,7 +2149,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_DIGITAL_SOCIETY</Type>
-			<Cost>60000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_DIGITAL_SOCIETY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_DIGITAL_SOCIETY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_DIGITAL_SOCIETY_HELP</Help>
@@ -2164,7 +2164,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_SMART_MATERIALS</Type>
-			<Cost>60000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_SMART_MATERIALS_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_SMART_MATERIALS_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_SMART_MATERIALS_HELP</Help>
@@ -2178,7 +2178,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_ENERGY_THEORY</Type>
-			<Cost>60000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_ENERGY_THEORY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_ENERGY_THEORY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_ENERGY_THEORY_HELP</Help>
@@ -2192,7 +2192,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_HYPERSTRUCTURES</Type>
-			<Cost>60000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_HYPERSTRUCTURES_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_HYPERSTRUCTURES_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_HYPERSTRUCTURES_HELP</Help>
@@ -2207,7 +2207,7 @@
 
 		<Row>
 			<Type>TECH_HOMO_SUPERIOR</Type>
-			<Cost>65000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_HOMO_SUPERIOR_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_HOMO_SUPERIOR_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_HOMO_SUPERIOR_HELP</Help>
@@ -2221,7 +2221,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_COMPUTRONIUM</Type>
-			<Cost>65000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_COMPUTRONIUM_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_COMPUTRONIUM_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_COMPUTRONIUM_HELP</Help>
@@ -2236,7 +2236,7 @@
 		</Row>
 		<Row>
 			<Type>TECH_SPACE_COLONIZATION</Type>
-			<Cost>65000</Cost>
+			<Cost>70000</Cost>
 			<Description>TXT_KEY_TECH_FW_SPACE_COLONIZATION_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_FW_SPACE_COLONIZATION_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_FW_SPACE_COLONIZATION_HELP</Help>

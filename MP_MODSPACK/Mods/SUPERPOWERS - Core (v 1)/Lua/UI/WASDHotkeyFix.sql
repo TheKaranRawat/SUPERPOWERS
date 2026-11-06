@@ -1,4 +1,4 @@
-UPDATE Automates SET HotKey = 'KB_P' WHERE Type = 'AUTOMATE_BUILD';					--A => Z
+UPDATE Automates SET HotKey = 'KB_Q' WHERE Type = 'AUTOMATE_BUILD';					--A => Z
 UPDATE Builds SET HotKey = '' WHERE Type = 'BUILD_ACADEMY';							--A => NULL
 --UPDATE Builds SET HotKey = 'KB_A' WHERE Type = 'BUILD_ARCHAEOLOGY_DIG';			--Ctrl+A
 --UPDATE Builds SET CtrlDown = 1 WHERE Type = 'BUILD_ARCHAEOLOGY_DIG';
@@ -21,7 +21,12 @@ UPDATE InterfaceModes SET HotKey = 'KB_X' WHERE Type = 'INTERFACEMODE_AIR_SWEEP'
 --UPDATE InterfaceModes SET HotKey = 'KB_A' WHERE Type = 'INTERFACEMODE_ATTACK';	--Ctrl+A
 --UPDATE InterfaceModes SET CtrlDown = 1 WHERE Type = 'INTERFACEMODE_ATTACK';
 UPDATE Missions SET HotKey = '' WHERE Type = 'MISSION_AIR_SWEEP';					--S? => NULL
-UPDATE Missions SET HotKey = 'KB_Z' WHERE Type = 'MISSION_ALERT';					--A => Z
+
 --UPDATE Missions SET HotKey = 'KB_D' WHERE Type = 'MISSION_DISEMBARK';				--D => Ctrl+D
 UPDATE Missions SET CtrlDown = 1 WHERE Type = 'MISSION_DISEMBARK';
 UPDATE Missions SET HotKey = 'KB_X' WHERE Type = 'MISSION_SET_UP_FOR_RANGED_ATTACK';--S => X
+
+
+UPDATE Missions SET HotKey = 'KB_Z' WHERE Type = 'MISSION_ALERT';					--A => Z
+UPDATE Missions SET HotKey = 'KB_SPACE' WHERE Type = 'MISSION_SKIP';					--A => Z
+UPDATE Missions SET HotKey = 'KB_F' WHERE Type = 'MISSION_SLEEP';					--A => Z

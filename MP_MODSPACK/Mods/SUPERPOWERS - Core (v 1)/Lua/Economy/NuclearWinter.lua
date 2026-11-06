@@ -1,5 +1,7 @@
 -- Nuclear Winter
 
+--[[ DISABLE NUCLEAR WINTER
+
 --------------------------------------------------------------
 function CountFalloutPlots() -------Count the Fallout plots on the map
 
@@ -141,3 +143,4 @@ end
 print("Nuclear Winter Check Pass!")
 
 
+]]--

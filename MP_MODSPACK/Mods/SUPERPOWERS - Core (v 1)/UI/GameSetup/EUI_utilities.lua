@@ -374,6 +374,69 @@ function EUI.InstanceStackManager( instanceName, rootControlName, parentControl,
 	return self
 end
 
+function StackInstanceManager( instanceName, rootControlName, parentControl, collapseControl, collapseFunction, collapseControlAlwaysShown, isCollapsed )
+	local n = 0
+	local m = 0
+	local self
+	local function Collapse( value )
+		if value ~= nil then
+			isCollapsed = value
+			parentControl:SetHide( value )
+			collapseControl:SetText( value and "[ICON_PLUS]" or "[ICON_MINUS]" )
+			if collapseFunction then
+				collapseFunction( self, isCollapsed )
+			end
+		end
+		return isCollapsed
+	end
+	self = {
+		Count = function()
+			return n
+		end,
+		ResetInstances = function()
+			n = 0
+		end,
+		GetInstance = function()
+			n = n + 1
+			if n > #self then
+				local instance = {}
+				ContextPtr:BuildInstanceForControl( instanceName, instance, parentControl )
+				--else ContextPtr:BuildInstance( instanceName, instance )
+				self[n] = instance
+				return instance, true
+			else
+				return self[n]
+			end
+		end,
+		Commit = function()
+			for i = m + 1, n do
+				self[i][rootControlName]:SetHide(false)
+			end
+			for i = n + 1, m do
+				self[i][rootControlName]:SetHide(true)
+			end
+			m = n
+			if collapseControl then
+				parentControl:CalculateSize()
+				if not collapseControlAlwaysShown then
+					collapseControl:SetHide( n <= 0 )
+				end
+			end
+		end,
+	}
+	if collapseControl then
+		self.Collapse = Collapse
+		collapseControl:GetTextControl():SetAnchor( "L,C" )
+		collapseControl:GetTextControl():SetOffsetVal( 12, -2 )
+		collapseControl:RegisterCallback( Mouse_eLClick,
+		function()
+			Collapse( not isCollapsed )
+		end)
+		Collapse( isCollapsed or false )
+	end
+	return self
+end
+
 function EUI.Capitalize( s )
 	return  Locale.ToUpper( s:sub(1,1) ) .. Locale.ToLower( s:sub(2) )
 end

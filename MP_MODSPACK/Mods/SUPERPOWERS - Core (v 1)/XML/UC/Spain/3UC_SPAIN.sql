@@ -2,7 +2,7 @@
 ------------------------------	
 INSERT INTO Buildings 	
 	(Type, BuildingClass, Cost, FreeStartEra, Happiness, NeverCapture, GoldMaintenance, PrereqTech, ArtDefineTag, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, Help, Description, Civilopedia, Strategy, IconAtlas, PortraitIndex)
-SELECT	'BUILDING_3UC_BULLRING', BuildingClass, Cost, FreeStartEra, Happiness, NeverCapture, 0, 'TECH_CHIVALRY', ArtDefineTag, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, 'TXT_KEY_BUILDING_3UC_BULLRING_HELP', 'TXT_KEY_BUILDING_3UC_BULLRING', 'TXT_KEY_BUILDING_3UC_BULLRING_TEXT', 'TXT_KEY_BUILDING_3UC_BULLRING_STRATEGY', 'ICON_ATLAS', 36
+SELECT	'BUILDING_3UC_BULLRING', BuildingClass, Cost, FreeStartEra, Happiness, NeverCapture, 0, 'TECH_CHIVALRY', ArtDefineTag, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, 'TXT_KEY_BUILDING_3UC_BULLRING_HELP', 'TXT_KEY_BUILDING_3UC_BULLRING', 'TXT_KEY_BUILDING_3UC_BULLRING_TEXT', 'TXT_KEY_BUILDING_3UC_BULLRING_STRATEGY', 'CIV_COLOR_ATLAS_FW', 53
 FROM Buildings WHERE Type = 'BUILDING_THEATRE';	
 ------------------------------	
 -- Building_Flavors

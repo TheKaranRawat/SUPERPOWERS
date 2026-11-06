@@ -50,10 +50,14 @@
 			<Set CanBeEmbarked="true" Kill="false" Time="600" Help="TXT_KEY_BUILD_SP_NOT_CONSUMED_HELP"/>
 			<Where Type="BUILD_FISHING_BOATS" />
 		</Update>
+
+		<!---	TRADING POST DISABLE
 		<Update>
 			<Set PrereqTech="TECH_CURRENCY" Time="500" OrderPriority="85"/>
 			<Where Type="BUILD_TRADING_POST"/>
 		</Update>
+		-->
+		<Delete Type="BUILD_TRADING_POST"/>
 		
 		<Update>
 			<Set PrereqTech="TECH_ART_THEORY"/>
@@ -207,7 +211,7 @@
 			<PrereqTech>TECH_MASONRY</PrereqTech>
 			<Time>600</Time>
 		</Row>
-		-->
+		
 
 		<Row>
 			<BuildType>BUILD_FW_GENOCENTRE</BuildType>
@@ -361,6 +365,7 @@
 			<Time>600</Time>
 			<Remove>true</Remove>
 		</Row>
+		-->
 		
 		<Row>
 			<BuildType>BUILD_REMOVE_ICE</BuildType>
@@ -388,18 +393,20 @@
 		<Delete UnitType="UNIT_GREAT_GENERAL"/>
 		<Delete UnitType="UNIT_MONGOLIAN_KHAN"/>
 
+		<!--
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_FW_PRESERVE</BuildType>
 		</Row>
 
-		<!--
+		
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_FW_COMM_ARRAY</BuildType>
 		</Row>
 		-->
 		
+		<!--
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_FW_INDUSTRIAL_COMPLEX</BuildType>
@@ -428,6 +435,7 @@
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_FW_ARCOLOGY</BuildType>
 		</Row>
+		-->
 
 		<Row>
 			<UnitType>UNIT_WORKBOAT</UnitType>
@@ -439,12 +447,13 @@
 			<BuildType>BUILD_FISHING_BOATS</BuildType>
 		</Row>
 
+		<!--
 		<Row>
 			<UnitType>UNIT_WORKBOAT</UnitType>
 			<BuildType>BUILD_FISHFARM_MOD</BuildType>
 		</Row>
 
-		<!--
+		
 		<Row>
 			<UnitType>UNIT_WORKBOAT</UnitType>
 			<BuildType>BUILD_GAS_RIG_MOD</BuildType>
@@ -528,7 +537,7 @@
 	
 	<BuildFeatures>
 		<Update>
-			<Set Time="5000"/>
+			<Set Time="2000"/>
 			<Where BuildType="BUILD_SCRUB_FALLOUT"/>
 		</Update>
 		<Update>

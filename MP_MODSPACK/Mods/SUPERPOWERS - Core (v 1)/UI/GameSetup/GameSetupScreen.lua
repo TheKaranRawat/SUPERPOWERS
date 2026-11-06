@@ -584,7 +584,8 @@ end
 ----------------------------------------------------------------        
 function ShowHideHandler( isHide, isInit )
 	if ( isInit == true) then
-		Controls.SPAtlasLogo:SetTexture( "SP_Atlas.dds" );
+		--Controls.SPAtlasLogo:SetTexture( "SP_Atlas.dds" );
+		Controls.SPAtlasLogo:SetTexture( "WonderConceptNotreDame.dds" );
 	else
 		if( isHide == false ) then 	
 					    

@@ -89,11 +89,11 @@
 
 		<Update>
 			<Where Tag="TXT_KEY_UNIT_MECH"/>
-			<Set Text="[COLOR_YELLOW]Jaeger[ENDCOLOR]"/>
+			<Set Text="[ICON_SWORD] [COLOR_YELLOW]Jaeger[ENDCOLOR]"/>
 		</Update>
 
 		<Row Tag="TXT_KEY_UNIT_METALGEAR">
-			<Text>[COLOR_YELLOW]Metal Gear[ENDCOLOR]</Text>
+			<Text>[ICON_SWORD] [COLOR_YELLOW]Metal Gear[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_GDR_HEADQUARTERS">

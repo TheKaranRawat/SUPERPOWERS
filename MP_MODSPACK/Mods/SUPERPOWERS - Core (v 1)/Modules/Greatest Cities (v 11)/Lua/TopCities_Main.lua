@@ -6,7 +6,7 @@ include("TopCities_Functions.lua")
 --------------------------------------------------------------------
 MapModData.g_Properties	= MapModData.g_Properties or {}
 local g_Properties		= MapModData.g_Properties;
-local archID			= GameInfo.Buildings["BUILDING_TC_TRIUMPHARCH"].ID
+--local archID			= GameInfo.Buildings["BUILDING_TC_TRIUMPHARCH"].ID
 --------------------------------------------------------------------
 function OnTopCitiesEraChanged(eraID, playerID)
 	local currentEraID = GameInfoTypes[GetCurrentEra()];
@@ -16,15 +16,6 @@ function OnTopCitiesEraChanged(eraID, playerID)
 	end
 end
 Events.SerialEventEraChanged.Add( OnTopCitiesEraChanged );
---------------------------------------------------------------------
-function OnCityCanConstruct(playerID, cityID, buildingID)
-	if (buildingID == archID) then
-		local city = Players[playerID]:GetCityByID(cityID)
-		return IsEverGreatestCity(city)
-	end
-	return true;
-end
-GameEvents.CityCanConstruct.Add( OnCityCanConstruct )
 --------------------------------------------------------------------
 local eraID = 0
 for i = 0, GameDefines.MAX_MAJOR_CIVS - 1, 1 do

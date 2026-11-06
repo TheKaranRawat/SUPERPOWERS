@@ -182,7 +182,7 @@
 			<Text>Earns [ICON_PEACE] Faith and [ICON_GOLD] Gold from kills. Only after adopting the [COLOR_POSITIVE_TEXT]Holy Warrior[ENDCOLOR] Belief can you purchase it.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_TEUTONIC_KNIGHT_DESC">
-			<Text>Knights Templar</Text>
+			<Text>[ICON_RELIGION_PROTESTANT] Knights Templar</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_TEUTONIC_KNIGHT_TEXT">
 			<Text>The Poor Fellow-Soldiers of Christ and of the Temple of Solomon (Latin: Pauperes commilitones Christi Templique Salomonici), commonly known as the Knights Templar, the Order of the Temple (French: Ordre du Temple or Templiers) or simply as Templars, were among the most wealthy and powerful of the Western Christian military orders and were among the most prominent actors of the Christian finance. </Text>
@@ -195,7 +195,7 @@
 			<Text>Can start a [ICON_GOLDEN_AGE] Golden Age. Only after adopting the [COLOR_POSITIVE_TEXT]Church Artists[ENDCOLOR] Belief can you purchase it.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CHURCH_ARTIST">
-			<Text>Church Artist</Text>
+			<Text>[ICON_RELIGION_PROTESTANT]  Church Artist</Text>
 		</Row>
 		<!--<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_CHURCH_ARTIST_TEXT">
 			<Text>Mujahideen (Arabic: مجاهد‎ muǧāhid, nominative plural مجاهدون muǧāhidūn, oblique plural مجاهدين muǧāhidīn "strugglers" or "people doing jihad") is a term that Muslims use to describe those they see as Muslims who struggle in the path of Allah. </Text>

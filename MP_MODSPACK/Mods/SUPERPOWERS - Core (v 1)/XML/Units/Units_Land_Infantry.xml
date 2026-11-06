@@ -517,10 +517,13 @@
 			<XPValueAttack>6</XPValueAttack>
 			<XPValueDefense>6</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_XCOM_SQUAD</UnitArtInfo>
-			<UnitFlagAtlas>SMAN_COVERT_OPS_ATLAS</UnitFlagAtlas>
-			<UnitFlagIconOffset>15</UnitFlagIconOffset>
-			<IconAtlas>SMAN_COVERT_OPS_ATLAS</IconAtlas>
-			<PortraitIndex>7</PortraitIndex>
+			
+			<UnitFlagAtlas>UNIT_FLAG_ITG_EXTRA_1_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>13</UnitFlagIconOffset>
+
+			<IconAtlas>CIV_COLOR_ATLAS_FW</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+
 			<MoveRate>QUADRUPED</MoveRate>
 			<ExtraMaintenanceCost>200</ExtraMaintenanceCost>
 		</Row>
@@ -2771,17 +2774,6 @@
 				<PromotionType>PROMOTION_ANTI_GUNPOWDER</PromotionType>
 			</Row>
 
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_GHAZI</UnitType>
-				<PromotionType>PROMOTION_INFANTRY_COMBAT</PromotionType>
-			</Row>
-
-			
-	
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_CONDOTTIERI</UnitType>
-				<PromotionType>PROMOTION_INFANTRY_COMBAT</PromotionType>
-			</Row>
 
 			<Row>
 				<UnitType>UNIT_LONGSWORDSMAN</UnitType>
@@ -2958,26 +2950,6 @@
 				<PromotionType>PROMOTION_GUNPOWDER_INFANTRY_COMBAT</PromotionType>
 			</Row>
 
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_SOF</UnitType>
-				<PromotionType>PROMOTION_GUNPOWDER_INFANTRY_COMBAT</PromotionType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_PMC</UnitType>
-				<PromotionType>PROMOTION_GUNPOWDER_INFANTRY_COMBAT</PromotionType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_GURKHA</UnitType>
-				<PromotionType>PROMOTION_GUNPOWDER_INFANTRY_COMBAT</PromotionType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_GUERILLA</UnitType>
-				<PromotionType>PROMOTION_GUNPOWDER_INFANTRY_COMBAT</PromotionType>
-			</Row>
-			
 
 
 			<Row>
@@ -3657,145 +3629,7 @@
 			</Row>
 
 
-			<!-- MERCS -->
-
 			
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_RABBLE</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_GHAZI</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_MADYAN_ARCHER</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_GENOESE_CROSSBOWMAN</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_CAVALIER</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_CONDOTTIERI</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_GREAT_BOMBARD</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_LIL_BOMBARD</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_GUERILLA</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_GURKHA</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_PMC</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_SOF</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_SMAN_EU_BATTLE_ELEPHANT</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_SMAN_EU_SIEGE_ELEPHANT</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_SMAN_EU_TURRETED_ELEPHANT</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_SMAN_EU_CAMEL_BOWMAN</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_SMAN_EU_CAMEL_RAIDING_PARTY</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_SMAN_EU_CAMEL_RIFLEMAN</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_SMAN_EU_CAMEL_WAR_PARTY</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_AKKADIAN_HORSE_ARCHER</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_SCYTHIAN_HORSE_ARCHER</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
-			<Row>
-				<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
-				<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			</Row>
-
 			
 
 		</Unit_ResourceQuantityRequirements>

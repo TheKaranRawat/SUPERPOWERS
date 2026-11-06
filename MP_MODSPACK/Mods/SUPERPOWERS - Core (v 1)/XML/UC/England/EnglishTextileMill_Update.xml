@@ -24,7 +24,9 @@
 	</Building_ClassesNeededInCity>
 	
 	<Civilization_BuildingClassOverrides>
+		
 		<Delete BuildingType="BUILDING_3UC_TEXTILE"/>
+		
 		<Row>
 			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_WINDMILL</BuildingClassType>

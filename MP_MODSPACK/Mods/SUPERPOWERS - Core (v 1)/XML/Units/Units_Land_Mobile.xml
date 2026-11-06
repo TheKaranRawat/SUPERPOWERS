@@ -2015,11 +2015,6 @@
 		</Row>
 
 		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
-			<UnitClassType>UNITCLASS_CRUISER_TANK</UnitClassType>
-		</Row>
-
-		<Row>
 			<UnitType>UNIT_CAVALRY</UnitType>
 			<UnitClassType>UNITCLASS_CRUISER_TANK</UnitClassType>
 		</Row>
@@ -2194,30 +2189,7 @@
 
 		<!--Heavy Mounted - Tank-->
 
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_AKKADIAN_HORSE_ARCHER</UnitType>
-			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_SCYTHIAN_HORSE_ARCHER</UnitType>
-			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
-			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
-			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitType>
-			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
-			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_BARBARIAN_HORSEMAN</UnitType>
 			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
@@ -2270,16 +2242,7 @@
 
 		
 
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_GREEK_HIPPEIS</UnitType>
-			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
-		</Row>
 		
-
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_CAVALIER</UnitType>
-			<PromotionType>PROMOTION_KNIGHT_COMBAT</PromotionType>
-		</Row>
 
 		<Row>
 			<UnitType>UNIT_KNIGHT</UnitType>
@@ -2497,30 +2460,7 @@
 
 		<!--Hit and Run-->
 
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_AKKADIAN_HORSE_ARCHER</UnitType>
-			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_SCYTHIAN_HORSE_ARCHER</UnitType>
-			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_FRANKISH_CROSSBOWMAN</UnitType>
-			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_CORAZZIERI</UnitType>
-			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_IROQUIOS_MUSKET_RIDER</UnitType>
-			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_CHEYENNE_DOG_SOLDIER</UnitType>
-			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
-		</Row>
+		
 		<Row>
 			<UnitType>UNIT_BARBARIAN_AXMAN</UnitType>
 			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
@@ -2632,10 +2572,6 @@
 			<PromotionType>PROMOTION_SP_FORCE_3</PromotionType>
 		</Row>
 
-		<Row>
-			<UnitType>UNIT_EXOTIC_UNIT_WILD_GEESE</UnitType>
-			<PromotionType>PROMOTION_HITANDRUN</PromotionType>
-		</Row>
 		
 		<Row>
 			<UnitType>UNIT_CAVALRY</UnitType>

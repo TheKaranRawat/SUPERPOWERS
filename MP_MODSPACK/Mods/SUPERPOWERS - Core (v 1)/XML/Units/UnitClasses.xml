@@ -1068,6 +1068,8 @@
 	<!--****************Satelite Unit Classes******************************-->
 
 	<UnitClasses>
+
+		<!-- SATELLITE DISABLE
 		<Row>
 			<Type>UNITCLASS_SATELLITE_SPUTNIK</Type>
 			<Description>TXT_KEY_UNIT_SATELLITE_SPUTNIK</Description>
@@ -1152,6 +1154,7 @@
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 			<MaxPlayerInstances>1</MaxPlayerInstances>
 		</Row>
+		-->
 
 		<!--postfuture-->
 

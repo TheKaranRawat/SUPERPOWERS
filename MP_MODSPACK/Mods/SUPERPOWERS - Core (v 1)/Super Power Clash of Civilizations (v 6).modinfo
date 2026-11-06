@@ -61,83 +61,10 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
   </References>
   <Blocks/>
   <Files>
-  <!--
-	<File md5="8DBF300FFEC8BB9D400845CA40DD933D" import="1">DLL-Core/DLL - Various Mod Components (v 88)/ART/YieldAtlas_128_GoldenAge.dds</File>
-    <File md5="ABD5FA5416A63C4E062E3F9113215550" import="1">DLL-Core/DLL - Various Mod Components (v 88)/ART/YieldAtlas_128_Tourism.dds</File>
-    <File md5="605D896322957A64E0E21C02E2770A4E" import="0">DLL-Core/DLL - Various Mod Components (v 88)/CustomModOptions.xml</File>
-    <File md5="A53A3F95997B22DE5DABEE779D28BD87" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/API/Achievements.xml</File>
-    <File md5="CED75A7C0E55341A72E147F6240929F6" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/API/Espionage.xml</File>
-    <File md5="9B4D318C2BB5BEEB0203644FFC335CF6" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/API/Extensions.sql</File>
-    <File md5="0A723BCFCE7B3B4FEE8CA09EABF42EA1" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/API/PlotBasedDamage.sql</File>
-    <File md5="6D97538D607296FD026A054C09468DD3" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/API/PlotYields.xml</File>
-    <File md5="171D943C439080E81764B9F518EE3B07" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/API/Religion.xml</File>
-    <File md5="B1C2E8D070A6676AB523D8E7D760B93F" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/API/UnifiedYields.sql</File>
-    <File md5="299813F5C446B2AEAD56877E06F48AFF" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/API/UnifiedYields.xml</File>
-    <File md5="60667250441FAA04C787A49EAAE388D9" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/API/UnifiedYieldsGoldenAge.xml</File>
-    <File md5="B8823C61468A980B0A1E8CC730066C1B" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/API/UnifiedYieldsTourism.xml</File>
-    <File md5="6C8B85F8EDA986B1036C6B0C5B603197" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/BUGFIX/DummyPolicies.sql</File>
-    <File md5="3649CA4F3817898997E12690F5A49684" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/BUGFIX/FeatureRemoval.sql</File>
-    <File md5="53B4ECF0684F8430C1A3E91BED1FBC09" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/BUGFIX/GoodyHutMessages.xml</File>
-    <File md5="91A78DC8F7830BE6EE0C7E29FB992F95" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/BUGFIX/SpyNames.xml</File>
-    <File md5="FA3BCC26D8997291AEBFFD57DCED931B" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/BUGFIX/UnitclassNotUnit.sql</File>
-    <File md5="9F954C2E5D23F83A01A35BCA8FE89DCB" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/BUGFIX/UnitclassNotUnit.xml</File>
-    <File md5="2D10840949450F800730858E88D663F1" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/CONFIG/AiInXml.sql</File>
-    <File md5="CF15AE6370D731589A34C809995F5F63" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/CONFIG/GameInXml.xml</File>
-    <File md5="1B9194202D8BDFD40AB1DB188A1C586E" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/CustomModTables.xml</File>
-    <File md5="9B64553226576ACECC3409C52EB8C874" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/DIPLOMACY/Stfu.sql</File>
-    <File md5="239FAD6A45BCA4C1B808BEE947FB3B16" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/DIPLOMACY/Stfu.xml</File>
-    <File md5="AF6286F99584CA76E095A460820246BF" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/EVENTS/BattleRoles.xml</File>
-    <File md5="D0D6D053B57D552F04659AC2427D7B6D" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/EVENTS/CanMoveInto.sql</File>
-    <File md5="B7036E7A6D8F7F5CCFFDC3C3D9A171F4" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/EVENTS/CityBombard.sql</File>
-    <File md5="B9719225BCB71D12B8A7C2E218949E1F" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/EVENTS/DiploModifiers.xml</File>
-    <File md5="1DC160C9EB04E4CFCDC9A5FE481E0D3F" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/EVENTS/Quests.xml</File>
-    <File md5="B2EC173C6EE473335C806278D0C90701" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/AlpinePasses.sql</File>
-    <File md5="9E7C090BEE0EA0C00CFC72DA2E26E07B" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/CannotEmbark.sql</File>
-    <File md5="9AE580627CFD6F5BC6800B56E146BBCA" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/CityWorking.sql</File>
-    <File md5="988A4E2A03A8A65D2BA34454314AE7D4" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/ExcludeFromGifts.sql</File>
-    <File md5="472D7C4DA95FC83DF11F2016759B3645" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/GreatworkYieldtypes.sql</File>
-    <File md5="90694D4709EA89AF77088DF73D90DCA2" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/MoveAfterUpgrade.sql</File>
-    <File md5="B8F6FD6D3E36392564DE3656EBDA9215" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/PassableForts.sql</File>
-    <File md5="E1C5693A39362DF9093FC2907409B41B" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/NoFollowup.sql</File>
-    <File md5="51373E2AA9261D7F86C5DDE69FF50B3F" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/PromotionClasses.sql</File>
-    <File md5="DE47CDA0C3005F12E066E22368CA2C71" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/Relocation.sql</File>
-    <File md5="7535E4E51C56BDAFAB2CAB031F6EEE62" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/SeparateGreatAdmiral.sql</File>
-    <File md5="87CA2870D331E7C27DB070DECEC29E65" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/StackingRules.sql</File>
-    <File md5="D2E42276DC285DD1F793625CBCFC8D1F" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/AuraChange.sql</File>
-    <File md5="9639CEC999B47F444742BF4FF0616D4B" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/CrossIce.sql</File>
-    <File md5="B3C07FB04A6A210BD9D4D55B0B2875ED" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/CrossMountains.sql</File>
-    <File md5="9BEB60B675E932FCD4C5FE642BC412C6" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/CrossOceans.sql</File>
-    <File md5="7E661A0B3E710151939AA35D0A941502" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/DeepWaterEmbarkation.sql</File>
-    <File md5="60A9B914C79BCEE4873ACF60CF74544F" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/GGfromBarbarians.sql</File>
-    <File md5="2CF34973FE19471DA56BE6323B2AE2DD" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/HalfMove.sql</File>
-    <File md5="702973513B4141D021A6A449EE204A78" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/ImprovementBonus.sql</File>
-    <File md5="2909B4439AA956475683DEAF3BD78856" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/UnitNaming.xml</File>
-    <File md5="9E8BC63DC9A45421C16253AA9A5F69A9" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/VariableRecon.sql</File>
-    <File md5="AC71F8748AC67E92F040353FB3103B75" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/VariableRecon.xml</File>
-    <File md5="1E15551DE1014ED349492B3DFB746E08" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/RELIGION/ConversionModifiers.sql</File>
-    <File md5="9CBE98CF52584514D0EDE1F00CC89605" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/RELIGION/LocalReligions.sql</File>
-    <File md5="13FEFAD9A05E0391F424CBFEFE96968F" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/RELIGION/PlotYields.xml</File>
-    <File md5="D793E9B1F21F03024A64E7A6983B88C9" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/RELIGION/PolicyBranchFaithGp.xml</File>
-    <File md5="16D7C5E227C231075800C15DFB186691" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/TRADE/RouteScaling.sql</File>
-    <File md5="9C59EBD46920447DFDEDE24F56086703" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/TRAITS/AnyBelief.sql</File>
-    <File md5="7CA1F2B70AA145AF9A0950A31E519A17" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/TRAITS/CrossesIce.sql</File>
-    <File md5="3E82BDF3EBED176C215C87D19507408B" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/TRAITS/ExtraSupply.sql</File>
-    <File md5="7A95C576E0C7B22297AA5415B66E1D4A" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/TRAITS/GGfromBarbarians.sql</File>
-    <File md5="D60500F862DCB87C573F5B6A1388EB76" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/TRAITS/OtherPrereqs.sql</File>
-    <File md5="B3CCB02EC2837C3E5F0ABBE81E8D8CEB" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/TRAITS/TradeRouteBonuses.sql</File>
-    <File md5="C04AB45AA4036AFE4BF736DA0BEAC07D" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/UI/CityExpansion.sql</File>
-    <File md5="A43003134A6B81542243CECDDD6BFEAE" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/UNITS/MaxHp.sql</File>
-    <File md5="846BDCF403D213AB85C9A6D214F4DDBA" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/UNITS/NoSupply.sql</File>
-    <File md5="EE26238E47D28C000F3C7C56FD42F380" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/_TEXT/AllText_de_DE.xml</File>
-    <File md5="B91C9CDF083C2B3596E436DD75B7321A" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/_TEXT/AllText_en_US.xml</File>
-    <File md5="A4F16C89AACD34612823A4889F17FB38" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/_TEXT/AllText_ja_JP.xml</File>
-    <File md5="90B35957364D5B777E968ADC0A7ED7A8" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/_TEXT/AllText_ru_RU.xml</File>
-    <File md5="258FF4838BADA3829D6657C907D92E2A" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/_TEXT/AllText_zh_CN.xml</File>
-    <File md5="C0C6F16E22726E8CAF6477CBA9D43EF5" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DB/_TEXT/AllText_zh_Hant_HK.xml</File>
-    <File md5="86E4E06F4E5A8A04ABD323475F92E18F" import="0">DLL-Core/DLL - Various Mod Components (v 88)/DLL/CvGameCore_Expansion2.dll</File>
-    <File md5="F442DF2BB92D28AB8EFFFB8E8FDECB60" import="0">DLL-Core/DLL - Various Mod Components (v 88)/LUA/Stfu.lua</File>
-    <File md5="AC521922E5A32A03FE894DC12A5C9533" import="1">DLL-Core/DLL - Various Mod Components (v 88)/UI/InGame/YieldIconManager.lua</File>
-    <File md5="8FD4EF5AAB5BD6E16DB8EBE95963FC33" import="1">DLL-Core/DLL - Various Mod Components (v 88)/UI/InGame/YieldIconManager.xml</File>
+	
+	
+	<!-- DLL
+    <File md5="D7818B93633B379ED4366B7EDB062795" import="0">DLL/Release/CvGameCore_Expansion2.dll</File>
 	-->
 	
   
@@ -322,132 +249,120 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="01B0F0DD5210744F683EEA63BE31ACE3" import="0">Modules/Extra Victory Conditions (v 1)/XML/Victories.xml</File>
     <File md5="3AC565FB769409FD01759730CF695268" import="0">Modules/Extra Victory Conditions (v 1)/XML/VictorySpeech.xml</File>
 	
-	<!--
-	<File md5="D5BF918FB7F6F2B3A93D72DBB7A184F0" import="1">Modules/City States Leaders II (v 7)/Art/BNW/antananarivo_leadericon.dds</File>
-    <File md5="BF5E7D4C090F68654ED268161D1346D2" import="1">Modules/City States Leaders II (v 7)/Art/BNW/antananarivo_leadericon2.dds</File>
-    <File md5="569396623AE536152885307AB84B9378" import="1">Modules/City States Leaders II (v 7)/Art/BNW/bogota_leadericon.dds</File>
-    <File md5="8E98E0810361FC263D836F5C626E80B8" import="1">Modules/City States Leaders II (v 7)/Art/BNW/bratislava_leadericon.dds</File>
-    <File md5="116251E7F5D4C07C9492B8DEC6D664FA" import="1">Modules/City States Leaders II (v 7)/Art/BNW/buenos_aires_leadericon.dds</File>
-    <File md5="5344896431F7A4D629D61343E5678C0A" import="1">Modules/City States Leaders II (v 7)/Art/BNW/buenos_aires_leadericon2.dds</File>
-    <File md5="C5E990D1A28F20DCB26DEA7E8CAA6169" import="1">Modules/City States Leaders II (v 7)/Art/BNW/byblos_leadericon.dds</File>
-    <File md5="E175E8FCDBE118D9B22B2668EFBC8839" import="1">Modules/City States Leaders II (v 7)/Art/BNW/ife_leadericon.dds</File>
-    <File md5="488D0B1FD03557A4CB1FCE42FF45F6FD" import="1">Modules/City States Leaders II (v 7)/Art/BNW/kabul_leadericon.dds</File>
-    <File md5="50FC3E2513C5DD71323AAC1875B31E6B" import="1">Modules/City States Leaders II (v 7)/Art/BNW/kabul_leadericon2.dds</File>
-    <File md5="453DE79C7FBA328D9C06E334DD266C74" import="1">Modules/City States Leaders II (v 7)/Art/BNW/kiev_leadericon.dds</File>
-    <File md5="8122A37DCD660BE8C18E40D257359227" import="1">Modules/City States Leaders II (v 7)/Art/BNW/kyzyl_leadericon.dds</File>
-    <File md5="EBFF68D8C9F47F8849C05FBFF5C6D52C" import="1">Modules/City States Leaders II (v 7)/Art/BNW/malacca_leadericon.dds</File>
-    <File md5="5F286D4D987EBC914235D3546EF4D312" import="1">Modules/City States Leaders II (v 7)/Art/BNW/mbanza_kongo_leadericon.dds</File>
-    <File md5="F5C9FA382BE98299F9E6881C1FC157F7" import="1">Modules/City States Leaders II (v 7)/Art/BNW/melbourne_leadericon.dds</File>
-    <File md5="689B2BD7062E98781094AE5BEFB739FD" import="1">Modules/City States Leaders II (v 7)/Art/BNW/mogadishu_leadericon.dds</File>
-    <File md5="20C6A0611F189D64A2ECB013D03F6F02" import="1">Modules/City States Leaders II (v 7)/Art/BNW/ormus_leadericon.dds</File>
-    <File md5="A7EF3F933662055186C1760AC94266C1" import="1">Modules/City States Leaders II (v 7)/Art/BNW/panama_city_leadericon.dds</File>
-    <File md5="57F434D46468A4C2B6C75B376CD26F12" import="1">Modules/City States Leaders II (v 7)/Art/BNW/riga_leadericon.dds</File>
-    <File md5="F4C49C07539AF3CD0202BC1BA515F399" import="1">Modules/City States Leaders II (v 7)/Art/BNW/samarkand_leadericon.dds</File>
-    <File md5="311864A56C1027BC87819AFB2743F632" import="1">Modules/City States Leaders II (v 7)/Art/BNW/samarkand_leadericon2.dds</File>
-    <File md5="C43AA4D71BFE1FD2FF0BD3AF2F5A3BA2" import="1">Modules/City States Leaders II (v 7)/Art/BNW/sofia_leadericon.dds</File>
-    <File md5="A95F8595475E91A4F2006D761588A530" import="1">Modules/City States Leaders II (v 7)/Art/BNW/sofia_leadericon2.dds</File>
-    <File md5="0ACCD35DB885E4450008E582F2331ACF" import="1">Modules/City States Leaders II (v 7)/Art/BNW/ur_leadericon.dds</File>
-    <File md5="5E59F2EE7E421BCBE70B2E0DAD2778E5" import="1">Modules/City States Leaders II (v 7)/Art/BNW/vancouver_leadericon.dds</File>
-    <File md5="42F0FC6C986E51F7241C7A5876BF8A57" import="1">Modules/City States Leaders II (v 7)/Art/BNW/vilnius_leadericon.dds</File>
-    <File md5="1C8C79A5B131B43F6067803862D1D549" import="1">Modules/City States Leaders II (v 7)/Art/BNW/wellington_leadericon.dds</File>
-    <File md5="7DD9FDB0C1C6F393B3EBB1AC55DB34D5" import="1">Modules/City States Leaders II (v 7)/Art/BNW/wellington_leadericon2.dds</File>
-    <File md5="9E2A19556D3CBFA5E7BDC43192F0EE62" import="1">Modules/City States Leaders II (v 7)/Art/CityStateBackgroundDefault.dds</File>
-    <File md5="8B87F7605AAB1BE43634026C17D6FBA8" import="1">Modules/City States Leaders II (v 7)/Art/CityStatePopupTop100.dds</File>
-    <File md5="1AE6B5AD3182C58B7F72960EF642B0C9" import="1">Modules/City States Leaders II (v 7)/Art/CityStatePopupTop200.dds</File>
-    <File md5="9B4290FFF27C279453423ED0DFFB1452" import="1">Modules/City States Leaders II (v 7)/Art/CityStatePopupTop300.dds</File>
-    <File md5="1F3A67E34DAB3C9BE314A597CA613406" import="1">Modules/City States Leaders II (v 7)/Art/CityStatePopupTop400.dds</File>
-    <File md5="52841CCBF68C0B9BFD964F32D7BD730B" import="1">Modules/City States Leaders II (v 7)/Art/CityStatePopupTop500.dds</File>
-    <File md5="5A64CCE012B63EC8074751E62C9B9B33" import="1">Modules/City States Leaders II (v 7)/Art/CityStatePopupTopCSLBNWBG.dds</File>
-    <File md5="20CE1BC8558FC08823D48BCE6A119E05" import="1">Modules/City States Leaders II (v 7)/Art/CityStatePopupTopCSLBNWCultured.dds</File>
-    <File md5="59992CDD7B888DF18BE087C6FBED0B8A" import="1">Modules/City States Leaders II (v 7)/Art/CityStatePopupTopCSLBNWMaritime.dds</File>
-    <File md5="054D48649DE4FF44800E7C5B03CE5DFC" import="1">Modules/City States Leaders II (v 7)/Art/CityStatePopupTopCSLBNWMercantile.dds</File>
-    <File md5="3B71A4F6F58A2ECDCEBB72F67E1D7F34" import="1">Modules/City States Leaders II (v 7)/Art/CityStatePopupTopCSLBNWMilitaristic.dds</File>
-    <File md5="C4FB507B4915400314FA8C73047F740B" import="1">Modules/City States Leaders II (v 7)/Art/CityStatePopupTopCSLBNWReligious.dds</File>
-    <File md5="C17E7D676C8FBADB5135A067B94857A7" import="1">Modules/City States Leaders II (v 7)/Art/CityStatePopupTopCSLBG.dds</File>
-    <File md5="264B04FA4E2AD19A2874250D05D5F0DF" import="1">Modules/City States Leaders II (v 7)/Art/CityStatePopupTopCSLG+KBG.dds</File>
-    <File md5="43470EBB451D1A128FFC521D8BFBCC3F" import="1">Modules/City States Leaders II (v 7)/Art/G+K/antwerp_leadericon.dds</File>
-    <File md5="6C16B500C99395834CC6EFF057AB73C6" import="1">Modules/City States Leaders II (v 7)/Art/G+K/cahokia_leadericon.dds</File>
-    <File md5="7CD07970953CA7BE9FB2EBB52B340933" import="1">Modules/City States Leaders II (v 7)/Art/G+K/cahokia_leadericon2.dds</File>
-    <File md5="ABA18161E84069DDA5A28EE890BBD72D" import="1">Modules/City States Leaders II (v 7)/Art/G+K/colombo_leadericon.dds</File>
-    <File md5="B55DFFB1F2B18CECAD8E3C326DB30F03" import="1">Modules/City States Leaders II (v 7)/Art/G+K/hong_kong_leadericon.dds</File>
-    <File md5="B1643CAD760EA0160868E06A267D6A41" import="1">Modules/City States Leaders II (v 7)/Art/G+K/jakarta_leadericon.dds</File>
-    <File md5="8A8E48B9E7439F1E5527332214303B6C" import="1">Modules/City States Leaders II (v 7)/Art/G+K/jerusalem_leadericon.dds</File>
-    <File md5="04ADE36FC44E9B27430F13DAC0D591E1" import="1">Modules/City States Leaders II (v 7)/Art/G+K/la_venta_leadericon.dds</File>
-    <File md5="80AC46BB095CB5429EE8C4B96C8067FC" import="1">Modules/City States Leaders II (v 7)/Art/G+K/la_venta_leadericon2.dds</File>
-    <File md5="F110928CAE808E79EEB93B698876382D" import="1">Modules/City States Leaders II (v 7)/Art/G+K/lisbon_leadericon.dds</File>
-    <File md5="44B989046BF302C44B0D0C71BE6EACF3" import="1">Modules/City States Leaders II (v 7)/Art/G+K/lisbon_leadericon2.dds</File>
-    <File md5="859BDE85299CA91CE7C41B6B4134573E" import="1">Modules/City States Leaders II (v 7)/Art/G+K/manila_leadericon.dds</File>
-    <File md5="6771E215846C0D92D6E8320CC24ECFEE" import="1">Modules/City States Leaders II (v 7)/Art/G+K/marrakech_leadericon.dds</File>
-    <File md5="33209ABFF6EAD144593CAEAE15309C2E" import="1">Modules/City States Leaders II (v 7)/Art/G+K/milan_leadericon.dds</File>
-    <File md5="00C4F4A05ED02219F7672514C011857C" import="1">Modules/City States Leaders II (v 7)/Art/G+K/mombasa_leadericon.dds</File>
-    <File md5="040147D148AF6DC9B9B77F7016000B7B" import="1">Modules/City States Leaders II (v 7)/Art/G+K/prague_leadericon.dds</File>
-    <File md5="951BDB890A2FECC866AB9C20EBCE84B1" import="1">Modules/City States Leaders II (v 7)/Art/G+K/valletta_leadericon.dds</File>
-    <File md5="88F2D0A4D4892032C1298C526CA7EE4D" import="1">Modules/City States Leaders II (v 7)/Art/G+K/vatican_city_leadericon.dds</File>
-    <File md5="3958635F79EB8A397F5DD02D5600BDC5" import="1">Modules/City States Leaders II (v 7)/Art/G+K/wittenberg_leadericon.dds</File>
-    <File md5="19CA39ECBE1C2D22C22D010A75E8590B" import="1">Modules/City States Leaders II (v 7)/Art/G+K/yerevan_leadericon.dds</File>
-    <File md5="20E74E14D2D04226811AF575846DD707" import="1">Modules/City States Leaders II (v 7)/Art/G+K/zanzibar_leadericon.dds</File>
-    <File md5="86C2F72191178F5C85AC052B9648E62D" import="1">Modules/City States Leaders II (v 7)/Art/G+K/zurich_leadericon.dds</File>
-    <File md5="4564249E85B5A17D48233D71DC88ECB8" import="1">Modules/City States Leaders II (v 7)/Art/G+K/zurich_leadericon2.dds</File>
-    <File md5="F65B9A66D5ED0FC3B55846E077F10D85" import="1">Modules/City States Leaders II (v 7)/Art/G+K/zurich_leadericon3.dds</File>
-    <File md5="D866821E8A417FFB7F8B16BD8BF04FEF" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/almaty_leadericon.dds</File>
-    <File md5="407F6177B2AE55A4BC02E102469EC65B" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/belgrade_leadericon.dds</File>
-    <File md5="04EE21DC4D7C2B560D28F11F0C6ED03F" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/brussels_leadericon.dds</File>
-    <File md5="C7052E8E0B394C376044F19DDDAD2E99" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/bucharest_leadericon.dds</File>
-    <File md5="234D50001B0F6D5685404E2C3CBD4C90" import="1">Art/vanilla/budapest_leadericon.dds</File>
-    <File md5="A27D8699133B31025A6E4E7760B5F91A" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/cape_town_leadericon.dds</File>
-    <File md5="D8E0CE45F6829B3CE27613B1F57EE402" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/dublin_leadericon.dds</File>
-    <File md5="ED88A8F87611B01DAE8C0763A6FD14E4" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/edinburgh_leadericon.dds</File>
-    <File md5="CB60B40217A8BF2E64BB35B12420CAB5" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/florence_leadericon.dds</File>
-    <File md5="3E215CF4993B27FD9BAAC02D82257DA4" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/geneva_leadericon.dds</File>
-    <File md5="E1445E0894F7F014BEAE0AEC7C155727" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/genoa_leadericon.dds</File>
-    <File md5="A02CB185D8D12CBDCC682FBA5594C774" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/hanoi_leadericon.dds</File>
-    <File md5="8CD8B3B70864E90CCDBF96A2E05E1408" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/hanoi_leadericon2.dds</File>
-    <File md5="336CE626A9704D5EF542BD81BFF77348" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/helsinki_leadericon.dds</File>
-    <File md5="640B7ADF21C706E9FBDDFAD533BA022E" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/kathmandu_leadericon.dds</File>
-    <File md5="3931C8DA3766ACA7D9BCA284BDEA1574" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/kuala_lumpur_leadericon.dds</File>
-    <File md5="19EBC52E18BAFAA84900B7F33D567B06" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/lhasa_leadericon.dds</File>
-    <File md5="01CB7ACA94FFBCAF38149CA5DE73F64E" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/monaco_leadericon.dds</File>
-    <File md5="847D5D8ACCA3471A79FBEC10B25A395B" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/quebec_city_leadericon.dds</File>
-    <File md5="A63F9C157E59094863B8B988203750F4" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/ragusa_leadericon.dds</File>
-    <File md5="785A0BE8B14CF95A6ED60BDB20F5C91C" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/rio_de_janeiro_leadericon.dds</File>
-    <File md5="758E40866E978DE57E80CB5F1019FF81" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/sidon_leadericon.dds</File>
-    <File md5="7436563D87F03EC20D9232B5E7B5CED8" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/singapore_leadericon.dds</File>
-    <File md5="FD4121FDFAD88203F219153A9A922C6A" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/stockholm_leadericon.dds</File>
-    <File md5="8B646B97188E06A24503D388B403F23B" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/sydney_leadericon.dds</File>
-    <File md5="8F3F7B945A326A1B252A22AC7E4BC42B" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/sydney_leadericon2.dds</File>
-    <File md5="58C5B6F02C1659A3A20AB0668693E4E3" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/tyre_leadericon.dds</File>
-    <File md5="7E747358ED3368622BB6C33B1B2D1D9E" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/venice_leadericon.dds</File>
-    <File md5="C95AF7310D95C98232D1C3F8096B9C4E" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/vienna_leadericon.dds</File>
-    <File md5="632D8E9797513861AB21C3BAB3550D66" import="1">Modules/City States Leaders II (v 7)/Art/vanilla/warsaw_leadericon.dds</File>
-    <File md5="D57F14B618D3F687D714510D82170018" import="1">Modules/City States Leaders II (v 7)/Assets/CityStateDiploPopup.lua</File>
-    <File md5="8455A9355F53B9CE37C9D29E257D7512" import="1">Modules/City States Leaders II (v 7)/Assets/CityStateDiploPopup.xml</File>
-    <File md5="D41D8CD98F00B204E9800998ECF8427E" import="1">Modules/City States Leaders II (v 7)/Assets/CityStateGreetingPopup.lua</File>
-    <File md5="23E31670BD68C29CEC708B9DD4D9F008" import="0">Modules/City States Leaders II (v 7)/MinorCivLeaders.sql</File>
-    <File md5="13C2F9F8477BF5814BA0F0694F810229" import="0">Modules/City States Leaders II (v 7)/MinorCivLeaders_en_US.xml</File>
-	-->
-	
-	<File md5="36A6C64A31BD29A25A2C56BF9325FBCD" import="1">Modules/Global Relations (v 7)/Lua/DiploCityStatesStatus.lua</File>
-    <File md5="A7E7CBB9C4220CA2BF85B78D21ABA8B9" import="1">Modules/Global Relations (v 7)/Lua/DiploTradesStatus.lua</File>
-    <File md5="E5877A642C94C1834A15C083E81D2212" import="1">Modules/Global Relations (v 7)/Lua/InfoAddictCivRelations.lua</File>
-    <File md5="C549B31A360BE00AC333D571DBD06B81" import="1">Modules/Global Relations (v 7)/Lua/InfoAddictHooks.lua</File>
-    <File md5="23F7D3BBC308A344311D4B792E172B4C" import="1">Modules/Global Relations (v 7)/Lua/InfoAddictInit.lua</File>
-    <File md5="68C8815B251A200546CAAE5FF0169C6C" import="1">Modules/Global Relations (v 7)/Lua/InfoAddictLib.lua</File>
-    <File md5="1E1DD53C41D77ED1A618130C19F8F58E" import="1">Modules/Global Relations (v 7)/Lua/InfoAddictScreen.lua</File>
-    <File md5="101CA7C97B5663CEAA7CDCA0119A0511" import="1">Modules/Global Relations (v 7)/XML/DiploCityStatesStatus.xml</File>
-    <File md5="ABE12F03D2C0CDFC60939B40B4F3F904" import="1">Modules/Global Relations (v 7)/XML/DiploTradesStatus.xml</File>
-    <File md5="C47AAE7B5BE2EF345777430EED78059B" import="1">Modules/Global Relations (v 7)/XML/InfoAddictCivRelations.xml</File>
-    <File md5="D8DB592AF64F00C025330E60704D0402" import="1">Modules/Global Relations (v 7)/XML/InfoAddictHooks.xml</File>
-    <File md5="D423D8636D1EB1062023C8F004ECCBB4" import="1">Modules/Global Relations (v 7)/XML/InfoAddictScreen.xml</File>
-	<File md5="C36C50BA5E429387624E513FF1FEADBB" import="1">Modules/Global Relations (v 7)/XML/InfoAddictText_EN.xml</File>
-	
-	<!--
-    <File md5="CD0E73BBD6042C6F3EC3A8433AE3B8A3" import="1">Modules/Global Relations (v 7)/XML/InfoAddictText_DE.xml</File>    
-    <File md5="3679A065BD0E48210371E22D8FF63FEA" import="1">Modules/Global Relations (v 7)/XML/InfoAddictText_ES.xml</File>
-    <File md5="2A60918CA71C810A573DDA9BD31AB7A1" import="1">Modules/Global Relations (v 7)/XML/InfoAddictText_FR.xml</File>
-    <File md5="FAFB1702E128C6B522517C46A7B73DE0" import="1">Modules/Global Relations (v 7)/XML/InfoAddictText_RU.xml</File>
-	-->
-	
     <File md5="7F9FBC9A5BD9C658E396DE72AA2AEB23" import="1">Modules/Global Relations (v 7)/XML/UITradeOpportunities.xml</File>
+	<!-- ui -->
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Blank.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/DC45_Advisor.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/DC45_Greatworks.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/HelpButton.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/MarcPips.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/MarcPips-index.dds</File>
+	
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/MenuButton.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/nanomat.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/SV_Jewelry.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/SV_Porcelain.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/TechMeter256.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/sv_lapis.dds</File>
+	
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/TopPanelGoldenAge.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/TopPanelGoldenAgeGlow.dds</File>
+	
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/CG/bluricon.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/CG/consumersmall.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/CG/sv_consumer128.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/CG/sv_consumer256.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/CG/sv_consumer256smooth.dds</File>
+	
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/EL/sv_electricity.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/EL/sv_electricity2.dds</File>
+	
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/MP/manpower.dds</File>
+	
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/manpower.dds</File>
+	
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/DC45_AdvisorCounsel.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/DC45_Culture.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/DC45_Demographics.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/DC45_DiploList.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/DC45_DiplomacyOverview.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/DC45_EconomicOverview.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/DC45_EspionageOverview.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/DC45_Generic.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/DC45_InfoAddict.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/DC45_MilitaryOverview.dds</File>
+	
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/DC45_NotificationLog.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/DC45_ReligionOverview.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/DC45_TechTree.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/DC45_TradeRouteOverview.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/DC45_VictoryProgress.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/DC45_WorldCongress.dds</File>
+	
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/EUI_DC45_WonderPlanner.dds</File>
+	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/UI/Art2/TopCities_Icon45.dds</File>
+	
+	<File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/EUI_context.lua</File>
+    <File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/EUI_context.xml</File>
+    <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/EUI_tooltip_server.lua</File>
+	
+	<File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/FLuaVector.lua</File>
+    <File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/GameInfoActualCache.lua</File>
+    <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/GameInfoCache.lua</File>
+	<File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/GenericPopup.lua</File>
+    <File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/GenericPopup.xml</File>
+    <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/GetUnitBuildProgressData.lua</File>
+	<File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/GreatPeopleIcons.lua</File>
+    <File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/Highlights.xml</File>
+    <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/IconHookup.lua</File>
+	
+	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/IconSupport.lua</File>
+    <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/InstanceManager.lua</File>
+	<File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/ScanGP.lua</File>
+	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/ScratchDeal.lua</File>
+    <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/ShortUnitTip.lua</File>
+	<File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/ShowProgress.lua</File>
+	
+	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/StackInstanceManager.lua</File>
+    <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/UserInterfaceSettingCache.lua</File>
+	<File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/UserInterfaceSettings.lua</File>
+	
+	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/ActionInfoPanel.lua</File>
+    <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/ActionInfoPanel.xml</File>
+	<File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/DiploCorner.xml</File>
+	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/DiploList.lua</File>
+    <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/DiploList.xml</File>
+	
+	<File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/Demographics.lua</File>
+	<File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/EndGameMenu.lua</File>
+	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/ReplayViewer.lua</File>
+    <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/ReplayViewer.xml</File>
+	
+	<File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/CivilopediaScreen.lua</File>
+	<File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/CivilopediaScreen.xml</File>
+	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/ReligionOverview.lua</File>
+    <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/ToolTips.xml</File>
+	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/TradeRouteOverview.lua</File>
+    <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/TradeRouteOverview.xml</File>
+	
+	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/GenericWorldAnchor.lua</File>
+    <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/ResourceIconManager.lua</File>
+	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/ResourceIconManager.xml</File>
+    <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/SmallResourceIcons.lua</File>
+	
+	<File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/OptionsMenu.lua</File>
+	<File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/OptionsMenu.xml</File>
+	
+	<File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/TechPopup.lua</File>
+	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/TechPopup.xml</File>
+    <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/TechTree.lua</File>
+	
+	<File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/CityStateStatusHelper.lua</File>
+	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/NewNotificationTexts.xml</File>
+    <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/TechButtonInclude.lua</File>
+	
+	<!-- eui end -->
+	
 	
 	<File md5="072F29109843C707289AF694B9D0030E" import="1">Art/Images/Era/1_classical.dds</File>
 	<File md5="834895DAD5B459DA9FCDEA1CB58B77EA" import="1">Art/Images/Era/2_medieval.dds</File>
@@ -1506,6 +1421,8 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
 	<File md5="838AB04B5079036035634B243BF775B7" import="1">UI/Override/TradeLogic.lua</File>
 	<File md5="65d06be7d8b599b4e0647efc025b2022" import="1">UI/Override/CivilopediaScreen.lua</File>
 	<File md5="be9e2b1629d76228e8cd8e19ccbfa751" import="1">UI/Override/CivilopediaScreen.xml</File>
+	<File md5="838AB04B5079036035634B243BF775B7" import="1">UI/Override/TopPanel.lua</File>
+	<File md5="838AB04B5079036035634B243BF775B7" import="1">UI/Override/TopPanel.xml</File>
 	
     <File md5="0588C66A0520F9CFD2C4FE1738FDA5C0" import="1">UI/Override/Civilopedia/Art/48x48FrameButtons.dds</File>
     <File md5="93429FB8AA472B59FB35BB6172390CB1" import="1">UI/Override/Civilopedia/Art/48x48FrameButtonsBackground.dds</File>
@@ -1526,9 +1443,10 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="81859D6C825870FE0BE877E466AF6834" import="1">UI/Override/InfoTooltipInclude.lua</File>
     <File md5="7803DFEB1CC49D546EED8C8A1DE998AA" import="1">UI/Override/InGame.lua</File>
     <File md5="87795029018082BF04AF16A5C0857B42" import="1">UI/Override/NewEraPopup.lua</File>
+    <File md5="87795029018082BF04AF16A5C0857B42" import="1">UI/Override/NotificationPanel.lua</File>
     <File md5="E53DA553867A544E5313A12101E1E395" import="1">UI/Override/PuppetCityPopup.lua</File>
-	<File md5="9DBA1146801AAF3E081A8CB2F06E8BF9" import="1">UI/Override/ProductionPopup.lua</File>
-	<File md5="E78E97E950F7230C21B239E22A4C4497" import="1">UI/Override/ProductionPopup.xml</File>
+	  <File md5="9DBA1146801AAF3E081A8CB2F06E8BF9" import="1">UI/Override/ProductionPopup.lua</File>
+	  <File md5="E78E97E950F7230C21B239E22A4C4497" import="1">UI/Override/ProductionPopup.xml</File>
     <File md5="0B74C39F64EEC78000094D79E60871A4" import="1">UI/Override/ResourceIconManager.lua</File>
     <File md5="8B3F1DDD71A884B0D3666BDA0DBC873B" import="1">UI/Override/SocialPolicyPopup.xml</File>
     <File md5="FB5C0A82D7F460FECBFDD1DFC376A703" import="1">UI/Override/TopPanel.lua</File>
@@ -1538,7 +1456,7 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="B9C2A372ABF0973AFAC0C83DFA6D2545" import="1">UI/Override/UnitPanel.lua</File>
     <File md5="2D4BE442AFCBFFD373B136285E43B109" import="1">UI/Override/UnitPanel.xml</File>
     <File md5="5D5B61E59E40D8A153CC51FDB60350CC" import="1">UI/Override/UnitPanel_small.xml</File>
-	<File md5="16F58935E0971B8433D9628ED42A66E8" import="1">UI/Override/MiniMapPanel.xml</File>
+	  <File md5="16F58935E0971B8433D9628ED42A66E8" import="1">UI/Override/MiniMapPanel.xml</File>
     <File md5="BC2203EBABADAAFB67ED64C670A47968" import="0">XML/AI/AIBonus.xml</File>
     <File md5="97E5D4AB753233A8E9AAE0B4A8595E94" import="0">XML/AI/AIStrategiesTweak.xml</File>
     <File md5="A12FC0FD7A08AA97723C6E7EADD6E385" import="0">XML/Buildings/BuildingClasses.xml</File>
@@ -1546,7 +1464,7 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="FE70E791D9B56D7362D1EBFAD162F119" import="0">XML/Buildings/Buildings.xml</File>
     <File md5="E332B3DE97A020E414DCBA510517F070" import="0">XML/Buildings/BuildingsEffects.xml</File>
     <File md5="5B1432D9A6992C84A97B2E1085BC26F6" import="0">XML/Buildings/BuildingsTexts.xml</File>
-	<File md5="2831080273A32B237E72EA9B61AFEAF3" import="0">XML/Buildings/BuildingsTexts2.xml</File>
+	  <File md5="2831080273A32B237E72EA9B61AFEAF3" import="0">XML/Buildings/BuildingsTexts2.xml</File>
     <File md5="02D386C8D20743CC68491D20436B9D99" import="0">XML/Buildings/Wonders.xml</File>
     <File md5="5D89F877753296959BE413031462A61D" import="0">XML/City/CityTexts.xml</File>
     <File md5="7C8343CB1DA59764C3D5524688EB6973" import="0">XML/City/Corruption.xml</File>
@@ -3984,10 +3902,19 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="D5498F8BAE0CED908F06243CAEC2299F" import="1">XML/Units/Uniques/SpaceMarines/Art/SpaceMarinesFlag.dds</File>
 
     <File md5="D5498F8BAE0CED908F06243CAEC2299F" import="1">XML/Units/Uniques/SpaceMarines/SpaceMarinesIcons.xml</File>
+	
+	
+	<File md5="43939FF7C370D80989CCD674F775923A" import="0">SQL/cityrange.sql</File>
 
+  <File md5="YOUR_MD5" import="1">Modules/WarPopup/WarPopup.lua</File>
+  <File md5="YOUR_MD5" import="1">Modules/WarPopup/WarPopup.xml</File>
+	
   </Files>
   <Actions>
 	
+	<OnGetDLLPath>
+      <SetDllPath>DLL/Release/CvGameCore_Expansion2.dll</SetDllPath>
+    </OnGetDLLPath>
 	<!--
 	<OnGetDLLPath>
       <SetDllPath>DLL-Core/DLL - Various Mod Components (v 88)/DLL/CvGameCore_Expansion2.dll</SetDllPath>
@@ -3995,113 +3922,11 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
 	-->
 	
     <OnModActivated>
-		
-	  <!--
-	  <UpdateDatabase>SQL/JFD_BuildingClassesNeededInCityOR.sql</UpdateDatabase>	
-	  -->
+	
 	  
-	  <UpdateDatabase>Modules/Global - Separate GP Counters (v 1)/XML/GlobalSeparateGPCounters.xml</UpdateDatabase>
-		
-	  <!--
-	  <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/CustomModTables.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/CustomModOptions.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/API/Achievements.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/API/Espionage.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/API/Extensions.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/API/PlotBasedDamage.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/API/PlotYields.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/API/Religion.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/API/UnifiedYields.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/API/UnifiedYields.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/API/UnifiedYieldsGoldenAge.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/API/UnifiedYieldsTourism.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/BUGFIX/DummyPolicies.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/BUGFIX/FeatureRemoval.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/BUGFIX/GoodyHutMessages.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/BUGFIX/SpyNames.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/BUGFIX/UnitclassNotUnit.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/BUGFIX/UnitclassNotUnit.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/CONFIG/AiInXml.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/CONFIG/GameInXml.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/DIPLOMACY/Stfu.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/DIPLOMACY/Stfu.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/EVENTS/BattleRoles.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/EVENTS/CanMoveInto.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/EVENTS/CityBombard.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/EVENTS/DiploModifiers.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/EVENTS/Quests.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/AlpinePasses.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/CannotEmbark.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/CityWorking.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/ExcludeFromGifts.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/GreatworkYieldtypes.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/MoveAfterUpgrade.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/NoFollowup.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/PassableForts.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/PromotionClasses.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/Relocation.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/SeparateGreatAdmiral.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/GLOBAL/StackingRules.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/AuraChange.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/CrossIce.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/CrossMountains.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/CrossOceans.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/DeepWaterEmbarkation.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/GGfromBarbarians.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/HalfMove.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/ImprovementBonus.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/UnitNaming.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/VariableRecon.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/PROMOTIONS/VariableRecon.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/RELIGION/ConversionModifiers.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/RELIGION/LocalReligions.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/RELIGION/PlotYields.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/RELIGION/PolicyBranchFaithGp.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/TRADE/RouteScaling.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/TRAITS/AnyBelief.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/TRAITS/CrossesIce.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/TRAITS/ExtraSupply.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/TRAITS/GGfromBarbarians.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/TRAITS/OtherPrereqs.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/TRAITS/TradeRouteBonuses.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/UI/CityExpansion.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/UNITS/MaxHp.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/UNITS/NoSupply.sql</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/_TEXT/AllText_en_US.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/_TEXT/AllText_de_DE.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/_TEXT/AllText_ja_JP.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/_TEXT/AllText_ru_RU.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/_TEXT/AllText_zh_CN.xml</UpdateDatabase>
-      <UpdateDatabase>DLL-Core/DLL - Various Mod Components (v 88)/DB/_TEXT/AllText_zh_Hant_HK.xml</UpdateDatabase>
-	  
-	  <UpdateDatabase>DLL/UI - Trade Opportunities (v 28)/XML/UITradeOpportunities.xml</UpdateDatabase>
-	  -->
-	  
-	  
-	  
-	  
-	  <UpdateDatabase>DLL/UI - Trade Routes Enhancements (v 7)/XML/UITradeRoutesEnhancements.xml</UpdateDatabase>
-	  
-	  
-      <UpdateDatabase>DLL/UI - Religion Spread (v 13)/XML/UIReligionSpread.xml</UpdateDatabase>
-	  <UpdateDatabase>DLL/UI - Notify Exit Resistance (v 1)/XML/UINotifyExitResistance.xml</UpdateDatabase>
-	  <UpdateDatabase>DLL/UI - City Production (v 15)/XML/UICityProductionDLL.xml</UpdateDatabase>
-      <UpdateDatabase>DLL/UI - City Production (v 15)/XML/UICityProduction.xml</UpdateDatabase>
-	  <UpdateDatabase>DLL/UI - City Happiness (v 17)/XML/UICityHappiness.xml</UpdateDatabase>
-
-    <!--
-	  <UpdateDatabase>DLL/Global - Raze City States (v 1)/SQL/GlobalRazeCityStates.sql</UpdateDatabase>
-
-	  <UpdateDatabase>DLL/Global - City State Airbases (v 4)/XML/GlobalCityStateAirbases.xml</UpdateDatabase>
-
-    <UpdateDatabase>Modules/Meaningful City State Colors (v 1)/Colors.xml</UpdateDatabase>
-    <UpdateDatabase>Modules/Meaningful City State Colors (v 1)/PlayerColors.xml</UpdateDatabase>
-    <UpdateDatabase>Modules/Meaningful City State Colors (v 1)/MinorCivs.xml</UpdateDatabase>
-	  -->
-
 	  <UpdateDatabase>DLL/AI - Warmonger Adjustments (v 4)/XML/AIWarmongerAdjustments.xml</UpdateDatabase>
 
-    <UpdateDatabase>DLL/Units - Missiles No Supply (v 1)/XML/UnitsMissilesNoSupply.xml</UpdateDatabase>
+	  <UpdateDatabase>DLL/Units - Missiles No Supply (v 1)/XML/UnitsMissilesNoSupply.xml</UpdateDatabase>
 	  
 	  
 	  
@@ -4640,6 +4465,8 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
       <UpdateDatabase>XML/Units/Uniques/MechArty/ArtDef.xml</UpdateDatabase>
 
       <UpdateDatabase>XML/Units/Uniques/SpaceMarines/SpaceMarinesIcons.xml</UpdateDatabase>
+	  
+	  <UpdateDatabase>SQL/cityrange.sql</UpdateDatabase>
 
 
     </OnModActivated>	
@@ -4659,6 +4486,10 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
       <Description>Look at the title</Description>
     </EntryPoint>
 	-->
+    <EntryPoint type="InGameUIAddin" file="Modules/WarPopup/WarPopup.lua">
+      <Name>War Declaration Popup</Name>
+      <Description>Shows a banner when a civ declares war</Description>
+    </EntryPoint>
 	
     <EntryPoint type="InGameUIAddin" file="Lua/Maps/Terra.lua">
       <Name>Terra</Name>
@@ -4667,11 +4498,6 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     </EntryPoint>
     <EntryPoint type="InGameUIAddin" file="Lua/Misc/TerrainTransform.lua">
       <Name>Terrain</Name>
-      <Description>
-      </Description>
-    </EntryPoint>
-    <EntryPoint type="InGameUIAddin" file="Lua/Economy/NuclearWinter.lua">
-      <Name>Nuclear Winter</Name>
       <Description>
       </Description>
     </EntryPoint>
@@ -4733,48 +4559,14 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
       </Description>
     </EntryPoint>
 
+    <!--
     <EntryPoint type="InGameUIAddin" file="Lua/Utility/BarbarianFunctions.lua">
       <Name>BarbarianUpdate</Name>
       <Description>
       </Description>
     </EntryPoint>
+    -->
 	
-	<!--
-	  <EntryPoint type="InGameUIAddin" file="DLL/Global - Raze City States (v 1)/LUA/GlobalRazeCityStates.lua">
-      <Name>GlobalRazeCityStates</Name>
-      <Description>
-      </Description>
-    </EntryPoint>
-
-    <EntryPoint type="InGameUIAddin" file="DLL/Global - City State Airbases (v 4)/LUA/CityStateAirbases.lua">
-      <Name>CityStateAirbases</Name>
-      <Description>
-      </Description>
-    </EntryPoint>
-	-->
-
-	<EntryPoint type="InGameUIAddin" file="DLL/UI - Notify Exit Resistance (v 1)/LUA/UINotifyExitResistance.lua">
-      <Name>UINotifyExitResistance</Name>
-      <Description>UINotifyExitResistance</Description>
-    </EntryPoint>
-	
-    <EntryPoint type="CustomNotificationAddin" file="DLL/UI - Notify Exit Resistance (v 1)/UI/ResistanceNotification.lua">
-      <Name>Resistance Notification</Name>
-      <Description>
-      </Description>
-    </EntryPoint>
-	
-	<EntryPoint type="InGameUIAddin" file="DLL/UI - City Production (v 15)/UI/CityProduction.xml">
-      <Name>City Production</Name>
-      <Description>
-      </Description>
-    </EntryPoint>
-	
-	<EntryPoint type="InGameUIAddin" file="DLL/UI - City Happiness (v 17)/UI/CityHappiness.xml">
-      <Name>City Happiness</Name>
-      <Description>
-      </Description>
-    </EntryPoint>
 	
 	
 	
@@ -4792,32 +4584,6 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
 	<EntryPoint type="InGameUIAddin" file="Modules/Historical Religions Complete (BNW or GK) (v 45)/Lua/Historical Religions Preference Handle.lua">
       <Name>Preference</Name>
       <Description>Preference</Description>
-    </EntryPoint>
-	
-	
-	<EntryPoint type="InGameUIAddin" file="Modules/Extra Victory Conditions (v 1)/Lua/ReligiousVictory.lua">
-      <Name>ReligiousVictory</Name>
-      <Description>Adds Religious Victory code</Description>
-    </EntryPoint>
-	
-    <EntryPoint type="InGameUIAddin" file="Modules/Extra Victory Conditions (v 1)/Lua/EconomicVictory.lua">
-      <Name>EconomicVictory</Name>
-      <Description>Adds Economic Victory code</Description>
-    </EntryPoint>
-	
-	<EntryPoint type="InGameUIAddin" file="Modules/Global Relations (v 7)/Lua/InfoAddictInit.lua">
-      <Name>init</Name>
-      <Description>Global Relations Code</Description>
-    </EntryPoint>
-	
-	<EntryPoint type="InGameUIAddin" file="Lua/Notifications/Nuclear Attack/LUA/GAIA_NotifyNuclearAttack.lua">
-      <Name>NotifyNuclearAttack</Name>
-      <Description>NotifyNuclearAttack</Description>
-    </EntryPoint>
-	
-    <EntryPoint type="CustomNotificationAddin" file="Lua/Notifications/Nuclear Attack/CustomNotification/NuclearAttackNotification.lua">
-      <Name>NuclearAttackNotification</Name>
-      <Description>NuclearAttackNotification</Description>
     </EntryPoint>
 
     <EntryPoint type="MapScript" file="SUPERPOWERS_Earth.lua">

@@ -106,3 +106,165 @@ Unit_ResourceQuantityRequirements
 
 Units-------
 metal gear rex
+
+
+weaken defences
+simplify scripts
+improve performance
+debloat buildings/units/techs
+remove electricity/consumer good effects
+simplify city scripts
+switch to new city UI
+transparent city UI
+horizontal scroll city ui
+automate roads
+automate smaller tasks
+goody huts until middle ages
+city production tooltip fix
+MERCENARY REMOVE
+workboat remove
+militia remove
+REMOVE SATELLITES
+remove inquisitors/missionaries
+player nerf with era
+
+PLAYTEST
+REMOVE PALISADE
+	GIVE SETTLER MORE MOVEMENT
+	SETTLER LOSES HEALTH
+	WORKERS AUTOMATED
+	DON'T REMOVE IMPROVEMENTS
+	UNRESTRICTED WARFARE ANCIENT ERA
+VASSALAGE OVERVIEW ICON FIX
+	BUILDING ICON TOOLTIP DIRECTION
+REMOVE WORKER BUILDS FOR TOOLTIP REDUCTION
+SHOW SUPPLY ON TOPBAR
+REMOVE MILITIA UNITS
+	RELIGIOUS UNITS
+	CITYVIEW WONDER BAR GLITCH
+REDUCE CITY DEFENCE/STRONGHOLD
+REMOVE WORK BOATS/GALLEY/MILITIA
+REMOVE POTTER/PUBLIC BATHS
+<FreeStartEra> FOR ANCIENT BUILDINGS
+disable create forest
+DESTROYER DEBUFF ATTACKING CITIES
+NERF ARTILLERY
+NERF PLAYER CITY HEALTH
+SUPEREVENTS
+MOVE SPECIAL UNITS TO PROJECTS
+PREVENT SPECIAL UNITS FROM SHOWING UP IN UI UNTIL PROJECT IS DONE
+enable work_boat again
+disable workers from building on water
+remove all militia
+remove 1 pop for every unit built
+
+icon types
+	militia			fort			ICON_SHIELD		ICON_SWORD
+	infantry		helmet			
+	ranged			archery target
+	hit and run		sword
+	cavalry			horse
+	siege		 	cannon
+	
+	naval melee
+	naval hit and run
+	naval ranged
+	
+	air fighter
+	air bomber
+		
+	nuke			ICON_NUKE
+	special forces	ICON_SHIELD
+	
+	ICON_FONT_TEXTURE_ITG_AUTHORITY
+	
+	ICON_WONDER	ICON_SHIELD		ICON_SWORD
+	ICON_EYE	ICON_FIGHTER	ICON_EAGLE
+	ICON_NUKE	ICON_ANCHORS	ICON_ARTILLERY
+	ICON_RECON	ICON_DIVIDE		ICON_ANCHOR		ICON_EYE
+	ICON_LAWS	ICON_FORT	ICON_CROSSED	ICON_CAVALRY	
+	ICON_INFANTRY	ICON_RANGED
+	
+DISABLE MILITIA	
+modern unit icons
+dDISABLE UCAV/HARD LAUNCHER/super hacker/tactical nuke
+
+FIX PROMOTIONS
+FIX BALANCE
+FIX FW WONDERS
+CHANGE PROJECT ICON
+SWITCH PROJECTS TO OTHER CATEGORY
+
+fish improvements automatic from building
+	resource demanded wltkd overlap
+	right side leader gold k and m
+change crusader icon to sword and shield
+disable glowing/jingling sound
+right click sound effect if can't purchase
+purchase buildings
+over_resource -> overconsumption of resource
+supply tooltip
+stop ai galley spam
+reduce default civs per map size
+adjust number of default CS
+CS defences by default
+reduce pantheons
+religions that can be founded
+AUTOMATE MILITARY UNITS
+	SELECT QUEUE ON PRODUCTION POPUP
+RIGHT CLICK CLOSE POPUPS
+map TOOLTIP faster
+	add tooltip for purchasing units to explain civ can be bought and only mil uc can be bought
+hide has grown notification
+AI siege units
+policy tree rebalance
+policy popup right click exit
+	
+UNITED STATES SPAWNS AT SEA
+
+UNIT_SPARTAN300
+UNIT_NUMIDIAN
+UNIT_GERMAN_LANDSKNECHT
+UNIT_ELITE_RIDER
+UNIT_ENGLISH_LONGBOWMAN
+UNIT_KOREAN_HWACHA
+UNIT_ZHENGHE_FLEET
+UNIT_DANISH_SKI_INFANTRY
+
+UNIT_PROTOTYPE_SUBMARINE
+UNIT_LAND_IRONCLAD
+
+UNIT_SUPER_HOWITZER
+UNIT_PROTOTYPE_AIRSHIP
+UNIT_RUSSIAN_COSSACK
+
+UNIT_ELITE_SNIPER
+UNIT_SUPER_TANK
+UNIT_ELITE_BATTLECRUISER
+UNIT_SUPER_BATTLESHIP
+UNIT_PROTOTYPE_BOMBER
+
+UNIT_TSAR_BOMBA
+UNIT_NUCLEAR_ARTILLERY
+UNIT_BAZOOKA
+UNIT_SR71_BLACKBIRD
+
+UNIT_CRUSADER_ARTILLERY
+UNIT_UNDERWATER_CARRIER
+UNIT_TASKFORCE_141
+UNIT_TDF
+UNIT_CHINESE_WEISHI
+UNIT_STEALTH_HELICOPTER
+UNIT_PAKFA_T50
+
+UNIT_MECH
+UNIT_METALGEAR
+UNIT_HACKER
+
+UNIT_PARTICLE_CANNON
+UNIT_ORBITAL_STRIKE
+UNIT_DVADERCIVUNIT
+
+
+
+

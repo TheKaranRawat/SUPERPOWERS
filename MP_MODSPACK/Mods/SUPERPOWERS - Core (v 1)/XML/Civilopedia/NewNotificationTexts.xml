@@ -14,6 +14,10 @@
 			<Text>OVER_RESOURCE</Text>
 		</Replace>
 
+		<Row Tag="TXT_KEY_POPS_MIL">
+			<Text>Population:</Text>
+		</Row>
+
 
 
 		<Replace Tag="TXT_KEY_CURRENTLY_SELECTED_UNIT">
@@ -28,7 +32,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Order ALL UNITS[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SP_UI_BTN_UNITSLEEP">
-			<Text>Click to order ALL your idle Military Units (not engaged in a scheduled task and waitting for new orders) to do what they should do. [NEWLINE]Infantry Units and Counter Units: fortify. [NEWLINE]Mobile Units, Ranged Units and Naval Units: Alert. [NEWLINE]Fighters: Intercept. (If HP less than 30, it will stop intercepting and heal) [NEWLINE]Others (Bombers, Missiles, etc): Sleep.</Text>
+			<Text>Click to order ALL your idle Military Units (not engaged in a scheduled task and waiting for new orders) to do what they should do. [NEWLINE]Infantry Units and Counter Units: fortify. [NEWLINE]Mobile Units, Ranged Units and Naval Units: Alert. [NEWLINE]Fighters: Intercept. (If HP less than 30, it will stop intercepting and heal) [NEWLINE]Others (Bombers, Missiles, etc): Sleep.</Text>
 		</Row>
 
 

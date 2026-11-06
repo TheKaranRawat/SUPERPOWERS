@@ -2,7 +2,7 @@
 ------------------------------	
 INSERT INTO Buildings 	
 	(Type, BuildingClass, ArtInfoEraVariation, NeverCapture, TradeRouteSeaGoldBonus, TradeRouteSeaDistanceModifier, Water, AllowsWaterRoutes, Cost, Defense, GoldMaintenance, ConquestProb, PrereqTech, ArtDefineTag, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, Help, Description, Civilopedia, Strategy, IconAtlas, PortraitIndex)
-SELECT	'BUILDING_3UC_COTHON', BuildingClass, ArtInfoEraVariation, NeverCapture, 200, TradeRouteSeaDistanceModifier, Water, AllowsWaterRoutes, Cost, 500, GoldMaintenance, ConquestProb, PrereqTech, ArtDefineTag, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, 'TXT_KEY_BUILDING_3UC_COTHON_HELP', 'TXT_KEY_BUILDING_3UC_COTHON', 'TXT_KEY_BUILDING_3UC_COTHON_TEXT', 'TXT_KEY_BUILDING_3UC_COTHON_STRATEGY', 'ICON_ATLAS', 0
+SELECT	'BUILDING_3UC_COTHON', BuildingClass, ArtInfoEraVariation, NeverCapture, 200, TradeRouteSeaDistanceModifier, Water, AllowsWaterRoutes, Cost, 500, GoldMaintenance, ConquestProb, PrereqTech, ArtDefineTag, SpecialistType, SpecialistCount, MinAreaSize, ConquestProb, HurryCostModifier, 'TXT_KEY_BUILDING_3UC_COTHON_HELP', 'TXT_KEY_BUILDING_3UC_COTHON', 'TXT_KEY_BUILDING_3UC_COTHON_TEXT', 'TXT_KEY_BUILDING_3UC_COTHON_STRATEGY', 'CIV_COLOR_ATLAS_FW', 61
 FROM Buildings WHERE Type = 'BUILDING_SEAPORT';	
 ------------------------------	
 -- Building_Flavors

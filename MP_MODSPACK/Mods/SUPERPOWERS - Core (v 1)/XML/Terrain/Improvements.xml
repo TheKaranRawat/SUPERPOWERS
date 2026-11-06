@@ -6,6 +6,8 @@
 
 		<Delete Type="IMPROVEMENT_FEITORIA"/>
 
+		<!-- FW DEPRECATE -->
+		<!--
 		<Row>
 			<Type>IMPROVEMENT_FW_HYDROPONICS_DOME</Type>
 			<Description>TXT_KEY_IMPROVEMENT_FW_HYDROPONICS_DOME</Description>
@@ -39,6 +41,7 @@
 			<PortraitIndex>24</PortraitIndex>
 			<IconAtlas>FW_IMPROVEMENTS_ATLAS</IconAtlas>
 		</Row>
+		-->
 
 		<!-- does not fit the meta
 		<Row>
@@ -54,6 +57,7 @@
 		</Row>
 		-->
 
+		<!--
 		<Row>
 			<Type>IMPROVEMENT_FW_GENERATOR</Type>
 			<Description>TXT_KEY_IMPROVEMENT_FW_GENERATOR</Description>
@@ -119,6 +123,7 @@
 			<PortraitIndex>22</PortraitIndex>
 			<IconAtlas>FW_IMPROVEMENTS_ATLAS</IconAtlas>
 		</Row>
+		-->
 
 		<!--
 		<Row>
@@ -137,7 +142,9 @@
 		
 		
 		
-		
+		<!-- DISABLE OBSOLETE -->
+
+		<!--
 		<Row>
 			<Type>IMPROVEMENT_PONTOON_BRIDGE_MOD</Type>
 			<Description>TXT_KEY_IMPROVEMENT_PONTOON_BRIDGE_MOD</Description>
@@ -156,19 +163,22 @@
 			<IconAtlas>SP_IMPROVEMENTS_ATLAS</IconAtlas>
 		</Row>
 
-
 		<Row>
 			<Type>IMPROVEMENT_MOUNTAIN_ROCKS</Type>
 			<Description>TXT_KEY_IMPROVEMENT_MOUNTAIN_ROCKS</Description>
 			<Help>TXT_KEY_CIV5_IMPROVEMENTS_MOUNTAIN_ROCKS_HELP</Help>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_QUARRY</ArtDefineTag>
-			<MountainsMakesValid>true</MountainsMakesValid>
 			<NoTwoAdjacent>true</NoTwoAdjacent>
 			<PortraitIndex>15</PortraitIndex>
 			<IconAtlas>SP_IMPROVEMENTS_ATLAS</IconAtlas>
 		</Row>
+		-->
+
+		
+		
 
 
+		<!--
 		<Row>
 			<Type>IMPROVEMENT_FISHERY_MOD</Type>
 			<Description>TXT_KEY_IMPROVEMENT_FISHERY_MOD</Description>
@@ -194,6 +204,7 @@
 			<PortraitIndex>23</PortraitIndex>
 			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
 		</Row>
+		
 
 		<Row>
 			<Type>IMPROVEMENT_GAS_RIG_MOD</Type>
@@ -207,8 +218,9 @@
 			<PortraitIndex>2</PortraitIndex>
 			<IconAtlas>SP_IMPROVEMENTS_ATLAS</IconAtlas>
 		</Row>
-
-
+		-->
+		
+		<!--
 		<Row>
 			<Type>IMPROVEMENT_CREATE_FOREST_MOD</Type>
 			<Description>TXT_KEY_IMPROVEMENT_CREATE_FOREST_MOD</Description>
@@ -227,7 +239,7 @@
 			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>SP_IMPROVEMENTS_ATLAS</IconAtlas>
 		</Row>
-
+		-->
 
 		<Row>
 			<Type>IMPROVEMENT_SHOSHONE_TIPI</Type>
@@ -374,6 +386,8 @@
 		</Row>
 
 		<!-- HYDROPONICS DOME -->
+
+		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
 			<TerrainType>TERRAIN_DESERT</TerrainType>
@@ -511,6 +525,7 @@
 			<ImprovementType>IMPROVEMENT_FW_ARCOLOGY</ImprovementType>
 			<TerrainType>TERRAIN_SNOW</TerrainType>
 		</Row>
+		-->
 
 		<Delete ImprovementType="IMPROVEMENT_FEITORIA"/>
 		
@@ -590,7 +605,7 @@
 			<TerrainType>TERRAIN_SNOW</TerrainType>
 		</Row>
 
-
+		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_CREATE_FOREST_MOD</ImprovementType>
 			<TerrainType>TERRAIN_PLAINS</TerrainType>
@@ -609,6 +624,7 @@
 			<ImprovementType>IMPROVEMENT_PONTOON_BRIDGE_MOD</ImprovementType>
 			<TerrainType>TERRAIN_COAST</TerrainType>
 		</Row>
+		-->
 
 		<!--
 		<Row>
@@ -617,14 +633,17 @@
 		</Row>
 		-->
 
-		<!--<Row>
+		<!--
+		<Row>
 			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
 			<TerrainType>TERRAIN_COAST</TerrainType>
-		</Row>-->
+		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_GAS_RIG_MOD</ImprovementType>
 			<TerrainType>TERRAIN_OCEAN</TerrainType>
 		</Row>
+		-->
+		
 
 
 		<!--<Row>
@@ -638,12 +657,14 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_IROQUOIAN_FOREST_FARM</ImprovementType>
 			<TerrainType>TERRAIN_GRASS</TerrainType>
-		</Row>-->
-
+		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_CREATE_JUNGLE_MOD</ImprovementType>
 			<TerrainType>TERRAIN_PLAINS</TerrainType>
 		</Row>
+		-->
+
+		
 	</Improvement_ValidTerrains>
 
 
@@ -677,7 +698,7 @@
 			<ImprovementType>IMPROVEMENT_FW_COMM_ARRAY</ImprovementType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
 		</Row>
-		-->
+		
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
@@ -767,6 +788,7 @@
 			<ImprovementType>IMPROVEMENT_FW_ARCOLOGY</ImprovementType>
 			<FeatureType>FEATURE_MARSH</FeatureType>
 		</Row>
+		-->
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_IROQUOIAN_FOREST_FARM</ImprovementType>
@@ -787,16 +809,12 @@
 	<Improvement_Yields>
 		<Delete ImprovementType="IMPROVEMENT_FISHING_BOATS"/>
 
-		<!-- COMM ARRAY 
+		<!-- FW
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_COMM_ARRAY</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>12</Yield>
 		</Row>
-		-->
-		
-		<!-- GENERATOR -->
-		<Row>
 			<ImprovementType>IMPROVEMENT_FW_GENERATOR</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>4</Yield>
@@ -806,44 +824,31 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>6</Yield>
 		</Row>
-
-		<!-- SUPPORT NODE -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_CORE</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>5</Yield>
-		</Row>		
-
-		<!-- HYDROPONICS -->
+		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>8</Yield>
 		</Row>
-
-		<!-- IND COMPLEX -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_INDUSTRIAL_COMPLEX</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>4</Yield>
 		</Row>
-
-		<!-- HERC -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_HERC</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>30</Yield>
 		</Row>
-
-		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_HERC</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
-		-->
-
-		<!-- NAT PRESERVE -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_PRESERVE</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
@@ -854,8 +859,6 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>4</Yield>
 		</Row>
-
-		<!-- ECO COMMUNE -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_BIOWELL</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -866,15 +869,11 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>3</Yield>
 		</Row>
-
-		<!-- GENO CENTRE -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_GENOCENTRE</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>8</Yield>
-		</Row>		
-		
-		<!-- ARCOLOGY -->		
+		</Row>	
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_ARCOLOGY</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -885,10 +884,6 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>4</Yield>
 		</Row>
-
-		<!-- 00000000000000000000000000000000000000000000000 -->
-
-		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_FUNGAL_GROWTH</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -909,15 +904,17 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		-->
+		FW END -->
 
+		
+		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_GAS_RIG_MOD</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		
-		<!--
+		
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHFARM_MOD</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -952,6 +949,7 @@
 	
 	<Improvement_ResourceType_Yields>
 
+		<!-- FW
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
@@ -976,6 +974,7 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>6</Yield>
 		</Row>
+		-->
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
@@ -1072,6 +1071,7 @@
 		</Row>
 		-->
 
+		<!-- FW BUILDS
 		<Row>
 			<Type>BUILD_FW_HYDROPONICS_DOME</Type>
 			<PrereqTech>TECH_ARTIFICIAL_ENVIRONMENTS</PrereqTech>
@@ -1185,7 +1185,7 @@
 			<IconAtlas>FW_IMPROVEMENTS_ATLAS</IconAtlas>
 		</Row>
 			
-
+		-->
 			<Row>
 				<Type>BUILD_MAYA_ALTAR</Type>
 				<Time>500</Time>
@@ -1277,7 +1277,7 @@
 				<IconAtlas>SPUINT_ACTION_ATLAS</IconAtlas>
 			</Row>
 
-
+		<!--
 			<Row>
 				<Type>BUILD_PONTOON_BRIDGE_MOD</Type>
 				<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
@@ -1294,12 +1294,10 @@
 				<IconIndex>27</IconIndex>
 				<IconAtlas>SPUINT_ACTION_ATLAS</IconAtlas>
 			</Row>
-
+			
 			<Row>
 				<Type>BUILD_FISHERY_MOD</Type>
-				<!--
-				<PrereqTech>TECH_OPTICS</PrereqTech>
-				-->
+				
 				<ImprovementType>IMPROVEMENT_FISHERY_MOD</ImprovementType>
 				<Description>TXT_KEY_BUILD_FISHERY_MOD</Description>
 				<Help>TXT_KEY_BUILD_FISHERY_MOD_HELP</Help>
@@ -1333,9 +1331,6 @@
 
 			<Row>
 				<Type>BUILD_GAS_RIG_MOD</Type>
-				<!--
-				<PrereqTech>TECH_TELEGRAPH</PrereqTech>
-				-->
 				<ImprovementType>IMPROVEMENT_GAS_RIG_MOD</ImprovementType>
 				<Description>TXT_KEY_BUILD_GAS_RIG_MOD</Description>
 				<Help>TXT_KEY_BUILD_GAS_RIG_MOD_HELP</Help>
@@ -1349,9 +1344,6 @@
 				<IconIndex>26</IconIndex>
 				<IconAtlas>SPUINT_ACTION_ATLAS</IconAtlas>
 			</Row>
-
-
-
 
 			<Row>
 				<Type>BUILD_CREATE_FOREST</Type>
@@ -1391,14 +1383,14 @@
 				<ImprovementType>IMPROVEMENT_MOUNTAIN_ROCKS</ImprovementType>
 				<Description>TXT_KEY_IMPROVEMENT_MOUNTAIN_ROCKS</Description>
 				<Help>TXT_KEY_CIV5_IMPROVEMENTS_MOUNTAIN_ROCKS_HELP</Help>
-				<!--<Recommendation>TXT_KEY_BUILD_BYZANTIUM_ANGELOKASTRO_REC</Recommendation>-->
 				<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
 				<HotKey>KB_K</HotKey>
 				<OrderPriority>98</OrderPriority>
 				<IconIndex>42</IconIndex>
 				<IconAtlas>SPUINT_ACTION_ATLAS</IconAtlas>
 			</Row>
-			
+		-->
+
 	</Builds>
 	
 	
@@ -1411,10 +1403,13 @@
 
 		<Delete BuildType="BUILD_FEITORIA"/>
 		
+		<!--
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_MOUNTAIN_ROCKS</BuildType>
 		</Row>
+		-->
+
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_MAYA_ALTAR</BuildType>
@@ -1445,27 +1440,18 @@
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_FISHERY_MOD</BuildType>
 		</Row>
-		-->
-
-		<!--
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_FISHFARM_MOD</BuildType>
 		</Row>
-		-->
-
-		<!--
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_GAS_RIG_MOD</BuildType>
 		</Row>
-		-->
-		
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_PONTOON_BRIDGE_MOD</BuildType>
 		</Row>
-
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_CREATE_FOREST</BuildType>
@@ -1474,35 +1460,22 @@
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_CREATE_JUNGLE</BuildType>
 		</Row>
-
-
-
 		<Row>
 			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
 			<BuildType>BUILD_MOUNTAIN_ROCKS</BuildType>
 		</Row>
-		
-		<!--
 		<Row>
 			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
 			<BuildType>BUILD_FISHERY_MOD</BuildType>
 		</Row>
-		-->
-
-		<!--
 		<Row>
 			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
 			<BuildType>BUILD_FISHFARM_MOD</BuildType>
 		</Row>
-		-->
-
-		<!--
 		<Row>
 			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
 			<BuildType>BUILD_GAS_RIG_MOD</BuildType>
 		</Row>
-		-->
-
 		<Row>
 			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
 			<BuildType>BUILD_PONTOON_BRIDGE_MOD</BuildType>
@@ -1516,6 +1489,9 @@
 			<UnitType>UNIT_BRAZILIAN_LABOR</UnitType>
 			<BuildType>BUILD_CREATE_JUNGLE</BuildType>
 		</Row>
+		-->
+
+		
 
 		<Row>
 			<UnitType>UNIT_ARABIAN_PROPHET</UnitType>
@@ -1590,6 +1566,7 @@
 	<!-- overrides terrain rules for improvements -->
 	<Improvement_ResourceTypes>
 
+		<!-- FW 
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
@@ -1646,6 +1623,7 @@
 			<ImprovementType>IMPROVEMENT_FW_INDUSTRIAL_COMPLEX</ImprovementType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
 		</Row>
+		-->
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
@@ -1873,11 +1851,13 @@
 	</Improvement_Yields>
 
 	<Improvement_HillsYields>
+		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_CORE</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		-->
 		<Row>
 			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
@@ -1980,19 +1960,19 @@
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
 			<TechType>TECH_EDUCATION</TechType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
 			<TechType>TECH_ELECTRICITY</TechType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
 			<TechType>TECH_GUILDS</TechType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>5</Yield>
+			<Yield>1</Yield>
 		</Row>
 		
 		<Row>
@@ -2250,7 +2230,10 @@
 		</Row>
 	</Improvement_TechYieldChanges>
 
+	<!--
 	<Improvement_TechFreshWaterYieldChanges>
+		
+	
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
 			<TechType>TECH_ARTIFICIAL_ENVIRONMENTS</TechType>
@@ -2270,12 +2253,13 @@
 			<Yield>2</Yield>
 		</Row>
 	</Improvement_TechFreshWaterYieldChanges>
+	-->
 
 	<!--<Improvement_TechNoFreshWaterYieldChanges>
 		
 	</Improvement_TechNoFreshWaterYieldChanges>-->
 
-	<!--<Improvement_TechFreshWaterYieldChanges>
+	<Improvement_TechFreshWaterYieldChanges>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 			<TechType>TECH_FERTILIZER</TechType>
@@ -2294,7 +2278,7 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
-	</Improvement_TechFreshWaterYieldChanges>-->
+	</Improvement_TechFreshWaterYieldChanges>
 
 	<Improvement_ValidFeatures>
 		<Row>
@@ -2311,25 +2295,27 @@
 			<Yield>10</Yield>
 		</Row>		
 
+		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_ARCOLOGY</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>4</Yield>
 		</Row>
 		
-		<!--
+		
 		<Row>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
-		-->
+		
 		
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_GENERATOR</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		-->
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_BYZANTIUM_ANGELOKASTRO</ImprovementType>
@@ -2386,6 +2372,7 @@
 			<Yield>10</Yield>
 		</Row>
 
+		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_INDUSTRIAL_COMPLEX</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
@@ -2408,7 +2395,7 @@
 			<Yield>2</Yield>
 		</Row>
 		
-		<!--
+		
 		<Row>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -2440,24 +2427,19 @@
 	</Improvement_RiverSideYields>
 
 	<Improvement_AdjacentMountainYieldChanges>
-
+	
+		<!--
 		<Row>
-			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>5</Yield>
-		</Row>		
-
-		<Row>
-
 			<ImprovementType>IMPROVEMENT_FW_GENOCENTRE</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>4</Yield>
 		</Row>
+		-->
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>5</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
@@ -2481,19 +2463,14 @@
 		</Row>
 	</Improvement_AdjacentMountainYieldChanges>
 
+	<!--
 	<Improvement_AdjacentCityYields>
 
-		<!-- DISTRICTS -->
-		<!--  0000000000000000000000000000000000000  -->
-
-		<!-- IND COMPLEX -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_INDUSTRIAL_COMPLEX</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>24</Yield>
 		</Row>
-
-		<!-- ARCOLOGY -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_ARCOLOGY</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -2504,30 +2481,24 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>16</Yield>
 		</Row>
-
-		<!-- SUPPORT NODE -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_CORE</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>18</Yield>
 		</Row>
-
-		<!-- HYDROPONICS -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_HYDROPONICS_DOME</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>24</Yield>
 		</Row>
-
-		<!-- GENOCENTRE -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_GENOCENTRE</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>44</Yield>
 		</Row>	
 
-
 	</Improvement_AdjacentCityYields>
+	-->
 
 
 	<!-- ************************UI Tweaks********************************************-->
@@ -2596,6 +2567,8 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>
+
+		<!-- FW 
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_BIOWELL</ImprovementType>
 			<TechType>TECH_BIOMODIFICATION</TechType>
@@ -2638,8 +2611,6 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>4</Yield>
 		</Row>
-
-		<!--
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_COMM_ARRAY</ImprovementType>
 			<TechType>TECH_MEMETICS</TechType>
@@ -2652,8 +2623,6 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>2</Yield>
 		</Row>
-		-->
-
 		<Row>
 			<ImprovementType>IMPROVEMENT_FW_PRESERVE</ImprovementType>
 			<TechType>TECH_ECOSOPHY</TechType>
@@ -2666,6 +2635,7 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		-->
 
 		<Row>
 			<ImprovementType>IMPROVEMENT_KASBAH</ImprovementType>
@@ -2745,4 +2715,4 @@
 
 
 
-	</GameData>
+</GameData>

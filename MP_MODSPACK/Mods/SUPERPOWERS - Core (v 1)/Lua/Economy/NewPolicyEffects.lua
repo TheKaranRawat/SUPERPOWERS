@@ -1,389 +1,248 @@
--- NewPolicyEffects
+-- NewPolicyEffects (optimized / hardened)
+-- Changes vs original:
+--  * All functions local (no global namespace collisions)
+--  * Database IDs cached once at load via GameInfoTypes
+--  * Nil-safety for cities, players, missing DB entries
+--  * SetNumRealBuilding only called when the value actually changes
+--  * Table-driven manpower / city hall logic
+--  * print() gated behind DEBUG
 
+local DEBUG = false
+local HUMAN_ONLY = true -- set false to apply PolicyAdopted effects to AI too
 
+local function dprint(...)
+	if DEBUG then print(...) end
+end
 
+---------------------------------------------------------------------
+-- Cached lookups (resolved once at load)
+---------------------------------------------------------------------
+local POLICY_MILITARISM              = GameInfoTypes["POLICY_MILITARISM"]
+local POLICY_CITIZENSHIP             = GameInfoTypes["POLICY_CITIZENSHIP"]
+local POLICY_DICTATORSHIP_PROLETARIAT = GameInfoTypes["POLICY_DICTATORSHIP_PROLETARIAT"]
+local POLICY_REPRESENTATION          = GameInfoTypes["POLICY_REPRESENTATION"]
+local POLICY_MONARCHY                = GameInfoTypes["POLICY_MONARCHY"]
+local POLICY_ARISTOCRACY             = GameInfoTypes["POLICY_ARISTOCRACY"]
 
---------------------------------------------------------------
--------------------------------------------------------------------------New Policy Effects-----------------------------------------------------------------------
--- Militarism reduce city resistance time
-function OnCityCaptured(oldPlayerID, iCapital, iX, iY, newPlayerID, bConquest, iGreatWorksPresent, iGreatWorksXferred)
+local UNIT_WORKER          = GameInfoTypes["UNIT_WORKER"]
+local UNIT_BRAZILIAN_LABOR = GameInfoTypes["UNIT_BRAZILIAN_LABOR"]
+local CIV_BRAZIL           = GameInfoTypes["CIVILIZATION_BRAZIL"]
+local CIV_ROME             = GameInfoTypes["CIVILIZATION_ROME"]
 
-	local PolicyAuto = GameInfo.Policies["POLICY_MILITARISM"].ID
-	local NewPlayer = Players[newPlayerID]
-	local resModifier = -50
-	local pPlot = Map.GetPlot(iX, iY)
-	local pCity = pPlot:GetPlotCity()
-	
-	if NewPlayer == nil then
-		print ("No players")
-		return
-	end 
-	
-	if NewPlayer:IsBarbarian() or NewPlayer:IsMinorCiv() then
-		print ("Minors are Not available!")
-    	return
+local B_CITY_SIZE_TOWN = GameInfoTypes["BUILDING_CITY_SIZE_TOWN"]
+local B_TRADITION_FOOD_GROWTH = GameInfoTypes["BUILDING_TRADITION_FOOD_GROWTH"]
+local B_TRADITION_MANPOWER = GameInfoTypes["BUILDING_TRADITION_MANPOWER"]
+local B_REPRESENTATION_CULTURE = GameInfoTypes["BUILDING_REPRESENTATION_CULTURE"]
+
+local B_CONSTABLE      = GameInfoTypes["BUILDING_CONSTABLE"]
+local B_ROMAN_SENATE   = GameInfoTypes["BUILDING_ROMAN_SENATE"]
+local B_SHERIFF_OFFICE = GameInfoTypes["BUILDING_SHERIFF_OFFICE"]
+local B_POLICE_STATION = GameInfoTypes["BUILDING_POLICE_STATION"]
+local B_PROCURATORATE  = GameInfoTypes["BUILDING_PROCURATORATE"]
+
+-- Highest size first; first match wins (same precedence as original if/elseif)
+local MANPOWER_BY_SIZE = {
+	{ GameInfoTypes["BUILDING_CITY_SIZE_GLOBAL"], 5 },
+	{ GameInfoTypes["BUILDING_CITY_SIZE_XXL"],    4 },
+	{ GameInfoTypes["BUILDING_CITY_SIZE_XL"],     3 },
+	{ GameInfoTypes["BUILDING_CITY_SIZE_LARGE"],  2 },
+	{ GameInfoTypes["BUILDING_CITY_SIZE_MEDIUM"], 1 },
+}
+
+local CITY_HALL = {
+	GameInfoTypes["BUILDING_CITY_HALL_LV1"],
+	GameInfoTypes["BUILDING_CITY_HALL_LV2"],
+	GameInfoTypes["BUILDING_CITY_HALL_LV3"],
+	GameInfoTypes["BUILDING_CITY_HALL_LV4"],
+	GameInfoTypes["BUILDING_CITY_HALL_LV5"],
+}
+
+---------------------------------------------------------------------
+-- Helpers
+---------------------------------------------------------------------
+-- Only touch the city if the value differs (each Set can trigger a yield recalc)
+local function SetReal(city, buildingID, count)
+	if buildingID and city:GetNumRealBuilding(buildingID) ~= count then
+		city:SetNumRealBuilding(buildingID, count)
 	end
-	
-	if NewPlayer:HasPolicy(PolicyAuto) then
-	local resTime = pCity:GetResistanceTurns()
-	local CityPop = pCity:GetPopulation()
-		print("resTime="..resTime)
-		
-		if CityPop < 6 then
-			pCity:ChangeResistanceTurns(-CityPop)
-		end
-		
-		if resTime > 1 then
-		  	local resTimeRatio =  resTime * resModifier/100 +0.5
-		  	local resTimeChange = math.floor(resTimeRatio)
-			print ("resTimeChange="..resTimeChange)
-			pCity:ChangeResistanceTurns(resTimeChange)
-		end
-	end	
+end
+
+---------------------------------------------------------------------
+-- Militarism: reduce city resistance time
+---------------------------------------------------------------------
+local function OnCityCaptured(oldPlayerID, iCapital, iX, iY, newPlayerID, bConquest, iGreatWorksPresent, iGreatWorksXferred)
+	if not POLICY_MILITARISM then return end
+
+	local newPlayer = Players[newPlayerID]
+	if newPlayer == nil or newPlayer:IsBarbarian() or newPlayer:IsMinorCiv() then
+		return
+	end
+	if not newPlayer:HasPolicy(POLICY_MILITARISM) then
+		return
+	end
+
+	local pPlot = Map.GetPlot(iX, iY)
+	local pCity = pPlot and pPlot:GetPlotCity()
+	if pCity == nil then return end -- city may have been razed
+
+	local turns = pCity:GetResistanceTurns()
+	if turns <= 0 then return end
+
+	local delta = 0
+
+	-- Small cities: remove one turn of resistance per pop (clamped to actual turns)
+	local pop = pCity:GetPopulation()
+	if pop < 6 then
+		delta = -math.min(pop, turns)
+	end
+
+	-- Then halve what's left (rounded same way as original)
+	local remaining = turns + delta
+	if remaining > 1 then
+		delta = delta + math.floor(-remaining * 0.5 + 0.5)
+	end
+
+	if delta ~= 0 then
+		dprint("Militarism resistance change:", delta)
+		pCity:ChangeResistanceTurns(delta)
+	end
 end
 GameEvents.CityCaptureComplete.Add(OnCityCaptured)
 
+---------------------------------------------------------------------
+-- Citizenship: free Worker when a new city is founded
+---------------------------------------------------------------------
+local function FreeUnitNewCity(iPlayerID, iX, iY)
+	if not POLICY_CITIZENSHIP then return end
 
+	local player = Players[iPlayerID]
+	if player == nil or not player:HasPolicy(POLICY_CITIZENSHIP) then
+		return
+	end
 
+	local unitType = UNIT_WORKER
+	if CIV_BRAZIL and UNIT_BRAZILIAN_LABOR and player:GetCivilizationType() == CIV_BRAZIL then
+		unitType = UNIT_BRAZILIAN_LABOR
+	end
+	if not unitType then return end
 
-
--- Citizenship offer free Worker when new city founded
-function FreeUnitNewCity(iPlayerID,iX,iY)
-    local iPlayer = Players[iPlayerID]
-	local pPlot = Map.GetPlot(iX, iY)
-	local PolicyLiberty = GameInfo.Policies["POLICY_CITIZENSHIP"].ID
-	local WorkerID = GameInfoTypes.UNIT_WORKER
-	
-    if iPlayer:HasPolicy(PolicyLiberty) then
---    	print ("Free Policy Unit!")
-		if iPlayer:GetCivilizationType() == GameInfoTypes["CIVILIZATION_BRAZIL"] then
-			WorkerID = GameInfoTypes.UNIT_BRAZILIAN_LABOR
-   	 	end
-   	 	
-   	 	local NewUnit = iPlayer:InitUnit(WorkerID, iX, iY, UNITAI_WORKER)
-		NewUnit:JumpToNearestValidPlot()    
+	local newUnit = player:InitUnit(unitType, iX, iY, UnitAITypes.UNITAI_WORKER)
+	if newUnit then
+		newUnit:JumpToNearestValidPlot()
 	end
 end
-
 GameEvents.PlayerCityFounded.Add(FreeUnitNewCity)
 
-
---
---
---
----- Honor training unit gain Science
---function UnitGainScience(iPlayer, iCity, iUnit, bGold, bFaith)
---   local player = Players[iPlayer]
---   local pUnit = player:GetUnitByID(iUnit)
---   local policyID = GameInfoTypes["POLICY_MILITARY_CASTE"]
---   
---  	if player == nil then
---		print ("No players")
---		return
---	end 
---	
---
---	
---	if player:IsBarbarian() or player:IsMinorCiv() then
---		print ("Minors are Not available!")
---    	return
---	end
---	
---	if player:GetNumCities() < 1 then 
---		print ("No Cities!")
---		return
---	end
---	
---	 if pUnit == nil then
---		print ("No Units")
---		return
---   	end 
---   
---
---
---	if player:HasPolicy(policyID) and pUnit:IsCombatUnit() then
-----		print("New unit built!")
---
---		if not player:IsTurnActive() then
---			print ("Not Current Player")
---			return
---		end 
---	
---
---		local team = Teams[player:GetTeam()]
---		local teamTechs = team:GetTeamTechs()
---		
---		if not teamTechs then --------------Avoid AI crash if a Tech is finished right after a unit built
---			print ("no Tech under researching")
---			return
---		end
---		
---		local currentTech = player:GetCurrentResearch()
---		local researchProgress = teamTechs:GetResearchProgress(currentTech)
---		
---		if not currentTech then
---			return
---		end
---		
---		if not researchProgress then
---			return
---		end
---		
---		
---		local pUnitStrength = pUnit:GetBaseCombatStrength()
---		
---		if pUnitStrength < 1 then 
---			return
---		end
---		
---		
---		if pUnit:IsRanged() then
---			if pUnit:GetBaseCombatStrength() < pUnit:GetBaseRangedCombatStrength()	then
---				pUnitStrength = pUnit:GetBaseRangedCombatStrength()	
---			else
---				pUnitStrength = pUnit:GetBaseCombatStrength()	
---			end
---		end
---		
---		local adjustedBonus = math.ceil(pUnitStrength*0.5)
---		-- Give the Science
---		
---		print ("researchProgress "..researchProgress)
---		if researchProgress > 0 then
---   			teamTechs:SetResearchProgress(currentTech, researchProgress + adjustedBonus)
---   			local text
---			if adjustedBonus > 0 then		   
---			   text = Locale.ConvertTextKey( "TXT_KEY_SP_NOTIFICATION_UNIT_GAIN_SCIENCE", tostring(adjustedBonus), pUnit:GetName())
---			end
---			if player:IsHuman() then
---				Events.GameplayAlertMessage( text )
---			end
---		end
---		
---
---		
---		
---
---		-- Send a notification to the player
-----		if player:IsHuman()then
-----			local text = Locale.ConvertTextKey("TXT_KEY_SP_POLICY_SCIENCE_FROM_UNIT", tostring(adjustedBonus), pUnit:GetName())
-----			player:AddNotification(NotificationTypes.NOTIFICATION_GENERIC, text, text)
-----		end
---	end
---end
---GameEvents.CityTrained.Add(UnitGainScience)
---
-
-
-
-function PolicyAdoptedEffects(playerID,policyID)
-
- local player = Players[playerID]	
- 
- 	if player== nil then
- 		return
- 	end
-	
-	if not player:IsHuman() then ------(only for human players for now)
-		print ("Ai Poicy, not available!")
-    	return
+---------------------------------------------------------------------
+-- Policy adoption effects
+---------------------------------------------------------------------
+local function FasterFoodGrowth(player)
+	if not B_CITY_SIZE_TOWN then return end
+	for city in player:Cities() do
+		if city:IsHasBuilding(B_CITY_SIZE_TOWN) then
+			city:ChangeFood(city:GrowthThreshold())
+			SetReal(city, B_TRADITION_FOOD_GROWTH, 1)
+			dprint("Aristocracy Growth Bonus!")
+		end
 	end
-	
-	if player:GetNumCities() < 1 then 
-		return
-		print("Not enough city!")	
-	end
-	
-	 if policyID == nil then
-		return
-   	end 
-
-	if policyID == GameInfo.Policies["POLICY_DICTATORSHIP_PROLETARIAT"].ID then
-		ChangeACBuildings (player)		
-	elseif policyID == GameInfo.Policies["POLICY_REPRESENTATION"].ID then
-		ReducePolicyCost (player)		
-	elseif policyID == GameInfo.Policies["POLICY_MONARCHY"].ID then
-		AddAdditionalManpower (player)	
-	elseif policyID == GameInfo.Policies["POLICY_ARISTOCRACY"].ID then
-		FasterFoodGrowth (player)		
-			
-	end
-	
-	
-
 end
 
-GameEvents.PlayerAdoptPolicy.Add(PolicyAdoptedEffects);
+local function AddAdditionalManpower(player)
+	for city in player:Cities() do
+		for i = 1, #MANPOWER_BY_SIZE do
+			local entry = MANPOWER_BY_SIZE[i]
+			if entry[1] and city:IsHasBuilding(entry[1]) then
+				SetReal(city, B_TRADITION_MANPOWER, entry[2])
+				break
+			end
+		end
+	end
+end
 
+local function ReducePolicyCost(player)
+	for city in player:Cities() do
+		if not city:IsPuppet() and not city:IsCapital() then
+			SetReal(city, B_REPRESENTATION_CULTURE, 1)
+			dprint("Player has the Representation policy!")
+		end
+	end
+end
 
+-- Downgrade each city's City Hall by one level (and its law-enforcement building)
+local function ChangeACBuildings(player)
+	local isRome = (CIV_ROME ~= nil and player:GetCivilizationType() == CIV_ROME)
 
+	for city in player:Cities() do
+		-- Find current city hall level (2..5), same precedence as original
+		local level
+		for i = 2, 5 do
+			local id = CITY_HALL[i]
+			if id and city:IsHasBuilding(id) then
+				level = i
+				break
+			end
+		end
+
+		if level then
+			if level == 2 then
+				if B_CONSTABLE and city:IsHasBuilding(B_CONSTABLE) then
+					SetReal(city, B_CONSTABLE, 0)
+					SetReal(city, B_ROMAN_SENATE, 0)
+				end
+
+			elseif level == 3 then
+				if B_SHERIFF_OFFICE and city:IsHasBuilding(B_SHERIFF_OFFICE) then
+					SetReal(city, B_SHERIFF_OFFICE, 0)
+					if isRome then
+						SetReal(city, B_CONSTABLE, 0)
+						SetReal(city, B_ROMAN_SENATE, 1)
+					else
+						SetReal(city, B_CONSTABLE, 1)
+					end
+				end
+
+			elseif level == 4 then
+				if B_POLICE_STATION and city:IsHasBuilding(B_POLICE_STATION) then
+					SetReal(city, B_POLICE_STATION, 0)
+					SetReal(city, B_SHERIFF_OFFICE, 1)
+				end
+
+			elseif level == 5 then
+				if B_PROCURATORATE and city:IsHasBuilding(B_PROCURATORATE) then
+					SetReal(city, B_PROCURATORATE, 0)
+					SetReal(city, B_POLICE_STATION, 1)
+				end
+			end
+
+			-- Exactly one hall level (level-1) remains
+			for i = 1, 5 do
+				SetReal(city, CITY_HALL[i], (i == level - 1) and 1 or 0)
+			end
+			dprint("AC building changed!")
+		end
+	end
+end
+
+-- Dispatch table: policyID -> handler (skips entries missing from the database)
+local PolicyHandlers = {}
+if POLICY_DICTATORSHIP_PROLETARIAT then PolicyHandlers[POLICY_DICTATORSHIP_PROLETARIAT] = ChangeACBuildings end
+if POLICY_REPRESENTATION           then PolicyHandlers[POLICY_REPRESENTATION]           = ReducePolicyCost end
+if POLICY_MONARCHY                 then PolicyHandlers[POLICY_MONARCHY]                 = AddAdditionalManpower end
+if POLICY_ARISTOCRACY              then PolicyHandlers[POLICY_ARISTOCRACY]              = FasterFoodGrowth end
+
+local function PolicyAdoptedEffects(playerID, policyID)
+	if policyID == nil then return end
+
+	local handler = PolicyHandlers[policyID]
+	if handler == nil then return end -- most policies exit here, cheaply
+
+	local player = Players[playerID]
+	if player == nil then return end
+	if HUMAN_ONLY and not player:IsHuman() then return end
+	if player:GetNumCities() < 1 then return end
+
+	handler(player)
+end
+GameEvents.PlayerAdoptPolicy.Add(PolicyAdoptedEffects)
 
 print("New Policy Effects Check Pass!")
-
-----------------------------------------------CITY STATE DEFENSE SCRIPT------------------------
-
---[[
-function csdefence(playerID, buildingTypeID)
-
-	local player = Players[playerID]	
-	local buildingID = buildingTypeID
-
-		if player== nil then
-			return
-		end
-	   
-		if not player:IsMinorCiv() then
-			print ("Civ City Skipped for CSdefence")
-			return 
-	    end
-
-	   if player:IsHuman() then 
-		   print ("Human City Skipped for CSdefence")
-		   return
-	   end
-	   
-	   if player:GetNumCities() < 1 then 
-		   return
-		   print("CS has less than one city")	
-	   end
-	   	   
-	   addcsdefence (player, buildingID)	
-	   
-   end
-
-   -- GameEvents.PlayerCanConstruct(playerID, buildingTypeID);
-   GameEvents.PlayerCanConstruct.Add(csdefence);
-
-
-   function addcsdefence (player, buildingID)	
-
-	for city in player:Cities() do
-		if city:IsHasBuilding(GameInfo.Buildings["BUILDING_CITY_SIZE_TOWN"].ID) then
-				
-			city:SetNumRealBuilding(GameInfoTypes["BUILDING_TRADITION_FOOD_GROWTH"],1)
-			print ("Aristocracy Growth Bonus!")
-		end
-	end
-end
-]]--
-
-
-----------------------------------------------Utilities----------------------------------------
-
-function FasterFoodGrowth (player)	
-	for city in player:Cities() do
-		if city:IsHasBuilding(GameInfo.Buildings["BUILDING_CITY_SIZE_TOWN"].ID) then
-			local pPopulation = city:GetPopulation()
-			local pThreshold = city:GrowthThreshold ()
-			city:ChangeFood(pThreshold)			
-			city:SetNumRealBuilding(GameInfoTypes["BUILDING_TRADITION_FOOD_GROWTH"],1)
-			print ("Aristocracy Growth Bonus!")
-		end
-	end
-end
-
-
-function AddAdditionalManpower (player)
-	for city in player:Cities() do
-		if city:IsHasBuilding(GameInfo.Buildings["BUILDING_CITY_SIZE_GLOBAL"].ID) then
-			city:SetNumRealBuilding(GameInfoTypes["BUILDING_TRADITION_MANPOWER"],5)
-			
-		elseif city:IsHasBuilding(GameInfo.Buildings["BUILDING_CITY_SIZE_XXL"].ID) then
-			city:SetNumRealBuilding(GameInfoTypes["BUILDING_TRADITION_MANPOWER"],4)
-			
-		elseif city:IsHasBuilding(GameInfo.Buildings["BUILDING_CITY_SIZE_XL"].ID) then
-			city:SetNumRealBuilding(GameInfoTypes["BUILDING_TRADITION_MANPOWER"],3)	
-			
-		elseif city:IsHasBuilding(GameInfo.Buildings["BUILDING_CITY_SIZE_LARGE"].ID) then
-			city:SetNumRealBuilding(GameInfoTypes["BUILDING_TRADITION_MANPOWER"],2)	
-			
-		elseif city:IsHasBuilding(GameInfo.Buildings["BUILDING_CITY_SIZE_MEDIUM"].ID) then
-			city:SetNumRealBuilding(GameInfoTypes["BUILDING_TRADITION_MANPOWER"],1)		
-		end
-	end
-end
-
-
-
-function ReducePolicyCost (player)
-	for pCity in player:Cities() do
-		if not pCity:IsPuppet() and not pCity:IsCapital() then
-	  	  pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_REPRESENTATION_CULTURE"],1)	
-	  	  print ("Player has the Representation policy!")
-	   end
-	end
-end
-
-
-
-
-function ChangeACBuildings (player)
-
-	for pCity in player:Cities() do
-		if pCity:IsHasBuilding(GameInfo.Buildings["BUILDING_CITY_HALL_LV2"].ID) then
-		
-		   if pCity:IsHasBuilding(GameInfo.Buildings["BUILDING_CONSTABLE"].ID) then
-			   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CONSTABLE"],0);
-			   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_ROMAN_SENATE"],0)
-		   end
-		   
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV1"],1)
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV2"],0)
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV3"],0)
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV4"],0)
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV5"],0)
-		   
-		   
-		   
-		 elseif pCity:IsHasBuilding(GameInfo.Buildings["BUILDING_CITY_HALL_LV3"].ID) then
-
-		  if pCity:IsHasBuilding(GameInfo.Buildings["BUILDING_SHERIFF_OFFICE"].ID) then
-			   if player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_ROME"] then
-			      pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_SHERIFF_OFFICE"],0); 
-			   	  pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CONSTABLE"],0); 
-			      pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_ROMAN_SENATE"],1)
-			   else   
-			   	  pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_SHERIFF_OFFICE"],0); 
-			      pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CONSTABLE"],1);
-			   end
-		   end
-		   
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV1"],0)
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV2"],1)
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV3"],0)
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV4"],0)
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV5"],0)
-		   
-		   
-		   
-		 elseif pCity:IsHasBuilding(GameInfo.Buildings["BUILDING_CITY_HALL_LV4"].ID) then
-		  
-		   if pCity:IsHasBuilding(GameInfo.Buildings["BUILDING_POLICE_STATION"].ID) then
-		   	  pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATION"],0); 
-		  	  pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_SHERIFF_OFFICE"],1); 
-		   end
-		   
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV1"],0)
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV2"],0)
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV3"],1)
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV4"],0)
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV5"],0)
-		   
-		 elseif pCity:IsHasBuilding(GameInfo.Buildings["BUILDING_CITY_HALL_LV5"].ID) then
-		 
-			 if pCity:IsHasBuilding(GameInfo.Buildings["BUILDING_PROCURATORATE"].ID) then
-			   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_PROCURATORATE"],0); 
-			   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATION"],1); 
-			 end	
-			 
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV1"],0)
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV2"],0)
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV3"],0)
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV4"],1)
-		   pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV5"],0)
-			 
-		end
-		print ("AC building changed!")	
-	end
-end
-

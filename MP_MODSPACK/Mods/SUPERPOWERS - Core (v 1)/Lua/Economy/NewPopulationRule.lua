@@ -2,13 +2,15 @@
 
 --------------------------------------------------------------
 
---------------------------------------------------------------Still WIP! Some functions are still stupid and cumbersome! Sorry but I'm a newbee for programming!!!----------------------------------
+---------Still WIP! Some functions are still stupid and cumbersome! Sorry but I'm a newbee for programming!!!----------------------------------
 
-include( "UtilityFunctions.lua" )
+--include( "UtilityFunctions.lua" )
 
 
 
 -----------------------------------------------------------------------Settlers & Population---------------------------------------
+
+--[[ SETTLER CONSUMES POPULATION
 function SettlerTrainedCity(iPlayer, iCity, iUnit, bGold, bFaith)
    local pPlayer = Players[iPlayer]
    local pUnit = pPlayer:GetUnitByID(iUnit)
@@ -37,7 +39,7 @@ function SettlerTrainedCity(iPlayer, iCity, iUnit, bGold, bFaith)
 end
 GameEvents.CityTrained.Add(SettlerTrainedCity)
 
-
+]]--
 
 
 
@@ -48,6 +50,9 @@ GameEvents.CityTrained.Add(SettlerTrainedCity)
 ---------------------------------------------------------------------Unit death cause population loss---------------------------------------
 
 --
+
+--[[ DISABLE POP LOSS FROM UNIT LOSS
+
 g_UnitDeathSum = 0 ------------Counter for the total unit death 
 --g_UnitDeathSumAI = 0
 
@@ -222,7 +227,7 @@ function PlayerUnitPopulationLoss(defPlayer)
 	end	
 end		
 
-
+]]--
 
 
 -----------------------------------------------------------------------Reset Unit Death Counter---------------------------------------
@@ -248,26 +253,11 @@ end
 --end
 
 
-
-
-
-
-
-
-
 ------------------------------------------------------------------Misc Functions-------------------------------------------------------------------------
 
 
 
-
-
-
-
-
-
-
-
-print("New Population Rule Pass!")
+-- print("New Population Rule Pass!")
 	
 
 

@@ -131,6 +131,7 @@ GameEvents.CityConstructed.Add(NewBuildingEffects)
 
 
 
+--[[ DISABLE RESOURCE NOTIF ]]--
 
 function NotificationEvents (notification,notificationType,toolTip,summary)
 
@@ -139,7 +140,7 @@ function NotificationEvents (notification,notificationType,toolTip,summary)
 	-------------Remove Useless Notifications （Temporary method）
 	
 	
-
+	-- local GrowthKeywords = string.find(summary,"OVER_RESOURCE") 
 	local Keywords = string.find(summary,"OVER_RESOURCE") 
 
 	if Keywords ~= nil then 
@@ -163,14 +164,14 @@ function NotificationEvents (notification,notificationType,toolTip,summary)
 
 end
 Events.NotificationAdded.Add(NotificationEvents);
+--[[
+]]--
 
 
 
 
 
-
-
-
+--[[DISABLE AUTO BUILDING UPGRADE
 -------Auto replacement for obsolete buildings, currently only for human player for stability issues
 
 
@@ -324,7 +325,7 @@ function AutoBuildingReplace(iTeam, iTech, bAdopted)
 end------Function End
 GameEvents.TeamSetHasTech.Add(AutoBuildingReplace)
 
-
+]]--
 
 
 
