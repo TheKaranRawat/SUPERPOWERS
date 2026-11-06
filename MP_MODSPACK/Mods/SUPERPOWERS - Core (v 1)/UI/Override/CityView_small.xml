@@ -12,7 +12,7 @@
 	<!-- Population Info Offset="290,42" -->
 			<Button ID="PopulationBox" Anchor="C,T" Offset="-173,51" Size="210,64">
 				<Image Anchor="L,C" Texture="NotificationFrameBase.dds" Size="80.80" >
-					<Image Anchor="C,C" Offset="81,-1" Color="White.32" Texture="CitizenMeter54.dds" Size="54.54"/>
+					<Image Anchor="C,C" Offset="-1,-1" Color="White.32" Texture="CitizenMeter54.dds" Size="54.54"/>
 					<TextureBar ID="PeopleMeter" Anchor="C,C" Offset="-1,-1" Size="54.54" Texture="CitizenMeter54.dds" Direction="Up" />
 					<Stack Anchor="R,T" AnchorSide="O.I" Offset="-160,0" StackGrowth="Bottom">
 						<Label ID="CityPopulationLabel" Anchor="L,C" Font="TwCenMT22">
@@ -32,7 +32,7 @@
 			</Image>
 
 	<!-- GridBlackIndent8 -->
-	<Grid ID="CityInfoBG" Size="390,53" ConsumeMouse="1" Anchor="C,T" Offset="0,79" Color="0,0,0,160"  Hidden="0" >
+	<Grid ID="CityInfoBG" Size="390,53" ConsumeMouse="1" Anchor="C,T" Offset="0,79" Color="0,0,0,220"  Hidden="0" >
 		<Grid Anchor="C.C" Size="396,59" Style="Grid9Frame" ID="CityInfoFrame" />
 		<!-- CITY INFORMATION LABEL -->
 		<Label Anchor="C,T" Offset="0,18" String="TXT_KEY_CITYVIEW_CITYINFO_TEXT" Hidden="1"/>
