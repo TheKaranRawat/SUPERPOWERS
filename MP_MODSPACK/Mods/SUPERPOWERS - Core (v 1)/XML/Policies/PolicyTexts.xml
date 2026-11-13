@@ -625,6 +625,7 @@
 				[COLOR_POSITIVE_TEXT]Settler Colonialism[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]+20% [ICON_PRODUCTION] Production for training [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]+20% [ICON_PRODUCTION] Bonus Production for training [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR] in the Capital
+			</Text>
 		</Replace>
 		<!-- 
 			[NEWLINE][ICON_BULLET]One free [COLOR_POSITIVE_TEXT]Settler[ENDCOLOR]</Text>
@@ -661,7 +662,7 @@
 		<Replace Tag="TXT_KEY_POLICY_MERITOCRACY_HELP">
 			<Text>
 				[COLOR_POSITIVE_TEXT]Landed Elite[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+20 [ICON_PRODUCTION] Production for every City
+				[NEWLINE][ICON_BULLET]+10 [ICON_PRODUCTION] Production for every City
 				[NEWLINE][ICON_BULLET]+20% [ICON_PRODUCTION] Production in cities when constructing Buildings
 			</Text>
 		</Replace>

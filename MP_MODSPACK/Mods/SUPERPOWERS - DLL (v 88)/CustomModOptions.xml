@@ -29,7 +29,7 @@
     <!-- Changes the stacking limits based on what the tile is (city, fort, plain, etc) (v19) -->
     <!-- See also: "Global - 2 Units Per Fort" -->
     <!-- See also: "Global - 3 Units Per City" -->
-    <Row Class="5" Name="GLOBAL_STACKING_RULES" Value="0" DbUpdates="1"/>
+    <Row Class="5" Name="GLOBAL_STACKING_RULES" Value="1" DbUpdates="1"/>
     
     <!-- This is the "No More Civilian Traffic Jams (NMCTJs) Mod" by Pazyryk - see http://forums.civfanatics.com/showthread.php?t=519754 (v45) -->
     <!-- See also: "Global - No More Civilian Traffic Jams" -->

@@ -28,11 +28,11 @@
 
 	<Box ID="TopPanelMask" Hidden="1" ConsumeMouse="1" Anchor="C,T" Size="Full.30" Color="0,0,0,200" />
 
-	<Image ID="TopPanelBarL" Hidden="1" ConsumeMouse="1" Anchor="L,T" Texture="TopPanelBar.dds" Size="512.32" >
+	<Image ID="TopPanelBarL" Hidden="1" ConsumeMouse="1" Anchor="L,T" Texture="TopPanelBar.dds" Color="0,0,0,190" Size="512.32" >
 		<Image Anchor="R,T" AnchorSide="O,I" Offset="-9,-30" Texture="Dec32x64Right.dds" Size="32.64" ConsumeMouse="true" />
 	</Image>
 
-	<Image ID="TopPanelBarR" Hidden="1" ConsumeMouse="1" Anchor="R,T" Texture="TopPanelBar.dds" Size="512.32" >
+	<Image ID="TopPanelBarR" Hidden="1" ConsumeMouse="1" Anchor="R,T" Texture="TopPanelBar.dds" Color="0,0,0,190"  Size="512.32" >
 		<Image Anchor="L,T" AnchorSide="O,I" Offset="-9,-30" Texture="Dec32x64Left.dds" Size="32.64" ConsumeMouse="true" />
 	</Image>
 	<Image ID="TopPanelBar" Anchor="C,T" Texture="TopPanelBar.dds" Size="Full.32" ConsumeMouse="true" />

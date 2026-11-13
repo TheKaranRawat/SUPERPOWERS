@@ -234,6 +234,8 @@ supply text description
 dynamic civ names
 uiMsg == 523
 
+if UI.IsDX9() then
+
 disable UpdateWorkingHexesNow in cityview.lua
 
 right click close policy menu/tech researched popup/natural wonder/greatest city/wonder popup/golden age/minor civ

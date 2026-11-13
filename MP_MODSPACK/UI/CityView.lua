@@ -421,7 +421,7 @@ function( uiMsg, wParam )
 	end
 
 	-- mouse keys
-	print("uiMsg: " .. tostring(uiMsg) .. "  wParam: " .. tostring(wParam))
+	--print("uiMsg: " .. tostring(uiMsg) .. "  wParam: " .. tostring(wParam))
 
 	if wParam == Keys.VK_ESCAPE then
 		if uiMsg == KeyEvents.KeyDown then
@@ -1088,8 +1088,16 @@ local g_SelectionListCallBacks = {
 			end
 		end,
 		-- right click buys units, Ctrl + right click opens the Pedia
+		-- add purchase fail sound
 		[Mouse.eRClick] = function( orderID, itemID )
-			if orderID == OrderTypes.ORDER_TRAIN and GetSelectedModifiableCity() and not UI.CtrlKeyDown() then
+			local city = GetSelectedModifiableCity()
+			if orderID == OrderTypes.ORDER_TRAIN and city and not UI.CtrlKeyDown() then
+				-- IsCanPurchase( testCost, testTrainable, unitID, buildingID, projectID, yieldType )
+				if not city:IsCanPurchase( true, true, itemID, -1, -1, g_yieldCurrency )
+					and city:IsCanPurchase( true, true, itemID, -1, -1, YieldTypes.YIELD_FAITH )
+				then
+					return SelectionPurchase( orderID, itemID, YieldTypes.YIELD_FAITH, "AS2D_INTERFACE_FAITH_PURCHASE" )
+				end
 				return SelectionPurchase( orderID, itemID, g_yieldCurrency, "AS2D_INTERFACE_CITY_SCREEN_PURCHASE" )
 			end
 			return SelectionPedia( orderID, itemID )
@@ -1272,6 +1280,10 @@ local function UpdateCityProductionQueueNow( city, cityID, cityOwnerID, isVenice
 
 	Controls.PQmeter:SetPercents( storedProduction / productionNeeded, storedProductionPlusThisTurn / productionNeeded )
 	Controls.ProdPerTurnLabel:LocalizeAndSetText( "TXT_KEY_CITYVIEW_PERTURN_TEXT", currentProductionPerTurnTimes100 / 100 )
+	-- round to nearest (1.9 shows as 2)
+	Controls.ProdPerTurnLabel2:LocalizeAndSetText( "TXT_KEY_CITYVIEW_PERTURN_TEXT", math.floor( currentProductionPerTurnTimes100 / 100 + 0.5 ) )
+
+	--Controls.ProdPerTurnLabel2:LocalizeAndSetText( "TXT_KEY_CITYVIEW_PERTURN_TEXT", currentProductionPerTurnTimes100 / 100 )
 	Controls.ProductionPortraitButton:SetHide( false )
 
 	g_ProdQueueIM.ResetInstances()
@@ -1781,7 +1793,10 @@ local function UpdateTaskButton( city, cityID, cityOwner, isActivePlayerCity )
 end
 
 local function UpdateYields( city )
-	Controls.GoldPerTurnLabel:LocalizeAndSetText( "TXT_KEY_CITYVIEW_PERTURN_TEXT", city:GetYieldRateTimes100( g_yieldCurrency ) / 100 )
+	--Controls.GoldPerTurnLabel:LocalizeAndSetText( "TXT_KEY_CITYVIEW_PERTURN_TEXT", city:GetYieldRateTimes100( g_yieldCurrency ) / 100 )
+	-- round to nearest (1.9 shows as 2)
+	local currentGPT = city:GetYieldRateTimes100( g_yieldCurrency ) / 100
+	Controls.GoldPerTurnLabel:LocalizeAndSetText( "TXT_KEY_CITYVIEW_PERTURN_TEXT", math.floor( currentGPT + 0.5 ) )
 
 	if Game.IsOption( GameOptionTypes.GAMEOPTION_NO_SCIENCE ) then
 		Controls.SciencePerTurnLabel:LocalizeAndSetText( "TXT_KEY_CITYVIEW_OFF" )
@@ -1822,7 +1837,10 @@ local function UpdateYields( city )
 	else
 		Controls.CityGrowthLabel:LocalizeAndSetText( "TXT_KEY_CITYVIEW_TURNS_TILL_CITIZEN_TEXT", city:GetFoodTurnsLeft() )
 	end
-	Controls.FoodPerTurnLabel:LocalizeAndSetText( foodPerTurnTimes100 >= 0 and "TXT_KEY_CITYVIEW_PERTURN_TEXT" or "TXT_KEY_CITYVIEW_PERTURN_TEXT_NEGATIVE", foodPerTurnTimes100 / 100 )
+	--Controls.FoodPerTurnLabel:LocalizeAndSetText( foodPerTurnTimes100 >= 0 and "TXT_KEY_CITYVIEW_PERTURN_TEXT" or "TXT_KEY_CITYVIEW_PERTURN_TEXT_NEGATIVE", foodPerTurnTimes100 / 100 )
+	local currentFPT = foodPerTurnTimes100 / 100
+	Controls.FoodPerTurnLabel:LocalizeAndSetText( foodPerTurnTimes100 >= 0 and "TXT_KEY_CITYVIEW_PERTURN_TEXT" or "TXT_KEY_CITYVIEW_PERTURN_TEXT_NEGATIVE", math.floor( currentFPT + 0.5 ) )
+
 end
 
 local function UpdateButtonStates( cityOwner )

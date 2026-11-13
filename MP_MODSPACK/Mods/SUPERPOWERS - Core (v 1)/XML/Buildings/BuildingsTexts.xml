@@ -3750,6 +3750,34 @@
       		<Text>[ICON_CAPITAL] Oxford University</Text>
     	</Replace>
 
+		<Row Tag="TXT_KEY_CITYVIEW_FOOD_TEXT2">
+      		<Text>FOOD</Text>
+    	</Row>
+
+		<Row Tag="TXT_KEY_CITYVIEW_PRODUCTION_TEXT2">
+      		<Text>PROD</Text>
+    	</Row>
+
+		<Row Tag="TXT_KEY_CITYVIEW_GOLD_TEXT2">
+      		<Text>GOLD</Text>
+    	</Row>
+
+		<Row Tag="TXT_KEY_CITYVIEW_SCIENCE_TEXT2">
+      		<Text>SCI</Text>
+    	</Row>
+
+		<Row Tag="TXT_KEY_CITYVIEW_FAITH_TEXT2">
+      		<Text>FAITH</Text>
+    	</Row>
+
+		<Row Tag="TXT_KEY_CITYVIEW_CULTURE_TEXT2">
+      		<Text>CULT</Text>
+    	</Row>
+
+		<Row Tag="TXT_KEY_CITYVIEW_TOURISM_TEXT2">
+      		<Text>TOUR</Text>
+    	</Row>
+
 	</Language_en_US>
 
 	

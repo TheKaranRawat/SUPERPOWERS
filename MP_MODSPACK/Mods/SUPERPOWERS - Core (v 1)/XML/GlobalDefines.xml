@@ -3,10 +3,23 @@
 <GameData>
 
 	<CustomModOptions>
+
+		<!--
 		<Row>
 			<Name>EVENTS_RED_COMBAT_ENDED</Name>
 			<Value>1</Value>
 		</Row>
+		-->
+
+		<Update>
+			<Where Name="GLOBAL_STACKING_RULES"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="BUGFIX_CITY_STACKING"/>
+			<Set Value="1"/>
+		</Update>
+
 	</CustomModOptions>
 	
 	<Defines>
@@ -32,6 +45,11 @@
 		<Update>
 			<Set Value="4"/>
 			<Where Name="MIN_CITY_RANGE" />
+		</Update>
+
+		<Update>
+			<Where Name="CITY_UNIT_LIMIT"/>
+			<Set Value="3"/>
 		</Update>
 
 

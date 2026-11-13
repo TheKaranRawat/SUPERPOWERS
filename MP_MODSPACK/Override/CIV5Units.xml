@@ -171091,7 +171091,7 @@
 		</Row>
 		<Row> 
 			<Name>GLOBAL_STACKING_RULES</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 			<Class>5</Class> 
 			<DbUpdates>1</DbUpdates> 
 		</Row>
@@ -172303,7 +172303,7 @@
 		</Row>
 		<Row> 
 			<Name>BUGFIX_CITY_STACKING</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 			<Class>1</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
@@ -172420,7 +172420,7 @@
 		</Row>
 		<Row> 
 			<Name>EVENT_MESSAGE_TIME</Name> 
-			<Value>10</Value> 
+			<Value>20</Value> 
 		</Row>
 		<Row> 
 			<Name>START_YEAR</Name> 
@@ -172440,7 +172440,7 @@
 		</Row>
 		<Row> 
 			<Name>PLOT_VISIBILITY_RANGE</Name> 
-			<Value>1</Value> 
+			<Value>2</Value> 
 		</Row>
 		<Row> 
 			<Name>UNIT_VISIBILITY_RANGE</Name> 
@@ -172448,7 +172448,7 @@
 		</Row>
 		<Row> 
 			<Name>AIR_UNIT_REBASE_RANGE_MULTIPLIER</Name> 
-			<Value>200</Value> 
+			<Value>400</Value> 
 		</Row>
 		<Row> 
 			<Name>MOUNTAIN_SEE_FROM_CHANGE</Name> 
@@ -172488,11 +172488,11 @@
 		</Row>
 		<Row> 
 			<Name>MIN_CIV_STARTING_DISTANCE</Name> 
-			<Value>10</Value> 
+			<Value>18</Value> 
 		</Row>
 		<Row> 
 			<Name>MIN_CITY_RANGE</Name> 
-			<Value>3</Value> 
+			<Value>4</Value> 
 		</Row>
 		<Row> 
 			<Name>OWNERSHIP_SCORE_DURATION_THRESHOLD</Name> 
@@ -172560,19 +172560,19 @@
 		</Row>
 		<Row> 
 			<Name>BASE_CITY_AIR_STACKING</Name> 
-			<Value>6</Value> 
+			<Value>2</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_CAPTURE_POPULATION_PERCENT</Name> 
-			<Value>50</Value> 
+			<Value>80</Value> 
 		</Row>
 		<Row> 
 			<Name>BASE_CITY_GROWTH_THRESHOLD</Name> 
-			<Value>15</Value> 
+			<Value>10</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_GROWTH_MULTIPLIER</Name> 
-			<Value>8</Value> 
+			<Value>10</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_GROWTH_EXPONENT</Name> 
@@ -172584,7 +172584,7 @@
 		</Row>
 		<Row> 
 			<Name>HAPPINESS_PER_CITY_WITH_STATE_RELIGION</Name> 
-			<Value>0</Value> 
+			<Value>3</Value> 
 		</Row>
 		<Row> 
 			<Name>HAPPINESS_PER_NATURAL_WONDER</Name> 
@@ -172592,7 +172592,7 @@
 		</Row>
 		<Row> 
 			<Name>HAPPINESS_PER_EXTRA_LUXURY</Name> 
-			<Value>0</Value> 
+			<Value>2</Value> 
 		</Row>
 		<Row> 
 			<Name>UNHAPPINESS_PER_POPULATION</Name> 
@@ -172600,7 +172600,7 @@
 		</Row>
 		<Row> 
 			<Name>UNHAPPINESS_PER_OCCUPIED_POPULATION</Name> 
-			<Value>1.34</Value> 
+			<Value>2</Value> 
 		</Row>
 		<Row> 
 			<Name>UNHAPPINESS_PER_CITY</Name> 
@@ -172608,15 +172608,15 @@
 		</Row>
 		<Row> 
 			<Name>UNHAPPINESS_PER_CAPTURED_CITY</Name> 
-			<Value>5</Value> 
+			<Value>6</Value> 
 		</Row>
 		<Row> 
 			<Name>UNHAPPY_GROWTH_PENALTY</Name> 
-			<Value>-75</Value> 
+			<Value>-20</Value> 
 		</Row>
 		<Row> 
 			<Name>VERY_UNHAPPY_GROWTH_PENALTY</Name> 
-			<Value>-100</Value> 
+			<Value>-40</Value> 
 		</Row>
 		<Row> 
 			<Name>VERY_UNHAPPY_CANT_TRAIN_SETTLERS</Name> 
@@ -172624,11 +172624,11 @@
 		</Row>
 		<Row> 
 			<Name>VERY_UNHAPPY_THRESHOLD</Name> 
-			<Value>-10</Value> 
+			<Value>-50</Value> 
 		</Row>
 		<Row> 
 			<Name>VERY_UNHAPPY_COMBAT_PENALTY_PER_UNHAPPY</Name> 
-			<Value>-2</Value> 
+			<Value>-1</Value> 
 		</Row>
 		<Row> 
 			<Name>VERY_UNHAPPY_MAX_COMBAT_PENALTY</Name> 
@@ -172636,11 +172636,11 @@
 		</Row>
 		<Row> 
 			<Name>STRATEGIC_RESOURCE_EXHAUSTED_PENALTY</Name> 
-			<Value>-50</Value> 
+			<Value>-40</Value> 
 		</Row>
 		<Row> 
 			<Name>VERY_UNHAPPY_PRODUCTION_PENALTY_PER_UNHAPPY</Name> 
-			<Value>-2</Value> 
+			<Value>-1</Value> 
 		</Row>
 		<Row> 
 			<Name>VERY_UNHAPPY_MAX_PRODUCTION_PENALTY</Name> 
@@ -172648,7 +172648,7 @@
 		</Row>
 		<Row> 
 			<Name>VERY_UNHAPPY_GOLD_PENALTY_PER_UNHAPPY</Name> 
-			<Value>-2</Value> 
+			<Value>-1</Value> 
 		</Row>
 		<Row> 
 			<Name>VERY_UNHAPPY_MAX_GOLD_PENALTY</Name> 
@@ -172656,11 +172656,11 @@
 		</Row>
 		<Row> 
 			<Name>SUPER_UNHAPPY_THRESHOLD</Name> 
-			<Value>-20</Value> 
+			<Value>-100</Value> 
 		</Row>
 		<Row> 
 			<Name>UPRISING_COUNTER_MIN</Name> 
-			<Value>4</Value> 
+			<Value>2</Value> 
 		</Row>
 		<Row> 
 			<Name>UPRISING_COUNTER_POSSIBLE</Name> 
@@ -172668,23 +172668,23 @@
 		</Row>
 		<Row> 
 			<Name>UPRISING_NUM_BASE</Name> 
-			<Value>100</Value> 
+			<Value>200</Value> 
 		</Row>
 		<Row> 
 			<Name>UPRISING_NUM_CITY_COUNT</Name> 
-			<Value>20</Value> 
+			<Value>400</Value> 
 		</Row>
 		<Row> 
 			<Name>REVOLT_COUNTER_MIN</Name> 
-			<Value>5</Value> 
+			<Value>6</Value> 
 		</Row>
 		<Row> 
 			<Name>WLTKD_GROWTH_MULTIPLIER</Name> 
-			<Value>25</Value> 
+			<Value>33</Value> 
 		</Row>
 		<Row> 
 			<Name>INDUSTRIAL_ROUTE_PRODUCTION_MOD</Name> 
-			<Value>25</Value> 
+			<Value>10</Value> 
 		</Row>
 		<Row> 
 			<Name>RESOURCE_DEMAND_COUNTDOWN_BASE</Name> 
@@ -172700,7 +172700,7 @@
 		</Row>
 		<Row> 
 			<Name>NEW_HURRY_MODIFIER</Name> 
-			<Value>50</Value> 
+			<Value>150</Value> 
 		</Row>
 		<Row> 
 			<Name>GREAT_GENERAL_RANGE</Name> 
@@ -172736,7 +172736,7 @@
 		</Row>
 		<Row> 
 			<Name>NONCOMBAT_UNIT_RANGED_DAMAGE</Name> 
-			<Value>40</Value> 
+			<Value>70</Value> 
 		</Row>
 		<Row> 
 			<Name>NAVAL_COMBAT_DEFENDER_STRENGTH_MULTIPLIER</Name> 
@@ -172748,27 +172748,27 @@
 		</Row>
 		<Row> 
 			<Name>LAKE_PLOT_RAND</Name> 
-			<Value>160</Value> 
+			<Value>80</Value> 
 		</Row>
 		<Row> 
 			<Name>PLOTS_PER_RIVER_EDGE</Name> 
-			<Value>12</Value> 
+			<Value>6</Value> 
 		</Row>
 		<Row> 
 			<Name>RIVER_SOURCE_MIN_RIVER_RANGE</Name> 
-			<Value>4</Value> 
-		</Row>
-		<Row> 
-			<Name>RIVER_SOURCE_MIN_SEAWATER_RANGE</Name> 
 			<Value>2</Value> 
 		</Row>
 		<Row> 
+			<Name>RIVER_SOURCE_MIN_SEAWATER_RANGE</Name> 
+			<Value>4</Value> 
+		</Row>
+		<Row> 
 			<Name>LAKE_MAX_AREA_SIZE</Name> 
-			<Value>9</Value> 
+			<Value>18</Value> 
 		</Row>
 		<Row> 
 			<Name>INITIAL_GOLD_PER_UNIT_TIMES_100</Name> 
-			<Value>50</Value> 
+			<Value>0</Value> 
 		</Row>
 		<Row> 
 			<Name>INITIAL_FREE_OUTSIDE_UNITS</Name> 
@@ -172780,11 +172780,11 @@
 		</Row>
 		<Row> 
 			<Name>UNIT_MAINTENANCE_GAME_MULTIPLIER</Name> 
-			<Value>8</Value> 
+			<Value>0.0099999997764826</Value> 
 		</Row>
 		<Row> 
 			<Name>UNIT_MAINTENANCE_GAME_EXPONENT_DIVISOR</Name> 
-			<Value>7</Value> 
+			<Value>9999</Value> 
 		</Row>
 		<Row> 
 			<Name>FREE_UNIT_HAPPINESS</Name> 
@@ -172796,11 +172796,11 @@
 		</Row>
 		<Row> 
 			<Name>TRADE_ROUTE_CAPITAL_POP_GOLD_MULTIPLIER</Name> 
-			<Value>15</Value> 
+			<Value>50</Value> 
 		</Row>
 		<Row> 
 			<Name>TRADE_ROUTE_CITY_POP_GOLD_MULTIPLIER</Name> 
-			<Value>110</Value> 
+			<Value>30</Value> 
 		</Row>
 		<Row> 
 			<Name>DEFICIT_UNIT_DISBANDING_THRESHOLD</Name> 
@@ -172812,7 +172812,7 @@
 		</Row>
 		<Row> 
 			<Name>DISBAND_UNIT_REFUND_PERCENT</Name> 
-			<Value>25</Value> 
+			<Value>50</Value> 
 		</Row>
 		<Row> 
 			<Name>GOLDEN_AGE_BASE_THRESHOLD_HAPPINESS</Name> 
@@ -172820,11 +172820,11 @@
 		</Row>
 		<Row> 
 			<Name>GOLDEN_AGE_THRESHOLD_CITY_MULTIPLIER</Name> 
-			<Value>0.01</Value> 
+			<Value>0.10000000149012</Value> 
 		</Row>
 		<Row> 
 			<Name>GOLDEN_AGE_EACH_GA_ADDITIONAL_HAPPINESS</Name> 
-			<Value>250</Value> 
+			<Value>100</Value> 
 		</Row>
 		<Row> 
 			<Name>GOLDEN_AGE_VISIBLE_THRESHOLD_DIVISOR</Name> 
@@ -172876,11 +172876,11 @@
 		</Row>
 		<Row> 
 			<Name>FORTIFY_MODIFIER_PER_TURN</Name> 
-			<Value>20</Value> 
+			<Value>25</Value> 
 		</Row>
 		<Row> 
 			<Name>MAX_FORTIFY_TURNS</Name> 
-			<Value>2</Value> 
+			<Value>3</Value> 
 		</Row>
 		<Row> 
 			<Name>NUKE_FALLOUT_PROB</Name> 
@@ -172888,15 +172888,15 @@
 		</Row>
 		<Row> 
 			<Name>NUKE_UNIT_DAMAGE_BASE</Name> 
-			<Value>30</Value> 
+			<Value>40</Value> 
 		</Row>
 		<Row> 
 			<Name>NUKE_UNIT_DAMAGE_RAND_1</Name> 
-			<Value>40</Value> 
+			<Value>30</Value> 
 		</Row>
 		<Row> 
 			<Name>NUKE_UNIT_DAMAGE_RAND_2</Name> 
-			<Value>40</Value> 
+			<Value>5</Value> 
 		</Row>
 		<Row> 
 			<Name>NUKE_NON_COMBAT_DEATH_THRESHOLD</Name> 
@@ -172916,7 +172916,7 @@
 		</Row>
 		<Row> 
 			<Name>NUKE_LEVEL2_POPULATION_DEATH_BASE</Name> 
-			<Value>60</Value> 
+			<Value>80</Value> 
 		</Row>
 		<Row> 
 			<Name>NUKE_LEVEL2_POPULATION_DEATH_RAND_1</Name> 
@@ -172928,11 +172928,11 @@
 		</Row>
 		<Row> 
 			<Name>NUKE_LEVEL2_ELIM_POPULATION_THRESHOLD</Name> 
-			<Value>5</Value> 
+			<Value>15</Value> 
 		</Row>
 		<Row> 
 			<Name>NUKE_CITY_HIT_POINT_DAMAGE</Name> 
-			<Value>50</Value> 
+			<Value>60</Value> 
 		</Row>
 		<Row> 
 			<Name>NUKE_BLAST_RADIUS</Name> 
@@ -172952,11 +172952,11 @@
 		</Row>
 		<Row> 
 			<Name>PEACE_TREATY_LENGTH</Name> 
-			<Value>10</Value> 
+			<Value>30</Value> 
 		</Row>
 		<Row> 
 			<Name>COOP_WAR_LOCKED_LENGTH</Name> 
-			<Value>15</Value> 
+			<Value>10</Value> 
 		</Row>
 		<Row> 
 			<Name>BASE_FEATURE_PRODUCTION_PERCENT</Name> 
@@ -172980,7 +172980,7 @@
 		</Row>
 		<Row> 
 			<Name>MAX_UNIT_SUPPLY_PRODMOD</Name> 
-			<Value>70</Value> 
+			<Value>75</Value> 
 		</Row>
 		<Row> 
 			<Name>BUILDING_PRODUCTION_PERCENT</Name> 
@@ -173008,15 +173008,15 @@
 		</Row>
 		<Row> 
 			<Name>CIRCUMNAVIGATE_FREE_MOVES</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 		</Row>
 		<Row> 
 			<Name>BASE_CAPTURE_GOLD</Name> 
-			<Value>20</Value> 
+			<Value>200</Value> 
 		</Row>
 		<Row> 
 			<Name>CAPTURE_GOLD_PER_POPULATION</Name> 
-			<Value>10</Value> 
+			<Value>40</Value> 
 		</Row>
 		<Row> 
 			<Name>CAPTURE_GOLD_RAND1</Name> 
@@ -173072,7 +173072,7 @@
 		</Row>
 		<Row> 
 			<Name>UNIT_UPGRADE_COST_DISCOUNT_MAX</Name> 
-			<Value>-75</Value> 
+			<Value>-90</Value> 
 		</Row>
 		<Row> 
 			<Name>WAR_SUCCESS_UNIT_CAPTURING</Name> 
@@ -173092,7 +173092,7 @@
 		</Row>
 		<Row> 
 			<Name>RESEARCH_AGREEMENT_TIMER</Name> 
-			<Value>20</Value> 
+			<Value>15</Value> 
 		</Row>
 		<Row> 
 			<Name>RESEARCH_AGREEMENT_BOOST_DIVISOR</Name> 
@@ -173140,7 +173140,7 @@
 		</Row>
 		<Row> 
 			<Name>MAX_EVASION_PROBABILITY</Name> 
-			<Value>90</Value> 
+			<Value>80</Value> 
 		</Row>
 		<Row> 
 			<Name>PLAYER_ALWAYS_RAZES_CITIES</Name> 
@@ -173184,7 +173184,7 @@
 		</Row>
 		<Row> 
 			<Name>ADVANCED_START_CITY_COST</Name> 
-			<Value>84</Value> 
+			<Value>100</Value> 
 		</Row>
 		<Row> 
 			<Name>ADVANCED_START_CITY_COST_INCREASE</Name> 
@@ -173220,11 +173220,11 @@
 		</Row>
 		<Row> 
 			<Name>PUPPET_SCIENCE_MODIFIER</Name> 
-			<Value>-25</Value> 
+			<Value>-20</Value> 
 		</Row>
 		<Row> 
 			<Name>PUPPET_CULTURE_MODIFIER</Name> 
-			<Value>-25</Value> 
+			<Value>-20</Value> 
 		</Row>
 		<Row> 
 			<Name>PUPPET_GOLD_MODIFIER</Name> 
@@ -173240,11 +173240,11 @@
 		</Row>
 		<Row> 
 			<Name>POLICY_COST_INCREASE_TO_BE_EXPONENTED</Name> 
-			<Value>3</Value> 
+			<Value>2</Value> 
 		</Row>
 		<Row> 
 			<Name>POLICY_COST_EXPONENT</Name> 
-			<Value>2.01</Value> 
+			<Value>2.1199998855591</Value> 
 		</Row>
 		<Row> 
 			<Name>POLICY_COST_VISIBLE_DIVISOR</Name> 
@@ -173264,7 +173264,7 @@
 		</Row>
 		<Row> 
 			<Name>GOLD_PURCHASE_GOLD_PER_PRODUCTION</Name> 
-			<Value>30</Value> 
+			<Value>70</Value> 
 		</Row>
 		<Row> 
 			<Name>HURRY_GOLD_PRODUCTION_EXPONENT</Name> 
@@ -173288,7 +173288,7 @@
 		</Row>
 		<Row> 
 			<Name>INFLUENCE_MOUNTAIN_COST</Name> 
-			<Value>3</Value> 
+			<Value>10</Value> 
 		</Row>
 		<Row> 
 			<Name>INFLUENCE_HILL_COST</Name> 
@@ -173296,7 +173296,7 @@
 		</Row>
 		<Row> 
 			<Name>INFLUENCE_RIVER_COST</Name> 
-			<Value>1</Value> 
+			<Value>5</Value> 
 		</Row>
 		<Row> 
 			<Name>USE_FIRST_RING_INFLUENCE_TERRAIN_COST</Name> 
@@ -173304,7 +173304,7 @@
 		</Row>
 		<Row> 
 			<Name>NUM_RESOURCE_QUANTITY_TYPES</Name> 
-			<Value>4</Value> 
+			<Value>8</Value> 
 		</Row>
 		<Row> 
 			<Name>SPECIALISTS_DIVERT_POPULATION_ENABLED</Name> 
@@ -173312,7 +173312,7 @@
 		</Row>
 		<Row> 
 			<Name>SCIENCE_PER_POPULATION</Name> 
-			<Value>1</Value> 
+			<Value>0</Value> 
 		</Row>
 		<Row> 
 			<Name>RESEARCH_AGREEMENT_MOD</Name> 
@@ -173400,15 +173400,15 @@
 		</Row>
 		<Row> 
 			<Name>CULTURE_BOMB_COOLDOWN</Name> 
-			<Value>10</Value> 
+			<Value>3</Value> 
 		</Row>
 		<Row> 
 			<Name>CULTURE_BOMB_MINOR_FRIENDSHIP_CHANGE</Name> 
-			<Value>-50</Value> 
+			<Value>100</Value> 
 		</Row>
 		<Row> 
 			<Name>LANDMARK_MINOR_FRIENDSHIP_CHANGE</Name> 
-			<Value>50</Value> 
+			<Value>400</Value> 
 		</Row>
 		<Row> 
 			<Name>POST_COMBAT_TEXT_DELAY</Name> 
@@ -173520,7 +173520,7 @@
 		</Row>
 		<Row> 
 			<Name>SETTLER_BUILD_ON_COAST_PERCENT</Name> 
-			<Value>40</Value> 
+			<Value>150</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_RING_1_MULTIPLIER</Name> 
@@ -173528,35 +173528,35 @@
 		</Row>
 		<Row> 
 			<Name>CITY_RING_2_MULTIPLIER</Name> 
-			<Value>3</Value> 
+			<Value>5</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_RING_3_MULTIPLIER</Name> 
-			<Value>2</Value> 
+			<Value>4</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_RING_4_MULTIPLIER</Name> 
-			<Value>1</Value> 
+			<Value>3</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_RING_5_MULTIPLIER</Name> 
-			<Value>1</Value> 
+			<Value>2</Value> 
 		</Row>
 		<Row> 
 			<Name>SETTLER_EVALUATION_DISTANCE</Name> 
-			<Value>24</Value> 
+			<Value>11</Value> 
 		</Row>
 		<Row> 
 			<Name>SETTLER_DISTANCE_DROPOFF_MODIFIER</Name> 
-			<Value>67</Value> 
+			<Value>25</Value> 
 		</Row>
 		<Row> 
 			<Name>BUILD_ON_RESOURCE_PERCENT</Name> 
-			<Value>-50</Value> 
+			<Value>1</Value> 
 		</Row>
 		<Row> 
 			<Name>BUILD_ON_RIVER_PERCENT</Name> 
-			<Value>50</Value> 
+			<Value>100</Value> 
 		</Row>
 		<Row> 
 			<Name>CHOKEPOINT_STRATEGIC_VALUE</Name> 
@@ -173568,23 +173568,23 @@
 		</Row>
 		<Row> 
 			<Name>ALREADY_OWNED_STRATEGIC_VALUE</Name> 
-			<Value>-1000</Value> 
+			<Value>-800</Value> 
 		</Row>
 		<Row> 
 			<Name>MINOR_CIV_CONTACT_GOLD_FIRST</Name> 
-			<Value>30</Value> 
+			<Value>300</Value> 
 		</Row>
 		<Row> 
 			<Name>MINOR_CIV_CONTACT_GOLD_OTHER</Name> 
-			<Value>15</Value> 
+			<Value>200</Value> 
 		</Row>
 		<Row> 
 			<Name>MINOR_CIV_GROWTH_PERCENT</Name> 
-			<Value>150</Value> 
+			<Value>500</Value> 
 		</Row>
 		<Row> 
 			<Name>MINOR_CIV_PRODUCTION_PERCENT</Name> 
-			<Value>150</Value> 
+			<Value>100</Value> 
 		</Row>
 		<Row> 
 			<Name>MINOR_CIV_GOLD_PERCENT</Name> 
@@ -173604,15 +173604,15 @@
 		</Row>
 		<Row> 
 			<Name>MINOR_GOLD_GIFT_LARGE</Name> 
-			<Value>1000</Value> 
+			<Value>9000</Value> 
 		</Row>
 		<Row> 
 			<Name>MINOR_GOLD_GIFT_MEDIUM</Name> 
-			<Value>500</Value> 
+			<Value>4500</Value> 
 		</Row>
 		<Row> 
 			<Name>MINOR_GOLD_GIFT_SMALL</Name> 
-			<Value>250</Value> 
+			<Value>3000</Value> 
 		</Row>
 		<Row> 
 			<Name>MINOR_CIV_TILE_IMPROVEMENT_GIFT_COST</Name> 
@@ -173620,15 +173620,15 @@
 		</Row>
 		<Row> 
 			<Name>MINOR_CIV_BUYOUT_COST</Name> 
-			<Value>500</Value> 
+			<Value>12000</Value> 
 		</Row>
 		<Row> 
 			<Name>MINOR_CIV_BUYOUT_TURNS</Name> 
-			<Value>5</Value> 
+			<Value>15</Value> 
 		</Row>
 		<Row> 
 			<Name>MINOR_FRIENDSHIP_FROM_TRADE_MISSION</Name> 
-			<Value>30</Value> 
+			<Value>100</Value> 
 		</Row>
 		<Row> 
 			<Name>MINOR_FRIENDSHIP_ANCHOR_DEFAULT</Name> 
@@ -173644,11 +173644,11 @@
 		</Row>
 		<Row> 
 			<Name>MINOR_UNIT_GIFT_TRAVEL_TURNS</Name> 
-			<Value>3</Value> 
+			<Value>1</Value> 
 		</Row>
 		<Row> 
 			<Name>PLOT_UNIT_LIMIT</Name> 
-			<Value>1</Value> 
+			<Value>2</Value> 
 		</Row>
 		<Row> 
 			<Name>ZONE_OF_CONTROL_ENABLED</Name> 
@@ -173664,11 +173664,11 @@
 		</Row>
 		<Row> 
 			<Name>MAX_CITY_HIT_POINTS</Name> 
-			<Value>200</Value> 
+			<Value>450</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_HIT_POINTS_HEALED_PER_TURN</Name> 
-			<Value>20</Value> 
+			<Value>10</Value> 
 		</Row>
 		<Row> 
 			<Name>FLAT_LAND_EXTRA_DEFENSE</Name> 
@@ -173680,7 +173680,7 @@
 		</Row>
 		<Row> 
 			<Name>RIVER_ATTACK_MODIFIER</Name> 
-			<Value>-20</Value> 
+			<Value>-33</Value> 
 		</Row>
 		<Row> 
 			<Name>AMPHIB_ATTACK_MODIFIER</Name> 
@@ -173688,15 +173688,15 @@
 		</Row>
 		<Row> 
 			<Name>ENEMY_HEAL_RATE</Name> 
-			<Value>10</Value> 
+			<Value>0</Value> 
 		</Row>
 		<Row> 
 			<Name>NEUTRAL_HEAL_RATE</Name> 
-			<Value>10</Value> 
+			<Value>0</Value> 
 		</Row>
 		<Row> 
 			<Name>FRIENDLY_HEAL_RATE</Name> 
-			<Value>20</Value> 
+			<Value>15</Value> 
 		</Row>
 		<Row> 
 			<Name>INSTA_HEAL_RATE</Name> 
@@ -173704,7 +173704,7 @@
 		</Row>
 		<Row> 
 			<Name>CITY_HEAL_RATE</Name> 
-			<Value>25</Value> 
+			<Value>30</Value> 
 		</Row>
 		<Row> 
 			<Name>ATTACK_SAME_STRENGTH_MIN_DAMAGE</Name> 
@@ -173756,11 +173756,11 @@
 		</Row>
 		<Row> 
 			<Name>CITY_STRENGTH_DEFAULT</Name> 
-			<Value>800</Value> 
+			<Value>500</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_STRENGTH_POPULATION_CHANGE</Name> 
-			<Value>40</Value> 
+			<Value>80</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_STRENGTH_UNIT_DIVISOR</Name> 
@@ -173772,7 +173772,7 @@
 		</Row>
 		<Row> 
 			<Name>CITY_STRENGTH_TECH_EXPONENT</Name> 
-			<Value>2.8</Value> 
+			<Value>1.5</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_STRENGTH_TECH_MULTIPLIER</Name> 
@@ -173780,7 +173780,7 @@
 		</Row>
 		<Row> 
 			<Name>CITY_STRENGTH_HILL_CHANGE</Name> 
-			<Value>500</Value> 
+			<Value>2500</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_ATTACKING_DAMAGE_MOD</Name> 
@@ -173800,11 +173800,11 @@
 		</Row>
 		<Row> 
 			<Name>CITY_RANGED_ATTACK_STRENGTH_MULTIPLIER</Name> 
-			<Value>75</Value> 
+			<Value>50</Value> 
 		</Row>
 		<Row> 
 			<Name>MIN_CITY_STRIKE_DAMAGE</Name> 
-			<Value>10</Value> 
+			<Value>35</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_CAPTURE_DAMAGE_PERCENT</Name> 
@@ -173824,7 +173824,7 @@
 		</Row>
 		<Row> 
 			<Name>EXPERIENCE_ATTACKING_UNIT_AIR</Name> 
-			<Value>4</Value> 
+			<Value>2</Value> 
 		</Row>
 		<Row> 
 			<Name>EXPERIENCE_DEFENDING_UNIT_AIR</Name> 
@@ -173852,19 +173852,19 @@
 		</Row>
 		<Row> 
 			<Name>EXPERIENCE_ATTACKING_CITY_MELEE</Name> 
-			<Value>5</Value> 
+			<Value>6</Value> 
 		</Row>
 		<Row> 
 			<Name>EXPERIENCE_ATTACKING_CITY_RANGED</Name> 
-			<Value>3</Value> 
+			<Value>2</Value> 
 		</Row>
 		<Row> 
 			<Name>EXPERIENCE_ATTACKING_CITY_AIR</Name> 
-			<Value>4</Value> 
+			<Value>2</Value> 
 		</Row>
 		<Row> 
 			<Name>BARBARIAN_MAX_XP_VALUE</Name> 
-			<Value>30</Value> 
+			<Value>9000</Value> 
 		</Row>
 		<Row> 
 			<Name>COMBAT_EXPERIENCE_IN_BORDERS_PERCENT</Name> 
@@ -173884,7 +173884,7 @@
 		</Row>
 		<Row> 
 			<Name>UNIT_DEATH_XP_GREAT_GENERAL_LOSS</Name> 
-			<Value>50</Value> 
+			<Value>0</Value> 
 		</Row>
 		<Row> 
 			<Name>MIN_EXPERIENCE_PER_COMBAT</Name> 
@@ -173892,7 +173892,7 @@
 		</Row>
 		<Row> 
 			<Name>MAX_EXPERIENCE_PER_COMBAT</Name> 
-			<Value>10</Value> 
+			<Value>20</Value> 
 		</Row>
 		<Row> 
 			<Name>CRAMPED_RANGE_FROM_CITY</Name> 
@@ -173936,7 +173936,7 @@
 		</Row>
 		<Row> 
 			<Name>PLOT_BASE_COST</Name> 
-			<Value>50</Value> 
+			<Value>45</Value> 
 		</Row>
 		<Row> 
 			<Name>PLOT_ADDITIONAL_COST_PER_PLOT</Name> 
@@ -173948,15 +173948,15 @@
 		</Row>
 		<Row> 
 			<Name>CULTURE_COST_FIRST_PLOT</Name> 
-			<Value>15</Value> 
+			<Value>3</Value> 
 		</Row>
 		<Row> 
 			<Name>CULTURE_COST_LATER_PLOT_MULTIPLIER</Name> 
-			<Value>10</Value> 
+			<Value>5</Value> 
 		</Row>
 		<Row> 
 			<Name>CULTURE_COST_LATER_PLOT_EXPONENT</Name> 
-			<Value>1.1</Value> 
+			<Value>1.1000000238419</Value> 
 		</Row>
 		<Row> 
 			<Name>CULTURE_COST_VISIBLE_DIVISOR</Name> 
@@ -173968,7 +173968,7 @@
 		</Row>
 		<Row> 
 			<Name>MINOR_CIV_PLOT_CULTURE_COST_MULTIPLIER</Name> 
-			<Value>150</Value> 
+			<Value>1000</Value> 
 		</Row>
 		<Row> 
 			<Name>MAXIMUM_ACQUIRE_PLOT_DISTANCE</Name> 
@@ -173992,7 +173992,7 @@
 		</Row>
 		<Row> 
 			<Name>PLOT_INFLUENCE_WATER_COST</Name> 
-			<Value>25</Value> 
+			<Value>35</Value> 
 		</Row>
 		<Row> 
 			<Name>PLOT_INFLUENCE_IMPROVEMENT_COST</Name> 
@@ -174056,7 +174056,7 @@
 		</Row>
 		<Row> 
 			<Name>DIPLO_VICTORY_CIV_DELEGATES_CONSTANT</Name> 
-			<Value>7</Value> 
+			<Value>15</Value> 
 		</Row>
 		<Row> 
 			<Name>DIPLO_VICTORY_CS_DELEGATES_COEFFICIENT</Name> 
@@ -174072,7 +174072,7 @@
 		</Row>
 		<Row> 
 			<Name>SCORE_POPULATION_MULTIPLIER</Name> 
-			<Value>4</Value> 
+			<Value>8</Value> 
 		</Row>
 		<Row> 
 			<Name>SCORE_LAND_MULTIPLIER</Name> 
@@ -174080,7 +174080,7 @@
 		</Row>
 		<Row> 
 			<Name>SCORE_WONDER_MULTIPLIER</Name> 
-			<Value>25</Value> 
+			<Value>8</Value> 
 		</Row>
 		<Row> 
 			<Name>SCORE_TECH_MULTIPLIER</Name> 
@@ -174092,7 +174092,7 @@
 		</Row>
 		<Row> 
 			<Name>SCORE_POLICY_MULTIPLIER</Name> 
-			<Value>4</Value> 
+			<Value>8</Value> 
 		</Row>
 		<Row> 
 			<Name>SCORE_GREAT_WORK_MULTIPLIER</Name> 
@@ -174104,7 +174104,7 @@
 		</Row>
 		<Row> 
 			<Name>SCORE_RELIGION_CITIES_MULTIPLIER</Name> 
-			<Value>1</Value> 
+			<Value>2</Value> 
 		</Row>
 		<Row> 
 			<Name>RELIGION_MIN_FAITH_FIRST_PANTHEON</Name> 
@@ -174124,15 +174124,15 @@
 		</Row>
 		<Row> 
 			<Name>RELIGION_FAITH_DELTA_NEXT_PROPHET</Name> 
-			<Value>100</Value> 
+			<Value>25</Value> 
 		</Row>
 		<Row> 
 			<Name>RELIGION_FAITH_DELTA_NEXT_GREAT_PERSON</Name> 
-			<Value>500</Value> 
+			<Value>1000</Value> 
 		</Row>
 		<Row> 
 			<Name>RELIGION_BASE_CHANCE_PROPHET_SPAWN</Name> 
-			<Value>5</Value> 
+			<Value>100</Value> 
 		</Row>
 		<Row> 
 			<Name>RELIGION_ATHEISM_PRESSURE_PER_POP</Name> 
@@ -174148,11 +174148,11 @@
 		</Row>
 		<Row> 
 			<Name>RELIGION_MISSIONARY_PRESSURE_MULTIPLIER</Name> 
-			<Value>10</Value> 
+			<Value>20</Value> 
 		</Row>
 		<Row> 
 			<Name>RELIGION_ADJACENT_CITY_DISTANCE</Name> 
-			<Value>10</Value> 
+			<Value>12</Value> 
 		</Row>
 		<Row> 
 			<Name>RELIGION_DIPLO_HIT_INITIAL_CONVERT_FRIENDLY_CITY</Name> 
@@ -174172,7 +174172,7 @@
 		</Row>
 		<Row> 
 			<Name>ESPIONAGE_GATHERING_INTEL_COST_PERCENT</Name> 
-			<Value>125</Value> 
+			<Value>100</Value> 
 		</Row>
 		<Row> 
 			<Name>ESPIONAGE_GATHERING_INTEL_RATE_BY_SPY_RANK_PERCENT</Name> 
@@ -174184,19 +174184,19 @@
 		</Row>
 		<Row> 
 			<Name>ESPIONAGE_TURNS_BETWEEN_CITY_STATE_ELECTIONS</Name> 
-			<Value>15</Value> 
+			<Value>10</Value> 
 		</Row>
 		<Row> 
 			<Name>ESPIONAGE_INFLUENCE_GAINED_FOR_RIGGED_ELECTION</Name> 
-			<Value>20</Value> 
+			<Value>40</Value> 
 		</Row>
 		<Row> 
 			<Name>ESPIONAGE_INFLUENCE_LOST_FOR_RIGGED_ELECTION</Name> 
-			<Value>5</Value> 
+			<Value>15</Value> 
 		</Row>
 		<Row> 
 			<Name>ESPIONAGE_SURVEILLANCE_SIGHT_RANGE</Name> 
-			<Value>1</Value> 
+			<Value>2</Value> 
 		</Row>
 		<Row> 
 			<Name>ESPIONAGE_COUP_OTHER_PLAYERS_INFLUENCE_DROP</Name> 
@@ -174240,7 +174240,7 @@
 		</Row>
 		<Row> 
 			<Name>INTERNATIONAL_TRADE_CITY_GPT_DIVISOR</Name> 
-			<Value>20</Value> 
+			<Value>50</Value> 
 		</Row>
 		<Row> 
 			<Name>LEAGUE_SESSION_INTERVAL_BASE_TURNS</Name> 
@@ -174248,7 +174248,7 @@
 		</Row>
 		<Row> 
 			<Name>LEAGUE_SESSION_SOON_WARNING_TURNS</Name> 
-			<Value>5</Value> 
+			<Value>3</Value> 
 		</Row>
 		<Row> 
 			<Name>LEAGUE_MEMBER_PROPOSALS_BASE</Name> 
@@ -174280,7 +174280,7 @@
 		</Row>
 		<Row> 
 			<Name>PILLAGE_HEAL_AMOUNT</Name> 
-			<Value>25</Value> 
+			<Value>10</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_CONNECTIONS_CONNECT_TO_CAPITAL</Name> 
@@ -174344,7 +174344,7 @@
 		</Row>
 		<Row> 
 			<Name>MINOR_CIV_ROUTE_QUEST_WEIGHT</Name> 
-			<Value>1000</Value> 
+			<Value>2000</Value> 
 		</Row>
 		<Row> 
 			<Name>WITHDRAW_MOD_ENEMY_MOVES</Name> 
@@ -174368,7 +174368,7 @@
 		</Row>
 		<Row> 
 			<Name>COMBAT_CAPTURE_MAX_CHANCE</Name> 
-			<Value>80</Value> 
+			<Value>60</Value> 
 		</Row>
 		<Row> 
 			<Name>COMBAT_CAPTURE_RATIO_MULTIPLIER</Name> 
@@ -174384,7 +174384,7 @@
 		</Row>
 		<Row> 
 			<Name>BASE_CULTURE_PER_GREAT_WORK</Name> 
-			<Value>2</Value> 
+			<Value>8</Value> 
 		</Row>
 		<Row> 
 			<Name>BASE_TOURISM_PER_GREAT_WORK</Name> 
@@ -174404,7 +174404,7 @@
 		</Row>
 		<Row> 
 			<Name>TOURISM_MODIFIER_DIFFERENT_IDEOLOGIES</Name> 
-			<Value>-34</Value> 
+			<Value>-75</Value> 
 		</Row>
 		<Row> 
 			<Name>TOURISM_MODIFIER_DIPLOMAT</Name> 
@@ -174412,7 +174412,7 @@
 		</Row>
 		<Row> 
 			<Name>MINIUMUM_TOURISM_BLAST_STRENGTH</Name> 
-			<Value>100</Value> 
+			<Value>250</Value> 
 		</Row>
 		<Row> 
 			<Name>CULTURE_LEVEL_EXOTIC</Name> 
@@ -174432,7 +174432,7 @@
 		</Row>
 		<Row> 
 			<Name>CULTURE_LEVEL_DOMINANT</Name> 
-			<Value>200</Value> 
+			<Value>150</Value> 
 		</Row>
 		<Row> 
 			<Name>MIN_DIG_SITES_PER_MAJOR_CIV</Name> 
@@ -174444,11 +174444,11 @@
 		</Row>
 		<Row> 
 			<Name>PERCENT_SITES_HIDDEN</Name> 
-			<Value>30</Value> 
+			<Value>6</Value> 
 		</Row>
 		<Row> 
 			<Name>PERCENT_HIDDEN_SITES_WRITING</Name> 
-			<Value>30</Value> 
+			<Value>100</Value> 
 		</Row>
 		<Row> 
 			<Name>SAPPED_CITY_ATTACK_MODIFIER</Name> 
@@ -179104,7 +179104,7 @@
 		</Row>
 		<Row> 
 			<Name>CITY_UNIT_LIMIT</Name> 
-			<Value>1</Value> 
+			<Value>3</Value> 
 		</Row>
 		<Row> 
 			<Name>GREAT_GENERAL_MAX_RANGE</Name> 
@@ -179300,23 +179300,23 @@
 		</Row>
 		<Row> 
 			<Name>PROMOTION_EMBARKATION</Name> 
-			<Value>517</Value> 
+			<Value>520</Value> 
 		</Row>
 		<Row> 
 			<Name>PROMOTION_DEFENSIVE_EMBARKATION</Name> 
-			<Value>518</Value> 
+			<Value>521</Value> 
 		</Row>
 		<Row> 
 			<Name>PROMOTION_ALLWATER_EMBARKATION</Name> 
-			<Value>519</Value> 
+			<Value>522</Value> 
 		</Row>
 		<Row> 
 			<Name>PROMOTION_OCEAN_IMPASSABLE</Name> 
-			<Value>524</Value> 
+			<Value>527</Value> 
 		</Row>
 		<Row> 
 			<Name>PROMOTION_ONLY_DEFENSIVE</Name> 
-			<Value>525</Value> 
+			<Value>528</Value> 
 		</Row>
 		<Row> 
 			<Name>PROMOTION_UNWELCOME_EVANGELIST</Name> 
@@ -179332,7 +179332,7 @@
 		</Row>
 		<Row> 
 			<Name>PROMOTION_GOODY_HUT_PICKER</Name> 
-			<Value>491</Value> 
+			<Value>494</Value> 
 		</Row>
 		<Row> 
 			<Name>POLICY_BRANCH_FREEDOM</Name> 
@@ -259296,7 +259296,7 @@
 		<Row> 
 			<PolicyType>POLICY_MERITOCRACY</PolicyType> 
 			<YieldType>YIELD_PRODUCTION</YieldType> 
-			<Yield>25</Yield> 
+			<Yield>10</Yield> 
 		</Row>
 	</Policy_CityYieldChanges> 
 
@@ -325982,6 +325982,453 @@
 		</Row>
 		<Row> 
 			<ID>421</ID> 
+			<Type>PROMOTION_NAPALMBOMB_1</Type> 
+			<Description>TXT_KEY_PROMOTION_NAPALMBOMB_1</Description> 
+			<Help>TXT_KEY_PROMOTION_NAPALMBOMB_1_HELP</Help> 
+			<PortraitIndex>18</PortraitIndex> 
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas> 
+			<HotKeyPriority>0</HotKeyPriority> 
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt> 
+			<OrderPriority>1</OrderPriority> 
+			<AltDown>false</AltDown> 
+			<AltDownAlt>false</AltDownAlt> 
+			<ShiftDown>false</ShiftDown> 
+			<ShiftDownAlt>false</ShiftDownAlt> 
+			<CtrlDown>false</CtrlDown> 
+			<CtrlDownAlt>false</CtrlDownAlt> 
+			<Sound>AS2D_IF_LEVELUP</Sound> 
+			<CannotBeChosen>false</CannotBeChosen> 
+			<LostWithUpgrade>false</LostWithUpgrade> 
+			<NotWithUpgrade>false</NotWithUpgrade> 
+			<InstaHeal>false</InstaHeal> 
+			<Leader>false</Leader> 
+			<Blitz>false</Blitz> 
+			<Amphib>false</Amphib> 
+			<River>false</River> 
+			<EnemyRoute>false</EnemyRoute> 
+			<RivalTerritory>false</RivalTerritory> 
+			<MustSetUpToRangedAttack>false</MustSetUpToRangedAttack> 
+			<RangedSupportFire>false</RangedSupportFire> 
+			<CanMoveAfterAttacking>false</CanMoveAfterAttacking> 
+			<AlwaysHeal>false</AlwaysHeal> 
+			<HealOutsideFriendly>false</HealOutsideFriendly> 
+			<HillsDoubleMove>false</HillsDoubleMove> 
+			<RoughTerrainEndsTurn>false</RoughTerrainEndsTurn> 
+			<IgnoreTerrainCost>false</IgnoreTerrainCost> 
+			<HoveringUnit>false</HoveringUnit> 
+			<FlatMovementCost>false</FlatMovementCost> 
+			<CanMoveImpassable>false</CanMoveImpassable> 
+			<NoCapture>false</NoCapture> 
+			<OnlyDefensive>false</OnlyDefensive> 
+			<NoDefensiveBonus>false</NoDefensiveBonus> 
+			<NukeImmune>false</NukeImmune> 
+			<HiddenNationality>false</HiddenNationality> 
+			<AlwaysHostile>false</AlwaysHostile> 
+			<NoRevealMap>false</NoRevealMap> 
+			<Recon>false</Recon> 
+			<CanMoveAllTerrain>false</CanMoveAllTerrain> 
+			<FreePillageMoves>false</FreePillageMoves> 
+			<AirSweepCapable>false</AirSweepCapable> 
+			<AllowsEmbarkation>false</AllowsEmbarkation> 
+			<EmbarkedAllWater>false</EmbarkedAllWater> 
+			<HealIfDestroyExcludesBarbarians>false</HealIfDestroyExcludesBarbarians> 
+			<RangeAttackIgnoreLOS>false</RangeAttackIgnoreLOS> 
+			<CityAttackOnly>false</CityAttackOnly> 
+			<CaptureDefeatedEnemy>false</CaptureDefeatedEnemy> 
+			<HealOnPillage>false</HealOnPillage> 
+			<IgnoreGreatGeneralBenefit>false</IgnoreGreatGeneralBenefit> 
+			<IgnoreZOC>false</IgnoreZOC> 
+			<HasPostCombatPromotions>false</HasPostCombatPromotions> 
+			<PostCombatPromotionsExclusive>false</PostCombatPromotionsExclusive> 
+			<RangedAttackModifier>0</RangedAttackModifier> 
+			<InterceptionCombatModifier>0</InterceptionCombatModifier> 
+			<InterceptionDefenseDamageModifier>0</InterceptionDefenseDamageModifier> 
+			<AirSweepCombatModifier>0</AirSweepCombatModifier> 
+			<ExtraAttacks>0</ExtraAttacks> 
+			<ExtraNavalMovement>0</ExtraNavalMovement> 
+			<VisibilityChange>0</VisibilityChange> 
+			<MovesChange>0</MovesChange> 
+			<MoveDiscountChange>0</MoveDiscountChange> 
+			<RangeChange>0</RangeChange> 
+			<InterceptChanceChange>0</InterceptChanceChange> 
+			<NumInterceptionChange>0</NumInterceptionChange> 
+			<EvasionChange>0</EvasionChange> 
+			<CargoChange>0</CargoChange> 
+			<EnemyHealChange>0</EnemyHealChange> 
+			<NeutralHealChange>0</NeutralHealChange> 
+			<FriendlyHealChange>0</FriendlyHealChange> 
+			<SameTileHealChange>0</SameTileHealChange> 
+			<AdjacentTileHealChange>0</AdjacentTileHealChange> 
+			<EnemyDamageChance>0</EnemyDamageChance> 
+			<NeutralDamageChance>0</NeutralDamageChance> 
+			<EnemyDamage>0</EnemyDamage> 
+			<NeutralDamage>0</NeutralDamage> 
+			<CombatPercent>0</CombatPercent> 
+			<CityAttack>0</CityAttack> 
+			<CityDefense>0</CityDefense> 
+			<RangedDefenseMod>0</RangedDefenseMod> 
+			<HillsAttack>0</HillsAttack> 
+			<HillsDefense>0</HillsDefense> 
+			<OpenAttack>0</OpenAttack> 
+			<OpenRangedAttackMod>0</OpenRangedAttackMod> 
+			<OpenDefense>0</OpenDefense> 
+			<RoughAttack>0</RoughAttack> 
+			<RoughRangedAttackMod>0</RoughRangedAttackMod> 
+			<RoughDefense>0</RoughDefense> 
+			<AttackFortifiedMod>0</AttackFortifiedMod> 
+			<AttackWoundedMod>0</AttackWoundedMod> 
+			<FlankAttackModifier>0</FlankAttackModifier> 
+			<NearbyEnemyCombatMod>0</NearbyEnemyCombatMod> 
+			<NearbyEnemyCombatRange>0</NearbyEnemyCombatRange> 
+			<UpgradeDiscount>0</UpgradeDiscount> 
+			<ExperiencePercent>0</ExperiencePercent> 
+			<AdjacentMod>0</AdjacentMod> 
+			<AttackMod>0</AttackMod> 
+			<DefenseMod>0</DefenseMod> 
+			<DropRange>0</DropRange> 
+			<GreatGeneral>false</GreatGeneral> 
+			<GreatAdmiral>false</GreatAdmiral> 
+			<GreatGeneralModifier>0</GreatGeneralModifier> 
+			<GreatGeneralReceivesMovement>false</GreatGeneralReceivesMovement> 
+			<GreatGeneralCombatModifier>0</GreatGeneralCombatModifier> 
+			<FriendlyLandsModifier>0</FriendlyLandsModifier> 
+			<FriendlyLandsAttackModifier>0</FriendlyLandsAttackModifier> 
+			<OutsideFriendlyLandsModifier>0</OutsideFriendlyLandsModifier> 
+			<HPHealedIfDestroyEnemy>0</HPHealedIfDestroyEnemy> 
+			<ExtraWithdrawal>0</ExtraWithdrawal> 
+			<EmbarkExtraVisibility>0</EmbarkExtraVisibility> 
+			<EmbarkDefenseModifier>0</EmbarkDefenseModifier> 
+			<CapitalDefenseModifier>0</CapitalDefenseModifier> 
+			<CapitalDefenseFalloff>0</CapitalDefenseFalloff> 
+			<CityAttackPlunderModifier>0</CityAttackPlunderModifier> 
+			<ReligiousStrengthLossRivalTerritory>0</ReligiousStrengthLossRivalTerritory> 
+			<TradeMissionInfluenceModifier>0</TradeMissionInfluenceModifier> 
+			<TradeMissionGoldModifier>0</TradeMissionGoldModifier> 
+			<GoldenAgeValueFromKills>0</GoldenAgeValueFromKills> 
+			<Sapper>false</Sapper> 
+			<HeavyCharge>false</HeavyCharge> 
+			<PromotionPrereq>PROMOTION_STRATEGIC_BOMBER</PromotionPrereq> 
+			<PediaType>PEDIA_AIR</PediaType> 
+			<PediaEntry>TXT_KEY_PROMOTION_NAPALMBOMB_1</PediaEntry> 
+			<IgnoreTerrainDamage>0</IgnoreTerrainDamage> 
+			<IgnoreFeatureDamage>0</IgnoreFeatureDamage> 
+			<ExtraTerrainDamage>0</ExtraTerrainDamage> 
+			<ExtraFeatureDamage>0</ExtraFeatureDamage> 
+			<AuraRangeChange>0</AuraRangeChange> 
+			<AuraEffectChange>0</AuraEffectChange> 
+			<CanCrossIce>0</CanCrossIce> 
+			<CanCrossMountains>0</CanCrossMountains> 
+			<CanCrossOceans>0</CanCrossOceans> 
+			<EmbarkedDeepWater>0</EmbarkedDeepWater> 
+			<GGFromBarbarians>0</GGFromBarbarians> 
+			<NearbyImprovementCombatBonus>0</NearbyImprovementCombatBonus> 
+			<NearbyImprovementBonusRange>0</NearbyImprovementBonusRange> 
+			<CombatBonusImprovement>-1</CombatBonusImprovement> 
+			<ReconChange>0</ReconChange> 
+			<MaxHitPointsChange>0</MaxHitPointsChange> 
+			<MaxHitPointsModifier>0</MaxHitPointsModifier> 
+			<NoSupply>0</NoSupply> 
+		</Row>
+		<Row> 
+			<ID>422</ID> 
+			<Type>PROMOTION_NAPALMBOMB_2</Type> 
+			<Description>TXT_KEY_PROMOTION_NAPALMBOMB_2</Description> 
+			<Help>TXT_KEY_PROMOTION_NAPALMBOMB_2_HELP</Help> 
+			<PortraitIndex>19</PortraitIndex> 
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas> 
+			<HotKeyPriority>0</HotKeyPriority> 
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt> 
+			<OrderPriority>1</OrderPriority> 
+			<AltDown>false</AltDown> 
+			<AltDownAlt>false</AltDownAlt> 
+			<ShiftDown>false</ShiftDown> 
+			<ShiftDownAlt>false</ShiftDownAlt> 
+			<CtrlDown>false</CtrlDown> 
+			<CtrlDownAlt>false</CtrlDownAlt> 
+			<Sound>AS2D_IF_LEVELUP</Sound> 
+			<CannotBeChosen>false</CannotBeChosen> 
+			<LostWithUpgrade>false</LostWithUpgrade> 
+			<NotWithUpgrade>false</NotWithUpgrade> 
+			<InstaHeal>false</InstaHeal> 
+			<Leader>false</Leader> 
+			<Blitz>false</Blitz> 
+			<Amphib>false</Amphib> 
+			<River>false</River> 
+			<EnemyRoute>false</EnemyRoute> 
+			<RivalTerritory>false</RivalTerritory> 
+			<MustSetUpToRangedAttack>false</MustSetUpToRangedAttack> 
+			<RangedSupportFire>false</RangedSupportFire> 
+			<CanMoveAfterAttacking>false</CanMoveAfterAttacking> 
+			<AlwaysHeal>false</AlwaysHeal> 
+			<HealOutsideFriendly>false</HealOutsideFriendly> 
+			<HillsDoubleMove>false</HillsDoubleMove> 
+			<RoughTerrainEndsTurn>false</RoughTerrainEndsTurn> 
+			<IgnoreTerrainCost>false</IgnoreTerrainCost> 
+			<HoveringUnit>false</HoveringUnit> 
+			<FlatMovementCost>false</FlatMovementCost> 
+			<CanMoveImpassable>false</CanMoveImpassable> 
+			<NoCapture>false</NoCapture> 
+			<OnlyDefensive>false</OnlyDefensive> 
+			<NoDefensiveBonus>false</NoDefensiveBonus> 
+			<NukeImmune>false</NukeImmune> 
+			<HiddenNationality>false</HiddenNationality> 
+			<AlwaysHostile>false</AlwaysHostile> 
+			<NoRevealMap>false</NoRevealMap> 
+			<Recon>false</Recon> 
+			<CanMoveAllTerrain>false</CanMoveAllTerrain> 
+			<FreePillageMoves>false</FreePillageMoves> 
+			<AirSweepCapable>false</AirSweepCapable> 
+			<AllowsEmbarkation>false</AllowsEmbarkation> 
+			<EmbarkedAllWater>false</EmbarkedAllWater> 
+			<HealIfDestroyExcludesBarbarians>false</HealIfDestroyExcludesBarbarians> 
+			<RangeAttackIgnoreLOS>false</RangeAttackIgnoreLOS> 
+			<CityAttackOnly>false</CityAttackOnly> 
+			<CaptureDefeatedEnemy>false</CaptureDefeatedEnemy> 
+			<HealOnPillage>false</HealOnPillage> 
+			<IgnoreGreatGeneralBenefit>false</IgnoreGreatGeneralBenefit> 
+			<IgnoreZOC>false</IgnoreZOC> 
+			<HasPostCombatPromotions>false</HasPostCombatPromotions> 
+			<PostCombatPromotionsExclusive>false</PostCombatPromotionsExclusive> 
+			<RangedAttackModifier>0</RangedAttackModifier> 
+			<InterceptionCombatModifier>0</InterceptionCombatModifier> 
+			<InterceptionDefenseDamageModifier>0</InterceptionDefenseDamageModifier> 
+			<AirSweepCombatModifier>0</AirSweepCombatModifier> 
+			<ExtraAttacks>0</ExtraAttacks> 
+			<ExtraNavalMovement>0</ExtraNavalMovement> 
+			<VisibilityChange>0</VisibilityChange> 
+			<MovesChange>0</MovesChange> 
+			<MoveDiscountChange>0</MoveDiscountChange> 
+			<RangeChange>0</RangeChange> 
+			<InterceptChanceChange>0</InterceptChanceChange> 
+			<NumInterceptionChange>0</NumInterceptionChange> 
+			<EvasionChange>0</EvasionChange> 
+			<CargoChange>0</CargoChange> 
+			<EnemyHealChange>0</EnemyHealChange> 
+			<NeutralHealChange>0</NeutralHealChange> 
+			<FriendlyHealChange>0</FriendlyHealChange> 
+			<SameTileHealChange>0</SameTileHealChange> 
+			<AdjacentTileHealChange>0</AdjacentTileHealChange> 
+			<EnemyDamageChance>0</EnemyDamageChance> 
+			<NeutralDamageChance>0</NeutralDamageChance> 
+			<EnemyDamage>0</EnemyDamage> 
+			<NeutralDamage>0</NeutralDamage> 
+			<CombatPercent>0</CombatPercent> 
+			<CityAttack>0</CityAttack> 
+			<CityDefense>0</CityDefense> 
+			<RangedDefenseMod>0</RangedDefenseMod> 
+			<HillsAttack>0</HillsAttack> 
+			<HillsDefense>0</HillsDefense> 
+			<OpenAttack>0</OpenAttack> 
+			<OpenRangedAttackMod>0</OpenRangedAttackMod> 
+			<OpenDefense>0</OpenDefense> 
+			<RoughAttack>0</RoughAttack> 
+			<RoughRangedAttackMod>0</RoughRangedAttackMod> 
+			<RoughDefense>0</RoughDefense> 
+			<AttackFortifiedMod>0</AttackFortifiedMod> 
+			<AttackWoundedMod>0</AttackWoundedMod> 
+			<FlankAttackModifier>0</FlankAttackModifier> 
+			<NearbyEnemyCombatMod>0</NearbyEnemyCombatMod> 
+			<NearbyEnemyCombatRange>0</NearbyEnemyCombatRange> 
+			<UpgradeDiscount>0</UpgradeDiscount> 
+			<ExperiencePercent>0</ExperiencePercent> 
+			<AdjacentMod>0</AdjacentMod> 
+			<AttackMod>0</AttackMod> 
+			<DefenseMod>0</DefenseMod> 
+			<DropRange>0</DropRange> 
+			<GreatGeneral>false</GreatGeneral> 
+			<GreatAdmiral>false</GreatAdmiral> 
+			<GreatGeneralModifier>0</GreatGeneralModifier> 
+			<GreatGeneralReceivesMovement>false</GreatGeneralReceivesMovement> 
+			<GreatGeneralCombatModifier>0</GreatGeneralCombatModifier> 
+			<FriendlyLandsModifier>0</FriendlyLandsModifier> 
+			<FriendlyLandsAttackModifier>0</FriendlyLandsAttackModifier> 
+			<OutsideFriendlyLandsModifier>0</OutsideFriendlyLandsModifier> 
+			<HPHealedIfDestroyEnemy>0</HPHealedIfDestroyEnemy> 
+			<ExtraWithdrawal>0</ExtraWithdrawal> 
+			<EmbarkExtraVisibility>0</EmbarkExtraVisibility> 
+			<EmbarkDefenseModifier>0</EmbarkDefenseModifier> 
+			<CapitalDefenseModifier>0</CapitalDefenseModifier> 
+			<CapitalDefenseFalloff>0</CapitalDefenseFalloff> 
+			<CityAttackPlunderModifier>0</CityAttackPlunderModifier> 
+			<ReligiousStrengthLossRivalTerritory>0</ReligiousStrengthLossRivalTerritory> 
+			<TradeMissionInfluenceModifier>0</TradeMissionInfluenceModifier> 
+			<TradeMissionGoldModifier>0</TradeMissionGoldModifier> 
+			<GoldenAgeValueFromKills>0</GoldenAgeValueFromKills> 
+			<Sapper>false</Sapper> 
+			<HeavyCharge>false</HeavyCharge> 
+			<PromotionPrereqOr1>PROMOTION_NAPALMBOMB_1</PromotionPrereqOr1> 
+			<PediaType>PEDIA_AIR</PediaType> 
+			<PediaEntry>TXT_KEY_PROMOTION_NAPALMBOMB_2</PediaEntry> 
+			<IgnoreTerrainDamage>0</IgnoreTerrainDamage> 
+			<IgnoreFeatureDamage>0</IgnoreFeatureDamage> 
+			<ExtraTerrainDamage>0</ExtraTerrainDamage> 
+			<ExtraFeatureDamage>0</ExtraFeatureDamage> 
+			<AuraRangeChange>0</AuraRangeChange> 
+			<AuraEffectChange>0</AuraEffectChange> 
+			<CanCrossIce>0</CanCrossIce> 
+			<CanCrossMountains>0</CanCrossMountains> 
+			<CanCrossOceans>0</CanCrossOceans> 
+			<EmbarkedDeepWater>0</EmbarkedDeepWater> 
+			<GGFromBarbarians>0</GGFromBarbarians> 
+			<NearbyImprovementCombatBonus>0</NearbyImprovementCombatBonus> 
+			<NearbyImprovementBonusRange>0</NearbyImprovementBonusRange> 
+			<CombatBonusImprovement>-1</CombatBonusImprovement> 
+			<ReconChange>0</ReconChange> 
+			<MaxHitPointsChange>0</MaxHitPointsChange> 
+			<MaxHitPointsModifier>0</MaxHitPointsModifier> 
+			<NoSupply>0</NoSupply> 
+		</Row>
+		<Row> 
+			<ID>423</ID> 
+			<Type>PROMOTION_NAPALMBOMB_3</Type> 
+			<Description>TXT_KEY_PROMOTION_NAPALMBOMB_3</Description> 
+			<Help>TXT_KEY_PROMOTION_NAPALMBOMB_3_HELP</Help> 
+			<PortraitIndex>20</PortraitIndex> 
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas> 
+			<HotKeyPriority>0</HotKeyPriority> 
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt> 
+			<OrderPriority>1</OrderPriority> 
+			<AltDown>false</AltDown> 
+			<AltDownAlt>false</AltDownAlt> 
+			<ShiftDown>false</ShiftDown> 
+			<ShiftDownAlt>false</ShiftDownAlt> 
+			<CtrlDown>false</CtrlDown> 
+			<CtrlDownAlt>false</CtrlDownAlt> 
+			<Sound>AS2D_IF_LEVELUP</Sound> 
+			<CannotBeChosen>false</CannotBeChosen> 
+			<LostWithUpgrade>false</LostWithUpgrade> 
+			<NotWithUpgrade>false</NotWithUpgrade> 
+			<InstaHeal>false</InstaHeal> 
+			<Leader>false</Leader> 
+			<Blitz>false</Blitz> 
+			<Amphib>false</Amphib> 
+			<River>false</River> 
+			<EnemyRoute>false</EnemyRoute> 
+			<RivalTerritory>false</RivalTerritory> 
+			<MustSetUpToRangedAttack>false</MustSetUpToRangedAttack> 
+			<RangedSupportFire>false</RangedSupportFire> 
+			<CanMoveAfterAttacking>false</CanMoveAfterAttacking> 
+			<AlwaysHeal>false</AlwaysHeal> 
+			<HealOutsideFriendly>false</HealOutsideFriendly> 
+			<HillsDoubleMove>false</HillsDoubleMove> 
+			<RoughTerrainEndsTurn>false</RoughTerrainEndsTurn> 
+			<IgnoreTerrainCost>false</IgnoreTerrainCost> 
+			<HoveringUnit>false</HoveringUnit> 
+			<FlatMovementCost>false</FlatMovementCost> 
+			<CanMoveImpassable>false</CanMoveImpassable> 
+			<NoCapture>false</NoCapture> 
+			<OnlyDefensive>false</OnlyDefensive> 
+			<NoDefensiveBonus>false</NoDefensiveBonus> 
+			<NukeImmune>false</NukeImmune> 
+			<HiddenNationality>false</HiddenNationality> 
+			<AlwaysHostile>false</AlwaysHostile> 
+			<NoRevealMap>false</NoRevealMap> 
+			<Recon>false</Recon> 
+			<CanMoveAllTerrain>false</CanMoveAllTerrain> 
+			<FreePillageMoves>false</FreePillageMoves> 
+			<AirSweepCapable>false</AirSweepCapable> 
+			<AllowsEmbarkation>false</AllowsEmbarkation> 
+			<EmbarkedAllWater>false</EmbarkedAllWater> 
+			<HealIfDestroyExcludesBarbarians>false</HealIfDestroyExcludesBarbarians> 
+			<RangeAttackIgnoreLOS>false</RangeAttackIgnoreLOS> 
+			<CityAttackOnly>false</CityAttackOnly> 
+			<CaptureDefeatedEnemy>false</CaptureDefeatedEnemy> 
+			<HealOnPillage>false</HealOnPillage> 
+			<IgnoreGreatGeneralBenefit>false</IgnoreGreatGeneralBenefit> 
+			<IgnoreZOC>false</IgnoreZOC> 
+			<HasPostCombatPromotions>false</HasPostCombatPromotions> 
+			<PostCombatPromotionsExclusive>false</PostCombatPromotionsExclusive> 
+			<RangedAttackModifier>0</RangedAttackModifier> 
+			<InterceptionCombatModifier>0</InterceptionCombatModifier> 
+			<InterceptionDefenseDamageModifier>0</InterceptionDefenseDamageModifier> 
+			<AirSweepCombatModifier>0</AirSweepCombatModifier> 
+			<ExtraAttacks>0</ExtraAttacks> 
+			<ExtraNavalMovement>0</ExtraNavalMovement> 
+			<VisibilityChange>0</VisibilityChange> 
+			<MovesChange>0</MovesChange> 
+			<MoveDiscountChange>0</MoveDiscountChange> 
+			<RangeChange>0</RangeChange> 
+			<InterceptChanceChange>0</InterceptChanceChange> 
+			<NumInterceptionChange>0</NumInterceptionChange> 
+			<EvasionChange>0</EvasionChange> 
+			<CargoChange>0</CargoChange> 
+			<EnemyHealChange>0</EnemyHealChange> 
+			<NeutralHealChange>0</NeutralHealChange> 
+			<FriendlyHealChange>0</FriendlyHealChange> 
+			<SameTileHealChange>0</SameTileHealChange> 
+			<AdjacentTileHealChange>0</AdjacentTileHealChange> 
+			<EnemyDamageChance>0</EnemyDamageChance> 
+			<NeutralDamageChance>0</NeutralDamageChance> 
+			<EnemyDamage>0</EnemyDamage> 
+			<NeutralDamage>0</NeutralDamage> 
+			<CombatPercent>0</CombatPercent> 
+			<CityAttack>0</CityAttack> 
+			<CityDefense>0</CityDefense> 
+			<RangedDefenseMod>0</RangedDefenseMod> 
+			<HillsAttack>0</HillsAttack> 
+			<HillsDefense>0</HillsDefense> 
+			<OpenAttack>0</OpenAttack> 
+			<OpenRangedAttackMod>0</OpenRangedAttackMod> 
+			<OpenDefense>0</OpenDefense> 
+			<RoughAttack>0</RoughAttack> 
+			<RoughRangedAttackMod>0</RoughRangedAttackMod> 
+			<RoughDefense>0</RoughDefense> 
+			<AttackFortifiedMod>0</AttackFortifiedMod> 
+			<AttackWoundedMod>0</AttackWoundedMod> 
+			<FlankAttackModifier>0</FlankAttackModifier> 
+			<NearbyEnemyCombatMod>0</NearbyEnemyCombatMod> 
+			<NearbyEnemyCombatRange>0</NearbyEnemyCombatRange> 
+			<UpgradeDiscount>0</UpgradeDiscount> 
+			<ExperiencePercent>0</ExperiencePercent> 
+			<AdjacentMod>0</AdjacentMod> 
+			<AttackMod>0</AttackMod> 
+			<DefenseMod>0</DefenseMod> 
+			<DropRange>0</DropRange> 
+			<GreatGeneral>false</GreatGeneral> 
+			<GreatAdmiral>false</GreatAdmiral> 
+			<GreatGeneralModifier>0</GreatGeneralModifier> 
+			<GreatGeneralReceivesMovement>false</GreatGeneralReceivesMovement> 
+			<GreatGeneralCombatModifier>0</GreatGeneralCombatModifier> 
+			<FriendlyLandsModifier>0</FriendlyLandsModifier> 
+			<FriendlyLandsAttackModifier>0</FriendlyLandsAttackModifier> 
+			<OutsideFriendlyLandsModifier>0</OutsideFriendlyLandsModifier> 
+			<HPHealedIfDestroyEnemy>0</HPHealedIfDestroyEnemy> 
+			<ExtraWithdrawal>0</ExtraWithdrawal> 
+			<EmbarkExtraVisibility>0</EmbarkExtraVisibility> 
+			<EmbarkDefenseModifier>0</EmbarkDefenseModifier> 
+			<CapitalDefenseModifier>0</CapitalDefenseModifier> 
+			<CapitalDefenseFalloff>0</CapitalDefenseFalloff> 
+			<CityAttackPlunderModifier>0</CityAttackPlunderModifier> 
+			<ReligiousStrengthLossRivalTerritory>0</ReligiousStrengthLossRivalTerritory> 
+			<TradeMissionInfluenceModifier>0</TradeMissionInfluenceModifier> 
+			<TradeMissionGoldModifier>0</TradeMissionGoldModifier> 
+			<GoldenAgeValueFromKills>0</GoldenAgeValueFromKills> 
+			<Sapper>false</Sapper> 
+			<HeavyCharge>false</HeavyCharge> 
+			<PromotionPrereqOr1>PROMOTION_NAPALMBOMB_2</PromotionPrereqOr1> 
+			<PediaType>PEDIA_AIR</PediaType> 
+			<PediaEntry>TXT_KEY_PROMOTION_NAPALMBOMB_3</PediaEntry> 
+			<IgnoreTerrainDamage>0</IgnoreTerrainDamage> 
+			<IgnoreFeatureDamage>0</IgnoreFeatureDamage> 
+			<ExtraTerrainDamage>0</ExtraTerrainDamage> 
+			<ExtraFeatureDamage>0</ExtraFeatureDamage> 
+			<AuraRangeChange>0</AuraRangeChange> 
+			<AuraEffectChange>0</AuraEffectChange> 
+			<CanCrossIce>0</CanCrossIce> 
+			<CanCrossMountains>0</CanCrossMountains> 
+			<CanCrossOceans>0</CanCrossOceans> 
+			<EmbarkedDeepWater>0</EmbarkedDeepWater> 
+			<GGFromBarbarians>0</GGFromBarbarians> 
+			<NearbyImprovementCombatBonus>0</NearbyImprovementCombatBonus> 
+			<NearbyImprovementBonusRange>0</NearbyImprovementBonusRange> 
+			<CombatBonusImprovement>-1</CombatBonusImprovement> 
+			<ReconChange>0</ReconChange> 
+			<MaxHitPointsChange>0</MaxHitPointsChange> 
+			<MaxHitPointsModifier>0</MaxHitPointsModifier> 
+			<NoSupply>0</NoSupply> 
+		</Row>
+		<Row> 
+			<ID>424</ID> 
 			<Type>PROMOTION_AIR_SIEGE_1</Type> 
 			<Description>TXT_KEY_PROMOTION_AIR_SIEGE_1</Description> 
 			<Help>TXT_KEY_PROMOTION_AIR_SIEGE_1_HELP</Help> 
@@ -326130,7 +326577,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>422</ID> 
+			<ID>425</ID> 
 			<Type>PROMOTION_AIR_SIEGE_2</Type> 
 			<Description>TXT_KEY_PROMOTION_AIR_SIEGE_2</Description> 
 			<Help>TXT_KEY_PROMOTION_AIR_SIEGE_2_HELP</Help> 
@@ -326279,7 +326726,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>423</ID> 
+			<ID>426</ID> 
 			<Type>PROMOTION_AIR_SIEGE_3</Type> 
 			<Description>TXT_KEY_PROMOTION_AIR_SIEGE_3</Description> 
 			<Help>TXT_KEY_PROMOTION_AIR_SIEGE_3_HELP</Help> 
@@ -326428,7 +326875,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>424</ID> 
+			<ID>427</ID> 
 			<Type>PROMOTION_DESTROY_SUPPLY_1</Type> 
 			<Description>TXT_KEY_PROMOTION_DESTROY_SUPPLY_1</Description> 
 			<Help>TXT_KEY_PROMOTION_DESTROY_SUPPLY_1_HELP</Help> 
@@ -326577,7 +327024,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>425</ID> 
+			<ID>428</ID> 
 			<Type>PROMOTION_DESTROY_SUPPLY_2</Type> 
 			<Description>TXT_KEY_PROMOTION_DESTROY_SUPPLY_2</Description> 
 			<Help>TXT_KEY_PROMOTION_DESTROY_SUPPLY_2_HELP</Help> 
@@ -326726,7 +327173,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>426</ID> 
+			<ID>429</ID> 
 			<Type>PROMOTION_EVASION_II</Type> 
 			<Description>TXT_KEY_PROMOTION_EVASION_II</Description> 
 			<Help>TXT_KEY_PROMOTION_EVASION_II</Help> 
@@ -326874,7 +327321,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>427</ID> 
+			<ID>430</ID> 
 			<Type>PROMOTION_EMP_ATTACK</Type> 
 			<Description>TXT_KEY_PROMOTION_EMP_ATTACK</Description> 
 			<Help>TXT_KEY_PROMOTION_EMP_ATTACK_HELP</Help> 
@@ -327022,7 +327469,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>428</ID> 
+			<ID>431</ID> 
 			<Type>PROMOTION_BLITZ</Type> 
 			<Description>TXT_KEY_PROMOTION_BLITZ</Description> 
 			<Help>TXT_KEY_PROMOTION_BLITZ_HELP</Help> 
@@ -327174,7 +327621,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>429</ID> 
+			<ID>432</ID> 
 			<Type>PROMOTION_BLITZ_2</Type> 
 			<Description>TXT_KEY_PROMOTION_BLITZ</Description> 
 			<Help>TXT_KEY_PROMOTION_BLITZ_HELP</Help> 
@@ -327326,7 +327773,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>430</ID> 
+			<ID>433</ID> 
 			<Type>PROMOTION_LOGISTICS</Type> 
 			<Description>TXT_KEY_PROMOTION_LOGISTICS</Description> 
 			<Help>TXT_KEY_PROMOTION_LOGISTICS_HELP</Help> 
@@ -327478,7 +327925,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>431</ID> 
+			<ID>434</ID> 
 			<Type>PROMOTION_RANGE</Type> 
 			<Description>TXT_KEY_PROMOTION_RANGE</Description> 
 			<Help>TXT_KEY_PROMOTION_RANGE_HELP</Help> 
@@ -327630,7 +328077,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>432</ID> 
+			<ID>435</ID> 
 			<Type>PROMOTION_INDIRECT_FIRE</Type> 
 			<Description>TXT_KEY_PROMOTION_INDIRECT_FIRE</Description> 
 			<Help>TXT_KEY_PROMOTION_INDIRECT_FIRE_HELP</Help> 
@@ -327778,7 +328225,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>433</ID> 
+			<ID>436</ID> 
 			<Type>PROMOTION_CAN_MOVE_AFTER_ATTACKING</Type> 
 			<Description>TXT_KEY_PROMOTION_CAN_MOVE_AFTER_ATTACKING</Description> 
 			<Help>TXT_KEY_PROMOTION_CAN_MOVE_AFTER_ATTACKING</Help> 
@@ -327926,7 +328373,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>434</ID> 
+			<ID>437</ID> 
 			<Type>PROMOTION_GREAT_ADMIRAL</Type> 
 			<Description>TXT_KEY_PROMOTION_GREAT_ADMIRAL</Description> 
 			<Help>TXT_KEY_PROMOTION_GREAT_ADMIRAL_HELP</Help> 
@@ -328074,7 +328521,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>435</ID> 
+			<ID>438</ID> 
 			<Type>PROMOTION_GREAT_GENERAL</Type> 
 			<Description>TXT_KEY_PROMOTION_GREAT_GENERAL</Description> 
 			<Help>TXT_KEY_PROMOTION_GREAT_GENERAL_HELP</Help> 
@@ -328222,7 +328669,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>436</ID> 
+			<ID>439</ID> 
 			<Type>PROMOTION_MARCH</Type> 
 			<Description>TXT_KEY_PROMOTION_MARCH</Description> 
 			<Help>TXT_KEY_PROMOTION_MARCH_HELP</Help> 
@@ -328378,7 +328825,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>437</ID> 
+			<ID>440</ID> 
 			<Type>PROMOTION_FASTER_HEAL</Type> 
 			<Description>TXT_KEY_PROMOTION_FASTER_HEAL</Description> 
 			<Help>TXT_KEY_PROMOTION_FASTER_HEAL</Help> 
@@ -328526,7 +328973,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>438</ID> 
+			<ID>441</ID> 
 			<Type>PROMOTION_FRENCH_ARTY</Type> 
 			<Description>TXT_KEY_PROMOTION_FRENCH_ARTY</Description> 
 			<Help>TXT_KEY_PROMOTION_FRENCH_ARTY_HELP</Help> 
@@ -328674,7 +329121,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>439</ID> 
+			<ID>442</ID> 
 			<Type>PROMOTION_HEAVY_PAYLOAD</Type> 
 			<Description>TXT_KEY_PROMOTION_HEAVY_PAYLOAD</Description> 
 			<Help>TXT_KEY_PROMOTION_HEAVY_PAYLOAD_HELP</Help> 
@@ -328822,7 +329269,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>440</ID> 
+			<ID>443</ID> 
 			<Type>PROMOTION_FOREIGN_LANDS_SMALL</Type> 
 			<Description>TXT_KEY_PROMOTION_FOREIGN_LANDS</Description> 
 			<Help>TXT_KEY_PROMOTION_FOREIGN_LANDS_SMALL_HELP</Help> 
@@ -328970,7 +329417,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>441</ID> 
+			<ID>444</ID> 
 			<Type>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</Type> 
 			<Description>TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</Description> 
 			<Help>TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_BOOGALOO_HELP</Help> 
@@ -329118,7 +329565,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>442</ID> 
+			<ID>445</ID> 
 			<Type>PROMOTION_BUFFALO_HORNS</Type> 
 			<Description>TXT_KEY_PROMOTION_BUFFALO_HORNS</Description> 
 			<Help>TXT_KEY_PROMOTION_BUFFALO_HORNS_HELP</Help> 
@@ -329266,7 +329713,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>443</ID> 
+			<ID>446</ID> 
 			<Type>PROMOTION_BUFFALO_CHEST</Type> 
 			<Description>TXT_KEY_PROMOTION_BUFFALO_CHEST</Description> 
 			<Help>TXT_KEY_PROMOTION_BUFFALO_CHEST_HELP</Help> 
@@ -329415,7 +329862,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>444</ID> 
+			<ID>447</ID> 
 			<Type>PROMOTION_BUFFALO_LOINS</Type> 
 			<Description>TXT_KEY_PROMOTION_BUFFALO_LOINS</Description> 
 			<Help>TXT_KEY_PROMOTION_BUFFALO_LOINS_HELP</Help> 
@@ -329564,7 +330011,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>445</ID> 
+			<ID>448</ID> 
 			<Type>PROMOTION_MOHAWK</Type> 
 			<Description>TXT_KEY_PROMOTION_MOHAWK</Description> 
 			<Help>TXT_KEY_PROMOTION_MOHAWK_HELP</Help> 
@@ -329712,7 +330159,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>446</ID> 
+			<ID>449</ID> 
 			<Type>PROMOTION_DESERT_WARRIOR</Type> 
 			<Description>TXT_KEY_PROMOTION_DESERT_WARRIOR</Description> 
 			<Help>TXT_KEY_PROMOTION_DESERT_WARRIOR_HELP</Help> 
@@ -329860,7 +330307,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>447</ID> 
+			<ID>450</ID> 
 			<Type>PROMOTION_EXTRA_SIGHT_I</Type> 
 			<Description>TXT_KEY_PROMOTION_XTRA_SIGHT_I</Description> 
 			<Help>TXT_KEY_PROMOTION_XTRA_SIGHT_I_HELP</Help> 
@@ -330008,7 +330455,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>448</ID> 
+			<ID>451</ID> 
 			<Type>PROMOTION_EXTRA_SIGHT_II</Type> 
 			<Description>TXT_KEY_PROMOTION_XTRA_SIGHT_II</Description> 
 			<Help>TXT_KEY_PROMOTION_XTRA_SIGHT_II_HELP</Help> 
@@ -330156,7 +330603,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>449</ID> 
+			<ID>452</ID> 
 			<Type>PROMOTION_EXTRA_SIGHT_III</Type> 
 			<Description>TXT_KEY_PROMOTION_XTRA_SIGHT_III</Description> 
 			<Help>TXT_KEY_PROMOTION_XTRA_SIGHT_III_HELP</Help> 
@@ -330304,7 +330751,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>450</ID> 
+			<ID>453</ID> 
 			<Type>PROMOTION_ACCURACY_1</Type> 
 			<Description>TXT_KEY_PROMOTION_ACCURACY_1</Description> 
 			<Help>TXT_KEY_PROMOTION_ACCURACY_1_HELP</Help> 
@@ -330452,7 +330899,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>451</ID> 
+			<ID>454</ID> 
 			<Type>PROMOTION_AIR_RANGE</Type> 
 			<Description>TXT_KEY_PROMOTION_AIR_RANGE</Description> 
 			<Help>TXT_KEY_PROMOTION_AIR_RANGE_HELP</Help> 
@@ -330600,7 +331047,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>452</ID> 
+			<ID>455</ID> 
 			<Type>PROMOTION_CITY_ASSAULT</Type> 
 			<Description>TXT_KEY_PROMOTION_CITY_ASSUALT</Description> 
 			<Help>TXT_KEY_PROMOTION_CITY_ASSUALT_HELP</Help> 
@@ -330748,7 +331195,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>453</ID> 
+			<ID>456</ID> 
 			<Type>PROMOTION_CITY_ASSAULT_NOLOST</Type> 
 			<Description>TXT_KEY_PROMOTION_CITY_ASSUALT</Description> 
 			<Help>TXT_KEY_PROMOTION_CITY_ASSUALT_HELP</Help> 
@@ -330896,7 +331343,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>454</ID> 
+			<ID>457</ID> 
 			<Type>PROMOTION_ANTI_GUNPOWDER</Type> 
 			<Description>TXT_KEY_PROMOTION_ANTI_GUNPOWDER</Description> 
 			<Help>TXT_KEY_PROMOTION_ANTI_GUNPOWDER_HELP</Help> 
@@ -331044,7 +331491,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>455</ID> 
+			<ID>458</ID> 
 			<Type>PROMOTION_SELL_EXOTIC_GOODS</Type> 
 			<Description>TXT_KEY_PROMOTION_SELL_EXOTIC_GOODS</Description> 
 			<Help>TXT_KEY_PROMOTION_SELL_EXOTIC_GOODS_HELP</Help> 
@@ -331192,7 +331639,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>456</ID> 
+			<ID>459</ID> 
 			<Type>PROMOTION_TRADE_MISSION_BONUS</Type> 
 			<Description>TXT_KEY_PROMOTION_TRADE_MISSION_BONUS</Description> 
 			<Help>TXT_KEY_PROMOTION_TRADE_MISSION_BONUS_HELP</Help> 
@@ -331340,7 +331787,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>457</ID> 
+			<ID>460</ID> 
 			<Type>PROMOTION_SAPPER</Type> 
 			<Description>TXT_KEY_PROMOTION_SAPPER</Description> 
 			<Help>TXT_KEY_PROMOTION_SAPPER_HELP</Help> 
@@ -331488,7 +331935,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>458</ID> 
+			<ID>461</ID> 
 			<Type>PROMOTION_GOLDEN_AGE_POINTS</Type> 
 			<Description>TXT_KEY_PROMOTION_GOLDEN_AGE_POINTS</Description> 
 			<Help>TXT_KEY_PROMOTION_GOLDEN_AGE_POINTS_HELP</Help> 
@@ -331636,7 +332083,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>459</ID> 
+			<ID>462</ID> 
 			<Type>PROMOTION_GAIN_EXPERIENCE</Type> 
 			<Description>TXT_KEY_PROMOTION_GAIN_EXPERIENCE</Description> 
 			<Help>TXT_KEY_PROMOTION_GAIN_EXPERIENCE_HELP</Help> 
@@ -331784,7 +332231,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>460</ID> 
+			<ID>463</ID> 
 			<Type>PROMOTION_MYSTIC_BLADE</Type> 
 			<Description>TXT_KEY_PROMOTION_MYSTIC_BLADE</Description> 
 			<Help>TXT_KEY_PROMOTION_MYSTIC_BLADE_HELP</Help> 
@@ -331932,7 +332379,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>461</ID> 
+			<ID>464</ID> 
 			<Type>PROMOTION_INVULNERABIILITY</Type> 
 			<Description>TXT_KEY_PROMOTION_INVULNERABIILITY</Description> 
 			<Help>TXT_KEY_PROMOTION_INVULNERABIILITY_HELP</Help> 
@@ -332080,7 +332527,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>462</ID> 
+			<ID>465</ID> 
 			<Type>PROMOTION_SNEAK_ATTACK</Type> 
 			<Description>TXT_KEY_PROMOTION_SNEAK_ATTACK</Description> 
 			<Help>TXT_KEY_PROMOTION_SNEAK_ATTACK_HELP</Help> 
@@ -332228,7 +332675,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>463</ID> 
+			<ID>466</ID> 
 			<Type>PROMOTION_HEROISM</Type> 
 			<Description>TXT_KEY_PROMOTION_HEROISM</Description> 
 			<Help>TXT_KEY_PROMOTION_HEROISM_HELP</Help> 
@@ -332376,7 +332823,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>464</ID> 
+			<ID>467</ID> 
 			<Type>PROMOTION_AMBITION</Type> 
 			<Description>TXT_KEY_PROMOTION_AMBITION</Description> 
 			<Help>TXT_KEY_PROMOTION_AMBITION_HELP</Help> 
@@ -332524,7 +332971,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>465</ID> 
+			<ID>468</ID> 
 			<Type>PROMOTION_RESTLESSNESS</Type> 
 			<Description>TXT_KEY_PROMOTION_RESTLESSNESS</Description> 
 			<Help>TXT_KEY_PROMOTION_RESTLESSNESS_HELP</Help> 
@@ -332672,7 +333119,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>466</ID> 
+			<ID>469</ID> 
 			<Type>PROMOTION_RECRUITMENT</Type> 
 			<Description>TXT_KEY_PROMOTION_RECRUITMENT</Description> 
 			<Help>TXT_KEY_PROMOTION_RECRUITMENT_HELP</Help> 
@@ -332820,7 +333267,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>467</ID> 
+			<ID>470</ID> 
 			<Type>PROMOTION_CITY_PILLAGE_FREE</Type> 
 			<Description>TXT_KEY_PROMOTION_CITY_PILLAGE_FREE</Description> 
 			<Help>TXT_KEY_PROMOTION_CITY_PILLAGE_FREE_HELP</Help> 
@@ -332968,7 +333415,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>468</ID> 
+			<ID>471</ID> 
 			<Type>PROMOTION_HAKA_WAR_DANCE</Type> 
 			<Description>TXT_KEY_PROMOTION_HAKA_WAR_DANCE</Description> 
 			<Help>TXT_KEY_PROMOTION_HAKA_WAR_DANCE_HELP</Help> 
@@ -333116,7 +333563,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>469</ID> 
+			<ID>472</ID> 
 			<Type>PROMOTION_FEARED_ELEPHANT</Type> 
 			<Description>TXT_KEY_PROMOTION_FEARED_ELEPHANT</Description> 
 			<Help>TXT_KEY_PROMOTION_FEARED_ELEPHANT_HELP</Help> 
@@ -333264,7 +333711,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>470</ID> 
+			<ID>473</ID> 
 			<Type>PROMOTION_ATTACK_BONUS</Type> 
 			<Description>TXT_KEY_PROMOTION_ATTACK_BONUS</Description> 
 			<Help>TXT_KEY_PROMOTION_ATTACK_BONUS</Help> 
@@ -333412,7 +333859,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>471</ID> 
+			<ID>474</ID> 
 			<Type>PROMOTION_FLANK_ATTACK_BONUS</Type> 
 			<Description>TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS</Description> 
 			<Help>TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_HELP</Help> 
@@ -333560,7 +334007,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>472</ID> 
+			<ID>475</ID> 
 			<Type>PROMOTION_DEFEND_NEAR_CAPITAL</Type> 
 			<Description>TXT_KEY_PROMOTION_DEFEND_NEAR_CAPITAL</Description> 
 			<Help>TXT_KEY_PROMOTION_DEFEND_NEAR_CAPITAL_HELP</Help> 
@@ -333708,7 +334155,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>473</ID> 
+			<ID>476</ID> 
 			<Type>PROMOTION_EMBARKED_SIGHT</Type> 
 			<Description>TXT_KEY_PROMOTION_EMBARKED_SIGHT</Description> 
 			<Help>TXT_KEY_PROMOTION_EMBARKED_SIGHT_HELP</Help> 
@@ -333856,7 +334303,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>474</ID> 
+			<ID>477</ID> 
 			<Type>PROMOTION_MOVEMENT_TO_GENERAL</Type> 
 			<Description>TXT_KEY_PROMOTION_MOVEMENT_TO_GENERAL</Description> 
 			<Help>TXT_KEY_PROMOTION_MOVEMENT_TO_GENERAL_HELP</Help> 
@@ -334004,7 +334451,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>475</ID> 
+			<ID>478</ID> 
 			<Type>PROMOTION_GENERAL_STACKING</Type> 
 			<Description>TXT_KEY_PROMOTION_GENERAL_STACKING</Description> 
 			<Help>TXT_KEY_PROMOTION_GENERAL_STACKING_HELP</Help> 
@@ -334152,7 +334599,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>476</ID> 
+			<ID>479</ID> 
 			<Type>PROMOTION_ONLY_ATTACKS_CITIES</Type> 
 			<Description>TXT_KEY_PROMOTION_ONLY_ATTACKS_CITIES</Description> 
 			<Help>TXT_KEY_PROMOTION_ONLY_ATTACKS_CITIES_HELP</Help> 
@@ -334300,7 +334747,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>477</ID> 
+			<ID>480</ID> 
 			<Type>PROMOTION_WAR_CANOES</Type> 
 			<Description>TXT_KEY_PROMOTION_WAR_CANOES</Description> 
 			<Help>TXT_KEY_PROMOTION_WAR_CANOES_HELP</Help> 
@@ -334448,7 +334895,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>478</ID> 
+			<ID>481</ID> 
 			<Type>PROMOTION_PRIZE_SHIPS</Type> 
 			<Description>TXT_KEY_PROMOTION_PRIZE_SHIPS</Description> 
 			<Help>TXT_KEY_PROMOTION_PRIZE_SHIPS_HELP</Help> 
@@ -334596,7 +335043,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>479</ID> 
+			<ID>482</ID> 
 			<Type>PROMOTION_NAVAL_BONUS</Type> 
 			<Description>TXT_KEY_PROMOTION_NAVAL_BONUS</Description> 
 			<Help>TXT_KEY_PROMOTION_NAVAL_BONUS</Help> 
@@ -334744,7 +335191,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>480</ID> 
+			<ID>483</ID> 
 			<Type>PROMOTION_NAVAL_BONUS_STRONG</Type> 
 			<Description>TXT_KEY_PROMOTION_NAVAL_BONUS</Description> 
 			<Help>TXT_KEY_PROMOTION_NAVAL_BONUS</Help> 
@@ -334892,7 +335339,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>481</ID> 
+			<ID>484</ID> 
 			<Type>PROMOTION_MULTIPURPOSE_DESTROYER</Type> 
 			<Description>TXT_KEY_PROMOTION_MULTIPURPOSE_DESTROYER</Description> 
 			<Help>TXT_KEY_PROMOTION_MULTIPURPOSE_DESTROYER_HELP</Help> 
@@ -335040,7 +335487,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>482</ID> 
+			<ID>485</ID> 
 			<Type>PROMOTION_ANTI_HELICOPTER</Type> 
 			<Description>TXT_KEY_PROMOTION_ANTI_HELICOPTER</Description> 
 			<Help>TXT_KEY_PROMOTION_ANTI_HELICOPTER_HELP</Help> 
@@ -335188,7 +335635,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>483</ID> 
+			<ID>486</ID> 
 			<Type>PROMOTION_OCEAN_MOVEMENT</Type> 
 			<Description>TXT_KEY_PROMOTION_OCEAN_MOVEMENT</Description> 
 			<Help>TXT_KEY_PROMOTION_OCEAN_MOVEMENT_HELP</Help> 
@@ -335336,7 +335783,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>484</ID> 
+			<ID>487</ID> 
 			<Type>PROMOTION_SPAWN_GENERALS_II</Type> 
 			<Description>TXT_KEY_PROMOTION_SPAWN_GENERALS_II</Description> 
 			<Help>TXT_KEY_PROMOTION_SPAWN_GENERALS_II_HELP</Help> 
@@ -335484,7 +335931,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>485</ID> 
+			<ID>488</ID> 
 			<Type>PROMOTION_JAGUAR</Type> 
 			<Description>TXT_KEY_PROMOTION_JAGUAR</Description> 
 			<Help>TXT_KEY_PROMOTION_JAGUAR_HELP</Help> 
@@ -335632,7 +336079,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>486</ID> 
+			<ID>489</ID> 
 			<Type>PROMOTION_FOREIGN_LANDS</Type> 
 			<Description>TXT_KEY_PROMOTION_FOREIGN_LANDS</Description> 
 			<Help>TXT_KEY_PROMOTION_FOREIGN_LANDS_HELP</Help> 
@@ -335780,7 +336227,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>487</ID> 
+			<ID>490</ID> 
 			<Type>PROMOTION_HEAL_IF_DESTROY_ENEMY</Type> 
 			<Description>TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY</Description> 
 			<Help>TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY_HELP</Help> 
@@ -335928,7 +336375,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>488</ID> 
+			<ID>491</ID> 
 			<Type>PROMOTION_ARMOR_PLATING_1</Type> 
 			<Description>TXT_KEY_PROMOTION_ARMOR_PLATING_1</Description> 
 			<Help>TXT_KEY_PROMOTION_ARMOR_PLATING_1_HELP</Help> 
@@ -336076,7 +336523,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>489</ID> 
+			<ID>492</ID> 
 			<Type>PROMOTION_ARMOR_PLATING_2</Type> 
 			<Description>TXT_KEY_PROMOTION_ARMOR_PLATING_2</Description> 
 			<Help>TXT_KEY_PROMOTION_ARMOR_PLATING_2_HELP</Help> 
@@ -336224,7 +336671,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>490</ID> 
+			<ID>493</ID> 
 			<Type>PROMOTION_ARMOR_PLATING_3</Type> 
 			<Description>TXT_KEY_PROMOTION_ARMOR_PLATING_3</Description> 
 			<Help>TXT_KEY_PROMOTION_ARMOR_PLATING_3_HELP</Help> 
@@ -336372,7 +336819,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>491</ID> 
+			<ID>494</ID> 
 			<Type>PROMOTION_GOODY_HUT_PICKER</Type> 
 			<Description>TXT_KEY_PROMOTION_GOODY_HUT_PICKER</Description> 
 			<Help>TXT_KEY_PROMOTION_GOODY_HUT_PICKER_HELP</Help> 
@@ -336520,7 +336967,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>492</ID> 
+			<ID>495</ID> 
 			<Type>PROMOTION_ANTI_AIR_SHIP</Type> 
 			<Description>TXT_KEY_PROMOTION_ANTI_AIR_SHIP</Description> 
 			<Help>TXT_KEY_PROMOTION_ANTI_AIR_SHIP_HELP</Help> 
@@ -336668,7 +337115,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>493</ID> 
+			<ID>496</ID> 
 			<Type>PROMOTION_WOLFPACK</Type> 
 			<Description>TXT_KEY_PROMOTION_WOLFPACK</Description> 
 			<Help>TXT_KEY_PROMOTION_WOLFPACK_HELP</Help> 
@@ -336816,7 +337263,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>494</ID> 
+			<ID>497</ID> 
 			<Type>PROMOTION_MOBILITY</Type> 
 			<Description>TXT_KEY_PROMOTION_MOBILITY</Description> 
 			<Help>TXT_KEY_PROMOTION_MOBILITY_HELP</Help> 
@@ -336967,7 +337414,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>495</ID> 
+			<ID>498</ID> 
 			<Type>PROMOTION_WITHDRAW_BEFORE_MELEE</Type> 
 			<Description>TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE</Description> 
 			<Help>TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE_HELP</Help> 
@@ -337115,7 +337562,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>496</ID> 
+			<ID>499</ID> 
 			<Type>PROMOTION_LASER_SUPPRESSION</Type> 
 			<Description>TXT_KEY_PROMOTION_LASER_SUPPRESSION</Description> 
 			<Help>TXT_KEY_PROMOTION_LASER_SUPPRESSION_HELP</Help> 
@@ -337263,7 +337710,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>497</ID> 
+			<ID>500</ID> 
 			<Type>PROMOTION_ACE_FIGHTER</Type> 
 			<Description>TXT_KEY_PROMOTION_ACE_FIGHTER</Description> 
 			<Help>TXT_KEY_PROMOTION_ACE_FIGHTER_HELP</Help> 
@@ -337411,7 +337858,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>498</ID> 
+			<ID>501</ID> 
 			<Type>PROMOTION_ELITE_DEFENSE</Type> 
 			<Description>TXT_KEY_PROMOTION_ELITE_DEFENSE</Description> 
 			<Help>TXT_KEY_PROMOTION_ELITE_DEFENSE_HELP</Help> 
@@ -337559,7 +338006,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>499</ID> 
+			<ID>502</ID> 
 			<Type>PROMOTION_NUMIDIAN_MARCH</Type> 
 			<Description>TXT_KEY_PROMOTION_NUMIDIAN_MARCH</Description> 
 			<Help>TXT_KEY_PROMOTION_NUMIDIAN_MARCH_HELP</Help> 
@@ -337707,7 +338154,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>500</ID> 
+			<ID>503</ID> 
 			<Type>PROMOTION_RAPID_MARCH</Type> 
 			<Description>TXT_KEY_PROMOTION_RAPID_MARCH</Description> 
 			<Help>TXT_KEY_PROMOTION_RAPID_MARCH_HELP</Help> 
@@ -337855,7 +338302,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>501</ID> 
+			<ID>504</ID> 
 			<Type>PROMOTION_RANGE_SPECIAL</Type> 
 			<Description>TXT_KEY_PROMOTION_RANGE</Description> 
 			<Help>TXT_KEY_PROMOTION_RANGE_HELP</Help> 
@@ -338003,7 +338450,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>502</ID> 
+			<ID>505</ID> 
 			<Type>PROMOTION_SKI_INFANTRY</Type> 
 			<Description>TXT_KEY_PROMOTION_SKI_INFANTRY</Description> 
 			<Help>TXT_KEY_PROMOTION_SKI_INFANTRY_HELP</Help> 
@@ -338151,7 +338598,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>503</ID> 
+			<ID>506</ID> 
 			<Type>PROMOTION_AIRSHIP_CARRIER</Type> 
 			<Description>TXT_KEY_PROMOTION_AIRSHIP_CARRIER</Description> 
 			<Help>TXT_KEY_PROMOTION_AIRSHIP_CARRIER_HELP</Help> 
@@ -338299,7 +338746,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>504</ID> 
+			<ID>507</ID> 
 			<Type>PROMOTION_STRONGER_VS_DAMAGED</Type> 
 			<Description>TXT_KEY_PROMOTION_STRONGER_VS_DAMAGED</Description> 
 			<Help>TXT_KEY_PROMOTION_STRONGER_VS_DAMAGED_HELP</Help> 
@@ -338447,7 +338894,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>505</ID> 
+			<ID>508</ID> 
 			<Type>PROMOTION_SNIPER_ELITE</Type> 
 			<Description>TXT_KEY_PROMOTION_SNIPER_ELITE</Description> 
 			<Help>TXT_KEY_PROMOTION_SNIPER_ELITE_HELP</Help> 
@@ -338597,7 +339044,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>506</ID> 
+			<ID>509</ID> 
 			<Type>PROMOTION_ANTI_TANK_BAZOOKA</Type> 
 			<Description>TXT_KEY_PROMOTION_ANTI_TANK_BAZOOKA</Description> 
 			<Help>TXT_KEY_PROMOTION_ANTI_TANK_BAZOOKA_HELP</Help> 
@@ -338746,7 +339193,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>507</ID> 
+			<ID>510</ID> 
 			<Type>PROMOTION_UNLIMITED_ATTACK</Type> 
 			<Description>TXT_KEY_PROMOTION_UNLIMITED_ATTACK</Description> 
 			<Help>TXT_KEY_PROMOTION_UNLIMITED_ATTACK_HELP</Help> 
@@ -338894,7 +339341,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>508</ID> 
+			<ID>511</ID> 
 			<Type>PROMOTION_ANTI_DEBUFF</Type> 
 			<Description>TXT_KEY_PROMOTION_ANTI_DEBUFF</Description> 
 			<Help>TXT_KEY_PROMOTION_ANTI_DEBUFF_HELP</Help> 
@@ -339042,7 +339489,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>509</ID> 
+			<ID>512</ID> 
 			<Type>PROMOTION_GAIN_MOVES_AFFER_KILLING</Type> 
 			<Description>TXT_KEY_PROMOTION_GAIN_MOVES_AFFER_KILLING</Description> 
 			<Help>TXT_KEY_PROMOTION_GAIN_MOVES_AFFER_KILLING_HELP</Help> 
@@ -339190,7 +339637,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>510</ID> 
+			<ID>513</ID> 
 			<Type>PROMOTION_FULL_FIRE</Type> 
 			<Description>TXT_KEY_PROMOTION_FULL_FIRE</Description> 
 			<Help>TXT_KEY_PROMOTION_FULL_FIRE_HELP</Help> 
@@ -339338,7 +339785,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>511</ID> 
+			<ID>514</ID> 
 			<Type>PROMOTION_AIR_RECON</Type> 
 			<Description>TXT_KEY_PROMOTION_AIR_RECON</Description> 
 			<Help>TXT_KEY_PROMOTION_AIR_RECON_HELP</Help> 
@@ -339486,7 +339933,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>512</ID> 
+			<ID>515</ID> 
 			<Type>PROMOTION_BLACKBIRD_RECON</Type> 
 			<Description>TXT_KEY_PROMOTION_BLACKBIRD_RECON</Description> 
 			<Help>TXT_KEY_PROMOTION_BLACKBIRD_RECON_HELP</Help> 
@@ -339634,7 +340081,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>513</ID> 
+			<ID>516</ID> 
 			<Type>PROMOTION_NUCLEAR_ARTILLERY</Type> 
 			<Description>TXT_KEY_PROMOTION_NUCLEAR_ARTILLERY</Description> 
 			<Help>TXT_KEY_PROMOTION_NUCLEAR_ARTILLERY_HELP</Help> 
@@ -339782,7 +340229,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>514</ID> 
+			<ID>517</ID> 
 			<Type>PROMOTION_CHAIN_REACTION</Type> 
 			<Description>TXT_KEY_PROMOTION_CHAIN_REACTION</Description> 
 			<Help>TXT_KEY_PROMOTION_CHAIN_REACTION_HELP</Help> 
@@ -339930,7 +340377,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>515</ID> 
+			<ID>518</ID> 
 			<Type>PROMOTION_ALTITUDE_TRAINING</Type> 
 			<Description>TXT_KEY_PROMOTION_ALTITUDE_TRAINING</Description> 
 			<Help>TXT_KEY_PROMOTION_ALTITUDE_TRAINING_HELP</Help> 
@@ -340078,7 +340525,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>516</ID> 
+			<ID>519</ID> 
 			<Type>PROMOTION_CAN_CROSS_MOUNTAINS</Type> 
 			<Description>TXT_KEY_PROMOTION_CAN_CROSS_MOUNTAINS</Description> 
 			<Help>TXT_KEY_PROMOTION_CAN_CROSS_MOUNTAINS</Help> 
@@ -340226,7 +340673,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>517</ID> 
+			<ID>520</ID> 
 			<Type>PROMOTION_EMBARKATION</Type> 
 			<Description>TXT_KEY_PROMOTION_EMBARKATION</Description> 
 			<Help>TXT_KEY_PROMOTION_EMBARKATION_HELP</Help> 
@@ -340375,7 +340822,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>518</ID> 
+			<ID>521</ID> 
 			<Type>PROMOTION_DEFENSIVE_EMBARKATION</Type> 
 			<Description>TXT_KEY_PROMOTION_DEFENSIVE_EMBARKATION</Description> 
 			<Help>TXT_KEY_PROMOTION_DEFENSIVE_EMBARKATION_HELP</Help> 
@@ -340524,7 +340971,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>519</ID> 
+			<ID>522</ID> 
 			<Type>PROMOTION_ALLWATER_EMBARKATION</Type> 
 			<Description>TXT_KEY_PROMOTION_ALLWATER_EMBARKATION</Description> 
 			<Help>TXT_KEY_PROMOTION_ALLWATER_EMBARKATION_HELP</Help> 
@@ -340672,7 +341119,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>520</ID> 
+			<ID>523</ID> 
 			<Type>PROMOTION_IGNORE_TERRAIN_COST</Type> 
 			<Description>TXT_KEY_PROMOTION_IGNORE_TERRAIN_COST</Description> 
 			<Help>TXT_KEY_PROMOTION_IGNORE_TERRAIN_COST</Help> 
@@ -340820,7 +341267,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>521</ID> 
+			<ID>524</ID> 
 			<Type>PROMOTION_HOVERING_UNIT</Type> 
 			<Description>TXT_KEY_PROMOTION_HOVERING_UNIT</Description> 
 			<Help>TXT_KEY_PROMOTION_HOVERING_UNIT_HELP</Help> 
@@ -340968,7 +341415,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>522</ID> 
+			<ID>525</ID> 
 			<Type>PROMOTION_FLAT_MOVEMENT_COST</Type> 
 			<Description>TXT_KEY_PROMOTION_FLAT_MOVEMENT_COST</Description> 
 			<Help>TXT_KEY_PROMOTION_FLAT_MOVEMENT_COST</Help> 
@@ -341116,7 +341563,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>523</ID> 
+			<ID>526</ID> 
 			<Type>PROMOTION_CAN_MOVE_IMPASSABLE</Type> 
 			<Description>TXT_KEY_PROMOTION_CAN_MOVE_IMPASSABLE</Description> 
 			<Help>TXT_KEY_PROMOTION_CAN_MOVE_IMPASSABLE</Help> 
@@ -341264,7 +341711,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>524</ID> 
+			<ID>527</ID> 
 			<Type>PROMOTION_OCEAN_IMPASSABLE</Type> 
 			<Description>TXT_KEY_PROMOTION_OCEAN_IMPASSABLE</Description> 
 			<Help>TXT_KEY_PROMOTION_OCEAN_IMPASSABLE</Help> 
@@ -341412,7 +341859,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>525</ID> 
+			<ID>528</ID> 
 			<Type>PROMOTION_ONLY_DEFENSIVE</Type> 
 			<Description>TXT_KEY_PROMOTION_ONLY_DEFENSIVE</Description> 
 			<Help>TXT_KEY_PROMOTION_ONLY_DEFENSIVE</Help> 
@@ -341560,7 +342007,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>526</ID> 
+			<ID>529</ID> 
 			<Type>PROMOTION_ENEMY_BLADE</Type> 
 			<Description>TXT_KEY_PROMOTION_ENEMY_BLADE</Description> 
 			<Help>TXT_KEY_PROMOTION_ENEMY_BLADE_HELP</Help> 
@@ -341708,7 +342155,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>527</ID> 
+			<ID>530</ID> 
 			<Type>PROMOTION_EVIL_SPIRITS</Type> 
 			<Description>TXT_KEY_PROMOTION_EVIL_SPIRITS</Description> 
 			<Help>TXT_KEY_PROMOTION_EVIL_SPIRITS_HELP</Help> 
@@ -341856,7 +342303,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>528</ID> 
+			<ID>531</ID> 
 			<Type>PROMOTION_NO_CASUALTIES</Type> 
 			<Description>TXT_KEY_PROMOTION_NO_CASUALTIES</Description> 
 			<Help>TXT_KEY_PROMOTION_NO_CASUALTIES_HELP</Help> 
@@ -342004,7 +342451,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>529</ID> 
+			<ID>532</ID> 
 			<Type>PROMOTION_HALF_CASUALTIES</Type> 
 			<Description>TXT_KEY_PROMOTION_HALF_CASUALTIES</Description> 
 			<Help>TXT_KEY_PROMOTION_HALF_CASUALTIES_HELP</Help> 
@@ -342152,7 +342599,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>530</ID> 
+			<ID>533</ID> 
 			<Type>PROMOTION_VADERONE</Type> 
 			<Description>TXT_KEY_UNIT_HELP_DVADERCIVUNIT_MINI2</Description> 
 			<Help>TXT_KEY_UNIT_HELP_DVADERCIVUNIT_MINI</Help> 
@@ -342300,7 +342747,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>531</ID> 
+			<ID>534</ID> 
 			<Type>PROMOTION_ARTIST_PROMOTION</Type> 
 			<Description>TXT_KEY_PROMOTION_ARTIST_PROMOTION</Description> 
 			<Help>TXT_KEY_PROMOTION_ARTIST_PROMOTION</Help> 
@@ -342448,7 +342895,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>532</ID> 
+			<ID>535</ID> 
 			<Type>PROMOTION_SHOCK_CHARGER</Type> 
 			<Description>TXT_KEY_PROMOTION_SHOCK_CHARGER</Description> 
 			<Help>TXT_KEY_PROMOTION_SHOCK_CHARGER_HELP</Help> 
@@ -342596,7 +343043,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>533</ID> 
+			<ID>536</ID> 
 			<Type>PROMOTION_MOUNTAIN_TROOP</Type> 
 			<Description>TXT_KEY_PROMOTION_MOUNTAIN_TROOP</Description> 
 			<Help>TXT_KEY_PROMOTION_MOUNTAIN_TROOP_HELP</Help> 
@@ -342744,7 +343191,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>534</ID> 
+			<ID>537</ID> 
 			<Type>PROMOTION_EFFICIENT_DESIGN</Type> 
 			<Description>TXT_KEY_PROMOTION_EFFICIENT_DESIGN</Description> 
 			<Help>TXT_KEY_PROMOTION_EFFICIENT_DESIGN_HELP</Help> 
@@ -342892,7 +343339,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>535</ID> 
+			<ID>538</ID> 
 			<Type>PROMOTION_ROYAL_GUARD</Type> 
 			<Description>TXT_KEY_PROMOTION_ROYAL_GUARD</Description> 
 			<Help>TXT_KEY_PROMOTION_ROYAL_GUARD_HELP</Help> 
@@ -343040,7 +343487,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>536</ID> 
+			<ID>539</ID> 
 			<Type>PROMOTION_VIKING_LEGACY</Type> 
 			<Description>TXT_KEY_PROMOTION_VIKING_LEGACY</Description> 
 			<Help>TXT_KEY_PROMOTION_VIKING_LEGACY_HELP</Help> 
@@ -343188,7 +343635,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>537</ID> 
+			<ID>540</ID> 
 			<Type>PROMOTION_3SEPOY</Type> 
 			<Description>TXT_KEY_PROMOTION_3SEPOY</Description> 
 			<Help>TXT_KEY_PROMOTION_3SEPOY_HELP</Help> 
@@ -343336,7 +343783,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>538</ID> 
+			<ID>541</ID> 
 			<Type>PROMOTION_3UC_RUSHER</Type> 
 			<Description>TXT_KEY_PROMOTION_3UC_RUSHER</Description> 
 			<Help>TXT_KEY_PROMOTION_3UC_RUSHER_HELP</Help> 
@@ -343484,7 +343931,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>539</ID> 
+			<ID>542</ID> 
 			<Type>PROMOTION_KAPAL3UC</Type> 
 			<Description>TXT_KEY_PROMOTION_KAPAL3UC</Description> 
 			<Help>TXT_KEY_PROMOTION_KAPAL3UC_HELP</Help> 
@@ -343632,7 +344079,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>540</ID> 
+			<ID>543</ID> 
 			<Type>PROMOTION_BANDEIRA</Type> 
 			<Description>TXT_KEY_PROMOTION_BANDEIRA</Description> 
 			<Help>TXT_KEY_PROMOTION_BANDEIRA_HELP</Help> 
@@ -343780,7 +344227,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>541</ID> 
+			<ID>544</ID> 
 			<Type>PROMOTION_3MAYAN</Type> 
 			<Description>TXT_KEY_PROMOTION_3MAYAN</Description> 
 			<Help>TXT_KEY_PROMOTION_3MAYAN_HELP</Help> 
@@ -343928,7 +344375,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>542</ID> 
+			<ID>545</ID> 
 			<Type>PROMOTION_MONASTIC</Type> 
 			<Description>TXT_KEY_PROMOTION_MONASTIC3UC</Description> 
 			<Help>TXT_KEY_PROMOTION_MONASTIC3UC_HELP</Help> 
@@ -344076,7 +344523,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>543</ID> 
+			<ID>546</ID> 
 			<Type>PROMOTION_4HUNS</Type> 
 			<Description>TXT_KEY_PROMOTION_4HUNS</Description> 
 			<Help>TXT_KEY_PROMOTION_4HUNS_HELP</Help> 
@@ -344224,7 +344671,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>544</ID> 
+			<ID>547</ID> 
 			<Type>PROMOTION_WARSHIP_DISGUISE</Type> 
 			<Description>TXT_KEY_PROMOTION_WARSHIP_DISGUISE</Description> 
 			<Help>TXT_KEY_PROMOTION_WARSHIP_DISGUISE_HELP</Help> 
@@ -344372,7 +344819,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>545</ID> 
+			<ID>548</ID> 
 			<Type>PROMOTION_REAL_GUNPORT</Type> 
 			<Description>TXT_KEY_PROMOTION_REAL_GUNPORT</Description> 
 			<Help>TXT_KEY_PROMOTION_REAL_GUNPORT_HELP</Help> 
@@ -344520,7 +344967,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>546</ID> 
+			<ID>549</ID> 
 			<Type>PROMOTION_MID_GUNPORT</Type> 
 			<Description>TXT_KEY_PROMOTION_MID_GUNPORT</Description> 
 			<Help>TXT_KEY_PROMOTION_MID_GUNPORT_HELP</Help> 
@@ -344668,7 +345115,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>547</ID> 
+			<ID>550</ID> 
 			<Type>PROMOTION_FAKE_GUNPORT</Type> 
 			<Description>TXT_KEY_PROMOTION_FAKE_GUNPORT</Description> 
 			<Help>TXT_KEY_PROMOTION_FAKE_GUNPORT_HELP</Help> 
@@ -344816,7 +345263,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>548</ID> 
+			<ID>551</ID> 
 			<Type>PROMOTION_3UC_DOUBLE</Type> 
 			<Description>TXT_KEY_PROMOTION_3UC_DOUBLE</Description> 
 			<Help>TXT_KEY_PROMOTION_3UC_DOUBLE_HELP</Help> 
@@ -344964,7 +345411,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>549</ID> 
+			<ID>552</ID> 
 			<Type>PROMOTION_SIEGE_3UC</Type> 
 			<Description>TXT_KEY_PROMOTION_SIEGE_3UC</Description> 
 			<Help>TXT_KEY_PROMOTION_SIEGE_3UC_HELP</Help> 
@@ -345112,7 +345559,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>550</ID> 
+			<ID>553</ID> 
 			<Type>PROMOTION_4GREEK_PELTER</Type> 
 			<Description>TXT_KEY_PROMOTION_4GREEK_PELTER</Description> 
 			<Help>TXT_KEY_PROMOTION_4GREEK_PELTER_HELP</Help> 
@@ -345260,7 +345707,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>551</ID> 
+			<ID>554</ID> 
 			<Type>PROMOTION_4UC_CACADOR</Type> 
 			<Description>TXT_KEY_PROMOTION_4UC_CACADOR</Description> 
 			<Help>TXT_KEY_PROMOTION_4UC_CACADOR_HELP</Help> 
@@ -345408,7 +345855,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>552</ID> 
+			<ID>555</ID> 
 			<Type>PROMOTION_SECLUSION</Type> 
 			<Description>TXT_KEY_PROMOTION_SECLUSION</Description> 
 			<Help>TXT_KEY_PROMOTION_SECLUSION_HELP</Help> 
@@ -345556,7 +346003,7 @@
 			<NoSupply>0</NoSupply> 
 		</Row>
 		<Row> 
-			<ID>553</ID> 
+			<ID>556</ID> 
 			<Type>PROMOTION_XCOM_GDR_BONUS</Type> 
 			<Description>TXT_KEY_PROMOTION_XCOM_GDR_BONUS</Description> 
 			<Help>TXT_KEY_PROMOTION_XCOM_GDR_BONUS_HELP</Help> 

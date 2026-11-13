@@ -74,7 +74,7 @@
 
   <!-- Background -->
 
-  <Grid Anchor="L,B" Offset="-37,-39" Size="500,238" Padding="0,0" Style="Grid9DetailFive140" Hidden="0"  ConsumeMouse="1">
+  <Grid Anchor="L,B" Offset="-37,-39" Size="500,238" Padding="0,0" Style="Grid9DetailFive140" Color="255,255,255,220"  Hidden="0"  ConsumeMouse="1">
 	
 	<!-- civ icon -->
 	<Image Anchor="L,B" Offset="250,119	" Size="32,32" Color="White.0" Texture="IconFrame64.dds"  Hidden="1" ID="BackgroundCivFrame">
