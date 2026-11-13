@@ -222,7 +222,7 @@ When a master set akey is queried, setMT( set, key ) handles creation of akey st
 	GameInfoCache[ tableName ] = cache
 	if tableName == "UnitPromotions" then
 		-- Patch promotion icons
-		local isBlandPromotion = { [57]="ABILITY_ATLAS", [59]="ABILITY_ATLAS" } -- specifies "generic" icons
+		local isBlandPromotion = { [57]="ABILITY_ATLAS", [58]="ABILITY_ATLAS", [59]="ABILITY_ATLAS" } -- specifies "generic" icons
 		for promotion, promotionInfo in pairs{
 			PROMOTION_IGNORE_TERRAIN_COST = cache.PROMOTION_MOBILITY,
 			PROMOTION_FASTER_HEAL = cache.PROMOTION_INSTA_HEAL,

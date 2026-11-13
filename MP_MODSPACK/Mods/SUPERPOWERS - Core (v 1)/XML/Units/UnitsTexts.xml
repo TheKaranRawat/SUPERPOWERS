@@ -4322,6 +4322,7 @@
 			<Text>+25% [ICON_STRENGTH] Combat Strength vs [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
 		</Row>
 
+		<!--
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1" >
 			<Text>Surgical Strike I</Text>
 		</Replace>
@@ -4340,6 +4341,27 @@
 		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP">
 			<Text>Heals +30HP after destroying an enemy unit</Text>
 		</Row>
+		-->
+
+		<Replace Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1" >
+			<Text>Surgical Strike I</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1_HELP" >
+			<Text>When attacking a city. Cause 20 Hp Damage to all enemy [COLOR_POSITIVE_TEXT]Garrisoned Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircraft[ENDCOLOR] inside the Target City.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2" >
+			<Text>Surgical Strike II</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2_HELP" >
+			<Text>When attacking a city. Cause 30 Hp Damage to all enemy [COLOR_POSITIVE_TEXT]Garrisoned Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircraft[ENDCOLOR] inside the Target City.</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3">
+			<Text>Surgical Strike III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP">
+			<Text>When attacking a city. Cause 40 Hp Damage to all enemy [COLOR_POSITIVE_TEXT]Garrisoned Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircraft[ENDCOLOR] inside the Target City.</Text>
+		</Row>
+
 
 		<!--<Replace Tag="TXT_KEY_PROMOTION_AIR_AMBUSH_1_HELP" >
 			<Text> Bonus vs Armored Units(50).</Text>
@@ -4359,6 +4381,7 @@
 				[NEWLINE][ICON_BULLET]This Aircraft is too large to land on [COLOR_NEGATIVE_TEXT]Aircraft Carriers[ENDCOLOR].</Text>
 		</Row>
 
+		<!--
 		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_1">
 			<Text>Firebombing I</Text>
 		</Row>
@@ -4398,6 +4421,48 @@
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_SIEGE_3_HELP" >
 			<Text>+25% Ranged Strength vs Cities</Text>
 		</Replace>
+		-->
+
+		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_1">
+			<Text>Firebombing I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_1_HELP">
+			<Text>Kill 10% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the Target City. (Kill only 5% if the city has a bomb shelter)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_2">
+			<Text>Firebombing II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_2_HELP">
+			<Text>Kill 20% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the Target City. (Kill only 10% if the city has a bomb shelter)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_3">
+			<Text>Firebombing III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_3_HELP">
+			<Text>Kill 30% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the [COLOR_POSITIVE_TEXT]Target City[ENDCOLOR]. (Kill only 15% if the city has a bomb shelter)</Text>
+		</Row>
+
+
+		<Replace Tag="TXT_KEY_PROMOTION_AIR_SIEGE_1_HELP" >
+			<Text>Strategic Bombing I</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROMOTION_AIR_SIEGE_2_HELP" >
+			<Text>Strategic Bombing II</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROMOTION_AIR_SIEGE_3_HELP" >
+			<Text>Strategic Bombing III</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_PROMOTION_AIR_SIEGE_1_HELP" >
+			<Text>Destroy 1 Military Building per attack in the [COLOR_POSITIVE_TEXT]Target City[ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROMOTION_AIR_SIEGE_2_HELP" >
+			<Text>Destroy 1 Power Plant Building per attack in the [COLOR_POSITIVE_TEXT]Target City[ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROMOTION_AIR_SIEGE_3_HELP" >
+			<Text>Destroy 1 Production Building per attack in the [COLOR_POSITIVE_TEXT]Target City[ENDCOLOR].</Text>
+		</Replace>
+
 
 
 		<Row Tag="TXT_KEY_PROMOTION_DESTROY_SUPPLY_1">

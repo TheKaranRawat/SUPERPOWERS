@@ -4117,7 +4117,7 @@
 			<PediaEntry>TXT_KEY_PROMOTION_AIR_BOMBARDMENT_3</PediaEntry>
 		</Row>
 
-		
+		<!-- deprecate effects 
 		<Row>
 			<Type>PROMOTION_AIR_TARGETING_1</Type>
 			<Description>TXT_KEY_PROMOTION_AIR_TARGETING_1</Description>
@@ -4157,7 +4157,45 @@
 			<PediaType>PEDIA_AIR</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_AIR_TARGETING_3</PediaEntry>
 		</Row>
+		-->
 
+		<Row>
+			<Type>PROMOTION_AIR_TARGETING_1</Type>
+			<Description>TXT_KEY_PROMOTION_AIR_TARGETING_1</Description>
+			<Help>TXT_KEY_PROMOTION_AIR_TARGETING_1_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereq>PROMOTION_AIR_ATTACK</PromotionPrereq>
+			<OrderPriority>3</OrderPriority>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>SPPROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_AIR</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_AIR_TARGETING_1</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_AIR_TARGETING_2</Type>
+			<Description>TXT_KEY_PROMOTION_AIR_TARGETING_2</Description>
+			<Help>TXT_KEY_PROMOTION_AIR_TARGETING_1_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_AIR_TARGETING_1</PromotionPrereqOr1>
+			<OrderPriority>3</OrderPriority>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>SPPROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_AIR</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_AIR_TARGETING_2</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_AIR_TARGETING_3</Type>
+			<Description>TXT_KEY_PROMOTION_AIR_TARGETING_3</Description>
+			<Help>TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_AIR_TARGETING_2</PromotionPrereqOr1>
+			<OrderPriority>3</OrderPriority>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>SPPROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_AIR</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_AIR_TARGETING_3</PediaEntry>
+		</Row>
+		
 		<Row>
 			<Type>PROMOTION_EVASION_I</Type>
 			<Description>TXT_KEY_PROMOTION_EVASION_I</Description>
@@ -4264,7 +4302,8 @@
 				<PediaEntry>TXT_KEY_PROMOTION_STRATEGIC_BOMBER</PediaEntry>
 				<CannotBeChosen>true</CannotBeChosen>
 			</Row>
-		
+
+			<!-- effects deprecate
 			<Row>
 				<Type>PROMOTION_NAPALMBOMB_1</Type>
 				<Description>TXT_KEY_PROMOTION_NAPALMBOMB_1</Description>
@@ -4304,7 +4343,7 @@
 				<PediaType>PEDIA_AIR</PediaType>
 				<PediaEntry>TXT_KEY_PROMOTION_NAPALMBOMB_3</PediaEntry>
 			</Row>
-		
+			
 			<Row>
 				<Type>PROMOTION_AIR_SIEGE_1</Type>
 				<Description>TXT_KEY_PROMOTION_AIR_SIEGE_1_HELP</Description>
@@ -4344,7 +4383,44 @@
 				<PediaType>PEDIA_AIR</PediaType>
 				<PediaEntry>TXT_KEY_PROMOTION_AIR_SIEGE_3</PediaEntry>
 			</Row>
+		-->
 
+		<Row>
+				<Type>PROMOTION_AIR_SIEGE_1</Type>
+				<Description>TXT_KEY_PROMOTION_AIR_SIEGE_1</Description>
+				<Help>TXT_KEY_PROMOTION_AIR_SIEGE_1_HELP</Help>
+				<Sound>AS2D_IF_LEVELUP</Sound>
+				<OrderPriority>2</OrderPriority>
+				<PortraitIndex>40</PortraitIndex>
+				<PromotionPrereqOr1>PROMOTION_STRATEGIC_BOMBER</PromotionPrereqOr1>
+				<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+				<PediaType>PEDIA_AIR</PediaType>
+				<PediaEntry>TXT_KEY_PROMOTION_AIR_SIEGE_1</PediaEntry>
+			</Row>
+			<Row>
+				<Type>PROMOTION_AIR_SIEGE_2</Type>
+				<Description>TXT_KEY_PROMOTION_AIR_SIEGE_2</Description>
+				<Help>TXT_KEY_PROMOTION_AIR_SIEGE_2_HELP</Help>
+				<Sound>AS2D_IF_LEVELUP</Sound>
+				<PromotionPrereqOr1>PROMOTION_AIR_SIEGE_1</PromotionPrereqOr1>
+				<OrderPriority>2</OrderPriority>
+				<PortraitIndex>41</PortraitIndex>
+				<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+				<PediaType>PEDIA_AIR</PediaType>
+				<PediaEntry>TXT_KEY_PROMOTION_AIR_SIEGE_2</PediaEntry>
+			</Row>
+			<Row>
+				<Type>PROMOTION_AIR_SIEGE_3</Type>
+				<Description>TXT_KEY_PROMOTION_AIR_SIEGE_3</Description>
+				<Help>TXT_KEY_PROMOTION_AIR_SIEGE_3_HELP</Help>
+				<Sound>AS2D_IF_LEVELUP</Sound>
+				<PromotionPrereqOr1>PROMOTION_AIR_SIEGE_2</PromotionPrereqOr1>
+				<OrderPriority>2</OrderPriority>
+				<PortraitIndex>42</PortraitIndex>
+				<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+				<PediaType>PEDIA_AIR</PediaType>
+				<PediaEntry>TXT_KEY_PROMOTION_AIR_SIEGE_3</PediaEntry>
+			</Row>
 
 		<Row>
 			<Type>PROMOTION_DESTROY_SUPPLY_1</Type>

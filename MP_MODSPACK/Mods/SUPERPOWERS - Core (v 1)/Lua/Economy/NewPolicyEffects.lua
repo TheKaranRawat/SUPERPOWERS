@@ -112,6 +112,7 @@ GameEvents.CityCaptureComplete.Add(OnCityCaptured)
 ---------------------------------------------------------------------
 -- Citizenship: free Worker when a new city is founded
 ---------------------------------------------------------------------
+--[[
 local function FreeUnitNewCity(iPlayerID, iX, iY)
 	if not POLICY_CITIZENSHIP then return end
 
@@ -131,6 +132,24 @@ local function FreeUnitNewCity(iPlayerID, iX, iY)
 		newUnit:JumpToNearestValidPlot()
 	end
 end
+]]--
+function FreeUnitNewCity(iPlayerID,iX,iY)
+    local iPlayer = Players[iPlayerID]
+	local pPlot = Map.GetPlot(iX, iY)
+	local PolicyLiberty = GameInfo.Policies["POLICY_CITIZENSHIP"].ID
+	local WorkerID = GameInfoTypes.UNIT_WORKER
+	
+    if iPlayer:HasPolicy(PolicyLiberty) then
+	--print ("Free Policy Unit!")
+		if iPlayer:GetCivilizationType() == GameInfoTypes["CIVILIZATION_BRAZIL"] then
+			WorkerID = GameInfoTypes.UNIT_BRAZILIAN_LABOR
+   	 	end
+   	 	
+   	 	local NewUnit = iPlayer:InitUnit(WorkerID, iX, iY, UNITAI_WORKER)
+		NewUnit:JumpToNearestValidPlot()    
+	end
+end
+
 GameEvents.PlayerCityFounded.Add(FreeUnitNewCity)
 
 ---------------------------------------------------------------------

@@ -387,9 +387,14 @@ Controls.EndTurnButton:RegisterCallback( Mouse.eRClick, function() OnEndTurnClic
 do
 	local VK_RETURN = Keys.VK_RETURN
 	local KeyDown = KeyEvents.KeyDown
+	local MButtonUp = MouseEvents.MButtonUp
 	ContextPtr:SetInputHandler( function( uiMsg, wParam )
 		if uiMsg == KeyDown and wParam == VK_RETURN then
 			OnEndTurnClicked( true ) --UI.ShiftKeyDown() or UI.AltKeyDown() or UI.CtrlKeyDown() )
+			return true
+		--mmb and mouse button 5 next turn
+		elseif uiMsg == MButtonUp or uiMsg == 523 then
+			OnEndTurnClicked( true )
 			return true
 		end
 	end)

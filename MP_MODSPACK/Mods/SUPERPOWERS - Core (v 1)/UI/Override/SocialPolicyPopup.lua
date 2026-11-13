@@ -867,8 +867,8 @@ function InputHandler( uiMsg, wParam, lParam )
     ----------------------------------------------------------------        
     -- Key Down Processing
     ----------------------------------------------------------------        
-    if uiMsg == KeyEvents.KeyDown then
-        if (wParam == Keys.VK_RETURN or wParam == Keys.VK_ESCAPE) then
+    --if uiMsg == KeyEvents.KeyDown then
+        if (wParam == Keys.VK_RETURN or wParam == Keys.VK_ESCAPE or uiMsg == 523 ) then
 			if(Controls.PolicyConfirm:IsHidden() and Controls.TenetConfirm:IsHidden() and Controls.ChooseTenet:IsHidden() and Controls.ChangeIdeologyConfirm:IsHidden())then
 	            OnClose();
 	        else
@@ -883,7 +883,7 @@ function InputHandler( uiMsg, wParam, lParam )
 			end
 			return true;
         end
-    end
+    --end
 end
 ContextPtr:SetInputHandler( InputHandler );
 

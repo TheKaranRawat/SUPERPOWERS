@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 11/21/2013 11:32:03 AM -->
 <GameData>
+
+	<CustomModOptions>
+		<Row>
+			<Name>EVENTS_RED_COMBAT_ENDED</Name>
+			<Value>1</Value>
+		</Row>
+	</CustomModOptions>
 	
 	<Defines>
 

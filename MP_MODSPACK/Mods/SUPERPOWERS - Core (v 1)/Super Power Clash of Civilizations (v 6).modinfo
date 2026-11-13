@@ -51,9 +51,9 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
     <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
     <Dlc id="8871E748-29A4-4910-8C57-8C99E32D0167" minversion="0" maxversion="999" />
-	<!--
+	
     <Mod id="f9b9c8aa-b6d1-4188-9239-c1de2207ab7c" minversion="0" maxversion="999" title="DLL MP - SUPERPOWER" />
-	-->
+	
   </Dependencies>
   <References>
     <Mod id="adbc3334-367b-4435-a584-fd783b712865" minversion="0" maxversion="999" title="Custom Advanced Setup Screen" />
@@ -326,6 +326,9 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
 	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/StackInstanceManager.lua</File>
     <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/UserInterfaceSettingCache.lua</File>
 	<File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/UserInterfaceSettings.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TechPanel.lua</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TechPanel.xml</File>
 	
 	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/ActionInfoPanel.lua</File>
     <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/ActionInfoPanel.xml</File>
@@ -3912,10 +3915,11 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
   </Files>
   <Actions>
 	
+	
+	<!--
 	<OnGetDLLPath>
       <SetDllPath>DLL/Release/CvGameCore_Expansion2.dll</SetDllPath>
     </OnGetDLLPath>
-	<!--
 	<OnGetDLLPath>
       <SetDllPath>DLL-Core/DLL - Various Mod Components (v 88)/DLL/CvGameCore_Expansion2.dll</SetDllPath>
     </OnGetDLLPath>

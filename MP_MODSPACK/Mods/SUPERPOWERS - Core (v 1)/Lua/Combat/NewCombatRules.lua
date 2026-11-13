@@ -75,8 +75,8 @@ local SiegeLv2Buildings = BuildingIDs({
 	"BUILDING_HYDRO_PLANT", "BUILDING_OIL_PLANT", "BUILDING_GAS_PLANT", "BUILDING_TIDAL_PLANT",
 })
 local SiegeLv3Buildings = BuildingIDs({
-	"BUILDING_SPACESHIP_FACTORY", "BUILDING_FUTURE_FACTORY", "BUILDING_FACTORY",
-	"BUILDING_STEEL_MILL", "BUILDING_OIL_REFINERY", "BUILDING_FORGE",
+	"BUILDING_SPACESHIP_FACTORY", "BUILDING_FACTORY",
+	"BUILDING_STEEL_MILL", "BUILDING_OIL_REFINERY",
 	"BUILDING_MINGING_FACTORY", "BUILDING_INLAND_CANAL", "BUILDING_METAL_FACTORY",
 })
 
@@ -159,6 +159,8 @@ end
 ----------------------------------------------------------------------------
 function RangedUnitRules(iAttackingPlayer, iAttackingUnit, attackerDamage, attackerFinalDamage, attackerMaxHP, iDefendingPlayer, iDefendingUnit, defenderDamage, defenderFinalDamage, defenderMaxHP, iInterceptingPlayer, iInterceptingUnit, interceptorDamage, plotX, plotY)
 
+	print("New Combat Rules Check Pass!")
+	print("COMBAT END FIRED!")
 	-- Cheap validation first
 	local pAttackingPlayer = Players[iAttackingPlayer]
 	if not pAttackingPlayer then return end
@@ -342,7 +344,16 @@ function RangedUnitRules(iAttackingPlayer, iAttackingUnit, attackerDamage, attac
 		pAttackingUnit:ChangeDamage(100)
 	end
 end
-
 GameEvents.CombatEnded.Add(RangedUnitRules)
+
+GameEvents.CombatEnded.Add(function(...)
+	print("CombatEnded fired:", ...)
+end)
+
+--[[
+GameEvents.PlayerCityFounded.Add(function(...)
+	print("CombatEnded fired:", ...)
+end)
+]]--
 
 print("New Combat Rules Check Pass!")

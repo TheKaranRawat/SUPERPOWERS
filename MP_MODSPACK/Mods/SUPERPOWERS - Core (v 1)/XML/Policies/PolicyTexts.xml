@@ -625,9 +625,10 @@
 				[COLOR_POSITIVE_TEXT]Settler Colonialism[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]+20% [ICON_PRODUCTION] Production for training [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]+20% [ICON_PRODUCTION] Bonus Production for training [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR] in the Capital
-				[NEWLINE][ICON_BULLET]One free [COLOR_POSITIVE_TEXT]Settler[ENDCOLOR]</Text>
 		</Replace>
-
+		<!-- 
+			[NEWLINE][ICON_BULLET]One free [COLOR_POSITIVE_TEXT]Settler[ENDCOLOR]</Text>
+		-->
 		<!-- [NEWLINE][ICON_BULLET]One free Settler appears near the [ICON_CAPITAL] Capital.(Venice receives a Merchant of Venice instead of a Settler)  -->
 
 		<Replace Tag="TXT_KEY_POLICY_REPUBLIC" >

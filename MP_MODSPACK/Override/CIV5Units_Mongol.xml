@@ -6101,16 +6101,6 @@
 				[NEWLINE][NEWLINE]City must have an Art Gallery.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_BUILDING_AUTOCRACY_FIREWALL"> 
-			<Text>
-				Authoritarianism
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_BUILDING_AUTOCRACY_FIREWALL_HELP"> 
-			<Text>
-				Negates the Tourism bonus from other players' technologies.
-			</Text>
-		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_AUTOMATED_FACTORY"> 
 			<Text>
 				Automated Factory
@@ -6314,11 +6304,6 @@
 		<Replace Tag="TXT_KEY_BUILDING_BLD_ACADEMY"> 
 			<Text>
 				[ICON_RESEARCH] Academy
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS"> 
-			<Text>
-				+1 Trade Route
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_BLYTHE_INTAGLIOS_HELP"> 
@@ -7488,16 +7473,6 @@
 		<Replace Tag="TXT_KEY_BUILDING_FACTORY_STRATEGY"> 
 			<Text>
 				The Factory is an Industrial-era building which greatly increases a city's [ICON_PRODUCTION] Production. The city must already possess a Workshop (or Longhouse). 1 [ICON_RES_COAL] Coal is consumed when a Factory is created.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_BUILDING_FAMILY_PRODUCTION"> 
-			<Text>
-				[ICON_RESEARCH] Imperial Academy
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_BUILDING_FAMILY_PRODUCTION_HELP"> 
-			<Text>
-				+1 [ICON_RESEARCH] Science for every 5 [ICON_CITIZEN] Population.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_FINANCE_COMPANY"> 
@@ -10469,16 +10444,6 @@
 				The Mint can only be constructed in a city with improved gold or silver resources nearby. The Mint increases the [ICON_GOLD] Gold output of each such resource the city has access to.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_BUILDING_MONARCHY_CULTURE"> 
-			<Text>
-				Monarchy
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_BUILDING_MONARCHY_CULTURE_HELP"> 
-			<Text>
-				+50% [ICON_TOURISM] Tourism in the Captial.
-			</Text>
-		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_MONASTERY_DESC"> 
 			<Text>
 				[ICON_GREAT_PEOPLE] Monastery
@@ -11490,11 +11455,6 @@
 				+4 [ICON_RESEARCH] Science for all [COLOR_POSITIVE_TEXT]Snow[ENDCOLOR] Tiles worked by this city. [NEWLINE][NEWLINE]The city must be built on or next to a Snow tile.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_BUILDING_POLICE_STATE"> 
-			<Text>
-				-50% extra [ICON_GOLD] Maintenance Cost added by cities' Population for AC buildings.
-			</Text>
-		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_POLICE_STATION"> 
 			<Text>
 				[ICON_CITYBANNER_CITY_LV4] Police Station
@@ -11508,16 +11468,6 @@
 		<Replace Tag="TXT_KEY_BUILDING_POLICE_STATION_STRATEGY"> 
 			<Text>
 				Police stations slow down the rate at which enemy spies can steal technologies from your city. The city must possess an Constabulary in order to construct the Police Station.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_BUILDING_POLICY_MERCHANT_CONFEDERACY"> 
-			<Text>
-				Merchant Confederacy
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_BUILDING_POLICY_MERCHANT_CONFEDERACY_HELP"> 
-			<Text>
-				+2% [ICON_PRODUCTION] Production for all cities from each trade route with City-States.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_POLYNESIA_HAWAIIAN_HOTEL"> 
@@ -11777,11 +11727,6 @@ Not only was Askia a patron of Islam, he also was gifted in administration and e
 		<Replace Tag="TXT_KEY_BUILDING_RED_FORT_QUOTE"> 
 			<Text>
 				[NEWLINE][TAB][TAB]"When we build, let us think that we build forever."[NEWLINE][TAB][TAB] - John Ruskin[NEWLINE][TAB]
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_BUILDING_REPRESENTATION_CULTURE"> 
-			<Text>
-				Lower Culture Cost for New Policies.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_RIAD_DESC"> 
@@ -12720,11 +12665,6 @@ Not only was Askia a patron of Islam, he also was gifted in administration and e
 				A theme park can be regarded as a distinct style of amusement park. A theme park has landscaping, buildings, and attractions that are based on one or more specific themes or stories.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_BUILDING_THEOCRACY_WRITER"> 
-			<Text>
-				[ICON_GREAT_WRITER] Theocracy
-			</Text>
-		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_TIDAL_PLANT"> 
 			<Text>
 				[ICON_RES_ELECTRICITY] Tidal Plant
@@ -12864,16 +12804,6 @@ Not only was Askia a patron of Islam, he also was gifted in administration and e
 				Provides a large boost to [ICON_RESEARCH] Science as well as some [ICON_CULTURE] Culture.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_BUILDING_TRADITION_FINISHER_BONUS"> 
-			<Text>
-				Tradition Finisher
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_BUILDING_TRADITION_FINISHER_BONUS_HELP"> 
-			<Text>
-				+15% [ICON_CULTURE] Culture and [ICON_RESEARCH] Science output in all cities.
-			</Text>
-		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_TURKISH_BATH_DESC"> 
 			<Text>
 				Turkish Bath
@@ -12936,11 +12866,6 @@ Not only was Askia a patron of Islam, he also was gifted in administration and e
 		<Replace Tag="TXT_KEY_BUILDING_UFFIZI_QUOTE"> 
 			<Text>
 				[NEWLINE][TAB][TAB]"The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible."[NEWLINE][TAB][TAB] - Marcel Paquet[NEWLINE][TAB]
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_BUILDING_UNITED_FRONT_HELP"> 
-			<Text>
-				+50% Food Growth until the Population reaches 20.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_UNITED_NATIONS"> 
@@ -13918,7 +13843,7 @@ Not only was Askia a patron of Islam, he also was gifted in administration and e
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILD_RAILROAD_HELP"> 
 			<Text>
-				[COLOR_NEGATIVE_TEXT]Costs[ENDCOLOR] 10 [ICON_GOLD] Gold per turn to maintain.[NEWLINE][NEWLINE]An unbroken chain of Railroads allows Units to move extremely quickly through Tiles.[NEWLINE][NEWLINE]Connecting Cities to your capital by Railroad will give them a 25% [ICON_PRODUCTION] Production bonus.
+				[COLOR_NEGATIVE_TEXT]Costs[ENDCOLOR] 2 [ICON_GOLD] Gold per turn to maintain.[NEWLINE][NEWLINE]An unbroken chain of Railroads allows Units to move extremely quickly through Tiles.[NEWLINE][NEWLINE]Connecting Cities to your capital by Railroad will give them a 25% [ICON_PRODUCTION] Production bonus.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILD_RAILROAD_REC"> 
@@ -107148,23 +107073,6 @@ The ship has weather'd every rack; the prize we sought is won."
 				An Academy of Sciences is a state-supported institution of learning or research society dedicated to the sciences and/or technology. The most famous, the Russian - later Soviet - Academy was founded in 1724 AD by Peter the Great in his efforts to modernize his empire. In 1917 the academy came under Soviet control, and was tasked with addressing questions of construction and social issues; beginning in 1928 the Soviet Politburo increasingly interfered in the teaching and research of the Soviet Academy of Sciences, hindering the scientific progress of the Soviet Union for decades.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_ADMIRALTY"> 
-			<Text>
-				The Admiralty
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_ADMIRALTY_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]The Admiralty[ENDCOLOR]
-			[NEWLINE]+50% Experience generated by [ICON_WAR] Military Units in Combat.
-			[NEWLINE]+50% Generation of [ICON_GREAT_GENERAL] Great Generals.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_ADMIRALTY_TEXT"> 
-			<Text>
-				The Admiralty
-			</Text>
-		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_AESTHETICS"> 
 			<Text>
 				Aesthetics
@@ -107180,23 +107088,6 @@ The ship has weather'd every rack; the prize we sought is won."
 				Aesthetics is the philosophy of the nature of art and taste, concerned with the creation and appreciation of material beauty. It should be noted that aesthetics does not encompass the functionality or utility of a thing, focusing only on its beauty of form, color, contrast and other artistic aspects.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_AMBITION"> 
-			<Text>
-				Global Ambition
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_AMBITION_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Global Ambition[ENDCOLOR]
-			[NEWLINE]+2 [ICON_SPY] Spies are recruited.
-			[NEWLINE]Elections in [ICON_CITY_STATE] City States are now rigged at double the rate.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_AMBITION_TEXT"> 
-			<Text>
-				Global Ambition
-			</Text>
-		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_AMERICAN"> 
 			<Text>
 				American
@@ -107209,14 +107100,12 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ARISTOCRACY"> 
 			<Text>
-				Citizenship
+				Aristocracy
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ARISTOCRACY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Citizenship[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]New Cities start with an extra 1 [ICON_CITIZEN] Citizen
-				[NEWLINE][ICON_BULLET]100% [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born for every Town (Cities with a [ICON_CITIZEN] Population less than 6). It will be effective after the next [ICON_CITIZEN] Citizen is born.
+				[COLOR_POSITIVE_TEXT]Aristocracy[ENDCOLOR][NEWLINE]+15% [ICON_PRODUCTION] Production when building Wonders and +1 [ICON_HAPPINESS_1] Happiness for every 10 [ICON_CITIZEN] Citizens in a City.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ARISTOCRACY_NWS_HELP"> 
@@ -107229,36 +107118,19 @@ The ship has weather'd every rack; the prize we sought is won."
 				Aristocracy is a form of government in which a group of the most prominent citizens rule. Membership to this group may be hereditary, or it may be through merit or wealth or all three. The term is derived from the Greek word aristokratia, meaning "the rule of the best." There is a very thin line between an aristocracy and an oligarchy, and which form a government actually is might very well depend upon one's point of view: the rulers might consider themselves aristocrats, while everybody else sees them as oligarchs.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_ARMADA"> 
-			<Text>
-				The Grand Armada
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_ARMADA_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]The Admiralty[ENDCOLOR]
-			[NEWLINE]Free [ICON_INVEST] Maintenance for garrisoned [ICON_WAR] Military Units.
-			[NEWLINE]-10% [ICON_INVEST] Maintenance for [ICON_GREAT_ADMIRAL] Naval Units.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_ARMADA_TEXT"> 
-			<Text>
-				The Grand Armada
-			</Text>
-		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY"> 
 			<Text>
-				Peaceful Evolution
+				Arsenal of Democracy
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Peaceful Evolution [ENDCOLOR][NEWLINE] +50% [ICON_TOURISM] Tourism to the civilizations fighting against the common foe. +15% Production for Military Units. +20 Influence per gifted unit.
+				[COLOR_POSITIVE_TEXT]Arsenal of Democracy[ENDCOLOR][NEWLINE]+15% [ICON_PRODUCTION] Production when building Military Units. +15 [ICON_INFLUENCE] Influence from Military Unit gifts to City-States.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_TEXT"> 
 			<Text>
-				he "Peaceful Evolution" theory in international political thought refers to the alleged attempt to effect a political transformation.
+				"Arsenal of Democracy" was a phrase coined by President Franklin Roosevelt during a radio broadcast in December 1940 to describe America's role in the struggle against totalitarianism. The unofficial policy of the United States during World War II and the ensuing Cold War against Communism, the "Arsenal" refers to committing a nation's private industry to producing military materials for the nation and other nations with the goal of defeating a common enemy. The privately-owned manufacturers are compensated at market value, usually on a "cash-and-carry" basis.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS"> 
@@ -107268,9 +107140,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Artistic Genius[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]One Great Artist appears.
-				[NEWLINE][ICON_BULLET]Earn Great Writers, Artists, and Musicians 25% faster.
+				[COLOR_POSITIVE_TEXT]Artistic Genius[ENDCOLOR][NEWLINE]A Great Artist appears.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS_TEXT"> 
@@ -107308,40 +107178,6 @@ The ship has weather'd every rack; the prize we sought is won."
 				A barter system with a reciprocal exchange of goods or services prevailed in the New World, among the natives, between the natives and the European settlers, and between the colonists themselves. Until the first coins minted in the New World - copper maravedi in Santo Domingo in 1502 AD - barter was the basis of the Americas' economy.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BILL_OF_RIGHTS"> 
-			<Text>
-				Imperial Examination
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BILL_OF_RIGHTS_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Imperial Examination[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+6 [ICON_RESEARCH] Science from Science Buildings
-				[NEWLINE][ICON_BULLET]+6 [ICON_CULTURE] Culture from Culture Buildings
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BILL_OF_RIGHTS_TEXT"> 
-			<Text>
-				A bill of rights, sometimes called a declaration of rights, is a list of the most important rights to the citizens of a country. The purpose of these bills is to protect those rights against infringement.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BIOPHILIA"> 
-			<Text>
-				Biophilia
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BIOPHILIA_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Biophilia[ENDCOLOR]
-			[NEWLINE]+2 [ICON_FOOD] Food from Farms.
-			[NEWLINE]+2 [ICON_FOOD] Food from Fishing Nets.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BIOPHILIA_TEXT"> 
-			<Text>
-				Biophilia
-			</Text>
-		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS"> 
 			<Text>
 				Aesthetics
@@ -107354,17 +107190,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Aesthetics[ENDCOLOR] improves the civilization's [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism output.
-
-				[NEWLINE][NEWLINE]Opening Effect:
-				[NEWLINE][ICON_BULLET]50% of excess [ICON_HAPPINESS_1] Happiness each turn added to the amount of [ICON_CULTURE] Culture that may be spent on Social Policies.
-				[NEWLINE][ICON_BULLET]+33% [ICON_CULTURE] Culture output from cities.
-				[NEWLINE][ICON_BULLET]World Wonder Unlocked: The Louvre.
-				[NEWLINE][ICON_BULLET]National Wonder Unlocked: National Library.
-				[NEWLINE][ICON_BULLET]Building Unlocked: Memorial.
-				[NEWLINE][NEWLINE]Finishing Bonus:
-				[NEWLINE][ICON_BULLET]Show Hidden Antiquity Sites on the map.
-				[NEWLINE][ICON_BULLET]Allows the purchase of Great Writers, Artists, or Musicians with [ICON_PEACE] Faith starting in the Industrial Era.
+				[COLOR_POSITIVE_TEXT]Aesthetics[ENDCOLOR] improves the civilization's ability to generate [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]Adopting Aesthetics allows you to earn Great Writers, Artists, and Musicians 25% faster. Unlocks building the Uffizi.[NEWLINE][NEWLINE]Adopting all policies doubles the theming bonus you receive from Museums and Wonders. It also allows the purchase of Great Writers, Artists, or Musicians with [ICON_PEACE] Faith starting in the Industrial Era.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_AMERICAN"> 
@@ -107375,28 +107201,6 @@ The ship has weather'd every rack; the prize we sought is won."
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY"> 
 			<Text>
 				Autocracy
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY1"> 
-			<Text>
-				Domination
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY1_CAP"> 
-			<Text>
-				DOMINATION
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY1_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Domination[ENDCOLOR] shapes our nation into an Imperialistic and Hegemonic power.
-				[NEWLINE]"True peace can only be achieved by total Hegemonic Domination of all parts of the sum."
-				[NEWLINE][NEWLINE]Opening Effects:
-				[NEWLINE][ICON_BULLET]-33% [ICON_INVEST] cost of purchasing units.
-				[NEWLINE][ICON_BULLET]+50% chance of capturing [ICON_SPY] enemy spies.
-								
-				[NEWLINE][NEWLINE]Finishing Bonus:
-				[NEWLINE][ICON_BULLET]-15% [ICON_STRENGTH][ICON_GOLD] unit maintenance.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_CAP"> 
@@ -107436,27 +107240,17 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_COMMERCE"> 
 			<Text>
-				Industry
+				Commerce
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_CAP"> 
 			<Text>
-				INDUSTRY
+				COMMERCE
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Commerce[ENDCOLOR] provides bonuses to empires focused on [ICON_GOLD] Gold.
-
-				[NEWLINE][NEWLINE]Opening Effect:
-				[NEWLINE][ICON_BULLET]+1 [ICON_GOLD] Gold from every Trading Post
-				[NEWLINE][ICON_BULLET]+1 additional Trade Route slot.
-				[NEWLINE][ICON_BULLET]World Wonder Unlocked: The Big Ben.
-				[NEWLINE][ICON_BULLET]National Wonder Unlocked: West India Company.
-				[NEWLINE][ICON_BULLET]Building Unlocked: Depot.
-				[NEWLINE][NEWLINE]Finishing Bonus:
-				[NEWLINE][ICON_BULLET]-15% [ICON_GOLD] Maintenance Cost for Buildings and Units.
-				[NEWLINE][ICON_BULLET]Allows the purchase of Great Merchants with [ICON_PEACE] Faith starting in the Industrial Era.
+				[COLOR_POSITIVE_TEXT]Commerce[ENDCOLOR] provides bonuses to empires focused on [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Adopting Commerce will boost [ICON_GOLD] Gold output in [ICON_CAPITAL] Capital City by 25%. Unlocks building Big Ben.[NEWLINE][NEWLINE]Adopting all Policies in the Commerce tree will grant +1 [ICON_GOLD] Gold from every Trading Post. It also allows the purchase of Great Merchants with [ICON_PEACE] Faith starting in the Industrial Era
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_EUROPEAN"> 
@@ -107466,56 +107260,22 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION"> 
 			<Text>
-				Maritime
+				Exploration
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_CAP"> 
 			<Text>
-				MARITIME
+				EXPLORATION
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Maritime[ENDCOLOR] provides bonuses to coastal states and enhance the navy.
-
-				[NEWLINE][NEWLINE]Opening Effect:
-				[NEWLINE][ICON_BULLET]Settlers will no longer lose HP if ends turns outside friendly territory.
-				[NEWLINE][ICON_BULLET]+1 [ICON_MOVES] Movement for Embarked Units, Workers, Settlers, Archaeologists, Great Prophet and Missionaries.
-				[NEWLINE][ICON_BULLET]+3 [ICON_MOVES] Movement for Great Admirals.
-				[NEWLINE][ICON_BULLET]World Wonder Unlocked: Port of Rotterdam.
-				[NEWLINE][ICON_BULLET]National Wonder Unlocked: Ironworks.
-				[NEWLINE][ICON_BULLET]Building Unlocked: Botanical Gardens.
-				[NEWLINE][NEWLINE]Finishing Bonus:
-				[NEWLINE][ICON_BULLET]A Great Admiral appears.
-				[NEWLINE][ICON_BULLET]Great Admirals are earned 50% faster.
-				[NEWLINE][ICON_BULLET]Allows the purchase of Great Admirals with [ICON_PEACE] Faith starting in the Industrial Era.
+				[COLOR_POSITIVE_TEXT]Exploration[ENDCOLOR] enhances your abilties to spread your empire over the seas.[NEWLINE][NEWLINE]Adopting Exploration gives +1 [ICON_MOVES] Movement for Naval units and +1 Sight for Naval combat units. Unlocks building the Louvre.[NEWLINE][NEWLINE]Adopting all policies allows you to see Hidden Antiquity Sites. It also allows the purchase of Great Admirals with [ICON_PEACE] Faith starting in the Industrial Era.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_FREEDOM"> 
 			<Text>
 				Freedom
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BRANCH_FREEDOM1"> 
-			<Text>
-				Harmony
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BRANCH_FREEDOM1_CAP"> 
-			<Text>
-				HARMONY
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BRANCH_FREEDOM1_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Harmony[ENDCOLOR] guides our nation to an environmentalist and sustainable future.
-				[NEWLINE]"The forces of nature are not to be reckoned, but cooperated with."
-				[NEWLINE][NEWLINE]Opening Effects:
-				[NEWLINE][ICON_BULLET]+25% [ICON_CITIZEN] Pop Growth.
-				[NEWLINE][ICON_BULLET]New [ICON_CITY_STATE] Cities start with +5 [ICON_CITIZEN] Population.
-								
-				[NEWLINE][NEWLINE]Finishing Bonus:
-				[NEWLINE][ICON_BULLET]Starts a [ICON_GOLDEN_AGE] Golden Age for 20 turns.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_CAP"> 
@@ -107540,71 +107300,27 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Honor[ENDCOLOR] is designed for militaristic empires.
-
-				[NEWLINE][NEWLINE]Opening Effect:
-				[NEWLINE][ICON_BULLET]Gain [ICON_GOLD] Gold for killing enemy units (100% of its [ICON_STRENGTH] Combat Strength).
-				[NEWLINE][ICON_BULLET]World Wonder Unlocked: The Statue of Zeus.
-				[NEWLINE][ICON_BULLET]National Wonder Unlocked: Heroic Epic.
-				[NEWLINE][ICON_BULLET]Building Unlocked: Stronghold.
-				[NEWLINE][NEWLINE]Finishing Bonus:
-				[NEWLINE][ICON_BULLET]Gain [ICON_CULTURE] Culture when you kill an enemy unit (50% of its [ICON_STRENGTH] Combat Strength).
-				[NEWLINE][ICON_BULLET]It also allows the purchase of Great Generals with [ICON_PEACE] Faith starting in the Industrial Era.
-				[NEWLINE][ICON_BULLET]Reduce unit [ICON_GOLD] Gold maintenance by 10%.
+				[COLOR_POSITIVE_TEXT]Honor[ENDCOLOR] improves the effectiveness of one's army in a variety of ways.[NEWLINE][NEWLINE]Adopting Honor gives a +33% combat bonus VS Barbarians, and notifications will be provided when new Barbarian Encampments spawn in revealed territory. Gain [ICON_CULTURE] Culture for the empire from each barbarian killed. Unlocks building the Statue of Zeus.[NEWLINE][NEWLINE]Adopting all policies in the Honor tree will grant [ICON_GOLD] Gold for each enemy unit killed. It also allows the purchase of Great Generals with [ICON_PEACE] Faith starting in the Industrial Era.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_LIBERTY"> 
 			<Text>
-				Empire
+				Liberty
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_CAP"> 
 			<Text>
-				EMPIRE
+				LIBERTY
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Empires[ENDCOLOR] value conquest and expansion.
-
-				[NEWLINE][NEWLINE]Opening Effect:
-				[NEWLINE][ICON_BULLET]+50 [ICON_GOLD] Gold per city
-				[NEWLINE][ICON_BULLET]+33% Tile Improvement rate
-				[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]City [ICON_FOOD] growth rate reduced by 5%[ENDCOLOR]	
-				[NEWLINE][ICON_BULLET]Wonder Unlocked: The Pyramids
-				[NEWLINE][ICON_BULLET]Building Unlocked: Town Council
-				[NEWLINE][NEWLINE]Finishing Bonus:
-				[NEWLINE][ICON_BULLET]Starts a Golden Age				
-				[NEWLINE][ICON_BULLET]+15% [ICON_PRODUCTION] Production for [ICON_WAR] Military Units.
-				[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Republic[ENDCOLOR]
+				[COLOR_POSITIVE_TEXT]Liberty[ENDCOLOR] is best for civilizations which desire rapid expansion.[NEWLINE][NEWLINE]Adopting Liberty will provide 1 [ICON_CULTURE] Culture in every city. Unlocks building the Pyramids.[NEWLINE][NEWLINE]Adopting all policies in the Liberty tree will grant a free Great Person of your choice near the [ICON_CAPITAL] Capital.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_ORDER"> 
 			<Text>
 				Order
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BRANCH_ORDER1"> 
-			<Text>
-				Prosperity
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BRANCH_ORDER1_CAP"> 
-			<Text>
-				PROSPERITY
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BRANCH_ORDER1_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Prosperity[ENDCOLOR] guides our nation to a materialist and mercantilist path.
-				[NEWLINE]"For the human condition is but a struggle for capital and it's acquisition."
-				[NEWLINE][NEWLINE]Opening Effects:
-				[NEWLINE][ICON_BULLET]50% of [ICON_HAPPINESS_1] Happiness is converted to [ICON_CULTURE] Culture.
-				[NEWLINE][ICON_BULLET]Roads and Railways cost 25% less[ICON_INVEST] maintenance.
-								
-				[NEWLINE][NEWLINE]Finishing Bonus:
-				[NEWLINE][ICON_BULLET]+25% [ICON_GREAT_PEOPLE] Great Person Generation
-				[NEWLINE][ICON_BULLET]Free [ICON_GREAT_PEOPLE] Great Person
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_ORDER_CAP"> 
@@ -107629,15 +107345,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Patronage[ENDCOLOR] enhances the benefits of City-State friendship
-
-				[NEWLINE][NEWLINE]Opening Effect:
-				[NEWLINE][ICON_BULLET]the resting point for [ICON_INFLUENCE] Influence with all City-States is increased by 20.
-				[NEWLINE][ICON_BULLET]World Wonder Unlocked: Hanseatic League.
-				[NEWLINE][ICON_BULLET]National Wonder Unlocked: National Intelligence Agency.
-				[NEWLINE][ICON_BULLET]Building Unlocked: Chanceries.
-				[NEWLINE][NEWLINE]Finishing Bonus:
-				[NEWLINE][ICON_BULLET]Allied City-States to occasionally gift you [ICON_GREAT_PEOPLE] Great People.
+				[COLOR_POSITIVE_TEXT]Patronage[ENDCOLOR] enhances the benefits of City-State friendship.[NEWLINE][NEWLINE]Adopting Patronage will cause [ICON_INFLUENCE] Influence with City-States to degrade 25% slower than normal. Unlocks building the Forbidden Palace.[NEWLINE][NEWLINE]Adopting all policies in the Patronage tree will cause allied City-States to occasionally gift you [ICON_GREAT_PEOPLE] Great People.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_PIETY"> 
@@ -107652,16 +107360,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Piety[ENDCOLOR] is designed for religious empires.
-
-				[NEWLINE][NEWLINE]Opening Effect:
-				[NEWLINE][ICON_BULLET]Cities with a majority religion will also get the Pantheon belief bonus of the second most popular religion.
-				[NEWLINE][ICON_BULLET]World Wonder Unlocked: The Great Mosque of Djenne.
-				[NEWLINE][ICON_BULLET]National Wonder Unlocked: National Epic.
-				[NEWLINE][ICON_BULLET]Building Unlocked: Parochial Schools.
-				[NEWLINE][NEWLINE]Finishing Bonus:
-				[NEWLINE][ICON_BULLET]One free Social Policy.
-				[NEWLINE][ICON_BULLET]Great Person improvements produce +5[ICON_PEACE] Faith.
+				[COLOR_POSITIVE_TEXT]Piety[ENDCOLOR] increases the [ICON_PEACE] Faith of empires.[NEWLINE][NEWLINE]Adopting Piety allows you to build Shrines and Temples in half the usual time. Unlocks building the Great Mosque of Djenne.[NEWLINE][NEWLINE]Adopting all Policies in the Piety tree causes a Great Prophet to appear and Holy Sites provide +3 [ICON_CULTURE] Culture.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM"> 
@@ -107676,65 +107375,27 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Rationalism[ENDCOLOR] improves the ability to use and generate [ICON_RESEARCH] Science.
-
-				[NEWLINE][NEWLINE]Opening Effect:
-				[NEWLINE][ICON_BULLET]Every 25 [ICON_HAPPINESS_1] excess Happiness provide +5% [ICON_RESEARCH] Science nationwide. (Maximum to +50%)
-				[NEWLINE][ICON_BULLET]+50% [ICON_RESEARCH] Science gained from Research Agreements.
-				[NEWLINE][ICON_BULLET]World Wonder Unlocked: The Porcelain Tower.
-				[NEWLINE][ICON_BULLET]National Wonder Unlocked: National Laboratory.
-				[NEWLINE][ICON_BULLET]Building Unlocked: Patent Offices.				
-				[NEWLINE][NEWLINE]Finishing Bonus:
-				[NEWLINE][ICON_BULLET]One free Technology.
-				[NEWLINE][ICON_BULLET]Allows the purchase of Great Scientists with [ICON_PEACE] Faith starting in the Industrial Era.
+				[COLOR_POSITIVE_TEXT]Rationalism[ENDCOLOR] improves the ability to use and generate [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Adopting Rationalism will grant +10% [ICON_RESEARCH] Science while the empire is [ICON_HAPPINESS_1] Happy. Unlocks building the Porcelain Tower.[NEWLINE][NEWLINE]Adopting all Policies in the Rationalism tree will grant a free Technology. It also allows the purchase of Great Scientists with [ICON_PEACE] Faith starting in the Industrial Era.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_TRADITION"> 
 			<Text>
-				Republic
+				Tradition
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_TRADITION_CAP"> 
 			<Text>
-				REPUBLIC
+				TRADITION
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_TRADITION_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Republics[ENDCOLOR] value freedom and innovation.
-				[NEWLINE][NEWLINE]Opening Effects:
-				[NEWLINE][ICON_BULLET]+10% [ICON_CULTURE] Culture and [ICON_RESEARCH] Science in the [ICON_CAPITAL] Capital
-				[NEWLINE][ICON_BULLET]-20% [ICON_CULTURE] Culture cost for acquiring new plots in cities
-				[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]Amount of [ICON_HAPPINESS_4] Unhappiness from number of cities increased by 50%[ENDCOLOR]
-				[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]Culture cost of adopting new [ICON_CULTURE] Policies increased by 10% for every city[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Wonder Unlocked: Hanging Gardens
-				[NEWLINE][ICON_BULLET]Building Unlocked: Public Baths
-				[NEWLINE][NEWLINE]Finishing Bonus:
-				[NEWLINE][ICON_BULLET]+10% [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, [ICON_PRODUCTION] Production and [ICON_GOLD] Gold output in all cities
-				[NEWLINE][ICON_BULLET]Allows the purchase of Great Engineers with [ICON_PEACE] Faith starting in the Industrial Era
-				[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch CANNOT be active at the same time as Empire[ENDCOLOR]
+				[COLOR_POSITIVE_TEXT]Tradition[ENDCOLOR] is best for small empires.[NEWLINE][NEWLINE]Adopting Tradition greatly increases the rate of border expansion in cities and also grants 3 [ICON_CULTURE] Culture in the [ICON_CAPITAL] Capital. Unlocks building the Hanging Gardens.[NEWLINE][NEWLINE]Adopting all Policies in the Tradition tree will grant +15% [ICON_FOOD] Growth and a free Aqueduct in your first 4 cities. It also allows the purchase of Great Engineers with [ICON_PEACE] Faith starting in the Industrial Era.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_BRANCH_UNLOCK_SPEND"> 
 			<Text>
 				[COLOR_POSITIVE_TEXT]This Branch can be unlocked! Click here to spend {1_Num}[ICON_CULTURE] Culture and open this Social Policy Branch.[ENDCOLOR]
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BYZANTINE"> 
-			<Text>
-				Byzantine Bureaucracy
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BYZANTINE_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Byzantine Bureaucracy[ENDCOLOR]
-			[NEWLINE]+10 [ICON_CULTURE] Culture generated per City.
-			[NEWLINE]+10% [ICON_PRODUCTION] Production when constructing Buildings.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_BYZANTINE_TEXT"> 
-			<Text>
-				Byzantine Bureaucracy
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CANNOT_UNLOCK"> 
@@ -107749,7 +107410,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CAPITALISM_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Capitalism[ENDCOLOR][NEWLINE]+2% [ICON_RESEARCH] Science nationwide for every International Trade Routes in use.
+				[COLOR_POSITIVE_TEXT]Capitalism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Local Happiness from every Mint, Bank and Stock Exchange.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CAPITALISM_TEXT"> 
@@ -107764,9 +107425,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CARAVANS_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Wagon Trains[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+4 [ICON_GOLD] Gold from all your land trade routes.
-				[NEWLINE][ICON_BULLET]+25% [ICON_GOLD] Gold from [ICON_CONNECTED] City Connections.
+				[COLOR_POSITIVE_TEXT]Wagon Trains[ENDCOLOR][NEWLINE]+2 [ICON_GOLD] Gold from all your land trade routes. Maintenance paid on Roads and Railroads reduced by 50%.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CARAVANS_TEXT"> 
@@ -107774,51 +107433,14 @@ The ship has weather'd every rack; the prize we sought is won."
 				In various ages, as roads became better and less prone to banditry, wagon trains replaced caravans in overland trading ventures. Able to carry more goods of more types, to provide shelter, and to travel further, wagon trains were used for commerce, war and migration. Used heavily throughout history, wagon train usage has largely faded with the arrival of the industrial age.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_CARDS"> 
-			<Text>
-				A House of Cards
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_CARDS_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]A House of Cards[ENDCOLOR]
-			[NEWLINE][COLOR_WARNING_TEXT]+33% [ICON_INVEST] Military Unit Maintenance.[ENDCOLOR]
-			[NEWLINE]+10% [ICON_CULTURE] Culture Generation.
-			[NEWLINE]+10% [ICON_RESEARCH] Science generation.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_CARDS_TEXT"> 
-			<Text>
-				A House of Cards
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_CENTRALISATION"> 
-			<Text>
-				Decentralisation
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_CENTRALISATION_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Decentralisation[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]New Units receive +30 XP
-				[NEWLINE][ICON_BULLET]The [ICON_CITIZEN] Population Loss caused by Unit Casualties reduced by 50%
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_CENTRALISATION_TEXT"> 
-			<Text>
-				Centralisation, or centralization (see spelling differences), is the process by which the activities of an organisation, particularly those regarding planning and decision-making, become concentrated within a particular location and/or group or keeping all of the important decisionmaking powers within head office or the centre of the organisation.
-			</Text>
-		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CITIZENSHIP"> 
 			<Text>
-				Indentured Labor
+				Citizenship
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CITIZENSHIP_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Indentured Labor[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Three Workers appears near the [ICON_CAPITAL] Capital
-				[NEWLINE][ICON_BULLET]When you found a [COLOR_POSITIVE_TEXT]New City[ENDCOLOR], one Worker will appear outside the city
+				[COLOR_POSITIVE_TEXT]Citizenship[ENDCOLOR][NEWLINE]Tile improvement construction rate increased by 25% and a Worker appears near the [ICON_CAPITAL] Capital.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CITIZENSHIP_NWS_HELP"> 
@@ -107853,36 +107475,17 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CIVIL_SOCIETY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Civil Society[ENDCOLOR][NEWLINE]+2 [ICON_GOLD] Gold from every Specialist. Specialists consume only half the normal amount of [ICON_FOOD] Food.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_COASTAL_ADMINISTRATION"> 
-			<Text>
-				Maritime  Administration
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_COASTAL_ADMINISTRATION_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Maritime Administration[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+15% [ICON_RESEARCH] Science and +15% [ICON_PRODUCTION] Production output from every Shipyard.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_COASTAL_ADMINISTRATION_TEXT"> 
-			<Text>
-				A market economy is an economy in which decisions regarding investment, production and distribution are based on supply and demand,[1] and prices of goods and services are determined in a free price system.
+				[COLOR_POSITIVE_TEXT]Civil Society[ENDCOLOR][NEWLINE]Specialists consume only half the normal amount of [ICON_FOOD] Food.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_COLLECTIVE_RULE"> 
 			<Text>
-				Settler Colonialism
+				Collective Rule
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Settler Colonialism[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+20% [ICON_PRODUCTION] Production for training [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+20% [ICON_PRODUCTION] Bonus Production for training [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR] in the Capital
-				[NEWLINE][ICON_BULLET]One free [COLOR_POSITIVE_TEXT]Settler[ENDCOLOR]
+				[COLOR_POSITIVE_TEXT]Collective Rule[ENDCOLOR][NEWLINE]Speeds the training of [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR] by 50% in the [ICON_CAPITAL] Capital and a free Settler appears near the [ICON_CAPITAL] Capital. (Venice receives a Merchant of Venice instead of a Settler.)
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_NWS_HELP"> 
@@ -107957,9 +107560,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CONSULATES_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Consulates[ENDCOLOR]
-				[NEWLINE][ICON_BULLET][ICON_INFLUENCE]Influence with all City-States degrade 25% slower than normal.
-				[NEWLINE][ICON_BULLET]Other players' [ICON_INFLUENCE]Influence with City-States decrease 15% more per turn than usual.
+				[COLOR_POSITIVE_TEXT]Consulates[ENDCOLOR][NEWLINE]Resting point for [ICON_INFLUENCE] Influence with all City-States is increased by 20.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CONSULATES_TEXT"> 
@@ -107989,7 +107590,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_COVERT_ACTION_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Covert Action[ENDCOLOR][NEWLINE]Spies have double the chance to successfully rig City-State elections and to capture an enemy spy attempting to steal a technology.
+				[COLOR_POSITIVE_TEXT]Covert Action[ENDCOLOR][NEWLINE]Chance of rigging election in City-States doubled.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_COVERT_ACTION_TEXT"> 
@@ -108004,7 +107605,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Creative Expression[ENDCOLOR][NEWLINE]+2 [ICON_CULTURE] Culture from each Great Work. 50% of excess [ICON_HAPPINESS_1] Happiness added each turn to the amount of [ICON_CULTURE] Culture. (Stacked with the effect of Aesthetics)
+				[COLOR_POSITIVE_TEXT]Creative Expression[ENDCOLOR][NEWLINE]+1 [ICON_CULTURE] Culture from each Great Work (but [ICON_TOURISM] Tourism is unchanged).
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION_TEXT"> 
@@ -108024,8 +107625,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CULTURAL_CENTERS_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Cultural Centers[ENDCOLOR]
-				[NEWLINE][ICON_BULLET] +1 [ICON_HAPPINESS_1] Happiness from every Amphitheater, Art Gallery, Opera House, Museum and Broadcast Tower.
+				[COLOR_POSITIVE_TEXT]Cultural Centers[ENDCOLOR][NEWLINE]Construct Monuments, Amphitheaters, Opera Houses, Museums and Broadcast Towers 50% faster.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CULTURAL_CENTERS_TEXT"> 
@@ -108035,35 +107635,12 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CULTURAL_DIPLOMACY"> 
 			<Text>
-				Gunboat Diplomacy
+				Cultural Diplomacy
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Gunboat Diplomacy[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Gain 5 more [ICON_INFLUENCE] Influence (at Standard speed) per turn with City-States you could demand tribute from.
-				[NEWLINE][ICON_BULLET]Your military forces are 50% more effective at intimidating City-States.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_CULTURAL_DIPLOMACY_TEXT"> 
-			<Text>
-				In international politics, gunboat diplomacy (or "big stick diplomacy" in U.S. history) refers to the pursuit of foreign policy objectives with the aid of conspicuous displays of naval power—implying or constituting a direct threat of warfare, should terms not be agreeable to the superior force.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_CULTURAL_INFILTRATION"> 
-			<Text>
-				Cultural Infiltration
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_CULTURAL_INFILTRATION_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Cultural Infiltration[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+33% [ICON_TOURISM] Tourism to Civilizations with less [ICON_HAPPINESS_1] Happiness.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_CULTURAL_INFILTRATION_TEXT"> 
-			<Text>
-				The cultural invasion is the invasion of the enemy on any nation with various means and methods in order to destroy its internal strength and its morals.
+				[COLOR_POSITIVE_TEXT]Cultural Diplomacy[ENDCOLOR][NEWLINE]Quantity of Resources gifted by City-States increased by 100%. [ICON_HAPPINESS_1] Happiness from gifted Luxuries increased by 50%.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION"> 
@@ -108073,7 +107650,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Cultural Revolution[ENDCOLOR][NEWLINE]+25% Tourism [ICON_TOURISM] to other Order civilizations. [NEWLINE]+33% [ICON_CULTURE] from World Wonders.
+				[COLOR_POSITIVE_TEXT]Cultural Revolution[ENDCOLOR][NEWLINE]+34% Tourism [ICON_TOURISM] to other Order civilizations.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION_TEXT"> 
@@ -108088,29 +107665,12 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CULT_PERSONALITY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Cult of Personality[ENDCOLOR][NEWLINE] -30% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied Cities and the empire immediately enters a [ICON_GOLDEN_AGE] Golden Age.
+				[COLOR_POSITIVE_TEXT]Cult of Personality[ENDCOLOR][NEWLINE]+50% Tourism [ICON_TOURISM] to civilizations fighting a common enemy.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CULT_PERSONALITY_TEXT"> 
 			<Text>
 				A Cult of Personality arises when an individual consciously uses media, propaganda and other means to create an idealized, heroic and/or god-like public image. Sociologist Max Weber developed a tripartite classification of authority, in which the Cult of Personality figures prominently as one form of authority. Autocratic rulers from the absolute monarchs of the Enlightenment to modern totalitarian dictators have sought to foster obedience and devotion in their subjects through the manipulation of the news and entertainment industries - some more successfully than others.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_DECENTRALIZATION"> 
-			<Text>
-				Centralization
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_DECENTRALIZATION_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Centralization[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Each Garrisoned Unit increases [ICON_HAPPINESS_1] Happiness by 4.
-				[NEWLINE][ICON_BULLET]Each Garrisoned Unit will increase [ICON_CULTURE] Culture by 8.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_DECENTRALIZATION_TEXT"> 
-			<Text>
-				Decentralization (or decentralisation) is the process of redistributing or dispersing functions, powers, people or things away from a central location or authority. While decentralization, especially in the governmental sphere, is widely studied and practiced, there is no common definition or understanding of decentralization. The meaning of decentralization may vary in part because of the different ways it is applied.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DEMOCRACY"> 
@@ -108140,29 +107700,12 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Dictatorship of the Proletariat[ENDCOLOR][NEWLINE]+1 Level up for all Lv2 - Lv5 cities. (NOT stack with any Trait Effect) All previous [COLOR_POSITIVE_TEXT]Administrative Buildings[ENDCOLOR] will also change automatically.
+				[COLOR_POSITIVE_TEXT]Dictatorship of the Proletariat[ENDCOLOR][NEWLINE]+34% Tourism [ICON_TOURISM] to civilizations that have less [ICON_HAPPINESS_1] Happiness.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_TEXT"> 
 			<Text>
 				In Marxist socio-political theory, the Dictatorship of the Proletariat refers to a social state where the working class has direct control of political power; "dictatorship" in this case does not refer to the common definition but rather that an entire social class holds control of the nation. Whether or not capitalists or others were disenfranchised in such a political order would depend, according to Marx and Engels, on specific circumstances at the time. Bringing about such a political order might, or might not, entail violence; but whatever the means, in the end the proletariat would supplant the bourgeoisie.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_DIPLO"> 
-			<Text>
-				Big Stick Diplomacy
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_DIPLO_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Big-Stick Diplomacy[ENDCOLOR]
-			[NEWLINE]+3 votes in the [ICON_DIPLOMAT] World Congress
-			[NEWLINE]Techs are stolen by [ICON_SPY] spies at double the rate.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_DIPLO_TEXT"> 
-			<Text>
-				Big Stick Diplomacy
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DISCIPLINE"> 
@@ -108172,9 +107715,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DISCIPLINE_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Discipline[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+25% [ICON_STRENGTH] Combat Strength for Land and Naval Melee Units when have another military Unit in an adjacent tile. 
-				[NEWLINE][ICON_BULLET]Flank Attack bonus +50%.
+				[COLOR_POSITIVE_TEXT]Discipline[ENDCOLOR][NEWLINE]+15% [ICON_STRENGTH] combat strength for melee Units which have another military Unit in an adjacent tile.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DISCIPLINE_TEXT"> 
@@ -108184,17 +107725,17 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DOUBLE_AGENTS"> 
 			<Text>
-				Planned Economy
+				Double Agents
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DOUBLE_AGENTS_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Planned Economy[ENDCOLOR][NEWLINE]+16 [ICON_RES_ELECTRICITY] Electricity and +16 [ICON_RES_CONSUMER] Consumer Goods for each city.
+				[COLOR_POSITIVE_TEXT]Double Agents[ENDCOLOR][NEWLINE]Spies twice as likely to capture enemy spies attempting to steal a technology.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DOUBLE_AGENTS_TEXT"> 
 			<Text>
-				A planned economy is the economic system in which decisions regarding production and investment are embodied in a plan formulated by a central authority, usually by a public body such as a government agency.
+				Double Agents in counterintelligence espionage are employees or member of an enemy organization who have agreed to spy on it but in fact remain loyal and spy on their controllers. The use of Double Agents to penetrate enemy spy rings has a long history, but came to the fore during World War II and the Cold War. British MI5 proved particularly adept at "turning" enemy agents, while during the Cold War the Soviet Union infiltrated both the CIA and British intelligence operations successfully.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DOUBLE_PYRAMID"> 
@@ -108219,7 +107760,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ECONOMIC_UNION_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Economic Union[ENDCOLOR][NEWLINE]Building maintenance cost reduced by 30% in all cities.
+				[COLOR_POSITIVE_TEXT]Economic Union[ENDCOLOR][NEWLINE]+3 [ICON_GOLD] Gold from all your trade routes with other civilizations following the Freedom Ideology.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ECONOMIC_UNION_TEXT"> 
@@ -108249,46 +107790,12 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ELITE_FORCES_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Elite Forces[ENDCOLOR][NEWLINE]New Units receive +30 XP. Wounded units do +25% damage.
+				[COLOR_POSITIVE_TEXT]Elite Forces[ENDCOLOR][NEWLINE]Wounded Military Units inflict 25% more damage than normal.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ELITE_FORCES_TEXT"> 
 			<Text>
 				Since the Hittite and Assyrian kings formed palace guards, every army has included Elite Forces, specialized military units trained to conduct unconventional, high-risk combat missions. Elite units came to prominence in World War II, especially in the totalitarian nations; Germany employed the likes of the Brandenburger Regiment and Skorzeny's SS Jager Battalion to devastating effect, while Fascist Italy had several specialized naval units. Since the war, units such as the Russian Spetsnaz and American Seals have carried on that tradition of ruthless efficiency.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_ENIGMATIC"> 
-			<Text>
-				Enigmatic Engineering
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_ENIGMATIC_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Enigmatic Engineering[ENDCOLOR]
-			[NEWLINE]+15% [ICON_FOOD] Population growth rate.
-			[NEWLINE]-15% [ICON_GOLD] Building Maintenance.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_ENIGMATIC_TEXT"> 
-			<Text>
-				Enigmatic Engineering
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_ENTERPRISE"> 
-			<Text>
-				Commercial Enterprise
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_ENTERPRISE_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Commercial Enterprise[ENDCOLOR]
-			[NEWLINE]+2 [ICON_GOLD] Gold per [ICON_CITIZEN] Merchant.
-			[NEWLINE]+2 [RESOURCE_CONSUMER] Consumer Goods per [ICON_CITIZEN] Merchant.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_ENTERPRISE_TEXT"> 
-			<Text>
-				Commercial Enterprise
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP"> 
@@ -108298,11 +107805,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Entrepreneurship[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]One free Great Merchant appears.
-				[NEWLINE][ICON_BULLET]Great Merchants are earned 25% faster.
-				[NEWLINE][ICON_BULLET]Receive double [ICON_GOLD] Gold from Great Merchant trade missions with City-States.
-				[NEWLINE][ICON_BULLET] Great Person improvements produce +5[ICON_GOLD] Gold.
+				[COLOR_POSITIVE_TEXT]Entrepreneurship[ENDCOLOR][NEWLINE]Great Merchants are earned 25% faster. Receive double [ICON_GOLD] Gold from Great Merchant trade missions.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP_NWS_HELP"> 
@@ -108322,9 +107825,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ETHICS_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Cultural Exchange[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+15% [ICON_TOURISM] Tourism modifier for shared religion, trade routes, and open borders.
-				[NEWLINE][ICON_BULLET]The empire immediately enters a [ICON_GOLDEN_AGE] Golden Age.
+				[COLOR_POSITIVE_TEXT]Cultural Exchange[ENDCOLOR][NEWLINE]Increases the tourism modifier for shared religion, trade routes, and open borders by 15% each.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ETHICS_TEXT"> 
@@ -108347,23 +107848,6 @@ The ship has weather'd every rack; the prize we sought is won."
 				Since man first settled in one place, there have always been those among them who have been driven to see what lies over the horizon. Whether motivated by profit, adventure, religion, necessity or just curiosity, explorers have widened our knowledge of the world and its wonders. In the process of exploring, they have also linked diverse and distant cultures, for good or ill. Great explorers from the Carthaginian Hanno to the Chinese admiral Wang Dayuan to the Englishman Sir Richard Burton and thousands of others have driven the expansion of civilizations and shaped history.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_FAMILY_REGISTER"> 
-			<Text>
-				Schools of Thought
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_FAMILY_REGISTER_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Schools of Thought[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in a city. 
-				[NEWLINE][ICON_BULLET]Add 2 [RESEARCH] Scientist Slots in every city.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_FAMILY_REGISTER_TEXT"> 
-			<Text>
-				The imperial examination was a civil service examination system in Imperial China to select candidates for the state bureaucracy. Although there were imperial exams as early as the Han dynasty, the system became the major path to office only in the mid-Tang dynasty, and remained so until its abolition in 1905. Since the exams were based on knowledge of the classics and literary style, not technical expertise, successful candidates were generalists who shared a common language and culture, one shared even by those who failed.
-			</Text>
-		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_FASCISM"> 
 			<Text>
 				Fascism
@@ -108379,23 +107863,6 @@ The ship has weather'd every rack; the prize we sought is won."
 				Fascism is a political and social movement that believes that the state must be all-powerful. The needs of the state are paramount, and the state requires strong leadership and absolute obedience on the part of the people. The state is a collective organism: concepts like individualism or freedom are aberrations and ultimately weaken the state. Fascist states are often quite imperialist, seeking to expand their territory and influence over weaker neighboring states. They see war as a creative force, regenerating the national spirit and winnowing out the weak and unfit. This form of government was quite popular in certain states in Central Europe during the last century but other states didn't much like it, and it was ultimately abandoned after some unpleasantness.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_FEDERATION"> 
-			<Text>
-				The Federation
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_FEDERATION_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]The Federation[ENDCOLOR]
-			[NEWLINE]Allied City States provide 100% of their [ICON_RESEARCH] Science Output.
-			[NEWLINE]Luxuries donated by City States provide double [ICON_HAPPINESS_1] happiness.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_FEDERATION_TEXT"> 
-			<Text>
-				The Federation
-			</Text>
-		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_FINE_ARTS"> 
 			<Text>
 				Fine Arts
@@ -108403,9 +107870,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_FINE_ARTS_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Fine Arts[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+8 [ICON_CULTURE] Culture from each Great Work.
-				[NEWLINE][ICON_BULLET]Doubles the Theming Bonus of all Wonders and Museums.
+				[COLOR_POSITIVE_TEXT]Fine Arts[ENDCOLOR][NEWLINE]50% of excess [ICON_HAPPINESS_1] Happiness added each turn to the amount of [ICON_CULTURE] Culture that may be spent on Social Policies.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_FINE_ARTS_TEXT"> 
@@ -108420,7 +107885,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_FIVE_YEAR_PLAN_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Five-Year Plan[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production for every Mine, Quarry, Lumber Mill, Oil Well, Offshore Platform and Workboats.
+				[COLOR_POSITIVE_TEXT]Five-Year Plan[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Production per City and +1 [ICON_PRODUCTION] Production for every Mine and Quarry.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_FIVE_YEAR_PLAN_TEXT"> 
@@ -108430,13 +107895,12 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_FLOURISHING_OF_ARTS"> 
 			<Text>
-				Ethics
+				Flourishing of the Arts
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_FLOURISHING_OF_ARTS_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Ethics[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]-15% [ICON_CULTURE] Culture cost for adopting new policy.
+				[COLOR_POSITIVE_TEXT]Flourishing of the Arts[ENDCOLOR][NEWLINE][ICON_CULTURE] Culture increased by 33% in all cities which have built a World Wonder and the empire immediately enters a [ICON_GOLDEN_AGE] Golden Age.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_FLOURISHING_OF_ARTS_TEXT"> 
@@ -108451,7 +107915,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_FORTIFIED_BORDERS_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Fortified Borders[ENDCOLOR][NEWLINE]+4 [ICON_HAPPINESS_1] Local Happiness from every Barracks, Arsenal, Military Base, Military Academy, Dojo, Metal Processing Plant, Steel Warehouse, Coal Company, Recycling Center, Oil Refinery, Uraninite Refinery, Coal Liquefaction System and Uranium in Coal Refining System.
+				[COLOR_POSITIVE_TEXT]Fortified Borders[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Local Happiness from every Castle, Arsenal and Military Base.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_FORTIFIED_BORDERS_TEXT"> 
@@ -108496,9 +107960,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_FREE_RELIGION_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Religious Tolerance[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness from every Shrine and Temple.
-				[NEWLINE][ICON_BULLET]The empire immediately enters a [ICON_GOLDEN_AGE] Golden Age.
+				[COLOR_POSITIVE_TEXT]Religious Tolerance[ENDCOLOR][NEWLINE]Cities with a majority religion also get the Pantheon belief bonus of the second most popular religion.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_FREE_SPEECH"> 
@@ -108518,9 +107980,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_FREE_THOUGHT_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Free Thought[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+3 [ICON_RESEARCH] Science from every Trading Post.
-				[NEWLINE][ICON_BULLET] Great Person improvements produce +5[ICON_RESEARCH] Science.
+				[COLOR_POSITIVE_TEXT]Free Thought[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every Trading Post and +17% [ICON_RESEARCH] Science from Universities.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_FUTURISM"> 
@@ -108530,30 +107990,12 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_FUTURISM_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Futurism[ENDCOLOR][NEWLINE]When you capture a city, receive 60 [ICON_CULTURE] Culture as a plunder for each point of Culture produced in the captured city.
+				[COLOR_POSITIVE_TEXT]Futurism[ENDCOLOR][NEWLINE]+250 [ICON_TOURISM] Tourism with all known civs when a Great Writer, Artist or Musician is born.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_FUTURISM_TEXT"> 
 			<Text>
 				Originating as an artistic movement in the early 20th Century in Italy, Futurism evolved into a social movement in the 1920s and 1930s. Futurism emphasized contemporary concepts of the future such as youth violence, technology, industrialism, and rapid modes of transportation such as the automobile and airplane. Although primarily a philosophical and artistic movement, it came to have a political aspect as many futurists embraced Italian Fascism in the hopes of modernizing what they viewed as an archaic, rural, backward world. Although futurism reached its highest expression in Italy, it spawned parallel movements in England, France, and especially Russia as well.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_GAME"> 
-			<Text>
-				The Great Game
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_GAME_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]The Great Game[ENDCOLOR]
-			[NEWLINE][COLOR_WARNING_TEXT]+20% [ICON_HAPPINESS_4] Unhappiness generated by opposition to belligerent Foreign Policy.[ENDCOLOR]
-			[NEWLINE]+2 [ICON_HAPPINESS_1] Happiness generated by each [ICON_WAR] Military Unit.
-			[NEWLINE]+20% [ICON_PRODUCTION] Production towards [ICON_WAR] Military Units.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_GAME_TEXT"> 
-			<Text>
-				The Great Game
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_GLOBAL_WARGAMES_DUMMY_TEXT"> 
@@ -108568,17 +108010,17 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY"> 
 			<Text>
-				Chauvinism
+				Gunboat Diplomacy
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Chauvinism[ENDCOLOR][NEWLINE]When you build a Strategic Weapon, create [ICON_TOURISM] Tourism to all known civs. Building Battleships, Carriers, Nuclear Weapons and Strategic Bombers will generate Tourism equal to 100% of their [ICON_STRENGTH] Combat Strength. [NEWLINE]Threaten allied City States into donating 25% of their [ICON_RESEARCH] output.
+				[COLOR_POSITIVE_TEXT]Gunboat Diplomacy[ENDCOLOR][NEWLINE]Gain 6 more [ICON_INFLUENCE] Influence (at Standard speed) per turn with City-States you could demand tribute from.  Your military forces are 50% more effective at intimidating City-States.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY_TEXT"> 
 			<Text>
-				Chauvinism, in its original meaning, is an exaggerated patriotism and a belligerent belief in national superiority and glory.According to legend, French soldier Nicolas Chauvin was badly wounded in the Napoleonic wars. He received a pension for his injuries but it was not enough to live on. After Napoleon abdicated, Chauvin was a fanatical Bonapartist despite the unpopularity of this view in Bourbon Restoration France. His single-minded blind devotion to his cause, despite neglect by his faction and harassment by its enemies, started the use of the term.
+				In international affairs, "Gunboat Diplomacy" refers to the pursuit of foreign policy objectives through conspicuous demonstrations of overwhelming military force, with the threat of open hostilities underlying the display by the more powerful nation. The term came into popular usage during the period of European imperialism, as the colonial powers used the presence of warships to force concessions from a native kingdom. The policy proved very successful, especially as employed by militaristic autocracies...until the natives managed to obtain modern weaponry.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE"> 
@@ -108588,7 +108030,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Hero of the People[ENDCOLOR][NEWLINE]The rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25% and the empire immediately enters a [ICON_GOLDEN_AGE] 30 turn Golden Age.
+				[COLOR_POSITIVE_TEXT]Hero of the People[ENDCOLOR][NEWLINE]The rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25%.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_TEXT"> 
@@ -108604,22 +108046,6 @@ The ship has weather'd every rack; the prize we sought is won."
 		<Replace Tag="TXT_KEY_POLICY_HONOR_TEXT"> 
 			<Text>
 				In an "honorable" society, the citizens' status is based upon the society's judgment of their personal qualities. Qualities that are usually considered honorable include fealty, honesty, integrity, and courage. In many such societies men are expected to "defend their honor" to the death, as any loss of honor is considered far worse than loss of life.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_HORSEMAN_TRAINING"> 
-			<Text>
-				Maneuver Warfare
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_HORSEMAN_TRAINING_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Maneuver Warfare[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]All Heavy Mounted Units and Tank Units +1 [ICON_MOVES] Movement and ignore Enemy ZOC.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_HORSEMAN_TRAINING_TEXT"> 
-			<Text>
-				Maneuver warfare, or manoeuvre warfare, is a military strategy that advocates attempting to defeat the enemy by incapacitating their decision-making through shock and disruption.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_HORSEMEN_OF_THE_PLAINS"> 
@@ -108669,48 +108095,12 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_HUMANISM_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Humanism[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]One free Great Scientist appears.
-				[NEWLINE][ICON_BULLET]Great Scientists are earned 25% faster.
+				[COLOR_POSITIVE_TEXT]Humanism[ENDCOLOR][NEWLINE]Great Scientists are earned 25% faster.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_HUMANISM_TEXT"> 
 			<Text>
 				Humanism is the philosophy that says that the human being is the most important thing in the world. There are no "higher beings" or supernatural powers that humans owe allegiance to or who give us guidance or wisdom. There's just us. Humanism has been around in one form or another since ancient Greece, and it also appears in Asian and Indian writings some two to three thousand years ago. It made a strong reappearance in the Renaissance, and remains a powerful philosophical force today.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_IDEAS"> 
-			<Text>
-				Marketplace of Ideas
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_IDEAS_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Marketplace of Ideas[ENDCOLOR]
-			[NEWLINE]+2 [ICON_CULTURE] Culture per [ICON_CITIZEN] Merchant.
-			[NEWLINE]+2 [ICON_RESEARCH] Science per [ICON_CITIZEN] Merchant.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_IDEAS_TEXT"> 
-			<Text>
-				Marketplace of Ideas
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_IMPERIAL"> 
-			<Text>
-				Imperial Prerogative
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_IMPERIAL_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Imperial Prerogative[ENDCOLOR]
-			[NEWLINE]+10 [ICON_INFLUENCE] Influence for Gifting Units to City States.
-			[NEWLINE]+5 [ICON_INFLUENCE] Influence generated by Trade Routes with City States per turn.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_IMPERIAL_TEXT"> 
-			<Text>
-				Imperial Prerogative
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE"> 
@@ -108735,7 +108125,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_IRON_CURTAIN_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Iron Curtain[ENDCOLOR][NEWLINE]-50% [ICON_TEAM_2] International Immigration Rate from Your Nation to other civlizations. [NEWLINE]+50% [ICON_GOLD] Gold and [ICON_PRODUCTION] Production output in [COLOR_POSITIVE_TEXT]Puppet[ENDCOLOR] cities.
+				[COLOR_POSITIVE_TEXT]Iron Curtain[ENDCOLOR][NEWLINE]Free Courthouse upon city capture. Internal trade routes provide 50% more [ICON_FOOD] Food or [ICON_PRODUCTION] Production.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_IRON_CURTAIN_TEXT"> 
@@ -108750,27 +108140,22 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_LANDED_ELITE"> 
 			<Text>
-				Collective Agriculture
+				Landed Elite
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_LANDED_ELITE_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Collective Agriculture[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+1 [ICON_FOOD] Food for every Farm and Fishing Net.				
-				[NEWLINE][ICON_BULLET]+5% [ICON_FOOD] Food growth in every city.
-				[NEWLINE][ICON_BULLET]+20% bonus [ICON_FOOD] Food growth in the Capital.
+				[COLOR_POSITIVE_TEXT]Landed Elite[ENDCOLOR][NEWLINE]+10% [ICON_FOOD] Growth and +2 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_LEGALISM"> 
 			<Text>
-				Social Contract
+				Legalism
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_LEGALISM_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Social Contract[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness for every 4 [ICON_CITIZEN] Citizens in all cities.
-				[NEWLINE][ICON_BULLET]-50% [ICON_HAPPINESS_4] Unhappiness in the Capital.
+				[COLOR_POSITIVE_TEXT]Legalism[ENDCOLOR][NEWLINE]Provides a free culture building in your first 4 cities.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_LEGALISM_TEXT"> 
@@ -108795,7 +108180,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Lightning Warfare[ENDCOLOR][NEWLINE]+2 [ICON_MOVES] Movement for Great Generals.  +2 [ICON_MOVES] Movement for All Land Non-militia Units.
+				[COLOR_POSITIVE_TEXT]Lightning Warfare[ENDCOLOR][NEWLINE]+3 [ICON_MOVES] Movement for Great Generals. Armor units gain +15% attack, +1 [ICON_MOVES] Movement and ignore enemy ZOC.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE_TEXT"> 
@@ -108815,9 +108200,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Mandate of Heaven[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]33% discount on all purchases of religious units and buildings with [ICON_PEACE] Faith.
-				[NEWLINE][ICON_BULLET]Holy Sites produce +5[ICON_PEACE] Faith.
+				[COLOR_POSITIVE_TEXT]Mandate of Heaven[ENDCOLOR][NEWLINE]20% discount on all purchases of religious units and buildings with [ICON_PEACE] Faith.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE"> 
@@ -108827,48 +108210,12 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Maritime Infrastructure[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+3 [ICON_PRODUCTION] Production in all coastal Cities.
-				[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] Production for every Fishing Net, Workboats and Offshore Platform.
+				[COLOR_POSITIVE_TEXT]Maritime Infrastructure[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production in all coastal Cities.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE_TEXT"> 
 			<Text>
 				Maritime Infrastructure is the term used to describe the collective installations and services that facilitate seaborne mercantile activity. These include the docks, wharves, warehouses and such as well as the stevedores, shipwrights, harbor pilots, and others that handle the docking and loading/unloading of cargo. It has been estimated that throughout history one in every six jobs has been related directly or indirectly to maritime commerce. For those nations seeking wealth and expansion via the oceans, a sound maritime infrastructure is vital. At the height of the British Empire it is estimated that the crown spent almost a third of its revenue in expanding and improving the ports around the globe that serviced the empire's vast merchant fleet.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_MARKET_ECONOMY"> 
-			<Text>
-				Consumerism
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_MARKET_ECONOMY_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Consumerism[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness from each Luxury resource.
-				[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness from each Supermarket, Country Club, Bar, Wildlife Preserve and Jeweler.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_MARKET_ECONOMY_TEXT"> 
-			<Text>
-				Consumerism is a social and economic order and ideology that encourages the acquisition of goods and services in ever-greater amounts. Early criticisms of consumerism are present in the works of Thorstein Veblen (1899). Veblen's subject of examination, the newly emergent middle class arising at the turn of the twentieth century,comes to fruition by the end of the twentieth century through the process of globalization. In this sense, consumerism is usually considered a part of media culture.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_MASTERY"> 
-			<Text>
-				Mastery of Nature
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_MASTERY_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Mastery of Nature[ENDCOLOR]
-			[NEWLINE]+100% [ICON_WORKER] work rate for Workers.
-			[NEWLINE]+2 [ICON_ARROW_RIGHT] Movement for Embarked Units.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_MASTERY_TEXT"> 
-			<Text>
-				Mastery of Nature
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MEDIA_CULTURE"> 
@@ -108878,7 +108225,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MEDIA_CULTURE_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Media Culture[ENDCOLOR][NEWLINE]+25% [ICON_TOURISM] Tourism output from every Cinema, TV Station, Cable Network and Central Business District. The empire immediately enters a [ICON_GOLDEN_AGE] Golden Age.
+				[COLOR_POSITIVE_TEXT]Media Culture[ENDCOLOR][NEWLINE] +34% [ICON_TOURISM] Tourism generated by cities with a Broadcast Tower.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MEDIA_CULTURE_TEXT"> 
@@ -108893,9 +108240,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MERCANTILISM_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Mercantilism[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]-15%[ICON_GOLD] Gold cost of purchasing units and buildings.
-				[NEWLINE][ICON_BULLET]+50% [ICON_RES_CONSUMER] Consumer Goods produced by Merchants.
+				[COLOR_POSITIVE_TEXT]Mercantilism[ENDCOLOR][NEWLINE]Purchasing items in Cities requires 25% less [ICON_GOLD] Gold. +1 [ICON_RESEARCH] Science from every Mint, Market, Bank, and Stock Exchange.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MERCANTILISM_TEXT"> 
@@ -108915,9 +108260,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Merchant Confederacy[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Gain 4 [ICON_INFLUENCE] Influence (at Standard speed) per turn  with City-States you have a trade route with.
-				[NEWLINE][ICON_BULLET]Gain an additional Trade Route slot.
+				[COLOR_POSITIVE_TEXT]Merchant Confederacy[ENDCOLOR][NEWLINE]+2 [ICON_GOLD] Gold for trade routes with City-States.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_NWS_HELP"> 
@@ -108937,41 +108280,37 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MERCHANT_NAVY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Merchant Navy[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+1 additional Trade Route slot.
-				[NEWLINE][ICON_BULLET]+6 [ICON_GOLD] Gold from all your sea trade routes.
+				[COLOR_POSITIVE_TEXT]Merchant Navy[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Gold for each Harbor, Seaport, or Lighthouse. +4 [ICON_PRODUCTION] Production and +4 [ICON_CULTURE] in the city with the East India Company.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MERITOCRACY"> 
 			<Text>
-				Landed Elite
+				Meritocracy
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MERITOCRACY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Landed Elite[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+20 [ICON_PRODUCTION] Production for every City
-				[NEWLINE][ICON_BULLET]+20% [ICON_PRODUCTION] Production in cities when constructing Buildings
+				[COLOR_POSITIVE_TEXT]Meritocracy[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness for each City you own [ICON_CONNECTED] connected to the [ICON_CAPITAL] Capital and -5% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied Cities.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MILITARISM"> 
 			<Text>
-				War Propaganda
+				Militarism
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MILITARISM_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]War Propaganda[ENDCOLOR][NEWLINE]-50% [ICON_RESISTANCE] Resistance Time for newly captured cities. The city will NOT resist if its [ICON_CITIZEN] Population is less than 6 after capturing.
+				[COLOR_POSITIVE_TEXT]Militarism[ENDCOLOR][NEWLINE]+2 [ICON_HAPPINESS_1] Local Happiness from every Barracks, Armory and Military Academy.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MILITARISM_TEXT"> 
 			<Text>
-				Propaganda is a powerful weapon in war; it is used to dehumanize and create hatred toward a supposed enemy, either internal or external, by creating a false image in the mind. This can be done by using derogatory or racist terms, avoiding some words or by making allegations of enemy atrocities. Most propaganda wars require the home population to feel the enemy has inflicted an injustice, which may be fictitious or may be based on facts. The home population must also decide that the cause of their nation is just.
+				Militarism is defined as "the belief or desire of a government or people that the nation maintain a strong military capability and be prepared to use it aggressively." Militarism has been a significant element of policy in most imperialistic or expansionist nations throughout history, from Sparta to Nazi Germany. This philosophy has many components that include idealizing personal military accomplishments and government policies that devote a significant portion of the nation's resources to supporting and expanding its military forces.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MILITARYCASTE_TEXT"> 
 			<Text>
-				Military education and training is a process which intends to establish and improve the capabilities of military personnel in their respective roles. Military education can be voluntary or compulsory duty.
+				In a society with a military caste, all members of the military are from a specific tribe, nationality, religion, or other socio-economic subgroup. Citizens who are not part of the caste are forbidden from joining the military and often from carrying any weapons at all, often because the military caste fears that the citizens might use the weapons against them. Much of feudal Japan was under a military caste system, as was ancient Sparta.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MILITARYTRADITION_TEXT"> 
@@ -108979,33 +108318,14 @@ The ship has weather'd every rack; the prize we sought is won."
 				Military tradition is the policy of honoring and romanticizing service in the nation's military. Soldiers and veterans are venerated, while those who do not serve in the military are inferior, possibly even dishonorable. Modern Israel has a significant military tradition, as did Victorian England and the pre-Civil War southern United States.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_MILITARY_AID"> 
-			<Text>
-				Military Aid
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_MILITARY_AID_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Military Aid[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]The frequency of Militaristic City States granting units are 200% faster when you are at war with a common foe.
-				[NEWLINE][ICON_BULLET] +10 [ICON_INFLUENCE] Influence from Military Unit gifts to City-States.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_MILITARY_AID_TEXT"> 
-			<Text>
-				Military aid is aid which is used to assist a country or it's people in its defense efforts, or to assist a poor country in maintaining control over its own territory. Many countries receive military aid to help with counter-insurgency efforts. Military aid can also be given to a rebellion to help fight another country.
-			</Text>
-		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MILITARY_CASTE"> 
 			<Text>
-				Military Training
+				Military Caste
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MILITARY_CASTE_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Shooting Training[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+15% [ICON_PRODUCTION] Production when building Land Hit-and-Run Units, Land Ranged Units, Anti-air Units and Siege Units.
-				[NEWLINE][ICON_BULLET]These units +25% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking enemy units in rough terrain, fortified enemy units, or being attacked by enemy ranged strikes.
+				[COLOR_POSITIVE_TEXT]Military Caste[ENDCOLOR][NEWLINE]Each City with a garrison increases Local City [ICON_HAPPINESS_1] Happiness by 1 and [ICON_CULTURE] Culture by 2.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MILITARY_TRADITION"> 
@@ -109015,9 +108335,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MILITARY_TRADITION_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Military Tradition[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Military Units gain 50% more Experience from combat.
-				[NEWLINE][ICON_BULLET]-50% [ICON_GOLD] Gold Cost for Unit Upgrade.
+				[COLOR_POSITIVE_TEXT]Military Tradition[ENDCOLOR][NEWLINE]Military Units gain 50% more Experience from combat.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MOBILIZATION"> 
@@ -109037,14 +108355,12 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MONARCHY"> 
 			<Text>
-				Representation
+				Monarchy
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MONARCHY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Representation[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]-50% extra [ICON_HAPPINESS_4] Unhappiness due to city's Population Size.
-				[NEWLINE][ICON_BULLET]+30% [ICON_RES_MANPOWER] Manpower provided by cities Population Size.
+				[COLOR_POSITIVE_TEXT]Monarchy[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Gold and -1 [ICON_HAPPINESS_4] Unhappiness for every 2 [ICON_CITIZEN] Citizens in the [ICON_CAPITAL] Capital.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MONARCHY_TEXT"> 
@@ -109059,7 +108375,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_NATIONALISM_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Nationalism[ENDCOLOR][NEWLINE]-40% [ICON_GOLD] Gold for Unit Maintenance. [NEWLINE]Quantity of Strategic Resources produced by the empire increased by 50%.
+				[COLOR_POSITIVE_TEXT]Nationalism[ENDCOLOR][NEWLINE]Reduces Unit [ICON_GOLD] Gold Maintenance costs by 33%.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_NATIONALISM_TEXT"> 
@@ -109079,9 +108395,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_NAVAL_TRADITION_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Naval Tradition[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] Culture in all coastal Cities.
-				[NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] Culture for every Lighthouse, Harbor and Seaport.
+				[COLOR_POSITIVE_TEXT]Naval Tradition[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness for each Harbor, Seaport, or Lighthouse.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_NAVIGATION_SCHOOL"> 
@@ -109091,9 +108405,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_NAVIGATION_SCHOOL_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Navigation School[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness for every Lighthouse, Harbor, Seaport and Shipyard.
-				[NEWLINE][ICON_BULLET]+15% [ICON_PRODUCTION] Production when building Naval Units.
+				[COLOR_POSITIVE_TEXT]Navigation School[ENDCOLOR][NEWLINE]A Great Admiral appears. +2 [ICON_MOVES] Movement for all Great Admirals. Great Admirals are earned 50% faster.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_NAVIGATION_SCHOOL_TEXT"> 
@@ -109108,7 +108420,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_NEW_DEAL_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]New Deal[ENDCOLOR][NEWLINE]Landmarks and Great Person improvements produce +5 of the appropriate yield. +25% [ICON_PRODUCTION] Production for cities of or beyond the size of "Large City".
+				[COLOR_POSITIVE_TEXT]New Deal[ENDCOLOR][NEWLINE]Landmarks and Great Person improvements produce +4 of the appropriate yield.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_NEW_DEAL_TEXT"> 
@@ -109118,56 +108430,32 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_NEW_ORDER"> 
 			<Text>
-				Authoritarianism
+				Clausewitz's Legacy
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_NEW_ORDER_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Authoritarianism[ENDCOLOR][NEWLINE]Negates the [ICON_TOURISM] Tourism bonus from other players' technologies (from Printing Press to Internet). [NEWLINE]Increase [ICON_CULTURE] Culture output by 15%.
+				[COLOR_POSITIVE_TEXT]Clausewitz's Legacy[ENDCOLOR][NEWLINE]Receive a 25% attack bonus to all Military Units for the first 50 turns after this policy is adopted.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_NEW_ORDER_TEXT"> 
 			<Text>
-				Authoritarianism is a form of government characterized by absolute or blind obedience to authority, as against individual freedom and related to the expectation of unquestioning obedience.
+				Following the Napoleonic Wars, the Prussian officer Carl von Clausewitz wrote the first definitive exploration of military theory since Sun Tzu. His ten-volume Vom Krieg (On War), although unfinished upon his death in 1831, served as the basis for the training of generations of army officers at military academies around the world. Stressing the psychological and political aspects of war in terms of strategy and tactics, his statement that "War is the continuation of politics by other means" would become the foundation of autocratic, expansionist governments for the next two centuries.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_OLIGARCHY"> 
 			<Text>
-				Guilds
+				Oligarchy
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_OLIGARCHY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Guilds[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Gain additional [ICON_PRODUCTION] Production in cities reached certain Population Size:
-				[NEWLINE][ICON_BULLET]Town: +8 [ICON_PRODUCTION] Production.
-				[NEWLINE][ICON_BULLET]City: +16 [ICON_PRODUCTION] Production.
-				[NEWLINE][ICON_BULLET]Municipality: +24 [ICON_PRODUCTION] Production.
-				[NEWLINE][ICON_BULLET]Metropolis: +48 [ICON_PRODUCTION] Production.
-				[NEWLINE][ICON_BULLET]Megapolis: +64 [ICON_PRODUCTION] Production.
-				[NEWLINE][ICON_BULLET]Gigacity: +80 [ICON_PRODUCTION] Production.
+				[COLOR_POSITIVE_TEXT]Oligarchy[ENDCOLOR][NEWLINE]Garrisoned units cost no maintenance and cities with a garrison gain +50% [ICON_RANGE_STRENGTH] Ranged Combat Strength.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_OLIGARCHY_TEXT"> 
 			<Text>
 				Oligarchy is a form of government in which a small segment of society has all of the power. Power might be held by a specific family or tribe, or people of a certain religion or from a special caste. Some city-states in ancient Greece were oligarchies, where all power was in the hands of a few elite families. Apartheid South Africa would be a modern oligarchy, the white minority holding all of the power. Pre-9-11 Iraq too was an oligarchy, with power concentrated in the hands of members of Saddam Hussein's family and tribe.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_ONE_VISION"> 
-			<Text>
-				One Vision
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_ONE_VISION_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]One Vision[ENDCOLOR]
-			[NEWLINE]+2 [ICON_CULTURE] Culture from Mines.
-			[NEWLINE]+2 [ICON_CULTURE] Culture from Lumber Mills.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_ONE_VISION_TEXT"> 
-			<Text>
-				One Vision
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_OPEN_SOCIETY"> 
@@ -109177,7 +108465,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_OPEN_SOCIETY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Avant Garde[ENDCOLOR][NEWLINE]The rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 35%. +500 [ICON_TOURISM] Tourism to all Civilizations when any Great Person is born.
+				[COLOR_POSITIVE_TEXT]Avant Garde[ENDCOLOR][NEWLINE]The rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25%.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_OPEN_SOCIETY_TEXT"> 
@@ -109207,13 +108495,12 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION"> 
 			<Text>
-				Tao Te Ching
+				Organized Religion
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Tao Te Ching[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] Culture for every Shrine, Temple and Religious Building purchased with [ICON_PEACE] Faith.
+				[COLOR_POSITIVE_TEXT]Organized Religion[ENDCOLOR][NEWLINE]+1 [ICON_PEACE] Faith from Shrines and Temples.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_OVERSEAS_EMPIRE"> 
@@ -109233,34 +108520,17 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP"> 
 			<Text>
-				Down to the Countryside Movement
+				Party Leadership
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Down to the Countryside Movement[ENDCOLOR][NEWLINE]+3 [ICON_CULTURE] Culture for every Farm, Pasture and Trading Post.
+				[COLOR_POSITIVE_TEXT]Party Leadership[ENDCOLOR][NEWLINE]+1 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_GOLD] Gold, and [ICON_CULTURE] Culture per city.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP_TEXT"> 
 			<Text>
-				The Up to the Mountains and Down to the Countryside Movement was a policy instituted in the People's Republic of China in the late 1960s and early 1970s. As a result of the anti-bourgeois thinking prevalent during the Cultural Revolution, Mao Zedong declared certain privileged urban youth would be sent to mountainous areas or farming villages in order to learn from the workers and farmers there.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_PATERNAL"> 
-			<Text>
-				The Paternal State
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_PATERNAL_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]The Paternal State[ENDCOLOR]
-			[NEWLINE]+15% [ICON_FOOD] Food generated by cities.
-			[NEWLINE]+15% [ICON_CITIZEN] Population Growth Rate.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_PATERNAL_TEXT"> 
-			<Text>
-				The Paternal State
+				In an orderly proletarian socialist state, the people have the power; however, even Marx realized that some form of party hierarchy would be necessary for efficient operation of state services and to insure that the proletarian order itself was preserved. For that reason, the Bolsheviks argued in 1917 that a vanguard party of bureaucrats would head a centralized political party that administered the new Soviet Russia. In time, with the spread of the communist revolution throughout the industrial world, the need for a party leadership would wither and it would be dissolved; history proved otherwise.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PATRIOTIC_WAR"> 
@@ -109270,7 +108540,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Patriotic War[ENDCOLOR][NEWLINE]+15% [ICON_STRENGTH] Combat Strength Bonus for all Land and Naval units when fighting in friendly territory. +30% [ICON_STRENGTH] Combat Strength of Cities.
+				[COLOR_POSITIVE_TEXT]Patriotic War[ENDCOLOR][NEWLINE]+15% attack bonus when fighting in friendly territory.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_TEXT"> 
@@ -109293,23 +108563,6 @@ The ship has weather'd every rack; the prize we sought is won."
 				Patronage is the policy where the wealthy and powerful - often the nobility - support the talented artisans in a society. In many ancient societies, a society's wealth was concentrated in a few individuals: the Royal Family, say, or the merchant princes. Painters, sculptors, musicians, and other gifted artists worked for the elite, as they were the only ones who could afford to pay them. While perhaps unfair to commoners, this system has produced brilliant works by the likes of Leonardo da Vinci, Ben Johnson, and Mozart. The system is enjoying something of a revival today, with the role of patron being taken by mega-corporations rather than individuals.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_PERFECTION"> 
-			<Text>
-				Engineered Perfection
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_PERFECTION_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Engineered Perfection[ENDCOLOR]
-			[NEWLINE]+3 [ICON_RESEARCH] Free Techs.
-			[NEWLINE]+8 [ICON_CULTURE] from World Wonders.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_PERFECTION_TEXT"> 
-			<Text>
-				Engineered Perfection
-			</Text>
-		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PHILANTHROPY"> 
 			<Text>
 				Philanthropy
@@ -109317,9 +108570,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PHILANTHROPY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Philanthropy[ENDCOLOR]
-				[NEWLINE][ICON_BULLET][ICON_GOLD] Gold gifts to City-States produce 50% more [ICON_INFLUENCE] Influence.
-				[NEWLINE][ICON_BULLET]+2 [ICON_GOLD] Gold for trade routes with City-States.
+				[COLOR_POSITIVE_TEXT]Philanthropy[ENDCOLOR][NEWLINE][ICON_GOLD] Gold gifts to City-States produce 25% more [ICON_INFLUENCE] Influence.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PHILANTHROPY_TEXT"> 
@@ -109369,7 +108620,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_POLICE_STATE_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Police State[ENDCOLOR][NEWLINE]+10 [ICON_HAPPINESS_1] Local Happiness from every Courthouse, Constabulary, Sheriff Office, Police Station and Consulate. -50% extra [ICON_GOLD] Maintenance Cost added by cities' [ICON_CITIZEN] Population for these buildings.
+				[COLOR_POSITIVE_TEXT]Police State[ENDCOLOR][NEWLINE]+3 [ICON_HAPPINESS_1] Local Happiness from every Courthouse. Build Courthouses in half the usual time.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_POPULISM"> 
@@ -109402,28 +108653,6 @@ The ship has weather'd every rack; the prize we sought is won."
 				A port of call is an intermediary stop on a ship's trade route where it can take on provisions and water and transfer cargo and passengers. Colonial ports such as San Juan and Santo Domingo in the Caribbean, St. Augustine and Philadelphia in North America, and Rio de Janeiro and Buenos Aires were instrumental in securing the New World for the Europeans.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_PREFECTURE"> 
-			<Text>
-				Third Estate
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_PREFECTURE_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Third Estate[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Gain additional [ICON_CULTURE] Culture in cities reached certain Population Size:
-				[NEWLINE][ICON_BULLET]Town: +8 [ICON_CULTURE] Culture.
-				[NEWLINE][ICON_BULLET]City: +16 [ICON_CULTURE] Culture.
-				[NEWLINE][ICON_BULLET]Municipality: +24 [ICON_CULTURE] Culture.
-				[NEWLINE][ICON_BULLET]Metropolis: +48 [ICON_CULTURE] Culture.
-				[NEWLINE][ICON_BULLET]Megapolis: +64 [ICON_CULTURE] Culture.
-				[NEWLINE][ICON_BULLET]Gigapolis: +80 [ICON_CULTURE] Culture.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_PREFECTURE_TEXT"> 
-			<Text>
-				A prefecture (from the Latin Praefectura) is an administrative jurisdiction or subdivision in any of various countries and within some international church structures, and in antiquity a Roman district governed by an appointed prefect.
-			</Text>
-		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PROFESSIONALARMY_TEXT"> 
 			<Text>
 				A professional army is a full-time military organization that remains in being even when the country is at peace. Its soldiers are paid for their services by the state and spend their time training or performing public works when not at war. The earliest armies were not professional. When war was imminent, the country's leaders would issue a call and all able-bodied men would shoulder their weapons and march off to battle. These amateur soldiers usually didn't have much training and were often expected to supply their own weapons and armor, so their quality was not very high. They tended to desert when they had to tend to their crops, so battles were scheduled for the summer. If victory wasn't achieved by harvest, the war would often be called off for a year.[NEWLINE][NEWLINE]Professional armies form when a society has grown wealthy enough to support a large number of men who do not work the fields or perform other productive work. The soldiers are usually housed in barracks and segregated from the civilian population to minimize friction, and the state provides their food, weapons, armor, and training. They are almost always more effective than the amateurs.[NEWLINE][NEWLINE]Modern warfare has grown monumentally complex, and soldiers kill each other with extremely complicated weapons which require substantial training for effective use. Amateur soldiers are simply not up to the task, and most states field some kind of professional force.
@@ -109436,25 +108665,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Professional Army[ENDCOLOR]
-			[NEWLINE][ICON_BULLET]New Units receive +30 XP.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_PROFIT"> 
-			<Text>
-				The Pursuit of Profit
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_PROFIT_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]The Pursuit of Profit[ENDCOLOR]
-			[NEWLINE]+15% [ICON_GOLD] Gold from [ICON_INTERNATIONAL_TRADE] Trade Routes
-			[NEWLINE]+1 [ICON_INTERNATIONAL_TRADE] Trade Route per City.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_PROFIT_TEXT"> 
-			<Text>
-				The Pursuit of Profit
+				[COLOR_POSITIVE_TEXT]Professional Army[ENDCOLOR][NEWLINE][ICON_GOLD] Gold cost of upgrading Military Units reduced by 33% and construct Barracks, Armories, and Military Academies 50% faster.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PROTECTIONISM"> 
@@ -109464,31 +108675,12 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Protectionism[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]-50% [ICON_GOLD] Maintenance Cost for Roads and Railroads .
-				[NEWLINE][ICON_BULLET]+250% [ICON_FOOD] Food and [ICON_PRODUCTION] Production provided by Internal trade routes.
+				[COLOR_POSITIVE_TEXT]Protectionism[ENDCOLOR][NEWLINE]+2 [ICON_HAPPINESS_1] Happiness from each Luxury resource.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PROTECTIONISM_TEXT"> 
 			<Text>
 				Protectionism is the policy of restraining trade between nations through quotas, taxes and other methods. It is employed by countries who seek to slow or stop foreign goods and services from entering national markets and thereby "protecting" the local industries. Protectionism is also used by rulers who wish to limit their citizens' contact with foreign people and goods, either because they think that foreign things are evil, or because they don't want their citizens to know how badly off they are compared with people elsewhere in the world. North Korea is an example of a grotesquely protectionist state, its leaders limiting contact with the outside world to keep the North Koreans unaware of their own backwardness.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_PROVINCE"> 
-			<Text>
-				Praetorian Guard
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_PROVINCE_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Praetorian Guard[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]-50% [ICON_HAPPINESS_4] Unhappiness from Occupied Populations
-				[NEWLINE][ICON_BULLET]-33% [ICON_HAPPINESS_4] Unhappiness due to city size
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_PROVINCE_TEXT"> 
-			<Text>
-				A province is a territorial unit, almost always an administrative division, within a country or state.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_PUKARA"> 
@@ -109566,44 +108758,24 @@ The ship has weather'd every rack; the prize we sought is won."
 				Reformation refers to a great movement to reform a religious organization or belief system that is seen to have become corrupt or to have strayed from its guiding principles. The "Protestant Reformation" was a movement to reform the Roman Catholic Church. Begun in 1517 when Martin Luther published "The Ninety-Five Theses" listing the Church's transgressions as he saw them; the movement sparked some 130 years of horrible, bloody religious warfare across Europe and in the New World. As a result Christianity was permanently fractured into various different organizations and civil authority gained ultimate primacy over religious life.
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_RELIGIOUS_POLITICS"> 
-			<Text>
-				Dependent Origination
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_RELIGIOUS_POLITICS_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Dependent Origination[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]20% of the total [ICON_PEACE] Faith output each turn added to the amount of Global [ICON_HAPPINESS_1] Happiness. (At least +2 [ICON_HAPPINESS_1] Happiness, no upper limit)
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_RELIGIOUS_POLITICS_TEXT"> 
-			<Text>
-				Pratītyasamutpāda (Sanskrit: प्रतीत्यसमुत्पाद; Pali: पटिच्चसमुप्पाद paṭiccasamuppāda), commonly translated as dependent origination, or dependent arising, states that all dharmas ("things") arise in dependence upon other dharmas: "if this exists, that exists; if this ceases to exist, that also ceases to exist." It is a pragmatic teaching, which is applied to dukkha (suffering) and the cessation of dukkha.
-			</Text>
-		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_REPRESENTATION"> 
 			<Text>
-				Oligarchy
+				Representation
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_REPRESENTATION_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Oligarchy[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]The [ICON_CULTURE] Culture cost for new Policies is reduced by 5% per city.
-				[NEWLINE][ICON_BULLET]+1 [ICON_PRODUCTION] Production for every Mine and Lumber Mill.
+				[COLOR_POSITIVE_TEXT]Representation[ENDCOLOR][NEWLINE]Each city you found will increase the [ICON_CULTURE] Culture cost of policies by 33% less than normal.  Also starts a [ICON_GOLDEN_AGE] Golden Age.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_REPUBLIC"> 
 			<Text>
-				Pax Imperia
+				Republic
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_REPUBLIC_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Pax Imperia[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+6 [ICON_HAPPINESS_1] happiness for every [ICON_INTERNATIONAL_TRADE] Trade Route
-				[NEWLINE][ICON_BULLET]+4 extra [ICON_HAPPINESS_1] happiness from every Luxury Resource
+				[COLOR_POSITIVE_TEXT]Republic[ENDCOLOR][NEWLINE]+1 [ICON_PRODUCTION] Production in every City and +5% [ICON_PRODUCTION] Production in cities when constructing Buildings.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_RESETTLEMENT"> 
@@ -109613,7 +108785,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Resettlement[ENDCOLOR][NEWLINE]Settler equals 3 [ICON_CITIZEN] Population (New city start with 3 [ICON_CITIZEN] Population or add 3 [ICON_CITIZEN] Population when joining the existing city). Reduces the [ICON_FOOD] Food Growth increased by 30% in all cities.
+				[COLOR_POSITIVE_TEXT]Resettlement[ENDCOLOR][NEWLINE]New Cities start with an extra 3 [ICON_CITIZEN] Population.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_RESETTLEMENT_TEXT"> 
@@ -109643,8 +108815,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SCHOLASTICISM_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Scholasticism[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]All City-States which are Allies provide you with their 100% [ICON_RESEARCH] Science output.
+				[COLOR_POSITIVE_TEXT]Scholasticism[ENDCOLOR][NEWLINE]All City-States which are [COLOR_POSITIVE_TEXT]Allies[ENDCOLOR] provide a [ICON_RESEARCH] Science bonus equal to 25% of what they produce for themselves.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SCHOLASTICISM_TEXT"> 
@@ -109664,8 +108835,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Scientific Revolution[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+15% [ICON_RESEARCH] Science and [ICON_PRODUCTION] Production output from every Laboratory.
+				[COLOR_POSITIVE_TEXT]Scientific Revolution[ENDCOLOR][NEWLINE]Boosts [ICON_RESEARCH] Science gained from research agreements by 50%.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SECULARISM"> 
@@ -109675,31 +108845,12 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SECULARISM_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Secularism[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+2 [ICON_RESEARCH] Science from every Specialist.
-				[NEWLINE][ICON_BULLET]-50% [ICON_GOLD] Base Maintenance Cost for every Academy, University, Observatory, Laboratory and Polar Station.
+				[COLOR_POSITIVE_TEXT]Secularism[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Specialist.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SECULARISM_TEXT"> 
 			<Text>
 				Secularism is the belief that government should be separate from religion and religious faiths. Religions should not be taught in schools, nor should one's religion determine whether he or she can work in the government or serve in the military. Secularists don't necessarily disbelieve in a Supreme Being; they just think that mixing religion and government is ultimately bad for both institutions. The United States is largely a secular country, although traces of its early inhabitants' dominant religion can still be found on the country's money, its leaders' oaths of office, in its judicial system, and so forth, often to the dismay of the citizens who do not belong to that religion.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_SERENE"> 
-			<Text>
-				The Serene Realm
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_SERENE_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]The Serene Realm[ENDCOLOR]
-			[NEWLINE]+10% [ICON_RESEARCH] Science output.
-			[NEWLINE]-15% [ICON_CULTURE] Policy cost.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_SERENE_TEXT"> 
-			<Text>
-				The Serene Realm
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SKYSCRAPERS"> 
@@ -109734,17 +108885,17 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SOCIALIST_REALISM"> 
 			<Text>
-				Collectivization
+				Socialist Realism
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SOCIALIST_REALISM_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Collectivization[ENDCOLOR][NEWLINE]+9 [ICON_HAPPINESS_1] Local Happiness from each Mechanized Farm and Grain Depot.
+				[COLOR_POSITIVE_TEXT]Socialist Realism[ENDCOLOR][NEWLINE]+2 [ICON_HAPPINESS_1] Local Happiness from Monuments. Build Monuments in half the usual time.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SOCIALIST_REALISM_TEXT"> 
 			<Text>
-				Collectivization in the Soviet Union was enforced under Stalin between 1928 and 1940. The goal of this policy was to consolidate individual land and labour into collective farms: mainly kolkhozy and sovkhozy. The Soviet leadership was confident that the replacement of individual peasant farms by collective ones would immediately increase the food supply for urban population, the supply of raw materials for processing industry, and agricultural exports. Collectivization was thus regarded as the solution to the crisis of agricultural distribution (mainly in grain deliveries) that had developed since 1927. This problem became more acute as the Soviet Union pressed ahead with its ambitious industrialization program.
+				The Socialist Realism movement, a style of "realistic expression" that began in Soviet Russia and became dominant in communist countries around the world, promoted the triumph of socialism through art, photography, film and public monuments. Along with the Socialist Classical style of architecture, Socialist Realism was the only Party approved style of public art in the Soviet Union for sixty years. The dramatic and minimalist monuments that resulted were seen as powerful propaganda tools in promoting the dictatorship of the proletariat and the physical display of communist beliefs.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SOVEREIGNTY"> 
@@ -109754,8 +108905,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SOVEREIGNTY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Sovereignty[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness from every Academy, University, Public School, Observatory, Laboratory and Polar Station.
+				[COLOR_POSITIVE_TEXT]Sovereignty[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Gold from [ICON_RESEARCH] Science buildings.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SOVEREIGNTY_TEXT"> 
@@ -109780,50 +108930,17 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS"> 
 			<Text>
-				Free Trade
+				Space Procurements
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Free Trade[ENDCOLOR][NEWLINE]Each Logistics Company, International Trading Company and Central Business District's additionally boost a city's [ICON_GOLD] Gold output by an extra +15%. [NEWLINE]+50% [ICON_RES_CONSUMER] Consumer Goods produced by Merchants.
+				[COLOR_POSITIVE_TEXT]Space Procurements[ENDCOLOR][NEWLINE]May buy Spaceship parts with [ICON_GOLD] Gold.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_TEXT"> 
 			<Text>
-				Free trade is a policy in international markets in which governments do not restrict imports or exports. Free trade is exemplified by the European Union / European Economic Area and the North American Free Trade Agreement, which have established open markets.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_STAND"> 
-			<Text>
-				United We Stand
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_STAND_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]United We Stand[ENDCOLOR]
-			[NEWLINE]+10 [ICON_CULTURE] Culture for every [ICON_WAR] Garrisoned Unit.
-			[NEWLINE]+10% [ICON_PRODUCTION] Production for [ICON_WAR] Military Units.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_STAND_TEXT"> 
-			<Text>
-				United We Stand
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_STATECRAFT"> 
-			<Text>
-				Statecraft Ideology
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_STATECRAFT_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Statecraft Ideology[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] Culture for every Library, Academy, University, Public School and Laboratory.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_STATECRAFT_TEXT"> 
-			<Text>
-				Statecraft may refer the use of power in international relations. Power in international relations is defined in several different ways.
+				Most space programs have a procurement office, similar to NASA's Stennis Space Center Procurement Site, charged with the purchase of certain materials and services that are not economically viable for the government to supply - such as small tools, fuels and chemicals, foodstuffs and toiletries for space flights, computer components and the like. The procurement office will enforce regulations on purchasing, inspect materials, evaluate services, and often has separate branches for awarding contracts to major corporations and another to small businesses. Being a government agency, procedures are in place for budgetary review and regulation in an effort to make the space program affordable.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_TEMPLE_OF_THE_GODS"> 
@@ -109863,9 +108980,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_THEOCRACY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Theocracy[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Temples increase a city's [ICON_TOURISM] Tourism output by 25%.
-				[NEWLINE][ICON_BULLET]+1 Writer Slot for each city.
+				[COLOR_POSITIVE_TEXT]Theocracy[ENDCOLOR][NEWLINE]Temples increase a city's [ICON_GOLD] Gold output by 25%. Holy Sites provide +3 [ICON_GOLD] Gold.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_THEOCRACY_TEXT"> 
@@ -109900,23 +109015,22 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_TOTAL_WAR_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Total War[ENDCOLOR][NEWLINE]+45 [ICON_RES_MANPOWER] Manpower for each city. +20% Production towards Military Units.
+				[COLOR_POSITIVE_TEXT]Total War[ENDCOLOR][NEWLINE]+25% [ICON_PRODUCTION] Production when building Military Units and new Military Units start with +15 Experience.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_TRADEUNIONS_TEXT"> 
 			<Text>
-				A trade union is an organisation made up of members (a membership-based organisation) and its membership must be made up mainly of workers. One of a trade union's main aims is to protect and advance the interests of its members in the workplace. Most trade unions are independent of any employer.
+				Mercenaries - those who take part in a conflict for personal gain or compensation rather than duty or belief - have been a fact of war since ancient times; but the practice reached its height during the Renaissance, when the so-called "Free Companies" were formed to fight for hire. Often composed of veterans from national armies and led by a charismatic commander such as the Englishman Sir John Hawkwood, who formed the infamous White Company, these were usually hired during times of war by city-states or small kingdoms that lacked the funds or manpower to maintain standing armies. While some of the early mercenary forces specialized in specific forms of combat - for instance, cavalry or artillery companies - most were formed of German or Swiss landsknecht and saw extensive use during the religious wars of the Reformation. Coincidentally, to the south the condottieri served in the internecine wars between the Italian city-states, including the Papacy. As late as the 1700s Scots-Gaelic Gallowglass companies were available for hire to continental nobles. In modern times, mercenaries tend to be hired in small, elite teams for specific missions, or be part of private security companies.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_TRADE_UNIONS"> 
 			<Text>
-				Trade Unions
+				Mercenary Army
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Trade Unions[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+2 [ICON_CULTURE] Culture for every Market, Bank, Stock Exchange and Financial Company.
+				[COLOR_POSITIVE_TEXT]Mercenary Army[ENDCOLOR][NEWLINE]Allows the purchasing of Landsknechts.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_TRADITION"> 
@@ -109936,48 +109050,32 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_TREASURE_FLEETS"> 
 			<Text>
-				Thalassocracy
+				Treasure Fleets
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_TREASURE_FLEETS_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Thalassocracy[ENDCOLOR][NEWLINE]+1 Sight, +1 [ICON_MOVES] Movement, +15% [ICON_STRENGTH] Combat Strength for Naval Units.
+				[COLOR_POSITIVE_TEXT]Treasure Fleets[ENDCOLOR][NEWLINE]+4 [ICON_GOLD] Gold from all your sea trade routes.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_TREASURE_FLEETS_TEXT"> 
 			<Text>
-				The term thalassocracy (from Greek language θάλασσα (thalassa), meaning "sea", and κρατεῖν (kratein), meaning "to rule", giving θαλασσοκρατία (thalassokratia), "rule of the sea") refers to a state with primarily maritime realms—an empire at sea, such as the Phoenician network of merchant cities. Traditional thalassocracies seldom dominate interiors, even in their home territories (for example: Phoenician Tyre, Sidon and Carthage or Srivijaya and Majapahit in Southeast Asia).
+				At various times, nations transporting large amounts of treasure and trade goods have resorted to convoys of transports to improve the chances that the cargo would actually arrive at its destination. The most famous was the annual Spanish treasure fleet that brought gold, silver, spices, tobacco, pearls and other riches from the West Indies to Spanish ports in Europe from 1566 to 1790 AD. The sack of Spanish Havana by French privateers and attacks on lone galleons by English buccaneers moved the Spanish to institute the convoys between the New World and Europe. Although the seas are relatively safe from pirates now, during wartime maritime nations still organize convoys to improve the chances of merchant ships arriving intact.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION"> 
 			<Text>
-				Freedom of Speech
+				Treaty Organization
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Freedom of Speech[ENDCOLOR][NEWLINE]Each Biology Laboratory, Genetic Laboratory and Central Business District's additionally boost a city's [ICON_RESEARCH] Science output by an extra +15%.  [NEWLINE]]+50% [ICON_TEAM_4] International Immigration Rate from other civlizations to Your Nation.
+				[COLOR_POSITIVE_TEXT]Treaty Organization[ENDCOLOR][NEWLINE]Gain 4 more [ICON_INFLUENCE] Influence per turn (at Standard speed) with City-States you have a trade route with.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION_TEXT"> 
 			<Text>
-				Freedom of speech is the political right to communicate one's opinions and ideas using one's body and property to anyone who is willing to receive them. The term freedom of expression is sometimes used synonymously, but includes any act of seeking, receiving and imparting information or ideas, regardless of the medium used.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_TRICKLE"> 
-			<Text>
-				Trickle Down Economics
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_TRICKLE_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Trickle-Down Economics[ENDCOLOR]
-			[NEWLINE]-20% [ICON_INVEST] Building Maintenance.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_TRICKLE_TEXT"> 
-			<Text>
-				Trickle Down Economics
+				A treaty organization is an international military pact created for purposes of collective security; it generally encompasses joint command structures, research programs, and armaments production as well as more mundane military matters. The North Atlantic Treaty Organization (NATO) formed in 1949 AD is the best known of such, but others are in place in South America, Africa and elsewhere. While defensive pacts and military alliances have been common in the past, none reached the level of integration of modern treaty organizations.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_UNIFIED_NATION"> 
@@ -110007,7 +109105,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_UNITED_FRONT_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]United Front[ENDCOLOR][NEWLINE]+40% [ICON_RESEARCH] Science and [ICON_PRODUCTION] Production from every Military Base, Military Academy and Dojo.
+				[COLOR_POSITIVE_TEXT]United Front[ENDCOLOR][NEWLINE]Militaristic City-States grant units twice as often when you are at war with a common foe.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_UNIVERSALSUFFRAGE_TEXT"> 
@@ -110047,7 +109145,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_URBANIZATION_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Urbanization[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from every Tap Water System, Water Treatment Factory, Hospital, Medical Lab, Bus Station, Subway Station, Mint, Garden, Cable Network, Hotel and Airport.
+				[COLOR_POSITIVE_TEXT]Urbanization[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Local Happiness from every Water Mill, Hospital, and Medical Lab.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_URBANIZATION_TEXT"> 
@@ -110062,7 +109160,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Volunteer Army[ENDCOLOR][NEWLINE]Allows you to build or purchase the Foreign Legion. A powerful infantry unit (125 Strength) which has [ICON_STRENGTH] Combat Strength bonus outside friendly territory and won't be cause population loss if it is destroyed.
+				[COLOR_POSITIVE_TEXT]Volunteer Army[ENDCOLOR][NEWLINE]6 units are maintenance free. Receive 6 Foreign Legion infantry units immediately.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_TEXT"> 
@@ -110082,27 +109180,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_WARRIOR_CODE_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Warrior Code[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]A Great General appears outside the [ICON_CAPITAL] Capital.
-				[NEWLINE][ICON_BULLET]Great Generals are earned 50% faster.
-				[NEWLINE][ICON_BULLET]Increases the [ICON_STRENGTH] Strength of city strikes by 33%.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_WELFARE"> 
-			<Text>
-				Collective Welfare
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_WELFARE_HELP"> 
-			<Text>
-				[COLOR_POSITIVE_TEXT]Collective Welfare[ENDCOLOR]
-			[NEWLINE]+4 [ICON_HAPPINESS_1] from [ICON_GOLD] Markets, Banks and Stock Exchanges.
-			[NEWLINE]+4 [ICON_CULTURE] from [ICON_GOLD] Markets, Banks and Stock Exchanges.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_POLICY_WELFARE_TEXT"> 
-			<Text>
-				Collective Welfare
+				[COLOR_POSITIVE_TEXT]Warrior Code[ENDCOLOR][NEWLINE]+15% [ICON_PRODUCTION] Production when training Melee units and a Great General appears outside the [ICON_CAPITAL] Capital. Great Generals are earned 50% faster.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_WORKERS_FACULTIES"> 
@@ -110112,7 +109190,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Workers' Faculties[ENDCOLOR][NEWLINE]+33% [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science and [ICON_TOURISM] Tourism output from each Factory.
+				[COLOR_POSITIVE_TEXT]Workers' Faculties[ENDCOLOR][NEWLINE]Factories increase a City's [ICON_RESEARCH] Science output by 25%. Build Factories in half the usual time.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_TEXT"> 
@@ -110127,7 +109205,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_YOUNG_PIONEERS_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Young Pioneers[ENDCOLOR][NEWLINE]+3 [ICON_HAPPINESS_1] Local Happiness from each [COLOR_WATER_TEXT]Power Plant Buildings[ENDCOLOR] (Except Power Plant Additional Units).
+				[COLOR_POSITIVE_TEXT]Young Pioneers[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Local Happiness from every Workshop, Factory, and Solar/Nuclear/Hydro Plant.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_YOUNG_PIONEERS_TEXT"> 
@@ -113550,7 +112628,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_SIEGE_1_HELP"> 
 			<Text>
-				+25% Ranged Strength vs Cities
+				Destroy 1 Military Building per attack in the [COLOR_POSITIVE_TEXT]Target City[ENDCOLOR].
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_SIEGE_2"> 
@@ -113560,7 +112638,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_SIEGE_2_HELP"> 
 			<Text>
-				+25% Ranged Strength vs Cities
+				Destroy 1 Power Plant Building per attack in the [COLOR_POSITIVE_TEXT]Target City[ENDCOLOR].
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_SIEGE_3"> 
@@ -113570,7 +112648,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_SIEGE_3_HELP"> 
 			<Text>
-				+25% Ranged Strength vs Cities
+				Destroy 1 Production Building per attack in the [COLOR_POSITIVE_TEXT]Target City[ENDCOLOR].
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_SWEEP"> 
@@ -113590,7 +112668,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1_HELP"> 
 			<Text>
-				Heals +30HP after destroying an enemy unit
+				When attacking a city. Cause 20 Hp Damage to all enemy [COLOR_POSITIVE_TEXT]Garrisoned Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircraft[ENDCOLOR] inside the Target City.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2"> 
@@ -113600,7 +112678,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2_HELP"> 
 			<Text>
-				Heals +30HP after destroying an enemy unit
+				When attacking a city. Cause 30 Hp Damage to all enemy [COLOR_POSITIVE_TEXT]Garrisoned Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircraft[ENDCOLOR] inside the Target City.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3"> 
@@ -113610,7 +112688,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP"> 
 			<Text>
-				Heals +30HP after destroying an enemy unit
+				When attacking a city. Cause 40 Hp Damage to all enemy [COLOR_POSITIVE_TEXT]Garrisoned Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Aircraft[ENDCOLOR] inside the Target City.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_ALLWATER_EMBARKATION"> 
@@ -114575,8 +113653,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_DISCIPLINE_HELP"> 
 			<Text>
-				[ICON_BULLET]+25% [ICON_STRENGTH] Combat Strength for Land and Naval Melee Units when have another military Unit in an adjacent tile.
-				[NEWLINE][ICON_BULLET]Flank Attack bonus +50%.
+				+15% [ICON_STRENGTH] Combat Strength when adjacent to a friendly Unit.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_DOGFIGHTING_1"> 
@@ -114850,16 +113927,6 @@ The ship has weather'd every rack; the prize we sought is won."
 		<Replace Tag="TXT_KEY_PROMOTION_FAST_GENERAL_HELP"> 
 			<Text>
 				+2 [ICON_MOVES] Movement.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_PROMOTION_FAST_WORKER"> 
-			<Text>
-				+1[ICON_MOVES] Movement.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_PROMOTION_FAST_WORKER_TECH"> 
-			<Text>
-				+1[ICON_MOVES] Movement.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_FEARED_ELEPHANT"> 
@@ -116133,7 +115200,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_NAPALMBOMB_1_HELP"> 
 			<Text>
-				Grants +25% Ranged Strength
+				Kill 10% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the Target City. (Kill only 5% if the city has a bomb shelter)
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_NAPALMBOMB_2"> 
@@ -116143,7 +115210,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_NAPALMBOMB_2_HELP"> 
 			<Text>
-				Grants +25% Ranged Strength
+				Kill 20% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the Target City. (Kill only 10% if the city has a bomb shelter)
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_NAPALMBOMB_3"> 
@@ -116153,7 +115220,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_NAPALMBOMB_3_HELP"> 
 			<Text>
-				Grants +25% Ranged Strength
+				Kill 30% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the [COLOR_POSITIVE_TEXT]Target City[ENDCOLOR]. (Kill only 15% if the city has a bomb shelter)
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_NATIONALISM"> 
@@ -116301,7 +115368,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_NAVAL_TRADITION_HELP"> 
 			<Text>
-				[ICON_BULLET]+1[ICON_MOVES] Movement. [NEWLINE][ICON_BULLET]+15% [ICON_STRENGTH] Combat Strength.
+				+1 [ICON_MOVES] Movement and +1 Sight.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_NAVAL_TRADITION_NWS_HELP"> 
@@ -116502,11 +115569,6 @@ The ship has weather'd every rack; the prize we sought is won."
 		<Replace Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY"> 
 			<Text>
 				Heals 25 Damage If Kills a Unit
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_PROMOTION_PASSABLE_WORKER_TECH"> 
-			<Text>
-				Can move across Mountains or Ice.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_PENETRATION_1"> 
@@ -116790,11 +115852,6 @@ The ship has weather'd every rack; the prize we sought is won."
 				+1 Visibility Range
 			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_PROMOTION_SETTLER_POP_3"> 
-			<Text>
-				Equals 3 [ICON_CITIZEN] Population.
-			</Text>
-		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_SHOCK_1"> 
 			<Text>
 				Shock I
@@ -116833,17 +115890,6 @@ The ship has weather'd every rack; the prize we sought is won."
 		<Replace Tag="TXT_KEY_PROMOTION_SHOCK_CHARGER_HELP"> 
 			<Text>
 				+15% [ICON_STRENGTH] Combat Strength when fighting in OPEN Terrain. (NO Hills, Forest or Jungle).[NEWLINE][NEWLINE]+33% [ICON_STRENGTH] Combat Strength when fighting Melee and Gun Units.
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_PROMOTION_SHOOTING_TRAINING"> 
-			<Text>
-				Sharp Shooter
-			</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_PROMOTION_SHOOTING_TRAINING_HELP"> 
-			<Text>
-				[ICON_BULLET]+25% [ICON_RANGE_STRENGTH] Ranged Combat Strength when attacking enemy units in [COLOR_POSITIVE_TEXT]Rough Terrain[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Fortified Units[ENDCOLOR].
-				[NEWLINE][ICON_BULLET]+25% [ICON_RANGE_STRENGTH] Ranged Combat Strength when being attacked by enemy [COLOR_POSITIVE_TEXT]Ranged Strikes[ENDCOLOR].
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_SIEGE"> 
