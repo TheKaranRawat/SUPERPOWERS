@@ -234,9 +234,19 @@ supply text description
 dynamic civ names
 uiMsg == 523
 
-if UI.IsDX9() then
+tech era text icons
+tooltip font enlarge for title
+other processes wrap
+free buildings for new era automatic
+automate all workers
+build flax everywhere
+militia units disable
+display unit count/supply/manpower on civ leader screens
+	ten turn exploration era
+prevent AI from attacking city states
 
-disable UpdateWorkingHexesNow in cityview.lua
+
+if UI.IsDX9() then
 
 right click close policy menu/tech researched popup/natural wonder/greatest city/wonder popup/golden age/minor civ
 increase production costs/nerf empire production

@@ -326,9 +326,10 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
 	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/StackInstanceManager.lua</File>
     <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/UserInterfaceSettingCache.lua</File>
 	<File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/UserInterfaceSettings.lua</File>
-
+    
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TechPanel.lua</File>
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TechPanel.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TechAwardPopup.xml</File>
 	
 	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/ActionInfoPanel.lua</File>
     <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/ActionInfoPanel.xml</File>
@@ -3909,8 +3910,10 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
 	
 	<File md5="43939FF7C370D80989CCD674F775923A" import="0">SQL/cityrange.sql</File>
 
-  <File md5="YOUR_MD5" import="1">Modules/WarPopup/WarPopup.lua</File>
-  <File md5="YOUR_MD5" import="1">Modules/WarPopup/WarPopup.xml</File>
+    <File md5="43939FF7C370D80989CCD674F775923A" import="1">Modules/WarPopup/WarPopup.lua</File>
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/WarPopup/WarPopup.xml</File>
+    <File md5="43939FF7C370D80989CCD674F775945A" import="1">Modules/AutoImprove/AutoImprovements.lua</File>
+    <File md5="43939FF7C370D80989CCD674F775945A" import="1">Modules/SettlerDelay/SettlerFoundDelay.lua</File>
 	
   </Files>
   <Actions>
@@ -4493,6 +4496,16 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <EntryPoint type="InGameUIAddin" file="Modules/WarPopup/WarPopup.lua">
       <Name>War Declaration Popup</Name>
       <Description>Shows a banner when a civ declares war</Description>
+    </EntryPoint>
+
+    <EntryPoint type="InGameUIAddin" file="Modules/AutoImprove/AutoImprovements.lua">
+      <Name>AutoImprove</Name>
+      <Description>Automatically improves plots</Description>
+    </EntryPoint>
+
+    <EntryPoint type="InGameUIAddin" file="Modules/SettlerDelay/SettlerFoundDelay.lua">
+      <Name>SettlerDelay</Name>
+      <Description>Delays city founding</Description>
     </EntryPoint>
 	
     <EntryPoint type="InGameUIAddin" file="Lua/Maps/Terra.lua">

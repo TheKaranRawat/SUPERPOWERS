@@ -36,7 +36,8 @@
 		<Row>
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_WORKER</Type>
-			<Cost>15</Cost>
+			<!-- disable -->
+			<Cost>-1</Cost>
 			<Moves>2</Moves>
 			<BaseSightRange>1</BaseSightRange>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>

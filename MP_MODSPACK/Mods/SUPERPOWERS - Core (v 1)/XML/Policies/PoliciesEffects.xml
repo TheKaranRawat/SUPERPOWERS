@@ -1664,11 +1664,13 @@
 			<UnitClassType>UNITCLASS_GREAT_GENERAL</UnitClassType>
 			<Count>1</Count>
 		</Row>
+		<!--
 		<Row>
 			<PolicyType>POLICY_CITIZENSHIP</PolicyType>
 			<UnitClassType>UNITCLASS_WORKER</UnitClassType>
 			<Count>3</Count>
 		</Row>
+		-->
 		<Row>
 			<PolicyType>POLICY_ARTISTIC_GENIUS</PolicyType>
 			<UnitClassType>UNITCLASS_ARTIST</UnitClassType>

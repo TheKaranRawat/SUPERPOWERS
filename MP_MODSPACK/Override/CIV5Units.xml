@@ -49143,11 +49143,6 @@
 			<NumUnits>3</NumUnits> 
 		</Row>
 		<Row> 
-			<BuildingType>BUILDING_SPHINX</BuildingType> 
-			<UnitType>UNIT_WORKER</UnitType> 
-			<NumUnits>4</NumUnits> 
-		</Row>
-		<Row> 
 			<BuildingType>BUILDING_TABRIZBAZAAR</BuildingType> 
 			<UnitType>UNIT_MERCHANT</UnitType> 
 			<NumUnits>1</NumUnits> 
@@ -50143,21 +50138,6 @@
 		<Row> 
 			<BuildingType>BUILDING_CITYSTATE_RESOURCE</BuildingType> 
 			<ResourceType>RESOURCE_IRON</ResourceType> 
-			<Quantity>4</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CITYSTATE_RESOURCE</BuildingType> 
-			<ResourceType>RESOURCE_COAL</ResourceType> 
-			<Quantity>4</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CITYSTATE_RESOURCE</BuildingType> 
-			<ResourceType>RESOURCE_OIL</ResourceType> 
-			<Quantity>4</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CITYSTATE_RESOURCE</BuildingType> 
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType> 
 			<Quantity>4</Quantity> 
 		</Row>
 		<Row> 
@@ -85911,7 +85891,7 @@
 			<AllowsFoodTradeRoutes>false</AllowsFoodTradeRoutes> 
 			<AllowsProductionTradeRoutes>false</AllowsProductionTradeRoutes> 
 			<Defense>1800</Defense> 
-			<ExtraCityHitPoints>50</ExtraCityHitPoints> 
+			<ExtraCityHitPoints>25</ExtraCityHitPoints> 
 			<GlobalDefenseMod>0</GlobalDefenseMod> 
 			<MinorFriendshipChange>0</MinorFriendshipChange> 
 			<VictoryPoints>0</VictoryPoints> 
@@ -86890,7 +86870,7 @@
 			<AllowsFoodTradeRoutes>false</AllowsFoodTradeRoutes> 
 			<AllowsProductionTradeRoutes>false</AllowsProductionTradeRoutes> 
 			<Defense>1200</Defense> 
-			<ExtraCityHitPoints>100</ExtraCityHitPoints> 
+			<ExtraCityHitPoints>25</ExtraCityHitPoints> 
 			<GlobalDefenseMod>0</GlobalDefenseMod> 
 			<MinorFriendshipChange>0</MinorFriendshipChange> 
 			<VictoryPoints>0</VictoryPoints> 
@@ -87030,7 +87010,7 @@
 			<AllowsFoodTradeRoutes>false</AllowsFoodTradeRoutes> 
 			<AllowsProductionTradeRoutes>false</AllowsProductionTradeRoutes> 
 			<Defense>1200</Defense> 
-			<ExtraCityHitPoints>100</ExtraCityHitPoints> 
+			<ExtraCityHitPoints>25</ExtraCityHitPoints> 
 			<GlobalDefenseMod>0</GlobalDefenseMod> 
 			<MinorFriendshipChange>0</MinorFriendshipChange> 
 			<VictoryPoints>0</VictoryPoints> 
@@ -90139,7 +90119,7 @@
 			<BuildingClass>BUILDINGCLASS_FW_LAUNCH_FACILITY</BuildingClass> 
 			<ArtDefineTag>ART_DEF_BUILDING_FW_HYDRO_PLANT</ArtDefineTag> 
 			<TechEnhancedTourism>0</TechEnhancedTourism> 
-			<PrereqTech>TECH_INTERSTELLAR_TRAVEL</PrereqTech> 
+			<PrereqTech>TECH_INTEGRATED_DEFENSE</PrereqTech> 
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType> 
 			<SpecialistCount>3</SpecialistCount> 
 			<GreatWorkCount>0</GreatWorkCount> 
@@ -92140,7 +92120,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -92281,7 +92261,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -92423,7 +92403,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -92703,7 +92683,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -92985,7 +92965,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -93965,7 +93945,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -95660,7 +95640,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -95943,7 +95923,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -100449,7 +100429,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -102432,7 +102412,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -102989,7 +102969,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -103825,7 +103805,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -103891,7 +103871,7 @@
 			<Espionage>false</Espionage> 
 			<AllowsFoodTradeRoutes>false</AllowsFoodTradeRoutes> 
 			<AllowsProductionTradeRoutes>false</AllowsProductionTradeRoutes> 
-			<Defense>1000</Defense> 
+			<Defense>500</Defense> 
 			<ExtraCityHitPoints>25</ExtraCityHitPoints> 
 			<GlobalDefenseMod>0</GlobalDefenseMod> 
 			<MinorFriendshipChange>0</MinorFriendshipChange> 
@@ -104108,7 +104088,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -104174,7 +104154,7 @@
 			<Espionage>false</Espionage> 
 			<AllowsFoodTradeRoutes>false</AllowsFoodTradeRoutes> 
 			<AllowsProductionTradeRoutes>false</AllowsProductionTradeRoutes> 
-			<Defense>2500</Defense> 
+			<Defense>700</Defense> 
 			<ExtraCityHitPoints>25</ExtraCityHitPoints> 
 			<GlobalDefenseMod>0</GlobalDefenseMod> 
 			<MinorFriendshipChange>0</MinorFriendshipChange> 
@@ -104530,7 +104510,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -104948,7 +104928,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -105090,7 +105070,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -105156,7 +105136,7 @@
 			<Espionage>false</Espionage> 
 			<AllowsFoodTradeRoutes>false</AllowsFoodTradeRoutes> 
 			<AllowsProductionTradeRoutes>false</AllowsProductionTradeRoutes> 
-			<Defense>1500</Defense> 
+			<Defense>700</Defense> 
 			<ExtraCityHitPoints>25</ExtraCityHitPoints> 
 			<GlobalDefenseMod>0</GlobalDefenseMod> 
 			<MinorFriendshipChange>0</MinorFriendshipChange> 
@@ -105230,7 +105210,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -105296,7 +105276,7 @@
 			<Espionage>false</Espionage> 
 			<AllowsFoodTradeRoutes>false</AllowsFoodTradeRoutes> 
 			<AllowsProductionTradeRoutes>false</AllowsProductionTradeRoutes> 
-			<Defense>2500</Defense> 
+			<Defense>1200</Defense> 
 			<ExtraCityHitPoints>25</ExtraCityHitPoints> 
 			<GlobalDefenseMod>0</GlobalDefenseMod> 
 			<MinorFriendshipChange>0</MinorFriendshipChange> 
@@ -105370,7 +105350,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -105512,7 +105492,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -105578,8 +105558,8 @@
 			<Espionage>false</Espionage> 
 			<AllowsFoodTradeRoutes>false</AllowsFoodTradeRoutes> 
 			<AllowsProductionTradeRoutes>false</AllowsProductionTradeRoutes> 
-			<Defense>1500</Defense> 
-			<ExtraCityHitPoints>50</ExtraCityHitPoints> 
+			<Defense>1200</Defense> 
+			<ExtraCityHitPoints>25</ExtraCityHitPoints> 
 			<GlobalDefenseMod>0</GlobalDefenseMod> 
 			<MinorFriendshipChange>0</MinorFriendshipChange> 
 			<VictoryPoints>0</VictoryPoints> 
@@ -105652,7 +105632,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>true</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -137014,7 +136994,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -137575,7 +137555,7 @@
 			<Capital>false</Capital> 
 			<GoldenAge>false</GoldenAge> 
 			<MapCentering>false</MapCentering> 
-			<NeverCapture>true</NeverCapture> 
+			<NeverCapture>false</NeverCapture> 
 			<NukeImmune>false</NukeImmune> 
 			<AllowsWaterRoutes>false</AllowsWaterRoutes> 
 			<ExtraLuxuries>false</ExtraLuxuries> 
@@ -137641,7 +137621,7 @@
 			<Espionage>false</Espionage> 
 			<AllowsFoodTradeRoutes>false</AllowsFoodTradeRoutes> 
 			<AllowsProductionTradeRoutes>false</AllowsProductionTradeRoutes> 
-			<Defense>2500</Defense> 
+			<Defense>700</Defense> 
 			<ExtraCityHitPoints>25</ExtraCityHitPoints> 
 			<GlobalDefenseMod>0</GlobalDefenseMod> 
 			<MinorFriendshipChange>0</MinorFriendshipChange> 
@@ -173756,11 +173736,11 @@
 		</Row>
 		<Row> 
 			<Name>CITY_STRENGTH_DEFAULT</Name> 
-			<Value>500</Value> 
+			<Value>800</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_STRENGTH_POPULATION_CHANGE</Name> 
-			<Value>80</Value> 
+			<Value>20</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_STRENGTH_UNIT_DIVISOR</Name> 
@@ -173804,7 +173784,7 @@
 		</Row>
 		<Row> 
 			<Name>MIN_CITY_STRIKE_DAMAGE</Name> 
-			<Value>35</Value> 
+			<Value>30</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_CAPTURE_DAMAGE_PERCENT</Name> 
@@ -187414,8 +187394,8 @@
 			<Help>TXT_KEY_GAMESPEED_MARATHON_HELP</Help> 
 			<DealDuration>30</DealDuration> 
 			<GrowthPercent>150</GrowthPercent> 
-			<TrainPercent>130</TrainPercent> 
-			<ConstructPercent>150</ConstructPercent> 
+			<TrainPercent>200</TrainPercent> 
+			<ConstructPercent>200</ConstructPercent> 
 			<CreatePercent>200</CreatePercent> 
 			<ResearchPercent>200</ResearchPercent> 
 			<GoldPercent>200</GoldPercent> 
@@ -187453,8 +187433,8 @@
 			<Help>TXT_KEY_GAMESPEED_EPIC_HELP</Help> 
 			<DealDuration>30</DealDuration> 
 			<GrowthPercent>120</GrowthPercent> 
-			<TrainPercent>120</TrainPercent> 
-			<ConstructPercent>135</ConstructPercent> 
+			<TrainPercent>180</TrainPercent> 
+			<ConstructPercent>180</ConstructPercent> 
 			<CreatePercent>120</CreatePercent> 
 			<ResearchPercent>150</ResearchPercent> 
 			<GoldPercent>115</GoldPercent> 
@@ -187492,8 +187472,8 @@
 			<Help>TXT_KEY_GAMESPEED_STANDARD_HELP</Help> 
 			<DealDuration>30</DealDuration> 
 			<GrowthPercent>100</GrowthPercent> 
-			<TrainPercent>100</TrainPercent> 
-			<ConstructPercent>100</ConstructPercent> 
+			<TrainPercent>150</TrainPercent> 
+			<ConstructPercent>150</ConstructPercent> 
 			<CreatePercent>100</CreatePercent> 
 			<ResearchPercent>100</ResearchPercent> 
 			<GoldPercent>100</GoldPercent> 
@@ -190954,10 +190934,6 @@
 		</Row>
 		<Row> 
 			<HandicapType>HANDICAP_SETTLER</HandicapType> 
-			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType> 
-		</Row>
-		<Row> 
-			<HandicapType>HANDICAP_SETTLER</HandicapType> 
 			<GoodyType>GOODY_PROPHET_FAITH</GoodyType> 
 		</Row>
 		<Row> 
@@ -190990,10 +190966,6 @@
 		</Row>
 		<Row> 
 			<HandicapType>HANDICAP_CHIEFTAIN</HandicapType> 
-			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType> 
-		</Row>
-		<Row> 
-			<HandicapType>HANDICAP_CHIEFTAIN</HandicapType> 
 			<GoodyType>GOODY_PROPHET_FAITH</GoodyType> 
 		</Row>
 		<Row> 
@@ -191015,10 +190987,6 @@
 		<Row> 
 			<HandicapType>HANDICAP_WARLORD</HandicapType> 
 			<GoodyType>GOODY_CULTURE</GoodyType> 
-		</Row>
-		<Row> 
-			<HandicapType>HANDICAP_WARLORD</HandicapType> 
-			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType> 
 		</Row>
 		<Row> 
 			<HandicapType>HANDICAP_WARLORD</HandicapType> 
@@ -191046,10 +191014,6 @@
 		</Row>
 		<Row> 
 			<HandicapType>HANDICAP_PRINCE</HandicapType> 
-			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType> 
-		</Row>
-		<Row> 
-			<HandicapType>HANDICAP_PRINCE</HandicapType> 
 			<GoodyType>GOODY_PROPHET_FAITH</GoodyType> 
 		</Row>
 		<Row> 
@@ -191071,10 +191035,6 @@
 		<Row> 
 			<HandicapType>HANDICAP_KING</HandicapType> 
 			<GoodyType>GOODY_CULTURE</GoodyType> 
-		</Row>
-		<Row> 
-			<HandicapType>HANDICAP_KING</HandicapType> 
-			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType> 
 		</Row>
 		<Row> 
 			<HandicapType>HANDICAP_KING</HandicapType> 
@@ -191099,10 +191059,6 @@
 		<Row> 
 			<HandicapType>HANDICAP_EMPEROR</HandicapType> 
 			<GoodyType>GOODY_CULTURE</GoodyType> 
-		</Row>
-		<Row> 
-			<HandicapType>HANDICAP_EMPEROR</HandicapType> 
-			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType> 
 		</Row>
 		<Row> 
 			<HandicapType>HANDICAP_EMPEROR</HandicapType> 
@@ -191127,10 +191083,6 @@
 		<Row> 
 			<HandicapType>HANDICAP_IMMORTAL</HandicapType> 
 			<GoodyType>GOODY_CULTURE</GoodyType> 
-		</Row>
-		<Row> 
-			<HandicapType>HANDICAP_IMMORTAL</HandicapType> 
-			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType> 
 		</Row>
 		<Row> 
 			<HandicapType>HANDICAP_IMMORTAL</HandicapType> 
@@ -191155,10 +191107,6 @@
 		<Row> 
 			<HandicapType>HANDICAP_DEITY</HandicapType> 
 			<GoodyType>GOODY_CULTURE</GoodyType> 
-		</Row>
-		<Row> 
-			<HandicapType>HANDICAP_DEITY</HandicapType> 
-			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType> 
 		</Row>
 		<Row> 
 			<HandicapType>HANDICAP_DEITY</HandicapType> 
@@ -191183,10 +191131,6 @@
 		<Row> 
 			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType> 
 			<GoodyType>GOODY_CULTURE</GoodyType> 
-		</Row>
-		<Row> 
-			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType> 
-			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType> 
 		</Row>
 		<Row> 
 			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType> 
@@ -216477,22 +216421,22 @@
 		<Row> 
 			<LeaderType>LEADER_ALEXANDER</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_ALEXANDER</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
 			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_ALEXANDER</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ALEXANDER</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_ALEXANDER</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>3</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_ASKIA</LeaderType> 
@@ -216502,22 +216446,22 @@
 		<Row> 
 			<LeaderType>LEADER_ASKIA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_ASKIA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>4</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_ASKIA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
 			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_ASKIA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ASKIA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ASKIA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_AUGUSTUS</LeaderType> 
@@ -216527,22 +216471,22 @@
 		<Row> 
 			<LeaderType>LEADER_AUGUSTUS</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_AUGUSTUS</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_AUGUSTUS</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_AUGUSTUS</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_BISMARCK</LeaderType> 
@@ -216552,22 +216496,22 @@
 		<Row> 
 			<LeaderType>LEADER_BISMARCK</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_BISMARCK</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_BISMARCK</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_BISMARCK</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_CATHERINE</LeaderType> 
@@ -216577,22 +216521,22 @@
 		<Row> 
 			<LeaderType>LEADER_CATHERINE</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_CATHERINE</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_CATHERINE</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_CATHERINE</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_DARIUS</LeaderType> 
@@ -216602,22 +216546,22 @@
 		<Row> 
 			<LeaderType>LEADER_DARIUS</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_DARIUS</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_DARIUS</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>5</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_DARIUS</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_ELIZABETH</LeaderType> 
@@ -216627,22 +216571,22 @@
 		<Row> 
 			<LeaderType>LEADER_ELIZABETH</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_ELIZABETH</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_ELIZABETH</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_ELIZABETH</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_GANDHI</LeaderType> 
@@ -216652,22 +216596,22 @@
 		<Row> 
 			<LeaderType>LEADER_GANDHI</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_GANDHI</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_GANDHI</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>3</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_GANDHI</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_HARUN_AL_RASHID</LeaderType> 
@@ -216677,22 +216621,22 @@
 		<Row> 
 			<LeaderType>LEADER_HARUN_AL_RASHID</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_HARUN_AL_RASHID</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_HARUN_AL_RASHID</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_HARUN_AL_RASHID</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_HIAWATHA</LeaderType> 
@@ -216702,22 +216646,22 @@
 		<Row> 
 			<LeaderType>LEADER_HIAWATHA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_HIAWATHA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_HIAWATHA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>3</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_HIAWATHA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_MONTEZUMA</LeaderType> 
@@ -216727,372 +216671,372 @@
 		<Row> 
 			<LeaderType>LEADER_MONTEZUMA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>3</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_MONTEZUMA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>3</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_MONTEZUMA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
 			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_MONTEZUMA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_MONTEZUMA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_MONTEZUMA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_NAPOLEON</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
+			<Bias>4</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_NAPOLEON</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
 			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_NAPOLEON</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
-			<Bias>4</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_NAPOLEON</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>6</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_NAPOLEON</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>7</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_NAPOLEON</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>7</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_NAPOLEON</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_ODA_NOBUNAGA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
-			<Bias>5</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_ODA_NOBUNAGA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_ODA_NOBUNAGA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>7</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_ODA_NOBUNAGA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>7</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_ODA_NOBUNAGA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_RAMESSES</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
-			<Bias>5</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_RAMESSES</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_RAMESSES</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>7</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_RAMESSES</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>5</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_RAMESSES</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_RAMKHAMHAENG</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
-			<Bias>3</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_RAMKHAMHAENG</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>7</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_RAMKHAMHAENG</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>7</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_RAMKHAMHAENG</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>3</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_RAMKHAMHAENG</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_SULEIMAN</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
-			<Bias>5</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_SULEIMAN</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_SULEIMAN</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>7</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_SULEIMAN</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>6</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_SULEIMAN</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_WASHINGTON</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
-			<Bias>6</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_WASHINGTON</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>7</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_WASHINGTON</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>5</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_WASHINGTON</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>4</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_WASHINGTON</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>6</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_WU_ZETIAN</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
-			<Bias>4</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_WU_ZETIAN</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>6</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_WU_ZETIAN</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>7</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_WU_ZETIAN</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>5</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_WU_ZETIAN</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_GENGHIS_KHAN</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
-			<Bias>3</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_GENGHIS_KHAN</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>3</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_PACHACUTI</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
-			<Bias>5</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_PACHACUTI</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>6</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_PACHACUTI</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>6</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_PACHACUTI</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>3</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_KAMEHAMEHA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
-			<Bias>6</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_KAMEHAMEHA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>7</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_KAMEHAMEHA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>5</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_KAMEHAMEHA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>4</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_HARALD</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
-			<Bias>6</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_HARALD</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_HARALD</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>4</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_HARALD</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>6</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_SEJONG</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
-			<Bias>6</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_SEJONG</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>6</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_SEJONG</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>4</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_SEJONG</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>3</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_NEBUCHADNEZZAR</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
-			<Bias>3</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_NEBUCHADNEZZAR</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>7</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_NEBUCHADNEZZAR</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>4</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_NEBUCHADNEZZAR</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>6</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_GENGHIS_KHAN</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>6</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_GENGHIS_KHAN</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>3</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_GENGHIS_KHAN</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
 			<Bias>8</Bias> 
 		</Row>
 		<Row> 
-			<LeaderType>LEADER_HARALD</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<LeaderType>LEADER_NAPOLEON</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
-			<LeaderType>LEADER_ISABELLA</LeaderType> 
+			<LeaderType>LEADER_NAPOLEON</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ODA_NOBUNAGA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
+			<Bias>5</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ODA_NOBUNAGA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ODA_NOBUNAGA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ODA_NOBUNAGA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ODA_NOBUNAGA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_RAMESSES</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
+			<Bias>5</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_RAMESSES</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_RAMESSES</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_RAMESSES</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_RAMESSES</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_RAMKHAMHAENG</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
+			<Bias>3</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_RAMKHAMHAENG</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_RAMKHAMHAENG</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_RAMKHAMHAENG</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_RAMKHAMHAENG</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_SULEIMAN</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
+			<Bias>5</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_SULEIMAN</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_SULEIMAN</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_SULEIMAN</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_SULEIMAN</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_WASHINGTON</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
 			<Bias>6</Bias> 
 		</Row>
 		<Row> 
-			<LeaderType>LEADER_ISABELLA</LeaderType> 
+			<LeaderType>LEADER_WASHINGTON</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>3</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
-			<LeaderType>LEADER_ISABELLA</LeaderType> 
+			<LeaderType>LEADER_WASHINGTON</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_WASHINGTON</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_WASHINGTON</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_WU_ZETIAN</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
+			<Bias>4</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_WU_ZETIAN</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_WU_ZETIAN</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_WU_ZETIAN</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_WU_ZETIAN</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_GENGHIS_KHAN</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
 			<Bias>3</Bias> 
 		</Row>
 		<Row> 
-			<LeaderType>LEADER_ISABELLA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<LeaderType>LEADER_GENGHIS_KHAN</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_PACHACUTI</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
 			<Bias>5</Bias> 
 		</Row>
 		<Row> 
-			<LeaderType>LEADER_ISABELLA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<LeaderType>LEADER_PACHACUTI</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_PACHACUTI</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_PACHACUTI</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_KAMEHAMEHA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
+			<Bias>6</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_KAMEHAMEHA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
 			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_KAMEHAMEHA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_KAMEHAMEHA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_HARALD</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
 			<Bias>6</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_HARALD</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_HARALD</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_HARALD</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_SEJONG</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
+			<Bias>6</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_SEJONG</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_SEJONG</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_SEJONG</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_NEBUCHADNEZZAR</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
+			<Bias>3</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_NEBUCHADNEZZAR</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_NEBUCHADNEZZAR</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_NEBUCHADNEZZAR</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_GENGHIS_KHAN</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_GENGHIS_KHAN</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_GENGHIS_KHAN</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_HARALD</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ISABELLA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
+			<Bias>6</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ISABELLA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ISABELLA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ISABELLA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ISABELLA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_KAMEHAMEHA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_PACHACUTI</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_SEJONG</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_NEBUCHADNEZZAR</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_ATTILA</LeaderType> 
@@ -217102,47 +217046,47 @@
 		<Row> 
 			<LeaderType>LEADER_ATTILA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_ATTILA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>3</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_ATTILA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_ATTILA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_BOUDICCA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
+			<Bias>6</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_BOUDICCA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
 			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_BOUDICCA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
-			<Bias>6</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_BOUDICCA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>6</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_BOUDICCA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_BOUDICCA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_BOUDICCA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_DIDO</LeaderType> 
@@ -217152,22 +217096,22 @@
 		<Row> 
 			<LeaderType>LEADER_DIDO</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_DIDO</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_DIDO</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_DIDO</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_GUSTAVUS_ADOLPHUS</LeaderType> 
@@ -217177,22 +217121,22 @@
 		<Row> 
 			<LeaderType>LEADER_GUSTAVUS_ADOLPHUS</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_GUSTAVUS_ADOLPHUS</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_GUSTAVUS_ADOLPHUS</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_GUSTAVUS_ADOLPHUS</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_MARIA</LeaderType> 
@@ -217212,12 +217156,12 @@
 		<Row> 
 			<LeaderType>LEADER_MARIA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>3</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_MARIA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>3</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_PACAL</LeaderType> 
@@ -217227,22 +217171,22 @@
 		<Row> 
 			<LeaderType>LEADER_PACAL</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_PACAL</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>5</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_PACAL</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>5</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_PACAL</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_THEODORA</LeaderType> 
@@ -217252,22 +217196,22 @@
 		<Row> 
 			<LeaderType>LEADER_THEODORA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_THEODORA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_THEODORA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>5</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_THEODORA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_WILLIAM</LeaderType> 
@@ -217277,22 +217221,22 @@
 		<Row> 
 			<LeaderType>LEADER_WILLIAM</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_WILLIAM</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_WILLIAM</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_WILLIAM</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_SELASSIE</LeaderType> 
@@ -217302,22 +217246,22 @@
 		<Row> 
 			<LeaderType>LEADER_SELASSIE</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_SELASSIE</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_SELASSIE</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_SELASSIE</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_AHMAD_ALMANSUR</LeaderType> 
@@ -217327,22 +217271,22 @@
 		<Row> 
 			<LeaderType>LEADER_AHMAD_ALMANSUR</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_AHMAD_ALMANSUR</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_AHMAD_ALMANSUR</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_AHMAD_ALMANSUR</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_ASHURBANIPAL</LeaderType> 
@@ -217352,97 +217296,97 @@
 		<Row> 
 			<LeaderType>LEADER_ASHURBANIPAL</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ASHURBANIPAL</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ASHURBANIPAL</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ASHURBANIPAL</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_CASIMIR</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
+			<Bias>3</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_CASIMIR</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_CASIMIR</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_CASIMIR</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_CASIMIR</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ENRICO_DANDOLO</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
+			<Bias>3</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ENRICO_DANDOLO</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ENRICO_DANDOLO</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
+			<Bias>8</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ENRICO_DANDOLO</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_ENRICO_DANDOLO</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
+			<Bias>0</Bias> 
+		</Row>
+		<Row> 
+			<LeaderType>LEADER_GAJAH_MADA</LeaderType> 
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
 			<Bias>4</Bias> 
 		</Row>
 		<Row> 
-			<LeaderType>LEADER_ASHURBANIPAL</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>3</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_ASHURBANIPAL</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>7</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_ASHURBANIPAL</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_CASIMIR</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
-			<Bias>3</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_CASIMIR</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_CASIMIR</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>7</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_CASIMIR</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>5</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_CASIMIR</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>6</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_ENRICO_DANDOLO</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
-			<Bias>3</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_ENRICO_DANDOLO</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>7</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_ENRICO_DANDOLO</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>5</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_ENRICO_DANDOLO</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>3</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_ENRICO_DANDOLO</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>3</Bias> 
-		</Row>
-		<Row> 
-			<LeaderType>LEADER_GAJAH_MADA</LeaderType> 
-			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType> 
-			<Bias>4</Bias> 
-		</Row>
-		<Row> 
 			<LeaderType>LEADER_GAJAH_MADA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>5</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_GAJAH_MADA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_GAJAH_MADA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>3</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_GAJAH_MADA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_MARIA_I</LeaderType> 
@@ -217457,17 +217401,17 @@
 		<Row> 
 			<LeaderType>LEADER_MARIA_I</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_MARIA_I</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_MARIA_I</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_PEDRO</LeaderType> 
@@ -217477,22 +217421,22 @@
 		<Row> 
 			<LeaderType>LEADER_PEDRO</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_PEDRO</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_PEDRO</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>3</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_PEDRO</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>3</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_POCATELLO</LeaderType> 
@@ -217502,22 +217446,22 @@
 		<Row> 
 			<LeaderType>LEADER_POCATELLO</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_POCATELLO</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>7</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_POCATELLO</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>3</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_POCATELLO</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>3</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_SHAKA</LeaderType> 
@@ -217527,22 +217471,22 @@
 		<Row> 
 			<LeaderType>LEADER_SHAKA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType> 
-			<Bias>4</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_SHAKA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType> 
-			<Bias>3</Bias> 
+			<Bias>8</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_SHAKA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType> 
-			<Bias>6</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 		<Row> 
 			<LeaderType>LEADER_SHAKA</LeaderType> 
 			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType> 
-			<Bias>8</Bias> 
+			<Bias>0</Bias> 
 		</Row>
 	</Leader_MinorCivApproachBiases> 
 
@@ -231547,8 +231491,8 @@
 			<CityStrengthMod>0</CityStrengthMod> 
 			<CityGrowthMod>0</CityGrowthMod> 
 			<CapitalGrowthMod>0</CapitalGrowthMod> 
-			<SettlerProductionModifier>20</SettlerProductionModifier> 
-			<CapitalSettlerProductionModifier>20</CapitalSettlerProductionModifier> 
+			<SettlerProductionModifier>5</SettlerProductionModifier> 
+			<CapitalSettlerProductionModifier>10</CapitalSettlerProductionModifier> 
 			<NewCityExtraPopulation>0</NewCityExtraPopulation> 
 			<FreeFoodBox>0</FreeFoodBox> 
 			<HappyPerMilitaryUnit>0</HappyPerMilitaryUnit> 
@@ -231703,7 +231647,7 @@
 			<CapitalGrowthMod>0</CapitalGrowthMod> 
 			<SettlerProductionModifier>0</SettlerProductionModifier> 
 			<CapitalSettlerProductionModifier>0</CapitalSettlerProductionModifier> 
-			<NewCityExtraPopulation>0</NewCityExtraPopulation> 
+			<NewCityExtraPopulation>3</NewCityExtraPopulation> 
 			<FreeFoodBox>0</FreeFoodBox> 
 			<HappyPerMilitaryUnit>0</HappyPerMilitaryUnit> 
 			<MilitaryFoodProduction>false</MilitaryFoodProduction> 
@@ -231756,7 +231700,7 @@
 			<EnablesSSPartPurchase>false</EnablesSSPartPurchase> 
 			<AbleToAnnexCityStates>false</AbleToAnnexCityStates> 
 			<OneShot>false</OneShot> 
-			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits> 
+			<IncludesOneShotFreeUnits>false</IncludesOneShotFreeUnits> 
 			<PortraitIndex>26</PortraitIndex> 
 			<IconAtlas>POLICY_ATLAS</IconAtlas> 
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved> 
@@ -261091,11 +261035,6 @@
 			<PolicyType>POLICY_WARRIOR_CODE</PolicyType> 
 			<UnitClassType>UNITCLASS_GREAT_GENERAL</UnitClassType> 
 			<Count>1</Count> 
-		</Row>
-		<Row> 
-			<PolicyType>POLICY_CITIZENSHIP</PolicyType> 
-			<UnitClassType>UNITCLASS_WORKER</UnitClassType> 
-			<Count>3</Count> 
 		</Row>
 		<Row> 
 			<PolicyType>POLICY_ARTISTIC_GENIUS</PolicyType> 
@@ -353483,17 +353422,17 @@
 		<Row> 
 			<UnitType>UNIT_WARRIOR</UnitType> 
 			<FlavorType>FLAVOR_DEFENSE</FlavorType> 
-			<Flavor>1</Flavor> 
+			<Flavor>0</Flavor> 
 		</Row>
 		<Row> 
 			<UnitType>UNIT_MILITIA_ANCIENT</UnitType> 
 			<FlavorType>FLAVOR_DEFENSE</FlavorType> 
-			<Flavor>1</Flavor> 
+			<Flavor>0</Flavor> 
 		</Row>
 		<Row> 
 			<UnitType>UNIT_AMERICAN_MINUTEMAN</UnitType> 
 			<FlavorType>FLAVOR_DEFENSE</FlavorType> 
-			<Flavor>2</Flavor> 
+			<Flavor>0</Flavor> 
 		</Row>
 		<Row> 
 			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType> 
@@ -353508,22 +353447,22 @@
 		<Row> 
 			<UnitType>UNIT_CONSCRIPTMAN</UnitType> 
 			<FlavorType>FLAVOR_DEFENSE</FlavorType> 
-			<Flavor>3</Flavor> 
+			<Flavor>0</Flavor> 
 		</Row>
 		<Row> 
 			<UnitType>UNIT_MILITIA_MODERN</UnitType> 
 			<FlavorType>FLAVOR_DEFENSE</FlavorType> 
-			<Flavor>4</Flavor> 
+			<Flavor>0</Flavor> 
 		</Row>
 		<Row> 
 			<UnitType>UNIT_NATIONAL_GUARD</UnitType> 
 			<FlavorType>FLAVOR_OFFENSE</FlavorType> 
-			<Flavor>6</Flavor> 
+			<Flavor>0</Flavor> 
 		</Row>
 		<Row> 
 			<UnitType>UNIT_NATIONAL_GUARD</UnitType> 
 			<FlavorType>FLAVOR_RECON</FlavorType> 
-			<Flavor>6</Flavor> 
+			<Flavor>0</Flavor> 
 		</Row>
 		<Row> 
 			<UnitType>UNIT_JAPANESE_SAMURAI</UnitType> 
@@ -359744,6 +359683,36 @@
 			<Cost>1</Cost> 
 		</Row>
 		<Row> 
+			<UnitType>UNIT_WARRIOR</UnitType> 
+			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
+			<Cost>1</Cost> 
+		</Row>
+		<Row> 
+			<UnitType>UNIT_MILITIA_ANCIENT</UnitType> 
+			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
+			<Cost>1</Cost> 
+		</Row>
+		<Row> 
+			<UnitType>UNIT_AMERICAN_MINUTEMAN</UnitType> 
+			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
+			<Cost>1</Cost> 
+		</Row>
+		<Row> 
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType> 
+			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
+			<Cost>1</Cost> 
+		</Row>
+		<Row> 
+			<UnitType>UNIT_MILITIA_MODERN</UnitType> 
+			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
+			<Cost>1</Cost> 
+		</Row>
+		<Row> 
+			<UnitType>UNIT_CONSCRIPTMAN</UnitType> 
+			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
+			<Cost>1</Cost> 
+		</Row>
+		<Row> 
 			<UnitType>UNIT_WWI_PARATROOPER</UnitType> 
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType> 
 			<Cost>1</Cost> 
@@ -361091,6 +361060,26 @@
 		<Row> 
 			<UnitType>UNIT_SSBN</UnitType> 
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType> 
+			<Cost>1</Cost> 
+		</Row>
+		<Row> 
+			<UnitType>UNIT_NAVAL_MILITIA</UnitType> 
+			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
+			<Cost>1</Cost> 
+		</Row>
+		<Row> 
+			<UnitType>UNIT_MONITOR_SHIP</UnitType> 
+			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
+			<Cost>1</Cost> 
+		</Row>
+		<Row> 
+			<UnitType>UNIT_CORVETTE</UnitType> 
+			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
+			<Cost>1</Cost> 
+		</Row>
+		<Row> 
+			<UnitType>UNIT_LITTORAL_COMBAT_SHIP</UnitType> 
+			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
 			<Cost>1</Cost> 
 		</Row>
 		<Row> 
@@ -365576,7 +365565,7 @@
 			<Help>TXT_KEY_UNIT_HELP_WORKER</Help> 
 			<Combat>0</Combat> 
 			<RangedCombat>0</RangedCombat> 
-			<Cost>15</Cost> 
+			<Cost>-1</Cost> 
 			<FaithCost>0</FaithCost> 
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
@@ -396319,8 +396308,8 @@
 			<Type>WORLDSIZE_DUEL</Type> 
 			<Description>TXT_KEY_WORLD_DUEL</Description> 
 			<Help>TXT_KEY_WORLD_DUEL_HELP</Help> 
-			<DefaultPlayers>4</DefaultPlayers> 
-			<DefaultMinorCivs>4</DefaultMinorCivs> 
+			<DefaultPlayers>2</DefaultPlayers> 
+			<DefaultMinorCivs>3</DefaultMinorCivs> 
 			<FogTilesPerBarbarianCamp>13</FogTilesPerBarbarianCamp> 
 			<NumNaturalWonders>8</NumNaturalWonders> 
 			<UnitNameModifier>50</UnitNameModifier> 
@@ -396349,7 +396338,7 @@
 			<Description>TXT_KEY_WORLD_TINY</Description> 
 			<Help>TXT_KEY_WORLD_TINY_HELP</Help> 
 			<DefaultPlayers>4</DefaultPlayers> 
-			<DefaultMinorCivs>8</DefaultMinorCivs> 
+			<DefaultMinorCivs>4</DefaultMinorCivs> 
 			<FogTilesPerBarbarianCamp>18</FogTilesPerBarbarianCamp> 
 			<NumNaturalWonders>8</NumNaturalWonders> 
 			<UnitNameModifier>40</UnitNameModifier> 
@@ -396378,7 +396367,7 @@
 			<Description>TXT_KEY_WORLD_SMALL</Description> 
 			<Help>TXT_KEY_WORLD_SMALL_HELP</Help> 
 			<DefaultPlayers>6</DefaultPlayers> 
-			<DefaultMinorCivs>12</DefaultMinorCivs> 
+			<DefaultMinorCivs>5</DefaultMinorCivs> 
 			<FogTilesPerBarbarianCamp>23</FogTilesPerBarbarianCamp> 
 			<NumNaturalWonders>10</NumNaturalWonders> 
 			<UnitNameModifier>30</UnitNameModifier> 
@@ -396388,7 +396377,7 @@
 			<MaxConscriptModifier>0</MaxConscriptModifier> 
 			<GridWidth>66</GridWidth> 
 			<GridHeight>42</GridHeight> 
-			<MaxActiveReligions>5</MaxActiveReligions> 
+			<MaxActiveReligions>6</MaxActiveReligions> 
 			<TerrainGrainChange>0</TerrainGrainChange> 
 			<FeatureGrainChange>0</FeatureGrainChange> 
 			<ResearchPercent>100</ResearchPercent> 
@@ -396407,7 +396396,7 @@
 			<Description>TXT_KEY_WORLD_STANDARD</Description> 
 			<Help>TXT_KEY_WORLD_STANDARD_HELP</Help> 
 			<DefaultPlayers>8</DefaultPlayers> 
-			<DefaultMinorCivs>16</DefaultMinorCivs> 
+			<DefaultMinorCivs>7</DefaultMinorCivs> 
 			<FogTilesPerBarbarianCamp>27</FogTilesPerBarbarianCamp> 
 			<NumNaturalWonders>12</NumNaturalWonders> 
 			<UnitNameModifier>20</UnitNameModifier> 
@@ -396417,7 +396406,7 @@
 			<MaxConscriptModifier>25</MaxConscriptModifier> 
 			<GridWidth>80</GridWidth> 
 			<GridHeight>52</GridHeight> 
-			<MaxActiveReligions>7</MaxActiveReligions> 
+			<MaxActiveReligions>8</MaxActiveReligions> 
 			<TerrainGrainChange>0</TerrainGrainChange> 
 			<FeatureGrainChange>0</FeatureGrainChange> 
 			<ResearchPercent>110</ResearchPercent> 
@@ -396436,7 +396425,7 @@
 			<Description>TXT_KEY_WORLD_LARGE</Description> 
 			<Help>TXT_KEY_WORLD_LARGE_HELP</Help> 
 			<DefaultPlayers>10</DefaultPlayers> 
-			<DefaultMinorCivs>20</DefaultMinorCivs> 
+			<DefaultMinorCivs>9</DefaultMinorCivs> 
 			<FogTilesPerBarbarianCamp>30</FogTilesPerBarbarianCamp> 
 			<NumNaturalWonders>14</NumNaturalWonders> 
 			<UnitNameModifier>10</UnitNameModifier> 
@@ -396446,7 +396435,7 @@
 			<MaxConscriptModifier>50</MaxConscriptModifier> 
 			<GridWidth>104</GridWidth> 
 			<GridHeight>64</GridHeight> 
-			<MaxActiveReligions>8</MaxActiveReligions> 
+			<MaxActiveReligions>10</MaxActiveReligions> 
 			<TerrainGrainChange>1</TerrainGrainChange> 
 			<FeatureGrainChange>1</FeatureGrainChange> 
 			<ResearchPercent>120</ResearchPercent> 
@@ -396465,7 +396454,7 @@
 			<Description>TXT_KEY_WORLD_HUGE</Description> 
 			<Help>TXT_KEY_WORLD_HUGE_HELP</Help> 
 			<DefaultPlayers>12</DefaultPlayers> 
-			<DefaultMinorCivs>24</DefaultMinorCivs> 
+			<DefaultMinorCivs>11</DefaultMinorCivs> 
 			<FogTilesPerBarbarianCamp>35</FogTilesPerBarbarianCamp> 
 			<NumNaturalWonders>17</NumNaturalWonders> 
 			<UnitNameModifier>0</UnitNameModifier> 
@@ -396475,7 +396464,7 @@
 			<MaxConscriptModifier>75</MaxConscriptModifier> 
 			<GridWidth>128</GridWidth> 
 			<GridHeight>80</GridHeight> 
-			<MaxActiveReligions>8</MaxActiveReligions> 
+			<MaxActiveReligions>12</MaxActiveReligions> 
 			<TerrainGrainChange>1</TerrainGrainChange> 
 			<FeatureGrainChange>1</FeatureGrainChange> 
 			<ResearchPercent>130</ResearchPercent> 

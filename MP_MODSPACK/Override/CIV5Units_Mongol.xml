@@ -55866,7 +55866,7 @@ The second sack of Ulundi is considered by historians to be the definitive end o
 		</Replace>
 		<Replace Tag="TXT_KEY_ERA_6"> 
 			<Text>
-				World War Era
+				Post Modern Era
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_ERA_6_ABBREV"> 
@@ -55876,7 +55876,7 @@ The second sack of Ulundi is considered by historians to be the definitive end o
 		</Replace>
 		<Replace Tag="TXT_KEY_ERA_6_SHORT"> 
 			<Text>
-				World War
+				Post Modern
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_ERA_7"> 
@@ -56128,7 +56128,7 @@ The second sack of Ulundi is considered by historians to be the definitive end o
 		</Replace>
 		<Replace Tag="TXT_KEY_ERA_WORLDWAR_STRATEGY"> 
 			<Text>
-				The World War Era
+				The Post Modern Era
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_ES123123"> 
@@ -107852,8 +107852,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		<Replace Tag="TXT_KEY_POLICY_CITIZENSHIP_HELP"> 
 			<Text>
 				[COLOR_POSITIVE_TEXT]Indentured Labor[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Three Workers appears near the [ICON_CAPITAL] Capital
-				[NEWLINE][ICON_BULLET]When you found a [COLOR_POSITIVE_TEXT]New City[ENDCOLOR], one Worker will appear outside the city
+				[NEWLINE][ICON_BULLET]New Cities start with +3 [ICON_CITIZEN] Population
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CITIZENSHIP_NWS_HELP"> 
@@ -107915,8 +107914,8 @@ The ship has weather'd every rack; the prize we sought is won."
 		<Replace Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP"> 
 			<Text>
 				[COLOR_POSITIVE_TEXT]Settler Colonialism[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+20% [ICON_PRODUCTION] Production for training [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+20% [ICON_PRODUCTION] Bonus Production for training [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR] in the Capital
+				[NEWLINE][ICON_BULLET]+10%[ICON_PRODUCTION] Production for training [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR]
+				[NEWLINE][ICON_BULLET]+10%[ICON_PRODUCTION] Extra Production for training [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR] in the Capital
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_NWS_HELP"> 

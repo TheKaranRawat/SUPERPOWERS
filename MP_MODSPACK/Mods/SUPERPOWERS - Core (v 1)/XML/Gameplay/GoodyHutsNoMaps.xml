@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+
 	<HandicapInfo_Goodies>
 		<Delete GoodyType="GOODY_MAP"/>
+		<Delete GoodyType="GOODY_PANTHEON_FAITH"/>
 		<Delete GoodyType="GOODY_REVEAL_NEARBY_BARBS"/>
 	</HandicapInfo_Goodies>
+
+	<Leader_MinorCivApproachBiases>
+		<!-- Remove the urge to conquer or bully city-states, for every leader -->
+		<Update>
+			<Where MinorCivApproachType="MINOR_CIV_APPROACH_CONQUEST"/>
+			<Set Bias="0"/>
+		</Update>
+		<Update>
+			<Where MinorCivApproachType="MINOR_CIV_APPROACH_BULLY"/>
+			<Set Bias="0"/>
+		</Update>
+		<!-- Optionally push them toward friendly or protective behavior -->
+		<Update>
+			<Where MinorCivApproachType="MINOR_CIV_APPROACH_FRIENDLY"/>
+			<Set Bias="8"/>
+		</Update>
+		<Update>
+			<Where MinorCivApproachType="MINOR_CIV_APPROACH_PROTECTIVE"/>
+			<Set Bias="8"/>
+		</Update>
+  </Leader_MinorCivApproachBiases>
+
 </GameData>

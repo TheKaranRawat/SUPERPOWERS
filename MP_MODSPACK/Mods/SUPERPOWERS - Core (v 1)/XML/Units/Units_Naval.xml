@@ -2959,6 +2959,28 @@
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 		</Row>
 
+		<!-- MILITIA -->
+		<Row>
+			<UnitType>UNIT_NAVAL_MILITIA</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MONITOR_SHIP</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CORVETTE</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LITTORAL_COMBAT_SHIP</UnitType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
 
 		<Row>
 			<UnitType>UNIT_TRIREME</UnitType>

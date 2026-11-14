@@ -104,20 +104,20 @@
 			<Where Type="WORLDSIZE_TINY"/>
 		</Update>
 		<Update>
-			<Set MaxActiveReligions="5"/>
+			<Set MaxActiveReligions="6"/>
 			<Where Type="WORLDSIZE_SMALL"/>
 		</Update>
 		<Update>
-			<Set MaxActiveReligions="7"/>
+			<Set MaxActiveReligions="8"/>
 			<Where Type="WORLDSIZE_STANDARD"/>
 		</Update>
 		<Update>
-			<Set MaxActiveReligions="8"/>
+			<Set MaxActiveReligions="10"/>
 			<Where Type="WORLDSIZE_LARGE"/>
 		</Update>
 
 		<Update>
-			<Set MaxActiveReligions="8"/>
+			<Set MaxActiveReligions="12"/>
 			<Where Type="WORLDSIZE_HUGE"/>
 		</Update>
 
@@ -130,7 +130,7 @@
 		<!-- number of civs adjustment -->
 
 		<Update>
-			<Set DefaultPlayers="4"/>
+			<Set DefaultPlayers="2"/>
 			<Where Type="WORLDSIZE_DUEL"/>
 		</Update>
 
@@ -151,15 +151,46 @@
 
 		<!--
 		<Update>
-			<Set DefaultPlayers="16"/>
+			<Set DefaultPlayers="10"/>
 			<Where Type="WORLDSIZE_LARGE"/>
 		</Update>
 
 		<Update>
-			<Set DefaultPlayers="20"/>
+			<Set DefaultPlayers="12"/>
 			<Where Type="WORLDSIZE_HUGE"/>
 		</Update>
 		-->
+		
+		<Update>
+			<Set DefaultMinorCivs="3"/>
+			<Where Type="WORLDSIZE_DUEL"/>
+		</Update>
+
+		<Update>
+			<Set DefaultMinorCivs="4"/>
+			<Where Type="WORLDSIZE_TINY"/>
+		</Update>
+
+		<Update>
+			<Set DefaultMinorCivs="5"/>
+			<Where Type="WORLDSIZE_SMALL"/>
+		</Update>
+
+		<Update>
+			<Set DefaultMinorCivs="7"/>
+			<Where Type="WORLDSIZE_STANDARD"/>
+		</Update>
+
+		<Update>
+			<Set DefaultMinorCivs="9"/>
+			<Where Type="WORLDSIZE_LARGE"/>
+		</Update>
+
+		<Update>
+			<Set DefaultMinorCivs="11"/>
+			<Where Type="WORLDSIZE_HUGE"/>
+		</Update>
+
 
 		<!-- number of natural wonders adjustment -->
 		

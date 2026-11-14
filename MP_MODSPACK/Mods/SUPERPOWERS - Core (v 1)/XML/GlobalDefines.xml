@@ -611,11 +611,11 @@
 		<!-- City Combat Defines -->
 
 		<Update>
-			<Set Value="500"/>
+			<Set Value="800"/>
 			<Where Name="CITY_STRENGTH_DEFAULT" />
 		</Update>
 		<Update>
-			<Set Value="80"/>
+			<Set Value="20"/>
 			<Where Name="CITY_STRENGTH_POPULATION_CHANGE" />
 		</Update>
 		<Update>
@@ -635,7 +635,7 @@
 			<Where Name="CITY_RANGED_ATTACK_STRENGTH_MULTIPLIER" />
 		</Update>
 		<Update>
-			<Set Value="35"/>
+			<Set Value="30"/>
 			<Where Name="MIN_CITY_STRIKE_DAMAGE" />
 		</Update>
 

@@ -500,6 +500,8 @@ function AIPromotion(iPlayer, iCity, iUnit, bGold, bFaith)
 
 	-- Keep worker / siege counts down so AI turns stay fast.
 	-- (return after kill: the original kept operating on the dead unit)
+
+	--[[ DISABLE: WORKERS DISABLED IN CODE
 	if unit:GetUnitType() == UNIT_WORKER then
 		local n = player:GetUnitClassCount(unitClass)
 		if n > aiCityCount or n > 20 then
@@ -514,6 +516,7 @@ function AIPromotion(iPlayer, iCity, iUnit, bGold, bFaith)
 			return
 		end
 	end
+	]]--
 
 	-- Everything below is the difficulty bonus; bail out cheaply when it can't apply
 	if handicap < 4 then return end

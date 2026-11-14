@@ -667,7 +667,7 @@
 			<ConquestProb>66</ConquestProb>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
 			<Defense>1800</Defense>
-			<ExtraCityHitPoints>50</ExtraCityHitPoints>
+			<ExtraCityHitPoints>25</ExtraCityHitPoints>
 			<HurryCostModifier>200</HurryCostModifier>
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_3</IconAtlas>
@@ -804,7 +804,7 @@
 			<ConquestProb>66</ConquestProb>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
 			<Defense>1200</Defense>
-			<ExtraCityHitPoints>100</ExtraCityHitPoints>
+			<ExtraCityHitPoints>25</ExtraCityHitPoints>
 			<HurryCostModifier>200</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>11</PortraitIndex>
@@ -826,7 +826,7 @@
 			<ConquestProb>66</ConquestProb>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
 			<Defense>1200</Defense>
-			<ExtraCityHitPoints>100</ExtraCityHitPoints>
+			<ExtraCityHitPoints>25</ExtraCityHitPoints>
 			<HurryCostModifier>0</HurryCostModifier>
 			<IconAtlas>CIV_COLOR_ATLAS_FW_2</IconAtlas>
 			<PortraitIndex>11</PortraitIndex>
@@ -1239,7 +1239,7 @@
 			<BuildingClass>BUILDINGCLASS_FW_LAUNCH_FACILITY</BuildingClass>
 			<Cost>9000</Cost>
 			<GoldMaintenance>64</GoldMaintenance>
-			<PrereqTech>TECH_INTERSTELLAR_TRAVEL</PrereqTech>
+			<PrereqTech>TECH_INTEGRATED_DEFENSE</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FW_LAUNCH_FACILITY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FW_LAUNCH_FACILITY_DESC</Description>
 			<Civilopedia>TXT_KEY_BUILDING_FW_LAUNCH_FACILITY_PEDIA</Civilopedia>
@@ -1564,7 +1564,7 @@
 			<Strategy>TXT_KEY_BUILDING_SP_CITY_BASIC_BUILDINGS_STRATEGY</Strategy>
 			<Water>true</Water>
 			<MinAreaSize>10</MinAreaSize>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<HurryCostModifier>15</HurryCostModifier>
 			<AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
 			<PortraitIndex>33</PortraitIndex>
@@ -1585,7 +1585,7 @@
 			<Strategy>TXT_KEY_BUILDING_SP_CITY_BASIC_BUILDINGS_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<HurryCostModifier>15</HurryCostModifier>
 			<AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
@@ -1625,7 +1625,7 @@
 			<Help>TXT_KEY_BUILDING_GRAIN_MILL_HELP</Help>
 			<Strategy>TXT_KEY_BUILDING_SP_CITY_BASIC_BUILDINGS_STRATEGY</Strategy>
 			<MinAreaSize>-1</MinAreaSize>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<HurryCostModifier>15</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
@@ -1664,7 +1664,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_WATERMILL</ArtDefineTag>
 			<FreshWater>true</FreshWater>
 			<MinAreaSize>-1</MinAreaSize>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>29</PortraitIndex>
@@ -1704,7 +1704,7 @@
 			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
 			<Flat>true</Flat>
 			<MinAreaSize>-1</MinAreaSize>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<HurryCostModifier>50</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
@@ -1840,7 +1840,7 @@
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<HurryCostModifier>25</HurryCostModifier>
 			<AllowsProductionTradeRoutes>true</AllowsProductionTradeRoutes>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
@@ -2099,7 +2099,7 @@
 			<Help>TXT_KEY_BUILDING_STABLE_HELP</Help>
 			<ArtDefineTag>ART_DEF_BUILDING_STABLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>7</PortraitIndex>
@@ -2137,7 +2137,7 @@
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_OIL_REFINERY_TEXT</Civilopedia>
 			<Help>TXT_KEY_BUILDING_OIL_REFINERY_HELP</Help>
 			<Strategy>TXT_KEY_BUILDING_SP_CITY_BASIC_BUILDINGS_STRATEGY</Strategy>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>50</HurryCostModifier>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
@@ -3411,7 +3411,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>40</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<PortraitIndex>21</PortraitIndex>
 			<ObsoleteTech>TECH_ARCHAEOLOGY</ObsoleteTech>
 			<EnhancedYieldTech>TECH_ARCHAEOLOGY</EnhancedYieldTech>
@@ -3760,7 +3760,7 @@
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_SHRINE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_SP_CITY_BASIC_BUILDINGS_STRATEGY</Strategy>
 			<ArtDefineTag>TEMPLE</ArtDefineTag>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>EXPANSION_BW_ATLAS_1</IconAtlas>
@@ -3828,7 +3828,7 @@
 			<Strategy>TXT_KEY_BUILDING_SP_CITY_BASIC_BUILDINGS_STRATEGY</Strategy>
 			<ArtDefineTag>TEMPLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>37</PortraitIndex>
@@ -3982,13 +3982,13 @@
 			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
-			<Defense>1000</Defense>
+			<Defense>500</Defense>
 			<ExtraCityHitPoints>25</ExtraCityHitPoints>
 			<CityWall>true</CityWall>
 			<ConquestProb>100</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<PortraitIndex>32</PortraitIndex>
 			<ObsoleteTech>TECH_DYNAMITE</ObsoleteTech>
 			<EnhancedYieldTech>TECH_MASS_MEDIA</EnhancedYieldTech>
@@ -4031,14 +4031,14 @@
 			<ArtDefineTag>CASTLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
-			<Defense>2500</Defense>
+			<Defense>700</Defense>
 			<ConquestProb>100</ConquestProb>
 			<ExtraCityHitPoints>25</ExtraCityHitPoints>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
 			<DisplayPosition>1</DisplayPosition>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<PortraitIndex>33</PortraitIndex>
 			<ObsoleteTech>TECH_DYNAMITE</ObsoleteTech>
 			<EnhancedYieldTech>TECH_MASS_MEDIA</EnhancedYieldTech>
@@ -4100,7 +4100,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<PortraitIndex>5</PortraitIndex>
 			<MutuallyExclusiveGroup>13</MutuallyExclusiveGroup>
 			<Defense>500</Defense>
@@ -4163,7 +4163,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<PortraitIndex>6</PortraitIndex>
 			<Defense>500</Defense>
 			<ExtraCityHitPoints>25</ExtraCityHitPoints>
@@ -4183,11 +4183,11 @@
 			<Strategy>TXT_KEY_SP_CITY_MILITARY_BUILDINGS_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_MILITARY_ACADEMY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<Defense>1500</Defense>
+			<Defense>700</Defense>
 			<ExtraCityHitPoints>25</ExtraCityHitPoints>
 			<HurryCostModifier>50</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<PortraitIndex>9</PortraitIndex>
 		</Row>
 		<Row>
@@ -4202,14 +4202,14 @@
 			<Strategy>TXT_KEY_SP_CITY_MILITARY_BUILDINGS_STRATEGY</Strategy>
 			<ArtDefineTag>MILITARY BASE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<Defense>2500</Defense>
+			<Defense>1200</Defense>
 			<ExtraCityHitPoints>25</ExtraCityHitPoints>
 			<AirModifier>4</AirModifier>
 			<Airlift>true</Airlift>
 			<HurryCostModifier>75</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<DisplayPosition>2</DisplayPosition>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<PortraitIndex>10</PortraitIndex>
 		</Row>
 
@@ -4226,7 +4226,7 @@
 			<Strategy>TXT_KEY_SP_CITY_MILITARY_BUILDINGS_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_WOOD_DOCK</ArtDefineTag>
 			<HurryCostModifier>25</HurryCostModifier>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 			<Defense>500</Defense>
@@ -4253,9 +4253,9 @@
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
-			<NeverCapture>true</NeverCapture>
-			<Defense>1500</Defense>
-			<ExtraCityHitPoints>50</ExtraCityHitPoints>
+			<NeverCapture>false</NeverCapture>
+			<Defense>1200</Defense>
+			<ExtraCityHitPoints>25</ExtraCityHitPoints>
 			<Water>true</Water>
 			<MinAreaSize>30</MinAreaSize>
 		</Row>
@@ -4275,7 +4275,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>false</NeverCapture>
 			<PortraitIndex>8</PortraitIndex>
 			<NukeImmune>true</NukeImmune>
 		</Row>

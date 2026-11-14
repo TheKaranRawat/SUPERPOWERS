@@ -623,8 +623,8 @@
 		<Replace Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP" >
 			<Text>
 				[COLOR_POSITIVE_TEXT]Settler Colonialism[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+20% [ICON_PRODUCTION] Production for training [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]+20% [ICON_PRODUCTION] Bonus Production for training [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR] in the Capital
+				[NEWLINE][ICON_BULLET]+10%[ICON_PRODUCTION] Production for training [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR]
+				[NEWLINE][ICON_BULLET]+10%[ICON_PRODUCTION] Extra Production for training [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR] in the Capital
 			</Text>
 		</Replace>
 		<!-- 
@@ -651,9 +651,17 @@
 		<Replace Tag="TXT_KEY_POLICY_CITIZENSHIP_HELP">
 			<Text>
 				[COLOR_POSITIVE_TEXT]Indentured Labor[ENDCOLOR]
+				[NEWLINE][ICON_BULLET]New Cities start with +3 [ICON_CITIZEN] Population
+			</Text>
+		</Replace>
+
+		<!-- <Replace Tag="TXT_KEY_POLICY_CITIZENSHIP_HELP">
+			<Text>
+				[COLOR_POSITIVE_TEXT]Indentured Labor[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Three Workers appears near the [ICON_CAPITAL] Capital
 				[NEWLINE][ICON_BULLET]When you found a [COLOR_POSITIVE_TEXT]New City[ENDCOLOR], one Worker will appear outside the city</Text>
 		</Replace>
+		-->
 		
 		<Replace Tag="TXT_KEY_POLICY_MERITOCRACY">
 			<Text>Landed Elite</Text>

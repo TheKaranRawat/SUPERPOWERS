@@ -4626,6 +4626,7 @@
 			<ResourceType>RESOURCE_IRON</ResourceType>
 			<Quantity>4</Quantity>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_CITYSTATE_RESOURCE</BuildingType>
 			<ResourceType>RESOURCE_COAL</ResourceType>
@@ -4641,6 +4642,7 @@
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 			<Quantity>4</Quantity>
 		</Row>
+		-->
 		<!--<Row>
 			<BuildingType>BUILDING_CITYSTATE_RESOURCE</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>

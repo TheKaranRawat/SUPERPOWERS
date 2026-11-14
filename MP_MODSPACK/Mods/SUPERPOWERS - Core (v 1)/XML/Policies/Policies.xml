@@ -103,13 +103,19 @@
 				
 
 		<Update>
-			<Set IncludesOneShotFreeUnits="true" WorkerSpeedModifier="0" GridX="3" GridY="1"/>
+			<Set IncludesOneShotFreeUnits="false" NewCityExtraPopulation="3" WorkerSpeedModifier="0" GridX="3" GridY="1"/>
 			<Where Type="POLICY_CITIZENSHIP"/>
 		</Update>
+		<Update>
+			<Set IncludesOneShotFreeUnits="false" CapitalSettlerProductionModifier="10" SettlerProductionModifier="5" GridX="1"  GridY="1"/>
+			<Where Type="POLICY_COLLECTIVE_RULE"/>
+		</Update>
+		<!--
 		<Update>
 			<Set IncludesOneShotFreeUnits="false" CapitalSettlerProductionModifier="20" SettlerProductionModifier="20" GridX="1"  GridY="1"/>
 			<Where Type="POLICY_COLLECTIVE_RULE"/>
 		</Update>
+		-->
 		<Update>
 			<Set HappinessPerTradeRoute="6" BuildingProductionModifier="0" ExtraHappinessPerLuxury="4" GridX="3" GridY="2" PortraitIndex="29"/>
 			<Where Type="POLICY_REPUBLIC"/>

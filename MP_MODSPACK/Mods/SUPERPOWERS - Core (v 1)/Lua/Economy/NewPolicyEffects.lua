@@ -133,6 +133,8 @@ local function FreeUnitNewCity(iPlayerID, iX, iY)
 	end
 end
 ]]--
+
+--[[ DISABLE FREE WORKERS 
 function FreeUnitNewCity(iPlayerID,iX,iY)
     local iPlayer = Players[iPlayerID]
 	local pPlot = Map.GetPlot(iX, iY)
@@ -149,8 +151,8 @@ function FreeUnitNewCity(iPlayerID,iX,iY)
 		NewUnit:JumpToNearestValidPlot()    
 	end
 end
-
 GameEvents.PlayerCityFounded.Add(FreeUnitNewCity)
+]]--
 
 ---------------------------------------------------------------------
 -- Policy adoption effects

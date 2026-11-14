@@ -3190,6 +3190,38 @@
 		</Row>
 		-->
 
+			<!-- MILITIA -->
+			<Row>
+				<UnitType>UNIT_WARRIOR</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+				<Cost>1</Cost>
+			</Row>
+			<Row>
+				<UnitType>UNIT_MILITIA_ANCIENT</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+				<Cost>1</Cost>
+			</Row>
+			<Row>
+				<UnitType>UNIT_AMERICAN_MINUTEMAN</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+				<Cost>1</Cost>
+			</Row>
+			<Row>
+				<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+				<Cost>1</Cost>
+			</Row>
+			<Row>
+				<UnitType>UNIT_MILITIA_MODERN</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+				<Cost>1</Cost>
+			</Row>
+			<Row>
+				<UnitType>UNIT_CONSCRIPTMAN</UnitType>
+				<ResourceType>RESOURCE_MANPOWER</ResourceType>
+				<Cost>1</Cost>
+			</Row>			
+
 			<!--Special Forces-->		
 			<Row>
 				<UnitType>UNIT_WWI_PARATROOPER</UnitType>
@@ -4833,14 +4865,14 @@
 			<Row>
 				<UnitType>UNIT_WARRIOR</UnitType>
 				<FlavorType>FLAVOR_DEFENSE</FlavorType>
-				<Flavor>1</Flavor>
+				<Flavor>0</Flavor>
 			</Row>
 
 		
 			<Row>
 				<UnitType>UNIT_MILITIA_ANCIENT</UnitType>
 				<FlavorType>FLAVOR_DEFENSE</FlavorType>
-				<Flavor>1</Flavor>
+				<Flavor>0</Flavor>
 			</Row>
 
 		
@@ -4848,7 +4880,7 @@
 			<Row>
 				<UnitType>UNIT_AMERICAN_MINUTEMAN</UnitType>
 				<FlavorType>FLAVOR_DEFENSE</FlavorType>
-				<Flavor>2</Flavor>
+				<Flavor>0</Flavor>
 			</Row>
 
 			<Row>
@@ -4867,26 +4899,26 @@
 			<Row>
 				<UnitType>UNIT_CONSCRIPTMAN</UnitType>
 				<FlavorType>FLAVOR_DEFENSE</FlavorType>
-				<Flavor>3</Flavor>
+				<Flavor>0</Flavor>
 			</Row>
 
 		
 			<Row>
 				<UnitType>UNIT_MILITIA_MODERN</UnitType>
 				<FlavorType>FLAVOR_DEFENSE</FlavorType>
-				<Flavor>4</Flavor>
+				<Flavor>0</Flavor>
 			</Row>
 
 
 			<Row>
 				<UnitType>UNIT_NATIONAL_GUARD</UnitType>
 				<FlavorType>FLAVOR_OFFENSE</FlavorType>
-				<Flavor>6</Flavor>
+				<Flavor>0</Flavor>
 			</Row>
 			<Row>
 				<UnitType>UNIT_NATIONAL_GUARD</UnitType>
 				<FlavorType>FLAVOR_RECON</FlavorType>
-				<Flavor>6</Flavor>
+				<Flavor>0</Flavor>
 			</Row>
 
 			<Row>

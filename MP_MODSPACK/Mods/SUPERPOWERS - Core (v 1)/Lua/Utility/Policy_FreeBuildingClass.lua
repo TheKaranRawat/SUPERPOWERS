@@ -144,7 +144,7 @@ function PolicyBuildingOnCityCapture(oldPlayerID, bCapital, iX, iY, newPlayerID,
 ----------- SP Bug fix, it may crash the game for certain AI's behavior!------------
 	
 	if not oldPlayer:IsHuman() or not newPlayer:IsHuman()  then	
-		print ("SP PolicyFreeBuilding Bug Fix!")
+		--print ("SP PolicyFreeBuilding Bug Fix!")
 		return
 	end
 	
@@ -221,7 +221,7 @@ function RemoveAllBlockedPolicyBuildings(playerID)
 		
 		----------- SP Bug fix, it may crash the game for certain AI's behavior!------------	
 	if not player:IsHuman() then
-		print ("SP PolicyFreeBuilding Bug Fix!")
+		--print ("SP PolicyFreeBuilding Bug Fix!")
 	else
 		--------------------------------------------------------
 		-- Remove any blocked Policy_FreeBuildingClassCapital --
