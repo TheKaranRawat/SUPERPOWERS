@@ -3914,6 +3914,7 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/WarPopup/WarPopup.xml</File>
     <File md5="43939FF7C370D80989CCD674F775945A" import="1">Modules/AutoImprove/AutoImprovements.lua</File>
     <File md5="43939FF7C370D80989CCD674F775945A" import="1">Modules/SettlerDelay/SettlerFoundDelay.lua</File>
+    <File md5="43939FF7C370D80989CCD674F775945A" import="1">Modules/AutoRoad/AutoRoad.lua</File>
 	
   </Files>
   <Actions>
@@ -4506,6 +4507,11 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <EntryPoint type="InGameUIAddin" file="Modules/SettlerDelay/SettlerFoundDelay.lua">
       <Name>SettlerDelay</Name>
       <Description>Delays city founding</Description>
+    </EntryPoint>
+    
+    <EntryPoint type="InGameUIAddin" file="Modules/AutoRoad/AutoRoad.lua">
+      <Name>AutoRoad</Name>
+      <Description>Automatically builds roads</Description>
     </EntryPoint>
 	
     <EntryPoint type="InGameUIAddin" file="Lua/Maps/Terra.lua">

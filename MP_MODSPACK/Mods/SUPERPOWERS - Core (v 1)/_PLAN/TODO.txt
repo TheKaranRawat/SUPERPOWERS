@@ -255,4 +255,13 @@ automate button visible workers
 city founding crash sometimes
 ENABLE UNIT ABILITIES BUT ONLY IN SINGLEPLAYER
 
+1. roads are built between a city and the capital after a certain tech is researched
+2. only a fixed amount of roads can be built from the capital (configurable) and they cannot be too close to each other (configurable)
+3. roads can only be built between two cities if they have a direct land connection (avoid water)
+4. when a new city is founded a road should be built to the nearest city if possible
+5. when a new city is conquered a new road should be built to the nearest city if possible
+6. roads are upgraded to railroads after a certain tech (configurable)
+7. make sure the script is performance friendly and is only run every three turns. make it safe for multiplayer as well.
+
+
 
