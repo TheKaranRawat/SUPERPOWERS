@@ -58,8 +58,10 @@ local CONFIG = {
 	-- Each city repairs REPAIRS_PER_CITY tile(s) every REPAIR_INTERVAL turns.
 	-- Cities are staggered by city ID so the work spreads across turns.
 	REPAIR_PILLAGED  = true,
-	REPAIR_INTERVAL  = 3,
-	REPAIRS_PER_CITY = 2,
+	REPAIR_INTERVAL  = 4,
+	REPAIRS_PER_CITY = 1,
+	-- Also clear fallout from a tile when its improvement is repaired.
+	REMOVE_FALLOUT   = true,
 
 	-- Skip tiles that currently hold an enemy-owned unit at war.
 	SKIP_OCCUPIED_BY_ENEMY = true,
@@ -80,7 +82,11 @@ local CONFIG = {
 		YIELD_CULTURE    = 8,
 		YIELD_FAITH      = 6,
 	},
-	RESOURCE_CONNECT_BONUS = 100,   -- connecting a resource beats most yield gains
+	RESOURCE_CONNECT_BONUS = 100,   -- connecting any resource beats most yield gains
+	-- Extra priority (added on top of the connect bonus) for tiles whose
+	-- resource improvement is available right now. Raise to be stricter.
+	STRATEGIC_BONUS        = 400,   -- iron, horses, coal, oil, aluminum, uranium...
+	LUXURY_BONUS           = 400,   -- luxury resources
 	WORKED_TILE_BONUS      = 20,    -- prefer tiles a citizen is actually working
 	UPGRADE_BONUS          = 300,   -- replacing a stand-in with the proper resource improvement
 
@@ -134,6 +140,18 @@ for row in GameInfo.Improvements() do
 	end
 end
 
+-- Resource priority: [resourceID] = extra score for strategic / luxury
+local resourcePriority = {}
+for row in GameInfo.Resources() do
+	local class = row.ResourceClassType
+	local usage = row.ResourceUsage
+	if usage == 1 or class == "RESOURCECLASS_RUSH" or class == "RESOURCECLASS_MODERN" then
+		resourcePriority[row.ID] = CONFIG.STRATEGIC_BONUS
+	elseif usage == 2 or class == "RESOURCECLASS_LUXURY" then
+		resourcePriority[row.ID] = CONFIG.LUXURY_BONUS
+	end
+end
+
 -- Candidate improvement builds (ordered by Build ID -> deterministic)
 local improvementBuilds = {}   -- { {build=, improvement=, tech=}, ... }
 for row in GameInfo.Builds() do
@@ -146,6 +164,10 @@ for row in GameInfo.Builds() do
 		}
 	end
 end
+
+-- Fallout feature (nil if the ruleset has none)
+local FALLOUT_ID = GameInfoTypes["FEATURE_FALLOUT"]
+local NO_FEATURE = -1
 
 -- Improvements this script could have placed (only these may be replaced)
 local buildableImprovement = {}
@@ -218,9 +240,15 @@ local function TileHasEnemy(pPlot, iTeam)
 	return false
 end
 
-local function ScoreBuild(pPlot, b, iPlayer, connects, bWorked)
+local function ScoreBuild(pPlot, b, iPlayer, connects, bWorked, resID)
 	local score = 0
-	if connects then score = score + CONFIG.RESOURCE_CONNECT_BONUS end
+	if connects then
+		score = score + CONFIG.RESOURCE_CONNECT_BONUS
+		-- Strategic / luxury resources are connected first
+		if resID and resourcePriority[resID] then
+			score = score + resourcePriority[resID]
+		end
+	end
 	if HAS_YIELD_QUERY then
 		for j = 1, #yieldList do
 			local y = yieldList[j]
@@ -264,7 +292,7 @@ local function EvaluatePlot(pPlot, iPlayer, iTeam, builds, nBuilds, bWorked)
 
 		-- If the proper improvement is available, only consider those.
 		if (not anyConnects) or connects then
-			local score = ScoreBuild(pPlot, b, iPlayer, connects, bWorked)
+			local score = ScoreBuild(pPlot, b, iPlayer, connects, bWorked, resID)
 			if bestScore == nil or score > bestScore then
 				bestBuild, bestScore = b, score
 			end
@@ -291,7 +319,7 @@ local function EvaluateUpgrade(pPlot, iPlayer, iTeam, builds, nBuilds, imp, bWor
 		local b = builds[i]
 		if improvementConnects[b.improvement] and improvementConnects[b.improvement][resID]
 			and pPlot:CanBuild(b.build, iPlayer) then
-			local score = ScoreBuild(pPlot, b, iPlayer, true, bWorked) + CONFIG.UPGRADE_BONUS
+			local score = ScoreBuild(pPlot, b, iPlayer, true, bWorked, resID) + CONFIG.UPGRADE_BONUS
 			if bestScore == nil or score > bestScore then
 				bestBuild, bestScore = b, score
 			end
@@ -419,6 +447,11 @@ local function RepairPillaged(pPlayer, iPlayer, iTeam)
 				end
 
 				if not best then break end
+				if CONFIG.REMOVE_FALLOUT and FALLOUT_ID
+					and best:GetFeatureType() == FALLOUT_ID then
+					best:SetFeatureType(NO_FEATURE)
+					dprint("Player", iPlayer, "cleared fallout", bestX, bestY)
+				end
 				best:SetImprovementPillaged(false)
 				seen[bestY * 4096 + bestX] = true
 				repaired = repaired + 1

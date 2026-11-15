@@ -8,11 +8,11 @@
 
   <!-- Unit Actions Secondary 522Back -->
 
-  <Grid Anchor="L,B" Offset="40,-57" Size="55,476" Padding="0,0" Style="Grid9Detail48Black" Hidden="0" ID="SecondaryStretchy" ConsumeMouse="1" >
+  <Grid Anchor="L,B" Offset="-300,-57" Size="55,476" Padding="0,0" Style="Grid9Detail48Black" Hidden="0" ID="SecondaryStretchy" ConsumeMouse="1" >
 
   </Grid>
 
-  <Grid Anchor="L,B" Offset="-90,-65" Size="140,492" Padding="0,0" Style="Grid9DetailSix140" Hidden="0" ID="PrimaryStretchy" ConsumeMouse="1" >
+  <Grid Anchor="L,B" Offset="-300,-65" Size="140,492" Padding="0,0" Style="Grid9DetailSix140" Hidden="0" ID="PrimaryStretchy" ConsumeMouse="1" >
 
   </Grid>
 
@@ -62,14 +62,7 @@
   </GridButton>
 
 
-  <!-- Secondary Actions  -->
 
-  <GridButton ID="SecondaryButton" Size="36,32" Style="SmallButton2" Anchor="L,B" Offset="3,200"  ToolTip="TXT_KEY_SECONDARY_O_TEXT"  Hidden="0">
-
-    <Image Anchor="C,C"  Offset="0,1"  Texture="OpenSecondary.dds" Size="64,32" Hidden="0" ID="SecondaryImageOpen"/>
-    <Image Anchor="C,C"  Offset="-1,1"  Texture="CloseSecondary.dds" Size="64,32" Hidden="1" ID="SecondaryImageClosed"/>
-
-  </GridButton>
 
 
   <!-- Background -->
@@ -108,7 +101,7 @@
         </Box>
 
         <!-- XP METER -->
-        <Grid Anchor="R,C" Offset="0,0" Size="275,12" Padding="0,0" Style="Grid9FrameTurns"  ID="XPFrame">
+        <Grid Anchor="R,C" Offset="0,8" Size="275,12" Padding="0,0" Style="Grid9FrameTurns"  ID="XPFrame">
           <TextureBar Anchor="L,T"  Offset="3,2"  Texture="assets/UI/Art/UnitPanel/XPmeter.dds" Size="269,7" ID="XPMeter"/>
         </Grid>
 		
@@ -185,24 +178,26 @@
         <Image Size="32,32" Offset="-1,-1" Anchor="C,C" Color="PlayerColor1"  Texture="Assets/UI/Art/Icons/Units/UnitFlagAtlasWhite.dds"  ID="UnitIcon" ToolTip="TXT_KEY_CURRENTLY_SELECTED_UNIT" />
     </Image>
 
-	
-	
-	
-	
-	
-	
-  <!-- Action Button Stacks 72 -->
-	<Stack Offset="225,206" Anchor="L,B" StackGrowth="Left" ID="BuildStack" Padding="2"/>
-	<Stack Offset="50,223"  Anchor="L,B" StackGrowth="Bottom" ID="SecondaryStack" Padding="2" Hidden="1" />
-	<Stack Offset="2,236"   Anchor="L,B" StackGrowth="Bottom" ID="PrimaryStack" Padding="1">
+    <!-- primary actions -->
+    <!-- Action Button Stacks 72 -->
+    <Stack Offset="225,206" Anchor="L,B" StackGrowth="Left" ID="BuildStack" Padding="2"/>
+    <Stack Offset="460,6"  Anchor="L,B" StackGrowth="Bottom" ID="SecondaryStack" Padding="2" Hidden="1" />
+    <Stack Offset="295,26"   Anchor="R,B" StackGrowth="Left" ID="PrimaryStack" Padding="1">
 
-	  
+    <!-- Secondary Actions  -->
+
+    <GridButton ID="SecondaryButton" Size="36,32" Style="SmallButton2" Anchor="L,B" Offset="0,70"  ToolTip="TXT_KEY_SECONDARY_O_TEXT"  Hidden="0">
+
+      <Image Anchor="C,C"  Offset="0,1"  Texture="OpenSecondary.dds" Size="64,32" Hidden="0" ID="SecondaryImageOpen"/>
+      <Image Anchor="C,C"  Offset="-1,1"  Texture="CloseSecondary.dds" Size="64,32" Hidden="1" ID="SecondaryImageClosed"/>
+
+    </GridButton>
 	  
 	  
 	  
 	  
     <!-- Special magical Build City button -->
-    <Button Anchor="R,T" Size="36,36" StateOffsetIncrement="0,0" AnchorSide="I.O" Offset="0,0" Hidden="1" Texture="Assets/UI/Art/Icons/BuildCity36.dds" ID="BuildCityButton" ToolTipType="TypeUnitAction">
+    <Button Anchor="L,B" Size="36,36" StateOffsetIncrement="0,0" AnchorSide="I.O" Offset="-37,-103" Hidden="1" Texture="Assets/UI/Art/Icons/BuildCity36.dds" ID="BuildCityButton" ToolTipType="TypeUnitAction">
 
       <AlphaAnim  Anchor="C,C" Offset="0,0" Texture="Assets/UI/Art/Icons/BuildCityGlow36.dds"  Size="36,36"  Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd="0" Hidden="0"/>
 

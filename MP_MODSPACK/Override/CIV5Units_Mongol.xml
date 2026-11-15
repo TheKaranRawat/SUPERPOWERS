@@ -3443,6 +3443,11 @@
 				Younis
 			</Text>
 		</Replace>
+		<Replace Tag="TXT_KEY_ARMY_STATS"> 
+			<Text>
+				[ICON_INFANTRY] Army Size
+			</Text>
+		</Replace>
 		<Replace Tag="TXT_KEY_ARTIFACT_ANCIENT_CAMP"> 
 			<Text>
 				Pottery Sherd
@@ -6524,7 +6529,7 @@
 		</Replace>
 		<Replace Tag="TXT_KEY_BUILDING_BUTTON"> 
 			<Text>
-				[ICON_BULLET] Construct [ICON_FORT] Buildings
+				Construct [ICON_FORT] Buildings
 				  [NEWLINE]Buildings cannot be purchased.
 			</Text>
 		</Replace>
@@ -15196,6 +15201,11 @@ Not only was Askia a patron of Islam, he also was gifted in administration and e
 		<Replace Tag="TXT_KEY_CITIES_SPECIALISTS_HEADING2_TITLE"> 
 			<Text>
 				Specialists
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITIES_STATS"> 
+			<Text>
+				[ICON_CITY_STATE] Cities
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CITIES_SUPPLY"> 
@@ -46349,7 +46359,7 @@ The second sack of Ulundi is considered by historians to be the definitive end o
 		</Replace>
 		<Replace Tag="TXT_KEY_CIV_BUTTON"> 
 			<Text>
-				[ICON_BULLET] Train [ICON_WORKER] Civilian Units
+				Train [ICON_WORKER] Civilian Units
 				  [NEWLINE]Civilian units can be purchased.
 				  [NEWLINE](Right Click to purchase)
 			</Text>
@@ -50819,6 +50829,11 @@ The second sack of Ulundi is considered by historians to be the definitive end o
 		<Replace Tag="TXT_KEY_CULTURE_PLAYER_MOD"> 
 			<Text>
 				+{1_Num}% [ICON_CULTURE] from Empire
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CULTURE_STATS"> 
+			<Text>
+				[ICON_CULTURE] Culture
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CULTURE_TOURISM_ADV_QUEST"> 
@@ -56161,6 +56176,16 @@ The second sack of Ulundi is considered by historians to be the definitive end o
 				Online Interactions Not Rated by the ESRB
 			</Text>
 		</Replace>
+		<Replace Tag="TXT_KEY_EUI_CLOSED_BORDERS_THEIR"> 
+			<Text>
+				They have closed their borders to us.
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_CLOSED_BORDERS_YOUR"> 
+			<Text>
+				You have closed your borders to them.
+			</Text>
+		</Replace>
 		<Replace Tag="TXT_KEY_EUPANEL_ADJACENT_FRIEND_UNIT_BONUS"> 
 			<Text>
 				Adjacent Friendly Unit
@@ -61377,6 +61402,11 @@ The second sack of Ulundi is considered by historians to be the definitive end o
 				Running Out of Gold
 			</Text>
 		</Replace>
+		<Replace Tag="TXT_KEY_GOLD_STATS"> 
+			<Text>
+				[ICON_GOLD] Income
+			</Text>
+		</Replace>
 		<Replace Tag="TXT_KEY_GOLD_TERRAIN_ADV_QUEST"> 
 			<Text>
 				How can I get gold from the terrain?
@@ -66172,6 +66202,11 @@ The ship has weather'd every rack; the prize we sought is won."
 		<Replace Tag="TXT_KEY_HAPPINESS_STARTING_HEADING2_TITLE"> 
 			<Text>
 				Starting Happiness
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_HAPPINESS_STATS"> 
+			<Text>
+				[ICON_HAPPINESS_1] Happiness
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_HAPPINESS_UNHAPPY_HEADING3_ADV_QUEST"> 
@@ -95657,6 +95692,11 @@ The ship has weather'd every rack; the prize we sought is won."
 				To maximize your bonus, make sure the Great Work Slots are all filled with Writings from different Eras and different Civilizations.
 			</Text>
 		</Replace>
+		<Replace Tag="TXT_KEY_NAVY_STATS"> 
+			<Text>
+				[ICON_ANCHOR] Navy Size
+			</Text>
+		</Replace>
 		<Replace Tag="TXT_KEY_NEUTRAL_CSTATE_TT"> 
 			<Text>
 				{1_CityStateName:textkey} neither likes nor dislikes you. Completing quests or giving them [ICON_GOLD] Gold will improve your relations.
@@ -104552,7 +104592,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_OTHER_BUTTON"> 
 			<Text>
-				[ICON_BULLET] Other Processes and Projects
+				Other Processes and Projects
 				  [NEWLINE][ICON_SWORD] Projects grant special units. 
 				  [NEWLINE]The first country to build a project is granted a project unit.
 			</Text>
@@ -111243,6 +111283,11 @@ The ship has weather'd every rack; the prize we sought is won."
 				Population:
 			</Text>
 		</Replace>
+		<Replace Tag="TXT_KEY_POPULATION_STATS"> 
+			<Text>
+				[ICON_CITIZEN] Population
+			</Text>
+		</Replace>
 		<Replace Tag="TXT_KEY_POPULATION_SUPPLY"> 
 			<Text>
 				Population
@@ -112043,6 +112088,11 @@ The ship has weather'd every rack; the prize we sought is won."
 				To maximize your bonus, make sure the Great Work Slots are all filled with Art from the same Era and Civilization.
 			</Text>
 		</Replace>
+		<Replace Tag="TXT_KEY_POWER_STATS"> 
+			<Text>
+				[ICON_WAR] Might
+			</Text>
+		</Replace>
 		<Replace Tag="TXT_KEY_PROCESSING_MINOR_CIVS"> 
 			<Text>
 				Processing Turn For City States
@@ -112526,6 +112576,11 @@ The ship has weather'd every rack; the prize we sought is won."
 		<Replace Tag="TXT_KEY_PRODUCTION_RESOURCES_REQUIRED"> 
 			<Text>
 				[ICON_BULLET] Required:
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PRODUCTION_STATS"> 
+			<Text>
+				[ICON_PRODUCTION] Production
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PRODUCTION_STRENGTH"> 
@@ -121350,6 +121405,11 @@ The ship has weather'd every rack; the prize we sought is won."
 		<Replace Tag="TXT_KEY_SCIENCE_HELP_INFO"> 
 			<Text>
 				[ICON_RESEARCH] Science is used to advance your civilization technologically, unlocking new Units, Buildings and more.
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_SCIENCE_STATS"> 
+			<Text>
+				[ICON_RESEARCH] Science
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_SCORE_ADV_QUEST"> 
@@ -131572,6 +131632,11 @@ The ship has weather'd every rack; the prize we sought is won."
 				Supply Available for New Units
 			</Text>
 		</Replace>
+		<Replace Tag="TXT_KEY_SUPPLY_STATS"> 
+			<Text>
+				[ICON_GREAT_EXPLORER] Supply
+			</Text>
+		</Replace>
 		<Replace Tag="TXT_KEY_SUPPLY_TITLE"> 
 			<Text>
 				Unit Supply
@@ -140027,7 +140092,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_BUTTON"> 
 			<Text>
-				[ICON_BULLET] Train [ICON_INFANTRY Military Units
+				Train [ICON_INFANTRY] Military Units
 				  [NEWLINE]Only [ICON_SWORD] Unique and [ICON_SHIELD] Militia units can be purchased.
 				  [NEWLINE](Right Click to purchase Unique Units)
 			</Text>
@@ -146539,6 +146604,11 @@ The ship has weather'd every rack; the prize we sought is won."
 		<Replace Tag="TXT_KEY_WONDERS_CONSTRUCTED"> 
 			<Text>
 				Wonders Constructed
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_WONDERS_STATS"> 
+			<Text>
+				[ICON_WONDER] Wonders
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_WONDER_ABER_HELP"> 

@@ -3915,7 +3915,22 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="43939FF7C370D80989CCD674F775945A" import="1">Modules/AutoImprove/AutoImprovements.lua</File>
     <File md5="43939FF7C370D80989CCD674F775945A" import="1">Modules/SettlerDelay/SettlerFoundDelay.lua</File>
     <File md5="43939FF7C370D80989CCD674F775945A" import="1">Modules/AutoRoad/AutoRoad.lua</File>
-	
+
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">UI/Override/LeaderHeadRoot.lua</File>
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">UI/Override/LeaderHeadRoot.xml</File>
+
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/LeaderStats/LeaderStatsPanel.lua</File>
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/LeaderStats/LeaderStatsPanel.xml</File>
+
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/AutoCityFire/AutoCityFire.lua</File>
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/AutoCityFire/AutoCityFire.xml</File>
+
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/GroupMove/GroupMove.lua</File>
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/GroupMove/GroupMove.xml</File>
+
+
+    
+
   </Files>
   <Actions>
 	
@@ -4513,7 +4528,17 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
       <Name>AutoRoad</Name>
       <Description>Automatically builds roads</Description>
     </EntryPoint>
-	
+
+    <EntryPoint type="InGameUIAddin" file="Modules/AutoCityFire/AutoCityFire.lua">
+      <Name>AutoCityFire</Name>
+      <Description>Automatically fire from cities</Description>
+    </EntryPoint>
+
+    <EntryPoint type="InGameUIAddin" file="Modules/GroupMove/GroupMove.lua">
+      <Name>GroupMove</Name>
+      <Description>Move in groups</Description>
+    </EntryPoint>
+		
     <EntryPoint type="InGameUIAddin" file="Lua/Maps/Terra.lua">
       <Name>Terra</Name>
       <Description>

@@ -5871,21 +5871,21 @@
 		</Replace>
 
 		<Row Tag="TXT_KEY_CIV_BUTTON">
-			<Text>[ICON_BULLET] Train [ICON_WORKER] Civilian Units
+			<Text>Train [ICON_WORKER] Civilian Units
 				  [NEWLINE]Civilian units can be purchased.
 				  [NEWLINE](Right Click to purchase)
 			</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_BUTTON">
-			<Text>[ICON_BULLET] Train [ICON_INFANTRY Military Units
+			<Text>Train [ICON_INFANTRY] Military Units
 				  [NEWLINE]Only [ICON_SWORD] Unique and [ICON_SHIELD] Militia units can be purchased.
 				  [NEWLINE](Right Click to purchase Unique Units)
 			</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_BUTTON">
-			<Text>[ICON_BULLET] Construct [ICON_FORT] Buildings
+			<Text>Construct [ICON_FORT] Buildings
 				  [NEWLINE]Buildings cannot be purchased.
 			</Text>
 		</Row>
@@ -5897,7 +5897,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_OTHER_BUTTON">
-			<Text>[ICON_BULLET] Other Processes and Projects
+			<Text>Other Processes and Projects
 				  [NEWLINE][ICON_SWORD] Projects grant special units. 
 				  [NEWLINE]The first country to build a project is granted a project unit.
 			</Text>

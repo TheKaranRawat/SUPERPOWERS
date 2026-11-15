@@ -187394,10 +187394,10 @@
 			<Help>TXT_KEY_GAMESPEED_MARATHON_HELP</Help> 
 			<DealDuration>30</DealDuration> 
 			<GrowthPercent>150</GrowthPercent> 
-			<TrainPercent>200</TrainPercent> 
-			<ConstructPercent>200</ConstructPercent> 
+			<TrainPercent>250</TrainPercent> 
+			<ConstructPercent>250</ConstructPercent> 
 			<CreatePercent>200</CreatePercent> 
-			<ResearchPercent>200</ResearchPercent> 
+			<ResearchPercent>210</ResearchPercent> 
 			<GoldPercent>200</GoldPercent> 
 			<GoldGiftMod>25</GoldGiftMod> 
 			<BuildPercent>150</BuildPercent> 
@@ -187433,10 +187433,10 @@
 			<Help>TXT_KEY_GAMESPEED_EPIC_HELP</Help> 
 			<DealDuration>30</DealDuration> 
 			<GrowthPercent>120</GrowthPercent> 
-			<TrainPercent>180</TrainPercent> 
-			<ConstructPercent>180</ConstructPercent> 
+			<TrainPercent>250</TrainPercent> 
+			<ConstructPercent>250</ConstructPercent> 
 			<CreatePercent>120</CreatePercent> 
-			<ResearchPercent>150</ResearchPercent> 
+			<ResearchPercent>200</ResearchPercent> 
 			<GoldPercent>115</GoldPercent> 
 			<GoldGiftMod>25</GoldGiftMod> 
 			<BuildPercent>115</BuildPercent> 
@@ -187472,10 +187472,10 @@
 			<Help>TXT_KEY_GAMESPEED_STANDARD_HELP</Help> 
 			<DealDuration>30</DealDuration> 
 			<GrowthPercent>100</GrowthPercent> 
-			<TrainPercent>150</TrainPercent> 
-			<ConstructPercent>150</ConstructPercent> 
+			<TrainPercent>200</TrainPercent> 
+			<ConstructPercent>200</ConstructPercent> 
 			<CreatePercent>100</CreatePercent> 
-			<ResearchPercent>100</ResearchPercent> 
+			<ResearchPercent>150</ResearchPercent> 
 			<GoldPercent>100</GoldPercent> 
 			<GoldGiftMod>25</GoldGiftMod> 
 			<BuildPercent>100</BuildPercent> 
@@ -187510,9 +187510,9 @@
 			<Description>TXT_KEY_GAMESPEED_QUICK</Description> 
 			<Help>TXT_KEY_GAMESPEED_QUICK_HELP</Help> 
 			<DealDuration>20</DealDuration> 
-			<GrowthPercent>66</GrowthPercent> 
-			<TrainPercent>66</TrainPercent> 
-			<ConstructPercent>90</ConstructPercent> 
+			<GrowthPercent>80</GrowthPercent> 
+			<TrainPercent>150</TrainPercent> 
+			<ConstructPercent>150</ConstructPercent> 
 			<CreatePercent>66</CreatePercent> 
 			<ResearchPercent>90</ResearchPercent> 
 			<GoldPercent>80</GoldPercent> 

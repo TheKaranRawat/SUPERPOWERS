@@ -104,9 +104,17 @@ BUILDING REPLACEMENT FOR CS
 	
 Unit_ResourceQuantityRequirements
 
-Units-------
-metal gear rex
 
+	ICON_FONT_TEXTURE_ITG_AUTHORITY
+	
+	ICON_WONDER	ICON_SHIELD		ICON_SWORD
+	ICON_EYE	ICON_FIGHTER	ICON_EAGLE
+	ICON_NUKE	ICON_ANCHORS	ICON_ARTILLERY
+	ICON_RECON	ICON_DIVIDE		ICON_ANCHOR		ICON_EYE
+	ICON_LAWS	ICON_FORT	ICON_CROSSED	ICON_CAVALRY	
+	ICON_INFANTRY	ICON_RANGED
+	
+-------------------------------------------
 
 weaken defences
 simplify scripts
@@ -158,33 +166,6 @@ disable workers from building on water
 remove all militia
 remove 1 pop for every unit built
 
-icon types
-	militia			fort			ICON_SHIELD		ICON_SWORD
-	infantry		helmet			
-	ranged			archery target
-	hit and run		sword
-	cavalry			horse
-	siege		 	cannon
-	
-	naval melee
-	naval hit and run
-	naval ranged
-	
-	air fighter
-	air bomber
-		
-	nuke			ICON_NUKE
-	special forces	ICON_SHIELD
-	
-	ICON_FONT_TEXTURE_ITG_AUTHORITY
-	
-	ICON_WONDER	ICON_SHIELD		ICON_SWORD
-	ICON_EYE	ICON_FIGHTER	ICON_EAGLE
-	ICON_NUKE	ICON_ANCHORS	ICON_ARTILLERY
-	ICON_RECON	ICON_DIVIDE		ICON_ANCHOR		ICON_EYE
-	ICON_LAWS	ICON_FORT	ICON_CROSSED	ICON_CAVALRY	
-	ICON_INFANTRY	ICON_RANGED
-	
 DISABLE MILITIA	
 modern unit icons
 dDISABLE UCAV/HARD LAUNCHER/super hacker/tactical nuke
@@ -232,26 +213,28 @@ stuck on adopt policy
 supply text description
 2351 city refresh
 dynamic civ names
-uiMsg == 523
+cancel last mission fix
+
 
 tech era text icons
 tooltip font enlarge for title
 other processes wrap
 free buildings for new era automatic
-automate all workers
+	automate all workers
 build flax everywhere
 militia units disable
 display unit count/supply/manpower on civ leader screens
 	ten turn exploration era
-prevent AI from attacking city states
+	prevent AI from attacking city states
 
-
+------------------------------------------------
 if UI.IsDX9() then
+uiMsg == 523
 
 right click close policy menu/tech researched popup/natural wonder/greatest city/wonder popup/golden age/minor civ
 increase production costs/nerf empire production
 minor civ popup disable
-automate button visible workers
+	automate button visible workers
 city founding crash sometimes
 ENABLE UNIT ABILITIES BUT ONLY IN SINGLEPLAYER
 
@@ -265,3 +248,9 @@ ENABLE UNIT ABILITIES BUT ONLY IN SINGLEPLAYER
 
 
 
+1. grants a promotion when the "move mode" button is clicked on a unit, this is the lead unit.
+2. this promotion is already defined as "PROMOTION_LEGION_GROUP"
+3. every other unit around it should be granted the promotion "PROMOTION_LEGION_GROUP_ORBIT"
+4. the lead unit will begin it's movement to a final location using the already pressed move button(can take multiple turns)
+
+2. this will then grant a special promotion that I have already defined. any unit that was granted this promotion will attempt to move to the unit who pressed the button and try to maintain the same position relative to the unit as it was when the button was clicked.

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+  <!-- Translucent selection rectangle, moved/resized from Lua during a drag -->
+  <Box ID="SelBox" Anchor="L,T" Size="1,1" Color="170,170,170,70" Hidden="1" ConsumeMouse="0"/>
+</Context>

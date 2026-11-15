@@ -31,6 +31,8 @@ function LeaderMessageHandler( iPlayer, iDiploUIState, szLeaderMessage, iAnimati
 	
 	g_iAIPlayer = iPlayer;
 	g_iAITeam = Players[g_iAIPlayer]:GetTeam();
+
+	LuaEvents.LeaderStatsSetPlayer(g_iAIPlayer)
 	
 	local pActivePlayer = Players[Game.GetActivePlayer()];
 	local pActiveTeam = Teams[pActivePlayer:GetTeam()];
@@ -206,7 +208,7 @@ function OnShowHide( bHide )
 	else
 		UIManager:SetUICursor(oldCursor); -- make sure we retrun the cursor to the previous state
 		--Controls.LeaderSpeech:SetText( g_strLeaveScreenText );		-- Seed the text box with something reasonable so that we don't get leftovers from somewhere else
-	
+		LuaEvents.LeaderStatsHide()
 	end
 end
 ContextPtr:SetShowHideHandler( OnShowHide );

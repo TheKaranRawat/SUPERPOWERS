@@ -1275,6 +1275,64 @@
 			<Text>[ICON_SWAP]</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_ARMY_STATS">
+			<Text>[ICON_INFANTRY] Army Size</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NAVY_STATS">
+			<Text>[ICON_ANCHOR] Navy Size</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SUPPLY_STATS">
+			<Text>[ICON_GREAT_EXPLORER] Supply</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POWER_STATS">
+			<Text>[ICON_WAR] Might</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GOLD_STATS">
+			<Text>[ICON_GOLD] Income</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SCIENCE_STATS">
+			<Text>[ICON_RESEARCH] Science</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PRODUCTION_STATS">
+			<Text>[ICON_PRODUCTION] Production</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POPULATION_STATS">
+			<Text>[ICON_CITIZEN] Population</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_WONDERS_STATS">
+			<Text>[ICON_WONDER] Wonders</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CULTURE_STATS">
+			<Text>[ICON_CULTURE] Culture</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITIES_STATS">
+			<Text>[ICON_CITY_STATE] Cities</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_HAPPINESS_STATS">
+			<Text>[ICON_HAPPINESS_1] Happiness</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_EUI_CLOSED_BORDERS_YOUR">
+			<Text>You have closed your borders to them.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_EUI_CLOSED_BORDERS_THEIR">
+			<Text>They have closed their borders to us.</Text>
+		</Row>
+
+
+
 
 	</Language_en_US>
 	

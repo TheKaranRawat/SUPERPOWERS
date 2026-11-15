@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Name="LeaderStatsPanel">
+
+  <!-- Collapse/expand tab 
+  <Button ID="TabButton" Anchor="L,B" Offset="40,120" Size="140,32"
+          String="Empire" Style="BaseButton" Font="TwCenMT20" />
+  -->
+  
+  <!-- Panel: open by default -->
+  <Box ID="Panel" Anchor="L,B" Offset="40,160" Size="360,320"
+       Color="10,12,18,110" Hidden="0">
+    <Stack ID="Rows" Anchor="C,T" Offset="0,12" StackGrowth="Bottom" Padding="6">
+
+      <!-- deprecate 
+      <Label ID="Title" Anchor="C,T" Font="TwCenMT22"
+             ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+      -->
+
+      <Container ID="TitleRow" Offset="15,0" Size="300,18">
+        <Image ID="CivIconBG" Offset="0,-50" Anchor="C,C" Size="128" Texture="CivIconBGSizes.dds" />
+        <Image ID="CivIconShadow" Offset="0,-50" Anchor="C,C" Size="128,128" Texture="CivSymbolsColor512.dds" Color="0,0,0,128" />
+        <Image ID="CivIcon" Offset="0,-50" Anchor="C,C" Size="128,128" Texture="CivSymbolsColor512.dds" />
+        <Label ID="Title" Anchor="C,C" Offset="0,-4" Font="TwCenMT24" Color0="Beige" Color1="0.0.0.160" FontStyle="SoftShadow" />
+        <Label ID="Rank" Anchor="R,C" Offset="0,0" Font="TwCenMT22" Color="201,162,74,255" FontStyle="Shadow"/>
+      </Container>
+
+      <!-- Divider: explicit color so it isn't white -->
+      <Box Size="300,1" Anchor="C,C" Color="255,255,255,60"/>
+
+      <!-- Rows use Container (no visuals) instead of Box -->
+      <Box Size="330,1" Color="201,162,74,120"/>
+
+      <!-- ============ MILITARY ============ -->
+      <Label String="MILITARY" Anchor="L,C" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+      <Container Size="330,26">
+        <Container Anchor="L,C" Size="160,26">
+          <Label Anchor="L,C" String="TXT_KEY_ARMY_STATS" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+          <Label ID="Land" Anchor="R,C" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+        </Container>
+        <Container Anchor="R,C" Size="160,26">
+          <Label Anchor="L,C" String="TXT_KEY_NAVY_STATS" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+          <Label ID="Naval" Anchor="R,C" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+        </Container>
+      </Container>
+      <Container Size="330,26">
+        <Container Anchor="L,C" Size="160,26">
+          <Label Anchor="L,C" String="TXT_KEY_SUPPLY_STATS" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+          <Label ID="Supply" Anchor="R,C" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+        </Container>
+        <Container Anchor="R,C" Size="160,26">
+          <Label Anchor="L,C" String="TXT_KEY_POWER_STATS" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+          <Label ID="Power" Anchor="R,C" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+        </Container>
+      </Container>
+
+      <Box Size="330,1" Color="201,162,74,60"/>
+
+      <!-- ============ ECONOMY ============ -->
+      <Label String="ECONOMY" Anchor="L,C" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+      <Container Size="330,26">
+        <Container Anchor="L,C" Size="160,26">
+          <Label Anchor="L,C" String="TXT_KEY_GOLD_STATS" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+          <Label ID="Gold" Anchor="R,C" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+        </Container>
+        <Container Anchor="R,C" Size="160,26">
+          <Label Anchor="L,C" String="TXT_KEY_SCIENCE_STATS" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+          <Label ID="Sci" Anchor="R,C" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+        </Container>
+      </Container>
+      <Container Size="330,26">
+        <Container Anchor="L,C" Size="160,26">
+          <Label Anchor="L,C" String="TXT_KEY_PRODUCTION_STATS" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+          <Label ID="Prod" Anchor="R,C" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+        </Container>
+        <Container Anchor="R,C" Size="160,26">
+          <Label Anchor="L,C" String="TXT_KEY_POPULATION_STATS" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+          <Label ID="Pop" Anchor="R,C" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+        </Container>
+      </Container>
+
+      <Box Size="330,1" Color="201,162,74,60"/>
+
+      <!-- ============ CULTURE ============ -->
+      <Label String="SOCIETY" Anchor="L,C" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+      <Container Size="330,26">
+        <Container Anchor="L,C" Size="160,26">
+          <Label Anchor="L,C" String="TXT_KEY_WONDERS_STATS" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+          <Label ID="Wonders" Anchor="R,C" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+        </Container>
+        <Container Anchor="R,C" Size="160,26">
+          <Label Anchor="L,C" String="TXT_KEY_CULTURE_STATS" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+          <Label ID="Culture" Anchor="R,C" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+        </Container>
+      </Container>
+      <Container Size="330,26">
+        <Container Anchor="L,C" Size="160,26">
+          <Label Anchor="L,C" String="TXT_KEY_CITIES_STATS" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+          <Label ID="Cities" Anchor="R,C" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+        </Container>
+        <Container Anchor="R,C" Size="160,26">
+          <Label Anchor="L,C" String="TXT_KEY_HAPPINESS_STATS" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+          <Label ID="Happy" Anchor="R,C" Font="TwCenMT18" ColorSet="Beige_Black_Alpha"/>
+        </Container>
+      </Container>
+
+    </Stack>
+  </Box>
+</Context>

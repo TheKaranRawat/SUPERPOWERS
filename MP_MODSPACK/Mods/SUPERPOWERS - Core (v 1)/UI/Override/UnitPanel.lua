@@ -93,6 +93,13 @@ end
 --
 -- MODS END
 --
+local RIGHT_MARGIN = 445  -- distance in from the right edge of the screen
+function PositionPrimaryStack()
+    local screenWidth, screenHeight = UIManager:GetScreenSizeVal()
+    Controls.PrimaryStack:SetOffsetVal(screenWidth - RIGHT_MARGIN, 26)
+end
+
+PositionPrimaryStack()
 
 --------------------------------------------------------------------------------
 -- this maps from the normal instance names to the build city control names
@@ -676,7 +683,8 @@ function UpdateUnitPortrait( unit )
 		end
 		Controls.XPFrame:SetHide( false );
 	else
- 		Controls.XPFrame:SetHide( true );
+ 		--Controls.XPFrame:SetHide( true );
+		Controls.XPFrame:SetHide( false );
    end
 	
 	
@@ -784,8 +792,9 @@ end
 
 
 --------------------------------------------------------------------------------
--- Refresh unit promotions
+-- Refresh unit promotions DOUBLE ROW
 --------------------------------------------------------------------------------
+--[[
 function UpdateUnitPromotions(unit)
     
     g_EarnedPromotionIM:ResetInstances();
@@ -847,6 +856,38 @@ function UpdateUnitPromotions(unit)
 			end    
 			
 				     -------------------------SP Two Rows of Promotions END-----------------------------------------------
+        end
+    end
+end
+]]--
+
+--------------------------------------------------------------------------------
+-- Refresh unit promotions SINGLE ROW ONLY
+--------------------------------------------------------------------------------
+function UpdateUnitPromotions(unit)
+
+    g_EarnedPromotionIM:ResetInstances();
+
+    local controlTable;
+
+    --For each avail promotion, display the icon
+    for unitPromotion in GameInfo.UnitPromotions() do
+
+        local unitPromotionID = unitPromotion.ID;
+
+        local hasPromotion = unit:IsHasPromotion(unitPromotionID);
+        if bIsBNW == true then
+            hasPromotion = hasPromotion and not unit:IsTrade();
+        end
+
+        if hasPromotion then
+            controlTable = g_EarnedPromotionIM:GetInstance();
+            IconHookup( unitPromotion.PortraitIndex, 32, unitPromotion.IconAtlas, controlTable.UnitPromotionImage );
+
+            -- Tooltip
+            local strToolTip = Locale.ConvertTextKey(unitPromotion.Description);
+            strToolTip = strToolTip .. "[NEWLINE][NEWLINE]" .. Locale.ConvertTextKey(unitPromotion.Help)
+            controlTable.UnitPromotionImage:SetToolTipString(strToolTip);
         end
     end
 end
