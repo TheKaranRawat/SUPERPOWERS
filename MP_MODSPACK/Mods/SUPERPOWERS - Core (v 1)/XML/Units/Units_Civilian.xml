@@ -9,6 +9,7 @@
 			<ID>0</ID>
 			<Class>UNITCLASS_SETTLER</Class>
 			<Type>UNIT_SETTLER</Type>
+			<Cost>90</Cost>
 			<Moves>2</Moves>
 			<BaseSightRange>1</BaseSightRange>
 			<Capture>UNITCLASS_SETTLER</Capture>
@@ -1578,6 +1579,7 @@
 
 
 	<Unit_ResourceQuantityRequirements>
+		<!--
 		<Row>
 			<UnitType>UNIT_SETTLER</UnitType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
@@ -1591,6 +1593,7 @@
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Cost>3</Cost>
 		</Row>
+		-->
 
 		<!-- GPs do not use CG
 		<Row>

@@ -22,7 +22,7 @@ local CONFIG = {
     RAILROAD_TECH                  = "TECH_RAILROAD",   -- "" or false = no requirement
 
     MAX_CAPITAL_ROADS              = 4,      -- max roads leaving the capital
-    MIN_ROAD_SEPARATION            = 4,      -- min hex distance between a new capital-road
+    MIN_ROAD_SEPARATION            = 6,      -- min hex distance between a new capital-road
                                              -- destination and existing capital roads
     MAX_ROAD_DISTANCE              = 20,     -- max hex distance between the two cities
     MAX_DETOUR                     = 8,      -- path may be at most this much longer than straight line

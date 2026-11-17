@@ -1090,7 +1090,7 @@
 		<Row>
 			<BuildingType>BUILDING_MECHANIZED_FARM</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<Quantity>5</Quantity>
+			<Quantity>10</Quantity>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SHOSHONE_HUNTING</BuildingType>
@@ -1225,6 +1225,7 @@
 			<Quantity>200</Quantity>
 		</Row>
 
+		<!-- RESOURCE_CONSUMER
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_FREEDOM</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
@@ -1287,11 +1288,6 @@
 			<Quantity>4</Quantity>
 		</Row>
 		
-		<!--<Row>
-			<BuildingType>BUILDING_HARBOR</BuildingType>
-			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>3</Quantity>
-		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_INDONESIA_SPICE_HARBOR</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
@@ -1316,7 +1312,7 @@
 			<Quantity>6</Quantity>
 		</Row>
 
-
+		-->
 
 		<Row>
 			<BuildingType>BUILDING_VENICE_FONDACO</BuildingType>

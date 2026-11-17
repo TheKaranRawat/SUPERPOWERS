@@ -118,7 +118,8 @@
 			<Defense>1500</Defense>
 			<ExtraCityHitPoints>100</ExtraCityHitPoints>
 			<FoodKept>-5</FoodKept>
-			<Happiness>-4</Happiness>
+			<Happiness>-4</Happiness>			
+			<GlobalCityWorkingChange>1</GlobalCityWorkingChange>
 			<TradeRouteSeaGoldBonus>1500</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>1500</TradeRouteLandGoldBonus>
 			<TradeRouteRecipientBonus>20</TradeRouteRecipientBonus>
@@ -142,7 +143,6 @@
 			<ExtraCityHitPoints>120</ExtraCityHitPoints>
 			<FoodKept>-5</FoodKept>
 			<Happiness>-6</Happiness>
-			<GlobalCityWorkingChange>1</GlobalCityWorkingChange>
 			<TradeRouteSeaGoldBonus>2000</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>2000</TradeRouteLandGoldBonus>
 			<TradeRouteRecipientBonus>30</TradeRouteRecipientBonus>
@@ -212,10 +212,18 @@
 		</Row>
 
 		<Row>
+			<BuildingType>BUILDING_3_GRANDPALACE</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Quantity>20</Quantity>
+		</Row>
+
+		<!--
+		<Row>
 			<BuildingType>BUILDING_PALACE</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Quantity>25</Quantity>
 		</Row>
+		-->
 		
 		<!-- CITY MANPOWER -->
 		<Row>
@@ -311,6 +319,7 @@
 
 		<!-- CITY CONSUMER GOODS -->
 
+		<!--
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_TOWN</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
@@ -352,7 +361,7 @@
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Cost>25</Cost>
 		</Row>
-
+		-->
 	</Building_ResourceQuantityRequirements>
 
 
@@ -2256,7 +2265,7 @@
 			<Cost>20</Cost>
 		</Row>
 
-
+		<!--
 		<Row>
 			<BuildingType>BUILDING_IRON_PROVIDER</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
@@ -2272,7 +2281,7 @@
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Cost>16</Cost>
 		</Row>
-
+		-->
 
 
 	</Building_ResourceQuantityRequirements>
@@ -2478,9 +2487,7 @@
 			<Quantity>8</Quantity>
 		</Row>
 
-
-
-
+		<!--
 		<Row>
 			<BuildingType>BUILDING_MARKET</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
@@ -2528,11 +2535,6 @@
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Quantity>6</Quantity>
 		</Row>
-		<!--<Row>
-			<BuildingType>BUILDING_WILDLIFE_PRESERVE</BuildingType>
-			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>3</Quantity>
-		</Row>-->
 
 		<Row>
 			<BuildingType>BUILDING_JEWELER</BuildingType>
@@ -2545,6 +2547,7 @@
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Quantity>10</Quantity>
 		</Row>
+		-->
 
 		<!--<Row>
 			<BuildingType>BUILDING_AIRPORT</BuildingType>
@@ -2566,7 +2569,7 @@
 		</Row>
 		
 		-->
-
+		<!--
 		<Row>
 			<BuildingType>BUILDING_AMERICAN_CREATIVE_COMPANY</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
@@ -2596,7 +2599,7 @@
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Quantity>8</Quantity>
 		</Row>
-	
+		-->
 		
 		<!--<Row>
 			<BuildingType>BUILDING_VIDEO_GAME_COMPANY</BuildingType>

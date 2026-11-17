@@ -80,6 +80,12 @@ function UpdateCityPortrait( pCity )
 	IconHookup( 0, g_iPortraitSize, "ENEMY_CITY_ATLAS", Controls.UnitPortrait );				
 end
 
+local function GetUnitDisplayName(unit)
+	if unit:HasName() then
+		return unit:GetNameNoDesc()
+	end
+	return unit:GetName()
+end
 
 --------------------------------------------------------------------------------
 -- Refresh Unit portrait and name
@@ -90,7 +96,8 @@ function UpdateUnitPortrait( pUnit )
 		return;
 	end
 
-	local name = pUnit:GetName();
+	--local name = pUnit:GetName();
+	local name = GetUnitDisplayName(pUnit)
 	SetName(name);
 		
 	local flagOffset, flagAtlas = UI.GetUnitFlagIcon(pUnit);

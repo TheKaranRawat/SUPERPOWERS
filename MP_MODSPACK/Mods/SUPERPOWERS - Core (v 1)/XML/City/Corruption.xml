@@ -458,18 +458,13 @@
 
 
 
-
+	<!--
 	<Building_ResourceQuantityRequirements>
 		<Row>
 			<BuildingType>BUILDING_PUPPET_GOVERNEMENT</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Cost>4</Cost>
 		</Row>
-		<!--<Row>
-			<BuildingType>BUILDING_PUPPET_GOVERNEMENT_FULL</BuildingType>
-			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Cost>2</Cost>
-		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_CITY_HALL_LV1</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
@@ -496,8 +491,6 @@
 			<Cost>18</Cost>
 		</Row>
 	</Building_ResourceQuantityRequirements>
+	-->
 
-
-
-
-	</GameData>
+</GameData>

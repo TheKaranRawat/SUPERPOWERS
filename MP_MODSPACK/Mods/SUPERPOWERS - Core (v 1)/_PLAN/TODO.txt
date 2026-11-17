@@ -226,7 +226,17 @@ militia units disable
 display unit count/supply/manpower on civ leader screens
 	ten turn exploration era
 	prevent AI from attacking city states
-
+	
+right click exit
+	golden age
+	leader trade deal
+	
+fix religion icon: pohankentenna	tlateomatili
+restore small icon religion
+	fix revolts spawning
+	disable CS military
+	remove CG
+fix policies
 ------------------------------------------------
 if UI.IsDX9() then
 uiMsg == 523
@@ -254,3 +264,20 @@ ENABLE UNIT ABILITIES BUT ONLY IN SINGLEPLAYER
 4. the lead unit will begin it's movement to a final location using the already pressed move button(can take multiple turns)
 
 2. this will then grant a special promotion that I have already defined. any unit that was granted this promotion will attempt to move to the unit who pressed the button and try to maintain the same position relative to the unit as it was when the button was clicked.
+
+write a civ 5 lua/xml script that achieves the following:
+1. triggers a popup at the start of a turn when certain major world events take place
+2. it should be on the left side of the screen, it should have a smooth sliding transition from the bottom side
+3. should dissapear after a few seconds with a smooth transition
+4. should trigger for major world events such as the following: a nation enters a new era, 
+
+1. gives AI civs air and naval units after a certain era (modern era)
+2. gives AI free aircraft/navy every few turns (configurable) if they do not have a certain set amount (also configurable)
+3. should work by class of units, for navy these are carrier/escort/submarine for airforce these are attack/fighter/bomber
+4. should check if a civ is lacking any of these types below a certain threshold if it is then these units will be given if applicable
+5. naval units should only be given if they have a naval city, they should be spawned in their largest city with naval access
+6. air force should also be spawned directly at their capital
+7. type of units to be gifted will be decided by tech researched, keep the tech and units to gift configurable (I will choose the tech and units)
+8. should be performance friendly and safe for multiplayer
+9. should only be run every ten turns
+10. the threshold of required units below which they should be gifted is determined by the unlock of certain techs and number of cities

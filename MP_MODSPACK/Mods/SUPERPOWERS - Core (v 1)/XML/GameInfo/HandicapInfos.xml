@@ -30,14 +30,14 @@
 				<AttitudeChange>1</AttitudeChange>
 				<NoTechTradeModifier>70</NoTechTradeModifier>
 				<BarbCampGold>25</BarbCampGold>
-				<BarbSpawnMod>0</BarbSpawnMod>
+				<BarbSpawnMod>5</BarbSpawnMod>
 				<BarbarianBonus>40</BarbarianBonus>
 				<AIBarbarianBonus>60</AIBarbarianBonus>
-				<EarliestBarbarianReleaseTurn>5</EarliestBarbarianReleaseTurn>
+				<EarliestBarbarianReleaseTurn>15</EarliestBarbarianReleaseTurn>
 				<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
 				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
 				<AIDeclareWarProb>33</AIDeclareWarProb>
-				<AIUnhappinessPercent>100</AIUnhappinessPercent>
+				<AIUnhappinessPercent>70</AIUnhappinessPercent>
 				<AIGrowthPercent>70</AIGrowthPercent>
 				<AITrainPercent>100</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
@@ -70,8 +70,8 @@
 				<Gold>0</Gold>
 				<GoldFreeUnits>0</GoldFreeUnits>
 				<ProductionFreeUnits>10</ProductionFreeUnits>
-				<ProductionFreeUnitsPopulationPercent>15</ProductionFreeUnitsPopulationPercent>
-				<ProductionFreeUnitsPerCity>5</ProductionFreeUnitsPerCity>
+				<ProductionFreeUnitsPopulationPercent>10</ProductionFreeUnitsPopulationPercent>
+				<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity>
 				<RouteCostPercent>100</RouteCostPercent>
 				<UnitCostPercent>100</UnitCostPercent>
 				<BuildingCostPercent>100</BuildingCostPercent>
@@ -85,14 +85,14 @@
 				<AttitudeChange>-1</AttitudeChange>
 				<NoTechTradeModifier>50</NoTechTradeModifier>
 				<BarbCampGold>25</BarbCampGold>
-				<BarbSpawnMod>0</BarbSpawnMod>
+				<BarbSpawnMod>5</BarbSpawnMod>
 				<BarbarianBonus>20</BarbarianBonus>
 				<AIBarbarianBonus>60</AIBarbarianBonus>
-				<EarliestBarbarianReleaseTurn>5</EarliestBarbarianReleaseTurn>
+				<EarliestBarbarianReleaseTurn>15</EarliestBarbarianReleaseTurn>
 				<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
 				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
 				<AIDeclareWarProb>66</AIDeclareWarProb>
-				<AIUnhappinessPercent>100</AIUnhappinessPercent>
+				<AIUnhappinessPercent>70</AIUnhappinessPercent>
 				<AIGrowthPercent>60</AIGrowthPercent>
 				<AITrainPercent>100</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
@@ -138,10 +138,10 @@
 				<AttitudeChange>-1</AttitudeChange>
 				<NoTechTradeModifier>50</NoTechTradeModifier>
 				<BarbCampGold>25</BarbCampGold>
-				<BarbSpawnMod>0</BarbSpawnMod>
+				<BarbSpawnMod>5</BarbSpawnMod>
 				<BarbarianBonus>0</BarbarianBonus>
 				<AIBarbarianBonus>60</AIBarbarianBonus>
-				<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn>
+				<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn>
 				<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
 				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
 				<AIStartingDefenseUnits>1</AIStartingDefenseUnits>
@@ -149,7 +149,7 @@
 				<AIStartingWorkerUnits>1</AIStartingWorkerUnits>
 				<AIDeclareWarProb>100</AIDeclareWarProb>
 				<AIWorkRateModifier>150</AIWorkRateModifier>
-				<AIUnhappinessPercent>100</AIUnhappinessPercent>
+				<AIUnhappinessPercent>70</AIUnhappinessPercent>
 				<AIGrowthPercent>50</AIGrowthPercent>
 				<AITrainPercent>100</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
@@ -197,10 +197,10 @@
 				<AttitudeChange>-2</AttitudeChange>
 				<NoTechTradeModifier>30</NoTechTradeModifier>
 				<BarbCampGold>25</BarbCampGold>
-				<BarbSpawnMod>0</BarbSpawnMod>
+				<BarbSpawnMod>5</BarbSpawnMod>
 				<BarbarianBonus>0</BarbarianBonus>
 				<AIBarbarianBonus>60</AIBarbarianBonus>
-				<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn>
+				<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn>
 				<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
 				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
 				<AIStartingDefenseUnits>1</AIStartingDefenseUnits>
@@ -208,7 +208,7 @@
 				<AIStartingWorkerUnits>2</AIStartingWorkerUnits>
 				<AIDeclareWarProb>100</AIDeclareWarProb>
 				<AIWorkRateModifier>200</AIWorkRateModifier>
-				<AIUnhappinessPercent>100</AIUnhappinessPercent>
+				<AIUnhappinessPercent>70</AIUnhappinessPercent>
 				<AIGrowthPercent>40</AIGrowthPercent>
 				<AITrainPercent>100</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
@@ -255,10 +255,10 @@
 				<AttitudeChange>-3</AttitudeChange>
 				<NoTechTradeModifier>30</NoTechTradeModifier>
 				<BarbCampGold>25</BarbCampGold>
-				<BarbSpawnMod>0</BarbSpawnMod>
+				<BarbSpawnMod>5</BarbSpawnMod>
 				<BarbarianBonus>0</BarbarianBonus>
 				<AIBarbarianBonus>60</AIBarbarianBonus>
-				<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn>
+				<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn>
 				<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
 				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
 				<AIStartingDefenseUnits>1</AIStartingDefenseUnits>
@@ -268,7 +268,7 @@
 				<!--<AIStartingUnitMultiplier>1</AIStartingUnitMultiplier> -->
 				<AIDeclareWarProb>100</AIDeclareWarProb>
 				<AIWorkRateModifier>250</AIWorkRateModifier>
-				<AIUnhappinessPercent>90</AIUnhappinessPercent>
+				<AIUnhappinessPercent>70</AIUnhappinessPercent>
 				<AIGrowthPercent>30</AIGrowthPercent>
 				<AITrainPercent>100</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
@@ -316,19 +316,19 @@
 				<AttitudeChange>-4</AttitudeChange>
 				<NoTechTradeModifier>30</NoTechTradeModifier>
 				<BarbCampGold>25</BarbCampGold>
-				<BarbSpawnMod>0</BarbSpawnMod>
+				<BarbSpawnMod>5</BarbSpawnMod>
 				<BarbarianBonus>0</BarbarianBonus>
 				<AIBarbarianBonus>60</AIBarbarianBonus>
-				<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn>
+				<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn>
 				<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
 				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
-				<AIStartingDefenseUnits>2</AIStartingDefenseUnits>
-				<AIStartingExploreUnits>2</AIStartingExploreUnits>
+				<AIStartingDefenseUnits>1</AIStartingDefenseUnits>
+				<AIStartingExploreUnits>1</AIStartingExploreUnits>
 				<AIStartingWorkerUnits>2</AIStartingWorkerUnits>
 				<!-- <AIStartingUnitMultiplier>1</AIStartingUnitMultiplier> -->
 				<AIDeclareWarProb>250</AIDeclareWarProb>
 				<AIWorkRateModifier>250</AIWorkRateModifier>
-				<AIUnhappinessPercent>60</AIUnhappinessPercent>
+				<AIUnhappinessPercent>50</AIUnhappinessPercent>
 				<AIGrowthPercent>20</AIGrowthPercent>
 				<AITrainPercent>60</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
@@ -376,19 +376,19 @@
 				<AttitudeChange>-5</AttitudeChange>
 				<NoTechTradeModifier>30</NoTechTradeModifier>
 				<BarbCampGold>25</BarbCampGold>
-				<BarbSpawnMod>0</BarbSpawnMod>
+				<BarbSpawnMod>5</BarbSpawnMod>
 				<BarbarianBonus>0</BarbarianBonus>
 				<AIBarbarianBonus>60</AIBarbarianBonus>
-				<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn>
+				<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn>
 				<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
 				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
-				<AIStartingDefenseUnits>3</AIStartingDefenseUnits>
-				<AIStartingExploreUnits>2</AIStartingExploreUnits>
+				<AIStartingDefenseUnits>1</AIStartingDefenseUnits>
+				<AIStartingExploreUnits>1</AIStartingExploreUnits>
 				<AIStartingWorkerUnits>2</AIStartingWorkerUnits>
 				<AIStartingUnitMultiplier>1</AIStartingUnitMultiplier>
 				<AIDeclareWarProb>400</AIDeclareWarProb>
 				<AIWorkRateModifier>350</AIWorkRateModifier>
-				<AIUnhappinessPercent>50</AIUnhappinessPercent>
+				<AIUnhappinessPercent>40</AIUnhappinessPercent>
 				<AIGrowthPercent>20</AIGrowthPercent>
 				<AITrainPercent>50</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
@@ -436,16 +436,16 @@
 				<AttitudeChange>-6</AttitudeChange>
 				<NoTechTradeModifier>30</NoTechTradeModifier>
 				<BarbCampGold>25</BarbCampGold>
-				<BarbSpawnMod>0</BarbSpawnMod>
+				<BarbSpawnMod>5</BarbSpawnMod>
 				<BarbarianBonus>0</BarbarianBonus>
 				<AIBarbarianBonus>60</AIBarbarianBonus>
-				<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn>
+				<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn>
 				<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
 				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
-				<AIStartingDefenseUnits>5</AIStartingDefenseUnits>
-				<AIStartingExploreUnits>2</AIStartingExploreUnits>
+				<AIStartingDefenseUnits>1</AIStartingDefenseUnits>
+				<AIStartingExploreUnits>1</AIStartingExploreUnits>
 				<AIStartingWorkerUnits>2</AIStartingWorkerUnits>
-				<AIStartingUnitMultiplier>2</AIStartingUnitMultiplier>
+				<AIStartingUnitMultiplier>1</AIStartingUnitMultiplier>
 				<AIDeclareWarProb>800</AIDeclareWarProb>
 				<AIWorkRateModifier>400</AIWorkRateModifier>
 				<AIUnhappinessPercent>33</AIUnhappinessPercent>

@@ -470,6 +470,9 @@ local function UpdateTopPanelNow()
 			date = activePlayer:GetMayaCalendarString()
 		end
 		Controls.CurrentDate:SetText( date )
+
+		local turn = Game.GetGameTurn()
+		Controls.CurrentDate:LocalizeAndSetToolTip("TXT_KEY_TP_TURN_COUNTER", turn)
 		
 		-----------------------------
 		-- Update SUPPLY

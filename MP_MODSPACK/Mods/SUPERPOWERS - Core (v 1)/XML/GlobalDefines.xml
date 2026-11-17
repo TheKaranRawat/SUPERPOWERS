@@ -281,7 +281,7 @@
 		</Update>
 
 		<Update>
-			<Set Value="-50"/>
+			<Set Value="-100"/>
 			<Where Name="VERY_UNHAPPY_THRESHOLD" />
 		</Update>
 
@@ -334,17 +334,17 @@
 		</Update>
 
 		<Update>
-			<Set Value="2"/>
+			<Set Value="4"/>
 			<Where Name="UPRISING_COUNTER_MIN" />
 		</Update>
 
 		<Update>
-			<Set Value="200"/>
+			<Set Value="150"/>
 			<Where Name="UPRISING_NUM_BASE" />
 		</Update>
 
 		<Update>
-			<Set Value="400"/>
+			<Set Value="200"/>
 			<Where Name="UPRISING_NUM_CITY_COUNT" />
 		</Update>
 
@@ -460,11 +460,11 @@
 			<Where Name="BUILD_ON_RIVER_PERCENT" />
 		</Update>
 		<Update>
-			<Set Value="11"/>
+			<Set Value="12"/>
 			<Where Name="SETTLER_EVALUATION_DISTANCE" />
 		</Update>
 		<Update>
-			<Set Value="25"/>
+			<Set Value="90"/>
 			<Where Name="SETTLER_DISTANCE_DROPOFF_MODIFIER" />
 		</Update>
 		<Update>
@@ -680,6 +680,11 @@
 		<Update>
 			<Set Value="20"/>
 			<Where Name="MAX_EXPERIENCE_PER_COMBAT" />
+		</Update>
+
+		<Update>
+			<Set Value="1"/>
+			<Where Name="MAX_BARBARIANS_FROM_CAMP_NEARBY" />
 		</Update>
 
 		<!-- Cost of acquiring new Plots -->

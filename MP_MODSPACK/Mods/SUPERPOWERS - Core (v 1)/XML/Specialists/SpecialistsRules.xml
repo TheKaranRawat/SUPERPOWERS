@@ -636,11 +636,13 @@
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
 			<Quantity>2</Quantity>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_SPECIALISTS_CONSUMER</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Quantity>2</Quantity>
 		</Row>
+		-->
 	</Building_ResourceQuantity>
 	
 	

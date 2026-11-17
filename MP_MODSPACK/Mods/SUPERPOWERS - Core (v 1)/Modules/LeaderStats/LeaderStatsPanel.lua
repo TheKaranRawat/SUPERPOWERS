@@ -91,7 +91,7 @@ local function Refresh()
     Controls.Land:SetText(land)
     Controls.Naval:SetText(navy)
     Controls.Supply:SetText(V((supplied - over) .. "/" .. supplied))
-    Controls.Power:SetText(pl:GetMilitaryMight())
+    Controls.Power:SetText(FormatK(pl:GetMilitaryMight()))
 
     -- Economy
     --[[

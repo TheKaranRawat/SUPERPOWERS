@@ -631,6 +631,12 @@ end
 local defaultErrorTextureSheet = "TechAtlasSmall.dds";
 local nullOffset = Vector2( 0, 0 );
 
+local function GetUnitDisplayName(unit)
+	if unit:HasName() then
+		return unit:GetNameNoDesc()
+	end
+	return unit:GetName()
+end
 --------------------------------------------------------------------------------
 -- Refresh unit portrait and name
 --------------------------------------------------------------------------------
@@ -639,10 +645,12 @@ function UpdateUnitPortrait( unit )
 	if(unit:IsGreatPerson()) or unit:GetUnitCombatType() == GameInfoTypes.UNITCOMBAT_MAGICALGIRL then
 		name = unit:GetNameNoDesc();
 		if(name == nil or #name == 0) then
-			name = unit:GetName();			
+			--name = unit:GetName();		
+			name = GetUnitDisplayName(unit)	
 		end
 	else
-		name = unit:GetName();
+		--name = unit:GetName();
+		name = GetUnitDisplayName(unit)	
 	end
 	
 	name = Locale.ToUpper(name);

@@ -7042,7 +7042,7 @@
 			<Text>
 				A [COLOR_SELECTED_TEXT]Metropolis[ENDCOLOR] is an urban region, which is a significant economic, political, and cultural center for a country or region, and an important hub for regional or international connections, commerce, and communications. With one foot in the past and one foot in the future, Metropolises are a symbol of human endurance and progress.
 				[NEWLINE]
-				[NEWLINE][ICON_BULLET]Citizens [ICON_WORKER]Working Range of this city: 5 Tiles
+				[NEWLINE][ICON_BULLET]Citizens [ICON_WORKER]Working Range of this city: 4 Tiles
 				[NEWLINE][ICON_BULLET][COLOR_FONT_GREEN]Provides[ENDCOLOR] 40 [ICON_RES_MANPOWER]Manpower
 				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Consumes[ENDCOLOR] 50 [ICON_RES_ELECTRICITY]Electricity
 				[NEWLINE][ICON_BULLET][COLOR_FONT_RED]Consumes[ENDCOLOR] 50 [ICON_RES_CONSUMER]Consumer Goods
@@ -61404,7 +61404,7 @@ The second sack of Ulundi is considered by historians to be the definitive end o
 		</Replace>
 		<Replace Tag="TXT_KEY_GOLD_STATS"> 
 			<Text>
-				[ICON_GOLD] Income
+				[ICON_GOLD] Gold
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_GOLD_TERRAIN_ADV_QUEST"> 
@@ -108355,8 +108355,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		<Replace Tag="TXT_KEY_POLICY_ENTERPRISE_HELP"> 
 			<Text>
 				[COLOR_POSITIVE_TEXT]Commercial Enterprise[ENDCOLOR]
-			[NEWLINE]+2 [ICON_GOLD] Gold per [ICON_CITIZEN] Merchant.
-			[NEWLINE]+2 [RESOURCE_CONSUMER] Consumer Goods per [ICON_CITIZEN] Merchant.
+			[NEWLINE]+2 [ICON_GOLD] Gold per [ICON_CITIZEN] Merchant.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ENTERPRISE_TEXT"> 
@@ -111285,7 +111284,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POPULATION_STATS"> 
 			<Text>
-				[ICON_CITIZEN] Population
+				[ICON_CITIZEN] Pop.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POPULATION_SUPPLY"> 

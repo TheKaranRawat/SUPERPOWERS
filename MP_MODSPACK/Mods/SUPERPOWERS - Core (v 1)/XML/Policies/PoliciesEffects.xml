@@ -3544,11 +3544,13 @@
 			<Quantity>45</Quantity>
 		</Row>
 
+		<!--
 		<Row>
 			<BuildingType>BUILDING_CONSUMER_GOODS_OFFER</BuildingType>
 			<ResourceType>RESOURCE_CONSUMER</ResourceType>
 			<Quantity>16</Quantity>
 		</Row>
+		-->
 		<Row>
 			<BuildingType>BUILDING_CONSUMER_GOODS_OFFER</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>

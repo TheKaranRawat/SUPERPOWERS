@@ -34,6 +34,35 @@
 			<Set NumCitiesUnhappinessPercent="100"/>
 			<Where Type="WORLDSIZE_HUGE"/>
 		</Update>
+		<!-- large 13:8 104x64 5152 6656| huge 8:5 128/80 6656 10240-->
+
+		<Update>
+			<Set GridWidth="92"/>	
+			<Where Type="WORLDSIZE_LARGE"/>
+		</Update>
+		<Update>
+			<Set GridHeight="56"/>
+			<Where Type="WORLDSIZE_LARGE"/>
+		</Update>
+		<Update>
+			<Set DefaultPlayers="9" DefaultMinorCivs="7" />
+			<Where Type="WORLDSIZE_LARGE"/>
+		</Update>
+		
+		<Update>
+			<Set GridWidth="104"/>
+			<Where Type="WORLDSIZE_HUGE"/>
+		</Update>
+		<Update>
+			<Set GridHeight="64"/>
+			<Where Type="WORLDSIZE_HUGE"/>
+		</Update>
+		<Update>
+			<Set DefaultPlayers="10" DefaultMinorCivs="8"/>
+			<Where Type="WORLDSIZE_HUGE"/>
+		</Update>
+
+		
 		
 		<Update>
 			<Set NumCitiesPolicyCostMod="0"/>
@@ -161,35 +190,6 @@
 		</Update>
 		-->
 		
-		<Update>
-			<Set DefaultMinorCivs="3"/>
-			<Where Type="WORLDSIZE_DUEL"/>
-		</Update>
-
-		<Update>
-			<Set DefaultMinorCivs="4"/>
-			<Where Type="WORLDSIZE_TINY"/>
-		</Update>
-
-		<Update>
-			<Set DefaultMinorCivs="5"/>
-			<Where Type="WORLDSIZE_SMALL"/>
-		</Update>
-
-		<Update>
-			<Set DefaultMinorCivs="7"/>
-			<Where Type="WORLDSIZE_STANDARD"/>
-		</Update>
-
-		<Update>
-			<Set DefaultMinorCivs="9"/>
-			<Where Type="WORLDSIZE_LARGE"/>
-		</Update>
-
-		<Update>
-			<Set DefaultMinorCivs="11"/>
-			<Where Type="WORLDSIZE_HUGE"/>
-		</Update>
 
 
 		<!-- number of natural wonders adjustment -->

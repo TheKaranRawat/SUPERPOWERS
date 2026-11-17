@@ -155,6 +155,7 @@ end
 -- International immigration
 -- Returns a number (0 where the old code returned nil on bad input).
 ------------------------------------------------------------------------------
+--[[ DISABLE IMMIGRATION
 function CheckMoveOutCounter(MoveOutPlayerID, MoveInPlayerID)
 	local outP, inP = Players[MoveOutPlayerID], Players[MoveInPlayerID]
 	if outP == nil or inP == nil then return 0 end
@@ -210,7 +211,7 @@ function CheckMoveOutCounter(MoveOutPlayerID, MoveInPlayerID)
 	if DEBUG then print("MoveoutCounterFinal: " .. result) end
 	return result
 end
-
+]]--
 ------------------------------------------------------------------------------
 -- City level by distance from capital
 ------------------------------------------------------------------------------

@@ -326,6 +326,8 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
 	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/StackInstanceManager.lua</File>
     <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/UserInterfaceSettingCache.lua</File>
 	<File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/UserInterfaceSettings.lua</File>
+  <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/AdvancedSetup.lua</File>
+  
     
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TechPanel.lua</File>
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TechPanel.xml</File>
@@ -1446,8 +1448,10 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     
     <File md5="81859D6C825870FE0BE877E466AF6834" import="1">UI/Override/InfoTooltipInclude.lua</File>
     <File md5="7803DFEB1CC49D546EED8C8A1DE998AA" import="1">UI/Override/InGame.lua</File>
+    <File md5="7803DFEB1CC49D546EED8C8A1DE998AA" import="1">UI/Override/InGame.xml</File>
     <File md5="87795029018082BF04AF16A5C0857B42" import="1">UI/Override/NewEraPopup.lua</File>
     <File md5="87795029018082BF04AF16A5C0857B42" import="1">UI/Override/NotificationPanel.lua</File>
+    <File md5="87795029018082BF04AF16A5C0857B42" import="1">UI/Override/NotificationPanel.xml</File>
     <File md5="E53DA553867A544E5313A12101E1E395" import="1">UI/Override/PuppetCityPopup.lua</File>
 	  <File md5="9DBA1146801AAF3E081A8CB2F06E8BF9" import="1">UI/Override/ProductionPopup.lua</File>
 	  <File md5="E78E97E950F7230C21B239E22A4C4497" import="1">UI/Override/ProductionPopup.xml</File>
@@ -3928,7 +3932,13 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/GroupMove/GroupMove.lua</File>
     <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/GroupMove/GroupMove.xml</File>
 
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/UnitAutoNaming/UnitAutoNaming.lua</File>
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/DisableCSUnits/DisableCSUnits.lua</File>
 
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/WarTracker/WarTrackerGlow.dds</File>
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/WarTracker/WarTracker.lua</File>
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/WarTracker/WarTracker.xml</File>
+    
     
 
   </Files>
@@ -3944,7 +3954,7 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     </OnGetDLLPath>
 	-->
 	
-    <OnModActivated>
+  <OnModActivated>
 	
 	  
 	  <UpdateDatabase>DLL/AI - Warmonger Adjustments (v 4)/XML/AIWarmongerAdjustments.xml</UpdateDatabase>
@@ -4538,6 +4548,21 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
       <Name>GroupMove</Name>
       <Description>Move in groups</Description>
     </EntryPoint>
+
+    <EntryPoint type="InGameUIAddin" file="Modules/UnitAutoNaming/UnitAutoNaming.lua">
+      <Name>UnitAutoNaming</Name>
+      <Description>Auto name units</Description>
+    </EntryPoint>
+
+    <EntryPoint type="InGameUIAddin" file="Modules/DisableCSUnits/DisableCSUnits.lua">
+      <Name>DisableCSUnits</Name>
+      <Description>Disable CS from building units</Description>
+    </EntryPoint>    
+
+    <EntryPoint type="InGameUIAddin" file="Modules/WarTracker/WarTracker.lua">
+      <Name>WarTracker</Name>
+      <Description>War Tracker</Description>
+    </EntryPoint>        
 		
     <EntryPoint type="InGameUIAddin" file="Lua/Maps/Terra.lua">
       <Name>Terra</Name>

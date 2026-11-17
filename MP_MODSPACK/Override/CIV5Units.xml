@@ -49811,19 +49811,9 @@
 			<Quantity>6</Quantity> 
 		</Row>
 		<Row> 
-			<BuildingType>BUILDING_TB_STRATEGIC_RICHES</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>4</Quantity> 
-		</Row>
-		<Row> 
 			<BuildingType>BUILDING_UNITED_FRONT_FOOD</BuildingType> 
 			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
 			<Quantity>45</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CONSUMER_GOODS_OFFER</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>16</Quantity> 
 		</Row>
 		<Row> 
 			<BuildingType>BUILDING_CONSUMER_GOODS_OFFER</BuildingType> 
@@ -49836,9 +49826,9 @@
 			<Quantity>20</Quantity> 
 		</Row>
 		<Row> 
-			<BuildingType>BUILDING_PALACE</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>25</Quantity> 
+			<BuildingType>BUILDING_3_GRANDPALACE</BuildingType> 
+			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
+			<Quantity>20</Quantity> 
 		</Row>
 		<Row> 
 			<BuildingType>BUILDING_CITY_SIZE_TOWN</BuildingType> 
@@ -49893,86 +49883,6 @@
 		<Row> 
 			<BuildingType>BUILDING_ALUMINUM_PROVIDER</BuildingType> 
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType> 
-			<Quantity>8</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_MARKET</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>5</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_BAZAAR</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>8</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_FOOD_MARKET</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>5</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_PORTUGAL_AVENIDA</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>5</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_COUNTRY_CLUB</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>2</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_BYZANTIUM_RESORT</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>4</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_BEVERAGE_FACTORY</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>2</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_COFFEE_HOUSE</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>2</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CELTS_IRISHPUB</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>6</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_JEWELER</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>2</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_LOGISTICS_COMPANY</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>10</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_AMERICAN_CREATIVE_COMPANY</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>10</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_3DPRINTING</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>5</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_INTERNATIONAL_TRADE_COMPANY</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>10</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_INTERNATIONAL_SEAPORT</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>10</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CITY_CBD</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
 			<Quantity>8</Quantity> 
 		</Row>
 		<Row> 
@@ -50158,7 +50068,7 @@
 		<Row> 
 			<BuildingType>BUILDING_MECHANIZED_FARM</BuildingType> 
 			<ResourceType>RESOURCE_HORSE</ResourceType> 
-			<Quantity>5</Quantity> 
+			<Quantity>10</Quantity> 
 		</Row>
 		<Row> 
 			<BuildingType>BUILDING_SHOSHONE_HUNTING</BuildingType> 
@@ -50239,81 +50149,6 @@
 			<BuildingType>BUILDING_NATIONAL_ORDER</BuildingType> 
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType> 
 			<Quantity>200</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_NATIONAL_FREEDOM</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>100</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_PETRA</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>16</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_COLOSSUS</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>16</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_SHOSHONE_HUNTING</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>4</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_MOROCCO_MARKET</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>6</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_NATIONAL_CARAVANSARY</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>16</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_PORT_OF_ROTTERDAM</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>24</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_EMPIRE</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>30</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>20</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_VENICE_FONDACO</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>4</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CARAVANSARY</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>4</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_INDONESIA_SPICE_HARBOR</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>4</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_PORTUGAL_PORT</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>4</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_OTTOMAN_EMPIRE_PORT</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>6</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_FW_COMMERCE_SERVER</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>6</Quantity> 
 		</Row>
 		<Row> 
 			<BuildingType>BUILDING_VENICE_FONDACO</BuildingType> 
@@ -50406,19 +50241,9 @@
 			<Quantity>2</Quantity> 
 		</Row>
 		<Row> 
-			<BuildingType>BUILDING_SPECIALISTS_CONSUMER</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>2</Quantity> 
-		</Row>
-		<Row> 
 			<BuildingType>BUILDING_3UC_RANCH</BuildingType> 
 			<ResourceType>RESOURCE_HORSE</ResourceType> 
 			<Quantity>10</Quantity> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_SACBE</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Quantity>3</Quantity> 
 		</Row>
 		<Row> 
 			<BuildingType>BUILDING_3YAM</BuildingType> 
@@ -50469,41 +50294,6 @@
 			<BuildingType>BUILDING_CITY_SIZE_GLOBAL</BuildingType> 
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType> 
 			<Cost>45</Cost> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CITY_SIZE_TOWN</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>1</Cost> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CITY_SIZE_SMALL</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>2</Cost> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CITY_SIZE_MEDIUM</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>12</Cost> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CITY_SIZE_LARGE</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>15</Cost> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CITY_SIZE_XL</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>25</Cost> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CITY_SIZE_XXL</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>25</Cost> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CITY_SIZE_GLOBAL</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>25</Cost> 
 		</Row>
 		<Row> 
 			<BuildingType>BUILDING_RACECOURSE</BuildingType> 
@@ -50724,51 +50514,6 @@
 			<BuildingType>BUILDING_CITY_CBD</BuildingType> 
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType> 
 			<Cost>20</Cost> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_IRON_PROVIDER</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>6</Cost> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_COAL_COMPANY</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>8</Cost> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_ALUMINUM_PROVIDER</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>16</Cost> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_PUPPET_GOVERNEMENT</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>4</Cost> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CITY_HALL_LV1</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>4</Cost> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CITY_HALL_LV2</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>8</Cost> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CITY_HALL_LV3</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>12</Cost> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CITY_HALL_LV4</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>16</Cost> 
-		</Row>
-		<Row> 
-			<BuildingType>BUILDING_CITY_HALL_LV5</BuildingType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>18</Cost> 
 		</Row>
 		<Row> 
 			<BuildingType>BUILDING_COAL_PLANT</BuildingType> 
@@ -66044,7 +65789,7 @@
 			<AddsFreshWater>0</AddsFreshWater> 
 			<PurchaseOnly>0</PurchaseOnly> 
 			<CityWorkingChange>0</CityWorkingChange> 
-			<GlobalCityWorkingChange>0</GlobalCityWorkingChange> 
+			<GlobalCityWorkingChange>1</GlobalCityWorkingChange> 
 			<GreatWorkYieldType>YIELD_CULTURE</GreatWorkYieldType> 
 			<GlobalConversionModifier>0</GlobalConversionModifier> 
 			<ConversionModifier>0</ConversionModifier> 
@@ -66180,7 +65925,7 @@
 			<AddsFreshWater>0</AddsFreshWater> 
 			<PurchaseOnly>0</PurchaseOnly> 
 			<CityWorkingChange>0</CityWorkingChange> 
-			<GlobalCityWorkingChange>1</GlobalCityWorkingChange> 
+			<GlobalCityWorkingChange>0</GlobalCityWorkingChange> 
 			<GreatWorkYieldType>YIELD_CULTURE</GreatWorkYieldType> 
 			<GlobalConversionModifier>0</GlobalConversionModifier> 
 			<ConversionModifier>0</ConversionModifier> 
@@ -171473,7 +171218,7 @@
 		</Row>
 		<Row> 
 			<Name>PROMOTIONS_VARIABLE_RECON</Name> 
-			<Value>1</Value> 
+			<Value>0</Value> 
 			<Class>2</Class> 
 			<DbUpdates>1</DbUpdates> 
 		</Row>
@@ -172049,43 +171794,43 @@
 		</Row>
 		<Row> 
 			<Name>EVENTS_BATTLES</Name> 
-			<Value>1</Value> 
+			<Value>0</Value> 
 			<Class>3</Class> 
 			<DbUpdates>1</DbUpdates> 
 		</Row>
 		<Row> 
 			<Name>EVENTS_BATTLES_DAMAGE</Name> 
-			<Value>1</Value> 
+			<Value>0</Value> 
 			<Class>3</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
 		<Row> 
 			<Name>EVENTS_RED_TURN</Name> 
-			<Value>1</Value> 
+			<Value>0</Value> 
 			<Class>3</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
 		<Row> 
 			<Name>EVENTS_RED_COMBAT</Name> 
-			<Value>1</Value> 
+			<Value>0</Value> 
 			<Class>3</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
 		<Row> 
 			<Name>EVENTS_RED_COMBAT_MISSION</Name> 
-			<Value>1</Value> 
+			<Value>0</Value> 
 			<Class>3</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
 		<Row> 
 			<Name>EVENTS_RED_COMBAT_ABORT</Name> 
-			<Value>1</Value> 
+			<Value>0</Value> 
 			<Class>3</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
 		<Row> 
 			<Name>EVENTS_RED_COMBAT_RESULT</Name> 
-			<Value>1</Value> 
+			<Value>0</Value> 
 			<Class>3</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
@@ -172145,19 +171890,19 @@
 		</Row>
 		<Row> 
 			<Name>API_ESPIONAGE</Name> 
-			<Value>1</Value> 
+			<Value>0</Value> 
 			<Class>2</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
 		<Row> 
 			<Name>API_TRADEROUTES</Name> 
-			<Value>1</Value> 
+			<Value>0</Value> 
 			<Class>2</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
 		<Row> 
 			<Name>API_RELIGION</Name> 
-			<Value>1</Value> 
+			<Value>0</Value> 
 			<Class>2</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
@@ -172235,7 +171980,7 @@
 		</Row>
 		<Row> 
 			<Name>BUGFIX_LUA_CHANGE_VISIBILITY_COUNT</Name> 
-			<Value>1</Value> 
+			<Value>0</Value> 
 			<Class>1</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
@@ -172604,7 +172349,7 @@
 		</Row>
 		<Row> 
 			<Name>VERY_UNHAPPY_THRESHOLD</Name> 
-			<Value>-50</Value> 
+			<Value>-100</Value> 
 		</Row>
 		<Row> 
 			<Name>VERY_UNHAPPY_COMBAT_PENALTY_PER_UNHAPPY</Name> 
@@ -172640,7 +172385,7 @@
 		</Row>
 		<Row> 
 			<Name>UPRISING_COUNTER_MIN</Name> 
-			<Value>2</Value> 
+			<Value>4</Value> 
 		</Row>
 		<Row> 
 			<Name>UPRISING_COUNTER_POSSIBLE</Name> 
@@ -172648,11 +172393,11 @@
 		</Row>
 		<Row> 
 			<Name>UPRISING_NUM_BASE</Name> 
-			<Value>200</Value> 
+			<Value>150</Value> 
 		</Row>
 		<Row> 
 			<Name>UPRISING_NUM_CITY_COUNT</Name> 
-			<Value>400</Value> 
+			<Value>200</Value> 
 		</Row>
 		<Row> 
 			<Name>REVOLT_COUNTER_MIN</Name> 
@@ -173328,7 +173073,7 @@
 		</Row>
 		<Row> 
 			<Name>MAX_BARBARIANS_FROM_CAMP_NEARBY</Name> 
-			<Value>2</Value> 
+			<Value>1</Value> 
 		</Row>
 		<Row> 
 			<Name>MAX_BARBARIANS_FROM_CAMP_NEARBY_RANGE</Name> 
@@ -173524,11 +173269,11 @@
 		</Row>
 		<Row> 
 			<Name>SETTLER_EVALUATION_DISTANCE</Name> 
-			<Value>11</Value> 
+			<Value>12</Value> 
 		</Row>
 		<Row> 
 			<Name>SETTLER_DISTANCE_DROPOFF_MODIFIER</Name> 
-			<Value>25</Value> 
+			<Value>90</Value> 
 		</Row>
 		<Row> 
 			<Name>BUILD_ON_RESOURCE_PERCENT</Name> 
@@ -187395,7 +187140,7 @@
 			<DealDuration>30</DealDuration> 
 			<GrowthPercent>150</GrowthPercent> 
 			<TrainPercent>250</TrainPercent> 
-			<ConstructPercent>250</ConstructPercent> 
+			<ConstructPercent>300</ConstructPercent> 
 			<CreatePercent>200</CreatePercent> 
 			<ResearchPercent>210</ResearchPercent> 
 			<GoldPercent>200</GoldPercent> 
@@ -187405,7 +187150,7 @@
 			<GreatPeoplePercent>200</GreatPeoplePercent> 
 			<CulturePercent>250</CulturePercent> 
 			<FaithPercent>125</FaithPercent> 
-			<BarbPercent>150</BarbPercent> 
+			<BarbPercent>40</BarbPercent> 
 			<FeatureProductionPercent>100</FeatureProductionPercent> 
 			<UnitDiscoverPercent>300</UnitDiscoverPercent> 
 			<UnitHurryPercent>250</UnitHurryPercent> 
@@ -187434,7 +187179,7 @@
 			<DealDuration>30</DealDuration> 
 			<GrowthPercent>120</GrowthPercent> 
 			<TrainPercent>250</TrainPercent> 
-			<ConstructPercent>250</ConstructPercent> 
+			<ConstructPercent>300</ConstructPercent> 
 			<CreatePercent>120</CreatePercent> 
 			<ResearchPercent>200</ResearchPercent> 
 			<GoldPercent>115</GoldPercent> 
@@ -187444,7 +187189,7 @@
 			<GreatPeoplePercent>115</GreatPeoplePercent> 
 			<CulturePercent>110</CulturePercent> 
 			<FaithPercent>100</FaithPercent> 
-			<BarbPercent>100</BarbPercent> 
+			<BarbPercent>40</BarbPercent> 
 			<FeatureProductionPercent>90</FeatureProductionPercent> 
 			<UnitDiscoverPercent>150</UnitDiscoverPercent> 
 			<UnitHurryPercent>150</UnitHurryPercent> 
@@ -187473,7 +187218,7 @@
 			<DealDuration>30</DealDuration> 
 			<GrowthPercent>100</GrowthPercent> 
 			<TrainPercent>200</TrainPercent> 
-			<ConstructPercent>200</ConstructPercent> 
+			<ConstructPercent>300</ConstructPercent> 
 			<CreatePercent>100</CreatePercent> 
 			<ResearchPercent>150</ResearchPercent> 
 			<GoldPercent>100</GoldPercent> 
@@ -187483,7 +187228,7 @@
 			<GreatPeoplePercent>100</GreatPeoplePercent> 
 			<CulturePercent>100</CulturePercent> 
 			<FaithPercent>85</FaithPercent> 
-			<BarbPercent>100</BarbPercent> 
+			<BarbPercent>40</BarbPercent> 
 			<FeatureProductionPercent>70</FeatureProductionPercent> 
 			<UnitDiscoverPercent>100</UnitDiscoverPercent> 
 			<UnitHurryPercent>100</UnitHurryPercent> 
@@ -187512,7 +187257,7 @@
 			<DealDuration>20</DealDuration> 
 			<GrowthPercent>80</GrowthPercent> 
 			<TrainPercent>150</TrainPercent> 
-			<ConstructPercent>150</ConstructPercent> 
+			<ConstructPercent>200</ConstructPercent> 
 			<CreatePercent>66</CreatePercent> 
 			<ResearchPercent>90</ResearchPercent> 
 			<GoldPercent>80</GoldPercent> 
@@ -187522,7 +187267,7 @@
 			<GreatPeoplePercent>66</GreatPeoplePercent> 
 			<CulturePercent>66</CulturePercent> 
 			<FaithPercent>50</FaithPercent> 
-			<BarbPercent>66</BarbPercent> 
+			<BarbPercent>40</BarbPercent> 
 			<FeatureProductionPercent>70</FeatureProductionPercent> 
 			<UnitDiscoverPercent>67</UnitDiscoverPercent> 
 			<UnitHurryPercent>100</UnitHurryPercent> 
@@ -191252,10 +190997,10 @@
 			<NoTechTradeModifier>70</NoTechTradeModifier> 
 			<TechTradeKnownModifier>-100</TechTradeKnownModifier> 
 			<BarbCampGold>25</BarbCampGold> 
-			<BarbSpawnMod>0</BarbSpawnMod> 
+			<BarbSpawnMod>5</BarbSpawnMod> 
 			<BarbarianBonus>40</BarbarianBonus> 
 			<AIBarbarianBonus>60</AIBarbarianBonus> 
-			<EarliestBarbarianReleaseTurn>5</EarliestBarbarianReleaseTurn> 
+			<EarliestBarbarianReleaseTurn>15</EarliestBarbarianReleaseTurn> 
 			<BarbarianLandTargetRange>5</BarbarianLandTargetRange> 
 			<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange> 
 			<StartingDefenseUnits>0</StartingDefenseUnits> 
@@ -191267,7 +191012,7 @@
 			<AIStartingExploreUnits>0</AIStartingExploreUnits> 
 			<AIDeclareWarProb>33</AIDeclareWarProb> 
 			<AIWorkRateModifier>50</AIWorkRateModifier> 
-			<AIUnhappinessPercent>100</AIUnhappinessPercent> 
+			<AIUnhappinessPercent>70</AIUnhappinessPercent> 
 			<AIGrowthPercent>70</AIGrowthPercent> 
 			<AITrainPercent>100</AITrainPercent> 
 			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
@@ -191302,8 +191047,8 @@
 			<Gold>0</Gold> 
 			<GoldFreeUnits>0</GoldFreeUnits> 
 			<ProductionFreeUnits>10</ProductionFreeUnits> 
-			<ProductionFreeUnitsPerCity>5</ProductionFreeUnitsPerCity> 
-			<ProductionFreeUnitsPopulationPercent>15</ProductionFreeUnitsPopulationPercent> 
+			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity> 
+			<ProductionFreeUnitsPopulationPercent>10</ProductionFreeUnitsPopulationPercent> 
 			<RouteCostPercent>100</RouteCostPercent> 
 			<UnitCostPercent>100</UnitCostPercent> 
 			<BuildingCostPercent>100</BuildingCostPercent> 
@@ -191319,10 +191064,10 @@
 			<NoTechTradeModifier>50</NoTechTradeModifier> 
 			<TechTradeKnownModifier>-50</TechTradeKnownModifier> 
 			<BarbCampGold>25</BarbCampGold> 
-			<BarbSpawnMod>0</BarbSpawnMod> 
+			<BarbSpawnMod>5</BarbSpawnMod> 
 			<BarbarianBonus>20</BarbarianBonus> 
 			<AIBarbarianBonus>60</AIBarbarianBonus> 
-			<EarliestBarbarianReleaseTurn>5</EarliestBarbarianReleaseTurn> 
+			<EarliestBarbarianReleaseTurn>15</EarliestBarbarianReleaseTurn> 
 			<BarbarianLandTargetRange>5</BarbarianLandTargetRange> 
 			<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange> 
 			<StartingDefenseUnits>0</StartingDefenseUnits> 
@@ -191334,7 +191079,7 @@
 			<AIStartingExploreUnits>0</AIStartingExploreUnits> 
 			<AIDeclareWarProb>66</AIDeclareWarProb> 
 			<AIWorkRateModifier>100</AIWorkRateModifier> 
-			<AIUnhappinessPercent>100</AIUnhappinessPercent> 
+			<AIUnhappinessPercent>70</AIUnhappinessPercent> 
 			<AIGrowthPercent>60</AIGrowthPercent> 
 			<AITrainPercent>100</AITrainPercent> 
 			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
@@ -191386,10 +191131,10 @@
 			<NoTechTradeModifier>50</NoTechTradeModifier> 
 			<TechTradeKnownModifier>-25</TechTradeKnownModifier> 
 			<BarbCampGold>25</BarbCampGold> 
-			<BarbSpawnMod>0</BarbSpawnMod> 
+			<BarbSpawnMod>5</BarbSpawnMod> 
 			<BarbarianBonus>0</BarbarianBonus> 
 			<AIBarbarianBonus>60</AIBarbarianBonus> 
-			<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn> 
+			<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn> 
 			<BarbarianLandTargetRange>5</BarbarianLandTargetRange> 
 			<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange> 
 			<StartingDefenseUnits>0</StartingDefenseUnits> 
@@ -191401,7 +191146,7 @@
 			<AIStartingExploreUnits>1</AIStartingExploreUnits> 
 			<AIDeclareWarProb>100</AIDeclareWarProb> 
 			<AIWorkRateModifier>150</AIWorkRateModifier> 
-			<AIUnhappinessPercent>100</AIUnhappinessPercent> 
+			<AIUnhappinessPercent>70</AIUnhappinessPercent> 
 			<AIGrowthPercent>50</AIGrowthPercent> 
 			<AITrainPercent>100</AITrainPercent> 
 			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
@@ -191453,10 +191198,10 @@
 			<NoTechTradeModifier>30</NoTechTradeModifier> 
 			<TechTradeKnownModifier>0</TechTradeKnownModifier> 
 			<BarbCampGold>25</BarbCampGold> 
-			<BarbSpawnMod>0</BarbSpawnMod> 
+			<BarbSpawnMod>5</BarbSpawnMod> 
 			<BarbarianBonus>0</BarbarianBonus> 
 			<AIBarbarianBonus>60</AIBarbarianBonus> 
-			<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn> 
+			<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn> 
 			<BarbarianLandTargetRange>5</BarbarianLandTargetRange> 
 			<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange> 
 			<StartingDefenseUnits>0</StartingDefenseUnits> 
@@ -191468,7 +191213,7 @@
 			<AIStartingExploreUnits>2</AIStartingExploreUnits> 
 			<AIDeclareWarProb>100</AIDeclareWarProb> 
 			<AIWorkRateModifier>200</AIWorkRateModifier> 
-			<AIUnhappinessPercent>100</AIUnhappinessPercent> 
+			<AIUnhappinessPercent>70</AIUnhappinessPercent> 
 			<AIGrowthPercent>40</AIGrowthPercent> 
 			<AITrainPercent>100</AITrainPercent> 
 			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
@@ -191520,10 +191265,10 @@
 			<NoTechTradeModifier>30</NoTechTradeModifier> 
 			<TechTradeKnownModifier>0</TechTradeKnownModifier> 
 			<BarbCampGold>25</BarbCampGold> 
-			<BarbSpawnMod>0</BarbSpawnMod> 
+			<BarbSpawnMod>5</BarbSpawnMod> 
 			<BarbarianBonus>0</BarbarianBonus> 
 			<AIBarbarianBonus>60</AIBarbarianBonus> 
-			<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn> 
+			<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn> 
 			<BarbarianLandTargetRange>5</BarbarianLandTargetRange> 
 			<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange> 
 			<StartingDefenseUnits>0</StartingDefenseUnits> 
@@ -191535,7 +191280,7 @@
 			<AIStartingExploreUnits>2</AIStartingExploreUnits> 
 			<AIDeclareWarProb>100</AIDeclareWarProb> 
 			<AIWorkRateModifier>250</AIWorkRateModifier> 
-			<AIUnhappinessPercent>90</AIUnhappinessPercent> 
+			<AIUnhappinessPercent>70</AIUnhappinessPercent> 
 			<AIGrowthPercent>30</AIGrowthPercent> 
 			<AITrainPercent>100</AITrainPercent> 
 			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
@@ -191587,22 +191332,22 @@
 			<NoTechTradeModifier>30</NoTechTradeModifier> 
 			<TechTradeKnownModifier>0</TechTradeKnownModifier> 
 			<BarbCampGold>25</BarbCampGold> 
-			<BarbSpawnMod>0</BarbSpawnMod> 
+			<BarbSpawnMod>5</BarbSpawnMod> 
 			<BarbarianBonus>0</BarbarianBonus> 
 			<AIBarbarianBonus>60</AIBarbarianBonus> 
-			<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn> 
+			<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn> 
 			<BarbarianLandTargetRange>5</BarbarianLandTargetRange> 
 			<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange> 
 			<StartingDefenseUnits>0</StartingDefenseUnits> 
 			<StartingWorkerUnits>0</StartingWorkerUnits> 
 			<StartingExploreUnits>0</StartingExploreUnits> 
 			<AIStartingUnitMultiplier>0</AIStartingUnitMultiplier> 
-			<AIStartingDefenseUnits>2</AIStartingDefenseUnits> 
+			<AIStartingDefenseUnits>1</AIStartingDefenseUnits> 
 			<AIStartingWorkerUnits>2</AIStartingWorkerUnits> 
-			<AIStartingExploreUnits>2</AIStartingExploreUnits> 
+			<AIStartingExploreUnits>1</AIStartingExploreUnits> 
 			<AIDeclareWarProb>250</AIDeclareWarProb> 
 			<AIWorkRateModifier>250</AIWorkRateModifier> 
-			<AIUnhappinessPercent>60</AIUnhappinessPercent> 
+			<AIUnhappinessPercent>50</AIUnhappinessPercent> 
 			<AIGrowthPercent>20</AIGrowthPercent> 
 			<AITrainPercent>60</AITrainPercent> 
 			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
@@ -191654,22 +191399,22 @@
 			<NoTechTradeModifier>30</NoTechTradeModifier> 
 			<TechTradeKnownModifier>0</TechTradeKnownModifier> 
 			<BarbCampGold>25</BarbCampGold> 
-			<BarbSpawnMod>0</BarbSpawnMod> 
+			<BarbSpawnMod>5</BarbSpawnMod> 
 			<BarbarianBonus>0</BarbarianBonus> 
 			<AIBarbarianBonus>60</AIBarbarianBonus> 
-			<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn> 
+			<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn> 
 			<BarbarianLandTargetRange>5</BarbarianLandTargetRange> 
 			<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange> 
 			<StartingDefenseUnits>0</StartingDefenseUnits> 
 			<StartingWorkerUnits>0</StartingWorkerUnits> 
 			<StartingExploreUnits>0</StartingExploreUnits> 
 			<AIStartingUnitMultiplier>1</AIStartingUnitMultiplier> 
-			<AIStartingDefenseUnits>3</AIStartingDefenseUnits> 
+			<AIStartingDefenseUnits>1</AIStartingDefenseUnits> 
 			<AIStartingWorkerUnits>2</AIStartingWorkerUnits> 
-			<AIStartingExploreUnits>2</AIStartingExploreUnits> 
+			<AIStartingExploreUnits>1</AIStartingExploreUnits> 
 			<AIDeclareWarProb>400</AIDeclareWarProb> 
 			<AIWorkRateModifier>350</AIWorkRateModifier> 
-			<AIUnhappinessPercent>50</AIUnhappinessPercent> 
+			<AIUnhappinessPercent>40</AIUnhappinessPercent> 
 			<AIGrowthPercent>20</AIGrowthPercent> 
 			<AITrainPercent>50</AITrainPercent> 
 			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
@@ -191721,19 +191466,19 @@
 			<NoTechTradeModifier>30</NoTechTradeModifier> 
 			<TechTradeKnownModifier>0</TechTradeKnownModifier> 
 			<BarbCampGold>25</BarbCampGold> 
-			<BarbSpawnMod>0</BarbSpawnMod> 
+			<BarbSpawnMod>5</BarbSpawnMod> 
 			<BarbarianBonus>0</BarbarianBonus> 
 			<AIBarbarianBonus>60</AIBarbarianBonus> 
-			<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn> 
+			<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn> 
 			<BarbarianLandTargetRange>5</BarbarianLandTargetRange> 
 			<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange> 
 			<StartingDefenseUnits>0</StartingDefenseUnits> 
 			<StartingWorkerUnits>0</StartingWorkerUnits> 
 			<StartingExploreUnits>0</StartingExploreUnits> 
-			<AIStartingUnitMultiplier>2</AIStartingUnitMultiplier> 
-			<AIStartingDefenseUnits>5</AIStartingDefenseUnits> 
+			<AIStartingUnitMultiplier>1</AIStartingUnitMultiplier> 
+			<AIStartingDefenseUnits>1</AIStartingDefenseUnits> 
 			<AIStartingWorkerUnits>2</AIStartingWorkerUnits> 
-			<AIStartingExploreUnits>2</AIStartingExploreUnits> 
+			<AIStartingExploreUnits>1</AIStartingExploreUnits> 
 			<AIDeclareWarProb>800</AIDeclareWarProb> 
 			<AIWorkRateModifier>400</AIWorkRateModifier> 
 			<AIUnhappinessPercent>33</AIUnhappinessPercent> 
@@ -270833,7 +270578,7 @@
 			<Unique>0</Unique> 
 			<GroupRange>0</GroupRange> 
 			<GroupRand>0</GroupRand> 
-			<ResourceUsage>1</ResourceUsage> 
+			<ResourceUsage>0</ResourceUsage> 
 			<PresentOnAllValidPlots>false</PresentOnAllValidPlots> 
 			<Area>false</Area> 
 			<Hills>false</Hills> 
@@ -270935,7 +270680,7 @@
 			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType> 
 			<ArtDefineTag>ART_DEF_RESOURCE_COFFEE</ArtDefineTag> 
 			<TechCityTrade>TECH_CALENDAR</TechCityTrade> 
-			<Happiness>5</Happiness> 
+			<Happiness>10</Happiness> 
 			<WonderProductionMod>0</WonderProductionMod> 
 			<StartingResourceQuantity>0</StartingResourceQuantity> 
 			<AITradeModifier>0</AITradeModifier> 
@@ -270975,7 +270720,7 @@
 			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType> 
 			<ArtDefineTag>ART_DEF_RESOURCE_TEA</ArtDefineTag> 
 			<TechCityTrade>TECH_CALENDAR</TechCityTrade> 
-			<Happiness>5</Happiness> 
+			<Happiness>8</Happiness> 
 			<WonderProductionMod>0</WonderProductionMod> 
 			<StartingResourceQuantity>0</StartingResourceQuantity> 
 			<AITradeModifier>0</AITradeModifier> 
@@ -271015,7 +270760,7 @@
 			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType> 
 			<ArtDefineTag>ART_DEF_RESOURCE_TOBACCO</ArtDefineTag> 
 			<TechCityTrade>TECH_CALENDAR</TechCityTrade> 
-			<Happiness>5</Happiness> 
+			<Happiness>8</Happiness> 
 			<WonderProductionMod>0</WonderProductionMod> 
 			<StartingResourceQuantity>0</StartingResourceQuantity> 
 			<AITradeModifier>0</AITradeModifier> 
@@ -271055,7 +270800,7 @@
 			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType> 
 			<ArtDefineTag>ART_DEF_RESOURCE_AMBER</ArtDefineTag> 
 			<TechCityTrade>TECH_BRONZE_WORKING</TechCityTrade> 
-			<Happiness>4</Happiness> 
+			<Happiness>6</Happiness> 
 			<WonderProductionMod>0</WonderProductionMod> 
 			<StartingResourceQuantity>0</StartingResourceQuantity> 
 			<AITradeModifier>0</AITradeModifier> 
@@ -271095,7 +270840,7 @@
 			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType> 
 			<ArtDefineTag>ART_DEF_RESOURCE_JADE</ArtDefineTag> 
 			<TechCityTrade>TECH_BRONZE_WORKING</TechCityTrade> 
-			<Happiness>5</Happiness> 
+			<Happiness>6</Happiness> 
 			<WonderProductionMod>0</WonderProductionMod> 
 			<StartingResourceQuantity>0</StartingResourceQuantity> 
 			<AITradeModifier>0</AITradeModifier> 
@@ -271135,7 +270880,7 @@
 			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType> 
 			<ArtDefineTag>ART_DEF_RESOURCE_OLIVE</ArtDefineTag> 
 			<TechCityTrade>TECH_CALENDAR</TechCityTrade> 
-			<Happiness>5</Happiness> 
+			<Happiness>6</Happiness> 
 			<WonderProductionMod>0</WonderProductionMod> 
 			<StartingResourceQuantity>0</StartingResourceQuantity> 
 			<AITradeModifier>0</AITradeModifier> 
@@ -271175,7 +270920,7 @@
 			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType> 
 			<ArtDefineTag>ART_DEF_RESOURCE_PERFUME</ArtDefineTag> 
 			<TechCityTrade>TECH_CALENDAR</TechCityTrade> 
-			<Happiness>5</Happiness> 
+			<Happiness>10</Happiness> 
 			<WonderProductionMod>0</WonderProductionMod> 
 			<StartingResourceQuantity>0</StartingResourceQuantity> 
 			<AITradeModifier>0</AITradeModifier> 
@@ -271255,7 +271000,7 @@
 			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType> 
 			<ArtDefineTag>ART_DEF_RESOURCE_LAPIS</ArtDefineTag> 
 			<TechCityTrade>TECH_BRONZE_WORKING</TechCityTrade> 
-			<Happiness>4</Happiness> 
+			<Happiness>6</Happiness> 
 			<WonderProductionMod>0</WonderProductionMod> 
 			<StartingResourceQuantity>0</StartingResourceQuantity> 
 			<AITradeModifier>0</AITradeModifier> 
@@ -271295,7 +271040,7 @@
 			<Help>TXT_KEY_RESOURCE_GLASS_HELP</Help> 
 			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType> 
 			<ArtDefineTag>ART_DEF_RESOURCE_MARBLE</ArtDefineTag> 
-			<Happiness>5</Happiness> 
+			<Happiness>8</Happiness> 
 			<WonderProductionMod>0</WonderProductionMod> 
 			<StartingResourceQuantity>0</StartingResourceQuantity> 
 			<AITradeModifier>0</AITradeModifier> 
@@ -359593,21 +359338,6 @@
 		<Delete />
 
 		<Row> 
-			<UnitType>UNIT_SETTLER</UnitType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>1</Cost> 
-		</Row>
-		<Row> 
-			<UnitType>UNIT_CARAVAN</UnitType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>1</Cost> 
-		</Row>
-		<Row> 
-			<UnitType>UNIT_CARGO_SHIP</UnitType> 
-			<ResourceType>RESOURCE_CONSUMER</ResourceType> 
-			<Cost>3</Cost> 
-		</Row>
-		<Row> 
 			<UnitType>UNIT_SS_STASIS_CHAMBER</UnitType> 
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType> 
 			<Cost>6</Cost> 
@@ -365469,7 +365199,7 @@
 			<Requirements>TXT_KEY_NO_ACTION_SETTLER_SIZE_LIMIT_HARDCODED</Requirements> 
 			<Combat>0</Combat> 
 			<RangedCombat>0</RangedCombat> 
-			<Cost>0</Cost> 
+			<Cost>90</Cost> 
 			<FaithCost>0</FaithCost> 
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
@@ -396309,7 +396039,7 @@
 			<Description>TXT_KEY_WORLD_DUEL</Description> 
 			<Help>TXT_KEY_WORLD_DUEL_HELP</Help> 
 			<DefaultPlayers>2</DefaultPlayers> 
-			<DefaultMinorCivs>3</DefaultMinorCivs> 
+			<DefaultMinorCivs>4</DefaultMinorCivs> 
 			<FogTilesPerBarbarianCamp>13</FogTilesPerBarbarianCamp> 
 			<NumNaturalWonders>8</NumNaturalWonders> 
 			<UnitNameModifier>50</UnitNameModifier> 
@@ -396338,7 +396068,7 @@
 			<Description>TXT_KEY_WORLD_TINY</Description> 
 			<Help>TXT_KEY_WORLD_TINY_HELP</Help> 
 			<DefaultPlayers>4</DefaultPlayers> 
-			<DefaultMinorCivs>4</DefaultMinorCivs> 
+			<DefaultMinorCivs>8</DefaultMinorCivs> 
 			<FogTilesPerBarbarianCamp>18</FogTilesPerBarbarianCamp> 
 			<NumNaturalWonders>8</NumNaturalWonders> 
 			<UnitNameModifier>40</UnitNameModifier> 
@@ -396367,7 +396097,7 @@
 			<Description>TXT_KEY_WORLD_SMALL</Description> 
 			<Help>TXT_KEY_WORLD_SMALL_HELP</Help> 
 			<DefaultPlayers>6</DefaultPlayers> 
-			<DefaultMinorCivs>5</DefaultMinorCivs> 
+			<DefaultMinorCivs>12</DefaultMinorCivs> 
 			<FogTilesPerBarbarianCamp>23</FogTilesPerBarbarianCamp> 
 			<NumNaturalWonders>10</NumNaturalWonders> 
 			<UnitNameModifier>30</UnitNameModifier> 
@@ -396396,7 +396126,7 @@
 			<Description>TXT_KEY_WORLD_STANDARD</Description> 
 			<Help>TXT_KEY_WORLD_STANDARD_HELP</Help> 
 			<DefaultPlayers>8</DefaultPlayers> 
-			<DefaultMinorCivs>7</DefaultMinorCivs> 
+			<DefaultMinorCivs>16</DefaultMinorCivs> 
 			<FogTilesPerBarbarianCamp>27</FogTilesPerBarbarianCamp> 
 			<NumNaturalWonders>12</NumNaturalWonders> 
 			<UnitNameModifier>20</UnitNameModifier> 
@@ -396424,8 +396154,8 @@
 			<Type>WORLDSIZE_LARGE</Type> 
 			<Description>TXT_KEY_WORLD_LARGE</Description> 
 			<Help>TXT_KEY_WORLD_LARGE_HELP</Help> 
-			<DefaultPlayers>10</DefaultPlayers> 
-			<DefaultMinorCivs>9</DefaultMinorCivs> 
+			<DefaultPlayers>9</DefaultPlayers> 
+			<DefaultMinorCivs>7</DefaultMinorCivs> 
 			<FogTilesPerBarbarianCamp>30</FogTilesPerBarbarianCamp> 
 			<NumNaturalWonders>14</NumNaturalWonders> 
 			<UnitNameModifier>10</UnitNameModifier> 
@@ -396433,8 +396163,8 @@
 			<NumFreeBuildingResources>6</NumFreeBuildingResources> 
 			<BuildingClassPrereqModifier>75</BuildingClassPrereqModifier> 
 			<MaxConscriptModifier>50</MaxConscriptModifier> 
-			<GridWidth>104</GridWidth> 
-			<GridHeight>64</GridHeight> 
+			<GridWidth>92</GridWidth> 
+			<GridHeight>56</GridHeight> 
 			<MaxActiveReligions>10</MaxActiveReligions> 
 			<TerrainGrainChange>1</TerrainGrainChange> 
 			<FeatureGrainChange>1</FeatureGrainChange> 
@@ -396453,8 +396183,8 @@
 			<Type>WORLDSIZE_HUGE</Type> 
 			<Description>TXT_KEY_WORLD_HUGE</Description> 
 			<Help>TXT_KEY_WORLD_HUGE_HELP</Help> 
-			<DefaultPlayers>12</DefaultPlayers> 
-			<DefaultMinorCivs>11</DefaultMinorCivs> 
+			<DefaultPlayers>10</DefaultPlayers> 
+			<DefaultMinorCivs>8</DefaultMinorCivs> 
 			<FogTilesPerBarbarianCamp>35</FogTilesPerBarbarianCamp> 
 			<NumNaturalWonders>17</NumNaturalWonders> 
 			<UnitNameModifier>0</UnitNameModifier> 
@@ -396462,8 +396192,8 @@
 			<NumFreeBuildingResources>7</NumFreeBuildingResources> 
 			<BuildingClassPrereqModifier>100</BuildingClassPrereqModifier> 
 			<MaxConscriptModifier>75</MaxConscriptModifier> 
-			<GridWidth>128</GridWidth> 
-			<GridHeight>80</GridHeight> 
+			<GridWidth>104</GridWidth> 
+			<GridHeight>64</GridHeight> 
 			<MaxActiveReligions>12</MaxActiveReligions> 
 			<TerrainGrainChange>1</TerrainGrainChange> 
 			<FeatureGrainChange>1</FeatureGrainChange> 

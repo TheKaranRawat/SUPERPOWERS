@@ -216,7 +216,8 @@ ContextPtr:SetShowHideHandler( OnShowHide );
 
 ----------------------------------------------------------------        
 -- Key Down Processing
-----------------------------------------------------------------        
+---------------------------------------------------------------- 
+--[[ old        
 function InputHandler( uiMsg, wParam, lParam )
     if( uiMsg == KeyEvents.KeyDown )
     then
@@ -227,7 +228,23 @@ function InputHandler( uiMsg, wParam, lParam )
     return true;
 end
 ContextPtr:SetInputHandler( InputHandler );
+]]--
 
+function InputHandler(uiMsg, wParam, lParam)
+    if uiMsg == KeyEvents.KeyDown and wParam == Keys.VK_ESCAPE then
+        OnReturn();    -- whatever Escape already calls
+    end
+
+    if uiMsg == MouseEvents.RButtonUp then
+        OnReturn();     -- same function as Escape
+    end
+
+	if uiMsg == 523 then
+        OnReturn();     -- same function as Escape
+    end
+    return true
+end
+ContextPtr:SetInputHandler(InputHandler)
 
 
 ----------------------------------------------------------------        

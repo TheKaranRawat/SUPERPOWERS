@@ -18,6 +18,16 @@ local g_InstanceMap = {};
 local alertTable = {};
 local mustRefreshAlerts = false;
 
+-- ===== Alert tuning =====
+local pendingAlerts = {};
+local STAGGER_DELAY = 1;             -- seconds between alerts appearing
+local staggerTimer = STAGGER_DELAY;  -- start charged so the first alert shows immediately
+local ALERT_DURATION = 10;           -- seconds an alert stays on screen
+local FADE_DURATION = 1.0;           -- seconds to fade in
+local SLIDE_DISTANCE = 80;           -- pixels the alert rises from below
+local FADE_OUT_DURATION = 1.3;       -- seconds to fade out at the end of the timer
+local fadeErrorShown = false;        -- so the log isn't spammed
+
 local bHideDebug = true;
 local g_ShowWorkerRecommendation = not Game.IsNetworkMultiPlayer();
 local lastCityEntered = nil;
@@ -435,8 +445,9 @@ function OnGameplayAlertMessage( data )
 	newAlert.text = data;
 	newAlert.elapsedTime = 0;
 	newAlert.shownYet = false;
-	table.insert(alertTable,newAlert);
-	mustRefreshAlerts = true;
+	newAlert.fadeTime = 0;
+	-- goes into the waiting queue; OnUpdate releases one every STAGGER_DELAY seconds
+	table.insert( pendingAlerts, newAlert );
 end
 Events.GameplayAlertMessage.Add( OnGameplayAlertMessage );
 
@@ -889,6 +900,8 @@ function OnActivePlayerChanged(iActivePlayer, iPrevActivePlayer)
 
 	-- Reset the alert table and display
 	alertTable = {};
+	pendingAlerts = {};
+	staggerTimer = STAGGER_DELAY;
 	g_InstanceManager:ResetInstances();	
 	KillAllPopupText();
 	mustRefreshAlerts = false;	
@@ -1018,34 +1031,109 @@ end
 Events.SerialEventUnitDestroyed.Add( OnUnitDestroyed );
 
 ----------------------------------------------------------------        
+-- Alert fade-in / slide-up
+-- Must be defined ABOVE OnUpdate. Every engine call is wrapped in
+-- pcall so a missing method can never hide or break the alerts.
+----------------------------------------------------------------        
+function ApplyAlertFade( v )
+	if v.control == nil then
+		return;
+	end
+
+	-- fade in
+	local tIn = 1;
+	if v.fadeTime ~= nil and v.fadeTime < FADE_DURATION then
+		tIn = v.fadeTime / FADE_DURATION;
+	end
+	tIn = 1 - (1 - tIn) * (1 - tIn);	-- ease-out
+
+	-- fade out (last FADE_OUT_DURATION seconds of the timer)
+	local tOut = 1;
+	local fadeOutStart = ALERT_DURATION - FADE_OUT_DURATION;
+	if v.elapsedTime ~= nil and v.elapsedTime > fadeOutStart then
+		tOut = 1 - (v.elapsedTime - fadeOutStart) / FADE_OUT_DURATION;
+		if tOut < 0 then tOut = 0; end
+	end
+
+	local alpha = tIn * tOut;
+	if v.expired then
+		alpha = 0;
+	end
+
+	local label = v.control.AlertMessageLabel;
+
+	local okA, errA = pcall( function() label:SetAlpha( alpha ); end );
+	if not okA and not fadeErrorShown then
+		fadeErrorShown = true;
+		print( "Alert fade: SetAlpha failed: " .. tostring( errA ) );
+	end
+
+	local okO, errO = pcall( function() label:SetOffsetVal( 0, (1 - tIn) * SLIDE_DISTANCE ); end );
+	if not okO and not fadeErrorShown then
+		fadeErrorShown = true;
+		print( "Alert slide: SetOffsetVal failed: " .. tostring( errO ) );
+	end
+end
+
+----------------------------------------------------------------        
 ----------------------------------------------------------------        
 function OnUpdate(fDTime)
+
+	-- Release one waiting alert every STAGGER_DELAY seconds
+	staggerTimer = staggerTimer + fDTime;
+	if #pendingAlerts > 0 and staggerTimer >= STAGGER_DELAY then
+		staggerTimer = 0;
+		local released = table.remove( pendingAlerts, 1 );
+		released.fadeTime = 0;
+		table.insert( alertTable, released );
+		mustRefreshAlerts = true;
+	end
 
 	if #alertTable > 0 then
 		for i, v in ipairs( alertTable ) do
 			if v.shownYet == true then
 				v.elapsedTime = v.elapsedTime + fDTime;
 			end
-			if v.elapsedTime >= 8 then
+			if v.elapsedTime >= ALERT_DURATION and not v.expired then
+				v.expired = true;	-- keeps its slot (invisible) so the others don't shift
 				mustRefreshAlerts = true;
 			end
 		end
 		
 		if mustRefreshAlerts then
-			local newAlertTable = {};
 			g_InstanceManager:ResetInstances();
+
+			-- Expired alerts stay as invisible placeholders so the alerts below
+			-- them don't slide up. Only trailing expired alerts are dropped
+			-- (that can't move anything), and everything is cleared once all expired.
 			for i, v in ipairs( alertTable ) do
-				if v.elapsedTime < 8 then
-					v.shownYet = true;
-					table.insert( newAlertTable, v );
-				end
+				v.shownYet = true;
 			end
-			alertTable = newAlertTable;
+			while #alertTable > 0 and alertTable[#alertTable].expired do
+				table.remove( alertTable );
+			end
 			for i, v in ipairs( alertTable ) do
 				local controlTable = g_InstanceManager:GetInstance();
 				controlTable.AlertMessageLabel:SetText( v.text );
-				Controls.AlertStack:CalculateSize();
-				Controls.AlertStack:ReprocessAnchoring();
+				v.control = controlTable;
+			end
+			Controls.AlertStack:CalculateSize();
+			Controls.AlertStack:ReprocessAnchoring();
+
+			-- apply fade state AFTER layout so the stack can't overwrite it
+			for i, v in ipairs( alertTable ) do
+				ApplyAlertFade( v );
+			end
+		end
+
+		-- animate alerts that are fading in or out
+		for i, v in ipairs( alertTable ) do
+			if v.fadeTime ~= nil and v.fadeTime < FADE_DURATION then
+				v.fadeTime = v.fadeTime + fDTime;
+			end
+			if not v.expired and ((v.fadeTime ~= nil and v.fadeTime < FADE_DURATION)
+			   or v.elapsedTime > ALERT_DURATION - FADE_OUT_DURATION) then
+				ApplyAlertFade( v );
 			end
 		end
 
@@ -1275,11 +1363,11 @@ for addin in Modding.GetActivatedModEntryPoints("InGameUIAddin") do
 	local path = string.sub(addinPath, 1, #addinPath - #extension);
 	
 	table.insert(g_uiAddins, ContextPtr:LoadNewContext(path));
-end
-ContextPtr:LoadNewContext("Stfu")
+endContextPtr:LoadNewContext("Stfu")
 ContextPtr:LoadNewContext("AutoCityFire")
 ContextPtr:LoadNewContext("AutoImprovements")
 ContextPtr:LoadNewContext("AutoRoad")
+ContextPtr:LoadNewContext("DisableCSUnits")
 ContextPtr:LoadNewContext("Policy_FreeBuildingClass")
 ContextPtr:LoadNewContext("GroupMove")
 ContextPtr:LoadNewContext("NewAttackEffects")
@@ -1298,4 +1386,6 @@ ContextPtr:LoadNewContext("TerrainTransform")
 ContextPtr:LoadNewContext("TopCities_Main")
 ContextPtr:LoadNewContext("TopCities")
 ContextPtr:LoadNewContext("UnitSpecialButtons")
+ContextPtr:LoadNewContext("UnitAutoNaming")
 ContextPtr:LoadNewContext("WarPopup")
+ContextPtr:LoadNewContext("WarTracker")

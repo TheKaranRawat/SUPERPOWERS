@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context ColorSet="Beige_Black_Alpha" Font="TwCenMT20" FontStyle="Shadow">
+
+  <!-- ============ INSTANCES ============ -->
+
+  <!-- One chip per war group -->
+  <Instance Name="WarChip">
+    <Container ID="ChipRoot" Size="248,96">
+      <AlphaAnim ID="ChipAlpha" Size="248,96" Start="0" End="1" Speed="3" Cycle="Once" Function="Root">
+        <Button ID="ChipButton" Size="248,96" ConsumeMouse="1">
+
+          <!-- rounded glow, one behind each icon, only visible on hover -->
+          <ShowOnMouseOver>
+            <Image ID="G1" Texture="WarTrackerGlow.dds" Anchor="L,T" Offset="0,0"   Size="96,96"/>
+            <Image ID="G2" Texture="WarTrackerGlow.dds" Anchor="L,T" Offset="76,0"  Size="96,96"/>
+            <Image ID="G3" Texture="WarTrackerGlow.dds" Anchor="L,T" Offset="152,0" Size="96,96"/>
+          </ShowOnMouseOver>
+
+          <Image ID="E1" Anchor="L,T" Offset="16,16"  Size="64,64"/>
+          <Image ID="E2" Anchor="L,T" Offset="92,16"  Size="64,64"/>
+          <Image ID="E3" Anchor="L,T" Offset="168,16" Size="64,64"/>
+
+          <!-- crossed-swords text icon, drawn after the images so it overlaps their lower-right corner -->
+          <Label ID="W1" Anchor="L,T" Offset="56,54"  Font="TwCenMT24"/>
+          <Label ID="W2" Anchor="L,T" Offset="132,54" Font="TwCenMT24"/>
+          <Label ID="W3" Anchor="L,T" Offset="208,54" Font="TwCenMT24"/>
+
+          <Label ID="MoreLabel" Anchor="L,T" Offset="236,36" Font="TwCenMT20" Color="235,205,120,255"/>
+        </Button>
+      </AlphaAnim>
+    </Container>
+  </Instance>
+
+  <!-- Member icon inside popup -->
+  <Instance Name="MemberIcon">
+    <Button ID="MemberRoot" Size="32,32" ConsumeMouse="1">
+      <Image ID="MemberImg" Size="32,32" Anchor="C,C"/>
+    </Button>
+  </Instance>
+
+  <!-- ============ CLICK-OUT BACKDROP ============ -->
+  <Container ID="BackdropWrap" Size="Full,Full" Hidden="1">
+    <Button ID="Backdrop" Size="Full,Full" Anchor="L,T" ConsumeMouse="1"/>
+  </Container>
+
+  <!-- ============ POPUP (560 x 320) ============ -->
+  <Container ID="PopupWrap" Anchor="C,B" Size="560,320" Offset="0,110" Hidden="1">
+    <AlphaAnim ID="PopupAlpha" Size="560,320" Start="0" End="1" Speed="4" Cycle="Once" Function="Root">
+      <SlideAnim ID="PopupSlide" Size="560,320" Start="0,40" End="0,0" Speed="4" Cycle="Once" Function="Root">
+        <Box Color="10,10,16,215" Size="560,320" Anchor="L,T" ConsumeMouse="1"/>
+        <Box Color="212,175,55,255" Size="560,1" Anchor="L,T"/>
+        <Box Color="212,175,55,255" Size="560,1" Anchor="L,B"/>
+        <Box Color="212,175,55,255" Size="1,320" Anchor="L,T"/>
+        <Box Color="212,175,55,255" Size="1,320" Anchor="R,T"/>
+
+        <Label ID="PopupTitle" Anchor="C,T" Offset="0,8"  Font="TwCenMT24" Color="235,205,120,255"/>
+        <Label ID="PopupSub"   Anchor="C,T" Offset="0,36" Font="TwCenMT16" Color="170,170,180,255"/>
+
+        <Box Color="212,175,55,120" Anchor="C,T" Offset="0,58" Size="530,1"/>
+        <Box Color="212,175,55,120" Anchor="C,T" Offset="0,66" Size="1,228"/>
+
+        <Label String="YOUR SIDE"     Anchor="C,T" Offset="-135,68" Font="TwCenMT20" Color="120,200,130,255"/>
+        <Label String="OPPOSING SIDE" Anchor="C,T" Offset="135,68"  Font="TwCenMT20" Color="210,90,80,255"/>
+
+        <Stack ID="OurMembers"   Anchor="L,T" Offset="16,94" StackGrowth="Right" Padding="4" WrapWidth="244"/>
+        <Stack ID="TheirMembers" Anchor="R,T" Offset="16,94" StackGrowth="Right" Padding="4" WrapWidth="244"/>
+
+        <!-- Stat rows: our value | label (on its own translucent plate, over the divider) | their value -->
+        <Label ID="OurArmies"   Anchor="C,T" Offset="-175,172" Font="TwCenMT20"/>
+        <Box Color="10,10,16,155" Anchor="C,T" Offset="0,169" Size="100,24"/>
+        <Label String="ARMIES" Anchor="C,T" Offset="0,172" Font="TwCenMT16" Color="170,170,180,255"/>
+        <Label ID="TheirArmies" Anchor="C,T" Offset="175,172" Font="TwCenMT20"/>
+
+        <Label ID="OurNavies"   Anchor="C,T" Offset="-175,198" Font="TwCenMT20"/>
+        <Box Color="10,10,16,155" Anchor="C,T" Offset="0,195" Size="100,24"/>
+        <Label String="NAVIES" Anchor="C,T" Offset="0,198" Font="TwCenMT16" Color="170,170,180,255"/>
+        <Label ID="TheirNavies" Anchor="C,T" Offset="175,198" Font="TwCenMT20"/>
+
+        <Label ID="OurProduction"   Anchor="C,T" Offset="-175,224" Font="TwCenMT20"/>
+        <Box Color="10,10,16,155" Anchor="C,T" Offset="0,221" Size="100,24"/>
+        <Label String="PRODUCTION" Anchor="C,T" Offset="0,224" Font="TwCenMT16" Color="170,170,180,255"/>
+        <Label ID="TheirProduction" Anchor="C,T" Offset="175,224" Font="TwCenMT20"/>
+
+        <Label ID="OurLand"   Anchor="C,T" Offset="-175,250" Font="TwCenMT20"/>
+        <Box Color="10,10,16,155" Anchor="C,T" Offset="0,247" Size="100,24"/>
+        <Label String="LAND AREA" Anchor="C,T" Offset="0,250" Font="TwCenMT16" Color="170,170,180,255"/>
+        <Label ID="TheirLand" Anchor="C,T" Offset="175,250" Font="TwCenMT20"/>
+
+        <Label ID="OurLosses"   Anchor="C,T" Offset="-175,276" Font="TwCenMT20"/>
+        <Box Color="10,10,16,155" Anchor="C,T" Offset="0,273" Size="100,24"/>
+        <Label String="UNIT LOSSES" Anchor="C,T" Offset="0,276" Font="TwCenMT16" Color="170,170,180,255"/>
+        <Label ID="TheirLosses" Anchor="C,T" Offset="175,276" Font="TwCenMT20"/>
+
+        <Label ID="FogNote" Anchor="C,B" Offset="0,6" Font="TwCenMT14" Color="130,130,140,255"/>
+
+        <Button ID="CloseButton" Anchor="R,T" Offset="8,6" Size="24,24" ConsumeMouse="1">
+          <Label String="X" Anchor="C,C" Font="TwCenMT20" Color="235,205,120,255"/>
+          <ShowOnMouseOver>
+            <Box Color="212,175,55,60" Size="24,24"/>
+          </ShowOnMouseOver>
+        </Button>
+      </SlideAnim>
+    </AlphaAnim>
+  </Container>
+
+  <!-- ============ CHIP BAR ============ -->
+  <Stack ID="ChipStack" Anchor="C,B" Offset="0,6" StackGrowth="Right" Padding="4"/>
+
+</Context>

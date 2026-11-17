@@ -213,6 +213,7 @@ local CITY_TIERS = {   -- ordered highest -> lowest; first match wins
 	{ abs = 12, div = 10, policy = GameInfoTypes["POLICY_AI_PLAYER_CITIES_6"] },
 }
 
+--[[ disable free settler 
 local function GiveSettlerIfNeeded(player)
 	if UNIT_SETTLER == nil or UNITCLASS_SETTLER == nil then return end
 	if player:GetUnitClassCount(UNITCLASS_SETTLER) >= 1 or player:GetCurrentEra() > 6 then return end
@@ -224,6 +225,7 @@ local function GiveSettlerIfNeeded(player)
 		newUnit:JumpToNearestValidPlot()
 	end
 end
+]]--
 
 function AIBonusByPlayer(humanCities, worldCities)
 	-- Work out the tier ONCE, not once per AI
@@ -242,8 +244,9 @@ function AIBonusByPlayer(humanCities, worldCities)
 		local player = Players[id]
 		if player ~= nil and player:IsAlive() and not player:IsHuman()
 			and player:GetCivilizationType() ~= CIV_VENICE then
-
-			GiveSettlerIfNeeded(player)
+			
+			--disable free settler
+			--GiveSettlerIfNeeded(player)
 
 			if tierPolicy ~= nil and not player:HasPolicy(tierPolicy) and AICanBeBoss(player) then
 				player:SetHasPolicy(tierPolicy, true)
@@ -317,11 +320,13 @@ function AIUnitsAssist(playerID)
 			if needManpower then player:ChangeNumResourceTotal(ManPowerResID, 1) end
 		end
 	end
-
+	
+	--[[ RESOURCE_CONSUMER DEP
 	if ConsumerResID ~= nil and player:GetNumResourceAvailable(ConsumerResID, true) <= 0 then
 		player:ChangeNumResourceTotal(ConsumerResID, 2)
 	end
-
+	]]--
+	
 	-- Carrier resupply: skip the unit scan entirely when no carrier exists
 	if not PlayerHasAnyCarrier(player) then return end
 
