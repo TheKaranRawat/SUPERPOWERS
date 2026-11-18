@@ -1365,7 +1365,6 @@ for addin in Modding.GetActivatedModEntryPoints("InGameUIAddin") do
 	table.insert(g_uiAddins, ContextPtr:LoadNewContext(path));
 end
 
-ContextPtr:LoadNewContext("Stfu")
 ContextPtr:LoadNewContext("AutoCityFire")
 ContextPtr:LoadNewContext("AutoImprovements")
 ContextPtr:LoadNewContext("AutoRoad")
@@ -1391,3 +1390,4 @@ ContextPtr:LoadNewContext("UnitSpecialButtons")
 ContextPtr:LoadNewContext("UnitAutoNaming")
 ContextPtr:LoadNewContext("WarPopup")
 ContextPtr:LoadNewContext("WarTracker")
+ContextPtr:LoadNewContext("Stfu")

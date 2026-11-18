@@ -44,7 +44,7 @@
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES">
 			<Text>[ICON_BULLET]The first 4 [ICON_CITIZEN]Citizens in your cities don't generate [ICON_HAPPINESS_4]Unhappiness. 
-				[NEWLINE][ICON_BULLET]+6 [ICON_GOLD]Gold and +4 [ICON_RES_CONSUMER]Consumer Goods from [ICON_CITY_STATE]Cities.
+				[NEWLINE][ICON_BULLET]+8 [ICON_GOLD]Happiness and +8 [ICON_RES_CONSUMER]Manpower from [ICON_CITY_STATE]Cities.
 				[NEWLINE][ICON_BULLET]Every owned [ICON_CITY_STATE]City grants an additive 10% Border Growth Rate bonus. 
 				[NEWLINE][ICON_BULLET]Unit [ICON_GOLD]Maintenance Costs are reduced by 20% and all Units gain +15% [ICON_STRENGTH]Combat Strength bonus while fighting within their own territory, after researching Industrialization.				
 			</Text>

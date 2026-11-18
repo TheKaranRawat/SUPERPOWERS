@@ -106,4 +106,4 @@ VALUES	('UNIT_3UC_RUSHER',  'PROMOTION_3UC_RUSHER');
 --------------------------------		
 INSERT INTO Civilization_UnitClassOverrides 
 		(CivilizationType, 					UnitClassType, 			UnitType)
-VALUES	('CIVILIZATION_IROQUOIS',	'UNITCLASS_MUSKETMAN',	'UNIT_3UC_RUSHER');
+VALUES	('CIVILIZATION_IROQUOIS',	'UNITCLASS_BOMBARD',	'UNIT_3UC_RUSHER');

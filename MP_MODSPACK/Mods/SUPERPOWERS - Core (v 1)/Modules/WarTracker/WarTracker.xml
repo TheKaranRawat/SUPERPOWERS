@@ -5,37 +5,42 @@
 
   <!-- One chip per war group -->
   <Instance Name="WarChip">
-    <Container ID="ChipRoot" Size="248,96">
-      <AlphaAnim ID="ChipAlpha" Size="248,96" Start="0" End="1" Speed="3" Cycle="Once" Function="Root">
-        <Button ID="ChipButton" Size="248,96" ConsumeMouse="1">
+    <Container ID="ChipRoot" Size="224,96">
+      <AlphaAnim ID="ChipAlpha" Size="224,96" Start="0" End="1" Speed="3" Cycle="Once" Function="Root">
+        <Button ID="ChipButton" Size="224,96" ConsumeMouse="1">
 
-          <!-- rounded glow, one behind each icon, only visible on hover -->
+          <!-- rounded glow behind each icon, only visible on hover -->
           <ShowOnMouseOver>
             <Image ID="G1" Texture="WarTrackerGlow.dds" Anchor="L,T" Offset="0,0"   Size="96,96"/>
-            <Image ID="G2" Texture="WarTrackerGlow.dds" Anchor="L,T" Offset="76,0"  Size="96,96"/>
-            <Image ID="G3" Texture="WarTrackerGlow.dds" Anchor="L,T" Offset="152,0" Size="96,96"/>
+            <Image ID="G2" Texture="WarTrackerGlow.dds" Anchor="L,T" Offset="32,0"  Size="96,96"/>
+            <Image ID="G3" Texture="WarTrackerGlow.dds" Anchor="L,T" Offset="64,0"  Size="96,96"/>
+            <Image ID="G4" Texture="WarTrackerGlow.dds" Anchor="L,T" Offset="96,0"  Size="96,96"/>
+            <Image ID="G5" Texture="WarTrackerGlow.dds" Anchor="L,T" Offset="128,0" Size="96,96"/>
           </ShowOnMouseOver>
 
+          <!-- icons overlap by half (32px step on 64px icons); later icons draw on top -->
+          <Image ID="S1" Anchor="L,T" Offset="19,19"  Size="64,64" Color="0,0,0,90" />
           <Image ID="E1" Anchor="L,T" Offset="16,16"  Size="64,64"/>
-          <Image ID="E2" Anchor="L,T" Offset="92,16"  Size="64,64"/>
-          <Image ID="E3" Anchor="L,T" Offset="168,16" Size="64,64"/>
 
-          <!-- crossed-swords text icon, drawn after the images so it overlaps their lower-right corner -->
-          <Label ID="W1" Anchor="L,T" Offset="56,54"  Font="TwCenMT24"/>
-          <Label ID="W2" Anchor="L,T" Offset="132,54" Font="TwCenMT24"/>
-          <Label ID="W3" Anchor="L,T" Offset="208,54" Font="TwCenMT24"/>
+          <Image ID="S2" Anchor="L,T" Offset="51,19"   Size="64,64" Color="0,0,0,90" />
+          <Image ID="E2" Anchor="L,T" Offset="48,16"  Size="64,64"/>
 
-          <Label ID="MoreLabel" Anchor="L,T" Offset="236,36" Font="TwCenMT20" Color="235,205,120,255"/>
+          <Image ID="S3" Anchor="L,T" Offset="83,19"  Size="64,64" Color="0,0,0,90" />
+          <Image ID="E3" Anchor="L,T" Offset="80,16"  Size="64,64"/>
+
+          <Image ID="S4" Anchor="L,T" Offset="115,19"  Size="64,64" Color="0,0,0,90" />
+          <Image ID="E4" Anchor="L,T" Offset="112,16" Size="64,64"/>
+
+          <Image ID="S5" Anchor="L,T" Offset="147,19"  Size="64,64" Color="0,0,0,90" />
+          <Image ID="E5" Anchor="L,T" Offset="144,16" Size="64,64"/>
+
+          <!-- one shared crossed-swords text icon, placed by Lua on the last icon's lower-right corner -->
+          <Label ID="WarIcon" Anchor="L,T" Offset="56,54" Font="TwCenMT24"/>
+
+          <Label ID="MoreLabel" Anchor="L,T" Offset="212,36" Font="TwCenMT20" Color="235,205,120,255"/>
         </Button>
       </AlphaAnim>
     </Container>
-  </Instance>
-
-  <!-- Member icon inside popup -->
-  <Instance Name="MemberIcon">
-    <Button ID="MemberRoot" Size="32,32" ConsumeMouse="1">
-      <Image ID="MemberImg" Size="32,32" Anchor="C,C"/>
-    </Button>
   </Instance>
 
   <!-- ============ CLICK-OUT BACKDROP ============ -->
@@ -43,67 +48,140 @@
     <Button ID="Backdrop" Size="Full,Full" Anchor="L,T" ConsumeMouse="1"/>
   </Container>
 
-  <!-- ============ POPUP (560 x 320) ============ -->
-  <Container ID="PopupWrap" Anchor="C,B" Size="560,320" Offset="0,110" Hidden="1">
-    <AlphaAnim ID="PopupAlpha" Size="560,320" Start="0" End="1" Speed="4" Cycle="Once" Function="Root">
-      <SlideAnim ID="PopupSlide" Size="560,320" Start="0,40" End="0,0" Speed="4" Cycle="Once" Function="Root">
-        <Box Color="10,10,16,215" Size="560,320" Anchor="L,T" ConsumeMouse="1"/>
-        <Box Color="212,175,55,255" Size="560,1" Anchor="L,T"/>
-        <Box Color="212,175,55,255" Size="560,1" Anchor="L,B"/>
-        <Box Color="212,175,55,255" Size="1,320" Anchor="L,T"/>
-        <Box Color="212,175,55,255" Size="1,320" Anchor="R,T"/>
+  <!-- ============ POPUP (panel 440 x 300; wrapper adds 70px side and 50px top margins for the floating icons) ============ -->
+  <Container ID="PopupWrap" Anchor="C,B" Size="580,350" Offset="0,110" Hidden="1">
+    <AlphaAnim ID="PopupAlpha" Size="580,350" Start="0" End="1" Speed="4" Cycle="Once" Function="Root">
+      <SlideAnim ID="PopupSlide" Size="580,350" Start="0,40" End="0,0" Speed="4" Cycle="Once" Function="Root">
+        <!-- inner container: origin = panel top-left minus the side margin; icon coordinates are relative to it -->
+        <Container ID="PopupInner" Anchor="L,T" Offset="0,50" Size="580,300">
 
-        <Label ID="PopupTitle" Anchor="C,T" Offset="0,8"  Font="TwCenMT24" Color="235,205,120,255"/>
-        <Label ID="PopupSub"   Anchor="C,T" Offset="0,36" Font="TwCenMT16" Color="170,170,180,255"/>
+          <!-- panel: translucent fill + 1px gold border -->
+          <Box Color="10,10,16,215"   Anchor="L,T" Offset="70,0"       Size="440,300" ConsumeMouse="1"/>
+          <Box Color="212,175,55,255" Anchor="L,T" Offset="70,0"       Size="440,1"/>
+          <Box Color="212,175,55,255" Anchor="L,T" Offset="70,299"   Size="440,1"/>
+          <Box Color="212,175,55,255" Anchor="L,T" Offset="70,0"       Size="1,300"/>
+          <Box Color="212,175,55,255" Anchor="L,T" Offset="509,0"   Size="1,300"/>
 
-        <Box Color="212,175,55,120" Anchor="C,T" Offset="0,58" Size="530,1"/>
-        <Box Color="212,175,55,120" Anchor="C,T" Offset="0,66" Size="1,228"/>
+          <Label ID="PopupTitle" Anchor="C,T" Offset="0,8"  Font="TwCenMT24" Color="235,205,120,255"/>
+          <!-- flavor text: two centered lines (Lua word-wraps it) -->
+          <Label ID="PopupSub"   Anchor="C,T" Offset="0,38" Font="TwCenMT14" Color="185,170,130,255"/>
+          <Label ID="PopupSub2"  Anchor="C,T" Offset="0,54" Font="TwCenMT14" Color="185,170,130,255"/>
+          <Box Color="212,175,55,120" Anchor="C,T" Offset="0,76" Size="290,1"/>
 
-        <Label String="YOUR SIDE"     Anchor="C,T" Offset="-135,68" Font="TwCenMT20" Color="120,200,130,255"/>
-        <Label String="OPPOSING SIDE" Anchor="C,T" Offset="135,68"  Font="TwCenMT20" Color="210,90,80,255"/>
+          <Label String="YOU"   Anchor="C,T" Offset="-105,82" Font="TwCenMT16" Color="120,200,130,255"/>
+          <Label String="ENEMY" Anchor="C,T" Offset="105,82"  Font="TwCenMT16" Color="210,90,80,255"/>
 
-        <Stack ID="OurMembers"   Anchor="L,T" Offset="16,94" StackGrowth="Right" Padding="4" WrapWidth="244"/>
-        <Stack ID="TheirMembers" Anchor="R,T" Offset="16,94" StackGrowth="Right" Padding="4" WrapWidth="244"/>
+          <!-- Stat rows: our value | label | their value -->
+          <Label ID="OurArmies"   Anchor="C,T" Offset="-105,104" Font="TwCenMT20"/>
+          <Label String="ARMIES" Anchor="C,T" Offset="0,104" Font="TwCenMT16" Color="170,170,180,255"/>
+          <Label ID="TheirArmies" Anchor="C,T" Offset="105,104" Font="TwCenMT20"/>
 
-        <!-- Stat rows: our value | label (on its own translucent plate, over the divider) | their value -->
-        <Label ID="OurArmies"   Anchor="C,T" Offset="-175,172" Font="TwCenMT20"/>
-        <Box Color="10,10,16,155" Anchor="C,T" Offset="0,169" Size="100,24"/>
-        <Label String="ARMIES" Anchor="C,T" Offset="0,172" Font="TwCenMT16" Color="170,170,180,255"/>
-        <Label ID="TheirArmies" Anchor="C,T" Offset="175,172" Font="TwCenMT20"/>
+          <Label ID="OurNavies"   Anchor="C,T" Offset="-105,134" Font="TwCenMT20"/>
+          <Label String="NAVIES" Anchor="C,T" Offset="0,134" Font="TwCenMT16" Color="170,170,180,255"/>
+          <Label ID="TheirNavies" Anchor="C,T" Offset="105,134" Font="TwCenMT20"/>
 
-        <Label ID="OurNavies"   Anchor="C,T" Offset="-175,198" Font="TwCenMT20"/>
-        <Box Color="10,10,16,155" Anchor="C,T" Offset="0,195" Size="100,24"/>
-        <Label String="NAVIES" Anchor="C,T" Offset="0,198" Font="TwCenMT16" Color="170,170,180,255"/>
-        <Label ID="TheirNavies" Anchor="C,T" Offset="175,198" Font="TwCenMT20"/>
+          <Label ID="OurProduction"   Anchor="C,T" Offset="-105,164" Font="TwCenMT20"/>
+          <Label String="PRODUCTION" Anchor="C,T" Offset="0,164" Font="TwCenMT16" Color="170,170,180,255"/>
+          <Label ID="TheirProduction" Anchor="C,T" Offset="105,164" Font="TwCenMT20"/>
 
-        <Label ID="OurProduction"   Anchor="C,T" Offset="-175,224" Font="TwCenMT20"/>
-        <Box Color="10,10,16,155" Anchor="C,T" Offset="0,221" Size="100,24"/>
-        <Label String="PRODUCTION" Anchor="C,T" Offset="0,224" Font="TwCenMT16" Color="170,170,180,255"/>
-        <Label ID="TheirProduction" Anchor="C,T" Offset="175,224" Font="TwCenMT20"/>
+          <Label ID="OurLand"   Anchor="C,T" Offset="-105,194" Font="TwCenMT20"/>
+          <Label String="LAND AREA" Anchor="C,T" Offset="0,194" Font="TwCenMT16" Color="170,170,180,255"/>
+          <Label ID="TheirLand" Anchor="C,T" Offset="105,194" Font="TwCenMT20"/>
 
-        <Label ID="OurLand"   Anchor="C,T" Offset="-175,250" Font="TwCenMT20"/>
-        <Box Color="10,10,16,155" Anchor="C,T" Offset="0,247" Size="100,24"/>
-        <Label String="LAND AREA" Anchor="C,T" Offset="0,250" Font="TwCenMT16" Color="170,170,180,255"/>
-        <Label ID="TheirLand" Anchor="C,T" Offset="175,250" Font="TwCenMT20"/>
+          <Label ID="OurLosses"   Anchor="C,T" Offset="-105,224" Font="TwCenMT20"/>
+          <Label String="UNIT LOSSES" Anchor="C,T" Offset="0,224" Font="TwCenMT16" Color="170,170,180,255"/>
+          <Label ID="TheirLosses" Anchor="C,T" Offset="105,224" Font="TwCenMT20"/>
 
-        <Label ID="OurLosses"   Anchor="C,T" Offset="-175,276" Font="TwCenMT20"/>
-        <Box Color="10,10,16,155" Anchor="C,T" Offset="0,273" Size="100,24"/>
-        <Label String="UNIT LOSSES" Anchor="C,T" Offset="0,276" Font="TwCenMT16" Color="170,170,180,255"/>
-        <Label ID="TheirLosses" Anchor="C,T" Offset="175,276" Font="TwCenMT20"/>
+          <!-- Floating icons (drawn last so they sit on top of the panel edge). Fixed slots that
+               Lua positions/sizes/fills: up to 7 civs per side, plus a small city-state row. -->
+          <Button ID="Our1" Anchor="L,T" Offset="0,0" Size="80,80" Hidden="1" ConsumeMouse="1">
+            <Image ID="Our1I" Anchor="C,C" Size="80,80"/>
+          </Button>
+          <Button ID="Our2" Anchor="L,T" Offset="0,0" Size="80,80" Hidden="1" ConsumeMouse="1">
+            <Image ID="Our2I" Anchor="C,C" Size="80,80"/>
+          </Button>
+          <Button ID="Our3" Anchor="L,T" Offset="0,0" Size="80,80" Hidden="1" ConsumeMouse="1">
+            <Image ID="Our3I" Anchor="C,C" Size="80,80"/>
+          </Button>
+          <Button ID="Our4" Anchor="L,T" Offset="0,0" Size="80,80" Hidden="1" ConsumeMouse="1">
+            <Image ID="Our4I" Anchor="C,C" Size="80,80"/>
+          </Button>
+          <Button ID="Our5" Anchor="L,T" Offset="0,0" Size="80,80" Hidden="1" ConsumeMouse="1">
+            <Image ID="Our5I" Anchor="C,C" Size="80,80"/>
+          </Button>
+          <Button ID="Our6" Anchor="L,T" Offset="0,0" Size="80,80" Hidden="1" ConsumeMouse="1">
+            <Image ID="Our6I" Anchor="C,C" Size="80,80"/>
+          </Button>
+          <Button ID="Our7" Anchor="L,T" Offset="0,0" Size="80,80" Hidden="1" ConsumeMouse="1">
+            <Image ID="Our7I" Anchor="C,C" Size="80,80"/>
+          </Button>
+          <Button ID="OurCS1" Anchor="L,T" Offset="0,0" Size="24,24" Hidden="1" ConsumeMouse="1">
+            <Image ID="OurCS1I" Anchor="C,C" Size="24,24"/>
+          </Button>
+          <Button ID="OurCS2" Anchor="L,T" Offset="0,0" Size="24,24" Hidden="1" ConsumeMouse="1">
+            <Image ID="OurCS2I" Anchor="C,C" Size="24,24"/>
+          </Button>
+          <Button ID="OurCS3" Anchor="L,T" Offset="0,0" Size="24,24" Hidden="1" ConsumeMouse="1">
+            <Image ID="OurCS3I" Anchor="C,C" Size="24,24"/>
+          </Button>
+          <Button ID="OurCS4" Anchor="L,T" Offset="0,0" Size="24,24" Hidden="1" ConsumeMouse="1">
+            <Image ID="OurCS4I" Anchor="C,C" Size="24,24"/>
+          </Button>
+          <Button ID="OurCS5" Anchor="L,T" Offset="0,0" Size="24,24" Hidden="1" ConsumeMouse="1">
+            <Image ID="OurCS5I" Anchor="C,C" Size="24,24"/>
+          </Button>
+          <Button ID="Their1" Anchor="L,T" Offset="0,0" Size="80,80" Hidden="1" ConsumeMouse="1">
+            <Image ID="Their1I" Anchor="C,C" Size="80,80"/>
+          </Button>
+          <Button ID="Their2" Anchor="L,T" Offset="0,0" Size="80,80" Hidden="1" ConsumeMouse="1">
+            <Image ID="Their2I" Anchor="C,C" Size="80,80"/>
+          </Button>
+          <Button ID="Their3" Anchor="L,T" Offset="0,0" Size="80,80" Hidden="1" ConsumeMouse="1">
+            <Image ID="Their3I" Anchor="C,C" Size="80,80"/>
+          </Button>
+          <Button ID="Their4" Anchor="L,T" Offset="0,0" Size="80,80" Hidden="1" ConsumeMouse="1">
+            <Image ID="Their4I" Anchor="C,C" Size="80,80"/>
+          </Button>
+          <Button ID="Their5" Anchor="L,T" Offset="0,0" Size="80,80" Hidden="1" ConsumeMouse="1">
+            <Image ID="Their5I" Anchor="C,C" Size="80,80"/>
+          </Button>
+          <Button ID="Their6" Anchor="L,T" Offset="0,0" Size="80,80" Hidden="1" ConsumeMouse="1">
+            <Image ID="Their6I" Anchor="C,C" Size="80,80"/>
+          </Button>
+          <Button ID="Their7" Anchor="L,T" Offset="0,0" Size="80,80" Hidden="1" ConsumeMouse="1">
+            <Image ID="Their7I" Anchor="C,C" Size="80,80"/>
+          </Button>
+          <Button ID="TheirCS1" Anchor="L,T" Offset="0,0" Size="24,24" Hidden="1" ConsumeMouse="1">
+            <Image ID="TheirCS1I" Anchor="C,C" Size="24,24"/>
+          </Button>
+          <Button ID="TheirCS2" Anchor="L,T" Offset="0,0" Size="24,24" Hidden="1" ConsumeMouse="1">
+            <Image ID="TheirCS2I" Anchor="C,C" Size="24,24"/>
+          </Button>
+          <Button ID="TheirCS3" Anchor="L,T" Offset="0,0" Size="24,24" Hidden="1" ConsumeMouse="1">
+            <Image ID="TheirCS3I" Anchor="C,C" Size="24,24"/>
+          </Button>
+          <Button ID="TheirCS4" Anchor="L,T" Offset="0,0" Size="24,24" Hidden="1" ConsumeMouse="1">
+            <Image ID="TheirCS4I" Anchor="C,C" Size="24,24"/>
+          </Button>
+          <Button ID="TheirCS5" Anchor="L,T" Offset="0,0" Size="24,24" Hidden="1" ConsumeMouse="1">
+            <Image ID="TheirCS5I" Anchor="C,C" Size="24,24"/>
+          </Button>
 
-        <Label ID="FogNote" Anchor="C,B" Offset="0,6" Font="TwCenMT14" Color="130,130,140,255"/>
+          <Label ID="OurMore"   Anchor="C,T" Offset="-72,282" Font="TwCenMT14" Color="170,170,180,255"/>
+          <Label ID="TheirMore" Anchor="C,T" Offset="72,282"  Font="TwCenMT14" Color="170,170,180,255"/>
 
-        <Button ID="CloseButton" Anchor="R,T" Offset="8,6" Size="24,24" ConsumeMouse="1">
-          <Label String="X" Anchor="C,C" Font="TwCenMT20" Color="235,205,120,255"/>
-          <ShowOnMouseOver>
-            <Box Color="212,175,55,60" Size="24,24"/>
-          </ShowOnMouseOver>
-        </Button>
+          <Button ID="CloseButton" Anchor="L,T" Offset="478,6" Size="24,24" ConsumeMouse="1">
+            <Label String="X" Anchor="C,C" Font="TwCenMT20" Color="235,205,120,255"/>
+            <ShowOnMouseOver>
+              <Box Color="212,175,55,60" Size="24,24"/>
+            </ShowOnMouseOver>
+          </Button>
+        </Container>
       </SlideAnim>
     </AlphaAnim>
   </Container>
 
   <!-- ============ CHIP BAR ============ -->
-  <Stack ID="ChipStack" Anchor="C,B" Offset="0,6" StackGrowth="Right" Padding="4"/>
+  <Stack ID="ChipStack" Anchor="C,B" Offset="0,-8" StackGrowth="Right" Padding="-30"/>
 
 </Context>

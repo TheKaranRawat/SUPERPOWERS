@@ -49811,6 +49811,11 @@
 			<Quantity>6</Quantity> 
 		</Row>
 		<Row> 
+			<BuildingType>BUILDING_TB_STRATEGIC_RICHES</BuildingType> 
+			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
+			<Quantity>8</Quantity> 
+		</Row>
+		<Row> 
 			<BuildingType>BUILDING_UNITED_FRONT_FOOD</BuildingType> 
 			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
 			<Quantity>45</Quantity> 
@@ -54819,11 +54824,6 @@
 			<Yield>12</Yield> 
 		</Row>
 		<Row> 
-			<BuildingType>BUILDING_TB_STRATEGIC_RICHES</BuildingType> 
-			<YieldType>YIELD_GOLD</YieldType> 
-			<Yield>6</Yield> 
-		</Row>
-		<Row> 
 			<BuildingType>BUILDING_TB_CONVERTS_LAND_BARBARIANS</BuildingType> 
 			<YieldType>YIELD_SCIENCE</YieldType> 
 			<Yield>10</Yield> 
@@ -57688,7 +57688,7 @@
 			<NukeModifier>0</NukeModifier> 
 			<NukeExplosionRand>0</NukeExplosionRand> 
 			<HealRateChange>0</HealRateChange> 
-			<Happiness>4</Happiness> 
+			<Happiness>8</Happiness> 
 			<UnmoddedHappiness>0</UnmoddedHappiness> 
 			<UnhappinessModifier>0</UnhappinessModifier> 
 			<HappinessPerCity>0</HappinessPerCity> 
@@ -155322,7 +155322,7 @@
 		</Row>
 		<Row> 
 			<CivilizationType>CIVILIZATION_IROQUOIS</CivilizationType> 
-			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType> 
+			<UnitClassType>UNITCLASS_BOMBARD</UnitClassType> 
 			<UnitType>UNIT_3UC_RUSHER</UnitType> 
 		</Row>
 		<Row> 
@@ -184642,7 +184642,7 @@
 			<Strategy>TXT_KEY_ERA_RENAISSANCE_STRATEGY</Strategy> 
 			<NoGoodies>true</NoGoodies> 
 			<NoBarbUnits>false</NoBarbUnits> 
-			<NoReligion>false</NoReligion> 
+			<NoReligion>true</NoReligion> 
 			<FirstSoundtrackFirst>false</FirstSoundtrackFirst> 
 			<ResearchAgreementCost>250</ResearchAgreementCost> 
 			<EmbarkedUnitDefense>20</EmbarkedUnitDefense> 
@@ -191074,7 +191074,7 @@
 			<StartingWorkerUnits>0</StartingWorkerUnits> 
 			<StartingExploreUnits>0</StartingExploreUnits> 
 			<AIStartingUnitMultiplier>0</AIStartingUnitMultiplier> 
-			<AIStartingDefenseUnits>1</AIStartingDefenseUnits> 
+			<AIStartingDefenseUnits>2</AIStartingDefenseUnits> 
 			<AIStartingWorkerUnits>0</AIStartingWorkerUnits> 
 			<AIStartingExploreUnits>0</AIStartingExploreUnits> 
 			<AIDeclareWarProb>66</AIDeclareWarProb> 
@@ -191141,7 +191141,7 @@
 			<StartingWorkerUnits>0</StartingWorkerUnits> 
 			<StartingExploreUnits>0</StartingExploreUnits> 
 			<AIStartingUnitMultiplier>0</AIStartingUnitMultiplier> 
-			<AIStartingDefenseUnits>1</AIStartingDefenseUnits> 
+			<AIStartingDefenseUnits>2</AIStartingDefenseUnits> 
 			<AIStartingWorkerUnits>1</AIStartingWorkerUnits> 
 			<AIStartingExploreUnits>1</AIStartingExploreUnits> 
 			<AIDeclareWarProb>100</AIDeclareWarProb> 
@@ -191208,7 +191208,7 @@
 			<StartingWorkerUnits>0</StartingWorkerUnits> 
 			<StartingExploreUnits>0</StartingExploreUnits> 
 			<AIStartingUnitMultiplier>0</AIStartingUnitMultiplier> 
-			<AIStartingDefenseUnits>1</AIStartingDefenseUnits> 
+			<AIStartingDefenseUnits>2</AIStartingDefenseUnits> 
 			<AIStartingWorkerUnits>2</AIStartingWorkerUnits> 
 			<AIStartingExploreUnits>2</AIStartingExploreUnits> 
 			<AIDeclareWarProb>100</AIDeclareWarProb> 
@@ -191275,7 +191275,7 @@
 			<StartingWorkerUnits>0</StartingWorkerUnits> 
 			<StartingExploreUnits>0</StartingExploreUnits> 
 			<AIStartingUnitMultiplier>0</AIStartingUnitMultiplier> 
-			<AIStartingDefenseUnits>1</AIStartingDefenseUnits> 
+			<AIStartingDefenseUnits>2</AIStartingDefenseUnits> 
 			<AIStartingWorkerUnits>2</AIStartingWorkerUnits> 
 			<AIStartingExploreUnits>2</AIStartingExploreUnits> 
 			<AIDeclareWarProb>100</AIDeclareWarProb> 
@@ -191342,7 +191342,7 @@
 			<StartingWorkerUnits>0</StartingWorkerUnits> 
 			<StartingExploreUnits>0</StartingExploreUnits> 
 			<AIStartingUnitMultiplier>0</AIStartingUnitMultiplier> 
-			<AIStartingDefenseUnits>1</AIStartingDefenseUnits> 
+			<AIStartingDefenseUnits>2</AIStartingDefenseUnits> 
 			<AIStartingWorkerUnits>2</AIStartingWorkerUnits> 
 			<AIStartingExploreUnits>1</AIStartingExploreUnits> 
 			<AIDeclareWarProb>250</AIDeclareWarProb> 
@@ -191409,7 +191409,7 @@
 			<StartingWorkerUnits>0</StartingWorkerUnits> 
 			<StartingExploreUnits>0</StartingExploreUnits> 
 			<AIStartingUnitMultiplier>1</AIStartingUnitMultiplier> 
-			<AIStartingDefenseUnits>1</AIStartingDefenseUnits> 
+			<AIStartingDefenseUnits>2</AIStartingDefenseUnits> 
 			<AIStartingWorkerUnits>2</AIStartingWorkerUnits> 
 			<AIStartingExploreUnits>1</AIStartingExploreUnits> 
 			<AIDeclareWarProb>400</AIDeclareWarProb> 
@@ -191476,7 +191476,7 @@
 			<StartingWorkerUnits>0</StartingWorkerUnits> 
 			<StartingExploreUnits>0</StartingExploreUnits> 
 			<AIStartingUnitMultiplier>1</AIStartingUnitMultiplier> 
-			<AIStartingDefenseUnits>1</AIStartingDefenseUnits> 
+			<AIStartingDefenseUnits>2</AIStartingDefenseUnits> 
 			<AIStartingWorkerUnits>2</AIStartingWorkerUnits> 
 			<AIStartingExploreUnits>1</AIStartingExploreUnits> 
 			<AIDeclareWarProb>800</AIDeclareWarProb> 
@@ -236153,7 +236153,7 @@
 			<GoldPerMilitaryUnit>0</GoldPerMilitaryUnit> 
 			<RouteGoldMaintenanceMod>0</RouteGoldMaintenanceMod> 
 			<BuildingGoldMaintenanceMod>0</BuildingGoldMaintenanceMod> 
-			<UnitGoldMaintenanceMod>0</UnitGoldMaintenanceMod> 
+			<UnitGoldMaintenanceMod>-15</UnitGoldMaintenanceMod> 
 			<UnitSupplyMod>0</UnitSupplyMod> 
 			<UnitUpgradeCostMod>0</UnitUpgradeCostMod> 
 			<CityStrengthMod>0</CityStrengthMod> 

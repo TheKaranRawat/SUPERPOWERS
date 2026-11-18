@@ -73,6 +73,37 @@ local function GetSizeLevel(pop)
 end
 
 --==========================================================================================
+-- SET CITY SIZE
+
+function SetCityPerTurnEffects (player)
+
+	if player:GetNumCities() > 0 then
+		for city in player:Cities() do
+		
+			if city ~= nil then
+			
+				local Cityname = city:GetName()	
+				print ("Get the city:"..Cityname)
+						
+				--In case of unwanted capital movement
+				if player:IsHuman() then	
+					if city:IsHasBuilding(GameInfoTypes["BUILDING_CAPITAL_LOCATOR"]) then
+						city:SetNumRealBuilding(GameInfoTypes["BUILDING_PALACE"],1)
+						print ("this city is Capital because it has the label:"..Cityname)
+					else
+						city:SetNumRealBuilding(GameInfoTypes["BUILDING_PALACE"],0)
+					end	
+				end	
+				
+				SetCityLevelbyDistance(player,city)
+
+			end
+		end	
+	end	
+			
+end
+
+--==========================================================================================
 -- City size buildings
 --==========================================================================================
 function CitySetSize(city, player, cityPop)
@@ -132,6 +163,28 @@ function SetPolicyPerTurnEffects(player)
 		dprint("Science from trade routes:", routes)
 	end
 end
+
+--==========================================================================================
+--Trigger the city system when player build new city
+function HumanFoundingNewCities (iPlayerID,iX,iY)
+
+	local player = Players[iPlayerID]
+	if player:IsHuman() and player:GetNumCities() >= 1 then
+		local pPlot = Map.GetPlot(iX, iY)
+		local pCity = pPlot:GetPlotCity()
+		
+	----------In case of unwanted moving capital bug
+		if pCity:IsOriginalCapital() then
+			pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CAPITAL_LOCATOR"],1)
+			print ("Marked with Capital label!")
+		end
+			
+		SetCityPerTurnEffects(player)
+		--SetCityResEffects (player,ManpowerRes,ConsumerRes,ElectricityRes)	
+		print ("Human's New city founded!")
+	end
+end
+GameEvents.PlayerCityFounded.Add(HumanFoundingNewCities)
 
 --==========================================================================================
 -- China's UA

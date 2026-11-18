@@ -190,7 +190,7 @@ end
 local function FitSelectionGrid( stack, grid, bg )
 	stack:SetWrapWidth( g_entryWidth * g_entriesPerRow )
 	stack:CalculateSize()
-	local width = math_max( stack:GetSizeX(), 273 )
+	local width = math_max( stack:GetSizeX(), 289 )
 	local height = stack:GetSizeY()
 	grid:SetSizeX( width )
 	grid:SetSizeY( height + 4 )
@@ -211,25 +211,26 @@ local function DoResizeProdQueue()
 
 	-- civilian grid: fixed height
 	Controls.CivilianButtonStack:CalculateSize()
-	local civilianWidth = math_max( Controls.CivilianButtonStack:GetSizeX(), 273 )
+	local civilianWidth = math_max( Controls.CivilianButtonStack:GetSizeX(), 289 )
 	Controls.CivilianGrid:SetSizeX( civilianWidth )
-	Controls.CivilianGrid:SetSizeY( 44 )
+	Controls.CivilianGrid:SetSizeY( 48 )
 	Controls.CivilianGrid:ReprocessAnchoring()
 	Controls.CivilianBG:SetSizeX( civilianWidth - 3 )
-	Controls.CivilianBG:SetSizeY( 40 )
+	Controls.CivilianBG:SetSizeY( 48 )
 	Controls.CivilianBG:ReprocessAnchoring()
 
 	local unitHeight = FitSelectionGrid( Controls.UnitButtonStack, Controls.UnitGrid, Controls.UnitBG )
 	local buildingHeight = FitSelectionGrid( Controls.BuildingButtonStack, Controls.BuildingGrid, Controls.BuildBG )
 	local wonderHeight = FitSelectionGrid( Controls.WonderButtonStack, Controls.WonderGrid, Controls.WonderBG )
+	local otherHeight = FitSelectionGrid( Controls.OtherButtonStack, Controls.OtherGrid, Controls.OtherBG )
 
-	Controls.OtherBG:SetSizeX( 269 )
-	Controls.OtherBG:SetSizeY( 41 )
-	Controls.OtherBG:ReprocessAnchoring()
+	--Controls.OtherBG:SetSizeX( 289 )
+	--Controls.OtherBG:SetSizeY( 41 )
+	--Controls.OtherBG:ReprocessAnchoring()
 
 	if not Controls.SelectionScrollPanel:IsHidden() then
 		Controls.SelectionStacks:CalculateSize()
-		local selectionPanelHeight = math_max( math_min( g_leftStackHeight - queuePanelHeight + wonderHeight + buildingHeight + unitHeight, Controls.SelectionStacks:GetSizeY() ), 260 )
+		local selectionPanelHeight = math_max( math_min( g_leftStackHeight - queuePanelHeight + wonderHeight + buildingHeight + unitHeight + otherHeight, Controls.SelectionStacks:GetSizeY() ), 260 )
 		Controls.SelectionScrollPanel:SetSizeY( selectionPanelHeight )
 		Controls.SelectionScrollPanel:ReprocessAnchoring()
 	end
@@ -1164,9 +1165,9 @@ local function SetupSelectionList( itemList, selectionIM, cityOwnerID, getUnitPo
 		instance.Disabled:SetHide( canProduce or canBuyWithGold or canBuyWithFaith )
 		if getUnitPortraitIcon then
 			local iconIndex, iconAtlas = getUnitPortraitIcon( itemID, cityOwnerID )
-			IconHookup( iconIndex, 45, iconAtlas, instance.Portrait )
+			IconHookup( iconIndex, 64, iconAtlas, instance.Portrait )
 		else
-			IconHookup( item.PortraitIndex, 45, item.IconAtlas, instance.Portrait )
+			IconHookup( item.PortraitIndex, 64, item.IconAtlas, instance.Portrait )
 		end
 
 		if nameMode == "none" then

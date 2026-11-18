@@ -2524,7 +2524,7 @@
 			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
 			<GreatWorkCount>-1</GreatWorkCount>
 			<GlobalPlotCultureCostModifier>-5</GlobalPlotCultureCostModifier>
-			<Happiness>4</Happiness>
+			<Happiness>8</Happiness>
 		</Row>
 		
 
@@ -2788,12 +2788,14 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>12</Yield>
 		</Row>
-
+		
+		<!--
 		<Row>
 			<BuildingType>BUILDING_TB_STRATEGIC_RICHES</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>6</Yield>
 		</Row>
+		-->
 
 		<Row>
 			<BuildingType>BUILDING_TB_CONVERTS_LAND_BARBARIANS</BuildingType>
@@ -2833,13 +2835,13 @@
 			<Quantity>6</Quantity>
 		</Row>
 
-		<!--
+		
 		<Row>
 			<BuildingType>BUILDING_TB_STRATEGIC_RICHES</BuildingType>
-			<ResourceType>RESOURCE_CONSUMER</ResourceType>
-			<Quantity>4</Quantity>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Quantity>8</Quantity>
 		</Row>
-		-->
+		
 		
 	</Building_ResourceQuantity>
 	

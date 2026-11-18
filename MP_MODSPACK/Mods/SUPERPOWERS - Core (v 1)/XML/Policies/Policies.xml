@@ -402,6 +402,10 @@
 			<Where Type="POLICY_MERCANTILISM"/>
 		</Update>
 		<Update>
+			<Set UnitGoldMaintenanceMod="-15"/>
+			<Where Type="POLICY_MERCANTILISM"/>
+		</Update>
+		<Update>
 			<Set BuildingGoldMaintenanceMod="-15" UnitGoldMaintenanceMod="-15"/>
 			<Where Type="POLICY_COMMERCE_FINISHER"/>
 		</Update>

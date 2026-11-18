@@ -1,6 +1,9 @@
 -------------------------------------------------
--- War Tracker (UI-only, no gameplay changes => no multiplayer desync)
--- Event-driven: no per-frame update except ~0.3s while the popup closes.
+-- War Tracker
+-- UI-only: reads game state and draws UI. It never changes game state, sends network
+-- commands or uses randomness, so it cannot desync a multiplayer game.
+-- Event-driven: no per-frame work except a ~0.3s timer while the popup closes.
+-- Stats are only computed when the popup opens (and once per turn while it is open).
 -------------------------------------------------
 include("IconSupport")
 include("InstanceManager")
@@ -9,48 +12,68 @@ include("InstanceManager")
 local MAX_CIV_PLAYERS = (GameDefines and GameDefines.MAX_CIV_PLAYERS) or 64
 
 local CFG = {
-	RESPECT_FOG      = true,  -- enemy stats only count what the active player can see/has revealed
-	-- In multiplayer, stats that have no legitimate per-civ source are shown as "?" instead of
-	-- risking an information leak (enemy production, enemy unit losses). Set false to show them anyway.
-	MP_STRICT        = true,
-	MAX_CHIP_ICONS   = 3,
-	MAX_MEMBER_ICONS = 10,
-	CLOSE_TIME       = 0.30,
+	MAX_CHIP_ICONS   = 5,    -- enemy icons shown on the bottom chip (overlapped)
+	CLOSE_TIME       = 0.80, -- seconds the close animation runs
 }
 
--- Deterministic name pools (never use Game.Rand in UI code - it would desync)
+-- Fixed name pools; the pick is derived from the turn number (never Game.Rand)
 local NAMES = {
 	attacker  = { "The Iron Offensive", "March of Empires", "Campaign of Conquest", "The Gilded Gauntlet", "Crown & Cannon" },
 	defender  = { "Defense of the Realm", "Hearth & Standard", "The Unbroken Line", "Banner Held High", "The Long Vigil" },
 	ongoing   = { "Standing Hostilities", "The Uneasy Front", "Smoldering Frontiers" },
 	coalition = { "The Grand Coalition", "Concert of Foes", "The Gathering Storm", "Pact of Ruin" },
 }
+-- Flavor text: one reason per war, picked from a hash of the war's start turn, role and first
+-- enemy team. That makes it vary from war to war but identical on every client (no RNG used).
+local REASONS = {
+	attacker = {   -- "Declared in <year> <reason>."
+		"to answer old insults with a single decisive blow",
+		"so that our banners may fly over a greater destiny",
+		"to break the old order and forge a mightier realm",
+		"in the name of glory, which asks no permission",
+		"to teach our rivals the price of underestimating us",
+		"for honor, for empire, and for the pages of history",
+		"to seize destiny before it slips from our grasp",
+	},
+	defender = {   -- "Declared upon us in <year> <reason>."
+		"as envious empires gathered at our gates",
+		"when rivals mistook our peace for weakness",
+		"by foes who coveted what generations built",
+		"in a bid to topple our throne and divide our lands",
+		"as old treacheries finally came due",
+		"when ambition cast its shadow over our borders",
+	},
+	ongoing = {    -- "Already raging by <year>, <reason>."
+		"its origins lost in the smoke of a thousand campfires",
+		"a feud older than the memory of our oldest scribes",
+		"its cause forgotten, its fury undimmed",
+		"a grudge that history refuses to bury",
+	},
+}
 
-local g_Conflicts   = {}   -- { id, role, turn, enemyTeams = {[teamID]=true}, name, lossesOur, lossesTheir }
-local g_NextID      = 1
-local g_OpenID      = nil  -- conflict id whose popup is open
-local g_Closing     = false
-local g_CloseTimer  = 0
+-- Each conflict: { id, role, turn, enemyTeams = {[teamID]=true}, name, lossesOur, lossesTheir }
+local g_Conflicts  = {}
+local g_NextID     = 1
+local g_OpenID     = nil   -- id of the conflict whose popup is open
+local g_CloseTimer = 0
 
-local g_ChipIM   = InstanceManager:new("WarChip",    "ChipRoot",   Controls.ChipStack)
-local g_OurIM    = InstanceManager:new("MemberIcon", "MemberRoot", Controls.OurMembers)
-local g_TheirIM  = InstanceManager:new("MemberIcon", "MemberRoot", Controls.TheirMembers)
+local ClosePopup, TogglePopup   -- defined below
+
+local g_ChipIM  = InstanceManager:new("WarChip",    "ChipRoot",   Controls.ChipStack)
+-- Popup geometry (must match WarTracker.xml). Coordinates are from the wrapper's top-left;
+-- the visible panel starts MARGIN px in, so icons can float over its left/right edges.
+local MARGIN, PANEL_W = 70, 440
+local POP = { COL_X = { MARGIN + 10, MARGIN + PANEL_W - 10 }, COL_Y = 12 - 50, COL_H = 300 - 24,  -- civ icons straddle the edges (moved up 50)
+              CS_X = { MARGIN + 80, MARGIN + 224 }, CS_W = 136, CS_Y = 254 }                       -- small city-state rows
 
 -------------------------------------------------
 -- Helpers
 -------------------------------------------------
 local function ActiveTeam() return Game.GetActiveTeam() end
 
-local function IsMultiplayer()
-	return (Game.IsGameMultiPlayer ~= nil and Game.IsGameMultiPlayer())
-	    or (Game.IsNetworkMultiPlayer ~= nil and Game.IsNetworkMultiPlayer())
-	    or false
-end
-
 -- True once a valid active player/team exists (guards early load, observers, reconnects)
 local function Ready()
-	local ap = Game.GetActivePlayer()
-	local at = Game.GetActiveTeam()
+	local ap, at = Game.GetActivePlayer(), Game.GetActiveTeam()
 	return ap ~= nil and ap >= 0 and Players[ap] ~= nil and at ~= nil and at >= 0 and Teams[at] ~= nil
 end
 
@@ -58,13 +81,36 @@ local function IsRealPlayer(p)
 	return p ~= nil and p:IsAlive() and not p:IsBarbarian()
 end
 
+local ICON_SIZES = { 256, 128, 80, 64, 48, 45, 32, 24 }
+local g_IconWarned = false
+
+-- Sets a civ icon at `size`; if the atlas has no such size, falls back to the nearest smaller
+-- one, then a larger one. Returns the size actually used (nil if nothing worked).
 local function SetCivIcon(ctrl, pid, size)
 	local p = Players[pid]
-	if not p then return end
+	if not p then return nil end
 	local civ = GameInfo.Civilizations[p:GetCivilizationType()]
-	if civ then
-		IconHookup(civ.PortraitIndex, size, civ.IconAtlas, ctrl)
+	if not civ then return nil end
+
+	local cands = {}
+	for _, s in ipairs(ICON_SIZES) do if s <= size then cands[#cands + 1] = s end end
+	for i = #ICON_SIZES, 1, -1 do if ICON_SIZES[i] > size then cands[#cands + 1] = ICON_SIZES[i] end end
+
+	for _, sz in ipairs(cands) do
+		local exists = true
+		if IconLookup ~= nil then
+			local ok, offset = pcall(IconLookup, civ.PortraitIndex, sz, civ.IconAtlas)
+			exists = ok and offset ~= nil
+		end
+		if exists and IconHookup(civ.PortraitIndex, sz, civ.IconAtlas, ctrl) ~= false then
+			return sz
+		end
 	end
+	if not g_IconWarned then
+		g_IconWarned = true
+		print("WarTracker: no icon size found in atlas " .. tostring(civ.IconAtlas))
+	end
+	return nil
 end
 
 local function CountSet(t) local n = 0 for _ in pairs(t) do n = n + 1 end return n end
@@ -74,8 +120,55 @@ local function PickName(c)
 	if CountSet(c.enemyTeams) >= 3 then pool = NAMES.coalition end
 	return pool[(c.turn % #pool) + 1]
 end
+-- In-game calendar year of a turn, e.g. "1250 AD" / "3000 BC" (nil if the API is unavailable)
+local function YearString(turn)
+	local ok, year = pcall(function()
+		if Game.GetTurnYear ~= nil then return Game.GetTurnYear(turn) end
+		if Game.GetGameTurnYear ~= nil then return Game.GetGameTurnYear() end
+		return nil
+	end)
+	if not ok or type(year) ~= "number" then return nil end
+	local n   = math.abs(year)
+	local key = (year < 0) and "TXT_KEY_TIME_BC" or "TXT_KEY_TIME_AD"
+	local str = Locale.ConvertTextKey(key, n)
+	if string.find(str, "TXT_KEY", 1, true) then str = n .. ((year < 0) and " BC" or " AD") end
+	return str
+end
 
--- Our side = our team + minors allied to it. Their side = enemy teams + minors allied to them.
+local function FlavorText(c)
+	local pool = REASONS[c.role]
+	-- two rounds of a Park-Miller step, then the middle bits: integer math that stays exact in
+	-- Lua doubles and gives every client the same pick (no RNG is used)
+	local r = (c.seed * 48271) % 2147483647
+	r = (r * 48271) % 2147483647
+	local reason = pool[math.floor(r / 4096) % #pool + 1]
+	local when = c.year or ("turn " .. c.turn)
+	if c.role == "attacker" then return string.format("Declared in %s %s.", when, reason) end
+	if c.role == "defender" then return string.format("Declared upon us in %s %s.", when, reason) end
+	return string.format("Already raging by %s, %s.", when, reason)
+end
+
+-- Word-wraps into at most two centered lines (anything longer is folded into line two)
+local function WrapTwoLines(text, maxChars)
+	local lines, cur = {}, ""
+	for word in string.gmatch(text, "%S+") do
+		if cur == "" then cur = word
+		elseif #cur + 1 + #word <= maxChars then cur = cur .. " " .. word
+		else lines[#lines + 1] = cur; cur = word end
+	end
+	lines[#lines + 1] = cur
+	if #lines > 2 then
+		lines[2] = table.concat(lines, " ", 2)
+		for i = #lines, 3, -1 do lines[i] = nil end
+	end
+	return lines[1] or "", lines[2] or ""
+end
+
+local function CivName(p)
+	return Locale.ConvertTextKey(p:GetCivilizationShortDescriptionKey())
+end
+
+-- A side = every living player on the given teams + city-states allied to any of them
 local function CollectSide(teamSet)
 	local list, seen = {}, {}
 	for pid = 0, MAX_CIV_PLAYERS - 1 do
@@ -101,10 +194,8 @@ local function CollectSide(teamSet)
 	return list
 end
 
-local function OurTeamSet()   return { [ActiveTeam()] = true } end
-
+-- Which side of conflict c does this player belong to? ("our" / "their" / nil)
 local function SideOfPlayer(c, pid)
-	-- returns "our", "their" or nil (cheap; used by the unit-loss counter)
 	local p = Players[pid]
 	if not p then return nil end
 	local function sideFor(q)
@@ -121,15 +212,6 @@ local function SideOfPlayer(c, pid)
 	return nil
 end
 
--------------------------------------------------
--- Conflict bookkeeping
--------------------------------------------------
-local function FindConflictFor(team)
-	for _, c in ipairs(g_Conflicts) do
-		if c.enemyTeams[team] then return c end
-	end
-end
-
 local function TeamHasRealPlayers(team)
 	for pid = 0, MAX_CIV_PLAYERS - 1 do
 		local p = Players[pid]
@@ -138,46 +220,125 @@ local function TeamHasRealPlayers(team)
 	return false
 end
 
+-------------------------------------------------
+-- Persistence (stored in the savegame's mod save data; UI-only, never touches game state)
+-------------------------------------------------
+local SAVE_KEY_PREFIX = "WarTracker_v1_"
+
+local function GetSaveDB()
+	if Modding == nil or Modding.OpenSaveData == nil then return nil end
+	local ok, db = pcall(Modding.OpenSaveData)
+	if ok then return db end
+	return nil
+end
+
+-- One record per active player, so hotseat players each keep their own history
+local function SaveKey() return SAVE_KEY_PREFIX .. tostring(Game.GetActivePlayer()) end
+
+local function SaveConflicts()
+	if not Ready() then return end   -- never overwrite saved data before the game is ready
+	local db = GetSaveDB()
+	if not db then return end
+	local parts = {}
+	for _, c in ipairs(g_Conflicts) do
+		local teams = {}
+		for t in pairs(c.enemyTeams) do teams[#teams + 1] = tostring(t) end
+		parts[#parts + 1] = table.concat({
+			c.id, c.role, c.turn, c.year or "", c.seed, c.lossesOur, c.lossesTheir, table.concat(teams, ",")
+		}, "|")
+	end
+	pcall(db.SetValue, SaveKey(), table.concat(parts, ";"))
+end
+
+-- Returns a list of conflicts and the next free id
+local function LoadConflicts()
+	local list, maxID = {}, 0
+	local db = GetSaveDB()
+	if not db then return list, 1 end
+	local ok, raw = pcall(db.GetValue, SaveKey())
+	if not ok or type(raw) ~= "string" or raw == "" then return list, 1 end
+
+	for rec in string.gmatch(raw, "[^;]+") do
+		local f = {}
+		for field in string.gmatch(rec .. "|", "([^|]*)|") do f[#f + 1] = field end
+		if #f >= 8 then
+			local c = {
+				id = tonumber(f[1]), role = f[2], turn = tonumber(f[3]),
+				year = (f[4] ~= "") and f[4] or nil,
+				seed = tonumber(f[5]),
+				lossesOur = tonumber(f[6]) or 0, lossesTheir = tonumber(f[7]) or 0,
+				enemyTeams = {},
+			}
+			for t in string.gmatch(f[8], "%d+") do c.enemyTeams[tonumber(t)] = true end
+			if c.id and c.turn and c.seed and REASONS[c.role] and next(c.enemyTeams) then
+				c.flavor = FlavorText(c)   -- same seed + year => same flavor text as before
+				list[#list + 1] = c
+				if c.id > maxID then maxID = c.id end
+			end
+		end
+	end
+	return list, maxID + 1
+end
+
+-- True if the team has at least one living major civ (city-states don't count)
+local function TeamHasMajorPlayers(team)
+	for pid = 0, MAX_CIV_PLAYERS - 1 do
+		local p = Players[pid]
+		if IsRealPlayer(p) and not p:IsMinorCiv() and p:GetTeam() == team then return true end
+	end
+	return false
+end
+
+-------------------------------------------------
+-- Bottom chips
+-------------------------------------------------
 local function RebuildChips()
 	g_ChipIM:ResetInstances()
 	if not Ready() then return end
-	local WAR_ICON = "[ICON_WAR]"
-	local ICON, PITCH, PAD, CHIP_H = 64, 76, 16, 96
-	for _, c in ipairs(g_Conflicts) do
-		local chip = g_ChipIM:GetInstance()
+	local ICON, STEP, PAD, CHIP_H = 64, 32, 16, 96     -- STEP = ICON / 2 -> icons overlap by half
 
-		local slots  = { chip.E1, chip.E2, chip.E3 }
-		local swords = { chip.W1, chip.W2, chip.W3 }
-		local glows  = { chip.G1, chip.G2, chip.G3 }
+	for _, c in ipairs(g_Conflicts) do		
+		local chip  = g_ChipIM:GetInstance()
+		local slots = { chip.E1, chip.E2, chip.E3, chip.E4, chip.E5 }
+		local glows = { chip.G1, chip.G2, chip.G3, chip.G4, chip.G5 }
+		local shadows = { chip.S1, chip.S2, chip.S3, chip.S4, chip.S5 }
 		local shown, total = 0, 0
-		local tooltip = c.name .. " (turn " .. c.turn .. ")"
+		--local tooltip = c.name .. " (turn " .. c.turn .. ")"
+		local tooltip = c.name
+
 		for team in pairs(c.enemyTeams) do
 			total = total + 1
-			-- representative icon = first living player on that team
-			for pid = 0, MAX_CIV_PLAYERS - 1 do
+			for pid = 0, MAX_CIV_PLAYERS - 1 do   -- representative = first living player on that team
 				local p = Players[pid]
 				if IsRealPlayer(p) and p:GetTeam() == team then
 					if shown < CFG.MAX_CHIP_ICONS then
 						shown = shown + 1
 						SetCivIcon(slots[shown], pid, ICON)
+						SetCivIcon(shadows[shown], pid, ICON)
 					end
-					tooltip = tooltip .. "[NEWLINE]- " .. Locale.ConvertTextKey(p:GetCivilizationShortDescriptionKey())
+					tooltip = tooltip .. "[NEWLINE]- " .. CivName(p)
 					break
 				end
 			end
 		end
-		for i = 1, 3 do
+
+		for i = 1, #slots do
 			slots[i]:SetHide(i > shown)
-			swords[i]:SetHide(i > shown)
 			glows[i]:SetHide(i > shown)
-			if i <= shown then swords[i]:SetText(WAR_ICON) end
+			shadows[i]:SetHide(i > shown)
 		end
 
-		-- size the chip to what is actually shown
+		-- single war icon on the lower-right corner of the last (top-most) icon
+		local lastX = PAD + (math.max(shown, 1) - 1) * STEP
+		chip.WarIcon:SetHide(shown == 0)
+		chip.WarIcon:SetText("[ICON_WAR]")
+		chip.WarIcon:SetOffsetVal(lastX + 40, 54)
+
 		local more = total > shown
 		chip.MoreLabel:SetText(more and ("+" .. (total - shown)) or "")
-		chip.MoreLabel:SetOffsetVal(PAD + shown * PITCH - 6, 36)
-		local w = shown * PITCH + PAD + (more and 36 or 0)
+		chip.MoreLabel:SetOffsetVal(lastX + ICON + 4, 36)
+
+		local w = lastX + ICON + PAD + (more and 36 or 0)
 		chip.ChipRoot:SetSizeVal(w, CHIP_H)
 		chip.ChipAlpha:SetSizeVal(w, CHIP_H)
 		chip.ChipButton:SetSizeVal(w, CHIP_H)
@@ -189,8 +350,18 @@ local function RebuildChips()
 		chip.ChipAlpha:SetToBeginning()
 		chip.ChipAlpha:Play()
 	end
+
 	Controls.ChipStack:CalculateSize()
 	Controls.ChipStack:ReprocessAnchoring()
+end
+
+-------------------------------------------------
+-- Conflict bookkeeping
+-------------------------------------------------
+local function FindConflictFor(team)
+	for _, c in ipairs(g_Conflicts) do
+		if c.enemyTeams[team] then return c end
+	end
 end
 
 local function AddWar(otherTeam, role)
@@ -198,11 +369,17 @@ local function AddWar(otherTeam, role)
 	local turn = Game.GetGameTurn()
 	local target
 
-	if role ~= "ongoing" then
+	if role == "ongoing" then
+		-- wars that were already running (load / reconnect) all share a single group
+		for _, c in ipairs(g_Conflicts) do
+			if c.role == "ongoing" then target = c break end
+		end
+	else
+		-- same role, same turn => same group
 		for _, c in ipairs(g_Conflicts) do
 			if c.turn == turn and c.role == role then target = c break end
 		end
-		-- Their ally joining our same-turn offensive belongs to that group
+		-- an enemy's ally joining our same-turn offensive belongs to that group
 		if not target and role == "defender" then
 			for _, c in ipairs(g_Conflicts) do
 				if c.turn == turn and c.role == "attacker" then target = c break end
@@ -212,6 +389,9 @@ local function AddWar(otherTeam, role)
 
 	if not target then
 		target = { id = g_NextID, role = role, turn = turn, enemyTeams = {}, lossesOur = 0, lossesTheir = 0 }
+		target.year   = YearString(turn)
+		target.seed   = turn * 7919 + (role == "attacker" and 11 or (role == "defender" and 23 or 37)) + otherTeam * 104729
+		target.flavor = FlavorText(target)
 		g_NextID = g_NextID + 1
 		g_Conflicts[#g_Conflicts + 1] = target
 	end
@@ -234,136 +414,147 @@ local function RemoveWar(otherTeam)
 	end
 end
 
+-- Wars that already exist (game start, load, reconnect, hotseat switch) show as "ongoing"
 local function ScanExistingWars()
 	g_Conflicts = {}
-	if not Ready() then RebuildChips() return end
-	local me = ActiveTeam()
-	local pTeam = Teams[me]
-	local done = {}
-	for pid = 0, MAX_CIV_PLAYERS - 1 do
-		local p = Players[pid]
-		if IsRealPlayer(p) then
-			local t = p:GetTeam()
-			if t ~= me and not done[t] then
-				done[t] = true
-				if pTeam:IsHasMet(t) and pTeam:IsAtWar(t) then AddWar(t, "ongoing") end
+	g_NextID = 1
+	if Ready() then
+		local me, pTeam = ActiveTeam(), Teams[ActiveTeam()]
+		local function AtWarWith(t)
+			return t ~= me and TeamHasMajorPlayers(t) and pTeam:IsHasMet(t) and pTeam:IsAtWar(t)
+		end
+
+		-- 1) restore saved conflicts, dropping teams we're no longer at war with
+		local saved, nextID = LoadConflicts()
+		g_NextID = nextID
+		for _, c in ipairs(saved) do
+			for t in pairs(c.enemyTeams) do
+				if not AtWarWith(t) then c.enemyTeams[t] = nil end
+			end
+			if next(c.enemyTeams) ~= nil then
+				c.name = PickName(c)
+				g_Conflicts[#g_Conflicts + 1] = c
+			end
+		end
+
+		-- 2) any war not covered by a saved conflict becomes "ongoing"
+		local done = {}
+		for pid = 0, MAX_CIV_PLAYERS - 1 do
+			local p = Players[pid]
+			if IsRealPlayer(p) and not p:IsMinorCiv() then
+				local t = p:GetTeam()
+				if not done[t] then
+					done[t] = true
+					if AtWarWith(t) then AddWar(t, "ongoing") end   -- skipped if already restored
+				end
 			end
 		end
 	end
 	RebuildChips()
+	SaveConflicts()
 end
 
 -------------------------------------------------
--- Stats
+-- Stats (exact values)
 -------------------------------------------------
--- Revealed-only land count (what the active player could work out from the map)
-local function CountRevealedLand(pids, team)
-	local set = {}
-	for _, pid in ipairs(pids) do set[pid] = true end
-	local n = 0
-	for i = 0, Map.GetNumPlots() - 1 do
-		local plot = Map.GetPlotByIndex(i)
-		if plot ~= nil then
-			local owner = plot:GetOwner()
-			if owner >= 0 and set[owner] and plot:IsRevealed(team, false) then n = n + 1 end
-		end
-	end
-	return n
-end
-
-local function SideStats(pids, isEnemy)
-	local fog  = CFG.RESPECT_FOG and isEnemy
-	local team = ActiveTeam()
+local function SideStats(pids)
 	local s = { armies = 0, navies = 0, prod = 0, land = 0 }
 	for _, pid in ipairs(pids) do
 		local p = Players[pid]
 		for u in p:Units() do
 			if u:IsCombatUnit() then
-				local ok = true
-				if fog then
-					local plot = u:GetPlot()
-					ok = plot ~= nil and plot:IsVisible(team, false)
-					-- stealth/hidden units on a visible tile must not be counted
-					if ok and u.IsInvisible ~= nil and u:IsInvisible(team, false) then ok = false end
-				end
-				if ok then
-					local d = u:GetDomainType()
-					if d == DomainTypes.DOMAIN_LAND then s.armies = s.armies + 1
-					elseif d == DomainTypes.DOMAIN_SEA then s.navies = s.navies + 1 end
-				end
+				local d = u:GetDomainType()
+				if d == DomainTypes.DOMAIN_LAND then s.armies = s.armies + 1
+				elseif d == DomainTypes.DOMAIN_SEA then s.navies = s.navies + 1 end
 			end
 		end
-		if not isEnemy then
-			for city in p:Cities() do
-				s.prod = s.prod + city:GetYieldRate(YieldTypes.YIELD_PRODUCTION)
-			end
-		elseif not (CFG.MP_STRICT and IsMultiplayer()) then
-			for city in p:Cities() do
-				if city:Plot():IsRevealed(team, false) then
-					s.prod = s.prod + city:GetYieldRate(YieldTypes.YIELD_PRODUCTION)
-				end
-			end
+		for city in p:Cities() do
+			s.prod = s.prod + city:GetYieldRate(YieldTypes.YIELD_PRODUCTION)
 		end
-		if not fog then s.land = s.land + p:GetTotalLand() end
+		s.land = s.land + p:GetTotalLand()
 	end
-	if fog then s.land = CountRevealedLand(pids, team) end
 	return s
 end
 
-local function Fmt(n, approx)
-	if n == nil then return "?" end
-	return (approx and "~" or "") .. tostring(math.floor(n + 0.5))
+local function Fmt(n) return tostring(math.floor(n + 0.5)) end
+
+-- Civ icons float over the left/right edge of the panel as a vertical stack of 80px icons that
+-- overlap by 40% (48px step; later icons draw on top). If more civs are present than fit
+-- at that step, the step shrinks (more overlap) so all of them stay visible (max 7).
+-- City-states are a small (24px) row near the bottom of each half.
+local CIV_ICON, CIV_STEP = 80, 48
+local MAJOR_SLOTS, ALLY_SLOTS = 7, 5
+
+local function PlaceSlot(btn, img, pid, cell, x, y)
+	local used = SetCivIcon(img, pid, cell)
+	btn:SetSizeVal(cell, cell)
+	btn:SetOffsetVal(math.floor(x + 0.5), math.floor(y + 0.5))
+	img:SetSizeVal(used or cell, used or cell)
+	local p = Players[pid]
+	local tip = CivName(p)
+	if p:IsMinorCiv() then tip = tip .. " (City-State)" end
+	btn:SetToolTipString(tip)
+	btn:SetHide(false)
 end
 
-local function FillMembers(im, pids, isEnemy)
-	im:ResetInstances()
-	local team = Teams[ActiveTeam()]
-	local shown, hiddenUnmet = 0, 0
+local function FillSide(side, pids, moreLabel)
+	local prefix = (side == 1) and "Our" or "Their"
+	local majors, allies = {}, {}
 	for _, pid in ipairs(pids) do
-		local p = Players[pid]
-		if isEnemy and not team:IsHasMet(p:GetTeam()) then
-			hiddenUnmet = hiddenUnmet + 1
-		elseif shown < CFG.MAX_MEMBER_ICONS then
-			shown = shown + 1
-			local inst = im:GetInstance()
-			SetCivIcon(inst.MemberImg, pid, 32)
-			local tip = Locale.ConvertTextKey(p:GetCivilizationShortDescriptionKey())
-			if p:IsMinorCiv() then tip = tip .. " (City-State)" end
-			inst.MemberRoot:SetToolTipString(tip)
+		if Players[pid]:IsMinorCiv() then allies[#allies + 1] = pid else majors[#majors + 1] = pid end
+	end
+
+	-- civ column
+	local n    = math.min(#majors, MAJOR_SLOTS)
+	local size = CIV_ICON
+	local step = CIV_STEP
+	if n > 1 then step = math.min(step, (POP.COL_H - size) / (n - 1)) end
+	local total = size + math.max(n - 1, 0) * step
+	local top   = POP.COL_Y + (POP.COL_H - total) / 2
+	for i = 1, MAJOR_SLOTS do
+		local btn, img = Controls[prefix .. i], Controls[prefix .. i .. "I"]
+		if i <= n then
+			PlaceSlot(btn, img, majors[i], size, POP.COL_X[side] - size / 2, top + (i - 1) * step)
+		else
+			btn:SetHide(true)
 		end
 	end
+
+	-- city-state row
+	local m = math.min(#allies, ALLY_SLOTS)
+	local rowW = m * 24 + math.max(m - 1, 0) * 4
+	local startX = POP.CS_X[side] + (POP.CS_W - rowW) / 2
+	for i = 1, ALLY_SLOTS do
+		local btn, img = Controls[prefix .. "CS" .. i], Controls[prefix .. "CS" .. i .. "I"]
+		if i <= m then
+			PlaceSlot(btn, img, allies[i], 24, startX + (i - 1) * 28, POP.CS_Y)
+		else
+			btn:SetHide(true)
+		end
+	end
+
+	local extra = math.max(0, #majors - MAJOR_SLOTS) + math.max(0, #allies - ALLY_SLOTS)
+	moreLabel:SetText(extra > 0 and ("+" .. extra .. " more") or "")
 end
 
 local function PopulatePopup(c)
-	local ourPids   = CollectSide(OurTeamSet())
-	local theirPids = {}
-	do
-		-- never count civs/city-states the active player has not met
-		local me = Teams[ActiveTeam()]
-		for _, pid in ipairs(CollectSide(c.enemyTeams)) do
-			if me:IsHasMet(Players[pid]:GetTeam()) then theirPids[#theirPids + 1] = pid end
-		end
-	end
+	local ourPids   = CollectSide({ [ActiveTeam()] = true })
+	local theirPids = CollectSide(c.enemyTeams)
 
 	Controls.PopupTitle:SetText(c.name)
-	local roleText = (c.role == "attacker" and "War declared by you") or (c.role == "defender" and "War declared upon you") or "Ongoing hostilities"
-	Controls.PopupSub:SetText(roleText .. "  -  Turn " .. c.turn)
+	local line1, line2 = WrapTwoLines(c.flavor or "", 46)
+	Controls.PopupSub:SetText(line1)
+	Controls.PopupSub2:SetText(line2)
 
-	FillMembers(g_OurIM,   ourPids,   false)
-	FillMembers(g_TheirIM, theirPids, true)
+	FillSide(1, ourPids,   Controls.OurMore)
+	FillSide(2, theirPids, Controls.TheirMore)
 
-	local us, them = SideStats(ourPids, false), SideStats(theirPids, true)
-	local approx = CFG.RESPECT_FOG
-	local strict = CFG.MP_STRICT and IsMultiplayer()
-	if strict then them.prod = nil end
-	local theirLosses = c.lossesTheir
-	if strict then theirLosses = nil end
-	Controls.OurArmies:SetText(Fmt(us.armies));        Controls.TheirArmies:SetText(Fmt(them.armies, approx))
-	Controls.OurNavies:SetText(Fmt(us.navies));        Controls.TheirNavies:SetText(Fmt(them.navies, approx))
-	Controls.OurProduction:SetText(Fmt(us.prod));      Controls.TheirProduction:SetText(Fmt(them.prod, approx))
-	Controls.OurLand:SetText(Fmt(us.land));            Controls.TheirLand:SetText(Fmt(them.land, approx))
-	Controls.OurLosses:SetText(Fmt(c.lossesOur));      Controls.TheirLosses:SetText(Fmt(theirLosses, approx))
-	Controls.FogNote:SetText(approx and "~ based on our intelligence reports" or "")
+	local us, them = SideStats(ourPids), SideStats(theirPids)
+	Controls.OurArmies:SetText(Fmt(us.armies));      Controls.TheirArmies:SetText(Fmt(them.armies))
+	Controls.OurNavies:SetText(Fmt(us.navies));      Controls.TheirNavies:SetText(Fmt(them.navies))
+	Controls.OurProduction:SetText(Fmt(us.prod));    Controls.TheirProduction:SetText(Fmt(them.prod))
+	Controls.OurLand:SetText(Fmt(us.land));          Controls.TheirLand:SetText(Fmt(them.land))
+	Controls.OurLosses:SetText(Fmt(c.lossesOur));    Controls.TheirLosses:SetText(Fmt(c.lossesTheir))
 end
 
 -------------------------------------------------
@@ -374,7 +565,6 @@ local function FindByID(id)
 end
 
 local function StopCloseTimer()
-	g_Closing = false
 	ContextPtr:ClearUpdate()
 end
 
@@ -390,7 +580,7 @@ function ClosePopup(instant)
 	Controls.BackdropWrap:SetHide(true)
 	Controls.PopupAlpha:Reverse()
 	Controls.PopupSlide:Reverse()
-	g_Closing, g_CloseTimer = true, 0
+	g_CloseTimer = 0
 	ContextPtr:SetUpdate(function(dt)
 		g_CloseTimer = g_CloseTimer + dt
 		if g_CloseTimer >= CFG.CLOSE_TIME then
@@ -430,8 +620,8 @@ end)
 -------------------------------------------------
 -- Events
 -------------------------------------------------
--- Assumes team1 = the declaring team (how the engine raises it). If a build
--- ever reports it the other way round, flip `weAttacked` below.
+-- Assumes team1 = the declaring team (how the engine raises it). If a build ever reports
+-- it the other way round, flip `weAttacked` below.
 Events.WarStateChanged.Add(function(team1, team2, isAtWar)
 	if not Ready() then return end
 	local me = ActiveTeam()
@@ -439,28 +629,32 @@ Events.WarStateChanged.Add(function(team1, team2, isAtWar)
 	local other = (team1 == me) and team2 or team1
 
 	if isAtWar then
-		if not TeamHasRealPlayers(other) then return end   -- ignore barbarians / dead teams
+		-- Events.WarStateChanged
+		if not TeamHasMajorPlayers(other) then return end   -- ignore barbarians / city-states / dead teams
 		local weAttacked = (team1 == me)
 		AddWar(other, weAttacked and "attacker" or "defender")
 	else
 		RemoveWar(other)
 	end
 	RebuildChips()
+	RebuildChips()
+	SaveConflicts()
 end)
 
--- Unit losses: counts destroyed units belonging to either side while the war group exists.
--- Approximate (includes disbands/civilians). For exact kill tracking use a gameplay-side
--- GameEvents.UnitKilledInCombat hook and persist via Game.SetProperty.
+-- Unit losses since the war group was created: any destroyed unit owned by either side
+-- (approximate: includes disbands and civilians). Counters only, no UI work per death.
 Events.SerialEventUnitDestroyed.Add(function(playerID, unitID)
 	if #g_Conflicts == 0 then return end
+	local counted = false
 	for _, c in ipairs(g_Conflicts) do
 		local side = SideOfPlayer(c, playerID)
-		if side == "our" then c.lossesOur = c.lossesOur + 1
-		elseif side == "their" then c.lossesTheir = c.lossesTheir + 1 end
+		if side == "our" then c.lossesOur = c.lossesOur + 1 counted = true
+		elseif side == "their" then c.lossesTheir = c.lossesTheir + 1 counted = true end
 	end
+	if counted then SaveConflicts() end
 end)
 
--- Refresh once per turn (prune ended wars / dead teams, update open popup)
+-- Once per turn: prune ended wars / dead teams, refresh the popup if it is open
 Events.ActivePlayerTurnStart.Add(function()
 	if not Ready() then return end
 	local me = Teams[ActiveTeam()]
@@ -468,7 +662,8 @@ Events.ActivePlayerTurnStart.Add(function()
 	for i = #g_Conflicts, 1, -1 do
 		local c = g_Conflicts[i]
 		for t in pairs(c.enemyTeams) do
-			if not TeamHasRealPlayers(t) or not me:IsAtWar(t) then
+			-- Events.ActivePlayerTurnStart prune loop
+			if not TeamHasMajorPlayers(t) or not me:IsAtWar(t) then
 				c.enemyTeams[t] = nil
 				changed = true
 			end
@@ -478,7 +673,7 @@ Events.ActivePlayerTurnStart.Add(function()
 			table.remove(g_Conflicts, i)
 		end
 	end
-	if changed then RebuildChips() end
+	if changed then RebuildChips() SaveConflicts() end
 	if g_OpenID then
 		local c = FindByID(g_OpenID)
 		if c then PopulatePopup(c) end

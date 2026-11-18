@@ -238,6 +238,8 @@ restore small icon religion
 	remove CG
 fix policies
 ------------------------------------------------
+
+POLICY_MERCANTILISM
 if UI.IsDX9() then
 uiMsg == 523
 
@@ -281,3 +283,10 @@ write a civ 5 lua/xml script that achieves the following:
 8. should be performance friendly and safe for multiplayer
 9. should only be run every ten turns
 10. the threshold of required units below which they should be gifted is determined by the unlock of certain techs and number of cities
+
+local NAMES = {
+	attacker  = { "The Iron Offensive", "March of Empires", "Campaign of Conquest", "The Gilded Gauntlet", "Crown & Cannon" },
+	defender  = { "Defense of the Realm", "Hearth & Standard", "The Unbroken Line", "Banner Held High", "The Long Vigil" },
+	ongoing   = { "Standing Hostilities", "The Uneasy Front", "Smoldering Frontiers" },
+	coalition = { "The Grand Coalition", "Concert of Foes", "The Gathering Storm", "Pact of Ruin" },
+}

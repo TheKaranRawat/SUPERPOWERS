@@ -215,157 +215,327 @@ end
 ------------------------------------------------------------------------------
 -- City level by distance from capital
 ------------------------------------------------------------------------------
-local CITY_HALL = {
-	GameInfoTypes["BUILDING_CITY_HALL_LV1"], GameInfoTypes["BUILDING_CITY_HALL_LV2"],
-	GameInfoTypes["BUILDING_CITY_HALL_LV3"], GameInfoTypes["BUILDING_CITY_HALL_LV4"],
-	GameInfoTypes["BUILDING_CITY_HALL_LV5"],
-}
-local POLICE_STATE = {
-	[2] = GameInfoTypes["BUILDING_POLICE_STATE_LV2"], [3] = GameInfoTypes["BUILDING_POLICE_STATE_LV3"],
-	[4] = GameInfoTypes["BUILDING_POLICE_STATE_LV4"], [5] = GameInfoTypes["BUILDING_POLICE_STATE_LV5"],
-}
-local PUPPET      = GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT"]
-local PUPPET_FULL = GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT_FULL"]
-local CONSTABLE   = GameInfoTypes["BUILDING_CONSTABLE"]
-local SENATE      = GameInfoTypes["BUILDING_ROMAN_SENATE"]
-local SHERIFF     = GameInfoTypes["BUILDING_SHERIFF_OFFICE"]
-local POLICE_STN  = GameInfoTypes["BUILDING_POLICE_STATION"]
-local PROCURATE   = GameInfoTypes["BUILDING_PROCURATORATE"]
-local REPRESENT_CULTURE = GameInfoTypes["BUILDING_REPRESENTATION_CULTURE"]
-local SATRAPS_COURT     = GameInfoTypes["BUILDING_SATRAPS_COURT"]
+------------Set City Level by Distance (used in city founding or else)
 
--- Every building this function owns. Anything not requested for a city is forced to 0,
--- except ids marked KEEP (player-buildable office for that level, left untouched).
-local MANAGED = {
-	CITY_HALL[1], CITY_HALL[2], CITY_HALL[3], CITY_HALL[4], CITY_HALL[5],
-	PUPPET, PUPPET_FULL, CONSTABLE, SENATE, SHERIFF, POLICE_STN, PROCURATE,
-	POLICE_STATE[2], POLICE_STATE[3], POLICE_STATE[4], POLICE_STATE[5],
-}
-local KEEP = -1
+function SetCityLevelbyDistance (player,city)
 
--- Which office buildings each level leaves alone (identical to the old hand-written branches)
-local LEVEL_KEEP = {
-	[1] = {},
-	[2] = { CONSTABLE, SENATE },
-	[3] = { SHERIFF },
-	[4] = { POLICE_STN },
-	[5] = { PROCURATE },
-}
-
--- SetNumRealBuilding forces a city recalculation, so only call it when the value changes.
-local function SetBuilding(city, id, n)
-	if city:GetNumRealBuilding(id) ~= n then
-		city:SetNumRealBuilding(id, n)
+	
+	local WorldSizeLength = Map.GetGridSize()
+	local policyID = GameInfo.Policies["POLICY_DICTATORSHIP_PROLETARIAT"].ID
+		
+	local DistanceLV1 = 7
+	print ("DistanceLV1:"..DistanceLV1)
+	
+	local DistanceLV2 = WorldSizeLength / 8	
+	if DistanceLV2 > 18 then
+		DistanceLV2 = 18
+	elseif DistanceLV2 < 14 then
+	   DistanceLV2 = 14
 	end
-end
-
-local function ApplyBuildings(city, want)
-	for i = 1, #MANAGED do
-		local id = MANAGED[i]
-		local n = want[id] or 0
-		if n ~= KEEP then
-			SetBuilding(city, id, n)
-		end
+	print ("DistanceLV2:"..DistanceLV2)
+	
+	
+	local DistanceLV3 = WorldSizeLength / 5 	
+	if DistanceLV3 > 30 then
+	   DistanceLV3 = 30
+	elseif DistanceLV3 < 26 then
+	   DistanceLV3 = 26
 	end
-end
-
--- Distance thresholds depend only on map size: compute once.
-local baseThresholds = nil
-local function GetBaseThresholds()
-	if baseThresholds == nil then
-		local width = Map.GetGridSize()
-		baseThresholds = {
-			7,
-			math.max(14, math.min(18, width / 8)),
-			math.max(26, math.min(30, width / 5)),
-			math.max(36, math.min(44, width / 3)),
-		}
+	print ("DistanceLV3:"..DistanceLV3)	 
+	       
+	local DistanceLV4 = WorldSizeLength / 3 	
+	if DistanceLV4 > 44 then
+	   DistanceLV4 = 44
+	elseif DistanceLV4 < 36 then
+	   DistanceLV4 = 36
 	end
-	return baseThresholds
-end
+	print ("DistanceLV4:"..DistanceLV4)
 
-local function GetLevelForDistance(distance, t1, t2, t3, t4)
-	if distance <= 1 then return nil end -- NOTE: old code also did nothing for distance 0-1
-	if distance <= t1 then return 1 end
-	if distance <= t2 then return 2 end
-	if distance <= t3 then return 3 end
-	if distance <= t4 then return 4 end
-	return 5
-end
 
-function SetCityLevelbyDistance(player, city)
-	if player:GetNumCities() < 1 then return end
-
-	local want = {}
-
-	if city:IsCapital() then
-		ApplyBuildings(city, want)
-		return
+	if player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_POLYNESIA"] then	
+		print ("No Lv 4-5 cities!")
+		DistanceLV3 = 999
+		DistanceLV4 = 999
+	elseif player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_ENGLAND"] then
+		print ("Lv1 up for all cities!")
+		DistanceLV1 = DistanceLV2
+		DistanceLV2 = DistanceLV3
+		DistanceLV3 = DistanceLV4
+		DistanceLV4 = 999
+	elseif player:HasPolicy(policyID) then
+		print ("Lv1 up for all cities! - Policy Effect!")
+		DistanceLV1 = DistanceLV2
+		DistanceLV2 = DistanceLV3
+		DistanceLV3 = DistanceLV4
+		DistanceLV4 = 999
 	end
+	
 
-	if city:IsPuppet() then
-		if player:GetCivilizationType() == CIV_VENICE then
-			want[PUPPET_FULL] = 1 -- Venice: local government with no penalties
-		else
-			want[PUPPET] = 1
-		end
-		ApplyBuildings(city, want)
+	
+	
+	if player:GetNumCities() > 0 then
+		local pCity = player:GetCapitalCity()    
+		local CapitalPlot = pCity:Plot() 
+		local CapX = CapitalPlot:GetX()
+		local CapY = CapitalPlot:GetY()
+		
+		local policyID = GameInfo.Policies["POLICY_REPRESENTATION"].ID
+		local policyBonusID = GameInfo.Policies["POLICY_POLICE_STATE"].ID
+		
+		
+		if city:IsCapital() then
+			print ("Capital City!")
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV1"],0)
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV2"],0)
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV3"],0)
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV4"],0)
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV5"],0)
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT"],0)	
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT_FULL"],0)
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_CONSTABLE"],0)
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_ROMAN_SENATE"],0)
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_SHERIFF_OFFICE"],0)
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATION"],0) 
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_PROCURATORATE"],0) 	
+			
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV2"],0) 
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV3"],0) 
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV4"],0) 
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV5"],0) 
 
-		if not city:IsResistance() then
-			if city:GetOrderQueueLength() <= 0 or city:GetProduction() == 0 then
-				city:PushOrder(OrderTypes.ORDER_MAINTAIN, 0, -1, 0, false, false) -- let it make gold
+	
+		
+		elseif city:IsPuppet() then
+		
+			if player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_VENICE"] then
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT_FULL"],1)	--puppet city has a local government with no Penalties (Venice)
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT"],0)
+--					city:SetFocusType(3)
+				print("Special Puppet City with no Penalties!")
+			else
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT"],1)	--puppet city has a local government
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT_FULL"],0)
 			end
+			
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV1"],0)
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV2"],0)
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV3"],0)
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV4"],0)
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV5"],0)
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_CONSTABLE"],0)
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_ROMAN_SENATE"],0)
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_SHERIFF_OFFICE"],0)
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATION"],0) 
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_PROCURATORATE"],0) 	
+			
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV2"],0) 
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV3"],0) 
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV4"],0) 
+			city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV5"],0) 
+		
+			if not city:IsResistance() then
+				if city:GetOrderQueueLength() <= 0 or city:GetProduction()== 0 then
+					city:PushOrder (OrderTypes.ORDER_MAINTAIN, 0, -1, 0, false, false)
+					print("Puppet City doing nothing! Let it produce Gold!")
+				end
+			end
+			
+			print("Puppet City!")
+			
+		else
+			print("Annexed City, City Hall is built!")			
+			local plot = city:Plot() 
+			local Distance = Map.PlotDistance (plot:GetX(),plot:GetY(),CapX,CapY)
+			
+			print ("City's Distance from Capital:"..Distance)
+			
+			if player:HasPolicy(policyID) then
+			    city:SetNumRealBuilding(GameInfoTypes["BUILDING_REPRESENTATION_CULTURE"],1)	
+			    	print ("Player has the Representation policy!")
+			else
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_REPRESENTATION_CULTURE"],0)	  
+			end
+	
+			
+			
+			if Distance <= DistanceLV1 and Distance > 1 then
+		
+				    city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT"],0)
+				    city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT_FULL"],0)
+				    city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV1"],1)
+				    city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV2"],0)
+				    city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV3"],0)
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV4"],0)
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV5"],0)
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_CONSTABLE"],0)
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_ROMAN_SENATE"],0)
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_SHERIFF_OFFICE"],0)
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATION"],0) 
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_PROCURATORATE"],0) 
+					
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV2"],0) 
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV3"],0) 
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV4"],0) 
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV5"],0) 
+					
+					if player:GetCivilizationType() == GameInfoTypes["CIVILIZATION_PERSIA"] then
+				   		city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV1"],0)
+				   		city:SetNumRealBuilding(GameInfoTypes["BUILDING_SATRAPS_COURT"],1)					
+						print ("Persia! Achaemenid Legacy!")
+					end	
+					print("City lv1")
+					
+					
+			
+			elseif Distance > DistanceLV1 and Distance <= DistanceLV2  then	
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT"],0)
+			    city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT_FULL"],0)
+			    city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV1"],0)
+			    city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV2"],1)
+			    city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV3"],0)
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV4"],0)
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV5"],0)					
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_SHERIFF_OFFICE"],0)
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATION"],0) 
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_PROCURATORATE"],0) 
+				
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV2"],0) 
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV3"],0) 
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV4"],0) 
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV5"],0) 
+				
+				if player:HasPolicy(policyBonusID) then
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV2"],1) 
+					print ("Police State!")
+				end
+				
+				print("City lv2")
+				
+				
+				
+			elseif Distance > DistanceLV2 and Distance <= DistanceLV3 then	
+
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT"],0)
+			    city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT_FULL"],0)
+			    city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV1"],0)
+			    city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV2"],0)
+			    city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV3"],1)
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV4"],0)
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV5"],0)					
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_CONSTABLE"],0)
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_ROMAN_SENATE"],0)
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATION"],0) 
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_PROCURATORATE"],0) 
+				
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV2"],0) 
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV3"],0) 
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV4"],0) 
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV5"],0) 
+				
+				if player:HasPolicy(policyBonusID) then
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV3"],1) 
+					print ("Police State!")
+				end
+				
+				print("City lv3")
+				
+				
+				
+			elseif Distance > DistanceLV3 and Distance <= DistanceLV4 then	
+				
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT"],0)
+			    city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT_FULL"],0)
+			    city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV1"],0)
+			    city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV2"],0)
+			    city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV3"],0)
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV4"],1)
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV5"],0)					
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_CONSTABLE"],0)
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_ROMAN_SENATE"],0)
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_SHERIFF_OFFICE"],0) 
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_PROCURATORATE"],0) 
+				
+				
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV2"],0) 
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV3"],0) 
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV4"],0) 
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV5"],0) 
+				
+				if player:HasPolicy(policyBonusID) then
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV4"],1) 
+					print ("Police State!")
+				end
+				print("City lv4")	
+				
+				
+				
+			elseif Distance > DistanceLV4 then	
+			
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT"],0)
+			    city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT_FULL"],0)
+			    city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV1"],0)
+			    city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV2"],0)
+			    city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV3"],0)
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV4"],0)
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV5"],1)					
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_CONSTABLE"],0)
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_ROMAN_SENATE"],0)
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_SHERIFF_OFFICE"],0) 
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATION"],0) 
+				
+				
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV2"],0) 
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV3"],0) 
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV4"],0) 
+				city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV5"],0) 
+				
+				if player:HasPolicy(policyBonusID) then
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV5"],1) 
+					print ("Police State!")
+				end
+				print("City lv5")	
+					
+			end
+			
+			
+			if plot:GetResourceType() == GameInfoTypes.RESOURCE_NUTMEG or plot:GetResourceType() == GameInfoTypes.RESOURCE_CLOVES or plot:GetResourceType() == GameInfoTypes.RESOURCE_PEPPER then
+   				 	if player == Players[city:GetOriginalOwner()]  then
+
+			    	print ("Indonesian first 3 cities free from corruption!")
+			    	
+			    	city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV1"],0)
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV2"],0)
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV3"],0)
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV4"],0)
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_CITY_HALL_LV5"],0)
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT"],0)	
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_PUPPET_GOVERNEMENT_FULL"],0)
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_CONSTABLE"],0)
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_ROMAN_SENATE"],0)
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_SHERIFF_OFFICE"],0)
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATION"],0) 
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_PROCURATORATE"],0) 	
+					
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV2"],0) 
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV3"],0) 
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV4"],0) 
+					city:SetNumRealBuilding(GameInfoTypes["BUILDING_POLICE_STATE_LV5"],0)
+				end
+			end
+				
+				
+				
+		
+			
 		end
-		return
+
 	end
 
-	-- Annexed city
-	local capital = player:GetCapitalCity()
-	if capital == nil then return end -- capital lost: old code would have thrown here
 
-	local plot = city:Plot()
-	local distance = Map.PlotDistance(plot:GetX(), plot:GetY(), capital:GetX(), capital:GetY())
-
-	SetBuilding(city, REPRESENT_CULTURE, player:HasPolicy(POLICY_REPRESENTATION) and 1 or 0)
-
-	-- Level thresholds (shifted up one level for England / Dictatorship policy; Polynesia has no Lv4-5)
-	local b = GetBaseThresholds()
-	local t1, t2, t3, t4 = b[1], b[2], b[3], b[4]
-	local civ = player:GetCivilizationType()
-	if civ == CIV_POLYNESIA then
-		t3, t4 = 999, 999
-	elseif civ == CIV_ENGLAND or player:HasPolicy(POLICY_DICTATORSHIP) then
-		t1, t2, t3, t4 = t2, t3, t4, 999
-	end
-
-	local level = GetLevelForDistance(distance, t1, t2, t3, t4)
-
-	if level ~= nil then
-		want[CITY_HALL[level]] = 1
-		for _, id in ipairs(LEVEL_KEEP[level]) do want[id] = KEEP end
-
-		if level >= 2 and player:HasPolicy(POLICY_POLICE_STATE) then
-			want[POLICE_STATE[level]] = 1
-		end
-
-		if level == 1 and civ == CIV_PERSIA then
-			want[CITY_HALL[1]] = 0
-			SetBuilding(city, SATRAPS_COURT, 1) -- Achaemenid legacy
-		end
-	end
-
-	-- Indonesia: spice cities (original owner) are corruption free
-	local res = plot:GetResourceType()
-	if (res == RES_NUTMEG or res == RES_CLOVES or res == RES_PEPPER)
-		and player == Players[city:GetOriginalOwner()] then
-		want = {} -- everything off, nothing kept
-		level = level or 0 -- force apply below
-	end
-
-	if level ~= nil then
-		ApplyBuildings(city, want)
-	end
-end
+	
+	
+	
+end-------------Function End
 
 ------------------------------------------------------------------------------
 -- Misc

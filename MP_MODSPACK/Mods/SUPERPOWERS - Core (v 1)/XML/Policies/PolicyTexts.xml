@@ -1102,7 +1102,7 @@
 			<Text>
 				[COLOR_POSITIVE_TEXT]Mercantilism[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]-15%[ICON_GOLD] Gold cost of purchasing units and buildings.
-				[NEWLINE][ICON_BULLET]+50% [ICON_RES_CONSUMER] Consumer Goods produced by Merchants.
+				[NEWLINE][ICON_BULLET]-15%[ICON_WAR] Unit Maintenance.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP" >
