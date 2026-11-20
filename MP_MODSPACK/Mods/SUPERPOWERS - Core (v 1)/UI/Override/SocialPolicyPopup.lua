@@ -66,6 +66,85 @@ local g_PolicyPipeYOffset = 68;
 local m_gPolicyID;
 local m_gAdoptingPolicy;
 
+local g_bReopenAfterBranchSwitch = false;
+
+-- Close this screen so the branch switch (anarchy) popup is not layered under it
+local function ShowBranchSwitchPopup( iBranch )
+	g_bReopenAfterBranchSwitch = true;
+	OnClose();
+	Events.SerialEventGameMessagePopup({
+		Type = ButtonPopupTypes.BUTTONPOPUP_CONFIRM_POLICY_BRANCH_SWITCH,
+		Data1 = iBranch,
+	});
+end
+
+-- Bring the policy screen back once the switch popup is dismissed (confirm or cancel)
+Events.SerialEventGameMessagePopupProcessed.Add(function( popupType )
+	if popupType == ButtonPopupTypes.BUTTONPOPUP_CONFIRM_POLICY_BRANCH_SWITCH and g_bReopenAfterBranchSwitch then
+		g_bReopenAfterBranchSwitch = false;
+		Events.SerialEventGameMessagePopup({ Type = ButtonPopupTypes.BUTTONPOPUP_CHOOSEPOLICY });
+	end
+end);
+
+-- Branches that require ANY ONE of the listed branches to be fully adopted
+local g_BranchPrereqAny = {
+	-- POLICY_BRANCH_HONOR = { "POLICY_BRANCH_TRADITION", "POLICY_BRANCH_LIBERTY" },
+};
+
+function IsBranchComplete(player, branchType)
+	local numPolicies, numAdopted = 0, 0;
+	for policy in GameInfo.Policies() do
+		if policy.PolicyBranchType == branchType then
+			numPolicies = numPolicies + 1;
+			if player:HasPolicy(policy.ID) then
+				numAdopted = numAdopted + 1;
+			end
+		end
+	end
+	return numPolicies > 0 and numAdopted >= numPolicies;
+end
+
+function IsBranchPrereqMet(player, branchType)
+	local prereqs = g_BranchPrereqAny[branchType];
+	if prereqs == nil then
+		return true;
+	end
+	for _, prereqBranch in ipairs(prereqs) do
+		if IsBranchComplete(player, prereqBranch) then
+			return true;
+		end
+	end
+	return false;
+end
+
+local g_BranchEraPrereq = {
+	POLICY_BRANCH_HONOR = "ERA_CLASSICAL",
+};
+-- Completing ANY of these branches bypasses the era requirement
+local g_BranchEraBypass = {
+	POLICY_BRANCH_HONOR = { "POLICY_BRANCH_TRADITION", "POLICY_BRANCH_LIBERTY" },
+};
+
+function IsBranchEraLocked(player, branchInfo)
+	local eraType = branchInfo.EraPrereq or g_BranchEraPrereq[branchInfo.Type];
+	local iEra = eraType and GameInfoTypes[eraType];
+	if iEra == nil then
+		return false, nil;
+	end
+	if Teams[player:GetTeam()]:GetCurrentEra() >= iEra then
+		return false, iEra;
+	end
+	local bypass = g_BranchEraBypass[branchInfo.Type];
+	if bypass then
+		for _, branchType in ipairs(bypass) do
+			if IsBranchComplete(player, branchType) then
+				return false, iEra;
+			end
+		end
+	end
+	return true, iEra;
+end
+
 g_Tabs = {
 	["SocialPolicies"] = {
 		Button = Controls.TabButtonSocialPolicies,
@@ -124,11 +203,7 @@ function PolicySelected( policyIndex )
 			
 			print("Policy Branch: " .. tostring(iPolicyBranch));
 			
-			local popupInfo = {
-				Type = ButtonPopupTypes.BUTTONPOPUP_CONFIRM_POLICY_BRANCH_SWITCH,
-				Data1 = iPolicyBranch;
-			}
-			Events.SerialEventGameMessagePopup(popupInfo);
+			ShowBranchSwitchPopup(iPolicyBranch);
 			
 		end
     end
@@ -157,7 +232,18 @@ function PolicyBranchSelected( policyBranchIndex )
     if player == nil then
 		return;
     end
+
+	if branchInfo and not player:IsPolicyBranchUnlocked(policyBranchIndex)
+	and IsBranchEraLocked(player, branchInfo) then
+		return;
+	end
     
+	local branchInfo = GameInfo.PolicyBranchTypes[policyBranchIndex];
+	if branchInfo and not player:IsPolicyBranchUnlocked(policyBranchIndex)
+	and not IsBranchPrereqMet(player, branchInfo.Type) then
+		return;
+	end
+
     local bHasPolicyBranch = player:IsPolicyBranchUnlocked(policyBranchIndex);
     local bCanAdoptPolicyBranch = player:CanUnlockPolicyBranch(policyBranchIndex);
     
@@ -166,7 +252,7 @@ function PolicyBranchSelected( policyBranchIndex )
    -- print("PolicyBranch Blocked: " .. tostring(player:IsPolicyBranchBlocked(policyBranchIndex)));
     
     local bUnblockingPolicyBranch = false;
-    
+    	
     -- If we can get this, OR we already have it, see if we can unblock it first
     if (bHasPolicyBranch or bCanAdoptPolicyBranch) then
     
@@ -175,11 +261,7 @@ function PolicyBranchSelected( policyBranchIndex )
 			
 			bUnblockingPolicyBranch = true;
 			
-			local popupInfo = {
-				Type = ButtonPopupTypes.BUTTONPOPUP_CONFIRM_POLICY_BRANCH_SWITCH,
-				Data1 = policyBranchIndex;
-			}
-			Events.SerialEventGameMessagePopup(popupInfo);
+			ShowBranchSwitchPopup(policyBranchIndex);
 		end
     end
     
@@ -335,13 +417,7 @@ function UpdateDisplay()
 			local strToolTip = Locale.ConvertTextKey(policyBranchInfo.Help);
 			
 			-- Era Prereq
-			local iEraPrereq = GameInfoTypes[policyBranchInfo.EraPrereq]
-			local bEraLock = false;
-			if (iEraPrereq ~= nil and pTeam:GetCurrentEra() < iEraPrereq) then
-				bEraLock = true;
-			else
-				--thisEraLabel:SetHide(true);
-			end
+			local bEraLock, iEraPrereq = IsBranchEraLocked(player, policyBranchInfo);
 			
 			local lockName = "Lock"..numString;
 			local thisLock = Controls[lockName] or Controls.Lock0 
@@ -352,7 +428,21 @@ function UpdateDisplay()
 				-- Cannot adopt this branch right now
 				if (policyBranchInfo.LockedWithoutReligion and Game.IsOption(GameOptionTypes.GAMEOPTION_NO_RELIGION)) then
 					strToolTip = strToolTip .. "[NEWLINE][NEWLINE]" .. Locale.ConvertTextKey("TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_RELIGION");
-
+				elseif (bEraLock) then
+					local strEra = GameInfo.Eras[iEraPrereq].Description;
+					strToolTip = strToolTip .. "[NEWLINE][NEWLINE]" .. Locale.ConvertTextKey("TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK")
+						.. " " .. Locale.ConvertTextKey("TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_ERA", strEra);
+					thisButton:SetText( Locale.ConvertTextKey(strEra) );
+					thisButton:SetHide( true );
+					thisLock:SetHide( false );
+					thisButton:SetDisabled( true );
+				elseif (bPrereqLock and not bEraLock) then
+					strToolTip = strToolTip .. "[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]"
+						.. "Requires a completed Tradition or Liberty tree." .. "[ENDCOLOR]";
+					thisLock:SetHide( false );
+					thisButton:SetHide( false );
+					thisButton:SetDisabled( true );
+					thisButton:SetText( Locale.ConvertTextKey( "TXT_KEY_POP_ADOPT_BUTTON" ) );
 				elseif (not player:CanUnlockPolicyBranch(i)) then
 					
 					strToolTip = strToolTip .. "[NEWLINE][NEWLINE]" .. Locale.ConvertTextKey("TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK");
@@ -472,6 +562,9 @@ function UpdateDisplay()
 			
 			-- Tooltip
 			local strTooltip = Locale.ConvertTextKey( policyInfo.Help );
+
+			local bPrereqLock = (not player:IsPolicyBranchUnlocked(i))
+                    and (not IsBranchPrereqMet(player, policyBranchInfo.Type));
 			
 			-- Player already has Policy
 			if player:HasPolicy( i ) then

@@ -108262,7 +108262,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DOUBLE_AGENTS_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Planned Economy[ENDCOLOR][NEWLINE]+16 [ICON_RES_ELECTRICITY] Electricity and +16 [ICON_RES_CONSUMER] Consumer Goods for each city.
+				[COLOR_POSITIVE_TEXT]Planned Economy[ENDCOLOR][NEWLINE]+16 [ICON_RES_ELECTRICITY] Electricity and +8 [ICON_RES_CONSUMER] Manpower for each city.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DOUBLE_AGENTS_TEXT"> 
@@ -109857,7 +109857,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP"> 
 			<Text>
-				[COLOR_POSITIVE_TEXT]Free Trade[ENDCOLOR][NEWLINE]Each Logistics Company, International Trading Company and Central Business District's additionally boost a city's [ICON_GOLD] Gold output by an extra +15%. [NEWLINE]+50% [ICON_RES_CONSUMER] Consumer Goods produced by Merchants.
+				[COLOR_POSITIVE_TEXT]Free Trade[ENDCOLOR][NEWLINE]Each Logistics Company, International Trading Company and Central Business District's additionally boost a city's [ICON_GOLD] Gold output by an extra +15%.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_TEXT"> 
@@ -134263,7 +134263,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_TECH_LARGE_CALIBRE_TITLE"> 
 			<Text>
-				Large Calibre Artillery System
+				Large Caliber
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TECH_LASERS"> 
@@ -140627,7 +140627,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_DANISH_SKI_INFANTRY"> 
 			<Text>
-				[ICON_SWORD] [COLOR_YELLOW]Ski Infantry[ENDCOLOR]
+				[ICON_SWORD] [COLOR_YELLOW]Elite Infantry[ENDCOLOR]
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_DERVISH_CAVALRY"> 

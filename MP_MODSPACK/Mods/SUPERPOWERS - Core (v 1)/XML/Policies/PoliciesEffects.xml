@@ -3553,6 +3553,11 @@
 		-->
 		<Row>
 			<BuildingType>BUILDING_CONSUMER_GOODS_OFFER</BuildingType>
+			<ResourceType>RESOURCE_MANPOWER</ResourceType>
+			<Quantity>8</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CONSUMER_GOODS_OFFER</BuildingType>
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType>
 			<Quantity>16</Quantity>
 		</Row>

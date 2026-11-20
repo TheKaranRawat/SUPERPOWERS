@@ -1379,7 +1379,7 @@
 			<Text>Free Trade</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Free Trade[ENDCOLOR][NEWLINE]Each Logistics Company, International Trading Company and Central Business District's additionally boost a city's [ICON_GOLD] Gold output by an extra +15%. [NEWLINE]+50% [ICON_RES_CONSUMER] Consumer Goods produced by Merchants.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Free Trade[ENDCOLOR][NEWLINE]Each Logistics Company, International Trading Company and Central Business District's additionally boost a city's [ICON_GOLD] Gold output by an extra +15%.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_TEXT">
 			<Text>Free trade is a policy in international markets in which governments do not restrict imports or exports. Free trade is exemplified by the European Union / European Economic Area and the North American Free Trade Agreement, which have established open markets.</Text>
@@ -1392,7 +1392,7 @@
 			<Text>Planned Economy</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DOUBLE_AGENTS_HELP" >
-			<Text>[COLOR_POSITIVE_TEXT]Planned Economy[ENDCOLOR][NEWLINE]+16 [ICON_RES_ELECTRICITY] Electricity and +16 [ICON_RES_CONSUMER] Consumer Goods for each city.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Planned Economy[ENDCOLOR][NEWLINE]+16 [ICON_RES_ELECTRICITY] Electricity and +8 [ICON_RES_CONSUMER] Manpower for each city.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_DOUBLE_AGENTS_TEXT" >
 			<Text>A planned economy is the economic system in which decisions regarding production and investment are embodied in a plan formulated by a central authority, usually by a public body such as a government agency.</Text>

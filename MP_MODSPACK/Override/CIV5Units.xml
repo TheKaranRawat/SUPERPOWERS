@@ -49822,6 +49822,11 @@
 		</Row>
 		<Row> 
 			<BuildingType>BUILDING_CONSUMER_GOODS_OFFER</BuildingType> 
+			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
+			<Quantity>8</Quantity> 
+		</Row>
+		<Row> 
+			<BuildingType>BUILDING_CONSUMER_GOODS_OFFER</BuildingType> 
 			<ResourceType>RESOURCE_ELECTRICITY</ResourceType> 
 			<Quantity>16</Quantity> 
 		</Row>
@@ -184561,7 +184566,7 @@
 			<StartPercent>10</StartPercent> 
 			<BuildingMaintenancePercent>100</BuildingMaintenancePercent> 
 			<GrowthPercent>95</GrowthPercent> 
-			<TrainPercent>105</TrainPercent> 
+			<TrainPercent>140</TrainPercent> 
 			<ConstructPercent>100</ConstructPercent> 
 			<CreatePercent>100</CreatePercent> 
 			<ResearchPercent>100</ResearchPercent> 
@@ -190980,8 +190985,8 @@
 			<Gold>0</Gold> 
 			<GoldFreeUnits>0</GoldFreeUnits> 
 			<ProductionFreeUnits>10</ProductionFreeUnits> 
-			<ProductionFreeUnitsPerCity>5</ProductionFreeUnitsPerCity> 
-			<ProductionFreeUnitsPopulationPercent>15</ProductionFreeUnitsPopulationPercent> 
+			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity> 
+			<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent> 
 			<RouteCostPercent>100</RouteCostPercent> 
 			<UnitCostPercent>100</UnitCostPercent> 
 			<BuildingCostPercent>100</BuildingCostPercent> 
@@ -190997,7 +191002,7 @@
 			<NoTechTradeModifier>70</NoTechTradeModifier> 
 			<TechTradeKnownModifier>-100</TechTradeKnownModifier> 
 			<BarbCampGold>25</BarbCampGold> 
-			<BarbSpawnMod>5</BarbSpawnMod> 
+			<BarbSpawnMod>0</BarbSpawnMod> 
 			<BarbarianBonus>40</BarbarianBonus> 
 			<AIBarbarianBonus>60</AIBarbarianBonus> 
 			<EarliestBarbarianReleaseTurn>15</EarliestBarbarianReleaseTurn> 
@@ -191048,7 +191053,7 @@
 			<GoldFreeUnits>0</GoldFreeUnits> 
 			<ProductionFreeUnits>10</ProductionFreeUnits> 
 			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity> 
-			<ProductionFreeUnitsPopulationPercent>10</ProductionFreeUnitsPopulationPercent> 
+			<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent> 
 			<RouteCostPercent>100</RouteCostPercent> 
 			<UnitCostPercent>100</UnitCostPercent> 
 			<BuildingCostPercent>100</BuildingCostPercent> 
@@ -191064,7 +191069,7 @@
 			<NoTechTradeModifier>50</NoTechTradeModifier> 
 			<TechTradeKnownModifier>-50</TechTradeKnownModifier> 
 			<BarbCampGold>25</BarbCampGold> 
-			<BarbSpawnMod>5</BarbSpawnMod> 
+			<BarbSpawnMod>0</BarbSpawnMod> 
 			<BarbarianBonus>20</BarbarianBonus> 
 			<AIBarbarianBonus>60</AIBarbarianBonus> 
 			<EarliestBarbarianReleaseTurn>15</EarliestBarbarianReleaseTurn> 
@@ -191080,7 +191085,7 @@
 			<AIDeclareWarProb>66</AIDeclareWarProb> 
 			<AIWorkRateModifier>100</AIWorkRateModifier> 
 			<AIUnhappinessPercent>70</AIUnhappinessPercent> 
-			<AIGrowthPercent>60</AIGrowthPercent> 
+			<AIGrowthPercent>100</AIGrowthPercent> 
 			<AITrainPercent>100</AITrainPercent> 
 			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
 			<AIConstructPercent>100</AIConstructPercent> 
@@ -191114,8 +191119,8 @@
 			<Gold>0</Gold> 
 			<GoldFreeUnits>0</GoldFreeUnits> 
 			<ProductionFreeUnits>10</ProductionFreeUnits> 
-			<ProductionFreeUnitsPerCity>5</ProductionFreeUnitsPerCity> 
-			<ProductionFreeUnitsPopulationPercent>15</ProductionFreeUnitsPopulationPercent> 
+			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity> 
+			<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent> 
 			<RouteCostPercent>100</RouteCostPercent> 
 			<UnitCostPercent>100</UnitCostPercent> 
 			<BuildingCostPercent>100</BuildingCostPercent> 
@@ -191131,7 +191136,7 @@
 			<NoTechTradeModifier>50</NoTechTradeModifier> 
 			<TechTradeKnownModifier>-25</TechTradeKnownModifier> 
 			<BarbCampGold>25</BarbCampGold> 
-			<BarbSpawnMod>5</BarbSpawnMod> 
+			<BarbSpawnMod>0</BarbSpawnMod> 
 			<BarbarianBonus>0</BarbarianBonus> 
 			<AIBarbarianBonus>60</AIBarbarianBonus> 
 			<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn> 
@@ -191147,10 +191152,10 @@
 			<AIDeclareWarProb>100</AIDeclareWarProb> 
 			<AIWorkRateModifier>150</AIWorkRateModifier> 
 			<AIUnhappinessPercent>70</AIUnhappinessPercent> 
-			<AIGrowthPercent>50</AIGrowthPercent> 
+			<AIGrowthPercent>90</AIGrowthPercent> 
 			<AITrainPercent>100</AITrainPercent> 
 			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
-			<AIConstructPercent>100</AIConstructPercent> 
+			<AIConstructPercent>90</AIConstructPercent> 
 			<AIWorldConstructPercent>100</AIWorldConstructPercent> 
 			<AICreatePercent>100</AICreatePercent> 
 			<AIWorldCreatePercent>100</AIWorldCreatePercent> 
@@ -191181,8 +191186,8 @@
 			<Gold>0</Gold> 
 			<GoldFreeUnits>0</GoldFreeUnits> 
 			<ProductionFreeUnits>10</ProductionFreeUnits> 
-			<ProductionFreeUnitsPerCity>5</ProductionFreeUnitsPerCity> 
-			<ProductionFreeUnitsPopulationPercent>15</ProductionFreeUnitsPopulationPercent> 
+			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity> 
+			<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent> 
 			<RouteCostPercent>100</RouteCostPercent> 
 			<UnitCostPercent>100</UnitCostPercent> 
 			<BuildingCostPercent>100</BuildingCostPercent> 
@@ -191198,7 +191203,7 @@
 			<NoTechTradeModifier>30</NoTechTradeModifier> 
 			<TechTradeKnownModifier>0</TechTradeKnownModifier> 
 			<BarbCampGold>25</BarbCampGold> 
-			<BarbSpawnMod>5</BarbSpawnMod> 
+			<BarbSpawnMod>0</BarbSpawnMod> 
 			<BarbarianBonus>0</BarbarianBonus> 
 			<AIBarbarianBonus>60</AIBarbarianBonus> 
 			<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn> 
@@ -191214,10 +191219,10 @@
 			<AIDeclareWarProb>100</AIDeclareWarProb> 
 			<AIWorkRateModifier>200</AIWorkRateModifier> 
 			<AIUnhappinessPercent>70</AIUnhappinessPercent> 
-			<AIGrowthPercent>40</AIGrowthPercent> 
+			<AIGrowthPercent>80</AIGrowthPercent> 
 			<AITrainPercent>100</AITrainPercent> 
 			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
-			<AIConstructPercent>100</AIConstructPercent> 
+			<AIConstructPercent>80</AIConstructPercent> 
 			<AIWorldConstructPercent>100</AIWorldConstructPercent> 
 			<AICreatePercent>100</AICreatePercent> 
 			<AIWorldCreatePercent>100</AIWorldCreatePercent> 
@@ -191248,8 +191253,8 @@
 			<Gold>0</Gold> 
 			<GoldFreeUnits>0</GoldFreeUnits> 
 			<ProductionFreeUnits>10</ProductionFreeUnits> 
-			<ProductionFreeUnitsPerCity>5</ProductionFreeUnitsPerCity> 
-			<ProductionFreeUnitsPopulationPercent>15</ProductionFreeUnitsPopulationPercent> 
+			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity> 
+			<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent> 
 			<RouteCostPercent>100</RouteCostPercent> 
 			<UnitCostPercent>100</UnitCostPercent> 
 			<BuildingCostPercent>100</BuildingCostPercent> 
@@ -191265,7 +191270,7 @@
 			<NoTechTradeModifier>30</NoTechTradeModifier> 
 			<TechTradeKnownModifier>0</TechTradeKnownModifier> 
 			<BarbCampGold>25</BarbCampGold> 
-			<BarbSpawnMod>5</BarbSpawnMod> 
+			<BarbSpawnMod>0</BarbSpawnMod> 
 			<BarbarianBonus>0</BarbarianBonus> 
 			<AIBarbarianBonus>60</AIBarbarianBonus> 
 			<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn> 
@@ -191281,10 +191286,10 @@
 			<AIDeclareWarProb>100</AIDeclareWarProb> 
 			<AIWorkRateModifier>250</AIWorkRateModifier> 
 			<AIUnhappinessPercent>70</AIUnhappinessPercent> 
-			<AIGrowthPercent>30</AIGrowthPercent> 
-			<AITrainPercent>100</AITrainPercent> 
+			<AIGrowthPercent>80</AIGrowthPercent> 
+			<AITrainPercent>65</AITrainPercent> 
 			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
-			<AIConstructPercent>100</AIConstructPercent> 
+			<AIConstructPercent>70</AIConstructPercent> 
 			<AIWorldConstructPercent>100</AIWorldConstructPercent> 
 			<AICreatePercent>100</AICreatePercent> 
 			<AIWorldCreatePercent>100</AIWorldCreatePercent> 
@@ -191315,8 +191320,8 @@
 			<Gold>0</Gold> 
 			<GoldFreeUnits>10</GoldFreeUnits> 
 			<ProductionFreeUnits>10</ProductionFreeUnits> 
-			<ProductionFreeUnitsPerCity>5</ProductionFreeUnitsPerCity> 
-			<ProductionFreeUnitsPopulationPercent>15</ProductionFreeUnitsPopulationPercent> 
+			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity> 
+			<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent> 
 			<RouteCostPercent>100</RouteCostPercent> 
 			<UnitCostPercent>100</UnitCostPercent> 
 			<BuildingCostPercent>100</BuildingCostPercent> 
@@ -191332,7 +191337,7 @@
 			<NoTechTradeModifier>30</NoTechTradeModifier> 
 			<TechTradeKnownModifier>0</TechTradeKnownModifier> 
 			<BarbCampGold>25</BarbCampGold> 
-			<BarbSpawnMod>5</BarbSpawnMod> 
+			<BarbSpawnMod>0</BarbSpawnMod> 
 			<BarbarianBonus>0</BarbarianBonus> 
 			<AIBarbarianBonus>60</AIBarbarianBonus> 
 			<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn> 
@@ -191348,10 +191353,10 @@
 			<AIDeclareWarProb>250</AIDeclareWarProb> 
 			<AIWorkRateModifier>250</AIWorkRateModifier> 
 			<AIUnhappinessPercent>50</AIUnhappinessPercent> 
-			<AIGrowthPercent>20</AIGrowthPercent> 
+			<AIGrowthPercent>70</AIGrowthPercent> 
 			<AITrainPercent>60</AITrainPercent> 
 			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
-			<AIConstructPercent>80</AIConstructPercent> 
+			<AIConstructPercent>60</AIConstructPercent> 
 			<AIWorldConstructPercent>250</AIWorldConstructPercent> 
 			<AICreatePercent>140</AICreatePercent> 
 			<AIWorldCreatePercent>140</AIWorldCreatePercent> 
@@ -191382,8 +191387,8 @@
 			<Gold>0</Gold> 
 			<GoldFreeUnits>15</GoldFreeUnits> 
 			<ProductionFreeUnits>10</ProductionFreeUnits> 
-			<ProductionFreeUnitsPerCity>5</ProductionFreeUnitsPerCity> 
-			<ProductionFreeUnitsPopulationPercent>15</ProductionFreeUnitsPopulationPercent> 
+			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity> 
+			<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent> 
 			<RouteCostPercent>100</RouteCostPercent> 
 			<UnitCostPercent>120</UnitCostPercent> 
 			<BuildingCostPercent>100</BuildingCostPercent> 
@@ -191399,7 +191404,7 @@
 			<NoTechTradeModifier>30</NoTechTradeModifier> 
 			<TechTradeKnownModifier>0</TechTradeKnownModifier> 
 			<BarbCampGold>25</BarbCampGold> 
-			<BarbSpawnMod>5</BarbSpawnMod> 
+			<BarbSpawnMod>0</BarbSpawnMod> 
 			<BarbarianBonus>0</BarbarianBonus> 
 			<AIBarbarianBonus>60</AIBarbarianBonus> 
 			<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn> 
@@ -191415,10 +191420,10 @@
 			<AIDeclareWarProb>400</AIDeclareWarProb> 
 			<AIWorkRateModifier>350</AIWorkRateModifier> 
 			<AIUnhappinessPercent>40</AIUnhappinessPercent> 
-			<AIGrowthPercent>20</AIGrowthPercent> 
-			<AITrainPercent>50</AITrainPercent> 
+			<AIGrowthPercent>60</AIGrowthPercent> 
+			<AITrainPercent>55</AITrainPercent> 
 			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
-			<AIConstructPercent>66</AIConstructPercent> 
+			<AIConstructPercent>55</AIConstructPercent> 
 			<AIWorldConstructPercent>300</AIWorldConstructPercent> 
 			<AICreatePercent>100</AICreatePercent> 
 			<AIWorldCreatePercent>100</AIWorldCreatePercent> 
@@ -191448,9 +191453,9 @@
 			<PopulationUnhappinessMod>200</PopulationUnhappinessMod> 
 			<Gold>0</Gold> 
 			<GoldFreeUnits>0</GoldFreeUnits> 
-			<ProductionFreeUnits>10</ProductionFreeUnits> 
-			<ProductionFreeUnitsPerCity>5</ProductionFreeUnitsPerCity> 
-			<ProductionFreeUnitsPopulationPercent>15</ProductionFreeUnitsPopulationPercent> 
+			<ProductionFreeUnits>20</ProductionFreeUnits> 
+			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity> 
+			<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent> 
 			<RouteCostPercent>100</RouteCostPercent> 
 			<UnitCostPercent>200</UnitCostPercent> 
 			<BuildingCostPercent>150</BuildingCostPercent> 
@@ -191466,7 +191471,7 @@
 			<NoTechTradeModifier>30</NoTechTradeModifier> 
 			<TechTradeKnownModifier>0</TechTradeKnownModifier> 
 			<BarbCampGold>25</BarbCampGold> 
-			<BarbSpawnMod>5</BarbSpawnMod> 
+			<BarbSpawnMod>0</BarbSpawnMod> 
 			<BarbarianBonus>0</BarbarianBonus> 
 			<AIBarbarianBonus>60</AIBarbarianBonus> 
 			<EarliestBarbarianReleaseTurn>10</EarliestBarbarianReleaseTurn> 
@@ -191482,7 +191487,7 @@
 			<AIDeclareWarProb>800</AIDeclareWarProb> 
 			<AIWorkRateModifier>400</AIWorkRateModifier> 
 			<AIUnhappinessPercent>33</AIUnhappinessPercent> 
-			<AIGrowthPercent>20</AIGrowthPercent> 
+			<AIGrowthPercent>50</AIGrowthPercent> 
 			<AITrainPercent>50</AITrainPercent> 
 			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
 			<AIConstructPercent>50</AIConstructPercent> 
@@ -231025,7 +231030,7 @@
 			<WonderProductionModifier>0</WonderProductionModifier> 
 			<BuildingProductionModifier>0</BuildingProductionModifier> 
 			<GreatPeopleRateModifier>0</GreatPeopleRateModifier> 
-			<GreatGeneralRateModifier>25</GreatGeneralRateModifier> 
+			<GreatGeneralRateModifier>2</GreatGeneralRateModifier> 
 			<GreatAdmiralRateModifier>25</GreatAdmiralRateModifier> 
 			<GreatWriterRateModifier>0</GreatWriterRateModifier> 
 			<GreatArtistRateModifier>0</GreatArtistRateModifier> 
@@ -231948,7 +231953,7 @@
 			<WonderProductionModifier>0</WonderProductionModifier> 
 			<BuildingProductionModifier>0</BuildingProductionModifier> 
 			<GreatPeopleRateModifier>0</GreatPeopleRateModifier> 
-			<GreatGeneralRateModifier>10</GreatGeneralRateModifier> 
+			<GreatGeneralRateModifier>1</GreatGeneralRateModifier> 
 			<GreatAdmiralRateModifier>10</GreatAdmiralRateModifier> 
 			<GreatWriterRateModifier>0</GreatWriterRateModifier> 
 			<GreatArtistRateModifier>0</GreatArtistRateModifier> 
@@ -253283,8 +253288,8 @@
 			<WonderProductionModifier>0</WonderProductionModifier> 
 			<BuildingProductionModifier>0</BuildingProductionModifier> 
 			<GreatPeopleRateModifier>0</GreatPeopleRateModifier> 
-			<GreatGeneralRateModifier>50</GreatGeneralRateModifier> 
-			<GreatAdmiralRateModifier>50</GreatAdmiralRateModifier> 
+			<GreatGeneralRateModifier>5</GreatGeneralRateModifier> 
+			<GreatAdmiralRateModifier>5</GreatAdmiralRateModifier> 
 			<GreatWriterRateModifier>0</GreatWriterRateModifier> 
 			<GreatArtistRateModifier>0</GreatArtistRateModifier> 
 			<GreatMusicianRateModifier>0</GreatMusicianRateModifier> 
@@ -257676,7 +257681,6 @@
 			<Description>TXT_KEY_POLICY_BRANCH_HONOR</Description> 
 			<Help>TXT_KEY_POLICY_BRANCH_HONOR_HELP</Help> 
 			<Title>TXT_KEY_HONOR_TITLE</Title> 
-			<EraPrereq>ERA_CLASSICAL</EraPrereq> 
 			<FreePolicy>POLICY_HONOR</FreePolicy> 
 			<FreeFinishingPolicy>POLICY_HONOR_FINISHER</FreeFinishingPolicy> 
 			<FirstAdopterFreePolicies>0</FirstAdopterFreePolicies> 
@@ -257714,7 +257718,7 @@
 			<Description>TXT_KEY_POLICY_BRANCH_PATRONAGE</Description> 
 			<Help>TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP</Help> 
 			<Title>TXT_KEY_PATRONAGE_TITLE</Title> 
-			<EraPrereq>ERA_CLASSICAL</EraPrereq> 
+			<EraPrereq>ERA_MEDIEVAL</EraPrereq> 
 			<FreePolicy>POLICY_PATRONAGE</FreePolicy> 
 			<FreeFinishingPolicy>POLICY_PATRONAGE_FINISHER</FreeFinishingPolicy> 
 			<FirstAdopterFreePolicies>0</FirstAdopterFreePolicies> 
@@ -285241,7 +285245,7 @@
 			<LevelExperienceModifier>0</LevelExperienceModifier> 
 			<GreatPeopleRateModifier>0</GreatPeopleRateModifier> 
 			<GreatScientistRateModifier>0</GreatScientistRateModifier> 
-			<GreatGeneralRateModifier>20</GreatGeneralRateModifier> 
+			<GreatGeneralRateModifier>2</GreatGeneralRateModifier> 
 			<GreatGeneralExtraBonus>0</GreatGeneralExtraBonus> 
 			<GreatPersonGiftInfluence>0</GreatPersonGiftInfluence> 
 			<MaxGlobalBuildingProductionModifier>0</MaxGlobalBuildingProductionModifier> 

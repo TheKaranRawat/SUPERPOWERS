@@ -327,6 +327,8 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/UserInterfaceSettingCache.lua</File>
 	<File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/UserInterfaceSettings.lua</File>
   <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/AdvancedSetup.lua</File>
+
+  
   
     
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TechPanel.lua</File>
@@ -336,6 +338,7 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
 	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/ActionInfoPanel.lua</File>
     <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/ActionInfoPanel.xml</File>
 	<File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/DiploCorner.xml</File>
+  <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/DiploCorner.lua</File>
 	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/DiploList.lua</File>
     <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/DiploList.xml</File>
 	
@@ -1465,6 +1468,7 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="2D4BE442AFCBFFD373B136285E43B109" import="1">UI/Override/UnitPanel.xml</File>
     <File md5="5D5B61E59E40D8A153CC51FDB60350CC" import="1">UI/Override/UnitPanel_small.xml</File>
 	  <File md5="16F58935E0971B8433D9628ED42A66E8" import="1">UI/Override/MiniMapPanel.xml</File>
+    
     <File md5="BC2203EBABADAAFB67ED64C670A47968" import="0">XML/AI/AIBonus.xml</File>
     <File md5="97E5D4AB753233A8E9AAE0B4A8595E94" import="0">XML/AI/AIStrategiesTweak.xml</File>
     <File md5="A12FC0FD7A08AA97723C6E7EADD6E385" import="0">XML/Buildings/BuildingClasses.xml</File>
@@ -3938,7 +3942,21 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/WarTracker/WarTrackerGlow.dds</File>
     <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/WarTracker/WarTracker.lua</File>
     <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/WarTracker/WarTracker.xml</File>
+
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/AutoRanged/AutoRanged.lua</File>
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/AutoRanged/AutoRanged.xml</File>
+
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/MouseSleep/MouseSleep.lua</File>
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/MouseSleep/MouseSleep.xml</File>
+
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/EventBanner/EventBanner.lua</File>
+    <File md5="43939FF7C370D80989CCD674F775944A" import="1">Modules/EventBanner/EventBanner.xml</File>
     
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TurnProcessing.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TurnProcessing.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/WorldView.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/WorldView.lua</File>
     
 
   </Files>
@@ -4562,7 +4580,23 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <EntryPoint type="InGameUIAddin" file="Modules/WarTracker/WarTracker.lua">
       <Name>WarTracker</Name>
       <Description>War Tracker</Description>
-    </EntryPoint>        
+    </EntryPoint>       
+
+    <EntryPoint type="InGameUIAddin" file="Modules/AutoRanged/AutoRanged.lua">
+      <Name>AutoRanged</Name>
+      <Description>Auto Range Unit Target</Description>
+    </EntryPoint>    
+
+    <EntryPoint type="InGameUIAddin" file="Modules/MouseSleep/MouseSleep.lua">
+      <Name>MouseSleep</Name>
+      <Description>Moues Hotkey Sleep/Aware</Description>
+    </EntryPoint>    
+
+    <EntryPoint type="InGameUIAddin" file="Modules/EventBanner/EventBanner.lua">
+      <Name>EventBanner</Name>
+      <Description>News Event Banner</Description>
+    </EntryPoint>    
+
 		
     <EntryPoint type="InGameUIAddin" file="Lua/Maps/Terra.lua">
       <Name>Terra</Name>

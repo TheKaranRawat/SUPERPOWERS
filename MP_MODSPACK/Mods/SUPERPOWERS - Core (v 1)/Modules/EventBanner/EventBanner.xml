@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EventBanner.xml : layout only. All logic lives in EventBanner.lua
+
+     Layout: a 588x128 frame. The visible background box (460x88) is centred in it, so
+     the two 128px icons sit half on / half off the box edges, laid on top of it.
+       frame width  = box width (460) + icon size (128)
+       frame height = icon size (128)
+-->
+<Context ColorSet="Beige_Black_Alpha" Font="TwCenMT18" FontStyle="Base">
+
+  <!-- Fades in/out. Speed + SLIDE_TIME in the Lua file should roughly match (Speed 3 = ~0.35s) -->
+  <AlphaAnim ID="BannerAlpha" Anchor="C,T" Offset="0,42" Size="588,128"
+             Start="0" End="1" Speed="3" Function="Root" Cycle="Once" Stopped="1" Hidden="1">
+
+    <!-- Slides down from above the final position -->
+    <SlideAnim ID="BannerSlide" Anchor="C,T" Size="588,128"
+               Start="0,-150" End="0,0" Speed="3" Function="Root" Cycle="Once" Stopped="1">
+
+      <!-- Translucent background box (drawn first = underneath the icons) -->
+      <Box ID="BG" Anchor="C,C" Size="460,88" Color="8,12,20,205"/>
+      <!-- Thin top highlight along the box's top edge -->
+      <Box ID="TopLine" Anchor="C,T" Offset="0,20" Size="460,1" Color="255,255,255,45"/>
+      <!-- Accent line along the box's bottom edge (tinted with the civ colour from Lua) -->
+      <Box ID="Accent" Anchor="C,B" Offset="0,20" Size="460,3" Color="255,210,120,255"/>
+
+      <!-- MIDDLE: headline + description, centred between the two icons.
+           TextBox spans the gap between the icons (x 128..460), so its centre is the banner's centre.
+           Move the text up / down with the Y values of the two Offsets (the box itself is y 20..108). -->
+      <Box ID="TextBox" Anchor="C,T" Offset="0,15" Size="332,88" Color="0,0,0,0">
+        <Label ID="Headline" Anchor="C,T" Offset="0,8"  Font="TwCenMT22" FontStyle="Shadow" Color="255,236,190,255" String=""/>
+        <Label ID="Desc"     Anchor="C,T" Offset="0,29" Font="TwCenMT16" WrapWidth="360" LeadingOffset="0" Color="195,205,220,255" String=""/>
+      </Box>
+
+      <!-- LEFT: unit / building / tech icon, or your custom .dds (set from Lua). Half outside the box. -->
+      <Image ID="EventIcon" Anchor="L,C" Offset="0,0" Size="128,128" Texture="CivSymbolsColor256.dds"/>
+
+      <!-- LEFT (alternate): a civ flag, used instead of EventIcon for war / treaty / city-capture banners. -->
+      <Box ID="LeftCivBox" Anchor="L,C" Offset="0,0" Size="128,128" Color="0,0,0,0" Hidden="1">
+        <Image ID="LeftCivIconBG"     Anchor="C,C" Size="128,128" Texture="CivIconBGSizes.dds"/>
+        <Image ID="LeftCivIconShadow" Anchor="C,C" Size="128,128" Texture="CivSymbolsColor256.dds"/>
+        <Image ID="LeftCivIcon"       Anchor="C,C" Size="128,128" Texture="CivSymbolsColor256.dds"/>
+      </Box>
+
+      <!-- RIGHT: civ that triggered the event. Half outside the box.
+           All three images must match CIV_ICON_SIZE in the Lua. -->
+      <Box ID="CivIconBox" Anchor="R,C" Offset="0,0" Size="128,128" Color="0,0,0,0">
+        <Image ID="CivIconBG"     Anchor="C,C" Size="128,128" Texture="CivIconBGSizes.dds"/>
+        <Image ID="CivIconShadow" Anchor="C,C" Size="128,128" Texture="CivSymbolsColor256.dds"/>
+        <Image ID="CivIcon"       Anchor="C,C" Size="128,128" Texture="CivSymbolsColor256.dds"/>
+      </Box>
+
+    </SlideAnim>
+  </AlphaAnim>
+
+</Context>

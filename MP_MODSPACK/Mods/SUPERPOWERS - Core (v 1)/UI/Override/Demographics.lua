@@ -26,6 +26,7 @@ local YIELD_FOOD = YieldTypes.YIELD_FOOD
 local YIELD_PRODUCTION = YieldTypes.YIELD_PRODUCTION
 
 local m_PopupInfo, m_ReplayContext
+local m_RequestedGraph  
 local m_IsShown = false -- guards turn-timer semaphore + event registration
 local m_PercentTechs = 100 / math_max( 1, #GameInfo.Technologies )
 
@@ -171,6 +172,11 @@ ContextPtr:SetShowHideHandler( function( isHide, isInit )
 		if m_ReplayContext then
 			m_ReplayContext:ChangeParent( ContextPtr )
 			m_ReplayContext:SetHide( false )
+			print( "DEMO: show handler, replayContext=", m_ReplayContext, "requested=", m_RequestedGraph )
+			if m_RequestedGraph then
+				LuaEvents.ReplaySelectGraph( m_RequestedGraph )
+				m_RequestedGraph = nil
+			end
 		end
 	end
 end )
@@ -198,6 +204,8 @@ else
 	AddSerialEventGameMessagePopup( function( popupInfo )
 		if popupInfo.Type == BUTTONPOPUP_DEMOGRAPHICS then
 			m_PopupInfo = popupInfo
+			m_RequestedGraph = popupInfo.Data2 ~= 0 and popupInfo.Data2 or nil
+			print( "DEMO: popup received, Data1=", popupInfo.Data1, "Data2=", popupInfo.Data2, "requested=", m_RequestedGraph )
 			if popupInfo.Data1 == 1 then
 				if not ContextPtr:IsHidden() then
 					ClosePopup()

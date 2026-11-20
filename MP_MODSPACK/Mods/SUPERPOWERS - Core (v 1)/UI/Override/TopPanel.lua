@@ -74,6 +74,7 @@ local Teams = Teams
 local UI = UI
 
 local RESOURCEUSAGE_STRATEGIC = ResourceUsageTypes.RESOURCEUSAGE_STRATEGIC
+local ERA_MODERN = GameInfoTypes.ERA_MODERN
 
 -------------------------------
 -- Globals
@@ -131,6 +132,16 @@ local function Colorize( x )
 	end
 end
 
+-- graph helper
+local function OpenGraph( code )
+	return function()
+		Events.SerialEventGameMessagePopup{
+			Type = ButtonPopupTypes.BUTTONPOPUP_DEMOGRAPHICS,
+			Data1 = 0,
+			Data2 = code,
+		}
+	end
+end
 
 --[[ format numbers ]]
 local function FormatK( n )
@@ -521,7 +532,11 @@ local function UpdateTopPanelNow()
 		-----------------------------
 		if IsCiv5BNW then
 			Controls.InternationalTradeRoutes:SetText( format( "%i/%i[ICON_INTERNATIONAL_TRADE]", activePlayer:GetNumInternationalTradeRoutesUsed(), activePlayer:GetNumInternationalTradeRoutesAvailable() ) )
-			Controls.TourismString:SetText( format( "%+i[ICON_TOURISM]", activePlayer:GetTourism() ) )
+			local showTourism = activePlayer:GetCurrentEra() >= ERA_MODERN
+			Controls.TourismString:SetHide( not showTourism )
+			if showTourism then
+				Controls.TourismString:SetText( format( "%+i[ICON_TOURISM]", activePlayer:GetTourism() ) )
+			end
 		end
 	else
 		-----------------------------
@@ -705,12 +720,13 @@ if IsCiv5 then
 
 	if IsCiv5BNW then
 		-- Tourism
-		Controls.TourismString:SetHide(false)
+		Controls.TourismString:SetHide(true)
 		Controls.TourismString:RegisterCallback( eLClick, function() GamePopup( ButtonPopupTypes.BUTTONPOPUP_CULTURE_OVERVIEW, 4 ) end )
 		Controls.TourismString:RegisterCallback( eRClick, function() SearchForPediaEntry( "TXT_KEY_CULTURE_TOURISM_HEADING2_TITLE" ) end )	-- TXT_KEY_CULTURE_TOURISM_AND_CULTURE_HEADING2_TITLE
 		-- Trade routes
 		Controls.InternationalTradeRoutes:SetHide(false)
-		Controls.InternationalTradeRoutes:RegisterCallback( eLClick, function() GamePopup( ButtonPopupTypes.BUTTONPOPUP_TRADE_ROUTE_OVERVIEW ) end )
+		-- graph trade
+		Controls.InternationalTradeRoutes:RegisterCallback( Mouse.eLClick, OpenGraph( 1 ) )
 		Controls.InternationalTradeRoutes:RegisterCallback( eRClick, function() SearchForPediaEntry( "TXT_KEY_TRADE_ROUTES_HEADING2_TITLE" ) end )	-- TXT_KEY_TRADE_ROUTES_HEADING2_TITLE
 	end
 else

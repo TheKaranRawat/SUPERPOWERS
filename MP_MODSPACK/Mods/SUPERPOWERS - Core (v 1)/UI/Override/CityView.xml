@@ -136,7 +136,7 @@
 
 			<!-- Order Selection -->
       		<!-- horizontal selection for different categories/wonders/units/buildings/icon only no name-->
-			<Box  ID="SelectionScrollPanel"Anchor="L,B" Size="270,308" Color="0,0,0,60" >
+			<Box  ID="SelectionScrollPanel"Anchor="L,B" Size="286,308" Color="0,0,0,60" >
 
 				<!--
 				<ScrollBar ID="SelectionScrollBar" Style="VertSlider" Anchor="R,C" AnchorSide="O.I" Length="72" />
@@ -150,11 +150,11 @@
 					<Button ID="CivilianButton" Anchor="L,T" Size="272,27" Offset="1,0" Color="0,0,0,120" ToolTip="TXT_KEY_CIV_BUTTON" >
 						<Label Anchor="L,C" Offset="40,-1" Font="TwCenMT18" String="CIVILIAN UNITS" />
 					</Button>    
-					<Grid ID="CivilianGrid" Size="272,40" Anchor="L,T" Offset="-3,0" Style="WindowGridBlack" Color="0,0,0,60">
+					<Grid ID="CivilianGrid" Size="290,40" Anchor="L,T" Offset="-3,0" Style="WindowGridBlack" Color="0,0,0,60">
 						<Box ID="CivilianBG" Color="0,0,0,60" Offset="0,2" Anchor="L,T" Size="200,100">
 						<Stack ID="MyStack1" Anchor="L,T" StackGrowth="Right" />
 						</Box>
-						<Stack ID="CivilianButtonStack" Offset="6,0" Anchor="L,T" StackGrowth="Right" />
+						<Stack ID="CivilianButtonStack" Offset="0,0" Anchor="L,T" StackGrowth="Right" />
 					</Grid>
 					
 					<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  -->
@@ -162,11 +162,11 @@
 					<Button ID="UnitButton" Anchor="L,T" Size="272,27" Offset="1,0" Color="0,0,0,120" ToolTip="TXT_KEY_UNIT_BUTTON" >
 						<Label Anchor="L,C" Offset="40,-1" Font="TwCenMT18" String="TXT_KEY_POP_UNITS" />
 					</Button>   
-					<Grid ID="UnitGrid" Size="272,40" Anchor="L,T" Offset="-3,0" Style="WindowGridBlack" Color="0,0,0,60" >
+					<Grid ID="UnitGrid" Size="285,40" Anchor="L,T" Offset="-3,0" Style="WindowGridBlack" Color="0,0,0,60" >
 						<Box ID="UnitBG" Color="0,0,0,60" Offset="0,2" Anchor="L,T" Size="200,100">
 						<Stack ID="MyStack2" Anchor="L,T" StackGrowth="Right" />
 						</Box>
-						<Stack ID="UnitButtonStack" Anchor="L,T" Offset="2,2" StackGrowth="Right" Wrap="1" WrapGrowth="Bottom" />
+						<Stack ID="UnitButtonStack" Anchor="L,T" Offset="0,2" StackGrowth="Right" Wrap="1" WrapGrowth="Bottom" />
 					</Grid>
 
 					<Button ID="BuildingsButton" Anchor="L,T" Size="272,27" Offset="1,0" Color="0,0,0,120" ToolTip="TXT_KEY_BUILDING_BUTTON" >
@@ -176,7 +176,7 @@
 						<Box ID="BuildBG" Color="0,0,0,60" Offset="0,2" Anchor="L,T" Size="200,100">
 						<Stack ID="MyStack3" Anchor="L,T" StackGrowth="Right" />
 						</Box>
-						<Stack ID="BuildingButtonStack" Anchor="L,T" Offset="6,0" StackGrowth="Right" Wrap="1" WrapGrowth="Bottom" />
+						<Stack ID="BuildingButtonStack" Anchor="L,T" Offset="0,0" StackGrowth="Right" Wrap="1" WrapGrowth="Bottom" />
 					</Grid>
 							
 					<Button ID="WondersButton" Anchor="L,T" Size="272,27" Offset="1,0" Color="0,0,0,120" ToolTip="TXT_KEY_WONDER_BUTTON" >
@@ -186,17 +186,17 @@
 						<Box ID="WonderBG" Color="0,0,0,60" Offset="0,2" Anchor="L,T" Size="200,100">
 							<Stack ID="MyStack4" Anchor="L,T" StackGrowth="Right" />
 						</Box>
-						<Stack ID="WonderButtonStack" Anchor="L,T" Offset="6,0" StackGrowth="Right" Wrap="1" WrapGrowth="Bottom" />						
+						<Stack ID="WonderButtonStack" Anchor="L,T" Offset="0,0" StackGrowth="Right" Wrap="1" WrapGrowth="Bottom" />						
 					</Grid>
 							
-					<Button ID="OtherButton" Anchor="L,T" Size="272,27" Offset="1,0" Color="0,0,0,120" ToolTip="TXT_KEY_OTHER_BUTTON" >
+					<Button ID="OtherButton" Anchor="L,T" Size="287,27" Offset="1,0" Color="0,0,0,120" ToolTip="TXT_KEY_OTHER_BUTTON" >
 						<Label Anchor="L,C" Offset="40,-1" Font="TwCenMT18" String="TXT_KEY_CITYVIEW_OTHER" />
 					</Button>
-					<Grid ID="OtherGrid" Size="272,56" Anchor="L,T" Offset="-3,0" Style="WindowGridBlack" Color="0,0,0,60">
+					<Grid ID="OtherGrid" Size="287,56" Anchor="L,T" Offset="-3,0" Style="WindowGridBlack" Color="0,0,0,60">
 						<Box ID="OtherBG" Color="0,0,0,60" Offset="0,2" Anchor="L,T" Size="200,100">
 							<Stack ID="MyStack5" Anchor="L,T" StackGrowth="Right" />
 						</Box>
-						<Stack ID="OtherButtonStack" Anchor="L,T" Offset="0,0" Size="256,32" StackGrowth="Right" />						
+						<Stack ID="OtherButtonStack" Anchor="L,T" Offset="0,0" Size="287,32" StackGrowth="Right" Wrap="1" WrapGrowth="Bottom" />						
 					</Grid>
 
 					<Grid ID="GapGrid" Size="272,3" Anchor="L,T" Offset="-3,0" Style="WindowGridBlack" Color="0,0,0,0">				
@@ -277,7 +277,7 @@
 
 	<!-- Right Side Panel -->
 	<Grid ID="BuildingListBackground" ConsumeMouse="1" Size="289,768" Anchor="R,T" Offset="14,-9" Style="Grid9DetailSix140" Color="0,0,0,140" >
-		<Label Anchor="C,T" Offset="0,17" String="TXT_KEY_CITYVIEW_BUILDING_LIST"/>
+		<Label Anchor="C,T" Offset="0,17" String="TXT_KEY_CITYVIEW_BUILDING_LIST" Hidden="1"/>
 		<ScrollPanel ID="RightScrollPanel" Anchor="L,T" Offset="18,44" Size="272,500" Vertical="1" Color="0,0,0,140" >
 			<UpButton Anchor="R,T" AnchorSide="o,i" Offset="-7,-2" Style="ScrollBarUp" />
 			<ScrollBar ID="RightScrollBar" Anchor="R,C" AnchorSide="o,i" Offset="-7,-2" Style="VertSlider" Length="200" />
@@ -392,22 +392,22 @@
 	</Box>
 
 	<!-- Instances -->
-  <!-- controls production items -->
+  <!-- controls production items populates list -->
 	<Instance Name="SelectionInstance">
 
-		<Button ID="Button" Anchor="L,T" Offset="0,2" Size="38,40" ToolTipType="EUI_CityViewLeftTooltip" >
+		<Button ID="Button" Anchor="L,T" Offset="0,2" Size="46,46" ToolTipType="EUI_CityViewLeftTooltip" >
 
 			<ShowOnMouseOver>
-				<AlphaAnim Anchor="R,T" Size="28,28" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
-					<Grid Anchor="L,C" Offset="0,1" Size="33,33" Style="Grid9FrameTurnsHL"/>
+				<AlphaAnim Anchor="R,T" Size="45,45" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="2" AlphaEnd="1">
+					<Grid Anchor="L,C" Offset="0,1" Size="45,45" Style="Grid9FrameTurnsHL"/>
 				</AlphaAnim>
 			</ShowOnMouseOver>
 
-			<Box ID="DisabledProduction" Color="0,0,0,140" Size="38,42" Anchor="C,C" Hidden="1"/>
-			<Image ID="Portrait" Anchor="L,C" Offset="-4,-1" Texture="WonderAtlas360.dds" Size="45,45" />
-			<Label ID="Name" Anchor="L,C" Offset="15,9" Font="TwCenMT18" Hidden="0"/>
-			<Label ID="Turns" Anchor="L,C" Offset="2,13" Font="TwCenMT14"/>
-			<Box ID="Disabled" Color="0,0,0,140" Size="38,42" Anchor="C,C" Hidden="1"/>
+			<Box ID="DisabledProduction" Color="0,0,0,140" Size="50,50" Anchor="C,C" Hidden="1"/>
+			<Image ID="Portrait" Anchor="L,C" Offset="-4,-1" Texture="WonderAtlas360.dds" Size="64,64" />
+			<Label ID="Name" Anchor="L,C" Offset="27,13" Font="TwCenMT18" Hidden="0"/>
+			<Label ID="Turns" Anchor="L,C" Offset="8,14" Font="TwCenMT14"/>
+			<Box ID="Disabled" Color="0,0,0,140" Size="46,50" Offset="5,0" Anchor="C,C" Hidden="1"/>
 
 			<Stack Anchor="R,B" StackGrowth="L" Hidden="1">
 				

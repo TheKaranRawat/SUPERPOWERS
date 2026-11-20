@@ -1225,7 +1225,9 @@ local function RemoveQueueItem( queuedItemNumber )
 end
 
 local function SwapQueueItem( queuedItemNumber )
-	if g_queuedItemNumber and Controls.QueueSlider:IsTrackingLeftMouseButton() then
+	if g_queuedItemNumber and Controls.QueueSlider:IsTrackingLeftMouseButton()
+		and GetSelectedModifiableCity()		-- NEW: same guard as every other action
+	then
 		local a, b = g_queuedItemNumber, queuedItemNumber
 		if a > b then a, b = b, a end
 		for i = a, b - 1 do
@@ -1801,8 +1803,9 @@ local function UpdateYields( city )
 
 	if Game.IsOption( GameOptionTypes.GAMEOPTION_NO_SCIENCE ) then
 		Controls.SciencePerTurnLabel:LocalizeAndSetText( "TXT_KEY_CITYVIEW_OFF" )
-	else
-		Controls.SciencePerTurnLabel:LocalizeAndSetText( "TXT_KEY_CITYVIEW_PERTURN_TEXT", city:GetYieldRateTimes100( YieldTypes.YIELD_SCIENCE ) / 100 )
+	else		
+		local currentSPT = city:GetYieldRateTimes100( YieldTypes.YIELD_SCIENCE ) / 100
+		Controls.SciencePerTurnLabel:LocalizeAndSetText( "TXT_KEY_CITYVIEW_PERTURN_TEXT", math.floor( currentSPT + 0.5 )  )
 	end
 
 	local culturePerTurn, cultureStored, cultureNext
@@ -1871,7 +1874,9 @@ local function UpdateCityViewNow()
 	local isActivePlayerCity = cityOwnerID == g_activePlayerID
 	local isCityCaptureViewingMode = UI.IsPopupTypeOpen( ButtonPopupTypes.BUTTONPOPUP_CITY_CAPTURED )
 	g_isDebugMode = Game.IsDebugMode()
+	-- in UpdateCityViewNow, replace the g_isViewingMode line:
 	g_isViewingMode = city:IsPuppet() or not isActivePlayerCity or isCityCaptureViewingMode
+		or ( Game.IsNetworkMultiPlayer() and not g_activePlayer:IsTurnActive() )
 
 	if civ5_mode then
 		local isNoAuto = city:IsNoAutoAssignSpecialists()
@@ -2179,7 +2184,13 @@ Events.ActivePlayerTurnEnd.Add(
 function()
 	g_finishedItems = {}
 	g_chainVisited = {}
+	if Game.IsNetworkMultiPlayer() and UI.IsCityScreenUp() then
+		g_isButtonPopupChooseProduction = false	-- don't let the exit chain open another city
+		ExitCityScreen()
+	end
 end)
+
+Events.ActivePlayerTurnStart.Add( UpdateCityView )
 
 Events.SerialEventGameMessagePopup.Add(
 function( popupInfo )

@@ -14,7 +14,7 @@
     </Container>
   </Instance>
 
-  <Stack StackGrowth="Down" Anchor="C,B" Padding="5" Offset="0,0" ID="MultiplayerStack">
+  <Stack StackGrowth="Down" Anchor="C,B" Padding="5" Offset="0,40" ID="MultiplayerStack">
 
     <!-- Multiplayer Turn Timer -->
     <!-- TurnTimeRoot is the root element of the turn timer so that it can be slide partially under the turn timer button. -->

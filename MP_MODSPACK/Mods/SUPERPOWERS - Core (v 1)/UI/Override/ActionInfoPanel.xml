@@ -405,7 +405,7 @@
 	<!-- City Has Grown 003-->
 	<!--=======================================================================================================================-->
 	<Instance Name="CityGrowth">
-		<Container ID="Container" Anchor="R,C" Size="80,80" ConsumeMouseButton="1">
+		<Container ID="Container" Anchor="R,C" Size="80,80" ConsumeMouseButton="1" Hidden="1">
 			<SlideAnim ID="NotificationSlide" Anchor="L,T" Style="NotificationSlide">
 				<AlphaAnim Style="NewFinger"/>
 				<Button ID="Button" Anchor="R,C" Size="80,80" Texture="NotificationFrameBase.dds">

@@ -1367,10 +1367,13 @@ end
 
 ContextPtr:LoadNewContext("AutoCityFire")
 ContextPtr:LoadNewContext("AutoImprovements")
+ContextPtr:LoadNewContext("AutoRanged")
 ContextPtr:LoadNewContext("AutoRoad")
 ContextPtr:LoadNewContext("DisableCSUnits")
+ContextPtr:LoadNewContext("EventBanner")
 ContextPtr:LoadNewContext("Policy_FreeBuildingClass")
 ContextPtr:LoadNewContext("GroupMove")
+ContextPtr:LoadNewContext("MouseSleep")
 ContextPtr:LoadNewContext("NewAttackEffects")
 ContextPtr:LoadNewContext("NewBuildingEffects")
 ContextPtr:LoadNewContext("NewCityRule")

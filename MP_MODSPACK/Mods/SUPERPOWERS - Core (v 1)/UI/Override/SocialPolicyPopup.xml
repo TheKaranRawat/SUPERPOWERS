@@ -160,7 +160,7 @@
 						</Box>
 						<Image Anchor="R,T" Offset="0,0" Texture="VerticalTrim.dds" Size="5,290"/>
 						<!-- HONOR BOX  -->
-						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,0">
+						<Box Size="190,290 " Anchor="C,T" Color="0,0,0,200">
 							<Image Anchor="C,T" TextureOffset="0,0" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/3_honor.dds"/>
 							<!-- Policy Branch Image -->
 							<Image Anchor="C,T" Offset="0,0" TextureOffset="0,0" Size="190,290" Texture="Art/Policy/3_honor.dds" ID="BranchBack2" ToolTip="TXT_KEY_POLICY_BRANCH_HONOR_HELP"/>
@@ -175,7 +175,7 @@
 								</ScrollPanel>
 							</Image>
 							<!-- Disabled Boxes -->
-							<Box ID="LockedBox2" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,0">
+							<Box ID="LockedBox2" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,200">
 								<HideOnMouseOver>
 									<Image Anchor="C,T" TextureOffset="0,30" Offset="0,0" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/3_honor.dds"/>
 								</HideOnMouseOver>
@@ -184,10 +184,10 @@
 							<GridButton Size="170,36" Anchor="C,T" Offset="0,46" Color="255,255,255,200" Font="TwCenMT18" String="" FontStyle="Shadow" Color0="Beige.255" Color1="Black.128" Style="BaseButton" ToolTip="TXT_KEY_POLICY_BRANCH_HONOR_HELP" Hidden="0" ID="BranchButton2">
 								<Image Anchor="R,C" Offset="0,0" Size="48,48" Texture="48Lock.dds" ID="Lock2"/>
 							</GridButton>
-							<Box ID="DisabledBox2" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0">
+							<Box ID="DisabledBox2" Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200">
 								<HideOnMouseOver>
 									<Image Anchor="C,T" Offset="0,0" Size="190,290" Color="255,255,255,255" Texture="Art/Policy/3_honor.dds"/>
-									<Box Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,0"/>
+									<Box Size="190,290" Offset="0,0" Anchor="C,T" Color="0,0,0,200"/>
 								</HideOnMouseOver>
 							</Box>
 							<!-- Title -->

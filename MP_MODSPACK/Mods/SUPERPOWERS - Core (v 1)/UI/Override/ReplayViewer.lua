@@ -885,4 +885,59 @@ print( "ReplayViewer_LoadReplay", replayFile )
 	print( "Loaded replay info from file:", replayFile )
 	SetCurrentPanel( 1 ) -- Map
 end)
+
+-- Open a specific graph when requested by another context (e.g. top bar gold click)
+-- Request codes: 1 = gold
+local GRAPH_REQUESTS = {
+	[1]  = { "REPLAYDATASET_GOLDPERTURN" },
+	[2]  = { "REPLAYDATASET_SCIENCEPERTURN" },
+	[3]  = { "REPLAYDATASET_CULTUREPERTURN" },
+	[4]  = { "REPLAYDATASET_FOODPERTURN" },
+	[5]  = { "REPLAYDATASET_PRODUCTIONPERTURN" },
+	[6]  = { "REPLAYDATASET_SCORE" },
+	[7]  = { "REPLAYDATASET_TOTALGOLD" },
+	[8]  = { "REPLAYDATASET_CITYCOUNT" },
+	[9]  = { "REPLAYDATASET_TECHSKNOWN" },
+	[10] = { "REPLAYDATASET_TOTALCULTURE" },
+	[11] = { "REPLAYDATASET_EXCESSHAPINESS" },
+	[12] = { "REPLAYDATASET_HAPPINESS" },
+	[13] = { "REPLAYDATASET_UNHAPPINESS" },
+	[14] = { "REPLAYDATASET_GOLDENAGETURNS" },
+	[15] = { "REPLAYDATASET_POPULATION" },
+	[16] = { "REPLAYDATASET_TOTALLAND" },
+	[17] = { "REPLAYDATASET_GPTCITYCONNECTIONS" },
+	[18] = { "REPLAYDATASET_GPTDEALS" },
+	[19] = { "REPLAYDATASET_UNITMAINTENANCE" },
+	[20] = { "REPLAYDATASET_BUILDINGMAINTENANCE" },
+	[21] = { "REPLAYDATASET_IMPROVEMENTMAINTENANCE" },
+	[22] = { "REPLAYDATASET_NUMBEROFPOLICIES" },
+	[23] = { "REPLAYDATASET_NUMBEROFWORKERS" },
+	[24] = { "REPLAYDATASET_IMPROVEDTILES" },
+	[25] = { "REPLAYDATASET_WORKEDTILES" },
+	[26] = { "REPLAYDATASET_MILITARYMIGHT" },
+}
+
+--[[
+if Game then
+	-- one-time dump so you can see the real dataset names in Lua.log
+	for row in GameInfo.ReplayDataSets() do
+		print( "ReplayDataSet:", row.ID, row.Type, row.Description )
+	end
+end
+]]--
+
+LuaEvents.ReplaySelectGraph.Add( function( which )
+	print( "VIEWER: ReplaySelectGraph received", which )
+	local candidates = GRAPH_REQUESTS[ which ]
+	if not candidates then return end
+	for _, typeName in ipairs( candidates ) do
+		local row = GameInfo.ReplayDataSets[ typeName ]
+		if row then
+			SetGraphDataSet( row.ID )
+			return
+		end
+	end
+	print( "ReplaySelectGraph: no dataset found for request", which )
+end )
+
 end

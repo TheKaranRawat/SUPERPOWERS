@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Font="TwCenMT14" FontStyle="Base" Color="Beige" Color1="Black" Hidden="1">
+
+  <AlphaAnim Size="F,F" AlphaStart="0" AlphaEnd="1" Cycle="once" Hidden="1" ID="Anim" >
+    <Container Anchor="R,B" Offset="213,22" Size="312,32" ID="TurnProcessingGrid" >
+      
+
+      <Container Anchor="C,T" AnchorSide="I.O" Size="256,64" Offset="0,-9" >
+        <Image ID="CivIconBG" Size="64.64" Anchor="C,C" Offset="-1,-1" TextureOffset="77,0" Texture="CivIconBGSizes.dds" Hidden="1" />
+        <Image ID="CivIconShadow" Size="48.48" Anchor="C,C" Offset="1,0" Texture="CivSymbolAtlas48.dds" Color="Black.128"/>
+        <Image ID="CivIcon" Size="48,48" Offset="0,-1"  Anchor="C,C" Texture="CivSymbolsColor512.dds" />
+        <Label Anchor="C,C" Offset="14,14" Font="TwCenMT16" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" ID="TurnProcessingTitle" Hidden="0" />
+      </Container>
+
+    </Container>
+  </AlphaAnim>
+
+</Context>

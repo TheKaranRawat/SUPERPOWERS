@@ -3031,7 +3031,7 @@
 
 
 		<Replace Tag="TXT_KEY_UNIT_DANISH_SKI_INFANTRY">
-			<Text>[ICON_SWORD] [COLOR_YELLOW]Ski Infantry[ENDCOLOR]</Text>
+			<Text>[ICON_SWORD] [COLOR_YELLOW]Elite Infantry[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CIV5_DENMARK_SKI_INFANTRY_HELP">
 			<Text>Elite Infantry Unit which has great bonus fighting in snow, tundra, or hills. [NEWLINE][NEWLINE]Requires Ski Infantry Training Project. Cannot be purchased. You can build as many as you want.</Text>

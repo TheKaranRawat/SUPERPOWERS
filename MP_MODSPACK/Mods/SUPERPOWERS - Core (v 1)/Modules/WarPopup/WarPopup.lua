@@ -1,3 +1,4 @@
+--[[
 -------------------------------------------------------
 -- War Declaration Popup (with fade + slide transition)
 -- UI only: no Network calls, no gameplay state changes, so it is MP-safe.
@@ -186,3 +187,4 @@ Events.GameplaySetActivePlayer.Add( function()
 	Controls.WarBox:SetHide( true )
 	ContextPtr:ClearUpdate()
 end )
+]]--
