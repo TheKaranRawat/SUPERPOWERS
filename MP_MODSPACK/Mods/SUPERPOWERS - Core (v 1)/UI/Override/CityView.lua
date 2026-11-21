@@ -416,36 +416,42 @@ end
 
 ContextPtr:SetInputHandler(
 function( uiMsg, wParam )
-	-- key strokes in log
-	if uiMsg == KeyEvents.KeyDown then
-		print("Key down: " .. tostring(wParam))
-	end
+    -- key strokes in log
+    if uiMsg == KeyEvents.KeyDown then
+        print("Key down: " .. tostring(wParam))
+    end
 
-	-- mouse keys
-	--print("uiMsg: " .. tostring(uiMsg) .. "  wParam: " .. tostring(wParam))
+    -- mouse keys
+    --print("uiMsg: " .. tostring(uiMsg) .. "  wParam: " .. tostring(wParam))
 
-	if wParam == Keys.VK_ESCAPE then
-		if uiMsg == KeyEvents.KeyDown then
-			return true				-- swallow; act on key-up
-		elseif uiMsg == KeyEvents.KeyUp then
-			return SafeCloseOrAdvance()
-		end
-	elseif uiMsg == KeyEvents.KeyDown then
-		if wParam == Keys.VK_LEFT then
-			GotoPrevCity()
-			return true
-		elseif wParam == Keys.VK_RIGHT then
-			GotoNextCity()
-			return true
-		end
-	elseif uiMsg == MouseEvents.RButtonUp then
-		return SafeCloseOrAdvance()
-	-- mouse left button 523
-	elseif uiMsg == 523 then
-		GotoNextCity()
-		return true
-	end
-	return false
+    if wParam == Keys.VK_ESCAPE then
+        if uiMsg == KeyEvents.KeyDown then
+            return true             -- swallow; act on key-up
+        elseif uiMsg == KeyEvents.KeyUp then
+            return SafeCloseOrAdvance()
+        end
+    elseif uiMsg == KeyEvents.KeyDown then
+        if wParam == Keys.VK_LEFT then
+            GotoPrevCity()
+            return true
+        elseif wParam == Keys.VK_RIGHT then
+            GotoNextCity()
+            return true
+        end
+    elseif uiMsg == MouseEvents.RButtonUp then
+        return SafeCloseOrAdvance()
+    -- mouse side buttons (523 = WM_XBUTTONDOWN)
+    elseif uiMsg == 523 then
+        local xButton = math.floor( wParam / 65536 ) % 256   -- high word
+        if xButton == 0 then xButton = wParam end            -- fallback if already unpacked
+        if xButton == 1 then
+            return SafeCloseOrAdvance()   -- same button as the other screens
+        else
+            GotoNextCity()                -- other side button keeps its old behavior
+            return true
+        end
+    end
+    return false
 end)
 
 -------------------------------

@@ -38,6 +38,46 @@ local g_HiddenResources = {
     -- [GameInfoTypes.RESOURCE_CRAB]  = true,
 };
 
+--- HIDE IMPROVED STRATEGIC / LUXURY RESOURCES
+
+-- ResourceUsage: 0 = bonus, 1 = strategic, 2 = luxury
+local g_HideWhenImproved = {};
+for resource in GameInfo.Resources() do
+	if resource.ResourceUsage == 1 or resource.ResourceUsage == 2 then
+		g_HideWhenImproved[resource.ID] = true;
+	end
+end
+
+-- [resourceID][improvementID] = true for improvements that actually connect that resource
+local g_ResourceImprovements = {};
+for row in GameInfo.Improvement_ResourceTypes() do
+	local resourceID    = GameInfoTypes[row.ResourceType];
+	local improvementID = GameInfoTypes[row.ImprovementType];
+	if resourceID and improvementID then
+		g_ResourceImprovements[resourceID] = g_ResourceImprovements[resourceID] or {};
+		g_ResourceImprovements[resourceID][improvementID] = true;
+	end
+end
+
+-- true if this is a strategic/luxury resource with a working (non-pillaged) connecting improvement
+function ShouldHideImproved( plot, resourceType )
+	if resourceType >= g_MaxResource or not g_HideWhenImproved[resourceType] then
+		return false;
+	end
+
+	local improvementType = plot:GetRevealedImprovementType( Game.GetActiveTeam(), false );
+	if improvementType < 0 then
+		return false;
+	end
+
+	if plot:IsImprovementPillaged() then
+		return false;
+	end
+
+	local valid = g_ResourceImprovements[resourceType];
+	return valid ~= nil and valid[improvementType] == true;
+end
+
 ------------------------------------------------------------------
 ------------------------------------------------------------------
 function IndexFromGrid( x, y )
@@ -73,6 +113,13 @@ function BuildResource( index, gridX, gridY, resourceType )
 		return;
 	end
 
+	-- Skip strategic/luxury resources that are currently improved (and not pillaged)
+	if resourceType < g_MaxResource then
+		if ShouldHideImproved( Map.GetPlot( gridX, gridY ), resourceType ) then
+			return;
+		end
+	end
+
 	local instance = g_ResourceManager:GetInstance();
     	
 	g_ActiveSet[ index ] = instance;
@@ -102,6 +149,39 @@ function BuildResource( index, gridX, gridY, resourceType )
 		instance.ResourceIconSmall:SetToolTipString(strToolTip);
 	end
 end
+
+-------------------------------------------------
+-- Re-evaluate visibility of strategic/luxury icons whose improvement state may have changed
+-------------------------------------------------
+function RefreshImprovedResources()
+	local playerResourceTable = g_PerPlayerResourceTables[ Game.GetActivePlayer() ];
+	if playerResourceTable == nil then
+		return;
+	end
+
+	for index, resourceType in pairs( playerResourceTable ) do
+		if resourceType < g_MaxResource and g_HideWhenImproved[resourceType] then
+			local gridX, gridY = GridFromIndex( index );
+			local plot = Map.GetPlot( gridX, gridY );
+			local shouldHide = ShouldHideImproved( plot, resourceType );
+			local isShown = (g_ActiveSet[ index ] ~= nil);
+
+			if shouldHide == isShown then
+				BuildResource( index, gridX, gridY, resourceType );
+			end
+		end
+	end
+end
+
+function OnImprovementChanged()
+	RefreshImprovedResources();
+end
+Events.SerialEventImprovementCreated.Add( OnImprovementChanged );
+Events.SerialEventImprovementDestroyed.Add( OnImprovementChanged );
+
+-- Catches pillaging/repairing (including by AI) that doesn't fire the events above
+Events.SerialEventUnitInfoDirty.Add( RefreshImprovedResources );
+Events.ActivePlayerTurnStart.Add( RefreshImprovedResources );
 
 -------------------------------------------------
 -------------------------------------------------

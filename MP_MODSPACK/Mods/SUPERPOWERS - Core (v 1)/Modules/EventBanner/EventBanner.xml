@@ -28,7 +28,7 @@
            Move the text up / down with the Y values of the two Offsets (the box itself is y 20..108). -->
       <Box ID="TextBox" Anchor="C,T" Offset="0,15" Size="332,88" Color="0,0,0,0">
         <Label ID="Headline" Anchor="C,T" Offset="0,8"  Font="TwCenMT22" FontStyle="Shadow" Color="255,236,190,255" String=""/>
-        <Label ID="Desc"     Anchor="C,T" Offset="0,29" Font="TwCenMT16" WrapWidth="360" LeadingOffset="0" Color="195,205,220,255" String=""/>
+        <Label ID="Desc"     Anchor="C,T" Offset="0,30" Font="TwCenMT16" WrapWidth="360" LeadingOffset="0" Color="195,205,220,255" String=""/>
       </Box>
 
       <!-- LEFT: unit / building / tech icon, or your custom .dds (set from Lua). Half outside the box. -->

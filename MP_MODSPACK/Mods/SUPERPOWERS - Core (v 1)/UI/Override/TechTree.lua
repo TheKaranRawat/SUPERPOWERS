@@ -162,14 +162,14 @@ local function AddTechPipes( techPairs, pipeColor )
 			startY = prereq.GridY
 			endY = tech.GridY
 
-			if startY < endY then -- elbow case ¯¯¯¯¯¯|__
+			if startY < endY then -- elbow case ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½|__
 
-				AddElbowPipe( elbowX + connectorElbowOffsetX2, startY*blockSpacingY + connectorOffsetY1, 72, 0 )	-- ¯|
+				AddElbowPipe( elbowX + connectorElbowOffsetX2, startY*blockSpacingY + connectorOffsetY1, 72, 0 )	-- ï¿½|
 				AddElbowPipe( elbowX + connectorElbowOffsetX1, endY*blockSpacingY + connectorOffsetY2 , 0, 72 )		--  |_
 
-			elseif startY > endY then -- elbow case ______|¯¯
+			elseif startY > endY then -- elbow case ______|ï¿½ï¿½
 
-				AddElbowPipe( elbowX + connectorElbowOffsetX1, endY*blockSpacingY + connectorOffsetY1, 0, 0 )		--  |¯
+				AddElbowPipe( elbowX + connectorElbowOffsetX1, endY*blockSpacingY + connectorOffsetY1, 0, 0 )		--  |ï¿½
 				AddElbowPipe( elbowX + connectorElbowOffsetX2, startY*blockSpacingY + connectorOffsetY2, 72, 72 )	-- _|
 			end
 		end
@@ -515,17 +515,28 @@ Events.SerialEventResearchDirty.Add( RefreshDisplay )
 -------------------------------------------------
 -- Key Down Processing
 do
-	local VK_RETURN = Keys.VK_RETURN
-	local VK_ESCAPE = Keys.VK_ESCAPE
-	local KeyDown = KeyEvents.KeyDown
-	ContextPtr:SetInputHandler( function( uiMsg, wParam )
-		if uiMsg == KeyDown then
-			if wParam == VK_ESCAPE or wParam == VK_RETURN then
-				CloseTechTree()
-			end
-			return true
-		end
-	end)
+    local VK_RETURN = Keys.VK_RETURN
+    local VK_ESCAPE = Keys.VK_ESCAPE
+    local KeyDown = KeyEvents.KeyDown
+    local WM_XBUTTONDOWN = 523
+
+    ContextPtr:SetInputHandler( function( uiMsg, wParam )
+        if uiMsg == KeyDown then
+            if wParam == VK_ESCAPE or wParam == VK_RETURN then
+                CloseTechTree()
+            end
+            return true
+
+        -- mouse side button closes the tech screen
+        elseif uiMsg == WM_XBUTTONDOWN then
+            local xButton = math.floor( wParam / 65536 ) % 256   -- high word
+            if xButton == 0 then xButton = wParam end            -- fallback if already unpacked
+            if xButton == 1 then   -- same button as end turn; use 1 for the other one
+                CloseTechTree()
+                return true
+            end
+        end
+    end)
 end
 
 -------------------------------------------------

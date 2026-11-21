@@ -958,23 +958,30 @@ Controls.PolicyInfo:RegisterCheckHandler( OnPolicyInfo );
 -------------------------------------------------------------------------------
 function InputHandler( uiMsg, wParam, lParam )
     ----------------------------------------------------------------        
-    -- Key Down Processing
+    -- Key Down / Mouse side button processing
     ----------------------------------------------------------------        
     --if uiMsg == KeyEvents.KeyDown then
-        if (wParam == Keys.VK_RETURN or wParam == Keys.VK_ESCAPE or uiMsg == 523 ) then
-			if(Controls.PolicyConfirm:IsHidden() and Controls.TenetConfirm:IsHidden() and Controls.ChooseTenet:IsHidden() and Controls.ChangeIdeologyConfirm:IsHidden())then
-	            OnClose();
-	        else
-				if(Controls.TenetConfirm:IsHidden()) then
-					Controls.ChooseTenet:SetHide(true);
-					Controls.PolicyConfirm:SetHide(true);
-					Controls.BGBlock:SetHide(false);
-				
-				else
-					Controls.TenetConfirm:SetHide(true);
-				end
-			end
-			return true;
+        local sideButton = false
+        if uiMsg == 523 then   -- WM_XBUTTONDOWN
+            local xButton = math.floor( wParam / 65536 ) % 256   -- high word
+            if xButton == 0 then xButton = wParam end            -- fallback if already unpacked
+            sideButton = ( xButton == 1 )   -- same button as end turn / tech tree; use 1 for the other one
+        end
+
+        if (wParam == Keys.VK_RETURN or wParam == Keys.VK_ESCAPE or sideButton) then
+            if(Controls.PolicyConfirm:IsHidden() and Controls.TenetConfirm:IsHidden() and Controls.ChooseTenet:IsHidden() and Controls.ChangeIdeologyConfirm:IsHidden())then
+                OnClose();
+            else
+                if(Controls.TenetConfirm:IsHidden()) then
+                    Controls.ChooseTenet:SetHide(true);
+                    Controls.PolicyConfirm:SetHide(true);
+                    Controls.BGBlock:SetHide(false);
+                
+                else
+                    Controls.TenetConfirm:SetHide(true);
+                end
+            end
+            return true;
         end
     --end
 end

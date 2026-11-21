@@ -114844,6 +114844,16 @@ The ship has weather'd every rack; the prize we sought is won."
 				Move along enemy roads as if they were your own.
 			</Text>
 		</Replace>
+		<Replace Tag="TXT_KEY_PROMOTION_ENEMY_WAR_FURY"> 
+			<Text>
+				War Fury
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_PROMOTION_ENEMY_WAR_FURY_HELP"> 
+			<Text>
+				+20% War Fury
+			</Text>
+		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_EVASION"> 
 			<Text>
 				Evasion

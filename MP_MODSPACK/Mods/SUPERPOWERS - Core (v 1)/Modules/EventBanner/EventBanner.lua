@@ -27,7 +27,7 @@ include("IconSupport")
 -- CONFIG: timing / look
 -------------------------------------------------
 local SLIDE_TIME      = 1.5   -- seconds for slide in / out (match Speed in the XML)
-local HOLD_TIME       = 13.0    -- seconds the banner stays fully shown
+local HOLD_TIME       = 11.0    -- seconds the banner stays fully shown
 local GAP_TIME        = 0.80   -- pause between queued banners
 local MAX_QUEUE       = 8      -- oldest queued banner is dropped beyond this
 local CIV_ICON_SIZE   = 128    -- must match the civ icon images in EventBanner.xml
@@ -230,7 +230,7 @@ local EVENTS = {
       kind = "TECH", key = "TECH_NUCLEAR_FISSION",       -- custom .dds image
       icon = "EB_Philosophy.dds",
       title = "I Am Become Death",
-      desc  = "Citizens in {CITY} were jolted out of their beds last night, only to be greeted by the warm atomic bask of a second sun. A man-made sun." },
+      desc  = "Many cheered, but a quiet {CIV_ADJ] scientist shuddered watching the nuclear test. He softly uttered, 'The last human will see what we saw'" },
 
     { id = "TECH_COMPUTERS",
       kind = "TECH", key = "TECH_COMPUTERS",       -- custom .dds image
@@ -490,6 +490,7 @@ local EVENTS = {
     -- WONDERS  
     --  BUILDING_VOYAGERONE BUILDING_UNITED_NATIONS_HQ  BUILDING_LARGE_HADRON_COLLIDER  BUILDING_COLOSSEUM  BUILDING_SISTINE_CHAPEL
     --  BUILDING_PYRAMID    BUILDING_STOCK_EXCHANGE	BUILDING_UNIVERSITY	BUILDING_OIL_REFINERY	BUILDING_SPACESHIP_FACTORY	BUILDING_FACTORY
+    --[[
     { id = "BUILDING_PYRAMID",
       kind = "BUILDING", key = "BUILDING_PYRAMID", -- shows the Pyramids' own icon
       title = "The Pyramids Are Complete",
@@ -549,7 +550,7 @@ local EVENTS = {
       kind = "BUILDING", key = "BUILDING_FACTORY", -- shows the Pyramids' own icon
       title = "The Pyramids Are Complete",
       desc  = "{1_Civ} has raised the Pyramids in {CITY}." },
-
+    ]]--
 }
 
 -------------------------------------------------

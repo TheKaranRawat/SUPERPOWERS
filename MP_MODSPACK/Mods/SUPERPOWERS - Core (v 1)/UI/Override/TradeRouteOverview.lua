@@ -320,17 +320,28 @@ end)
 
 -- Key Down Processing
 do
-	local VK_RETURN = Keys.VK_RETURN
-	local VK_ESCAPE = Keys.VK_ESCAPE
-	local KeyDown = KeyEvents.KeyDown
-	ContextPtr:SetInputHandler( function( uiMsg, wParam )
-		if uiMsg == KeyDown then
-			if wParam == VK_ESCAPE or wParam == VK_RETURN then
-				OnClose()
-			end
-			return true
-		end
-	end)
+    local VK_RETURN = Keys.VK_RETURN
+    local VK_ESCAPE = Keys.VK_ESCAPE
+    local KeyDown = KeyEvents.KeyDown
+    local WM_XBUTTONDOWN = 523
+
+    ContextPtr:SetInputHandler( function( uiMsg, wParam )
+        if uiMsg == KeyDown then
+            if wParam == VK_ESCAPE or wParam == VK_RETURN then
+                OnClose()
+            end
+            return true
+
+        -- mouse side button closes the screen
+        elseif uiMsg == WM_XBUTTONDOWN then
+            local xButton = math.floor( wParam / 65536 ) % 256   -- high word
+            if xButton == 0 then xButton = wParam end            -- fallback if already unpacked
+            if xButton == 1 then   -- same button as the other screens; use 1 for the other one
+                OnClose()
+                return true
+            end
+        end
+    end)
 end
 
 AddSerialEventGameMessagePopup( function( popupInfo )

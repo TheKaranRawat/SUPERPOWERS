@@ -5,6 +5,8 @@
 --   landmass (max MAX_CAPITAL_ROADS roads, kept MIN_ROAD_SEPARATION apart).
 -- * A newly founded / captured city is linked to its nearest land-connected city.
 -- * After RAILROAD_TECH all managed roads are upgraded to railroads.
+-- * Each city is also linked to the nearest foreign city / city-state within
+--   FOREIGN_ROAD_DISTANCE tiles (same landmass, not at war, civ met).
 -- * Runs once every TURN_INTERVAL turns per player (staggered by player ID).
 --
 -- Multiplayer safety:
@@ -15,14 +17,14 @@
 --------------------------------------------------------------------------------
 
 local CONFIG = {
-    TURN_INTERVAL                  = 10,      -- run every N turns (per player)
+    TURN_INTERVAL                  = 3,      -- run every N turns (per player)
     STAGGER_BY_PLAYER              = true,   -- spread players over different turns
 
     ROAD_TECH                      = "TECH_THE_WHEEL",  -- "" or false = no requirement
     RAILROAD_TECH                  = "TECH_RAILROAD",   -- "" or false = no requirement
 
     MAX_CAPITAL_ROADS              = 4,      -- max roads leaving the capital
-    MIN_ROAD_SEPARATION            = 6,      -- min hex distance between a new capital-road
+    MIN_ROAD_SEPARATION            = 4,      -- min hex distance between a new capital-road
                                              -- destination and existing capital roads
     MAX_ROAD_DISTANCE              = 20,     -- max hex distance between the two cities
     MAX_DETOUR                     = 8,      -- path may be at most this much longer than straight line
@@ -35,6 +37,16 @@ local CONFIG = {
     MAX_SEARCH_NODES               = 600,    -- A* node budget per path search
     MAX_SEARCHES_PER_PASS          = 3,      -- path searches per player per run
     MAX_NEW_CAPITAL_ROADS_PER_PASS = 1,
+
+    -- roads from each of your cities to the nearest foreign city / city-state
+    FOREIGN_ROADS_ENABLED          = true,
+    FOREIGN_ROAD_DISTANCE          = 12,     -- max hex distance to the foreign city
+    FOREIGN_INCLUDE_MAJORS         = true,   -- link to other civs' cities
+    FOREIGN_INCLUDE_CITY_STATES    = true,   -- link to city-state cities
+    FOREIGN_REQUIRE_PEACE          = true,   -- no foreign roads to civs you are at war with
+    FOREIGN_CANDIDATES             = 2,      -- how many nearest foreign cities to try
+    FOREIGN_RETRY_TURNS            = 15,     -- wait this long before retrying a city with no road
+    MAX_NEW_FOREIGN_ROADS_PER_PASS = 1,
 
     REPAIR_PILLAGED_ROADS          = true,   -- re-fix pillaged/missing tiles on managed roads
     ALLOW_NEUTRAL_TERRITORY        = true,   -- may roads cross unowned plots?
@@ -134,7 +146,7 @@ end
 local States = {}
 
 local function LoadState(pid)
-    local st = { capID = -1, links = {}, pending = {} }
+    local st = { capID = -1, links = {}, pending = {}, foreignTry = {} }
     if saveDB then
         local ok, raw = pcall(saveDB.GetValue, SAVE_PREFIX .. pid)
         if ok and raw and raw ~= "" then
@@ -151,7 +163,7 @@ local function LoadState(pid)
                         local n = tonumber(keys[k])
                         if n then path[#path + 1] = n end
                     end
-                    st.links[#st.links + 1] = { cid = cid, kind = f[2], rail = (f[3] == "1"), path = path }
+                    st.links[#st.links + 1] = { cid = cid, kind = f[2], rail = (f[3] == "1"), path = path, other = tonumber(f[5]) or -1 }
                 end
             end
             local pend = Split(sec[3] or "", ";")
@@ -159,6 +171,12 @@ local function LoadState(pid)
                 local f = Split(pend[i], ":")
                 local cid = tonumber(f[1])
                 if cid then st.pending[#st.pending + 1] = { cid = cid, tries = tonumber(f[2]) or 0 } end
+            end
+            local ft = Split(sec[4] or "", ";")
+            for i = 1, #ft do
+                local f = Split(ft[i], ":")
+                local cid, turn = tonumber(f[1]), tonumber(f[2])
+                if cid and turn then st.foreignTry[cid] = turn end
             end
         end
     end
@@ -181,13 +199,16 @@ local function SaveState(pid)
     local parts = {}
     for i = 1, #st.links do
         local l = st.links[i]
-        parts[#parts + 1] = l.cid .. ":" .. l.kind .. ":" .. (l.rail and 1 or 0) .. ":" .. table.concat(l.path, ",")
+        parts[#parts + 1] = l.cid .. ":" .. l.kind .. ":" .. (l.rail and 1 or 0) .. ":" .. table.concat(l.path, ",") .. ":" .. (l.other or -1)
     end
     local pend = {}
     for i = 1, #st.pending do
         pend[#pend + 1] = st.pending[i].cid .. ":" .. st.pending[i].tries
     end
+    local ft = {}
+    for cid, turn in pairs(st.foreignTry) do ft[#ft + 1] = cid .. ":" .. turn end
     local raw = st.capID .. "#" .. table.concat(parts, ";") .. "#" .. table.concat(pend, ";")
+                .. "#" .. table.concat(ft, ";")
     pcall(saveDB.SetValue, SAVE_PREFIX .. pid, raw)
 end
 
@@ -215,6 +236,12 @@ local function ValidateState(player, st)
             dirty = true
         end
     end
+    for cid in pairs(st.foreignTry) do
+        if player:GetCityByID(cid) == nil then
+            st.foreignTry[cid] = nil
+            dirty = true
+        end
+    end
     return dirty
 end
 
@@ -229,14 +256,14 @@ end
 --------------------------------------------------------------------------------
 -- Path finding (A*, land only, bounded)
 --------------------------------------------------------------------------------
-local function StepCost(plot, key, pid, blocked, goalKey)
+local function StepCost(plot, key, pid, blocked, goalKey, allowedOwner)
     if key == goalKey then return 1 end
     if blocked and blocked[key] then return nil end
     if plot:IsWater() or plot:IsImpassable() then return nil end
     if plot.IsMountain and plot:IsMountain() then return nil end
     if plot.IsNaturalWonder and plot:IsNaturalWonder() then return nil end
     local owner = plot:GetOwner()
-    if owner ~= pid then
+    if owner ~= pid and owner ~= allowedOwner then
         if owner >= 0 then return nil end                       -- foreign territory
         if not CONFIG.ALLOW_NEUTRAL_TERRITORY then return nil end
     end
@@ -249,7 +276,7 @@ local function StepCost(plot, key, pid, blocked, goalKey)
 end
 
 -- returns ordered array of plot keys (start..goal) or nil
-local function FindPath(pid, sx, sy, gx, gy, blocked)
+local function FindPath(pid, sx, sy, gx, gy, blocked, allowedOwner)
     local startKey, goalKey = KeyOf(sx, sy), KeyOf(gx, gy)
     if startKey == goalKey then return nil end
     local direct = Map.PlotDistance(sx, sy, gx, gy)
@@ -319,7 +346,7 @@ local function FindPath(pid, sx, sy, gx, gy, blocked)
                     if not closed[nk] then
                         local dToGoal = Map.PlotDistance(nx, ny, gx, gy)
                         if Map.PlotDistance(sx, sy, nx, ny) + dToGoal <= maxTotal then
-                            local cost = StepCost(np, nk, pid, blocked, goalKey)
+                            local cost = StepCost(np, nk, pid, blocked, goalKey, allowedOwner)
                             if cost then
                                 local ng = g[cur] + cost
                                 if g[nk] == nil or ng < g[nk] then
@@ -340,14 +367,27 @@ end
 --------------------------------------------------------------------------------
 -- Building / upgrading
 --------------------------------------------------------------------------------
-local function ApplyRoute(path, routeType, pid, repair)
+local function IsAtWarWith(player, otherPid)
+    local other = Players[otherPid]
+    return other ~= nil and Teams[player:GetTeam()]:IsAtWar(other:GetTeam())
+end
+
+-- foreign owner whose tiles this link may touch right now (nil if none / at war)
+local function LinkAllowedOwner(player, l)
+    local o = l.other
+    if o == nil or o < 0 then return nil end
+    if IsAtWarWith(player, o) then return nil end
+    return o
+end
+
+local function ApplyRoute(path, routeType, pid, repair, allowedOwner)
     local want = RouteRank(routeType)
     for i = 1, #path do
         local x, y = XYOf(path[i])
         local plot = Map.GetPlot(x, y)
         if plot and not plot:IsCity() then
             local owner = plot:GetOwner()
-            if owner == pid or owner < 0 then
+            if owner == pid or owner < 0 or owner == allowedOwner then
                 if RouteRank(plot:GetRouteType()) < want then
                     -- missing or lower-tier route: (re)build it
                     plot:SetRouteType(routeType)
@@ -366,21 +406,21 @@ local function RepairLinks(player, pid, st)
     for i = 1, #st.links do
         local l = st.links[i]
         local routeType = l.rail and ROUTE_RAILROAD or ROUTE_ROAD
-        ApplyRoute(l.path, routeType, pid, true)
+        ApplyRoute(l.path, routeType, pid, true, LinkAllowedOwner(player, l))
     end
 end
 
-local function CommitLink(player, pid, st, cid, kind, path)
+local function CommitLink(player, pid, st, cid, kind, path, otherOwner)
     local routeType = ROUTE_ROAD
     local isRail = false
     if HasTech(player, RAIL_TECH_ID) then
         routeType = ROUTE_RAILROAD
         isRail = true
     end
-    ApplyRoute(path, routeType, pid)
+    ApplyRoute(path, routeType, pid, false, otherOwner)
     local old = FindLink(st, cid, kind)
     if old then table.remove(st.links, old) end
-    st.links[#st.links + 1] = { cid = cid, kind = kind, rail = isRail, path = path }
+    st.links[#st.links + 1] = { cid = cid, kind = kind, rail = isRail, path = path, other = otherOwner or -1 }
 end
 
 local function UpgradeLinks(player, pid, st)
@@ -389,9 +429,14 @@ local function UpgradeLinks(player, pid, st)
     for i = 1, #st.links do
         local l = st.links[i]
         if not l.rail then
-            ApplyRoute(l.path, ROUTE_RAILROAD, pid)
-            l.rail = true
-            dirty = true
+            local allowed = LinkAllowedOwner(player, l)
+            if l.other >= 0 and allowed == nil then
+                -- at war with the foreign owner: try again later
+            else
+                ApplyRoute(l.path, ROUTE_RAILROAD, pid, false, allowed)
+                l.rail = true
+                dirty = true
+            end
         end
     end
     return dirty
@@ -544,6 +589,109 @@ local function BuildCapitalLinks(player, pid, st, budget)
     return dirty
 end
 
+local function SortForeign(a, b)
+    if a.d ~= b.d then return a.d < b.d end
+    if a.owner ~= b.owner then return a.owner < b.owner end
+    return a.id < b.id
+end
+
+-- all foreign cities (majors / city-states) we are allowed to connect to
+local function CollectForeignCities(player, pid)
+    local list = {}
+    local myTeamID = player:GetTeam()
+    local myTeam = Teams[myTeamID]
+    local maxID = ((GameDefines and GameDefines.MAX_CIV_PLAYERS) or 63) - 1
+    for oid = 0, maxID do
+        if oid ~= pid then
+            local other = Players[oid]
+            if other and other:IsAlive() and not other:IsBarbarian() then
+                local isMinor = other:IsMinorCiv()
+                if (isMinor and CONFIG.FOREIGN_INCLUDE_CITY_STATES)
+                   or (not isMinor and CONFIG.FOREIGN_INCLUDE_MAJORS) then
+                    local otherTeamID = other:GetTeam()
+                    local met = (otherTeamID == myTeamID) or myTeam:IsHasMet(otherTeamID)
+                    local war = (otherTeamID ~= myTeamID) and myTeam:IsAtWar(otherTeamID)
+                    if met and not (CONFIG.FOREIGN_REQUIRE_PEACE and war) then
+                        for city in other:Cities() do
+                            list[#list + 1] = {
+                                x = city:GetX(), y = city:GetY(), id = city:GetID(),
+                                owner = oid, area = city:Plot():GetArea(),
+                            }
+                        end
+                    end
+                end
+            end
+        end
+    end
+    return list
+end
+
+local function BuildForeignLinks(player, pid, st, budget)
+    local turn = Game.GetGameTurn()
+    local todo = {}
+    for city in player:Cities() do
+        local id = city:GetID()
+        if not FindLink(st, id, "F") then
+            local last = st.foreignTry[id]
+            if last == nil or turn - last >= CONFIG.FOREIGN_RETRY_TURNS then
+                todo[#todo + 1] = city
+            end
+        end
+    end
+    if #todo == 0 then return false end
+
+    local foreign = CollectForeignCities(player, pid)
+    local dirty = false
+    local built = 0
+
+    for i = 1, #todo do
+        if built >= CONFIG.MAX_NEW_FOREIGN_ROADS_PER_PASS or budget.searches <= 0 then break end
+        local city = todo[i]
+        local id = city:GetID()
+        local cx, cy = city:GetX(), city:GetY()
+        local area = city:Plot():GetArea()
+
+        local cands = {}
+        for j = 1, #foreign do
+            local f = foreign[j]
+            if f.area == area then
+                local d = Map.PlotDistance(cx, cy, f.x, f.y)
+                if d <= CONFIG.FOREIGN_ROAD_DISTANCE then
+                    cands[#cands + 1] = { x = f.x, y = f.y, d = d, id = f.id, owner = f.owner }
+                end
+            end
+        end
+        table.sort(cands, SortForeign)
+
+        local linked, exhausted = false, false
+        local limit = math.min(#cands, CONFIG.FOREIGN_CANDIDATES)
+        for k = 1, limit do
+            if budget.searches <= 0 then
+                exhausted = true
+                break
+            end
+            budget.searches = budget.searches - 1
+            local c = cands[k]
+            local path = FindPath(pid, cx, cy, c.x, c.y, nil, c.owner)
+            if path then
+                CommitLink(player, pid, st, id, "F", path, c.owner)
+                Log("player", pid, "city", id, "linked to foreign city", c.id, "of player", c.owner)
+                linked = true
+                break
+            end
+        end
+
+        if linked then
+            built = built + 1
+            dirty = true
+        elseif not exhausted then
+            st.foreignTry[id] = turn   -- nothing found: cool down before retrying
+            dirty = true
+        end
+    end
+    return dirty
+end
+
 --------------------------------------------------------------------------------
 -- Event handlers
 --------------------------------------------------------------------------------
@@ -560,6 +708,10 @@ local function RunPass(pid)
     end
     if hasRoad and player:GetNumCities() >= 2 then
         if BuildCapitalLinks(player, pid, st, budget) then dirty = true end
+    end
+    if hasRoad and CONFIG.FOREIGN_ROADS_ENABLED then
+        local fbudget = { searches = CONFIG.MAX_SEARCHES_PER_PASS }
+        if BuildForeignLinks(player, pid, st, fbudget) then dirty = true end
     end
     if UpgradeLinks(player, pid, st) then dirty = true end
     RepairLinks(player, pid, st)

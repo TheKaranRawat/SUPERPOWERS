@@ -2022,6 +2022,53 @@
 			<BuildType>BUILD_BRAZILWOOD_CAMP</BuildType>
 		</Row>
 
+		<!-- militia roads -->
+		<!-- 
+			UNIT_WARRIOR	UNIT_MILITIA_ANCIENT	UNIT_AMERICAN_MINUTEMAN
+			UNIT_IROQUOIAN_MOHAWKWARRIOR	UNIT_CONSCRIPTMAN	UNIT_MILITIA_MODERN
+		-->
+		<Row>
+			<UnitType>UNIT_WARRIOR</UnitType>
+			<BuildType>BUILD_ROAD</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MILITIA_ANCIENT</UnitType>
+			<BuildType>BUILD_ROAD</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MINUTEMAN</UnitType>
+			<BuildType>BUILD_RAILROAD</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<BuildType>BUILD_RAILROAD</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CONSCRIPTMAN</UnitType>
+			<BuildType>BUILD_RAILROAD</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MILITIA_MODERN</UnitType>
+			<BuildType>BUILD_RAILROAD</BuildType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_AMERICAN_MINUTEMAN</UnitType>
+			<BuildType>BUILD_FORT</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<BuildType>BUILD_FORT</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CONSCRIPTMAN</UnitType>
+			<BuildType>BUILD_FORT</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MILITIA_MODERN</UnitType>
+			<BuildType>BUILD_FORT</BuildType>
+		</Row>
+
 		
 		</Unit_Builds>
 	

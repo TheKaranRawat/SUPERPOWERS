@@ -658,21 +658,30 @@ local function OnTechRClick()
 end
 
 Controls.SciencePerTurn:RegisterCallback( eLClick, OnTechLClick )
+--Controls.TechIcon:RegisterCallback( Mouse.eLClick, OpenGraph( 2 ) )
+
 Controls.SciencePerTurn:RegisterCallback( eRClick, OnTechRClick )
 if IsCiv5 then
 	Controls.TechIcon:RegisterCallback( eLClick, OnTechLClick )
-	Controls.TechIcon:RegisterCallback( eRClick, OnTechRClick )
+	Controls.TechIcon:RegisterCallback( Mouse.eRClick, OpenGraph( 2 ) )
+
+	--Controls.TechIcon:RegisterCallback( eRClick, OnTechRClick )
 end
 
 -- Gold
-Controls.GoldPerTurn:RegisterCallback( eLClick, function() GamePopup( ButtonPopupTypes.BUTTONPOPUP_ECONOMIC_OVERVIEW ) end )
+--Controls.GoldPerTurn:RegisterCallback( eLClick, function() GamePopup( ButtonPopupTypes.BUTTONPOPUP_ECONOMIC_OVERVIEW ) end )
+Controls.GoldPerTurn:RegisterCallback( Mouse.eLClick, OpenGraph( 1 ) )
+
 Controls.GoldPerTurn:RegisterCallback( eRClick, function() SearchForPediaEntry( format("TXT_KEY_%s_HEADING1_TITLE", g_currencyString) ) end )
 
 -- Culture
 Controls.CultureString:RegisterCallback( eLClick, function() GamePopup( ButtonPopupTypes.BUTTONPOPUP_CHOOSEPOLICY ) end )
-Controls.CultureString:RegisterCallback( eRClick, function() SearchForPediaEntry( "TXT_KEY_CULTURE_HEADING1_TITLE" ) end )	-- TXT_KEY_PEDIA_CATEGORY_8_LABEL
+Controls.CultureString:RegisterCallback( Mouse.eRClick, OpenGraph( 3 ) )
+
+--Controls.CultureString:RegisterCallback( eRClick, function() SearchForPediaEntry( "TXT_KEY_CULTURE_HEADING1_TITLE" ) end )	-- TXT_KEY_PEDIA_CATEGORY_8_LABEL
 
 -- Supply
+Controls.Supply:RegisterCallback( Mouse.eLClick, OpenGraph( 26 ) )
 --[[
 Controls.Supply:RegisterCallback( eLClick, function() GamePopup( ButtonPopupTypes.BUTTONPOPUP_ECONOMIC_OVERVIEW ) end )
 Controls.Supply:SetToolTipCallback( function()
@@ -698,7 +707,9 @@ if IsCiv5 then
 		end
 	end)
 	-- Happiness
-	Controls.HappinessString:RegisterCallback( eLClick, function() GamePopup( ButtonPopupTypes.BUTTONPOPUP_ECONOMIC_OVERVIEW, 2 ) end )
+	--Controls.HappinessString:RegisterCallback( eLClick, function() GamePopup( ButtonPopupTypes.BUTTONPOPUP_ECONOMIC_OVERVIEW, 2 ) end )
+	Controls.HappinessString:RegisterCallback( Mouse.eLClick, OpenGraph( 11 ) )
+	
 	Controls.HappinessString:RegisterCallback( eRClick, function() SearchForPediaEntry( "TXT_KEY_GOLD_HEADING1_TITLE" ) end )
 
 	if IsCiv5GKBNW then

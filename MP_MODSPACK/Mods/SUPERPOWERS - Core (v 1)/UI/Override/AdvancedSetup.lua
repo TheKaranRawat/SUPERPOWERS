@@ -1457,13 +1457,22 @@ Controls.DefaultButton:RegisterCallback( Mouse.eLClick, OnDefaultsClicked );
 -- Input Handler
 ----------------------------------------------------------------
 function InputHandler( uiMsg, wParam, lParam )
-	if uiMsg == KeyEvents.KeyDown then
-		if wParam == Keys.VK_ESCAPE then
-		    OnBackClicked();
-        	return true;
-		end
-	end
-	
+    if uiMsg == KeyEvents.KeyDown then
+        if wParam == Keys.VK_ESCAPE then
+            OnBackClicked();
+            return true;
+        end
+
+    -- mouse side button goes back
+    elseif uiMsg == 523 then   -- WM_XBUTTONDOWN
+        local xButton = math.floor( wParam / 65536 ) % 256   -- high word
+        if xButton == 0 then xButton = wParam end            -- fallback if already unpacked
+        if xButton == 1 then   -- same button as the other screens; use 1 for the other one
+            OnBackClicked();
+            return true;
+        end
+    end
+
 end
 ContextPtr:SetInputHandler( InputHandler );
 ----------------------------------------------------------------     

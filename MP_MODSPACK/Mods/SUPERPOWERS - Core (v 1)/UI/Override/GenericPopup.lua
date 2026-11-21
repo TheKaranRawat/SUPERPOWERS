@@ -231,17 +231,27 @@ Events.SerialEventGameMessagePopup.Add( function( popupInfo )
 end)
 
 do
-	local VK_RETURN = Keys.VK_RETURN
-	local VK_ESCAPE = Keys.VK_ESCAPE
-	local KeyDown = KeyEvents.KeyDown
-	ContextPtr:SetInputHandler( function( uiMsg, wParam, lParam )
-		if specializedInputHandler then
-			specializedInputHandler( uiMsg, wParam, lParam )
-		elseif canEscape and uiMsg == KeyDown and (wParam == VK_ESCAPE or wParam == VK_RETURN) then
-			HideWindow()
-		end
-		return true
-	end)
+    local VK_RETURN = Keys.VK_RETURN
+    local VK_ESCAPE = Keys.VK_ESCAPE
+    local KeyDown = KeyEvents.KeyDown
+    local WM_XBUTTONDOWN = 523
+
+    ContextPtr:SetInputHandler( function( uiMsg, wParam, lParam )
+        if specializedInputHandler then
+            specializedInputHandler( uiMsg, wParam, lParam )
+        elseif canEscape and uiMsg == KeyDown and (wParam == VK_ESCAPE or wParam == VK_RETURN) then
+            HideWindow()
+
+        -- mouse side button closes the window
+        elseif canEscape and uiMsg == WM_XBUTTONDOWN then
+            local xButton = math.floor( wParam / 65536 ) % 256   -- high word
+            if xButton == 0 then xButton = wParam end            -- fallback if already unpacked
+            if xButton == 1 then   -- same button as the other screens; use 1 for the other one
+                HideWindow()
+            end
+        end
+        return true
+    end)
 end
 
 Controls.CloseButton:RegisterCallback( Mouse.eLClick, HideWindow )

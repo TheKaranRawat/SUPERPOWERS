@@ -253,12 +253,21 @@ end
 function InputHandler( uiMsg, wParam, lParam )      
     if(uiMsg == KeyEvents.KeyDown) then
         if (wParam == Keys.VK_ESCAPE) then
-			OnClose();
-			return true;
+            OnClose();
+            return true;
         end
  
         if(wParam == Keys.VK_RETURN) then
-			return true;
+            return true;
+        end
+
+    -- mouse side button closes the screen
+    elseif(uiMsg == 523) then   -- WM_XBUTTONDOWN
+        local xButton = math.floor( wParam / 65536 ) % 256   -- high word
+        if xButton == 0 then xButton = wParam end            -- fallback if already unpacked
+        if xButton == 1 then   -- same button as the other screens; use 1 for the other one
+            OnClose();
+            return true;
         end
     end
 end

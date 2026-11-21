@@ -9319,17 +9319,30 @@ Controls.OK:RegisterCallback(Mouse.eLClick, OnSearchNotFoundOK );
  
 function InputHandler( uiMsg, wParam, lParam )
     if(uiMsg == KeyEvents.KeyDown) then
-		if(not Controls.SearchFoundNothing:IsHidden()) then
-			if(wParam == Keys.VK_ESCAPE or wParam == Keys.VK_RETURN) then
-				Controls.SearchFoundNothing:SetHide(true);
-				return true;
-			end
-		else
-			if(wParam == Keys.VK_ESCAPE) then
-				OnClose();
-				return true;
-			end
-		end
+        if(not Controls.SearchFoundNothing:IsHidden()) then
+            if(wParam == Keys.VK_ESCAPE or wParam == Keys.VK_RETURN) then
+                Controls.SearchFoundNothing:SetHide(true);
+                return true;
+            end
+        else
+            if(wParam == Keys.VK_ESCAPE) then
+                OnClose();
+                return true;
+            end
+        end
+
+    -- mouse side button: dismiss the "found nothing" box, otherwise close
+    elseif(uiMsg == 523) then   -- WM_XBUTTONDOWN
+        local xButton = math.floor( wParam / 65536 ) % 256   -- high word
+        if xButton == 0 then xButton = wParam end            -- fallback if already unpacked
+        if xButton == 1 then   -- same button as the other screens; use 1 for the other one
+            if(not Controls.SearchFoundNothing:IsHidden()) then
+                Controls.SearchFoundNothing:SetHide(true);
+            else
+                OnClose();
+            end
+            return true;
+        end
     end
 end
 ContextPtr:SetInputHandler( InputHandler );

@@ -1365,11 +1365,13 @@ for addin in Modding.GetActivatedModEntryPoints("InGameUIAddin") do
 	table.insert(g_uiAddins, ContextPtr:LoadNewContext(path));
 end
 
+ContextPtr:LoadNewContext("Stfu")
 ContextPtr:LoadNewContext("AutoCityFire")
 ContextPtr:LoadNewContext("AutoImprovements")
 ContextPtr:LoadNewContext("AutoRanged")
 ContextPtr:LoadNewContext("AutoRoad")
 ContextPtr:LoadNewContext("DisableCSUnits")
+ContextPtr:LoadNewContext("EnemyPromotion")
 ContextPtr:LoadNewContext("EventBanner")
 ContextPtr:LoadNewContext("Policy_FreeBuildingClass")
 ContextPtr:LoadNewContext("GroupMove")
@@ -1393,4 +1395,3 @@ ContextPtr:LoadNewContext("UnitSpecialButtons")
 ContextPtr:LoadNewContext("UnitAutoNaming")
 ContextPtr:LoadNewContext("WarPopup")
 ContextPtr:LoadNewContext("WarTracker")
-ContextPtr:LoadNewContext("Stfu")

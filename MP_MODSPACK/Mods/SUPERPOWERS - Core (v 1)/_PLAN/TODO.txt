@@ -577,7 +577,7 @@ Unit_ResourceQuantityRequirements
 	ICON_LAWS	ICON_FORT	ICON_CROSSED	ICON_CAVALRY	
 	ICON_INFANTRY	ICON_RANGED
 	
-	[53531.187] ReplayViewer: ReplayDataSet:	1	REPLAYDATASET_SCORE	TXT_KEY_REPLAY_VIEWER_GRAPHBY_SCORE
+[53531.187] ReplayViewer: ReplayDataSet:	1	REPLAYDATASET_SCORE	TXT_KEY_REPLAY_VIEWER_GRAPHBY_SCORE
 [53531.187] ReplayViewer: ReplayDataSet:	2	REPLAYDATASET_PRODUCTIONPERTURN	TXT_KEY_REPLAY_DATA_PRODUCTIONPERTURN
 [53531.187] ReplayViewer: ReplayDataSet:	3	REPLAYDATASET_TOTALGOLD	TXT_KEY_REPLAY_DATA_TOTALGOLD
 [53531.187] ReplayViewer: ReplayDataSet:	4	REPLAYDATASET_GOLDPERTURN	TXT_KEY_REPLAY_DATA_GOLDPERTURN
@@ -734,7 +734,7 @@ fix diplomacy not opening after deal sent
 	fix other player city banner ui
 notification if turn waiting
 trade limit
-right click close: CS UI/ tech screen/wonder screen
+right click close: CS UI/ tech screen/wonder screen/new era
 increase army costs
 	hide has grown notification
 war citystate ui icon not drawing
@@ -791,6 +791,7 @@ xcom head/integrated defense
 manpower bonus ai
 AI SSBN NUKES
 fix loading screen size
+build polder everywhere/coastal except hills
 ------------------------------------------------
 <Image Anchor="R,T" Texture="assets\UI\Art\WorldView\TopRight020.dds" Size="512,128" ID="CornerAnchor" Hidden="1"/>
 g_isSmallScreen

@@ -230,21 +230,24 @@ end
 ContextPtr:SetInputHandler( InputHandler );
 ]]--
 
-function InputHandler(uiMsg, wParam, lParam)
-    if uiMsg == KeyEvents.KeyDown and wParam == Keys.VK_ESCAPE then
-        OnReturn();    -- whatever Escape already calls
-    end
+function InputHandler( uiMsg, wParam, lParam )
+    if( uiMsg == KeyEvents.KeyDown )
+    then
+        if( wParam == Keys.VK_ESCAPE or wParam == Keys.VK_RETURN ) then
+            OnReturn();
+        end
 
-    if uiMsg == MouseEvents.RButtonUp then
-        OnReturn();     -- same function as Escape
+    -- mouse side button acts as return
+    elseif( uiMsg == 523 ) then   -- WM_XBUTTONDOWN
+        local xButton = math.floor( wParam / 65536 ) % 256   -- high word
+        if xButton == 0 then xButton = wParam end            -- fallback if already unpacked
+        if xButton == 1 then   -- same button as the other screens; use 1 for the other one
+            OnReturn();
+        end
     end
-
-	if uiMsg == 523 then
-        OnReturn();     -- same function as Escape
-    end
-    return true
+    return true;
 end
-ContextPtr:SetInputHandler(InputHandler)
+ContextPtr:SetInputHandler( InputHandler );
 
 
 ----------------------------------------------------------------        
