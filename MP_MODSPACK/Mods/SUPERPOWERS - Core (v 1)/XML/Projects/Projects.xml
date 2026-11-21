@@ -472,10 +472,12 @@
 			<Description>TXT_KEY_PROJECT_HACKER_ATTACK</Description>
 			<Help>TXT_KEY_PROJECT_HACKER_ATTACK_HELP</Help>
 			<Civilopedia>TXT_KEY_PROJECT_HACKER_ATTACK_PEDIA</Civilopedia>
+			<!--
 			<TechPrereq>TECH_IOT_NETWORK</TechPrereq>
+			-->
 			<MaxGlobalInstances>1</MaxGlobalInstances>
 			<MaxTeamInstances>1</MaxTeamInstances>
-			<Cost>1200</Cost>
+			<Cost>-1</Cost>
 			<PortraitIndex>29</PortraitIndex>
 			<IconAtlas>SPBalance_ATLAS</IconAtlas>
 		</Row>

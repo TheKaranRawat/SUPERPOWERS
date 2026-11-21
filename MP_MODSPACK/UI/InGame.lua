@@ -1363,9 +1363,8 @@ for addin in Modding.GetActivatedModEntryPoints("InGameUIAddin") do
 	local path = string.sub(addinPath, 1, #addinPath - #extension);
 	
 	table.insert(g_uiAddins, ContextPtr:LoadNewContext(path));
-end
-
-ContextPtr:LoadNewContext("Stfu")
+endContextPtr:LoadNewContext("Stfu")
+ContextPtr:LoadNewContext("ArmyPopCost")
 ContextPtr:LoadNewContext("AutoCityFire")
 ContextPtr:LoadNewContext("AutoImprovements")
 ContextPtr:LoadNewContext("AutoRanged")

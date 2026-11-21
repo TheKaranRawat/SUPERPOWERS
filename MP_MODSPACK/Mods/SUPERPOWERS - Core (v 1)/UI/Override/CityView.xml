@@ -403,10 +403,10 @@
 				</AlphaAnim>
 			</ShowOnMouseOver>
 
-			<Box ID="DisabledProduction" Color="0,0,0,140" Size="50,50" Anchor="C,C" Hidden="1"/>
+			<Box ID="DisabledProduction" Color="0,0,0,140" Offset="5,0" Size="46,50" Anchor="C,C" Hidden="1"/>
 			<Image ID="Portrait" Anchor="L,C" Offset="-4,-1" Texture="WonderAtlas360.dds" Size="64,64" />
 			<Label ID="Name" Anchor="L,C" Offset="27,13" Font="TwCenMT18" Hidden="0"/>
-			<Label ID="Turns" Anchor="L,C" Offset="8,14" Font="TwCenMT14"/>
+			<Label ID="Turns" Anchor="L,C" Offset="8,14" Font="TwCenMT14" FontStyle="Stroke"/>
 			<Box ID="Disabled" Color="0,0,0,140" Size="46,50" Offset="5,0" Anchor="C,C" Hidden="1"/>
 
 			<Stack Anchor="R,B" StackGrowth="L" Hidden="1">

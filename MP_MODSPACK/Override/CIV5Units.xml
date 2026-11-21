@@ -263898,7 +263898,7 @@
 			<Help>TXT_KEY_PROJECT_HACKER_ATTACK_HELP</Help> 
 			<MaxGlobalInstances>1</MaxGlobalInstances> 
 			<MaxTeamInstances>1</MaxTeamInstances> 
-			<Cost>1200</Cost> 
+			<Cost>-1</Cost> 
 			<NukeInterception>0</NukeInterception> 
 			<CultureBranchesRequired>0</CultureBranchesRequired> 
 			<TechShare>0</TechShare> 
@@ -263906,7 +263906,6 @@
 			<Spaceship>false</Spaceship> 
 			<Religious>false</Religious> 
 			<AllowsNukes>false</AllowsNukes> 
-			<TechPrereq>TECH_IOT_NETWORK</TechPrereq> 
 			<PortraitIndex>29</PortraitIndex> 
 			<IconAtlas>SPBalance_ATLAS</IconAtlas> 
 		</Row>
@@ -352066,10 +352065,6 @@
 			<BuildType>BUILD_BRAZILWOOD_CAMP</BuildType> 
 		</Row>
 		<Row> 
-			<UnitType>UNIT_WARRIOR</UnitType> 
-			<BuildType>BUILD_ROAD</BuildType> 
-		</Row>
-		<Row> 
 			<UnitType>UNIT_MILITIA_ANCIENT</UnitType> 
 			<BuildType>BUILD_ROAD</BuildType> 
 		</Row>
@@ -391568,7 +391563,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>20</Range> 
+			<Range>24</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_SR71_BLACKBIRD</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -392439,7 +392434,7 @@
 			<Help>TXT_KEY_UNIT_HELP_HACKER</Help> 
 			<Combat>0</Combat> 
 			<RangedCombat>0</RangedCombat> 
-			<Cost>2000</Cost> 
+			<Cost>-1</Cost> 
 			<FaithCost>0</FaithCost> 
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
@@ -392470,7 +392465,6 @@
 			<Mechanized>false</Mechanized> 
 			<Suicide>false</Suicide> 
 			<CaptureWhileEmbarked>false</CaptureWhileEmbarked> 
-			<PrereqTech>TECH_IOT_NETWORK</PrereqTech> 
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>10</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 

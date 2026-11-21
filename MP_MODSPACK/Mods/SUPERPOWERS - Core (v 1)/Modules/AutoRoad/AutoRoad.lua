@@ -33,8 +33,15 @@ local CONFIG = {
     NEAREST_CANDIDATES             = 3,      -- how many nearest cities to try for a new city
     MAX_PENDING_RETRIES            = 3,      -- failed attempts before a new city is given up on
 
+    -- keeping the road network tidy (no spaghetti)
+    ROUTE_REUSE_COST               = 0.15,   -- cost of a tile that already has a road (normal tile = 1+)
+    PARALLEL_ROAD_PENALTY          = 4,      -- extra cost for a NEW road tile next to an unrelated road
+    MAX_ROUTE_DETOUR               = 20,     -- how far off the straight line existing roads may be followed
+    HEURISTIC_WEIGHT               = 0.6,    -- lower = finds road-reusing paths more reliably (slower)
+    CAPITAL_ROADS_MAY_SHARE_TILES  = true,   -- capital roads may reuse each other's tiles
+
     -- performance limits
-    MAX_SEARCH_NODES               = 600,    -- A* node budget per path search
+    MAX_SEARCH_NODES               = 800,    -- A* node budget per path search
     MAX_SEARCHES_PER_PASS          = 3,      -- path searches per player per run
     MAX_NEW_CAPITAL_ROADS_PER_PASS = 1,
 
@@ -267,8 +274,8 @@ local function StepCost(plot, key, pid, blocked, goalKey, allowedOwner)
         if owner >= 0 then return nil end                       -- foreign territory
         if not CONFIG.ALLOW_NEUTRAL_TERRITORY then return nil end
     end
-    if plot:IsCity() then return 0.25 end                       -- own city (has a route)
-    if RouteRank(plot:GetRouteType()) > ROUTE_NONE_RANK then return 0.5 end -- reuse roads
+    if plot:IsCity() then return CONFIG.ROUTE_REUSE_COST end                       -- own city (has a route)
+    if RouteRank(plot:GetRouteType()) > ROUTE_NONE_RANK then return CONFIG.ROUTE_REUSE_COST end -- reuse roads
     local cost = 1
     if plot:IsHills() then cost = cost + 1 end
     if plot:GetFeatureType() >= 0 then cost = cost + 1 end
@@ -281,6 +288,25 @@ local function FindPath(pid, sx, sy, gx, gy, blocked, allowedOwner)
     if startKey == goalKey then return nil end
     local direct = Map.PlotDistance(sx, sy, gx, gy)
     local maxTotal = direct + CONFIG.MAX_DETOUR
+    local maxTotalRoute = direct + math.max(CONFIG.MAX_DETOUR, CONFIG.MAX_ROUTE_DETOUR)
+    local hw = CONFIG.HEURISTIC_WEIGHT
+
+    -- road tiles (not cities) adjacent to a plot; cached per search
+    local roadNeighbors = {}
+    local function NearRoads(nk, nx, ny)
+        local r = roadNeighbors[nk]
+        if r then return r end
+        r = {}
+        for d = 0, 5 do
+            local rp = Map.PlotDirection(nx, ny, d)
+            if rp and not rp:IsCity() and RouteRank(rp:GetRouteType()) > ROUTE_NONE_RANK then
+                local rx, ry = rp:GetX(), rp:GetY()
+                r[#r + 1] = { k = KeyOf(rx, ry), x = rx, y = ry }
+            end
+        end
+        roadNeighbors[nk] = r
+        return r
+    end
 
     local hKey, hF, hSeq, n, seq = {}, {}, {}, 0, 0
     local function less(i, j)
@@ -320,7 +346,7 @@ local function FindPath(pid, sx, sy, gx, gy, blocked, allowedOwner)
     end
 
     local g, from, closed = { [startKey] = 0 }, {}, {}
-    push(startKey, direct)
+    push(startKey, direct * hw)
     local expanded = 0
 
     while n > 0 do
@@ -345,14 +371,26 @@ local function FindPath(pid, sx, sy, gx, gy, blocked, allowedOwner)
                     local nk = KeyOf(nx, ny)
                     if not closed[nk] then
                         local dToGoal = Map.PlotDistance(nx, ny, gx, gy)
-                        if Map.PlotDistance(sx, sy, nx, ny) + dToGoal <= maxTotal then
+                        local onRoute = RouteRank(np:GetRouteType()) > ROUTE_NONE_RANK
+                        local lim = onRoute and maxTotalRoute or maxTotal
+                        if Map.PlotDistance(sx, sy, nx, ny) + dToGoal <= lim then
                             local cost = StepCost(np, nk, pid, blocked, goalKey, allowedOwner)
                             if cost then
+                                -- a NEW road tile running beside an unrelated road is penalised
+                                if not onRoute and nk ~= goalKey and CONFIG.PARALLEL_ROAD_PENALTY > 0 then
+                                    local near = NearRoads(nk, nx, ny)
+                                    for r = 1, #near do
+                                        if near[r].k ~= cur and Map.PlotDistance(near[r].x, near[r].y, cx, cy) > 1 then
+                                            cost = cost + CONFIG.PARALLEL_ROAD_PENALTY
+                                            break
+                                        end
+                                    end
+                                end
                                 local ng = g[cur] + cost
                                 if g[nk] == nil or ng < g[nk] then
                                     g[nk] = ng
                                     from[nk] = cur
-                                    push(nk, ng + dToGoal)
+                                    push(nk, ng + dToGoal * hw)
                                 end
                             end
                         end
@@ -573,7 +611,8 @@ local function BuildCapitalLinks(player, pid, st, budget)
         -- an earlier road built this pass may have made this city too close
         if not TooCloseToCapitalRoads(st, c.x, c.y) then
             budget.searches = budget.searches - 1
-            local path = FindPath(pid, capX, capY, c.x, c.y, blocked)
+            local path = FindPath(pid, capX, capY, c.x, c.y,
+                                  (not CONFIG.CAPITAL_ROADS_MAY_SHARE_TILES) and blocked or nil)
             if path then
                 CommitLink(player, pid, st, c.id, "C", path)
                 for k = 1, #path do

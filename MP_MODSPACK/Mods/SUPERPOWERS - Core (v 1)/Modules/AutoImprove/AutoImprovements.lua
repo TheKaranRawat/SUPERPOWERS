@@ -41,6 +41,7 @@
 local CONFIG = {
 	BASE_PER_TURN = 1,
 	BONUS_TECHS = {
+		"TECH_CIVIL_SERVICE",      -- +1 improvement per build turn
 		"TECH_INDUSTRIALIZATION",      -- +1 improvement per build turn
 	},
 
@@ -60,7 +61,7 @@ local CONFIG = {
 	-- Slow repair of pillaged improvements
 	REPAIR_PILLAGED  = true,
 	REPAIR_INTERVAL  = 4,              -- each city, every N turns
-	REPAIRS_PER_CITY = 1,
+	REPAIRS_PER_CITY = 2,
 
 	-- Fallout cleanup (separate from repairs)
 	REMOVE_FALLOUT    = true,
@@ -71,7 +72,7 @@ local CONFIG = {
 	-- covered by any city's range. Scans the map for the player's own tiles
 	-- in slices; raise INTERVAL or SLICES to lower the cost on huge maps.
 	OUTSIDE_RANGE_ENABLED  = true,
-	OUTSIDE_RANGE_INTERVAL = 2,        -- each player scans every N turns...
+	OUTSIDE_RANGE_INTERVAL = 4,        -- each player scans every N turns...
 	OUTSIDE_RANGE_SLICES   = 3,        -- ...1/N of the map each time (whole map
 	                                   -- covered every INTERVAL x SLICES turns)
 

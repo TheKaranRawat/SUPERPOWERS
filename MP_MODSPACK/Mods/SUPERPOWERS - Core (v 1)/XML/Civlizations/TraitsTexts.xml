@@ -44,7 +44,7 @@
 		</Replace>
 		<Replace Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES">
 			<Text>[ICON_BULLET]The first 4 [ICON_CITIZEN]Citizens in your cities don't generate [ICON_HAPPINESS_4]Unhappiness. 
-				[NEWLINE][ICON_BULLET]+8 [ICON_GOLD]Happiness and +8 [ICON_RES_CONSUMER]Manpower from [ICON_CITY_STATE]Cities.
+				[NEWLINE][ICON_BULLET]+8 [ICON_GOLD]Happiness and +8 [ICON_RES_MANPOWER]Manpower from [ICON_CITY_STATE]Cities.
 				[NEWLINE][ICON_BULLET]Every owned [ICON_CITY_STATE]City grants an additive 10% Border Growth Rate bonus. 
 				[NEWLINE][ICON_BULLET]Unit [ICON_GOLD]Maintenance Costs are reduced by 20% and all Units gain +15% [ICON_STRENGTH]Combat Strength bonus while fighting within their own territory, after researching Industrialization.				
 			</Text>
@@ -96,7 +96,7 @@
 		<Replace Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER">
 			<Text>[ICON_BULLET]+12 [ICON_PRODUCTION]Production for [ICON_CITY_STATE]Cities. 
 				[NEWLINE][ICON_BULLET]+15% [ICON_PRODUCTION]Production when constructing Buildings. 
-				[NEWLINE][ICON_BULLET]Roman Expansionist Ethos grants -33% [ICON_HAPPINESS_4]Unhapiness from the number of [ICON_CITY_STATE]Controlled Cities.
+				[NEWLINE][ICON_BULLET]Roman Expansionist Ethos grants -33% [ICON_HAPPINESS_4]Unhappiness from the number of [ICON_CITY_STATE]Controlled Cities.
 				[NEWLINE][ICON_BULLET]Naval units cost 25% less [ICON_GOLD]Maintenance after researching Industrialization.
 			</Text>
 		</Replace>
@@ -196,8 +196,8 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
-			<Text>[ICON_BULLET]+4 [ICON_PRODUCTION]Production for every Quarry, Fishing Net and Forest. +8 [ICON_PRODUCTION]Production from Fishing Nets and Strategic Resources. 
-				[NEWLINE][ICON_BULLET]+25% speed for [ICON_WORKER]Worker's Tile Improvement construction rate. 
+			<Text>[ICON_BULLET]+4 [ICON_PRODUCTION]Production for every Quarry and Forest. 
+				[NEWLINE][ICON_BULLET]+8 [ICON_PRODUCTION]Production from Fishing Nets and Strategic Resources.
 				[NEWLINE][ICON_BULLET]Ottoman Administration grants faster city border growth rate.
 				[NEWLINE][ICON_BULLET]Land Unit [ICON_GOLD]Maintenance is reduced by 30% after researching Industrialization.
 			</Text>

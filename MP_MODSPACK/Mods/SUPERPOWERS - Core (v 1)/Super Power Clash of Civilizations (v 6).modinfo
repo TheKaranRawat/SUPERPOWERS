@@ -3964,6 +3964,8 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/EnemyPromotion/EnemyPromotion.sql</File>
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/EnemyPromotion/EnemyPromotion.xml</File>
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/EnemyPromotion/EnemyPromotion.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/ArmyPopCost/ArmyPopCost.lua</File>
     
   </Files>
   <Actions>
@@ -4608,6 +4610,11 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <EntryPoint type="InGameUIAddin" file="Modules/EnemyPromotion/EnemyPromotion.lua">
       <Name>EnemyPromotion</Name>
       <Description>Grants enemy promotion</Description>
+    </EntryPoint>    
+
+    <EntryPoint type="InGameUIAddin" file="Modules/ArmyPopCost/ArmyPopCost.lua">
+      <Name>ArmyPopCost</Name>
+      <Description>Army Pop Cost</Description>
     </EntryPoint>    
 
 		

@@ -114,6 +114,7 @@ local g_heap = Controls.Scrap
 
 local g_queuedItemNumber = false
 local g_isViewingMode = true
+local g_isPurchaseOnly = false	-- Venice puppet city: viewing mode, but gold purchases allowed
 local g_isDebugMode = false
 local g_BuyPlotMode = not ( g_options and g_options.GetValue and g_options.GetValue( "CityPlotPurchase" ) == 0 )
 local g_isCityViewDirty, g_isPlotButtonsDirty
@@ -290,6 +291,33 @@ local function GetSelectedModifiableCity()
 	end
 	local city = GetSelectedCity()
 	return city and city:GetOwner() == g_activePlayerID and city
+end
+
+-- Venice is the only civilization that may buy things in its puppet cities
+local g_veniceID = GameInfoTypes[ "CIVILIZATION_VENICE" ]
+
+-- Venice may buy units and buildings with gold in every one of its cities
+local function IsVeniceCity( city )
+	return g_veniceID ~= nil and city
+		and city:GetOwner() == g_activePlayerID
+		and g_activePlayer:GetCivilizationType() == g_veniceID
+end
+
+local function IsVenicePuppet( city )
+	return g_veniceID ~= nil and city and city:IsPuppet()
+		and city:GetOwner() == g_activePlayerID
+		and g_activePlayer:GetCivilizationType() == g_veniceID
+end
+
+-- own city we may buy in: a normal city, or a Venice puppet in purchase-only mode
+local function GetSelectedPurchaseCity()
+	local city = GetSelectedCity()
+	if city and city:GetOwner() == g_activePlayerID then
+		if not g_isViewingMode or ( g_isPurchaseOnly and IsVenicePuppet( city ) ) then
+			return city
+		end
+	end
+	return false
 end
 
 local cityIsCanPurchase
@@ -1004,7 +1032,7 @@ local function SelectionPurchase( orderID, itemID, yieldID, soundKey )
 	end
 	local cityOwnerID = city:GetOwner()
 	if cityOwnerID == g_activePlayerID
-		and ( not city:IsPuppet() or ( bnw_mode and g_activePlayer:MayNotAnnex() ) )	-- Venice exception
+		and ( not city:IsPuppet() or ( IsVenicePuppet( city ) and yieldID == g_yieldCurrency ) )	-- Venice exception, gold only
 	then
 		local cityID = city:GetID()
 		local isPurchase
@@ -1096,19 +1124,42 @@ local g_SelectionListCallBacks = {
 		end,
 		-- right click buys units, Ctrl + right click opens the Pedia
 		-- add purchase fail sound
-		[Mouse.eRClick] = function( orderID, itemID )
-			local city = GetSelectedModifiableCity()
-			if orderID == OrderTypes.ORDER_TRAIN and city and not UI.CtrlKeyDown() then
-				-- IsCanPurchase( testCost, testTrainable, unitID, buildingID, projectID, yieldType )
-				if not city:IsCanPurchase( true, true, itemID, -1, -1, g_yieldCurrency )
-					and city:IsCanPurchase( true, true, itemID, -1, -1, YieldTypes.YIELD_FAITH )
-				then
-					return SelectionPurchase( orderID, itemID, YieldTypes.YIELD_FAITH, "AS2D_INTERFACE_FAITH_PURCHASE" )
+		-- right click buys: units (gold, or faith if only faith works) and faith buildings.
+		-- Ctrl + right click and everything else opens the Pedia.
+		-- right click buys: units (gold, or faith if only faith works), faith buildings, and for Venice
+		-- buildings with gold in every city. Ctrl + right click and everything else opens the Pedia.
+		-- right click buys: units (gold, or faith if only faith works) in normal cities, buildings with gold
+-- for Venice in all its cities, and faith buildings. Ctrl + right click and everything else opens the Pedia.
+	[Mouse.eRClick] = function( orderID, itemID )
+		if not UI.CtrlKeyDown() then
+			local city = GetSelectedPurchaseCity()
+			if city then
+				local isVeniceCity = IsVeniceCity( city )
+				local isVenicePuppet = isVeniceCity and city:IsPuppet()
+				if orderID == OrderTypes.ORDER_TRAIN and not isVenicePuppet then
+					local yieldID = g_yieldCurrency
+					if not cityIsCanPurchase( city, true, true, itemID, -1, -1, g_yieldCurrency )
+						and cityIsCanPurchase( city, true, true, itemID, -1, -1, YieldTypes.YIELD_FAITH )
+					then
+						yieldID = YieldTypes.YIELD_FAITH
+					end
+					return SelectionPurchase( orderID, itemID, yieldID,
+						yieldID == g_yieldCurrency and "AS2D_INTERFACE_CITY_SCREEN_PURCHASE" or "AS2D_INTERFACE_FAITH_PURCHASE" )
+				elseif orderID == OrderTypes.ORDER_CONSTRUCT then
+					if isVeniceCity
+						and cityIsCanPurchase( city, false, false, -1, itemID, -1, g_yieldCurrency )
+					then
+						return SelectionPurchase( orderID, itemID, g_yieldCurrency, "AS2D_INTERFACE_CITY_SCREEN_PURCHASE" )
+					elseif not isVenicePuppet
+						and cityIsCanPurchase( city, false, false, -1, itemID, -1, YieldTypes.YIELD_FAITH )
+					then
+						return SelectionPurchase( orderID, itemID, YieldTypes.YIELD_FAITH, "AS2D_INTERFACE_FAITH_PURCHASE" )
+					end
 				end
-				return SelectionPurchase( orderID, itemID, g_yieldCurrency, "AS2D_INTERFACE_CITY_SCREEN_PURCHASE" )
 			end
-			return SelectionPedia( orderID, itemID )
-		end,
+		end
+		return SelectionPedia( orderID, itemID )
+	end,	
 	},
 	GoldButton = {
 		[Mouse.eLClick] = function( orderID, itemID )
@@ -1884,6 +1935,10 @@ local function UpdateCityViewNow()
 	g_isViewingMode = city:IsPuppet() or not isActivePlayerCity or isCityCaptureViewingMode
 		or ( Game.IsNetworkMultiPlayer() and not g_activePlayer:IsTurnActive() )
 
+	local isVenicePuppet = IsVenicePuppet( city ) and not isCityCaptureViewingMode
+	and not ( Game.IsNetworkMultiPlayer() and not g_activePlayer:IsTurnActive() )
+	g_isPurchaseOnly = isVenicePuppet
+
 	if civ5_mode then
 		local isNoAuto = city:IsNoAutoAssignSpecialists()
 		Controls.NoAutoSpecialistCheckbox:SetCheck( isNoAuto )
@@ -1900,8 +1955,7 @@ local function UpdateCityViewNow()
 	UpdateResourceDemanded( city )
 	UpdateTaskButton( city, cityID, cityOwner, isActivePlayerCity )
 	UpdatePlotButtonsNow()
-	UpdateCityProductionQueueNow( city, cityID, cityOwnerID,
-		isActivePlayerCity and not isCityCaptureViewingMode and civ5bnw_mode and cityOwner:MayNotAnnex() and city:IsPuppet() )
+	UpdateCityProductionQueueNow( city, cityID, cityOwnerID, isVenicePuppet )
 	UpdateYields( city )
 	UpdateButtonStates( cityOwner )
 end
@@ -2150,6 +2204,7 @@ function()
 		end
 	end
 	g_isViewingMode = true
+	g_isPurchaseOnly = false
 	return UI.SetCityScreenViewingMode( false )
 end)
 

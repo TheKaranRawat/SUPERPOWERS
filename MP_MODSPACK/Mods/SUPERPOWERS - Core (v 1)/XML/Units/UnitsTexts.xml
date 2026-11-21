@@ -79,7 +79,7 @@
 
 				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cons:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Expensive Maintenance Cost
-				[NEWLINE][ICON_BULLET]Citadels are static defences, and can still be flanked by enemy forces.
+				[NEWLINE][ICON_BULLET]Citadels are static defenses, and can still be flanked by enemy forces.
 
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Use its sight and firepower to keep an eye on your territory while your troops are on the frontline, especially for areas with important resources or choke points in case of possible enemy harassment.
@@ -211,7 +211,7 @@
 				[NEWLINE][ICON_BULLET]Escort
 
 				[NEWLINE][NEWLINE][COLOR_YIELD_FOOD]Operation:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Can fortify by clicking the "Fortify" button or pressing "F". It will +50% [ICON_STRENGTH]Combat Strength whe ndefending at the beginning of the next turn. When it moves, it will lose its fortification.
+				[NEWLINE][ICON_BULLET]Can fortify by clicking the "Fortify" button or pressing "F". It will +50% [ICON_STRENGTH]Combat Strength when defending at the beginning of the next turn. When it moves, it will lose its fortification.
 
 
 				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Pros:[ENDCOLOR]
@@ -258,7 +258,7 @@
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]They can help you to explore the map to offer important intel. Do not forget to train them in early-game. In most cases, the whole map should be fully discovered before you entering the modern era.
 				[NEWLINE][ICON_BULLET]Use Explorer's "Sell Exotic Goods" ability to earn some fast cash inside other civilizations' or city-states' territories.
-				[NEWLINE][ICON_BULLET]If you have available Caravels and Explorers, send them into your future enemy territory to gather intels for your planned invasion.
+				[NEWLINE][ICON_BULLET]If you have available Caravels and Explorers, send them into your future enemy territory to gather intel for your planned invasion.
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]They are not aggressive units and cannot pillage. Do not worry about them.
 			</Text>
@@ -394,7 +394,7 @@
 				[NEWLINE][ICON_BULLET]City Attacker
 
 				[NEWLINE][NEWLINE][COLOR_YIELD_FOOD]Operation:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]As long as other friendly units can see the target and it is within the attacking range, it is attackable. Even this unit cannot see the target.
+				[NEWLINE][ICON_BULLET]As long as other friendly units can see the target and it is within the attacking range. Even this unit cannot see the target.
 				[NEWLINE][ICON_BULLET]If it successfully put the debuff an enemy unit or your unit gets a debuff by the enemy attack. You will hear a special sound effect and get a notice on the right side of the screen.
 
 				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Pros:[ENDCOLOR]
@@ -430,11 +430,11 @@
 			<Text>
 				[COLOR_UNIT_TEXT]Role:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Initiator
-				[NEWLINE][ICON_BULLET]Nuker
+				[NEWLINE][ICON_BULLET]Nuke
 
 
 				[NEWLINE][NEWLINE][COLOR_YIELD_FOOD]Operation:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]As long as other friendly units can see the target and it is within the attacking range, it is attackable. Even this unit cannot see the target.
+				[NEWLINE][ICON_BULLET]As long as other friendly units can see the target and it is within the attacking range. Even this unit cannot see the target.
 
 
 				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Pros:[ENDCOLOR]
@@ -483,7 +483,7 @@
 				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Pros:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Strong Combat Strength
 				[NEWLINE][ICON_BULLET]Versatile
-				[NEWLINE][ICON_BULLET]Durable and heals quiclky
+				[NEWLINE][ICON_BULLET]Durable and heals quickly
 
 				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cons:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Cannot attack units on land
@@ -520,7 +520,7 @@
 				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Pros:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Excellent mobility
 				[NEWLINE][ICON_BULLET]Good price to performance
-				[NEWLINE][ICON_BULLET]Good at wolfpack
+				[NEWLINE][ICON_BULLET]Performs recon
 
 				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Cons:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Weak in defending itself
@@ -565,7 +565,7 @@
 
 				[NEWLINE][NEWLINE][COLOR_CYAN]Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]If owned both "Suppression" and Collateral Damage" promotions, Naval Ranged Ships can weaken enemy both defending and attacking combat strength to quickly disable its combat effectiveness.
-				[NEWLINE][ICON_BULLET]With decisive high melee combat strength, Naval Ranged Ships can efficiently destroy an enemy Naval Melee Unit with minimum loss. Remember to use its melee attack ablity.
+				[NEWLINE][ICON_BULLET]With decisive high melee combat strength, Naval Ranged Ships can efficiently destroy an enemy Naval Melee Unit with minimum loss. Remember to use its melee attack ability.
 				[NEWLINE][ICON_BULLET]Naval Ranged Ships can also capture coastal cities by using melee attacks, but it cannot move after capturing the city. So make sure the captured city is secure in the next turn.
 				[NEWLINE][ICON_BULLET]Heavy Cruisers and Missile Cruisers can provide capable anti-air support. Missile Cruisers can even intercept guided missiles.
 				[NEWLINE][ICON_BULLET]Always work with Naval Hit-and-run Units with "Scouting" promotions to have the best effect.
@@ -583,13 +583,13 @@
 		<Row Tag="TXT_KEY_SP_UNITS_BATTLESHIPS_STRATEGY">
 			<Text>
 				[COLOR_UNIT_TEXT]Role:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]Nuker
+				[NEWLINE][ICON_BULLET]Nuke
 				[NEWLINE][ICON_BULLET]Durable
 				[NEWLINE][ICON_BULLET]Deterrence
 				[NEWLINE][ICON_BULLET]Flagship
 
 				[NEWLINE][NEWLINE][COLOR_YIELD_FOOD]Operation:[ENDCOLOR]
-				[NEWLINE][ICON_BULLET]As long as other friendly units can see the target and it is within the attacking range, it is attackable. Even this unit cannot see the target.
+				[NEWLINE][ICON_BULLET]As long as other friendly units can see the target and it is within the attacking range. Even this unit cannot see the target.
 
 
 				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Pros:[ENDCOLOR]
@@ -732,7 +732,7 @@
 				[NEWLINE][ICON_BULLET]Since its attacks ignore all terrain or any defensive bonus, it is extremely efficient to take down enemy units hiding in rough terrains like deep forest or jungles.
 				[NEWLINE][ICON_BULLET]Attack Aircraft also have a deadly effect attacking enemy naval ships. With enough Attack Aircraft accompanied by Fighters, you are able to take out the enemy fleet while your main naval force is out.
 				[NEWLINE][ICON_BULLET]With "Surgical Strike" promotions, Attack Aircraft can even damage or destroy enemy units in the city. Be aware they can damage or destroy enemy aircraft stationed in the target city as well. Use Fighters to clear a path and your Attack Aircraft can wipe out enemy air force on their runways in one turn.
-				[NEWLINE][ICON_BULLET]Rember to perform an "Air Sweep" everytime before launching an air strike. The intercepting range of Fighters is very long. You will never know how many enemy Fighters hiding in the fog of war.
+				[NEWLINE][ICON_BULLET]Remember to perform an "Air Sweep" every time before launching an air strike. The intercepting range of Fighters is very long. You will never know how many enemy Fighters hiding in the fog of war.
 				[NEWLINE][ICON_BULLET]Move up your Attack Aircraft while pushing further, since they have a relatively shorter flight range.
 				[NEWLINE][NEWLINE][COLOR_MAGENTA]Counter Tactics:[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]Attack Aircraft don't have any anti-air weapons. As a result, they are perfect targets for Fighters.
@@ -786,7 +786,7 @@
 		<Row Tag="TXT_KEY_SP_UNITS_NUCLEAR_WEAPONS_STRATEGY">
 		<Text>
 			[COLOR_UNIT_TEXT]Role:[ENDCOLOR]
-			[NEWLINE][ICON_BULLET]Nuker
+			[NEWLINE][ICON_BULLET]Nuke
 			[NEWLINE][ICON_BULLET]Strategic Weapon
 			[NEWLINE][ICON_BULLET]Game Ender
 			[NEWLINE][ICON_BULLET]Deterrence
@@ -951,7 +951,7 @@
 			<Text>[ICON_SHIELD] [COLOR_MAGENTA]Territorial Army[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_MILITIA_MODERN_TEXT">
-			<Text>Territorial Armies serve as the auxilliary modern national defense force.</Text>
+			<Text>Territorial Armies serve as the auxiliary  modern national defense force.</Text>
 		</Row>
 
 		<!--
@@ -1034,11 +1034,11 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_POLYNESIAN_CARGOSHIP">
-			<Text>[ICON_INTERNATIONAL_TRADE] Polynesian Cargoship</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Polynesian Cargo Ship</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_POLYNESIAN_CARGOSHIP_HEADING">
-			<Text>[ICON_INTERNATIONAL_TRADE] Polynesian Cargoship</Text>
+			<Text>[ICON_INTERNATIONAL_TRADE] Polynesian Cargo Ship</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_UNIT_POLYNESIAN_CARGOSHIP_TEXT">
 			<Text>

@@ -802,7 +802,7 @@
 			<Cost>1200</Cost>
 			<Moves>3</Moves>
 			<Immobile>true</Immobile>
-			<Range>20</Range>
+			<Range>24</Range>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
@@ -1126,9 +1126,11 @@
 		<Row>
 			<Class>UNITCLASS_HACKER</Class>
 			<Type>UNIT_HACKER</Type>
-			<Cost>2000</Cost>
+			<Cost>-1</Cost>
 			<Moves>2</Moves>
+			<!--
 			<PrereqTech>TECH_IOT_NETWORK</PrereqTech>
+			-->
 			<BaseSightRange>1</BaseSightRange>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
 			<Domain>DOMAIN_LAND</Domain>

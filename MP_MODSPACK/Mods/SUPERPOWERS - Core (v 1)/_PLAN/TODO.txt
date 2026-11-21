@@ -792,6 +792,7 @@ manpower bonus ai
 AI SSBN NUKES
 fix loading screen size
 build polder everywhere/coastal except hills
+auto build canals
 ------------------------------------------------
 <Image Anchor="R,T" Texture="assets\UI\Art\WorldView\TopRight020.dds" Size="512,128" ID="CornerAnchor" Hidden="1"/>
 g_isSmallScreen
