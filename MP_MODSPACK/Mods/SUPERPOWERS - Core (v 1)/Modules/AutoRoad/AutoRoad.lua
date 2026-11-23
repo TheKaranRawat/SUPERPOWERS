@@ -47,7 +47,7 @@ local CONFIG = {
 
     -- roads from each of your cities to the nearest foreign city / city-state
     FOREIGN_ROADS_ENABLED          = true,
-    FOREIGN_ROAD_DISTANCE          = 12,     -- max hex distance to the foreign city
+    FOREIGN_ROAD_DISTANCE          = 8,     -- max hex distance to the foreign city
     FOREIGN_INCLUDE_MAJORS         = true,   -- link to other civs' cities
     FOREIGN_INCLUDE_CITY_STATES    = true,   -- link to city-state cities
     FOREIGN_REQUIRE_PEACE          = true,   -- no foreign roads to civs you are at war with

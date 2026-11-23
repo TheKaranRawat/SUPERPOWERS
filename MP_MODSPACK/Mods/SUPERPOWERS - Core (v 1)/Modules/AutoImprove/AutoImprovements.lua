@@ -7,13 +7,22 @@
 -- player owns within BUILD_RANGE tiles of the city.
 --
 -- Priority:  1) strategic resources   2) luxury resources   3) everything else
--- (inside a priority, tiles are taken in a fixed scan order: nearest first).
+-- (inside a priority, tiles are taken nearest first; tiles at the same
+-- distance are taken in a fixed scan order).
 --
 -- Pillaged improvements are repaired slowly (REPAIR_*); fallout is cleared on
--- its own, slower schedule (FALLOUT_*). Strategic/luxury resource tiles inside
--- the player's borders but beyond every city's reach are improved too
--- (OUTSIDE_RANGE_*). When an improvement cannot coexist with a forest or
--- jungle on the tile, that feature is cleared first (CLEAR_FEATURES).
+-- its own, slower schedule (FALLOUT_*). Optionally (OUTSIDE_RANGE_*, off by
+-- default) strategic/luxury resource tiles inside the player's borders but
+-- beyond every city's reach are improved too. When an improvement cannot
+-- coexist with a forest or jungle on the tile, that feature is cleared first
+-- (CLEAR_FEATURES).
+--
+-- ANTIQUITY SITES (toggle: ANTIQUITY_ENABLED)
+-- Once the player has the tech that reveals antiquity sites, any site on a
+-- tile the player owns (in city range, or anywhere in the borders via the
+-- outside-range pass) gets a Landmark. With ANTIQUITY_GIVE_ARTIFACT the site
+-- is instead turned into an artifact and removed, with no Landmark.
+-- Sites are never covered by ordinary improvements (farms etc.).
 --
 -- MULTIPLAYER SAFETY
 --   * Runs only from GameEvents.PlayerDoTurn (fires on every machine).
@@ -26,6 +35,7 @@
 --     so a client that loads late computes exactly what the others do.
 --   * Every engine call that fails is isolated with pcall (same result on all
 --     clients, and it can never break the turn for other scripts).
+--   * Every player must run the identical file INCLUDING the CONFIG table.
 --
 -- PERFORMANCE
 --   * A city does work only on its own turns (stagger by city ID); idle turns
@@ -33,9 +43,10 @@
 --   * Tile list is gathered once per city per turn and shared by all passes.
 --   * Candidate selection stops early once strategic tiles fill the quota;
 --     builds are tried best-first so most tiles need one or two CanBuild calls;
---     water/mountain tiles skip the generic search.
---   * The map-wide outside-range pass scans only a slice of the map per run
---     (OUTSIDE_RANGE_SLICES) using cached plot handles.
+--     water/mountain tiles skip the generic search; once the "other" quota is
+--     full, the generic CanBuild search is skipped entirely.
+--   * The optional map-wide outside-range pass scans only a slice of the map
+--     per run (OUTSIDE_RANGE_SLICES) using cached plot handles.
 --==========================================================================
 
 local CONFIG = {
@@ -69,12 +80,51 @@ local CONFIG = {
 	FALLOUTS_PER_CITY = 1,
 
 	-- Strategic/luxury resource tiles that are inside our borders but not
-	-- covered by any city's range. Scans the map for the player's own tiles
-	-- in slices; raise INTERVAL or SLICES to lower the cost on huge maps.
+	-- covered by any city's range. With BUILD_RANGE 5 the city pass already
+	-- covers every tile a city can normally own, so this only matters for
+	-- tiles claimed by Citadels and similar edge cases. It scans the map for
+	-- the player's own tiles in slices, which is the most expensive part of
+	-- the script, so it is OFF by default. If you enable it, keep INTERVAL x
+	-- SLICES large on big maps. The whole map is covered every
+	-- INTERVAL x SLICES turns, and up to PER_RUN tiles (plus the bonus-tech
+	-- extras) are improved per run.
 	OUTSIDE_RANGE_ENABLED  = true,
-	OUTSIDE_RANGE_INTERVAL = 4,        -- each player scans every N turns...
-	OUTSIDE_RANGE_SLICES   = 3,        -- ...1/N of the map each time (whole map
-	                                   -- covered every INTERVAL x SLICES turns)
+	OUTSIDE_RANGE_INTERVAL = 6,        -- each player scans every N turns...
+	OUTSIDE_RANGE_SLICES   = 4,        -- ...1/N of the map each time
+	OUTSIDE_RANGE_PER_RUN  = 3,        -- improvements allowed per scan run
+
+	-- ANTIQUITY SITES ------------------------------------------------------
+	ANTIQUITY_ENABLED = true,          -- master toggle for the whole feature
+
+	-- false: put a Landmark on the site.
+	-- true : give an artifact and remove the site, NO Landmark.
+	ANTIQUITY_GIVE_ARTIFACT = false,
+
+	-- Artifact mode only: if the artifact cannot be granted, build the
+	-- Landmark instead (false = leave the site alone and log a warning).
+	ANTIQUITY_ARTIFACT_FALLBACK_TO_LANDMARK = false,
+
+	-- Landmark mode: also remove the site resource once the Landmark stands
+	-- (stops anything else from trying to dig it up again).
+	ANTIQUITY_REMOVE_SITE_AFTER_LANDMARK = true,
+
+	-- Landmark mode: a site on a tile that already has a strategic/luxury
+	-- resource improvement or one of these great person improvements gets
+	-- NO Landmark; the site is just removed.
+	ANTIQUITY_GREAT_PERSON_IMPROVEMENTS = {
+		"IMPROVEMENT_ACADEMY",
+		"IMPROVEMENT_CUSTOMS_HOUSE",
+		"IMPROVEMENT_MANUFACTORY",
+		"IMPROVEMENT_HOLY_SITE",
+	},
+
+	ANTIQUITY_PER_TURN = 1,            -- sites handled per city build turn
+	ANTIQUITY_RESOURCES = {            -- resource types treated as sites
+		"RESOURCE_ARTIFACTS",
+		"RESOURCE_HIDDEN_ARTIFACTS",
+	},
+	-- Used only when a site resource has no reveal tech in the database
+	ANTIQUITY_REVEAL_TECH = "TECH_ARCHAEOLOGY",
 
 	-- Features removed before placing an improvement on the tile, but only
 	-- when that improvement cannot exist alongside the feature (a Lumber Mill
@@ -82,23 +132,27 @@ local CONFIG = {
 	CLEAR_FEATURES = {
 		"FEATURE_FOREST",
 		"FEATURE_JUNGLE",
+		"FEATURE_MARSH",
 	},
 
 	-- Which improvement goes on a plain tile when several are possible:
 	-- listed ones first (in this order), unlisted next, last-resort ones last.
 	PREFERRED_IMPROVEMENTS = {
-		"IMPROVEMENT_FARM",
-		"IMPROVEMENT_MINE",
 		"IMPROVEMENT_LUMBERMILL",
+		"IMPROVEMENT_FARM",
+		"IMPROVEMENT_MINE",		
 	},
 	LAST_RESORT_IMPROVEMENTS = {
 		"IMPROVEMENT_TRADING_POST",
 	},
 
-	-- Never auto-built (unit-consuming builds are excluded automatically)
+	-- Never auto-built (unit-consuming builds are excluded automatically).
+	-- Landmark and dig are handled only by the antiquity feature.
 	EXCLUDED_IMPROVEMENTS = {
 		"IMPROVEMENT_FORT",
 		"IMPROVEMENT_CITADEL",
+		"IMPROVEMENT_LANDMARK",
+		"IMPROVEMENT_ARCHAEOLOGICAL_DIG",
 	},
 
 	DEBUG = false,
@@ -127,6 +181,7 @@ local FALLOUTS_PER_CITY = math.max(1, math.floor(CONFIG.FALLOUTS_PER_CITY))
 local OUTSIDE_ENABLED   = CONFIG.OUTSIDE_RANGE_ENABLED
 local OUTSIDE_INTERVAL  = math.max(1, math.floor(CONFIG.OUTSIDE_RANGE_INTERVAL))
 local OUTSIDE_SLICES    = math.max(1, math.floor(CONFIG.OUTSIDE_RANGE_SLICES))
+local OUTSIDE_PER_RUN   = math.max(1, math.floor(CONFIG.OUTSIDE_RANGE_PER_RUN))
 
 -- Plot types for the water/mountain shortcut (disabled if the globals are absent)
 local PLOT_OCEAN    = PlotTypes and PlotTypes.PLOT_OCEAN
@@ -148,6 +203,30 @@ local bonusTechIDs = ToIDList(CONFIG.BONUS_TECHS)
 
 local excluded = {}
 for _, id in ipairs(ToIDList(CONFIG.EXCLUDED_IMPROVEMENTS)) do excluded[id] = true end
+
+-- Antiquity sites: [resourceID] = revealing techID, or false when no tech is known
+local LANDMARK_ID = GameInfoTypes["IMPROVEMENT_LANDMARK"]
+local DIG_ID      = GameInfoTypes["IMPROVEMENT_ARCHAEOLOGICAL_DIG"]
+local ANT_PER_TURN = math.max(1, math.floor(CONFIG.ANTIQUITY_PER_TURN))
+local ANT_ARTIFACT = CONFIG.ANTIQUITY_GIVE_ARTIFACT
+local ANT_FALLBACK = CONFIG.ANTIQUITY_ARTIFACT_FALLBACK_TO_LANDMARK
+local ANT_REMOVE_AFTER_LANDMARK = CONFIG.ANTIQUITY_REMOVE_SITE_AFTER_LANDMARK
+local siteReveal = {}
+do
+	local fallbackTech = GameInfoTypes[CONFIG.ANTIQUITY_REVEAL_TECH]
+	for _, name in ipairs(CONFIG.ANTIQUITY_RESOURCES) do
+		local row = GameInfo.Resources[name]
+		if row then
+			local techID = row.TechReveal and GameInfoTypes[row.TechReveal] or nil
+			siteReveal[row.ID] = techID or fallbackTech or false
+		end
+	end
+end
+local ANT_ENABLED = CONFIG.ANTIQUITY_ENABLED and next(siteReveal) ~= nil
+	and (LANDMARK_ID ~= nil or (ANT_ARTIFACT and not ANT_FALLBACK))
+if CONFIG.ANTIQUITY_ENABLED and not ANT_ENABLED then
+	print("[AutoImprovements] Antiquity feature disabled: site resources or landmark improvement not found.")
+end
 
 -- Improvement sort rank: lower = chosen first on a plain tile
 local DEFAULT_RANK, LAST_RANK = 500, 1000
@@ -235,7 +314,25 @@ for row in GameInfo.Resources() do
 	end
 end
 
+-- Improvements that block a Landmark on an antiquity site: anything that
+-- connects a strategic or luxury resource, plus the great person improvements
+local blocksLandmark = {}   -- [improvementID] = true
+for impID, resList in pairs(improvementConnects) do
+	for resID in pairs(resList) do
+		local tier = resourceTier[resID]
+		if tier == 1 or tier == 2 then blocksLandmark[impID] = true end
+	end
+end
+for _, id in ipairs(ToIDList(CONFIG.ANTIQUITY_GREAT_PERSON_IMPROVEMENTS)) do
+	blocksLandmark[id] = true
+end
+
 local scratchPlots = {}   -- owned tiles within range of the city being processed
+
+-- Per-call scratch buckets for the outer ring, indexed by distance from the
+-- city. Always emptied before use, so they carry no state between calls.
+local outerBuckets = {}
+for d = 1, BUILD_RANGE do outerBuckets[d] = {} end
 
 --------------------------------------------------------------------------
 -- HELPERS
@@ -285,18 +382,36 @@ local function BlockedByEnemy(pPlot, iTeam)
 	return false
 end
 
--- Outer ring (beyond the engine's city tile list). Called through pcall so a
--- missing engine function can only disable the extra range, not the script.
+-- Outer ring (beyond the engine's city tile list), appended nearest first:
+-- plots are bucketed by distance, and within one distance they keep the fixed
+-- dx,dy scan order. Called through pcall so a missing engine function can
+-- only disable the extra range, not the script.
 local function CollectOuterPlots(pCity, iPlayer, inner, n)
 	local cx, cy = pCity:GetX(), pCity:GetY()
+
+	for d = 1, BUILD_RANGE do
+		local bucket = outerBuckets[d]
+		for i = #bucket, 1, -1 do bucket[i] = nil end
+	end
+
 	for dx = -BUILD_RANGE, BUILD_RANGE do
 		for dy = -BUILD_RANGE, BUILD_RANGE do
 			local pPlot = Map.PlotXYWithRangeCheck(cx, cy, dx, dy, BUILD_RANGE)
-			if pPlot and pPlot:GetOwner() == iPlayer and not pPlot:IsCity()
-				and not inner[pPlot:GetY() * 4096 + pPlot:GetX()] then
-				n = n + 1
-				scratchPlots[n] = pPlot
+			if pPlot and pPlot:GetOwner() == iPlayer and not pPlot:IsCity() then
+				local px, py = pPlot:GetX(), pPlot:GetY()
+				if not inner[py * 4096 + px] then
+					local bucket = outerBuckets[Map.PlotDistance(cx, cy, px, py)]
+					if bucket then bucket[#bucket + 1] = pPlot end
+				end
 			end
+		end
+	end
+
+	for d = 1, BUILD_RANGE do
+		local bucket = outerBuckets[d]
+		for i = 1, #bucket do
+			n = n + 1
+			scratchPlots[n] = bucket[i]
 		end
 	end
 	return n
@@ -335,6 +450,88 @@ local function CollectCityPlots(pCity, iPlayer)
 end
 
 --------------------------------------------------------------------------
+-- ANTIQUITY SITES
+--------------------------------------------------------------------------
+
+-- True when the team has a tech that reveals at least one site resource
+-- (lets the whole feature cost nothing before that tech).
+local function AntiquityActive(iTeam)
+	if not ANT_ENABLED then return false end
+	local team = Teams[iTeam]
+	for _, tech in pairs(siteReveal) do
+		if tech == false or team:IsHasTech(tech) then return true end
+	end
+	return false
+end
+
+-- ENGINE HOOK: grant one artifact to the player. Return true ONLY if an
+-- artifact was really granted (the site is removed on true). I could not
+-- verify a Lua call that creates an artifact without a real dig, so this
+-- is deliberately a stub: put the working call here. Until then artifact
+-- mode leaves the site alone (or builds a Landmark if
+-- ANTIQUITY_ARTIFACT_FALLBACK_TO_LANDMARK is on).
+local function GrantArtifact(iPlayer, pPlot)
+	return false
+end
+
+local artifactWarned = false
+
+-- Handles one tile. Returns true when it acted on a site.
+local function ProcessSite(pPlot, iPlayer, iTeam, team)
+	local resID = pPlot:GetResourceType(iTeam)
+	if resID == nil or resID < 0 then return false end
+	local tech = siteReveal[resID]
+	if tech == nil then return false end                     -- not a site
+	if tech and not team:IsHasTech(tech) then return false end -- not revealed yet
+
+	local imp = pPlot:GetImprovementType()
+	if imp == DIG_ID or imp == LANDMARK_ID then return false end -- being dug / done
+	if SKIP_ENEMY and BlockedByEnemy(pPlot, iTeam) then return false end
+
+	if ANT_ARTIFACT then
+		local ok, granted = pcall(GrantArtifact, iPlayer, pPlot)
+		if ok and granted then
+			pPlot:SetResourceType(-1, 0)
+			dprint("Player", iPlayer, "artifact from site", pPlot:GetX(), pPlot:GetY())
+			return true
+		end
+		if not ANT_FALLBACK or LANDMARK_ID == nil then
+			if not artifactWarned then
+				artifactWarned = true
+				print("[AutoImprovements] Artifact could not be granted (GrantArtifact hook); sites left untouched.")
+			end
+			return false
+		end
+	end
+
+	-- Strategic/luxury or great person improvement already here: no Landmark,
+	-- the site is simply removed
+	if blocksLandmark[imp] then
+		pPlot:SetResourceType(-1, 0)
+		dprint("Player", iPlayer, "site removed (improvement kept)", pPlot:GetX(), pPlot:GetY())
+		return true
+	end
+
+	pPlot:SetImprovementType(LANDMARK_ID, iPlayer)
+	pPlot:SetImprovementPillaged(false)
+	if ANT_REMOVE_AFTER_LANDMARK then pPlot:SetResourceType(-1, 0) end
+	dprint("Player", iPlayer, "landmark on site", pPlot:GetX(), pPlot:GetY())
+	return true
+end
+
+-- One city's scratch tiles
+local function AntiquityForCity(iPlayer, iTeam, nPlots)
+	local team = Teams[iTeam]
+	local done = 0
+	for i = 1, nPlots do
+		if ProcessSite(scratchPlots[i], iPlayer, iTeam, team) then
+			done = done + 1
+			if done >= ANT_PER_TURN then return end
+		end
+	end
+end
+
+--------------------------------------------------------------------------
 -- CHOOSING A BUILD FOR A TILE
 -- Returns build, tier (1 strategic, 2 luxury, 3 other) or nil.
 --------------------------------------------------------------------------
@@ -354,12 +551,16 @@ end
 -- Unimproved tile: connect its resource if possible, otherwise the best
 -- ranked plain improvement (also acts as a stand-in until the resource's
 -- own improvement is unlocked; ChooseUpgrade replaces it later).
-local function ChooseForEmpty(pPlot, iPlayer, iTeam, builds, nBuilds, available)
+-- allowGeneric=false skips the plain-improvement search (used once the
+-- "other" quota is already full, since the result would be discarded).
+local function ChooseForEmpty(pPlot, iPlayer, iTeam, builds, nBuilds, available, allowGeneric)
 	local resID = pPlot:GetResourceType(iTeam)
 	if resID ~= nil and resID >= 0 then
+		if siteReveal[resID] ~= nil then return nil end   -- antiquity site: never cover it
 		local b = ConnectBuild(pPlot, iPlayer, resID, available)
 		if b then return b, resourceTier[resID] or 3 end
 	end
+	if not allowGeneric then return nil end
 	if SKIP_GENERIC_WM then
 		local plotType = pPlot:GetPlotType()
 		if plotType == PLOT_OCEAN or plotType == PLOT_MOUNTAIN then return nil end
@@ -397,7 +598,7 @@ local function PlaceImprovement(pPlot, build, iPlayer)
 	if feature ~= nil and clearFeature[feature] then
 		local vf = validFeature[imp]
 		if not (vf and vf[feature]) then
-			pPlot:SetFeatureType(NO_FEATURE)
+			pPlot:SetFeatureType(NO_FEATURE, -1)
 		end
 	end
 	pPlot:SetImprovementType(imp, iPlayer)
@@ -426,6 +627,7 @@ end
 --------------------------------------------------------------------------
 local function BuildForCity(iPlayer, iTeam, builds, nBuilds, available, perTurn, nPlots)
 	local tiers = { {}, {}, {} }
+	local others = tiers[3]
 
 	for i = 1, nPlots do
 		local pPlot = scratchPlots[i]
@@ -433,7 +635,8 @@ local function BuildForCity(iPlayer, iTeam, builds, nBuilds, available, perTurn,
 		local b, tier
 		if imp == NO_IMPROVEMENT then
 			if not (SKIP_ENEMY and BlockedByEnemy(pPlot, iTeam)) then
-				b, tier = ChooseForEmpty(pPlot, iPlayer, iTeam, builds, nBuilds, available)
+				b, tier = ChooseForEmpty(pPlot, iPlayer, iTeam, builds, nBuilds, available,
+					#others < perTurn)
 			end
 		else
 			b, tier = ChooseUpgrade(pPlot, iPlayer, iTeam, imp, available)
@@ -454,10 +657,10 @@ local function BuildForCity(iPlayer, iTeam, builds, nBuilds, available, perTurn,
 end
 
 --------------------------------------------------------------------------
--- OUTSIDE-RANGE PASS (one player)
--- Strategic / luxury resource tiles anywhere inside the player's borders.
--- City passes run first, so this mostly finds tiles beyond every city's reach.
--- Only connecting improvements are placed here (no stand-ins).
+-- OUTSIDE-RANGE PASS (one player; OFF by default)
+-- Strategic / luxury resource tiles (and antiquity sites) anywhere inside the
+-- player's borders. City passes run first, so this mostly finds tiles beyond
+-- every city's reach. Only connecting improvements are placed here.
 --------------------------------------------------------------------------
 
 -- Plot handles (not game state) are cached on first use, so a scan costs one
@@ -473,8 +676,11 @@ local function GetAllPlots()
 	return allPlots, numAllPlots
 end
 
-local function ImproveOutsideRange(iPlayer, iTeam, available, perTurn)
+local function ImproveOutsideRange(iPlayer, iTeam, available, perRun, antActive)
 	local tiers = { {}, {} }
+	local team = Teams[iTeam]
+	local antDone = 0
+	local found = 0
 
 	-- This run covers one slice of the map; the slice advances every run
 	local plots, total = GetAllPlots()
@@ -483,29 +689,38 @@ local function ImproveOutsideRange(iPlayer, iTeam, available, perTurn)
 	local first = slice * sliceSize + 1
 	local last = math.min(total, first + sliceSize - 1)
 
+	-- The whole slice is scanned (no early exit) so antiquity sites and
+	-- both resource tiers are always seen; only the quota limits placement.
 	for i = first, last do
 		local pPlot = plots[i]
-		if pPlot and pPlot:GetOwner() == iPlayer then
+		if pPlot and pPlot:GetOwner() == iPlayer and not pPlot:IsCity() then
 			local resID = pPlot:GetResourceType(iTeam)
 			if resID ~= nil and resID >= 0 then
-				local tier = resourceTier[resID] or 3
-				if tier <= 2 and not pPlot:IsCity() then
-					local imp = pPlot:GetImprovementType()
-					local b = nil
-					if imp == NO_IMPROVEMENT then
-						b = ConnectBuild(pPlot, iPlayer, resID, available)
-					elseif buildable[imp] then
-						local current = improvementConnects[imp]
-						if not (current and current[resID]) then
-							b = ConnectBuild(pPlot, iPlayer, resID, available)
-						end
+				if siteReveal[resID] ~= nil then
+					if antActive and antDone < ANT_PER_TURN * 2
+						and ProcessSite(pPlot, iPlayer, iTeam, team) then
+						antDone = antDone + 1
 					end
+				else
+					local tier = resourceTier[resID] or 3
+					if tier <= 2 then
+						local imp = pPlot:GetImprovementType()
+						local b = nil
+						if imp == NO_IMPROVEMENT then
+							b = ConnectBuild(pPlot, iPlayer, resID, available)
+						elseif buildable[imp] then
+							local current = improvementConnects[imp]
+							if not (current and current[resID]) then
+								b = ConnectBuild(pPlot, iPlayer, resID, available)
+							end
+						end
 
-					if b and not (SKIP_ENEMY and BlockedByEnemy(pPlot, iTeam)) then
-						local list = tiers[tier]
-						if #list < perTurn then
-							list[#list + 1] = { plot = pPlot, build = b }
-							if tier == 1 and #list >= perTurn then break end
+						if b and not (SKIP_ENEMY and BlockedByEnemy(pPlot, iTeam)) then
+							found = found + 1
+							local list = tiers[tier]
+							if #list < perRun then
+								list[#list + 1] = { plot = pPlot, build = b }
+							end
 						end
 					end
 				end
@@ -513,7 +728,10 @@ local function ImproveOutsideRange(iPlayer, iTeam, available, perTurn)
 		end
 	end
 
-	ApplyTiers(tiers, perTurn, iPlayer)
+	if DEBUG then
+		dprint("Player", iPlayer, "outside slice", slice, "candidates", found, "antiquity", antDone)
+	end
+	ApplyTiers(tiers, perRun, iPlayer)
 end
 
 --------------------------------------------------------------------------
@@ -542,7 +760,7 @@ local function ClearFalloutCity(iPlayer, iTeam, nPlots)
 	for i = 1, nPlots do
 		local pPlot = scratchPlots[i]
 		if pPlot:GetFeatureType() == FALLOUT_ID and not BlockedByEnemy(pPlot, iTeam) then
-			pPlot:SetFeatureType(NO_FEATURE)
+			pPlot:SetFeatureType(NO_FEATURE, -1)
 			if DEBUG then dprint("Player", iPlayer, "cleared fallout", pPlot:GetX(), pPlot:GetY()) end
 			cleared = cleared + 1
 			if cleared >= FALLOUTS_PER_CITY then return end
@@ -565,6 +783,7 @@ local function DoTurn(iPlayer)
 	local iTeam = pPlayer:GetTeam()
 	local turn = Game.GetGameTurn()
 	local builds, nBuilds, available, perTurn
+	local antActive = AntiquityActive(iTeam)
 
 	local outsideDue = OUTSIDE_ENABLED and (turn + iPlayer) % OUTSIDE_INTERVAL == 0
 	if outsideDue then
@@ -585,6 +804,8 @@ local function DoTurn(iPlayer)
 			if doRepair then RepairCity(iPlayer, iTeam, nPlots) end
 
 			if doBuild then
+				if antActive then AntiquityForCity(iPlayer, iTeam, nPlots) end
+
 				if builds == nil then   -- once per player, only when needed
 					perTurn = GetActionsPerTurn(iTeam)
 					builds, nBuilds, available = GetAvailableBuilds(iTeam, pPlayer:GetCivilizationType())
@@ -597,8 +818,9 @@ local function DoTurn(iPlayer)
 	end
 
 	-- Guarded separately: a failure here must not affect the city passes
-	if outsideDue and nBuilds > 0 then
-		local ok, err = pcall(ImproveOutsideRange, iPlayer, iTeam, available, perTurn)
+	if outsideDue and (nBuilds > 0 or antActive) then
+		local perRun = OUTSIDE_PER_RUN + (perTurn - CONFIG.BASE_PER_TURN)
+		local ok, err = pcall(ImproveOutsideRange, iPlayer, iTeam, available, perRun, antActive)
 		if not ok and not outsideWarned then
 			outsideWarned = true
 			print("[AutoImprovements] Outside-range pass failed: " .. tostring(err))

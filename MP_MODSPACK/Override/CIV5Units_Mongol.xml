@@ -47079,6 +47079,96 @@ The second sack of Ulundi is considered by historians to be the definitive end o
 				Close this set of options.
 			</Text>
 		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_CLOSE"> 
+			<Text>
+				Close
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_COL_ARMY"> 
+			<Text>
+				Army
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_COL_MIGHT"> 
+			<Text>
+				Might
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_COL_NAVY"> 
+			<Text>
+				Navy
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_COL_NUKES"> 
+			<Text>
+				Nukes
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_DESC_ALONE"> 
+			<Text>
+				Only one superpower remains. The world waits to see what it does with its strength.
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_DESC_HOT"> 
+			<Text>
+				[COLOR_NEGATIVE_TEXT]The Cold War has turned hot![ENDCOLOR] {1_A} and {2_B} are at war, and together they hold {3_Nukes} nuclear warheads. Nuclear war is imminent.
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_DESC_HOT_NONUKE"> 
+			<Text>
+				[COLOR_NEGATIVE_TEXT]The Cold War has turned hot![ENDCOLOR] {1_A} and {2_B} are at war, each racing to build the bomb. Nuclear war is imminent.
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_DESC_MAD"> 
+			<Text>
+				A tense standoff grips the world. {1_A} and {2_B} each wield enough firepower to destroy the other, and only the fear of mutual destruction keeps the peace.
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_DESC_MONOPOLY"> 
+			<Text>
+				{1_A} alone holds the bomb, and {2_B} will stop at nothing to close the gap. The balance of terror is dangerously uneven.
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_DESC_PROXY"> 
+			<Text>
+				{1_A} and {2_B} eye each other across a nuclear divide, and their rivalry is bleeding into proxy wars around the globe. One miscalculation could end it all.
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_DESC_RACE"> 
+			<Text>
+				The Manhattan Project is complete and the arms race has begun. {1_A} and {2_B} lead the world in military power, each racing to build the arsenal that will decide the age.
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_FOOTER"> 
+			<Text>
+				Ranked by Military Might plus {1_Weight} per nuclear warhead.
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_OTHERS"> 
+			<Text>
+				OTHER NATIONS
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_SUPERPOWER"> 
+			<Text>
+				[COLOR_YELLOW]SUPERPOWER[ENDCOLOR]
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_TITLE_COLD"> 
+			<Text>
+				[COLOR_CYAN]COLD WAR[ENDCOLOR]
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_TITLE_HOT"> 
+			<Text>
+				[COLOR_NEGATIVE_TEXT]HOT WAR[ENDCOLOR]
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_COLDWAR_TOOLTIP_HINT"> 
+			<Text>
+				Click to view the global power rankings.
+			</Text>
+		</Replace>
 		<Replace Tag="TXT_KEY_COMBAT_ACQUIRINGXP_ADV_QUEST"> 
 			<Text>
 				How is experience accumulated during combat?
@@ -50559,6 +50649,16 @@ The second sack of Ulundi is considered by historians to be the definitive end o
 		<Replace Tag="TXT_KEY_CSTRPM1111"> 
 			<Text>
 				Trade Routs to City States:
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CS_AIRBASE_UNABLE_TO_REBASE"> 
+			<Text>
+				Unable to rebase
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CS_AIRBASE_UNABLE_TO_REBASE_TEXT"> 
+			<Text>
+				Your {1_UnitType} was unable to rebase to a friendly tile
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CTRL"> 
@@ -114250,22 +114350,22 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_SIEGE_1"> 
 			<Text>
-				Sudden Strike I
+				Drop Tanks I
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_SIEGE_1_HELP"> 
 			<Text>
-				Grants +25% Ranged Strength
+				Grants +2 Range
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_SIEGE_2"> 
 			<Text>
-				Sudden Strike II
+				Drop Tanks II
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_SIEGE_2_HELP"> 
 			<Text>
-				Grants +25% Ranged Strength
+				Grants +2 Range
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_SORTIE"> 
@@ -114491,7 +114591,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_COLLATERAL_DAMAGE_1_HELP"> 
 			<Text>
-				[ICON_BULLET]Grants +30% Ranged Damage
+				[ICON_BULLET]Grants +20% Ranged Damage
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_COLLATERAL_DAMAGE_2"> 
@@ -114501,7 +114601,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_COLLATERAL_DAMAGE_2_HELP"> 
 			<Text>
-				[ICON_BULLET]Grants +30% Ranged Damage
+				[ICON_BULLET]Grants +20% Ranged Damage
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_COLLATERAL_DAMAGE_3"> 
@@ -114511,7 +114611,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_COLLATERAL_DAMAGE_3_HELP"> 
 			<Text>
-				[ICON_BULLET]Grants +30% Ranged Damage
+				[ICON_BULLET]Grants +20% Ranged Damage
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_COMBAT1"> 
@@ -116230,7 +116330,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_NAPALMBOMB_1_HELP"> 
 			<Text>
-				Kill 10% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the Target City. (Kill only 5% if the city has a bomb shelter)
+				Kill 4% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the Target City. (Kill only 2% if the city has a Bomb Shelter)
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_NAPALMBOMB_2"> 
@@ -116240,7 +116340,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_NAPALMBOMB_2_HELP"> 
 			<Text>
-				Kill 20% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the Target City. (Kill only 10% if the city has a bomb shelter)
+				Kill 8% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the Target City. (Kill only 4% if the city has a Bomb Shelter)
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_NAPALMBOMB_3"> 
@@ -116250,7 +116350,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_NAPALMBOMB_3_HELP"> 
 			<Text>
-				Kill 30% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the [COLOR_POSITIVE_TEXT]Target City[ENDCOLOR]. (Kill only 15% if the city has a bomb shelter)
+				Kill 12% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the [COLOR_POSITIVE_TEXT]Target City[ENDCOLOR]. (Kill only 6% if the city has a Bomb Shelter)
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_NATIONALISM"> 
@@ -129727,7 +129827,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_SP_VERSION"> 
 			<Text>
-				Steam Release v1.6a
+				nil
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_SS_BOOSTER"> 
@@ -1197951,6 +1198051,16 @@ W wersji egipskiej napisano, że to Hetyci chcieli pokoju. Z kolei w wersji hety
 		<Replace Tag="TXT_KEY_CSTATE_SCIENCE_BONUS"> 
 			<Text>
 				Вы получаете от них [COLOR_POSITIVE_TEXT]{1_Num} [ICON_RESEARCH] науки[ENDCOLOR] за ход.
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CS_AIRBASE_UNABLE_TO_REBASE"> 
+			<Text>
+				Невозможно перебазироваться
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CS_AIRBASE_UNABLE_TO_REBASE_TEXT"> 
+			<Text>
+				Вашему {1_UnitType} не удалось перебазироваться на дружественную клетку
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_CTRL"> 

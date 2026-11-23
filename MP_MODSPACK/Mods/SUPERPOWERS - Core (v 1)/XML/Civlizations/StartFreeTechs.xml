@@ -196,6 +196,7 @@
 	
 	
 	<Civilization_FreeUnits>
+
 		<Row>
 			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
 			<UnitClassType>UNITCLASS_SCOUT</UnitClassType>
@@ -463,6 +464,278 @@
 			<Count>1</Count>
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
+
+		<!-- MIL FREE UNITS -->
+
+		<Row>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ROME</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PERSIA</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_EGYPT</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SHOSHONE</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_INCA</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AZTEC</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ETHIOPIA</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BRAZIL</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_INDIA</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		
+
+
+		<Row>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_POLYNESIA</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_INDONESIA</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BYZANTIUM</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		
+
+
+		<Row>
+			<CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ZULU</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_POLAND</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SONGHAI</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_DENMARK</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ARABIA</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+
+
+		<Row>
+			<CivilizationType>CIVILIZATION_SPAIN</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_IROQUOIS</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_KOREA</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MOROCCO</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NETHERLANDS</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_CARTHAGE</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PORTUGAL</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRIA</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SIAM</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ASSYRIA</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HUNS</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BABYLON</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MAYA</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+
+
 	</Civilization_FreeUnits>
 	
 	
@@ -472,6 +745,22 @@
 	<Civilization_Start_Along_Ocean>
 		<Row>
 			<CivilizationType>CIVILIZATION_BYZANTIUM</CivilizationType>
+			<StartAlongOcean>true</StartAlongOcean>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<StartAlongOcean>true</StartAlongOcean>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CARTHAGE</CivilizationType>
+			<StartAlongOcean>true</StartAlongOcean>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_POLYNESIA</CivilizationType>
+			<StartAlongOcean>true</StartAlongOcean>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NETHERLANDS</CivilizationType>
 			<StartAlongOcean>true</StartAlongOcean>
 		</Row>
 	</Civilization_Start_Along_Ocean>

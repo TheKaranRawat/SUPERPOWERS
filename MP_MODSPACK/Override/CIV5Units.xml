@@ -49853,27 +49853,27 @@
 		<Row> 
 			<BuildingType>BUILDING_CITY_SIZE_MEDIUM</BuildingType> 
 			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
-			<Quantity>9</Quantity> 
+			<Quantity>4</Quantity> 
 		</Row>
 		<Row> 
 			<BuildingType>BUILDING_CITY_SIZE_LARGE</BuildingType> 
 			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
-			<Quantity>11</Quantity> 
+			<Quantity>4</Quantity> 
 		</Row>
 		<Row> 
 			<BuildingType>BUILDING_CITY_SIZE_XL</BuildingType> 
 			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
-			<Quantity>14</Quantity> 
+			<Quantity>6</Quantity> 
 		</Row>
 		<Row> 
 			<BuildingType>BUILDING_CITY_SIZE_XXL</BuildingType> 
 			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
-			<Quantity>20</Quantity> 
+			<Quantity>6</Quantity> 
 		</Row>
 		<Row> 
 			<BuildingType>BUILDING_CITY_SIZE_GLOBAL</BuildingType> 
 			<ResourceType>RESOURCE_MANPOWER</ResourceType> 
-			<Quantity>20</Quantity> 
+			<Quantity>8</Quantity> 
 		</Row>
 		<Row> 
 			<BuildingType>BUILDING_FUTURE_FACTORY</BuildingType> 
@@ -64813,7 +64813,7 @@
 			<InstantSpyRankChange>0</InstantSpyRankChange> 
 			<TradeRouteRecipientBonus>0</TradeRouteRecipientBonus> 
 			<TradeRouteTargetBonus>0</TradeRouteTargetBonus> 
-			<NumTradeRouteBonus>2</NumTradeRouteBonus> 
+			<NumTradeRouteBonus>1</NumTradeRouteBonus> 
 			<LandmarksTourismPercent>0</LandmarksTourismPercent> 
 			<InstantMilitaryIncrease>0</InstantMilitaryIncrease> 
 			<GreatWorksTourismModifier>0</GreatWorksTourismModifier> 
@@ -64949,7 +64949,7 @@
 			<InstantSpyRankChange>0</InstantSpyRankChange> 
 			<TradeRouteRecipientBonus>0</TradeRouteRecipientBonus> 
 			<TradeRouteTargetBonus>0</TradeRouteTargetBonus> 
-			<NumTradeRouteBonus>2</NumTradeRouteBonus> 
+			<NumTradeRouteBonus>1</NumTradeRouteBonus> 
 			<LandmarksTourismPercent>0</LandmarksTourismPercent> 
 			<InstantMilitaryIncrease>0</InstantMilitaryIncrease> 
 			<GreatWorksTourismModifier>0</GreatWorksTourismModifier> 
@@ -65085,7 +65085,7 @@
 			<InstantSpyRankChange>0</InstantSpyRankChange> 
 			<TradeRouteRecipientBonus>0</TradeRouteRecipientBonus> 
 			<TradeRouteTargetBonus>0</TradeRouteTargetBonus> 
-			<NumTradeRouteBonus>2</NumTradeRouteBonus> 
+			<NumTradeRouteBonus>1</NumTradeRouteBonus> 
 			<LandmarksTourismPercent>0</LandmarksTourismPercent> 
 			<InstantMilitaryIncrease>0</InstantMilitaryIncrease> 
 			<GreatWorksTourismModifier>0</GreatWorksTourismModifier> 
@@ -74693,7 +74693,7 @@
 			<InstantSpyRankChange>0</InstantSpyRankChange> 
 			<TradeRouteRecipientBonus>30</TradeRouteRecipientBonus> 
 			<TradeRouteTargetBonus>30</TradeRouteTargetBonus> 
-			<NumTradeRouteBonus>1</NumTradeRouteBonus> 
+			<NumTradeRouteBonus>0</NumTradeRouteBonus> 
 			<LandmarksTourismPercent>0</LandmarksTourismPercent> 
 			<InstantMilitaryIncrease>0</InstantMilitaryIncrease> 
 			<GreatWorksTourismModifier>0</GreatWorksTourismModifier> 
@@ -113482,7 +113482,7 @@
 			<InstantSpyRankChange>0</InstantSpyRankChange> 
 			<TradeRouteRecipientBonus>0</TradeRouteRecipientBonus> 
 			<TradeRouteTargetBonus>0</TradeRouteTargetBonus> 
-			<NumTradeRouteBonus>2</NumTradeRouteBonus> 
+			<NumTradeRouteBonus>0</NumTradeRouteBonus> 
 			<LandmarksTourismPercent>0</LandmarksTourismPercent> 
 			<InstantMilitaryIncrease>0</InstantMilitaryIncrease> 
 			<GreatWorksTourismModifier>0</GreatWorksTourismModifier> 
@@ -113623,7 +113623,7 @@
 			<InstantSpyRankChange>0</InstantSpyRankChange> 
 			<TradeRouteRecipientBonus>0</TradeRouteRecipientBonus> 
 			<TradeRouteTargetBonus>0</TradeRouteTargetBonus> 
-			<NumTradeRouteBonus>2</NumTradeRouteBonus> 
+			<NumTradeRouteBonus>0</NumTradeRouteBonus> 
 			<LandmarksTourismPercent>0</LandmarksTourismPercent> 
 			<InstantMilitaryIncrease>0</InstantMilitaryIncrease> 
 			<GreatWorksTourismModifier>0</GreatWorksTourismModifier> 
@@ -113763,7 +113763,7 @@
 			<InstantSpyRankChange>0</InstantSpyRankChange> 
 			<TradeRouteRecipientBonus>0</TradeRouteRecipientBonus> 
 			<TradeRouteTargetBonus>0</TradeRouteTargetBonus> 
-			<NumTradeRouteBonus>4</NumTradeRouteBonus> 
+			<NumTradeRouteBonus>1</NumTradeRouteBonus> 
 			<LandmarksTourismPercent>0</LandmarksTourismPercent> 
 			<InstantMilitaryIncrease>0</InstantMilitaryIncrease> 
 			<GreatWorksTourismModifier>0</GreatWorksTourismModifier> 
@@ -113782,7 +113782,7 @@
 			<GreatWorkCount>0</GreatWorkCount> 
 			<SpecialistExtraCulture>0</SpecialistExtraCulture> 
 			<GreatPeopleRateChange>0</GreatPeopleRateChange> 
-			<ExtraLeagueVotes>15</ExtraLeagueVotes> 
+			<ExtraLeagueVotes>10</ExtraLeagueVotes> 
 			<CityWall>false</CityWall> 
 			<DisplayPosition>0</DisplayPosition> 
 			<PortraitIndex>58</PortraitIndex> 
@@ -152197,6 +152197,264 @@
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType> 
 			<Count>1</Count> 
 		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_FRANCE</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_ROME</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_PERSIA</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_EGYPT</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_SHOSHONE</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_INCA</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_AZTEC</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_ETHIOPIA</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_BRAZIL</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_INDIA</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_POLYNESIA</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_INDONESIA</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_BYZANTIUM</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_RUSSIA</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_MONGOL</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_ZULU</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_SWEDEN</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_POLAND</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_SONGHAI</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_DENMARK</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_CELTS</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_ARABIA</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_SPAIN</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_IROQUOIS</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_KOREA</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_MOROCCO</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_NETHERLANDS</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_CARTHAGE</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_PORTUGAL</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_AUSTRIA</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_SIAM</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_ASSYRIA</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_GREECE</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_HUNS</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_BABYLON</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_MAYA</CivilizationType> 
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType> 
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType> 
+			<Count>1</Count> 
+		</Row>
 	</Civilization_FreeUnits> 
 
 	<Table name="Civilization_Leaders">
@@ -154355,6 +154613,22 @@
 		</Row>
 		<Row> 
 			<CivilizationType>CIVILIZATION_BYZANTIUM</CivilizationType> 
+			<StartAlongOcean>true</StartAlongOcean> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType> 
+			<StartAlongOcean>true</StartAlongOcean> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_CARTHAGE</CivilizationType> 
+			<StartAlongOcean>true</StartAlongOcean> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_POLYNESIA</CivilizationType> 
+			<StartAlongOcean>true</StartAlongOcean> 
+		</Row>
+		<Row> 
+			<CivilizationType>CIVILIZATION_NETHERLANDS</CivilizationType> 
 			<StartAlongOcean>true</StartAlongOcean> 
 		</Row>
 	</Civilization_Start_Along_Ocean> 
@@ -170923,7 +171197,7 @@
 		</Row>
 		<Row> 
 			<Name>GLOBAL_CS_UPGRADES</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 			<Class>5</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
@@ -170953,7 +171227,7 @@
 		</Row>
 		<Row> 
 			<Name>GLOBAL_CS_OVERSEAS_TERRITORY</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 			<Class>6</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
@@ -171043,7 +171317,7 @@
 		</Row>
 		<Row> 
 			<Name>GLOBAL_RELIGIOUS_SETTLERS</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 			<Class>6</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
@@ -171463,7 +171737,7 @@
 		</Row>
 		<Row> 
 			<Name>AI_NO_ZERO_VALUE_TRADE_ITEMS</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 			<Class>4</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
@@ -171487,7 +171761,7 @@
 		</Row>
 		<Row> 
 			<Name>AI_SMART_V3</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 			<Class>6</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
@@ -171541,7 +171815,7 @@
 		</Row>
 		<Row> 
 			<Name>EVENTS_MINORS</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 			<Class>3</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
@@ -171697,7 +171971,7 @@
 		</Row>
 		<Row> 
 			<Name>EVENTS_REBASE</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 			<Class>3</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
@@ -171799,43 +172073,43 @@
 		</Row>
 		<Row> 
 			<Name>EVENTS_BATTLES</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 			<Class>3</Class> 
 			<DbUpdates>1</DbUpdates> 
 		</Row>
 		<Row> 
 			<Name>EVENTS_BATTLES_DAMAGE</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 			<Class>3</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
 		<Row> 
 			<Name>EVENTS_RED_TURN</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 			<Class>3</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
 		<Row> 
 			<Name>EVENTS_RED_COMBAT</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 			<Class>3</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
 		<Row> 
 			<Name>EVENTS_RED_COMBAT_MISSION</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 			<Class>3</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
 		<Row> 
 			<Name>EVENTS_RED_COMBAT_ABORT</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 			<Class>3</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
 		<Row> 
 			<Name>EVENTS_RED_COMBAT_RESULT</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 			<Class>3</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
@@ -172614,7 +172888,7 @@
 		</Row>
 		<Row> 
 			<Name>NUKE_FALLOUT_PROB</Name> 
-			<Value>50</Value> 
+			<Value>100</Value> 
 		</Row>
 		<Row> 
 			<Name>NUKE_UNIT_DAMAGE_BASE</Name> 
@@ -172898,7 +173172,7 @@
 		</Row>
 		<Row> 
 			<Name>CITY_MIN_SIZE_FOR_SETTLERS</Name> 
-			<Value>2</Value> 
+			<Value>8</Value> 
 		</Row>
 		<Row> 
 			<Name>RANGED_ATTACKS_USE_MOVES</Name> 
@@ -173126,7 +173400,7 @@
 		</Row>
 		<Row> 
 			<Name>GREAT_PERSON_THRESHOLD_INCREASE</Name> 
-			<Value>100</Value> 
+			<Value>200</Value> 
 		</Row>
 		<Row> 
 			<Name>CULTURE_BOMB_COOLDOWN</Name> 
@@ -173298,7 +173572,7 @@
 		</Row>
 		<Row> 
 			<Name>ALREADY_OWNED_STRATEGIC_VALUE</Name> 
-			<Value>-800</Value> 
+			<Value>-10000</Value> 
 		</Row>
 		<Row> 
 			<Name>MINOR_CIV_CONTACT_GOLD_FIRST</Name> 
@@ -173378,7 +173652,7 @@
 		</Row>
 		<Row> 
 			<Name>PLOT_UNIT_LIMIT</Name> 
-			<Value>2</Value> 
+			<Value>3</Value> 
 		</Row>
 		<Row> 
 			<Name>ZONE_OF_CONTROL_ENABLED</Name> 
@@ -174450,7 +174724,7 @@
 		</Row>
 		<Row> 
 			<Name>AI_STRATEGY_AREA_IS_FULL_PERCENT</Name> 
-			<Value>50</Value> 
+			<Value>30</Value> 
 		</Row>
 		<Row> 
 			<Name>AI_STRATEGY_MINIMUM_SETTLE_FERTILITY</Name> 
@@ -184565,7 +184839,7 @@
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod> 
 			<StartPercent>10</StartPercent> 
 			<BuildingMaintenancePercent>100</BuildingMaintenancePercent> 
-			<GrowthPercent>95</GrowthPercent> 
+			<GrowthPercent>100</GrowthPercent> 
 			<TrainPercent>140</TrainPercent> 
 			<ConstructPercent>100</ConstructPercent> 
 			<CreatePercent>100</CreatePercent> 
@@ -184613,7 +184887,7 @@
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod> 
 			<StartPercent>25</StartPercent> 
 			<BuildingMaintenancePercent>100</BuildingMaintenancePercent> 
-			<GrowthPercent>90</GrowthPercent> 
+			<GrowthPercent>100</GrowthPercent> 
 			<TrainPercent>110</TrainPercent> 
 			<ConstructPercent>110</ConstructPercent> 
 			<CreatePercent>100</CreatePercent> 
@@ -184661,7 +184935,7 @@
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod> 
 			<StartPercent>37</StartPercent> 
 			<BuildingMaintenancePercent>100</BuildingMaintenancePercent> 
-			<GrowthPercent>85</GrowthPercent> 
+			<GrowthPercent>95</GrowthPercent> 
 			<TrainPercent>115</TrainPercent> 
 			<ConstructPercent>115</ConstructPercent> 
 			<CreatePercent>150</CreatePercent> 
@@ -184709,7 +184983,7 @@
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod> 
 			<StartPercent>50</StartPercent> 
 			<BuildingMaintenancePercent>100</BuildingMaintenancePercent> 
-			<GrowthPercent>80</GrowthPercent> 
+			<GrowthPercent>95</GrowthPercent> 
 			<TrainPercent>120</TrainPercent> 
 			<ConstructPercent>120</ConstructPercent> 
 			<CreatePercent>150</CreatePercent> 
@@ -184757,7 +185031,7 @@
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod> 
 			<StartPercent>65</StartPercent> 
 			<BuildingMaintenancePercent>100</BuildingMaintenancePercent> 
-			<GrowthPercent>75</GrowthPercent> 
+			<GrowthPercent>95</GrowthPercent> 
 			<TrainPercent>125</TrainPercent> 
 			<ConstructPercent>125</ConstructPercent> 
 			<CreatePercent>150</CreatePercent> 
@@ -184805,7 +185079,7 @@
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod> 
 			<StartPercent>65</StartPercent> 
 			<BuildingMaintenancePercent>110</BuildingMaintenancePercent> 
-			<GrowthPercent>70</GrowthPercent> 
+			<GrowthPercent>90</GrowthPercent> 
 			<TrainPercent>130</TrainPercent> 
 			<ConstructPercent>130</ConstructPercent> 
 			<CreatePercent>200</CreatePercent> 
@@ -184853,7 +185127,7 @@
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod> 
 			<StartPercent>65</StartPercent> 
 			<BuildingMaintenancePercent>120</BuildingMaintenancePercent> 
-			<GrowthPercent>65</GrowthPercent> 
+			<GrowthPercent>90</GrowthPercent> 
 			<TrainPercent>135</TrainPercent> 
 			<ConstructPercent>135</ConstructPercent> 
 			<CreatePercent>200</CreatePercent> 
@@ -184901,7 +185175,7 @@
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod> 
 			<StartPercent>65</StartPercent> 
 			<BuildingMaintenancePercent>130</BuildingMaintenancePercent> 
-			<GrowthPercent>60</GrowthPercent> 
+			<GrowthPercent>90</GrowthPercent> 
 			<TrainPercent>140</TrainPercent> 
 			<ConstructPercent>140</ConstructPercent> 
 			<CreatePercent>200</CreatePercent> 
@@ -184949,7 +185223,7 @@
 			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod> 
 			<StartPercent>80</StartPercent> 
 			<BuildingMaintenancePercent>150</BuildingMaintenancePercent> 
-			<GrowthPercent>55</GrowthPercent> 
+			<GrowthPercent>90</GrowthPercent> 
 			<TrainPercent>145</TrainPercent> 
 			<ConstructPercent>145</ConstructPercent> 
 			<CreatePercent>21</CreatePercent> 
@@ -187191,7 +187465,7 @@
 			<GoldGiftMod>25</GoldGiftMod> 
 			<BuildPercent>115</BuildPercent> 
 			<ImprovementPercent>100</ImprovementPercent> 
-			<GreatPeoplePercent>115</GreatPeoplePercent> 
+			<GreatPeoplePercent>180</GreatPeoplePercent> 
 			<CulturePercent>110</CulturePercent> 
 			<FaithPercent>100</FaithPercent> 
 			<BarbPercent>40</BarbPercent> 
@@ -187230,7 +187504,7 @@
 			<GoldGiftMod>25</GoldGiftMod> 
 			<BuildPercent>100</BuildPercent> 
 			<ImprovementPercent>85</ImprovementPercent> 
-			<GreatPeoplePercent>100</GreatPeoplePercent> 
+			<GreatPeoplePercent>150</GreatPeoplePercent> 
 			<CulturePercent>100</CulturePercent> 
 			<FaithPercent>85</FaithPercent> 
 			<BarbPercent>40</BarbPercent> 
@@ -190984,9 +191258,9 @@
 			<PopulationUnhappinessMod>20</PopulationUnhappinessMod> 
 			<Gold>0</Gold> 
 			<GoldFreeUnits>0</GoldFreeUnits> 
-			<ProductionFreeUnits>10</ProductionFreeUnits> 
-			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity> 
-			<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent> 
+			<ProductionFreeUnits>5</ProductionFreeUnits> 
+			<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity> 
+			<ProductionFreeUnitsPopulationPercent>5</ProductionFreeUnitsPopulationPercent> 
 			<RouteCostPercent>100</RouteCostPercent> 
 			<UnitCostPercent>100</UnitCostPercent> 
 			<BuildingCostPercent>100</BuildingCostPercent> 
@@ -191051,9 +191325,9 @@
 			<PopulationUnhappinessMod>40</PopulationUnhappinessMod> 
 			<Gold>0</Gold> 
 			<GoldFreeUnits>0</GoldFreeUnits> 
-			<ProductionFreeUnits>10</ProductionFreeUnits> 
-			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity> 
-			<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent> 
+			<ProductionFreeUnits>5</ProductionFreeUnits> 
+			<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity> 
+			<ProductionFreeUnitsPopulationPercent>5</ProductionFreeUnitsPopulationPercent> 
 			<RouteCostPercent>100</RouteCostPercent> 
 			<UnitCostPercent>100</UnitCostPercent> 
 			<BuildingCostPercent>100</BuildingCostPercent> 
@@ -191118,9 +191392,9 @@
 			<PopulationUnhappinessMod>60</PopulationUnhappinessMod> 
 			<Gold>0</Gold> 
 			<GoldFreeUnits>0</GoldFreeUnits> 
-			<ProductionFreeUnits>10</ProductionFreeUnits> 
-			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity> 
-			<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent> 
+			<ProductionFreeUnits>5</ProductionFreeUnits> 
+			<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity> 
+			<ProductionFreeUnitsPopulationPercent>5</ProductionFreeUnitsPopulationPercent> 
 			<RouteCostPercent>100</RouteCostPercent> 
 			<UnitCostPercent>100</UnitCostPercent> 
 			<BuildingCostPercent>100</BuildingCostPercent> 
@@ -191161,7 +191435,7 @@
 			<AIWorldCreatePercent>100</AIWorldCreatePercent> 
 			<AIBuildingCostPercent>66</AIBuildingCostPercent> 
 			<AIUnitCostPercent>100</AIUnitCostPercent> 
-			<AIUnitSupplyPercent>5</AIUnitSupplyPercent> 
+			<AIUnitSupplyPercent>0</AIUnitSupplyPercent> 
 			<AIUnitUpgradePercent>5</AIUnitUpgradePercent> 
 			<AIInflationPercent>100</AIInflationPercent> 
 			<AIPerEraModifier>-1</AIPerEraModifier> 
@@ -191185,9 +191459,9 @@
 			<PopulationUnhappinessMod>80</PopulationUnhappinessMod> 
 			<Gold>0</Gold> 
 			<GoldFreeUnits>0</GoldFreeUnits> 
-			<ProductionFreeUnits>10</ProductionFreeUnits> 
-			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity> 
-			<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent> 
+			<ProductionFreeUnits>5</ProductionFreeUnits> 
+			<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity> 
+			<ProductionFreeUnitsPopulationPercent>5</ProductionFreeUnitsPopulationPercent> 
 			<RouteCostPercent>100</RouteCostPercent> 
 			<UnitCostPercent>100</UnitCostPercent> 
 			<BuildingCostPercent>100</BuildingCostPercent> 
@@ -191252,9 +191526,9 @@
 			<PopulationUnhappinessMod>100</PopulationUnhappinessMod> 
 			<Gold>0</Gold> 
 			<GoldFreeUnits>0</GoldFreeUnits> 
-			<ProductionFreeUnits>10</ProductionFreeUnits> 
-			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity> 
-			<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent> 
+			<ProductionFreeUnits>5</ProductionFreeUnits> 
+			<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity> 
+			<ProductionFreeUnitsPopulationPercent>5</ProductionFreeUnitsPopulationPercent> 
 			<RouteCostPercent>100</RouteCostPercent> 
 			<UnitCostPercent>100</UnitCostPercent> 
 			<BuildingCostPercent>100</BuildingCostPercent> 
@@ -191295,7 +191569,7 @@
 			<AIWorldCreatePercent>100</AIWorldCreatePercent> 
 			<AIBuildingCostPercent>40</AIBuildingCostPercent> 
 			<AIUnitCostPercent>100</AIUnitCostPercent> 
-			<AIUnitSupplyPercent>15</AIUnitSupplyPercent> 
+			<AIUnitSupplyPercent>10</AIUnitSupplyPercent> 
 			<AIUnitUpgradePercent>5</AIUnitUpgradePercent> 
 			<AIInflationPercent>100</AIInflationPercent> 
 			<AIPerEraModifier>-5</AIPerEraModifier> 
@@ -191319,9 +191593,9 @@
 			<PopulationUnhappinessMod>120</PopulationUnhappinessMod> 
 			<Gold>0</Gold> 
 			<GoldFreeUnits>10</GoldFreeUnits> 
-			<ProductionFreeUnits>10</ProductionFreeUnits> 
-			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity> 
-			<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent> 
+			<ProductionFreeUnits>5</ProductionFreeUnits> 
+			<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity> 
+			<ProductionFreeUnitsPopulationPercent>5</ProductionFreeUnitsPopulationPercent> 
 			<RouteCostPercent>100</RouteCostPercent> 
 			<UnitCostPercent>100</UnitCostPercent> 
 			<BuildingCostPercent>100</BuildingCostPercent> 
@@ -191362,7 +191636,7 @@
 			<AIWorldCreatePercent>140</AIWorldCreatePercent> 
 			<AIBuildingCostPercent>40</AIBuildingCostPercent> 
 			<AIUnitCostPercent>45</AIUnitCostPercent> 
-			<AIUnitSupplyPercent>25</AIUnitSupplyPercent> 
+			<AIUnitSupplyPercent>15</AIUnitSupplyPercent> 
 			<AIUnitUpgradePercent>5</AIUnitUpgradePercent> 
 			<AIInflationPercent>100</AIInflationPercent> 
 			<AIPerEraModifier>-7</AIPerEraModifier> 
@@ -191386,9 +191660,9 @@
 			<PopulationUnhappinessMod>150</PopulationUnhappinessMod> 
 			<Gold>0</Gold> 
 			<GoldFreeUnits>15</GoldFreeUnits> 
-			<ProductionFreeUnits>10</ProductionFreeUnits> 
-			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity> 
-			<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent> 
+			<ProductionFreeUnits>5</ProductionFreeUnits> 
+			<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity> 
+			<ProductionFreeUnitsPopulationPercent>5</ProductionFreeUnitsPopulationPercent> 
 			<RouteCostPercent>100</RouteCostPercent> 
 			<UnitCostPercent>120</UnitCostPercent> 
 			<BuildingCostPercent>100</BuildingCostPercent> 
@@ -191429,7 +191703,7 @@
 			<AIWorldCreatePercent>100</AIWorldCreatePercent> 
 			<AIBuildingCostPercent>50</AIBuildingCostPercent> 
 			<AIUnitCostPercent>50</AIUnitCostPercent> 
-			<AIUnitSupplyPercent>25</AIUnitSupplyPercent> 
+			<AIUnitSupplyPercent>15</AIUnitSupplyPercent> 
 			<AIUnitUpgradePercent>5</AIUnitUpgradePercent> 
 			<AIInflationPercent>100</AIInflationPercent> 
 			<AIPerEraModifier>-9</AIPerEraModifier> 
@@ -191453,9 +191727,9 @@
 			<PopulationUnhappinessMod>200</PopulationUnhappinessMod> 
 			<Gold>0</Gold> 
 			<GoldFreeUnits>0</GoldFreeUnits> 
-			<ProductionFreeUnits>20</ProductionFreeUnits> 
-			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity> 
-			<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent> 
+			<ProductionFreeUnits>5</ProductionFreeUnits> 
+			<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity> 
+			<ProductionFreeUnitsPopulationPercent>5</ProductionFreeUnitsPopulationPercent> 
 			<RouteCostPercent>100</RouteCostPercent> 
 			<UnitCostPercent>200</UnitCostPercent> 
 			<BuildingCostPercent>150</BuildingCostPercent> 
@@ -191496,7 +191770,7 @@
 			<AIWorldCreatePercent>100</AIWorldCreatePercent> 
 			<AIBuildingCostPercent>50</AIBuildingCostPercent> 
 			<AIUnitCostPercent>50</AIUnitCostPercent> 
-			<AIUnitSupplyPercent>25</AIUnitSupplyPercent> 
+			<AIUnitSupplyPercent>20</AIUnitSupplyPercent> 
 			<AIUnitUpgradePercent>5</AIUnitUpgradePercent> 
 			<AIInflationPercent>100</AIInflationPercent> 
 			<AIPerEraModifier>-10</AIPerEraModifier> 
@@ -322899,7 +323173,7 @@
 			<IgnoreZOC>false</IgnoreZOC> 
 			<HasPostCombatPromotions>false</HasPostCombatPromotions> 
 			<PostCombatPromotionsExclusive>false</PostCombatPromotionsExclusive> 
-			<RangedAttackModifier>25</RangedAttackModifier> 
+			<RangedAttackModifier>0</RangedAttackModifier> 
 			<InterceptionCombatModifier>0</InterceptionCombatModifier> 
 			<InterceptionDefenseDamageModifier>0</InterceptionDefenseDamageModifier> 
 			<AirSweepCombatModifier>0</AirSweepCombatModifier> 
@@ -322908,7 +323182,7 @@
 			<VisibilityChange>0</VisibilityChange> 
 			<MovesChange>0</MovesChange> 
 			<MoveDiscountChange>0</MoveDiscountChange> 
-			<RangeChange>0</RangeChange> 
+			<RangeChange>2</RangeChange> 
 			<InterceptChanceChange>0</InterceptChanceChange> 
 			<NumInterceptionChange>0</NumInterceptionChange> 
 			<EvasionChange>0</EvasionChange> 
@@ -323047,7 +323321,7 @@
 			<IgnoreZOC>false</IgnoreZOC> 
 			<HasPostCombatPromotions>false</HasPostCombatPromotions> 
 			<PostCombatPromotionsExclusive>false</PostCombatPromotionsExclusive> 
-			<RangedAttackModifier>25</RangedAttackModifier> 
+			<RangedAttackModifier>0</RangedAttackModifier> 
 			<InterceptionCombatModifier>0</InterceptionCombatModifier> 
 			<InterceptionDefenseDamageModifier>0</InterceptionDefenseDamageModifier> 
 			<AirSweepCombatModifier>0</AirSweepCombatModifier> 
@@ -323056,7 +323330,7 @@
 			<VisibilityChange>0</VisibilityChange> 
 			<MovesChange>0</MovesChange> 
 			<MoveDiscountChange>0</MoveDiscountChange> 
-			<RangeChange>0</RangeChange> 
+			<RangeChange>2</RangeChange> 
 			<InterceptChanceChange>0</InterceptChanceChange> 
 			<NumInterceptionChange>0</NumInterceptionChange> 
 			<EvasionChange>0</EvasionChange> 
@@ -345920,8 +346194,8 @@
 			<NeutralDamageChance>0</NeutralDamageChance> 
 			<EnemyDamage>0</EnemyDamage> 
 			<NeutralDamage>0</NeutralDamage> 
-			<CombatPercent>25</CombatPercent> 
-			<CityAttack>0</CityAttack> 
+			<CombatPercent>30</CombatPercent> 
+			<CityAttack>30</CityAttack> 
 			<CityDefense>0</CityDefense> 
 			<RangedDefenseMod>0</RangedDefenseMod> 
 			<HillsAttack>0</HillsAttack> 
@@ -365773,7 +366047,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>true</MoveAfterPurchase> 
-			<Moves>3</Moves> 
+			<Moves>1</Moves> 
 			<Immobile>true</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -365868,7 +366142,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>true</MoveAfterPurchase> 
-			<Moves>6</Moves> 
+			<Moves>1</Moves> 
 			<Immobile>true</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -366055,7 +366329,7 @@
 			<Help>TXT_KEY_UNIT_HELP_ARCHAEOLOGIST</Help> 
 			<Combat>0</Combat> 
 			<RangedCombat>0</RangedCombat> 
-			<Cost>200</Cost> 
+			<Cost>-1</Cost> 
 			<FaithCost>0</FaithCost> 
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
@@ -366087,7 +366361,6 @@
 			<Mechanized>false</Mechanized> 
 			<Suicide>false</Suicide> 
 			<CaptureWhileEmbarked>false</CaptureWhileEmbarked> 
-			<PrereqTech>TECH_ARCHAEOLOGY</PrereqTech> 
 			<HurryCostModifier>50</HurryCostModifier> 
 			<AdvancedStartCost>20</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
@@ -373742,7 +374015,7 @@
 			<Mechanized>false</Mechanized> 
 			<Suicide>false</Suicide> 
 			<CaptureWhileEmbarked>false</CaptureWhileEmbarked> 
-			<PrereqTech>TECH_ASTRONOMY</PrereqTech> 
+			<PrereqTech>TECH_COMBUSTION</PrereqTech> 
 			<ObsoleteTech>TECH_FLIGHT</ObsoleteTech> 
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>10</AdvancedStartCost> 
@@ -373840,6 +374113,7 @@
 			<Suicide>false</Suicide> 
 			<CaptureWhileEmbarked>false</CaptureWhileEmbarked> 
 			<PrereqTech>TECH_ASTRONOMY</PrereqTech> 
+			<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech> 
 			<HurryCostModifier>33</HurryCostModifier> 
 			<AdvancedStartCost>20</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
@@ -386585,7 +386859,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>10</Range> 
+			<Range>6</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_TRIPLANE</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -386684,7 +386958,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>15</Range> 
+			<Range>8</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_FIGHTER</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -386715,7 +386989,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>50</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>15</AirInterceptRange> 
+			<AirInterceptRange>14</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -386783,7 +387057,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>20</Range> 
+			<Range>10</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_INTERCEPTER</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -386813,7 +387087,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>70</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>20</AirInterceptRange> 
+			<AirInterceptRange>16</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -386881,7 +387155,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>20</Range> 
+			<Range>12</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_INTERCEPTER</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -386979,7 +387253,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>25</Range> 
+			<Range>12</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_JET_FIGHTER</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -387009,7 +387283,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>100</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>25</AirInterceptRange> 
+			<AirInterceptRange>18</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -387077,7 +387351,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>25</Range> 
+			<Range>14</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_JET_FIGHTER</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -387106,7 +387380,7 @@
 			<HurryCostModifier>150</HurryCostModifier> 
 			<AdvancedStartCost>100</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>25</AirInterceptRange> 
+			<AirInterceptRange>20</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -387174,7 +387448,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>2</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>18</Range> 
+			<Range>14</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_FW_DRONE_FIGHTER_2</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -387203,7 +387477,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>70</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>12</AirInterceptRange> 
+			<AirInterceptRange>18</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -387369,7 +387643,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>12</Range> 
+			<Range>10</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_DIVE_BOMBER</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -387565,7 +387839,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>16</Range> 
+			<Range>12</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_ATTACK_AIRCRAFT</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -387663,7 +387937,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>20</Range> 
+			<Range>14</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_ATTACK_AIRCRAFT</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -387760,7 +388034,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>20</Range> 
+			<Range>14</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_STEALTH_ATTACK_AIRCRAFT</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -387857,7 +388131,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>2</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>12</Range> 
+			<Range>10</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_BOMBER</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -387955,7 +388229,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>2</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>16</Range> 
+			<Range>14</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_BOMBER</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -388053,7 +388327,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>2</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>22</Range> 
+			<Range>18</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_JET_BOMBER</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -388151,7 +388425,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>2</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>28</Range> 
+			<Range>20</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_STEALTH_BOMBER</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -388249,7 +388523,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>32</Range> 
+			<Range>22</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_FW_SUBORBITAL_BOMBER</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -388346,7 +388620,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>4</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>7</Range> 
+			<Range>6</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_CARRIER_FIGHTER_WWII</Class> 
 			<Special>SPECIALUNIT_FIGHTER</Special> 
@@ -388443,7 +388717,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>4</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>10</Range> 
+			<Range>8</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_CARRIER_FIGHTER_JET</Class> 
 			<Special>SPECIALUNIT_FIGHTER</Special> 
@@ -388540,7 +388814,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>4</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>12</Range> 
+			<Range>10</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_CARRIER_FIGHTER_JET</Class> 
 			<Special>SPECIALUNIT_FIGHTER</Special> 
@@ -388637,7 +388911,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>4</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>14</Range> 
+			<Range>12</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_CARRIER_FIGHTER_JET</Class> 
 			<Special>SPECIALUNIT_FIGHTER</Special> 
@@ -388734,7 +389008,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>4</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>15</Range> 
+			<Range>12</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_CARRIER_FIGHTER_ADV</Class> 
 			<Special>SPECIALUNIT_FIGHTER</Special> 
@@ -389120,7 +389394,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>2</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>10</Range> 
+			<Range>8</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_ATOMIC_BOMB</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -389218,7 +389492,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>2</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>20</Range> 
+			<Range>16</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_NUCLEAR_MISSILE</Class> 
 			<Special>SPECIALUNIT_NUKE</Special> 
@@ -389315,7 +389589,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>2</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>30</Range> 
+			<Range>22</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_ICBM_MISSILE</Class> 
 			<Special>SPECIALUNIT_NUKE</Special> 
@@ -391172,7 +391446,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>2</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>50</Range> 
+			<Range>14</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_PROTOTYPE_BOMBER</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -392149,7 +392423,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>25</Range> 
+			<Range>20</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_PAKFA_T50</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -392178,7 +392452,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>100</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>25</AirInterceptRange> 
+			<AirInterceptRange>20</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 

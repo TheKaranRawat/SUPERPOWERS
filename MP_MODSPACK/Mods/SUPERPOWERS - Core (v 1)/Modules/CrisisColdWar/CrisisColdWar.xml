@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Name="ColdWar" ColorSet="Beige_Black_Alpha" Font="TwCenMT20" FontStyle="Shadow">
+
+	<!-- ================================================================= -->
+	<!-- INSTANCES                                                         -->
+	<!--                                                                   -->
+	<!-- SuperInstance = one half-width card (rank 1 or rank 2). Two of   -->
+	<!--   them are laid out side by side by the SuperStack below.         -->
+	<!-- RowInstance   = ranks 3+ (600 wide, centered column).             -->
+	<!--   Stat columns are offset from the RIGHT edge of the row so the   -->
+	<!--   header and rows line up:                                        -->
+	<!--   Nukes = 294   Army = 204   Navy = 114   Might = 24              -->
+	<!-- ================================================================= -->
+
+	<!-- Superpower card (rank 1 / rank 2) -->
+	<Instance Name="SuperInstance">
+		<Box ID="Root" Anchor="L,T" Size="352,148" Color="212,175,90,255">
+			<Box Anchor="C,C" Size="350,146" Color="30,34,46,200"/>
+			<Box ID="Self" Anchor="L,C" Size="4,146" Color="90,200,140,255" Hidden="1"/>
+
+			<!-- icon with drop shadow (sizes/offsets are set from CONFIG in Lua) -->
+			<Box ID="IconBox" Anchor="L,C" Offset="12,0" Size="128,128" Color="0,0,0,0">
+				<!-- drop shadow (black-tinted copy of the civ emblem, hooked up in Lua) -->
+				<Image ID="FarShadow"  Anchor="C,C" Offset="6,8" Size="128,128" Color="0,0,0,90"/>
+				<Image ID="NearShadow" Anchor="C,C" Offset="3,4" Size="128,128" Color="0,0,0,150"/>
+				<!-- the real icon -->
+				<Image ID="CivIconBG"     Anchor="C,C" Size="128,128"/>
+				<Image ID="CivIconShadow" Anchor="C,C" Size="128,128"/>
+				<Image ID="CivIcon"       Anchor="C,C" Size="128,128"/>
+				<Label ID="WarIcon" Anchor="R,B" Offset="24,26" Font="TwCenMT24" String="[ICON_WAR]" Hidden="1"/>
+			</Box>
+
+			<Label ID="Rank"   Anchor="L,T" Offset="152,6"  Font="TwCenMT24" String="1"/>
+			<Label ID="Tag"    Anchor="L,T" Offset="180,14" Font="TwCenMT14" String=""/>
+			<Label ID="Name"   Anchor="L,T" Offset="152,36" Font="TwCenMT20" String=""/>
+			<Label ID="Leader" Anchor="L,T" Offset="152,62" Font="TwCenMT14" String=""/>
+
+			<!-- compact stat grid -->
+			<Label ID="LblNukes" Anchor="L,T" Offset="152,90" Font="TwCenMT14" String=""/>
+			<Label ID="LblArmy"  Anchor="L,T" Offset="202,90" Font="TwCenMT14" String=""/>
+			<Label ID="LblNavy"  Anchor="L,T" Offset="252,90" Font="TwCenMT14" String=""/>
+			<Label ID="LblMight" Anchor="L,T" Offset="302,90" Font="TwCenMT14" String=""/>
+
+			<Label ID="Nukes" Anchor="L,T" Offset="152,108" Font="TwCenMT18" String="0"/>
+			<Label ID="Army"  Anchor="L,T" Offset="202,108" Font="TwCenMT18" String="0"/>
+			<Label ID="Navy"  Anchor="L,T" Offset="252,108" Font="TwCenMT18" String="0"/>
+			<Label ID="Might" Anchor="L,T" Offset="302,108" Font="TwCenMT18" String="0"/>
+		</Box>
+	</Instance>
+
+	<!-- Normal row (rank 3 and below) -->
+	<Instance Name="RowInstance">
+		<Box ID="Root" Anchor="L,T" Size="600,48" Color="22,26,36,225">
+			<Box Anchor="L,B" Size="600,1" Color="255,255,255,18"/>
+			<Box ID="Self" Anchor="L,C" Size="4,48" Color="90,200,140,255" Hidden="1"/>
+
+			<Label ID="Rank" Anchor="L,C" Offset="22,0" Font="TwCenMT18" String="3"/>
+
+			<Box ID="IconBox" Anchor="L,C" Offset="60,0" Size="45,45" Color="0,0,0,0">
+				<Image ID="CivIconBG" Anchor="C,C" Size="45,45"/>
+				<Image ID="CivIconShadow" Anchor="C,C" Size="45,45"/>
+				<Image ID="CivIcon" Anchor="C,C" Size="45,45"/>
+				<Label ID="WarIcon" Anchor="R,B" Offset="-3,4" Font="TwCenMT18" String="[ICON_WAR]" Hidden="1"/>
+			</Box>
+
+			<Label ID="Name" Anchor="L,C" Offset="124,0" Font="TwCenMT18" String=""/>
+
+			<Label ID="Nukes" Anchor="R,C" Offset="294,0" Font="TwCenMT18" String="0"/>
+			<Label ID="Army"  Anchor="R,C" Offset="204,0" Font="TwCenMT18" String="0"/>
+			<Label ID="Navy"  Anchor="R,C" Offset="114,0" Font="TwCenMT18" String="0"/>
+			<Label ID="Might" Anchor="R,C" Offset="24,0"  Font="TwCenMT18" String="0"/>
+		</Box>
+	</Instance>
+
+
+	<!-- ================================================================= -->
+	<!-- TOP RIGHT BUTTON: just the icon, a soft two-layer drop shadow,    -->
+	<!-- and a thin red bar that appears during a Hot War.                 -->
+	<!-- (Sizes/offsets are overwritten from CONFIG.ICON_SIZE in Lua.)     -->
+	<!-- ================================================================= -->
+	<Button ID="ColdWarButton" Anchor="R,T" Offset="8,38" Size="64,64" Hidden="1" ConsumeMouse="1">
+		<Image ID="IconShadowFar"  Anchor="C,C" Offset="3,4" Size="64,64" Color="0,0,0,70"/>
+		<Image ID="IconShadowNear" Anchor="C,C" Offset="1,2" Size="64,64" Color="0,0,0,120"/>
+		<Image ID="ButtonIcon"     Anchor="C,C" Offset="0,0" Size="64,64" Color="255,255,255,225"/>
+		<Box   ID="HotBar" Anchor="C,B" Offset="0,3" Size="42,3" Color="220,50,50,255" Hidden="1"/>
+	</Button>
+
+
+	<!-- ================================================================= -->
+	<!-- POPUP  (800 x 480 panel).                                         -->
+	<!-- The 256px Tsar Bomba sits ABOVE the panel; only its bottom 10%    -->
+	<!-- overlaps it. Layout below is for HEADER_ICON_SIZE = 256.          -->
+	<!-- Slide/fade is driven from Lua (CONFIG.ANIM_DURATION).             -->
+	<!-- ================================================================= -->
+	<Box ID="Popup" Anchor="C,C" Size="parent,parent" Color="0,0,0,0" Hidden="1">
+
+		<!-- dim (slightly dark, fades with the popup) + click-outside-to-close -->
+		<Box ID="DimRoot" Anchor="C,C" Size="4096,2304" Color="0,0,0,120">
+			<Button ID="Backdrop" Anchor="C,C" Size="4096,2304" ConsumeMouse="1"/>
+		</Box>
+
+		<!-- AnimRoot is faded and slid by Lua. Offset 0,115 re-centres the panel +   -->
+		<!-- the icon hanging above it (Lua recalculates it from the config).         -->
+		<Box ID="AnimRoot" Anchor="C,C" Offset="0,92" Size="804,486" Color="0,0,0,0">
+
+			<!-- red ring shown during a Hot War -->
+			<Box ID="PanelHot" Anchor="C,C" Size="804,486" Color="200,45,45,220" Hidden="1"/>
+			<!-- panel border + body (body alpha = transparency; lower the last number for more) -->
+			<Box Anchor="C,C" Size="750,482" Color="0,0,0,140"/>
+			<Box ID="Panel" Anchor="C,C" Size="740,480" Color="0,0,0,140" ConsumeMouse="1">
+
+				<!-- invisible full-panel button so a right click anywhere on the panel closes it -->
+				<Button ID="PanelCatcher" Anchor="C,C" Size="798,480" ConsumeMouse="1"/>
+
+				<!-- title + description, centered right under the icon -->
+				<Label ID="TitleShadow" Anchor="C,T" Offset="2,14" Font="TwCenMT24" Color="184,100,36,235" String=""/>
+				<Label ID="Title"       Anchor="C,T" Offset="0,12" Font="TwCenMT24" FontStyle="Shadow" Color="184,100,36,255" String=""/>
+				<Label ID="Description" Anchor="C,T" Offset="0,44" Font="TwCenMT16" WrapWidth="700" String=""/>
+
+				<Box Anchor="C,T" Offset="0,108" Size="760,1" Color="255,255,255,40"/>
+
+				<!-- RANK 1 | RANK 2 -->
+				<Box ID="SuperSeparator" Anchor="C,T" Offset="0,116" Size="1,148" Color="255,255,255,60"/>
+				<Stack ID="SuperStack" Anchor="C,T" Offset="0,116" StackGrowth="Right" Padding="8"/>
+
+				<!-- header for rank 3+ : "OTHER NATIONS" + column titles -->
+				<Box ID="OthersRow" Anchor="C,T" Offset="0,272" Size="600,22" Color="0,0,0,0">
+					<Label ID="OthersLabel" Anchor="L,C" Offset="22,0" Font="TwCenMT14" String=""/>
+					<Label ID="HdrNukes" Anchor="R,C" Offset="294,0" Font="TwCenMT14" String=""/>
+					<Label ID="HdrArmy"  Anchor="R,C" Offset="204,0" Font="TwCenMT14" String=""/>
+					<Label ID="HdrNavy"  Anchor="R,C" Offset="114,0" Font="TwCenMT14" String=""/>
+					<Label ID="HdrMight" Anchor="R,C" Offset="24,0"  Font="TwCenMT14" String=""/>
+					<Box Anchor="L,B" Size="600,1" Color="255,255,255,45"/>
+				</Box>
+
+				<!-- RANK 3, 4, 5 ... (centered column) -->
+				<ScrollPanel ID="Scroll" Anchor="C,T" Offset="0,298" Size="600,156" Vertical="1" AutoScrollBar="0">
+					<ScrollBar ID="ScrollBarCtl" Style="VertSlider" Length="120" Offset="-4000,18" Anchor="R,T" AnchorSide="O,I" Hidden="1"/>
+					<UpButton ID="ScrollUpCtl" Offset="-4000,0" Style="ScrollBarUp" Anchor="R,T" AnchorSide="O,I" Hidden="1"/>
+					<DownButton ID="ScrollDownCtl" Offset="-4000,0" Style="ScrollBarDown" Anchor="R,B" AnchorSide="O,I" Hidden="1"/>
+					<Stack ID="Stack" Anchor="L,T" StackGrowth="Bottom" Padding="4"/>
+				</ScrollPanel>
+
+				<Label ID="Footer" Anchor="C,B" Offset="0,8" Font="TwCenMT14" String=""/>
+
+				<!-- close button -->
+				<Button ID="CloseButton" Anchor="R,T" Offset="12,12" Size="26,26" ConsumeMouse="1" Hidden="1">
+					<Box Anchor="C,C" Size="26,26" Color="52,58,74,255"/>
+					<Label Anchor="C,C" Font="TwCenMT18" String="X"/>
+				</Button>
+
+			</Box>
+
+			<!-- Header icon: drawn AFTER the panel so it sits on top. Its bottom 10% overlaps -->
+			<!-- the panel. Size/offsets are set from CONFIG.HEADER_ICON_SIZE in Lua.           -->
+			<Image ID="HeaderShadowFar"  Anchor="C,T" Offset="13,-193" Size="256,256" Color="0,0,0,70"/>
+			<Image ID="HeaderShadowNear" Anchor="C,T" Offset="6,-201"  Size="256,256" Color="0,0,0,120"/>
+			<Image ID="HeaderIcon"       Anchor="C,T" Offset="0,-209"  Size="256,256"/>
+
+		</Box>
+	</Box>
+
+</Context>

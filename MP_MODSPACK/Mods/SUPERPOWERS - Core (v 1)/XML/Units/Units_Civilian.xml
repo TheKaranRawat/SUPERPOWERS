@@ -216,8 +216,10 @@
 		<Row>
 			<Class>UNITCLASS_ARCHAEOLOGIST</Class>
 			<Type>UNIT_ARCHAEOLOGIST</Type>
+			<!--
 			<PrereqTech>TECH_ARCHAEOLOGY</PrereqTech>
-			<Cost>200</Cost>
+			-->
+			<Cost>-1</Cost>
 			<Moves>4</Moves>
 			<HurryCostModifier>50</HurryCostModifier>
 			<Capture>UNITCLASS_ARCHAEOLOGIST</Capture>

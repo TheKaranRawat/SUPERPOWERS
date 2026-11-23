@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Name="AI_Nuclear_Retaliation" ColorSet="Beige_Black_Alpha" Font="TwCenMT20" FontStyle="Base">
+
+  <!-- Anchored to the top-left of the screen; Lua sets the exact position every time a
+       banner shows (see POSITION_X / OFFSET_X / OFFSET_Y in the Lua config).
+       Nothing here consumes mouse input, so clicks pass through to the game.
+       Size must match BANNER_W / BANNER_H in the Lua file. -->
+  <Container ID="Banner" Anchor="L,T" Offset="0,-500" Size="420,410" Hidden="1">
+
+    <!-- Opaque black; Lua fades it (max opacity = BACKDROP_ALPHA) -->
+    <Box ID="Backdrop" Anchor="L,T" Size="420,410" Color="0,0,0,255" />
+
+    <Image ID="NukeIcon" Anchor="C,T" Offset="0,16" Size="256,256" />
+
+    <Label ID="BannerText" Anchor="C,T" Offset="0,284" WrapWidth="380"
+           Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" />
+
+  </Container>
+
+</Context>

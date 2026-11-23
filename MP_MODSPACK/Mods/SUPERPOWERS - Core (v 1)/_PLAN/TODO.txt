@@ -772,20 +772,20 @@ group move icon
 auto road connect to allied cities or friend cities
 nuclear weapons UI
 
-ranged unit target mode should not be enabled if no enemies are nearby
-social policy popup behind screen
-military size and might comparison in supply tooltip
-launch graph when clicking topbar buttons
-give enemy unit buff promotions
-city state icons bugged in war screen
-Units that can found a city take their religion with them dll
-give AI free gold building
-hide resource icons after they've been improved
+	ranged unit target mode should not be enabled if no enemies are nearby
+	social policy popup behind screen
+	military size and might comparison in supply tooltip
+	launch graph when clicking topbar buttons
+	give enemy unit buff promotions
+	city state icons bugged in war screen
+	Units that can found a city take their religion with them dll
+		give AI free gold building
+	hide resource icons after they've been improved
 hide yield icon option
 brazilian soccer player super hacker icon
-area 51 icon bugged tech
+	area 51 icon bugged tech
 increase tech screen display length
-balance satellite tech
+	balance satellite tech
 storm trooper integrated defense
 xcom head/integrated defense
 manpower bonus ai
@@ -793,6 +793,10 @@ AI SSBN NUKES
 fix loading screen size
 build polder everywhere/coastal except hills
 auto build canals
+create puppet popup not coming up
+	alert when launching nukes
+	cs gift units from anywhere
+	are you sure you want to adopt policy
 ------------------------------------------------
 <Image Anchor="R,T" Texture="assets\UI\Art\WorldView\TopRight020.dds" Size="512,128" ID="CornerAnchor" Hidden="1"/>
 g_isSmallScreen

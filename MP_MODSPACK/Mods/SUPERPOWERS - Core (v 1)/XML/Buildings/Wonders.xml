@@ -1527,7 +1527,9 @@
 			<IconAtlas>SPWondersUB_ATLAS</IconAtlas>
 			<PortraitIndex>56</PortraitIndex>
 			<FreePromotion>PROMOTION_NATIONAL_AUTOCRACY</FreePromotion>
-			<NumTradeRouteBonus>2</NumTradeRouteBonus>
+			<!-- 
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			-->
 		</Row>
 
 		<Row>
@@ -1548,7 +1550,9 @@
 			<IconAtlas>SPWondersUB_ATLAS</IconAtlas>
 			<PortraitIndex>57</PortraitIndex>
 			<GlobalSpaceProductionModifier>100</GlobalSpaceProductionModifier>
-			<NumTradeRouteBonus>2</NumTradeRouteBonus>
+			<!-- 
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			-->
 		</Row>
 
 		<Row>
@@ -1562,7 +1566,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_NATIONAL_FREEDOM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_NATIONAL_FREEDOM_STRATEGY</Strategy>
 			<FreeGreatPeople>5</FreeGreatPeople>
-			<ExtraLeagueVotes>15</ExtraLeagueVotes>
+			<ExtraLeagueVotes>10</ExtraLeagueVotes>
 			<NukeImmune>true</NukeImmune>
 			<NumCityCostMod>200</NumCityCostMod>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -1570,7 +1574,7 @@
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>SPWondersUB_ATLAS</IconAtlas>
 			<PortraitIndex>58</PortraitIndex>
-			<NumTradeRouteBonus>4</NumTradeRouteBonus>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
 		</Row>
 
 

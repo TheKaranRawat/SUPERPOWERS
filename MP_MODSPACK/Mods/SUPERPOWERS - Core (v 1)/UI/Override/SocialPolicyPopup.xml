@@ -36,8 +36,9 @@
 			<Image Anchor="R,B" Offset="0,0" Texture="BlueBar500x3.dds" Size="500,1"/>
 		</Button>
 	</Instance>
+	
 	<!-- Box Size="1024,738"  -->
-	<Box Size="1219,768" Anchor="C,C" Offset="0,24" Color="0,0,0,0" Hidden="0">
+	<Box Size="1219,768" Anchor="C,C" Offset="0,24" Color="0,0,0,0" Hidden="0" ID="MainPanel">
 		<Grid Size="1200,783" Anchor="C,T" Offset="0,-5" Padding="0,0" Style="Grid9DetailFive140">
 			<!-- Panel Header Text -->
 			<Label Style="MenuTitleCaption" String="TXT_KEY_SOCIAL_POLICIES_SCREEN_TITLE"/>

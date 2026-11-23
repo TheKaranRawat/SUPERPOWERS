@@ -737,9 +737,96 @@ local function SetCivIcon( control, civInfo, tintColor )
 	return ok;
 end
 
-local function RefreshOtherPlayerIcons( cityBanner, controls, player, city, iActivePlayer, colors, isMinor )
+-------------------------------------------------
+-- City-state ally icon
+-------------------------------------------------
+local COLOR_BLACK = { x = 0, y = 0, z = 0, w = 1 };
+local g_AllyColorCache = {};
+local g_AllyLabel = nil;
+
+local function GetAllyColor( pAlly, allyID )
+	local c = g_AllyColorCache[ allyID ];
+	if c == nil then
+		local primary = pAlly:GetPlayerColors();
+		c = { x = primary.x, y = primary.y, z = primary.z, w = 1 };
+		g_AllyColorCache[ allyID ] = c;
+	end
+	return c;
+end
+
+-- Optional text key TXT_KEY_CITY_BANNER_ALLY; falls back to English if it isn't defined.
+local function GetAllyLabel()
+	if g_AllyLabel == nil then
+		local s = L( "TXT_KEY_CITY_BANNER_ALLY" );
+		if s == nil or s == "TXT_KEY_CITY_BANNER_ALLY" then
+			s = "Ally:";
+		end
+		g_AllyLabel = s;
+	end
+	return g_AllyLabel;
+end
+
+-- Returns the ID of the ally to display for a city-state, or -1.
+-- Only allies the active team has met (or is on) are shown, so a banner can never
+-- reveal who an unmet civilization is.
+local function GetVisibleAllyID( player, iActiveTeam )
+	local allyID = player:GetAlly();
+	if allyID == nil or allyID < 0 then
+		return -1;
+	end
+
+	local pAlly = Players[ allyID ];
+	if pAlly == nil then
+		return -1;
+	end
+
+	local allyTeam = pAlly:GetTeam();
+	if allyTeam ~= iActiveTeam and not Teams[ iActiveTeam ]:IsHasMet( allyTeam ) then
+		return -1;
+	end
+	return allyID;
+end
+
+-- Returns true if the banner layout changed (icon shown/hidden).
+local function RefreshAllyIcon( cityBanner, controls, player, iActiveTeam, isMinor )
+	local container = controls.AllyIconContainer;
+	local icon = controls.AllyIcon;
+	if container == nil or icon == nil then
+		return false;
+	end
+
+	local allyID = -1;
+	if isMinor then
+		allyID = GetVisibleAllyID( player, iActiveTeam );
+	end
+
+	if allyID == cityBanner.LastAlly then
+		return false; -- nothing changed, keep the icon as it is
+	end
+	cityBanner.LastAlly = allyID;
+
+	if allyID < 0 then
+		container:SetHide( true );
+		return true;
+	end
+
+	local pAlly = Players[ allyID ];
+	local civInfo = GameInfo.Civilizations[ pAlly:GetCivilizationType() ];
+	local ok = SetCivIcon( icon, civInfo, GetAllyColor( pAlly, allyID ) );
+	if ok then
+		if controls.AllyIconShadow ~= nil then
+			SetCivIcon( controls.AllyIconShadow, civInfo, COLOR_BLACK );
+		end
+		icon:SetToolTipString( GetAllyLabel() .. " " .. L( pAlly:GetCivilizationShortDescription() ) );
+	end
+	container:SetHide( not ok );
+	return true;
+end
+
+-- Returns true if something in the name stack appeared/disappeared (caller re-sizes the banner).
+local function RefreshOtherPlayerIcons( cityBanner, controls, player, city, iActivePlayer, iActiveTeam, colors, isMinor )
 	if controls.MinorIndicator == nil or controls.StatusIcon == nil then
-		return;
+		return false;
 	end
 
 	local statusIcon = controls.StatusIcon;
@@ -767,13 +854,23 @@ local function RefreshOtherPlayerIcons( cityBanner, controls, player, city, iAct
 	-- Original owner (only drawn for ex city-state cities)
 	local originalOwnerID = city:GetOriginalOwner();
 	local pOriginalOwner = Players[ originalOwnerID ];
+	local bIndicator = false;
 	if pOriginalOwner ~= nil and pOriginalOwner:IsMinorCiv() then
 		local origInfo = GameInfo.Civilizations[ pOriginalOwner:GetCivilizationType() ];
-		local indicator = controls.MinorIndicator;
-		SetCivIcon( indicator, origInfo, GetOriginalOwnerColor( pOriginalOwner, originalOwnerID ) );
+		bIndicator = SetCivIcon( controls.MinorIndicator, origInfo, GetOriginalOwnerColor( pOriginalOwner, originalOwnerID ) );
 	else
 		controls.MinorIndicator:SetHide( true );
 	end
+
+	-- Both of these live in the name stack, so the banner width must follow them
+	local bLayoutChanged = ( cityBanner.LastIndicator ~= bIndicator );
+	cityBanner.LastIndicator = bIndicator;
+
+	if RefreshAllyIcon( cityBanner, controls, player, iActiveTeam, isMinor ) then
+		bLayoutChanged = true;
+	end
+
+	return bLayoutChanged;
 end
 
 -------------------------------------------------
@@ -818,7 +915,9 @@ function RefreshCityBanner( cityBanner, iActiveTeam, iActivePlayer, spyMap )
 
 		RefreshGrowthAndProduction( cityBanner, controls, city, localizedCityName, cityPopulation, isActivePlayerCity );
 
-		RefreshOtherPlayerIcons( cityBanner, controls, player, city, iActivePlayer, colors, isMinor );
+		if RefreshOtherPlayerIcons( cityBanner, controls, player, city, iActivePlayer, iActiveTeam, colors, isMinor ) then
+			DoResizeBanner( controls );
+		end
 
 		RefreshCityDamage( cityBanner, city:GetDamage(), city:GetMaxHitPoints() );
 	end
@@ -1025,6 +1124,8 @@ function CheckCityBannerRebuild( instance, iActiveTeam, iActivePlayer )
 	instance.WarTipText = nil;
 	instance.WarTipTurn = nil;
 	instance.ProdButtonHooked = nil;
+	instance.LastAlly = nil;
+	instance.LastIndicator = nil;
 
 	RefreshCityBanner( instance, iActiveTeam, iActivePlayer );
 
@@ -1098,6 +1199,10 @@ function OnCityUpdate()
 	end
 end
 Events.SerialEventCityInfoDirty.Add( OnCityUpdate );
+-- A city-state changed ally: banners need to swap their ally icon
+if Events.MinorAlliesChanged ~= nil then
+	Events.MinorAlliesChanged.Add( OnCityUpdate );
+end
 
 if USE_DEFERRED_REFRESH then
 	-- Cheap per-frame check; the real work only happens when something was marked dirty.
@@ -1609,6 +1714,9 @@ Events.EndCombatSim.Add( OnCombatEnd );
 -- The active player's turn has begin, make sure their range strike icons are correct
 --------------------------------------------------------------
 function OnActivePlayerTurnStart()
+
+	-- Picks up civs met since the last refresh (ally icons only show for met civs)
+	OnCityUpdate();
 
 	local playerTable = Instances[ Game.GetActivePlayer() ];
 	if playerTable == nil then

@@ -100,7 +100,7 @@
 				<Label ID="BlockadedIcon" Anchor="C,C" Offset="0,0" String="[ICON_BLOCKADED]" Hidden="1"/>
 				<Label ID="PuppetIcon" Anchor="C,C" Offset="0,0" String="[ICON_PUPPET]" Hidden="1"/>
 				<Label ID="OccupiedIcon" Anchor="C,C" Offset="0,0" String="[ICON_OCCUPIED]" Hidden="1"/>
-				<Label ID="SpyIcon" Anchor="C,C" Offset="0,0" String="[ICON_SPY]" Hidden="0" />
+				<Label ID="SpyIcon" Anchor="C,C" Offset="0,0" String="[ICON_SPY]" Hidden="1" />
 				
 				
 				
@@ -130,7 +130,7 @@
 				
 				
 				
-        <Label ID="DiplomatIcon" Anchor="C,C" Offset="0,0" String="[ICON_DIPLOMAT]" Hidden="0" />
+        <Label ID="DiplomatIcon" Anchor="C,C" Offset="0,0" String="[ICON_DIPLOMAT]" Hidden="1" />
 			</Stack>
 		</WorldAnchor>
 	</Instance>
@@ -170,6 +170,11 @@
 				<Stack ID="NameStack" Anchor="C,C" Offset="0,1" StackGrowth="Right" Padding="2">
           <Image Anchor="L,C" Offset="0,0" Size="32,32" Texture="Assets/UI/Art/Icons/CivSymbolAtlas32.dds" Color="201,248,255,255" ID="MinorIndicator"/>
           <Label Anchor="L,C" Offset="0,-1" Font="TwCenMT18" FontStyle="Shadow" ID="CityName" Hidden="0"/>
+          <!-- Ally of this city-state (only shown for allied city-states) -->
+          <Container Anchor="L,C" Size="32,32" Hidden="1" ID="AllyIconContainer">
+            <Image Anchor="L,C" ID="AllyIconShadow" Offset="1,1" Color="0,0,0,255" Size="32,32" Texture="Assets/UI/Art/Icons/CivSymbolAtlas32.dds"/>
+            <Image Anchor="L,C" ID="AllyIcon" Offset="0,0" Color="255,255,255,255" Size="32,32" Texture="Assets/UI/Art/Icons/CivSymbolAtlas32.dds"/>
+          </Container>
           <Container Anchor="L,C" Size="32,32" Hidden="0" ID="ReligiousIconContainer">
             <Image Anchor="L,C" ID="ReligiousIconShadow" Offset="1,1" Color="0,0,0,255" Size="32,32" Texture="assets\DLC\Expansion\UI\Art\Icons\ReligiousSymbolsWhite32_Expansion.dds"/>
             <Image Anchor="L,C" ID="ReligiousIcon" Offset="0,0" Color="255,255,255,255" Size="32,32" Texture="assets\DLC\Expansion\UI\Art\Icons\ReligiousSymbolsWhite32_Expansion.dds"/>
@@ -226,8 +231,8 @@
 				
 				
 				
-				<Label ID="SpyIcon" Anchor="C,C" Offset="0,0" String="[ICON_SPY]" Font="TwCenMT18" FontStyle="Shadow" Hidden="0"/>
-        <Label ID="DiplomatIcon" Anchor="C,C" Offset="0,0" String="[ICON_DIPLOMAT]" Font="TwCenMT18" FontStyle="Shadow" Hidden="0"/>
+				<Label ID="SpyIcon" Anchor="C,C" Offset="0,0" String="[ICON_SPY]" Font="TwCenMT18" FontStyle="Shadow" Hidden="1"/>
+        <Label ID="DiplomatIcon" Anchor="C,C" Offset="0,0" String="[ICON_DIPLOMAT]" Font="TwCenMT18" FontStyle="Shadow" Hidden="1"/>
 			</Stack>
 		</WorldAnchor>
 	</Instance>

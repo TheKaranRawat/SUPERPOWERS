@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<CustomModOptions>
+		<Update>
+			<Where Name="EVENTS_REBASE"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="EVENTS_MINORS"/>
+			<Set Value="1"/>
+		</Update>
+	</CustomModOptions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CS_AIRBASE_UNABLE_TO_REBASE">
+			<Text>Unable to rebase</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CS_AIRBASE_UNABLE_TO_REBASE_TEXT">
+			<Text>Your {1_UnitType} was unable to rebase to a friendly tile</Text>
+		</Row>
+	</Language_en_US>
+
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_CS_AIRBASE_UNABLE_TO_REBASE">
+			<Text>Невозможно перебазироваться</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CS_AIRBASE_UNABLE_TO_REBASE_TEXT">
+			<Text>Вашему {1_UnitType} не удалось перебазироваться на дружественную клетку</Text>
+		</Row>
+	</Language_RU_RU>
+</GameData>

@@ -652,7 +652,7 @@
 			<Moves>2</Moves>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<Immobile>true</Immobile>
-			<Range>50</Range>
+			<Range>14</Range>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
@@ -1014,8 +1014,8 @@
 			<Cost>2000</Cost>
 			<Moves>3</Moves>
 			<Immobile>true</Immobile>
-			<Range>25</Range>
-			<AirInterceptRange>25</AirInterceptRange>
+			<Range>20</Range>
+			<AirInterceptRange>20</AirInterceptRange>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>

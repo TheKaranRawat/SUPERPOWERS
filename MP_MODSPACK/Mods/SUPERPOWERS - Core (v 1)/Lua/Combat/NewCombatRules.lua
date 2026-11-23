@@ -209,29 +209,59 @@ function RangedUnitRules(iAttackingPlayer, iAttackingUnit, attackerDamage, attac
 	----------------------------------------------------------------------
 	-- Strategic bomber vs city: population loss + building destruction
 	----------------------------------------------------------------------
-	if not pDefendingUnit and pDefendedCity and HasPromo(pAttackingUnit, StgBomberID) then
+	----------------------------------------------------------------------
+	-- Strategic bomber vs city: population loss + building destruction
+	----------------------------------------------------------------------
+	----------------------------------------------------------------------
+	-- Strategic bomber vs city: population loss + building destruction
+	----------------------------------------------------------------------
+	local DEBUG_BOMBER = true  -- set to false once it works
+
+	if DEBUG_BOMBER then
+		print("Bomber check:", pDefendingUnit, pDefendedCity, pAttackingUnit and StgBomberID and HasPromo(pAttackingUnit, StgBomberID))
+	end
+
+	if not pDefendingUnit and pDefendedCity and StgBomberID and HasPromo(pAttackingUnit, StgBomberID) then
 		local cityPop = pDefendedCity:GetPopulation()
 
 		if cityPop > 1 then
-			-- Original had three identical blocks (Lv1/Lv2/Lv3-or-Nuclear), each applying
-			-- floor(pop * rate) from the same starting pop. Same result, computed once.
+			-- Count how many napalm/nuclear levels the bomber has
 			local levels = 0
-			if HasPromo(pAttackingUnit, NapalmBomb1ID) then levels = levels + 1 end
-			if HasPromo(pAttackingUnit, NapalmBomb2ID) then levels = levels + 1 end
-			if HasPromo(pAttackingUnit, NapalmBomb3ID) or HasPromo(pAttackingUnit, NuclearArtilleryID) then levels = levels + 1 end
+			if NapalmBomb1ID and HasPromo(pAttackingUnit, NapalmBomb1ID) then levels = levels + 1 end
+			if NapalmBomb2ID and HasPromo(pAttackingUnit, NapalmBomb2ID) then levels = levels + 1 end
+			if (NapalmBomb3ID and HasPromo(pAttackingUnit, NapalmBomb3ID))
+				or (NuclearArtilleryID and HasPromo(pAttackingUnit, NuclearArtilleryID)) then
+				levels = levels + 1
+			end
 
 			if levels > 0 then
-				local rate = (BombShelterID and pDefendedCity:IsHasBuilding(BombShelterID)) and 0.05 or 0.1
-				local loss = math.floor(cityPop * rate) * levels
+				local sheltered = BombShelterID and pDefendedCity:IsHasBuilding(BombShelterID)
+
+				-- At least 1 pop lost per level, so small cities aren't immune.
+				-- Unsheltered rounds up (10%), sheltered rounds down (5%).
+				local perLevel
+				if sheltered then
+					perLevel = math.max(1, math.floor(cityPop / 50))  -- 5% -> 2%
+				else
+					perLevel = math.max(1, math.ceil(cityPop / 25))   -- 10% -> 4%
+				end
+
+				-- Never reduce the city below 1 pop
+				local loss = math.min(perLevel * levels, cityPop - 1)
+
+				if DEBUG_BOMBER then
+					print("pop", cityPop, "levels", levels, "sheltered", sheltered, "loss", loss)
+				end
+
 				if loss > 0 then
 					pDefendedCity:ChangePopulation(-loss, true)
 				end
 			end
 		end
 
-		if HasPromo(pAttackingUnit, AirSiege1ID) then DestroyFirstBuilding(pDefendedCity, SiegeLv1Buildings) end
-		if HasPromo(pAttackingUnit, AirSiege2ID) then DestroyFirstBuilding(pDefendedCity, SiegeLv2Buildings) end
-		if HasPromo(pAttackingUnit, AirSiege3ID) then DestroyFirstBuilding(pDefendedCity, SiegeLv3Buildings) end
+		if AirSiege1ID and HasPromo(pAttackingUnit, AirSiege1ID) then DestroyFirstBuilding(pDefendedCity, SiegeLv1Buildings) end
+		if AirSiege2ID and HasPromo(pAttackingUnit, AirSiege2ID) then DestroyFirstBuilding(pDefendedCity, SiegeLv2Buildings) end
+		if AirSiege3ID and HasPromo(pAttackingUnit, AirSiege3ID) then DestroyFirstBuilding(pDefendedCity, SiegeLv3Buildings) end
 	end
 
 	----------------------------------------------------------------------

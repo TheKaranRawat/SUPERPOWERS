@@ -3791,7 +3791,7 @@
 			<Help>TXT_KEY_PROMOTION_CARRIER_FIGHTER_SIEGE_1_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<OrderPriority>1</OrderPriority>
-			<RangedAttackModifier>25</RangedAttackModifier>
+			<RangeChange>2</RangeChange>
 			<PortraitIndex>22</PortraitIndex>
 			<IconAtlas>SPPROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_AIR</PediaType>
@@ -3804,7 +3804,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<OrderPriority>1</OrderPriority>
 			<PromotionPrereq>PROMOTION_CARRIER_FIGHTER_SIEGE_1</PromotionPrereq>
-			<RangedAttackModifier>25</RangedAttackModifier>
+			<RangeChange>2</RangeChange>
 			<PortraitIndex>23</PortraitIndex>
 			<IconAtlas>SPPROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_AIR</PediaType>

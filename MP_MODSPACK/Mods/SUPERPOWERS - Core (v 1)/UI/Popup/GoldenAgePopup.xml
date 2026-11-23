@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Font="TwCenMT14" FontStyle="Base" Color="Beige" Color1="Black" >
+
+    <!-- No full-screen BGBlock: the popup is now a non-blocking toast at the top of the screen. -->
+
+    <!--
+        SlideAnim: moves the popup down from above the screen (Start) to its resting spot (End).
+        Start Y must be at least -(popup height + top margin) so it begins fully off-screen.
+        -300 covers heights up to ~250. Raise it if you configure a taller popup.
+        Speed: higher = faster slide (Lua only controls how long it holds in between).
+    -->
+    <SlideAnim ID="SlideAnim" Anchor="C,T" Start="0,-300" End="0,0" Cycle="Once" Speed="4" Pause="0" Stopped="1">
+
+        <!-- AlphaAnim: fades the popup in (and back out when reversed) -->
+        <AlphaAnim ID="FadeAnim" Anchor="C,T" AlphaStart="0" AlphaEnd="1" Cycle="Once" Speed="4" Pause="0" Stopped="1">
+
+            <!-- Size and Offset are overwritten from the Lua constants (POPUP_WIDTH / POPUP_HEIGHT / POPUP_TOP_MARGIN) -->
+            <Grid ID="MainGrid" Size="460,160" Anchor="C,T" Offset="0,40" Style="Grid9DetailFive140" >
+
+                <!-- Side treatments -->
+                <Box Style="MenuLeftSideTreatment"/>
+                <Box Style="MenuRightSideTreatment"/>
+
+                <!-- Golden Age icon (original 300x200 art, scaled to 120x80 and kept inside the panel on the left).
+                     The pulsing highlight and gold shine from the original popup are preserved. -->
+                <Image Anchor="L,C" Offset="22,0" Texture="Assets/UI/Art/Controls/GoldenAgePopupTop300.dds" Size="120.80" >
+
+                    <AlphaAnim Anchor="C,C" Offset="0,0" Pause="0" Cycle="Bounce" Speed=".5" AlphaStart="1" AlphaEnd=".6">
+                        <Image Anchor="C,C" Offset="0,0" Texture="Assets/UI/Art/Controls/GoldenAgePopupTop300HL.dds" Size="120.80" />
+                    </AlphaAnim>
+                    <ScrollAnim Offset="0,0" Size="120.80" Speed=".05" Texture="TechGoldShine.dds" MaskTexture="Assets/UI/Art/Controls/GoldenAgePopupTop300Mask.dds" />
+
+                </Image>
+
+                <Label Anchor="C,T" Offset="0,12" Font="TwCenMT22" FontStyle="Shadow" Color0="255.221.0.255" Color1="0.0.0.255" Color2="255.255.0.255" String="TXT_KEY_POP_GOLDEN_AGE_BEGIN" ID="TitleLabel"/>
+
+                <!-- Description sits to the right of the icon -->
+                <Box Size="300,76" Anchor="R,T" Offset="16,46" Color="255,255,255,0" >
+                    <Label Anchor="L,T" Offset="0,0" WrapWidth="290" LeadingOffset="-4" Font="TwCenMT16" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="" ID="DescriptionLabel" />
+                </Box>
+
+                <GridButton Size="100,26" Anchor="C,B" Style="BaseButton" Offset="0,10" ID="CloseButton" Hidden="1">
+                    <Label Anchor="C,C" Offset="0,-1" String="TXT_KEY_CLOSE" Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT18" FontStyle="Shadow" />
+                </GridButton>
+
+            </Grid>
+
+        </AlphaAnim>
+    </SlideAnim>
+</Context>

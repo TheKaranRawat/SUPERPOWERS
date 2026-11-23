@@ -68,10 +68,104 @@ local m_gAdoptingPolicy;
 
 local g_bReopenAfterBranchSwitch = false;
 
+-------------------------------------------------
+-- Open / close animation (configurable)
+-------------------------------------------------
+local g_AnimConfig = {
+	Enabled        = true,
+	SlideInTime    = 0.40,   -- seconds
+	FadeInTime     = 0.50,
+	SlideOutTime   = 0.40,
+	FadeOutTime    = 0.40,
+	SlideDistance  = 600,    -- pixels the panel travels up from below
+	FadeBackground = true,   -- also fade the dark background block
+};
+
+local g_PanelBaseY   = 24;   -- must match Offset Y of MainPanel in the XML
+local g_AnimState    = nil;  -- nil, "in" or "out"
+local g_AnimElapsed  = 0;
+local g_CurSlide     = 1;
+local g_CurFade      = 1;
+local g_OutStartSlide = 1;
+local g_OutStartFade  = 1;
+
+local function Clamp01( v )
+	if v < 0 then return 0; end
+	if v > 1 then return 1; end
+	return v;
+end
+
+local function EaseOut( t ) local u = 1 - t; return 1 - u * u * u; end
+local function EaseIn( t ) return t * t * t; end
+
+-- slideT / fadeT: 0 = fully hidden (below / transparent), 1 = fully shown
+local function SetPanelProgress( slideT, fadeT )
+	g_CurSlide = slideT;
+	g_CurFade  = fadeT;
+	Controls.MainPanel:SetOffsetVal( 0, g_PanelBaseY + (1 - slideT) * g_AnimConfig.SlideDistance );
+	Controls.MainPanel:SetAlpha( fadeT );
+	if g_AnimConfig.FadeBackground then
+		Controls.BGBlock:SetAlpha( fadeT );
+	end
+end
+
+function ResetPanel()
+	g_AnimState = nil;
+	SetPanelProgress( 1, 1 );
+end
+
+function StartOpenAnimation()
+	if not g_AnimConfig.Enabled then
+		ResetPanel();
+		return;
+	end
+	g_AnimState = "in";
+	g_AnimElapsed = 0;
+	SetPanelProgress( 0, 0 );
+end
+
+function StartCloseAnimation()
+	g_AnimState = "out";
+	g_AnimElapsed = 0;
+	g_OutStartSlide = g_CurSlide;  -- so closing mid-open doesn't pop
+	g_OutStartFade  = g_CurFade;
+end
+
+-- Close instantly, no animation (used when another popup must appear on top)
+function OnCloseImmediate()
+	g_AnimState = nil;
+	UIManager:DequeuePopup( ContextPtr );
+end
+
+function OnAnimUpdate( fDTime )
+	if g_AnimState == nil then
+		return;
+	end
+	local cfg = g_AnimConfig;
+	g_AnimElapsed = g_AnimElapsed + fDTime;
+
+	if g_AnimState == "in" then
+		local s = Clamp01( g_AnimElapsed / math.max(cfg.SlideInTime, 0.001) );
+		local f = Clamp01( g_AnimElapsed / math.max(cfg.FadeInTime,  0.001) );
+		SetPanelProgress( EaseOut(s), f );
+		if s >= 1 and f >= 1 then
+			ResetPanel();
+		end
+	else -- "out"
+		local s = Clamp01( g_AnimElapsed / math.max(cfg.SlideOutTime, 0.001) );
+		local f = Clamp01( g_AnimElapsed / math.max(cfg.FadeOutTime,  0.001) );
+		SetPanelProgress( g_OutStartSlide * (1 - EaseIn(s)), g_OutStartFade * (1 - f) );
+		if s >= 1 and f >= 1 then
+			g_AnimState = nil;
+			UIManager:DequeuePopup( ContextPtr );
+		end
+	end
+end
+
 -- Close this screen so the branch switch (anarchy) popup is not layered under it
 local function ShowBranchSwitchPopup( iBranch )
 	g_bReopenAfterBranchSwitch = true;
-	OnClose();
+	OnCloseImmediate();
 	Events.SerialEventGameMessagePopup({
 		Type = ButtonPopupTypes.BUTTONPOPUP_CONFIRM_POLICY_BRANCH_SWITCH,
 		Data1 = iBranch,
@@ -166,6 +260,11 @@ local g_IdeologyBackgrounds = {
 		POLICY_BRANCH_ORDER = "SocialPoliciesOrder.dds",
 }
 
+local g_SkipConfirm = {
+	Policy = true,
+	Branch = true,   -- set true to also skip the confirm when opening a branch
+};
+
 -------------------------------------------------
 -- On Policy Selected
 -------------------------------------------------
@@ -209,13 +308,19 @@ function PolicySelected( policyIndex )
     end
     
     -- Can adopt Policy right now - don't try this if we're going to unblock the Policy instead
-    if (bCanAdoptPolicy and not bPolicyBlocked) then
-		m_gPolicyID = policyIndex;
-		m_gAdoptingPolicy = true;
-		Controls.PolicyConfirm:SetHide(false);
-		Controls.BGBlock:SetHide(true);
+    -- Can adopt Policy right now - don't try this if we're going to unblock the Policy instead
+	if (bCanAdoptPolicy and not bPolicyBlocked) then
+		if g_SkipConfirm.Policy then
+			Network.SendUpdatePolicies(policyIndex, true, true);
+			Events.AudioPlay2DSound("AS2D_INTERFACE_POLICY");
+		else
+			m_gPolicyID = policyIndex;
+			m_gAdoptingPolicy = true;
+			Controls.PolicyConfirm:SetHide(false);
+			Controls.BGBlock:SetHide(true);
+		end
 	end
-	
+		
 end
 
 -------------------------------------------------
@@ -267,11 +372,17 @@ function PolicyBranchSelected( policyBranchIndex )
     
     -- Can adopt Policy Branch right now - don't try this if we're going to unblock the Policy Branch instead
     if (bCanAdoptPolicyBranch and not bUnblockingPolicyBranch) then
-		m_gPolicyID = policyBranchIndex;
-		m_gAdoptingPolicy = false;
-		Controls.PolicyConfirm:SetHide(false);
-		Controls.BGBlock:SetHide(true);
+		if g_SkipConfirm.Branch then
+			Network.SendUpdatePolicies(policyBranchIndex, false, true);
+			Events.AudioPlay2DSound("AS2D_INTERFACE_POLICY");
+		else
+			m_gPolicyID = policyBranchIndex;
+			m_gAdoptingPolicy = false;
+			Controls.PolicyConfirm:SetHide(false);
+			Controls.BGBlock:SetHide(true);
+		end
 	end
+
 end
 
 -------------------------------------------------
@@ -932,7 +1043,13 @@ Controls.TenetCancelButton:RegisterCallback( Mouse.eLClick, OnCancel );
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 function OnClose()
-    UIManager:DequeuePopup( ContextPtr );
+	if g_AnimConfig.Enabled and not ContextPtr:IsHidden() then
+		if g_AnimState ~= "out" then
+			StartCloseAnimation();
+		end
+	else
+		OnCloseImmediate();
+	end
 end
 Controls.CloseButton:RegisterCallback( Mouse.eLClick, OnClose );
 
@@ -961,6 +1078,9 @@ function InputHandler( uiMsg, wParam, lParam )
     -- Key Down / Mouse side button processing
     ----------------------------------------------------------------        
     --if uiMsg == KeyEvents.KeyDown then
+	if g_AnimState == "out" then
+        return true;
+    end
         local sideButton = false
         if uiMsg == 523 then   -- WM_XBUTTONDOWN
             local xButton = math.floor( wParam / 65536 ) % 256   -- high word
@@ -1401,9 +1521,11 @@ function ShowHideHandler( bIsHide, bInitState )
     if( not bInitState ) then
         Controls.PolicyInfo:SetCheck( OptionsManager.GetPolicyInfo() );
         if( not bIsHide ) then
+        	StartOpenAnimation();
         	UI.incTurnTimerSemaphore();
         	Events.SerialEventGameMessagePopupShown(m_PopupInfo);
         else
+            ResetPanel();
             UI.decTurnTimerSemaphore();
             Events.SerialEventGameMessagePopupProcessed.CallImmediate(ButtonPopupTypes.BUTTONPOPUP_CHOOSEPOLICY, 0);
         end
@@ -1421,10 +1543,10 @@ function OnActivePlayerChanged()
 		Controls.PolicyConfirm:SetHide(true);
     	Controls.BGBlock:SetHide(false);
 	end
-	OnClose();
+	OnCloseImmediate();
 end
 Events.GameplaySetActivePlayer.Add(OnActivePlayerChanged);
-
+ContextPtr:SetUpdate( OnAnimUpdate );
 Init();
 
 -- Register tabbing behavior and assign global TabSelect routine.

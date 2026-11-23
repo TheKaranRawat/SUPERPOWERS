@@ -24,7 +24,10 @@ end
 
 local function ClearBuildings(city, ids)
 	for i = 1, #ids do
-		city:SetNumRealBuilding(ids[i], 0)
+		local id = ids[i]
+		if city:GetNumRealBuilding(id) > 0 then
+			city:SetNumRealBuilding(id, 0)
+		end
 	end
 end
 

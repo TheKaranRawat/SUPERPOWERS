@@ -3946,19 +3946,19 @@
 			<Text>Concentrated Fire I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COLLATERAL_DAMAGE_1_HELP" >
-			<Text>[ICON_BULLET]Grants +30% Ranged Damage</Text>
+			<Text>[ICON_BULLET]Grants +20% Ranged Damage</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COLLATERAL_DAMAGE_2">
 			<Text>Concentrated Fire II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COLLATERAL_DAMAGE_2_HELP" >
-			<Text>[ICON_BULLET]Grants +30% Ranged Damage</Text>
+			<Text>[ICON_BULLET]Grants +20% Ranged Damage</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COLLATERAL_DAMAGE_3">
 			<Text>Concentrated Fire III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COLLATERAL_DAMAGE_3_HELP" >
-			<Text>[ICON_BULLET]Grants +30% Ranged Damage</Text>
+			<Text>[ICON_BULLET]Grants +20% Ranged Damage</Text>
 		</Row>
 
 
@@ -4427,19 +4427,19 @@
 			<Text>Firebombing I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_1_HELP">
-			<Text>Kill 10% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the Target City. (Kill only 5% if the city has a bomb shelter)</Text>
+			<Text>Kill 4% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the Target City. (Kill only 2% if the city has a Bomb Shelter)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_2">
 			<Text>Firebombing II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_2_HELP">
-			<Text>Kill 20% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the Target City. (Kill only 10% if the city has a bomb shelter)</Text>
+			<Text>Kill 8% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the Target City. (Kill only 4% if the city has a Bomb Shelter)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_3">
 			<Text>Firebombing III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAPALMBOMB_3_HELP">
-			<Text>Kill 30% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the [COLOR_POSITIVE_TEXT]Target City[ENDCOLOR]. (Kill only 15% if the city has a bomb shelter)</Text>
+			<Text>Kill 12% [COLOR_POSITIVE_TEXT]Citizens[ENDCOLOR] per attack in the [COLOR_POSITIVE_TEXT]Target City[ENDCOLOR]. (Kill only 6% if the city has a Bomb Shelter)</Text>
 		</Row>
 
 
@@ -4784,16 +4784,16 @@
 
 
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_SIEGE_1">
-			<Text>Sudden Strike I</Text>
+			<Text>Drop Tanks I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_SIEGE_1_HELP">
-			<Text>Grants +25% Ranged Strength</Text>
+			<Text>Grants +2 Range</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_SIEGE_2">
-			<Text>Sudden Strike II</Text>
+			<Text>Drop Tanks II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_SIEGE_2_HELP">
-			<Text>Grants +25% Ranged Strength</Text>
+			<Text>Grants +2 Range</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CARRIER_FIGHTER_SORTIE">

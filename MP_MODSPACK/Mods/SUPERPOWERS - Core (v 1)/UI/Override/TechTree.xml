@@ -2,7 +2,10 @@
 <Context ColorSet="Beige_Black_Alpha" >
 
   <!--Black background-->
-  <Box Anchor="C,C" Size="Full,Full" Color="0,0,0,220" ConsumeMouse="1"/>
+  <Box ID="Backdrop" Anchor="C,C" Size="Full,Full" Color="0,0,0,220" ConsumeMouse="1"/>
+
+  <!--Everything that fades and slides (see TECH_TREE_ANIMATION in TechTree.lua)-->
+  <Container ID="SlideRoot" Anchor="C,C" Size="Full,Full">
 
   <Box Anchor="C,C" Size="Full,740" Color="0,0,0,0" >
     <Box Anchor="C,B" AnchorSide="O.I" Size="Full,18" Color="0,0,0,255" />
@@ -97,6 +100,8 @@
     <ScrollBar  Offset="19,0"   Anchor="R,B"  AnchorSide="i,o"  Style="ScrollBar"       Length="900" ID="TechTreeScrollBar"/>
 
   </ScrollPanel>
+
+  </Container>
 
   <Instance Name="TechButtonInstance" >
     <Button Anchor="L,C" Size="270,60" Color="0,0,0,0" StateOffsetIncrement="0,0" ID="TechButton" >

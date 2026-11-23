@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_COLDWAR_TITLE_COLD">
+			<Text>[COLOR_CYAN]COLD WAR[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLDWAR_TITLE_HOT">
+			<Text>[COLOR_NEGATIVE_TEXT]HOT WAR[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLDWAR_TOOLTIP_HINT">
+			<Text>Click to view the global power rankings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLDWAR_CLOSE">
+			<Text>Close</Text>
+		</Row>
+
+		<!-- Dynamic descriptions. {1_A} / {2_B} are the top two powers, {3_Nukes} their combined warheads. -->
+		<Row Tag="TXT_KEY_COLDWAR_DESC_HOT">
+			<Text>[COLOR_NEGATIVE_TEXT]The Cold War has turned hot![ENDCOLOR] {1_A} and {2_B} are at war, and together they hold {3_Nukes} nuclear warheads. Nuclear war is imminent.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLDWAR_DESC_HOT_NONUKE">
+			<Text>[COLOR_NEGATIVE_TEXT]The Cold War has turned hot![ENDCOLOR] {1_A} and {2_B} are at war, each racing to build the bomb. Nuclear war is imminent.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLDWAR_DESC_PROXY">
+			<Text>{1_A} and {2_B} eye each other across a nuclear divide, and their rivalry is bleeding into proxy wars around the globe. One miscalculation could end it all.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLDWAR_DESC_MAD">
+			<Text>A tense standoff grips the world. {1_A} and {2_B} each wield enough firepower to destroy the other, and only the fear of mutual destruction keeps the peace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLDWAR_DESC_MONOPOLY">
+			<Text>{1_A} alone holds the bomb, and {2_B} will stop at nothing to close the gap. The balance of terror is dangerously uneven.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLDWAR_DESC_RACE">
+			<Text>The Manhattan Project is complete and the arms race has begun. {1_A} and {2_B} lead the world in military power, each racing to build the arsenal that will decide the age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLDWAR_DESC_ALONE">
+			<Text>Only one superpower remains. The world waits to see what it does with its strength.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_COLDWAR_SUPERPOWER">
+			<Text>[COLOR_YELLOW]SUPERPOWER[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLDWAR_OTHERS">
+			<Text>OTHER NATIONS</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLDWAR_COL_NUKES">
+			<Text>Nukes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLDWAR_COL_ARMY">
+			<Text>Army</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLDWAR_COL_NAVY">
+			<Text>Navy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLDWAR_COL_MIGHT">
+			<Text>Might</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLDWAR_FOOTER">				
+			<Text>Ranked by Military Might plus {1_Weight} per nuclear warhead.</Text>			
+		</Row>
+	</Language_en_US>
+</GameData>

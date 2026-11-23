@@ -5,7 +5,7 @@
 local CONFIG = {
     TARGET_CITIES = true,   -- fall back to enemy cities if no units are in range
     FRAME_DELAY   = 2,      -- frames to wait after turn start (lets visibility settle)
-    SKIP_PUPPETS  = true,
+    SKIP_PUPPETS  = false,
     DEBUG         = true,   -- log errors/actions to Lua.log
 }
 

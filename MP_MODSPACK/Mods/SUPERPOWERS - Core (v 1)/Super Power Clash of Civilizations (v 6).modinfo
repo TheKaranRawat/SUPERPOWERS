@@ -333,8 +333,11 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TechPanel.lua</File>
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TechPanel.xml</File>
+  
+  <!--
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TechAwardPopup.xml</File>
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TechAwardPopup.lua</File>
+  -->
 	
 	<File md5="9CD3E75D737B372497A1C965EF843423" import="1">UI/Override/ActionInfoPanel.lua</File>
     <File md5="73EFCD69708903DF41D341F502A18593" import="1">UI/Override/ActionInfoPanel.xml</File>
@@ -3966,6 +3969,45 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/EnemyPromotion/EnemyPromotion.lua</File>
 
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/ArmyPopCost/ArmyPopCost.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/PuppetBuilder/PuppetBuilder.lua</File>
+
+    <File md5="6D4DFCD91B6C6E3D4EF779231EA95391" import="0">Modules/CSAirbases/LUA/CityStateAirbases.lua</File>
+    <File md5="1FB64FC150537B7ACB4001583B1AB088" import="0">Modules/CSAirbases/XML/GlobalCityStateAirbases.xml</File>
+
+    <File md5="1FB64FC150537B7ACB4001583B1AB088" import="1">Modules/CSNeutral/CSNeutral.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/CrisisColdWar/CrisisColdWar.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/CrisisColdWar/CrisisColdWar.lua</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/CrisisColdWar/CrisisColdWar_Text.xml</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/CityStateDiploPopup.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/CityStateDiploPopup.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/CityStateGreetingPopup.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/CityStateGreetingPopup.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/GoldenAgePopup.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/GoldenAgePopup.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/NaturalWonderPopup.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/NaturalWonderPopup.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/TechAwardPopup.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/TechAwardPopup.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/WonderPopup.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/WonderPopup.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/WhosWinningPopup.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/WhosWinningPopup.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/AINukes/AINukes.lua</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/AINukes/AINukes.xml</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/AINukesStrike/AINukesStrike.lua</File>
+    
+    
     
   </Files>
   <Actions>
@@ -4529,6 +4571,12 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <UpdateDatabase>Modules/EnemyPromotion/EnemyPromotion.sql</UpdateDatabase>
     <UpdateDatabase>Modules/EnemyPromotion/EnemyPromotion.xml</UpdateDatabase>
 
+    <UpdateDatabase>Modules/CSAirbases/XML/GlobalCityStateAirbases.xml</UpdateDatabase>
+
+    <UpdateDatabase>Modules/CrisisColdWar/CrisisColdWar_Text.xml</UpdateDatabase>
+
+    
+    
 
     </OnModActivated>	
   </Actions>
@@ -4617,7 +4665,43 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
       <Description>Army Pop Cost</Description>
     </EntryPoint>    
 
+    <EntryPoint type="InGameUIAddin" file="Modules/PuppetBuilder/PuppetBuilder.lua">
+      <Name>PuppetBuilder</Name>
+      <Description>Puppet Builder</Description>
+    </EntryPoint>    
+
+    <EntryPoint type="InGameUIAddin" file="Modules/AIThrottle/AIThrottle.lua">
+      <Name>AIThrottle</Name>
+      <Description>AI Throttle</Description>
+    </EntryPoint>    
+
+    <EntryPoint type="InGameUIAddin" file="Modules/CSAirbases/LUA/CityStateAirbases.lua">
+      <Name>CityStateAirbases</Name>
+      <Description>City State Airbases</Description>
+    </EntryPoint>   
+    
+    <EntryPoint type="InGameUIAddin" file="Modules/CSNeutral/CSNeutral.lua">
+      <Name>CSNeutral</Name>
+      <Description>CS Neutral</Description>
+    </EntryPoint>  
+
+    <EntryPoint type="InGameUIAddin" file="Modules/CrisisColdWar/CrisisColdWar.lua">
+      <Name>CrisisColdWar</Name>
+      <Description>Crisis Cold War</Description>
+    </EntryPoint>  
+
+    <EntryPoint type="InGameUIAddin" file="Modules/AINukes/AINukes.lua">
+      <Name>AINukes</Name>
+      <Description>AI Nukes</Description>
+    </EntryPoint>  
+
+    <EntryPoint type="InGameUIAddin" file="Modules/AINukesStrike/AINukesStrike.lua">
+      <Name>AINukesStrike</Name>
+      <Description>AI Nukes Strike</Description>
+    </EntryPoint>  
+
 		
+
     <EntryPoint type="InGameUIAddin" file="Lua/Maps/Terra.lua">
       <Name>Terra</Name>
       <Description>

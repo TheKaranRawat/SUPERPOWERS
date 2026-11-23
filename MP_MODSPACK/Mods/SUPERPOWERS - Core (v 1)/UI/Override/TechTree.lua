@@ -5,6 +5,25 @@
 -- fix escape/enter popup exit code
 -- support Technology_ORPrereqTechs in addition to Technology_PrereqTechs
 -- code is common except for vanila gk_mode needs to be set false
+--
+-- Added: fade + slide in from the bottom, fade + slide out on close
+--        (Esc / Enter / right click / mouse side button)
+-- Added: multiplayer / hot-seat safety and performance work (see notes in code)
+--==========================================================
+
+--==========================================================
+-- USER CONFIGURATION
+--==========================================================
+local TECH_TREE_ANIMATION = {
+	Enabled           = true,	-- false = open/close instantly, no animation
+	FadeInTime        = 0.3,	-- seconds to fade/slide in   (0 = instant)
+	FadeOutTime       = 0.3,	-- seconds to fade/slide out  (0 = instant)
+	SlideDistance     = 720,	-- pixels the panel travels. Positive = comes up from below, negative = comes down from above
+	BackdropSlides    = true,	-- true = the dark backdrop slides with the panel, false = it only fades
+	CloseOnRightClick = true,	-- right click on empty space closes the tech tree (right click on a tech still opens the Pedia)
+	CloseOnSideButton1 = true,	-- mouse side button 1 (usually "Back") closes the tech tree
+	CloseOnSideButton2 = false,	-- mouse side button 2 (usually "Forward") closes the tech tree
+}
 --==========================================================
 
 Events.SequenceGameInitComplete.Add(function()
@@ -70,6 +89,11 @@ local g_blockSpacingX = g_blockSizeX + 96
 local g_maxTechNameLength = 22 - Locale.Length(L"TXT_KEY_TURNS")
 
 local CloseTechTree
+
+-- popup / animation state
+local g_isShown = false	-- our context is queued in the popup manager (includes the fade-out)
+local g_isClosing = false	-- fade-out in progress; the game side of the popup is already released
+local g_needsFullRefresh = true	-- small buttons must be rebuilt on next open (active player changed)
 
 -------------------------------------------------
 -- Tech Pipe Management
@@ -181,6 +205,7 @@ end
 -------------------------------------------------
 
 local function TechSelected( techID )
+	if g_isClosing then return end	-- ignore clicks while fading out
 	if GameInfoTechnologies[ techID ] then
 		local activePlayer = Players[ Game.GetActivePlayer() ]
 		local shift = UIManager:GetShift()
@@ -219,106 +244,105 @@ end
 
 -------------------------------------------------
 -- Display Refresh
+-- Performance: per-player values are fetched once per refresh (not once per tech),
+-- and controls are only touched when their state actually changed.
+local STATE_RESEARCHED, STATE_FREE, STATE_CURRENT, STATE_AVAILABLE, STATE_UNAVAILABLE, STATE_LOCKED = 1, 2, 3, 4, 5, 6
+local g_techState = {}		-- techID -> STATE_*
+local g_techClickable = {}	-- techID -> boolean
+local g_techQueueText = {}	-- techID -> queue label text (nil = hidden)
+local g_techTurnText = {}	-- techID -> turns label text (false = hidden)
+local g_lastEra
+
 local function RefreshDisplay( isFullRefresh )
 
-	-- update the tech buttons
 	local currentEra = 0
-	local techID, thisTechButton, canResearchThisTech, turnText, researchPerTurn
-	local activePlayer = Players[Game.GetActivePlayer()]
+	local activePlayer = Players[ Game.GetActivePlayer() ]
 	local activeTeamTechs = Teams[ Game.GetActiveTeam() ]:GetTeamTechs()
+
+	-- values that are the same for every tech
+	local numFreeTechs = activePlayer:GetNumFreeTechs()
+	local currentResearchID = activePlayer:GetCurrentResearch()
+	local showTurns = g_scienceEnabled and activePlayer:GetScience() > 0
+	local hasResearchQueue = activePlayer:GetLengthResearchQueue() > 1
+	local stealingTeam = g_stealingTechTargetPlayer and Teams[ g_stealingTechTargetPlayer:GetTeam() ]
+	local isPickingFreeTech = g_stealingTechTargetPlayer or numFreeTechs > 0
+
 	for tech in GameInfoTechnologies() do
-		techID = tech.ID
-		thisTechButton = g_techButtons[ techID ]
-		canResearchThisTech = activePlayer:CanResearch( techID )
-		turnText = L( "TXT_KEY_STR_TURNS", activePlayer:GetResearchTurnsLeft( techID, true ) )
-		researchPerTurn = activePlayer:GetScience()
+		local techID = tech.ID
+		local thisTechButton = g_techButtons[ techID ]
 
 		-- Rebuild the small buttons if needed
 		if isFullRefresh then
 			AddSmallButtonsToTechButton( thisTechButton, tech, g_maxSmallButtons, 45 )
+			g_techClickable[ techID ] = nil	-- force callbacks to be registered again
 		end
 
-		local showAlreadyResearched, showFreeTech, showCurrentlyResearching, showAvailable, showUnavailable, showLocked, queueUpdate, queueText, turnLabel, isClickable
---[[
-		if canResearchThisTech then
-			for iAdvisorLoop = 0, AdvisorTypes.NUM_ADVISOR_TYPES - 1, 1 do
-				local pControl = nil;
-				if (iAdvisorLoop == AdvisorTypes.ADVISOR_ECONOMIC) then			
-					pControl = thisTechButtonInstance.EconomicRecommendation;
-				elseif (iAdvisorLoop == AdvisorTypes.ADVISOR_MILITARY) then
-					pControl = thisTechButtonInstance.MilitaryRecommendation;			
-				elseif (iAdvisorLoop == AdvisorTypes.ADVISOR_SCIENCE) then
-					pControl = thisTechButtonInstance.ScienceRecommendation;
-				elseif (iAdvisorLoop == AdvisorTypes.ADVISOR_FOREIGN) then
-					pControl = thisTechButtonInstance.ForeignRecommendation;
-				end
-			
-				if (pControl) then
-					pControl:SetHide(not Game.IsTechRecommended(tech.ID, iAdvisorLoop));
-				end
-			end
-		end
---]]
+		local state, turnLabel, queueText, queueUpdate, isClickable
+
 		if activeTeamTechs:HasTech( techID ) then
 		-- the active player already has this tech
-			showAlreadyResearched = true
+			state = STATE_RESEARCHED
 			-- update the era marker for this tech
 			local eraID = GameInfoTypes[tech.Era]
 			if eraID and currentEra < eraID then
 				currentEra = eraID
 			end
-
-		elseif g_stealingTechTargetPlayer or activePlayer:GetNumFreeTechs() > 0 then
-		-- Stealing a tech or Choosing a free tech
-			if canResearchThisTech and ( 
-				( g_stealingTechTargetPlayer and Teams[ g_stealingTechTargetPlayer:GetTeam() ]:IsHasTech( techID ) )
-				or (not g_stealingTechTargetPlayer and (not gk_mode or activePlayer:CanResearchForFree( techID ))) )
-			then
-				showFreeTech = true
-				turnLabel = thisTechButton.FreeTurns
-				queueText = freeString	-- update queue number to say "FREE"
-				isClickable = true
-			else
-				showLocked = true
-			end
-
-		-- the active player is currently researching this one
-		elseif activePlayer:GetCurrentResearch() == techID then
-			showCurrentlyResearching = true
-			turnLabel = thisTechButton.CurrentlyResearchingTurns
-			queueUpdate = activePlayer:GetLengthResearchQueue() > 1	-- update queue number if needed
-			isClickable = true -- to clear research queue
---[[
-			-- turn on the meter
-			local currentResearchProgress = activePlayer:GetResearchProgress( techID )
-			local researchNeeded = activePlayer:GetResearchCost( techID )
-			local currentResearchPlusThisTurn = currentResearchProgress + researchPerTurn
-			local researchProgressPercent = currentResearchProgress / researchNeeded
-			local researchProgressPlusThisTurnPercent = min( 1, currentResearchPlusThisTurn / researchNeeded )
---]]
-		-- the active player can research this one right now if he wants
-		elseif canResearchThisTech and g_scienceEnabled then
-			showAvailable = true
-			turnLabel = thisTechButton.AvailableTurns
-			queueUpdate = true	-- update queue number if needed
-			isClickable = true
-
-		elseif activePlayer:CanEverResearch( techID ) and g_scienceEnabled then
-		-- currently unavailable
-			showUnavailable = true
-			queueUpdate = true	-- update queue number if needed
-			turnLabel = thisTechButton.UnavailableTurns
-			isClickable = true  -- shift clickable
 		else
-			showLocked = true
+			local canResearchThisTech = activePlayer:CanResearch( techID )
+
+			if isPickingFreeTech then
+			-- Stealing a tech or Choosing a free tech
+				if canResearchThisTech and (
+					( stealingTeam and stealingTeam:IsHasTech( techID ) )
+					or ( not g_stealingTechTargetPlayer and ( not gk_mode or activePlayer:CanResearchForFree( techID ) ) ) )
+				then
+					state = STATE_FREE
+					turnLabel = thisTechButton.FreeTurns
+					queueText = freeString	-- update queue number to say "FREE"
+					isClickable = true
+				else
+					state = STATE_LOCKED
+				end
+
+			-- the active player is currently researching this one
+			elseif currentResearchID == techID then
+				state = STATE_CURRENT
+				turnLabel = thisTechButton.CurrentlyResearchingTurns
+				queueUpdate = hasResearchQueue	-- update queue number if needed
+				isClickable = true -- to clear research queue
+
+			-- the active player can research this one right now if he wants
+			elseif canResearchThisTech and g_scienceEnabled then
+				state = STATE_AVAILABLE
+				turnLabel = thisTechButton.AvailableTurns
+				queueUpdate = true	-- update queue number if needed
+				isClickable = true
+
+			elseif g_scienceEnabled and activePlayer:CanEverResearch( techID ) then
+			-- currently unavailable
+				state = STATE_UNAVAILABLE
+				queueUpdate = true	-- update queue number if needed
+				turnLabel = thisTechButton.UnavailableTurns
+				isClickable = true  -- shift clickable
+			else
+				state = STATE_LOCKED
+			end
 		end
-		thisTechButton.AlreadyResearched:SetHide( not showAlreadyResearched )
-		thisTechButton.FreeTech:SetHide( not showFreeTech )
-		thisTechButton.CurrentlyResearching:SetHide( not showCurrentlyResearching )
-		thisTechButton.Available:SetHide( not showAvailable )
-		thisTechButton.Unavailable:SetHide( not showUnavailable )
-		thisTechButton.Locked:SetHide( not showLocked )
-		if showLocked then
+
+		-- show only the panel for the current state
+		if g_techState[ techID ] ~= state then
+			g_techState[ techID ] = state
+			g_techTurnText[ techID ] = nil	-- the turns label is a different control now
+			thisTechButton.AlreadyResearched:SetHide( state ~= STATE_RESEARCHED )
+			thisTechButton.FreeTech:SetHide( state ~= STATE_FREE )
+			thisTechButton.CurrentlyResearching:SetHide( state ~= STATE_CURRENT )
+			thisTechButton.Available:SetHide( state ~= STATE_AVAILABLE )
+			thisTechButton.Unavailable:SetHide( state ~= STATE_UNAVAILABLE )
+			thisTechButton.Locked:SetHide( state ~= STATE_LOCKED )
+		end
+
+		-- queue number
+		if state == STATE_LOCKED then
 			queueText = lockedString	-- have queue number say "LOCKED"
 		elseif queueUpdate then
 			local queuePosition = activePlayer:GetQueuePosition( techID )
@@ -326,37 +350,53 @@ local function RefreshDisplay( isFullRefresh )
 				queueText = queuePosition
 			end
 		end
-		if queueText then
-			thisTechButton.TechQueueLabel:SetText( queueText )
-		end
-		thisTechButton.TechQueue:SetHide( not queueText )
-		if isClickable then
-			thisTechButton.TechButton:RegisterCallback( Mouse.eLClick, TechSelected )
-			for buttonNum = 1, g_maxSmallButtons do
-				thisTechButton["B"..buttonNum]:RegisterCallback( Mouse.eLClick, TechSelected )
+		if g_techQueueText[ techID ] ~= queueText then
+			g_techQueueText[ techID ] = queueText
+			if queueText then
+				thisTechButton.TechQueueLabel:SetText( queueText )
 			end
-		else
-			thisTechButton.TechButton:ClearCallback( Mouse.eLClick )
-			for buttonNum = 1, g_maxSmallButtons do
-				thisTechButton["B"..buttonNum]:ClearCallback( Mouse.eLClick )
-			end
+			thisTechButton.TechQueue:SetHide( not queueText )
 		end
-		if turnLabel then
-			if researchPerTurn > 0 and g_scienceEnabled then
-				turnLabel:SetText( turnText )
-				turnLabel:SetHide( false )
+
+		-- click handlers (only re-registered when clickability changes)
+		isClickable = isClickable and true or false
+		if g_techClickable[ techID ] ~= isClickable then
+			g_techClickable[ techID ] = isClickable
+			if isClickable then
+				thisTechButton.TechButton:RegisterCallback( Mouse.eLClick, TechSelected )
+				for buttonNum = 1, g_maxSmallButtons do
+					thisTechButton[ "B"..buttonNum ]:RegisterCallback( Mouse.eLClick, TechSelected )
+				end
 			else
-				turnLabel:SetHide( true )
+				thisTechButton.TechButton:ClearCallback( Mouse.eLClick )
+				for buttonNum = 1, g_maxSmallButtons do
+					thisTechButton[ "B"..buttonNum ]:ClearCallback( Mouse.eLClick )
+				end
+			end
+		end
+
+		-- turns label (the research-turns query is only made for techs that show it)
+		if turnLabel then
+			local turnText = showTurns and L( "TXT_KEY_STR_TURNS", activePlayer:GetResearchTurnsLeft( techID, true ) ) or false
+			if g_techTurnText[ techID ] ~= turnText then
+				g_techTurnText[ techID ] = turnText
+				if turnText then
+					turnLabel:SetText( turnText )
+				end
+				turnLabel:SetHide( not turnText )
 			end
 		end
 	end
 
 	-- update the era panels
-	for eraID, eraBlock in pairs( g_eraBlocks ) do
-		eraBlock.OldBar:SetHide( eraID >= currentEra )
-		eraBlock.CurrentBlock:SetHide( eraID ~= currentEra )
-		eraBlock.CurrentTop:SetHide( eraID ~= currentEra )
-		eraBlock.FutureBlock:SetHide( eraID <= currentEra )
+	if isFullRefresh or g_lastEra ~= currentEra then
+		g_lastEra = currentEra
+		for eraID, eraBlock in pairs( g_eraBlocks ) do
+			eraBlock.OldBar:SetHide( eraID >= currentEra )
+			eraBlock.CurrentBlock:SetHide( eraID ~= currentEra )
+			eraBlock.CurrentTop:SetHide( eraID ~= currentEra )
+			eraBlock.FutureBlock:SetHide( eraID <= currentEra )
+		end
 	end
 end
 
@@ -458,102 +498,255 @@ Controls.EraStack:ReprocessAnchoring()
 Controls.TechTreeScrollPanel:CalculateInternalSize()
 
 -------------------------------------------------
--- Close Tech Tree
+-- Open / close animation
+-- Driven by a per-frame update that is ONLY registered while animating.
+-- The animation is purely visual (local UI): it never touches game state,
+-- so it cannot cause a multiplayer desync.
 -------------------------------------------------
-CloseTechTree = function()
+local g_backdrop = Controls.Backdrop		-- dim layer: fades (and slides if BackdropSlides)
+local g_slideRoot = Controls.SlideRoot		-- tech tree: fades and slides
+local g_animProgress = 0	-- 0 = hidden, 1 = fully shown
+local g_animDir = 0		-- 1 = opening, -1 = closing, 0 = idle
+local g_lastAlpha, g_lastOffset
+
+local floor = math.floor
+
+local function ApplyAnimation()
+	local p = g_animProgress
+	local e = p * p * (3 - 2 * p)	-- smoothstep easing, symmetric so it can reverse mid-animation
+	local offset = floor( (1 - e) * TECH_TREE_ANIMATION.SlideDistance + 0.5 )
+	if e ~= g_lastAlpha then
+		g_lastAlpha = e
+		g_backdrop:SetAlpha( e )
+		g_slideRoot:SetAlpha( e )
+	end
+	if offset ~= g_lastOffset then
+		g_lastOffset = offset
+		g_slideRoot:SetOffsetVal( 0, offset )
+		g_backdrop:SetOffsetVal( 0, TECH_TREE_ANIMATION.BackdropSlides and offset or 0 )
+	end
+end
+
+-- Release the game side of the popup. Safe to call more than once.
+local function ReleasePopup()
 	if g_popupInfoType then
-		Events.SerialEventGameMessagePopupProcessed.CallImmediate(g_popupInfoType, 0)
+		Events.SerialEventGameMessagePopupProcessed.CallImmediate( g_popupInfoType, 0 )
 		g_popupInfoType = false
 		UI.decTurnTimerSemaphore()
 	end
 	g_stealingTechTargetPlayerID, g_stealingTechTargetPlayer = -1
-	UIManager:DequeuePopup( ContextPtr )
 end
-Controls.CloseButton:RegisterCallback( Mouse.eLClick, CloseTechTree )
+
+-- Remove our context from the popup manager once it is fully faded out.
+local function FinishClose()
+	ContextPtr:ClearUpdate()
+	g_animDir = 0
+	g_animProgress = 0
+	g_isClosing = false
+	ApplyAnimation()
+	if g_isShown then
+		g_isShown = false
+		UIManager:DequeuePopup( ContextPtr )
+	end
+end
+
+local function OnUpdate( fDTime )
+	if fDTime > 0.1 then fDTime = 0.1 end	-- a frame hitch must not skip the animation
+	local cfg = TECH_TREE_ANIMATION
+	if g_animDir > 0 then
+		g_animProgress = g_animProgress + fDTime / cfg.FadeInTime
+		if g_animProgress >= 1 then
+			g_animProgress = 1
+			g_animDir = 0
+			ContextPtr:ClearUpdate()	-- nothing runs per frame while the screen is idle
+		end
+		ApplyAnimation()
+	elseif g_animDir < 0 then
+		g_animProgress = g_animProgress - fDTime / cfg.FadeOutTime
+		if g_animProgress <= 0 then
+			return FinishClose()
+		end
+		ApplyAnimation()
+	else
+		ContextPtr:ClearUpdate()
+	end
+end
+
+-- Returns true if the animation completed immediately (disabled / zero time)
+local function StartAnimation( dir )
+	local cfg = TECH_TREE_ANIMATION
+	local duration = dir > 0 and cfg.FadeInTime or cfg.FadeOutTime
+	if not cfg.Enabled or not duration or duration <= 0 then
+		g_animDir = 0
+		g_animProgress = dir > 0 and 1 or 0
+		ContextPtr:ClearUpdate()
+		ApplyAnimation()
+		return true
+	end
+	g_animDir = dir
+	ContextPtr:SetUpdate( OnUpdate )
+	return false
+end
+
+-------------------------------------------------
+-- Close Tech Tree
+-- The game side (popup processed, turn timer) is released immediately, so a
+-- fade-out can never hold up the popup queue or the multiplayer turn timer.
+-- instant = true skips the animation (active player change, forced hide)
+-------------------------------------------------
+CloseTechTree = function( instant )
+	if g_isClosing and not instant then return end	-- already closing
+	ReleasePopup()
+	if not g_isShown then return end
+	if instant then
+		return FinishClose()
+	end
+	g_isClosing = true
+	if StartAnimation( -1 ) then
+		return FinishClose()
+	end
+end
+Controls.CloseButton:RegisterCallback( Mouse.eLClick, function() return CloseTechTree() end )
+
+-- Another popup (e.g. the Civilopedia opened by right clicking a tech) hides this context while the
+-- tech tree is still logically open. Keep all state untouched while hidden and restore it on show.
+local g_hiddenByOtherPopup = false
+ContextPtr:SetShowHideHandler( function( isHide )
+	if isHide then
+		ContextPtr:ClearUpdate()	-- no per-frame updates while hidden
+		g_hiddenByOtherPopup = g_isShown
+	elseif g_isShown and g_hiddenByOtherPopup then
+		g_hiddenByOtherPopup = false
+		if g_isClosing then
+			return FinishClose()	-- it was closing when hidden: finish now
+		end
+		-- shown again: snap to fully visible (an animation may have been interrupted)
+		g_animDir = 0
+		g_animProgress = 1
+		ApplyAnimation()
+	end
+end)
 
 -------------------------------------------------
 -- Open Tech Tree
 AddSerialEventGameMessagePopup( function( popupInfo )
-	if popupInfo.Type == ButtonPopupTypes.BUTTONPOPUP_CHOOSETECH then
-		g_stealingTechTargetPlayerID = -1
-	elseif popupInfo.Type == ButtonPopupTypes.BUTTONPOPUP_TECH_TREE or popupInfo.Type == ButtonPopupTypes.BUTTONPOPUP_CHOOSE_TECH_TO_STEAL then
-		g_stealingTechTargetPlayerID = gk_mode and popupInfo.Data2 or -1
+	local popupType = popupInfo.Type
+	local targetPlayerID
+	if popupType == ButtonPopupTypes.BUTTONPOPUP_CHOOSETECH then
+		targetPlayerID = -1
+	elseif popupType == ButtonPopupTypes.BUTTONPOPUP_TECH_TREE or popupType == ButtonPopupTypes.BUTTONPOPUP_CHOOSE_TECH_TO_STEAL then
+		targetPlayerID = gk_mode and popupInfo.Data2 or -1
 	else
 		return
 	end
-	g_stealingTechTargetPlayer = Players[ g_stealingTechTargetPlayerID ]
 
 	Events.SerialEventGameMessagePopupShown( popupInfo )
 
-	if g_popupInfoType then
+	if g_popupInfoType and not g_isClosing then
+		-- already open: the same hotkey toggles it closed
 		return CloseTechTree()
-	else
-		g_popupInfoType = popupInfo.Type
-		UIManager:QueuePopup( ContextPtr, PopupPriority_InGameUtmost )
-		UI.incTurnTimerSemaphore()
-		-- initialize scrollbar position
-		if Controls.TechTreeScrollPanel:GetScrollValue() == 0 then
-			local pPlayer = Players[Game.GetActivePlayer()]
-			local techID = pPlayer:GetCurrentResearch()
-			local dx = 0
-			if techID < 0 then
-				techID = Teams[pPlayer:GetTeam()]:GetTeamTechs():GetLastTechAcquired()
-				dx = 1
-			end
-			local tech = GameInfoTechnologies[techID]
-			local x = tech and tech.GridX
-			if x then
-				Controls.TechTreeScrollPanel:SetScrollValue( min(1,max(0,( (x + dx)*g_blockSpacingX/Controls.TechTreeScrollPanel:GetSizeX() - 0.5) / max(1,1/Controls.TechTreeScrollPanel:GetRatio() - 1) ) ) )
-			end
-		end
-		return RefreshDisplay()
 	end
+
+	g_stealingTechTargetPlayerID = targetPlayerID
+	g_stealingTechTargetPlayer = targetPlayerID and targetPlayerID >= 0 and Players[ targetPlayerID ] or nil
+
+	g_popupInfoType = popupType
+	UI.incTurnTimerSemaphore()
+
+	if g_isShown then
+		-- re-opened while fading out: our context is still queued, just fade back in from where we are
+		g_isClosing = false
+	else
+		g_isShown = true
+		g_animProgress = 0
+		ApplyAnimation()	-- start fully transparent so there is no one-frame flash
+		UIManager:QueuePopup( ContextPtr, PopupPriority_InGameUtmost )
+	end
+	StartAnimation( 1 )
+
+	-- initialize scrollbar position
+	if Controls.TechTreeScrollPanel:GetScrollValue() == 0 then
+		local pPlayer = Players[Game.GetActivePlayer()]
+		local techID = pPlayer:GetCurrentResearch()
+		local dx = 0
+		if techID < 0 then
+			techID = Teams[pPlayer:GetTeam()]:GetTeamTechs():GetLastTechAcquired()
+			dx = 1
+		end
+		local tech = GameInfoTechnologies[techID]
+		local x = tech and tech.GridX
+		if x then
+			Controls.TechTreeScrollPanel:SetScrollValue( min(1,max(0,( (x + dx)*g_blockSpacingX/Controls.TechTreeScrollPanel:GetSizeX() - 0.5) / max(1,1/Controls.TechTreeScrollPanel:GetRatio() - 1) ) ) )
+		end
+	end
+
+	local isFullRefresh = g_needsFullRefresh
+	g_needsFullRefresh = false
+	return RefreshDisplay( isFullRefresh )
 end, ButtonPopupTypes.BUTTONPOPUP_TECH_TREE, ButtonPopupTypes.BUTTONPOPUP_CHOOSETECH, ButtonPopupTypes.BUTTONPOPUP_CHOOSE_TECH_TO_STEAL )
 
-Events.SerialEventResearchDirty.Add( RefreshDisplay )
+-- Research changes happen constantly (every turn, every AI/player action that dirties research).
+-- Nothing is visible while closed, and the next open does a full refresh anyway.
+Events.SerialEventResearchDirty.Add( function()
+	if g_isShown and not g_isClosing then
+		return RefreshDisplay()
+	end
+end)
 
 -------------------------------------------------
--- Key Down Processing
+-- Input Processing
 do
-    local VK_RETURN = Keys.VK_RETURN
-    local VK_ESCAPE = Keys.VK_ESCAPE
-    local KeyDown = KeyEvents.KeyDown
-    local WM_XBUTTONDOWN = 523
+	local VK_RETURN = Keys.VK_RETURN
+	local VK_ESCAPE = Keys.VK_ESCAPE
+	local KeyDown = KeyEvents.KeyDown
+	local RButtonUp = MouseEvents and MouseEvents.RButtonUp
+	local WM_XBUTTONDOWN = 523
 
-    ContextPtr:SetInputHandler( function( uiMsg, wParam )
-        if uiMsg == KeyDown then
-            if wParam == VK_ESCAPE or wParam == VK_RETURN then
-                CloseTechTree()
-            end
-            return true
+	ContextPtr:SetInputHandler( function( uiMsg, wParam )
+		local cfg = TECH_TREE_ANIMATION
+		if uiMsg == KeyDown then
+			if wParam == VK_ESCAPE or wParam == VK_RETURN then
+				CloseTechTree()
+			end
+			return true
 
-        -- mouse side button closes the tech screen
-        elseif uiMsg == WM_XBUTTONDOWN then
-            local xButton = math.floor( wParam / 65536 ) % 256   -- high word
-            if xButton == 0 then xButton = wParam end            -- fallback if already unpacked
-            if xButton == 1 then   -- same button as end turn; use 1 for the other one
-                CloseTechTree()
-                return true
-            end
-        end
-    end)
+		-- right click on empty space closes the tech screen
+		-- (right clicking a tech is consumed by the tech button and opens the Pedia instead)
+		elseif RButtonUp and uiMsg == RButtonUp then
+			if cfg.CloseOnRightClick then
+				CloseTechTree()
+				return true
+			end
+
+		-- mouse side buttons close the tech screen
+		elseif uiMsg == WM_XBUTTONDOWN then
+			local xButton = floor( wParam / 65536 ) % 256   -- high word
+			if xButton == 0 then xButton = wParam end            -- fallback if already unpacked
+			if ( xButton == 1 and cfg.CloseOnSideButton1 ) or ( xButton == 2 and cfg.CloseOnSideButton2 ) then
+				CloseTechTree()
+				return true
+			end
+		end
+	end)
 end
 
 -------------------------------------------------
 -- Initialize active player data
+-- The (expensive) rebuild of every tech's small buttons is deferred until the
+-- screen is actually opened, so it does not slow down game load / player switches.
 local function InitActivePlayerData()
 	-- make TechButtonInclude gather info about this active player's unique units and buldings
 	local civ = GameInfo.Civilizations[Players[ Game.GetActivePlayer() ]:GetCivilizationType()]
 	GatherInfoAboutUniqueStuff( civ and civ.Type )
-	return RefreshDisplay( true )
+	g_needsFullRefresh = true
 end
 InitActivePlayerData()
 
 Events.GameplaySetActivePlayer.Add( function()
-	-- So some extra stuff gets re-built on the refresh call
-	if g_popupInfoType then
-		CloseTechTree() -- so the next active player does not have to
-	end
+	-- hot seat / observer switch: drop the screen at once (no animation) so the next player never sees it,
+	-- and reset every cached control state because they all belong to the previous player
+	CloseTechTree( true )
+	g_techState, g_techClickable, g_techQueueText, g_techTurnText = {}, {}, {}, {}
 	InitActivePlayerData()
 end)
 

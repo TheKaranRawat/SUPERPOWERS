@@ -7,7 +7,7 @@
 
   <Box Style="BGBlock_ClearTopBar" />
 
-  <Grid Size="560,530" Anchor="C,C" Offset="0,56" Padding="20,50" Style="Grid9DetailFive140" ConsumeMouse="0" ID="OuterGrid" >
+  <Grid Size="560,560" Anchor="C,C" Offset="0,56" Padding="20,15" Style="Grid9DetailFive140" ConsumeMouse="0" ID="OuterGrid" >
 
     <!--NEEDS TO BE DELETED -->
     <Image Anchor="L,B" Offset="-18,-12" Texture="TechAtlasSmall.dds" Size="64.64" ID="TechIconFrame" Hidden="1"  />
@@ -17,7 +17,7 @@
     <!--=======================================================================================================================-->
 
     <Image Anchor="C,T" AnchorSide="I.O"  Offset="0,-50" Texture="Assets/UI/Art/Controls/TechPopupTop300.dds" Size="300.200" >
-      <Image Anchor="C,C" Offset="0,14" TextureOffset="0.0" Texture="TechnologyAtlas1024.dds" Size="128.128" ID="TechIcon" />
+      <Image Anchor="C,C" Offset="0,-28" TextureOffset="0.0" Texture="TechnologyAtlas1024.dds" Size="256.256" ID="TechIcon" />
     </Image>
 
     <!-- Side treatments -->
@@ -54,7 +54,7 @@
         <Button NoStateChange="1"  Anchor="C,C" Size="64,64" Texture="TechnologyAtlas512.dds" ID="B5" Hidden="0"/>
       </Stack>
       <Box Anchor="C,C"  Offset="0,0"   Size="500,30" Color="White.0" />
-      <Label Anchor="C,C"  Offset="0,0"  WrapWidth="500" Font="TwCenMT20" LeadingOffset="-4"  ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="." ID="TechHelp"/>
+      <Label Anchor="C,C"  Offset="0,0"  WrapWidth="500" Font="TwCenMT20" LeadingOffset="-4"  ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="." ID="TechHelp" Hidden="1" />
       <Box Anchor="C,C"  Offset="0,0"   Size="500,30" Color="White.0" />
 
     </Stack>

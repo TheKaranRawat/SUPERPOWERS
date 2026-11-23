@@ -137,7 +137,7 @@
 		<Row>
 			<Class>UNITCLASS_EXPLORERX</Class>
 			<Type>UNIT_EXPLORERX</Type>
-			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
+			<PrereqTech>TECH_COMBUSTION</PrereqTech>
 			<ObsoleteTech>TECH_FLIGHT</ObsoleteTech>
 			<BaseSightRange>4</BaseSightRange>
 			<Combat>15</Combat>
@@ -169,6 +169,7 @@
 			<Class>UNITCLASS_EXPLORERX</Class>
 			<Type>UNIT_SPANISH_CONQUISTADOR</Type>
 			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
+			<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
 			<BaseSightRange>4</BaseSightRange>
 			<Combat>40</Combat>
 			<Cost>180</Cost>

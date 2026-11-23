@@ -464,7 +464,7 @@ local EVENTS = {
     
     { id = "UNIT_ICBM_MISSILE",
     kind = "UNIT", key = "UNIT_ICBM_MISSILE",           -- shows the Knight's own icon
-    title = "Floating Fortresses Sighted",
+    title = "Nuclear Hellfire",
     desc  = "A blinding flash sparked across the entire sky, and in that moment everyone knew, civilization on Earth had retreated a thousand years." },
 
       --[[
@@ -593,7 +593,7 @@ local WORLD = {
     },
 
     CAPTURE = {
-        enabled = true, scope = "ALL", includeCityStates = true,
+        enabled = true, scope = "ALL", includeCityStates = false,
         -- SerialEventCityCaptured(hexPos, oldOwnerID, cityID, newOwnerID). If old / new show up
         -- swapped in your game, set this to false.
         oldOwnerIsFirst = true,

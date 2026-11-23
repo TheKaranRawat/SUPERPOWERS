@@ -14,9 +14,9 @@
 				<PopulationUnhappinessMod>20</PopulationUnhappinessMod>
 				<Gold>0</Gold>
 				<GoldFreeUnits>0</GoldFreeUnits>
-				<ProductionFreeUnits>10</ProductionFreeUnits>
-				<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent>
-				<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity>
+				<ProductionFreeUnits>5</ProductionFreeUnits>
+				<ProductionFreeUnitsPopulationPercent>5</ProductionFreeUnitsPopulationPercent>
+				<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity>
 				<RouteCostPercent>100</RouteCostPercent>
 				<UnitCostPercent>100</UnitCostPercent>
 				<BuildingCostPercent>100</BuildingCostPercent>
@@ -69,9 +69,9 @@
 				<PopulationUnhappinessMod>40</PopulationUnhappinessMod>
 				<Gold>0</Gold>
 				<GoldFreeUnits>0</GoldFreeUnits>
-				<ProductionFreeUnits>10</ProductionFreeUnits>
-				<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent>
-				<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity>
+				<ProductionFreeUnits>5</ProductionFreeUnits>
+				<ProductionFreeUnitsPopulationPercent>5</ProductionFreeUnitsPopulationPercent>
+				<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity>
 				<RouteCostPercent>100</RouteCostPercent>
 				<UnitCostPercent>100</UnitCostPercent>
 				<BuildingCostPercent>100</BuildingCostPercent>
@@ -122,9 +122,9 @@
 				<PopulationUnhappinessMod>60</PopulationUnhappinessMod>
 				<Gold>0</Gold>
 				<GoldFreeUnits>0</GoldFreeUnits>
-				<ProductionFreeUnits>10</ProductionFreeUnits>
-				<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent>
-				<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity>
+				<ProductionFreeUnits>5</ProductionFreeUnits>
+				<ProductionFreeUnitsPopulationPercent>5</ProductionFreeUnitsPopulationPercent>
+				<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity>
 				<RouteCostPercent>100</RouteCostPercent>
 				<UnitCostPercent>100</UnitCostPercent>
 				<BuildingCostPercent>100</BuildingCostPercent>
@@ -159,7 +159,7 @@
 				<AIWorldCreatePercent>100</AIWorldCreatePercent>
 				<AIBuildingCostPercent>66</AIBuildingCostPercent>
 				<AIUnitCostPercent>100</AIUnitCostPercent>
-				<AIUnitSupplyPercent>5</AIUnitSupplyPercent>
+				<AIUnitSupplyPercent>0</AIUnitSupplyPercent>
 				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-1</AIPerEraModifier>
@@ -181,9 +181,9 @@
 				<PopulationUnhappinessMod>80</PopulationUnhappinessMod>
 				<Gold>0</Gold>
 				<GoldFreeUnits>0</GoldFreeUnits>
-				<ProductionFreeUnits>10</ProductionFreeUnits>
-				<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent>
-				<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity>
+				<ProductionFreeUnits>5</ProductionFreeUnits>
+				<ProductionFreeUnitsPopulationPercent>5</ProductionFreeUnitsPopulationPercent>
+				<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity>
 				<RouteCostPercent>100</RouteCostPercent>
 				<UnitCostPercent>100</UnitCostPercent>
 				<BuildingCostPercent>100</BuildingCostPercent>
@@ -239,9 +239,9 @@
 				<PopulationUnhappinessMod>100</PopulationUnhappinessMod>
 				<Gold>0</Gold>
 				<GoldFreeUnits>0</GoldFreeUnits>
-				<ProductionFreeUnits>10</ProductionFreeUnits>
-				<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent>
-				<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity>
+				<ProductionFreeUnits>5</ProductionFreeUnits>
+				<ProductionFreeUnitsPopulationPercent>5</ProductionFreeUnitsPopulationPercent>
+				<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity>
 				<RouteCostPercent>100</RouteCostPercent>
 				<UnitCostPercent>100</UnitCostPercent>
 				<BuildingCostPercent>100</BuildingCostPercent>
@@ -278,7 +278,7 @@
 				<AIWorldCreatePercent>100</AIWorldCreatePercent>
 				<AIBuildingCostPercent>40</AIBuildingCostPercent>
 				<AIUnitCostPercent>100</AIUnitCostPercent>
-				<AIUnitSupplyPercent>15</AIUnitSupplyPercent>
+				<AIUnitSupplyPercent>10</AIUnitSupplyPercent>
 				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-5</AIPerEraModifier>
@@ -300,9 +300,9 @@
 				<PopulationUnhappinessMod>120</PopulationUnhappinessMod>
 				<Gold>0</Gold>
 				<GoldFreeUnits>10</GoldFreeUnits>
-				<ProductionFreeUnits>10</ProductionFreeUnits>
-				<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent>
-				<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity>
+				<ProductionFreeUnits>5</ProductionFreeUnits>
+				<ProductionFreeUnitsPopulationPercent>5</ProductionFreeUnitsPopulationPercent>
+				<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity>
 				<RouteCostPercent>100</RouteCostPercent>
 				<UnitCostPercent>100</UnitCostPercent>
 				<BuildingCostPercent>100</BuildingCostPercent>
@@ -338,7 +338,7 @@
 				<AIWorldCreatePercent>140</AIWorldCreatePercent>
 				<AIBuildingCostPercent>40</AIBuildingCostPercent>
 				<AIUnitCostPercent>45</AIUnitCostPercent>
-				<AIUnitSupplyPercent>25</AIUnitSupplyPercent>
+				<AIUnitSupplyPercent>15</AIUnitSupplyPercent>
 				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-7</AIPerEraModifier>
@@ -360,9 +360,9 @@
 				<PopulationUnhappinessMod>150</PopulationUnhappinessMod>
 				<Gold>0</Gold>
 				<GoldFreeUnits>15</GoldFreeUnits>
-				<ProductionFreeUnits>10</ProductionFreeUnits>
-				<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent>
-				<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity>
+				<ProductionFreeUnits>5</ProductionFreeUnits>
+				<ProductionFreeUnitsPopulationPercent>5</ProductionFreeUnitsPopulationPercent>
+				<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity>
 				<RouteCostPercent>100</RouteCostPercent>
 				<UnitCostPercent>120</UnitCostPercent>
 				<BuildingCostPercent>100</BuildingCostPercent>
@@ -398,7 +398,7 @@
 				<AIWorldCreatePercent>100</AIWorldCreatePercent>
 				<AIBuildingCostPercent>50</AIBuildingCostPercent>
 				<AIUnitCostPercent>50</AIUnitCostPercent>
-				<AIUnitSupplyPercent>25</AIUnitSupplyPercent>
+				<AIUnitSupplyPercent>15</AIUnitSupplyPercent>
 				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-9</AIPerEraModifier>
@@ -420,9 +420,9 @@
 				<PopulationUnhappinessMod>200</PopulationUnhappinessMod>
 				<Gold>0</Gold>
 				<GoldFreeUnits>0</GoldFreeUnits>
-				<ProductionFreeUnits>20</ProductionFreeUnits>
-				<ProductionFreeUnitsPopulationPercent>8</ProductionFreeUnitsPopulationPercent>
-				<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity>
+				<ProductionFreeUnits>5</ProductionFreeUnits>
+				<ProductionFreeUnitsPopulationPercent>5</ProductionFreeUnitsPopulationPercent>
+				<ProductionFreeUnitsPerCity>2</ProductionFreeUnitsPerCity>
 				<RouteCostPercent>100</RouteCostPercent>
 				<UnitCostPercent>200</UnitCostPercent>
 				<BuildingCostPercent>150</BuildingCostPercent>
@@ -458,7 +458,7 @@
 				<AIWorldCreatePercent>100</AIWorldCreatePercent>
 				<AIBuildingCostPercent>50</AIBuildingCostPercent>
 				<AIUnitCostPercent>50</AIUnitCostPercent>
-				<AIUnitSupplyPercent>25</AIUnitSupplyPercent>
+				<AIUnitSupplyPercent>20</AIUnitSupplyPercent>
 				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-10</AIPerEraModifier>

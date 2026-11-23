@@ -1,4 +1,4 @@
--- Grants PROMOTION_ENEMY_WAR_FURY to every military unit an AI city trains or buys.
+-- Grants PROMOTION_ENEMY_WAR_FURY to every military unit an AI city trains or buys. Gives 30% combat strength vs units/cities
 
 local PROMO_ID = GameInfoTypes.PROMOTION_ENEMY_WAR_FURY
 if PROMO_ID == nil then return end   -- DB entry failed to load; do nothing

@@ -10,6 +10,17 @@
 			<Value>1</Value>
 		</Row>
 		-->
+		<!-- SMART AI -->
+		<Update>
+			<Where Name="AI_SMART_V3"/>
+			<Set Value="1"/>
+		</Update>
+		
+		<!-- Stops the AI from adding zero-value items (eg late game horses) into trade offers -->
+		<Update>
+			<Where Name="AI_NO_ZERO_VALUE_TRADE_ITEMS"/>
+			<Set Value="1"/>
+		</Update>
 
 		<Update>
 			<Where Name="GLOBAL_STACKING_RULES"/>
@@ -17,6 +28,21 @@
 		</Update>
 		<Update>
 			<Where Name="BUGFIX_CITY_STACKING"/>
+			<Set Value="1"/>
+		</Update>
+
+		<Update>
+			<Where Name="GLOBAL_CS_OVERSEAS_TERRITORY"/>
+			<Set Value="1"/>
+		</Update>
+
+		<Update>
+			<Where Name="GLOBAL_RELIGIOUS_SETTLERS"/>
+			<Set Value="1"/>
+		</Update>
+
+		<Update>
+			<Where Name="GLOBAL_CS_UPGRADES"/>
 			<Set Value="1"/>
 		</Update>
 
@@ -34,12 +60,20 @@
 			<Where Name="RELIGION_BASE_CHANCE_PROPHET_SPAWN"/>
 			<Set Value="100"/>
 		</Update>
-		
 
+		<Update>
+			<Where Name="GREAT_PERSON_THRESHOLD_BASE"/>
+			<Set Value="100"/>
+		</Update>
+
+		<Update>
+			<Where Name="GREAT_PERSON_THRESHOLD_INCREASE"/>
+			<Set Value="200"/>
+		</Update>
 			
 		<!--Global Units per Plot and City Range 4 -->
 		<Update>
-			<Set Value="2"/>
+			<Set Value="3"/>
 			<Where Name="PLOT_UNIT_LIMIT" />
 		</Update>
 		<Update>
@@ -220,7 +254,7 @@
 
 		<!-- City Damage-->
 		<Update>
-			<Set Value="50"/>
+			<Set Value="100"/>
 			<Where Name="NUKE_FALLOUT_PROB" />
 		</Update>
 		<Update>
@@ -448,7 +482,7 @@
 			<Where Name="MAX_EVASION_PROBABILITY" />
 		</Update>
 		<Update>
-			<Set Value="2"/>
+			<Set Value="8"/>
 			<Where Name="CITY_MIN_SIZE_FOR_SETTLERS" />
 		</Update>
 		<Update>
@@ -467,6 +501,24 @@
 			<Set Value="90"/>
 			<Where Name="SETTLER_DISTANCE_DROPOFF_MODIFIER" />
 		</Update>
+
+		<Update>
+			<Set Value="30"/>
+			<Where Name="AI_STRATEGY_AREA_IS_FULL_PERCENT" />
+		</Update>
+
+		<Update>
+			<Set Value="-10000" /><!-- original: -1000 - going to -5000 made no difference to settling -->
+			<Where name="ALREADY_OWNED_STRATEGIC_VALUE" />
+		</Update>
+
+		<!--
+		<Update>
+			<Set Value="-800"/>
+			<Where Name="ALREADY_OWNED_STRATEGIC_VALUE" />
+		</Update>
+		-->
+
 		<Update>
 			<Set Value="60"/>
 			<Where Name="COMBAT_CAPTURE_MAX_CHANCE" />
@@ -836,10 +888,6 @@
 		<Update>
 			<Set Value="1"/>
 			<Where Name="BUILD_ON_RESOURCE_PERCENT" />
-		</Update>
-		<Update>
-			<Set Value="-800"/>
-			<Where Name="ALREADY_OWNED_STRATEGIC_VALUE" />
 		</Update>
 		<Update>
 			<Where Name="CITY_RING_1_MULTIPLIER" />

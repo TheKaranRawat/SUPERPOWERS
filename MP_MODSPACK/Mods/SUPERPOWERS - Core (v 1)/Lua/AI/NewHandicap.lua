@@ -19,7 +19,7 @@ local CONFIG = {
 
 	-- Optional safety valve: stop spawning free escorts once an AI owns this many
 	-- military units. nil = unlimited (original behaviour).
-	MaxMilitaryForFreeEscorts = nil,
+	MaxMilitaryForFreeEscorts = 30,
 }
 
 local handicap = Game:GetHandicapType()

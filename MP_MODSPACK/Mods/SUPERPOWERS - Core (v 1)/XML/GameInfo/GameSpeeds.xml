@@ -12,7 +12,7 @@
 		</Update>
 		<Update>
 			<Set DealDuration="30" GrowthPercent="120" TrainPercent="250" ConstructPercent="300" CreatePercent="120" ResearchPercent="200"
-				 GoldPercent="115" BuildPercent="115" ImprovementPercent="100" GreatPeoplePercent="115" CulturePercent="110" FaithPercent="100" BarbPercent="40"
+				 GoldPercent="115" BuildPercent="115" ImprovementPercent="100" GreatPeoplePercent="180" CulturePercent="110" FaithPercent="100" BarbPercent="40"
 			 FeatureProductionPercent="90" UnitHurryPercent="150" UnitTradePercent="125" GoldenAgePercent="120" MinorCivElectionFreqMod="80"
 				 OpinionDurationPercent="50" SpyRatePercent="100" RelationshipDuration="50" LeaguePercent="100" ReligiousPressureAdjacentCity="100"
 			GoldGiftMod="25" PeaceDealDuration="20" />
@@ -20,7 +20,7 @@
 		</Update>
 		<Update>
 			<Set DealDuration="30" GrowthPercent="100" TrainPercent="200" ConstructPercent="300" CreatePercent="100" ResearchPercent="150"
-				 GoldPercent="100" ImprovementPercent="85" GreatPeoplePercent="100" CulturePercent="100" FaithPercent="85" BarbPercent="40"
+				 GoldPercent="100" ImprovementPercent="85" GreatPeoplePercent="150" CulturePercent="100" FaithPercent="85" BarbPercent="40"
 			 FeatureProductionPercent="70" UnitHurryPercent="100" UnitTradePercent="100" GoldenAgePercent="100" MinorCivElectionFreqMod="80"
 				 OpinionDurationPercent="50" SpyRatePercent="100" RelationshipDuration="50" LeaguePercent="80" ReligiousPressureAdjacentCity="150"
 			GoldGiftMod="25" PeaceDealDuration="20" />

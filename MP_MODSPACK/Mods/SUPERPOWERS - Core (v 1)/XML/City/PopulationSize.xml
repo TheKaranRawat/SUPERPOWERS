@@ -241,31 +241,31 @@
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_MEDIUM</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>9</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_LARGE</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>11</Quantity>
+			<Quantity>4</Quantity>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_XL</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>14</Quantity>
+			<Quantity>6</Quantity>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_XXL</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>20</Quantity>
+			<Quantity>6</Quantity>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_CITY_SIZE_GLOBAL</BuildingType>
 			<ResourceType>RESOURCE_MANPOWER</ResourceType>
-			<Quantity>20</Quantity>
+			<Quantity>8</Quantity>
 		</Row>
 
 	</Building_ResourceQuantity>
@@ -1602,7 +1602,9 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>SPBuildings_ATLAS</IconAtlas>
 			<PortraitIndex>16</PortraitIndex>
+			<!--
 			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			-->
 			<TradeRouteLandGoldBonus>5000</TradeRouteLandGoldBonus>
 			<TradeRouteSeaGoldBonus>2000</TradeRouteSeaGoldBonus>
 			<TradeRouteRecipientBonus>30</TradeRouteRecipientBonus>
