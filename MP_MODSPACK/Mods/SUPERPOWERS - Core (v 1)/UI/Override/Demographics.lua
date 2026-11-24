@@ -1,8 +1,20 @@
 -- Demographics popup: optimized pass (based on bc1's version)
+-- + fade/slide open & close animation, right-click to close
 do
 
 include "IconHookup"
 local CivIconHookup = CivIconHookup
+
+--==========================================================
+-- USER CONFIGURATION
+--==========================================================
+local SLIDE_DURATION  = 0.25   -- seconds the slide takes (0 = no slide)
+local SLIDE_DISTANCE  = 60     -- pixels the panel travels (0 = no slide)
+local SLIDE_DIRECTION = "up"   -- where the panel slides in FROM: "up", "down", "left", "right"
+                               --   "up"   = starts above its resting place and slides down into it
+                               --   "down" = starts below and slides up
+local FADE_DURATION   = 0.20   -- seconds the fade takes (0 = no fade)
+-- Closing uses the same settings, played in reverse.
 
 --==========================================================
 -- Minor lua optimizations
@@ -145,11 +157,135 @@ local function RefreshScreen()
 end
 
 --==========================================================
+-- Open / close animation (fade + slide)
+--==========================================================
+-- Every control in this list is animated together, each from its own resting
+-- offset (captured once so we can always return to it exactly).
+--   "InGameSet" = the panel frame (also holds the close button, civ icon and title)
+--   "BigStack"  = the column headers + data rows (lives in a separate container)
+-- BGBlock (the dimming backdrop) is deliberately NOT listed, so it stays static.
+-- If some part of the panel still stays put, add its control ID here.
+local ANIMATED_CONTROL_IDS = { "BigStack", "InGameSet" }
+
+local m_AnimControls = {}
+for _, id in ipairs( ANIMATED_CONTROL_IDS ) do
+	local ctrl = Controls[ id ]
+	if ctrl then
+		local x, y = ctrl:GetOffsetVal()
+		m_AnimControls[ #m_AnimControls + 1 ] = { control = ctrl, baseX = x or 0, baseY = y or 0 }
+	end
+end
+
+-- Unit vector pointing from the resting place to the slide start position
+local m_DirX, m_DirY = 0, 0
+do
+	local dir = string.lower( SLIDE_DIRECTION or "up" )
+	if     dir == "up"    then m_DirY = -1
+	elseif dir == "down"  then m_DirY =  1
+	elseif dir == "left"  then m_DirX = -1
+	elseif dir == "right" then m_DirX =  1
+	else                       m_DirY = -1 end
+end
+
+local m_Anim = nil -- nil when idle, otherwise { mode = "in"|"out", t = elapsed seconds }
+local m_TotalAnimTime = math_max( SLIDE_DURATION, FADE_DURATION, 0 )
+
+-- ease-out cubic: fast start, gentle landing (used for both directions
+-- since closing is simply the same curve run in reverse)
+local function Ease( x )
+	if x <= 0 then return 0 end
+	if x >= 1 then return 1 end
+	local inv = 1 - x
+	return 1 - inv * inv * inv
+end
+
+local function Progress( elapsed, duration )
+	if duration <= 0 then return 1 end
+	return math_min( 1, elapsed / duration )
+end
+
+-- shown: 0 = fully hidden/offset, 1 = fully visible/at rest
+local function ApplyAnimState( fadeShown, slideShown )
+	local away = SLIDE_DISTANCE * ( 1 - slideShown )
+	for i = 1, #m_AnimControls do
+		local a = m_AnimControls[i]
+		a.control:SetAlpha( fadeShown )
+		a.control:SetOffsetVal( a.baseX + m_DirX * away, a.baseY + m_DirY * away )
+	end
+end
+
+local function ResetAnimState()
+	m_Anim = nil
+	ContextPtr:ClearUpdate()
+	ApplyAnimState( 1, 1 )
+end
+
+local function OnAnimUpdate( deltaTime )
+	if not m_Anim then
+		ContextPtr:ClearUpdate()
+		return
+	end
+	m_Anim.t = m_Anim.t + deltaTime
+	local fade  = Ease( Progress( m_Anim.t, FADE_DURATION ) )
+	local slide = Ease( Progress( m_Anim.t, SLIDE_DURATION ) )
+	local finished = m_Anim.t >= m_TotalAnimTime
+
+	if m_Anim.mode == "in" then
+		ApplyAnimState( fade, slide )
+		if finished then
+			ResetAnimState()
+		end
+	else -- "out"
+		ApplyAnimState( 1 - fade, 1 - slide )
+		if finished then
+			ResetAnimState()
+			UIManager:DequeuePopup( ContextPtr ) -- hide handler does the rest
+		end
+	end
+end
+
+local function StartAnim( mode )
+	if m_TotalAnimTime <= 0 then
+		ResetAnimState()
+		return false
+	end
+	m_Anim = { mode = mode, t = 0 }
+	if mode == "in" then
+		ApplyAnimState( 0, 0 ) -- start from hidden so there's no one-frame flash
+	elseif ContextPtr:GetID() ~= "EndGameDemographics" then
+		-- the replay viewer panel is overlaid on this screen: have it fade out in sync
+		LuaEvents.ReplayViewerAnimateOut()
+	end
+	ContextPtr:SetUpdate( OnAnimUpdate )
+	return true
+end
+
+--==========================================================
+-- Closing
+--==========================================================
+-- Immediate close (no animation): used when the screen must vanish at once,
+-- e.g. hotseat player change.
+local function ClosePopupNow()
+	ResetAnimState()
+	UIManager:DequeuePopup( ContextPtr )
+end
+
+-- Animated close: plays the fade/slide out, then dequeues.
+local function ClosePopup()
+	if ContextPtr:IsHidden() then return end
+	if m_Anim and m_Anim.mode == "out" then return end -- already closing
+	if not StartAnim( "out" ) then
+		UIManager:DequeuePopup( ContextPtr )
+	end
+end
+
+--==========================================================
 -- Show / hide
 --==========================================================
 ContextPtr:SetShowHideHandler( function( isHide, isInit )
 	if isInit then return end
 	if isHide then
+		ResetAnimState() -- never leave the panel faded/offset for the next open
 		Events.SerialEventGameMessagePopupProcessed.CallImmediate( BUTTONPOPUP_DEMOGRAPHICS, 0 )
 		if m_IsShown then -- balanced: exactly one dec per inc, one Remove per Add
 			m_IsShown = false
@@ -169,6 +305,7 @@ ContextPtr:SetShowHideHandler( function( isHide, isInit )
 			Events.SerialEventGameMessagePopupShown( m_PopupInfo )
 		end
 		RefreshScreen()
+		StartAnim( "in" )
 		if m_ReplayContext then
 			m_ReplayContext:ChangeParent( ContextPtr )
 			m_ReplayContext:SetHide( false )
@@ -181,18 +318,18 @@ ContextPtr:SetShowHideHandler( function( isHide, isInit )
 	end
 end )
 
-local function ClosePopup()
-	UIManager:DequeuePopup( ContextPtr )
-end
-
 if ContextPtr:GetID() == "EndGameDemographics" then
 	Controls.BGBlock:SetHide( true )
 	Controls.InGameSet:SetHide( true )
 else
 	m_ReplayContext = ContextPtr:LookUpControl( "../EndGameMenu/EndGameReplay" )
+	-- right-click inside the replay viewer overlay asks us to close (ClosePopup ignores repeats)
+	LuaEvents.ReplayViewerRequestClose.Add( ClosePopup )
 	local VK_RETURN = Keys.VK_RETURN
 	local VK_ESCAPE = Keys.VK_ESCAPE
 	local KeyDown = KeyEvents.KeyDown
+	local RButtonDown = MouseEvents.RButtonDown
+	local RButtonUp = MouseEvents.RButtonUp
 	local WM_XBUTTONDOWN = 523
 
 	ContextPtr:SetInputHandler( function( uiMsg, wParam )
@@ -200,6 +337,13 @@ else
 			if wParam == VK_ESCAPE or wParam == VK_RETURN then
 				ClosePopup()
 			end
+			return true
+
+		-- right click closes the popup (swallow the press too so it doesn't leak to the map)
+		elseif uiMsg == RButtonDown then
+			return true
+		elseif uiMsg == RButtonUp then
+			ClosePopup()
 			return true
 
 		-- mouse side button closes the popup
@@ -231,6 +375,6 @@ else
 end
 
 Controls.BackButton:RegisterCallback( Mouse.eLClick, ClosePopup )
--- Hotseat/MP: close when the active player changes so one player's data isn't shown to the next
-Events.GameplaySetActivePlayer.Add( ClosePopup )
+-- Hotseat/MP: close immediately when the active player changes so one player's data isn't shown to the next
+Events.GameplaySetActivePlayer.Add( ClosePopupNow )
 end

@@ -4002,8 +4002,26 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/WhosWinningPopup.xml</File>
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/WhosWinningPopup.lua</File>
 
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/MilitaryOverview.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/MilitaryOverview.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/DiploOverview.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/DiploOverview.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/NotificationLogPopup.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/NotificationLogPopup.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/VictoryProgress.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/VictoryProgress.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/LeagueOverview.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/LeagueOverview.lua</File>
+
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/AINukes/AINukes.lua</File>
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/AINukes/AINukes.xml</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/AutoCityProduction/AutoCityProduction.lua</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/AutoCityProduction/AutoCityProduction.xml</File>
 
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/AINukesStrike/AINukesStrike.lua</File>
     
@@ -4698,6 +4716,11 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     <EntryPoint type="InGameUIAddin" file="Modules/AINukesStrike/AINukesStrike.lua">
       <Name>AINukesStrike</Name>
       <Description>AI Nukes Strike</Description>
+    </EntryPoint>  
+    
+    <EntryPoint type="InGameUIAddin" file="Modules/AutoCityProduction/AutoCityProduction.lua">
+      <Name>AutoCityProduction</Name>
+      <Description>Automate Production</Description>
     </EntryPoint>  
 
 		

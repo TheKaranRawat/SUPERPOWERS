@@ -911,11 +911,11 @@
 		
 
 		<Replace Tag="TXT_KEY_UNIT_WARRIOR">
-			<Text>[ICON_SHIELD] [COLOR_MAGENTA]Warrior[ENDCOLOR]</Text>
+			<Text>[ICON_SHIELD] [COLOR_YIELD_FOOD]Warrior[ENDCOLOR]</Text>
 		</Replace>
 		
 		<Row Tag="TXT_KEY_UNIT_MILITIA_ANCIENT">
-			<Text>[ICON_SHIELD] [COLOR_MAGENTA]Militia[ENDCOLOR]</Text>
+			<Text>[ICON_SHIELD] [COLOR_YIELD_FOOD]Militia[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_MILITIA_ANCIENT_HEADING">
@@ -928,15 +928,15 @@
 
 		
 		<Replace Tag="TXT_KEY_UNIT_AMERICAN_MINUTEMAN">
-			<Text>[ICON_SHIELD] [COLOR_MAGENTA]Minuteman[ENDCOLOR]</Text>
+			<Text>[ICON_SHIELD] [COLOR_YIELD_FOOD]Minuteman[ENDCOLOR]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR">
-			<Text>[ICON_CAPITAL] [COLOR_MAGENTA]Mohawk Warrior[ENDCOLOR]</Text>
+			<Text>[ICON_CAPITAL] [COLOR_YIELD_FOOD]Mohawk Warrior[ENDCOLOR]</Text>
 		</Replace>
 		
 		
 		<Row Tag="TXT_KEY_UNIT_CONSCRIPTMAN">
-			<Text>[ICON_SHIELD] [COLOR_MAGENTA]Conscript[ENDCOLOR]</Text>
+			<Text>[ICON_SHIELD] [COLOR_YIELD_FOOD]Conscript[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CONSCRIPTMAN_HEADING">
@@ -948,7 +948,7 @@
 
 		
 		<Row Tag="TXT_KEY_UNIT_MILITIA_MODERN">
-			<Text>[ICON_SHIELD] [COLOR_MAGENTA]Territorial Army[ENDCOLOR]</Text>
+			<Text>[ICON_SHIELD] [COLOR_YIELD_FOOD]Territorial Army[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_MILITIA_MODERN_TEXT">
 			<Text>Territorial Armies serve as the auxiliary  modern national defense force.</Text>
@@ -1719,7 +1719,7 @@
 
 		<!-- *************************Sea Units****************************-->
 		<Row Tag="TXT_KEY_UNIT_NAVAL_MILITIA">
-			<Text>[ICON_ANCHOR] [COLOR_MAGENTA]Galley[ENDCOLOR]</Text>
+			<Text>[ICON_ANCHOR] [COLOR_YIELD_FOOD]Galley[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_NAVAL_MILITIA_HEADING">
@@ -1731,7 +1731,7 @@
 
 
 		<Row Tag="TXT_KEY_UNIT_MONITOR_SHIP">
-			<Text>[ICON_ANCHOR] [COLOR_MAGENTA]Monitor[ENDCOLOR]</Text>
+			<Text>[ICON_ANCHOR] [COLOR_YIELD_FOOD]Monitor[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_MONITOR_SHIP_HEADING">
@@ -1742,7 +1742,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_CORVETTE">
-			<Text>[ICON_ANCHOR] [COLOR_MAGENTA]Corvette[ENDCOLOR]</Text>
+			<Text>[ICON_ANCHOR] [COLOR_YIELD_FOOD]Corvette[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CORVETTE_HEADING">
@@ -1753,7 +1753,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_LITTORAL_COMBAT_SHIP">
-			<Text>[ICON_ANCHOR] [COLOR_MAGENTA]Modern Corvette[ENDCOLOR]</Text>
+			<Text>[ICON_ANCHOR] [COLOR_YIELD_FOOD]Modern Corvette[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_LITTORAL_COMBAT_SHIP_HEADING">
@@ -2115,7 +2115,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_UNIT_DANISH_ABSALON">
-			<Text>[ICON_CAPITAL] [COLOR_MAGENTA]Absalon-class Frigate[ENDCOLOR]</Text>
+			<Text>[ICON_CAPITAL] [COLOR_YIELD_FOOD]Absalon-class Frigate[ENDCOLOR]</Text>
 			<Plurality>2</Plurality>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_DANISH_ABSALON_HEADING">
@@ -4110,7 +4110,7 @@
 			<Text>Incite Rebellion</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SP_FORCE_2_HELP">
-			<Text>[ICON_BULLET]Cause 1 turn Chaos in the target City when attacking the enemy [COLOR_POSITIVE_TEXT]City[ENDCOLOR] (the effect can multiply). [NEWLINE][ICON_BULLET]If the target City is without a garrison, cause 250 Damage instantly to the city.</Text>
+			<Text>[ICON_BULLET]Cause 1 turn Chaos in the target City when attacking the enemy [COLOR_POSITIVE_TEXT]City[ENDCOLOR] (the effect can multiply). [NEWLINE][ICON_BULLET]If the target City is without a garrison, cause 150 Damage instantly to the city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SP_FORCE_3">
 			<Text>Shock and Awe</Text>

@@ -10,6 +10,19 @@ local g_iAITeam = -1;
 
 local g_DiploUIState = -1;
 
+----------------------------------------------------------------
+-- CONFIGURATION (seconds; set to 0 to disable a fade)
+----------------------------------------------------------------
+local FADE_IN_SECONDS  = 0.6;
+local FADE_OUT_SECONDS = 0.4;
+
+-- Fade the 3D leader/background scene too (via a black layer behind the UI)
+local FADE_BACKGROUND = true;
+
+local g_bSceneShown = false;     -- leader scene already faded in (avoids a black dip when returning from Trade/Discuss)
+local g_bClosing = false;        -- true while the fade-out is running
+local g_fFadeOutElapsed = 0;
+
 local g_iRootMode = 0;
 local g_iTradeMode = 1;
 local g_iDiscussionMode = 2;
@@ -21,6 +34,78 @@ local bonusPadding = 16
 local innerFrameWidth = 654;
 local outerFrameWidth = 650;
 local offsetsBetweenFrames = 4;
+
+----------------------------------------------------------------        
+-- FADE HELPERS
+-- Purely cosmetic and local: nothing here touches game state or sends network
+-- messages, so it cannot desync. The only gameplay call (RequestLeaveLeader)
+-- is made exactly once, after the fade-out finishes.
+-- The per-frame update handler is only installed while fading out.
+----------------------------------------------------------------        
+local function SetAnimSpeed( anim, seconds )
+	-- Anim "Speed" is 1/duration. pcall so a missing method falls back to the XML default.
+	if seconds > 0 then
+		pcall( anim.SetSpeed, anim, 1 / seconds );
+	end
+end
+
+local function PlayFadeIn()
+	-- Background layer: only when the leader view is freshly opened
+	Controls.OverlayOutAnim:Stop();
+	Controls.OverlayOutAnim:SetToBeginning();		-- clear
+	Controls.OverlayInAnim:Stop();
+	Controls.OverlayInAnim:SetToBeginning();		-- black
+	if FADE_BACKGROUND and not g_bSceneShown and FADE_IN_SECONDS > 0 then
+		SetAnimSpeed( Controls.OverlayInAnim, FADE_IN_SECONDS );
+		Controls.OverlayInAnim:Play();
+	else
+		Controls.OverlayInAnim:SetToEnd();			-- clear
+	end
+	g_bSceneShown = true;
+	
+	Controls.FadeOutAnim:Stop();
+	Controls.FadeOutAnim:SetToBeginning();		-- alpha 1
+	Controls.FadeInAnim:Stop();
+	Controls.FadeInAnim:SetToBeginning();		-- alpha 0
+	if FADE_IN_SECONDS > 0 then
+		SetAnimSpeed( Controls.FadeInAnim, FADE_IN_SECONDS );
+		Controls.FadeInAnim:Play();
+	else
+		Controls.FadeInAnim:SetToEnd();
+	end
+end
+
+local function CancelClose()
+	if g_bClosing then
+		g_bClosing = false;
+		ContextPtr:ClearUpdate();
+		Controls.FadeOutAnim:Stop();
+		Controls.FadeOutAnim:SetToBeginning();	-- back to fully visible
+		Controls.OverlayOutAnim:Stop();
+		Controls.OverlayOutAnim:SetToBeginning();	-- background clear again
+	end
+end
+
+-- Dequeue the popup; optionally tell the game we are leaving the leader view
+local function FinishClose( bRequestLeave )
+	g_bClosing = false;
+	g_bSceneShown = false;
+	ContextPtr:ClearUpdate();
+	Controls.OverlayOutAnim:Stop();
+	Controls.OverlayOutAnim:SetToBeginning();
+	UIManager:DequeuePopup( ContextPtr );
+	UI.SetLeaderHeadRootUp( false );
+	if bRequestLeave then
+		UI.RequestLeaveLeader();
+	end
+end
+
+local function OnFadeOutUpdate( fDTime )
+	g_fFadeOutElapsed = g_fFadeOutElapsed + fDTime;
+	if g_fFadeOutElapsed >= FADE_OUT_SECONDS then
+		FinishClose( true );
+	end
+end
 
 ----------------------------------------------------------------        
 -- LEADER MESSAGE HANDLER
@@ -44,7 +129,7 @@ function LeaderMessageHandler( iPlayer, iDiploUIState, szLeaderMessage, iAnimati
 	local strTitleText = GameplayUtilities.GetLocalizedLeaderTitle(player);
 	Controls.TitleText:SetText(strTitleText);
 	
-	playerLeaderInfo = GameInfo.Leaders[player:GetLeaderType()];
+	local playerLeaderInfo = GameInfo.Leaders[player:GetLeaderType()];
 	
 	-- Mood
 	local iApproach = pActivePlayer:GetApproachTowardsUsGuess(g_iAIPlayer);
@@ -54,7 +139,7 @@ function LeaderMessageHandler( iPlayer, iDiploUIState, szLeaderMessage, iAnimati
 		strMoodText = Locale.ConvertTextKey( "TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_WAR" );
 	elseif (Players[g_iAIPlayer]:IsDenouncingPlayer(Game.GetActivePlayer())) then
 		strMoodText = Locale.ConvertTextKey( "TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_DENOUNCING" );	
-	elseif (Players[g_iAIPlayer]:WasResurrectedThisTurnBy(iActivePlayer)) then
+	elseif (Players[g_iAIPlayer]:WasResurrectedThisTurnBy(Game.GetActivePlayer())) then
 		strMoodText = Locale.ConvertTextKey( "TXT_KEY_DIPLO_MAJOR_CIV_DIPLO_STATE_LIBERATED" );		
 	else
 		if( iApproach == MajorCivApproachTypes.MAJOR_CIV_APPROACH_WAR ) then
@@ -88,7 +173,8 @@ function LeaderMessageHandler( iPlayer, iDiploUIState, szLeaderMessage, iAnimati
 		bMyMode = true;
 	end
 	
-	print("Handling LeaderMessage: " .. iDiploUIState .. ", ".. szLeaderMessage);
+	-- A new message while fading out means the screen is still wanted: cancel the close
+	CancelClose();
 	
 	-- Are we in this screen's mode?
 	if (bMyMode) then					
@@ -114,10 +200,27 @@ Events.AILeaderMessage.Add( LeaderMessageHandler );
 -- BACK
 ----------------------------------------------------------------        
 function OnReturn()
-	--UI.SetNextGameState( GameStates.MainGameView, g_iAIPlayer );
-    UIManager:DequeuePopup( ContextPtr );
-	UI.SetLeaderHeadRootUp( false );
-	UI.RequestLeaveLeader();
+	if g_bClosing then
+		return;		-- already fading out; ignore repeated clicks / keypresses
+	end
+	
+	-- Nothing visible to fade (e.g. a sub-screen is up) or fade disabled: close immediately
+	if FADE_OUT_SECONDS <= 0 or Controls.RootOptions:IsHidden() or ContextPtr:IsHidden() then
+		FinishClose( true );
+		return;
+	end
+	
+	g_bClosing = true;
+	g_fFadeOutElapsed = 0;
+	SetAnimSpeed( Controls.FadeOutAnim, FADE_OUT_SECONDS );
+	Controls.FadeOutAnim:SetToBeginning();
+	Controls.FadeOutAnim:Play();
+	if FADE_BACKGROUND then
+		SetAnimSpeed( Controls.OverlayOutAnim, FADE_OUT_SECONDS );
+		Controls.OverlayOutAnim:SetToBeginning();
+		Controls.OverlayOutAnim:Play();
+	end
+	ContextPtr:SetUpdate( OnFadeOutUpdate );
 end
 Controls.BackButton:RegisterCallback( Mouse.eLClick, OnReturn );
 
@@ -125,11 +228,9 @@ Controls.BackButton:RegisterCallback( Mouse.eLClick, OnReturn );
 ----------------------------------------------------------------        
 ----------------------------------------------------------------        
 function OnLeavingLeader()
-    -- we shouldn't be able to leave without this already being set to false, 
-    -- but just in case...
-	UI.SetLeaderHeadRootUp( false );
-		
-    UIManager:DequeuePopup( ContextPtr );
+    -- The game is leaving leader mode (e.g. turn change, war declared): close now, no fade,
+    -- and do not request leave again.
+	FinishClose( false );
 end
 Events.LeavingLeaderViewMode.Add( OnLeavingLeader );
 
@@ -160,6 +261,11 @@ function OnShowHide( bHide )
 			Controls.DemandButton:SetHide(true);
 		else
 			Controls.DemandButton:SetHide(false);
+		end
+		
+		-- Fade in only when the root options are what is being shown
+		if (UI.GetLeaderHeadRootUp()) then
+			PlayFadeIn();
 		end
 		
 		oldCursor = UIManager:SetUICursor(0); -- make sure we start with the default cursor
@@ -206,6 +312,7 @@ function OnShowHide( bHide )
 		
 	-- Hiding Screen
 	else
+		CancelClose();
 		UIManager:SetUICursor(oldCursor); -- make sure we retrun the cursor to the previous state
 		--Controls.LeaderSpeech:SetText( g_strLeaveScreenText );		-- Seed the text box with something reasonable so that we don't get leftovers from somewhere else
 		LuaEvents.LeaderStatsHide()
@@ -253,6 +360,7 @@ ContextPtr:SetInputHandler( InputHandler );
 ----------------------------------------------------------------        
 ----------------------------------------------------------------        
 function OnDiscuss()
+	if g_bClosing then return; end
 	Controls.LeaderSpeech:SetText( g_strLeaveScreenText );		-- Seed the text box with something reasonable so that we don't get leftovers from somewhere else
 		
 	Game.DoFromUIDiploEvent( FromUIDiploEventTypes.FROM_UI_DIPLO_EVENT_HUMAN_WANTS_DISCUSSION, g_iAIPlayer, 0, 0 );
@@ -263,6 +371,7 @@ Controls.DiscussButton:RegisterCallback( Mouse.eLClick, OnDiscuss );
 ----------------------------------------------------------------        
 ----------------------------------------------------------------        
 function OnTrade()
+	if g_bClosing then return; end
 	-- This calls into CvDealAI and sets up the initial state of the UI
 	Players[g_iAIPlayer]:DoTradeScreenOpened();
 	
@@ -276,6 +385,7 @@ Controls.TradeButton:RegisterCallback( Mouse.eLClick, OnTrade );
 ----------------------------------------------------------------        
 ----------------------------------------------------------------        
 function OnDemand()
+	if g_bClosing then return; end
 	
 	Controls.LeaderSpeech:SetText( g_strLeaveScreenText );		-- Seed the text box with something reasonable so that we don't get leftovers from somewhere else
 	
@@ -287,6 +397,7 @@ Controls.DemandButton:RegisterCallback( Mouse.eLClick, OnDemand );
 ----------------------------------------------------------------        
 ----------------------------------------------------------------        
 function OnWarOrPeace()
+	if g_bClosing then return; end
 	
     local bAtWar = Teams[Game.GetActiveTeam()]:IsAtWar(g_iAITeam);
     

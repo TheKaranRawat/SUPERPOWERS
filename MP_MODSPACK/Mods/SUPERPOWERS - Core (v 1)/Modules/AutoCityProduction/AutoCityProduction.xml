@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Overlay shown only while the city screen is open. Adjust Anchor/Offset to move the checkbox. -->
+<Context Name="AutoCityProduction" ColorSet="Beige_Black_Alpha" Style="Grey9Alpha" FontStyle="Base">
+    <Container ID="ButtonContainer" Anchor="C,T" Offset="180,127" Size="270,36" ConsumeMouse="0">
+        <CheckBox ID="AutoCityCheckbox" Anchor="C,C" Offset="0,0" String="Automate City" LeadingOffset="-10" WrapWidth="250" ConsumeMouse="1" />
+    </Container>
+</Context>

@@ -68,7 +68,9 @@
 	</Instance>
 
 	<Box Style="BGBlock_ClearTopBar" />
-	<Grid Size="990,653" Anchor="C,C" Offset="0,6" Padding="0,0" Style="Grid9DetailFive140">
+	<AlphaAnim ID="FadeAnim" Anchor="C,C" Size="990,653" Offset="0,6" Cycle="Once" Speed="4" AlphaStart="0" AlphaEnd="1">
+	<SlideAnim ID="SlideAnim" Anchor="C,C" Size="990,653" Cycle="Once" Speed="3" Start="0,60" End="0,0">
+	<Grid Size="990,653" Anchor="C,C" Offset="0,0" Padding="0,0" Style="Grid9DetailFive140">
 
 		<!-- Decoration -->
 		<!-- Top -->
@@ -254,4 +256,6 @@
 			</GridButton>
 		</Box>
 	</Grid>
+	</SlideAnim>
+	</AlphaAnim>
 </Context>

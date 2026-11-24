@@ -1,5 +1,6 @@
 --==========================================================
 -- Re-written by bc1 using Notepad++
+-- + fade/slide open & close animation, right-click to close
 --==========================================================
 
 do
@@ -14,6 +15,17 @@ include "GameCalendarUtilities.lua"
 local GetShortDateString = GetShortDateString
 
 include "StackInstanceManager"
+
+--==========================================================
+-- USER CONFIGURATION
+--==========================================================
+-- Keep these identical to the values in Demographics.lua so the two
+-- panels animate in sync when this viewer is shown inside that screen.
+local SLIDE_DURATION  = 0.25   -- seconds the slide takes (0 = no slide)
+local SLIDE_DISTANCE  = 60     -- pixels the panel travels (0 = no slide)
+local SLIDE_DIRECTION = "up"   -- edge it slides in from: "up", "down", "left", "right"
+local FADE_DURATION   = 0.20   -- seconds the fade takes (0 = no fade)
+-- Closing uses the same settings, played in reverse.
 
 --==========================================================
 -- Minor lua optimizations
@@ -151,6 +163,115 @@ local g_CurrentPanelIndex = 1 -- demographics
 local g_ReplayInfoPulldown = Controls.ReplayInfoPulldown
 local g_ReplayInfoPulldownButton = g_ReplayInfoPulldown:GetButton()
 
+--==========================================================
+-- Open / close animation (fade + slide)
+--==========================================================
+-- The context has a single per-frame update callback, which the mouse
+-- crosshair also needs. So both share ONE dispatcher (OnUpdate) and
+-- the callback is only installed while something needs it.
+local m_AnimControl = Controls.MainPanel
+local m_BaseX, m_BaseY = m_AnimControl:GetOffsetVal()
+m_BaseX, m_BaseY = m_BaseX or 0, m_BaseY or 0
+
+-- Unit vector pointing from the resting place to the slide start position
+local m_DirX, m_DirY = 0, 0
+do
+	local dir = string.lower( SLIDE_DIRECTION or "up" )
+	if     dir == "up"    then m_DirY = -1
+	elseif dir == "down"  then m_DirY =  1
+	elseif dir == "left"  then m_DirX = -1
+	elseif dir == "right" then m_DirX =  1
+	else                       m_DirY = -1 end
+end
+
+local m_Anim = nil               -- nil when idle, otherwise { mode = "in"|"out", t = seconds, onDone = fn }
+local m_Closing = false          -- true from the start of a close animation until the screen hides
+local m_CrosshairActive = false  -- mouse crosshair needs the update callback
+local m_TotalAnimTime = math.max( SLIDE_DURATION, FADE_DURATION, 0 )
+local MoveMouseCrossHairs        -- assigned further down
+
+-- ease-out cubic; closing is the same curve run in reverse
+local function Ease( x )
+	if x <= 0 then return 0 end
+	if x >= 1 then return 1 end
+	local inv = 1 - x
+	return 1 - inv * inv * inv
+end
+
+local function Progress( elapsed, duration )
+	if duration <= 0 then return 1 end
+	return math.min( 1, elapsed / duration )
+end
+
+-- shown: 0 = fully hidden/offset, 1 = fully visible/at rest
+local function ApplyAnimState( fadeShown, slideShown )
+	m_AnimControl:SetAlpha( fadeShown )
+	local away = SLIDE_DISTANCE * ( 1 - slideShown )
+	m_AnimControl:SetOffsetVal( m_BaseX + m_DirX * away, m_BaseY + m_DirY * away )
+end
+
+local function OnUpdate( deltaTime )
+	local anim = m_Anim
+	if anim then
+		anim.t = anim.t + deltaTime
+		local fade  = Ease( Progress( anim.t, FADE_DURATION ) )
+		local slide = Ease( Progress( anim.t, SLIDE_DURATION ) )
+		local finished = anim.t >= m_TotalAnimTime
+		if anim.mode == "in" then
+			ApplyAnimState( fade, slide )
+			if finished then
+				m_Anim = nil
+				ApplyAnimState( 1, 1 )
+			end
+		else -- "out": stay fully hidden until the hide handler resets us
+			ApplyAnimState( 1 - fade, 1 - slide )
+			if finished then
+				m_Anim = nil
+				if anim.onDone then anim.onDone() end
+			end
+		end
+	end
+	if m_CrosshairActive and MoveMouseCrossHairs then
+		MoveMouseCrossHairs()
+	end
+	if not m_Anim and not m_CrosshairActive then
+		ContextPtr:ClearUpdate()
+	end
+end
+
+local function ResetAnimState()
+	m_Anim = nil
+	m_Closing = false
+	ApplyAnimState( 1, 1 )
+	if not m_CrosshairActive then
+		ContextPtr:ClearUpdate()
+	end
+end
+
+local function StartAnim( mode, onDone )
+	if m_TotalAnimTime <= 0 then
+		ResetAnimState()
+		return false
+	end
+	m_Anim = { mode = mode, t = 0, onDone = onDone }
+	m_Closing = ( mode == "out" )
+	if mode == "in" then
+		ApplyAnimState( 0, 0 ) -- start hidden so there's no one-frame flash
+	end
+	ContextPtr:SetUpdate( OnUpdate )
+	return true
+end
+
+local function SetCrosshairUpdate( active )
+	m_CrosshairActive = active
+	if active then
+		ContextPtr:SetUpdate( OnUpdate )
+	elseif not m_Anim then
+		ContextPtr:ClearUpdate()
+	end
+end
+
+--==========================================================
 local function DrawReplayMap( percent )
 	local currentTurn
 	if tonumber(percent) then
@@ -704,7 +825,10 @@ if Game then
 end
 
 --==========================================================
-local function OnBack()
+-- Closing
+--==========================================================
+-- Immediate close (the original OnBack)
+local function OnBackNow()
 	UIManager:DequeuePopup( ContextPtr )
 	-- Dump tables
 	g_GraphReplayData = {}
@@ -712,6 +836,14 @@ local function OnBack()
 	g_PlayerInfo = nil
 	g_ReplayMessages = nil
 	collectgarbage()
+end
+
+-- Animated close: fade/slide out, then do the real close
+local function OnBack()
+	if ContextPtr:IsHidden() or m_Closing then return end
+	if not StartAnim( "out", OnBackNow ) then
+		OnBackNow()
+	end
 end
 
 local function OnPausePlay()
@@ -725,7 +857,7 @@ end
 --==========================================================
 local function SetCurrentPanel( panelIndex )
 	g_CurrentPanelIndex = panelIndex
-	ContextPtr:ClearUpdate()
+	SetCrosshairUpdate( false ) -- was ContextPtr:ClearUpdate(); must not kill a running animation
 	Controls.MapTimer:Stop()
 	for i, panel in pairs( Panels ) do
 		if i==panelIndex then
@@ -769,8 +901,9 @@ end
 --==========================================================
 -- Initialization
 --==========================================================
-ContextPtr:SetShowHideHandler( function( isHide )
-	ContextPtr:ClearUpdate()
+ContextPtr:SetShowHideHandler( function( isHide, isInit )
+	m_CrosshairActive = false
+	ResetAnimState() -- never leave the panel faded/offset between openings
 	Controls.MapTimer:Stop()
 	if Game then
 		if isHide then
@@ -780,14 +913,27 @@ ContextPtr:SetShowHideHandler( function( isHide )
 			Events.NewGameTurn.Add( RefreshPanels )
 		end
 	end
+	if not isHide and not isInit then
+		StartAnim( "in" )
+	end
 end)
 
--- Key Down Processing
+-- Demographics.lua tells us when its close animation starts so this overlay fades out in sync.
+-- (Demographics does the actual dequeue, which hides this context and resets it.)
+LuaEvents.ReplayViewerAnimateOut.Add( function()
+	if Game and not ContextPtr:IsHidden() and not m_Closing then
+		StartAnim( "out" )
+	end
+end )
+
+-- Input Processing
 do
 	local VK_RETURN = Keys.VK_RETURN
 	local VK_ESCAPE = Keys.VK_ESCAPE
 	local VK_SPACE = Keys.VK_SPACE
 	local KeyDown = KeyEvents.KeyDown
+	local RButtonDown = MouseEvents.RButtonDown
+	local RButtonUp = MouseEvents.RButtonUp
 	ContextPtr:SetInputHandler( function( uiMsg, wParam )
 		if uiMsg == KeyDown then
 			if wParam == VK_SPACE then
@@ -797,6 +943,18 @@ do
 				OnBack()
 				return true
 			end
+
+		-- right click closes the screen (swallow the press so it doesn't leak through)
+		elseif uiMsg == RButtonDown then
+			return true
+		elseif uiMsg == RButtonUp then
+			if Game then
+				-- in-game, this viewer is overlaid on the Demographics popup, which owns closing
+				LuaEvents.ReplayViewerRequestClose()
+			else
+				OnBack()
+			end
+			return true
 		end
 	end)
 end
@@ -843,7 +1001,8 @@ local yAbsoluteOffset = screenY * 0.5 - Controls.MainPanel:GetSizeY() * 0.5
 local horizontalMouseCrosshair = Controls.HorizontalMouseCrosshair
 local verticalMouseCrosshair = Controls.VerticalMouseCrosshair
 
-local function MoveMouseCrossHairs()
+-- (forward-declared above so the shared update dispatcher can call it)
+MoveMouseCrossHairs = function()
 	local x, y = UIManager:GetMousePos()
 	verticalMouseCrosshair:SetOffsetX( x - xAbsoluteOffset )
 	horizontalMouseCrosshair:SetOffsetY( y - yAbsoluteOffset )
@@ -858,14 +1017,14 @@ Controls.MapMinimize:RegisterCallback( Mouse.eLClick, function()
 end)
 --]]
 Controls.GraphCanvas:RegisterCallback( Mouse.eMouseEnter, function()
-	ContextPtr:SetUpdate( MoveMouseCrossHairs )
+	SetCrosshairUpdate( true )
 	verticalMouseCrosshair:SetHide( false )
 	horizontalMouseCrosshair:SetHide( false )
 end)
 Controls.GraphCanvas:RegisterCallback( Mouse.eMouseExit, function()
 	verticalMouseCrosshair:SetHide( true )
 	horizontalMouseCrosshair:SetHide( true )
-	ContextPtr:ClearUpdate()
+	SetCrosshairUpdate( false )
 end)
 LuaEvents.ReplayViewer_LoadReplay.Add( function( replayFile )
 print( "ReplayViewer_LoadReplay", replayFile )

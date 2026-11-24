@@ -5,6 +5,79 @@ include( "IconSupport" );
 include( "InstanceManager" );
 include( "TopCities_Functions.lua" );
 --------------------------------------------------------------------
+-- Open/close animation settings
+--------------------------------------------------------------------
+local ANIM_FADE_DURATION   = 0.25   -- seconds for the fade
+local ANIM_SLIDE_DURATION  = 0.30   -- seconds for the slide
+local ANIM_SLIDE_DISTANCE  = 60     -- pixels the window travels
+-- Where the window slides in from (and back out to):
+-- "FromBottom", "FromTop", "FromLeft", "FromRight"
+local ANIM_SLIDE_DIRECTION = "FromBottom"
+--------------------------------------------------------------------
+local g_IsClosing = false
+local g_PendingAnims = 0
+local g_CloseTimer = 0
+-- Safety net: force-hide if the animation callbacks never arrive
+local CLOSE_TIMEOUT = math.max(ANIM_FADE_DURATION, ANIM_SLIDE_DURATION, 0.01) + 0.5
+
+-- Call an optional animation setter safely. Some Civ 5 builds don't expose
+-- every setter; if one is missing we log it and keep the XML default.
+local function TrySet(ctrl, method, ...)
+	local fn = ctrl[method]
+	if fn then
+		local ok = pcall(fn, ctrl, ...)
+		if ok then return true end
+	end
+	print("TopCities: " .. method .. " not available, using XML default");
+	return false
+end
+
+local function ConfigureAnimations()
+	local d = ANIM_SLIDE_DISTANCE
+	local offsets = {
+		FromBottom = {0,  d},
+		FromTop    = {0, -d},
+		FromLeft   = {-d, 0},
+		FromRight  = { d, 0},
+	}
+	local o = offsets[ANIM_SLIDE_DIRECTION] or offsets.FromBottom
+
+	-- Speed is 1 / duration in seconds (clamped so 0 means "instant")
+	TrySet(Controls.FadeAnim,  "SetSpeed", 1 / math.max(ANIM_FADE_DURATION, 0.01));
+	TrySet(Controls.SlideAnim, "SetSpeed", 1 / math.max(ANIM_SLIDE_DURATION, 0.01));
+	TrySet(Controls.SlideAnim, "SetStartVal", o[1], o[2]);
+	TrySet(Controls.SlideAnim, "SetEndVal", 0, 0);
+end
+ConfigureAnimations();
+
+-- Finish a close: stop the per-frame watchdog and actually hide the context
+local function FinishClose()
+	if not g_IsClosing then return end
+	g_IsClosing = false;
+	g_PendingAnims = 0;
+	ContextPtr:ClearUpdate();   -- no per-frame Lua once closed
+	ContextPtr:SetHide(true);
+end
+
+-- Hide the context only once BOTH reverse animations have finished
+local function OnCloseAnimDone()
+	if not g_IsClosing then return end
+	g_PendingAnims = g_PendingAnims - 1;
+	if g_PendingAnims <= 0 then
+		FinishClose();
+	end
+end
+
+-- Watchdog: only registered while closing
+local function OnCloseUpdate( fDTime )
+	g_CloseTimer = g_CloseTimer + (fDTime or 0);
+	if g_CloseTimer >= CLOSE_TIMEOUT then
+		FinishClose();
+	end
+end
+Controls.FadeAnim:RegisterAnimCallback(OnCloseAnimDone);
+Controls.SlideAnim:RegisterAnimCallback(OnCloseAnimDone);
+--------------------------------------------------------------------
 local insert			= table.insert
 local concat			= table.concat
 local smaller			= math.min
@@ -261,6 +334,11 @@ function InputHandler( uiMsg, wParam, lParam )
             return true;
         end
 
+    -- right click closes the screen
+    elseif(uiMsg == MouseEvents.RButtonUp) then
+        OnClose();
+        return true;
+
     -- mouse side button closes the screen
     elseif(uiMsg == 523) then   -- WM_XBUTTONDOWN
         local xButton = math.floor( wParam / 65536 ) % 256   -- high word
@@ -274,14 +352,30 @@ end
 ContextPtr:SetInputHandler( InputHandler );
 --------------------------------------------------------------------
 function OnClose()
-	ContextPtr:SetHide(true)
+	if g_IsClosing or ContextPtr:IsHidden() then return end
+	g_IsClosing = true;
+	g_PendingAnims = 2;
+	g_CloseTimer = 0;
+	ContextPtr:SetUpdate(OnCloseUpdate);
+	Controls.FadeAnim:Reverse();
+	Controls.SlideAnim:Reverse();
 end
 Controls.CloseButton:RegisterCallback(Mouse.eLClick, OnClose);
 --------------------------------------------------------------------
 function ShowHideHandler(bIsHide, bInitState)
-	if (not bInitState and not bIsHide) then
+	if bIsHide then
+		g_IsClosing = false;
+		ContextPtr:ClearUpdate();
+	elseif not bInitState then
+		g_IsClosing = false;
+		ContextPtr:ClearUpdate();
 		g_Cities = GetCitiesByScore()
 		TabSelect(g_CurrentTab)
+
+		Controls.FadeAnim:SetToBeginning();
+		Controls.SlideAnim:SetToBeginning();
+		Controls.FadeAnim:Play();
+		Controls.SlideAnim:Play();
 	end
 end
 ContextPtr:SetShowHideHandler(ShowHideHandler)

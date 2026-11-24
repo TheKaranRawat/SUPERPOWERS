@@ -295,10 +295,25 @@ function RangedUnitRules(iAttackingPlayer, iAttackingUnit, attackerDamage, attac
 	----------------------------------------------------------------------
 	-- Special forces sabotage
 	----------------------------------------------------------------------
+	--[[
 	if pDefendedCity and HasPromo(pAttackingUnit, SPForce2ID) then
 		pDefendedCity:ChangeResistanceTurns(1)
 		if pDefendedCity:GetGarrisonedUnit() == nil then
 			pDefendedCity:SetDamage(math.min(250, pDefendedCity:GetMaxHitPoints()))
+		end
+	end
+	]]--
+	if pDefendedCity and HasPromo(pAttackingUnit, SPForce2ID) then
+		pDefendedCity:ChangeResistanceTurns(1)
+		if pDefendedCity:GetGarrisonedUnit() == nil then
+			-- Add 250 damage on top of whatever the city already has,
+			-- without letting total damage exceed max HP
+			local iCurrentDamage = pDefendedCity:GetDamage()
+			local iMaxHP = pDefendedCity:GetMaxHitPoints()
+			local iToAdd = math.min(150, iMaxHP - iCurrentDamage)
+			if iToAdd > 0 then
+				pDefendedCity:ChangeDamage(iToAdd)
+			end
 		end
 	end
 

@@ -660,7 +660,7 @@ end
 Controls.SciencePerTurn:RegisterCallback( eLClick, OnTechLClick )
 --Controls.TechIcon:RegisterCallback( Mouse.eLClick, OpenGraph( 2 ) )
 
-Controls.SciencePerTurn:RegisterCallback( eRClick, OnTechRClick )
+Controls.SciencePerTurn:RegisterCallback( eRClick, OpenGraph( 2 ) )
 if IsCiv5 then
 	Controls.TechIcon:RegisterCallback( eLClick, OnTechLClick )
 	Controls.TechIcon:RegisterCallback( Mouse.eRClick, OpenGraph( 2 ) )

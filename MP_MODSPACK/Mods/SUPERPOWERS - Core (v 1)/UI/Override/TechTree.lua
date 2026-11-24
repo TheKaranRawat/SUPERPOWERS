@@ -9,6 +9,7 @@
 -- Added: fade + slide in from the bottom, fade + slide out on close
 --        (Esc / Enter / right click / mouse side button)
 -- Added: multiplayer / hot-seat safety and performance work (see notes in code)
+-- Added: selectable easing curves for slide and fade, backdrop alpha via color
 --==========================================================
 
 --==========================================================
@@ -16,10 +17,19 @@
 --==========================================================
 local TECH_TREE_ANIMATION = {
 	Enabled           = true,	-- false = open/close instantly, no animation
-	FadeInTime        = 0.3,	-- seconds to fade/slide in   (0 = instant)
-	FadeOutTime       = 0.3,	-- seconds to fade/slide out  (0 = instant)
+	-- Fade and slide have their own timings, so the fade can be slower (or faster) than the slide.
+	-- Animation is finished when the longer of the two is done. 0 = that part is instant.
+	FadeInTime        = 0.3,	-- seconds for the whole panel to fade in
+	FadeOutTime       = 0.4,	-- seconds for the whole panel to fade out
+	SlideInTime       = 0.4,	-- seconds to slide in
+	SlideOutTime      = 0.4,	-- seconds to slide out
 	SlideDistance     = 720,	-- pixels the panel travels. Positive = comes up from below, negative = comes down from above
-	BackdropSlides    = true,	-- true = the dark backdrop slides with the panel, false = it only fades
+	-- Easing curves. Choices: "Smoothstep", "Smootherstep", "OutCubic", "OutQuint", "OutExpo", "InOutQuint"
+	-- Closing plays the curve in reverse (out-curves become slow start, fast exit).
+	SlideCurve        = "OutQuint",		-- curve for the slide
+	FadeEase          = "Smootherstep",	-- curve for the fade (avoid OutExpo / OutQuint here, the fade barely reads)
+	FadeCurve         = 1.0,	-- extra power applied to the fade: 1 = none; above 1 stays transparent longer then fades in late, below 1 fades in early
+	BackdropSlides    = true,	-- true = the dark backdrop slides with the panel, false = it only fades (stays full screen)
 	CloseOnRightClick = true,	-- right click on empty space closes the tech tree (right click on a tech still opens the Pedia)
 	CloseOnSideButton1 = true,	-- mouse side button 1 (usually "Back") closes the tech tree
 	CloseOnSideButton2 = false,	-- mouse side button 2 (usually "Forward") closes the tech tree
@@ -186,15 +196,15 @@ local function AddTechPipes( techPairs, pipeColor )
 			startY = prereq.GridY
 			endY = tech.GridY
 
-			if startY < endY then -- elbow case ������|__
+			if startY < endY then -- elbow case: prereq above, tech below (down-right turn)
 
-				AddElbowPipe( elbowX + connectorElbowOffsetX2, startY*blockSpacingY + connectorOffsetY1, 72, 0 )	-- �|
-				AddElbowPipe( elbowX + connectorElbowOffsetX1, endY*blockSpacingY + connectorOffsetY2 , 0, 72 )		--  |_
+				AddElbowPipe( elbowX + connectorElbowOffsetX2, startY*blockSpacingY + connectorOffsetY1, 72, 0 )	-- upper corner
+				AddElbowPipe( elbowX + connectorElbowOffsetX1, endY*blockSpacingY + connectorOffsetY2 , 0, 72 )		-- lower corner
 
-			elseif startY > endY then -- elbow case ______|��
+			elseif startY > endY then -- elbow case: prereq below, tech above (up-right turn)
 
-				AddElbowPipe( elbowX + connectorElbowOffsetX1, endY*blockSpacingY + connectorOffsetY1, 0, 0 )		--  |�
-				AddElbowPipe( elbowX + connectorElbowOffsetX2, startY*blockSpacingY + connectorOffsetY2, 72, 72 )	-- _|
+				AddElbowPipe( elbowX + connectorElbowOffsetX1, endY*blockSpacingY + connectorOffsetY1, 0, 0 )		-- upper corner
+				AddElbowPipe( elbowX + connectorElbowOffsetX2, startY*blockSpacingY + connectorOffsetY2, 72, 72 )	-- lower corner
 			end
 		end
 	end
@@ -505,26 +515,57 @@ Controls.TechTreeScrollPanel:CalculateInternalSize()
 -------------------------------------------------
 local g_backdrop = Controls.Backdrop		-- dim layer: fades (and slides if BackdropSlides)
 local g_slideRoot = Controls.SlideRoot		-- tech tree: fades and slides
-local g_animProgress = 0	-- 0 = hidden, 1 = fully shown
+local g_slideProgress = 0	-- 0 = hidden, 1 = fully shown
+local g_fadeProgress = 0	-- 0 = hidden, 1 = fully shown
 local g_animDir = 0		-- 1 = opening, -1 = closing, 0 = idle
 local g_lastAlpha, g_lastOffset
 
 local floor = math.floor
 
+-- Easing curves: each maps progress 0..1 to eased 0..1 (0 -> 0, 1 -> 1)
+local CURVES = {
+	Smoothstep   = function( t ) return t * t * (3 - 2 * t) end,
+	Smootherstep = function( t ) return t * t * t * (t * (t * 6 - 15) + 10) end,
+	OutCubic     = function( t ) local u = 1 - t return 1 - u * u * u end,
+	OutQuint     = function( t ) local u = 1 - t return 1 - u * u * u * u * u end,
+	OutExpo      = function( t ) return t <= 0 and 0 or t >= 1 and 1 or 1 - 2 ^ (-10 * t) end,
+	InOutQuint   = function( t )
+		if t < 0.5 then return 16 * t * t * t * t * t end
+		local u = -2 * t + 2
+		return 1 - u * u * u * u * u / 2
+	end,
+}
+
+-- The backdrop is a Box whose darkness comes from its Color attribute, which SetAlpha does not scale.
+-- So its alpha is driven through the color instead.
+local BACKDROP_COLOR = { x = 0, y = 0, z = 0, w = 1 }	-- r,g,b from the XML: Color="0,0,0,220"
+local BACKDROP_MAX_ALPHA = 220 / 255	-- keep in sync with the alpha in the XML
+
 local function ApplyAnimation()
-	local p = g_animProgress
-	local e = p * p * (3 - 2 * p)	-- smoothstep easing, symmetric so it can reverse mid-animation
-	local offset = floor( (1 - e) * TECH_TREE_ANIMATION.SlideDistance + 0.5 )
-	if e ~= g_lastAlpha then
-		g_lastAlpha = e
-		g_backdrop:SetAlpha( e )
-		g_slideRoot:SetAlpha( e )
+	local cfg = TECH_TREE_ANIMATION
+	local alpha = ( CURVES[ cfg.FadeEase ] or CURVES.Smootherstep )( g_fadeProgress )
+	local curve = cfg.FadeCurve
+	if curve and curve ~= 1 and alpha > 0 then
+		alpha = alpha ^ curve
+	end
+	local slide = ( CURVES[ cfg.SlideCurve ] or CURVES.Smootherstep )( g_slideProgress )
+	local offset = floor( (1 - slide) * cfg.SlideDistance + 0.5 )
+	if alpha ~= g_lastAlpha then
+		g_lastAlpha = alpha
+		BACKDROP_COLOR.w = alpha * BACKDROP_MAX_ALPHA
+		g_backdrop:SetColor( BACKDROP_COLOR )
+		g_slideRoot:SetAlpha( alpha )
 	end
 	if offset ~= g_lastOffset then
 		g_lastOffset = offset
 		g_slideRoot:SetOffsetVal( 0, offset )
-		g_backdrop:SetOffsetVal( 0, TECH_TREE_ANIMATION.BackdropSlides and offset or 0 )
+		g_backdrop:SetOffsetVal( 0, cfg.BackdropSlides and offset or 0 )
 	end
+end
+
+local function SetProgress( value )
+	g_slideProgress = value
+	g_fadeProgress = value
 end
 
 -- Release the game side of the popup. Safe to call more than once.
@@ -541,7 +582,7 @@ end
 local function FinishClose()
 	ContextPtr:ClearUpdate()
 	g_animDir = 0
-	g_animProgress = 0
+	SetProgress( 0 )
 	g_isClosing = false
 	ApplyAnimation()
 	if g_isShown then
@@ -550,35 +591,47 @@ local function FinishClose()
 	end
 end
 
+-- move a 0..1 progress value toward target (1 or 0) over 'duration' seconds; 0 duration = instant
+local function Step( value, target, dt, duration )
+	if not duration or duration <= 0 then return target end
+	if target > value then
+		value = value + dt / duration
+		return value > target and target or value
+	else
+		value = value - dt / duration
+		return value < target and target or value
+	end
+end
+
 local function OnUpdate( fDTime )
+	if g_animDir == 0 then
+		return ContextPtr:ClearUpdate()
+	end
 	if fDTime > 0.1 then fDTime = 0.1 end	-- a frame hitch must not skip the animation
 	local cfg = TECH_TREE_ANIMATION
-	if g_animDir > 0 then
-		g_animProgress = g_animProgress + fDTime / cfg.FadeInTime
-		if g_animProgress >= 1 then
-			g_animProgress = 1
-			g_animDir = 0
-			ContextPtr:ClearUpdate()	-- nothing runs per frame while the screen is idle
-		end
-		ApplyAnimation()
-	elseif g_animDir < 0 then
-		g_animProgress = g_animProgress - fDTime / cfg.FadeOutTime
-		if g_animProgress <= 0 then
+	local target = g_animDir > 0 and 1 or 0
+	local fadeTime = g_animDir > 0 and cfg.FadeInTime or cfg.FadeOutTime
+	local slideTime = g_animDir > 0 and cfg.SlideInTime or cfg.SlideOutTime
+	g_fadeProgress = Step( g_fadeProgress, target, fDTime, fadeTime )
+	g_slideProgress = Step( g_slideProgress, target, fDTime, slideTime )
+	if g_fadeProgress == target and g_slideProgress == target then
+		if g_animDir < 0 then
 			return FinishClose()
 		end
-		ApplyAnimation()
-	else
-		ContextPtr:ClearUpdate()
+		g_animDir = 0
+		ContextPtr:ClearUpdate()	-- nothing runs per frame while the screen is idle
 	end
+	ApplyAnimation()
 end
 
 -- Returns true if the animation completed immediately (disabled / zero time)
 local function StartAnimation( dir )
 	local cfg = TECH_TREE_ANIMATION
-	local duration = dir > 0 and cfg.FadeInTime or cfg.FadeOutTime
-	if not cfg.Enabled or not duration or duration <= 0 then
+	local fadeTime = dir > 0 and cfg.FadeInTime or cfg.FadeOutTime
+	local slideTime = dir > 0 and cfg.SlideInTime or cfg.SlideOutTime
+	if not cfg.Enabled or ( (not fadeTime or fadeTime <= 0) and (not slideTime or slideTime <= 0) ) then
 		g_animDir = 0
-		g_animProgress = dir > 0 and 1 or 0
+		SetProgress( dir > 0 and 1 or 0 )
 		ContextPtr:ClearUpdate()
 		ApplyAnimation()
 		return true
@@ -622,7 +675,7 @@ ContextPtr:SetShowHideHandler( function( isHide )
 		end
 		-- shown again: snap to fully visible (an animation may have been interrupted)
 		g_animDir = 0
-		g_animProgress = 1
+		SetProgress( 1 )
 		ApplyAnimation()
 	end
 end)
@@ -658,7 +711,7 @@ AddSerialEventGameMessagePopup( function( popupInfo )
 		g_isClosing = false
 	else
 		g_isShown = true
-		g_animProgress = 0
+		SetProgress( 0 )
 		ApplyAnimation()	-- start fully transparent so there is no one-frame flash
 		UIManager:QueuePopup( ContextPtr, PopupPriority_InGameUtmost )
 	end

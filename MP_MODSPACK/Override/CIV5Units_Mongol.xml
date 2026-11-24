@@ -117228,7 +117228,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_SP_FORCE_2_HELP"> 
 			<Text>
-				[ICON_BULLET]Cause 1 turn Chaos in the target City when attacking the enemy [COLOR_POSITIVE_TEXT]City[ENDCOLOR] (the effect can multiply). [NEWLINE][ICON_BULLET]If the target City is without a garrison, cause 250 Damage instantly to the city.
+				[ICON_BULLET]Cause 1 turn Chaos in the target City when attacking the enemy [COLOR_POSITIVE_TEXT]City[ENDCOLOR] (the effect can multiply). [NEWLINE][ICON_BULLET]If the target City is without a garrison, cause 150 Damage instantly to the city.
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROMOTION_SP_FORCE_3"> 
@@ -139796,7 +139796,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_AMERICAN_MINUTEMAN"> 
 			<Text>
-				[ICON_SHIELD] [COLOR_MAGENTA]Minuteman[ENDCOLOR]
+				[ICON_SHIELD] [COLOR_YIELD_FOOD]Minuteman[ENDCOLOR]
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_AMERICAN_MINUTEMAN_STRATEGY"> 
@@ -140586,7 +140586,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_CONSCRIPTMAN"> 
 			<Text>
-				[ICON_SHIELD] [COLOR_MAGENTA]Conscript[ENDCOLOR]
+				[ICON_SHIELD] [COLOR_YIELD_FOOD]Conscript[ENDCOLOR]
 			</Text>
 			<Plurality>
 				2
@@ -140604,7 +140604,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_CORVETTE"> 
 			<Text>
-				[ICON_ANCHOR] [COLOR_MAGENTA]Corvette[ENDCOLOR]
+				[ICON_ANCHOR] [COLOR_YIELD_FOOD]Corvette[ENDCOLOR]
 			</Text>
 			<Plurality>
 				2
@@ -140696,7 +140696,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_DANISH_ABSALON"> 
 			<Text>
-				[ICON_CAPITAL] [COLOR_MAGENTA]Absalon-class Frigate[ENDCOLOR]
+				[ICON_CAPITAL] [COLOR_YIELD_FOOD]Absalon-class Frigate[ENDCOLOR]
 			</Text>
 			<Plurality>
 				2
@@ -142900,7 +142900,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR"> 
 			<Text>
-				[ICON_CAPITAL] [COLOR_MAGENTA]Mohawk Warrior[ENDCOLOR]
+				[ICON_CAPITAL] [COLOR_YIELD_FOOD]Mohawk Warrior[ENDCOLOR]
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR_STRATEGY"> 
@@ -143170,7 +143170,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_LITTORAL_COMBAT_SHIP"> 
 			<Text>
-				[ICON_ANCHOR] [COLOR_MAGENTA]Modern Corvette[ENDCOLOR]
+				[ICON_ANCHOR] [COLOR_YIELD_FOOD]Modern Corvette[ENDCOLOR]
 			</Text>
 			<Plurality>
 				2
@@ -143324,7 +143324,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_MILITIA_ANCIENT"> 
 			<Text>
-				[ICON_SHIELD] [COLOR_MAGENTA]Militia[ENDCOLOR]
+				[ICON_SHIELD] [COLOR_YIELD_FOOD]Militia[ENDCOLOR]
 			</Text>
 			<Plurality>
 				2
@@ -143342,7 +143342,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_MILITIA_MODERN"> 
 			<Text>
-				[ICON_SHIELD] [COLOR_MAGENTA]Territorial Army[ENDCOLOR]
+				[ICON_SHIELD] [COLOR_YIELD_FOOD]Territorial Army[ENDCOLOR]
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_MISSILE_CRUISER"> 
@@ -143481,7 +143481,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_MONITOR_SHIP"> 
 			<Text>
-				[ICON_ANCHOR] [COLOR_MAGENTA]Monitor[ENDCOLOR]
+				[ICON_ANCHOR] [COLOR_YIELD_FOOD]Monitor[ENDCOLOR]
 			</Text>
 			<Plurality>
 				2
@@ -143555,7 +143555,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_NAVAL_MILITIA"> 
 			<Text>
-				[ICON_ANCHOR] [COLOR_MAGENTA]Galley[ENDCOLOR]
+				[ICON_ANCHOR] [COLOR_YIELD_FOOD]Galley[ENDCOLOR]
 			</Text>
 			<Plurality>
 				2
@@ -145328,7 +145328,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_WARRIOR"> 
 			<Text>
-				[ICON_SHIELD] [COLOR_MAGENTA]Warrior[ENDCOLOR]
+				[ICON_SHIELD] [COLOR_YIELD_FOOD]Warrior[ENDCOLOR]
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_UNIT_WARRIOR_STRATEGY"> 

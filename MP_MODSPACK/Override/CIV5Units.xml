@@ -62382,7 +62382,7 @@
 			<GreatWorkCount>-1</GreatWorkCount> 
 			<SpecialistExtraCulture>0</SpecialistExtraCulture> 
 			<GreatPeopleRateChange>0</GreatPeopleRateChange> 
-			<ExtraLeagueVotes>3</ExtraLeagueVotes> 
+			<ExtraLeagueVotes>2</ExtraLeagueVotes> 
 			<CityWall>false</CityWall> 
 			<DisplayPosition>0</DisplayPosition> 
 			<PortraitIndex>2</PortraitIndex> 
@@ -113782,7 +113782,7 @@
 			<GreatWorkCount>0</GreatWorkCount> 
 			<SpecialistExtraCulture>0</SpecialistExtraCulture> 
 			<GreatPeopleRateChange>0</GreatPeopleRateChange> 
-			<ExtraLeagueVotes>10</ExtraLeagueVotes> 
+			<ExtraLeagueVotes>4</ExtraLeagueVotes> 
 			<CityWall>false</CityWall> 
 			<DisplayPosition>0</DisplayPosition> 
 			<PortraitIndex>58</PortraitIndex> 
@@ -122409,7 +122409,7 @@
 			<GreatWorkCount>0</GreatWorkCount> 
 			<SpecialistExtraCulture>0</SpecialistExtraCulture> 
 			<GreatPeopleRateChange>0</GreatPeopleRateChange> 
-			<ExtraLeagueVotes>5</ExtraLeagueVotes> 
+			<ExtraLeagueVotes>2</ExtraLeagueVotes> 
 			<CityWall>false</CityWall> 
 			<DisplayPosition>1</DisplayPosition> 
 			<PortraitIndex>26</PortraitIndex> 
@@ -131079,7 +131079,7 @@
 			<GreatWorkCount>-1</GreatWorkCount> 
 			<SpecialistExtraCulture>0</SpecialistExtraCulture> 
 			<GreatPeopleRateChange>0</GreatPeopleRateChange> 
-			<ExtraLeagueVotes>5</ExtraLeagueVotes> 
+			<ExtraLeagueVotes>2</ExtraLeagueVotes> 
 			<CityWall>false</CityWall> 
 			<DisplayPosition>0</DisplayPosition> 
 			<PortraitIndex>8</PortraitIndex> 
@@ -172055,7 +172055,7 @@
 		</Row>
 		<Row> 
 			<Name>EVENTS_NUCLEAR_DETONATION</Name> 
-			<Value>0</Value> 
+			<Value>1</Value> 
 			<Class>3</Class> 
 			<DbUpdates>0</DbUpdates> 
 		</Row>
@@ -172804,7 +172804,7 @@
 		</Row>
 		<Row> 
 			<Name>TRADE_ROUTE_CITY_POP_GOLD_MULTIPLIER</Name> 
-			<Value>30</Value> 
+			<Value>10</Value> 
 		</Row>
 		<Row> 
 			<Name>DEFICIT_UNIT_DISBANDING_THRESHOLD</Name> 

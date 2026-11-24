@@ -1,13 +1,12 @@
 -- CAPTURE CITY POPUP
 -- This popup occurs when a city is capture and must be annexed or puppeted.
-
+print("CityCapturePopup started");
 
 include( "UtilityFunctions.lua" )
 
-
-
-
 PopupLayouts[ButtonPopupTypes.BUTTONPOPUP_CITY_CAPTURED] = function(popupInfo)
+
+	print("CityCapturePopup fired, Data1=" .. tostring(popupInfo.Data1));
 
 	local cityID				= popupInfo.Data1;
 	local iCaptureGold			= popupInfo.Data2;
@@ -21,9 +20,9 @@ PopupLayouts[ButtonPopupTypes.BUTTONPOPUP_CITY_CAPTURED] = function(popupInfo)
 	local newCity		= activePlayer:GetCityByID(cityID);
 	
 	if newCity == nil then
+		print("CityCapturePopup: city " .. tostring(cityID) .. " not found for active player, popup skipped");
 		return false;
 	end
-
 	local iPreviousOwner = newCity:GetPreviousOwner();
 	
 	-- Initialize popup text.	

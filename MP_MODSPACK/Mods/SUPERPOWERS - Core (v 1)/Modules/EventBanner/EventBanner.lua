@@ -5,15 +5,17 @@
 --   * wars declared
 --   * declarations of friendship signed
 --   * defensive pacts signed
---   * cities captured
+--   * cities captured (+ "preparing a nuclear strike" warning)
+--   * nuclear strikes on cities
 --
 -- Design notes (performance + multiplayer):
 --  * 100% client-side UI. It only READS game state. It never changes
---    gameplay, never uses GameEvents/LuaEvents/network calls -> cannot desync.
+--    gameplay, never uses LuaEvents/network calls -> cannot desync.
 --  * No per-frame work while idle. The update callback is only registered
 --    while a banner is on screen and is cleared afterwards.
---  * Milestones and treaties are found by a tiny poll once per turn. Wars and
---    captures use the UI events the game already fires (no polling at all).
+--  * Milestones, treaties and the city-population snapshot are handled by a
+--    tiny poll once per turn. Wars, captures and nuclear strikes use events
+--    the game already fires (no polling at all).
 --  * Every client sees the same game state, so every client independently
 --    reaches the same result.
 --  * The first poll after load is silent, so loading a save never replays
@@ -56,12 +58,25 @@ local CITY_FALLBACK     = "a city"            -- {CITY} when no city could be wo
 local TREATY_ICON = nil
 
 -------------------------------------------------
+-- NUKE ICON / NUKE DETECTION
+--
+-- Tsar Bomba icon. nil = auto-find the unit that uses UnitArtInfo ART_DEF_UNIT_ATOMIC_BOMB
+-- with UnitFlagIconOffset 80. Set a unit key (e.g. "UNIT_TSAR_BOMBA") to force a specific
+-- unit's icon (use this if your normal atomic bomb also uses flag offset 80).
+-------------------------------------------------
+local NUKE_ICON_UNIT = nil
+-- Fallback list used to decide whether a civ "has nuclear weapons" if the game can't tell us.
+local NUKE_UNIT_KEYS = { "UNIT_ATOMIC_BOMB", "UNIT_NUCLEAR_MISSILE" }
+
+-------------------------------------------------
 -- TEXT TOKENS (use inside any title / desc)
---   milestones : {CIV} {CITY}               ({CITY} = city the UNIT / BUILDING was built in; not set for TECH / YEAR)
---   war        : {AGGRESSOR} {DEFENDER}      ({CIV} = aggressor)
---   friendship : {CIV1} {CIV2}               (you are CIV1 if you are involved)
---   pact       : {CIV1} {CIV2}
---   capture    : {NEW} {OLD} {CITY}          ({CIV} = new owner)
+--   milestones : {CIV} {CIV_ADJ} {CITY}      ({CITY} = city the UNIT / BUILDING was built in, or a city of the civ for TECH; not set for YEAR)
+--   war        : {AGGRESSOR} {DEFENDER}      ({CIV} = aggressor)   + {AGGRESSOR_ADJ} {DEFENDER_ADJ}
+--   friendship : {CIV1} {CIV2}               (you are CIV1 if you are involved)   + {CIV1_ADJ} {CIV2_ADJ}
+--   pact       : {CIV1} {CIV2}               + {CIV1_ADJ} {CIV2_ADJ}
+--   capture    : {NEW} {OLD} {CITY}          ({CIV} = new owner)   + {NEW_ADJ} {OLD_ADJ}
+--   nuke warn  : {OLD} {NEW} {CITY}          ({CIV} = old owner)   + {OLD_ADJ} {NEW_ADJ}
+--   nuke strike: {LAUNCHER} {OWNER} {CITY} {CASUALTIES}   + {LAUNCHER_ADJ} {OWNER_ADJ}
 -- Titles / descs may be plain text or TXT_KEYs.
 -- Give a group several `variants` and one is picked at random each time
 -- (never the same one twice in a row). A single title/desc also works:
@@ -230,7 +245,7 @@ local EVENTS = {
       kind = "TECH", key = "TECH_NUCLEAR_FISSION",       -- custom .dds image
       icon = "EB_Philosophy.dds",
       title = "I Am Become Death",
-      desc  = "Many cheered, but a quiet {CIV_ADJ] scientist shuddered watching the nuclear test. He softly uttered, 'The last human will see what we saw'" },
+      desc  = "Many cheered, but a quiet {CIV_ADJ} scientist shuddered watching the nuclear test. He softly uttered, 'The last human will see what we saw'" },
 
     { id = "TECH_COMPUTERS",
       kind = "TECH", key = "TECH_COMPUTERS",       -- custom .dds image
@@ -604,6 +619,27 @@ local WORLD = {
             { title = "Conquest",               desc = "The armies of {NEW} seize {CITY}." },
         },
     },
+
+    -- shown right after a capture, if the civ that lost the city still owns nuclear weapons
+    NUKE_WARNING = {
+        enabled = true, scope = "ALL",
+        variants = {
+            { title = "Nuclear Retaliation Looms", desc = "After losing {CITY}, {OLD} is preparing a nuclear strike on {NEW}." },
+            { title = "The Sky Darkens",           desc = "{OLD} readies its nuclear arsenal against {NEW}." },
+            { title = "Pushed Too Far",            desc = "The loss of {CITY} has {OLD} preparing a nuclear strike on {NEW}." },
+        },
+    },
+
+    -- shown when a nuclear weapon detonates over a city (needs GameEvents.NuclearDetonation, see notes)
+    NUKE_STRIKE = {
+        enabled = true, scope = "ALL", includeCityStates = true,
+        casualtiesPerPop = 1,     -- 1 = show the raw population lost; e.g. 100000 for dramatic flavour numbers  Casualties: {CASUALTIES}.
+        variants = {
+            { title = "Nuclear Strike!",           desc = "A nuclear weapon launched by {LAUNCHER} has struck {CITY}." },
+            { title = "Nuclear Attack on {CITY}",  desc = "{LAUNCHER} detonated a nuclear weapon over {CITY}." },
+            { title = "Ground Zero",               desc = "{CITY} was hit by a {LAUNCHER_ADJ} nuclear weapon." },
+        },
+    },
 }
 
 -------------------------------------------------
@@ -616,12 +652,15 @@ local dofState   = {}      -- "a:b" -> true while a declaration of friendship is
 local pactState  = {}      -- "teamA:teamB" -> true while a defensive pact is active
 local treatyBroken = {}    -- feature name -> true if an API call failed (feature disabled)
 local baselined  = false   -- first poll is silent
-local g_ready    = false   -- war / capture events are ignored until the game finished loading
+local g_ready    = false   -- war / capture / nuke events are ignored until the game finished loading
 local queue      = {}      -- banners waiting to be shown
+local current    = nil     -- the banner item currently on screen
 local state      = "IDLE"  -- IDLE | IN | HOLD | OUT | GAP
 local timer      = 0
 local g_seenTurn = -1
-local g_seen     = {}      -- de-dupe war / capture events per turn
+local g_seen     = {}      -- de-dupe war / capture / nuke events per turn
+local popSnap    = {}      -- "x:y" -> city population at the last turn start (for nuclear casualty numbers)
+local nukeCache  = {}      -- playerID -> { turn = n, has = bool } (does this civ own nuclear weapons?)
 
 -------------------------------------------------
 -- SETUP: resolve database keys once
@@ -726,6 +765,85 @@ local function Fill(str, tokens)
     return (string.gsub(str, "{([%w_]+)}", function(k) return tokens[k] end))
 end
 
+local function FormatNumber(n)
+    local s = tostring(math.floor(n + 0.5))
+    local k
+    repeat
+        s, k = string.gsub(s, "^(-?%d+)(%d%d%d)", "%1,%2")
+    until k == 0
+    return s
+end
+
+-------------------------------------------------
+-- NUKE HELPERS
+-------------------------------------------------
+local function FindTsarInfo()
+    if NUKE_ICON_UNIT and GameInfo.Units[NUKE_ICON_UNIT] then
+        return GameInfo.Units[NUKE_ICON_UNIT]
+    end
+    for row in GameInfo.Units() do
+        if row.UnitArtInfo == "ART_DEF_UNIT_ATOMIC_BOMB" and row.UnitFlagIconOffset == 80 then
+            return row
+        end
+    end
+    print("EventBanner: no unit uses ART_DEF_UNIT_ATOMIC_BOMB with flag offset 80, falling back to UNIT_ATOMIC_BOMB")
+    return GameInfo.Units["UNIT_ATOMIC_BOMB"]
+end
+
+local okTsar, TSAR_INFO = pcall(FindTsarInfo)
+if not okTsar then
+    print("EventBanner: Tsar icon lookup failed: " .. tostring(TSAR_INFO))
+    TSAR_INFO = nil
+end
+
+local NUKE_TYPE_SET = nil
+
+-- does this civ own any nuclear weapon right now? (cached per turn so a string of
+-- captures in one turn doesn't rescan the civ's units every time)
+local function OwnerHasNukes(pid)
+    local pPlayer = Players[pid]
+    if not pPlayer then return false end
+
+    local turn = Game.GetGameTurn()
+    local cached = nukeCache[pid]
+    if cached and cached.turn == turn then return cached.has end
+
+    if not NUKE_TYPE_SET then
+        NUKE_TYPE_SET = {}
+        for _, key in ipairs(NUKE_UNIT_KEYS) do
+            local id = GameInfoTypes[key]
+            if id then NUKE_TYPE_SET[id] = true end
+        end
+        if TSAR_INFO then NUKE_TYPE_SET[TSAR_INFO.ID] = true end
+    end
+
+    local ok, result = pcall(function()
+        for unit in pPlayer:Units() do
+            if NUKE_TYPE_SET[unit:GetUnitType()] then return true end
+            local okL, lvl = pcall(unit.NukeDamageLevel, unit)
+            if okL and lvl and lvl > 0 then return true end
+        end
+        return false
+    end)
+
+    local has = (ok and result) and true or false
+    nukeCache[pid] = { turn = turn, has = has }
+    return has
+end
+
+-- remembers every city's population once per turn, so the strike banner can show the real loss
+local function SnapshotPopulations()
+    local maxP = GameDefines.MAX_CIV_PLAYERS or (GameDefines.MAX_MAJOR_CIVS + GameDefines.MAX_MINOR_CIVS)
+    for pid = 0, maxP - 1 do
+        local p = Players[pid]
+        if p and p:IsAlive() then
+            for city in p:Cities() do
+                popSnap[city:GetX() .. ":" .. city:GetY()] = city:GetPopulation()
+            end
+        end
+    end
+end
+
 -------------------------------------------------
 -- ICONS
 -------------------------------------------------
@@ -744,15 +862,10 @@ end
 -- CIVILIZATION_RANDOM entry (index 22 of CIV_COLOR_ATLAS), a complete round badge,
 -- so the BG and shadow images are hidden.
 local function SetUnknownFlag(f)
-    local index, atlas = 22, "CIV_COLOR_ATLAS"
-    local info = GameInfo.Civilizations["CIVILIZATION_RANDOM"]
-    if info and info.PortraitIndex and info.IconAtlas then
-        index, atlas = info.PortraitIndex, info.IconAtlas
-    end
     f.bg:SetHide(true)
     f.shadow:SetHide(true)
     pcall(function() f.icon:SetColor(Vector4(1, 1, 1, 1)) end)   -- clear any civ tint
-    IconHookup(index, CIV_ICON_SIZE, atlas, f.icon)
+    IconHookup(23, CIV_ICON_SIZE, "CIV_COLOR_ATLAS", f.icon)
 end
 
 -- Round civ flag via the game's own CivIconHookup (same call shape the base UI uses).
@@ -843,7 +956,7 @@ end
 
 -------------------------------------------------
 -- BANNER: build items
--- item = { group, tokens, left, right, accent, plot }
+-- item = { group, tokens, left, right, accent, plot, nuke, variant }
 -------------------------------------------------
 local function BuildMilestone(active, ev, pid, city)
     local unknown = (pid ~= nil) and IsUnknown(active, pid) or false
@@ -868,7 +981,7 @@ local function BuildMilestone(active, ev, pid, city)
         cityName = city
     end
 
-        return { group = ev, tokens = { CIV = name, ["1_Civ"] = name, CITY = cityName,
+    return { group = ev, tokens = { CIV = name, ["1_Civ"] = name, CITY = cityName,
                                     CIV_ADJ = pid and CivAdj(pid, unknown) or "" },
              left = left, right = right,
              accent = pid and { pid = pid, unknown = unknown } or nil }
@@ -884,7 +997,7 @@ local function BuildPair(active, cfg, a, b)
     else
         left = { type = "civ", pid = a, unknown = ua }       -- no treaty icon configured: show both flags
     end
-    return { group = cfg, tokens = { CIV1 = na, CIV2 = nb, CIV = na, 
+    return { group = cfg, tokens = { CIV1 = na, CIV2 = nb, CIV = na,
                                     CIV1_ADJ = CivAdj(a, ua), CIV2_ADJ = CivAdj(b, ub) },
              left = left, right = { pid = b, unknown = ub },
              accent = { pid = a, unknown = ua } }
@@ -894,7 +1007,7 @@ local function BuildWar(active, cfg, aggressor, defender)
     local ua, ud = IsUnknown(active, aggressor), IsUnknown(active, defender)
     local na, nd = CivName(aggressor, ua), CivName(defender, ud)
     return { group = cfg,
-             tokens = { AGGRESSOR = na, DEFENDER = nd, CIV = na, CIV1 = na, CIV2 = nd, 
+             tokens = { AGGRESSOR = na, DEFENDER = nd, CIV = na, CIV1 = na, CIV2 = nd,
                         AGGRESSOR_ADJ = CivAdj(aggressor, ua), DEFENDER_ADJ = CivAdj(defender, ud) },
              left  = { type = "civ", pid = aggressor, unknown = ua },
              right = { pid = defender, unknown = ud },
@@ -905,12 +1018,40 @@ local function BuildCapture(active, cfg, oldID, newID, gx, gy)
     local uo, un = IsUnknown(active, oldID), IsUnknown(active, newID)
     local no, nn = CivName(oldID, uo), CivName(newID, un)
     return { group = cfg,
-             tokens = { OLD = no, NEW = nn, CIV = nn, CIV1 = no, CIV2 = nn, CITY = "a city", 
+             tokens = { OLD = no, NEW = nn, CIV = nn, CIV1 = no, CIV2 = nn, CITY = "a city",
                         NEW_ADJ = CivAdj(newID, un), OLD_ADJ = CivAdj(oldID, uo) },
              left  = { type = "civ", pid = oldID, unknown = uo },
              right = { pid = newID, unknown = un },
              accent = { pid = newID, unknown = un },
              plot = { x = gx, y = gy } }
+end
+
+-- city captured from a civ that still owns nuclear weapons: "preparing a nuclear strike"
+local function BuildNukeWarning(active, cfg, oldID, newID, gx, gy)
+    local uo, un = IsUnknown(active, oldID), IsUnknown(active, newID)
+    local no, nn = CivName(oldID, uo), CivName(newID, un)
+    return { group = cfg,
+             tokens = { OLD = no, NEW = nn, CIV = no, CITY = "a city",
+                        OLD_ADJ = CivAdj(oldID, uo), NEW_ADJ = CivAdj(newID, un) },
+             left   = { type = "game", info = TSAR_INFO },
+             right  = { pid = oldID, unknown = uo },          -- the civ preparing the strike
+             accent = { pid = oldID, unknown = uo },
+             plot   = { x = gx, y = gy } }
+end
+
+-- a nuclear weapon hit a city
+local function BuildNukeStrike(active, cfg, launcherID, ownerID, cx, cy, before)
+    local ul, uo = IsUnknown(active, launcherID), IsUnknown(active, ownerID)
+    local nl, no = CivName(launcherID, ul), CivName(ownerID, uo)
+    return { group = cfg,
+             tokens = { LAUNCHER = nl, OWNER = no, CIV = nl,
+                        CITY = uo and UNKNOWN_CITY_NAME or CITY_FALLBACK, CASUALTIES = "0",
+                        LAUNCHER_ADJ = CivAdj(launcherID, ul), OWNER_ADJ = CivAdj(ownerID, uo) },
+             left   = { type = "game", info = TSAR_INFO },
+             right  = { pid = launcherID, unknown = ul },     -- the civ that launched it
+             accent = { pid = launcherID, unknown = ul },
+             plot   = (not uo) and { x = cx, y = cy } or nil, -- hides the city name if you haven't met its owner
+             nuke   = { x = cx, y = cy, before = before, perPop = cfg.casualtiesPerPop or 1 } }
 end
 
 -- the city name is looked up when the banner is shown (the city exists by then)
@@ -930,17 +1071,34 @@ end
 -------------------------------------------------
 -- BANNER: populate + animate
 -------------------------------------------------
-local function Populate(item)
+-- (re)writes the headline / description. For nuclear strikes this is called a second time
+-- once the slide-in has finished, so the casualty number reflects the completed blast.
+local function SetTexts(item)
     local tokens = item.tokens
     if item.plot then
         local city = ResolveCityName(item.plot)
         if city then tokens.CITY = city end
     end
 
-    local v = Pick(item.group)
+    if item.nuke then                                   -- real loss = population before - population now
+        local n = item.nuke
+        local lost = 0
+        local ok, after = pcall(function()
+            local city = Map.GetPlot(n.x, n.y):GetPlotCity()
+            return city and city:GetPopulation() or nil
+        end)
+        if ok and after then lost = math.max(0, n.before - after) end
+        tokens.CASUALTIES = FormatNumber(lost * n.perPop)
+    end
+
+    local v = item.variant
     Controls.Headline:SetText(Fill(v.title, tokens))
     Controls.Desc:SetText(Fill(v.desc, tokens))
+end
 
+local function Populate(item)
+    item.variant = Pick(item.group)
+    SetTexts(item)
     ApplyLeft(item.left)
     ApplyRight(item.right)
     SetAccent(item.accent)
@@ -952,6 +1110,7 @@ local function ShowNext()
     local item = table.remove(queue, 1)
     if not item then
         state = "IDLE"
+        current = nil
         ContextPtr:ClearUpdate()            -- zero cost while idle
         Controls.BannerAlpha:SetHide(true)
         return
@@ -962,6 +1121,7 @@ local function ShowNext()
         print("EventBanner populate error: " .. tostring(err))
         return ShowNext()                   -- skip the broken item, try the next one
     end
+    current = item
     Controls.BannerAlpha:SetHide(false)
     Controls.BannerAlpha:SetToBeginning()
     Controls.BannerSlide:SetToBeginning()
@@ -981,6 +1141,7 @@ OnUpdate = function(dt)
     if state == "IN" then
         state = "HOLD"
         timer = HOLD_TIME
+        if current and current.nuke then pcall(SetTexts, current) end   -- blast has landed: refresh casualties
     elseif state == "HOLD" then
         state = "OUT"
         timer = SLIDE_TIME
@@ -1041,6 +1202,7 @@ end
 
 -- The city a winning BUILDING / UNIT is in. Runs once, when the event is won.
 -- BUILDING: the city that has it.
+-- TECH: a stable "random" city of the civ (same pick on every client).
 -- UNIT: the city its first unit is standing in, otherwise the owner's nearest city
 --       (a unit can't be traced back to the city that built it once it has moved).
 local function FindCity(ev, pid)
@@ -1204,7 +1366,10 @@ local function Poll()
     PollTreaties(silent)
     baselined = true
 
-    -- 3) tell THIS viewer about anything they haven't heard yet (per-viewer, so hotseat works)
+    -- 3) city populations, so a nuclear strike banner can show the real casualties
+    if WORLD.NUKE_STRIKE.enabled then SnapshotPopulations() end
+
+    -- 4) tell THIS viewer about anything they haven't heard yet (per-viewer, so hotseat works)
     local from = (cursor[active] or 0) + 1
     for i = from, #feed do
         Announce(active, feed[i])
@@ -1228,7 +1393,7 @@ local function GetTeamPlayerID(teamID)
     return pid
 end
 
--- one de-dupe table per turn, shared by wars and captures
+-- one de-dupe table per turn, shared by wars, captures and nuclear strikes
 local function SeenThisTurn(key)
     local turn = Game.GetGameTurn()
     if turn ~= g_seenTurn then
@@ -1266,11 +1431,11 @@ local function OnWarStateChanged(teamA, teamB, isAtWar)
 end
 
 -------------------------------------------------
--- EVENT-DRIVEN: city captured
+-- EVENT-DRIVEN: city captured (+ nuclear retaliation warning)
 -------------------------------------------------
 local function OnCityCaptured(hexPos, firstID, cityID, secondID)
-    local cfg = WORLD.CAPTURE
-    if not cfg.enabled or not g_ready then return end
+    local cfg, warn = WORLD.CAPTURE, WORLD.NUKE_WARNING
+    if not (cfg.enabled or warn.enabled) or not g_ready then return end
 
     local oldID, newID = firstID, secondID
     if not cfg.oldOwnerIsFirst then oldID, newID = secondID, firstID end
@@ -1286,10 +1451,66 @@ local function OnCityCaptured(hexPos, firstID, cityID, secondID)
 
     local active = Game.GetActivePlayer()
     if active == nil or active < 0 or Players[active] == nil then return end
-    if cfg.scope == "ME" and not Involves(active, oldID, newID) then return end
 
     print("EventBanner: city captured", Game.GetGameTurn(), oldID, newID)   -- check Lua.log to verify old / new owner
-    Enqueue(BuildCapture(active, cfg, oldID, newID, gx, gy))
+
+    if cfg.enabled and not (cfg.scope == "ME" and not Involves(active, oldID, newID)) then
+        Enqueue(BuildCapture(active, cfg, oldID, newID, gx, gy))
+    end
+
+    -- the civ that lost the city still has nuclear weapons: warn that a strike is coming
+    if warn.enabled and not pOld:IsMinorCiv()
+       and not (warn.scope == "ME" and not Involves(active, oldID, newID))
+       and OwnerHasNukes(oldID) then
+        Enqueue(BuildNukeWarning(active, warn, oldID, newID, gx, gy))
+    end
+end
+
+-------------------------------------------------
+-- EVENT-DRIVEN: nuclear strike on a city
+-- GameEvents.NuclearDetonation(playerID, x, y, bWar, bBystander)
+-------------------------------------------------
+local function OnNuclearDetonation(launcherID, x, y, bWar, bBystander)
+    local cfg = WORLD.NUKE_STRIKE
+    if not cfg.enabled or not g_ready then return end
+    if launcherID == nil or x == nil or y == nil then return end
+    if SeenThisTurn("N" .. x .. ":" .. y) then return end
+
+    local pLauncher = Players[launcherID]
+    if not pLauncher or pLauncher:IsBarbarian() then return end
+
+    -- the city that was hit: on the target plot, otherwise the nearest one inside the blast radius
+    local radius = GameDefines.NUKE_BLAST_RADIUS or 2
+    local plot = Map.GetPlot(x, y)
+    local city = plot and plot:GetPlotCity()
+    if not city then
+        local bestDist
+        for dx = -radius, radius do
+            for dy = -radius, radius do
+                local p = Map.GetPlot(x + dx, y + dy)
+                local c = p and p:GetPlotCity()
+                if c then
+                    local d = Map.PlotDistance(x, y, c:GetX(), c:GetY())
+                    if d <= radius and (not bestDist or d < bestDist) then city, bestDist = c, d end
+                end
+            end
+        end
+    end
+    if not city then return end
+
+    local ownerID = city:GetOwner()
+    local pOwner = Players[ownerID]
+    if not pOwner or pOwner:IsBarbarian() then return end
+    if not cfg.includeCityStates and pOwner:IsMinorCiv() then return end
+
+    local active = Game.GetActivePlayer()
+    if active == nil or active < 0 or Players[active] == nil then return end
+    if cfg.scope == "ME" and not Involves(active, launcherID, ownerID) then return end
+
+    local cx, cy = city:GetX(), city:GetY()
+    local before = math.max(popSnap[cx .. ":" .. cy] or 0, city:GetPopulation())
+    print("EventBanner: nuclear strike", Game.GetGameTurn(), launcherID, ownerID, cx, cy)
+    Enqueue(BuildNukeStrike(active, cfg, launcherID, ownerID, cx, cy, before))
 end
 
 -------------------------------------------------
@@ -1298,6 +1519,7 @@ end
 local function OnActivePlayerChanged()
     -- hotseat / observer switch: clear anything on screen
     queue = {}
+    current = nil
     state = "IDLE"
     ContextPtr:ClearUpdate()
     Controls.BannerAlpha:SetHide(true)
@@ -1311,13 +1533,26 @@ Events.LoadScreenClose.Add(function()
     g_ready = true
     SafePoll()                                       -- silent baseline after loading a save / new game
 end)
+
 -- optional hooks: wrapped so a missing event can never stop the rest of the script loading
 local function SafeHook(eventName, fn)
     local ok, err = pcall(function() Events[eventName].Add(fn) end)
     if not ok then print("EventBanner: could not hook Events." .. eventName .. ": " .. tostring(err)) end
 end
 
+-- GameEvents are game-core events. They only reach this UI script if your game / DLL exposes
+-- them in the UI state; the print below tells you in Lua.log whether it worked.
+local function SafeGameEventHook(name, fn)
+    local ok, err = pcall(function() GameEvents[name].Add(fn) end)
+    print("EventBanner: GameEvents." .. name .. (ok and " hooked" or (" NOT hooked: " .. tostring(err))))
+end
+
 SafeHook("SequenceGameInitComplete", function() g_ready = true end)
 SafeHook("GameplaySetActivePlayer", OnActivePlayerChanged)
 SafeHook("WarStateChanged", OnWarStateChanged)
 SafeHook("SerialEventCityCaptured", OnCityCaptured)
+
+SafeGameEventHook("NuclearDetonation", function(...)
+    local ok, err = pcall(OnNuclearDetonation, ...)
+    if not ok then print("EventBanner nuclear strike error: " .. tostring(err)) end
+end)

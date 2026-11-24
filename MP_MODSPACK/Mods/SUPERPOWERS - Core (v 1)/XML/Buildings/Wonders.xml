@@ -1566,7 +1566,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_NATIONAL_FREEDOM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_NATIONAL_FREEDOM_STRATEGY</Strategy>
 			<FreeGreatPeople>5</FreeGreatPeople>
-			<ExtraLeagueVotes>10</ExtraLeagueVotes>
+			<ExtraLeagueVotes>4</ExtraLeagueVotes>
 			<NukeImmune>true</NukeImmune>
 			<NumCityCostMod>200</NumCityCostMod>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -3352,7 +3352,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<DisplayPosition>1</DisplayPosition>
-			<ExtraLeagueVotes>5</ExtraLeagueVotes>
+			<ExtraLeagueVotes>2</ExtraLeagueVotes>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>26</PortraitIndex>
 			<MinorFriendshipChange>50</MinorFriendshipChange>
