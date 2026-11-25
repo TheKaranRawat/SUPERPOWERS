@@ -6,9 +6,10 @@
           String="Empire" Style="BaseButton" Font="TwCenMT20" />
   -->
   
-  <!-- Panel: open by default -->
+  <!-- Panel: starts hidden; the Lua script fades/slides it in when a player is set.
+       Offset below is the final resting position (the script reads it at load). -->
   <Box ID="Panel" Anchor="L,B" Offset="40,160" Size="360,320"
-       Color="10,12,18,110" Hidden="0">
+       Color="10,12,18,110" Hidden="1">
     <Stack ID="Rows" Anchor="C,T" Offset="0,12" StackGrowth="Bottom" Padding="6">
 
       <!-- deprecate 

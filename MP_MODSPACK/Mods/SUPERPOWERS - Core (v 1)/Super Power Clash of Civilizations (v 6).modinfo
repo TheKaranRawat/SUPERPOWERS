@@ -333,6 +333,7 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
     
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TechPanel.lua</File>
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TechPanel.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TechPanel_Small.xml</File>
   
   <!--
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Override/TechAwardPopup.xml</File>
@@ -4016,6 +4017,12 @@ Some Imgaes and Visual Elements are from the game: ACE Combat (published by Namc
 
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/LeagueOverview.xml</File>
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/LeagueOverview.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/DeclareWarPopup.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/DeclareWarPopup.lua</File>
+
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/GoodyHutPopup.xml</File>
+    <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">UI/Popup/GoodyHutPopup.lua</File>
 
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/AINukes/AINukes.lua</File>
     <File md5="AFB18617CFC99C50D5E802D716D5C18F" import="1">Modules/AINukes/AINukes.xml</File>

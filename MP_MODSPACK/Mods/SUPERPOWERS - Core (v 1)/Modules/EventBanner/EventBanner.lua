@@ -577,7 +577,7 @@ local EVENTS = {
 -------------------------------------------------
 local WORLD = {
     WAR = {
-        enabled = true, scope = "ALL", includeCityStates = false,
+        enabled = true, scope = "ALL", includeCityStates = false, hideUnknown = true,  
         -- WarStateChanged(team1, team2, true): team1 is assumed to be the declarer.
         -- If aggressor / defender show up swapped in your game, set this to false.
         firstTeamIsAggressor = true,
@@ -590,7 +590,7 @@ local WORLD = {
     },
 
     FRIENDSHIP = {
-        enabled = true, scope = "ALL", icon = TREATY_ICON,
+        enabled = true, scope = "ALL", icon = TREATY_ICON, hideUnknown = true,
         variants = {
             { title = "A Bond of Friendship",   desc = "{CIV1} and {CIV2} have declared friendship." },
             { title = "Friends and Allies",     desc = "{CIV1} and {CIV2} pledge their goodwill." },
@@ -599,7 +599,7 @@ local WORLD = {
     },
 
     PACT = {
-        enabled = true, scope = "ALL", icon = TREATY_ICON,
+        enabled = true, scope = "ALL", icon = TREATY_ICON, hideUnknown = true,
         variants = {
             { title = "Defensive Pact Signed",  desc = "{CIV1} and {CIV2} vow to defend each other." },
             { title = "Shields Raised Together", desc = "{CIV1} and {CIV2} stand united against aggression." },
@@ -608,7 +608,7 @@ local WORLD = {
     },
 
     CAPTURE = {
-        enabled = true, scope = "ALL", includeCityStates = false,
+        enabled = true, scope = "ALL", includeCityStates = false, hideUnknown = true,
         -- SerialEventCityCaptured(hexPos, oldOwnerID, cityID, newOwnerID). If old / new show up
         -- swapped in your game, set this to false.
         oldOwnerIsFirst = true,
@@ -710,6 +710,13 @@ end
 
 local function IsUnknown(activePlayerID, pid)
     return not CanSee(activePlayerID, pid)
+end
+
+-- true if this group should be skipped because a civ involved is one the viewer hasn't met
+local function HiddenByUnknown(cfg, active, a, b)
+    if not cfg.hideUnknown then return false end
+    if IsUnknown(active, a) then return true end
+    return b ~= nil and IsUnknown(active, b)
 end
 
 local function Involves(activePlayerID, a, b)
@@ -865,7 +872,8 @@ local function SetUnknownFlag(f)
     f.bg:SetHide(true)
     f.shadow:SetHide(true)
     pcall(function() f.icon:SetColor(Vector4(1, 1, 1, 1)) end)   -- clear any civ tint
-    IconHookup(23, CIV_ICON_SIZE, "CIV_COLOR_ATLAS", f.icon)
+    IconHookup(23, 128, "CIV_COLOR_ATLAS", f.icon)
+    --questionTextureSheet = IconLookup( 23, 32, "CIV_COLOR_ATLAS" );
 end
 
 -- Round civ flag via the game's own CivIconHookup (same call shape the base UI uses).
@@ -1323,6 +1331,7 @@ local function Announce(active, f)
     local cfg = WORLD[f.kind]
     if not cfg or not cfg.enabled then return end
     if cfg.scope == "ME" and not Involves(active, f.a, f.b) then return end
+    if HiddenByUnknown(cfg, active, f.a, f.b) then return end
 
     local a, b = OrderPair(active, f.a, f.b)
     Enqueue(BuildPair(active, cfg, a, b))
@@ -1422,6 +1431,7 @@ local function OnWarStateChanged(teamA, teamB, isAtWar)
     local active = Game.GetActivePlayer()
     if active == nil or active < 0 or Players[active] == nil then return end
     if cfg.scope == "ME" and not Involves(active, idA, idB) then return end
+        if HiddenByUnknown(cfg, active, idA, idB) then return end
 
     local aggressor, defender = idA, idB
     if not cfg.firstTeamIsAggressor then aggressor, defender = idB, idA end
@@ -1454,13 +1464,15 @@ local function OnCityCaptured(hexPos, firstID, cityID, secondID)
 
     print("EventBanner: city captured", Game.GetGameTurn(), oldID, newID)   -- check Lua.log to verify old / new owner
 
-    if cfg.enabled and not (cfg.scope == "ME" and not Involves(active, oldID, newID)) then
+    if cfg.enabled and not (cfg.scope == "ME" and not Involves(active, oldID, newID))      
+     and not HiddenByUnknown(cfg, active, oldID, newID) then
         Enqueue(BuildCapture(active, cfg, oldID, newID, gx, gy))
     end
 
     -- the civ that lost the city still has nuclear weapons: warn that a strike is coming
     if warn.enabled and not pOld:IsMinorCiv()
        and not (warn.scope == "ME" and not Involves(active, oldID, newID))
+       and not HiddenByUnknown(warn, active, oldID, newID)
        and OwnerHasNukes(oldID) then
         Enqueue(BuildNukeWarning(active, warn, oldID, newID, gx, gy))
     end
@@ -1506,7 +1518,8 @@ local function OnNuclearDetonation(launcherID, x, y, bWar, bBystander)
     local active = Game.GetActivePlayer()
     if active == nil or active < 0 or Players[active] == nil then return end
     if cfg.scope == "ME" and not Involves(active, launcherID, ownerID) then return end
-
+    if HiddenByUnknown(cfg, active, launcherID, ownerID) then return end
+    
     local cx, cy = city:GetX(), city:GetY()
     local before = math.max(popSnap[cx .. ":" .. cy] or 0, city:GetPopulation())
     print("EventBanner: nuclear strike", Game.GetGameTurn(), launcherID, ownerID, cx, cy)

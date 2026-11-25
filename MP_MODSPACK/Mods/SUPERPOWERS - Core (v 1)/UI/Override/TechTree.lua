@@ -19,8 +19,8 @@ local TECH_TREE_ANIMATION = {
 	Enabled           = true,	-- false = open/close instantly, no animation
 	-- Fade and slide have their own timings, so the fade can be slower (or faster) than the slide.
 	-- Animation is finished when the longer of the two is done. 0 = that part is instant.
-	FadeInTime        = 0.3,	-- seconds for the whole panel to fade in
-	FadeOutTime       = 0.4,	-- seconds for the whole panel to fade out
+	FadeInTime        = 0.5,	-- seconds for the whole panel to fade in
+	FadeOutTime       = 0.5,	-- seconds for the whole panel to fade out
 	SlideInTime       = 0.4,	-- seconds to slide in
 	SlideOutTime      = 0.4,	-- seconds to slide out
 	SlideDistance     = 720,	-- pixels the panel travels. Positive = comes up from below, negative = comes down from above

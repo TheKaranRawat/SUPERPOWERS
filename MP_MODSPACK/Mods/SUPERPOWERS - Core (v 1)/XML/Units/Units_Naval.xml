@@ -228,7 +228,7 @@
 			<BaseSightRange>2</BaseSightRange>
 			<Combat>50</Combat>
 			<Cost>130</Cost>
-			<Moves>6</Moves>
+			<Moves>5</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -263,7 +263,7 @@
 			<BaseSightRange>2</BaseSightRange>
 			<Combat>50</Combat>
 			<Cost>130</Cost>
-			<Moves>6</Moves>
+			<Moves>5</Moves>
 			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -298,7 +298,7 @@
 			<BaseSightRange>2</BaseSightRange>
 			<Combat>80</Combat>
 			<Cost>225</Cost>
-			<Moves>7</Moves>
+			<Moves>5</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -332,7 +332,7 @@
 			<BaseSightRange>2</BaseSightRange>
 			<Combat>95</Combat>
 			<Cost>160</Cost>
-			<Moves>7</Moves>
+			<Moves>6</Moves>
 			<HurryCostModifier>25</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -367,7 +367,7 @@
 			<BaseSightRange>3</BaseSightRange>
 			<Combat>100</Combat>
 			<Cost>340</Cost>
-			<Moves>8</Moves>
+			<Moves>6</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -401,7 +401,7 @@
 			<BaseSightRange>3</BaseSightRange>
 			<Combat>110</Combat>
 			<Cost>200</Cost>
-			<Moves>8</Moves>
+			<Moves>7</Moves>
 			<HurryCostModifier>33</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -436,7 +436,7 @@
 			<BaseSightRange>3</BaseSightRange>
 			<Combat>100</Combat>
 			<Cost>260</Cost>
-			<Moves>8</Moves>
+			<Moves>7</Moves>
 			<HurryCostModifier>33</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -472,7 +472,7 @@
 			<BaseSightRange>3</BaseSightRange>
 			<Combat>120</Combat>
 			<Cost>565</Cost>
-			<Moves>9</Moves>
+			<Moves>7</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -510,7 +510,7 @@
 			<BaseSightRange>3</BaseSightRange>
 			<Combat>180</Combat>
 			<Cost>875</Cost>
-			<Moves>10</Moves>
+			<Moves>8</Moves>
 			<AirInterceptRange>2</AirInterceptRange>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
@@ -544,8 +544,8 @@
 			<BaseSightRange>3</BaseSightRange>
 			<Combat>210</Combat>
 			<Cost>800</Cost>
-			<Moves>12</Moves>
-			<AirInterceptRange>1</AirInterceptRange>
+			<Moves>9</Moves>
+			<AirInterceptRange>2</AirInterceptRange>
 			<HurryCostModifier>100</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -582,8 +582,8 @@
 			<BaseSightRange>4</BaseSightRange>
 			<Combat>250</Combat>
 			<Cost>1850</Cost>
-			<Moves>12</Moves>
-			<AirInterceptRange>3</AirInterceptRange>
+			<Moves>9</Moves>
+			<AirInterceptRange>4</AirInterceptRange>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -620,8 +620,8 @@
 			<BaseSightRange>4</BaseSightRange>
 			<Combat>280</Combat>
 			<Cost>1550</Cost>
-			<Moves>12</Moves>
-			<AirInterceptRange>3</AirInterceptRange>
+			<Moves>10</Moves>
+			<AirInterceptRange>4</AirInterceptRange>
 			<HurryCostModifier>200</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -662,7 +662,7 @@
 			<Combat>25</Combat>
 			<RangedCombat>60</RangedCombat>
 			<Cost>120</Cost>
-			<Moves>8</Moves>
+			<Moves>5</Moves>
 			<Range>1</Range>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
@@ -699,7 +699,7 @@
 			<Combat>40</Combat>
 			<RangedCombat>80</RangedCombat>
 			<Cost>200</Cost>
-			<Moves>9</Moves>
+			<Moves>6</Moves>
 			<Range>1</Range>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
@@ -736,7 +736,7 @@
 			<Combat>40</Combat>
 			<RangedCombat>80</RangedCombat>
 			<Cost>150</Cost>
-			<Moves>9</Moves>
+			<Moves>7</Moves>
 			<Range>1</Range>
 			<HurryCostModifier>25</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
@@ -776,7 +776,7 @@
 			<Combat>60</Combat>
 			<RangedCombat>120</RangedCombat>
 			<Cost>315</Cost>
-			<Moves>10</Moves>
+			<Moves>7</Moves>
 			<Range>1</Range>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
@@ -817,7 +817,7 @@
 			<Combat>60</Combat>
 			<RangedCombat>120</RangedCombat>
 			<Cost>450</Cost>
-			<Moves>10</Moves>
+			<Moves>8</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
@@ -854,7 +854,7 @@
 			<Combat>80</Combat>
 			<RangedCombat>120</RangedCombat>
 			<Cost>400</Cost>
-			<Moves>12</Moves>
+			<Moves>9</Moves>
 			<HurryCostModifier>50</HurryCostModifier>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
@@ -892,7 +892,7 @@
 			<Combat>100</Combat>
 			<RangedCombat>180</RangedCombat>
 			<Cost>900</Cost>
-			<Moves>10</Moves>
+			<Moves>9</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
@@ -931,7 +931,7 @@
 			<Combat>120</Combat>
 			<RangedCombat>240</RangedCombat>
 			<Cost>700</Cost>
-			<Moves>12</Moves>
+			<Moves>10</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
@@ -1118,7 +1118,7 @@
 			<Combat>160</Combat>
 			<RangedCombat>120</RangedCombat>
 			<Cost>400</Cost>
-			<Moves>6</Moves>
+			<Moves>7</Moves>
 			<Range>3</Range>
 			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
@@ -1154,7 +1154,7 @@
 			<Combat>140</Combat>
 			<RangedCombat>80</RangedCombat>
 			<Cost>500</Cost>
-			<Moves>6</Moves>
+			<Moves>7</Moves>
 			<Range>3</Range>
 			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
@@ -1231,7 +1231,7 @@
 			<Cost>1200</Cost>
 			<Moves>8</Moves>
 			<Range>3</Range>
-			<AirInterceptRange>3</AirInterceptRange>
+			<AirInterceptRange>4</AirInterceptRange>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -1269,7 +1269,7 @@
 			<Cost>1100</Cost>
 			<Moves>8</Moves>
 			<Range>3</Range>
-			<AirInterceptRange>3</AirInterceptRange>
+			<AirInterceptRange>4</AirInterceptRange>
 			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -1307,7 +1307,7 @@
 			<Cost>1800</Cost>
 			<Moves>9</Moves>
 			<Range>3</Range>
-			<AirInterceptRange>5</AirInterceptRange>
+			<AirInterceptRange>6</AirInterceptRange>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -1344,7 +1344,7 @@
 			<Cost>2500</Cost>
 			<Moves>9</Moves>
 			<Range>4</Range>
-			<AirInterceptRange>4</AirInterceptRange>
+			<AirInterceptRange>6</AirInterceptRange>
 			<HurryCostModifier>200</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -1381,7 +1381,7 @@
 			<Combat>400</Combat>
 			<Cost>2000</Cost>
 			<Moves>10</Moves>
-			<AirInterceptRange>4</AirInterceptRange>
+			<AirInterceptRange>6</AirInterceptRange>
 			<HurryCostModifier>200</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -1418,7 +1418,7 @@
 			<Cost>-1</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
-			<Range>8</Range>
+			<Range>5</Range>
 			<Special>SPECIALUNIT_MISSILE</Special>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_MISSILE_AIR</DefaultUnitAI>
@@ -1535,7 +1535,7 @@
 			<RangedCombat>300</RangedCombat>
 			<Cost>3000</Cost>
 			<Moves>7</Moves>
-			<Range>5</Range>
+			<Range>4</Range>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -1570,7 +1570,7 @@
 			<RangedCombat>340</RangedCombat>
 			<Cost>2500</Cost>
 			<Moves>7</Moves>
-			<Range>5</Range>
+			<Range>4</Range>
 			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -1606,7 +1606,7 @@
 			<RangedCombat>450</RangedCombat>
 			<Cost>8000</Cost>
 			<Moves>8</Moves>
-			<Range>6</Range>
+			<Range>4</Range>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -1790,7 +1790,7 @@
 			<BaseSightRange>4</BaseSightRange>
 			<Combat>40</Combat>
 			<Cost>120</Cost>
-			<Moves>9</Moves>
+			<Moves>6</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>

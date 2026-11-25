@@ -81,7 +81,7 @@
 			<Moves>3</Moves>
 			<Immobile>true</Immobile>
 			<Range>6</Range>
-			<AirInterceptRange>10</AirInterceptRange>
+			<AirInterceptRange>6</AirInterceptRange>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
@@ -122,7 +122,7 @@
 			<Moves>3</Moves>
 			<Immobile>true</Immobile>
 			<Range>8</Range>
-			<AirInterceptRange>14</AirInterceptRange>
+			<AirInterceptRange>8</AirInterceptRange>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
@@ -162,7 +162,7 @@
 			<Moves>3</Moves>
 			<Immobile>true</Immobile>
 			<Range>10</Range>
-			<AirInterceptRange>16</AirInterceptRange>
+			<AirInterceptRange>10</AirInterceptRange>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
@@ -201,7 +201,7 @@
 			<Moves>3</Moves>
 			<Immobile>true</Immobile>
 			<Range>12</Range>
-			<AirInterceptRange>20</AirInterceptRange>
+			<AirInterceptRange>12</AirInterceptRange>
 			<HurryCostModifier>150</HurryCostModifier>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
@@ -243,7 +243,7 @@
 			<Moves>3</Moves>
 			<Immobile>true</Immobile>
 			<Range>12</Range>
-			<AirInterceptRange>18</AirInterceptRange>
+			<AirInterceptRange>12</AirInterceptRange>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
@@ -280,7 +280,7 @@
 			<Moves>3</Moves>
 			<Immobile>true</Immobile>
 			<Range>14</Range>
-			<AirInterceptRange>20</AirInterceptRange>
+			<AirInterceptRange>14</AirInterceptRange>
 			<HurryCostModifier>150</HurryCostModifier>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
@@ -319,7 +319,7 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<Immobile>true</Immobile>
 			<Range>14</Range>
-			<AirInterceptRange>18</AirInterceptRange>
+			<AirInterceptRange>14</AirInterceptRange>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
@@ -619,7 +619,7 @@
 			<Cost>2000</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
-			<Range>14</Range>
+			<Range>12</Range>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<HurryCostModifier>150</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
@@ -657,7 +657,7 @@
 			<Cost>2000</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
-			<Range>18</Range>
+			<Range>14</Range>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
@@ -697,7 +697,7 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<Immobile>true</Immobile>
-			<Range>20</Range>
+			<Range>16</Range>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
@@ -734,7 +734,7 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<Immobile>true</Immobile>
-			<Range>22</Range>
+			<Range>16</Range>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
@@ -773,7 +773,7 @@
 			<Moves>4</Moves>
 			<Immobile>true</Immobile>
 			<Range>6</Range>
-			<AirInterceptRange>7</AirInterceptRange>
+			<AirInterceptRange>6</AirInterceptRange>
 			<Special>SPECIALUNIT_FIGHTER</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
@@ -810,7 +810,7 @@
 			<Moves>4</Moves>
 			<Immobile>true</Immobile>
 			<Range>8</Range>
-			<AirInterceptRange>10</AirInterceptRange>
+			<AirInterceptRange>8</AirInterceptRange>
 			<Special>SPECIALUNIT_FIGHTER</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
@@ -846,7 +846,7 @@
 			<Moves>4</Moves>
 			<Immobile>true</Immobile>
 			<Range>10</Range>
-			<AirInterceptRange>12</AirInterceptRange>
+			<AirInterceptRange>10</AirInterceptRange>
 			<Special>SPECIALUNIT_FIGHTER</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
@@ -883,7 +883,7 @@
 			<Moves>4</Moves>
 			<Immobile>true</Immobile>
 			<Range>12</Range>
-			<AirInterceptRange>14</AirInterceptRange>
+			<AirInterceptRange>12</AirInterceptRange>
 			<Special>SPECIALUNIT_FIGHTER</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
@@ -921,7 +921,7 @@
 			<Moves>4</Moves>
 			<Immobile>true</Immobile>
 			<Range>12</Range>
-			<AirInterceptRange>15</AirInterceptRange>
+			<AirInterceptRange>12</AirInterceptRange>
 			<Special>SPECIALUNIT_FIGHTER</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>

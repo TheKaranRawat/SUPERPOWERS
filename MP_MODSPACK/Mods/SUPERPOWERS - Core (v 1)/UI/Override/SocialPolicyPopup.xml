@@ -176,7 +176,7 @@
 								</ScrollPanel>
 							</Image>
 							<!-- Disabled Boxes -->
-							<Box ID="LockedBox2" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,200">
+							<Box ID="LockedBox2" Size="190,260" Offset="0,30" Anchor="C,T" Color="0,0,0,000">
 								<HideOnMouseOver>
 									<Image Anchor="C,T" TextureOffset="0,30" Offset="0,0" Size="190,260" Color="255,255,255,255" Texture="Art/Policy/3_honor.dds"/>
 								</HideOnMouseOver>

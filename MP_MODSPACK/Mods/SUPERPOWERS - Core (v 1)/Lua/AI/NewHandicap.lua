@@ -378,6 +378,10 @@ function AINewUnitSetUp(NewUnit, NewUnitEXP)
 	if domain == DomainTypes.DOMAIN_LAND or domain == DomainTypes.DOMAIN_SEA then
 		NewUnit:JumpToNearestValidPlot()
 	end
+
+	--give war fury promotion
+	local PROMO_ID = GameInfoTypes.PROMOTION_ENEMY_WAR_FURY
+	NewUnit:SetHasPromotion(PROMO_ID, true)
 end
 
 local ESCORT = {

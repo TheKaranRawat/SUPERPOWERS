@@ -800,9 +800,54 @@ create puppet popup not coming up
 religion overview/economic overview/civilopedia sliding
 icon for unknown city
 	automate
+	
+	
 reduce trade routes
 reduce trade gold
+	FIX TOP CITIES BRACKETS #1
+tsar bomba cost increase
+science from trade routes
+game setup screen background
+	ruins explored right click
+unknown civ icon
+civ leader dialog
+	declare war by climbing on enemy units	
+more science from trade
+	trigger war popup hide
+ai building wonders increase rate
+	city view can get stuck
+	unit casualties policy fix
+	unknown civ war hide
+queue performance
+	CTRL+CLICK QUEUE
+	HONOR BG FIX
+	UNKNOWN WAR NO NOTIF
+give ai more pop growth
+give ai more production
+abu simbel icon/wonder icon compression
+gold trade reduce
+	heal -> alert -> sleep
+hide fire from city button/make it not necessary
+reduce city combat strength/hp
+	prevent AI from embarking during siege
+	escort unit promotion
+	war screen city state icon bugged -> remove
+reduce great prophets -> only one
+egypt flax not farm
+combat prediction screen UI LARGE
+	ruins explored/alert
+	reduce AI move and range for performance
+	
+full screen wonder splash
+full screen era popup
+greatest cities popup
 ------------------------------------------------
+Building_TradeRouteYieldChange
+TXT_KEY_SP_VERSION
+<AllowsWaterRoutes>true</AllowsWaterRoutes>
+[26436.875] AutoRoad: [AutoRoadNetwork] ERROR: Assets\DLC\MP_MODSPACK\Mods\SUPERPOWERS - Core (v 1)\Modules\AutoRoad\AutoRoad.lua:434: attempt to call method 'SetRoutePillaged' (a nil value)
+[24909.187] Syntax Error: Assets\DLC\MP_MODSPACK\Mods\SUPERPOWERS - Core (v 1)\Lua\Misc\UnitSpecialButtons.lua:1285: nesting of [[...]] is deprecated near '['
+[24909.187] Runtime Error: Error loading Assets\DLC\MP_MODSPACK\Mods\SUPERPOWERS - Core (v 1)\Lua\Misc\UnitSpecialButtons.lua.
 [9882.953] Runtime Error: [string "D:\Users\Documents\My Games\Sid Meier's Civil..."]:203: attempt to call field 'CityPopOrder' (a nil value)
 local questionOffset, questionTextureSheet = IconLookup( 23, 32, "CIV_COLOR_ATLAS" );
 <Image Anchor="R,T" Texture="assets\UI\Art\WorldView\TopRight020.dds" Size="512,128" ID="CornerAnchor" Hidden="1"/>

@@ -216,7 +216,7 @@
 			<BaseSightRange>2</BaseSightRange>
 			<Combat>120</Combat>
 			<Cost>250</Cost>
-			<Moves>4</Moves>
+			<Moves>3</Moves>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
@@ -1735,7 +1735,7 @@
 			<RangedCombat>250</RangedCombat>
 			<Range>1</Range>
 			<Cost>225</Cost>
-			<Moves>5</Moves>
+			<Moves>4</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>

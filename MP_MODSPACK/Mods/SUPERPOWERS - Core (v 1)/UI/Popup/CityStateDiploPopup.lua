@@ -13,6 +13,8 @@ local kSlideInDist  = 370;     -- pixels the popup travels while sliding in
 local kSlideOutDist = 370;     -- pixels the popup travels while sliding out
 local kPopupBaseY   = 60;     -- resting position; must match Offset="0,60" of the Popup grid in the XML
 local kMouseCloseAnimated = true;  -- right click / mouse side button: false = close instantly, true = play slide-out
+local kRivalInTooltip = true;   -- true: rival shows in the influence bar tooltip; false: shows as a line (RivalLabel in the XML)
+local kMeterTextureGreen = "Assets/UI/Art/Notification/CityStateMeterBaseGreen.dds";  -- influence bar fill while influence >= 0 ("" = use the game's own colours)
 
 -------------------------------------------------
 -- Constants / state
@@ -34,6 +36,7 @@ local g_sLayoutSignature   = "";
 local g_sResourceCacheKey  = nil;    -- "<active>:<minor>:<turn>"
 local g_sResourceCacheText = "";
 local g_tTradeResources    = nil;    -- lazily built list of non-bonus resources
+local g_sMeterTexture      = nil;    -- last texture set on the influence bar (avoids reloading it every refresh)
 
 local iGoldGiftLarge  = GameDefines["MINOR_GOLD_GIFT_LARGE"];
 local iGoldGiftMedium = GameDefines["MINOR_GOLD_GIFT_MEDIUM"];
@@ -196,6 +199,7 @@ function OnEventReceived( popupInfo )
 	g_bPeaceRequested = false;
 	g_sResourceCacheKey = nil;
 	g_sLayoutSignature = "";
+	g_sMeterTexture = nil;
 
 	SetupStatic( pPlayer );
 	Refresh( false );
@@ -592,6 +596,41 @@ function GetStatusRow( status )
 end
 
 -------------------------------------------------
+-- Top rival for this city-state's influence
+-------------------------------------------------
+function GetRival( pPlayer, iActivePlayer, iActiveTeam )
+	local iBest, iBestVal = -1, 0;
+
+	for iLoop = 0, GameDefines.MAX_MAJOR_CIVS-1 do
+		if iLoop ~= iActivePlayer then
+			local pOther = Players[iLoop];
+			if pOther ~= nil and pOther:IsAlive() and Teams[pOther:GetTeam()]:IsHasMet( iActiveTeam ) then
+				local iVal = N( Try( pPlayer.GetMinorCivFriendshipWithMajor, pPlayer, iLoop ) );
+				if iVal > iBestVal then
+					iBest, iBestVal = iLoop, iVal;
+				end
+			end
+		end
+	end
+
+	local sCaption = T( "TXT_KEY_CSDP_RIVAL", "Rival" );
+	local sYou = T( "TXT_KEY_CSDP_RIVAL_YOU", "You" );
+	local iMine = N( Try( pPlayer.GetMinorCivFriendshipWithMajor, pPlayer, iActivePlayer ) );
+	local sText, sTT;
+
+	if iBest ~= -1 then
+		local sName = Locale.ConvertTextKey( Players[iBest]:GetCivilizationShortDescriptionKey() );
+		local sColor = (iBestVal > iMine) and "[COLOR_NEGATIVE_TEXT]" or "[COLOR_POSITIVE_TEXT]";
+		sText = sCaption .. ": " .. sColor .. sName .. " (" .. iBestVal .. ")[ENDCOLOR]";
+		sTT = sText .. "  -  " .. sYou .. ": " .. iMine;
+	else
+		sText = sCaption .. ": " .. T( "TXT_KEY_CITY_STATE_NOBODY", "Nobody" );
+		sTT = sText;
+	end
+	return sText, sTT;
+end
+
+-------------------------------------------------
 -- Main refresh
 -------------------------------------------------
 function RefreshImpl( bForcePeace )
@@ -698,12 +737,29 @@ function RefreshImpl( bForcePeace )
 		end
 	end
 
+	-- Top rival: the civ (other than you) with the most influence here (met civs only).
+	local sRivalText, sRivalTT = GetRival( pPlayer, iActivePlayer, iActiveTeam );
+	if kRivalInTooltip then
+		table.insert( tTT, sRivalTT );
+	elseif Controls.RivalLabel ~= nil then
+		Controls.RivalLabel:SetText( sRivalText );
+		Controls.RivalLabel:SetToolTipString( sRivalTT );
+	end
+
 	local strStatusTT = table.concat( tTT, "[NEWLINE][NEWLINE]" );
 
 	local info = GetStatusRow( pPlayer:GetMinorCivFriendshipWithMajor( iActivePlayer ) );
-	if info.row ~= nil then
-		--Controls.StatusIconBG:SetTexture( info.row.StatusIcon );
-		Controls.StatusMeter:SetTexture( info.row.StatusMeter );
+	-- Green fill while influence is positive; negative influence keeps the game's own (red) bar.
+	local sMeterTexture = nil;
+	if N( pPlayer:GetMinorCivFriendshipWithMajor( iActivePlayer ) ) >= 0
+		and kMeterTextureGreen ~= nil and kMeterTextureGreen ~= "" then
+		sMeterTexture = kMeterTextureGreen;
+	elseif info.row ~= nil then
+		sMeterTexture = info.row.StatusMeter;
+	end
+	if sMeterTexture ~= nil and sMeterTexture ~= g_sMeterTexture then
+		g_sMeterTexture = sMeterTexture;
+		Controls.StatusMeter:SetTexture( sMeterTexture );
 	end
 	Controls.StatusMeter:SetPercent( info.value );
 	Controls.StatusInfo:SetText( strStatusText );
@@ -1095,6 +1151,25 @@ function OnCloseButtonClicked ()
 	StartCloseAnim();
 end
 Controls.CloseButton:RegisterCallback( Mouse.eLClick, OnCloseButtonClicked );
+
+-------------------------------------------------------------------------------
+-- Right click on the dimmed area outside the panel (and on the panel itself)
+-------------------------------------------------------------------------------
+local function OnRightClickClose()
+	if not Controls.WarConfirm:IsHidden() then
+		Controls.WarConfirm:SetHide( true );     -- cancel the confirmation only
+		Controls.BGBlock:SetHide( false );
+	elseif kMouseCloseAnimated then
+		OnCloseButtonClicked();
+	else
+		CloseNow();
+	end
+end
+
+-- Wrapped in pcall so a control type that can't take callbacks never breaks loading.
+pcall( function() Controls.BGBlock:RegisterCallback( Mouse.eRClick, OnRightClickClose ); end );
+pcall( function() Controls.Popup:RegisterCallback( Mouse.eRClick, OnRightClickClose ); end );
+pcall( function() Controls.WarConfirm:RegisterCallback( Mouse.eRClick, OnRightClickClose ); end );
 
 -------------------------------------------------------------------------------
 -- WAR CONFIRMATION POPUP

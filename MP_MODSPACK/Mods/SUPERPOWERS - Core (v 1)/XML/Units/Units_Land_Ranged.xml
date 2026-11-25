@@ -428,7 +428,7 @@
 			<Cost>300</Cost>
 			<Moves>3</Moves>
 			<Range>2</Range>
-			<AirInterceptRange>3</AirInterceptRange>
+			<AirInterceptRange>4</AirInterceptRange>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -464,9 +464,9 @@
 			<Combat>60</Combat>
 			<RangedCombat>170</RangedCombat>
 			<Cost>380</Cost>
-			<Moves>5</Moves>
+			<Moves>4</Moves>
 			<Range>2</Range>
-			<AirInterceptRange>3</AirInterceptRange>
+			<AirInterceptRange>4</AirInterceptRange>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -502,7 +502,7 @@
 			<Cost>475</Cost>
 			<Moves>5</Moves>
 			<Range>2</Range>
-			<AirInterceptRange>4</AirInterceptRange>
+			<AirInterceptRange>6</AirInterceptRange>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -532,9 +532,9 @@
 			<Combat>150</Combat>
 			<RangedCombat>250</RangedCombat>
 			<Cost>400</Cost>
-			<Moves>6</Moves>
+			<Moves>5</Moves>
 			<Range>2</Range>
-			<AirInterceptRange>4</AirInterceptRange>
+			<AirInterceptRange>6</AirInterceptRange>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -916,7 +916,7 @@
 			<RangedCombat>135</RangedCombat>
 			<Cost>650</Cost>
 			<Moves>3</Moves>
-			<Range>4</Range>
+			<Range>3</Range>
 			<HurryCostModifier>75</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -954,7 +954,7 @@
 			<RangedCombat>150</RangedCombat>
 			<Cost>1000</Cost>
 			<Moves>3</Moves>
-			<Range>4</Range>
+			<Range>3</Range>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -993,7 +993,7 @@
 			<RangedCombat>220</RangedCombat>
 			<Cost>1500</Cost>
 			<Moves>3</Moves>
-			<Range>4</Range>
+			<Range>3</Range>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1098,7 +1098,7 @@
 			<RangedCombat>280</RangedCombat>
 			<Cost>1100</Cost>
 			<Moves>1</Moves>
-			<Range>5</Range>
+			<Range>4</Range>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1134,7 +1134,7 @@
 			<RangedCombat>220</RangedCombat>
 			<Cost>1200</Cost>
 			<Moves>3</Moves>
-			<Range>5</Range>
+			<Range>4</Range>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1170,7 +1170,7 @@
 			<RangedCombat>300</RangedCombat>
 			<Cost>1600</Cost>
 			<Moves>3</Moves>
-			<Range>5</Range>
+			<Range>4</Range>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>

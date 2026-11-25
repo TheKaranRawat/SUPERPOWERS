@@ -446,7 +446,7 @@ ContextPtr:SetInputHandler(
 function( uiMsg, wParam )
     -- key strokes in log
     if uiMsg == KeyEvents.KeyDown then
-        print("Key down: " .. tostring(wParam))
+        --print("Key down: " .. tostring(wParam))
     end
 
     -- mouse keys
@@ -1111,15 +1111,17 @@ local g_SelectionListCallBacks = {
 		[Mouse.eLClick] = function( orderID, itemID )
 			local city = GetSelectedModifiableCity()
 			if city and not city:IsPuppet() then
-				-- queue limit (shift-click replaces the queue, so allow it)
-				if city:GetOrderQueueLength() >= g_maxQueueLength and not UI.ShiftKeyDown() then
+				-- queue full: reject
+				if city:GetOrderQueueLength() >= g_maxQueueLength then
 					return Events.AudioPlay2DSound( "AS2D_INTERFACE_BUTTON_CLICK_DISABLED" )
 				end
 				-- Game.CityPushOrder( city, orderID, itemID, repeatBuild, replaceQueue, bottomOfQueue )
-				Game.CityPushOrder( city, orderID, itemID, UI.AltKeyDown(), UI.ShiftKeyDown(), not UI.CtrlKeyDown() )
+				-- Shift -> bottomOfQueue = false -> front of the queue
+				Game.CityPushOrder( city, orderID, itemID, false, false, not UI.ShiftKeyDown() )
 				local cityOwnerID, cityID = city:GetOwner(), city:GetID()
 				Events.SpecificCityInfoDirty( cityOwnerID, cityID, CityUpdateTypes.CITY_UPDATE_TYPE_BANNER )
 				Events.SpecificCityInfoDirty( cityOwnerID, cityID, CityUpdateTypes.CITY_UPDATE_TYPE_PRODUCTION )
+				Events.SerialEventCityScreenDirty()
 			end
 		end,
 		-- right click buys units, Ctrl + right click opens the Pedia
@@ -1129,7 +1131,7 @@ local g_SelectionListCallBacks = {
 		-- right click buys: units (gold, or faith if only faith works), faith buildings, and for Venice
 		-- buildings with gold in every city. Ctrl + right click and everything else opens the Pedia.
 		-- right click buys: units (gold, or faith if only faith works) in normal cities, buildings with gold
--- for Venice in all its cities, and faith buildings. Ctrl + right click and everything else opens the Pedia.
+	-- for Venice in all its cities, and faith buildings. Ctrl + right click and everything else opens the Pedia.
 	[Mouse.eRClick] = function( orderID, itemID )
 		if not UI.CtrlKeyDown() then
 			local city = GetSelectedPurchaseCity()

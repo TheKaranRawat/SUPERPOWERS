@@ -23,10 +23,12 @@
 
         <Image Anchor="R,T" Offset="-80,0" Texture="Assets/UI/Art/Icons/LeaderPortraits1024Frame.dds" Size="128.128" Hidden="0" >
             <!-- <Image Anchor="C,C" Offset="0,0" Size="128,128" Texture="Assets/UI/Art/Icons/LeaderPortraits1024Frame.dds" Hidden="0"/> 
-            -->
-            <Image Anchor="C,C" Offset="0,0" Size="128,128" Texture="UnitPortraitsAncientMedieval512.dds" ID="UnitPortrait" Hidden="0"/>
+            256x256Frame.dds    -->
 
-            <Image Size="54,54" Offset="-6,-6" Anchor="R,T"  Texture="Assets/UI/Art/UnitPanel/UnitTypeFrame.dds" >
+            <Image Anchor="C,C" Offset="40,0" Size="256,256" Texture="256x256Frame.dds" ID="PortraitBG" Hidden="0"/>
+            <Image Anchor="C,C" Offset="40,0" Size="256,256" Texture="UnitPortraitsAncientMedieval512.dds" ID="UnitPortrait" Hidden="0"/>
+
+            <Image Size="54,54" Offset="-20,-10" Anchor="L,T"  Texture="Assets/UI/Art/UnitPanel/UnitTypeFrame.dds" Hidden="1" >
                 <Image Size="38,38" Offset="0,0" Anchor="C,C" Color="PlayerColor2,255"  Texture="Assets/UI/Art/UnitPanel/unitbackteamcolor.dds" ID="UnitBackColor"/>
                 <Image Size="38,38" TextureOffset="0,39" Anchor="C,C"  Texture="Assets/UI/Art/UnitPanel/unitbackteamcolor.dds" />
                 <Image Size="32,32" Anchor="C,C"  Texture="Assets/UI/Art/Icons/Units/UnitFlagAtlasWhite.dds" Color="Black,128" ID="UnitIconShadow" />
@@ -62,7 +64,7 @@
                 </Label>
             </Stack>
 
-            <Stack Anchor="R,T" AnchorSide="o,i" Offset="24,24" Padding="6" StackGrowth="Bottom" ID="TheirCombatResultsStack" >
+            <Stack Anchor="R,T" AnchorSide="o,i" Offset="9,24" Padding="6" StackGrowth="Bottom" ID="TheirCombatResultsStack" >
                 <Label ID="TheirDamage" String="TXT_KEY_EUPANEL_UNIT_THEIR_APPROXIMATE_DAMAGE" Anchor="L,T" Offset="40,0" Font="TwCenMT16">
                     <Label ID="TheirDamageValue" AnchorSide="O.I" Anchor="L,C" Offset="6,0" Font="TwCenMT16"/>
                 </Label>

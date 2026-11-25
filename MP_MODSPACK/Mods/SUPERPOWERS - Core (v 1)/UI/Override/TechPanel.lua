@@ -107,9 +107,9 @@ function OnTechPanelUpdated()
 			
 			if numButtonsAdded > 0 then
 				if OptionsManager.GetSmallUIAssets() then		
-					Controls.ActiveStyle:SetSizeVal( numButtonsAdded*56 + 76, 126 );
+					Controls.ActiveStyle:SetSizeVal( numButtonsAdded*56 + 76, 66 );
 				else
-					Controls.ActiveStyle:SetSizeVal( numButtonsAdded*56 + 130, 126 );
+					Controls.ActiveStyle:SetSizeVal( numButtonsAdded*56 + 130, 66 );
 				end
 				Controls.ActiveStyle:SetHide( false );
 			else
@@ -139,7 +139,7 @@ function OnTechPanelUpdated()
 			AddCallbackToSmallButtons( Controls, maxSmallButtons, -1, -1, Mouse.eLClick, OnTechnologyButtonClicked );
 			
 			if numButtonsAdded > 0 then
-				Controls.ActiveStyle:SetSizeVal( numButtonsAdded*56 + 130, 126 );
+				Controls.ActiveStyle:SetSizeVal( numButtonsAdded*56 + 130, 66 );
 				Controls.ActiveStyle:SetHide( false );
 			else
 				Controls.ActiveStyle:SetHide( true );

@@ -5,8 +5,8 @@
     <!--=======================================================================================================================-->
     <!--   Currently Researching Grid9FrameBlack Grid9DetailFive140-->
     <!--=======================================================================================================================-->
-    <Grid Anchor="L,T" Offset="30,4"  Size="0,0" Color="255,255,255,255"   StateOffsetIncrement="0,0" Style="Grid9FrameBlack" ID="ActiveStyle" Hidden="0">
-        <Stack Anchor="L,T" Offset="170,62"   Size="32,32" StackGrowth="Right" Padding="-8" >
+    <Grid Anchor="L,T" Offset="30,64"  Size="0,0" Color="255,255,255,205"   StateOffsetIncrement="0,0" Style="Grid9FrameBlack" ID="ActiveStyle" Hidden="0">
+        <Stack Anchor="L,T" Offset="170,2"   Size="32,32" StackGrowth="Right" Padding="-8" >
             <Button NoStateChange="1" Anchor="C,C" Size="64,64"  ID="B1"/>
             <Button NoStateChange="1" Anchor="C,C" Size="64,64"  ID="B2"/>
             <Button NoStateChange="1" Anchor="C,C" Size="64,64"  ID="B3"/>

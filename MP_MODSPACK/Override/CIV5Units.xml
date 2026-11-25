@@ -36337,6 +36337,210 @@
 		</Row>
 		<Row> 
 			<ID>140</ID> 
+			<Type>BUILDINGCLASS_TB_CAPITAL_BUILDINGS_CHEAPER</Type> 
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description> 
+			<DefaultBuilding>BUILDING_TB_CAPITAL_BUILDINGS_CHEAPER</DefaultBuilding> 
+			<MaxGlobalInstances>-1</MaxGlobalInstances> 
+			<MaxTeamInstances>-1</MaxTeamInstances> 
+			<MaxPlayerInstances>-1</MaxPlayerInstances> 
+			<ExtraPlayerInstances>0</ExtraPlayerInstances> 
+			<NoLimit>false</NoLimit> 
+			<Monument>false</Monument> 
+		</Row>
+		<Row> 
+			<ID>141</ID> 
+			<Type>BUILDINGCLASS_TB_STRATEGIC_RICHES</Type> 
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description> 
+			<DefaultBuilding>BUILDING_TB_STRATEGIC_RICHES</DefaultBuilding> 
+			<MaxGlobalInstances>-1</MaxGlobalInstances> 
+			<MaxTeamInstances>-1</MaxTeamInstances> 
+			<MaxPlayerInstances>-1</MaxPlayerInstances> 
+			<ExtraPlayerInstances>0</ExtraPlayerInstances> 
+			<NoLimit>false</NoLimit> 
+			<Monument>false</Monument> 
+		</Row>
+		<Row> 
+			<ID>142</ID> 
+			<Type>BUILDINGCLASS_TB_CONVERTS_LAND_BARBARIANS</Type> 
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description> 
+			<DefaultBuilding>BUILDING_TB_CONVERTS_LAND_BARBARIANS</DefaultBuilding> 
+			<MaxGlobalInstances>-1</MaxGlobalInstances> 
+			<MaxTeamInstances>-1</MaxTeamInstances> 
+			<MaxPlayerInstances>-1</MaxPlayerInstances> 
+			<ExtraPlayerInstances>0</ExtraPlayerInstances> 
+			<NoLimit>false</NoLimit> 
+			<Monument>false</Monument> 
+		</Row>
+		<Row> 
+			<ID>143</ID> 
+			<Type>BUILDINGCLASS_TB_TRAIT_WONDER_BUILDER</Type> 
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description> 
+			<DefaultBuilding>BUILDING_TB_TRAIT_WONDER_BUILDER</DefaultBuilding> 
+			<MaxGlobalInstances>-1</MaxGlobalInstances> 
+			<MaxTeamInstances>-1</MaxTeamInstances> 
+			<MaxPlayerInstances>-1</MaxPlayerInstances> 
+			<ExtraPlayerInstances>0</ExtraPlayerInstances> 
+			<NoLimit>false</NoLimit> 
+			<Monument>false</Monument> 
+		</Row>
+		<Row> 
+			<ID>144</ID> 
+			<Type>BUILDINGCLASS_TB_ART_OF_WAR</Type> 
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description> 
+			<DefaultBuilding>BUILDING_TB_ART_OF_WAR</DefaultBuilding> 
+			<MaxGlobalInstances>-1</MaxGlobalInstances> 
+			<MaxTeamInstances>-1</MaxTeamInstances> 
+			<MaxPlayerInstances>-1</MaxPlayerInstances> 
+			<ExtraPlayerInstances>0</ExtraPlayerInstances> 
+			<NoLimit>false</NoLimit> 
+			<Monument>false</Monument> 
+		</Row>
+		<Row> 
+			<ID>145</ID> 
+			<Type>BUILDINGCLASS_TB_WAYFINDING</Type> 
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description> 
+			<DefaultBuilding>BUILDING_TB_WAYFINDING</DefaultBuilding> 
+			<MaxGlobalInstances>-1</MaxGlobalInstances> 
+			<MaxTeamInstances>-1</MaxTeamInstances> 
+			<MaxPlayerInstances>-1</MaxPlayerInstances> 
+			<ExtraPlayerInstances>0</ExtraPlayerInstances> 
+			<NoLimit>false</NoLimit> 
+			<Monument>false</Monument> 
+		</Row>
+		<Row> 
+			<ID>146</ID> 
+			<Type>BUILDINGCLASS_TB_TRAIT_PHOENICIAN_HERITAGE</Type> 
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description> 
+			<DefaultBuilding>BUILDING_TB_TRAIT_PHOENICIAN_HERITAGE</DefaultBuilding> 
+			<MaxGlobalInstances>-1</MaxGlobalInstances> 
+			<MaxTeamInstances>-1</MaxTeamInstances> 
+			<MaxPlayerInstances>-1</MaxPlayerInstances> 
+			<ExtraPlayerInstances>0</ExtraPlayerInstances> 
+			<NoLimit>false</NoLimit> 
+			<Monument>false</Monument> 
+		</Row>
+		<Row> 
+			<ID>147</ID> 
+			<Type>BUILDINGCLASS_TB_TRAIT_NAPOLEON_2</Type> 
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description> 
+			<DefaultBuilding>BUILDING_TB_TRAIT_NAPOLEON_2</DefaultBuilding> 
+			<MaxGlobalInstances>-1</MaxGlobalInstances> 
+			<MaxTeamInstances>-1</MaxTeamInstances> 
+			<MaxPlayerInstances>-1</MaxPlayerInstances> 
+			<ExtraPlayerInstances>0</ExtraPlayerInstances> 
+			<NoLimit>false</NoLimit> 
+			<Monument>false</Monument> 
+		</Row>
+		<Row> 
+			<ID>148</ID> 
+			<Type>BUILDINGCLASS_TB_TRAIT_GANDHI_2</Type> 
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description> 
+			<DefaultBuilding>BUILDING_TB_TRAIT_GANDHI_2</DefaultBuilding> 
+			<MaxGlobalInstances>-1</MaxGlobalInstances> 
+			<MaxTeamInstances>-1</MaxTeamInstances> 
+			<MaxPlayerInstances>-1</MaxPlayerInstances> 
+			<ExtraPlayerInstances>0</ExtraPlayerInstances> 
+			<NoLimit>false</NoLimit> 
+			<Monument>false</Monument> 
+		</Row>
+		<Row> 
+			<ID>149</ID> 
+			<Type>BUILDINGCLASS_TB_TRAIT_AUGUSTUS_2</Type> 
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description> 
+			<DefaultBuilding>BUILDING_TB_TRAIT_AUGUSTUS_2</DefaultBuilding> 
+			<MaxGlobalInstances>-1</MaxGlobalInstances> 
+			<MaxTeamInstances>-1</MaxTeamInstances> 
+			<MaxPlayerInstances>-1</MaxPlayerInstances> 
+			<ExtraPlayerInstances>0</ExtraPlayerInstances> 
+			<NoLimit>false</NoLimit> 
+			<Monument>false</Monument> 
+		</Row>
+		<Row> 
+			<ID>150</ID> 
+			<Type>BUILDINGCLASS_TB_TRAIT_BISMARCK_2</Type> 
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description> 
+			<DefaultBuilding>BUILDING_TB_TRAIT_BISMARCK_2</DefaultBuilding> 
+			<MaxGlobalInstances>-1</MaxGlobalInstances> 
+			<MaxTeamInstances>-1</MaxTeamInstances> 
+			<MaxPlayerInstances>-1</MaxPlayerInstances> 
+			<ExtraPlayerInstances>0</ExtraPlayerInstances> 
+			<NoLimit>false</NoLimit> 
+			<Monument>false</Monument> 
+		</Row>
+		<Row> 
+			<ID>151</ID> 
+			<Type>BUILDINGCLASS_TB_TRAIT_CATHERINE_2</Type> 
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description> 
+			<DefaultBuilding>BUILDING_TB_TRAIT_CATHERINE_2</DefaultBuilding> 
+			<MaxGlobalInstances>-1</MaxGlobalInstances> 
+			<MaxTeamInstances>-1</MaxTeamInstances> 
+			<MaxPlayerInstances>-1</MaxPlayerInstances> 
+			<ExtraPlayerInstances>0</ExtraPlayerInstances> 
+			<NoLimit>false</NoLimit> 
+			<Monument>false</Monument> 
+		</Row>
+		<Row> 
+			<ID>152</ID> 
+			<Type>BUILDINGCLASS_TB_TRAIT_ELIZABETH_2</Type> 
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description> 
+			<DefaultBuilding>BUILDING_TB_TRAIT_ELIZABETH_2</DefaultBuilding> 
+			<MaxGlobalInstances>-1</MaxGlobalInstances> 
+			<MaxTeamInstances>-1</MaxTeamInstances> 
+			<MaxPlayerInstances>-1</MaxPlayerInstances> 
+			<ExtraPlayerInstances>0</ExtraPlayerInstances> 
+			<NoLimit>false</NoLimit> 
+			<Monument>false</Monument> 
+		</Row>
+		<Row> 
+			<ID>153</ID> 
+			<Type>BUILDINGCLASS_TB_TRAIT_GENGHIS_2</Type> 
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description> 
+			<DefaultBuilding>BUILDING_TB_TRAIT_GENGHIS_2</DefaultBuilding> 
+			<MaxGlobalInstances>-1</MaxGlobalInstances> 
+			<MaxTeamInstances>-1</MaxTeamInstances> 
+			<MaxPlayerInstances>-1</MaxPlayerInstances> 
+			<ExtraPlayerInstances>0</ExtraPlayerInstances> 
+			<NoLimit>false</NoLimit> 
+			<Monument>false</Monument> 
+		</Row>
+		<Row> 
+			<ID>154</ID> 
+			<Type>BUILDINGCLASS_TB_TRAIT_ODA_2</Type> 
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description> 
+			<DefaultBuilding>BUILDING_TB_TRAIT_ODA_2</DefaultBuilding> 
+			<MaxGlobalInstances>-1</MaxGlobalInstances> 
+			<MaxTeamInstances>-1</MaxTeamInstances> 
+			<MaxPlayerInstances>-1</MaxPlayerInstances> 
+			<ExtraPlayerInstances>0</ExtraPlayerInstances> 
+			<NoLimit>false</NoLimit> 
+			<Monument>false</Monument> 
+		</Row>
+		<Row> 
+			<ID>155</ID> 
+			<Type>BUILDINGCLASS_TB_TRAIT_WASHINGTON_2</Type> 
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description> 
+			<DefaultBuilding>BUILDING_TB_TRAIT_WASHINGTON_2</DefaultBuilding> 
+			<MaxGlobalInstances>-1</MaxGlobalInstances> 
+			<MaxTeamInstances>-1</MaxTeamInstances> 
+			<MaxPlayerInstances>-1</MaxPlayerInstances> 
+			<ExtraPlayerInstances>0</ExtraPlayerInstances> 
+			<NoLimit>false</NoLimit> 
+			<Monument>false</Monument> 
+		</Row>
+		<Row> 
+			<ID>156</ID> 
+			<Type>BUILDINGCLASS_TB_TRAIT_WU_2</Type> 
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description> 
+			<DefaultBuilding>BUILDING_TB_TRAIT_WU_2</DefaultBuilding> 
+			<MaxGlobalInstances>-1</MaxGlobalInstances> 
+			<MaxTeamInstances>-1</MaxTeamInstances> 
+			<MaxPlayerInstances>-1</MaxPlayerInstances> 
+			<ExtraPlayerInstances>0</ExtraPlayerInstances> 
+			<NoLimit>false</NoLimit> 
+			<Monument>false</Monument> 
+		</Row>
+		<Row> 
+			<ID>157</ID> 
 			<Type>BUILDINGCLASS_POLICY_PERTURN_EFFECTS</Type> 
 			<Description>TXT_KEY_BUILDING_THEOCRACY_WRITER</Description> 
 			<DefaultBuilding>BUILDING_FAITH_RELIGIOUS_POLITICS</DefaultBuilding> 
@@ -36348,7 +36552,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>141</ID> 
+			<ID>158</ID> 
 			<Type>BUILDINGCLASS_THEOCRACY_WRITER</Type> 
 			<Description>TXT_KEY_BUILDING_THEOCRACY_WRITER</Description> 
 			<DefaultBuilding>BUILDING_THEOCRACY_WRITER</DefaultBuilding> 
@@ -36360,7 +36564,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>142</ID> 
+			<ID>159</ID> 
 			<Type>BUILDINGCLASS_CONSUMER_GOODS_OFFER</Type> 
 			<Description>TXT_KEY_POLICY_DOUBLE_AGENTS</Description> 
 			<DefaultBuilding>BUILDING_CONSUMER_GOODS_OFFER</DefaultBuilding> 
@@ -36372,7 +36576,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>143</ID> 
+			<ID>160</ID> 
 			<Type>BUILDINGCLASS_POLICE_STATE</Type> 
 			<Description>TXT_KEY_BUILDING_POLICE_STATE</Description> 
 			<DefaultBuilding>BUILDING_POLICE_STATE_LV2</DefaultBuilding> 
@@ -36384,7 +36588,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>144</ID> 
+			<ID>161</ID> 
 			<Type>BUILDINGCLASS_UNITED_FRONT_FOOD</Type> 
 			<Description>TXT_KEY_BUILDING_POLICY_ORGANIZED_RELIGION_HELP</Description> 
 			<DefaultBuilding>BUILDING_UNITED_FRONT_FOOD</DefaultBuilding> 
@@ -36396,7 +36600,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>145</ID> 
+			<ID>162</ID> 
 			<Type>BUILDINGCLASS_REPRESENTATION_CULTURE</Type> 
 			<Description>TXT_KEY_BUILDING_REPRESENTATION_CULTURE</Description> 
 			<DefaultBuilding>BUILDING_REPRESENTATION_CULTURE</DefaultBuilding> 
@@ -36408,7 +36612,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>146</ID> 
+			<ID>163</ID> 
 			<Type>BUILDINGCLASS_FAMILY_PRODUCTION</Type> 
 			<Description>TXT_KEY_BUILDING_FAMILY_PRODUCTION</Description> 
 			<DefaultBuilding>BUILDING_FAMILY_PRODUCTION</DefaultBuilding> 
@@ -36420,7 +36624,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>147</ID> 
+			<ID>164</ID> 
 			<Type>BUILDINGCLASS_TRADITION_FINISHER_BONUS</Type> 
 			<Description>TXT_KEY_BUILDING_TRADITION_FINISHER_BONUS</Description> 
 			<DefaultBuilding>BUILDING_TRADITION_FINISHER_BONUS</DefaultBuilding> 
@@ -36432,7 +36636,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>148</ID> 
+			<ID>165</ID> 
 			<Type>BUILDINGCLASS_PURSUIT_PROFIT</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_PURSUIT_PROFIT</DefaultBuilding> 
@@ -36444,7 +36648,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>149</ID> 
+			<ID>166</ID> 
 			<Type>BUILDINGCLASS_MARKET_IDEAS</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_MARKET_IDEAS</DefaultBuilding> 
@@ -36456,7 +36660,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>150</ID> 
+			<ID>167</ID> 
 			<Type>BUILDINGCLASS_PATERNAL_STATE</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_PATERNAL_STATE</DefaultBuilding> 
@@ -36468,7 +36672,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>151</ID> 
+			<ID>168</ID> 
 			<Type>BUILDINGCLASS_HOUSE_CARDS</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_HOUSE_CARDS</DefaultBuilding> 
@@ -36480,7 +36684,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>152</ID> 
+			<ID>169</ID> 
 			<Type>BUILDINGCLASS_PROSPERITY_OPENER</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_PROSPERITY_OPENER</DefaultBuilding> 
@@ -36492,7 +36696,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>153</ID> 
+			<ID>170</ID> 
 			<Type>BUILDINGCLASS_PROSPERITY_FINISHER</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_PROSPERITY_FINISHER</DefaultBuilding> 
@@ -36504,7 +36708,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>154</ID> 
+			<ID>171</ID> 
 			<Type>BUILDINGCLASS_DOMINATION_OPENER</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_DOMINATION_OPENER</DefaultBuilding> 
@@ -36516,7 +36720,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>155</ID> 
+			<ID>172</ID> 
 			<Type>BUILDINGCLASS_GLOBAL_AMBITION</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_GLOBAL_AMBITION</DefaultBuilding> 
@@ -36528,7 +36732,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>156</ID> 
+			<ID>173</ID> 
 			<Type>BUILDINGCLASS_BIG_STICK</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_BIG_STICK</DefaultBuilding> 
@@ -36540,7 +36744,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>157</ID> 
+			<ID>174</ID> 
 			<Type>BUILDINGCLASS_ADMIRALTY</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_ADMIRALTY</DefaultBuilding> 
@@ -36552,7 +36756,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>158</ID> 
+			<ID>175</ID> 
 			<Type>BUILDINGCLASS_GRAND_ARMADA</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_GRAND_ARMADA</DefaultBuilding> 
@@ -36564,7 +36768,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>159</ID> 
+			<ID>176</ID> 
 			<Type>BUILDINGCLASS_IMPERIAL_PREROG</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_IMPERIAL_PREROG</DefaultBuilding> 
@@ -36576,7 +36780,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>160</ID> 
+			<ID>177</ID> 
 			<Type>BUILDINGCLASS_BYZ_BUR</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_BYZ_BUR</DefaultBuilding> 
@@ -36588,7 +36792,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>161</ID> 
+			<ID>178</ID> 
 			<Type>BUILDINGCLASS_FEDERATION</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_FEDERATION</DefaultBuilding> 
@@ -36600,7 +36804,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>162</ID> 
+			<ID>179</ID> 
 			<Type>BUILDINGCLASS_GREAT_GAME</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_GREAT_GAME</DefaultBuilding> 
@@ -36612,7 +36816,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>163</ID> 
+			<ID>180</ID> 
 			<Type>BUILDINGCLASS_DOMINATION_FINISHER</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_DOMINATION_FINISHER</DefaultBuilding> 
@@ -36624,7 +36828,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>164</ID> 
+			<ID>181</ID> 
 			<Type>BUILDINGCLASS_HARMONY_OPENER</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_HARMONY_OPENER</DefaultBuilding> 
@@ -36636,7 +36840,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>165</ID> 
+			<ID>182</ID> 
 			<Type>BUILDINGCLASS_ONE_VISION</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_ONE_VISION</DefaultBuilding> 
@@ -36648,7 +36852,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>166</ID> 
+			<ID>183</ID> 
 			<Type>BUILDINGCLASS_BIOPHILIA</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_BIOPHILIA</DefaultBuilding> 
@@ -36660,7 +36864,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>167</ID> 
+			<ID>184</ID> 
 			<Type>BUILDINGCLASS_ENIGMATIC_ENG</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_ENIGMATIC_ENG</DefaultBuilding> 
@@ -36672,7 +36876,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>168</ID> 
+			<ID>185</ID> 
 			<Type>BUILDINGCLASS_MASTERY_NATURE</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_MASTERY_NATURE</DefaultBuilding> 
@@ -36684,7 +36888,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>169</ID> 
+			<ID>186</ID> 
 			<Type>BUILDINGCLASS_ENG_PERFECTION</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_ENG_PERFECTION</DefaultBuilding> 
@@ -36696,7 +36900,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>170</ID> 
+			<ID>187</ID> 
 			<Type>BUILDINGCLASS_SERENE_REALM</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_SERENE_REALM</DefaultBuilding> 
@@ -36708,7 +36912,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>171</ID> 
+			<ID>188</ID> 
 			<Type>BUILDINGCLASS_UNITED_STAND</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_UNITED_STAND</DefaultBuilding> 
@@ -36720,7 +36924,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>172</ID> 
+			<ID>189</ID> 
 			<Type>BUILDINGCLASS_HARMONY_FINISHER</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_HARMONY_FINISHER</DefaultBuilding> 
@@ -36732,7 +36936,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>173</ID> 
+			<ID>190</ID> 
 			<Type>BUILDINGCLASS_AESTHETICS</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_AESTHETICS</DefaultBuilding> 
@@ -36744,7 +36948,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>174</ID> 
+			<ID>191</ID> 
 			<Type>BUILDINGCLASS_PATRONAGE_TRADEROUTE</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_PATRONAGE_TRADEROUTE</DefaultBuilding> 
@@ -36756,7 +36960,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>175</ID> 
+			<ID>192</ID> 
 			<Type>BUILDINGCLASS_COMMERCE_TRADEROUTE</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_COMMERCE_TRADEROUTE</DefaultBuilding> 
@@ -36768,7 +36972,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>176</ID> 
+			<ID>193</ID> 
 			<Type>BUILDINGCLASS_MERCHANTNAVY_TRADEROUTE</Type> 
 			<Description>TXT_KEY_BUILDING_BLD_TRADEROUTE_PLUS</Description> 
 			<DefaultBuilding>BUILDING_MERCHANTNAVY_TRADEROUTE</DefaultBuilding> 
@@ -36780,7 +36984,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>177</ID> 
+			<ID>194</ID> 
 			<Type>BUILDINGCLASS_AUTOCRACY_FIREWALL</Type> 
 			<Description>TXT_KEY_BUILDING_MERCHANTNAVY_TRADEROUTE</Description> 
 			<DefaultBuilding>BUILDING_AUTOCRACY_FIREWALL</DefaultBuilding> 
@@ -36792,7 +36996,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>178</ID> 
+			<ID>195</ID> 
 			<Type>BUILDINGCLASS_EXPLORATION_REMOVE_DEBUFF</Type> 
 			<Description>TXT_KEY_BUILDING_MERCHANTNAVY_TRADEROUTE</Description> 
 			<DefaultBuilding>BUILDING_EXPLORATION_REMOVE_DEBUFF</DefaultBuilding> 
@@ -36804,7 +37008,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>179</ID> 
+			<ID>196</ID> 
 			<Type>BUILDINGCLASS_FW_GEOTHERMAL_PLANT</Type> 
 			<Description>TXT_KEY_BUILDING_FW_GEOTHERMAL_PLANT</Description> 
 			<DefaultBuilding>BUILDING_FW_GEOTHERMAL_PLANT</DefaultBuilding> 
@@ -36816,7 +37020,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>180</ID> 
+			<ID>197</ID> 
 			<Type>BUILDINGCLASS_FW_TIDAL_PLANT</Type> 
 			<Description>TXT_KEY_BUILDING_FW_TIDAL_PLANT</Description> 
 			<DefaultBuilding>BUILDING_FW_TIDAL_PLANT</DefaultBuilding> 
@@ -36828,7 +37032,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>181</ID> 
+			<ID>198</ID> 
 			<Type>BUILDINGCLASS_FW_TIDAL_ARRAY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_TIDAL_ARRAY</Description> 
 			<DefaultBuilding>BUILDING_FW_TIDAL_ARRAY</DefaultBuilding> 
@@ -36840,7 +37044,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>182</ID> 
+			<ID>199</ID> 
 			<Type>BUILDINGCLASS_FW_AQUACULTURE_LAB</Type> 
 			<Description>TXT_KEY_BUILDING_FW_AQUACULTURE_LAB</Description> 
 			<DefaultBuilding>BUILDING_FW_AQUACULTURE_LAB</DefaultBuilding> 
@@ -36852,7 +37056,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>183</ID> 
+			<ID>200</ID> 
 			<Type>BUILDINGCLASS_FW_GENE_LAB</Type> 
 			<Description>TXT_KEY_BUILDING_FW_GENE_LAB</Description> 
 			<DefaultBuilding>BUILDING_FW_GENE_LAB</DefaultBuilding> 
@@ -36864,7 +37068,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>184</ID> 
+			<ID>201</ID> 
 			<Type>BUILDINGCLASS_FW_GENE_LAB_DUMMY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_GENE_LAB_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_GENE_LAB_DUMMY</DefaultBuilding> 
@@ -36876,7 +37080,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>185</ID> 
+			<ID>202</ID> 
 			<Type>BUILDINGCLASS_FW_CLONE_LAB</Type> 
 			<Description>TXT_KEY_BUILDING_FW_CLONE_LAB</Description> 
 			<DefaultBuilding>BUILDING_FW_CLONE_LAB</DefaultBuilding> 
@@ -36888,7 +37092,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>186</ID> 
+			<ID>203</ID> 
 			<Type>BUILDINGCLASS_FW_CLONE_LAB_DUMMY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_CLONE_LAB_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_CLONE_LAB_DUMMY</DefaultBuilding> 
@@ -36900,7 +37104,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>187</ID> 
+			<ID>204</ID> 
 			<Type>BUILDINGCLASS_FW_TG_NURSERY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_TG_NURSERY</Description> 
 			<DefaultBuilding>BUILDING_FW_TG_NURSERY</DefaultBuilding> 
@@ -36912,7 +37116,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>188</ID> 
+			<ID>205</ID> 
 			<Type>BUILDINGCLASS_FW_BIOFACTORY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_BIOFACTORY</Description> 
 			<DefaultBuilding>BUILDING_FW_BIOFACTORY</DefaultBuilding> 
@@ -36924,7 +37128,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>189</ID> 
+			<ID>206</ID> 
 			<Type>BUILDINGCLASS_FW_ECTOGENESIS_POD</Type> 
 			<Description>TXT_KEY_BUILDING_FW_ECTOGENESIS_POD</Description> 
 			<DefaultBuilding>BUILDING_FW_ECTOGENESIS_POD</DefaultBuilding> 
@@ -36936,7 +37140,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>190</ID> 
+			<ID>207</ID> 
 			<Type>BUILDINGCLASS_FW_GENEJACK_FACILITY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_GENEJACK_FACILITY</Description> 
 			<DefaultBuilding>BUILDING_FW_GENEJACK_FACILITY</DefaultBuilding> 
@@ -36948,7 +37152,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>191</ID> 
+			<ID>208</ID> 
 			<Type>BUILDINGCLASS_FW_BIOMOD_TANK</Type> 
 			<Description>TXT_KEY_BUILDING_FW_BIOMOD_TANK</Description> 
 			<DefaultBuilding>BUILDING_FW_BIOMOD_TANK</DefaultBuilding> 
@@ -36960,7 +37164,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>192</ID> 
+			<ID>209</ID> 
 			<Type>BUILDINGCLASS_FW_IMPLANT_CLINIC</Type> 
 			<Description>TXT_KEY_BUILDING_FW_IMPLANT_CLINIC</Description> 
 			<DefaultBuilding>BUILDING_FW_IMPLANT_CLINIC</DefaultBuilding> 
@@ -36972,7 +37176,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>193</ID> 
+			<ID>210</ID> 
 			<Type>BUILDINGCLASS_FW_CRECHE</Type> 
 			<Description>TXT_KEY_BUILDING_FW_CRECHE</Description> 
 			<DefaultBuilding>BUILDING_FW_CRECHE</DefaultBuilding> 
@@ -36984,7 +37188,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>194</ID> 
+			<ID>211</ID> 
 			<Type>BUILDINGCLASS_FW_SANCTUARY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_SANCTUARY</Description> 
 			<DefaultBuilding>BUILDING_FW_SANCTUARY</DefaultBuilding> 
@@ -36996,7 +37200,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>195</ID> 
+			<ID>212</ID> 
 			<Type>BUILDINGCLASS_FW_SANCTUARY_DUMMY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_SANCTUARY_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_SANCTUARY_DUMMY</DefaultBuilding> 
@@ -37008,7 +37212,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>196</ID> 
+			<ID>213</ID> 
 			<Type>BUILDINGCLASS_FW_VR_TRAINING</Type> 
 			<Description>TXT_KEY_BUILDING_FW_VR_TRAINING</Description> 
 			<DefaultBuilding>BUILDING_FW_VR_TRAINING</DefaultBuilding> 
@@ -37020,7 +37224,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>197</ID> 
+			<ID>214</ID> 
 			<Type>BUILDINGCLASS_FW_SERVER_HUB</Type> 
 			<Description>TXT_KEY_BUILDING_FW_SERVER_HUB</Description> 
 			<DefaultBuilding>BUILDING_FW_SERVER_HUB</DefaultBuilding> 
@@ -37032,7 +37236,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>198</ID> 
+			<ID>215</ID> 
 			<Type>BUILDINGCLASS_FW_ENTERTAINMENT_SERVER</Type> 
 			<Description>TXT_KEY_BUILDING_FW_ENTERTAINMENT_SERVER</Description> 
 			<DefaultBuilding>BUILDING_FW_ENTERTAINMENT_SERVER</DefaultBuilding> 
@@ -37044,7 +37248,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>199</ID> 
+			<ID>216</ID> 
 			<Type>BUILDINGCLASS_FW_RESEARCH_SERVER</Type> 
 			<Description>TXT_KEY_BUILDING_FW_RESEARCH_SERVER</Description> 
 			<DefaultBuilding>BUILDING_FW_RESEARCH_SERVER</DefaultBuilding> 
@@ -37056,7 +37260,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>200</ID> 
+			<ID>217</ID> 
 			<Type>BUILDINGCLASS_FW_COMMERCE_SERVER</Type> 
 			<Description>TXT_KEY_BUILDING_FW_COMMERCE_SERVER</Description> 
 			<DefaultBuilding>BUILDING_FW_COMMERCE_SERVER</DefaultBuilding> 
@@ -37068,7 +37272,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>201</ID> 
+			<ID>218</ID> 
 			<Type>BUILDINGCLASS_FW_NETWORK_BACKBONE</Type> 
 			<Description>TXT_KEY_BUILDING_FW_NETWORK_BACKBONE</Description> 
 			<DefaultBuilding>BUILDING_FW_NETWORK_BACKBONE</DefaultBuilding> 
@@ -37080,7 +37284,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>202</ID> 
+			<ID>219</ID> 
 			<Type>BUILDINGCLASS_FW_NETWORK_BACKBONE_DUMMY_1</Type> 
 			<Description>TXT_KEY_BUILDING_FW_NETWORK_BACKBONE_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_NETWORK_BACKBONE_DUMMY_1</DefaultBuilding> 
@@ -37092,7 +37296,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>203</ID> 
+			<ID>220</ID> 
 			<Type>BUILDINGCLASS_FW_NETWORK_BACKBONE_DUMMY_2</Type> 
 			<Description>TXT_KEY_BUILDING_FW_NETWORK_BACKBONE_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_NETWORK_BACKBONE_DUMMY_2</DefaultBuilding> 
@@ -37104,7 +37308,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>204</ID> 
+			<ID>221</ID> 
 			<Type>BUILDINGCLASS_FW_NETWORK_BACKBONE_DUMMY_3</Type> 
 			<Description>TXT_KEY_BUILDING_FW_NETWORK_BACKBONE_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_NETWORK_BACKBONE_DUMMY_3</DefaultBuilding> 
@@ -37116,7 +37320,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>205</ID> 
+			<ID>222</ID> 
 			<Type>BUILDINGCLASS_FW_CYBERCLINIC</Type> 
 			<Description>TXT_KEY_BUILDING_FW_CYBERCLINIC</Description> 
 			<DefaultBuilding>BUILDING_FW_CYBERCLINIC</DefaultBuilding> 
@@ -37128,7 +37332,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>206</ID> 
+			<ID>223</ID> 
 			<Type>BUILDINGCLASS_FW_TELEPRESENCE_HUB</Type> 
 			<Description>TXT_KEY_BUILDING_FW_TELEPRESENCE_HUB</Description> 
 			<DefaultBuilding>BUILDING_FW_TELEPRESENCE_HUB</DefaultBuilding> 
@@ -37140,7 +37344,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>207</ID> 
+			<ID>224</ID> 
 			<Type>BUILDINGCLASS_FW_TELEPRESENCE_HUB_DUMMY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_TELEPRESENCE_HUB_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_TELEPRESENCE_HUB_DUMMY</DefaultBuilding> 
@@ -37152,7 +37356,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>208</ID> 
+			<ID>225</ID> 
 			<Type>BUILDINGCLASS_FW_SIMULATION_SERVER</Type> 
 			<Description>TXT_KEY_BUILDING_FW_SIMULATION_SERVER</Description> 
 			<DefaultBuilding>BUILDING_FW_SIMULATION_SERVER</DefaultBuilding> 
@@ -37164,7 +37368,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>209</ID> 
+			<ID>226</ID> 
 			<Type>BUILDINGCLASS_FW_SIMULATION_SERVER_DUMMY_1</Type> 
 			<Description>TXT_KEY_BUILDING_FW_SIMULATION_SERVER_DUMMY_1</Description> 
 			<DefaultBuilding>BUILDING_FW_SIMULATION_SERVER_DUMMY_1</DefaultBuilding> 
@@ -37176,7 +37380,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>210</ID> 
+			<ID>227</ID> 
 			<Type>BUILDINGCLASS_FW_SIMULATION_SERVER_DUMMY_2</Type> 
 			<Description>TXT_KEY_BUILDING_FW_SIMULATION_SERVER_DUMMY_2</Description> 
 			<DefaultBuilding>BUILDING_FW_SIMULATION_SERVER_DUMMY_2</DefaultBuilding> 
@@ -37188,7 +37392,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>211</ID> 
+			<ID>228</ID> 
 			<Type>BUILDINGCLASS_FW_BRAIN_UPLOADING</Type> 
 			<Description>TXT_KEY_BUILDING_FW_BRAIN_UPLOADING</Description> 
 			<DefaultBuilding>BUILDING_FW_BRAIN_UPLOADING</DefaultBuilding> 
@@ -37200,7 +37404,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>212</ID> 
+			<ID>229</ID> 
 			<Type>BUILDINGCLASS_FW_BRAIN_UPLOADING_DUMMY_1</Type> 
 			<Description>TXT_KEY_BUILDING_FW_BRAIN_UPLOADING_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_BRAIN_UPLOADING_DUMMY_1</DefaultBuilding> 
@@ -37212,7 +37416,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>213</ID> 
+			<ID>230</ID> 
 			<Type>BUILDINGCLASS_FW_FUSION_PLANT</Type> 
 			<Description>TXT_KEY_BUILDING_FW_FUSION_PLANT</Description> 
 			<DefaultBuilding>BUILDING_FW_FUSION_PLANT</DefaultBuilding> 
@@ -37224,7 +37428,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>214</ID> 
+			<ID>231</ID> 
 			<Type>BUILDINGCLASS_FW_DEFENSE_FIELD</Type> 
 			<Description>TXT_KEY_BUILDING_FW_DEFENSE_FIELD</Description> 
 			<DefaultBuilding>BUILDING_FW_DEFENSE_FIELD</DefaultBuilding> 
@@ -37236,7 +37440,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>215</ID> 
+			<ID>232</ID> 
 			<Type>BUILDINGCLASS_AEROSPACE_COMPLEX</Type> 
 			<Description>TXT_KEY_BUILDING_AEROSPACE_COMPLEX</Description> 
 			<DefaultBuilding>BUILDING_AEROSPACE_COMPLEX</DefaultBuilding> 
@@ -37248,7 +37452,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>216</ID> 
+			<ID>233</ID> 
 			<Type>BUILDINGCLASS_FW_AUTOPLANT</Type> 
 			<Description>TXT_KEY_BUILDING_FW_AUTOPLANT</Description> 
 			<DefaultBuilding>BUILDING_FW_AUTOPLANT</DefaultBuilding> 
@@ -37260,7 +37464,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>217</ID> 
+			<ID>234</ID> 
 			<Type>BUILDINGCLASS_FW_AUTOPLANT_DUMMY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_AUTOPLANT_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_AUTOPLANT_DUMMY</DefaultBuilding> 
@@ -37272,7 +37476,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>218</ID> 
+			<ID>235</ID> 
 			<Type>BUILDINGCLASS_FW_DRONE_HIVE</Type> 
 			<Description>TXT_KEY_BUILDING_FW_DRONE_HIVE</Description> 
 			<DefaultBuilding>BUILDING_FW_DRONE_HIVE</DefaultBuilding> 
@@ -37284,7 +37488,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>219</ID> 
+			<ID>236</ID> 
 			<Type>BUILDINGCLASS_FW_DRONE_HIVE_DUMMY_1</Type> 
 			<Description>TXT_KEY_BUILDING_FW_DRONE_HIVE_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_DRONE_HIVE_DUMMY_1</DefaultBuilding> 
@@ -37296,7 +37500,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>220</ID> 
+			<ID>237</ID> 
 			<Type>BUILDINGCLASS_FW_DRONE_HIVE_DUMMY_2</Type> 
 			<Description>TXT_KEY_BUILDING_FW_DRONE_HIVE_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_DRONE_HIVE_DUMMY_2</DefaultBuilding> 
@@ -37308,7 +37512,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>221</ID> 
+			<ID>238</ID> 
 			<Type>BUILDINGCLASS_FW_UTILITY_FOG</Type> 
 			<Description>TXT_KEY_BUILDING_FW_UTILITY_FOG</Description> 
 			<DefaultBuilding>BUILDING_FW_UTILITY_FOG</DefaultBuilding> 
@@ -37320,7 +37524,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>222</ID> 
+			<ID>239</ID> 
 			<Type>BUILDINGCLASS_FW_ANGELNET_DUMMY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_ANGELNET_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_ANGELNET_DUMMY</DefaultBuilding> 
@@ -37332,7 +37536,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>223</ID> 
+			<ID>240</ID> 
 			<Type>BUILDINGCLASS_FW_NANOFORGE</Type> 
 			<Description>TXT_KEY_BUILDING_FW_NANOFORGE</Description> 
 			<DefaultBuilding>BUILDING_FW_NANOFORGE</DefaultBuilding> 
@@ -37344,7 +37548,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>224</ID> 
+			<ID>241</ID> 
 			<Type>BUILDINGCLASS_FW_UNDERSEA_MINING</Type> 
 			<Description>TXT_KEY_BUILDING_FW_UNDERSEA_MINING</Description> 
 			<DefaultBuilding>BUILDING_FW_UNDERSEA_MINING</DefaultBuilding> 
@@ -37356,7 +37560,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>225</ID> 
+			<ID>242</ID> 
 			<Type>BUILDINGCLASS_FW_NANOMAT_PLANT</Type> 
 			<Description>TXT_KEY_BUILDING_FW_NANOMAT_PLANT</Description> 
 			<DefaultBuilding>BUILDING_FW_NANOMAT_PLANT</DefaultBuilding> 
@@ -37368,7 +37572,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>226</ID> 
+			<ID>243</ID> 
 			<Type>BUILDINGCLASS_FW_CONVERTER</Type> 
 			<Description>TXT_KEY_BUILDING_FW_CONVERTER</Description> 
 			<DefaultBuilding>BUILDING_FW_CONVERTER</DefaultBuilding> 
@@ -37380,7 +37584,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>227</ID> 
+			<ID>244</ID> 
 			<Type>BUILDINGCLASS_FW_ALLOY_FOUNDRY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_ALLOY_FOUNDRY</Description> 
 			<DefaultBuilding>BUILDING_FW_ALLOY_FOUNDRY</DefaultBuilding> 
@@ -37392,7 +37596,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>228</ID> 
+			<ID>245</ID> 
 			<Type>BUILDINGCLASS_FW_FEEDSITE_HUB</Type> 
 			<Description>TXT_KEY_BUILDING_FW_FEEDSITE_HUB</Description> 
 			<DefaultBuilding>BUILDING_FW_FEEDSITE_HUB</DefaultBuilding> 
@@ -37404,7 +37608,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>229</ID> 
+			<ID>246</ID> 
 			<Type>BUILDINGCLASS_FW_FEEDSITE_HUB_DUMMY_1</Type> 
 			<Description>TXT_KEY_BUILDING_FW_FEEDSITE_HUB_DUMMY_1</Description> 
 			<DefaultBuilding>BUILDING_FW_FEEDSITE_HUB_DUMMY_1</DefaultBuilding> 
@@ -37416,7 +37620,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>230</ID> 
+			<ID>247</ID> 
 			<Type>BUILDINGCLASS_FW_FEEDSITE_HUB_DUMMY_2</Type> 
 			<Description>TXT_KEY_BUILDING_FW_FEEDSITE_HUB_DUMMY_2</Description> 
 			<DefaultBuilding>BUILDING_FW_FEEDSITE_HUB_DUMMY_2</DefaultBuilding> 
@@ -37428,7 +37632,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>231</ID> 
+			<ID>248</ID> 
 			<Type>BUILDINGCLASS_FW_DISTRIBUTION_HUB</Type> 
 			<Description>TXT_KEY_BUILDING_FW_DISTRIBUTION_HUB</Description> 
 			<DefaultBuilding>BUILDING_FW_DISTRIBUTION_HUB</DefaultBuilding> 
@@ -37440,7 +37644,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>232</ID> 
+			<ID>249</ID> 
 			<Type>BUILDINGCLASS_FW_DISTRIBUTION_HUB_DUMMY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_DISTRIBUTION_HUB_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_DISTRIBUTION_HUB_DUMMY</DefaultBuilding> 
@@ -37452,7 +37656,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>233</ID> 
+			<ID>250</ID> 
 			<Type>BUILDINGCLASS_FW_METROPLEX_HUB</Type> 
 			<Description>TXT_KEY_BUILDING_FW_METROPLEX_HUB</Description> 
 			<DefaultBuilding>BUILDING_FW_METROPLEX_HUB</DefaultBuilding> 
@@ -37464,7 +37668,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>234</ID> 
+			<ID>251</ID> 
 			<Type>BUILDINGCLASS_FW_METROPLEX_HUB_DUMMY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_METROPLEX_HUB_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_METROPLEX_HUB_DUMMY</DefaultBuilding> 
@@ -37476,7 +37680,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>235</ID> 
+			<ID>252</ID> 
 			<Type>BUILDINGCLASS_FW_VERTICAL_FARM</Type> 
 			<Description>TXT_KEY_BUILDING_FW_VERTICAL_FARM</Description> 
 			<DefaultBuilding>BUILDING_FW_VERTICAL_FARM</DefaultBuilding> 
@@ -37488,7 +37692,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>236</ID> 
+			<ID>253</ID> 
 			<Type>BUILDINGCLASS_FW_VERTICAL_FARM_DUMMY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_VERTICAL_FARM_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_VERTICAL_FARM_DUMMY</DefaultBuilding> 
@@ -37500,7 +37704,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>237</ID> 
+			<ID>254</ID> 
 			<Type>BUILDINGCLASS_FW_MYCOPROTEIN_VATS</Type> 
 			<Description>TXT_KEY_BUILDING_FW_MYCOPROTEIN_VATS</Description> 
 			<DefaultBuilding>BUILDING_FW_MYCOPROTEIN_VATS</DefaultBuilding> 
@@ -37512,7 +37716,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>238</ID> 
+			<ID>255</ID> 
 			<Type>BUILDINGCLASS_FW_ORBITAL_HABITAT</Type> 
 			<Description>TXT_KEY_BUILDING_FW_ORBITAL_HABITAT</Description> 
 			<DefaultBuilding>BUILDING_FW_ORBITAL_HABITAT</DefaultBuilding> 
@@ -37524,7 +37728,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>239</ID> 
+			<ID>256</ID> 
 			<Type>BUILDINGCLASS_FW_ORBITAL_HABITAT_DUMMY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_ORBITAL_HABITAT_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_ORBITAL_HABITAT_DUMMY</DefaultBuilding> 
@@ -37536,7 +37740,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>240</ID> 
+			<ID>257</ID> 
 			<Type>BUILDINGCLASS_FW_SPACE_STATION</Type> 
 			<Description>TXT_KEY_BUILDING_FW_SPACE_STATION</Description> 
 			<DefaultBuilding>BUILDING_FW_SPACE_STATION</DefaultBuilding> 
@@ -37548,7 +37752,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>241</ID> 
+			<ID>258</ID> 
 			<Type>BUILDINGCLASS_FW_RESEARCH_MODULE_1</Type> 
 			<Description>TXT_KEY_BUILDING_FW_RESEARCH_MODULE</Description> 
 			<DefaultBuilding>BUILDING_FW_RESEARCH_MODULE_1</DefaultBuilding> 
@@ -37560,7 +37764,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>242</ID> 
+			<ID>259</ID> 
 			<Type>BUILDINGCLASS_FW_ENGINEERING_MODULE_1</Type> 
 			<Description>TXT_KEY_BUILDING_FW_RESEARCH_MODULE</Description> 
 			<DefaultBuilding>BUILDING_FW_ENGINEERING_MODULE_1</DefaultBuilding> 
@@ -37572,7 +37776,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>243</ID> 
+			<ID>260</ID> 
 			<Type>BUILDINGCLASS_FW_COMM_MODULE_1</Type> 
 			<Description>TXT_KEY_BUILDING_FW_RESEARCH_MODULE</Description> 
 			<DefaultBuilding>BUILDING_FW_COMM_MODULE_1</DefaultBuilding> 
@@ -37584,7 +37788,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>244</ID> 
+			<ID>261</ID> 
 			<Type>BUILDINGCLASS_FW_LAUNCH_FACILITY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_LAUNCH_FACILITY</Description> 
 			<DefaultBuilding>BUILDING_FW_LAUNCH_FACILITY</DefaultBuilding> 
@@ -37596,7 +37800,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>245</ID> 
+			<ID>262</ID> 
 			<Type>BUILDINGCLASS_FW_ACCELERATOR</Type> 
 			<Description>TXT_KEY_BUILDING_FW_ACCELERATOR</Description> 
 			<DefaultBuilding>BUILDING_FW_ACCELERATOR</DefaultBuilding> 
@@ -37608,7 +37812,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>246</ID> 
+			<ID>263</ID> 
 			<Type>BUILDINGCLASS_FW_BOREHOLE</Type> 
 			<Description>TXT_KEY_BUILDING_FW_BOREHOLE</Description> 
 			<DefaultBuilding>BUILDING_FW_BOREHOLE</DefaultBuilding> 
@@ -37620,7 +37824,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>247</ID> 
+			<ID>264</ID> 
 			<Type>BUILDINGCLASS_FW_MOON_BASE</Type> 
 			<Description>TXT_KEY_BUILDING_FW_MOON_BASE</Description> 
 			<DefaultBuilding>BUILDING_FW_MOON_BASE</DefaultBuilding> 
@@ -37632,7 +37836,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>248</ID> 
+			<ID>265</ID> 
 			<Type>BUILDINGCLASS_FW_CENTRAL_COMMAND</Type> 
 			<Description>TXT_KEY_BUILDING_FW_CENTRAL_COMMAND</Description> 
 			<DefaultBuilding>BUILDING_FW_CENTRAL_COMMAND</DefaultBuilding> 
@@ -37644,7 +37848,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>249</ID> 
+			<ID>266</ID> 
 			<Type>BUILDINGCLASS_FW_NEPHILIMGENETEMPLATE_DUMMY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_NEPHILIMGENETEMPLATE_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_NEPHILIMGENETEMPLATE_DUMMY</DefaultBuilding> 
@@ -37656,7 +37860,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>250</ID> 
+			<ID>267</ID> 
 			<Type>BUILDINGCLASS_FW_SHIMIZUMCP_DUMMY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_SHIMIZUMCP_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_FW_SHIMIZUMCP_DUMMY</DefaultBuilding> 
@@ -37668,7 +37872,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>251</ID> 
+			<ID>268</ID> 
 			<Type>BUILDINGCLASS_FW_DATA_HAVEN_DUMMY_1</Type> 
 			<Description>TXT_KEY_BUILDING_FW_DATA_HAVEN_DUMMY_1</Description> 
 			<DefaultBuilding>BUILDING_FW_DATA_HAVEN_DUMMY_1</DefaultBuilding> 
@@ -37680,7 +37884,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>252</ID> 
+			<ID>269</ID> 
 			<Type>BUILDINGCLASS_FW_DATA_HAVEN_DUMMY_2</Type> 
 			<Description>TXT_KEY_BUILDING_FW_DATA_HAVEN_DUMMY_2</Description> 
 			<DefaultBuilding>BUILDING_FW_DATA_HAVEN_DUMMY_2</DefaultBuilding> 
@@ -37692,7 +37896,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>253</ID> 
+			<ID>270</ID> 
 			<Type>BUILDINGCLASS_FW_DATA_HAVEN_DUMMY_3</Type> 
 			<Description>TXT_KEY_BUILDING_FW_DATA_HAVEN_DUMMY_3</Description> 
 			<DefaultBuilding>BUILDING_FW_DATA_HAVEN_DUMMY_3</DefaultBuilding> 
@@ -37704,7 +37908,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>254</ID> 
+			<ID>271</ID> 
 			<Type>BUILDINGCLASS_FW_GENOME_PROJECT_1</Type> 
 			<Description>TXT_KEY_BUILDING_FW_GENOME_PROJECT_1</Description> 
 			<DefaultBuilding>BUILDING_FW_GENOME_PROJECT_1</DefaultBuilding> 
@@ -37716,7 +37920,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>255</ID> 
+			<ID>272</ID> 
 			<Type>BUILDINGCLASS_FW_GENOME_PROJECT_2</Type> 
 			<Description>TXT_KEY_BUILDING_FW_GENOME_PROJECT_2</Description> 
 			<DefaultBuilding>BUILDING_FW_GENOME_PROJECT_2</DefaultBuilding> 
@@ -37728,7 +37932,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>256</ID> 
+			<ID>273</ID> 
 			<Type>BUILDINGCLASS_FW_GENOME_PROJECT_3</Type> 
 			<Description>TXT_KEY_BUILDING_FW_GENOME_PROJECT_3</Description> 
 			<DefaultBuilding>BUILDING_FW_GENOME_PROJECT_3</DefaultBuilding> 
@@ -37740,7 +37944,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>257</ID> 
+			<ID>274</ID> 
 			<Type>BUILDINGCLASS_FW_ASTEROID_MINING_1</Type> 
 			<Description>TXT_KEY_BUILDING_FW_ASTEROID_MINING_1</Description> 
 			<DefaultBuilding>BUILDING_FW_ASTEROID_MINING_1</DefaultBuilding> 
@@ -37752,7 +37956,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>258</ID> 
+			<ID>275</ID> 
 			<Type>BUILDINGCLASS_FW_ASTEROID_MINING_2</Type> 
 			<Description>TXT_KEY_BUILDING_FW_ASTEROID_MINING_2</Description> 
 			<DefaultBuilding>BUILDING_FW_ASTEROID_MINING_2</DefaultBuilding> 
@@ -37764,7 +37968,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>259</ID> 
+			<ID>276</ID> 
 			<Type>BUILDINGCLASS_FW_ASTEROID_MINING_3</Type> 
 			<Description>TXT_KEY_BUILDING_FW_ASTEROID_MINING_3</Description> 
 			<DefaultBuilding>BUILDING_FW_ASTEROID_MINING_3</DefaultBuilding> 
@@ -37776,7 +37980,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>260</ID> 
+			<ID>277</ID> 
 			<Type>BUILDINGCLASS_MILITARY_ACADEMY</Type> 
 			<Description>TXT_KEY_BUILDING_MILITARY_ACADEMY</Description> 
 			<DefaultBuilding>BUILDING_MILITARY_ACADEMY</DefaultBuilding> 
@@ -37788,7 +37992,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>261</ID> 
+			<ID>278</ID> 
 			<Type>BUILDINGCLASS_SEAPORT</Type> 
 			<Description>TXT_KEY_BUILDING_SEAPORT</Description> 
 			<DefaultBuilding>BUILDING_SEAPORT</DefaultBuilding> 
@@ -37800,7 +38004,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>262</ID> 
+			<ID>279</ID> 
 			<Type>BUILDINGCLASS_STABLE</Type> 
 			<Description>TXT_KEY_BUILDING_STABLE</Description> 
 			<DefaultBuilding>BUILDING_STABLE</DefaultBuilding> 
@@ -37812,7 +38016,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>263</ID> 
+			<ID>280</ID> 
 			<Type>BUILDINGCLASS_WATERMILL</Type> 
 			<Description>TXT_KEY_BUILDING_WATERMILL</Description> 
 			<DefaultBuilding>BUILDING_WATERMILL</DefaultBuilding> 
@@ -37824,7 +38028,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>264</ID> 
+			<ID>281</ID> 
 			<Type>BUILDINGCLASS_CIRCUS</Type> 
 			<Description>TXT_KEY_BUILDING_CIRCUS</Description> 
 			<DefaultBuilding>BUILDING_CIRCUS</DefaultBuilding> 
@@ -37836,7 +38040,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>265</ID> 
+			<ID>282</ID> 
 			<Type>BUILDINGCLASS_IRON_PROVIDER</Type> 
 			<Description>TXT_KEY_BUILDING_FORGE</Description> 
 			<DefaultBuilding>BUILDING_IRON_PROVIDER</DefaultBuilding> 
@@ -37848,7 +38052,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>266</ID> 
+			<ID>283</ID> 
 			<Type>BUILDINGCLASS_WINDMILL</Type> 
 			<Description>TXT_KEY_BUILDING_WINDMILL</Description> 
 			<DefaultBuilding>BUILDING_WINDMILL</DefaultBuilding> 
@@ -37860,7 +38064,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>267</ID> 
+			<ID>284</ID> 
 			<Type>BUILDINGCLASS_MINT</Type> 
 			<Description>TXT_KEY_BUILDING_MINT</Description> 
 			<DefaultBuilding>BUILDING_MINT</DefaultBuilding> 
@@ -37872,7 +38076,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>268</ID> 
+			<ID>285</ID> 
 			<Type>BUILDINGCLASS_OBSERVATORY</Type> 
 			<Description>TXT_KEY_BUILDING_OBSERVATORY</Description> 
 			<DefaultBuilding>BUILDING_OBSERVATORY</DefaultBuilding> 
@@ -37884,7 +38088,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>269</ID> 
+			<ID>286</ID> 
 			<Type>BUILDINGCLASS_MONASTERY</Type> 
 			<Description>TXT_KEY_BUILDING_MONASTERY</Description> 
 			<DefaultBuilding>BUILDING_MONASTERY</DefaultBuilding> 
@@ -37896,7 +38100,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>270</ID> 
+			<ID>287</ID> 
 			<Type>BUILDINGCLASS_GARDEN</Type> 
 			<Description>TXT_KEY_BUILDING_GARDEN</Description> 
 			<DefaultBuilding>BUILDING_GARDEN</DefaultBuilding> 
@@ -37908,7 +38112,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>271</ID> 
+			<ID>288</ID> 
 			<Type>BUILDINGCLASS_LIGHTHOUSE</Type> 
 			<Description>TXT_KEY_BUILDING_LIGHTHOUSE</Description> 
 			<DefaultBuilding>BUILDING_LIGHTHOUSE</DefaultBuilding> 
@@ -37920,7 +38124,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>272</ID> 
+			<ID>289</ID> 
 			<Type>BUILDINGCLASS_HARBOR</Type> 
 			<Description>TXT_KEY_BUILDING_HARBOR</Description> 
 			<DefaultBuilding>BUILDING_HARBOR</DefaultBuilding> 
@@ -37932,7 +38136,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>273</ID> 
+			<ID>290</ID> 
 			<Type>BUILDINGCLASS_THEATRE</Type> 
 			<Description>TXT_KEY_BUILDING_THEATRE</Description> 
 			<DefaultBuilding>BUILDING_THEATRE</DefaultBuilding> 
@@ -37944,7 +38148,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>274</ID> 
+			<ID>291</ID> 
 			<Type>BUILDINGCLASS_STADIUM</Type> 
 			<Description>TXT_KEY_BUILDING_STADIUM</Description> 
 			<DefaultBuilding>BUILDING_STADIUM</DefaultBuilding> 
@@ -37956,7 +38160,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>275</ID> 
+			<ID>292</ID> 
 			<Type>BUILDINGCLASS_MONUMENT</Type> 
 			<Description>TXT_KEY_BUILDING_MONUMENT</Description> 
 			<DefaultBuilding>BUILDING_MONUMENT</DefaultBuilding> 
@@ -37968,7 +38172,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>276</ID> 
+			<ID>293</ID> 
 			<Type>BUILDINGCLASS_AMPHITHEATER</Type> 
 			<Description>TXT_KEY_BUILDING_AMPHITHEATER</Description> 
 			<DefaultBuilding>BUILDING_AMPHITHEATER</DefaultBuilding> 
@@ -37980,7 +38184,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>277</ID> 
+			<ID>294</ID> 
 			<Type>BUILDINGCLASS_OPERA_HOUSE</Type> 
 			<Description>TXT_KEY_BUILDING_OPERA_HOUSE</Description> 
 			<DefaultBuilding>BUILDING_OPERA_HOUSE</DefaultBuilding> 
@@ -37992,7 +38196,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>278</ID> 
+			<ID>295</ID> 
 			<Type>BUILDINGCLASS_MUSEUM</Type> 
 			<Description>TXT_KEY_BUILDING_MUSEUM</Description> 
 			<DefaultBuilding>BUILDING_MUSEUM</DefaultBuilding> 
@@ -38004,7 +38208,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>279</ID> 
+			<ID>296</ID> 
 			<Type>BUILDINGCLASS_BROADCAST_TOWER</Type> 
 			<Description>TXT_KEY_BUILDING_BROADCAST_TOWER</Description> 
 			<DefaultBuilding>BUILDING_BROADCAST_TOWER</DefaultBuilding> 
@@ -38016,7 +38220,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>280</ID> 
+			<ID>297</ID> 
 			<Type>BUILDINGCLASS_SHRINE</Type> 
 			<Description>TXT_KEY_BUILDING_SHRINE</Description> 
 			<DefaultBuilding>BUILDING_SHRINE</DefaultBuilding> 
@@ -38028,7 +38232,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>281</ID> 
+			<ID>298</ID> 
 			<Type>BUILDINGCLASS_TEMPLE</Type> 
 			<Description>TXT_KEY_BUILDING_TEMPLE</Description> 
 			<DefaultBuilding>BUILDING_TEMPLE</DefaultBuilding> 
@@ -38040,7 +38244,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>282</ID> 
+			<ID>299</ID> 
 			<Type>BUILDINGCLASS_BARRACKS</Type> 
 			<Description>TXT_KEY_BUILDING_BARRACKS</Description> 
 			<DefaultBuilding>BUILDING_BARRACKS</DefaultBuilding> 
@@ -38052,7 +38256,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>283</ID> 
+			<ID>300</ID> 
 			<Type>BUILDINGCLASS_ARMORY</Type> 
 			<Description>TXT_KEY_BUILDING_ARMORY</Description> 
 			<DefaultBuilding>BUILDING_ARMORY</DefaultBuilding> 
@@ -38064,7 +38268,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>284</ID> 
+			<ID>301</ID> 
 			<Type>BUILDINGCLASS_ARSENAL</Type> 
 			<Description>TXT_KEY_BUILDING_ARSENAL</Description> 
 			<DefaultBuilding>BUILDING_ARSENAL</DefaultBuilding> 
@@ -38076,7 +38280,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>285</ID> 
+			<ID>302</ID> 
 			<Type>BUILDINGCLASS_WALLS</Type> 
 			<Description>TXT_KEY_BUILDING_WALLS</Description> 
 			<DefaultBuilding>BUILDING_WALLS</DefaultBuilding> 
@@ -38088,7 +38292,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>286</ID> 
+			<ID>303</ID> 
 			<Type>BUILDINGCLASS_CASTLE</Type> 
 			<Description>TXT_KEY_BUILDING_CASTLE</Description> 
 			<DefaultBuilding>BUILDING_CASTLE</DefaultBuilding> 
@@ -38100,7 +38304,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>287</ID> 
+			<ID>304</ID> 
 			<Type>BUILDINGCLASS_MILITARY_BASE</Type> 
 			<Description>TXT_KEY_BUILDING_MILITARY_BASE</Description> 
 			<DefaultBuilding>BUILDING_MILITARY_BASE</DefaultBuilding> 
@@ -38112,7 +38316,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>288</ID> 
+			<ID>305</ID> 
 			<Type>BUILDINGCLASS_GRANARY</Type> 
 			<Description>TXT_KEY_BUILDING_GRANARY</Description> 
 			<DefaultBuilding>BUILDING_GRANARY</DefaultBuilding> 
@@ -38124,7 +38328,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>289</ID> 
+			<ID>306</ID> 
 			<Type>BUILDINGCLASS_HOSPITAL</Type> 
 			<Description>TXT_KEY_BUILDING_HOSPITAL</Description> 
 			<DefaultBuilding>BUILDING_HOSPITAL</DefaultBuilding> 
@@ -38136,7 +38340,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>290</ID> 
+			<ID>307</ID> 
 			<Type>BUILDINGCLASS_MEDICAL_LAB</Type> 
 			<Description>TXT_KEY_BUILDING_MEDICAL_LAB</Description> 
 			<DefaultBuilding>BUILDING_MEDICAL_LAB</DefaultBuilding> 
@@ -38148,7 +38352,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>291</ID> 
+			<ID>308</ID> 
 			<Type>BUILDINGCLASS_WORKSHOP</Type> 
 			<Description>TXT_KEY_BUILDING_WORKSHOP</Description> 
 			<DefaultBuilding>BUILDING_WORKSHOP</DefaultBuilding> 
@@ -38160,7 +38364,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>292</ID> 
+			<ID>309</ID> 
 			<Type>BUILDINGCLASS_FACTORY</Type> 
 			<Description>TXT_KEY_BUILDING_FACTORY</Description> 
 			<DefaultBuilding>BUILDING_FACTORY</DefaultBuilding> 
@@ -38172,7 +38376,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>293</ID> 
+			<ID>310</ID> 
 			<Type>BUILDINGCLASS_SPACESHIP_FACTORY</Type> 
 			<Description>TXT_KEY_BUILDING_SPACESHIP_FACTORY</Description> 
 			<DefaultBuilding>BUILDING_SPACESHIP_FACTORY</DefaultBuilding> 
@@ -38184,7 +38388,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>294</ID> 
+			<ID>311</ID> 
 			<Type>BUILDINGCLASS_MARKET</Type> 
 			<Description>TXT_KEY_BUILDING_MARKET</Description> 
 			<DefaultBuilding>BUILDING_MARKET</DefaultBuilding> 
@@ -38196,7 +38400,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>295</ID> 
+			<ID>312</ID> 
 			<Type>BUILDINGCLASS_BANK</Type> 
 			<Description>TXT_KEY_BUILDING_BANK</Description> 
 			<DefaultBuilding>BUILDING_BANK</DefaultBuilding> 
@@ -38208,7 +38412,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>296</ID> 
+			<ID>313</ID> 
 			<Type>BUILDINGCLASS_STOCK_EXCHANGE</Type> 
 			<Description>TXT_KEY_BUILDING_STOCK_EXCHANGE</Description> 
 			<DefaultBuilding>BUILDING_STOCK_EXCHANGE</DefaultBuilding> 
@@ -38220,7 +38424,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>297</ID> 
+			<ID>314</ID> 
 			<Type>BUILDINGCLASS_LIBRARY</Type> 
 			<Description>TXT_KEY_BUILDING_LIBRARY</Description> 
 			<DefaultBuilding>BUILDING_LIBRARY</DefaultBuilding> 
@@ -38232,7 +38436,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>298</ID> 
+			<ID>315</ID> 
 			<Type>BUILDINGCLASS_UNIVERSITY</Type> 
 			<Description>TXT_KEY_BUILDING_UNIVERSITY</Description> 
 			<DefaultBuilding>BUILDING_UNIVERSITY</DefaultBuilding> 
@@ -38244,7 +38448,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>299</ID> 
+			<ID>316</ID> 
 			<Type>BUILDINGCLASS_PUBLIC_SCHOOL</Type> 
 			<Description>TXT_KEY_BUILDING_PUBLIC_SCHOOL</Description> 
 			<DefaultBuilding>BUILDING_PUBLIC_SCHOOL</DefaultBuilding> 
@@ -38256,7 +38460,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>300</ID> 
+			<ID>317</ID> 
 			<Type>BUILDINGCLASS_LABORATORY</Type> 
 			<Description>TXT_KEY_BUILDING_LABORATORY</Description> 
 			<DefaultBuilding>BUILDING_LABORATORY</DefaultBuilding> 
@@ -38268,7 +38472,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>301</ID> 
+			<ID>318</ID> 
 			<Type>BUILDINGCLASS_PALACE</Type> 
 			<Description>TXT_KEY_BUILDING_PALACE</Description> 
 			<DefaultBuilding>BUILDING_PALACE</DefaultBuilding> 
@@ -38280,7 +38484,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>302</ID> 
+			<ID>319</ID> 
 			<Type>BUILDINGCLASS_HEROIC_EPIC</Type> 
 			<Description>TXT_KEY_BUILDING_HEROIC_EPIC</Description> 
 			<DefaultBuilding>BUILDING_HEROIC_EPIC</DefaultBuilding> 
@@ -38292,7 +38496,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>303</ID> 
+			<ID>320</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_CARAVANSARY</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_CARAVANSARY</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_CARAVANSARY</DefaultBuilding> 
@@ -38304,7 +38508,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>304</ID> 
+			<ID>321</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_TREASURY</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_TREASURY</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_TREASURY</DefaultBuilding> 
@@ -38316,7 +38520,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>305</ID> 
+			<ID>322</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_TREASURY_II</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_TREASURY_II</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_TREASURY_II</DefaultBuilding> 
@@ -38328,7 +38532,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>306</ID> 
+			<ID>323</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_COLLEGE</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_COLLEGE</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_COLLEGE</DefaultBuilding> 
@@ -38340,7 +38544,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>307</ID> 
+			<ID>324</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_SHRINE</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_SHRINE</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_SHRINE</DefaultBuilding> 
@@ -38352,7 +38556,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>308</ID> 
+			<ID>325</ID> 
 			<Type>BUILDINGCLASS_OXFORD_UNIVERSITY</Type> 
 			<Description>TXT_KEY_BUILDING_OXFORD_UNIVERSITY</Description> 
 			<DefaultBuilding>BUILDING_OXFORD_UNIVERSITY</DefaultBuilding> 
@@ -38364,7 +38568,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>309</ID> 
+			<ID>326</ID> 
 			<Type>BUILDINGCLASS_HERMITAGE</Type> 
 			<Description>TXT_KEY_BUILDING_HERMITAGE</Description> 
 			<DefaultBuilding>BUILDING_HERMITAGE</DefaultBuilding> 
@@ -38376,7 +38580,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>310</ID> 
+			<ID>327</ID> 
 			<Type>BUILDINGCLASS_PYRAMID</Type> 
 			<Description>TXT_KEY_BUILDING_PYRAMID</Description> 
 			<DefaultBuilding>BUILDING_PYRAMID</DefaultBuilding> 
@@ -38388,7 +38592,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>311</ID> 
+			<ID>328</ID> 
 			<Type>BUILDINGCLASS_GREAT_LIBRARY</Type> 
 			<Description>TXT_KEY_BUILDING_GREAT_LIBRARY</Description> 
 			<DefaultBuilding>BUILDING_GREAT_LIBRARY</DefaultBuilding> 
@@ -38400,7 +38604,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>312</ID> 
+			<ID>329</ID> 
 			<Type>BUILDINGCLASS_STONEHENGE</Type> 
 			<Description>TXT_KEY_BUILDING_STONEHENGE</Description> 
 			<DefaultBuilding>BUILDING_STONEHENGE</DefaultBuilding> 
@@ -38412,7 +38616,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>313</ID> 
+			<ID>330</ID> 
 			<Type>BUILDINGCLASS_HANGING_GARDEN</Type> 
 			<Description>TXT_KEY_BUILDING_HANGING_GARDEN</Description> 
 			<DefaultBuilding>BUILDING_HANGING_GARDEN</DefaultBuilding> 
@@ -38424,7 +38628,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>314</ID> 
+			<ID>331</ID> 
 			<Type>BUILDINGCLASS_COLOSSUS</Type> 
 			<Description>TXT_KEY_BUILDING_COLOSSUS</Description> 
 			<DefaultBuilding>BUILDING_COLOSSUS</DefaultBuilding> 
@@ -38436,7 +38640,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>315</ID> 
+			<ID>332</ID> 
 			<Type>BUILDINGCLASS_GREAT_LIGHTHOUSE</Type> 
 			<Description>TXT_KEY_BUILDING_GREAT_LIGHTHOUSE</Description> 
 			<DefaultBuilding>BUILDING_GREAT_LIGHTHOUSE</DefaultBuilding> 
@@ -38448,7 +38652,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>316</ID> 
+			<ID>333</ID> 
 			<Type>BUILDINGCLASS_ORACLE</Type> 
 			<Description>TXT_KEY_BUILDING_ORACLE</Description> 
 			<DefaultBuilding>BUILDING_ORACLE</DefaultBuilding> 
@@ -38460,7 +38664,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>317</ID> 
+			<ID>334</ID> 
 			<Type>BUILDINGCLASS_GREAT_WALL</Type> 
 			<Description>TXT_KEY_BUILDING_GREAT_WALL</Description> 
 			<DefaultBuilding>BUILDING_GREAT_WALL</DefaultBuilding> 
@@ -38472,7 +38676,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>318</ID> 
+			<ID>335</ID> 
 			<Type>BUILDINGCLASS_HAGIA_SOPHIA</Type> 
 			<Description>TXT_KEY_BUILDING_HAGIA_SOPHIA</Description> 
 			<DefaultBuilding>BUILDING_HAGIA_SOPHIA</DefaultBuilding> 
@@ -38484,7 +38688,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>319</ID> 
+			<ID>336</ID> 
 			<Type>BUILDINGCLASS_ANGKOR_WAT</Type> 
 			<Description>TXT_KEY_BUILDING_ANGKOR_WAT</Description> 
 			<DefaultBuilding>BUILDING_ANGKOR_WAT</DefaultBuilding> 
@@ -38496,7 +38700,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>320</ID> 
+			<ID>337</ID> 
 			<Type>BUILDINGCLASS_NOTRE_DAME</Type> 
 			<Description>TXT_KEY_BUILDING_NOTRE_DAME</Description> 
 			<DefaultBuilding>BUILDING_NOTRE_DAME</DefaultBuilding> 
@@ -38508,7 +38712,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>321</ID> 
+			<ID>338</ID> 
 			<Type>BUILDINGCLASS_MACHU_PICHU</Type> 
 			<Description>TXT_KEY_BUILDING_MACHU_PICHU</Description> 
 			<DefaultBuilding>BUILDING_MACHU_PICHU</DefaultBuilding> 
@@ -38520,7 +38724,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>322</ID> 
+			<ID>339</ID> 
 			<Type>BUILDINGCLASS_CHICHEN_ITZA</Type> 
 			<Description>TXT_KEY_BUILDING_CHICHEN_ITZA</Description> 
 			<DefaultBuilding>BUILDING_CHICHEN_ITZA</DefaultBuilding> 
@@ -38532,7 +38736,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>323</ID> 
+			<ID>340</ID> 
 			<Type>BUILDINGCLASS_KREMLIN</Type> 
 			<Description>TXT_KEY_BUILDING_KREMLIN</Description> 
 			<DefaultBuilding>BUILDING_KREMLIN</DefaultBuilding> 
@@ -38544,7 +38748,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>324</ID> 
+			<ID>341</ID> 
 			<Type>BUILDINGCLASS_FORBIDDEN_PALACE</Type> 
 			<Description>TXT_KEY_BUILDING_FORBIDDEN_PALACE</Description> 
 			<DefaultBuilding>BUILDING_FORBIDDEN_PALACE</DefaultBuilding> 
@@ -38556,7 +38760,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>325</ID> 
+			<ID>342</ID> 
 			<Type>BUILDINGCLASS_SISTINE_CHAPEL</Type> 
 			<Description>TXT_KEY_BUILDING_SISTINE_CHAPEL</Description> 
 			<DefaultBuilding>BUILDING_SISTINE_CHAPEL</DefaultBuilding> 
@@ -38568,7 +38772,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>326</ID> 
+			<ID>343</ID> 
 			<Type>BUILDINGCLASS_HIMEJI_CASTLE</Type> 
 			<Description>TXT_KEY_BUILDING_HIMEJI_CASTLE</Description> 
 			<DefaultBuilding>BUILDING_HIMEJI_CASTLE</DefaultBuilding> 
@@ -38580,7 +38784,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>327</ID> 
+			<ID>344</ID> 
 			<Type>BUILDINGCLASS_PORCELAIN_TOWER</Type> 
 			<Description>TXT_KEY_BUILDING_PORCELAIN_TOWER</Description> 
 			<DefaultBuilding>BUILDING_PORCELAIN_TOWER</DefaultBuilding> 
@@ -38592,7 +38796,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>328</ID> 
+			<ID>345</ID> 
 			<Type>BUILDINGCLASS_TAJ_MAHAL</Type> 
 			<Description>TXT_KEY_BUILDING_TAJ_MAHAL</Description> 
 			<DefaultBuilding>BUILDING_TAJ_MAHAL</DefaultBuilding> 
@@ -38604,7 +38808,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>329</ID> 
+			<ID>346</ID> 
 			<Type>BUILDINGCLASS_BIG_BEN</Type> 
 			<Description>TXT_KEY_BUILDING_BIG_BEN</Description> 
 			<DefaultBuilding>BUILDING_BIG_BEN</DefaultBuilding> 
@@ -38616,7 +38820,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>330</ID> 
+			<ID>347</ID> 
 			<Type>BUILDINGCLASS_BRANDENBURG_GATE</Type> 
 			<Description>TXT_KEY_BUILDING_BRANDENBURG_GATE</Description> 
 			<DefaultBuilding>BUILDING_BRANDENBURG_GATE</DefaultBuilding> 
@@ -38628,7 +38832,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>331</ID> 
+			<ID>348</ID> 
 			<Type>BUILDINGCLASS_LOUVRE</Type> 
 			<Description>TXT_KEY_BUILDING_LOUVRE</Description> 
 			<DefaultBuilding>BUILDING_LOUVRE</DefaultBuilding> 
@@ -38640,7 +38844,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>332</ID> 
+			<ID>349</ID> 
 			<Type>BUILDINGCLASS_EIFFEL_TOWER</Type> 
 			<Description>TXT_KEY_BUILDING_EIFFEL_TOWER</Description> 
 			<DefaultBuilding>BUILDING_EIFFEL_TOWER</DefaultBuilding> 
@@ -38652,7 +38856,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>333</ID> 
+			<ID>350</ID> 
 			<Type>BUILDINGCLASS_STATUE_OF_LIBERTY</Type> 
 			<Description>TXT_KEY_BUILDING_STATUE_OF_LIBERTY</Description> 
 			<DefaultBuilding>BUILDING_STATUE_OF_LIBERTY</DefaultBuilding> 
@@ -38664,7 +38868,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>334</ID> 
+			<ID>351</ID> 
 			<Type>BUILDINGCLASS_CRISTO_REDENTOR</Type> 
 			<Description>TXT_KEY_BUILDING_CRISTO_REDENTOR</Description> 
 			<DefaultBuilding>BUILDING_CRISTO_REDENTOR</DefaultBuilding> 
@@ -38676,7 +38880,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>335</ID> 
+			<ID>352</ID> 
 			<Type>BUILDINGCLASS_PENTAGON</Type> 
 			<Description>TXT_KEY_BUILDING_PENTAGON</Description> 
 			<DefaultBuilding>BUILDING_PENTAGON</DefaultBuilding> 
@@ -38688,7 +38892,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>336</ID> 
+			<ID>353</ID> 
 			<Type>BUILDINGCLASS_SYDNEY_OPERA_HOUSE</Type> 
 			<Description>TXT_KEY_BUILDING_SYDNEY_OPERA_HOUSE</Description> 
 			<DefaultBuilding>BUILDING_SYDNEY_OPERA_HOUSE</DefaultBuilding> 
@@ -38700,7 +38904,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>337</ID> 
+			<ID>354</ID> 
 			<Type>BUILDINGCLASS_AQUEDUCT</Type> 
 			<Description>TXT_KEY_BUILDING_AQUEDUCT</Description> 
 			<DefaultBuilding>BUILDING_AQUEDUCT</DefaultBuilding> 
@@ -38712,7 +38916,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>338</ID> 
+			<ID>355</ID> 
 			<Type>BUILDINGCLASS_STONE_WORKS</Type> 
 			<Description>TXT_KEY_BUILDING_STONE_WORKS</Description> 
 			<DefaultBuilding>BUILDING_STONE_WORKS</DefaultBuilding> 
@@ -38724,7 +38928,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>339</ID> 
+			<ID>356</ID> 
 			<Type>BUILDINGCLASS_CATHEDRAL</Type> 
 			<Description>TXT_KEY_BUILDING_CATHEDRAL</Description> 
 			<DefaultBuilding>BUILDING_CATHEDRAL</DefaultBuilding> 
@@ -38736,7 +38940,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>340</ID> 
+			<ID>357</ID> 
 			<Type>BUILDINGCLASS_MOSQUE</Type> 
 			<Description>TXT_KEY_BUILDING_MOSQUE</Description> 
 			<DefaultBuilding>BUILDING_MOSQUE</DefaultBuilding> 
@@ -38748,7 +38952,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>341</ID> 
+			<ID>358</ID> 
 			<Type>BUILDINGCLASS_PAGODA</Type> 
 			<Description>TXT_KEY_BUILDING_PAGODA</Description> 
 			<DefaultBuilding>BUILDING_PAGODA</DefaultBuilding> 
@@ -38760,7 +38964,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>342</ID> 
+			<ID>359</ID> 
 			<Type>BUILDINGCLASS_ALUMINUM_PROVIDER</Type> 
 			<Description>TXT_KEY_BUILDING_RECYCLING_CENTER</Description> 
 			<DefaultBuilding>BUILDING_ALUMINUM_PROVIDER</DefaultBuilding> 
@@ -38772,7 +38976,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>343</ID> 
+			<ID>360</ID> 
 			<Type>BUILDINGCLASS_BOMB_SHELTER</Type> 
 			<Description>TXT_KEY_BUILDING_BOMB_SHELTER</Description> 
 			<DefaultBuilding>BUILDING_BOMB_SHELTER</DefaultBuilding> 
@@ -38784,7 +38988,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>344</ID> 
+			<ID>361</ID> 
 			<Type>BUILDINGCLASS_GRAND_TEMPLE</Type> 
 			<Description>TXT_KEY_BUILDING_GRAND_TEMPLE</Description> 
 			<DefaultBuilding>BUILDING_GRAND_TEMPLE</DefaultBuilding> 
@@ -38796,7 +39000,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>345</ID> 
+			<ID>362</ID> 
 			<Type>BUILDINGCLASS_ALHAMBRA</Type> 
 			<Description>TXT_KEY_BUILDING_ALHAMBRA</Description> 
 			<DefaultBuilding>BUILDING_ALHAMBRA</DefaultBuilding> 
@@ -38808,7 +39012,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>346</ID> 
+			<ID>363</ID> 
 			<Type>BUILDINGCLASS_CN_TOWER</Type> 
 			<Description>TXT_KEY_BUILDING_CN_TOWER</Description> 
 			<DefaultBuilding>BUILDING_CN_TOWER</DefaultBuilding> 
@@ -38820,7 +39024,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>347</ID> 
+			<ID>364</ID> 
 			<Type>BUILDINGCLASS_LEANING_TOWER</Type> 
 			<Description>TXT_KEY_BUILDING_LEANING_TOWER</Description> 
 			<DefaultBuilding>BUILDING_LEANING_TOWER</DefaultBuilding> 
@@ -38832,7 +39036,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>348</ID> 
+			<ID>365</ID> 
 			<Type>BUILDINGCLASS_MOSQUE_OF_DJENNE</Type> 
 			<Description>TXT_KEY_BUILDING_MOSQUE_OF_DJENNE</Description> 
 			<DefaultBuilding>BUILDING_MOSQUE_OF_DJENNE</DefaultBuilding> 
@@ -38844,7 +39048,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>349</ID> 
+			<ID>366</ID> 
 			<Type>BUILDINGCLASS_NEUSCHWANSTEIN</Type> 
 			<Description>TXT_KEY_BUILDING_NEUSCHWANSTEIN</Description> 
 			<DefaultBuilding>BUILDING_NEUSCHWANSTEIN</DefaultBuilding> 
@@ -38856,7 +39060,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>350</ID> 
+			<ID>367</ID> 
 			<Type>BUILDINGCLASS_PETRA</Type> 
 			<Description>TXT_KEY_BUILDING_PETRA</Description> 
 			<DefaultBuilding>BUILDING_PETRA</DefaultBuilding> 
@@ -38868,7 +39072,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>351</ID> 
+			<ID>368</ID> 
 			<Type>BUILDINGCLASS_TERRACOTTA_ARMY</Type> 
 			<Description>TXT_KEY_BUILDING_TERRACOTTA_ARMY</Description> 
 			<DefaultBuilding>BUILDING_TERRACOTTA_ARMY</DefaultBuilding> 
@@ -38880,7 +39084,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>352</ID> 
+			<ID>369</ID> 
 			<Type>BUILDINGCLASS_GREAT_FIREWALL</Type> 
 			<Description>TXT_KEY_BUILDING_GREAT_FIREWALL</Description> 
 			<DefaultBuilding>BUILDING_GREAT_FIREWALL</DefaultBuilding> 
@@ -38892,7 +39096,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>353</ID> 
+			<ID>370</ID> 
 			<Type>BUILDINGCLASS_HOTEL</Type> 
 			<Description>TXT_KEY_BUILDING_HOTEL</Description> 
 			<DefaultBuilding>BUILDING_HOTEL</DefaultBuilding> 
@@ -38904,7 +39108,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>354</ID> 
+			<ID>371</ID> 
 			<Type>BUILDINGCLASS_CARAVANSARY</Type> 
 			<Description>TXT_KEY_BUILDING_CARAVANSARY</Description> 
 			<DefaultBuilding>BUILDING_CARAVANSARY</DefaultBuilding> 
@@ -38916,7 +39120,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>355</ID> 
+			<ID>372</ID> 
 			<Type>BUILDINGCLASS_AIRPORT</Type> 
 			<Description>TXT_KEY_BUILDING_AIRPORT</Description> 
 			<DefaultBuilding>BUILDING_AIRPORT</DefaultBuilding> 
@@ -38928,7 +39132,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>356</ID> 
+			<ID>373</ID> 
 			<Type>BUILDINGCLASS_UFFIZI</Type> 
 			<Description>TXT_KEY_BUILDING_UFFIZI</Description> 
 			<DefaultBuilding>BUILDING_UFFIZI</DefaultBuilding> 
@@ -38940,7 +39144,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>357</ID> 
+			<ID>374</ID> 
 			<Type>BUILDINGCLASS_GLOBE_THEATER</Type> 
 			<Description>TXT_KEY_BUILDING_GLOBE_THEATER</Description> 
 			<DefaultBuilding>BUILDING_GLOBE_THEATER</DefaultBuilding> 
@@ -38952,7 +39156,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>358</ID> 
+			<ID>375</ID> 
 			<Type>BUILDINGCLASS_BROADWAY</Type> 
 			<Description>TXT_KEY_BUILDING_BROADWAY</Description> 
 			<DefaultBuilding>BUILDING_BROADWAY</DefaultBuilding> 
@@ -38964,7 +39168,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>359</ID> 
+			<ID>376</ID> 
 			<Type>BUILDINGCLASS_RED_FORT</Type> 
 			<Description>TXT_KEY_BUILDING_RED_FORT</Description> 
 			<DefaultBuilding>BUILDING_RED_FORT</DefaultBuilding> 
@@ -38976,7 +39180,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>360</ID> 
+			<ID>377</ID> 
 			<Type>BUILDINGCLASS_PRORA_RESORT</Type> 
 			<Description>TXT_KEY_BUILDING_PRORA_RESORT</Description> 
 			<DefaultBuilding>BUILDING_PRORA_RESORT</DefaultBuilding> 
@@ -38988,7 +39192,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>361</ID> 
+			<ID>378</ID> 
 			<Type>BUILDINGCLASS_BOROBUDUR</Type> 
 			<Description>TXT_KEY_BUILDING_BOROBUDUR</Description> 
 			<DefaultBuilding>BUILDING_BOROBUDUR</DefaultBuilding> 
@@ -39000,7 +39204,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>362</ID> 
+			<ID>379</ID> 
 			<Type>BUILDINGCLASS_PARTHENON</Type> 
 			<Description>TXT_KEY_PARTHENON</Description> 
 			<DefaultBuilding>BUILDING_PARTHENON</DefaultBuilding> 
@@ -39012,7 +39216,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>363</ID> 
+			<ID>380</ID> 
 			<Type>BUILDINGCLASS_TAIPEI</Type> 
 			<Description>TXT_KEY_BUILDING_TAIPEI</Description> 
 			<DefaultBuilding>BUILDING_TAIPEI</DefaultBuilding> 
@@ -39024,7 +39228,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>364</ID> 
+			<ID>381</ID> 
 			<Type>BUILDINGCLASS_ARECIBO</Type> 
 			<Description>TXT_KEY_BUILDING_ARECIBO</Description> 
 			<DefaultBuilding>BUILDING_ARECIBO</DefaultBuilding> 
@@ -39036,7 +39240,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>365</ID> 
+			<ID>382</ID> 
 			<Type>BUILDINGCLASS_WILLIS</Type> 
 			<Description>TXT_KEY_BUILDING_WILLIS</Description> 
 			<DefaultBuilding>BUILDING_WILLIS</DefaultBuilding> 
@@ -39048,7 +39252,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>366</ID> 
+			<ID>383</ID> 
 			<Type>BUILDINGCLASS_WASHINGTON</Type> 
 			<Description>TXT_KEY_BUILDING_WASHINGTON</Description> 
 			<DefaultBuilding>BUILDING_WASHINGTON</DefaultBuilding> 
@@ -39060,7 +39264,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>367</ID> 
+			<ID>384</ID> 
 			<Type>BUILDINGCLASS_AGRA</Type> 
 			<Description>TXT_KEY_BUILDING_AGRA</Description> 
 			<DefaultBuilding>BUILDING_AGRA</DefaultBuilding> 
@@ -39072,7 +39276,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>368</ID> 
+			<ID>385</ID> 
 			<Type>BUILDINGCLASS_ABER</Type> 
 			<Description>TXT_KEY_BUILDING_ABER</Description> 
 			<DefaultBuilding>BUILDING_ABER</DefaultBuilding> 
@@ -39084,7 +39288,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>369</ID> 
+			<ID>386</ID> 
 			<Type>BUILDINGCLASS_HARMANDIR</Type> 
 			<Description>TXT_KEY_BUILDING_HARMANDIR</Description> 
 			<DefaultBuilding>BUILDING_HARMANDIR</DefaultBuilding> 
@@ -39096,7 +39300,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>370</ID> 
+			<ID>387</ID> 
 			<Type>BUILDINGCLASS_HAWA</Type> 
 			<Description>TXT_KEY_BUILDING_HAWA</Description> 
 			<DefaultBuilding>BUILDING_HAWA</DefaultBuilding> 
@@ -39108,7 +39312,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>371</ID> 
+			<ID>388</ID> 
 			<Type>BUILDINGCLASS_MAHADEVA</Type> 
 			<Description>TXT_KEY_BUILDING_MAHADEVA</Description> 
 			<DefaultBuilding>BUILDING_MAHADEVA</DefaultBuilding> 
@@ -39120,7 +39324,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>372</ID> 
+			<ID>389</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_BIOSPHERE</Type> 
 			<Description>TXT_KEY_NATIONAL_BIOSPHERE</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_BIOSPHERE</DefaultBuilding> 
@@ -39132,7 +39336,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>373</ID> 
+			<ID>390</ID> 
 			<Type>BUILDINGCLASS_WOOD_DOCK</Type> 
 			<Description>TXT_KEY_BUILDING_WOOD_DOCK</Description> 
 			<DefaultBuilding>BUILDING_WOOD_DOCK</DefaultBuilding> 
@@ -39144,7 +39348,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>374</ID> 
+			<ID>391</ID> 
 			<Type>BUILDINGCLASS_SHIPYARD</Type> 
 			<Description>TXT_KEY_BUILDING_SHIPYARD</Description> 
 			<DefaultBuilding>BUILDING_SHIPYARD</DefaultBuilding> 
@@ -39156,7 +39360,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>375</ID> 
+			<ID>392</ID> 
 			<Type>BUILDINGCLASS_FINANCE_COMPANY</Type> 
 			<Description>TXT_KEY_BUILDING_FINANCE_COMPANY</Description> 
 			<DefaultBuilding>BUILDING_FINANCE_COMPANY</DefaultBuilding> 
@@ -39168,7 +39372,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>376</ID> 
+			<ID>393</ID> 
 			<Type>BUILDINGCLASS_TAP_WATER_SUPPLY</Type> 
 			<Description>TXT_KEY_BUILDING_TAP_WATER_SUPPLY</Description> 
 			<DefaultBuilding>BUILDING_TAP_WATER_SUPPLY</DefaultBuilding> 
@@ -39180,7 +39384,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>377</ID> 
+			<ID>394</ID> 
 			<Type>BUILDINGCLASS_WATER_TREATMENT_FACTORY</Type> 
 			<Description>TXT_KEY_BUILDING_WATER_TREATMENT_FACTORY</Description> 
 			<DefaultBuilding>BUILDING_WATER_TREATMENT_FACTORY</DefaultBuilding> 
@@ -39192,7 +39396,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>378</ID> 
+			<ID>395</ID> 
 			<Type>BUILDINGCLASS_STAGECOACH</Type> 
 			<Description>TXT_KEY_BUILDING_STAGECOACH</Description> 
 			<DefaultBuilding>BUILDING_STAGECOACH</DefaultBuilding> 
@@ -39204,7 +39408,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>379</ID> 
+			<ID>396</ID> 
 			<Type>BUILDINGCLASS_BUS_STATION</Type> 
 			<Description>TXT_KEY_BUILDING_BUS_STATION</Description> 
 			<DefaultBuilding>BUILDING_BUS_STATION</DefaultBuilding> 
@@ -39216,7 +39420,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>380</ID> 
+			<ID>397</ID> 
 			<Type>BUILDINGCLASS_SUBWAY_STATION</Type> 
 			<Description>TXT_KEY_BUILDING_SUBWAY_STATION</Description> 
 			<DefaultBuilding>BUILDING_SUBWAY_STATION</DefaultBuilding> 
@@ -39228,7 +39432,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>381</ID> 
+			<ID>398</ID> 
 			<Type>BUILDINGCLASS_MAGLEV</Type> 
 			<Description>TXT_KEY_BUILDING_MAGLEV</Description> 
 			<DefaultBuilding>BUILDING_MAGLEV</DefaultBuilding> 
@@ -39240,7 +39444,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>382</ID> 
+			<ID>399</ID> 
 			<Type>BUILDINGCLASS_CITY_CBD</Type> 
 			<Description>TXT_KEY_BUILDING_CITY_CBD</Description> 
 			<DefaultBuilding>BUILDING_CITY_CBD</DefaultBuilding> 
@@ -39252,7 +39456,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>383</ID> 
+			<ID>400</ID> 
 			<Type>BUILDINGCLASS_INTERNATIONAL_AIRPORT</Type> 
 			<Description>TXT_KEY_BUILDING_INTERNATIONAL_AIRPORT</Description> 
 			<DefaultBuilding>BUILDING_INTERNATIONAL_AIRPORT</DefaultBuilding> 
@@ -39264,7 +39468,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>384</ID> 
+			<ID>401</ID> 
 			<Type>BUILDINGCLASS_INTERNATIONAL_SEAPORT</Type> 
 			<Description>TXT_KEY_BUILDING_INTERNATIONAL_SEAPORT</Description> 
 			<DefaultBuilding>BUILDING_INTERNATIONAL_SEAPORT</DefaultBuilding> 
@@ -39276,7 +39480,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>385</ID> 
+			<ID>402</ID> 
 			<Type>BUILDINGCLASS_VIDEO_GAME_COMPANY</Type> 
 			<Description>TXT_KEY_BUILDING_VIDEO_GAME_COMPANY</Description> 
 			<DefaultBuilding>BUILDING_VIDEO_GAME_COMPANY</DefaultBuilding> 
@@ -39288,7 +39492,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>386</ID> 
+			<ID>403</ID> 
 			<Type>BUILDINGCLASS_GENE_LAB</Type> 
 			<Description>TXT_KEY_BUILDING_GENE_LAB</Description> 
 			<DefaultBuilding>BUILDING_GENE_LAB</DefaultBuilding> 
@@ -39300,7 +39504,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>387</ID> 
+			<ID>404</ID> 
 			<Type>BUILDINGCLASS_INTERNATIONAL_TRADE_COMPANY</Type> 
 			<Description>TXT_KEY_BUILDING_INTERNATIONAL_TRADE_COMPANY</Description> 
 			<DefaultBuilding>BUILDING_INTERNATIONAL_TRADE_COMPANY</DefaultBuilding> 
@@ -39312,7 +39516,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>388</ID> 
+			<ID>405</ID> 
 			<Type>BUILDINGCLASS_CINEMA</Type> 
 			<Description>TXT_KEY_BUILDING_CINEMA</Description> 
 			<DefaultBuilding>BUILDING_CINEMA</DefaultBuilding> 
@@ -39324,7 +39528,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>389</ID> 
+			<ID>406</ID> 
 			<Type>BUILDINGCLASS_BIO_LAB</Type> 
 			<Description>TXT_KEY_BUILDING_BIO_LAB</Description> 
 			<DefaultBuilding>BUILDING_BIO_LAB</DefaultBuilding> 
@@ -39336,7 +39540,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>390</ID> 
+			<ID>407</ID> 
 			<Type>BUILDINGCLASS_LOGISTICS_COMPANY</Type> 
 			<Description>TXT_KEY_BUILDING_LOGISTICS_COMPANY</Description> 
 			<DefaultBuilding>BUILDING_LOGISTICS_COMPANY</DefaultBuilding> 
@@ -39348,7 +39552,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>391</ID> 
+			<ID>408</ID> 
 			<Type>BUILDINGCLASS_AMUSEMENT_PARK</Type> 
 			<Description>TXT_KEY_BUILDING_AMUSEMENT_PARK</Description> 
 			<DefaultBuilding>BUILDING_AMUSEMENT_PARK</DefaultBuilding> 
@@ -39360,7 +39564,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>392</ID> 
+			<ID>409</ID> 
 			<Type>BUILDINGCLASS_THEME_PARK</Type> 
 			<Description>TXT_KEY_BUILDING_THEME_PARK</Description> 
 			<DefaultBuilding>BUILDING_THEME_PARK</DefaultBuilding> 
@@ -39372,7 +39576,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>393</ID> 
+			<ID>410</ID> 
 			<Type>BUILDINGCLASS_GRAIN_DEPOT</Type> 
 			<Description>TXT_KEY_BUILDING_GRAIN_DEPOT</Description> 
 			<DefaultBuilding>BUILDING_GRAIN_DEPOT</DefaultBuilding> 
@@ -39384,7 +39588,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>394</ID> 
+			<ID>411</ID> 
 			<Type>BUILDINGCLASS_MECHANIZED_FARM</Type> 
 			<Description>TXT_KEY_BUILDING_MECHANIZED_FARM</Description> 
 			<DefaultBuilding>BUILDING_MECHANIZED_FARM</DefaultBuilding> 
@@ -39396,7 +39600,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>395</ID> 
+			<ID>412</ID> 
 			<Type>BUILDINGCLASS_SAWMILL</Type> 
 			<Description>TXT_KEY_BUILDING_SAWMILL</Description> 
 			<DefaultBuilding>BUILDING_SAWMILL</DefaultBuilding> 
@@ -39408,7 +39612,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>396</ID> 
+			<ID>413</ID> 
 			<Type>BUILDINGCLASS_RACECOURSE</Type> 
 			<Description>TXT_KEY_BUILDING_RACECOURSE</Description> 
 			<DefaultBuilding>BUILDING_RACECOURSE</DefaultBuilding> 
@@ -39420,7 +39624,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>397</ID> 
+			<ID>414</ID> 
 			<Type>BUILDINGCLASS_FOOD_MARKET</Type> 
 			<Description>TXT_KEY_BUILDING_FOOD_MARKET</Description> 
 			<DefaultBuilding>BUILDING_FOOD_MARKET</DefaultBuilding> 
@@ -39432,7 +39636,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>398</ID> 
+			<ID>415</ID> 
 			<Type>BUILDINGCLASS_ACADEMY</Type> 
 			<Description>TXT_KEY_BUILDING_ACADEMY</Description> 
 			<DefaultBuilding>BUILDING_ACADEMY</DefaultBuilding> 
@@ -39444,7 +39648,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>399</ID> 
+			<ID>416</ID> 
 			<Type>BUILDINGCLASS_JEWELER</Type> 
 			<Description>TXT_KEY_BUILDING_JEWELER</Description> 
 			<DefaultBuilding>BUILDING_JEWELER</DefaultBuilding> 
@@ -39456,7 +39660,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>400</ID> 
+			<ID>417</ID> 
 			<Type>BUILDINGCLASS_TV_STATION</Type> 
 			<Description>TXT_KEY_BUILDING_TV_STATION</Description> 
 			<DefaultBuilding>BUILDING_TV_STATION</DefaultBuilding> 
@@ -39468,7 +39672,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>401</ID> 
+			<ID>418</ID> 
 			<Type>BUILDINGCLASS_GARMENT_WORKSHOP</Type> 
 			<Description>TXT_KEY_BUILDING_GARMENT_WORKSHOP</Description> 
 			<DefaultBuilding>BUILDING_GARMENT_WORKSHOP</DefaultBuilding> 
@@ -39480,7 +39684,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>402</ID> 
+			<ID>419</ID> 
 			<Type>BUILDINGCLASS_MINGING_FACTORY</Type> 
 			<Description>TXT_KEY_BUILDING_MINGING_FACTORY</Description> 
 			<DefaultBuilding>BUILDING_MINGING_FACTORY</DefaultBuilding> 
@@ -39492,7 +39696,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>403</ID> 
+			<ID>420</ID> 
 			<Type>BUILDINGCLASS_INLAND_CANAL</Type> 
 			<Description>TXT_KEY_BUILDING_INLAND_CANAL</Description> 
 			<DefaultBuilding>BUILDING_INLAND_CANAL</DefaultBuilding> 
@@ -39504,7 +39708,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>404</ID> 
+			<ID>421</ID> 
 			<Type>BUILDINGCLASS_METAL_FACTORY</Type> 
 			<Description>TXT_KEY_BUILDING_METAL_FACTORY</Description> 
 			<DefaultBuilding>BUILDING_METAL_FACTORY</DefaultBuilding> 
@@ -39516,7 +39720,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>405</ID> 
+			<ID>422</ID> 
 			<Type>BUILDINGCLASS_COAL_TO_OIL</Type> 
 			<Description>TXT_KEY_BUILDING_COAL_TO_OIL</Description> 
 			<DefaultBuilding>BUILDING_COAL_TO_OIL</DefaultBuilding> 
@@ -39528,7 +39732,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>406</ID> 
+			<ID>423</ID> 
 			<Type>BUILDINGCLASS_COAL_TO_URANIUM</Type> 
 			<Description>TXT_KEY_BUILDING_COAL_TO_URANIUM</Description> 
 			<DefaultBuilding>BUILDING_COAL_TO_URANIUM</DefaultBuilding> 
@@ -39540,7 +39744,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>407</ID> 
+			<ID>424</ID> 
 			<Type>BUILDINGCLASS_BEVERAGE_FACTORY</Type> 
 			<Description>TXT_KEY_BUILDING_BEVERAGE_FACTORY</Description> 
 			<DefaultBuilding>BUILDING_BEVERAGE_FACTORY</DefaultBuilding> 
@@ -39552,7 +39756,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>408</ID> 
+			<ID>425</ID> 
 			<Type>BUILDINGCLASS_COUNTRY_CLUB</Type> 
 			<Description>TXT_KEY_BUILDING_COUNTRY_CLUB</Description> 
 			<DefaultBuilding>BUILDING_COUNTRY_CLUB</DefaultBuilding> 
@@ -39564,7 +39768,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>409</ID> 
+			<ID>426</ID> 
 			<Type>BUILDINGCLASS_WILDLIFE_PRESERVE</Type> 
 			<Description>TXT_KEY_BUILDING_WILDLIFE_PRESERVE</Description> 
 			<DefaultBuilding>BUILDING_WILDLIFE_PRESERVE</DefaultBuilding> 
@@ -39576,7 +39780,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>410</ID> 
+			<ID>427</ID> 
 			<Type>BUILDINGCLASS_DIGITAL_NETWORK</Type> 
 			<Description>TXT_KEY_BUILDING_DIGITAL_NETWORK</Description> 
 			<DefaultBuilding>BUILDING_DIGITAL_NETWORK</DefaultBuilding> 
@@ -39588,7 +39792,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>411</ID> 
+			<ID>428</ID> 
 			<Type>BUILDINGCLASS_3DPRINTING</Type> 
 			<Description>TXT_KEY_BUILDING_3DPRINTING</Description> 
 			<DefaultBuilding>BUILDING_3DPRINTING</DefaultBuilding> 
@@ -39600,7 +39804,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>412</ID> 
+			<ID>429</ID> 
 			<Type>BUILDINGCLASS_FUTURE_FACTORY</Type> 
 			<Description>TXT_KEY_BUILDING_FUTURE_FACTORY</Description> 
 			<DefaultBuilding>BUILDING_FUTURE_FACTORY</DefaultBuilding> 
@@ -39612,7 +39816,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>413</ID> 
+			<ID>430</ID> 
 			<Type>BUILDINGCLASS_OIL_REFINERY</Type> 
 			<Description>TXT_KEY_BUILDING_OIL_REFINERY</Description> 
 			<DefaultBuilding>BUILDING_OIL_REFINERY</DefaultBuilding> 
@@ -39624,7 +39828,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>414</ID> 
+			<ID>431</ID> 
 			<Type>BUILDINGCLASS_COAL_COMPANY</Type> 
 			<Description>TXT_KEY_BUILDING_COAL_COMPANY</Description> 
 			<DefaultBuilding>BUILDING_COAL_COMPANY</DefaultBuilding> 
@@ -39636,7 +39840,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>415</ID> 
+			<ID>432</ID> 
 			<Type>BUILDINGCLASS_STEEL_MILL</Type> 
 			<Description>TXT_KEY_BUILDING_STEEL_MILL</Description> 
 			<DefaultBuilding>BUILDING_STEEL_MILL</DefaultBuilding> 
@@ -39648,7 +39852,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>416</ID> 
+			<ID>433</ID> 
 			<Type>BUILDINGCLASS_POLAR_STATION</Type> 
 			<Description>TXT_KEY_BUILDING_POLAR_STATION</Description> 
 			<DefaultBuilding>BUILDING_POLAR_STATION</DefaultBuilding> 
@@ -39660,7 +39864,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>417</ID> 
+			<ID>434</ID> 
 			<Type>BUILDINGCLASS_CITY_HALL</Type> 
 			<Description>TXT_KEY_BUILDING_CITY_HALL</Description> 
 			<DefaultBuilding>BUILDING_CITY_HALL</DefaultBuilding> 
@@ -39672,7 +39876,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>418</ID> 
+			<ID>435</ID> 
 			<Type>BUILDINGCLASS_NEW_CATHEDRAL</Type> 
 			<Description>TXT_KEY_BUILDING_NEW_CATHEDRAL</Description> 
 			<DefaultBuilding>BUILDING_NEW_CATHEDRAL</DefaultBuilding> 
@@ -39684,7 +39888,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>419</ID> 
+			<ID>436</ID> 
 			<Type>BUILDINGCLASS_GRAIN_MILL</Type> 
 			<Description>TXT_KEY_BUILDING_GRAIN_MILL</Description> 
 			<DefaultBuilding>BUILDING_GRAIN_MILL</DefaultBuilding> 
@@ -39696,7 +39900,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>420</ID> 
+			<ID>437</ID> 
 			<Type>BUILDINGCLASS_FISH_FARM</Type> 
 			<Description>TXT_KEY_BUILDING_FISH_FARM</Description> 
 			<DefaultBuilding>BUILDING_FISH_FARM</DefaultBuilding> 
@@ -39708,7 +39912,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>421</ID> 
+			<ID>438</ID> 
 			<Type>BUILDINGCLASS_TEMPLE_ARTEMIS</Type> 
 			<Description>TXT_KEY_BUILDING_TEMPLE_ARTEMIS</Description> 
 			<DefaultBuilding>BUILDING_TEMPLE_ARTEMIS</DefaultBuilding> 
@@ -39720,7 +39924,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>422</ID> 
+			<ID>439</ID> 
 			<Type>BUILDINGCLASS_MAUSOLEUM_HALICARNASSUS</Type> 
 			<Description>TXT_KEY_BUILDING_MAUSOLEUM_HALICARNASSUS</Description> 
 			<DefaultBuilding>BUILDING_MAUSOLEUM_HALICARNASSUS</DefaultBuilding> 
@@ -39732,7 +39936,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>423</ID> 
+			<ID>440</ID> 
 			<Type>BUILDINGCLASS_STATUE_ZEUS</Type> 
 			<Description>TXT_KEY_BUILDING_STATUE_ZEUS</Description> 
 			<DefaultBuilding>BUILDING_STATUE_ZEUS</DefaultBuilding> 
@@ -39744,7 +39948,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>424</ID> 
+			<ID>441</ID> 
 			<Type>BUILDINGCLASS_COLOSSEUM</Type> 
 			<Description>TXT_KEY_BUILDING_COLOSSEUM</Description> 
 			<DefaultBuilding>BUILDING_COLOSSEUM</DefaultBuilding> 
@@ -39756,7 +39960,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>425</ID> 
+			<ID>442</ID> 
 			<Type>BUILDINGCLASS_HANSEATIC_LEAGUE</Type> 
 			<Description>TXT_KEY_BUILDING_HANSEATIC_LEAGUE</Description> 
 			<DefaultBuilding>BUILDING_HANSEATIC_LEAGUE</DefaultBuilding> 
@@ -39768,7 +39972,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>426</ID> 
+			<ID>443</ID> 
 			<Type>BUILDINGCLASS_PORT_OF_ROTTERDAM</Type> 
 			<Description>TXT_KEY_BUILDING_PORT_OF_ROTTERDAM</Description> 
 			<DefaultBuilding>BUILDING_PORT_OF_ROTTERDAM</DefaultBuilding> 
@@ -39780,7 +39984,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>427</ID> 
+			<ID>444</ID> 
 			<Type>BUILDINGCLASS_MOTHERLAND_CALLS</Type> 
 			<Description>TXT_KEY_BUILDING_MOTHERLAND_CALLS</Description> 
 			<DefaultBuilding>BUILDING_MOTHERLAND_CALLS</DefaultBuilding> 
@@ -39792,7 +39996,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>428</ID> 
+			<ID>445</ID> 
 			<Type>BUILDINGCLASS_HOOVER_DAM</Type> 
 			<Description>TXT_KEY_BUILDING_HOOVER_DAM</Description> 
 			<DefaultBuilding>BUILDING_HOOVER_DAM</DefaultBuilding> 
@@ -39804,7 +40008,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>429</ID> 
+			<ID>446</ID> 
 			<Type>BUILDINGCLASS_ASWAN_DAM</Type> 
 			<Description>TXT_KEY_BUILDING_ASWAN_DAM</Description> 
 			<DefaultBuilding>BUILDING_ASWAN_DAM</DefaultBuilding> 
@@ -39816,7 +40020,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>430</ID> 
+			<ID>447</ID> 
 			<Type>BUILDINGCLASS_LARGE_HADRON_COLLIDER</Type> 
 			<Description>TXT_KEY_BUILDING_LARGE_HADRON_COLLIDER</Description> 
 			<DefaultBuilding>BUILDING_LARGE_HADRON_COLLIDER</DefaultBuilding> 
@@ -39828,7 +40032,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>431</ID> 
+			<ID>448</ID> 
 			<Type>BUILDINGCLASS_NEW_PALACE</Type> 
 			<Description>TXT_KEY_BUILDING_NEW_PALACE</Description> 
 			<DefaultBuilding>BUILDING_NEW_PALACE</DefaultBuilding> 
@@ -39840,7 +40044,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>432</ID> 
+			<ID>449</ID> 
 			<Type>BUILDINGCLASS_CAIRO</Type> 
 			<Description>TXT_KEY_BUILDING_CAIRO</Description> 
 			<DefaultBuilding>BUILDING_CAIRO</DefaultBuilding> 
@@ -39852,7 +40056,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>433</ID> 
+			<ID>450</ID> 
 			<Type>BUILDINGCLASS_POTALA</Type> 
 			<Description>TXT_KEY_BUILDING_POTALA</Description> 
 			<DefaultBuilding>BUILDING_POTALA</DefaultBuilding> 
@@ -39864,7 +40068,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>434</ID> 
+			<ID>451</ID> 
 			<Type>BUILDINGCLASS_EMPIRE</Type> 
 			<Description>TXT_KEY_BUILDING_EMPIRE</Description> 
 			<DefaultBuilding>BUILDING_EMPIRE</DefaultBuilding> 
@@ -39876,7 +40080,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>435</ID> 
+			<ID>452</ID> 
 			<Type>BUILDINGCLASS_BAUHAUS</Type> 
 			<Description>TXT_KEY_BUILDING_BAUHAUS</Description> 
 			<DefaultBuilding>BUILDING_BAUHAUS</DefaultBuilding> 
@@ -39888,7 +40092,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>436</ID> 
+			<ID>453</ID> 
 			<Type>BUILDINGCLASS_YANGTZE</Type> 
 			<Description>TXT_KEY_BUILDING_YANGTZE</Description> 
 			<DefaultBuilding>BUILDING_YANGTZE</DefaultBuilding> 
@@ -39900,7 +40104,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>437</ID> 
+			<ID>454</ID> 
 			<Type>BUILDINGCLASS_TOKYO_METRO</Type> 
 			<Description>TXT_KEY_BUILDING_TOKYO_METRO</Description> 
 			<DefaultBuilding>BUILDING_TOKYO_METRO</DefaultBuilding> 
@@ -39912,7 +40116,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>438</ID> 
+			<ID>455</ID> 
 			<Type>BUILDINGCLASS_PEARL_TOWER</Type> 
 			<Description>TXT_KEY_BUILDING_PEARL_TOWER</Description> 
 			<DefaultBuilding>BUILDING_PEARL_TOWER</DefaultBuilding> 
@@ -39924,7 +40128,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>439</ID> 
+			<ID>456</ID> 
 			<Type>BUILDINGCLASS_PETRONAS</Type> 
 			<Description>TXT_KEY_BUILDING_PETRONAS</Description> 
 			<DefaultBuilding>BUILDING_PETRONAS</DefaultBuilding> 
@@ -39936,7 +40140,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>440</ID> 
+			<ID>457</ID> 
 			<Type>BUILDINGCLASS_UNITED_NATIONS_HQ</Type> 
 			<Description>TXT_KEY_BUILDING_UNITED_NATIONS_HQ</Description> 
 			<DefaultBuilding>BUILDING_UNITED_NATIONS_HQ</DefaultBuilding> 
@@ -39948,7 +40152,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>441</ID> 
+			<ID>458</ID> 
 			<Type>BUILDINGCLASS_BURJ_TOWER</Type> 
 			<Description>TXT_KEY_BUILDING_BURJ_TOWER</Description> 
 			<DefaultBuilding>BUILDING_BURJ_TOWER</DefaultBuilding> 
@@ -39960,7 +40164,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>442</ID> 
+			<ID>459</ID> 
 			<Type>BUILDINGCLASS_SPACE_ELEVATOR</Type> 
 			<Description>TXT_KEY_BUILDING_SPACE_ELEVATOR</Description> 
 			<DefaultBuilding>BUILDING_SPACE_ELEVATOR</DefaultBuilding> 
@@ -39972,7 +40176,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>443</ID> 
+			<ID>460</ID> 
 			<Type>BUILDINGCLASS_MEGACITY_PYRAMID</Type> 
 			<Description>TXT_KEY_BUILDING_MEGACITY_PYRAMID</Description> 
 			<DefaultBuilding>BUILDING_MEGACITY_PYRAMID</DefaultBuilding> 
@@ -39984,7 +40188,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>444</ID> 
+			<ID>461</ID> 
 			<Type>BUILDINGCLASS_INDUSTRIAL_ZONE</Type> 
 			<Description>TXT_KEY_BUILDING_INDUSTRIAL_ZONE</Description> 
 			<DefaultBuilding>BUILDING_INDUSTRIAL_ZONE</DefaultBuilding> 
@@ -39996,7 +40200,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>445</ID> 
+			<ID>462</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_EPIC</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_EPIC</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_EPIC</DefaultBuilding> 
@@ -40008,7 +40212,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>446</ID> 
+			<ID>463</ID> 
 			<Type>BUILDINGCLASS_IRONWORKS</Type> 
 			<Description>TXT_KEY_BUILDING_IRONWORKS</Description> 
 			<DefaultBuilding>BUILDING_IRONWORKS</DefaultBuilding> 
@@ -40020,7 +40224,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>447</ID> 
+			<ID>464</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_THEATRE</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_THEATRE</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_THEATRE</DefaultBuilding> 
@@ -40032,7 +40236,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>448</ID> 
+			<ID>465</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_SCULPTURE</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_SCULPTURE</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_SCULPTURE</DefaultBuilding> 
@@ -40044,7 +40248,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>449</ID> 
+			<ID>466</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_CIRCUS</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_CIRCUS</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_CIRCUS</DefaultBuilding> 
@@ -40056,7 +40260,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>450</ID> 
+			<ID>467</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_LIBRARY</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_LIBRARY</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_LIBRARY</DefaultBuilding> 
@@ -40068,7 +40272,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>451</ID> 
+			<ID>468</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_BANK</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_BANK</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_BANK</DefaultBuilding> 
@@ -40080,7 +40284,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>452</ID> 
+			<ID>469</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_OPERA_HOUSE</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_OPERA_HOUSE</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_OPERA_HOUSE</DefaultBuilding> 
@@ -40092,7 +40296,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>453</ID> 
+			<ID>470</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_EXHIBITION</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_EXHIBITION</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_EXHIBITION</DefaultBuilding> 
@@ -40104,7 +40308,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>454</ID> 
+			<ID>471</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_FINANCE</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_FINANCE</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_FINANCE</DefaultBuilding> 
@@ -40116,7 +40320,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>455</ID> 
+			<ID>472</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_STOCK_EXCHANGE</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_STOCK_EXCHANGE</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_STOCK_EXCHANGE</DefaultBuilding> 
@@ -40128,7 +40332,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>456</ID> 
+			<ID>473</ID> 
 			<Type>BUILDINGCLASS_HARVARD</Type> 
 			<Description>TXT_KEY_BUILDING_HARVARD</Description> 
 			<DefaultBuilding>BUILDING_HARVARD</DefaultBuilding> 
@@ -40140,7 +40344,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>457</ID> 
+			<ID>474</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_LABORATORY</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_LABORATORY</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_LABORATORY</DefaultBuilding> 
@@ -40152,7 +40356,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>458</ID> 
+			<ID>475</ID> 
 			<Type>BUILDINGCLASS_INTELLIGENCE_AGENCY</Type> 
 			<Description>TXT_KEY_BUILDING_INTELLIGENCE_AGENCY</Description> 
 			<DefaultBuilding>BUILDING_INTELLIGENCE_AGENCY</DefaultBuilding> 
@@ -40164,7 +40368,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>459</ID> 
+			<ID>476</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_AUTOCRACY</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_AUTOCRACY</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_AUTOCRACY</DefaultBuilding> 
@@ -40176,7 +40380,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>460</ID> 
+			<ID>477</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_ORDER</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_ORDER</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_ORDER</DefaultBuilding> 
@@ -40188,7 +40392,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>461</ID> 
+			<ID>478</ID> 
 			<Type>BUILDINGCLASS_NATIONAL_FREEDOM</Type> 
 			<Description>TXT_KEY_BUILDING_NATIONAL_FREEDOM</Description> 
 			<DefaultBuilding>BUILDING_NATIONAL_FREEDOM</DefaultBuilding> 
@@ -40200,7 +40404,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>462</ID> 
+			<ID>479</ID> 
 			<Type>BUILDINGCLASS_CURE_FOR_CANCER</Type> 
 			<Description>TXT_KEY_BUILDING_CURE_FOR_CANCER</Description> 
 			<DefaultBuilding>BUILDING_CURE_FOR_CANCER</DefaultBuilding> 
@@ -40212,7 +40416,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>463</ID> 
+			<ID>480</ID> 
 			<Type>BUILDINGCLASS_LONDON_ARRAY</Type> 
 			<Description>TXT_KEY_WONDER_LONDON_ARRAY</Description> 
 			<DefaultBuilding>BUILDING_LONDON_ARRAY</DefaultBuilding> 
@@ -40224,7 +40428,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>464</ID> 
+			<ID>481</ID> 
 			<Type>BUILDINGCLASS_AREA_51</Type> 
 			<Description>TXT_KEY_WONDER_AREA_51</Description> 
 			<DefaultBuilding>BUILDING_AREA_51</DefaultBuilding> 
@@ -40236,7 +40440,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>465</ID> 
+			<ID>482</ID> 
 			<Type>BUILDINGCLASS_FREE_XP_HEROIC_EPIC</Type> 
 			<Description>TXT_KEY_BUILDING_FREE_XP_THIS_CITY</Description> 
 			<DefaultBuilding>BUILDING_FREE_XP_HEROIC_EPIC</DefaultBuilding> 
@@ -40248,7 +40452,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>466</ID> 
+			<ID>483</ID> 
 			<Type>BUILDINGCLASS_FREE_XP_BRANDENBURG_GATE</Type> 
 			<Description>TXT_KEY_BUILDING_FREE_XP_THIS_CITY</Description> 
 			<DefaultBuilding>BUILDING_FREE_XP_BRANDENBURG_GATE</DefaultBuilding> 
@@ -40260,7 +40464,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>467</ID> 
+			<ID>484</ID> 
 			<Type>BUILDINGCLASS_TRADEROUTE_INCOME_BOOST_EMPIRE</Type> 
 			<Description>TXT_KEY_BUILDING_TRADEROUTE_INCOME_BOOST_EMPIRE</Description> 
 			<DefaultBuilding>BUILDING_TRADEROUTE_INCOME_BOOST_EMPIRE</DefaultBuilding> 
@@ -40272,7 +40476,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>468</ID> 
+			<ID>485</ID> 
 			<Type>BUILDINGCLASS_TOURISM_GREATWORKS</Type> 
 			<Description>TXT_KEY_BUILDING_TOURISM_GREATWORKS</Description> 
 			<DefaultBuilding>BUILDING_TOURISM_GREATWORKS</DefaultBuilding> 
@@ -40284,7 +40488,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>469</ID> 
+			<ID>486</ID> 
 			<Type>BUILDINGCLASS_TOURISM_GREATWORKS_THEATRE</Type> 
 			<Description>TXT_KEY_BUILDING_TOURISM_GREATWORKS</Description> 
 			<DefaultBuilding>BUILDING_TOURISM_GREATWORKS_THEATRE</DefaultBuilding> 
@@ -40296,7 +40500,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>470</ID> 
+			<ID>487</ID> 
 			<Type>BUILDINGCLASS_TOURISM_GREATWORKS_HERMITAGE</Type> 
 			<Description>TXT_KEY_BUILDING_TOURISM_GREATWORKS</Description> 
 			<DefaultBuilding>BUILDING_TOURISM_GREATWORKS_HERMITAGE</DefaultBuilding> 
@@ -40308,7 +40512,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>471</ID> 
+			<ID>488</ID> 
 			<Type>BUILDINGCLASS_TOURISM_LANDMARKS</Type> 
 			<Description>TXT_KEY_BUILDING_TOURISM_GREATWORKS</Description> 
 			<DefaultBuilding>BUILDING_TOURISM_LANDMARKS</DefaultBuilding> 
@@ -40320,7 +40524,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>472</ID> 
+			<ID>489</ID> 
 			<Type>BUILDINGCLASS_MOTHER_CALLS_MANPOWER</Type> 
 			<Description>TXT_KEY_BUILDING_MANPOWER_BONUS</Description> 
 			<DefaultBuilding>BUILDING_MOTHER_CALLS_MANPOWER</DefaultBuilding> 
@@ -40332,7 +40536,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>473</ID> 
+			<ID>490</ID> 
 			<Type>BUILDINGCLASS_HANSE_CITYSTATE</Type> 
 			<Description>TXT_KEY_BUILDING_HANSE_DESC</Description> 
 			<DefaultBuilding>BUILDING_HANSE</DefaultBuilding> 
@@ -40344,7 +40548,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>474</ID> 
+			<ID>491</ID> 
 			<Type>BUILDINGCLASS_CITY_SIZE_TOWN</Type> 
 			<Description>TXT_KEY_BUILDING_CITY_SIZE_TOWN</Description> 
 			<DefaultBuilding>BUILDING_CITY_SIZE_TOWN</DefaultBuilding> 
@@ -40356,7 +40560,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>475</ID> 
+			<ID>492</ID> 
 			<Type>BUILDINGCLASS_CITY_SIZE_SMALL</Type> 
 			<Description>TXT_KEY_BUILDING_CITY_SIZE_SMALL</Description> 
 			<DefaultBuilding>BUILDING_CITY_SIZE_SMALL</DefaultBuilding> 
@@ -40368,7 +40572,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>476</ID> 
+			<ID>493</ID> 
 			<Type>BUILDINGCLASS_CITY_SIZE_MEDIUM</Type> 
 			<Description>TXT_KEY_BUILDING_CITY_SIZE_MEDIUM</Description> 
 			<DefaultBuilding>BUILDING_CITY_SIZE_MEDIUM</DefaultBuilding> 
@@ -40380,7 +40584,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>477</ID> 
+			<ID>494</ID> 
 			<Type>BUILDINGCLASS_CITY_SIZE_LARGE</Type> 
 			<Description>TXT_KEY_BUILDING_CITY_SIZE_LARGE</Description> 
 			<DefaultBuilding>BUILDING_CITY_SIZE_LARGE</DefaultBuilding> 
@@ -40392,7 +40596,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>478</ID> 
+			<ID>495</ID> 
 			<Type>BUILDINGCLASS_CITY_SIZE_XL</Type> 
 			<Description>TXT_KEY_BUILDING_CITY_SIZE_XL</Description> 
 			<DefaultBuilding>BUILDING_CITY_SIZE_XL</DefaultBuilding> 
@@ -40404,7 +40608,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>479</ID> 
+			<ID>496</ID> 
 			<Type>BUILDINGCLASS_CITY_SIZE_XXL</Type> 
 			<Description>TXT_KEY_BUILDING_CITY_SIZE_XXL</Description> 
 			<DefaultBuilding>BUILDING_CITY_SIZE_XXL</DefaultBuilding> 
@@ -40416,7 +40620,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>480</ID> 
+			<ID>497</ID> 
 			<Type>BUILDINGCLASS_CITY_SIZE_GLOBAL</Type> 
 			<Description>TXT_KEY_BUILDING_CITY_SIZE_GLOBAL</Description> 
 			<DefaultBuilding>BUILDING_CITY_SIZE_GLOBAL</DefaultBuilding> 
@@ -40428,7 +40632,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>481</ID> 
+			<ID>498</ID> 
 			<Type>BUILDINGCLASS_CITY_HALL_LV1</Type> 
 			<Description>TXT_KEY_BUILDING_CITY_HALL_LV1</Description> 
 			<DefaultBuilding>BUILDING_CITY_HALL_LV1</DefaultBuilding> 
@@ -40440,7 +40644,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>482</ID> 
+			<ID>499</ID> 
 			<Type>BUILDINGCLASS_CITY_HALL_LV2</Type> 
 			<Description>TXT_KEY_BUILDING_CITY_HALL_LV2</Description> 
 			<DefaultBuilding>BUILDING_CITY_HALL_LV2</DefaultBuilding> 
@@ -40452,7 +40656,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>483</ID> 
+			<ID>500</ID> 
 			<Type>BUILDINGCLASS_CITY_HALL_LV3</Type> 
 			<Description>TXT_KEY_BUILDING_CITY_HALL_LV3</Description> 
 			<DefaultBuilding>BUILDING_CITY_HALL_LV3</DefaultBuilding> 
@@ -40464,7 +40668,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>484</ID> 
+			<ID>501</ID> 
 			<Type>BUILDINGCLASS_CITY_HALL_LV4</Type> 
 			<Description>TXT_KEY_BUILDING_CITY_HALL_LV4</Description> 
 			<DefaultBuilding>BUILDING_CITY_HALL_LV4</DefaultBuilding> 
@@ -40476,7 +40680,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>485</ID> 
+			<ID>502</ID> 
 			<Type>BUILDINGCLASS_CITY_HALL_LV5</Type> 
 			<Description>TXT_KEY_BUILDING_CITY_HALL_LV5</Description> 
 			<DefaultBuilding>BUILDING_CITY_HALL_LV5</DefaultBuilding> 
@@ -40488,7 +40692,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>486</ID> 
+			<ID>503</ID> 
 			<Type>BUILDINGCLASS_PUPPET_GOVERNEMENT</Type> 
 			<Description>TXT_KEY_BUILDING_PUPPET_GOVERNEMENT</Description> 
 			<DefaultBuilding>BUILDING_PUPPET_GOVERNEMENT</DefaultBuilding> 
@@ -40500,7 +40704,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>487</ID> 
+			<ID>504</ID> 
 			<Type>BUILDINGCLASS_CONSTABLE</Type> 
 			<Description>TXT_KEY_BUILDING_CONSTABLE</Description> 
 			<DefaultBuilding>BUILDING_CONSTABLE</DefaultBuilding> 
@@ -40512,7 +40716,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>488</ID> 
+			<ID>505</ID> 
 			<Type>BUILDINGCLASS_SHERIFF_OFFICE</Type> 
 			<Description>TXT_KEY_BUILDING_SHERIFF_OFFICE</Description> 
 			<DefaultBuilding>BUILDING_SHERIFF_OFFICE</DefaultBuilding> 
@@ -40524,7 +40728,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>489</ID> 
+			<ID>506</ID> 
 			<Type>BUILDINGCLASS_POLICE_STATION</Type> 
 			<Description>TXT_KEY_BUILDING_POLICE_STATION</Description> 
 			<DefaultBuilding>BUILDING_POLICE_STATION</DefaultBuilding> 
@@ -40536,7 +40740,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>490</ID> 
+			<ID>507</ID> 
 			<Type>BUILDINGCLASS_PROCURATORATE</Type> 
 			<Description>TXT_KEY_BUILDING_PROCURATORATE</Description> 
 			<DefaultBuilding>BUILDING_PROCURATORATE</DefaultBuilding> 
@@ -40548,7 +40752,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>491</ID> 
+			<ID>508</ID> 
 			<Type>BUILDINGCLASS_ELECTRICITY_NATIONALWIDE_EFFECTS</Type> 
 			<Description>TXT_KEY_BUILDING_ELECTRICITY_BONUS</Description> 
 			<DefaultBuilding>BUILDING_ELECTRICITY_BONUS</DefaultBuilding> 
@@ -40560,7 +40764,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>492</ID> 
+			<ID>509</ID> 
 			<Type>BUILDINGCLASS_HAPPINESS_TOURISMBOOST</Type> 
 			<Description>TXT_KEY_BUILDING_ELECTRICITY_BONUS</Description> 
 			<DefaultBuilding>BUILDING_HAPPINESS_TOURISMBOOST</DefaultBuilding> 
@@ -40572,7 +40776,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>493</ID> 
+			<ID>510</ID> 
 			<Type>BUILDINGCLASS_COAL_PLANT</Type> 
 			<Description>TXT_KEY_BUILDING_COAL_PLANT</Description> 
 			<DefaultBuilding>BUILDING_COAL_PLANT</DefaultBuilding> 
@@ -40584,7 +40788,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>494</ID> 
+			<ID>511</ID> 
 			<Type>BUILDINGCLASS_COAL_PLANT_EXTEND</Type> 
 			<Description>TXT_KEY_BUILDING_COAL_PLAN_EXTENDT</Description> 
 			<DefaultBuilding>BUILDING_COAL_PLANT_EXTEND</DefaultBuilding> 
@@ -40596,7 +40800,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>495</ID> 
+			<ID>512</ID> 
 			<Type>BUILDINGCLASS_WIND_PLANT</Type> 
 			<Description>TXT_KEY_BUILDING_WIND_PLANT</Description> 
 			<DefaultBuilding>BUILDING_WIND_PLANT</DefaultBuilding> 
@@ -40608,7 +40812,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>496</ID> 
+			<ID>513</ID> 
 			<Type>BUILDINGCLASS_HYDRO_PLANT</Type> 
 			<Description>TXT_KEY_BUILDING_HYDRO_PLANT</Description> 
 			<DefaultBuilding>BUILDING_HYDRO_PLANT</DefaultBuilding> 
@@ -40620,7 +40824,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>497</ID> 
+			<ID>514</ID> 
 			<Type>BUILDINGCLASS_OIL_PLANT</Type> 
 			<Description>TXT_KEY_BUILDING_OIL_PLANT</Description> 
 			<DefaultBuilding>BUILDING_OIL_PLANT</DefaultBuilding> 
@@ -40632,7 +40836,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>498</ID> 
+			<ID>515</ID> 
 			<Type>BUILDINGCLASS_GAS_PLANT</Type> 
 			<Description>TXT_KEY_BUILDING_GAS_PLANT</Description> 
 			<DefaultBuilding>BUILDING_GAS_PLANT</DefaultBuilding> 
@@ -40644,7 +40848,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>499</ID> 
+			<ID>516</ID> 
 			<Type>BUILDINGCLASS_SOLAR_PLANT</Type> 
 			<Description>TXT_KEY_BUILDING_SOLAR_PLANT</Description> 
 			<DefaultBuilding>BUILDING_SOLAR_PLANT</DefaultBuilding> 
@@ -40656,7 +40860,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>500</ID> 
+			<ID>517</ID> 
 			<Type>BUILDINGCLASS_TIDAL_PLANT</Type> 
 			<Description>TXT_KEY_BUILDING_TIDAL_PLANT</Description> 
 			<DefaultBuilding>BUILDING_TIDAL_PLANT</DefaultBuilding> 
@@ -40668,7 +40872,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>501</ID> 
+			<ID>518</ID> 
 			<Type>BUILDINGCLASS_NUCLEAR_PLANT</Type> 
 			<Description>TXT_KEY_BUILDING_NUCLEAR_PLANT</Description> 
 			<DefaultBuilding>BUILDING_NUCLEAR_PLANT</DefaultBuilding> 
@@ -40680,7 +40884,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>502</ID> 
+			<ID>519</ID> 
 			<Type>BUILDINGCLASS_NUCLEAR_PLANT_EXTEND</Type> 
 			<Description>TXT_KEY_BUILDING_NUCLEAR_PLANT_EXTEND</Description> 
 			<DefaultBuilding>BUILDING_NUCLEAR_PLANT_EXTEND</DefaultBuilding> 
@@ -40692,7 +40896,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>503</ID> 
+			<ID>520</ID> 
 			<Type>BUILDINGCLASS_FUSION_PLANT</Type> 
 			<Description>TXT_KEY_BUILDING_FUSION_PLANT</Description> 
 			<DefaultBuilding>BUILDING_FUSION_PLANT</DefaultBuilding> 
@@ -40704,7 +40908,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>504</ID> 
+			<ID>521</ID> 
 			<Type>BUILDINGCLASS_SUPERCONDUCTING_CABLE</Type> 
 			<Description>TXT_KEY_BUILDING_SUPERCONDUCTING_CABLE</Description> 
 			<DefaultBuilding>BUILDING_SUPERCONDUCTING_CABLE</DefaultBuilding> 
@@ -40716,7 +40920,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>505</ID> 
+			<ID>522</ID> 
 			<Type>BUILDINGCLASS_ABUSIMBEL</Type> 
 			<Description>TXT_KEY_BUILDING_ABUSIMBEL</Description> 
 			<DefaultBuilding>BUILDING_ABUSIMBEL</DefaultBuilding> 
@@ -40728,7 +40932,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>506</ID> 
+			<ID>523</ID> 
 			<Type>BUILDINGCLASS_TABRIZBAZAAR</Type> 
 			<Description>TXT_KEY_BUILDING_TABRIZBAZAAR</Description> 
 			<DefaultBuilding>BUILDING_TABRIZBAZAAR</DefaultBuilding> 
@@ -40740,7 +40944,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>507</ID> 
+			<ID>524</ID> 
 			<Type>BUILDINGCLASS_BROOKLYNBRIDGE</Type> 
 			<Description>TXT_KEY_BUILDING_BROOKLYNBRIDGE</Description> 
 			<DefaultBuilding>BUILDING_BROOKLYNBRIDGE</DefaultBuilding> 
@@ -40752,7 +40956,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>508</ID> 
+			<ID>525</ID> 
 			<Type>BUILDINGCLASS_BUDACASTLE</Type> 
 			<Description>TXT_KEY_BUILDING_BUDACASTLE</Description> 
 			<DefaultBuilding>BUILDING_BUDACASTLE</DefaultBuilding> 
@@ -40764,7 +40968,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>509</ID> 
+			<ID>526</ID> 
 			<Type>BUILDINGCLASS_CHOGHAZANBIL</Type> 
 			<Description>TXT_KEY_BUILDING_CHOGHAZANBIL</Description> 
 			<DefaultBuilding>BUILDING_CHOGHAZANBIL</DefaultBuilding> 
@@ -40776,7 +40980,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>510</ID> 
+			<ID>527</ID> 
 			<Type>BUILDINGCLASS_GATESUN</Type> 
 			<Description>TXT_KEY_BUILDING_GATESUN</Description> 
 			<DefaultBuilding>BUILDING_GATESUN</DefaultBuilding> 
@@ -40788,7 +40992,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>511</ID> 
+			<ID>528</ID> 
 			<Type>BUILDINGCLASS_GOBEKLITEPE</Type> 
 			<Description>TXT_KEY_BUILDING_GOBEKLITEPE</Description> 
 			<DefaultBuilding>BUILDING_GOBEKLITEPE</DefaultBuilding> 
@@ -40800,7 +41004,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>512</ID> 
+			<ID>529</ID> 
 			<Type>BUILDINGCLASS_GRIPSHOLM</Type> 
 			<Description>TXT_KEY_BUILDING_GRIPSHOLM</Description> 
 			<DefaultBuilding>BUILDING_GRIPSHOLM</DefaultBuilding> 
@@ -40812,7 +41016,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>513</ID> 
+			<ID>530</ID> 
 			<Type>BUILDINGCLASS_HORYUJI</Type> 
 			<Description>TXT_KEY_BUILDING_HORYUJI</Description> 
 			<DefaultBuilding>BUILDING_HORYUJI</DefaultBuilding> 
@@ -40824,7 +41028,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>514</ID> 
+			<ID>531</ID> 
 			<Type>BUILDINGCLASS_MADOL</Type> 
 			<Description>TXT_KEY_BUILDING_MADOL</Description> 
 			<DefaultBuilding>BUILDING_MADOL</DefaultBuilding> 
@@ -40836,7 +41040,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>515</ID> 
+			<ID>532</ID> 
 			<Type>BUILDINGCLASS_PALMJUMEIRAH</Type> 
 			<Description>TXT_KEY_BUILDING_PALMJUMEIRAH</Description> 
 			<DefaultBuilding>BUILDING_PALMJUMEIRAH</DefaultBuilding> 
@@ -40848,7 +41052,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>516</ID> 
+			<ID>533</ID> 
 			<Type>BUILDINGCLASS_ROCKEFELLER</Type> 
 			<Description>TXT_KEY_BUILDING_ROCKEFELLER</Description> 
 			<DefaultBuilding>BUILDING_ROCKEFELLER</DefaultBuilding> 
@@ -40860,7 +41064,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>517</ID> 
+			<ID>534</ID> 
 			<Type>BUILDINGCLASS_SAGRADA</Type> 
 			<Description>TXT_KEY_BUILDING_SAGRADA</Description> 
 			<DefaultBuilding>BUILDING_SAGRADA</DefaultBuilding> 
@@ -40872,7 +41076,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>518</ID> 
+			<ID>535</ID> 
 			<Type>BUILDINGCLASS_SPHINX</Type> 
 			<Description>TXT_KEY_BUILDING_SPHINX</Description> 
 			<DefaultBuilding>BUILDING_SPHINX</DefaultBuilding> 
@@ -40884,7 +41088,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>519</ID> 
+			<ID>536</ID> 
 			<Type>BUILDINGCLASS_TOPKAPI</Type> 
 			<Description>TXT_KEY_BUILDING_TOPKAPI</Description> 
 			<DefaultBuilding>BUILDING_TOPKAPI</DefaultBuilding> 
@@ -40896,7 +41100,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>520</ID> 
+			<ID>537</ID> 
 			<Type>BUILDINGCLASS_HATTUSA</Type> 
 			<Description>TXT_KEY_BUILDING_HATTUSA</Description> 
 			<DefaultBuilding>BUILDING_HATTUSA</DefaultBuilding> 
@@ -40908,7 +41112,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>521</ID> 
+			<ID>538</ID> 
 			<Type>BUILDINGCLASS_VOYAGERONE</Type> 
 			<Description>TXT_KEY_BUILDING_VOYAGERONE</Description> 
 			<DefaultBuilding>BUILDING_VOYAGERONE</DefaultBuilding> 
@@ -40920,7 +41124,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>522</ID> 
+			<ID>539</ID> 
 			<Type>BUILDINGCLASS_MARACANA</Type> 
 			<Description>TXT_KEY_BUILDING_MARACANA</Description> 
 			<DefaultBuilding>BUILDING_MARACANA</DefaultBuilding> 
@@ -40932,7 +41136,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>523</ID> 
+			<ID>540</ID> 
 			<Type>BUILDINGCLASS_MEDINAAZAHARA</Type> 
 			<Description>TXT_KEY_BUILDING_MEDINAAZAHARA</Description> 
 			<DefaultBuilding>BUILDING_MEDINAAZAHARA</DefaultBuilding> 
@@ -40944,7 +41148,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>524</ID> 
+			<ID>541</ID> 
 			<Type>BUILDINGCLASS_MEZQUITACORDOBA</Type> 
 			<Description>TXT_KEY_BUILDING_MEZQUITACORDOBA</Description> 
 			<DefaultBuilding>BUILDING_MEZQUITACORDOBA</DefaultBuilding> 
@@ -40956,7 +41160,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>525</ID> 
+			<ID>542</ID> 
 			<Type>BUILDINGCLASS_GOLDENGATE</Type> 
 			<Description>TXT_KEY_BUILDING_GOLDENGATE</Description> 
 			<DefaultBuilding>BUILDING_GOLDENGATE</DefaultBuilding> 
@@ -40968,7 +41172,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>526</ID> 
+			<ID>543</ID> 
 			<Type>BUILDINGCLASS_WTC</Type> 
 			<Description>TXT_KEY_BUILDING_WTC</Description> 
 			<DefaultBuilding>BUILDING_WTC</DefaultBuilding> 
@@ -40980,7 +41184,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>527</ID> 
+			<ID>544</ID> 
 			<Type>BUILDINGCLASS_FW_SHIMIZUMCP</Type> 
 			<Description>TXT_KEY_BUILDING_FW_SHIMIZUMCP</Description> 
 			<DefaultBuilding>BUILDING_FW_SHIMIZUMCP</DefaultBuilding> 
@@ -40992,7 +41196,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>528</ID> 
+			<ID>545</ID> 
 			<Type>BUILDINGCLASS_FW_BUENOSAIRESFORUM</Type> 
 			<Description>TXT_KEY_BUILDING_FW_BUENOSAIRESFORUM</Description> 
 			<DefaultBuilding>BUILDING_FW_BUENOSAIRESFORUM</DefaultBuilding> 
@@ -41004,7 +41208,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>529</ID> 
+			<ID>546</ID> 
 			<Type>BUILDINGCLASS_FW_MiapolisCT</Type> 
 			<Description>TXT_KEY_BUILDING_FW_MiapolisCT</Description> 
 			<DefaultBuilding>BUILDING_FW_MiapolisCT</DefaultBuilding> 
@@ -41016,7 +41220,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>530</ID> 
+			<ID>547</ID> 
 			<Type>BUILDINGCLASS_FW_ULTIMATOWER</Type> 
 			<Description>TXT_KEY_BUILDING_FW_ULTIMATOWER</Description> 
 			<DefaultBuilding>BUILDING_FW_ULTIMATOWER</DefaultBuilding> 
@@ -41028,7 +41232,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>531</ID> 
+			<ID>548</ID> 
 			<Type>BUILDINGCLASS_FW_SKYCITY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_SKYCITY</Description> 
 			<DefaultBuilding>BUILDING_FW_SKYCITY</DefaultBuilding> 
@@ -41040,7 +41244,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>532</ID> 
+			<ID>549</ID> 
 			<Type>BUILDINGCLASS_FW_DATA_HAVEN</Type> 
 			<Description>TXT_KEY_BUILDING_FW_DATA_HAVEN</Description> 
 			<DefaultBuilding>BUILDING_FW_DATA_HAVEN</DefaultBuilding> 
@@ -41052,7 +41256,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>533</ID> 
+			<ID>550</ID> 
 			<Type>BUILDINGCLASS_FW_BIONICTOWER</Type> 
 			<Description>TXT_KEY_BUILDING_FW_BIONICTOWER</Description> 
 			<DefaultBuilding>BUILDING_FW_BIONICTOWER</DefaultBuilding> 
@@ -41064,7 +41268,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>534</ID> 
+			<ID>551</ID> 
 			<Type>BUILDINGCLASS_FW_FLOATINGISLANDS</Type> 
 			<Description>TXT_KEY_BUILDING_FW_FLOATINGISLANDS</Description> 
 			<DefaultBuilding>BUILDING_FW_FLOATINGISLANDS</DefaultBuilding> 
@@ -41076,7 +41280,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>535</ID> 
+			<ID>552</ID> 
 			<Type>BUILDINGCLASS_FW_SKYTREE</Type> 
 			<Description>TXT_KEY_BUILDING_FW_SKYTREE</Description> 
 			<DefaultBuilding>BUILDING_FW_SKYTREE</DefaultBuilding> 
@@ -41088,7 +41292,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>536</ID> 
+			<ID>553</ID> 
 			<Type>BUILDINGCLASS_FW_SHANGHAI_WFC</Type> 
 			<Description>TXT_KEY_BUILDING_FW_SHANGHAI_WFC</Description> 
 			<DefaultBuilding>BUILDING_FW_SHANGHAI_WFC</DefaultBuilding> 
@@ -41100,7 +41304,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>537</ID> 
+			<ID>554</ID> 
 			<Type>BUILDINGCLASS_FW_ORBITAL_REFINERY</Type> 
 			<Description>TXT_KEY_BUILDING_FW_ORBITAL_REFINERY</Description> 
 			<DefaultBuilding>BUILDING_FW_ORBITAL_REFINERY</DefaultBuilding> 
@@ -41112,7 +41316,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>538</ID> 
+			<ID>555</ID> 
 			<Type>BUILDINGCLASS_FW_SKYNET</Type> 
 			<Description>TXT_KEY_BUILDING_FW_SKYNET</Description> 
 			<DefaultBuilding>BUILDING_FW_SKYNET</DefaultBuilding> 
@@ -41124,7 +41328,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>539</ID> 
+			<ID>556</ID> 
 			<Type>BUILDINGCLASS_FW_GENOME_PROJECT</Type> 
 			<Description>Human Genome Project</Description> 
 			<DefaultBuilding>BUILDING_FW_GENOME_PROJECT</DefaultBuilding> 
@@ -41136,7 +41340,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>540</ID> 
+			<ID>557</ID> 
 			<Type>BUILDINGCLASS_FW_NEPHILIM_GENE_TEMPLATE</Type> 
 			<Description>TXT_KEY_BUILDING_FW_NEPHILIM_GENE_TEMPLATE</Description> 
 			<DefaultBuilding>BUILDING_FW_NEPHILIM_GENE_TEMPLATE</DefaultBuilding> 
@@ -41148,7 +41352,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>541</ID> 
+			<ID>558</ID> 
 			<Type>BUILDINGCLASS_FW_GENE_VAULT</Type> 
 			<Description>TXT_KEY_BUILDING_FW_GENE_VAULT</Description> 
 			<DefaultBuilding>BUILDING_FW_GENE_VAULT</DefaultBuilding> 
@@ -41160,7 +41364,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>542</ID> 
+			<ID>559</ID> 
 			<Type>BUILDINGCLASS_FW_HELIOS</Type> 
 			<Description>TXT_KEY_BUILDING_FW_HELIOS</Description> 
 			<DefaultBuilding>BUILDING_FW_HELIOS</DefaultBuilding> 
@@ -41172,7 +41376,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>543</ID> 
+			<ID>560</ID> 
 			<Type>BUILDINGCLASS_FW_MNEMOSYNE</Type> 
 			<Description>TXT_KEY_BUILDING_FW_MNEMOSYNE</Description> 
 			<DefaultBuilding>BUILDING_FW_MNEMOSYNE</DefaultBuilding> 
@@ -41184,7 +41388,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>544</ID> 
+			<ID>561</ID> 
 			<Type>BUILDINGCLASS_FW_CITADEL_STATION</Type> 
 			<Description>TXT_KEY_BUILDING_FW_CITADEL_STATION</Description> 
 			<DefaultBuilding>BUILDING_FW_CITADEL_STATION</DefaultBuilding> 
@@ -41196,7 +41400,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>545</ID> 
+			<ID>562</ID> 
 			<Type>BUILDINGCLASS_FW_VIRTUAL_IDOL</Type> 
 			<Description>TXT_KEY_BUILDING_FW_VIRTUAL_IDOL</Description> 
 			<DefaultBuilding>BUILDING_FW_VIRTUAL_IDOL</DefaultBuilding> 
@@ -41208,7 +41412,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>546</ID> 
+			<ID>563</ID> 
 			<Type>BUILDINGCLASS_FW_ENRICHMENT_CENTRE</Type> 
 			<Description>TXT_KEY_BUILDING_FW_ENRICHMENT_CENTRE</Description> 
 			<DefaultBuilding>BUILDING_FW_ENRICHMENT_CENTRE</DefaultBuilding> 
@@ -41220,7 +41424,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>547</ID> 
+			<ID>564</ID> 
 			<Type>BUILDINGCLASS_FW_DIGITAL_EMANCIPATION</Type> 
 			<Description>TXT_KEY_BUILDING_FW_DIGITAL_EMANCIPATION</Description> 
 			<DefaultBuilding>BUILDING_FW_DIGITAL_EMANCIPATION</DefaultBuilding> 
@@ -41232,7 +41436,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>548</ID> 
+			<ID>565</ID> 
 			<Type>BUILDINGCLASS_FW_ANGELNET</Type> 
 			<Description>TXT_KEY_BUILDING_FW_ANGELNET</Description> 
 			<DefaultBuilding>BUILDING_FW_ANGELNET</DefaultBuilding> 
@@ -41244,7 +41448,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>549</ID> 
+			<ID>566</ID> 
 			<Type>BUILDINGCLASS_FW_JURASSIC_PARK</Type> 
 			<Description>TXT_KEY_BUILDING_FW_JURASSIC_PARK</Description> 
 			<DefaultBuilding>BUILDING_FW_JURASSIC_PARK</DefaultBuilding> 
@@ -41256,7 +41460,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>550</ID> 
+			<ID>567</ID> 
 			<Type>BUILDINGCLASS_FW_ASTEROID_MINING</Type> 
 			<Description>TXT_KEY_BUILDING_FW_ASTEROID_MINING</Description> 
 			<DefaultBuilding>BUILDING_FW_ASTEROID_MINING</DefaultBuilding> 
@@ -41268,7 +41472,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>551</ID> 
+			<ID>568</ID> 
 			<Type>BUILDINGCLASS_SPECIALISTS_SCIENTIFIC_LV1</Type> 
 			<Description>TXT_KEY_BUILDING_SPECIALISTS_SCIENTIFIC_LV1</Description> 
 			<DefaultBuilding>BUILDING_SPECIALISTS_SCIENTIFIC_LV1</DefaultBuilding> 
@@ -41280,7 +41484,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>552</ID> 
+			<ID>569</ID> 
 			<Type>BUILDINGCLASS_SPECIALISTS_SCIENTIFIC_LV2</Type> 
 			<Description>TXT_KEY_BUILDING_SPECIALISTS_SCIENTIFIC_LV2</Description> 
 			<DefaultBuilding>BUILDING_SPECIALISTS_SCIENTIFIC_LV2</DefaultBuilding> 
@@ -41292,7 +41496,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>553</ID> 
+			<ID>570</ID> 
 			<Type>BUILDINGCLASS_SPECIALISTS_SCIENTIFIC_LV3</Type> 
 			<Description>TXT_KEY_BUILDING_SPECIALISTS_SCIENTIFIC_LV3</Description> 
 			<DefaultBuilding>BUILDING_SPECIALISTS_SCIENTIFIC_LV3</DefaultBuilding> 
@@ -41304,7 +41508,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>554</ID> 
+			<ID>571</ID> 
 			<Type>BUILDINGCLASS_SPECIALISTS_ENGINEERING_LV1</Type> 
 			<Description>TXT_KEY_BUILDING_SPECIALISTS_ENGINEERING_LV1</Description> 
 			<DefaultBuilding>BUILDING_SPECIALISTS_ENGINEERING_LV1</DefaultBuilding> 
@@ -41316,7 +41520,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>555</ID> 
+			<ID>572</ID> 
 			<Type>BUILDINGCLASS_SPECIALISTS_ENGINEERING_LV2</Type> 
 			<Description>TXT_KEY_BUILDING_SPECIALISTS_ENGINEERING_LV2</Description> 
 			<DefaultBuilding>BUILDING_SPECIALISTS_ENGINEERING_LV2</DefaultBuilding> 
@@ -41328,7 +41532,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>556</ID> 
+			<ID>573</ID> 
 			<Type>BUILDINGCLASS_SPECIALISTS_ENGINEERING_LV3</Type> 
 			<Description>TXT_KEY_BUILDING_SPECIALISTS_ENGINEERING_LV3</Description> 
 			<DefaultBuilding>BUILDING_SPECIALISTS_ENGINEERING_LV3</DefaultBuilding> 
@@ -41340,7 +41544,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>557</ID> 
+			<ID>574</ID> 
 			<Type>BUILDINGCLASS_SPECIALISTS_ARTISTIC_LV1</Type> 
 			<Description>TXT_KEY_BUILDING_SPECIALISTS_ARTISTIC_LV1</Description> 
 			<DefaultBuilding>BUILDING_SPECIALISTS_ARTISTIC_LV1</DefaultBuilding> 
@@ -41352,7 +41556,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>558</ID> 
+			<ID>575</ID> 
 			<Type>BUILDINGCLASS_SPECIALISTS_ARTISTIC_LV2</Type> 
 			<Description>TXT_KEY_BUILDING_SPECIALISTS_ARTISTIC_LV2</Description> 
 			<DefaultBuilding>BUILDING_SPECIALISTS_ARTISTIC_LV2</DefaultBuilding> 
@@ -41364,7 +41568,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>559</ID> 
+			<ID>576</ID> 
 			<Type>BUILDINGCLASS_SPECIALISTS_ARTISTIC_LV3</Type> 
 			<Description>TXT_KEY_BUILDING_SPECIALISTS_ARTISTIC_LV3</Description> 
 			<DefaultBuilding>BUILDING_SPECIALISTS_ARTISTIC_LV3</DefaultBuilding> 
@@ -41376,7 +41580,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>560</ID> 
+			<ID>577</ID> 
 			<Type>BUILDINGCLASS_SPECIALISTS_MERCHANT_LV1</Type> 
 			<Description>TXT_KEY_BUILDING_SPECIALISTS_MERCHANT_LV1</Description> 
 			<DefaultBuilding>BUILDING_SPECIALISTS_MERCHANT_LV1</DefaultBuilding> 
@@ -41388,7 +41592,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>561</ID> 
+			<ID>578</ID> 
 			<Type>BUILDINGCLASS_SPECIALISTS_MERCHANT_LV2</Type> 
 			<Description>TXT_KEY_BUILDING_SPECIALISTS_MERCHANT_LV2</Description> 
 			<DefaultBuilding>BUILDING_SPECIALISTS_MERCHANT_LV2</DefaultBuilding> 
@@ -41400,7 +41604,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>562</ID> 
+			<ID>579</ID> 
 			<Type>BUILDINGCLASS_SPECIALISTS_MERCHANT_LV3</Type> 
 			<Description>TXT_KEY_BUILDING_SPECIALISTS_MERCHANT_LV3</Description> 
 			<DefaultBuilding>BUILDING_SPECIALISTS_MERCHANT_LV3</DefaultBuilding> 
@@ -41412,7 +41616,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>563</ID> 
+			<ID>580</ID> 
 			<Type>BUILDINGCLASS_SPECIALISTS_OFFERING</Type> 
 			<Description>TXT_KEY_BUILDING_SPECIALISTS_MANPOWER</Description> 
 			<DefaultBuilding>BUILDING_SPECIALISTS_MANPOWER</DefaultBuilding> 
@@ -41424,7 +41628,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>564</ID> 
+			<ID>581</ID> 
 			<Type>BUILDINGCLASS_INTERNATIONAL_SPACE_STATION</Type> 
 			<Description>TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION</Description> 
 			<DefaultBuilding>BUILDING_INTERNATIONAL_SPACE_STATION</DefaultBuilding> 
@@ -41436,7 +41640,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>565</ID> 
+			<ID>582</ID> 
 			<Type>BUILDINGCLASS_WORLD_TRADE_ORGANIZATION</Type> 
 			<Description>TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION</Description> 
 			<DefaultBuilding>BUILDING_WORLD_TRADE_ORGANIZATION_TRADEROUTE</DefaultBuilding> 
@@ -41448,7 +41652,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>566</ID> 
+			<ID>583</ID> 
 			<Type>BUILDINGCLASS_PL_BRONZE_DUMMY</Type> 
 			<Description>TXT_KEY_BUILDING_PHILEG_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_PL_BRONZE_DUMMY</DefaultBuilding> 
@@ -41460,7 +41664,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>567</ID> 
+			<ID>584</ID> 
 			<Type>BUILDINGCLASS_PL_SILVER_DUMMY</Type> 
 			<Description>TXT_KEY_BUILDING_PHILEG_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_PL_SILVER_DUMMY</DefaultBuilding> 
@@ -41472,7 +41676,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>568</ID> 
+			<ID>585</ID> 
 			<Type>BUILDINGCLASS_PL_GOLD_DUMMY</Type> 
 			<Description>TXT_KEY_BUILDING_PHILEG_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_PL_GOLD_DUMMY</DefaultBuilding> 
@@ -41484,7 +41688,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>569</ID> 
+			<ID>586</ID> 
 			<Type>BUILDINGCLASS_PL_GOLD_DUMMY_POST_COMPLETION</Type> 
 			<Description>TXT_KEY_BUILDING_PHILEG_DUMMY</Description> 
 			<DefaultBuilding>BUILDING_PL_GOLD_DUMMY_POST_COMPLETION</DefaultBuilding> 
@@ -41496,7 +41700,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>570</ID> 
+			<ID>587</ID> 
 			<Type>BUILDINGCLASS_TOGETHER_TT_STARS_PROJECT</Type> 
 			<Description>Together to the Stars Project</Description> 
 			<DefaultBuilding>BUILDING_TOGETHER_TT_STARS_PROJECT</DefaultBuilding> 
@@ -41508,7 +41712,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>571</ID> 
+			<ID>588</ID> 
 			<Type>BUILDINGCLASS_TOGETHER_TT_STARS_PROJECT_1</Type> 
 			<Description>TXT_KEY_BUILDING_TOGETHER_TT_STARS_PROJECT_1</Description> 
 			<DefaultBuilding>BUILDING_TOGETHER_TT_STARS_PROJECT_1</DefaultBuilding> 
@@ -41520,7 +41724,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>572</ID> 
+			<ID>589</ID> 
 			<Type>BUILDINGCLASS_TOGETHER_TT_STARS_PROJECT_2</Type> 
 			<Description>TXT_KEY_BUILDING_TOGETHER_TT_STARS_PROJECT_2</Description> 
 			<DefaultBuilding>BUILDING_TOGETHER_TT_STARS_PROJECT_2</DefaultBuilding> 
@@ -41532,7 +41736,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>573</ID> 
+			<ID>590</ID> 
 			<Type>BUILDINGCLASS_GDR_HEADQUARTERS</Type> 
 			<Description>TXT_KEY_BUILDING_GDR_HEADQUARTERS</Description> 
 			<DefaultBuilding>BUILDING_GDR_HEADQUARTERS</DefaultBuilding> 
@@ -41544,7 +41748,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>574</ID> 
+			<ID>591</ID> 
 			<Type>BUILDINGCLASS_XCOM_HEADQUARTERS</Type> 
 			<Description>TXT_KEY_BUILDING_XCOM_HEADQUARTERS</Description> 
 			<DefaultBuilding>BUILDING_XCOM_HEADQUARTERS</DefaultBuilding> 
@@ -41556,7 +41760,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>575</ID> 
+			<ID>592</ID> 
 			<Type>BUILDINGCLASS_ARDL_ENLIGHTENMENT_TH_PROJECT</Type> 
 			<Description>Royal Colleges Project</Description> 
 			<DefaultBuilding>BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT</DefaultBuilding> 
@@ -41568,7 +41772,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>576</ID> 
+			<ID>593</ID> 
 			<Type>BUILDINGCLASS_ARDL_ENLIGHTENMENT_TH_PROJECT_1</Type> 
 			<Description>TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_1</Description> 
 			<DefaultBuilding>BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_1</DefaultBuilding> 
@@ -41580,7 +41784,7 @@
 			<Monument>false</Monument> 
 		</Row>
 		<Row> 
-			<ID>577</ID> 
+			<ID>594</ID> 
 			<Type>BUILDINGCLASS_ARDL_ENLIGHTENMENT_TH_PROJECT_2</Type> 
 			<Description>TXT_KEY_BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_2</Description> 
 			<DefaultBuilding>BUILDING_ARDL_ENLIGHTENMENT_TH_PROJECT_2</DefaultBuilding> 
@@ -65491,17 +65695,17 @@
 			<ExtraSpies>0</ExtraSpies> 
 			<SpyRankChange>0</SpyRankChange> 
 			<InstantSpyRankChange>0</InstantSpyRankChange> 
-			<TradeRouteRecipientBonus>10</TradeRouteRecipientBonus> 
-			<TradeRouteTargetBonus>10</TradeRouteTargetBonus> 
+			<TradeRouteRecipientBonus>0</TradeRouteRecipientBonus> 
+			<TradeRouteTargetBonus>0</TradeRouteTargetBonus> 
 			<NumTradeRouteBonus>0</NumTradeRouteBonus> 
 			<LandmarksTourismPercent>0</LandmarksTourismPercent> 
 			<InstantMilitaryIncrease>0</InstantMilitaryIncrease> 
 			<GreatWorksTourismModifier>0</GreatWorksTourismModifier> 
 			<XBuiltTriggersIdeologyChoice>0</XBuiltTriggersIdeologyChoice> 
 			<TradeRouteSeaDistanceModifier>0</TradeRouteSeaDistanceModifier> 
-			<TradeRouteSeaGoldBonus>500</TradeRouteSeaGoldBonus> 
+			<TradeRouteSeaGoldBonus>0</TradeRouteSeaGoldBonus> 
 			<TradeRouteLandDistanceModifier>0</TradeRouteLandDistanceModifier> 
-			<TradeRouteLandGoldBonus>500</TradeRouteLandGoldBonus> 
+			<TradeRouteLandGoldBonus>0</TradeRouteLandGoldBonus> 
 			<CityStateTradeRouteProductionModifier>0</CityStateTradeRouteProductionModifier> 
 			<GreatScientistBeakerModifier>0</GreatScientistBeakerModifier> 
 			<BuildingClass>BUILDINGCLASS_CITY_SIZE_SMALL</BuildingClass> 
@@ -65627,17 +65831,17 @@
 			<ExtraSpies>0</ExtraSpies> 
 			<SpyRankChange>0</SpyRankChange> 
 			<InstantSpyRankChange>0</InstantSpyRankChange> 
-			<TradeRouteRecipientBonus>20</TradeRouteRecipientBonus> 
-			<TradeRouteTargetBonus>20</TradeRouteTargetBonus> 
+			<TradeRouteRecipientBonus>0</TradeRouteRecipientBonus> 
+			<TradeRouteTargetBonus>0</TradeRouteTargetBonus> 
 			<NumTradeRouteBonus>0</NumTradeRouteBonus> 
 			<LandmarksTourismPercent>0</LandmarksTourismPercent> 
 			<InstantMilitaryIncrease>0</InstantMilitaryIncrease> 
 			<GreatWorksTourismModifier>0</GreatWorksTourismModifier> 
 			<XBuiltTriggersIdeologyChoice>0</XBuiltTriggersIdeologyChoice> 
 			<TradeRouteSeaDistanceModifier>0</TradeRouteSeaDistanceModifier> 
-			<TradeRouteSeaGoldBonus>800</TradeRouteSeaGoldBonus> 
+			<TradeRouteSeaGoldBonus>0</TradeRouteSeaGoldBonus> 
 			<TradeRouteLandDistanceModifier>0</TradeRouteLandDistanceModifier> 
-			<TradeRouteLandGoldBonus>800</TradeRouteLandGoldBonus> 
+			<TradeRouteLandGoldBonus>0</TradeRouteLandGoldBonus> 
 			<CityStateTradeRouteProductionModifier>0</CityStateTradeRouteProductionModifier> 
 			<GreatScientistBeakerModifier>0</GreatScientistBeakerModifier> 
 			<BuildingClass>BUILDINGCLASS_CITY_SIZE_MEDIUM</BuildingClass> 
@@ -65763,17 +65967,17 @@
 			<ExtraSpies>0</ExtraSpies> 
 			<SpyRankChange>0</SpyRankChange> 
 			<InstantSpyRankChange>0</InstantSpyRankChange> 
-			<TradeRouteRecipientBonus>20</TradeRouteRecipientBonus> 
-			<TradeRouteTargetBonus>20</TradeRouteTargetBonus> 
+			<TradeRouteRecipientBonus>0</TradeRouteRecipientBonus> 
+			<TradeRouteTargetBonus>0</TradeRouteTargetBonus> 
 			<NumTradeRouteBonus>0</NumTradeRouteBonus> 
 			<LandmarksTourismPercent>0</LandmarksTourismPercent> 
 			<InstantMilitaryIncrease>0</InstantMilitaryIncrease> 
 			<GreatWorksTourismModifier>0</GreatWorksTourismModifier> 
 			<XBuiltTriggersIdeologyChoice>0</XBuiltTriggersIdeologyChoice> 
 			<TradeRouteSeaDistanceModifier>0</TradeRouteSeaDistanceModifier> 
-			<TradeRouteSeaGoldBonus>1500</TradeRouteSeaGoldBonus> 
+			<TradeRouteSeaGoldBonus>0</TradeRouteSeaGoldBonus> 
 			<TradeRouteLandDistanceModifier>0</TradeRouteLandDistanceModifier> 
-			<TradeRouteLandGoldBonus>1500</TradeRouteLandGoldBonus> 
+			<TradeRouteLandGoldBonus>0</TradeRouteLandGoldBonus> 
 			<CityStateTradeRouteProductionModifier>0</CityStateTradeRouteProductionModifier> 
 			<GreatScientistBeakerModifier>0</GreatScientistBeakerModifier> 
 			<BuildingClass>BUILDINGCLASS_CITY_SIZE_LARGE</BuildingClass> 
@@ -65899,17 +66103,17 @@
 			<ExtraSpies>0</ExtraSpies> 
 			<SpyRankChange>0</SpyRankChange> 
 			<InstantSpyRankChange>0</InstantSpyRankChange> 
-			<TradeRouteRecipientBonus>30</TradeRouteRecipientBonus> 
-			<TradeRouteTargetBonus>30</TradeRouteTargetBonus> 
+			<TradeRouteRecipientBonus>0</TradeRouteRecipientBonus> 
+			<TradeRouteTargetBonus>0</TradeRouteTargetBonus> 
 			<NumTradeRouteBonus>0</NumTradeRouteBonus> 
 			<LandmarksTourismPercent>0</LandmarksTourismPercent> 
 			<InstantMilitaryIncrease>0</InstantMilitaryIncrease> 
 			<GreatWorksTourismModifier>0</GreatWorksTourismModifier> 
 			<XBuiltTriggersIdeologyChoice>0</XBuiltTriggersIdeologyChoice> 
 			<TradeRouteSeaDistanceModifier>0</TradeRouteSeaDistanceModifier> 
-			<TradeRouteSeaGoldBonus>2000</TradeRouteSeaGoldBonus> 
+			<TradeRouteSeaGoldBonus>0</TradeRouteSeaGoldBonus> 
 			<TradeRouteLandDistanceModifier>0</TradeRouteLandDistanceModifier> 
-			<TradeRouteLandGoldBonus>2000</TradeRouteLandGoldBonus> 
+			<TradeRouteLandGoldBonus>0</TradeRouteLandGoldBonus> 
 			<CityStateTradeRouteProductionModifier>0</CityStateTradeRouteProductionModifier> 
 			<GreatScientistBeakerModifier>0</GreatScientistBeakerModifier> 
 			<BuildingClass>BUILDINGCLASS_CITY_SIZE_XL</BuildingClass> 
@@ -66035,17 +66239,17 @@
 			<ExtraSpies>0</ExtraSpies> 
 			<SpyRankChange>0</SpyRankChange> 
 			<InstantSpyRankChange>0</InstantSpyRankChange> 
-			<TradeRouteRecipientBonus>40</TradeRouteRecipientBonus> 
-			<TradeRouteTargetBonus>40</TradeRouteTargetBonus> 
+			<TradeRouteRecipientBonus>0</TradeRouteRecipientBonus> 
+			<TradeRouteTargetBonus>0</TradeRouteTargetBonus> 
 			<NumTradeRouteBonus>0</NumTradeRouteBonus> 
 			<LandmarksTourismPercent>0</LandmarksTourismPercent> 
 			<InstantMilitaryIncrease>0</InstantMilitaryIncrease> 
 			<GreatWorksTourismModifier>0</GreatWorksTourismModifier> 
 			<XBuiltTriggersIdeologyChoice>0</XBuiltTriggersIdeologyChoice> 
 			<TradeRouteSeaDistanceModifier>0</TradeRouteSeaDistanceModifier> 
-			<TradeRouteSeaGoldBonus>3000</TradeRouteSeaGoldBonus> 
+			<TradeRouteSeaGoldBonus>0</TradeRouteSeaGoldBonus> 
 			<TradeRouteLandDistanceModifier>0</TradeRouteLandDistanceModifier> 
-			<TradeRouteLandGoldBonus>3000</TradeRouteLandGoldBonus> 
+			<TradeRouteLandGoldBonus>0</TradeRouteLandGoldBonus> 
 			<CityStateTradeRouteProductionModifier>0</CityStateTradeRouteProductionModifier> 
 			<GreatScientistBeakerModifier>0</GreatScientistBeakerModifier> 
 			<BuildingClass>BUILDINGCLASS_CITY_SIZE_XXL</BuildingClass> 
@@ -66171,17 +66375,17 @@
 			<ExtraSpies>0</ExtraSpies> 
 			<SpyRankChange>0</SpyRankChange> 
 			<InstantSpyRankChange>0</InstantSpyRankChange> 
-			<TradeRouteRecipientBonus>50</TradeRouteRecipientBonus> 
-			<TradeRouteTargetBonus>50</TradeRouteTargetBonus> 
+			<TradeRouteRecipientBonus>0</TradeRouteRecipientBonus> 
+			<TradeRouteTargetBonus>0</TradeRouteTargetBonus> 
 			<NumTradeRouteBonus>0</NumTradeRouteBonus> 
 			<LandmarksTourismPercent>0</LandmarksTourismPercent> 
 			<InstantMilitaryIncrease>0</InstantMilitaryIncrease> 
 			<GreatWorksTourismModifier>0</GreatWorksTourismModifier> 
 			<XBuiltTriggersIdeologyChoice>0</XBuiltTriggersIdeologyChoice> 
 			<TradeRouteSeaDistanceModifier>0</TradeRouteSeaDistanceModifier> 
-			<TradeRouteSeaGoldBonus>4000</TradeRouteSeaGoldBonus> 
+			<TradeRouteSeaGoldBonus>0</TradeRouteSeaGoldBonus> 
 			<TradeRouteLandDistanceModifier>0</TradeRouteLandDistanceModifier> 
-			<TradeRouteLandGoldBonus>4000</TradeRouteLandGoldBonus> 
+			<TradeRouteLandGoldBonus>0</TradeRouteLandGoldBonus> 
 			<CityStateTradeRouteProductionModifier>0</CityStateTradeRouteProductionModifier> 
 			<GreatScientistBeakerModifier>0</GreatScientistBeakerModifier> 
 			<BuildingClass>BUILDINGCLASS_CITY_SIZE_GLOBAL</BuildingClass> 
@@ -173708,7 +173912,7 @@
 		</Row>
 		<Row> 
 			<Name>CITY_HEAL_RATE</Name> 
-			<Value>30</Value> 
+			<Value>15</Value> 
 		</Row>
 		<Row> 
 			<Name>ATTACK_SAME_STRENGTH_MIN_DAMAGE</Name> 
@@ -173784,7 +173988,7 @@
 		</Row>
 		<Row> 
 			<Name>CITY_STRENGTH_HILL_CHANGE</Name> 
-			<Value>2500</Value> 
+			<Value>500</Value> 
 		</Row>
 		<Row> 
 			<Name>CITY_ATTACKING_DAMAGE_MOD</Name> 
@@ -179196,7 +179400,7 @@
 		</Row>
 		<Row> 
 			<Name>CAPITAL_BUILDINGCLASS</Name> 
-			<Value>301</Value> 
+			<Value>318</Value> 
 		</Row>
 		<Row> 
 			<Name>DEFAULT_SPECIALIST</Name> 
@@ -179332,7 +179536,7 @@
 		</Row>
 		<Row> 
 			<Name>WALLS_BUILDINGCLASS</Name> 
-			<Value>285</Value> 
+			<Value>302</Value> 
 		</Row>
 		<Row> 
 			<Name>PROMOTION_GOODY_HUT_PICKER</Name> 
@@ -191292,11 +191496,11 @@
 			<AIDeclareWarProb>33</AIDeclareWarProb> 
 			<AIWorkRateModifier>50</AIWorkRateModifier> 
 			<AIUnhappinessPercent>70</AIUnhappinessPercent> 
-			<AIGrowthPercent>70</AIGrowthPercent> 
+			<AIGrowthPercent>80</AIGrowthPercent> 
 			<AITrainPercent>100</AITrainPercent> 
 			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
 			<AIConstructPercent>100</AIConstructPercent> 
-			<AIWorldConstructPercent>100</AIWorldConstructPercent> 
+			<AIWorldConstructPercent>70</AIWorldConstructPercent> 
 			<AICreatePercent>100</AICreatePercent> 
 			<AIWorldCreatePercent>100</AIWorldCreatePercent> 
 			<AIBuildingCostPercent>100</AIBuildingCostPercent> 
@@ -191359,7 +191563,7 @@
 			<AIDeclareWarProb>66</AIDeclareWarProb> 
 			<AIWorkRateModifier>100</AIWorkRateModifier> 
 			<AIUnhappinessPercent>70</AIUnhappinessPercent> 
-			<AIGrowthPercent>100</AIGrowthPercent> 
+			<AIGrowthPercent>80</AIGrowthPercent> 
 			<AITrainPercent>100</AITrainPercent> 
 			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
 			<AIConstructPercent>100</AIConstructPercent> 
@@ -191426,7 +191630,7 @@
 			<AIDeclareWarProb>100</AIDeclareWarProb> 
 			<AIWorkRateModifier>150</AIWorkRateModifier> 
 			<AIUnhappinessPercent>70</AIUnhappinessPercent> 
-			<AIGrowthPercent>90</AIGrowthPercent> 
+			<AIGrowthPercent>70</AIGrowthPercent> 
 			<AITrainPercent>100</AITrainPercent> 
 			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
 			<AIConstructPercent>90</AIConstructPercent> 
@@ -191435,7 +191639,7 @@
 			<AIWorldCreatePercent>100</AIWorldCreatePercent> 
 			<AIBuildingCostPercent>66</AIBuildingCostPercent> 
 			<AIUnitCostPercent>100</AIUnitCostPercent> 
-			<AIUnitSupplyPercent>0</AIUnitSupplyPercent> 
+			<AIUnitSupplyPercent>10</AIUnitSupplyPercent> 
 			<AIUnitUpgradePercent>5</AIUnitUpgradePercent> 
 			<AIInflationPercent>100</AIInflationPercent> 
 			<AIPerEraModifier>-1</AIPerEraModifier> 
@@ -191493,16 +191697,16 @@
 			<AIDeclareWarProb>100</AIDeclareWarProb> 
 			<AIWorkRateModifier>200</AIWorkRateModifier> 
 			<AIUnhappinessPercent>70</AIUnhappinessPercent> 
-			<AIGrowthPercent>80</AIGrowthPercent> 
-			<AITrainPercent>100</AITrainPercent> 
-			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
+			<AIGrowthPercent>70</AIGrowthPercent> 
+			<AITrainPercent>90</AITrainPercent> 
+			<AIWorldTrainPercent>90</AIWorldTrainPercent> 
 			<AIConstructPercent>80</AIConstructPercent> 
-			<AIWorldConstructPercent>100</AIWorldConstructPercent> 
+			<AIWorldConstructPercent>90</AIWorldConstructPercent> 
 			<AICreatePercent>100</AICreatePercent> 
 			<AIWorldCreatePercent>100</AIWorldCreatePercent> 
 			<AIBuildingCostPercent>50</AIBuildingCostPercent> 
 			<AIUnitCostPercent>100</AIUnitCostPercent> 
-			<AIUnitSupplyPercent>10</AIUnitSupplyPercent> 
+			<AIUnitSupplyPercent>5</AIUnitSupplyPercent> 
 			<AIUnitUpgradePercent>5</AIUnitUpgradePercent> 
 			<AIInflationPercent>100</AIInflationPercent> 
 			<AIPerEraModifier>-2</AIPerEraModifier> 
@@ -191557,19 +191761,19 @@
 			<AIStartingDefenseUnits>2</AIStartingDefenseUnits> 
 			<AIStartingWorkerUnits>2</AIStartingWorkerUnits> 
 			<AIStartingExploreUnits>2</AIStartingExploreUnits> 
-			<AIDeclareWarProb>100</AIDeclareWarProb> 
+			<AIDeclareWarProb>130</AIDeclareWarProb> 
 			<AIWorkRateModifier>250</AIWorkRateModifier> 
 			<AIUnhappinessPercent>70</AIUnhappinessPercent> 
-			<AIGrowthPercent>80</AIGrowthPercent> 
-			<AITrainPercent>65</AITrainPercent> 
-			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
-			<AIConstructPercent>70</AIConstructPercent> 
-			<AIWorldConstructPercent>100</AIWorldConstructPercent> 
-			<AICreatePercent>100</AICreatePercent> 
-			<AIWorldCreatePercent>100</AIWorldCreatePercent> 
-			<AIBuildingCostPercent>40</AIBuildingCostPercent> 
-			<AIUnitCostPercent>100</AIUnitCostPercent> 
-			<AIUnitSupplyPercent>10</AIUnitSupplyPercent> 
+			<AIGrowthPercent>60</AIGrowthPercent> 
+			<AITrainPercent>80</AITrainPercent> 
+			<AIWorldTrainPercent>80</AIWorldTrainPercent> 
+			<AIConstructPercent>80</AIConstructPercent> 
+			<AIWorldConstructPercent>80</AIWorldConstructPercent> 
+			<AICreatePercent>80</AICreatePercent> 
+			<AIWorldCreatePercent>80</AIWorldCreatePercent> 
+			<AIBuildingCostPercent>50</AIBuildingCostPercent> 
+			<AIUnitCostPercent>80</AIUnitCostPercent> 
+			<AIUnitSupplyPercent>5</AIUnitSupplyPercent> 
 			<AIUnitUpgradePercent>5</AIUnitUpgradePercent> 
 			<AIInflationPercent>100</AIInflationPercent> 
 			<AIPerEraModifier>-5</AIPerEraModifier> 
@@ -191627,16 +191831,16 @@
 			<AIDeclareWarProb>250</AIDeclareWarProb> 
 			<AIWorkRateModifier>250</AIWorkRateModifier> 
 			<AIUnhappinessPercent>50</AIUnhappinessPercent> 
-			<AIGrowthPercent>70</AIGrowthPercent> 
-			<AITrainPercent>60</AITrainPercent> 
-			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
-			<AIConstructPercent>60</AIConstructPercent> 
-			<AIWorldConstructPercent>250</AIWorldConstructPercent> 
-			<AICreatePercent>140</AICreatePercent> 
-			<AIWorldCreatePercent>140</AIWorldCreatePercent> 
-			<AIBuildingCostPercent>40</AIBuildingCostPercent> 
-			<AIUnitCostPercent>45</AIUnitCostPercent> 
-			<AIUnitSupplyPercent>15</AIUnitSupplyPercent> 
+			<AIGrowthPercent>60</AIGrowthPercent> 
+			<AITrainPercent>70</AITrainPercent> 
+			<AIWorldTrainPercent>70</AIWorldTrainPercent> 
+			<AIConstructPercent>70</AIConstructPercent> 
+			<AIWorldConstructPercent>70</AIWorldConstructPercent> 
+			<AICreatePercent>70</AICreatePercent> 
+			<AIWorldCreatePercent>70</AIWorldCreatePercent> 
+			<AIBuildingCostPercent>50</AIBuildingCostPercent> 
+			<AIUnitCostPercent>70</AIUnitCostPercent> 
+			<AIUnitSupplyPercent>10</AIUnitSupplyPercent> 
 			<AIUnitUpgradePercent>5</AIUnitUpgradePercent> 
 			<AIInflationPercent>100</AIInflationPercent> 
 			<AIPerEraModifier>-7</AIPerEraModifier> 
@@ -191694,16 +191898,16 @@
 			<AIDeclareWarProb>400</AIDeclareWarProb> 
 			<AIWorkRateModifier>350</AIWorkRateModifier> 
 			<AIUnhappinessPercent>40</AIUnhappinessPercent> 
-			<AIGrowthPercent>60</AIGrowthPercent> 
-			<AITrainPercent>55</AITrainPercent> 
-			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
-			<AIConstructPercent>55</AIConstructPercent> 
-			<AIWorldConstructPercent>300</AIWorldConstructPercent> 
-			<AICreatePercent>100</AICreatePercent> 
-			<AIWorldCreatePercent>100</AIWorldCreatePercent> 
+			<AIGrowthPercent>50</AIGrowthPercent> 
+			<AITrainPercent>60</AITrainPercent> 
+			<AIWorldTrainPercent>60</AIWorldTrainPercent> 
+			<AIConstructPercent>60</AIConstructPercent> 
+			<AIWorldConstructPercent>60</AIWorldConstructPercent> 
+			<AICreatePercent>60</AICreatePercent> 
+			<AIWorldCreatePercent>60</AIWorldCreatePercent> 
 			<AIBuildingCostPercent>50</AIBuildingCostPercent> 
-			<AIUnitCostPercent>50</AIUnitCostPercent> 
-			<AIUnitSupplyPercent>15</AIUnitSupplyPercent> 
+			<AIUnitCostPercent>60</AIUnitCostPercent> 
+			<AIUnitSupplyPercent>10</AIUnitSupplyPercent> 
 			<AIUnitUpgradePercent>5</AIUnitUpgradePercent> 
 			<AIInflationPercent>100</AIInflationPercent> 
 			<AIPerEraModifier>-9</AIPerEraModifier> 
@@ -191763,14 +191967,14 @@
 			<AIUnhappinessPercent>33</AIUnhappinessPercent> 
 			<AIGrowthPercent>50</AIGrowthPercent> 
 			<AITrainPercent>50</AITrainPercent> 
-			<AIWorldTrainPercent>100</AIWorldTrainPercent> 
+			<AIWorldTrainPercent>50</AIWorldTrainPercent> 
 			<AIConstructPercent>50</AIConstructPercent> 
-			<AIWorldConstructPercent>400</AIWorldConstructPercent> 
-			<AICreatePercent>100</AICreatePercent> 
-			<AIWorldCreatePercent>100</AIWorldCreatePercent> 
+			<AIWorldConstructPercent>50</AIWorldConstructPercent> 
+			<AICreatePercent>50</AICreatePercent> 
+			<AIWorldCreatePercent>50</AIWorldCreatePercent> 
 			<AIBuildingCostPercent>50</AIBuildingCostPercent> 
 			<AIUnitCostPercent>50</AIUnitCostPercent> 
-			<AIUnitSupplyPercent>20</AIUnitSupplyPercent> 
+			<AIUnitSupplyPercent>10</AIUnitSupplyPercent> 
 			<AIUnitUpgradePercent>5</AIUnitUpgradePercent> 
 			<AIInflationPercent>100</AIInflationPercent> 
 			<AIPerEraModifier>-10</AIPerEraModifier> 
@@ -248668,7 +248872,7 @@
 			<ImprovementUpgradeRateModifier>0</ImprovementUpgradeRateModifier> 
 			<SpecialistProductionModifier>0</SpecialistProductionModifier> 
 			<SpecialistUpgradeModifier>0</SpecialistUpgradeModifier> 
-			<MilitaryProductionModifier>0</MilitaryProductionModifier> 
+			<MilitaryProductionModifier>5</MilitaryProductionModifier> 
 			<BaseFreeUnits>0</BaseFreeUnits> 
 			<BaseFreeMilitaryUnits>0</BaseFreeMilitaryUnits> 
 			<FreeUnitsPopulationPercent>0</FreeUnitsPopulationPercent> 
@@ -273872,7 +274076,7 @@
 			<WorkerSpeedModifier>0</WorkerSpeedModifier> 
 			<FirstFreeTechs>0</FirstFreeTechs> 
 			<EmbarkedMoveChange>0</EmbarkedMoveChange> 
-			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange> 
+			<InternationalTradeRoutesChange>0</InternationalTradeRoutesChange> 
 			<InfluenceSpreadModifier>0</InfluenceSpreadModifier> 
 			<ExtraVotesPerDiplomat>0</ExtraVotesPerDiplomat> 
 			<EndsGame>false</EndsGame> 
@@ -274477,7 +274681,7 @@
 			<WorkerSpeedModifier>0</WorkerSpeedModifier> 
 			<FirstFreeTechs>0</FirstFreeTechs> 
 			<EmbarkedMoveChange>0</EmbarkedMoveChange> 
-			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange> 
+			<InternationalTradeRoutesChange>0</InternationalTradeRoutesChange> 
 			<InfluenceSpreadModifier>0</InfluenceSpreadModifier> 
 			<ExtraVotesPerDiplomat>0</ExtraVotesPerDiplomat> 
 			<EndsGame>false</EndsGame> 
@@ -275742,7 +275946,7 @@
 			<WorkerSpeedModifier>0</WorkerSpeedModifier> 
 			<FirstFreeTechs>0</FirstFreeTechs> 
 			<EmbarkedMoveChange>0</EmbarkedMoveChange> 
-			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange> 
+			<InternationalTradeRoutesChange>0</InternationalTradeRoutesChange> 
 			<InfluenceSpreadModifier>0</InfluenceSpreadModifier> 
 			<ExtraVotesPerDiplomat>0</ExtraVotesPerDiplomat> 
 			<EndsGame>false</EndsGame> 
@@ -276127,7 +276331,7 @@
 			<WorkerSpeedModifier>0</WorkerSpeedModifier> 
 			<FirstFreeTechs>0</FirstFreeTechs> 
 			<EmbarkedMoveChange>0</EmbarkedMoveChange> 
-			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange> 
+			<InternationalTradeRoutesChange>0</InternationalTradeRoutesChange> 
 			<InfluenceSpreadModifier>0</InfluenceSpreadModifier> 
 			<ExtraVotesPerDiplomat>0</ExtraVotesPerDiplomat> 
 			<EndsGame>false</EndsGame> 
@@ -277062,7 +277266,7 @@
 			<WorkerSpeedModifier>0</WorkerSpeedModifier> 
 			<FirstFreeTechs>0</FirstFreeTechs> 
 			<EmbarkedMoveChange>0</EmbarkedMoveChange> 
-			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange> 
+			<InternationalTradeRoutesChange>0</InternationalTradeRoutesChange> 
 			<InfluenceSpreadModifier>25</InfluenceSpreadModifier> 
 			<ExtraVotesPerDiplomat>0</ExtraVotesPerDiplomat> 
 			<EndsGame>false</EndsGame> 
@@ -279071,7 +279275,7 @@
 			<WorkerSpeedModifier>0</WorkerSpeedModifier> 
 			<FirstFreeTechs>0</FirstFreeTechs> 
 			<EmbarkedMoveChange>0</EmbarkedMoveChange> 
-			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange> 
+			<InternationalTradeRoutesChange>0</InternationalTradeRoutesChange> 
 			<InfluenceSpreadModifier>0</InfluenceSpreadModifier> 
 			<ExtraVotesPerDiplomat>0</ExtraVotesPerDiplomat> 
 			<EndsGame>false</EndsGame> 
@@ -297084,6 +297288,21 @@
 		</Row>
 		<Row> 
 			<UnitType>UNIT_FW_VERTOL</UnitType> 
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound> 
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound> 
+		</Row>
+		<Row> 
+			<UnitType>UNIT_METALGEAR</UnitType> 
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound> 
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound> 
+		</Row>
+		<Row> 
+			<UnitType>UNIT_SPACEMARINE</UnitType> 
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound> 
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound> 
+		</Row>
+		<Row> 
+			<UnitType>UNIT_TDF</UnitType> 
 			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound> 
 			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound> 
 		</Row>
@@ -367198,7 +367417,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>5</Moves> 
+			<Moves>3</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -367294,7 +367513,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>6</Moves> 
+			<Moves>4</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -369233,7 +369452,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>4</Moves> 
+			<Moves>3</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -373606,7 +373825,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>5</Moves> 
+			<Moves>4</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -374183,7 +374402,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>12</Moves> 
+			<Moves>4</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>6</BaseSightRange> 
@@ -375159,7 +375378,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>5</Moves> 
+			<Moves>4</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -375355,7 +375574,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>7</Moves> 
+			<Moves>5</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -375845,7 +376064,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>6</Moves> 
+			<Moves>5</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>3</BaseSightRange> 
@@ -376040,7 +376259,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>7</Moves> 
+			<Moves>6</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>3</BaseSightRange> 
@@ -376330,7 +376549,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>5</Moves> 
+			<Moves>6</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>3</BaseSightRange> 
@@ -377108,7 +377327,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>6</Moves> 
+			<Moves>4</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>3</BaseSightRange> 
@@ -377206,7 +377425,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>8</Moves> 
+			<Moves>6</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>3</BaseSightRange> 
@@ -377500,7 +377719,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>7</Moves> 
+			<Moves>4</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>3</BaseSightRange> 
@@ -377696,7 +377915,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>8</Moves> 
+			<Moves>4</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>4</BaseSightRange> 
@@ -377794,7 +378013,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>8</Moves> 
+			<Moves>5</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>4</BaseSightRange> 
@@ -377892,7 +378111,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>8</Moves> 
+			<Moves>5</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>4</BaseSightRange> 
@@ -377990,7 +378209,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>8</Moves> 
+			<Moves>5</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>4</BaseSightRange> 
@@ -378088,7 +378307,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>9</Moves> 
+			<Moves>5</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>4</BaseSightRange> 
@@ -378186,7 +378405,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>9</Moves> 
+			<Moves>6</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>4</BaseSightRange> 
@@ -378284,7 +378503,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>10</Moves> 
+			<Moves>6</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>5</BaseSightRange> 
@@ -378382,7 +378601,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>10</Moves> 
+			<Moves>7</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>5</BaseSightRange> 
@@ -378479,7 +378698,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>11</Moves> 
+			<Moves>7</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>5</BaseSightRange> 
@@ -378576,7 +378795,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>11</Moves> 
+			<Moves>8</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>2</Range> 
 			<BaseSightRange>5</BaseSightRange> 
@@ -378672,7 +378891,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>11</Moves> 
+			<Moves>8</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>5</BaseSightRange> 
@@ -378702,7 +378921,7 @@
 			<HurryCostModifier>50</HurryCostModifier> 
 			<AdvancedStartCost>120</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>4</AirInterceptRange> 
+			<AirInterceptRange>1</AirInterceptRange> 
 			<AirUnitCap>0</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -378768,7 +378987,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>6</Moves> 
+			<Moves>8</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -379969,7 +380188,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>35</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>3</AirInterceptRange> 
+			<AirInterceptRange>4</AirInterceptRange> 
 			<AirUnitCap>0</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -380035,7 +380254,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>5</Moves> 
+			<Moves>4</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>2</Range> 
 			<BaseSightRange>1</BaseSightRange> 
@@ -380067,7 +380286,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>50</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>3</AirInterceptRange> 
+			<AirInterceptRange>4</AirInterceptRange> 
 			<AirUnitCap>0</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -380163,7 +380382,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>50</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>4</AirInterceptRange> 
+			<AirInterceptRange>6</AirInterceptRange> 
 			<AirUnitCap>0</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -380229,7 +380448,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>6</Moves> 
+			<Moves>5</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>2</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -380259,7 +380478,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>50</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>4</AirInterceptRange> 
+			<AirInterceptRange>6</AirInterceptRange> 
 			<AirUnitCap>0</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -381307,7 +381526,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>false</Immobile> 
-			<Range>4</Range> 
+			<Range>3</Range> 
 			<BaseSightRange>1</BaseSightRange> 
 			<Class>UNITCLASS_HOWITZER</Class> 
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass> 
@@ -381405,7 +381624,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>false</Immobile> 
-			<Range>4</Range> 
+			<Range>3</Range> 
 			<BaseSightRange>1</BaseSightRange> 
 			<Class>UNITCLASS_ARTILLERY</Class> 
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass> 
@@ -381503,7 +381722,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>false</Immobile> 
-			<Range>4</Range> 
+			<Range>3</Range> 
 			<BaseSightRange>1</BaseSightRange> 
 			<Class>UNITCLASS_SELF_PROPELLED_ARTILLERY</Class> 
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass> 
@@ -381793,7 +382012,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>1</Moves> 
 			<Immobile>false</Immobile> 
-			<Range>5</Range> 
+			<Range>4</Range> 
 			<BaseSightRange>1</BaseSightRange> 
 			<Class>UNITCLASS_RAILROAD_GUN</Class> 
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass> 
@@ -381890,7 +382109,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>false</Immobile> 
-			<Range>5</Range> 
+			<Range>4</Range> 
 			<BaseSightRange>1</BaseSightRange> 
 			<Class>UNITCLASS_KATYUSHA</Class> 
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass> 
@@ -381987,7 +382206,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>false</Immobile> 
-			<Range>5</Range> 
+			<Range>4</Range> 
 			<BaseSightRange>1</BaseSightRange> 
 			<Class>UNITCLASS_ROCKET_ARTILLERY</Class> 
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass> 
@@ -382564,7 +382783,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>6</Moves> 
+			<Moves>5</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -382661,7 +382880,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>6</Moves> 
+			<Moves>5</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -382758,7 +382977,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>7</Moves> 
+			<Moves>5</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -382856,7 +383075,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>7</Moves> 
+			<Moves>6</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -382954,7 +383173,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>8</Moves> 
+			<Moves>6</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>3</BaseSightRange> 
@@ -383053,7 +383272,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>8</Moves> 
+			<Moves>7</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>3</BaseSightRange> 
@@ -383152,7 +383371,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>8</Moves> 
+			<Moves>7</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>3</BaseSightRange> 
@@ -383251,7 +383470,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>9</Moves> 
+			<Moves>7</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>3</BaseSightRange> 
@@ -383349,7 +383568,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>10</Moves> 
+			<Moves>8</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>3</BaseSightRange> 
@@ -383447,7 +383666,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>12</Moves> 
+			<Moves>9</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>3</BaseSightRange> 
@@ -383478,7 +383697,7 @@
 			<HurryCostModifier>100</HurryCostModifier> 
 			<AdvancedStartCost>60</AdvancedStartCost> 
 			<MinAreaSize>14</MinAreaSize> 
-			<AirInterceptRange>1</AirInterceptRange> 
+			<AirInterceptRange>2</AirInterceptRange> 
 			<AirUnitCap>0</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -383544,7 +383763,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>12</Moves> 
+			<Moves>9</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>4</BaseSightRange> 
@@ -383574,7 +383793,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>80</AdvancedStartCost> 
 			<MinAreaSize>16</MinAreaSize> 
-			<AirInterceptRange>3</AirInterceptRange> 
+			<AirInterceptRange>4</AirInterceptRange> 
 			<AirUnitCap>0</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -383640,7 +383859,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>12</Moves> 
+			<Moves>10</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>4</BaseSightRange> 
@@ -383670,7 +383889,7 @@
 			<HurryCostModifier>200</HurryCostModifier> 
 			<AdvancedStartCost>80</AdvancedStartCost> 
 			<MinAreaSize>16</MinAreaSize> 
-			<AirInterceptRange>3</AirInterceptRange> 
+			<AirInterceptRange>4</AirInterceptRange> 
 			<AirUnitCap>0</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -383738,7 +383957,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>8</Moves> 
+			<Moves>5</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>4</BaseSightRange> 
@@ -383836,7 +384055,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>9</Moves> 
+			<Moves>6</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>5</BaseSightRange> 
@@ -383935,7 +384154,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>9</Moves> 
+			<Moves>7</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>5</BaseSightRange> 
@@ -384034,7 +384253,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>10</Moves> 
+			<Moves>7</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>5</BaseSightRange> 
@@ -384132,7 +384351,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>10</Moves> 
+			<Moves>8</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>2</Range> 
 			<BaseSightRange>5</BaseSightRange> 
@@ -384230,7 +384449,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>12</Moves> 
+			<Moves>9</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>2</Range> 
 			<BaseSightRange>5</BaseSightRange> 
@@ -384328,7 +384547,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>10</Moves> 
+			<Moves>9</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>2</Range> 
 			<BaseSightRange>6</BaseSightRange> 
@@ -384425,7 +384644,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>12</Moves> 
+			<Moves>10</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>2</Range> 
 			<BaseSightRange>6</BaseSightRange> 
@@ -384912,7 +385131,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>6</Moves> 
+			<Moves>7</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>3</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -385010,7 +385229,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>6</Moves> 
+			<Moves>7</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>3</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -385236,7 +385455,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>50</AdvancedStartCost> 
 			<MinAreaSize>10</MinAreaSize> 
-			<AirInterceptRange>3</AirInterceptRange> 
+			<AirInterceptRange>4</AirInterceptRange> 
 			<AirUnitCap>0</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -385333,7 +385552,7 @@
 			<HurryCostModifier>50</HurryCostModifier> 
 			<AdvancedStartCost>50</AdvancedStartCost> 
 			<MinAreaSize>10</MinAreaSize> 
-			<AirInterceptRange>3</AirInterceptRange> 
+			<AirInterceptRange>4</AirInterceptRange> 
 			<AirUnitCap>0</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -385429,7 +385648,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>100</AdvancedStartCost> 
 			<MinAreaSize>16</MinAreaSize> 
-			<AirInterceptRange>5</AirInterceptRange> 
+			<AirInterceptRange>6</AirInterceptRange> 
 			<AirUnitCap>0</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -385527,7 +385746,7 @@
 			<HurryCostModifier>200</HurryCostModifier> 
 			<AdvancedStartCost>100</AdvancedStartCost> 
 			<MinAreaSize>16</MinAreaSize> 
-			<AirInterceptRange>4</AirInterceptRange> 
+			<AirInterceptRange>6</AirInterceptRange> 
 			<AirUnitCap>0</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -385625,7 +385844,7 @@
 			<HurryCostModifier>200</HurryCostModifier> 
 			<AdvancedStartCost>100</AdvancedStartCost> 
 			<MinAreaSize>16</MinAreaSize> 
-			<AirInterceptRange>4</AirInterceptRange> 
+			<AirInterceptRange>6</AirInterceptRange> 
 			<AirUnitCap>0</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -385693,7 +385912,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>2</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>8</Range> 
+			<Range>5</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_GUIDED_MISSILE</Class> 
 			<Special>SPECIALUNIT_MISSILE</Special> 
@@ -385983,7 +386202,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>7</Moves> 
 			<Immobile>false</Immobile> 
-			<Range>5</Range> 
+			<Range>4</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_BATTLESHIP</Class> 
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass> 
@@ -386079,7 +386298,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>7</Moves> 
 			<Immobile>false</Immobile> 
-			<Range>5</Range> 
+			<Range>4</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_BATTLESHIP</Class> 
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass> 
@@ -386175,7 +386394,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>8</Moves> 
 			<Immobile>false</Immobile> 
-			<Range>6</Range> 
+			<Range>4</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_FUTURE_BATTLESHIP</Class> 
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass> 
@@ -386662,7 +386881,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>9</Moves> 
+			<Moves>6</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>4</BaseSightRange> 
@@ -386890,7 +387109,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>30</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>10</AirInterceptRange> 
+			<AirInterceptRange>6</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -386989,7 +387208,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>50</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>14</AirInterceptRange> 
+			<AirInterceptRange>8</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -387087,7 +387306,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>70</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>16</AirInterceptRange> 
+			<AirInterceptRange>10</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -387185,7 +387404,7 @@
 			<HurryCostModifier>150</HurryCostModifier> 
 			<AdvancedStartCost>70</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>20</AirInterceptRange> 
+			<AirInterceptRange>12</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -387283,7 +387502,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>100</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>18</AirInterceptRange> 
+			<AirInterceptRange>12</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -387380,7 +387599,7 @@
 			<HurryCostModifier>150</HurryCostModifier> 
 			<AdvancedStartCost>100</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>20</AirInterceptRange> 
+			<AirInterceptRange>14</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -387477,7 +387696,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>70</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>18</AirInterceptRange> 
+			<AirInterceptRange>14</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -388229,7 +388448,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>2</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>14</Range> 
+			<Range>12</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_BOMBER</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -388327,7 +388546,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>2</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>18</Range> 
+			<Range>14</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_JET_BOMBER</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -388425,7 +388644,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>2</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>20</Range> 
+			<Range>16</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_STEALTH_BOMBER</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -388523,7 +388742,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>22</Range> 
+			<Range>16</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_FW_SUBORBITAL_BOMBER</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -388649,7 +388868,7 @@
 			<HurryCostModifier>0</HurryCostModifier> 
 			<AdvancedStartCost>50</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>7</AirInterceptRange> 
+			<AirInterceptRange>6</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -388746,7 +388965,7 @@
 			<HurryCostModifier>0</HurryCostModifier> 
 			<AdvancedStartCost>50</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>10</AirInterceptRange> 
+			<AirInterceptRange>8</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -388843,7 +389062,7 @@
 			<HurryCostModifier>0</HurryCostModifier> 
 			<AdvancedStartCost>50</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>12</AirInterceptRange> 
+			<AirInterceptRange>10</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -388940,7 +389159,7 @@
 			<HurryCostModifier>0</HurryCostModifier> 
 			<AdvancedStartCost>50</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>14</AirInterceptRange> 
+			<AirInterceptRange>12</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -389037,7 +389256,7 @@
 			<HurryCostModifier>0</HurryCostModifier> 
 			<AdvancedStartCost>50</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>15</AirInterceptRange> 
+			<AirInterceptRange>12</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -389878,7 +390097,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>6</Moves> 
+			<Moves>4</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>4</BaseSightRange> 
@@ -390369,7 +390588,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>7</Moves> 
+			<Moves>6</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>3</Range> 
 			<BaseSightRange>3</BaseSightRange> 
@@ -390565,7 +390784,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>10</Moves> 
+			<Moves>6</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>2</Range> 
 			<BaseSightRange>5</BaseSightRange> 
@@ -390663,7 +390882,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>5</Moves> 
+			<Moves>4</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -390859,7 +391078,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>7</Moves> 
+			<Moves>6</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>4</BaseSightRange> 
@@ -390958,7 +391177,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>5</Moves> 
+			<Moves>3</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>2</Range> 
 			<BaseSightRange>4</BaseSightRange> 
@@ -391055,7 +391274,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>true</PurchaseOnly> 
 			<MoveAfterPurchase>true</MoveAfterPurchase> 
-			<Moves>5</Moves> 
+			<Moves>4</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>1</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -391250,7 +391469,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>9</Moves> 
+			<Moves>8</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>4</Range> 
 			<BaseSightRange>3</BaseSightRange> 
@@ -391280,7 +391499,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>0</AdvancedStartCost> 
 			<MinAreaSize>16</MinAreaSize> 
-			<AirInterceptRange>3</AirInterceptRange> 
+			<AirInterceptRange>4</AirInterceptRange> 
 			<AirUnitCap>0</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -391347,7 +391566,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>8</Moves> 
+			<Moves>6</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>5</Range> 
 			<BaseSightRange>4</BaseSightRange> 
@@ -391538,7 +391757,7 @@
 			<Help>TXT_KEY_UNIT_HELP_TSAR_BOMBA</Help> 
 			<Combat>0</Combat> 
 			<RangedCombat>0</RangedCombat> 
-			<Cost>3000</Cost> 
+			<Cost>8000</Cost> 
 			<FaithCost>0</FaithCost> 
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
@@ -391642,7 +391861,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>1</Moves> 
 			<Immobile>false</Immobile> 
-			<Range>6</Range> 
+			<Range>4</Range> 
 			<BaseSightRange>1</BaseSightRange> 
 			<Class>UNITCLASS_NUCLEAR_ARTILLERY</Class> 
 			<Special>SPECIALUNIT_NUKE</Special> 
@@ -391837,7 +392056,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>24</Range> 
+			<Range>12</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_SR71_BLACKBIRD</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -391932,7 +392151,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>6</Moves> 
+			<Moves>4</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>3</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -392029,7 +392248,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>12</Moves> 
+			<Moves>8</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>2</Range> 
 			<BaseSightRange>4</BaseSightRange> 
@@ -392322,9 +392541,9 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>4</Moves> 
+			<Moves>3</Moves> 
 			<Immobile>false</Immobile> 
-			<Range>8</Range> 
+			<Range>4</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_CHINESE_WEISHI</Class> 
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass> 
@@ -392423,7 +392642,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>20</Range> 
+			<Range>16</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_PAKFA_T50</Class> 
 			<Special>SPECIALUNIT_STEALTH</Special> 
@@ -392452,7 +392671,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>100</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>20</AirInterceptRange> 
+			<AirInterceptRange>16</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 
@@ -392616,7 +392835,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>5</Moves> 
+			<Moves>4</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>3</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -392809,7 +393028,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>12</Moves> 
+			<Moves>6</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>2</Range> 
 			<BaseSightRange>5</BaseSightRange> 
@@ -392908,7 +393127,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>6</Moves> 
 			<Immobile>false</Immobile> 
-			<Range>5</Range> 
+			<Range>4</Range> 
 			<BaseSightRange>3</BaseSightRange> 
 			<Class>UNITCLASS_PARTICLE_CANNON</Class> 
 			<Special>SPECIALUNIT_NUKE</Special> 
@@ -393683,7 +393902,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>9</Moves> 
+			<Moves>6</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -394955,7 +395174,7 @@
 			<RequiresFaithPurchaseEnabled>false</RequiresFaithPurchaseEnabled> 
 			<PurchaseOnly>false</PurchaseOnly> 
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
-			<Moves>8</Moves> 
+			<Moves>6</Moves> 
 			<Immobile>false</Immobile> 
 			<Range>0</Range> 
 			<BaseSightRange>2</BaseSightRange> 
@@ -396131,7 +396350,7 @@
 			<MoveAfterPurchase>false</MoveAfterPurchase> 
 			<Moves>3</Moves> 
 			<Immobile>true</Immobile> 
-			<Range>15</Range> 
+			<Range>10</Range> 
 			<BaseSightRange>2</BaseSightRange> 
 			<Class>UNITCLASS_MIG_21</Class> 
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass> 
@@ -396159,7 +396378,7 @@
 			<HurryCostModifier>-1</HurryCostModifier> 
 			<AdvancedStartCost>100</AdvancedStartCost> 
 			<MinAreaSize>-1</MinAreaSize> 
-			<AirInterceptRange>15</AirInterceptRange> 
+			<AirInterceptRange>10</AirInterceptRange> 
 			<AirUnitCap>1</AirUnitCap> 
 			<NukeDamageLevel>-1</NukeDamageLevel> 
 			<WorkRate>0</WorkRate> 

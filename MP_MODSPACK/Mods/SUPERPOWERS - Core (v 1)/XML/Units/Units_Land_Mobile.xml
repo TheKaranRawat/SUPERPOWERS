@@ -208,7 +208,7 @@
 			<BaseSightRange>6</BaseSightRange>
 			<Cost>-1</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
-			<Moves>12</Moves>
+			<Moves>4</Moves>
 			<Suicide>true</Suicide>
 			<NoMaintenance>true</NoMaintenance>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
@@ -539,7 +539,7 @@
 			<BaseSightRange>2</BaseSightRange>
 			<Combat>55</Combat>
 			<Cost>250</Cost>
-			<Moves>5</Moves>
+			<Moves>4</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -604,7 +604,7 @@
 			<BaseSightRange>2</BaseSightRange>
 			<Combat>55</Combat>
 			<Cost>200</Cost>
-			<Moves>7</Moves>
+			<Moves>5</Moves>
 			<HurryCostModifier>33</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -777,7 +777,7 @@
 			<BaseSightRange>3</BaseSightRange>
 			<Combat>150</Combat>
 			<Cost>800</Cost>
-			<Moves>6</Moves>
+			<Moves>5</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -845,7 +845,7 @@
 			<BaseSightRange>3</BaseSightRange>
 			<Combat>170</Combat>
 			<Cost>755</Cost>
-			<Moves>7</Moves>
+			<Moves>6</Moves>
 			<HurryCostModifier>75</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -946,7 +946,7 @@
 			<BaseSightRange>3</BaseSightRange>
 			<Combat>190</Combat>
 			<Cost>1100</Cost>
-			<Moves>5</Moves>
+			<Moves>6</Moves>
 			<HurryCostModifier>75</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1214,7 +1214,7 @@
 			<Combat>25</Combat>
 			<RangedCombat>15</RangedCombat>
 			<Cost>150</Cost>
-			<Moves>6</Moves>
+			<Moves>4</Moves>
 			<Range>1</Range>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
@@ -1248,7 +1248,7 @@
 			<Combat>25</Combat>
 			<RangedCombat>20</RangedCombat>
 			<Cost>140</Cost>
-			<Moves>8</Moves>
+			<Moves>6</Moves>
 			<Range>1</Range>
 			<HurryCostModifier>33</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
@@ -1349,7 +1349,7 @@
 			<Combat>35</Combat>
 			<RangedCombat>20</RangedCombat>
 			<Cost>240</Cost>
-			<Moves>7</Moves>
+			<Moves>4</Moves>
 			<Range>1</Range>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
@@ -1417,7 +1417,7 @@
 			<RangedCombat>40</RangedCombat>
 			<Cost>320</Cost>
 			<Range>1</Range>
-			<Moves>8</Moves>
+			<Moves>4</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1452,7 +1452,7 @@
 			<RangedCombat>50</RangedCombat>
 			<Cost>300</Cost>
 			<Range>1</Range>
-			<Moves>8</Moves>
+			<Moves>5</Moves>
 			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1487,7 +1487,7 @@
 			<RangedCombat>45</RangedCombat>
 			<Cost>320</Cost>
 			<Range>1</Range>
-			<Moves>8</Moves>
+			<Moves>5</Moves>
 			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1522,7 +1522,7 @@
 			<RangedCombat>50</RangedCombat>
 			<Cost>200</Cost>
 			<Range>1</Range>
-			<Moves>8</Moves>
+			<Moves>5</Moves>
 			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1559,7 +1559,7 @@
 			<RangedCombat>100</RangedCombat>
 			<Cost>450</Cost>
 			<Range>1</Range>
-			<Moves>9</Moves>
+			<Moves>5</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1594,7 +1594,7 @@
 			<RangedCombat>100</RangedCombat>
 			<Cost>450</Cost>
 			<Range>1</Range>
-			<Moves>9</Moves>
+			<Moves>6</Moves>
 			<HurryCostModifier>75</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1632,7 +1632,7 @@
 			<RangedCombat>150</RangedCombat>
 			<Range>1</Range>
 			<Cost>1300</Cost>
-			<Moves>10</Moves>
+			<Moves>6</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1667,7 +1667,7 @@
 			<RangedCombat>160</RangedCombat>
 			<Range>1</Range>
 			<Cost>1200</Cost>
-			<Moves>10</Moves>
+			<Moves>7</Moves>
 			<HurryCostModifier>100</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1703,7 +1703,7 @@
 			<Combat>130</Combat>
 			<RangedCombat>200</RangedCombat>
 			<Cost>1800</Cost>
-			<Moves>11</Moves>
+			<Moves>7</Moves>
 			<Range>1</Range>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
@@ -1735,7 +1735,7 @@
 			<Combat>140</Combat>
 			<RangedCombat>250</RangedCombat>
 			<Cost>2000</Cost>
-			<Moves>11</Moves>
+			<Moves>8</Moves>
 			<Range>2</Range>
 			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
@@ -1768,9 +1768,9 @@
 			<Combat>140</Combat>
 			<RangedCombat>250</RangedCombat>
 			<Cost>1900</Cost>
-			<Moves>11</Moves>
+			<Moves>8</Moves>
 			<Range>1</Range>
-			<AirInterceptRange>4</AirInterceptRange>
+			<AirInterceptRange>1</AirInterceptRange>
 			<HurryCostModifier>50</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1801,7 +1801,7 @@
 			<PrereqTech>TECH_GRID_COMPUTING</PrereqTech>
 			<Combat>170</Combat>
 			<Cost>1600</Cost>
-			<Moves>6</Moves>
+			<Moves>8</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>

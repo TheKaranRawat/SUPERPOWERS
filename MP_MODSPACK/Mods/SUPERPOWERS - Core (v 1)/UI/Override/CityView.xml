@@ -236,7 +236,7 @@
 			<Grid ID="ResourceDemandedBox" ConsumeMouse="1" Anchor="C,T" Offset="0,50" Style="WindowGrid" Size="300,26" ToolTip="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT" Hidden="1">
 				<Label ID="ResourceDemandedString" Anchor="C,C" Offset="0,-1" Font="TwCenMT16"/>
 			</Grid>
-			<Stack ID="IconsStack" Anchor="C,T" StackGrowth="Right" >
+			<Stack ID="IconsStack" Anchor="C,T" Offset = "0,57" StackGrowth="Right" >
 				<Label ID="CityIsRazing" Anchor="C,C" String="[ICON_RAZING]" Hidden="1"/>
 				<Label ID="CityIsResistance" Anchor="C,C" String="[ICON_RESISTANCE]" Hidden="1"/>
 				<Label ID="CityIsConnected" Anchor="C,C" String="[ICON_CONNECTED]" ToolTip="TXT_KEY_CITY_CONNECTED" Hidden="1"/>

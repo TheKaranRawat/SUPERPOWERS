@@ -5,8 +5,8 @@
 
   <!-- One chip per war group -->
   <Instance Name="WarChip">
-    <Container ID="ChipRoot" Size="224,96">
-      <AlphaAnim ID="ChipAlpha" Size="224,96" Start="0" End="1" Speed="3" Cycle="Once" Function="Root">
+    <Container ID="ChipRoot" Size="224,74">
+      <AlphaAnim ID="ChipAlpha" Anchor="L,T" Offset="0,-16" Size="224,96" Start="0" End="1" Speed="3" Cycle="Once" Function="Root">
         <Button ID="ChipButton" Size="224,96" ConsumeMouse="1">
 
           <!-- rounded glow behind each icon, only visible on hover -->
@@ -19,19 +19,10 @@
           </ShowOnMouseOver>
 
           <!-- icons overlap by half (32px step on 64px icons); later icons draw on top -->
-          <Image ID="S1" Anchor="L,T" Offset="19,19"  Size="64,64" Color="0,0,0,90" />
           <Image ID="E1" Anchor="L,T" Offset="16,16"  Size="64,64"/>
-
-          <Image ID="S2" Anchor="L,T" Offset="51,19"   Size="64,64" Color="0,0,0,90" />
           <Image ID="E2" Anchor="L,T" Offset="48,16"  Size="64,64"/>
-
-          <Image ID="S3" Anchor="L,T" Offset="83,19"  Size="64,64" Color="0,0,0,90" />
           <Image ID="E3" Anchor="L,T" Offset="80,16"  Size="64,64"/>
-
-          <Image ID="S4" Anchor="L,T" Offset="115,19"  Size="64,64" Color="0,0,0,90" />
           <Image ID="E4" Anchor="L,T" Offset="112,16" Size="64,64"/>
-
-          <Image ID="S5" Anchor="L,T" Offset="147,19"  Size="64,64" Color="0,0,0,90" />
           <Image ID="E5" Anchor="L,T" Offset="144,16" Size="64,64"/>
 
           <!-- one shared crossed-swords text icon, placed by Lua on the last icon's lower-right corner -->
@@ -182,6 +173,6 @@
   </Container>
 
   <!-- ============ CHIP BAR ============ -->
-  <Stack ID="ChipStack" Anchor="C,B" Offset="0,-8" StackGrowth="Right" Padding="-30"/>
+  <Stack ID="ChipStack" Anchor="C,B" Offset="0,6" StackGrowth="Bottom" Padding="0"/>
 
 </Context>

@@ -38,11 +38,11 @@
 				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
 				<AIDeclareWarProb>33</AIDeclareWarProb>
 				<AIUnhappinessPercent>70</AIUnhappinessPercent>
-				<AIGrowthPercent>70</AIGrowthPercent>
+				<AIGrowthPercent>80</AIGrowthPercent>
 				<AITrainPercent>100</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
 				<AIConstructPercent>100</AIConstructPercent>
-				<AIWorldConstructPercent>100</AIWorldConstructPercent>
+				<AIWorldConstructPercent>70</AIWorldConstructPercent>
 				<AICreatePercent>100</AICreatePercent>
 				<AIWorldCreatePercent>100</AIWorldCreatePercent>
 				<AIBuildingCostPercent>100</AIBuildingCostPercent>
@@ -93,7 +93,7 @@
 				<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
 				<AIDeclareWarProb>66</AIDeclareWarProb>
 				<AIUnhappinessPercent>70</AIUnhappinessPercent>
-				<AIGrowthPercent>100</AIGrowthPercent>
+				<AIGrowthPercent>80</AIGrowthPercent>
 				<AITrainPercent>100</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
 				<AIConstructPercent>100</AIConstructPercent>
@@ -150,7 +150,7 @@
 				<AIDeclareWarProb>100</AIDeclareWarProb>
 				<AIWorkRateModifier>150</AIWorkRateModifier>
 				<AIUnhappinessPercent>70</AIUnhappinessPercent>
-				<AIGrowthPercent>90</AIGrowthPercent>
+				<AIGrowthPercent>70</AIGrowthPercent>
 				<AITrainPercent>100</AITrainPercent>
 				<AIWorldTrainPercent>100</AIWorldTrainPercent>
 				<AIConstructPercent>90</AIConstructPercent>
@@ -209,17 +209,17 @@
 				<AIDeclareWarProb>100</AIDeclareWarProb>
 				<AIWorkRateModifier>200</AIWorkRateModifier>
 				<AIUnhappinessPercent>70</AIUnhappinessPercent>
-				<AIGrowthPercent>80</AIGrowthPercent>
-				<AITrainPercent>100</AITrainPercent>
-				<AIWorldTrainPercent>100</AIWorldTrainPercent>
-				<AIConstructPercent>80</AIConstructPercent>
-				<AIWorldConstructPercent>100</AIWorldConstructPercent>
-				<AICreatePercent>100</AICreatePercent>
-				<AIWorldCreatePercent>100</AIWorldCreatePercent>
-				<AIBuildingCostPercent>50</AIBuildingCostPercent>
-				<AIUnitCostPercent>100</AIUnitCostPercent>
-				<AIUnitSupplyPercent>10</AIUnitSupplyPercent>
-				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
+				<AIGrowthPercent>70</AIGrowthPercent>
+				<AITrainPercent>90</AITrainPercent>						<!-- unit training -->
+				<AIWorldTrainPercent>90</AIWorldTrainPercent>			<!-- unused -->
+				<AIConstructPercent>80</AIConstructPercent>				<!-- construct buildings -->
+				<AIWorldConstructPercent>90</AIWorldConstructPercent>	<!-- world wonders-->
+				<AICreatePercent>100</AICreatePercent>					<!-- national  projects-->
+				<AIWorldCreatePercent>100</AIWorldCreatePercent>		<!-- global projects-->
+				<AIBuildingCostPercent>50</AIBuildingCostPercent>		<!-- building maintennace -->
+				<AIUnitCostPercent>100</AIUnitCostPercent>				<!-- unit maintennace -->
+				<AIUnitSupplyPercent>5</AIUnitSupplyPercent>			<!-- extra supply modifier -->
+				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>			
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-2</AIPerEraModifier>
 				<AIAdvancedStartPercent>150</AIAdvancedStartPercent>
@@ -266,19 +266,19 @@
 				<AIStartingExploreUnits>2</AIStartingExploreUnits>
 				<AIStartingWorkerUnits>2</AIStartingWorkerUnits>
 				<!--<AIStartingUnitMultiplier>1</AIStartingUnitMultiplier> -->
-				<AIDeclareWarProb>100</AIDeclareWarProb>
+				<AIDeclareWarProb>130</AIDeclareWarProb>
 				<AIWorkRateModifier>250</AIWorkRateModifier>
 				<AIUnhappinessPercent>70</AIUnhappinessPercent>
-				<AIGrowthPercent>80</AIGrowthPercent>
-				<AITrainPercent>65</AITrainPercent>
-				<AIWorldTrainPercent>100</AIWorldTrainPercent>
-				<AIConstructPercent>70</AIConstructPercent>
-				<AIWorldConstructPercent>100</AIWorldConstructPercent>
-				<AICreatePercent>100</AICreatePercent>
-				<AIWorldCreatePercent>100</AIWorldCreatePercent>
-				<AIBuildingCostPercent>40</AIBuildingCostPercent>
-				<AIUnitCostPercent>100</AIUnitCostPercent>
-				<AIUnitSupplyPercent>10</AIUnitSupplyPercent>
+				<AIGrowthPercent>60</AIGrowthPercent>
+				<AITrainPercent>80</AITrainPercent>						<!-- unit training -->
+				<AIWorldTrainPercent>80</AIWorldTrainPercent>			<!-- unused -->
+				<AIConstructPercent>80</AIConstructPercent>				<!-- construct buildings -->
+				<AIWorldConstructPercent>80</AIWorldConstructPercent>	<!-- world wonders-->
+				<AICreatePercent>80</AICreatePercent>					<!-- national  projects-->
+				<AIWorldCreatePercent>80</AIWorldCreatePercent>		<!-- global projects-->
+				<AIBuildingCostPercent>50</AIBuildingCostPercent>		<!-- building maintennace -->
+				<AIUnitCostPercent>80</AIUnitCostPercent>				<!-- unit maintennace -->
+				<AIUnitSupplyPercent>5</AIUnitSupplyPercent>			<!-- extra supply modifier -->
 				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-5</AIPerEraModifier>
@@ -329,16 +329,16 @@
 				<AIDeclareWarProb>250</AIDeclareWarProb>
 				<AIWorkRateModifier>250</AIWorkRateModifier>
 				<AIUnhappinessPercent>50</AIUnhappinessPercent>
-				<AIGrowthPercent>70</AIGrowthPercent>
-				<AITrainPercent>60</AITrainPercent>
-				<AIWorldTrainPercent>100</AIWorldTrainPercent>
-				<AIConstructPercent>60</AIConstructPercent>
-				<AIWorldConstructPercent>250</AIWorldConstructPercent>
-				<AICreatePercent>140</AICreatePercent>
-				<AIWorldCreatePercent>140</AIWorldCreatePercent>
-				<AIBuildingCostPercent>40</AIBuildingCostPercent>
-				<AIUnitCostPercent>45</AIUnitCostPercent>
-				<AIUnitSupplyPercent>15</AIUnitSupplyPercent>
+				<AIGrowthPercent>60</AIGrowthPercent>
+				<AITrainPercent>70</AITrainPercent>						<!-- unit training -->
+				<AIWorldTrainPercent>70</AIWorldTrainPercent>			<!-- unused -->
+				<AIConstructPercent>70</AIConstructPercent>				<!-- construct buildings -->
+				<AIWorldConstructPercent>70</AIWorldConstructPercent>	<!-- world wonders-->
+				<AICreatePercent>70</AICreatePercent>					<!-- national  projects-->
+				<AIWorldCreatePercent>70</AIWorldCreatePercent>			<!-- global projects-->
+				<AIBuildingCostPercent>50</AIBuildingCostPercent>		<!-- building maintennace -->
+				<AIUnitCostPercent>70</AIUnitCostPercent>				<!-- unit maintennace -->
+				<AIUnitSupplyPercent>10</AIUnitSupplyPercent>			<!-- extra supply modifier -->
 				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-7</AIPerEraModifier>
@@ -389,16 +389,16 @@
 				<AIDeclareWarProb>400</AIDeclareWarProb>
 				<AIWorkRateModifier>350</AIWorkRateModifier>
 				<AIUnhappinessPercent>40</AIUnhappinessPercent>
-				<AIGrowthPercent>60</AIGrowthPercent>
-				<AITrainPercent>55</AITrainPercent>
-				<AIWorldTrainPercent>100</AIWorldTrainPercent>
-				<AIConstructPercent>55</AIConstructPercent>
-				<AIWorldConstructPercent>300</AIWorldConstructPercent>
-				<AICreatePercent>100</AICreatePercent>
-				<AIWorldCreatePercent>100</AIWorldCreatePercent>
-				<AIBuildingCostPercent>50</AIBuildingCostPercent>
-				<AIUnitCostPercent>50</AIUnitCostPercent>
-				<AIUnitSupplyPercent>15</AIUnitSupplyPercent>
+				<AIGrowthPercent>50</AIGrowthPercent>
+				<AITrainPercent>60</AITrainPercent>						<!-- unit training -->
+				<AIWorldTrainPercent>60</AIWorldTrainPercent>			<!-- unused -->
+				<AIConstructPercent>60</AIConstructPercent>				<!-- construct buildings -->
+				<AIWorldConstructPercent>60</AIWorldConstructPercent>	<!-- world wonders-->
+				<AICreatePercent>60</AICreatePercent>					<!-- national  projects-->
+				<AIWorldCreatePercent>60</AIWorldCreatePercent>			<!-- global projects-->
+				<AIBuildingCostPercent>50</AIBuildingCostPercent>		<!-- building maintennace -->
+				<AIUnitCostPercent>60</AIUnitCostPercent>				<!-- unit maintennace -->
+				<AIUnitSupplyPercent>10</AIUnitSupplyPercent>			<!-- extra supply modifier -->
 				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-9</AIPerEraModifier>
@@ -450,15 +450,15 @@
 				<AIWorkRateModifier>400</AIWorkRateModifier>
 				<AIUnhappinessPercent>33</AIUnhappinessPercent>
 				<AIGrowthPercent>50</AIGrowthPercent>
-				<AITrainPercent>50</AITrainPercent>
-				<AIWorldTrainPercent>100</AIWorldTrainPercent>
-				<AIConstructPercent>50</AIConstructPercent>
-				<AIWorldConstructPercent>400</AIWorldConstructPercent>
-				<AICreatePercent>100</AICreatePercent>
-				<AIWorldCreatePercent>100</AIWorldCreatePercent>
-				<AIBuildingCostPercent>50</AIBuildingCostPercent>
-				<AIUnitCostPercent>50</AIUnitCostPercent>
-				<AIUnitSupplyPercent>20</AIUnitSupplyPercent>
+				<AITrainPercent>50</AITrainPercent>						<!-- unit training -->
+				<AIWorldTrainPercent>50</AIWorldTrainPercent>			<!-- unused -->
+				<AIConstructPercent>50</AIConstructPercent>				<!-- construct buildings -->
+				<AIWorldConstructPercent>50</AIWorldConstructPercent>	<!-- world wonders-->
+				<AICreatePercent>50</AICreatePercent>					<!-- national  projects-->
+				<AIWorldCreatePercent>50</AIWorldCreatePercent>			<!-- global projects-->
+				<AIBuildingCostPercent>50</AIBuildingCostPercent>		<!-- building maintennace -->
+				<AIUnitCostPercent>50</AIUnitCostPercent>				<!-- unit maintennace -->
+				<AIUnitSupplyPercent>10</AIUnitSupplyPercent>			<!-- extra supply modifier -->
 				<AIUnitUpgradePercent>5</AIUnitUpgradePercent>
 				<!--<AIInflationPercent>80</AIInflationPercent>-->
 				<AIPerEraModifier>-10</AIPerEraModifier>

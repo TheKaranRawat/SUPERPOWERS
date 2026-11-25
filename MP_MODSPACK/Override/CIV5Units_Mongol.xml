@@ -107976,7 +107976,7 @@ The ship has weather'd every rack; the prize we sought is won."
 			<Text>
 				[COLOR_POSITIVE_TEXT]Decentralisation[ENDCOLOR]
 				[NEWLINE][ICON_BULLET]New Units receive +30 XP
-				[NEWLINE][ICON_BULLET]The [ICON_CITIZEN] Population Loss caused by Unit Casualties reduced by 50%
+				[NEWLINE][ICON_BULLET]+5% [ICON_PRODUCTION] Production for [ICON_WAR] Military Units
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_CENTRALISATION_TEXT"> 
@@ -112847,7 +112847,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_PROJECT_BAZOOKA_TRAINING"> 
 			<Text>
-				Tactical Nuclear Recoilless Gun Project
+				Tactical Nuclear Shell Project
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_PROJECT_BAZOOKA_TRAINING_HELP"> 
@@ -129827,7 +129827,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_SP_VERSION"> 
 			<Text>
-				nil
+				2.1.6
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_SS_BOOSTER"> 
@@ -132091,7 +132091,7 @@ The ship has weather'd every rack; the prize we sought is won."
 		</Replace>
 		<Replace Tag="TXT_KEY_TC_WORLD_CURRENT_TOPCITY"> 
 			<Text>
-				{1_CityName} ([ICON_TOPCITY])
+				{1_CityName} [ICON_TOPCITY]
 			</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_TC_WORLD_QUESTION"> 

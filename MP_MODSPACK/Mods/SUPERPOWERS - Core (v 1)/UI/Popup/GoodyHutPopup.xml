@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Font="TwCenMT14" FontStyle="Base" Color="Beige" Color1="Black" >
+  <Box Style="BGBlock_ClearTopBar" />
+  <Grid Size="400,270" Anchor="C,C" Offset="0,0"  Style="Grid9DetailFive140" >
+    <Image Anchor="C,T" AnchorSide="I.O"  Offset="0,-20" Texture="Assets/UI/Art/Controls/AncientRuinsPopupTop300.dds" Size="300.150" >
+      <Image Anchor="C,C" Offset="0,20" TextureOffset="0.0" Texture="NaturalWonders512.dds" Size="128.128" />
+    </Image>
+
+    <!-- Side treatments -->
+    <Box Style="MenuLeftSideTreatment"/>
+    <Box Style="MenuRightSideTreatment"/>
+
+    <Label Anchor="C,T" Offset="0,60" Font="TwCenMT24" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_POP_RUINS_EXPLORED" ID="TitleLabel"/>
+
+    <Box Size="350,190" Anchor="C,T" Offset="0,90"  Color="255,255,255,0" >
+      <Label Anchor="L,T" Offset="10,10" WrapWidth="330" LeadingOffset="-4"  Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="You have found cultural artifacts which awe your citizens! You have received 30 Culture!" ID="DescriptionLabel" />
+    </Box>
+
+    <GridButton Size="200,36" Anchor="C,B" Style="BaseButton" AnchorSide="I.O" Offset="0,0" ID="CloseButton" Hidden="0">
+      <Label Anchor="C,C" Offset="0,-2" String="TXT_KEY_CLOSE"  Color0="255.255.200.255" Color1="0.0.0.128" Color2="255.255.200.255" Font="TwCenMT22" FontStyle="Shadow" />
+    </GridButton>
+  </Grid>
+</Context>

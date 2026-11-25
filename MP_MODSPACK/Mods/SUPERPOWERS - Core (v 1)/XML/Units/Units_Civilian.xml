@@ -466,7 +466,7 @@
 			<Class>UNITCLASS_GREAT_GENERAL</Class>
 			<Type>UNIT_GREAT_GENERAL</Type>
 			<Cost>-1</Cost>
-			<Moves>5</Moves>
+			<Moves>3</Moves>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Domain>DOMAIN_LAND</Domain>
@@ -489,7 +489,7 @@
 			<Class>UNITCLASS_GREAT_GENERAL</Class>
 			<Type>UNIT_MONGOLIAN_KHAN</Type>
 			<Cost>-1</Cost>
-			<Moves>6</Moves>
+			<Moves>4</Moves>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_GENERAL</DefaultUnitAI>

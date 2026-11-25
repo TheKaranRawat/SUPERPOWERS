@@ -14,7 +14,7 @@ local g_DiploUIState = -1;
 -- CONFIGURATION (seconds; set to 0 to disable a fade)
 ----------------------------------------------------------------
 local FADE_IN_SECONDS  = 0.6;
-local FADE_OUT_SECONDS = 0.4;
+local FADE_OUT_SECONDS = 0.5;
 
 -- Fade the 3D leader/background scene too (via a black layer behind the UI)
 local FADE_BACKGROUND = true;
@@ -212,6 +212,10 @@ function OnReturn()
 	
 	g_bClosing = true;
 	g_fFadeOutElapsed = 0;
+	-- Tell the stats panel to slide/fade out now, while this screen is still visible.
+	-- (LeaderStatsHide only fires after the screen is hidden, which is too late to animate.)
+	-- UI-only event; passes the fade-out length so the panel can finish in time.
+	LuaEvents.LeaderStatsClose( FADE_OUT_SECONDS );
 	SetAnimSpeed( Controls.FadeOutAnim, FADE_OUT_SECONDS );
 	Controls.FadeOutAnim:SetToBeginning();
 	Controls.FadeOutAnim:Play();

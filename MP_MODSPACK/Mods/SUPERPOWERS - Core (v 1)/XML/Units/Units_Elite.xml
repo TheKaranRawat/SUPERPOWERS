@@ -68,7 +68,7 @@
 			<RangedCombat>24</RangedCombat>
 			<Range>1</Range>
 			<Cost>160</Cost>
-			<Moves>6</Moves>
+			<Moves>4</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -241,7 +241,7 @@
 			<Combat>170</Combat>
 			<RangedCombat>150</RangedCombat>
 			<Cost>700</Cost>
-			<Moves>7</Moves>
+			<Moves>6</Moves>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<Range>3</Range>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
@@ -315,7 +315,7 @@
 			<Combat>60</Combat>
 			<RangedCombat>120</RangedCombat>
 			<Cost>500</Cost>
-			<Moves>10</Moves>
+			<Moves>6</Moves>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -353,7 +353,7 @@
 			<BaseSightRange>2</BaseSightRange>
 			<Combat>70</Combat>
 			<Cost>400</Cost>
-			<Moves>5</Moves>
+			<Moves>4</Moves>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
@@ -425,7 +425,7 @@
 			<RangedCombat>80</RangedCombat>
 			<Range>1</Range>
 			<Cost>725</Cost>
-			<Moves>7</Moves>
+			<Moves>6</Moves>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_CARRIER_AIR</DefaultUnitAI>
@@ -463,7 +463,7 @@
 			<Combat>35</Combat>
 			<RangedCombat>75</RangedCombat>
 			<Cost>300</Cost>
-			<Moves>5</Moves>
+			<Moves>3</Moves>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -501,7 +501,7 @@
 			<PurchaseOnly>true</PurchaseOnly>
 			<MoveAfterPurchase>true</MoveAfterPurchase>
 			<Range>1</Range>
-			<Moves>5</Moves>
+			<Moves>4</Moves>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
@@ -577,9 +577,9 @@
 			<Combat>380</Combat>
 			<RangedCombat>280</RangedCombat>
 			<Cost>2000</Cost>
-			<Moves>9</Moves>
+			<Moves>8</Moves>
 			<Range>4</Range>
-			<AirInterceptRange>3</AirInterceptRange>
+			<AirInterceptRange>4</AirInterceptRange>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
@@ -615,7 +615,7 @@
 			<Combat>460</Combat>
 			<RangedCombat>460</RangedCombat>
 			<Cost>2800</Cost>
-			<Moves>8</Moves>
+			<Moves>6</Moves>
 			<Range>5</Range>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
@@ -687,7 +687,7 @@
 			<Class>UNITCLASS_TSAR_BOMBA</Class>
 			<Type>UNIT_TSAR_BOMBA</Type>
 			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
-			<Cost>3000</Cost>
+			<Cost>8000</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
 			<Range>18</Range>
@@ -730,7 +730,7 @@
 			<RangedCombat>500</RangedCombat>
 			<Cost>1600</Cost>
 			<Moves>1</Moves>
-			<Range>6</Range>
+			<Range>4</Range>
 			<Special>SPECIALUNIT_NUKE</Special>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
@@ -802,7 +802,7 @@
 			<Cost>1200</Cost>
 			<Moves>3</Moves>
 			<Immobile>true</Immobile>
-			<Range>24</Range>
+			<Range>12</Range>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
@@ -839,7 +839,7 @@
 			<Combat>180</Combat>
 			<RangedCombat>200</RangedCombat>
 			<Cost>1200</Cost>
-			<Moves>6</Moves>
+			<Moves>4</Moves>
 			<Range>3</Range>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -874,7 +874,7 @@
 			<Combat>320</Combat>
 			<RangedCombat>300</RangedCombat>
 			<Cost>3800</Cost>
-			<Moves>12</Moves>
+			<Moves>8</Moves>
 			<Range>2</Range>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
@@ -975,8 +975,8 @@
 			<Combat>40</Combat>
 			<RangedCombat>400</RangedCombat>
 			<Cost>1800</Cost>
-			<Moves>4</Moves>
-			<Range>8</Range>
+			<Moves>3</Moves>
+			<Range>4</Range>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
@@ -1014,8 +1014,8 @@
 			<Cost>2000</Cost>
 			<Moves>3</Moves>
 			<Immobile>true</Immobile>
-			<Range>20</Range>
-			<AirInterceptRange>20</AirInterceptRange>
+			<Range>16</Range>
+			<AirInterceptRange>16</AirInterceptRange>
 			<Special>SPECIALUNIT_STEALTH</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
@@ -1092,7 +1092,7 @@
 			<RangedCombat>500</RangedCombat>
 			<Range>3</Range>
 			<Cost>5000</Cost>
-			<Moves>5</Moves>
+			<Moves>4</Moves>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -1162,7 +1162,7 @@
 			<Combat>130</Combat>
 			<RangedCombat>110</RangedCombat>
 			<Cost>1200</Cost>
-			<Moves>12</Moves>
+			<Moves>6</Moves>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1200,7 +1200,7 @@
 			<RangedCombat>600</RangedCombat>
 			<Cost>10000</Cost>
 			<Moves>6</Moves>
-			<Range>5</Range>
+			<Range>4</Range>
 			<Special>SPECIALUNIT_NUKE</Special>
 			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>

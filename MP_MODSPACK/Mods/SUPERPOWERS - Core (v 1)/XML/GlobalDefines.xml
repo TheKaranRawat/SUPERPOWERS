@@ -653,7 +653,7 @@
 			<Where Name="INSTA_HEAL_RATE" />
 		</Update>
 		<Update>
-			<Set Value="30"/>
+			<Set Value="15"/>
 			<Where Name="CITY_HEAL_RATE" />
 		</Update>
 		<Update>
@@ -684,7 +684,7 @@
 			<Where Name="CITY_STRENGTH_TECH_EXPONENT" />
 		</Update>
 		<Update>
-			<Set Value="2500"/>
+			<Set Value="500"/>
 			<Where Name="CITY_STRENGTH_HILL_CHANGE" />
 		</Update>
 		<Update>

@@ -64,7 +64,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_TC_WORLD_CURRENT_TOPCITY">
-			<Text>{1_CityName} ([ICON_TOPCITY])</Text>
+			<Text>{1_CityName} [ICON_TOPCITY]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TC_WORLD_QUESTION">
 			<Text>???</Text>

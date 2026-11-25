@@ -11,8 +11,8 @@
 			<Cost>400</Cost>
 			<Moves>3</Moves>
 			<Immobile>true</Immobile>
-			<Range>15</Range>
-			<AirInterceptRange>15</AirInterceptRange>
+			<Range>10</Range>
+			<AirInterceptRange>10</AirInterceptRange>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
 			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>

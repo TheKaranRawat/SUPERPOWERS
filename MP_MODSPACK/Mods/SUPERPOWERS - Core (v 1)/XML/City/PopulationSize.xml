@@ -76,10 +76,12 @@
 			<Defense>1000</Defense>
 			<ExtraCityHitPoints>40</ExtraCityHitPoints>
 			<Happiness>-1</Happiness>
+			<!-- 
 			<TradeRouteSeaGoldBonus>500</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>500</TradeRouteLandGoldBonus>
 			<TradeRouteRecipientBonus>10</TradeRouteRecipientBonus>
 			<TradeRouteTargetBonus>10</TradeRouteTargetBonus>
+			-->
 			<GreatWorkCount>-4</GreatWorkCount>
 		</Row>
 		<Row>
@@ -97,10 +99,12 @@
 			<Defense>1500</Defense>
 			<ExtraCityHitPoints>50</ExtraCityHitPoints>
 			<Happiness>-2</Happiness>
+			<!--
 			<TradeRouteSeaGoldBonus>800</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>800</TradeRouteLandGoldBonus>
 			<TradeRouteRecipientBonus>20</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>20</TradeRouteTargetBonus>			
+			<TradeRouteTargetBonus>20</TradeRouteTargetBonus>	
+			 -->		
 			<GreatWorkCount>-5</GreatWorkCount>
 		</Row>
 		<Row>
@@ -120,11 +124,13 @@
 			<FoodKept>-5</FoodKept>
 			<Happiness>-4</Happiness>			
 			<GlobalCityWorkingChange>1</GlobalCityWorkingChange>
+			<!-- 
 			<TradeRouteSeaGoldBonus>1500</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>1500</TradeRouteLandGoldBonus>
 			<TradeRouteRecipientBonus>20</TradeRouteRecipientBonus>
 			<TradeRouteTargetBonus>20</TradeRouteTargetBonus>
-			<PolicyCostModifier>5</PolicyCostModifier>			
+			-->	
+			<PolicyCostModifier>5</PolicyCostModifier>					
 			<GreatWorkCount>-6</GreatWorkCount>
 		</Row>
 		<Row>
@@ -143,10 +149,12 @@
 			<ExtraCityHitPoints>120</ExtraCityHitPoints>
 			<FoodKept>-5</FoodKept>
 			<Happiness>-6</Happiness>
+			<!-- 
 			<TradeRouteSeaGoldBonus>2000</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>2000</TradeRouteLandGoldBonus>
 			<TradeRouteRecipientBonus>30</TradeRouteRecipientBonus>
 			<TradeRouteTargetBonus>30</TradeRouteTargetBonus>
+			-->
 			<PolicyCostModifier>10</PolicyCostModifier>			
 			<GreatWorkCount>-7</GreatWorkCount>
 		</Row>
@@ -167,10 +175,12 @@
 			<FoodKept>-10</FoodKept>
 			<Happiness>-8</Happiness>
 			<GlobalCityWorkingChange>1</GlobalCityWorkingChange>
+			<!-- 
 			<TradeRouteSeaGoldBonus>3000</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>3000</TradeRouteLandGoldBonus>
 			<TradeRouteRecipientBonus>40</TradeRouteRecipientBonus>
 			<TradeRouteTargetBonus>40</TradeRouteTargetBonus>
+			-->
 			<PolicyCostModifier>20</PolicyCostModifier>
 			<GreatWorkCount>-8</GreatWorkCount>
 		</Row>
@@ -190,10 +200,12 @@
 			<ExtraCityHitPoints>200</ExtraCityHitPoints>
 			<FoodKept>-13</FoodKept>
 			<Happiness>-12</Happiness>
+			<!-- 
 			<TradeRouteSeaGoldBonus>4000</TradeRouteSeaGoldBonus>
 			<TradeRouteLandGoldBonus>4000</TradeRouteLandGoldBonus>
 			<TradeRouteRecipientBonus>50</TradeRouteRecipientBonus>
 			<TradeRouteTargetBonus>50</TradeRouteTargetBonus>
+			-->
 			<PolicyCostModifier>25</PolicyCostModifier>
 			<GreatWorkCount>-9</GreatWorkCount>
 		</Row>

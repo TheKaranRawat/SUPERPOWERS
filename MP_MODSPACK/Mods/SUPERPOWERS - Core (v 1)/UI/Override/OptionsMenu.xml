@@ -18,6 +18,8 @@
 
 		<!-- Panel Header Text -->
 		<Label ID="TitleLabel" Style="MenuTitleCaption" />
+		<!-- version -->
+		<Label Anchor="R,T" Offset="25,19" String="TXT_KEY_SP_VERSION" Font="TwCenMT16" ID="SPVersion"/>
 
 		<Label Anchor="C,T" Offset="0,18" Font="TwCenMT22" FontStyle="SoftShadow" ColorSet="Beige_Black_Alpha" />
 
@@ -94,7 +96,7 @@
 				<CheckBox ID="MPQuickCombatCheckbox" Anchor="R,C" String="TXT_KEY_OPSCREEN_MULTIPLAYER_QUICK_COMBAT" LeadingOffset="-10" WrapWidth="350" ToolTip="TXT_KEY_OPSCREEN_MULTIPLAYER_QUICK_COMBAT_TT" />
 				<CheckBox ID="MPQuickMovementCheckbox" Anchor="R,C" String="TXT_KEY_OPSCREEN_MULTIPLAYER_QUICK_MOVEMENT" LeadingOffset="-10" WrapWidth="350" ToolTip="TXT_KEY_OPSCREEN_MULTIPLAYER_QUICK_MOVEMENT_TT" />
 				<CheckBox ID="QuickSelectionAdvCheckbox" Anchor="R,C" String="TXT_KEY_OPSCREEN_QUICK_SELECTION_ADVANCE" LeadingOffset="-10" WrapWidth="450" ToolTip="TXT_KEY_OPSCREEN_QUICK_SELECTION_ADVANCE_TT" />
-				<CheckBox ID="PredictiveRangeCheckbox" Anchor="R,C" String="TXT_KEY_EUI_PREDICTIVE_RANGE" LeadingOffset="-10" WrapWidth="450" ToolTip="TXT_KEY_EUI_PREDICTIVE_RANGE_TT" />
+				<CheckBox ID="PredictiveRangeCheckbox" Anchor="R,C" String="TXT_KEY_EUI_PREDICTIVE_RANGE" LeadingOffset="-10" WrapWidth="450" ToolTip="TXT_KEY_EUI_PREDICTIVE_RANGE_TT" Hidden="1" />
 				<CheckBox ID="AutoUnitCycleCheck" Anchor="R,C" String="TXT_KEY_AUTO_UNIT_CYCLE" LeadingOffset="-10" WrapWidth="450" ToolTip="TXT_KEY_AUTO_UNIT_CYCLE_TT" />
 			</Stack>
 
@@ -141,7 +143,7 @@
 				<CheckBox ID="CivRibbonCheckbox" Anchor="R,C" String="TXT_KEY_ADVISOR_SCREEN_DIPLOMACY_LIST_DISPLAY" LeadingOffset="-10" WrapWidth="450" ToolTip="TXT_KEY_ADVISOR_SCREEN_DIPLOMACY_OVERVIEW_BODY"/>
 				<CheckBox ID="CityRibbonCheckbox" Anchor="R,C" String="TXT_KEY_ADVISOR_SCREEN_CITY_LIST_DISPLAY" LeadingOffset="-10" WrapWidth="450" ToolTip="TXT_KEY_ADVISOR_SCREEN_CITY_LIST_BODY"/>
 				<CheckBox ID="UnitRibbonCheckbox" Anchor="R,C" String="TXT_KEY_ADVISOR_SCREEN_UNIT_LIST_DISPLAY" LeadingOffset="-10" WrapWidth="450" ToolTip="TXT_KEY_ADVISOR_SCREEN_UNIT_LIST_BODY"/>
-				<CheckBox ID="FlagPromotionsCheckbox" Anchor="R,C" String="TXT_KEY_EUI_FLAG_PROMO_ENABLE" LeadingOffset="-10" WrapWidth="450" ToolTip="TXT_KEY_EUI_FLAG_PROMO_ENABLE_TT"/>
+				<CheckBox ID="FlagPromotionsCheckbox" Anchor="R,C" String="TXT_KEY_EUI_FLAG_PROMO_ENABLE" LeadingOffset="-10" WrapWidth="450" ToolTip="TXT_KEY_EUI_FLAG_PROMO_ENABLE_TT" Hidden="1" />
 				<CheckBox ID="NoCitizenWarningCheckbox" Anchor="R,C" String="TXT_KEY_CITYVIEW_CITIZEN_ALLOCATION" LeadingOffset="-10" WrapWidth="450" ToolTip="TXT_KEY_OPSCREEN_NO_CITIZEN_WARNING" />
 				<CheckBox ID="CityAdvisorCheckbox" Anchor="R,C" >
 					<Stack Offset="30.0" Anchor="R,C" StackGrowth="L" >
@@ -175,7 +177,7 @@
 						<Label Anchor="L,C" String="TXT_KEY_CLOSE" />
 					</Stack>
 				</CheckBox>
-				<CheckBox ID="CSLCheckbox" Anchor="R,C" String="TXT_KEY_CSL_ENABLE" LeadingOffset="-10" WrapWidth="450" ToolTip="TXT_KEY_CSL_ENABLE_TT"/>
+				<CheckBox ID="CSLCheckbox" Anchor="R,C" String="TXT_KEY_CSL_ENABLE" LeadingOffset="-10" WrapWidth="450" ToolTip="TXT_KEY_CSL_ENABLE_TT" Hidden="1" />
 			</Stack>
 
 			<Stack Anchor="R,T" Offset="110,50" Padding="12" >
@@ -284,7 +286,7 @@
 		<Container ID="AudioPanel" Size="971,500" Hidden="1" >
 
 			<Stack Anchor="C,T" Padding="12" Offset="0,130" >
-				<GridButton ID="AudioNextSong" Size="260,45" Style="BaseButton" String="TXT_KEY_EUI_PLAY_NEXT_SONG"/>
+				<GridButton ID="AudioNextSong" Size="260,45" Style="BaseButton" String="TXT_KEY_EUI_PLAY_NEXT_SONG" Hidden="1"/>
 
 				<Label ID="MusicVolumeSliderValue" Anchor="L,C" Offset="0,20" />
 				<Slider ID="MusicVolumeSlider" Length="500" Style="Slider" WheelSteps="1" />
